@@ -1,0 +1,169 @@
+{
+  "id": "r2-mock-01",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Requesting approval for staff training",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. Verified all table lookups against the email: Nov 12 Excel full, repeat closes Nov 24, team-lead-only workshop closes Nov 11 (before Nov 19-27 vacation), WHMIS Nov 20 falls in the vacation, Customs '14 (2 left)' is the only option that shows popularity. No changes needed." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Training calendar",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Northgate Distribution (Richmond) — Staff Training Calendar, November–December. All sessions require manager approval.",
+        "headers": ["Workshop", "Date and time", "Room", "Seats", "Registration closes", "Notes"],
+        "rows": [
+          ["Forklift Safety Refresher", "Tue, Nov 10, 7:00–10:00 a.m.", "Dock Training Bay", "12 (3 left)", "Tue, Nov 3", "Required every 3 years for certified operators"],
+          ["Excel for Inventory Reporting", "Thu, Nov 12, 1:00–4:00 p.m.", "Room 2B", "16 (full — waitlist only)", "Thu, Nov 5", "Bring a laptop"],
+          ["Leading Difficult Conversations", "Wed, Nov 18, 9:00 a.m.–12:00 p.m.", "Boardroom", "10 (4 left)", "Wed, Nov 11", "Supervisors and team leads only"],
+          ["WHMIS Annual Update", "Fri, Nov 20, 2:00–3:30 p.m.", "Lunchroom", "30 (18 left)", "Fri, Nov 13", "Mandatory for all warehouse staff"],
+          ["Customs Documentation Basics", "Mon, Nov 23, 9:00 a.m.–3:00 p.m.", "Room 2B", "14 (2 left)", "Mon, Nov 16", "Lunch provided"],
+          ["Excel for Inventory Reporting (repeat)", "Tue, Dec 1, 1:00–4:00 p.m.", "Room 2B", "16 (9 left)", "Tue, Nov 24", "Bring a laptop"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Goran,\n\nI've gone through the training calendar and would like your approval for a couple of sessions.\n\nFirst, the Excel workshop. The November 12 session [[1]], so I'd like to sign up for the December repeat instead. It's a little later than I'd hoped, but registration stays open until [[2]], so there's no rush on that one.\n\nSecond, since I've been running the cycle-count team since September, I believe I now qualify for [[3]]. Seats are limited and registration closes on November 11, so I'd appreciate a quick answer.\n\nThe tricky part is the WHMIS update. It's mandatory, but it falls on [[4]], and I'll be away from November 19 to 27. Could you check with HR whether there's a make-up date?\n\nI'd also have loved to attend Customs Documentation Basics, but that's during my vacation too. Could you put my name forward for the next offering? With [[5]] this time, it's clearly a popular course.\n\nI'll bring my own laptop to the Excel session, so no equipment is needed.\n\nThanks,\nThao",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "is only open to supervisors", "trap": "wrong_detail", "whyVi": "Giới hạn 'supervisors and team leads only' là của Leading Difficult Conversations." },
+        { "text": "requires participants to bring a laptop", "trap": "partially_true", "whyVi": "Đúng là phải mang laptop, nhưng buổi 1/12 cũng vậy, nên đó không phải lý do đổi buổi." },
+        { "text": "takes place in the boardroom", "trap": "wrong_detail", "whyVi": "Lớp Excel ở Room 2B." },
+        { "text": "has no seats remaining", "trap": "none", "whyVi": "Đúng: cột Seats ghi '16 (full — waitlist only)'." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "16 (full — waitlist only)",
+      "explanationVi": "'so I'd like to sign up for the December repeat instead' → buổi 12/11 có vấn đề khiến cô phải chọn buổi khác. Trong bảng, chỉ có cột Seats khác nhau giữa hai buổi Excel: buổi 12/11 đã kín chỗ.",
+      "vocabulary": ["waitlist"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "November 5", "trap": "wrong_detail", "whyVi": "5/11 là hạn đăng ký buổi Excel đầu tiên." },
+        { "text": "November 24", "trap": "none", "whyVi": "Đúng: buổi Excel lặp lại (1/12) đóng đăng ký ngày 24/11." },
+        { "text": "December 1", "trap": "wrong_detail", "whyVi": "1/12 là ngày học, không phải hạn đăng ký." },
+        { "text": "November 12", "trap": "wrong_detail", "whyVi": "12/11 là ngày của buổi Excel đã kín chỗ." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "Tue, Nov 24",
+      "explanationVi": "Phải đọc đúng hàng 'Excel for Inventory Reporting (repeat)' và đúng cột 'Registration closes'. Bẫy: nhầm hàng (5/11) hoặc nhầm cột (1/12).",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "Leading Difficult Conversations", "trap": "none", "whyVi": "Đúng: chỉ dành cho 'Supervisors and team leads', hạn đăng ký 11/11 và còn 4 chỗ." },
+        { "text": "the Forklift Safety Refresher", "trap": "wrong_detail", "whyVi": "Hạn đăng ký là 3/11 và lớp dành cho người lái xe nâng, không liên quan việc làm trưởng nhóm." },
+        { "text": "Customs Documentation Basics", "trap": "wrong_detail", "whyVi": "Hạn đăng ký 16/11, và lớp này không yêu cầu là trưởng nhóm." },
+        { "text": "the WHMIS Annual Update", "trap": "wrong_detail", "whyVi": "WHMIS bắt buộc cho mọi nhân viên kho, không cần 'qualify' và hạn là 13/11." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Supervisors and team leads only",
+      "explanationVi": "Hai manh mối: (1) 'since I've been running the cycle-count team' → cô là trưởng nhóm, nên 'qualify' cho lớp chỉ dành cho team leads; (2) 'registration closes on November 11' khớp đúng hàng Leading Difficult Conversations.",
+      "vocabulary": ["qualify for"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "Wednesday, November 18", "trap": "wrong_detail", "whyVi": "18/11 là ngày lớp Leading Difficult Conversations, và còn trước kỳ nghỉ." },
+        { "text": "Monday, November 23", "trap": "wrong_detail", "whyVi": "23/11 là lớp Customs Documentation Basics." },
+        { "text": "Friday, November 20", "trap": "none", "whyVi": "Đúng: WHMIS vào thứ Sáu 20/11 — nằm trong kỳ nghỉ 19–27/11." },
+        { "text": "Friday, November 13", "trap": "wrong_detail", "whyVi": "13/11 là hạn đăng ký WHMIS, không phải ngày học." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "Fri, Nov 20, 2:00–3:30 p.m.",
+      "explanationVi": "Tìm hàng WHMIS, cột 'Date and time'. Sau đó kiểm tra với kỳ nghỉ 19–27/11 trong email: 20/11 nằm trong khoảng đó, nên cô cần 'a make-up date' (buổi học bù).",
+      "vocabulary": ["make-up date"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "eighteen seats still available", "trap": "wrong_detail", "whyVi": "18 chỗ trống là của WHMIS; nhiều chỗ trống cũng không chứng tỏ lớp 'popular'." },
+        { "text": "only two seats left", "trap": "none", "whyVi": "Đúng: Customs Documentation Basics '14 (2 left)' — gần kín chỗ, chứng tỏ lớp được ưa chuộng." },
+        { "text": "lunch included", "trap": "word_match", "whyVi": "Có ghi 'Lunch provided' nhưng điều đó không chứng minh lớp đông người đăng ký." },
+        { "text": "a six-hour schedule", "trap": "partially_true", "whyVi": "Lớp kéo dài 6 tiếng là đúng, nhưng thời lượng không cho thấy lớp 'popular'." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "14 (2 left)",
+      "explanationVi": "'it's clearly a popular course' → cần bằng chứng về sự đông người. Trong bảng, hàng Customs ghi chỉ còn 2/14 chỗ. Các lựa chọn khác dù đúng thông tin cũng không chứng minh 'popular'.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "Why does Thao believe she is now eligible for a supervisors' workshop?",
+      "options": [
+        { "text": "Her manager suggested that she apply.", "trap": "not_mentioned", "whyVi": "Goran chưa đề xuất gì; Thao mới là người xin phép." },
+        { "text": "She completed the Excel workshop last year.", "trap": "not_mentioned", "whyVi": "Cô chưa học lớp Excel — đang xin đăng ký." },
+        { "text": "Registration for the workshop has been extended.", "trap": "not_mentioned", "whyVi": "Không có thông tin gia hạn." },
+        { "text": "She has recently started leading a team.", "trap": "none", "whyVi": "Đúng: 'I've been running the cycle-count team since September'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "since I've been running the cycle-count team since September",
+      "explanationVi": "'running the ... team' = 'leading a team'; 'since September' = 'recently started'. Ghép với ghi chú 'Supervisors and team leads only' trong bảng.",
+      "vocabulary": ["qualify for"]
+    },
+    {
+      "number": 7,
+      "prompt": "Why does Thao want a quick answer about that workshop?",
+      "options": [
+        { "text": "Places are limited and the sign-up deadline is near.", "trap": "none", "whyVi": "Đúng: 'Seats are limited and registration closes on November 11'." },
+        { "text": "Her vacation starts on November 11.", "trap": "wrong_detail", "whyVi": "Kỳ nghỉ bắt đầu 19/11; 11/11 là hạn đăng ký." },
+        { "text": "The workshop is moving to another room.", "trap": "not_mentioned", "whyVi": "Không nói đổi phòng." },
+        { "text": "She must also sign up for WHMIS by then.", "trap": "wrong_detail", "whyVi": "Hạn WHMIS là 13/11, và cô sẽ không dự buổi WHMIS vì đi nghỉ." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "Seats are limited and registration closes on November 11, so I'd appreciate a quick answer.",
+      "explanationVi": "Câu có 'so I'd appreciate a quick answer' → lý do đứng trước 'so'. 'Seats are limited' = 'Places are limited'; 'registration closes' = 'sign-up deadline'.",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "What does Thao ask Goran to find out from HR?",
+      "options": [
+        { "text": "Whether she can cancel part of her vacation", "trap": "not_mentioned", "whyVi": "Cô không đề nghị hủy kỳ nghỉ." },
+        { "text": "Whether the company can lend her a laptop", "trap": "opposite", "whyVi": "Cô sẽ mang laptop riêng, 'no equipment is needed'." },
+        { "text": "Whether the required safety session is offered on another day", "trap": "none", "whyVi": "Đúng: 'Could you check with HR whether there's a make-up date?' cho buổi WHMIS bắt buộc." },
+        { "text": "Whether the Customs course can be moved to December", "trap": "partially_true", "whyVi": "Cô xin được đưa tên vào đợt sau của lớp Customs, nhưng điều cô nhờ hỏi HR là buổi bù WHMIS." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Could you check with HR whether there's a make-up date?",
+      "explanationVi": "Tìm 'HR' trong email. 'make-up date' (ngày học bù) = 'offered on another day'; 'mandatory' WHMIS = 'required safety session'.",
+      "vocabulary": ["make-up date"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "make-up date", "vi": "ngày học/làm bù", "definition": "another date to do something you missed", "example": "HR offers a make-up date for staff who miss the session." },
+    { "term": "qualify for", "vi": "đủ điều kiện để", "definition": "to have the right qualities or position to be allowed something", "example": "Team leads qualify for the leadership workshop." },
+    { "term": "waitlist", "vi": "danh sách chờ", "definition": "a list of people waiting for a place", "example": "The November session is full, waitlist only." },
+    { "term": "mandatory", "vi": "bắt buộc", "definition": "required by a rule", "example": "WHMIS training is mandatory for warehouse staff." },
+    { "term": "put someone's name forward", "vi": "đề cử/ghi tên ai đó", "definition": "to suggest someone for a position, course or opportunity", "example": "Could you put my name forward for the next course?" },
+    { "term": "cycle count", "vi": "kiểm kê định kỳ (theo vòng)", "definition": "a regular count of part of a warehouse's stock, instead of counting everything at once", "example": "Our team does a cycle count every Tuesday." }
+  ]
+}

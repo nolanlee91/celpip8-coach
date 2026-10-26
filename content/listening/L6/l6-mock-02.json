@@ -1,0 +1,308 @@
+{
+  "id": "l6-mock-02",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "government",
+  "title": "Viewpoints: Which time should B.C. keep?",
+  "context": "You will hear a radio commentary by a sleep researcher about ending the twice-yearly clock change in British Columbia.",
+  "estimatedMinutes": 7,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Dr. Helen Moreau, sleep researcher",
+          "voice": "female_b",
+          "text": "Twice a year, British Columbians change their clocks, and twice a year, we complain about it. On that point, almost everyone agrees. When the province asked the public back in twenty nineteen, more than nine in ten people said they wanted to stop switching."
+        },
+        {
+          "speaker": "Dr. Helen Moreau, sleep researcher",
+          "voice": "female_b",
+          "text": "The province then passed a law to stay on daylight time permanently, and the plan is to make the switch once Washington, Oregon and California are ready to do the same. I'm a sleep researcher, and I'll be honest. I'd be thrilled to stop changing the clocks. But I think we've picked the wrong time to keep."
+        },
+        {
+          "speaker": "Dr. Helen Moreau, sleep researcher",
+          "voice": "female_b",
+          "text": "Here's why. Permanent daylight time means that in the depths of winter, the sun wouldn't rise in Vancouver until around nine in the morning. In Prince George, it would be after ten. That means children walking to school in the dark, and adults commuting in the dark, for months on end."
+        },
+        {
+          "speaker": "Dr. Helen Moreau, sleep researcher",
+          "voice": "female_b",
+          "text": "Our body clocks are set mostly by morning light. When we lose it, we tend to go to bed later, sleep less and feel worse. And over time, that's linked to everything from mood problems to car accidents. We already see a small jump in collisions in the days after we spring forward each March."
+        },
+        {
+          "speaker": "Dr. Helen Moreau, sleep researcher",
+          "voice": "female_b",
+          "text": "Supporters of permanent daylight time make a fair point. They say lighter evenings encourage people to be active after work, and they're good for restaurants, patios and shops. I don't dismiss that. A summer evening on the seawall is one of the best things about living here, and I enjoy a long patio dinner as much as anyone."
+        },
+        {
+          "speaker": "Dr. Helen Moreau, sleep researcher",
+          "voice": "female_b",
+          "text": "But remember, permanent standard time doesn't take summer evenings away. The sun would still set after eight in June. What we'd give up is one extra hour on top of that."
+        },
+        {
+          "speaker": "Dr. Helen Moreau, sleep researcher",
+          "voice": "female_b",
+          "text": "Others argue that this is really about trade. If our neighbours to the south move to permanent daylight time and we don't, cross-border business could get confusing. Truckers, airlines and anyone with clients in Seattle would feel it. That's a legitimate concern, and I'd much rather we stayed in step with them. But that's an argument for working with those states to make the right choice, not for following them into the wrong one."
+        },
+        {
+          "speaker": "Dr. Helen Moreau, sleep researcher",
+          "voice": "female_b",
+          "text": "So my request is simple. Before this law takes effect, let's hear from the people who study sleep and health, not just from those who love long patio evenings. We'll probably only get to make this decision once. Let's base it on a dark January morning, not just a bright evening in July."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is the speaker's position on the clock change?",
+          "options": [
+            {
+              "text": "B.C. should keep changing the clocks twice a year.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà nói rất muốn ngừng đổi giờ."
+            },
+            {
+              "text": "B.C. should stay on daylight time all year.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là luật của tỉnh và quan điểm của phía ủng hộ giờ mùa hè, không phải của bà."
+            },
+            {
+              "text": "Each region of B.C. should choose its own time.",
+              "trap": "not_mentioned",
+              "whyVi": "Bà không đề xuất mỗi vùng tự chọn."
+            },
+            {
+              "text": "B.C. should stop switching but keep standard time permanently.",
+              "trap": "none",
+              "whyVi": "Đúng: bà ủng hộ ngừng đổi giờ nhưng cho rằng tỉnh đã chọn sai loại giờ để giữ."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "I'd be thrilled to stop changing the clocks. But I think we've picked the wrong time to keep.",
+          "explanationVi": "Bà đồng ý ngừng đổi giờ ('thrilled to stop') nhưng phản đối giờ mùa hè vĩnh viễn ('the wrong time to keep'), và cả bài bảo vệ giờ chuẩn (standard time).",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "According to the speaker, what would happen in Prince George in winter under permanent daylight time?",
+          "options": [
+            {
+              "text": "The sun would rise around nine in the morning.",
+              "trap": "wrong_detail",
+              "whyVi": "Khoảng 9 giờ là ở Vancouver."
+            },
+            {
+              "text": "The sun would not come up until after ten.",
+              "trap": "none",
+              "whyVi": "Đúng: 'In Prince George, it would be after ten'."
+            },
+            {
+              "text": "The sun would set after eight in the evening.",
+              "trap": "word_match",
+              "whyVi": "'After eight' là giờ mặt trời lặn vào tháng 6 theo giờ chuẩn."
+            },
+            {
+              "text": "Children would no longer walk to school in the dark.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: trẻ em sẽ đi học trong bóng tối."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "In Prince George, it would be after ten.",
+          "explanationVi": "Bài nhắc hai thành phố liên tiếp. Vancouver khoảng 9 giờ, Prince George sau 10 giờ. Cần nghe đúng tên địa danh đi kèm con số.",
+          "vocabulary": [
+            "in the depths of winter"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "Why does the speaker say morning light is important?",
+          "options": [
+            {
+              "text": "It largely sets the body's internal clock.",
+              "trap": "none",
+              "whyVi": "Đúng: 'Our body clocks are set mostly by morning light'."
+            },
+            {
+              "text": "It makes evening activities safer.",
+              "trap": "word_match",
+              "whyVi": "Bài nói về buổi tối nhưng không nói ánh sáng buổi sáng giúp buổi tối an toàn hơn."
+            },
+            {
+              "text": "It reduces household energy costs.",
+              "trap": "not_mentioned",
+              "whyVi": "Không nhắc đến chi phí năng lượng."
+            },
+            {
+              "text": "It causes people to go to bed later.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: THIẾU ánh sáng buổi sáng mới khiến người ta đi ngủ muộn hơn."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "Our body clocks are set mostly by morning light.",
+          "explanationVi": "'body clocks' = 'internal clock'; 'set mostly by' = 'largely sets'. Lựa chọn D đảo ngược quan hệ nhân quả.",
+          "vocabulary": [
+            "body clock"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "How does the speaker respond to the argument about lighter evenings?",
+          "options": [
+            {
+              "text": "She dismisses it as unimportant.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà nói 'I don't dismiss that'."
+            },
+            {
+              "text": "She values it but says summer evenings would still be long under standard time.",
+              "trap": "none",
+              "whyVi": "Đúng: bà công nhận lợi ích nhưng nói tháng 6 mặt trời vẫn lặn sau 8 giờ."
+            },
+            {
+              "text": "She agrees that it outweighs the health concerns.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà vẫn đặt sức khỏe và giấc ngủ lên trước."
+            },
+            {
+              "text": "She argues that restaurants would earn more under standard time.",
+              "trap": "word_match",
+              "whyVi": "Có nhắc 'restaurants' nhưng bà không nói nhà hàng kiếm nhiều hơn với giờ chuẩn."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "permanent standard time doesn't take summer evenings away",
+          "explanationVi": "Bà gọi đây là 'a fair point' và 'I don't dismiss that', nhưng phản biện bằng 'doesn't take summer evenings away'. Đây là thái độ công nhận một phần rồi phản bác.",
+          "vocabulary": [
+            "dismiss"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What is the speaker's view of the trade argument?",
+          "options": [
+            {
+              "text": "It is exaggerated, because cross-border business would not be affected.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà gọi đây là mối lo chính đáng ('legitimate concern')."
+            },
+            {
+              "text": "B.C. should simply wait and adopt whatever the U.S. states choose.",
+              "trap": "partially_true",
+              "whyVi": "Bà muốn giữ đồng bộ với các bang, nhưng không muốn đi theo một lựa chọn sai."
+            },
+            {
+              "text": "It is valid, so B.C. should work with the U.S. states toward the better option.",
+              "trap": "none",
+              "whyVi": "Đúng: bà thấy mối lo hợp lý và muốn hợp tác với các bang để chọn đúng."
+            },
+            {
+              "text": "B.C. should ignore what its neighbours decide.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà nói 'I'd much rather we stayed in step with them'."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "But that's an argument for working with those states to make the right choice, not for following them into the wrong one.",
+          "explanationVi": "Bà công nhận 'That's a legitimate concern' nhưng kết luận đó là lý do để 'working with those states', không phải để làm theo họ.",
+          "vocabulary": [
+            "legitimate",
+            "in step with"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "What does the speaker ask for at the end?",
+          "options": [
+            {
+              "text": "A new public survey about the clock change",
+              "trap": "word_match",
+              "whyVi": "Có nhắc việc tỉnh từng hỏi ý kiến người dân, nhưng bà không yêu cầu khảo sát mới."
+            },
+            {
+              "text": "That health and sleep experts be consulted before the law takes effect",
+              "trap": "none",
+              "whyVi": "Đúng: 'let's hear from the people who study sleep and health'."
+            },
+            {
+              "text": "That the law be cancelled immediately",
+              "trap": "too_broad",
+              "whyVi": "Quá mạnh: bà chỉ yêu cầu lắng nghe chuyên gia trước khi luật có hiệu lực."
+            },
+            {
+              "text": "That the decision be delayed until after the summer",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai đề nghị hoãn đến sau mùa hè."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "Before this law takes effect, let's hear from the people who study sleep and health",
+          "explanationVi": "'hear from the people who study sleep and health' được diễn đạt lại thành 'health and sleep experts be consulted'.",
+          "vocabulary": [
+            "take effect"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "permanently",
+      "vi": "vĩnh viễn",
+      "definition": "for all time, without changing back",
+      "example": "The law would keep daylight time permanently."
+    },
+    {
+      "term": "in the depths of winter",
+      "vi": "giữa mùa đông",
+      "definition": "in the coldest, darkest part of winter",
+      "example": "In the depths of winter, the sun would rise after nine."
+    },
+    {
+      "term": "body clock",
+      "vi": "đồng hồ sinh học",
+      "definition": "the natural system that controls when you feel sleepy or awake",
+      "example": "Our body clocks are set by morning light."
+    },
+    {
+      "term": "dismiss",
+      "vi": "gạt bỏ, xem nhẹ",
+      "definition": "decide that something is not important or worth considering",
+      "example": "I don't dismiss the argument about lighter evenings."
+    },
+    {
+      "term": "legitimate",
+      "vi": "chính đáng, hợp lý",
+      "definition": "reasonable and acceptable",
+      "example": "Cross-border trade is a legitimate concern."
+    },
+    {
+      "term": "in step with",
+      "vi": "đồng bộ với",
+      "definition": "doing the same thing at the same time as others",
+      "example": "B.C. wants to stay in step with its neighbours."
+    },
+    {
+      "term": "take effect",
+      "vi": "có hiệu lực",
+      "definition": "start to apply officially",
+      "example": "Experts should be heard before the law takes effect."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 items independently; keys match. Fact-checked: 2019 BC engagement (~93% for ending the change), 2019 Interpretation Amendment Act (permanent daylight time, timing left to cabinet and tied to the U.S. West Coast), winter sunrise ~9 a.m. Vancouver / after 10 a.m. Prince George under DST, June sunset after 8 p.m. under standard time: all correct. Reworded two lines so they are accurate (dated the survey to 2019; the law does not itself require the U.S. states, it is the government's stated plan). One voice, ~420 words."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

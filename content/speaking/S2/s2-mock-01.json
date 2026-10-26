@@ -1,0 +1,54 @@
+{
+  "id": "s2-mock-01",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "social",
+  "title": "A misunderstanding with another person",
+  "prompt": "Talk about a time when there was a misunderstanding between you and another person. What caused the misunderstanding, and how was it resolved?",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Introduce who and when",
+    "What was said or done + how you understood it",
+    "How you felt + how the truth came out",
+    "How it was resolved + what you learned"
+  ],
+  "modelAnswer": "I remember a funny misunderstanding I had with a coworker during my first year in Canada.\n\nOne afternoon, she said to me, 'We should grab coffee sometime.' Back home, if someone says that, it usually means they want to make a real plan. So the next morning, I went to her desk and asked what time she was free that day. She looked a bit surprised and said she was busy all week. I felt kind of hurt, because I thought she didn't really want to spend time with me.\n\nA few days later, I mentioned it to another colleague. She laughed and explained that in Canada, 'We should grab coffee sometime' is often just a friendly thing to say, not an actual invitation.\n\nAfter that, I felt much better. I told my coworker the whole story, and we both laughed about it. In the end, we actually did go for coffee the following week. Now, whenever someone says that, I just smile and say, 'Sounds good!'",
+  "usefulExpressions": [
+    {
+      "expression": "I remember a… I had with…",
+      "usageVi": "Câu mở đầu giới thiệu câu chuyện một cách tự nhiên."
+    },
+    {
+      "expression": "Back home, …",
+      "usageVi": "'Ở quê nhà' — rất hữu ích khi so sánh văn hóa Việt Nam và Canada."
+    },
+    {
+      "expression": "I felt kind of hurt",
+      "usageVi": "'kind of' làm giảm nhẹ cảm xúc, nghe tự nhiên trong văn nói."
+    },
+    {
+      "expression": "In the end, …",
+      "usageVi": "Kể kết quả cuối cùng của câu chuyện."
+    },
+    {
+      "expression": "Now, whenever…",
+      "usageVi": "Kết nối câu chuyện quá khứ với thói quen hiện tại, tạo kết thúc hay."
+    }
+  ],
+  "commonMistakes": [
+    "Kể sự việc nhưng không nói rõ NGUYÊN NHÂN gây hiểu lầm — đây là một trong hai câu hỏi chính của đề.",
+    "Lẫn lộn 'misunderstand' (động từ) và 'misunderstanding' (danh từ): 'There was a misunderstand' → 'There was a misunderstanding'.",
+    "Trích dẫn lời nói trực tiếp nhưng đổi thì sai. Khi kể lại, có thể dùng trích dẫn trực tiếp ('She said, We should…') để tránh lỗi lùi thì."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked that cause and resolution are both answered, past-tense control, length (~167 for 60 s). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "w1-practice-02",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Asking a former manager for a reference",
+  "situation": "You worked for three years as an accounts payable assistant at a building-supply company in Surrey. Last year you moved to Kelowna. You are now applying for an accounting clerk position, and the employer has asked you for two professional references. You decide to email your former manager.",
+  "instructions": [
+    "Remind your former manager who you are and when you worked together.",
+    "Describe the job you are applying for.",
+    "Ask whether they would be willing to give you a reference, and explain what it would involve."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Polite greeting + short friendly opening (I hope you are doing well)",
+    "Instruction 1: your name, your old job title, the dates, plus one specific achievement they will remember",
+    "Instruction 2: the new employer and role, 2–3 main duties, and how they connect to your past work",
+    "Instruction 3: the request itself, then practical details (who will contact them, how, how long, what topics)",
+    "Offer to send helpful documents + thank them for considering the request + sign-off"
+  ],
+  "modelResponse": "Dear Mr. Okafor,\n\nI hope you are doing well. My name is Lan Nguyen, and I worked as an accounts payable assistant on your team at Fraser Building Supply from 2022 until I moved to Kelowna last year. You may remember that I helped set up the new invoice-approval system during my second year.\n\nI am writing because I have applied for an accounting clerk position with the Okanagan Hospital Foundation. The role involves processing donations, reconciling bank statements and preparing monthly reports for the finance manager, so it builds directly on the experience I gained under your supervision.\n\nThe foundation has asked for two references, and I would be very grateful if you could be one of them. If you agree, their HR coordinator, Ms. Patel, will call you next week for a conversation of about ten minutes. She will mainly ask about my accuracy, reliability and ability to meet deadlines. I would be happy to send you my updated résumé and the job posting if that would be helpful.\n\nThank you very much for considering my request.\n\nBest regards,\nLan Nguyen",
+  "usefulExpressions": [
+    {
+      "expression": "I hope you are doing well.",
+      "usageVi": "Câu mở đầu thân thiện nhưng vẫn lịch sự khi viết cho người quen cũ trong công việc."
+    },
+    {
+      "expression": "You may remember that I…",
+      "usageVi": "Nhắc người nhận nhớ lại bạn bằng một chi tiết cụ thể, tự nhiên hơn 'Do you remember me?'."
+    },
+    {
+      "expression": "The role involves + V-ing…",
+      "usageVi": "Mô tả nhiệm vụ của công việc; nhớ dùng V-ing sau 'involves'."
+    },
+    {
+      "expression": "it builds directly on the experience I gained…",
+      "usageVi": "Liên kết công việc mới với kinh nghiệm cũ, cho thấy lý do người quản lý cũ phù hợp làm người giới thiệu."
+    },
+    {
+      "expression": "I would be very grateful if you could…",
+      "usageVi": "Cách nhờ vả rất lịch sự, phù hợp khi xin người khác giúp đỡ mà họ không bắt buộc phải làm."
+    },
+    {
+      "expression": "If you agree, …will…",
+      "usageVi": "Câu điều kiện loại 1 để giải thích bước tiếp theo, giúp người nhận biết họ cần làm gì."
+    },
+    {
+      "expression": "Thank you very much for considering my request.",
+      "usageVi": "Câu cảm ơn cuối thư, dùng 'considering' vì người nhận chưa đồng ý."
+    }
+  ],
+  "commonMistakes": [
+    "Nhờ vả quá trực tiếp kiểu 'Please give me a reference' hoặc 'You need to write a letter for me'. Nên dùng 'I would be very grateful if you could…' hoặc 'Would you be willing to…?'.",
+    "Quên giải thích 'what it would involve' (ai sẽ liên hệ, bằng cách nào, mất bao lâu) — đây là một phần của ý 3 và thường bị bỏ sót.",
+    "Thiếu mạo từ khi nói về công việc: 'I applied for accounting clerk position' → 'an accounting clerk position'; 'I worked as accounts payable assistant' → 'as an accounts payable assistant'.",
+    "Không có chi tiết giúp người quản lý nhớ ra bạn (dự án, thành tích). Chỉ ghi tên và năm làm việc thì thư sẽ yếu ở ý 1."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Fixed timeline inconsistency: 'from 2021 until … last spring' contradicted 'worked for three years' and 'moved last year' -> 'from 2022 until I moved to Kelowna last year'. All bullets (incl. 'what it would involve') covered; word count ~183."
+  },
+  "createdAt": "2026-10-26"
+}

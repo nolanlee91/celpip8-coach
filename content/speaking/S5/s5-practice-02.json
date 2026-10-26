@@ -1,0 +1,77 @@
+{
+  "id": "s5-practice-02",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "education",
+  "title": "Choosing a summer camp for your son",
+  "prompt": "You are looking for a summer camp for your 10-year-old son. Pick the camp you would rather send him to, and then convince your spouse, who would rather choose the other camp, that your option is better.",
+  "svg": null,
+  "options": [
+    {
+      "title": "Coastal Explorers Day Camp",
+      "details": [
+        "$390 CAD per week, Monday–Friday, 9 a.m.–4 p.m.",
+        "Kayaking, beach clean-ups and nature hikes in North Vancouver",
+        "Free bus pick-up from the local community centre",
+        "Groups of 8 children per counsellor"
+      ]
+    },
+    {
+      "title": "Code & Create Tech Camp",
+      "details": [
+        "$520 CAD per week, Monday–Friday, 9 a.m.–3 p.m.",
+        "Robotics, coding and video-game design in downtown Vancouver",
+        "Parents must drop off and pick up their child",
+        "Each child takes home a robot kit"
+      ]
+    }
+  ],
+  "structure": [
+    "Give your choice and show you understand why your spouse likes the other camp.",
+    "Reason 1: health and balance (outdoor activities vs. more screen time).",
+    "Reason 2: practical details (price difference, free bus, longer day).",
+    "Reason 3: safety (small groups), then a compromise and a closing line."
+  ],
+  "modelAnswer": "Honey, I can see why you like the tech camp. Coding is a great skill, and the robot kit sounds fun. But I really think Coastal Explorers is the better fit for Daniel this summer. He already spends hours on his tablet during the school year, so I'd love for him to be outside, kayaking and hiking instead of sitting in front of another screen. Practically speaking, it also works better for us. It's $130 cheaper per week, which adds up to over $500 for a month. Plus, there's a free bus from the community centre, so neither of us has to fight downtown traffic twice a day. And the day ends at four, not three, which works much better with our work schedules. Another thing I like is that there are only eight kids per counsellor, so he'll be well supervised near the water. Tell you what: if he still loves coding, we can sign him up for a weekend coding class in the fall. Does that sound fair?",
+  "usefulExpressions": [
+    {
+      "expression": "I can see why you like…",
+      "usageVi": "Thể hiện sự đồng cảm trước khi phản bác"
+    },
+    {
+      "expression": "…is the better fit for…",
+      "usageVi": "Phù hợp hơn với… (ai đó)"
+    },
+    {
+      "expression": "Practically speaking, …",
+      "usageVi": "Xét về mặt thực tế — chuyển sang lý do về chi phí, thời gian"
+    },
+    {
+      "expression": "…which adds up to…",
+      "usageVi": "Cộng dồn lại thành… — làm cho con số tiết kiệm trở nên ấn tượng"
+    },
+    {
+      "expression": "Tell you what: …",
+      "usageVi": "Thế này nhé — mở đầu một đề nghị thỏa hiệp"
+    },
+    {
+      "expression": "Does that sound fair?",
+      "usageVi": "Câu kết mềm mỏng, mời người kia đồng ý"
+    }
+  ],
+  "commonMistakes": [
+    "Nói chung chung 'outdoor is good for health' mà không gắn với đứa trẻ cụ thể; hãy cá nhân hóa (He already spends hours on his tablet…).",
+    "Tính sai hoặc đọc số tiền lúng túng; chuẩn bị trước con số chênh lệch ($130 a week) trong thời gian chuẩn bị.",
+    "Chê lựa chọn của người kia quá mạnh ('tech camp is useless'); thuyết phục tốt là tôn trọng ý kiến người nghe."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rendered and inspected the picture/cards; checked the model answer against the drawing, length (60 s), task fulfilment, expressions and mistakes. Changes: Camp prices raised to realistic Vancouver levels ($390 / $520, same $130 gap); a 4 p.m. finish does not \"match\" a work day -> \"works much better with\"."
+  },
+  "createdAt": "2026-10-26"
+}

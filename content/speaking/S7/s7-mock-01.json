@@ -1,0 +1,59 @@
+{
+  "id": "s7-mock-01",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "transportation",
+  "title": "Free public transit for everyone",
+  "prompt": "Some people believe that public transit should be completely free for everyone, and that the cost should be covered by taxes instead of fares.\n\nDo you agree or disagree with this idea? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Clear position + hint at your middle-ground view",
+    "Reason 1: funding and service quality",
+    "Reason 2: price is not the main barrier (example from your experience)",
+    "Alternative: targeted discounts for groups who need help",
+    "One-sentence conclusion"
+  ],
+  "modelAnswer": "That's an interesting question, but personally, I disagree that transit should be completely free for everyone. I do support making it cheaper for certain groups, though, and I'll explain why.\n\nMy main concern is funding. Running buses and trains is incredibly expensive, and fares cover a big part of those costs. If fares disappeared, the money would have to come from somewhere, probably higher property taxes or cuts to other services. And honestly, I'd rather pay a fare and have frequent, reliable service than ride for free on a bus that comes every forty minutes.\n\nSecond, I'm not convinced it would solve the real problem. From what I've seen, most people don't avoid transit because of the price. They avoid it because the routes are slow or don't go where they need to go. For example, a lot of my coworkers drive simply because there's no direct bus to our warehouse. Investing in more routes would probably attract more riders than free fares.\n\nThat said, I think there's a smarter middle ground. Young children already ride free in many places, and it would make sense to offer bigger discounts to seniors, students and low-income families. That way, the people who really need help get it, and the system still has money to improve.\n\nSo overall, targeted discounts, yes, but free transit for everyone, no.",
+  "usefulExpressions": [
+    {
+      "expression": "personally, I disagree that…",
+      "usageVi": "Nêu quan điểm phản đối một cách lịch sự, rõ ràng."
+    },
+    {
+      "expression": "My main concern is…",
+      "usageVi": "Giới thiệu lý do phản đối chính — tự nhiên hơn 'The first reason is'."
+    },
+    {
+      "expression": "I'd rather… than…",
+      "usageVi": "So sánh hai lựa chọn theo sở thích; sau 'would rather' dùng động từ nguyên mẫu."
+    },
+    {
+      "expression": "I'm not convinced (that)…",
+      "usageVi": "Bày tỏ nghi ngờ một cách tinh tế, phù hợp mức điểm 8+."
+    },
+    {
+      "expression": "From what I've seen, …",
+      "usageVi": "Dẫn chứng từ trải nghiệm cá nhân."
+    },
+    {
+      "expression": "That said, I think there's a smarter middle ground.",
+      "usageVi": "Đưa ra giải pháp trung gian — thể hiện tư duy cân bằng, phức tạp."
+    }
+  ],
+  "commonMistakes": [
+    "Chọn 'disagree' nhưng sau đó toàn nói ưu điểm của phương tiện công cộng miễn phí, khiến quan điểm không nhất quán.",
+    "Nói 'I'd rather to pay' — sai. Đúng: 'I'd rather pay… than ride…'.",
+    "Đưa số liệu không chắc chắn như sự thật ('Fares pay 80% of costs'). Nếu không chắc, dùng 'a big part of' hoặc 'from what I've seen'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked clear position, two reasons + middle ground, hedged facts ('in many places', 'a big part'), length (~224 for 90 s). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

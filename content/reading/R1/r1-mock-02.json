@@ -1,0 +1,205 @@
+{
+  "id": "r1-mock-02",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "Disputing a missed-appointment fee",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. Q8 key wording smoothed ('closed message' -> 'after-hours message'). All keys verified; difficulty 8 plausible." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Letter from a patient",
+      "kind": "text",
+      "text": "Dear Mr. Morimoto,\n\nI'm writing about the $75 missed-appointment fee that appeared on my account after my 9:15 a.m. appointment with Dr. Esposito on October 14. I'd like it reviewed, and I'll explain why I believe it was charged in error or, at the very least, unfairly.\n\nOn October 13, the day before my appointment, I called the clinic at about 4:40 p.m. to cancel, because my son had come down with a fever and I couldn't arrange childcare. The call went straight to a recording saying the office had closed for the day. There was no option to leave a voicemail, so I hung up and sent a message through your online patient portal instead, which I assumed would be checked first thing in the morning. I still have a screenshot showing that it went through at 4:52 p.m.\n\nI understand that your policy requires 24 hours' notice, and I don't expect the clinic to make exceptions for everyone who simply forgets. But I didn't forget, and I did try to give notice through the only channels available to me. Your website states that office hours run until 5:00 p.m., so I was surprised that no one picked up at 4:40. If the phones are switched off early, patients have no way of knowing that.\n\nI would also point out that in eleven years as a patient at Riverbend, I have never missed an appointment. I realize that isn't a reason on its own to waive a fee, but I hope it shows this wasn't carelessness on my part.\n\nTo be clear, I'm not asking for special treatment. I'm asking for the fee to be removed, and I'd suggest that the clinic either keep the phones on until closing or add a note to the portal explaining that messages aren't read after hours. That would save the next parent in my position a great deal of frustration.\n\nI'm happy to forward the screenshot if it would help.\n\nSincerely,\nCorinne Dubé",
+      "table": null
+    },
+    {
+      "label": "Reply from the clinic manager",
+      "kind": "text",
+      "text": "Dear Ms. Dubé,\n\nThank you for your letter, and I hope your son is feeling better. Strictly speaking, your message arrived less than 24 hours before your appointment. However, since you tried to call during our posted hours and couldn't get through, I have [[7]]. You won't see it on your next statement.\n\nYou were also right about the phones. When we checked the system, we found that the line had been set to [[8]] for staff training in October, and no one changed it back afterwards. This has now been corrected. I apologize that you, and possibly other patients, [[9]].\n\nYour second suggestion is a good one. Starting next week, the portal will display a notice that messages sent after 4 p.m. are [[10]]. In the meantime, our front-desk team will check the portal each morning before contacting anyone about a missed visit.\n\nThere is no need to [[11]], as our records already confirm when your message was sent. Please call me directly if anything else comes up.\n\nKind regards,\nKenji Morimoto\nClinic Manager, Riverbend Family Practice",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the main purpose of Corinne's letter?",
+      "options": [
+        { "text": "To complain about the care she received from Dr. Esposito", "trap": "not_mentioned", "whyVi": "Corinne không nhận xét gì về chất lượng khám của bác sĩ." },
+        { "text": "To have a charge reversed and propose an improvement", "trap": "none", "whyVi": "Đúng: cô yêu cầu xóa khoản phí $75 và đề xuất giữ điện thoại mở đến giờ đóng cửa hoặc thêm ghi chú trên portal." },
+        { "text": "To ask for an exception because she forgot her appointment", "trap": "opposite", "whyVi": "Cô khẳng định 'I didn't forget'." },
+        { "text": "To report that the patient portal is not working", "trap": "word_match", "whyVi": "Portal vẫn hoạt động — tin nhắn đã gửi lúc 4:52; vấn đề là không ai đọc ngoài giờ." }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "I'm asking for the fee to be removed, and I'd suggest that the clinic either keep the phones on until closing or add a note to the portal",
+      "explanationVi": "Ở đề khó, câu tóm tắt mục đích thường nằm cuối thư ('To be clear, ...'). 'fee to be removed' = 'charge reversed'; 'I'd suggest' = 'propose an improvement'.",
+      "vocabulary": ["waive a fee"]
+    },
+    {
+      "number": 2,
+      "prompt": "Why did Corinne send a message through the patient portal?",
+      "options": [
+        { "text": "Her son was too ill for her to make a phone call.", "trap": "wrong_detail", "whyVi": "Con ốm là lý do hủy hẹn, không phải lý do cô không gọi được; cô đã gọi điện." },
+        { "text": "The clinic's website tells patients to cancel online.", "trap": "not_mentioned", "whyVi": "Website chỉ ghi giờ làm việc đến 5 giờ, không hướng dẫn hủy hẹn trực tuyến." },
+        { "text": "She wanted written proof that she had cancelled.", "trap": "not_mentioned", "whyVi": "Cô có ảnh chụp màn hình, nhưng đó không phải lý do cô dùng portal." },
+        { "text": "She had no way to leave a phone message.", "trap": "none", "whyVi": "Đúng: 'There was no option to leave a voicemail, so I hung up and sent a message through your online patient portal'." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "There was no option to leave a voicemail, so I hung up and sent a message through your online patient portal instead",
+      "explanationVi": "Cấu trúc nguyên nhân – kết quả với 'so': không để lại voicemail được → nên gửi qua portal. 'no option to leave a voicemail' = 'no way to leave a phone message'.",
+      "vocabulary": ["patient portal"]
+    },
+    {
+      "number": 3,
+      "prompt": "What can be inferred about the clinic's phone line on October 13?",
+      "options": [
+        { "text": "It stopped accepting calls before the advertised closing time.", "trap": "none", "whyVi": "Đúng: website ghi mở đến 5:00 nhưng lúc 4:40 đã có lời nhắn 'đã đóng cửa'." },
+        { "text": "It was out of service for the whole day.", "trap": "too_broad", "whyVi": "Chỉ biết đến 4:40 thì không gọi được; không có thông tin cả ngày hỏng." },
+        { "text": "It was busy because many patients were calling.", "trap": "not_mentioned", "whyVi": "Cuộc gọi chuyển sang lời nhắn đóng cửa, không phải máy bận." },
+        { "text": "It sent her call to Dr. Esposito's voicemail.", "trap": "opposite", "whyVi": "Không có lựa chọn để lại voicemail." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Your website states that office hours run until 5:00 p.m., so I was surprised that no one picked up at 4:40.",
+      "explanationVi": "Ghép hai chi tiết: giờ làm việc đến 5:00 (theo website) và 4:40 đã nghe lời nhắn đóng cửa → điện thoại tắt sớm hơn giờ đã công bố. 'office hours run until 5:00' = 'advertised closing time'.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "What is Corinne's attitude toward the clinic's 24-hour notice policy?",
+      "options": [
+        { "text": "She thinks it should be dropped entirely.", "trap": "too_broad", "whyVi": "Cô không đòi bỏ chính sách; cô chỉ muốn xóa phí trong trường hợp của mình." },
+        { "text": "She did not know that the policy existed.", "trap": "opposite", "whyVi": "Cô viết 'I understand that your policy requires 24 hours' notice'." },
+        { "text": "She accepts it in principle but feels it was unfair in her situation.", "trap": "none", "whyVi": "Đúng: cô chấp nhận chính sách với người quên hẹn, nhưng cô không quên và đã cố báo trước." },
+        { "text": "She believes the fee it charges is too high.", "trap": "not_mentioned", "whyVi": "Cô không bàn đến mức phí $75 cao hay thấp." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "I don't expect the clinic to make exceptions for everyone who simply forgets. But I didn't forget",
+      "explanationVi": "Mẫu 'I understand X ... But ...' thể hiện thái độ chấp nhận nguyên tắc chung nhưng phản đối cách áp dụng cho mình. Đáp án C diễn đạt bằng 'accepts it in principle but ... unfair in her situation'.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "Why does Corinne mention that she has been a patient for eleven years?",
+      "options": [
+        { "text": "To show that missing the appointment was out of character for her", "trap": "none", "whyVi": "Đúng: 'I hope it shows this wasn't carelessness on my part'." },
+        { "text": "To argue that long-term patients should never be charged", "trap": "opposite", "whyVi": "Cô tự nói 'that isn't a reason on its own to waive a fee'." },
+        { "text": "To ask for a discount for loyal patients", "trap": "not_mentioned", "whyVi": "Cô không xin giảm giá cho bệnh nhân lâu năm." },
+        { "text": "To complain that the clinic has become less organized", "trap": "not_mentioned", "whyVi": "Không có so sánh với quá khứ của phòng khám." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "I hope it shows this wasn't carelessness on my part",
+      "explanationVi": "Câu hỏi 'Why does she mention...' → tìm câu giải thích ngay sau chi tiết. 'wasn't carelessness' = việc lỡ hẹn không phải tính cách bình thường của cô ('out of character'). Cẩn thận bẫy B: cô đã phủ nhận ý đó.",
+      "vocabulary": ["out of character"]
+    },
+    {
+      "number": 6,
+      "prompt": "Which change does Corinne suggest the clinic could make?",
+      "options": [
+        { "text": "Keep the office open later than 5:00 p.m.", "trap": "wrong_detail", "whyVi": "Cô đề nghị giữ điện thoại mở đến giờ đóng cửa (5:00), không phải mở muộn hơn." },
+        { "text": "Hire more staff for the front desk", "trap": "not_mentioned", "whyVi": "Không có đề xuất tuyển thêm người." },
+        { "text": "Allow patients to cancel by text message", "trap": "not_mentioned", "whyVi": "Không nhắc đến tin nhắn điện thoại." },
+        { "text": "Warn patients that online messages are not monitored after hours", "trap": "none", "whyVi": "Đúng: 'add a note to the portal explaining that messages aren't read after hours'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "add a note to the portal explaining that messages aren't read after hours",
+      "explanationVi": "Tìm 'I'd suggest'. Có hai đề xuất; chỉ đề xuất thứ hai xuất hiện trong lựa chọn. 'add a note ... explaining' = 'warn patients'; 'aren't read' = 'not monitored'.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "reduced the fee by half", "trap": "partially_true", "whyVi": "Có giảm phí là đúng hướng, nhưng câu sau 'You won't see it on your next statement' cho thấy phí bị xóa hoàn toàn." },
+        { "text": "removed the charge from your account", "trap": "none", "whyVi": "Đúng: đáp ứng yêu cầu 'I'm asking for the fee to be removed' và khớp với 'You won't see it on your next statement'." },
+        { "text": "decided to keep the fee in place", "trap": "opposite", "whyVi": "'However, since you tried to call...' báo hiệu quyết định có lợi cho Corinne." },
+        { "text": "booked you a new visit with Dr. Esposito", "trap": "not_mentioned", "whyVi": "Không có đặt lịch mới; câu sau nói về hóa đơn ('statement')." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I'm asking for the fee to be removed",
+      "explanationVi": "Hai manh mối: 'However' đảo chiều sau câu 'Strictly speaking...' (về lý thì cô sai), và câu sau 'You won't see it on your next statement' → khoản phí đã bị xóa hẳn, không phải giảm một nửa.",
+      "vocabulary": ["waive a fee"]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "stay open until 6 p.m.", "trap": "opposite", "whyVi": "Nếu mở đến 6 giờ thì cuộc gọi lúc 4:40 đã có người nghe." },
+        { "text": "close at 5:00 p.m.", "trap": "wrong_detail", "whyVi": "5:00 là giờ đóng cửa chính thức; nếu đúng như vậy thì không có lỗi gì để sửa." },
+        { "text": "play the after-hours message from 4:30 p.m.", "trap": "none", "whyVi": "Đúng: lúc 4:40 Corinne đã nghe lời nhắn 'đóng cửa', nên máy phải được cài đóng trước 4:40." },
+        { "text": "send calls to voicemail after hours", "trap": "opposite", "whyVi": "Corinne nói không có lựa chọn để lại voicemail." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "The call went straight to a recording saying the office had closed for the day.",
+      "explanationVi": "Quản lý xác nhận lỗi ('You were also right about the phones') → cài đặt phải giải thích được việc lúc 4:40 đã nghe tin nhắn đóng cửa. Chỉ có lựa chọn 4:30 xảy ra trước 4:40.",
+      "vocabulary": []
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "couldn't reach us during our posted hours", "trap": "none", "whyVi": "Đúng: lỗi cài đặt khiến bệnh nhân gọi trước 5:00 không liên lạc được." },
+        { "text": "missed appointments because of the training", "trap": "word_match", "whyVi": "Có từ 'training', nhưng buổi đào tạo là của nhân viên, không làm bệnh nhân lỡ hẹn." },
+        { "text": "were charged twice for one visit", "trap": "not_mentioned", "whyVi": "Không ai bị tính phí hai lần." },
+        { "text": "waited too long to see a doctor", "trap": "not_mentioned", "whyVi": "Không nói đến thời gian chờ khám." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "If the phones are switched off early, patients have no way of knowing that.",
+      "explanationVi": "Lời xin lỗi gắn với lỗi điện thoại vừa nêu. Hậu quả là bệnh nhân không gọi được trong giờ đã công bố — đúng điều Corinne phàn nàn: 'no one picked up at 4:40'.",
+      "vocabulary": []
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "answered within one hour", "trap": "opposite", "whyVi": "Ngược với đề xuất của Corinne rằng tin nhắn không được đọc ngoài giờ." },
+        { "text": "forwarded to the on-call doctor", "trap": "not_mentioned", "whyVi": "Không có bác sĩ trực nào được nhắc đến." },
+        { "text": "deleted at the end of the day", "trap": "not_mentioned", "whyVi": "Không có thông tin này; tin nhắn của Corinne vẫn được lưu." },
+        { "text": "not read until the next business day", "trap": "none", "whyVi": "Đúng: đây là đề xuất thứ hai của Corinne — ghi chú rằng tin nhắn không được đọc ngoài giờ." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "explaining that messages aren't read after hours",
+      "explanationVi": "'Your second suggestion' → quay lại đề xuất thứ hai của Corinne. 'aren't read after hours' = 'not read until the next business day'.",
+      "vocabulary": ["business day"]
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "call before 4:30 p.m. in future", "trap": "opposite", "whyVi": "Điện thoại đã được sửa, và lý do 'our records confirm when your message was sent' không liên quan." },
+        { "text": "send us your screenshot", "trap": "none", "whyVi": "Đúng: Corinne đề nghị gửi ảnh chụp màn hình; phòng khám đã có hồ sơ thời gian nên không cần." },
+        { "text": "arrange childcare next time", "trap": "word_match", "whyVi": "'childcare' có trong thư gốc nhưng không liên quan đến hồ sơ thời gian tin nhắn." },
+        { "text": "switch to a different doctor", "trap": "not_mentioned", "whyVi": "Không ai nhắc đến việc đổi bác sĩ." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I'm happy to forward the screenshot if it would help.",
+      "explanationVi": "Lý do 'as our records already confirm when your message was sent' → thứ không còn cần là bằng chứng về thời gian gửi, tức là ảnh chụp màn hình Corinne đề nghị gửi.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "waive a fee", "vi": "miễn phí, bỏ qua khoản phí", "definition": "to officially agree not to charge a fee", "example": "The clinic agreed to waive the fee because of the phone problem." },
+    { "term": "come down with", "vi": "bị (ốm, sốt)", "definition": "to start to have an illness", "example": "My son came down with a fever the night before the trip." },
+    { "term": "patient portal", "vi": "cổng thông tin bệnh nhân trực tuyến", "definition": "a secure website where patients can message a clinic and see their records", "example": "You can cancel through the patient portal." },
+    { "term": "out of character", "vi": "không giống tính cách thường ngày", "definition": "not typical of the way a person usually behaves", "example": "Missing a deadline is completely out of character for her." },
+    { "term": "strictly speaking", "vi": "nói một cách chính xác, về nguyên tắc", "definition": "if you follow the rules or facts exactly", "example": "Strictly speaking, the form was late, but we accepted it." },
+    { "term": "business day", "vi": "ngày làm việc", "definition": "a weekday when offices are open, not a weekend or holiday", "example": "We reply to messages within one business day." },
+    { "term": "statement", "vi": "bảng sao kê, hóa đơn tổng hợp", "definition": "a document listing charges and payments on an account", "example": "The fee no longer appears on my statement." },
+    { "term": "in error", "vi": "do nhầm lẫn", "definition": "by mistake", "example": "The charge was added to my account in error." }
+  ]
+}

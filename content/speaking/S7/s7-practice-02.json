@@ -1,0 +1,59 @@
+{
+  "id": "s7-practice-02",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "practice",
+  "difficulty": 6,
+  "topic": "community-services",
+  "title": "Required volunteer hours for high school students",
+  "prompt": "Some people think that all high school students should be required to complete a certain number of volunteer hours in their community before they graduate.\n\nDo you agree or disagree with this idea? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "State agree/disagree clearly",
+    "Reason 1: skills students learn + example",
+    "Reason 2: discovering interests + personal story",
+    "Reason 3 or counter-argument with your answer",
+    "Conclusion"
+  ],
+  "modelAnswer": "I agree that high school students should have to do some volunteer work before they graduate, and here's why.\n\nThe main reason is that volunteering teaches young people skills they don't really learn in the classroom. For example, if a student volunteers at a food bank, they learn how to work in a team, follow instructions and talk to people from different backgrounds. These are exactly the skills employers look for.\n\nAnother reason is that it helps students find out what they're interested in. My nephew volunteered at a seniors' home in Richmond, and he enjoyed it so much that he's now studying to become a nurse. Without that experience, he might never have thought about it.\n\nAlso, volunteering connects young people to their community. When they see the problems some people face, they often become more caring and more responsible.\n\nSome people might say that students are already too busy with homework, sports and part-time jobs. That's true, but the requirement doesn't have to be huge. Something like thirty hours over four years is very manageable.\n\nSo, for all these reasons, I think a volunteer requirement would benefit both students and the community.",
+  "usefulExpressions": [
+    {
+      "expression": "I agree that…, and here's why.",
+      "usageVi": "Câu mở đầu rõ ràng và tự nhiên cho S7."
+    },
+    {
+      "expression": "The main reason is that…",
+      "usageVi": "Giới thiệu lý do quan trọng nhất."
+    },
+    {
+      "expression": "For example, if…, they…",
+      "usageVi": "Đưa ví dụ giả định để minh họa lý do."
+    },
+    {
+      "expression": "Without that experience, he might never have…",
+      "usageVi": "Câu điều kiện hỗn hợp/quá khứ — giúp nâng điểm ngữ pháp mà vẫn dễ dùng."
+    },
+    {
+      "expression": "Some people might say that…. That's true, but…",
+      "usageVi": "Đưa phản biện và trả lời — thể hiện tư duy cân bằng."
+    },
+    {
+      "expression": "So, for all these reasons, …",
+      "usageVi": "Mở đầu phần kết luận."
+    }
+  ],
+  "commonMistakes": [
+    "Nói 'I am agree' — sai rất phổ biến. Đúng: 'I agree'.",
+    "Ví dụ quá chung ('Volunteering is good for everyone'). Một câu chuyện ngắn về người thật (người thân, đồng nghiệp) thuyết phục hơn nhiều.",
+    "Nói quá nhanh để kịp 90 giây rồi bị vấp. Nói chậm vừa phải, dùng từ nối để có thời gian suy nghĩ."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked clear agreement, three reasons, counter-argument, length (~194). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

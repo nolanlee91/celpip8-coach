@@ -1,0 +1,144 @@
+{
+  "id": "l3-full-01",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Payroll orientation for a new employee",
+  "context": "You will hear a payroll coordinator at a logistics company in Delta explaining pay and benefits to a new employee.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Nadia", "voice": "female_b", "text": "Okay, Marcus, welcome aboard. This is usually the least exciting part of orientation, but it's the part people ask me about most later, so bear with me." },
+        { "speaker": "Marcus", "voice": "male_a", "text": "No, it's fine. Honestly, getting paid is the part I care about most." },
+        { "speaker": "Nadia", "voice": "female_b", "text": "Ha, fair enough. So, we pay every two weeks, on Fridays. Each pay period runs two weeks, Sunday to Saturday, and you're paid the Friday after it ends. So there's always about a week's delay." },
+        { "speaker": "Nadia", "voice": "female_b", "text": "Your first pay date will be November twentieth." },
+        { "speaker": "Marcus", "voice": "male_a", "text": "The twentieth. And that covers my first full two weeks?" },
+        { "speaker": "Nadia", "voice": "female_b", "text": "Not quite. You started on a Wednesday, so your first cheque only covers four days. People are sometimes surprised by that, so I like to mention it up front." },
+        { "speaker": "Marcus", "voice": "male_a", "text": "Got it. Small first cheque." },
+        { "speaker": "Nadia", "voice": "female_b", "text": "Now, direct deposit. I'll need either a void cheque or a direct deposit form from your bank. You can usually print one from online banking." },
+        { "speaker": "Nadia", "voice": "female_b", "text": "If I get it by this Friday, your first pay goes straight into your account. If not, we'll mail you a paper cheque, and that can take another few days." },
+        { "speaker": "Marcus", "voice": "male_a", "text": "I can print the form tonight. Can I just email it to you?" },
+        { "speaker": "Nadia", "voice": "female_b", "text": "Please don't email banking information. Upload it in the employee portal, under My Pay. It's encrypted." },
+        { "speaker": "Marcus", "voice": "male_a", "text": "Okay, the portal. What about benefits? My last employer had a waiting period, I think." },
+        { "speaker": "Nadia", "voice": "female_b", "text": "We do too. Extended health and dental start on the first of the month after your three months are up, so for you that'd be March first. You'll get an email from the insurance company, Coastal Life, about two weeks before." },
+        { "speaker": "Nadia", "voice": "female_b", "text": "Make sure you enroll within thirty-one days of that start date. If you miss it, you'd have to fill out a medical questionnaire, and they can actually decline you." },
+        { "speaker": "Marcus", "voice": "male_a", "text": "Wow, okay. That's important. Thirty-one days." },
+        { "speaker": "Nadia", "voice": "female_b", "text": "Exactly. Last thing, timesheets. You'll enter your hours in the TimeTrack app. Do it daily if you can, but the deadline is Monday at ten a.m. for the previous week." },
+        { "speaker": "Nadia", "voice": "female_b", "text": "And any overtime needs your supervisor's approval before you work it, not after." },
+        { "speaker": "Marcus", "voice": "male_a", "text": "What happens if I'm late with a timesheet?" },
+        { "speaker": "Nadia", "voice": "female_b", "text": "You still get paid for those hours, but on the next pay date, not this one. So, two weeks later. It's not the end of the world, but nobody likes it." },
+        { "speaker": "Marcus", "voice": "male_a", "text": "Makes sense. So, deposit form by Friday, TimeTrack by Monday morning, benefits in March." },
+        { "speaker": "Nadia", "voice": "female_b", "text": "You've got it. And my extension's on your welcome sheet if anything comes up." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What does Nadia tell Marcus about his first paycheque?",
+          "options": [
+            { "text": "It will cover his first two full weeks of work.", "trap": "wrong_speaker", "whyVi": "Đây là điều Marcus đoán, và Nadia trả lời 'Not quite'." },
+            { "text": "It will be paid on a Wednesday.", "trap": "word_match", "whyVi": "'Wednesday' là ngày Marcus bắt đầu làm; lương trả vào thứ Sáu." },
+            { "text": "It will be smaller because it covers only part of a pay period.", "trap": "none", "whyVi": "Đúng: anh bắt đầu vào thứ Tư nên séc đầu chỉ tính 4 ngày." },
+            { "text": "It will arrive about a week later than usual.", "trap": "partially_true", "whyVi": "Việc trễ khoảng một tuần áp dụng cho MỌI kỳ lương, không riêng kỳ đầu." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "You started on a Wednesday, so your first cheque only covers four days.",
+          "explanationVi": "'Only covers four days' = chỉ một phần kỳ lương 2 tuần, nên séc nhỏ hơn. Marcus tóm lại: 'Small first cheque'.",
+          "vocabulary": ["pay period"]
+        },
+        {
+          "number": 2,
+          "prompt": "Why does Nadia ask Marcus not to email his deposit form?",
+          "options": [
+            { "text": "She wants to keep his financial details secure.", "trap": "none", "whyVi": "Đúng: không gửi thông tin ngân hàng qua email; cổng nhân viên được mã hóa." },
+            { "text": "Email can take a few extra days to reach payroll.", "trap": "word_match", "whyVi": "'A few days' là thời gian gửi séc giấy qua bưu điện, không phải email." },
+            { "text": "The bank has to send the form to her directly.", "trap": "not_mentioned", "whyVi": "Nadia không nói ngân hàng phải gửi trực tiếp." },
+            { "text": "She needs the original paper copy.", "trap": "opposite", "whyVi": "Cô yêu cầu tải lên cổng điện tử, không cần bản giấy." }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "Please don't email banking information. Upload it in the employee portal, under My Pay. It's encrypted.",
+          "explanationVi": "Lý do được ngụ ý qua 'It's encrypted' (cổng được mã hóa) – tức là vì an toàn thông tin. Đáp án A diễn đạt lại.",
+          "vocabulary": ["encrypted"]
+        },
+        {
+          "number": 3,
+          "prompt": "What will happen if Nadia does not receive the deposit form by Friday?",
+          "options": [
+            { "text": "His first pay will be held until the following pay date.", "trap": "wrong_detail", "whyVi": "Bị lùi sang kỳ sau là hậu quả của nộp bảng chấm công trễ, không phải mẫu ngân hàng." },
+            { "text": "He will have to pick up a cheque at the office.", "trap": "not_mentioned", "whyVi": "Séc được gửi qua bưu điện, không phải đến văn phòng lấy." },
+            { "text": "He will receive a paper cheque by mail, possibly a few days late.", "trap": "none", "whyVi": "Đúng: 'we'll mail you a paper cheque, and that can take another few days'." },
+            { "text": "His benefits will start later.", "trap": "not_mentioned", "whyVi": "Không liên quan; bảo hiểm phụ thuộc thời gian chờ 3 tháng." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "If not, we'll mail you a paper cheque, and that can take another few days.",
+          "explanationVi": "Có hai trường hợp 'trễ' trong bài: trễ mẫu ngân hàng → séc giấy gửi qua bưu điện; trễ bảng chấm công → trả vào kỳ sau. Câu hỏi hỏi về mẫu ngân hàng.",
+          "vocabulary": ["direct deposit"]
+        },
+        {
+          "number": 4,
+          "prompt": "When will Marcus's extended health and dental coverage begin?",
+          "options": [
+            { "text": "On November twentieth.", "trap": "wrong_detail", "whyVi": "Đây là ngày trả lương đầu tiên." },
+            { "text": "About two weeks before March.", "trap": "wrong_detail", "whyVi": "Đây là lúc anh nhận email từ công ty bảo hiểm, không phải ngày bắt đầu bảo hiểm." },
+            { "text": "Thirty-one days after his first day.", "trap": "wrong_detail", "whyVi": "31 ngày là hạn đăng ký sau ngày bắt đầu bảo hiểm." },
+            { "text": "On the first of March.", "trap": "none", "whyVi": "Đúng: 'for you that'd be March first' – ngày đầu tháng sau khi đủ 3 tháng chờ." }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "Extended health and dental start on the first of the month after your three months are up, so for you that'd be March first.",
+          "explanationVi": "Bài có nhiều mốc thời gian: 20/11 (lương), 1/3 (bảo hiểm bắt đầu), 2 tuần trước đó (email), 31 ngày (hạn đăng ký). Cần ghi chú mốc nào đi với 'start'.",
+          "vocabulary": ["waiting period"]
+        },
+        {
+          "number": 5,
+          "prompt": "What could happen if Marcus misses the enrollment deadline?",
+          "options": [
+            { "text": "He would be enrolled automatically a month later.", "trap": "not_mentioned", "whyVi": "Không có việc tự động đăng ký." },
+            { "text": "The insurer might refuse to cover him.", "trap": "none", "whyVi": "Đúng: phải làm bảng câu hỏi y tế và 'they can actually decline you'." },
+            { "text": "He would pay a penalty on his next paycheque.", "trap": "not_mentioned", "whyVi": "Bài không nói bị trừ tiền phạt." },
+            { "text": "He would have to wait another three months.", "trap": "word_match", "whyVi": "'Three months' là thời gian chờ ban đầu, không phải hậu quả của việc trễ hạn." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "If you miss it, you'd have to fill out a medical questionnaire, and they can actually decline you.",
+          "explanationVi": "'They can actually decline you' = công ty bảo hiểm có thể từ chối. 'Decline' ↔ 'refuse'.",
+          "vocabulary": ["enroll", "decline"]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Nadia say about overtime?",
+          "options": [
+            { "text": "It must be entered in TimeTrack every day.", "trap": "partially_true", "whyVi": "Nhập giờ hằng ngày chỉ là lời khuyên cho bảng chấm công nói chung, không phải quy định về làm thêm." },
+            { "text": "It is approved after the timesheet is submitted.", "trap": "opposite", "whyVi": "Nadia nói rõ 'before you work it, not after'." },
+            { "text": "It needs to be authorized before it is worked.", "trap": "none", "whyVi": "Đúng: cần quản lý duyệt trước khi làm thêm giờ." },
+            { "text": "It is always paid two weeks late.", "trap": "word_match", "whyVi": "'Two weeks later' nói về bảng chấm công nộp trễ, không phải giờ làm thêm." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "And any overtime needs your supervisor's approval before you work it, not after.",
+          "explanationVi": "'Needs your supervisor's approval before you work it' = phải được duyệt trước. 'Approval' ↔ 'authorized'.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "pay period", "vi": "kỳ lương", "definition": "the span of time that one paycheque covers", "example": "Each pay period runs two weeks, Sunday to Saturday." },
+    { "term": "direct deposit", "vi": "trả lương trực tiếp vào tài khoản", "definition": "pay that goes straight into an employee's bank account", "example": "Send me your direct deposit form by Friday." },
+    { "term": "void cheque", "vi": "séc hủy (ghi VOID, dùng để lấy thông tin tài khoản)", "definition": "a cheque marked VOID, used to show bank account details", "example": "I'll need a void cheque or a deposit form." },
+    { "term": "encrypted", "vi": "được mã hóa", "definition": "protected by changing data into a secret code", "example": "Upload it to the portal. It's encrypted." },
+    { "term": "waiting period", "vi": "thời gian chờ (trước khi có quyền lợi)", "definition": "the time a new employee must work before benefits start", "example": "Our benefits have a three-month waiting period." },
+    { "term": "enroll", "vi": "đăng ký tham gia", "definition": "to officially sign up for a plan or program", "example": "Enroll within thirty-one days of your start date." },
+    { "term": "decline", "vi": "từ chối", "definition": "to refuse an application or request", "example": "The insurer can decline you if you apply late." },
+    { "term": "timesheet", "vi": "bảng chấm công", "definition": "a record of the hours an employee has worked", "example": "Submit your timesheet by Monday at ten." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; key matched. Fixed a timeline error: start on a Wednesday with a 4-day first cheque paid Fri Nov 20 means a start date of ~Nov 11, so 'after three months' could not be Feb 1. Benefits now start the first of the month after 3 months (March 1); transcript, Marcus's recap, Q4 options B/D, evidence, whyVi and explanationVi updated." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

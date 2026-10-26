@@ -1,0 +1,68 @@
+{
+  "id": "w2-practice-03",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "Downtown transportation: bike lanes or parking",
+  "situation": "Your city council is preparing next year's transportation budget and can afford only one major project in the downtown area. Residents have been invited to share their views in an online survey.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Build more protected bike lanes downtown, separated from car traffic by concrete barriers.",
+  "optionB": "Option B: Build a new multi-level parking garage with 400 spaces in the downtown core.",
+  "structure": [
+    "Opening: state your choice in one sentence",
+    "Reason 1 (safety) + a short personal example",
+    "Reason 2 (long-term cost and community benefits) + comparison with the other option",
+    "Acknowledge who needs the other option + suggest a smaller solution for them",
+    "Conclusion summarising the benefits in three words or phrases"
+  ],
+  "modelResponse": "I would support building more protected bike lanes downtown rather than a new parking garage.\n\nMy first reason is safety. Many people would like to cycle to work, but they are afraid of sharing the road with trucks and buses. Lanes separated by concrete barriers make cycling realistic for ordinary commuters, not only confident riders. I started biking to my office last spring after a protected lane opened on my route, and I now feel completely comfortable doing it.\n\nSecondly, bike lanes are a better long-term investment. A 400-space garage would be extremely expensive to build, and it would probably attract even more cars into an area that is already congested. Encouraging cycling, on the other hand, reduces traffic, lowers emissions and helps people stay active, which benefits the whole community.\n\nI realize that some drivers, especially people with mobility challenges, depend on convenient parking. However, the city could address this by reserving existing street spaces for accessible parking instead of constructing an entire new building.\n\nIn short, protected bike lanes would make downtown safer, cleaner and less crowded, so I believe they are the wiser choice.",
+  "usefulExpressions": [
+    {
+      "expression": "I would support… rather than…",
+      "usageVi": "Nêu lựa chọn và loại trừ phương án kia trong cùng một câu."
+    },
+    {
+      "expression": "My first reason is…",
+      "usageVi": "Mở đầu lý do thứ nhất ngắn gọn, rõ ràng."
+    },
+    {
+      "expression": "make cycling realistic for…",
+      "usageVi": "Cấu trúc 'make + N + adj' — đa dạng ngữ pháp, rất tự nhiên."
+    },
+    {
+      "expression": "a better long-term investment",
+      "usageVi": "Lập luận về chi phí dài hạn, phù hợp khi bàn về ngân sách thành phố."
+    },
+    {
+      "expression": "on the other hand",
+      "usageVi": "Đối chiếu hai ý trái ngược."
+    },
+    {
+      "expression": "I realize that…. However, the city could address this by…",
+      "usageVi": "Thừa nhận lo ngại của bên kia và đưa giải pháp — giúp bài cân bằng, thuyết phục."
+    },
+    {
+      "expression": "In short, …",
+      "usageVi": "Mở đầu kết luận ngắn gọn."
+    }
+  ],
+  "commonMistakes": [
+    "Dùng số liệu bịa đặt quá cụ thể ('bike lanes reduce accidents by 87%'). Ví dụ cá nhân hoặc lập luận logic an toàn và thuyết phục hơn.",
+    "Nhầm 'bicycle road' hoặc 'bike road' — đúng là 'bike lane'; 'parking building' nên là 'parking garage' hoặc 'parkade' (từ phổ biến ở BC).",
+    "Thiếu mạo từ: 'city should build garage' → 'the city should build a garage'.",
+    "Đoạn kết chỉ lặp lại y nguyên câu mở bài. Hãy diễn đạt lại và tóm tắt lợi ích chính."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked choice, reasons, concession + alternative, no invented statistics, BC term 'parkade' note, word count (187). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

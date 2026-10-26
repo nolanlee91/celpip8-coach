@@ -1,0 +1,125 @@
+{
+  "id": "r4-drill-01",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "environment",
+  "title": "Inference drill: Cedarvale Bans Gas Leaf Blowers",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 6 independently; keys match. Blank 5 (author-flagged) relied only on comment logic; comment now says 'I assumed, like the people who first emailed Councillor Thackeray, that the ban was mainly about [[5]]', so the article ('People wrote to me about the noise') supports 'noise'; explanation updated." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "Starting in 2028, the District of Cedarvale will no longer allow gas-powered leaf blowers, under a bylaw that council passed 5–2 on Tuesday. The ban will apply to homeowners and commercial landscapers alike. Until then, gas blowers may be used only between 9 a.m. and 5 p.m. on weekdays.\n\nCouncillor Imogen Thackeray, who brought the motion forward, says the emails she received at first had little to do with the environment. \"People wrote to me about the noise: night-shift nurses trying to sleep, parents with newborns, people working from home,\" she said. \"Then I started reading the research.\" A typical two-stroke gas blower, she noted, can release more smog-forming pollution in an hour than a car driven several hundred kilometres.\n\nLandscaping companies are less enthusiastic. Rafael Quintero, whose twelve-person crew maintains strata properties across the region, has already replaced half his blowers with battery models and says he does not oppose the goal. His problem is timing. \"A good commercial battery setup costs about $2,500 per worker once you include spare batteries and chargers,\" he said. \"On a big strata job in November, with wet leaves, we go through batteries by lunchtime. I'm not saying no. I'm saying not yet.\"\n\nThe district will offer a rebate of up to $300 per machine for businesses that switch before the deadline. Quintero called the amount \"a nice gesture.\"\n\nSome residents question whether the bylaw goes far enough, or whether it is needed at all. Retired forester Bill Haugland, who has lived in Cedarvale for forty years, says the simplest solution is a rake. \"We managed for generations without blowing leaves around,\" he said. \"Leaving some leaves on garden beds is better for insects and soil anyway.\" Meanwhile, a group of homeowners has started a petition arguing that the district should deal with larger pollution sources, such as idling trucks, before targeting yard equipment.\n\nThackeray says the two-year phase-in was designed as a compromise. \"Nobody should have to throw away a machine they bought last year,\" she said. \"By 2028, battery technology should have caught up, and if it hasn't, council can revisit the date.\"",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I live next door to a large strata complex in Cedarvale, so I've heard more than my share of leaf blowers. I'll be honest: when I first saw the headline, I assumed, like the people who first emailed Councillor Thackeray, that the ban was mainly about [[5]], and I was surprised to learn how much pollution one small machine can produce. Mr. Quintero's concerns sound reasonable to me, especially for a small crew working through a wet November. Still, I like that council [[6]] if the technology isn't ready by 2028. That kind of flexibility should reassure small businesses like his, and it gives everyone a clear target to work toward. In the meantime, I may just dust off my old rake, as Mr. Haugland suggests.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What can be inferred about Councillor Thackeray's interest in the issue?",
+      "options": [
+        { "text": "She was concerned about smog from the very beginning.", "trap": "opposite", "whyVi": "Bà nói thư lúc đầu 'had little to do with the environment'; bà chỉ đọc nghiên cứu về ô nhiễm sau đó." },
+        { "text": "It began with residents' complaints about noise.", "trap": "none", "whyVi": "Đúng: Người dân viết thư về tiếng ồn, 'Then I started reading the research'." },
+        { "text": "It began when landscapers asked for new rules.", "trap": "wrong_speaker", "whyVi": "Các công ty cảnh quan 'less enthusiastic' — họ không đề xuất lệnh cấm." },
+        { "text": "She works night shifts and cannot sleep.", "trap": "wrong_detail", "whyVi": "Y tá ca đêm là người viết thư cho bà, không phải bà." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"People wrote to me about the noise: night-shift nurses trying to sleep, parents with newborns, people working from home,\" she said. \"Then I started reading the research.\"",
+      "explanationVi": "Chữ 'at first' và 'Then' cho biết thứ tự: đầu tiên là phàn nàn về tiếng ồn, sau đó mới là nghiên cứu môi trường. Vậy sự quan tâm của bà bắt đầu từ tiếng ồn."
+    },
+    {
+      "number": 2,
+      "prompt": "What does Rafael Quintero mean when he says, \"I'm not saying no. I'm saying not yet\"?",
+      "options": [
+        { "text": "He refuses to stop using gas blowers.", "trap": "opposite", "whyVi": "Ông đã thay một nửa máy bằng máy pin và 'does not oppose the goal'." },
+        { "text": "He thinks battery blowers already work as well as gas ones.", "trap": "opposite", "whyVi": "Ông nói pin hết trước bữa trưa khi làm việc với lá ướt — máy pin chưa đủ tốt." },
+        { "text": "He wants the ban to apply only to homeowners.", "trap": "not_mentioned", "whyVi": "Ông không đề xuất chỉ áp dụng cho chủ nhà." },
+        { "text": "He accepts the goal but feels the deadline comes too soon.", "trap": "none", "whyVi": "Đúng: 'does not oppose the goal' + 'His problem is timing'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "has already replaced half his blowers with battery models and says he does not oppose the goal. His problem is timing.",
+      "explanationVi": "'Not saying no' = không phản đối mục tiêu; 'not yet' = chưa phải bây giờ. Câu 'His problem is timing' xác nhận ông thấy thời hạn quá sớm."
+    },
+    {
+      "number": 3,
+      "prompt": "By calling the rebate \"a nice gesture,\" Quintero most likely means that",
+      "options": [
+        { "text": "it is too small to make much difference.", "trap": "none", "whyVi": "Đúng: So với $2,500 mỗi công nhân, $300 mỗi máy chỉ là 'cử chỉ đẹp', không giải quyết được chi phí." },
+        { "text": "he is very grateful for the district's generosity.", "trap": "opposite", "whyVi": "Đây là hiểu theo nghĩa đen. Trong ngữ cảnh chi phí $2,500, 'a nice gesture' mang ý chê nhẹ." },
+        { "text": "he did not know the rebate existed.", "trap": "not_mentioned", "whyVi": "Bài không nói ông không biết về khoản hoàn tiền." },
+        { "text": "he plans to give the money to his workers.", "trap": "not_mentioned", "whyVi": "Không có thông tin này." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"A good commercial battery setup costs about $2,500 per worker once you include spare batteries and chargers,\"",
+      "explanationVi": "'A nice gesture' (một cử chỉ đẹp) thường dùng để nói điều gì đó có thiện ý nhưng không đủ. So sánh hai con số: hoàn $300/máy trong khi bộ thiết bị tốn $2,500/người → ông ngụ ý khoản hỗ trợ quá nhỏ. Đây là suy luận giọng điệu.",
+      "vocabulary": ["a nice gesture"]
+    },
+    {
+      "number": 4,
+      "prompt": "What can be inferred about Bill Haugland's view?",
+      "options": [
+        { "text": "He believes all leaves should be cleared from gardens.", "trap": "opposite", "whyVi": "Ông nói để lại một ít lá trên luống hoa thì tốt cho côn trùng và đất." },
+        { "text": "He is worried about the cost to landscaping businesses.", "trap": "wrong_speaker", "whyVi": "Lo ngại chi phí là của ông Quintero." },
+        { "text": "He sees leaf blowers of any kind as largely unnecessary.", "trap": "none", "whyVi": "Đúng: 'the simplest solution is a rake' và 'We managed for generations without blowing leaves around'." },
+        { "text": "He thinks idling trucks should be dealt with first.", "trap": "wrong_speaker", "whyVi": "Đó là lập luận của nhóm chủ nhà ký kiến nghị, không phải của Haugland." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "\"We managed for generations without blowing leaves around,\" he said.",
+      "explanationVi": "Ông không nói thẳng 'máy thổi lá không cần thiết', nhưng 'the simplest solution is a rake' và 'managed for generations without' ngụ ý mọi loại máy thổi lá (xăng hay pin) đều không thật sự cần."
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "noise", "trap": "none", "whyVi": "Đúng: Người viết 'surprised to learn how much pollution' → trước đó nghĩ lệnh cấm là vì tiếng ồn, giống những thư đầu tiên gửi bà Thackeray." },
+        { "text": "smog", "trap": "opposite", "whyVi": "Nếu đã nghĩ là vì khói bụi thì người viết sẽ không 'surprised to learn how much pollution'." },
+        { "text": "insects and soil", "trap": "wrong_speaker", "whyVi": "Côn trùng và đất là ý của ông Haugland về việc để lá lại." },
+        { "text": "idling trucks", "trap": "word_match", "whyVi": "Xe tải chạy không tải là ý của nhóm kiến nghị, không phải lý do của lệnh cấm." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"People wrote to me about the noise: night-shift nurses trying to sleep, parents with newborns, people working from home,\"",
+      "explanationVi": "Chỗ trống có hai manh mối. (1) 'like the people who first emailed Councillor Thackeray' → bài nói những thư đầu tiên gửi bà là 'about the noise'. (2) Vế sau 'I was surprised to learn how much pollution...' → điều người viết nghĩ lúc đầu KHÔNG phải ô nhiễm. Vậy đáp án là 'noise'."
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "will pay $2,500 per worker", "trap": "wrong_detail", "whyVi": "$2,500 là chi phí ông Quintero nêu; hội đồng chỉ hoàn tối đa $300 mỗi máy." },
+        { "text": "has banned gas blowers immediately", "trap": "opposite", "whyVi": "Lệnh cấm bắt đầu năm 2028, không phải ngay lập tức." },
+        { "text": "will target trucks instead", "trap": "wrong_speaker", "whyVi": "Đó là đề xuất của nhóm kiến nghị, hội đồng không hứa điều này." },
+        { "text": "is willing to change the deadline", "trap": "none", "whyVi": "Đúng: 'if it hasn't, council can revisit the date'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "\"By 2028, battery technology should have caught up, and if it hasn't, council can revisit the date.\"",
+      "explanationVi": "'If the technology isn't ready' = 'if it hasn't [caught up]'. 'Revisit the date' = xem xét lại thời hạn → 'is willing to change the deadline'. Câu sau 'That kind of flexibility' cũng xác nhận.",
+      "vocabulary": ["revisit"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "bring forward a motion", "vi": "đưa ra kiến nghị (trong hội đồng)", "definition": "to formally suggest something for a council to vote on", "example": "Councillor Thackeray brought the motion forward." },
+    { "term": "a nice gesture", "vi": "một cử chỉ đẹp (thường ngụ ý chưa đủ)", "definition": "a kind action that shows good intentions but may not be enough", "example": "The $300 rebate is a nice gesture, but batteries cost far more." },
+    { "term": "phase-in", "vi": "giai đoạn áp dụng dần", "definition": "a period in which a new rule is introduced gradually", "example": "The two-year phase-in gives businesses time to adjust." },
+    { "term": "compromise", "vi": "sự thoả hiệp", "definition": "an agreement in which each side accepts less than it wanted", "example": "The deadline was designed as a compromise." },
+    { "term": "revisit", "vi": "xem xét lại", "definition": "to consider a decision again", "example": "Council can revisit the date if needed." },
+    { "term": "catch up", "vi": "bắt kịp", "definition": "to reach the same level as something else", "example": "Battery technology should catch up by 2028." },
+    { "term": "idling", "vi": "nổ máy tại chỗ, chạy không tải", "definition": "running an engine while the vehicle is not moving", "example": "Idling trucks are a bigger source of pollution." }
+  ]
+}

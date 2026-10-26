@@ -1,0 +1,272 @@
+{
+  "id": "l4-full-01",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "full",
+  "difficulty": 6,
+  "topic": "transportation",
+  "title": "News: Alder Creek bridge opening delayed",
+  "context": "You will hear a local radio news report about a new bridge for pedestrians and cyclists in Maple Ridge.",
+  "estimatedMinutes": 5,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Good morning. People in Maple Ridge who were hoping to walk or cycle across the new Alder Creek Crossing will have to wait a little longer. The city announced yesterday that the pedestrian and cyclist bridge, which was supposed to open at the end of this month, will now open in early March at the earliest."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "City engineer Priya Nandakumar says the delay is not about the bridge itself. She explained that the steel deck passed its safety inspections back in September. The problem is the lighting."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "According to Nandakumar, the light posts that arrived from the supplier did not meet the city's standard for wind resistance, so they had to be sent back. Replacement posts are expected in January, and crews will then need about four weeks to install and test them before the bridge can be used safely after dark."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The delay is frustrating for commuters like Daniel Okafor, who cycles to his job at a distribution centre on the other side of the creek. He told us the current detour along Dewdney Trunk Road adds about twenty minutes to his ride each way, and that the road has no proper bike lane."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The city says it has heard those concerns. Starting next Monday, a temporary shuttle van will run between the two ends of the bridge every thirty minutes during the morning and evening rush hours. Bikes can be loaded onto a rack at the back, and the service is free."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The project's budget has also gone up. The total cost is now estimated at four point two million dollars, about three hundred thousand more than planned. The city says the supplier has agreed to cover part of that extra cost."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Residents can find updates on the city's website or sign up for text alerts."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is the main reason the bridge opening has been delayed?",
+          "options": [
+            {
+              "text": "The steel deck failed a safety inspection.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bài nói mặt cầu thép đã ĐẠT kiểm tra an toàn từ tháng 9."
+            },
+            {
+              "text": "Some lighting equipment did not meet the city's requirements.",
+              "trap": "none",
+              "whyVi": "Đúng: cột đèn từ nhà cung cấp không đạt tiêu chuẩn chịu gió nên phải gửi trả."
+            },
+            {
+              "text": "Strong winds damaged the light posts during construction.",
+              "trap": "word_match",
+              "whyVi": "Bài có từ 'wind' và 'light posts', nhưng nói về tiêu chuẩn chịu gió, không phải gió làm hỏng cột đèn."
+            },
+            {
+              "text": "The city ran out of money for the project.",
+              "trap": "not_mentioned",
+              "whyVi": "Chi phí tăng nhưng bài không nói thành phố hết tiền hay đó là lý do trễ."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "the light posts that arrived from the supplier did not meet the city's standard for wind resistance",
+          "explanationVi": "Người đọc tin nói 'the delay is not about the bridge itself... The problem is the lighting'. Đáp án B diễn đạt lại 'did not meet the city's standard' thành 'did not meet the city's requirements'.",
+          "vocabulary": [
+            "wind resistance",
+            "supplier"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "When is the bridge now expected to open?",
+          "options": [
+            {
+              "text": "At the end of this month",
+              "trap": "wrong_detail",
+              "whyVi": "Đây là ngày mở cửa theo kế hoạch cũ, đã bị hoãn."
+            },
+            {
+              "text": "In January",
+              "trap": "word_match",
+              "whyVi": "Tháng 1 là lúc cột đèn thay thế được giao tới, chưa phải lúc mở cầu."
+            },
+            {
+              "text": "In September",
+              "trap": "wrong_detail",
+              "whyVi": "Tháng 9 là lúc mặt cầu qua kiểm tra an toàn."
+            },
+            {
+              "text": "No sooner than the beginning of March",
+              "trap": "none",
+              "whyVi": "Đúng: 'early March at the earliest' = sớm nhất là đầu tháng 3."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "will now open in early March at the earliest",
+          "explanationVi": "Bài nhắc nhiều mốc thời gian (cuối tháng này, tháng 9, tháng 1, tháng 3). Chỉ 'early March at the earliest' là ngày mở cầu mới; 'at the earliest' được diễn đạt lại thành 'no sooner than'.",
+          "vocabulary": [
+            "at the earliest"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Daniel Okafor say about his current route to work?",
+          "options": [
+            {
+              "text": "It is slower and lacks a safe space for cyclists.",
+              "trap": "none",
+              "whyVi": "Đúng: đường vòng thêm khoảng 20 phút mỗi chiều và không có làn xe đạp đúng nghĩa."
+            },
+            {
+              "text": "The shuttle van does not allow him to bring his bike.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: xe đưa đón có giá để xe đạp phía sau; Daniel cũng không nói điều này."
+            },
+            {
+              "text": "The lighting on the road is poor after dark.",
+              "trap": "wrong_speaker",
+              "whyVi": "Chuyện ánh sáng là phần giải thích của kỹ sư Nandakumar về cây cầu, không phải lời than phiền của Daniel."
+            },
+            {
+              "text": "His workplace is moving to the other side of the creek.",
+              "trap": "word_match",
+              "whyVi": "Bài có cụm 'the other side of the creek' nhưng nơi làm việc của anh vốn đã ở đó, không phải đang chuyển."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "the current detour along Dewdney Trunk Road adds about twenty minutes to his ride each way, and that the road has no proper bike lane",
+          "explanationVi": "'adds about twenty minutes' được diễn đạt lại thành 'slower', 'no proper bike lane' thành 'lacks a safe space for cyclists'.",
+          "vocabulary": [
+            "detour"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What is true about the temporary shuttle service?",
+          "options": [
+            {
+              "text": "It will start operating today.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: dịch vụ bắt đầu từ thứ Hai tới."
+            },
+            {
+              "text": "It will run every fifteen minutes.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai số liệu: xe chạy mỗi 30 phút."
+            },
+            {
+              "text": "It will only operate at peak commuting times.",
+              "trap": "none",
+              "whyVi": "Đúng: xe chạy vào giờ cao điểm sáng và chiều."
+            },
+            {
+              "text": "Riders will pay a small fare.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: dịch vụ miễn phí."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "every thirty minutes during the morning and evening rush hours",
+          "explanationVi": "'morning and evening rush hours' được diễn đạt lại thành 'peak commuting times'. Các lựa chọn khác sai chi tiết về thời gian bắt đầu, tần suất hoặc giá vé.",
+          "vocabulary": [
+            "rush hour"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What does the report say about the cost of the project?",
+          "options": [
+            {
+              "text": "The total cost is now three hundred thousand dollars.",
+              "trap": "wrong_detail",
+              "whyVi": "300.000 đô là phần TĂNG THÊM, tổng chi phí là 4,2 triệu."
+            },
+            {
+              "text": "It has gone up, but the supplier will pay for some of the increase.",
+              "trap": "none",
+              "whyVi": "Đúng: chi phí tăng khoảng 300.000 đô và nhà cung cấp đồng ý trả một phần."
+            },
+            {
+              "text": "The city will cover all of the extra cost itself.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: nhà cung cấp sẽ chịu một phần chi phí phát sinh."
+            },
+            {
+              "text": "A provincial grant will pay for the extra cost.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc tới khoản tài trợ của tỉnh."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "The city says the supplier has agreed to cover part of that extra cost.",
+          "explanationVi": "Bài nói ngân sách 'has gone up' và 'the supplier has agreed to cover part of that extra cost'. Đáp án B gộp hai ý và đổi 'cover part of' thành 'pay for some of'.",
+          "vocabulary": [
+            "supplier"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "at the earliest",
+      "vi": "sớm nhất là",
+      "definition": "not before the time mentioned, and possibly later",
+      "example": "The bridge will open in early March at the earliest."
+    },
+    {
+      "term": "supplier",
+      "vi": "nhà cung cấp",
+      "definition": "a company that provides goods or materials to another business",
+      "example": "The supplier sent the wrong light posts."
+    },
+    {
+      "term": "wind resistance",
+      "vi": "khả năng chịu gió",
+      "definition": "the ability of a structure to stay safe in strong wind",
+      "example": "The posts did not meet the standard for wind resistance."
+    },
+    {
+      "term": "detour",
+      "vi": "đường vòng",
+      "definition": "a longer route used because the usual way is closed or unavailable",
+      "example": "The detour adds twenty minutes to my ride."
+    },
+    {
+      "term": "rush hour",
+      "vi": "giờ cao điểm",
+      "definition": "the busy time when most people travel to or from work",
+      "example": "The shuttle only runs during rush hour."
+    },
+    {
+      "term": "pass an inspection",
+      "vi": "đạt kiểm tra",
+      "definition": "be officially checked and found to meet the required standard",
+      "example": "The steel deck passed its safety inspections in September."
+    },
+    {
+      "term": "sign up for",
+      "vi": "đăng ký",
+      "definition": "register to receive a service or take part in something",
+      "example": "You can sign up for text alerts on the city's website."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independently solved all 5 items; keys match, evidence supports answers, timeline (Jan posts + 4 weeks -> early March) consistent. Radio-news style, one narrator, 298 words. No changes needed."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "s1-practice-01",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Advice on choosing between two job offers",
+  "prompt": "Your friend Daniel has received two job offers. The first is at a large bank in downtown Vancouver. It pays a higher salary, but the commute from his home would take about an hour each way. The second is at a small local company ten minutes from his home. It pays less, but the hours are more flexible. Daniel is not sure which offer to accept.\n\nGive Daniel some advice to help him make his decision.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Greet your friend + show you understand the situation (1–2 sentences)",
+    "Advice 1: compare the real value of the salary (commute time and costs)",
+    "Advice 2: think about long-term career growth — strengths of each option",
+    "Advice 3: think about lifestyle and family",
+    "Wrap up with a practical next step + encouragement"
+  ],
+  "modelAnswer": "Hey Daniel, congratulations on getting two offers! That's a great position to be in, but I know it's a tough decision, so let me share a few thoughts.\n\nFirst of all, I'd suggest looking beyond the salary. The bank pays more, but if you're commuting an hour each way, that's ten hours a week on the SkyTrain or stuck in traffic. You should also add up the cost of transit passes or parking downtown. Once you do the math, the difference in pay might not be as big as it looks.\n\nSecond, think about where you want to be in five years. A big bank usually has clear career paths and good training programs, so if you're aiming for a senior role, that could really pay off. On the other hand, at a small company you'll probably handle a wider variety of tasks, and you might learn faster.\n\nThe last thing to consider is your lifestyle. You've told me you want to spend more time with your kids, and flexible hours would make that a lot easier.\n\nIf I were you, I'd make a simple list of what matters most and score both offers. And don't be afraid to ask the bank whether they allow any hybrid work, because that could change everything. Good luck, and let me know what you decide!",
+  "usefulExpressions": [
+    {
+      "expression": "I'd suggest + V-ing…",
+      "usageVi": "Đưa lời khuyên lịch sự; sau 'suggest' dùng V-ing, không dùng 'suggest you to…'."
+    },
+    {
+      "expression": "Once you do the math, …",
+      "usageVi": "Cách nói tự nhiên: 'khi bạn tính kỹ lại'. Giúp lời khuyên nghe thực tế."
+    },
+    {
+      "expression": "On the other hand, …",
+      "usageVi": "So sánh hai lựa chọn khi khuyên — thể hiện bạn cân nhắc cả hai bên."
+    },
+    {
+      "expression": "The last thing to consider is…",
+      "usageVi": "Báo hiệu ý cuối cùng, giúp người nghe theo dõi bố cục."
+    },
+    {
+      "expression": "If I were you, I'd…",
+      "usageVi": "Câu điều kiện loại 2 kinh điển cho phần khuyên; nhớ dùng 'were', không phải 'was'."
+    },
+    {
+      "expression": "Don't be afraid to…",
+      "usageVi": "Khuyến khích bạn bè làm điều họ còn ngại."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ đưa một lời khuyên rồi lặp lại. 90 giây cần 3 lời khuyên khác nhau, mỗi lời khuyên có lý do hoặc ví dụ.",
+    "Nói 'You should…' cho mọi câu. Đa dạng hóa: 'I'd suggest…', 'It might be a good idea to…', 'If I were you…'.",
+    "Quên nói chuyện trực tiếp với người bạn (dùng 'he' thay vì 'you'). Ở S1, hãy nói như đang trò chuyện với Daniel."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked balanced advice covering both offers, 'If I were you', length (~222 for 90 s). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

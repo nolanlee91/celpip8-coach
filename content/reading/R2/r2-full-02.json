@@ -1,0 +1,168 @@
+{
+  "id": "r2-full-02",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "Taking the ferry with a car and a dog",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. Verified Q1 (two $62 Saver sailings; only 8:30 arrives after 7 p.m.), Q4 (9:45 is the only sailing with pet area + reservations + arrival before 7 p.m.), Q5 ($78+$19=$97; $81, $194 distractors correct). No changes needed." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Ferry schedule",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Salish Passage Ferries — Port Alder to Halloran Island (summer schedule). Fares are one-way. Each additional adult passenger: $19. Pets may stay in vehicles on the car deck or travel in the pet area where available.",
+        "headers": ["Departs Port Alder", "Arrives Halloran Island", "Days", "Vehicle + driver fare", "Pet area on board", "Reservations"],
+        "rows": [
+          ["6:20 a.m.", "7:35 a.m.", "Daily", "$62 (Saver)", "No", "Available"],
+          ["9:45 a.m.", "11:00 a.m.", "Daily", "$78", "Yes", "Available"],
+          ["1:15 p.m.", "2:30 p.m.", "Friday to Sunday only", "$78", "Yes", "Not accepted (first come, first served)"],
+          ["4:40 p.m.", "5:55 p.m.", "Daily", "$78", "No", "Available"],
+          ["8:30 p.m.", "9:45 p.m.", "Daily", "$62 (Saver)", "Yes", "Available"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Gus,\n\nGood news: the cabin on Halloran Island is ours for the Saturday of the long weekend! Check-in is between 3 and 7 p.m., and the owner was very clear that nobody will be around to hand over keys after 7.\n\nI've been staring at the ferry schedule all morning. The cheapest option is the [[1]] sailing, but it gets in too late for check-in, so that's out. Biscuit is the other complication. Since she howls nonstop whenever she's left alone in the car, we need a sailing [[2]]. The 1:15 would be perfect, except that it [[3]], and on a long weekend I don't want to risk sitting in the lineup for hours.\n\nSo the [[4]] sailing it is. With you as an extra passenger, our one-way total comes to [[5]], which isn't bad once we split it.\n\nI'll book it tonight unless you have any objections. One more thing: you'll need to be at my place by 8 so we can reach the terminal in time.\n\nNgozi",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "6:20 a.m.", "trap": "partially_true", "whyVi": "Chuyến 6:20 cũng là giá Saver rẻ nhất, nhưng đến nơi lúc 7:35 sáng — không hề 'too late for check-in'." },
+        { "text": "4:40 p.m.", "trap": "wrong_detail", "whyVi": "Chuyến này giá $78, không phải rẻ nhất, và đến lúc 5:55 — vẫn kịp nhận phòng." },
+        { "text": "8:30 p.m.", "trap": "none", "whyVi": "Đúng: giá Saver $62 (rẻ nhất) nhưng đến 9:45 tối, sau giờ nhận phòng cuối cùng (7 giờ)." },
+        { "text": "9:45 a.m.", "trap": "wrong_detail", "whyVi": "Chuyến 9:45 giá $78, không phải rẻ nhất." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "nobody will be around to hand over keys after 7",
+      "explanationVi": "Có hai chuyến cùng rẻ nhất ($62 Saver): 6:20 và 8:30. Điều kiện thứ hai 'gets in too late for check-in' (nhận phòng trước 7 giờ tối) chỉ đúng với chuyến 8:30 (đến 9:45 tối). Phải áp dụng đủ cả hai điều kiện.",
+      "vocabulary": ["sailing"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "with a pet area on board", "trap": "none", "whyVi": "Đúng: chó không thể ở một mình trong xe, nên cần chuyến có khu vực cho thú cưng." },
+        { "text": "that lets pets stay in vehicles", "trap": "opposite", "whyVi": "Đó chính là điều Ngozi muốn tránh, vì Biscuit tru suốt khi ở một mình trong xe." },
+        { "text": "with reserved seating for passengers", "trap": "not_mentioned", "whyVi": "Bảng không có thông tin ghế ngồi đặt trước; câu đang nói về con chó." },
+        { "text": "that runs every day of the week", "trap": "wrong_detail", "whyVi": "Tần suất chạy không liên quan đến vấn đề của con chó." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Pets may stay in vehicles on the car deck or travel in the pet area where available.",
+      "explanationVi": "Theo chú thích bảng, thú cưng có hai lựa chọn: ở trong xe hoặc ở 'pet area'. Vì Biscuit 'howls nonstop whenever she's left alone in the car', chỉ còn lựa chọn pet area → cột 'Pet area on board' = Yes.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "only runs on weekdays", "trap": "opposite", "whyVi": "Chuyến 1:15 chạy 'Friday to Sunday only' — có chạy thứ Bảy." },
+        { "text": "has no pet area", "trap": "wrong_detail", "whyVi": "Chuyến 1:15 có pet area ('Yes')." },
+        { "text": "arrives after check-in closes", "trap": "wrong_detail", "whyVi": "Đến lúc 2:30 chiều, trước cả giờ nhận phòng." },
+        { "text": "can't be booked ahead of time", "trap": "none", "whyVi": "Đúng: cột Reservations ghi 'Not accepted (first come, first served)'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Not accepted (first come, first served)",
+      "explanationVi": "Vế sau 'I don't want to risk sitting in the lineup for hours' gợi ý vấn đề là phải xếp hàng → không đặt trước được. 'Reservations: Not accepted' = 'can't be booked ahead of time'.",
+      "vocabulary": ["first come, first served", "lineup"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "6:20 a.m.", "trap": "wrong_detail", "whyVi": "Chuyến 6:20 không có pet area." },
+        { "text": "9:45 a.m.", "trap": "none", "whyVi": "Đúng: có pet area, nhận đặt chỗ, đến lúc 11:00 (kịp nhận phòng)." },
+        { "text": "4:40 p.m.", "trap": "wrong_detail", "whyVi": "Đến kịp giờ và nhận đặt chỗ, nhưng không có pet area." },
+        { "text": "1:15 p.m.", "trap": "wrong_detail", "whyVi": "Chuyến này không nhận đặt chỗ — Ngozi vừa loại nó." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "9:45 a.m.",
+      "explanationVi": "Gom tất cả điều kiện: (1) đến trước 7 giờ tối, (2) có pet area, (3) đặt chỗ được. Kiểm tra từng hàng: chỉ chuyến 9:45 sáng thỏa cả ba. Câu cuối 'be at my place by 8' cũng khớp với chuyến buổi sáng.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "$78", "trap": "partially_true", "whyVi": "$78 chỉ là giá xe + tài xế; chưa cộng $19 cho Gus." },
+        { "text": "$81", "trap": "wrong_detail", "whyVi": "$81 = $62 + $19 — dùng nhầm giá Saver của chuyến khác." },
+        { "text": "$97", "trap": "none", "whyVi": "Đúng: $78 (xe + tài xế, chuyến 9:45) + $19 (thêm một người lớn) = $97." },
+        { "text": "$194", "trap": "wrong_detail", "whyVi": "$194 là tiền khứ hồi; email hỏi 'one-way total'." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Each additional adult passenger: $19.",
+      "explanationVi": "Tính toán theo bảng: giá 'Vehicle + driver' của chuyến 9:45 là $78; Gus là 'extra passenger' → cộng $19 theo chú thích. Tổng một chiều = $97.",
+      "vocabulary": ["one-way"]
+    },
+    {
+      "number": 6,
+      "prompt": "Who or what is Biscuit?",
+      "options": [
+        { "text": "The owner of the cabin", "trap": "wrong_speaker", "whyVi": "Chủ cabin là người giao chìa khóa, không liên quan đến việc ở trong xe." },
+        { "text": "Ngozi's car", "trap": "word_match", "whyVi": "Có từ 'car' trong câu, nhưng Biscuit là thứ 'left alone in the car'." },
+        { "text": "Gus's young son", "trap": "not_mentioned", "whyVi": "Không ai nhắc đến con của Gus; và Ngozi đang chọn chuyến có pet area vì Biscuit." },
+        { "text": "Ngozi's dog", "trap": "none", "whyVi": "Đúng: Biscuit 'howls' (tru) khi bị để một mình trong xe, nên cần chuyến có pet area." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Since she howls nonstop whenever she's left alone in the car, we need a sailing",
+      "explanationVi": "Bài không nói thẳng Biscuit là chó. Manh mối: 'howls' (tiếng tru của chó), và tiêu chí chọn chuyến liên quan đến 'pet area'. Ghép bảng với email để suy luận.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Why does Ngozi want a sailing that takes reservations?",
+      "options": [
+        { "text": "She expects heavy traffic at the terminal.", "trap": "none", "whyVi": "Đúng: 'on a long weekend I don't want to risk sitting in the lineup for hours'." },
+        { "text": "Reserved sailings have cheaper fares.", "trap": "not_mentioned", "whyVi": "Giá không phụ thuộc vào việc đặt chỗ ($78 cho cả chuyến đặt được và không đặt được)." },
+        { "text": "The cabin owner needs to see a booking.", "trap": "not_mentioned", "whyVi": "Chủ cabin chỉ yêu cầu đến đúng giờ nhận phòng." },
+        { "text": "Pets are only allowed with a reservation.", "trap": "wrong_detail", "whyVi": "Chuyến 1:15 không nhận đặt chỗ nhưng vẫn có pet area." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "on a long weekend I don't want to risk sitting in the lineup for hours",
+      "explanationVi": "'sitting in the lineup for hours' (xếp hàng chờ hàng giờ) vào 'long weekend' → cô dự đoán sẽ rất đông. Đáp án diễn đạt lại thành 'heavy traffic at the terminal'.",
+      "vocabulary": ["lineup"]
+    },
+    {
+      "number": 8,
+      "prompt": "What does Ngozi suggest about paying for the ferry?",
+      "options": [
+        { "text": "Gus should pay the whole fare.", "trap": "not_mentioned", "whyVi": "Không có ý này." },
+        { "text": "She and Gus will share the cost.", "trap": "none", "whyVi": "Đúng: 'which isn't bad once we split it'." },
+        { "text": "They will get a Saver fare.", "trap": "opposite", "whyVi": "Chuyến 9:45 không phải giá Saver; hai chuyến Saver đều bị loại." },
+        { "text": "The cabin owner will pay them back.", "trap": "not_mentioned", "whyVi": "Không có thông tin hoàn tiền." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "which isn't bad once we split it",
+      "explanationVi": "'split it' = chia đôi chi phí → 'share the cost'.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "sailing", "vi": "chuyến phà/tàu", "definition": "a scheduled trip made by a ferry or ship", "example": "The 9:45 sailing still has space for vehicles." },
+    { "term": "first come, first served", "vi": "ai đến trước được phục vụ trước", "definition": "people are served in the order they arrive, with no bookings", "example": "The afternoon ferry is first come, first served." },
+    { "term": "lineup", "vi": "hàng chờ (xe, người)", "definition": "a line of people or vehicles waiting for something", "example": "The ferry lineup was two hours long on Friday." },
+    { "term": "one-way", "vi": "một chiều", "definition": "for travel to a place but not back again", "example": "A one-way fare for a car and driver is $78." },
+    { "term": "hand over", "vi": "bàn giao, đưa cho", "definition": "to give something to another person", "example": "The owner will hand over the keys at check-in." },
+    { "term": "split", "vi": "chia (chi phí)", "definition": "to divide a cost between two or more people", "example": "Let's split the ferry fare." }
+  ]
+}

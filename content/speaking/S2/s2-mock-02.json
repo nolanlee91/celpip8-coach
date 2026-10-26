@@ -1,0 +1,54 @@
+{
+  "id": "s2-mock-02",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "transportation",
+  "title": "A last-minute change of plans",
+  "prompt": "Talk about a time when you had to change your plans at the last minute. What happened, how did you deal with the change, and what was the result?",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "The original plan (who, where, why it mattered)",
+    "What happened to change it + your first reaction",
+    "How you dealt with it (two concrete actions)",
+    "The result + a lesson"
+  ],
+  "modelAnswer": "Last February, my wife and I had planned a weekend trip to Whistler to celebrate our anniversary. We'd booked a small hotel and some ski lessons, and we were really looking forward to it.\n\nBut on Friday morning, just as we were packing the car, we heard on the radio that the highway had been closed because of heavy snow and a risk of rockslides. At first, I was pretty frustrated, because we'd been planning the trip for weeks.\n\nInstead of giving up, we called the hotel, and luckily, they let us move our booking to March without any fee. Then we quickly looked for something closer to home and found a cozy bed-and-breakfast in Fort Langley, only forty minutes away.\n\nAs it turned out, it was one of the best weekends we've had. We walked along the river, found a fantastic little bakery, and just relaxed. What I learned is that being flexible can sometimes lead to something even better than the original plan.",
+  "usefulExpressions": [
+    {
+      "expression": "We'd booked… / we'd been planning…",
+      "usageVi": "Quá khứ hoàn thành (tiếp diễn) để nói việc đã xảy ra trước sự kiện chính — giúp nâng điểm ngữ pháp."
+    },
+    {
+      "expression": "just as we were + V-ing…",
+      "usageVi": "Diễn tả sự việc xảy ra đúng lúc đang làm việc khác — tạo kịch tính cho câu chuyện."
+    },
+    {
+      "expression": "Instead of giving up, …",
+      "usageVi": "Chuyển sang phần cách giải quyết, thể hiện thái độ tích cực."
+    },
+    {
+      "expression": "As it turned out, …",
+      "usageVi": "'Hóa ra là…' — giới thiệu kết quả bất ngờ."
+    },
+    {
+      "expression": "What I learned is that…",
+      "usageVi": "Câu chẻ (cleft sentence) để rút ra bài học, nghe trôi chảy và tự tin."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ dùng quá khứ đơn cho mọi hành động. Thêm quá khứ tiếp diễn ('we were packing') và quá khứ hoàn thành ('we'd booked') để thể hiện ngữ pháp đa dạng.",
+    "Kể sự việc nhưng quên nói 'how did you deal with it' — phần quan trọng nhất của đề.",
+    "Nói 'change plan' (thiếu mạo từ và số nhiều). Cụm tự nhiên khi kể chuyện là 'change our plans' hoặc 'change plans at the last minute'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Model answer fine (all 3 questions, past perfect/continuous, ~165 words). Rewrote a commonMistake that wrongly implied 'change the plan' is incorrect."
+  },
+  "createdAt": "2026-10-26"
+}

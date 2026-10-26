@@ -87,8 +87,8 @@ export function Passage({
     setSel(null);
     try {
       const sentence = display.slice(Math.max(0, display.lastIndexOf(".", sel.start) + 1), display.indexOf(".", sel.end) + 1 || undefined).trim();
-      await post("/api/vocab", { term, context: sentence, source: sourceLabel });
-      setVocabMsg(`Đã thêm “${term}” vào sổ từ vựng.`);
+      const r = await post<{ from: string }>("/api/vocab", { term, context: sentence, source: sourceLabel });
+      setVocabMsg(r.from === "library" ? `Đã thêm “${term}” (có sẵn nghĩa từ thư viện).` : r.from === "notebook" ? `“${term}” đã có trong sổ.` : `Đã lưu “${term}” — chưa có trong thư viện; bổ sung nghĩa ở trang Từ vựng.`);
       onVocabAdded?.(term);
     } catch (e) {
       setVocabMsg(`Không thêm được: ${(e as Error).message}`);

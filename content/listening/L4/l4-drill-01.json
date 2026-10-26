@@ -1,0 +1,232 @@
+{
+  "id": "l4-drill-01",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "drill",
+  "difficulty": 6,
+  "topic": "recreation",
+  "title": "Missed-information drill: Community garden expansion",
+  "context": "You will hear a local radio news report about a community garden in New Westminster.",
+  "estimatedMinutes": 4,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Gardeners in New Westminster have reason to celebrate. The city has approved an expansion of the Queensborough Community Garden that will add forty-five new plots next spring, bringing the total to one hundred and twenty."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Garden coordinator Ayesha Rahman says the expansion couldn't come soon enough. The waitlist currently has more than two hundred names, and some people have been waiting close to three years."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Rahman says the new plots will be offered first to the people who have been on the list the longest. Anyone who joined after June first of this year should not expect a plot in the first round."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "About ten of the new plots will be raised beds, built roughly waist-high, so they can be used by people with mobility challenges or people who use wheelchairs. Those plots will be assigned through a separate application, which opens on January fifteenth."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Plot fees are going up slightly, from forty to fifty dollars a season, but Rahman says the fee can be waived for low-income households. The extra money will help pay for a new tool shed and a rainwater collection system."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "There's one more change. Gardeners will now be asked to volunteer four hours each season to help look after shared areas, like the paths and the compost bins. Rahman says those who don't put in their hours may lose their plot the following year."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "To check your place on the waitlist, email the garden committee or visit the city's parks page."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How many plots will the garden have after the expansion?",
+          "options": [
+            {
+              "text": "45",
+              "trap": "word_match",
+              "whyVi": "45 là số ô MỚI được thêm vào, không phải tổng số."
+            },
+            {
+              "text": "75",
+              "trap": "wrong_detail",
+              "whyVi": "75 là số ô hiện có (120 trừ 45), bài không nói con số này và câu hỏi hỏi tổng sau khi mở rộng."
+            },
+            {
+              "text": "120",
+              "trap": "none",
+              "whyVi": "Đúng: 'bringing the total to one hundred and twenty'."
+            },
+            {
+              "text": "200",
+              "trap": "wrong_detail",
+              "whyVi": "Hơn 200 là số người trong danh sách chờ."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "bringing the total to one hundred and twenty",
+          "explanationVi": "Bài đọc nhiều con số liền nhau. Từ khóa 'the total' cho biết 120 là tổng số ô sau khi mở rộng.",
+          "vocabulary": [
+            "plot"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "Who will be offered the new regular plots first?",
+          "options": [
+            {
+              "text": "People who joined the waitlist after June first",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: những người này không nên mong có ô trong đợt đầu."
+            },
+            {
+              "text": "People who have waited on the list the longest",
+              "trap": "none",
+              "whyVi": "Đúng: ô mới được ưu tiên cho người đã chờ lâu nhất."
+            },
+            {
+              "text": "People who use wheelchairs",
+              "trap": "word_match",
+              "whyVi": "Người dùng xe lăn liên quan đến các luống nâng, được xét qua đơn riêng, không phải các ô thông thường."
+            },
+            {
+              "text": "Low-income households",
+              "trap": "word_match",
+              "whyVi": "Hộ thu nhập thấp được miễn phí, không phải được ưu tiên nhận ô."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "the new plots will be offered first to the people who have been on the list the longest",
+          "explanationVi": "Câu 'offered first to the people who have been on the list the longest' trả lời trực tiếp. Các nhóm khác được nhắc tới nhưng liên quan đến quy định khác.",
+          "vocabulary": [
+            "waitlist"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What will the higher plot fees be used for?",
+          "options": [
+            {
+              "text": "Building the waist-high raised beds",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói tiền phí dùng để xây luống nâng."
+            },
+            {
+              "text": "Covering fees for low-income gardeners",
+              "trap": "partially_true",
+              "whyVi": "Phí có thể được miễn cho hộ thu nhập thấp, nhưng bài không nói tiền tăng thêm dùng để bù khoản đó."
+            },
+            {
+              "text": "New compost bins and paths",
+              "trap": "word_match",
+              "whyVi": "'Compost bins' và 'paths' là khu vực chung mà người làm vườn phải giúp chăm sóc."
+            },
+            {
+              "text": "A place to store equipment and a way to collect rain",
+              "trap": "none",
+              "whyVi": "Đúng: nhà kho dụng cụ mới và hệ thống thu nước mưa."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "The extra money will help pay for a new tool shed and a rainwater collection system.",
+          "explanationVi": "'tool shed' được diễn đạt lại thành 'a place to store equipment', 'rainwater collection system' thành 'a way to collect rain'.",
+          "vocabulary": [
+            "waive"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What new rule will gardeners have to follow?",
+          "options": [
+            {
+              "text": "Help maintain shared spaces for four hours per season",
+              "trap": "none",
+              "whyVi": "Đúng: tình nguyện 4 giờ mỗi mùa để chăm sóc khu vực chung."
+            },
+            {
+              "text": "Help maintain shared spaces for four hours per month",
+              "trap": "wrong_detail",
+              "whyVi": "Sai đơn vị thời gian: mỗi MÙA, không phải mỗi tháng."
+            },
+            {
+              "text": "Apply again every season to keep their plot",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói phải nộp đơn lại mỗi mùa."
+            },
+            {
+              "text": "Pay an extra fee if they miss a work day",
+              "trap": "not_mentioned",
+              "whyVi": "Bài nói có thể mất ô vào năm sau, không nói đóng phí phạt."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "Gardeners will now be asked to volunteer four hours each season to help look after shared areas",
+          "explanationVi": "A và B chỉ khác nhau ở 'per season' và 'per month'. Bài nói 'four hours each season'.",
+          "vocabulary": [
+            "put in"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "plot",
+      "vi": "ô đất (trồng trọt)",
+      "definition": "a small piece of land used for growing plants",
+      "example": "The garden will add forty-five new plots."
+    },
+    {
+      "term": "waitlist",
+      "vi": "danh sách chờ",
+      "definition": "a list of people waiting for something that is not yet available",
+      "example": "There are more than two hundred names on the waitlist."
+    },
+    {
+      "term": "raised bed",
+      "vi": "luống trồng nâng cao",
+      "definition": "a garden bed built above ground level inside a frame",
+      "example": "Raised beds are easier for wheelchair users."
+    },
+    {
+      "term": "mobility challenges",
+      "vi": "khó khăn đi lại",
+      "definition": "difficulty moving around easily",
+      "example": "The beds are for people with mobility challenges."
+    },
+    {
+      "term": "waive",
+      "vi": "miễn (phí)",
+      "definition": "officially decide not to charge a fee or apply a rule",
+      "example": "The fee can be waived for low-income households."
+    },
+    {
+      "term": "put in (hours)",
+      "vi": "bỏ ra (thời gian, công sức)",
+      "definition": "spend time or effort on a task",
+      "example": "Gardeners who don't put in their hours may lose their plot."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independently solved all 4 items; keys, evidence, traps and Vietnamese explanations correct. Single news-reader voice, 246 words (drill), 3/4 items missed_info. No changes needed."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

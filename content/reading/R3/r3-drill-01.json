@@ -1,0 +1,145 @@
+{
+  "id": "r3-drill-01",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "drill",
+  "difficulty": 6,
+  "topic": "recreation",
+  "title": "Paraphrase drill: Backcountry Camping Permits",
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 6 independently; keys match; Q4 E verified. Changed Q5 statement: 'Cooking over an open flame on the ground' was arguable (portable stoves are also open flames) - now 'Fires built at campsites are forbidden in every season'; explanation updated." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "Since 2024, anyone planning to spend a night in the backcountry of Silverthorn Lake Provincial Park has needed a permit, even on weekdays in the off-season. Park staff introduced the system after several summers in which the most popular lakeside campsites were so crowded that visitors set up their tents on the surrounding alpine meadows. These meadows are fragile: a single season of trampling can take decades to recover. Head ranger Colleen Ashby says the difference is already visible. \"Two years ago, there were bare patches of dirt everywhere. Now the wildflowers are coming back.\"",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "Permits can be reserved online up to four months before the trip, and new dates are released at 7 a.m. Pacific time on the first day of each month. Each permit covers a group of up to six people and costs $10 per person per night, plus a $6 booking fee. Paper permits are no longer issued; campers must show their confirmation on a phone or as a printout if a ranger asks for it. Because there is no cell service beyond the trailhead parking lot, staff strongly recommend downloading the confirmation before leaving home.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Plans change, especially when mountain weather does. Campers who cancel at least three days before their arrival date receive a refund of their camping fees, although the booking fee is kept. Cancellations made after that point are not refunded at all, unless the park itself closes the area, for example because of a wildfire or a bridge washed out by heavy rain. Changing the dates of a trip is treated as a cancellation followed by a new booking, so campers who want to move their trip should do it early to avoid losing money.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Once in the backcountry, campers must stay at the site named on their permit, even if another site looks empty. All food, garbage and scented items such as toothpaste and sunscreen must be kept in the bear-proof metal lockers provided at each site, never inside a tent. Campfires are banned at every backcountry site all year, and only portable stoves with an on/off valve may be used for cooking. Dogs are welcome on the main trail but must be on a leash at all times, and they are not allowed on the upper ridge route.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "A single permit can be used by several people travelling together.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'anyone planning to spend a night ... has needed a permit' nhưng không nói một giấy phép dùng cho bao nhiêu người." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: 'Each permit covers a group of up to six people'." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về huỷ và hoàn tiền." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D nói phải ở đúng khu cắm trại ghi trên giấy phép, nhưng không nói giấy phép dành cho mấy người." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Each permit covers a group of up to six people",
+      "explanationVi": "'A single permit' = 'Each permit'; 'several people travelling together' = 'a group of up to six people'; 'can be used by' = 'covers'."
+    },
+    {
+      "number": 2,
+      "prompt": "The permit system was introduced partly to protect delicate natural areas.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Hệ thống ra đời sau khi khách cắm lều trên đồng cỏ núi cao, nơi 'fragile' và cần hàng chục năm để phục hồi." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói cách đặt giấy phép, không nói lý do có giấy phép." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'the park itself closes the area' — đóng cửa vì cháy rừng, không phải lý do tạo hệ thống giấy phép." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D có quy định về gấu và lửa trại (cũng là bảo vệ), nhưng không nói đó là lý do tạo ra hệ thống giấy phép." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "These meadows are fragile: a single season of trampling can take decades to recover.",
+      "explanationVi": "'Delicate natural areas' = 'fragile ... alpine meadows'. Đoạn A giải thích lý do: trại quá đông nên người ta cắm lều lên đồng cỏ dễ bị hư hại. 'Introduced the system after...' cho biết đó là lý do.",
+      "vocabulary": ["fragile"]
+    },
+    {
+      "number": 3,
+      "prompt": "Someone who cancels the day before arrival will normally get none of their money back.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không nói về huỷ đặt chỗ." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B có giá tiền ($10, $6) nhưng không nói về hoàn tiền." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Huỷ sau mốc ba ngày trước khi đến thì 'not refunded at all', trừ khi công viên đóng khu vực." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về quy định trong rừng." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Cancellations made after that point are not refunded at all",
+      "explanationVi": "Huỷ một ngày trước là muộn hơn mốc 'at least three days before', nên thuộc trường hợp 'after that point' → 'not refunded at all' = 'get none of their money back'. 'Normally' tương ứng với ngoại lệ 'unless the park itself closes the area'.",
+      "vocabulary": ["refund"]
+    },
+    {
+      "number": 4,
+      "prompt": "Campers can rent cooking equipment from the park.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không nói về thiết bị." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B chỉ có phí giấy phép và phí đặt chỗ, không có phí thuê đồ." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về huỷ đặt chỗ." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D có 'portable stoves' và 'lockers provided at each site', nhưng chỉ nói loại bếp nào được dùng và tủ khoá được cung cấp, không nói cho thuê bếp." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: Không đoạn nào nói công viên cho thuê dụng cụ nấu ăn." }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "only portable stoves with an on/off valve may be used for cooking",
+      "explanationVi": "Câu gần nhất ở Đoạn D chỉ quy định loại bếp được phép dùng. Công viên có cung cấp ('provided') tủ chống gấu, nhưng không nói cho thuê bếp. Không có thông tin → E."
+    },
+    {
+      "number": 5,
+      "prompt": "Fires built at campsites are forbidden in every season.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A nói về đồng cỏ bị hư hại, không nói về lửa." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B không có quy định về lửa." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'wildfire' (cháy rừng) nhưng nói về lý do công viên đóng khu vực, không phải quy định cấm đốt lửa." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: 'Campfires are banned at every backcountry site all year'." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Campfires are banned at every backcountry site all year",
+      "explanationVi": "'Fires built at campsites' = 'Campfires ... at every backcountry site'; 'forbidden' = 'banned'; 'in every season' = 'all year'. Lưu ý bếp ga mini vẫn được phép, chỉ cấm đốt lửa trại. Đừng nhầm với 'wildfire' (cháy rừng) ở Đoạn C.",
+      "vocabulary": ["ban"]
+    },
+    {
+      "number": 6,
+      "prompt": "Campers are advised to save their booking details before they lose phone reception.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không nói về điện thoại." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Không có sóng sau bãi đỗ xe, nên nhân viên khuyên 'downloading the confirmation before leaving home'." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về đổi ngày và huỷ, không nói về sóng điện thoại." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D có 'the site named on their permit' nhưng không nói gì về lưu xác nhận." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Because there is no cell service beyond the trailhead parking lot, staff strongly recommend downloading the confirmation before leaving home.",
+      "explanationVi": "'Are advised' = 'staff strongly recommend'; 'save their booking details' = 'downloading the confirmation'; 'lose phone reception' = 'no cell service beyond the trailhead'.",
+      "vocabulary": ["trailhead"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "backcountry", "vi": "vùng hoang dã xa đường sá", "definition": "a remote natural area far from roads and towns", "example": "You need a permit to camp in the backcountry." },
+    { "term": "fragile", "vi": "mỏng manh, dễ hư hại", "definition": "easily damaged or broken", "example": "Alpine meadows are fragile and recover slowly." },
+    { "term": "trailhead", "vi": "điểm bắt đầu đường mòn", "definition": "the place where a hiking trail begins", "example": "There is no cell service beyond the trailhead." },
+    { "term": "refund", "vi": "hoàn tiền", "definition": "money that is paid back to a customer", "example": "You get a refund if you cancel three days early." },
+    { "term": "ban", "vi": "cấm", "definition": "to officially say that something is not allowed", "example": "Campfires are banned at all backcountry sites." },
+    { "term": "on a leash", "vi": "có dây xích (chó)", "definition": "held by a strap attached to the animal's collar", "example": "Dogs must be on a leash at all times." },
+    { "term": "off-season", "vi": "mùa thấp điểm", "definition": "the time of year when fewer people visit a place", "example": "Prices are lower in the off-season." }
+  ]
+}

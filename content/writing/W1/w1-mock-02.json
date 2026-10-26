@@ -1,0 +1,73 @@
+{
+  "id": "w1-mock-02",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "workplace",
+  "title": "Requesting a temporary schedule change for a course",
+  "situation": "You work full-time, Monday to Friday from 8:00 a.m. to 4:00 p.m., in the operations department of a logistics company. You have been accepted into a part-time payroll certificate course at a local college. Classes are on Tuesday and Thursday afternoons for ten weeks, which conflicts with your current schedule. You decide to email your manager.",
+  "instructions": [
+    "Explain what the course is and why you want to take it.",
+    "Propose a temporary change to your work schedule.",
+    "Explain how you will make sure that your work is not affected."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting + the request stated clearly in the first sentence",
+    "Instruction 1: course name, days, times, length + a reason that benefits the company, not only you",
+    "Instruction 2: an exact proposed schedule showing the total hours stay the same",
+    "Instruction 3: concrete coverage steps (who covers what, what you finish before leaving, how you stay reachable) + offer to review",
+    "Thank the manager + invite a discussion + sign-off"
+  ],
+  "modelResponse": "Dear Ms. Grewal,\n\nI am writing to request a temporary change to my work schedule so that I can complete a payroll certificate at Riverside College. The program runs on Tuesday and Thursday afternoons from 1:00 to 4:00 p.m. for ten weeks, starting January 13. Since our department will be taking over payroll processing for the Kamloops branch next year, I believe this training would allow me to support that transition with fewer errors and less outside help.\n\nFor the duration of the course, I would like to work from 6:30 a.m. to 12:30 p.m. on Tuesdays and Thursdays, and then make up the remaining hours by staying until 6:00 p.m. on Mondays and Wednesdays. This way, my total weekly hours would stay the same.\n\nI have already discussed coverage with Jason, who has agreed to handle any urgent carrier calls on those afternoons. I will also finish the daily shipment reconciliation before I leave and remain reachable by phone during class breaks. If any problems come up, I would be happy to review the arrangement with you after the first two weeks.\n\nThank you for considering my request.\n\nBest regards,\nTuan Vo",
+  "usefulExpressions": [
+    {
+      "expression": "I am writing to request a temporary change to…",
+      "usageVi": "Nêu yêu cầu ngay câu đầu — quan trọng trong email công việc để quản lý hiểu ngay mục đích."
+    },
+    {
+      "expression": "Since our department will be…, I believe this training would…",
+      "usageVi": "Liên kết khóa học với lợi ích của công ty, giúp yêu cầu dễ được chấp nhận hơn."
+    },
+    {
+      "expression": "For the duration of the course, …",
+      "usageVi": "Cụm trang trọng nghĩa là 'trong suốt thời gian khóa học', nhấn mạnh tính tạm thời."
+    },
+    {
+      "expression": "make up the remaining hours",
+      "usageVi": "'make up' = bù lại (giờ làm). Cụm rất hữu ích khi xin đổi lịch."
+    },
+    {
+      "expression": "This way, …",
+      "usageVi": "Tóm tắt kết quả tích cực của đề xuất vừa nêu."
+    },
+    {
+      "expression": "I have already discussed coverage with…, who has agreed to…",
+      "usageVi": "Cho thấy bạn đã chủ động chuẩn bị; mệnh đề quan hệ 'who' giúp câu gọn và đa dạng ngữ pháp."
+    },
+    {
+      "expression": "remain reachable by phone",
+      "usageVi": "Cam kết vẫn liên lạc được — cụm trang trọng hơn 'you can call me'."
+    },
+    {
+      "expression": "I would be happy to review the arrangement…",
+      "usageVi": "Đề nghị xem xét lại sau một thời gian, thể hiện tinh thần linh hoạt."
+    }
+  ],
+  "commonMistakes": [
+    "Đề xuất lịch mơ hồ ('I will come early some days'). Ý 2 cần giờ giấc cụ thể và cho thấy tổng số giờ làm không bị giảm.",
+    "Chỉ nói lợi ích cho bản thân ('I want to get a better job'). Nên nhấn mạnh khóa học giúp ích gì cho công ty — nếu không, giọng thư có vẻ như đang chuẩn bị nghỉ việc.",
+    "Yêu cầu quá thẳng ('I need you to change my schedule'). Dùng 'I would like to request…', 'I would like to…' và cảm ơn quản lý đã cân nhắc.",
+    "Sai giới từ thời gian: 'on Tuesday and Thursday afternoon' (thiếu số nhiều khi lặp lại hàng tuần) → 'on Tuesday and Thursday afternoons'; 'in January 13' → 'on January 13'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked all 3 bullets, schedule arithmetic (6:30–12:30 Tue/Thu, +2 h Mon/Wed keeps weekly hours equal), register, word count (193), Vietnamese notes. No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

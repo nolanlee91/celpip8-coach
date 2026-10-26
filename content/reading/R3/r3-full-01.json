@@ -1,0 +1,191 @@
+{
+  "id": "r3-full-01",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "full",
+  "difficulty": 6,
+  "topic": "environment",
+  "title": "Urban Beekeeping in Metro Vancouver",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 9 independently; keys match. Checked each statement against every paragraph; Q5 E verified (no paragraph says training is free; 'free' in B is registration). Changed: Paragraph B registration sentence no longer says 'each year' or names a specific 'provincial apiculture office' (BC does require hive registration, free, but annual wording could not be confirmed), so Q1 statement/evidence/explanation and the vocabulary example were updated to match." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "When Priya Natarajan set up her first hive on the flat roof of her East Vancouver duplex in 2014, she knew only two other beekeepers in the neighbourhood. Today the Lower Mainland Hive Network, a volunteer group she helped start, counts more than 400 members between Burnaby and Richmond. Most keep one or two hives in backyards, on garage roofs or in community gardens. Natarajan says the biggest jump came during the pandemic: in 2020 and 2021, the network's beginner workshops filled up within hours, and many new members were people working from home who wanted a hobby that got them outdoors. Interest has levelled off since then, but it has not fallen.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "Anyone thinking about keeping bees should start by checking the local rules, which differ from one municipality to the next. Some cities limit a residential lot to two hives and require them to sit well back from the sidewalk; others allow hives only on larger properties. Across British Columbia, however, every beekeeper must register their hives with the province, even if they keep a single colony. Registration is free, and it allows bee inspectors to contact owners quickly when a disease such as American foulbrood is found nearby. Network volunteers estimate that about a third of hobby hives in the region are still not registered.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "The complaint neighbours make most often is not about stings but about swarms. In late spring, a strong colony may divide, and about half the bees leave with the old queen to look for a new home. For a few hours they may hang in a large cluster on a fence or a parked bicycle, which can alarm people who have never seen one. Experienced keepers reduce swarming by giving their colonies more room before May. The network also runs a swarm hotline, and a volunteer usually arrives within two hours to collect the bees. Natarajan also advises new keepers to introduce themselves to the neighbours before the first hive arrives.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Not everyone agrees that more hives are good for the environment. Dr. Malcolm Osei, who studies wild pollinators at a college in the Fraser Valley, points out that honeybees are not native to North America. Metro Vancouver is home to more than 50 species of wild bees, many of which nest in the ground or in hollow plant stems. When too many honeybee colonies share a small area, he says, they can compete with wild bees for the same flowers. Osei does not oppose hobby beekeeping, but he would like new keepers to spend as much effort planting flowers as they spend building hives. \"A hive without enough flowers nearby is like a restaurant with no kitchen,\" he says.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Even someone who keeps only one hive is required to sign it up with provincial authorities.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có nói 'one or two hives' nhưng chỉ mô tả nơi đặt tổ, không nói gì về đăng ký." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Đoạn B nói mọi người nuôi ong phải đăng ký tổ với tỉnh, 'even if they keep a single colony'." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về đàn ong bay đi (swarm), không nói về đăng ký." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về cạnh tranh với ong hoang dã, không nói về thủ tục." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "every beekeeper must register their hives with the province, even if they keep a single colony",
+      "explanationVi": "Tìm từ khoá 'only one hive' / 'provincial'. Đoạn B: 'every beekeeper must register their hives with the province, even if they keep a single colony'. 'Is required to' = 'must'; 'sign it up' = 'register'; 'only one hive' = 'a single colony'.",
+      "vocabulary": ["register"]
+    },
+    {
+      "number": 2,
+      "prompt": "The group gained the most new members during a period when many people worked from home.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Đoạn A nói số thành viên tăng mạnh nhất trong đại dịch, nhiều người mới là người 'working from home'." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B có nhắc 'Network volunteers' nhưng nói về tổ chưa đăng ký, không nói về số thành viên tăng." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về đường dây hỗ trợ khi ong bay đàn, không nói về thời điểm hội tăng thành viên." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về ý kiến của nhà nghiên cứu, không có số liệu thành viên." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "the biggest jump came during the pandemic: in 2020 and 2021, the network's beginner workshops filled up within hours, and many new members were people working from home",
+      "explanationVi": "'Gained the most new members' là cách nói lại của 'the biggest jump'. 'A period when many people worked from home' tương ứng với 'during the pandemic ... people working from home' ở Đoạn A."
+    },
+    {
+      "number": 3,
+      "prompt": "Bees gathering in a large group upset neighbours more often than stings do.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không nói gì về phàn nàn của hàng xóm." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói về quy định khoảng cách tổ ong, không nói hàng xóm phàn nàn điều gì." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Đoạn C nói phàn nàn phổ biến nhất 'is not about stings but about swarms'." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D nói ong mật cạnh tranh với ong hoang dã khi có quá nhiều tổ, không nói về hàng xóm hay bị đốt." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "The complaint neighbours make most often is not about stings but about swarms.",
+      "explanationVi": "'Bees gathering in a large group' là cách diễn đạt lại của 'swarms' / 'a large cluster'. Câu đầu Đoạn C nói phàn nàn thường gặp nhất là về swarm chứ không phải về bị đốt.",
+      "vocabulary": ["swarm"]
+    },
+    {
+      "number": 4,
+      "prompt": "Honeybees originally came from somewhere other than North America.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A kể về lịch sử của hội nuôi ong, không nói nguồn gốc loài ong." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B có 'Across British Columbia' nhưng là về quy định đăng ký, không nói ong đến từ đâu." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói ong rời tổ tìm chỗ mới, không phải nguồn gốc loài." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Đoạn D nói 'honeybees are not native to North America' — nghĩa là chúng có nguồn gốc ở nơi khác." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Đoạn D có nói ý này (không phải loài bản địa), nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "honeybees are not native to North America",
+      "explanationVi": "'Not native to North America' (không phải loài bản địa của Bắc Mỹ) = 'originally came from somewhere other than North America'. Đây là paraphrase dạng phủ định → khẳng định.",
+      "vocabulary": ["native"]
+    },
+    {
+      "number": 5,
+      "prompt": "Beginners can take beekeeping training at no cost.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A có nói các khoá cho người mới ('beginner workshops') nhưng chỉ nói chúng kín chỗ, không nói miễn phí." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B có từ 'free' nhưng đó là phí đăng ký tổ ong ('Registration is free'), không phải khoá học." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C có lời khuyên cho người mới, nhưng không nói về khoá học hay chi phí." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D không nói về đào tạo." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: Không đoạn nào nói khoá học cho người mới là miễn phí." }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "the network's beginner workshops filled up within hours",
+      "explanationVi": "Câu gần nhất là ở Đoạn A: workshop cho người mới 'filled up within hours' — chỉ cho biết chúng rất đông người đăng ký, không nói giá. Từ 'free' ở Đoạn B là về việc đăng ký tổ ong. Vì không đoạn nào nói khoá học miễn phí → E."
+    },
+    {
+      "number": 6,
+      "prompt": "Volunteers will come and take away a group of bees that has settled somewhere.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'a volunteer group' nhưng chỉ giới thiệu hội, không nói tình nguyện viên đến bắt ong." },
+        { "text": "B", "trap": "wrong_detail", "whyVi": "Đoạn B nói thanh tra liên lạc với chủ tổ khi có dịch bệnh, không phải tình nguyện viên đến lấy ong đi." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Đoạn C nói hội có 'swarm hotline' và tình nguyện viên thường đến trong hai giờ 'to collect the bees'." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D không nói về việc thu gom ong." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "a volunteer usually arrives within two hours to collect the bees",
+      "explanationVi": "'Come and take away' = 'arrives ... to collect'. 'A group of bees that has settled somewhere' chính là đàn ong bám trên hàng rào hay xe đạp được mô tả trong Đoạn C."
+    },
+    {
+      "number": 7,
+      "prompt": "How many hives you may keep depends on the municipality where you live.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A nói hầu hết thành viên nuôi 'one or two hives' — đó là thực tế, không phải quy định." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Đoạn B nói quy định 'differ from one municipality to the next', có nơi giới hạn hai tổ một lô đất." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C không nói về số tổ được phép nuôi." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D nói quá nhiều tổ ong trong một khu vực có thể gây hại, nhưng đó là ý kiến chuyên gia, không phải quy định của thành phố." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "Some cities limit a residential lot to two hives",
+      "explanationVi": "Đoạn B nói luật địa phương khác nhau ('differ from one municipality to the next') và nêu ví dụ có thành phố giới hạn hai tổ. Cẩn thận Đoạn A: 'one or two hives' chỉ là số tổ mà mọi người thực tế nuôi, không phải luật."
+    },
+    {
+      "number": 8,
+      "prompt": "A researcher wants hobby beekeepers to put more effort into growing plants that bees feed on.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không nhắc đến nhà nghiên cứu hay trồng hoa." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói về thanh tra và dịch bệnh, không có lời khuyên trồng cây." },
+        { "text": "C", "trap": "wrong_speaker", "whyVi": "Đoạn C có lời khuyên của Natarajan (làm quen hàng xóm), nhưng bà không phải nhà nghiên cứu và không nói về trồng hoa." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Dr. Osei muốn người nuôi ong 'spend as much effort planting flowers as they spend building hives'." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "he would like new keepers to spend as much effort planting flowers as they spend building hives",
+      "explanationVi": "'A researcher' = Dr. Osei, người 'studies wild pollinators'. 'Growing plants that bees feed on' = 'planting flowers'. Chú ý lời khuyên ở Đoạn C là của Natarajan và về chuyện khác."
+    },
+    {
+      "number": 9,
+      "prompt": "Interest in keeping bees has stopped growing but has not declined.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Đoạn A nói 'Interest has levelled off since then, but it has not fallen'." },
+        { "text": "B", "trap": "partially_true", "whyVi": "Đoạn B nói một phần ba tổ chưa đăng ký, không nói mức độ quan tâm tăng hay giảm." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C không nói về xu hướng quan tâm." },
+        { "text": "D", "trap": "opposite", "whyVi": "Đoạn D nói có người không đồng ý rằng nhiều tổ là tốt, nhưng không nói số người nuôi giảm." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "vocabulary",
+      "evidence": "Interest has levelled off since then, but it has not fallen.",
+      "explanationVi": "'Level off' nghĩa là ngừng tăng, giữ mức ổn định → 'stopped growing'. 'Has not fallen' = 'has not declined'. Đây là câu cuối Đoạn A.",
+      "vocabulary": ["level off"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "register", "vi": "đăng ký (chính thức với cơ quan)", "definition": "to put your name or property on an official list", "example": "Every beekeeper must register their hives with the province." },
+    { "term": "swarm", "vi": "đàn ong bay đi tìm tổ mới", "definition": "a large group of bees leaving a hive together with a queen", "example": "A swarm settled on our fence for about three hours." },
+    { "term": "native", "vi": "bản địa", "definition": "naturally living in a place, not brought from elsewhere", "example": "Many native bees nest in the ground." },
+    { "term": "level off", "vi": "chững lại, ổn định", "definition": "to stop rising or falling and stay at the same level", "example": "Sales grew quickly last year but have levelled off." },
+    { "term": "colony", "vi": "đàn (ong), quần thể", "definition": "a group of animals of one type living together", "example": "A strong colony may divide in late spring." },
+    { "term": "compete with", "vi": "cạnh tranh với", "definition": "to try to get the same thing that others also want", "example": "Honeybees can compete with wild bees for flowers." },
+    { "term": "alarm", "vi": "làm hoảng sợ, lo lắng", "definition": "to make someone feel worried or afraid", "example": "The cluster of bees alarmed people walking past." },
+    { "term": "municipality", "vi": "đô thị, thành phố (cấp chính quyền địa phương)", "definition": "a city or town with its own local government", "example": "Hive rules differ from one municipality to the next." }
+  ]
+}

@@ -12,7 +12,8 @@ import { PlannerPage } from "./pages/Planner";
 import { MockPage } from "./pages/Mock";
 import { AnalyticsPage } from "./pages/Analytics";
 import { SettingsPage } from "./pages/Settings";
-import { EvaluationPage, ReviewPage } from "./pages/Review";
+import { EvaluationPage, ReviewPage, SubmissionPage } from "./pages/Review";
+import { AdminPage } from "./pages/Admin";
 
 const NAV = [
   { to: "/", label: "Dashboard", icon: "🏠" },
@@ -26,6 +27,7 @@ const NAV = [
   { to: "/mock", label: "Thi thử", icon: "📝" },
   { to: "/analytics", label: "Thống kê", icon: "📈" },
   { to: "/settings", label: "Cài đặt", icon: "⚙️" },
+  { to: "/admin", label: "Quản trị", icon: "🛠" },
 ];
 
 export function App() {
@@ -45,7 +47,7 @@ export function App() {
           </nav>
           <main className="main">
             {status && !status.aiConfigured && (
-              <div className="banner">⚠︎ Chưa cấu hình <code>GEMINI_API_KEY</code> — các tính năng AI (tạo đề, chấm bài, tutor) chưa hoạt động. Xem README.</div>
+              <div className="banner subtle">ℹ︎ Chưa cấu hình Gemini — mọi bài luyện vẫn dùng được (thư viện soạn sẵn). Chỉ nhận xét Writing/Speaking bằng AI, Tutor và công cụ quản trị cần <code>GEMINI_API_KEY</code>.</div>
             )}
             <Routes>
               <Route path="/" element={<DashboardPage />} />
@@ -61,6 +63,8 @@ export function App() {
               <Route path="/settings" element={<SettingsPage />} />
               <Route path="/review/:id" element={<ReviewPage />} />
               <Route path="/evaluation/:id" element={<EvaluationPage />} />
+              <Route path="/submission/:id" element={<SubmissionPage />} />
+              <Route path="/admin" element={<AdminPage />} />
             </Routes>
           </main>
         </div>

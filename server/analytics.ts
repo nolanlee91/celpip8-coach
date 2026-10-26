@@ -240,20 +240,20 @@ export function phaseFor(week: number, totalWeeks: number) {
   return { number: 4, name: "Thi thử & hoàn thiện", goal: "Thi thử đủ 4 kỹ năng, ôn lỗi, giữ phong độ." };
 }
 
-const PART_IDS: Record<Skill, string[]> = {
+export const PART_IDS: Record<Skill, string[]> = {
   reading: READING_PARTS.map((p) => p.id),
   listening: LISTENING_PARTS.map((p) => p.id),
   writing: WRITING_TASKS.map((t) => t.id),
   speaking: SPEAKING_TASKS.map((t) => t.id),
 };
 
-function leastPractised(db: Db, skill: Skill, exclude: string[] = []): string {
+export function leastPractised(db: Db, skill: Skill, exclude: string[] = []): string {
   const ids = PART_IDS[skill].filter((id) => !exclude.includes(id));
   const counts = (ids.length ? ids : PART_IDS[skill]).map((id) => ({ id, n: db.attempts.filter((a) => a.taskType === id).length }));
   return counts.sort((a, b) => a.n - b.n)[0].id;
 }
 
-function weakestTask(db: Db, skill: Skill, exclude: string[] = []): string {
+export function weakestTask(db: Db, skill: Skill, exclude: string[] = []): string {
   const ids = PART_IDS[skill].filter((id) => !exclude.includes(id));
   const rows = (ids.length ? ids : PART_IDS[skill]).map((id) => {
     const atts = db.attempts.filter((a) => a.taskType === id).slice(-5);

@@ -1,0 +1,172 @@
+{
+  "id": "r2-full-03",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "shopping",
+  "title": "Picking a moving-truck plan",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. Verified $129+$75=$204, 170-150=20 km, $129+20x$0.59=$140.80 (distractor $144.80 uses $0.79), Khoa 24 < 25. Q6 prompt/options rewritten without 'herself/She' because Bao is commonly a male name and the email never states gender." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Rental plans",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Coastline Truck & Van Rental, Coquitlam depot — Moving-truck plans (taxes extra)",
+        "headers": ["Feature", "City Hopper", "Weekend Mover", "Long Haul"],
+        "rows": [
+          ["Truck size", "10-ft (studio or 1-bedroom)", "15-ft (2-bedroom)", "20-ft (3- to 4-bedroom)"],
+          ["Rental period", "6 hours", "24 hours", "48 hours"],
+          ["Price", "$59", "$129", "$219"],
+          ["Kilometres included", "50 km", "150 km", "Unlimited"],
+          ["Each extra kilometre", "$0.79", "$0.59", "Not applicable"],
+          ["Furniture pads and hand truck", "$15 extra", "Included", "Included"],
+          ["One-way rental (drop off at another depot)", "Not available", "Available, $75 fee", "Available, no fee"],
+          ["Driver requirements", "Class 5 licence", "Class 5 licence", "Class 5 licence; driver must be 25 or older"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Khoa,\n\nThanks again for agreeing to drive the truck on Saturday, especially two days after your 24th birthday! I've compared the three plans from Coastline, and I think I've figured it out.\n\nThe City Hopper is the cheapest, but its truck [[1]], so it won't hold everything from our two-bedroom. I was tempted by the Long Haul because of the unlimited kilometres, but you [[2]], and I'm not comfortable driving a truck myself. That leaves the Weekend Mover.\n\nIt's about 85 km from our place to the new apartment in Chilliwack. I looked into dropping the truck off out there, but with the extra fee, that would cost [[3]] in total. If you drive it back to Coquitlam instead, the round trip is about 170 km, so we'd only pay for [[4]] extra kilometres. That works out much cheaper, and you live ten minutes from the depot anyway.\n\nAnother bonus: we won't have to [[5]], because they come with this plan. I'll still borrow Mom's straps, though.\n\nLet me know if this sounds okay, and I'll reserve it tonight.\n\nBao",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "is meant for a studio or one-bedroom", "trap": "none", "whyVi": "Đúng: xe 10-ft của City Hopper ghi '(studio or 1-bedroom)', nên không chở hết đồ của căn hai phòng ngủ." },
+        { "text": "comes with no free kilometres", "trap": "wrong_detail", "whyVi": "City Hopper có 50 km miễn phí." },
+        { "text": "can only be driven by someone over 25", "trap": "wrong_detail", "whyVi": "Điều kiện 25 tuổi là của Long Haul." },
+        { "text": "must be dropped off at another depot", "trap": "opposite", "whyVi": "City Hopper không cho thuê một chiều ('Not available')." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "10-ft (studio or 1-bedroom)",
+      "explanationVi": "Vế sau 'so it won't hold everything from our two-bedroom' cho biết lý do là kích thước. Hàng 'Truck size' của City Hopper ghi xe cho căn studio/1 phòng ngủ.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "don't hold a Class 5 licence", "trap": "opposite", "whyVi": "Khoa đã đồng ý lái xe tải, và cả ba gói chỉ cần Class 5 — nếu anh không có bằng thì gói nào cũng không được." },
+        { "text": "would have to pay for furniture pads", "trap": "wrong_detail", "whyVi": "Long Haul đã bao gồm tấm lót đồ ('Included')." },
+        { "text": "aren't old enough to drive it", "trap": "none", "whyVi": "Đúng: Khoa vừa tròn 24 tuổi, nhưng Long Haul yêu cầu tài xế từ 25 tuổi." },
+        { "text": "would go over the kilometre limit", "trap": "opposite", "whyVi": "Long Haul có số km không giới hạn ('Unlimited')." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Class 5 licence; driver must be 25 or older",
+      "explanationVi": "Ghép thông tin: email nói 'your 24th birthday' (Khoa 24 tuổi) và bảng ghi Long Haul cần tài xế 'must be 25 or older'. Bao lại không muốn tự lái → loại Long Haul.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "$129", "trap": "partially_true", "whyVi": "$129 chỉ là giá gói; chưa cộng phí trả xe ở nơi khác $75." },
+        { "text": "$204", "trap": "none", "whyVi": "Đúng: $129 (Weekend Mover) + $75 (phí thuê một chiều) = $204; 85 km nằm trong 150 km miễn phí." },
+        { "text": "$219", "trap": "wrong_detail", "whyVi": "$219 là giá gói Long Haul, đã bị loại." },
+        { "text": "$75", "trap": "partially_true", "whyVi": "$75 chỉ là phí một chiều, không phải tổng tiền." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Available, $75 fee",
+      "explanationVi": "'dropping the truck off out there' = thuê một chiều. Gói Weekend Mover: $129 + phí $75. Quãng đường 85 km < 150 km nên không trả thêm km. 'in total' nhắc ta phải cộng.",
+      "vocabulary": ["drop off", "one-way rental"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "85", "trap": "wrong_detail", "whyVi": "85 km là quãng đường một chiều, không phải số km vượt mức." },
+        { "text": "170", "trap": "wrong_detail", "whyVi": "170 km là cả quãng khứ hồi; 150 km đầu đã miễn phí." },
+        { "text": "50", "trap": "wrong_detail", "whyVi": "50 km là số km miễn phí của City Hopper." },
+        { "text": "20", "trap": "none", "whyVi": "Đúng: 170 km − 150 km miễn phí = 20 km phải trả thêm." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "the round trip is about 170 km",
+      "explanationVi": "Lấy quãng đường khứ hồi (170 km) trừ số km miễn phí của Weekend Mover (150 km) → 20 km 'extra'. Chú ý: phải dùng cột của gói đã chọn.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "rent pads and a dolly separately", "trap": "none", "whyVi": "Đúng: Weekend Mover có 'Furniture pads and hand truck: Included' (hand truck = dolly)." },
+        { "text": "pay the one-way drop-off fee", "trap": "wrong_detail", "whyVi": "Đúng là không phải trả phí này, nhưng lý do là trả xe về Coquitlam, không phải vì phí 'come with this plan'." },
+        { "text": "buy our own moving straps", "trap": "word_match", "whyVi": "Dây chằng ('straps') không có trong gói — vì vậy Bao vẫn phải mượn của mẹ." },
+        { "text": "pay for any extra kilometres", "trap": "opposite", "whyVi": "Họ vẫn phải trả 20 km vượt mức." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Furniture pads and hand truck",
+      "explanationVi": "'because they come with this plan' → thứ được bao gồm trong Weekend Mover. Trong bảng, chỉ có tấm lót đồ và xe đẩy là 'Included' (City Hopper phải trả $15). 'hand truck' = 'dolly'.",
+      "vocabulary": ["hand truck"]
+    },
+    {
+      "number": 6,
+      "prompt": "Why is Bao not planning to drive the truck?",
+      "options": [
+        { "text": "Bao doesn't have a driver's licence.", "trap": "not_mentioned", "whyVi": "Email không nói Bao không có bằng lái." },
+        { "text": "Bao is younger than 25.", "trap": "wrong_speaker", "whyVi": "Người dưới 25 tuổi là Khoa (24 tuổi), không phải Bao." },
+        { "text": "Bao isn't confident driving a large vehicle.", "trap": "none", "whyVi": "Đúng: 'I'm not comfortable driving a truck myself'." },
+        { "text": "Bao will be waiting at the new apartment.", "trap": "not_mentioned", "whyVi": "Không có thông tin này." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "I'm not comfortable driving a truck myself",
+      "explanationVi": "'not comfortable driving a truck' = 'isn't confident driving a large vehicle'. Bẫy B lấy thông tin tuổi của người khác (Khoa).",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Why is returning the truck to Coquitlam convenient for Khoa?",
+      "options": [
+        { "text": "He has to work in Coquitlam that evening.", "trap": "not_mentioned", "whyVi": "Không nói Khoa làm việc tối hôm đó." },
+        { "text": "He lives close to the rental depot.", "trap": "none", "whyVi": "Đúng: 'you live ten minutes from the depot anyway'." },
+        { "text": "The Chilliwack depot is closed on Saturdays.", "trap": "not_mentioned", "whyVi": "Bảng không có giờ mở cửa." },
+        { "text": "He can keep the truck for 48 hours.", "trap": "wrong_detail", "whyVi": "48 giờ là thời hạn của Long Haul; Weekend Mover chỉ 24 giờ." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "you live ten minutes from the depot anyway",
+      "explanationVi": "'ten minutes from the depot' = 'close to the rental depot'. Từ 'anyway' cho thấy đây là lợi ích thêm cho Khoa.",
+      "vocabulary": ["depot"]
+    },
+    {
+      "number": 8,
+      "prompt": "Based on Bao's plan, how much will the truck rental cost before taxes?",
+      "options": [
+        { "text": "$129.00", "trap": "partially_true", "whyVi": "Chưa cộng tiền 20 km vượt mức." },
+        { "text": "$144.80", "trap": "wrong_detail", "whyVi": "Dùng nhầm giá km vượt mức của City Hopper ($0.79 × 20 = $15.80)." },
+        { "text": "$204.00", "trap": "wrong_detail", "whyVi": "Đây là giá phương án trả xe ở Chilliwack mà Bao đã bỏ." },
+        { "text": "$140.80", "trap": "none", "whyVi": "Đúng: $129 + 20 km × $0.59 = $129 + $11.80 = $140.80." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "If you drive it back to Coquitlam instead, the round trip is about 170 km",
+      "explanationVi": "Áp dụng bảng cho kế hoạch cuối cùng: gói Weekend Mover $129, trả xe về Coquitlam (không phí một chiều), 20 km vượt mức × $0.59 (cột Weekend Mover) = $11.80. Tổng $140.80. Caption ghi 'taxes extra' nên câu hỏi nói 'before taxes'.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "depot", "vi": "kho/bãi (nơi nhận và trả xe)", "definition": "a place where vehicles are kept and rented from", "example": "You can pick up the truck at the Coquitlam depot." },
+    { "term": "drop off", "vi": "trả (xe), để lại", "definition": "to return or leave something at a place", "example": "We'll drop off the truck before 6 p.m." },
+    { "term": "one-way rental", "vi": "thuê một chiều (trả xe ở nơi khác)", "definition": "a rental where you return the vehicle to a different location", "example": "A one-way rental costs an extra $75." },
+    { "term": "hand truck", "vi": "xe đẩy tay (chở đồ nặng)", "definition": "a small two-wheeled cart for moving heavy boxes; also called a dolly", "example": "The hand truck made moving the fridge much easier." },
+    { "term": "furniture pads", "vi": "tấm lót bảo vệ đồ đạc", "definition": "thick blankets used to protect furniture during a move", "example": "Wrap the table in furniture pads." },
+    { "term": "work out", "vi": "tính ra, hóa ra (chi phí)", "definition": "to result in a particular amount or situation", "example": "Returning the truck works out cheaper." },
+    { "term": "be tempted by", "vi": "bị hấp dẫn bởi", "definition": "to want something even though it may not be the best choice", "example": "I was tempted by the bigger truck." }
+  ]
+}

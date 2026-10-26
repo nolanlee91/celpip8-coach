@@ -1,0 +1,426 @@
+{
+  "id": "l5-mock-01",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "housing",
+  "title": "Discussion: EV chargers in the condo parkade",
+  "context": "You will hear a strata council meeting in a condominium building about installing electric vehicle chargers in the underground parkade.",
+  "estimatedMinutes": 9,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Deborah, council president",
+          "voice": "female_a",
+          "text": "Okay, next item is the EV charging proposal. The electrical assessment is back, so tonight I'd like us to decide what we bring to the owners at the AGM in March. Sofia, you raised this originally. Do you want to start?"
+        },
+        {
+          "speaker": "Sofia, council member",
+          "voice": "female_b",
+          "text": "Sure. The assessment says our electrical service can't handle a charger in every stall if everyone charges at once. But with a load management system, the chargers share the power and take turns, so all eighty-four stalls could be EV-ready without upgrading the main service. Honestly, that surprised me. I'd assumed we'd need a whole new transformer."
+        },
+        {
+          "speaker": "Rajiv, treasurer",
+          "voice": "male_a",
+          "text": "What surprised me was the price. Wiring the whole parkade comes to about two hundred and fifteen thousand dollars. The provincial rebate would cover up to half, but only if we apply before the end of June. Our contingency reserve has about three hundred thousand in it, and the roof membrane is due for replacement within five years."
+        },
+        {
+          "speaker": "Owen, council member",
+          "voice": "male_b",
+          "text": "And that's my problem with this. Two-thirds of the owners here don't drive electric cars. Some of them don't drive at all. Why should a retired couple on the third floor pay for somebody else's fuel?"
+        },
+        {
+          "speaker": "Sofia, council member",
+          "voice": "female_b",
+          "text": "They wouldn't be paying for anyone's fuel, Owen. Each charger would have its own meter, so drivers pay for their own electricity. What everyone would share is the wiring, and that adds value to every unit, whether you drive electric or not."
+        },
+        {
+          "speaker": "Owen, council member",
+          "voice": "male_b",
+          "text": "Maybe so, but added value only helps if you're selling. Most of us aren't going anywhere."
+        },
+        {
+          "speaker": "Deborah, council president",
+          "voice": "female_a",
+          "text": "Let me suggest something in between. The strata pays for the backbone, meaning the main wiring and the load management system. Then each owner who wants a charger pays for the final connection to their stall and the charger itself."
+        },
+        {
+          "speaker": "Rajiv, treasurer",
+          "voice": "male_a",
+          "text": "That's roughly how the quote breaks down anyway. The backbone is about a hundred and thirty thousand before the rebate. The individual connections run about a thousand dollars each."
+        },
+        {
+          "speaker": "Owen, council member",
+          "voice": "male_b",
+          "text": "So after the rebate, we'd be taking, what, sixty-five thousand from the reserve? I could probably support that, as long as nobody comes back next year asking for a special levy for the roof."
+        },
+        {
+          "speaker": "Rajiv, treasurer",
+          "voice": "male_a",
+          "text": "I can't promise that, to be honest. If we take it from the reserve, we'll need to raise monthly contributions a little to rebuild it. I'm thinking about three percent."
+        },
+        {
+          "speaker": "Sofia, council member",
+          "voice": "female_b",
+          "text": "I'd rather see a small fee increase than wait. If we miss the June deadline, we lose the rebate, and prices certainly aren't going down."
+        },
+        {
+          "speaker": "Owen, council member",
+          "voice": "male_b",
+          "text": "Three percent I can live with. But I want it in writing that the individual chargers are entirely user-pay."
+        },
+        {
+          "speaker": "Deborah, council president",
+          "voice": "female_a",
+          "text": "That's reasonable. Remember, though, the owners still have to vote on this at the AGM, so whatever we propose has to make sense to owners who aren't in this room. Rajiv, could you put together a one-page summary showing the cost per unit?"
+        },
+        {
+          "speaker": "Rajiv, treasurer",
+          "voice": "male_a",
+          "text": "I can have it ready in two weeks. I'll include the fee increase too, so nobody feels blindsided."
+        },
+        {
+          "speaker": "Deborah, council president",
+          "voice": "female_a",
+          "text": "Great. And Owen, would you be willing to speak in favour of it at the AGM? Frankly, people might listen to you more than to Sofia, since you don't drive an EV."
+        },
+        {
+          "speaker": "Owen, council member",
+          "voice": "male_b",
+          "text": "So I'm the skeptic they'll trust. Fine, I'll do it."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What surprised Sofia about the electrical assessment?",
+          "options": [
+            {
+              "text": "The cost of wiring the parkade was higher than expected.",
+              "trap": "wrong_speaker",
+              "whyVi": "Người bất ngờ về giá là Rajiv, không phải Sofia."
+            },
+            {
+              "text": "A new transformer will be needed before any chargers go in.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: Sofia tưởng cần máy biến áp mới, nhưng hóa ra không cần."
+            },
+            {
+              "text": "Every stall could get charging without increasing the building's main power supply.",
+              "trap": "none",
+              "whyVi": "Đúng: nhờ hệ thống quản lý tải, cả 84 chỗ đậu có thể sẵn sàng sạc mà không cần nâng cấp nguồn điện chính."
+            },
+            {
+              "text": "The building can supply full power to all chargers at the same time.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: báo cáo nói hệ thống điện KHÔNG chịu được nếu mọi người sạc cùng lúc; các bộ sạc phải chia điện."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "all eighty-four stalls could be EV-ready without upgrading the main service. Honestly, that surprised me.",
+          "explanationVi": "Sofia nói 'that surprised me' ngay sau ý 'without upgrading the main service'. Đáp án C diễn đạt lại 'upgrading the main service' thành 'increasing the building's main power supply'. Lựa chọn A dễ nhầm vì Rajiv cũng dùng từ 'surprised'.",
+          "vocabulary": [
+            "load management"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "Why is Rajiv cautious about using the contingency reserve?",
+          "options": [
+            {
+              "text": "The rebate deadline has already passed.",
+              "trap": "opposite",
+              "whyVi": "Sai: hạn nộp đơn hoàn tiền là cuối tháng 6, vẫn còn kịp."
+            },
+            {
+              "text": "Another major repair will need funding in the coming years.",
+              "trap": "none",
+              "whyVi": "Đúng: lớp chống thấm mái cần thay trong vòng 5 năm tới."
+            },
+            {
+              "text": "The reserve has less than one hundred thousand dollars in it.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai số liệu: quỹ có khoảng 300.000 đô."
+            },
+            {
+              "text": "Owners have voted against using it in the past.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói chủ nhà từng bỏ phiếu phản đối."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "the roof membrane is due for replacement within five years",
+          "explanationVi": "'the roof membrane is due for replacement within five years' được diễn đạt lại thành 'another major repair will need funding in the coming years'.",
+          "vocabulary": [
+            "contingency reserve"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What is Owen's main objection when the cost is first discussed?",
+          "options": [
+            {
+              "text": "Owners who don't drive electric cars would be paying for something that mainly benefits others.",
+              "trap": "none",
+              "whyVi": "Đúng: phần lớn chủ nhà không lái xe điện, ông thấy bất công khi họ phải trả tiền cho người khác."
+            },
+            {
+              "text": "Chargers in the parkade would create a fire risk.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nhắc đến nguy cơ cháy."
+            },
+            {
+              "text": "The wiring would lower the value of older units.",
+              "trap": "opposite",
+              "whyVi": "Sofia nói dây điện làm TĂNG giá trị căn hộ; Owen chỉ nói điều đó chỉ có ích khi bán."
+            },
+            {
+              "text": "The rebate covers too little of the total cost.",
+              "trap": "wrong_detail",
+              "whyVi": "Owen không phàn nàn về mức hoàn tiền; khoản hoàn tiền lên tới một nửa là do Rajiv nêu."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "Why should a retired couple on the third floor pay for somebody else's fuel?",
+          "explanationVi": "Owen dùng câu hỏi tu từ để phản đối: tại sao người không lái xe điện phải trả tiền. Đáp án A diễn giải ý 'pay for somebody else's fuel'.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "How does Sofia respond to Owen's argument about paying for other people's fuel?",
+          "options": [
+            {
+              "text": "She agrees that owners without EVs should be exempt from all costs.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô nói mọi người sẽ cùng chia chi phí dây điện."
+            },
+            {
+              "text": "She says the provincial rebate will pay for drivers' electricity.",
+              "trap": "wrong_detail",
+              "whyVi": "Khoản hoàn tiền dùng cho việc lắp đặt, không trả tiền điện."
+            },
+            {
+              "text": "She explains that electricity use would be billed to each driver separately.",
+              "trap": "none",
+              "whyVi": "Đúng: mỗi bộ sạc có đồng hồ riêng nên tài xế tự trả tiền điện."
+            },
+            {
+              "text": "She argues that EV owners already pay higher strata fees.",
+              "trap": "not_mentioned",
+              "whyVi": "Cô không nói chủ xe điện đang trả phí cao hơn."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "Each charger would have its own meter, so drivers pay for their own electricity.",
+          "explanationVi": "'its own meter, so drivers pay for their own electricity' được diễn đạt lại thành 'billed to each driver separately'.",
+          "vocabulary": [
+            "meter"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What does Deborah propose?",
+          "options": [
+            {
+              "text": "The strata pays for chargers, and owners pay for the wiring to their stalls.",
+              "trap": "opposite",
+              "whyVi": "Đảo ngược đề xuất: thực ra chủ nhà mới trả tiền bộ sạc."
+            },
+            {
+              "text": "The strata pays for the shared wiring, and interested owners pay for their own connection and charger.",
+              "trap": "none",
+              "whyVi": "Đúng: ban quản trị trả phần 'backbone', chủ nhà muốn sạc tự trả phần nối cuối và bộ sạc."
+            },
+            {
+              "text": "The strata pays for everything, including each owner's charger.",
+              "trap": "too_broad",
+              "whyVi": "Sai: chủ nhà phải tự trả kết nối riêng và bộ sạc."
+            },
+            {
+              "text": "Each owner pays for all wiring and equipment for their own stall.",
+              "trap": "partially_true",
+              "whyVi": "Chỉ đúng một phần: chủ nhà trả phần riêng, nhưng hệ thống dây chính do ban quản trị trả."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "similar_choices",
+          "evidence": "The strata pays for the backbone, meaning the main wiring and the load management system.",
+          "explanationVi": "Bốn lựa chọn đều nói về ai trả phần nào. Deborah: strata trả 'backbone' (dây chính và hệ thống quản lý tải), chủ nhà trả 'the final connection to their stall and the charger itself'.",
+          "vocabulary": [
+            "backbone"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "About how much would the strata take from its reserve under Deborah's plan?",
+          "options": [
+            {
+              "text": "$65,000",
+              "trap": "none",
+              "whyVi": "Đúng: 130.000 đô cho phần dây chính, trừ khoản hoàn tiền một nửa, còn khoảng 65.000 đô."
+            },
+            {
+              "text": "$130,000",
+              "trap": "wrong_detail",
+              "whyVi": "Đây là chi phí phần dây chính TRƯỚC khi trừ khoản hoàn tiền."
+            },
+            {
+              "text": "$215,000",
+              "trap": "wrong_detail",
+              "whyVi": "Đây là báo giá đi dây cho toàn bộ bãi xe."
+            },
+            {
+              "text": "$300,000",
+              "trap": "word_match",
+              "whyVi": "Đây là số tiền hiện có trong quỹ dự phòng."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "So after the rebate, we'd be taking, what, sixty-five thousand from the reserve?",
+          "explanationVi": "Có nhiều con số trong bài. Owen tính lại: sau khi trừ khoản hoàn tiền thì lấy khoảng 65.000 đô từ quỹ, và Rajiv không phản bác con số này.",
+          "vocabulary": [
+            "rebate"
+          ]
+        },
+        {
+          "number": 7,
+          "prompt": "By the end of the discussion, what does Owen require in order to support the plan?",
+          "options": [
+            {
+              "text": "A promise that monthly fees will not go up",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: Owen chấp nhận mức tăng 3%."
+            },
+            {
+              "text": "A guarantee that there will be no special levy for the roof",
+              "trap": "partially_true",
+              "whyVi": "Đây là điều kiện Owen nêu lúc đầu, nhưng Rajiv không hứa được và Owen chuyển sang điều kiện khác."
+            },
+            {
+              "text": "Written confirmation that people who want chargers will pay for them themselves",
+              "trap": "none",
+              "whyVi": "Đúng: ông muốn ghi rõ bằng văn bản rằng bộ sạc riêng hoàn toàn do người dùng trả."
+            },
+            {
+              "text": "Agreement that Sofia will present the plan at the AGM",
+              "trap": "wrong_speaker",
+              "whyVi": "Người được nhờ phát biểu ở AGM là Owen, và yêu cầu này đến từ Deborah."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "But I want it in writing that the individual chargers are entirely user-pay.",
+          "explanationVi": "Owen đổi điều kiện trong lúc thảo luận: đầu tiên muốn không có phí đặc biệt cho mái nhà, sau đó chấp nhận tăng 3% nhưng đòi 'in writing... entirely user-pay'. Cần nghe đến cuối.",
+          "vocabulary": [
+            "user-pay",
+            "special levy"
+          ]
+        },
+        {
+          "number": 8,
+          "prompt": "Why does Deborah ask Owen to speak at the AGM?",
+          "options": [
+            {
+              "text": "He prepared the cost summary for the owners.",
+              "trap": "wrong_speaker",
+              "whyVi": "Rajiv là người chuẩn bị bản tóm tắt chi phí."
+            },
+            {
+              "text": "His support may be more convincing because he doesn't own an electric car.",
+              "trap": "none",
+              "whyVi": "Đúng: Deborah nói mọi người có thể nghe Owen hơn vì ông không lái xe điện."
+            },
+            {
+              "text": "Sofia will not be able to attend the meeting.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói Sofia vắng mặt."
+            },
+            {
+              "text": "He is the treasurer and must present all spending.",
+              "trap": "wrong_detail",
+              "whyVi": "Thủ quỹ là Rajiv, không phải Owen."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "people might listen to you more than to Sofia, since you don't drive an EV",
+          "explanationVi": "Deborah cho rằng một người hoài nghi như Owen ủng hộ thì sẽ thuyết phục hơn. Owen cũng tự nhận 'I'm the skeptic they'll trust'.",
+          "vocabulary": [
+            "skeptic"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "load management",
+      "vi": "quản lý tải điện",
+      "definition": "a system that shares limited electrical power among several devices",
+      "example": "With load management, the chargers take turns."
+    },
+    {
+      "term": "contingency reserve",
+      "vi": "quỹ dự phòng",
+      "definition": "money a strata saves for major repairs and unexpected costs",
+      "example": "Our contingency reserve has about three hundred thousand dollars."
+    },
+    {
+      "term": "rebate",
+      "vi": "khoản hoàn tiền",
+      "definition": "money returned to you after you pay for something",
+      "example": "The provincial rebate covers up to half the cost."
+    },
+    {
+      "term": "meter",
+      "vi": "đồng hồ đo (điện)",
+      "definition": "a device that measures how much electricity is used",
+      "example": "Each charger would have its own meter."
+    },
+    {
+      "term": "backbone",
+      "vi": "hệ thống trục chính",
+      "definition": "the main shared structure that other parts connect to",
+      "example": "The strata pays for the backbone wiring."
+    },
+    {
+      "term": "special levy",
+      "vi": "khoản thu phí đặc biệt",
+      "definition": "a one-time extra payment owners must make for a large expense",
+      "example": "Nobody wants a special levy for the roof."
+    },
+    {
+      "term": "user-pay",
+      "vi": "người dùng tự trả",
+      "definition": "paid for only by the people who use the service",
+      "example": "Individual chargers will be entirely user-pay."
+    },
+    {
+      "term": "blindsided",
+      "vi": "bị bất ngờ (theo cách khó chịu)",
+      "definition": "surprised by something unpleasant you were not warned about",
+      "example": "I'll include the fee increase so nobody feels blindsided."
+    },
+    {
+      "term": "skeptic",
+      "vi": "người hoài nghi",
+      "definition": "a person who doubts that something is true or worthwhile",
+      "example": "Owen was the skeptic on the council."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 8 items independently; keys match, figures consistent (130k backbone, half rebate -> 65k from reserve). Fixed a factual risk: script said reserve spending \"needs a three-quarter vote\", but BC's 2023 Strata Property Act amendments allow CRF spending on EV charging infrastructure by majority vote; line now just says owners must vote at the AGM (no item depended on it). 4 voices, ~525 words."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

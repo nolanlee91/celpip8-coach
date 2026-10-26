@@ -1,0 +1,190 @@
+{
+  "id": "l1-mock-01",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "A delayed container for an important client",
+  "context": "You will hear two coworkers at a freight forwarding company in Richmond discussing a delayed shipment for one of their biggest clients.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Teresa", "voice": "female_a", "text": "Arjun, got a sec? I just got off the phone with Northbrook Home, and they're, well, not happy. Their container was supposed to be at their warehouse in Langley yesterday." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "The one from Shanghai? Yeah, I was just about to come find you. It's been flagged for a customs exam at Deltaport." },
+        { "speaker": "Teresa", "voice": "female_a", "text": "An exam? Since when?" },
+        { "speaker": "Arjun", "voice": "male_a", "text": "The notice came in Tuesday night, but it went to Kevin's inbox, and he's been off sick all week. So nobody saw it until this morning. That's on us, not on customs." },
+        { "speaker": "Teresa", "voice": "female_a", "text": "Oh, fantastic. So how long does an exam usually take?" },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Depends. If it's just a document check, a day or two. But they've asked for a full unload at the exam facility, so we're looking at five to seven business days. Plus the exam fees, which usually run around eighteen hundred dollars." },
+        { "speaker": "Teresa", "voice": "female_a", "text": "Their spring sale launches on the fourteenth. That's ten days from now. They need at least the display pieces in the stores before then." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Which is part of the problem. The commercial invoice lists everything under one line, just furniture, with no breakdown. That's probably why it got flagged in the first place." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why did no one act on the customs notice sooner?",
+          "options": [
+            { "text": "Customs sent the notice several days late.", "trap": "opposite", "whyVi": "Arjun nói rõ 'That's on us, not on customs' – lỗi của công ty, không phải hải quan." },
+            { "text": "It was sent to a colleague who has been away ill.", "trap": "none", "whyVi": "Đúng: thông báo vào hộp thư của Kevin, người nghỉ ốm cả tuần." },
+            { "text": "The client forgot to forward it to the company.", "trap": "not_mentioned", "whyVi": "Bài không nói khách hàng nhận hay chuyển thông báo." },
+            { "text": "Arjun was out of the office on Tuesday.", "trap": "wrong_detail", "whyVi": "Người vắng mặt là Kevin, không phải Arjun." }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "it went to Kevin's inbox, and he's been off sick all week",
+          "explanationVi": "Arjun giải thích thông báo 'went to Kevin's inbox, and he's been off sick all week'. 'Off sick' = 'away ill'.",
+          "vocabulary": ["off sick"]
+        },
+        {
+          "number": 2,
+          "prompt": "How long does Arjun expect this customs exam to take?",
+          "options": [
+            { "text": "One or two days.", "trap": "partially_true", "whyVi": "Đây là thời gian cho kiểm tra giấy tờ, không phải kiểm tra dỡ toàn bộ hàng như lô này." },
+            { "text": "Ten days.", "trap": "wrong_detail", "whyVi": "Mười ngày là thời gian còn lại đến đợt giảm giá, không phải thời gian kiểm tra." },
+            { "text": "Between five and seven working days.", "trap": "none", "whyVi": "Đúng: 'five to seven business days' vì phải dỡ toàn bộ container." },
+            { "text": "About eighteen days.", "trap": "word_match", "whyVi": "'Eighteen' xuất hiện trong 'eighteen hundred dollars' – là phí kiểm tra, không phải số ngày." }
+          ],
+          "answerIndex": 2,
+          "category": "similar_choices",
+          "evidence": "so we're looking at five to seven business days",
+          "explanationVi": "Có nhiều con số: 'a day or two' (chỉ kiểm giấy tờ), 'five to seven business days' (dỡ toàn bộ – đúng trường hợp này), 'eighteen hundred dollars' (phí), 'ten days' (đến ngày sale).",
+          "vocabulary": ["business day"]
+        },
+        {
+          "number": 3,
+          "prompt": "According to Arjun, why was the container probably selected for inspection?",
+          "options": [
+            { "text": "The notice was sent to the wrong email address.", "trap": "word_match", "whyVi": "Việc gửi nhầm hộp thư làm chậm phản hồi, không phải lý do container bị chọn kiểm tra." },
+            { "text": "The client has not paid the exam fees.", "trap": "word_match", "whyVi": "Bài có nhắc 'exam fees' nhưng không nói khách chưa trả." },
+            { "text": "The container was much heavier than declared.", "trap": "not_mentioned", "whyVi": "Bài không nói gì về trọng lượng." },
+            { "text": "The shipping paperwork described the goods too vaguely.", "trap": "none", "whyVi": "Đúng: hóa đơn chỉ ghi chung một dòng 'furniture', không liệt kê chi tiết." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "The commercial invoice lists everything under one line, just furniture, with no breakdown. That's probably why it got flagged in the first place.",
+          "explanationVi": "'Lists everything under one line... with no breakdown' được diễn đạt lại thành 'described the goods too vaguely'. 'Flagged' = bị đánh dấu/chọn kiểm tra.",
+          "vocabulary": ["commercial invoice", "flag"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Teresa", "voice": "female_a", "text": "Okay. So what can we actually do? Sitting and waiting isn't an option with this client. They're one of our top three accounts." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Well, first, I can get the broker to send customs a corrected invoice today, with each item and its tariff code. That won't cancel the exam, but it might speed things up." },
+        { "speaker": "Teresa", "voice": "female_a", "text": "Might." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Might, yeah. I can't promise anything with customs. Second option, and this is the expensive one. We ask the supplier in Shanghai if they still have the display pieces in stock, and we air-freight just those. Maybe twelve pallets." },
+        { "speaker": "Teresa", "voice": "female_a", "text": "How much are we talking?" },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Roughly nine thousand, door to door, and about four days." },
+        { "speaker": "Teresa", "voice": "female_a", "text": "Nine thousand. Northbrook will never pay that on top of the exam fees. Not after we sat on the notice for two days." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "So maybe they don't pay all of it. We could split it. Honestly, given it was our mistake, I'd rather we cover half than lose the account." },
+        { "speaker": "Teresa", "voice": "female_a", "text": "I'd have to get that approved by Linda. She's pretty tight with the budget this quarter, but she hates losing clients more than anyone." }
+      ],
+      "questions": [
+        {
+          "number": 4,
+          "prompt": "What does Arjun say about sending a corrected invoice?",
+          "options": [
+            { "text": "It will stop the exam from going ahead.", "trap": "opposite", "whyVi": "Arjun nói rõ 'That won't cancel the exam'." },
+            { "text": "It may shorten the delay but the inspection will still happen.", "trap": "none", "whyVi": "Đúng: không hủy được việc kiểm tra nhưng 'might speed things up'." },
+            { "text": "The client will have to prepare it themselves.", "trap": "wrong_speaker", "whyVi": "Người gửi là đại lý hải quan (broker) do Arjun liên hệ, không phải khách hàng." },
+            { "text": "It cannot be sent until next week.", "trap": "wrong_detail", "whyVi": "Arjun nói có thể gửi ngay hôm nay ('today')." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "That won't cancel the exam, but it might speed things up.",
+          "explanationVi": "'Won't cancel the exam' = việc kiểm tra vẫn diễn ra; 'might speed things up' = có thể rút ngắn thời gian. Chú ý chữ 'might': không chắc chắn.",
+          "vocabulary": ["customs broker"]
+        },
+        {
+          "number": 5,
+          "prompt": "What would be shipped by air under the second option?",
+          "options": [
+            { "text": "The entire contents of the container.", "trap": "too_broad", "whyVi": "Chỉ gửi máy bay các món trưng bày ('just those'), không phải toàn bộ container." },
+            { "text": "Twelve containers of furniture.", "trap": "wrong_detail", "whyVi": "Con số 12 là số pallet, không phải container." },
+            { "text": "The items that customs wants to examine.", "trap": "word_match", "whyVi": "Có nhắc kiểm tra hải quan nhưng hàng gửi máy bay là hàng mới từ nhà cung cấp." },
+            { "text": "New display items from the supplier, if still available.", "trap": "none", "whyVi": "Đúng: hỏi nhà cung cấp còn hàng trưng bày không, rồi gửi máy bay chỉ những món đó." }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "We ask the supplier in Shanghai if they still have the display pieces in stock, and we air-freight just those.",
+          "explanationVi": "Phương án 2: hàng trưng bày MỚI từ nhà cung cấp ở Thượng Hải ('if they still have... in stock'), không phải hàng trong container đang bị giữ.",
+          "vocabulary": ["air-freight"]
+        },
+        {
+          "number": 6,
+          "prompt": "What is Arjun's view on the cost of the air shipment?",
+          "options": [
+            { "text": "The company should pay part of it because the delay was its fault.", "trap": "none", "whyVi": "Đúng: 'given it was our mistake, I'd rather we cover half than lose the account'." },
+            { "text": "The client should pay the full amount.", "trap": "opposite", "whyVi": "Arjun đề nghị chia đôi chi phí, không bắt khách trả hết." },
+            { "text": "It is too expensive to be worth considering.", "trap": "opposite", "whyVi": "Arjun chính là người đề xuất phương án này." },
+            { "text": "Linda is unlikely to approve any extra spending.", "trap": "wrong_speaker", "whyVi": "Teresa mới là người nói về Linda, và cô nói Linda ghét mất khách hơn ai hết." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "Honestly, given it was our mistake, I'd rather we cover half than lose the account.",
+          "explanationVi": "'I'd rather we cover half than lose the account' thể hiện quan điểm: công ty nên chịu một phần vì là lỗi của mình. 'Cover half' = 'pay part of it'.",
+          "vocabulary": ["account"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Arjun", "voice": "male_a", "text": "Okay, so what do we tell Northbrook? Because they're going to call back before lunch." },
+        { "speaker": "Teresa", "voice": "female_a", "text": "I'll call them. I don't want to wait for them to chase us. I'll tell them straight: the notice sat in our system for two days and that's our fault. Then I give them the two options." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Both? I'd only offer the air freight if Linda signs off first. If we offer it and she says no, we look even worse." },
+        { "speaker": "Teresa", "voice": "female_a", "text": "Fair point. Okay, I'll go see Linda right now, it'll take ten minutes. You call the broker about the corrected invoice either way, since that costs us nothing." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Already drafting the email. I'll also ask the supplier this afternoon about the display stock. No point getting approval if they've already sold the pieces." },
+        { "speaker": "Teresa", "voice": "female_a", "text": "Smart. Text me the minute you hear back." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Will do. Oh, and I'm setting up a rule so customs notices go to the shared operations inbox, not to one person." },
+        { "speaker": "Teresa", "voice": "female_a", "text": "Good. Honestly, that should've been done years ago." }
+      ],
+      "questions": [
+        {
+          "number": 7,
+          "prompt": "What does Arjun advise Teresa to do before she talks to the client?",
+          "options": [
+            { "text": "Wait until the client calls back.", "trap": "opposite", "whyVi": "Chính Teresa nói cô không muốn chờ khách gọi lại; Arjun cũng không khuyên chờ." },
+            { "text": "Get Linda's approval before mentioning the air option.", "trap": "none", "whyVi": "Đúng: 'I'd only offer the air freight if Linda signs off first'." },
+            { "text": "Avoid admitting the company made a mistake.", "trap": "not_mentioned", "whyVi": "Arjun không phản đối việc Teresa nhận lỗi với khách." },
+            { "text": "Offer only the corrected invoice, never the air freight.", "trap": "partially_true", "whyVi": "Arjun không loại bỏ phương án máy bay; chỉ muốn có duyệt trước rồi mới đề xuất." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "I'd only offer the air freight if Linda signs off first.",
+          "explanationVi": "'Signs off' = phê duyệt. Arjun muốn có sự đồng ý của Linda trước, vì nếu đề xuất rồi bị từ chối thì 'we look even worse'.",
+          "vocabulary": ["sign off"]
+        },
+        {
+          "number": 8,
+          "prompt": "What change will Arjun make to prevent this problem in the future?",
+          "options": [
+            { "text": "He will check Kevin's inbox every day.", "trap": "word_match", "whyVi": "Có nhắc hộp thư của Kevin ở đầu bài, nhưng giải pháp là chuyển thông báo sang hộp thư chung." },
+            { "text": "He will ask the broker to call him directly about exams.", "trap": "not_mentioned", "whyVi": "Bài không nói broker sẽ gọi trực tiếp." },
+            { "text": "Customs notices will be sent to a mailbox the whole team can see.", "trap": "none", "whyVi": "Đúng: thông báo sẽ vào 'shared operations inbox', không vào hộp thư của một người." },
+            { "text": "Every invoice will be reviewed by Linda before shipping.", "trap": "wrong_speaker", "whyVi": "Linda chỉ duyệt chi phí gửi máy bay; không ai nói cô sẽ duyệt mọi hóa đơn." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "I'm setting up a rule so customs notices go to the shared operations inbox, not to one person.",
+          "explanationVi": "Thông tin nằm ở cuối, sau 'Oh, and' – dễ bỏ lỡ. 'Shared operations inbox' = 'a mailbox the whole team can see'.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "flag", "vi": "đánh dấu (để kiểm tra)", "definition": "to mark something for special attention or inspection", "example": "The container was flagged for a customs exam." },
+    { "term": "commercial invoice", "vi": "hóa đơn thương mại", "definition": "a document listing goods, values and details for customs", "example": "The commercial invoice should list each item separately." },
+    { "term": "business day", "vi": "ngày làm việc", "definition": "a weekday that is not a public holiday", "example": "The exam could take five to seven business days." },
+    { "term": "customs broker", "vi": "đại lý khai báo hải quan", "definition": "a licensed agent who handles customs paperwork for importers", "example": "Ask the customs broker to send a corrected invoice." },
+    { "term": "air-freight", "vi": "vận chuyển bằng đường hàng không", "definition": "to send goods by plane", "example": "We could air-freight the display pieces." },
+    { "term": "off sick", "vi": "nghỉ ốm", "definition": "absent from work because of illness", "example": "Kevin has been off sick all week." },
+    { "term": "account", "vi": "khách hàng (doanh nghiệp)", "definition": "a business client that a company serves regularly", "example": "They're one of our top three accounts." },
+    { "term": "sign off", "vi": "phê duyệt", "definition": "to give official approval for something", "example": "The manager has to sign off on the extra cost." }
+  ],
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; key matched. Number-heavy distractors (1-2 days / 5-7 business days / $1,800 / 10 days) verified unambiguous. Changed: Q7 correct option said 'her manager' but the transcript never says Linda is Teresa's manager - now names Linda." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

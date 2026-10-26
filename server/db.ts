@@ -4,8 +4,15 @@ import crypto from "node:crypto";
 import type { Db, Settings } from "../shared/types";
 
 // On Railway, point DATA_DIR at a mounted volume (e.g. /data) so progress survives redeploys.
-const DATA_DIR = path.resolve(process.env.DATA_DIR || "data");
-const DB_FILE = path.join(DATA_DIR, "db.json");
+export const DATA_DIR = path.resolve(process.env.DATA_DIR || "data");
+// Storage layout (see AUDIT.md §Storage):
+//   progress.json  — B. user learning progress (settings, attempts, mistakes, vocab notebook, plans, mocks)
+//   ai.json        — C. AI evaluation results, pending submissions, usage log, evaluation cache
+//   audio/         — learner speaking recordings;  audio-assets/ — D. pre-generated listening audio
+//   library/       — A. admin-approved content (curated content ships in git under content/)
+const PROGRESS_FILE = path.join(DATA_DIR, "progress.json");
+const AI_FILE = path.join(DATA_DIR, "ai.json");
+const LEGACY_DB_FILE = path.join(DATA_DIR, "db.json");
 export const AUDIO_DIR = path.join(DATA_DIR, "audio");
 
 export function today(): string {
@@ -49,6 +56,8 @@ function defaultSettings(): Settings {
     },
     preferredVoice: null,
     effort: "medium",
+    allowBrowserVoice: false,
+    aiCache: true,
   };
 }
 
@@ -65,7 +74,51 @@ function emptyDb(): Db {
     mockExams: [],
     weekly: [],
     planCompletions: {},
+    submissions: [],
+    aiUsage: [],
+    aiCache: {},
   };
+}
+
+const AI_KEYS = ["evaluations", "submissions", "aiUsage", "aiCache"] as const;
+
+function merge(parsed: Partial<Db>): Db {
+  const base = emptyDb();
+  return { ...base, ...parsed, settings: { ...base.settings, ...(parsed.settings ?? {}), difficulty: { ...base.settings.difficulty, ...(parsed.settings?.difficulty ?? {}) } } };
+}
+
+/**
+ * One-time migration from the single db.json used before the content-library refactor.
+ * The original file is kept as db.json.migrated-<timestamp> so nothing is lost.
+ */
+function migrateLegacy(): Db | null {
+  if (!fs.existsSync(LEGACY_DB_FILE) || fs.existsSync(PROGRESS_FILE)) return null;
+  const legacy = JSON.parse(fs.readFileSync(LEGACY_DB_FILE, "utf8")) as Partial<Db>;
+  const db = merge(legacy);
+  // Legacy mock exams were AI-generated on demand; keep them readable but mark them as such.
+  db.mockExams = db.mockExams.map((m) => ({ ...m, packageId: m.packageId ?? null }));
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+  fs.copyFileSync(LEGACY_DB_FILE, `${LEGACY_DB_FILE}.migrated-${stamp}`);
+  writeSync(db);
+  fs.rmSync(LEGACY_DB_FILE);
+  console.log(`Migrated db.json → progress.json + ai.json (backup: db.json.migrated-${stamp})`);
+  return db;
+}
+
+function split(db: Db) {
+  const progress: Record<string, unknown> = { ...db };
+  const ai: Record<string, unknown> = { version: 1 };
+  for (const k of AI_KEYS) { ai[k] = db[k]; delete progress[k]; }
+  return { progress, ai };
+}
+
+function writeSync(db: Db) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  const { progress, ai } = split(db);
+  for (const [file, data] of [[PROGRESS_FILE, progress], [AI_FILE, ai]] as const) {
+    fs.writeFileSync(file + ".tmp", JSON.stringify(data, null, 1));
+    fs.renameSync(file + ".tmp", file);
+  }
 }
 
 let cache: Db | null = null;
@@ -73,32 +126,36 @@ let cache: Db | null = null;
 export function load(): Db {
   if (cache) return cache;
   fs.mkdirSync(AUDIO_DIR, { recursive: true });
-  if (fs.existsSync(DB_FILE)) {
-    const parsed = JSON.parse(fs.readFileSync(DB_FILE, "utf8")) as Db;
-    const base = emptyDb();
-    cache = { ...base, ...parsed, settings: { ...base.settings, ...parsed.settings } };
+  const migrated = migrateLegacy();
+  if (migrated) cache = migrated;
+  else if (fs.existsSync(PROGRESS_FILE)) {
+    const progress = JSON.parse(fs.readFileSync(PROGRESS_FILE, "utf8")) as Partial<Db>;
+    const ai = fs.existsSync(AI_FILE) ? (JSON.parse(fs.readFileSync(AI_FILE, "utf8")) as Partial<Db>) : {};
+    cache = merge({ ...progress, ...Object.fromEntries(AI_KEYS.map((k) => [k, ai[k]]).filter(([, v]) => v !== undefined)) });
   } else {
     cache = emptyDb();
-    save();
+    writeSync(cache);
   }
   return cache;
 }
 
 let writing = Promise.resolve();
 
-// Atomic write (tmp file + rename), serialized so concurrent requests can't interleave.
+// Atomic writes (tmp file + rename), serialized so concurrent requests can't interleave.
 export function save(): Promise<void> {
-  const snapshot = JSON.stringify(cache, null, 1);
+  const { progress, ai } = split(cache!);
+  const files: [string, string][] = [[PROGRESS_FILE, JSON.stringify(progress, null, 1)], [AI_FILE, JSON.stringify(ai, null, 1)]];
   writing = writing.then(async () => {
-    const tmp = DB_FILE + ".tmp";
-    await fs.promises.writeFile(tmp, snapshot, "utf8");
-    await fs.promises.rename(tmp, DB_FILE);
+    for (const [file, text] of files) {
+      await fs.promises.writeFile(file + ".tmp", text, "utf8");
+      await fs.promises.rename(file + ".tmp", file);
+    }
   });
   return writing;
 }
 
 export function replaceDb(next: Db): Promise<void> {
-  cache = { ...emptyDb(), ...next };
+  cache = merge(next);
   return save();
 }
 

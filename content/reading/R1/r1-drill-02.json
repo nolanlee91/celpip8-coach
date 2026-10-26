@@ -1,0 +1,128 @@
+{
+  "id": "r1-drill-02",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "education",
+  "title": "Paraphrase drill: Questions about an after-school program",
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. Q4 evidence replaced (author flag): 'even if Leo can't get a spot right away' -> 'He can begin on Monday', which directly shows Leo has a place rather than being first on the waitlist." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a parent",
+      "kind": "text",
+      "text": "Dear Ms. Antwi,\n\nMy son, Leo Kowalczyk, is in Mr. Tran's Grade 2 class, and I'm hoping you can help me with a few questions about the after-school program that runs in the gym.\n\nI've just accepted a position at a warehouse in Newton, and my shift ends at 5:30, so I won't be able to collect Leo at the end of the school day anymore. I put his name on the program's waitlist two weeks ago but haven't heard anything since. Is there any way to find out where he is on the list?\n\nI also have two practical concerns. Leo has a severe tree-nut allergy and carries an EpiPen. Will the program staff know how to use it, and are snacks provided, or should I send his own? Secondly, the monthly fee of $340 is more than I'd budgeted for. A friend mentioned that some families pay a reduced rate, but I couldn't find anything about this on the website.\n\nI'd be grateful for any information, even if Leo can't get a spot right away.\n\nKind regards,\nNadia Kowalczyk",
+      "table": null
+    },
+    {
+      "label": "Reply from the school",
+      "kind": "text",
+      "text": "Dear Ms. Kowalczyk,\n\nThank you for your email. Good news: a family has just withdrawn, and Leo is now [[4]]. He can begin on Monday, and a program leader will meet him at Mr. Tran's classroom door at 2:50 each day.\n\nRegarding his allergy, all of our program leaders hold current first-aid certification, which includes [[5]]. Snacks are provided, but because they are prepared off-site in a kitchen that also handles nuts, we recommend that you [[6]].\n\nAs for the fee, Brightpath Recreation offers a sliding scale based on household income. The application form isn't online yet, but I've attached a copy for you.\n\nWarm regards,\nAbena Antwi\nVice-Principal, Glenwood Elementary",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Why does Nadia need a place in the after-school program?",
+      "options": [
+        { "text": "Leo's teacher has recommended it.", "trap": "not_mentioned", "whyVi": "Mr. Tran chỉ được nhắc là giáo viên của Leo, không giới thiệu chương trình." },
+        { "text": "Her new work schedule prevents her from picking Leo up after school.", "trap": "none", "whyVi": "Đúng: ca làm kết thúc 5:30 nên cô không đón Leo lúc tan học được." },
+        { "text": "She is moving to a new home in Newton.", "trap": "word_match", "whyVi": "Newton là nơi có nhà kho cô sẽ làm việc, không phải nơi chuyển nhà." },
+        { "text": "Leo wants to play sports in the gym.", "trap": "word_match", "whyVi": "'gym' chỉ là nơi tổ chức chương trình; không nói Leo muốn chơi thể thao." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "my shift ends at 5:30, so I won't be able to collect Leo at the end of the school day anymore",
+      "explanationVi": "'my shift ends at 5:30' = 'her new work schedule'; 'collect Leo' = 'picking Leo up'; 'at the end of the school day' = 'after school'. Nhận ra từng cặp paraphrase là chìa khóa.",
+      "vocabulary": ["collect"]
+    },
+    {
+      "number": 2,
+      "prompt": "What does Nadia want to know about the waitlist?",
+      "options": [
+        { "text": "How to add Leo's name to it", "trap": "opposite", "whyVi": "Cô đã ghi tên Leo hai tuần trước." },
+        { "text": "Why Leo's name was removed from it", "trap": "not_mentioned", "whyVi": "Không có chuyện tên bị xóa." },
+        { "text": "Whether there is a fee to join it", "trap": "not_mentioned", "whyVi": "Câu hỏi về phí là phí hằng tháng của chương trình, không phải phí vào danh sách chờ." },
+        { "text": "How close Leo is to getting a spot", "trap": "none", "whyVi": "Đúng: 'find out where he is on the list' = Leo đang ở vị trí nào, còn bao xa mới có chỗ." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Is there any way to find out where he is on the list?",
+      "explanationVi": "'where he is on the list' (vị trí trong danh sách) được diễn đạt lại thành 'how close Leo is to getting a spot'. Đáp án không lặp lại từ 'list'.",
+      "vocabulary": ["waitlist"]
+    },
+    {
+      "number": 3,
+      "prompt": "What does Nadia say about the monthly fee?",
+      "options": [
+        { "text": "It is more than she planned to spend.", "trap": "none", "whyVi": "Đúng: 'more than I'd budgeted for'." },
+        { "text": "It has gone up since last year.", "trap": "not_mentioned", "whyVi": "Không có thông tin tăng phí." },
+        { "text": "It is shown incorrectly on the website.", "trap": "word_match", "whyVi": "Website được nhắc vì cô không tìm thấy thông tin giảm phí, không phải vì phí ghi sai." },
+        { "text": "Her friend pays exactly the same amount.", "trap": "wrong_detail", "whyVi": "Bạn cô chỉ nói một số gia đình được trả mức giảm." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "the monthly fee of $340 is more than I'd budgeted for",
+      "explanationVi": "'budget for' = dự trù chi tiêu → 'more than I'd budgeted for' = 'more than she planned to spend'.",
+      "vocabulary": ["budget for"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "first on the waiting list", "trap": "partially_true", "whyVi": "Gần đúng hướng, nhưng câu sau 'He can begin on Monday' cho thấy Leo đã có chỗ, không còn chờ." },
+        { "text": "in Mr. Tran's Grade 2 class", "trap": "word_match", "whyVi": "Leo vốn đã học lớp này; đây không phải tin mới." },
+        { "text": "registered in the program", "trap": "none", "whyVi": "Đúng: có gia đình rút lui nên Leo có chỗ và bắt đầu từ thứ Hai." },
+        { "text": "eligible for the reduced rate", "trap": "wrong_detail", "whyVi": "Mức phí giảm được bàn ở đoạn cuối và cần nộp đơn; không liên quan đến việc có gia đình rút lui." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "He can begin on Monday",
+      "explanationVi": "'a family has just withdrawn' (một gia đình vừa rút) → có chỗ trống. Câu sau 'He can begin on Monday' xác nhận Leo đã được nhận, nên 'first on the waiting list' chưa đủ.",
+      "vocabulary": ["withdraw"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "preparing nut-free meals", "trap": "word_match", "whyVi": "Có từ 'nut' nhưng chứng chỉ sơ cứu không phải về nấu ăn; đồ ăn còn được làm ở bếp có hạt." },
+        { "text": "how to use an allergy auto-injector", "trap": "none", "whyVi": "Đúng: trả lời câu hỏi 'Will the program staff know how to use it?' (EpiPen là bút tiêm dị ứng)." },
+        { "text": "a criminal record check", "trap": "not_mentioned", "whyVi": "Không liên quan đến câu hỏi của phụ huynh và không được nhắc đến." },
+        { "text": "supervising children in the gym", "trap": "word_match", "whyVi": "'gym' có trong thư, nhưng đoạn này đang trả lời về dị ứng." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Will the program staff know how to use it",
+      "explanationVi": "'Regarding his allergy' → trả lời câu hỏi về EpiPen. 'EpiPen' được diễn đạt lại thành 'allergy auto-injector' (bút tự tiêm khi bị dị ứng nặng).",
+      "vocabulary": ["EpiPen"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "pick Leo up before snack time", "trap": "not_mentioned", "whyVi": "Cô làm đến 5:30 nên không thể đón sớm; trường không đề nghị như vậy." },
+        { "text": "pay a small extra snack fee", "trap": "not_mentioned", "whyVi": "Không có phí ăn nhẹ nào." },
+        { "text": "leave his EpiPen at home", "trap": "opposite", "whyVi": "Trẻ dị ứng nặng phải luôn mang EpiPen; điều này ngược với mối lo về an toàn." },
+        { "text": "pack his snacks from home", "trap": "none", "whyVi": "Đúng: chính là phương án Nadia hỏi 'should I send his own?'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "are snacks provided, or should I send his own?",
+      "explanationVi": "'because ... a kitchen that also handles nuts' → không an toàn cho Leo, nên trường khuyên phương án thứ hai trong câu hỏi của Nadia. 'send his own' = 'pack his snacks from home'.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "collect", "vi": "đón (ai đó)", "definition": "to pick up a person from a place", "example": "I can't collect my son until six o'clock." },
+    { "term": "waitlist", "vi": "danh sách chờ", "definition": "a list of people waiting for a place that is not yet available", "example": "We put his name on the waitlist in September." },
+    { "term": "budget for", "vi": "dự trù ngân sách cho", "definition": "to plan to spend a certain amount of money on something", "example": "We hadn't budgeted for after-school care." },
+    { "term": "EpiPen", "vi": "bút tiêm epinephrine (cấp cứu dị ứng)", "definition": "a brand of auto-injector used in a severe allergic reaction", "example": "Leo carries an EpiPen in his backpack." },
+    { "term": "withdraw", "vi": "rút lui, rút tên", "definition": "to stop taking part in something", "example": "One family withdrew, so a spot opened up." },
+    { "term": "sliding scale", "vi": "mức phí linh hoạt theo thu nhập", "definition": "a system where the price changes depending on how much a person earns", "example": "The program uses a sliding scale, so lower-income families pay less." }
+  ]
+}

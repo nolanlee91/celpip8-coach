@@ -1,0 +1,58 @@
+{
+  "id": "s8-practice-02",
+  "kind": "speaking",
+  "taskType": "S8",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "An odd-shaped rental bicycle",
+  "prompt": "You are at a bike rental shop near Stanley Park, waiting for your cousin, who is running late. You notice this strange bicycle for rent. Call your cousin, describe the bike in detail, and suggest whether you should rent it together.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='#eaf4fb'/><rect y='440' width='800' height='60' fill='#b8c4a8'/><path d='M200 112 Q285 30 370 112 Z' fill='#e17055'/><path d='M255 112 Q285 52 315 112 Z' fill='#ffffff'/><line x1='273' y1='190' x2='285' y2='80' stroke='#636e72' stroke-width='4'/><circle cx='250' cy='398' r='40' fill='none' stroke='#636e72' stroke-width='8'/><circle cx='230' cy='400' r='40' fill='none' stroke='#2d3436' stroke-width='8'/><path d='M230 360 V440 M190 400 H270' stroke='#e67e22' stroke-width='2.5'/><circle cx='230' cy='400' r='6' fill='#e67e22'/><rect x='192' y='318' width='70' height='42' rx='4' fill='#d4a056'/><path d='M192 332 H262 M192 346 H262 M206 318 V360 M220 318 V360 M234 318 V360 M248 318 V360' stroke='#a87a35' stroke-width='2'/><line x1='262' y1='345' x2='300' y2='330' stroke='#8e44ad' stroke-width='6'/><circle cx='540' cy='330' r='110' fill='none' stroke='#2d3436' stroke-width='10'/><path d='M540 220 V440 M430 330 H650 M462 252 L618 408 M462 408 L618 252' stroke='#f1c40f' stroke-width='3'/><path d='M230 400 L300 330 L350 380 L410 300 L460 360 L540 330' stroke='#8e44ad' stroke-width='9' fill='none' stroke-linejoin='round' stroke-linecap='round'/><line x1='300' y1='330' x2='300' y2='250' stroke='#8e44ad' stroke-width='8'/><line x1='540' y1='330' x2='500' y2='190' stroke='#8e44ad' stroke-width='8'/><circle cx='540' cy='330' r='11' fill='#e17055'/><rect x='266' y='185' width='14' height='62' rx='6' fill='#2d3436'/><ellipse cx='302' cy='247' rx='32' ry='8' fill='#2d3436'/><circle cx='350' cy='380' r='12' fill='#636e72'/><line x1='350' y1='380' x2='366' y2='398' stroke='#636e72' stroke-width='4'/><rect x='360' y='396' width='16' height='5' fill='#2d3436'/><path d='M500 190 Q470 172 476 150 Q484 132 500 146' stroke='#2d3436' stroke-width='6' fill='none' stroke-linecap='round'/><path d='M500 190 Q530 172 524 150 Q516 132 500 146' stroke='#2d3436' stroke-width='6' fill='none' stroke-linecap='round'/><circle cx='512' cy='200' r='6' fill='#d63031'/></svg>",
+  "options": null,
+  "structure": [
+    "Explain where you are and why you're calling.",
+    "Overall shape first: a huge front wheel and two small back wheels.",
+    "Details: the zigzag frame, the seat with a backrest, the umbrella, the heart-shaped handlebars, the basket.",
+    "Give your opinion and a suggestion (rent it or not), then end the call."
+  ],
+  "modelAnswer": "Hey Tuan, it's me. No worries about being late. Listen, I'm at the rental shop and there's the strangest bike here. First of all, the wheels are totally different sizes. The front wheel is huge, about three times the size of the back ones, with a black tire and bright yellow spokes. At the back, there are two tiny wheels side by side, so it's actually more like a tricycle. The frame is purple, and instead of being straight, it goes up and down in a zigzag. The seat is really far back, with a tall black backrest, kind of like a chair. Attached to the backrest, there's a pole holding an orange-and-white umbrella, so you'd be in the shade the whole time. The handlebars are weird too, because they're bent into the shape of a heart, and there's a little red bell just below them. Oh, and there's a wicker basket over the back wheels. Honestly, it looks fun, but it's only for one person, so maybe we should just rent two normal bikes.",
+  "usefulExpressions": [
+    {
+      "expression": "There's the strangest… here",
+      "usageVi": "Dùng so sánh nhất để gây ấn tượng ngay đầu cuộc gọi"
+    },
+    {
+      "expression": "…are totally different sizes",
+      "usageVi": "Mô tả kích thước khác nhau giữa các bộ phận"
+    },
+    {
+      "expression": "…so it's actually more like a tricycle",
+      "usageVi": "Diễn giải lại để người nghe hiểu bản chất đồ vật"
+    },
+    {
+      "expression": "Instead of being straight, it goes up and down in a zigzag",
+      "usageVi": "Tả hình dạng lạ bằng cách so với hình dạng bình thường"
+    },
+    {
+      "expression": "…bent into the shape of a heart",
+      "usageVi": "Tả hình dạng bằng hình ảnh quen thuộc (bị uốn thành hình trái tim) — giúp đạt điểm từ vựng cao"
+    },
+    {
+      "expression": "Honestly, it looks fun, but…",
+      "usageVi": "Đưa ra nhận xét và đề xuất cuối cuộc gọi"
+    }
+  ],
+  "commonMistakes": [
+    "Nói 'the wheel is very big and the other wheel is very small' rồi dừng; hãy dùng so sánh cụ thể ('almost as tall as I am').",
+    "Nhầm 'tire' (lốp xe) và 'tired'; phát âm /taɪər/.",
+    "Chỉ tả mà không trả lời phần cuối đề bài (có nên thuê không) — mất điểm Task Fulfillment."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rendered and inspected the picture/cards; checked the model answer against the drawing, length (60 s), task fulfilment, expressions and mistakes. Changes: Replaced unverifiable \"almost as tall as I am\" with a size comparison visible in the picture."
+  },
+  "createdAt": "2026-10-26"
+}

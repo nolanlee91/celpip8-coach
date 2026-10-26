@@ -1,0 +1,122 @@
+{
+  "id": "l2-mock-02",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "shopping",
+  "title": "Returning a jacket without a receipt",
+  "context": "You will hear a customer talking to a sales associate at an outdoor clothing store in Vancouver.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Sophie", "voice": "female_b", "text": "Hi there, what can I help you with?" },
+        { "speaker": "Kwame", "voice": "male_a", "text": "Hi. So, I bought this jacket here maybe three weeks ago, and the zipper's already broken. See? It just comes right off the track." },
+        { "speaker": "Kwame", "voice": "male_a", "text": "I'd like to return it, but, well, I can't find the receipt anywhere." },
+        { "speaker": "Sophie", "voice": "female_b", "text": "Oh, that's not good. Yeah, that zipper's definitely broken. Okay, without a receipt, normally the most I could do is store credit, and only for whatever the jacket's selling for today." },
+        { "speaker": "Kwame", "voice": "male_a", "text": "And what's that?" },
+        { "speaker": "Sophie", "voice": "female_b", "text": "Let me check. It's on sale right now, so two twenty-nine." },
+        { "speaker": "Kwame", "voice": "male_a", "text": "Ouch. I paid almost three hundred for it. I bought it before the sale started." },
+        { "speaker": "Sophie", "voice": "female_b", "text": "Right. But hang on, did you pay by card? If you've got the card with you, I can search for the transaction. If it comes up, it's as good as a receipt." },
+        { "speaker": "Kwame", "voice": "male_a", "text": "I think so. I used my debit card, I'm pretty sure. Here you go." },
+        { "speaker": "Sophie", "voice": "female_b", "text": "Thanks. And do you remember roughly which day?" },
+        { "speaker": "Kwame", "voice": "male_a", "text": "It was a Saturday, the first weekend of November. Or maybe the second." },
+        { "speaker": "Sophie", "voice": "female_b", "text": "Okay, give me a sec. There it is. November eighth, two eighty-nine ninety-nine. Perfect. So now you've got options. Because it's a defect, I can do a full refund back to your card, or I can exchange it for a new one." },
+        { "speaker": "Kwame", "voice": "male_a", "text": "I actually really like the jacket. It's warm. I just want one with a zipper that works." },
+        { "speaker": "Sophie", "voice": "female_b", "text": "Makes sense. The only thing is, we're out of large in navy right now. I could order one from our Richmond store, which usually takes three to five business days. Or there's the black one in large, right here." },
+        { "speaker": "Kwame", "voice": "male_a", "text": "Hmm. I'd rather wait for the navy. My old jacket's still in the closet, so I'll survive a few more days." },
+        { "speaker": "Sophie", "voice": "female_b", "text": "Great, I'll set that up. We'll text you when it arrives, and just bring in this jacket when you pick it up." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Without proof of purchase, what could the store normally offer?",
+          "options": [
+            { "text": "A full refund to the original card.", "trap": "opposite", "whyVi": "Hoàn tiền đầy đủ chỉ có sau khi tìm được giao dịch; không có hóa đơn thì không được." },
+            { "text": "Store credit equal to the jacket's current lower price.", "trap": "none", "whyVi": "Đúng: chỉ tín dụng cửa hàng theo giá đang bán hôm nay (229 đô, đang giảm giá)." },
+            { "text": "Store credit for the full amount he paid.", "trap": "wrong_detail", "whyVi": "Tín dụng chỉ bằng giá hiện tại, không phải số tiền anh đã trả." },
+            { "text": "A free repair of the zipper.", "trap": "not_mentioned", "whyVi": "Không ai nhắc tới việc sửa khóa kéo." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "normally the most I could do is store credit, and only for whatever the jacket's selling for today",
+          "explanationVi": "'Whatever the jacket's selling for today' + 'It's on sale right now' = giá hiện tại thấp hơn. Đáp án B gộp hai thông tin này.",
+          "vocabulary": ["store credit"]
+        },
+        {
+          "number": 2,
+          "prompt": "How did the sales associate find a record of the purchase?",
+          "options": [
+            { "text": "Kwame found an email receipt on his phone.", "trap": "not_mentioned", "whyVi": "Không có biên lai email nào; anh không tìm được hóa đơn." },
+            { "text": "She looked up his name in the customer rewards list.", "trap": "not_mentioned", "whyVi": "Bài không nhắc chương trình khách hàng thân thiết." },
+            { "text": "She searched for the transaction using his payment card.", "trap": "none", "whyVi": "Đúng: cô dùng thẻ ghi nợ của anh và ngày mua để tìm giao dịch." },
+            { "text": "Kwame remembered the exact date and price.", "trap": "partially_true", "whyVi": "Anh chỉ nhớ đại khái ('first weekend... or maybe the second'); thẻ mới là cách tìm ra." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "If you've got the card with you, I can search for the transaction.",
+          "explanationVi": "'Search for the transaction' bằng thẻ = tìm giao dịch qua thẻ thanh toán. 'Debit card' là một loại 'payment card'.",
+          "vocabulary": ["transaction"]
+        },
+        {
+          "number": 3,
+          "prompt": "How much did Kwame originally pay for the jacket?",
+          "options": [
+            { "text": "Two hundred and twenty-nine dollars.", "trap": "wrong_detail", "whyVi": "Đây là giá giảm hiện tại, không phải giá anh đã trả." },
+            { "text": "Exactly three hundred dollars.", "trap": "word_match", "whyVi": "Anh nói 'almost three hundred' – gần 300, không phải đúng 300." },
+            { "text": "Two hundred and ninety-nine dollars.", "trap": "wrong_detail", "whyVi": "Nghe nhầm 'ninety-nine' (99 xu) thành 299 đô; giá đúng là 289,99 đô." },
+            { "text": "A little under two hundred and ninety dollars.", "trap": "none", "whyVi": "Đúng: 289,99 đô, tức là chỉ dưới 290 đô một chút." }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "November eighth, two eighty-nine ninety-nine.",
+          "explanationVi": "'Two eighty-nine ninety-nine' = 289,99 đô. Người Canada thường đọc giá theo kiểu này. 229 là giá sale; 'almost three hundred' là cách nói ước lượng.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "Why does Kwame choose an exchange instead of a refund?",
+          "options": [
+            { "text": "He is happy with the jacket apart from the faulty zipper.", "trap": "none", "whyVi": "Đúng: anh thích áo, áo ấm, chỉ muốn khóa kéo hoạt động." },
+            { "text": "The store does not give refunds for sale items.", "trap": "opposite", "whyVi": "Nhân viên nói rõ có thể hoàn tiền đầy đủ vì là lỗi sản phẩm." },
+            { "text": "He prefers the black jacket that is in stock.", "trap": "opposite", "whyVi": "Anh chọn chờ màu xanh navy, không lấy áo đen." },
+            { "text": "He wants to use the money as store credit.", "trap": "word_match", "whyVi": "'Store credit' được nhắc ở đầu nhưng không phải lựa chọn cuối cùng." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "I actually really like the jacket. It's warm. I just want one with a zipper that works.",
+          "explanationVi": "Thái độ: anh hài lòng với áo ('really like... It's warm'), chỉ có vấn đề ở khóa kéo. 'A zipper that works' ↔ 'apart from the faulty zipper'.",
+          "vocabulary": ["defect"]
+        },
+        {
+          "number": 5,
+          "prompt": "What will Kwame do with the broken jacket?",
+          "options": [
+            { "text": "Leave it at the store today.", "trap": "opposite", "whyVi": "Nhân viên bảo mang áo theo khi đến nhận áo mới, không phải để lại hôm nay." },
+            { "text": "Mail it to the Richmond store.", "trap": "word_match", "whyVi": "Richmond là nơi gửi áo mới đến, anh không phải gửi áo cũ đi." },
+            { "text": "Hand it in when he collects the replacement.", "trap": "none", "whyVi": "Đúng: 'just bring in this jacket when you pick it up'." },
+            { "text": "Keep it as a spare in his closet.", "trap": "wrong_detail", "whyVi": "Cái áo trong tủ là áo cũ khác của anh, không phải áo bị hỏng." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "We'll text you when it arrives, and just bring in this jacket when you pick it up.",
+          "explanationVi": "Thông tin ở câu cuối, dễ lỡ: 'bring in this jacket when you pick it up'. 'Pick it up' = 'collects the replacement'.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "store credit", "vi": "tín dụng mua hàng tại cửa hàng", "definition": "an amount you can spend at a store instead of getting cash back", "example": "Without a receipt, we can only give store credit." },
+    { "term": "transaction", "vi": "giao dịch", "definition": "a single payment or purchase", "example": "I can search for the transaction with your card." },
+    { "term": "defect", "vi": "lỗi sản phẩm", "definition": "a fault in the way something was made", "example": "Because it's a defect, you can get a full refund." },
+    { "term": "exchange", "vi": "đổi hàng", "definition": "to give back an item and receive another one", "example": "I'd like to exchange it for a new one." },
+    { "term": "out of", "vi": "hết (hàng)", "definition": "having none of something left", "example": "We're out of large in navy right now." },
+    { "term": "as good as", "vi": "coi như là, tương đương", "definition": "almost the same as; equal in effect to", "example": "The card record is as good as a receipt." }
+  ],
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. Q3 ('two eighty-nine ninety-nine' = $289.99 -> 'a little under $290') verified as the only defensible answer against $229 / ~$300 / $299. Nov 8 = second weekend of November is consistent with the 'first or second' hesitation. No changes needed." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

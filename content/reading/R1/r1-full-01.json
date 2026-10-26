@@ -1,0 +1,205 @@
+{
+  "id": "r1-full-01",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "full",
+  "difficulty": 6,
+  "topic": "housing",
+  "title": "Bathroom mould and a rent-increase notice",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. BC rent-increase rule checked: three full months' notice (RTA s.42), notice received late October -> earliest effective date February 1; Q9 key and January-1 trap correct. No changes needed." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a tenant",
+      "kind": "text",
+      "text": "Dear Mr. Sandhu,\n\nI'm writing about two things, and the first one has been going on for a while now. The mould in the bathroom of Unit 304 is back. As you may remember, your maintenance person, Ray, scrubbed the ceiling above the shower and repainted it in March. For about six weeks it looked fine, but the black spots have returned, and this time they have spread along the caulking around the tub and behind the toilet. I've been running the fan during every shower and leaving the door open afterwards, as Ray suggested, so I don't think this is simply a matter of how we use the room. To be honest, I suspect the fan isn't actually venting anywhere. When I hold a piece of tissue up to it, it barely moves.\n\nMy daughter has asthma, and her doctor recently asked whether there is any mould in our home, so I'd rather not wait and see if another coat of paint does the trick. Could someone check the fan duct, and possibly the wall behind the tub, before the weather turns colder and we have to keep the windows shut?\n\nThe second matter is the rent-increase notice that was slipped under my door last Friday. I'm not disputing the increase itself; I understand that costs have gone up for everyone. However, the notice says the new rent starts on December 1, and I was under the impression that tenants must receive three full months' notice. If I've misread something, I apologise, but I'd appreciate it if you could confirm the correct start date so I can adjust my automatic payment with the bank.\n\nI'm usually home after 4:30 on weekdays. If a weekday morning is easier for your crew, I'm happy to leave a key with the building manager. You can reach me at 604-555-0187.\n\nThank you,\nDaniel Okafor\nUnit 304, Cedarview Apartments, Burnaby",
+      "table": null
+    },
+    {
+      "label": "Reply from the landlord",
+      "kind": "text",
+      "text": "Dear Daniel,\n\nThank you for your detailed email, and I'm sorry to hear that the mould has [[7]]. Your test with the tissue was a smart idea. Ray told me in March that the fan was quite old, so this time I've asked Coastline Ventilation to [[8]] on Thursday morning. If the duct turns out to be blocked or disconnected, they will replace the whole unit, and we will strip and redo the caulking at the same time.\n\nAs for the notice, you are quite right, and I apologise for the mistake. Because you received it in late October, the new amount cannot take effect until [[9]]. Please keep paying your current rent until then. I'll [[10]] so that you have the correct date in writing.\n\nThursday morning works best for the crew, so please [[11]] with Mrs. Ito in the building office by Wednesday evening.\n\nBest regards,\nGurpreet Sandhu",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Why is Daniel writing to Mr. Sandhu?",
+      "options": [
+        { "text": "To complain about the maintenance worker's attitude", "trap": "not_mentioned", "whyVi": "Daniel không phàn nàn gì về thái độ của Ray; anh ấy còn làm theo lời khuyên của Ray." },
+        { "text": "To report a problem that has returned and to check a date on a notice", "trap": "none", "whyVi": "Đúng: thư có hai việc — nấm mốc quay lại và hỏi ngày bắt đầu tăng tiền thuê." },
+        { "text": "To refuse to pay the higher rent", "trap": "opposite", "whyVi": "Daniel nói rõ 'I'm not disputing the increase itself' — anh ấy không từ chối tăng giá." },
+        { "text": "To ask permission to repaint the bathroom himself", "trap": "word_match", "whyVi": "Bài có từ 'repainted' và 'coat of paint' nhưng Daniel không xin tự sơn; người sơn là Ray." }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "I'm writing about two things",
+      "explanationVi": "Câu hỏi về mục đích thư → đọc câu mở đầu và câu chủ đề mỗi đoạn. Daniel viết 'two things': (1) 'The mould ... is back', (2) 'confirm the correct start date'. Đáp án B gom cả hai ý: 'is back' = 'has returned', 'confirm the start date' = 'check a date on a notice'.",
+      "vocabulary": ["mould"]
+    },
+    {
+      "number": 2,
+      "prompt": "What has Daniel done to try to prevent the mould?",
+      "options": [
+        { "text": "He has used the fan and let air into the room after showering.", "trap": "none", "whyVi": "Đúng: 'running the fan during every shower and leaving the door open afterwards'." },
+        { "text": "He has replaced the caulking around the tub.", "trap": "word_match", "whyVi": "Bài nhắc 'caulking around the tub' nhưng chỉ nói nấm mốc lan ra ở đó; việc làm lại caulking là kế hoạch của chủ nhà." },
+        { "text": "He has scrubbed and repainted the ceiling.", "trap": "wrong_speaker", "whyVi": "Người cọ rửa và sơn trần nhà là Ray (thợ bảo trì), không phải Daniel." },
+        { "text": "He has kept the bathroom windows shut.", "trap": "word_match", "whyVi": "Bài có 'keep the windows shut' nhưng đó là điều sẽ xảy ra khi trời lạnh, không phải việc Daniel đã làm." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "I've been running the fan during every shower and leaving the door open afterwards",
+      "explanationVi": "Tìm động từ thì hiện tại hoàn thành tiếp diễn 'I've been...' — đó là những việc Daniel đã làm. 'leaving the door open afterwards' được diễn đạt lại thành 'let air into the room after showering'.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "What does Daniel think is the most likely cause of the mould?",
+      "options": [
+        { "text": "His family takes too many long showers.", "trap": "opposite", "whyVi": "Daniel nói 'I don't think this is simply a matter of how we use the room' — ngược lại với ý này." },
+        { "text": "The paint used in March was of poor quality.", "trap": "not_mentioned", "whyVi": "Bài không đánh giá chất lượng sơn." },
+        { "text": "The bathroom fan is not removing moist air.", "trap": "none", "whyVi": "Đúng: 'I suspect the fan isn't actually venting anywhere' và tờ giấy 'barely moves'." },
+        { "text": "A pipe behind the toilet is leaking.", "trap": "word_match", "whyVi": "Bài có 'behind the toilet' nhưng chỉ để chỉ chỗ nấm mốc lan ra, không nói có ống rò rỉ." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "I suspect the fan isn't actually venting anywhere",
+      "explanationVi": "Từ khóa 'I suspect' (tôi nghi rằng) cho biết suy đoán của Daniel về nguyên nhân. 'isn't venting anywhere' (không thoát khí ra ngoài) = 'not removing moist air'. Thí nghiệm với tờ giấy ăn hầu như không động đậy củng cố ý này.",
+      "vocabulary": ["vent"]
+    },
+    {
+      "number": 4,
+      "prompt": "Why does Daniel not want to rely on another coat of paint?",
+      "options": [
+        { "text": "Mr. Sandhu promised a permanent fix before winter.", "trap": "not_mentioned", "whyVi": "Không có lời hứa nào của ông Sandhu trong thư của Daniel." },
+        { "text": "The building manager does not allow painting in winter.", "trap": "not_mentioned", "whyVi": "Bài không nói gì về quy định sơn của quản lý tòa nhà." },
+        { "text": "His doctor told him to move to another unit.", "trap": "wrong_detail", "whyVi": "Bác sĩ chỉ hỏi trong nhà có nấm mốc không, và đó là bác sĩ của con gái, không bảo chuyển nhà." },
+        { "text": "His child has a breathing condition.", "trap": "none", "whyVi": "Đúng: 'My daughter has asthma' — hen suyễn là bệnh về hô hấp." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "My daughter has asthma, and her doctor recently asked whether there is any mould in our home",
+      "explanationVi": "Câu 'so I'd rather not wait and see if another coat of paint does the trick' bắt đầu bằng 'so' → lý do nằm ngay trước đó: con gái bị hen suyễn. 'daughter' = 'child', 'asthma' = 'a breathing condition'.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "What is Daniel's position on the rent increase?",
+      "options": [
+        { "text": "He accepts it but questions when it should begin.", "trap": "none", "whyVi": "Đúng: anh ấy không phản đối mức tăng, chỉ hỏi lại ngày bắt đầu (cần báo trước ba tháng)." },
+        { "text": "He believes the increase is too large.", "trap": "opposite", "whyVi": "Daniel nói 'I understand that costs have gone up' — anh ấy chấp nhận mức tăng." },
+        { "text": "He has already changed his automatic payment.", "trap": "opposite", "whyVi": "Anh ấy cần biết ngày đúng 'so I can adjust' — tức là chưa điều chỉnh." },
+        { "text": "He never received a written notice.", "trap": "wrong_detail", "whyVi": "Thông báo đã được nhét dưới cửa nhà anh ấy thứ Sáu tuần trước." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "I'm not disputing the increase itself",
+      "explanationVi": "Cấu trúc 'I'm not disputing X. However, ...' = chấp nhận X nhưng có vấn đề khác. Vấn đề khác là ngày 'December 1' so với quy định 'three full months' notice'. 'not disputing' = 'accepts'.",
+      "vocabulary": ["rent-increase notice", "be under the impression"]
+    },
+    {
+      "number": 6,
+      "prompt": "What does Daniel offer to do?",
+      "options": [
+        { "text": "Pay for part of the repair work", "trap": "not_mentioned", "whyVi": "Daniel không đề nghị chia chi phí sửa chữa." },
+        { "text": "Be at home for the crew on a weekday morning", "trap": "wrong_detail", "whyVi": "Daniel chỉ ở nhà sau 4:30 chiều các ngày trong tuần, không phải buổi sáng." },
+        { "text": "Let workers enter while he is out", "trap": "none", "whyVi": "Đúng: anh ấy sẵn sàng để chìa khóa ở chỗ quản lý tòa nhà nếu thợ muốn đến buổi sáng." },
+        { "text": "Contact the ventilation company himself", "trap": "not_mentioned", "whyVi": "Bài không nói Daniel sẽ tự gọi công ty thông gió." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "I'm happy to leave a key with the building manager",
+      "explanationVi": "'I'm happy to...' là cách đưa ra đề nghị. Để chìa khóa lại cho quản lý trong khi anh ấy không có nhà (buổi sáng) nghĩa là thợ có thể vào khi anh ấy vắng mặt.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "cleared up", "trap": "opposite", "whyVi": "Nấm mốc không hết mà quay lại — 'cleared up' ngược nghĩa." },
+        { "text": "come back", "trap": "none", "whyVi": "Đúng: Daniel viết 'The mould ... is back' và 'the black spots have returned'." },
+        { "text": "spread to the bedroom", "trap": "wrong_detail", "whyVi": "Nấm mốc lan ra quanh bồn tắm và sau bồn cầu, không phải phòng ngủ." },
+        { "text": "stayed on the ceiling", "trap": "partially_true", "whyVi": "Ban đầu nấm mốc ở trần, nhưng giờ đã lan ra chỗ khác nên 'stayed on the ceiling' chỉ đúng một phần." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "the black spots have returned",
+      "explanationVi": "Câu trả lời của chủ nhà thể hiện sự thông cảm ('I'm sorry to hear') với vấn đề Daniel nêu. Daniel nói vết đen 'have returned' → 'has come back'. Cả bốn lựa chọn đều hợp ngữ pháp sau 'has', nên phải dựa vào nghĩa.",
+      "vocabulary": ["mould"]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "repaint the bathroom ceiling", "trap": "word_match", "whyVi": "Daniel đã nói không muốn chỉ sơn thêm một lớp; công ty thông gió cũng không đi sơn." },
+        { "text": "test the air in your daughter's room", "trap": "wrong_detail", "whyVi": "Con gái được nhắc đến, nhưng Daniel yêu cầu kiểm tra ống quạt, không phải phòng của con." },
+        { "text": "replace the bathtub", "trap": "not_mentioned", "whyVi": "Không ai nói đến việc thay bồn tắm; chỉ làm lại phần caulking." },
+        { "text": "inspect the fan and its duct", "trap": "none", "whyVi": "Đúng: đáp ứng yêu cầu 'check the fan duct' của Daniel; câu sau còn nói 'If the duct turns out to be blocked'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Could someone check the fan duct",
+      "explanationVi": "Đọc câu tiếp theo trong thư trả lời: 'If the duct turns out to be blocked or disconnected' → công ty sẽ kiểm tra ống dẫn. Điều này khớp với yêu cầu của Daniel 'check the fan duct'. 'check' = 'inspect'.",
+      "vocabulary": ["duct"]
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "December 1", "trap": "wrong_detail", "whyVi": "Đây là ngày sai trên thông báo — chủ nhà vừa thừa nhận đó là lỗi." },
+        { "text": "January 1", "trap": "wrong_detail", "whyVi": "Từ cuối tháng 10 đến 1/1 chưa đủ ba tháng trọn vẹn (chỉ có tháng 11 và 12)." },
+        { "text": "February 1", "trap": "none", "whyVi": "Đúng: nhận thông báo cuối tháng 10 → ba tháng trọn là 11, 12, 1 → sớm nhất 1/2." },
+        { "text": "next October", "trap": "not_mentioned", "whyVi": "Không có căn cứ trong thư cho mốc một năm." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "tenants must receive three full months' notice",
+      "explanationVi": "Kết hợp hai thông tin: luật báo trước 'three full months' (thư của Daniel) và 'you received it in late October' (thư trả lời). Ba tháng trọn sau cuối tháng 10 là tháng 11, 12 và 1, nên tiền thuê mới bắt đầu từ 1/2. Bẫy: 'January 1' nếu đếm vội.",
+      "vocabulary": ["take effect"]
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "send you a corrected notice", "trap": "none", "whyVi": "Đúng: 'so that you have the correct date in writing' — cần một thông báo mới ghi đúng ngày." },
+        { "text": "reduce the amount of the increase", "trap": "not_mentioned", "whyVi": "Daniel không phản đối số tiền, và chủ nhà không nói sẽ giảm." },
+        { "text": "cancel your automatic payment", "trap": "wrong_speaker", "whyVi": "Người điều chỉnh khoản thanh toán tự động là Daniel (với ngân hàng), không phải chủ nhà." },
+        { "text": "start collecting the new rent in December", "trap": "opposite", "whyVi": "Chủ nhà vừa thừa nhận tháng 12 là sai, nên điều này mâu thuẫn." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "I'd appreciate it if you could confirm the correct start date",
+      "explanationVi": "Mệnh đề mục đích 'so that you have the correct date in writing' cho biết chủ nhà sẽ làm gì đó bằng văn bản có ngày đúng → gửi thông báo đã sửa. Nó đáp ứng yêu cầu 'confirm the correct start date' của Daniel.",
+      "vocabulary": []
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "drop off your rent cheque", "trap": "wrong_detail", "whyVi": "Daniel trả tiền thuê bằng 'automatic payment' qua ngân hàng, không dùng séc." },
+        { "text": "leave a spare key", "trap": "none", "whyVi": "Đúng: thợ đến sáng thứ Năm khi Daniel đi làm, nên anh cần để lại chìa khóa như đã đề nghị." },
+        { "text": "share your daughter's medical file", "trap": "word_match", "whyVi": "Bài có nhắc bác sĩ và con gái, nhưng không ai yêu cầu hồ sơ y tế." },
+        { "text": "pick up a new bathroom fan", "trap": "not_mentioned", "whyVi": "Công ty thông gió sẽ thay quạt; Daniel không phải đi lấy quạt." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "If a weekday morning is easier for your crew, I'm happy to leave a key with the building manager.",
+      "explanationVi": "Chủ nhà chọn 'Thursday morning' — buổi sáng ngày thường, lúc Daniel không có nhà ('home after 4:30'). Vì vậy chủ nhà nhận lời đề nghị để lại chìa khóa với 'Mrs. Ito in the building office' (chính là building manager).",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "mould", "vi": "nấm mốc", "definition": "a black or green growth that appears in damp places", "example": "The mould in the bathroom came back six weeks after it was painted." },
+    { "term": "caulking", "vi": "keo trám khe (quanh bồn tắm, cửa sổ)", "definition": "a waterproof material used to seal gaps, for example around a bathtub", "example": "The caulking around the tub had turned black." },
+    { "term": "vent", "vi": "thoát khí, thông gió ra ngoài", "definition": "to let air or gas escape to the outside", "example": "The fan doesn't vent outside, so the steam stays in the room." },
+    { "term": "duct", "vi": "ống dẫn (khí)", "definition": "a tube that carries air from one place to another", "example": "The technician found that the fan duct was disconnected." },
+    { "term": "rent-increase notice", "vi": "thông báo tăng tiền thuê nhà", "definition": "an official document telling a tenant that the rent will go up", "example": "In BC, a rent-increase notice must be given three full months ahead." },
+    { "term": "take effect", "vi": "có hiệu lực", "definition": "to start to apply or be used", "example": "The new rent will take effect on February 1." },
+    { "term": "be under the impression", "vi": "cứ tưởng là, hiểu rằng", "definition": "to believe something, often without being completely sure", "example": "I was under the impression that the parking spot was included." },
+    { "term": "do the trick", "vi": "giải quyết được vấn đề, có hiệu quả", "definition": "to solve a problem or achieve the result you want", "example": "A new coat of paint won't do the trick if the fan is broken." }
+  ]
+}

@@ -1,16 +1,18 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import type { ListeningSet, MockExam, ReadingSet, Settings, SpeakingPrompt, WritingPrompt } from "../../shared/types";
+import type { MockExam, ReadingSet, Settings, SpeakingPrompt, Submission, WritingPrompt } from "../../shared/types";
 import { CATEGORIES, LISTENING_PARTS, READING_PARTS, SKILL_LABEL, SPEAKING_TASKS, WRITING_TASKS, taskName, type Skill } from "../../shared/spec";
 import { api, post, wordCount } from "../api";
-import { Badge, Card, Empty, ErrorBox, Loading, ProgressBar, TimerPill, Unofficial, useCountdown } from "../components/ui";
+import { Badge, Card, Empty, ErrorBox, Loading, TimerPill, Unofficial, useCountdown } from "../components/ui";
 import { Passage } from "../components/Passage";
 import { McqList } from "../components/Mcq";
-import { SegmentPlayer } from "../components/ListeningPlayer";
+import { AudioChunkPlayer, SegmentPlayer } from "../components/ListeningPlayer";
 import { SpeakingRunner } from "../components/SpeakingRunner";
 import { sttSupported } from "../lib/speech";
+import type { ListeningWithAudio } from "./Listening";
 
 type Step = { section: Skill; id: string; index: number };
+interface PackageRow { id: string; title: string; valid: boolean; available: boolean; problems: string[]; timesTaken: number; browserVoice: boolean }
 
 const stepKey = (id: string) => `celpip8-mock-step-${id}`;
 const readStep = (id: string) => { try { return Number(localStorage.getItem(stepKey(id)) ?? 0); } catch { return 0; } };
@@ -18,21 +20,26 @@ const writeStep = (id: string, n: number) => { try { localStorage.setItem(stepKe
 
 export function MockPage() {
   const [list, setList] = useState<MockExam[] | null>(null);
+  const [packages, setPackages] = useState<PackageRow[] | null>(null);
   const [active, setActive] = useState<MockExam | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  const load = useCallback(() => api<MockExam[]>("/api/mock").then(setList).catch((e) => setError(e.message)), []);
-  useEffect(() => { void load(); }, [load]);
+  const load = useCallback(() => {
+    api<MockExam[]>("/api/mock").then(setList).catch((e) => setError(e.message));
+    api<PackageRow[]>("/api/mock/packages").then(setPackages).catch((e) => setError(e.message));
+  }, []);
+  useEffect(() => { load(); }, [load]);
 
-  // Poll while something is being prepared or graded.
-  useEffect(() => {
-    const busy = list?.some((m) => m.status === "preparing" || m.status === "grading");
-    if (!busy) return;
-    const t = setInterval(() => void load(), 3000);
-    return () => clearInterval(t);
-  }, [list, load]);
+  if (active) return <ExamRunner mock={active} onExit={() => { setActive(null); load(); }} />;
 
-  if (active) return <ExamRunner mock={active} onExit={() => { setActive(null); void load(); }} />;
+  const start = async (packageId: string) => {
+    setError(null);
+    try {
+      const m = await post<MockExam>("/api/mock", { packageId });
+      await post(`/api/mock/${m.id}/start`);
+      setActive({ ...m, status: "in_progress" });
+    } catch (e) { setError((e as Error).message); }
+  };
 
   return (
     <div className="page">
@@ -45,35 +52,60 @@ export function MockPage() {
           <div><strong>Writing</strong><p className="small muted">2 task · 27 + 26 phút</p></div>
           <div><strong>Speaking</strong><p className="small muted">8 task · ~20 phút</p></div>
         </div>
-        <p className="small muted">Không có phản hồi trong khi thi. Không quay lại part trước. Writing & Speaking được AI chấm sau khi kết thúc. Ước tính Listening/Reading dùng quy tắc kinh nghiệm trên đề độ khó 8 — <strong>không phải bảng quy đổi điểm chính thức</strong>. Đặc tả thời gian theo cấu trúc CELPIP-General công bố; hãy đối chiếu celpip.ca trước ngày thi.</p>
-        {!sttSupported() && <div className="error-box small">Trình duyệt này không hỗ trợ chuyển giọng nói thành chữ — phần Speaking của bài thi thử cần Chrome hoặc Edge.</div>}
-        <button className="btn primary" onClick={async () => { try { await post("/api/mock"); void load(); } catch (e) { setError((e as Error).message); } }}>
-          + Chuẩn bị đề thi thử mới (~2–4 phút, 20 phần)
-        </button>
+        <p className="small muted">Mỗi gói đề được dựng sẵn từ nội dung đã kiểm tra và bắt đầu ngay — không tạo đề bằng AI. Không có phản hồi trong khi thi, không quay lại part trước. Listening/Reading được chấm ngay; Writing/Speaking được AI nhận xét sau khi nộp (nếu AI khả dụng). Ước tính Listening/Reading dùng quy tắc kinh nghiệm — <strong>không phải bảng quy đổi chính thức</strong>.</p>
+        {!sttSupported() && <div className="error-box small">Trình duyệt này không hỗ trợ chuyển giọng nói thành chữ — phần Speaking cần Chrome hoặc Edge.</div>}
       </Card>
       <ErrorBox error={error} />
+      <Card title="Gói đề có sẵn">
+        {!packages ? <Loading /> : packages.length === 0 ? <Empty>Chưa có gói đề nào trong thư viện.</Empty> : (
+          <table className="table">
+            <thead><tr><th>Gói đề</th><th>Trạng thái</th><th>Đã làm</th><th /></tr></thead>
+            <tbody>
+              {packages.map((p) => (
+                <tr key={p.id}>
+                  <td><strong>{p.title}</strong><div className="tiny muted">{p.id}</div></td>
+                  <td>
+                    {p.available ? <Badge tone={p.browserVoice ? "warn" : "good"}>{p.browserVoice ? "sẵn sàng (giọng trình duyệt)" : "sẵn sàng"}</Badge> : <Badge tone="bad">chưa sẵn sàng</Badge>}
+                    {p.problems.map((x, i) => <div key={i} className="tiny muted">{x}</div>)}
+                  </td>
+                  <td>{p.timesTaken}×</td>
+                  <td><button className="btn primary small" disabled={!p.available} onClick={() => start(p.id)}>▶ Bắt đầu thi</button></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+      </Card>
+      <h3>Lịch sử thi thử</h3>
       {!list ? <Loading /> : list.length === 0 ? <Empty>Chưa có bài thi thử nào.</Empty> : list.map((m) => (
-        <Card key={m.id} title={`Bài thi thử ${m.createdAt.slice(0, 10)}`} actions={<Badge tone={m.status === "done" ? "good" : m.status === "failed" ? "bad" : "info"}>{m.status}</Badge>}>
-          {m.status === "preparing" && <><p className="small">Đang tạo đề: {m.progress.done}/{m.progress.total}</p><ProgressBar value={m.progress.done} max={m.progress.total} /></>}
-          {m.status === "failed" && <ErrorBox error={m.progress.error} />}
+        <Card key={m.id} title={`${m.packageId ?? "Bài thi thử (cũ, do AI tạo)"} · ${m.createdAt.slice(0, 10)}`} actions={<Badge tone={m.status === "done" ? "good" : m.status === "failed" ? "bad" : "info"}>{m.status}</Badge>}>
           {(m.status === "ready" || m.status === "in_progress") && (
-            <button className="btn primary" onClick={async () => { if (m.status === "ready") await post(`/api/mock/${m.id}/start`); setActive({ ...m, status: "in_progress" }); }}>
-              {m.status === "ready" ? "▶ Bắt đầu thi" : `▶ Tiếp tục (phần ${readStep(m.id) + 1}/20)`}
+            <button className="btn primary" onClick={async () => { await post(`/api/mock/${m.id}/start`); setActive({ ...m, status: "in_progress" }); }}>
+              ▶ Tiếp tục (phần {readStep(m.id) + 1}/20)
             </button>
           )}
-          {m.status === "grading" && <Loading text="AI đang chấm Writing & Speaking…" />}
-          {m.status === "done" && <MockReport id={m.id} />}
+          {m.status === "failed" && <ErrorBox error={m.progress.error} />}
+          {(m.status === "done" || m.status === "grading") && <MockReport id={m.id} />}
         </Card>
       ))}
     </div>
   );
 }
 
+interface ReportData {
+  mock: MockExam;
+  attempts: { id: string; skill: Skill; taskType: string; correct: number; total: number; estimatedBand: [number, number] | null; evaluationId: string | null; title: string; submission: Submission | null; categories: Record<string, { correct: number; total: number }> }[];
+}
+
 function MockReport({ id }: { id: string }) {
-  const [data, setData] = useState<{ mock: MockExam; attempts: { id: string; skill: Skill; taskType: string; correct: number; total: number; estimatedBand: [number, number] | null; evaluationId: string | null; title: string; categories: Record<string, { correct: number; total: number }> }[] } | null>(null);
-  useEffect(() => { api<typeof data>(`/api/mock/${id}/report`).then(setData); }, [id]);
+  const [data, setData] = useState<ReportData | null>(null);
+  const [busy, setBusy] = useState(false);
+  const [msg, setMsg] = useState<string | null>(null);
+  const load = useCallback(() => api<ReportData>(`/api/mock/${id}/report`).then(setData), [id]);
+  useEffect(() => { void load(); }, [load]);
   if (!data) return <Loading />;
   const r = data.mock.results ?? {};
+  const pending = (r.writing?.pending ?? 0) + (r.speaking?.pending ?? 0);
   const cat = new Map<string, { skill: Skill; correct: number; total: number }>();
   for (const a of data.attempts) for (const [k, v] of Object.entries(a.categories)) {
     const key = `${a.skill}:${k}`;
@@ -82,6 +114,14 @@ function MockReport({ id }: { id: string }) {
     cat.set(key, x);
   }
   const weak = [...cat.entries()].filter(([, v]) => v.total >= 2).sort((a, b) => a[1].correct / a[1].total - b[1].correct / b[1].total).slice(0, 4);
+  const evaluateAll = async () => {
+    setBusy(true); setMsg(null);
+    try {
+      const out = await post<{ evaluated: number; failed: number }>(`/api/mock/${id}/evaluate`);
+      setMsg(`AI đã chấm ${out.evaluated} bài${out.failed ? `, ${out.failed} bài lỗi (thử lại sau)` : ""}.`);
+      await load();
+    } catch (e) { setMsg((e as Error).message); } finally { setBusy(false); }
+  };
   return (
     <div>
       <div className="grid-4">
@@ -89,11 +129,18 @@ function MockReport({ id }: { id: string }) {
           <div key={s} className="mock-score">
             <span>{SKILL_LABEL[s]}</span>
             <strong>{r[s]?.estimate ?? "–"}</strong>
-            <small className="muted">{r[s]?.total ? `${r[s]!.correct}/${r[s]!.total} câu` : "AI ước tính"}</small>
+            <small className="muted">{r[s]?.total ? `${r[s]!.correct}/${r[s]!.total} câu` : r[s]?.pending ? `${r[s]!.pending} bài chờ AI chấm` : "AI ước tính"}</small>
           </div>
         ))}
       </div>
       <p className="muted tiny">Ước tính không chính thức. Không tương đương điểm CELPIP chính thức.</p>
+      {pending > 0 && (
+        <div className="ai-box">
+          <span className="small">{pending} bài Writing/Speaking chưa được AI chấm.</span>
+          <button className="btn small primary" disabled={busy} onClick={evaluateAll}>{busy ? "Đang chấm…" : "Chấm bằng AI"}</button>
+        </div>
+      )}
+      {msg && <p className="small">{msg}</p>}
       {weak.length > 0 && (
         <>
           <h4>Điểm yếu lộ ra trong bài thi</h4>
@@ -106,8 +153,8 @@ function MockReport({ id }: { id: string }) {
           {data.attempts.map((a) => (
             <tr key={a.id}>
               <td>{SKILL_LABEL[a.skill]}</td><td>{taskName(a.taskType)}</td>
-              <td>{a.total ? `${a.correct}/${a.total}` : a.estimatedBand ? `~${a.estimatedBand[0]}–${a.estimatedBand[1]}` : "–"}</td>
-              <td>{a.evaluationId ? <Link to={`/evaluation/${a.evaluationId}`}>Phản hồi chi tiết</Link> : <Link to={`/review/${a.id}`}>Đáp án & giải thích</Link>}</td>
+              <td>{a.total ? `${a.correct}/${a.total}` : a.estimatedBand ? `~${a.estimatedBand[0]}–${a.estimatedBand[1]}` : a.submission && wordCount(a.submission.response) < 8 ? "không có câu trả lời" : "chờ chấm"}</td>
+              <td>{a.submission ? <Link to={`/submission/${a.submission.id}`}>Bài làm & bài mẫu</Link> : <Link to={`/review/${a.id}`}>Đáp án & giải thích</Link>}</td>
             </tr>
           ))}
         </tbody>
@@ -190,7 +237,7 @@ function useExamContent<T>(id: string) {
 }
 
 function ExamListening({ mockId, contentId, onDone }: { mockId: string; contentId: string; onDone: () => void }) {
-  const [set, err] = useExamContent<ListeningSet>(contentId);
+  const [set, err] = useExamContent<ListeningWithAudio>(contentId);
   const [settings, setSettings] = useState<Settings | null>(null);
   const [chunk, setChunk] = useState(0);
   const [heard, setHeard] = useState(false);
@@ -213,12 +260,15 @@ function ExamListening({ mockId, contentId, onDone }: { mockId: string; contentI
   if (err) return <ErrorBox error={err} />;
   if (!set) return <Loading />;
   const part = LISTENING_PARTS.find((p) => p.id === set.taskType)!;
+  const audio = set.audio?.ready ? set.audio.chunks[chunk] : null;
   return (
     <div className="split">
       <div className="split-left">
         <Card title={`Listening Part ${part.part}: ${part.name}`}>
           <p className="muted">{set.context}</p>
-          <SegmentPlayer key={chunk} segments={set.chunks[chunk].segments} exam preferredVoice={settings?.preferredVoice} onFinished={() => setHeard(true)} />
+          {audio
+            ? <AudioChunkPlayer key={chunk} audio={audio} exam onFinished={() => setHeard(true)} />
+            : <><Badge tone="warn">giọng trình duyệt</Badge><SegmentPlayer key={chunk} segments={set.chunks[chunk].segments} exam preferredVoice={settings?.preferredVoice} onFinished={() => setHeard(true)} /></>}
         </Card>
         <Card title="Giấy nháp"><textarea className="notes-area" rows={8} placeholder="Ghi chú…" /></Card>
       </div>
@@ -277,8 +327,8 @@ function ExamWriting({ mockId, contentId, onDone }: { mockId: string; contentId:
     if (sent.current) return;
     sent.current = true;
     await post(`/api/mock/${mockId}/submission`, {
-      skill: "writing", contentId, response: p?.optionA && choice ? `[Chosen option: ${choice}]\n${text}` : text,
-      durationSec: (Date.now() - started.current) / 1000, transcriptSource: null, audioFile: null, chosenOption: choice,
+      skill: "writing", contentId, response: text, durationSec: (Date.now() - started.current) / 1000,
+      transcriptSource: null, audioFile: null, chosenOption: choice ? `Option ${choice}` : null,
     });
     onDone();
   };

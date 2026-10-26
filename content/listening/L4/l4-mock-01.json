@@ -1,0 +1,283 @@
+{
+  "id": "l4-mock-01",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "community-services",
+  "title": "News: Record holiday drive and new food bank hours",
+  "context": "You will hear a local radio news report about a food bank in Surrey.",
+  "estimatedMinutes": 5,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "In Surrey, the Fraser Valley Community Food Bank says its holiday drive has broken every record in its twenty-two-year history. Over six weeks, donors gave just over three hundred and forty tonnes of food, along with nearly one point one million dollars in cash."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Executive director Marisol Gutierrez says the numbers are encouraging, but she's careful not to celebrate too much. She pointed out that demand has climbed even faster than donations. The food bank now serves about nine thousand households a month, up almost thirty percent from last winter."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "And according to Gutierrez, a growing share of those clients are working people whose paycheques simply haven't kept up with their rent."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "She says cash donations are especially valuable, because the food bank buys fresh produce and dairy in bulk at wholesale prices. That stretches every dollar about three times further than a shopper could at the grocery store."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The food bank is also changing its pickup hours. Starting February second, the main warehouse on King George Boulevard will no longer open on Saturday mornings. Instead, hamper pickup will run until eight p.m. on Tuesdays and Thursdays."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Gutierrez explained that a client survey showed many people couldn't get there before closing time because of their work shifts, while Saturday visits have been dropping for over a year."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Volunteer coordinator Ben Tremblay acknowledged the change won't suit everyone. He says some long-time Saturday volunteers, many of them retirees, may not be able to commit to evenings. The food bank is now recruiting for the new shifts and is especially looking for people with forklift certification."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Clients who can't make the new hours can call ahead to have a family member or friend pick up on their behalf."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How does Marisol Gutierrez feel about the results of the holiday drive?",
+          "options": [
+            {
+              "text": "She is pleased but cautious, because need is growing even faster.",
+              "trap": "none",
+              "whyVi": "Đúng: bà thấy kết quả đáng khích lệ nhưng không ăn mừng quá vì nhu cầu tăng nhanh hơn quyên góp."
+            },
+            {
+              "text": "She believes the food shortage in the community is now over.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà nhấn mạnh nhu cầu đang tăng nhanh hơn số quyên góp."
+            },
+            {
+              "text": "She is disappointed that cash donations fell compared with last year.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói tiền quyên góp giảm; ngược lại, đợt quyên góp phá kỷ lục."
+            },
+            {
+              "text": "She is critical of donors who gave food instead of money.",
+              "trap": "partially_true",
+              "whyVi": "Bà có nói tiền mặt đặc biệt có giá trị, nhưng không hề chỉ trích người góp thực phẩm."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "the numbers are encouraging, but she's careful not to celebrate too much",
+          "explanationVi": "Thái độ thể hiện qua 'encouraging, but... careful not to celebrate too much' và lý do 'demand has climbed even faster than donations'. Đáp án A diễn đạt lại thành 'pleased but cautious'.",
+          "vocabulary": [
+            "demand"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "According to the report, which group makes up a growing share of the food bank's clients?",
+          "options": [
+            {
+              "text": "Retirees living on a fixed income",
+              "trap": "word_match",
+              "whyVi": "Bài có từ 'retirees' nhưng đó là các tình nguyện viên lâu năm, không phải khách hàng."
+            },
+            {
+              "text": "Families who recently lost their jobs",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: nhóm tăng lên là những người ĐANG có việc làm."
+            },
+            {
+              "text": "Employed people who struggle to afford housing",
+              "trap": "none",
+              "whyVi": "Đúng: người đi làm nhưng lương không theo kịp tiền thuê nhà."
+            },
+            {
+              "text": "Students who are new to the area",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc tới sinh viên."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "a growing share of those clients are working people whose paycheques simply haven't kept up with their rent",
+          "explanationVi": "'working people' được diễn đạt lại thành 'employed people', và 'paycheques haven't kept up with their rent' thành 'struggle to afford housing'.",
+          "vocabulary": [
+            "keep up with"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "Why does the food bank value cash donations so highly?",
+          "options": [
+            {
+              "text": "Shoppers pay three times more for the items they donate.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'three times' và 'shopper', nhưng ý là đồng tiền của ngân hàng thực phẩm mua được gấp ba, không nói người mua trả gấp ba cho món quyên góp."
+            },
+            {
+              "text": "It can buy food at much lower prices than individuals can.",
+              "trap": "none",
+              "whyVi": "Đúng: họ mua số lượng lớn với giá sỉ nên mỗi đô la dùng được gấp khoảng ba lần."
+            },
+            {
+              "text": "The public is not allowed to donate fresh produce.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói công chúng bị cấm quyên góp rau quả tươi."
+            },
+            {
+              "text": "Cash is needed to pay the rent on the warehouse.",
+              "trap": "word_match",
+              "whyVi": "Từ 'rent' xuất hiện trong bài nhưng nói về tiền thuê nhà của khách hàng, không phải nhà kho."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "That stretches every dollar about three times further than a shopper could at the grocery store.",
+          "explanationVi": "'buys... in bulk at wholesale prices' và 'stretches every dollar about three times further' được diễn đạt lại thành 'buy food at much lower prices than individuals can'.",
+          "vocabulary": [
+            "in bulk",
+            "wholesale"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What was the main reason given for changing the pickup hours?",
+          "options": [
+            {
+              "text": "Volunteers asked to work in the evenings instead of on weekends.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: điều phối viên lo một số tình nguyện viên KHÔNG thể làm buổi tối."
+            },
+            {
+              "text": "The warehouse needs Saturdays for forklift training.",
+              "trap": "word_match",
+              "whyVi": "Bài có từ 'forklift' và 'Saturday' nhưng không nói kho cần thứ Bảy để đào tạo lái xe nâng."
+            },
+            {
+              "text": "Saturday was so busy that clients had to wait in long lines.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: lượng khách thứ Bảy đang giảm."
+            },
+            {
+              "text": "Many clients' jobs prevented them from arriving before closing.",
+              "trap": "none",
+              "whyVi": "Đúng: khảo sát cho thấy nhiều người không đến kịp trước giờ đóng cửa vì ca làm việc."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "many people couldn't get there before closing time because of their work shifts",
+          "explanationVi": "Lý do nằm ở kết quả khảo sát khách hàng: 'couldn't get there before closing time because of their work shifts'. Đáp án D diễn đạt lại 'work shifts' thành 'jobs'.",
+          "vocabulary": [
+            "pickup"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What concern does Ben Tremblay raise?",
+          "options": [
+            {
+              "text": "Clients who work shifts will be unable to visit the warehouse.",
+              "trap": "wrong_speaker",
+              "whyVi": "Chuyện khách hàng làm theo ca là lý do Gutierrez đưa ra để đổi giờ, không phải mối lo của Tremblay."
+            },
+            {
+              "text": "Some experienced volunteers may not be available under the new schedule.",
+              "trap": "none",
+              "whyVi": "Đúng: một số tình nguyện viên lâu năm làm thứ Bảy có thể không cam kết được buổi tối."
+            },
+            {
+              "text": "The food bank does not own enough forklifts.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'forklift' nhưng là chứng chỉ lái xe nâng của tình nguyện viên mới, không phải thiếu xe."
+            },
+            {
+              "text": "Family members should not be allowed to pick up hampers.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: khách có thể nhờ người nhà hoặc bạn bè nhận thay."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "some long-time Saturday volunteers, many of them retirees, may not be able to commit to evenings",
+          "explanationVi": "'long-time Saturday volunteers' được diễn đạt lại thành 'experienced volunteers', 'may not be able to commit to evenings' thành 'may not be available under the new schedule'.",
+          "vocabulary": [
+            "commit to"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "demand",
+      "vi": "nhu cầu",
+      "definition": "the amount of a product or service that people need or want",
+      "example": "Demand has climbed even faster than donations."
+    },
+    {
+      "term": "keep up with",
+      "vi": "theo kịp",
+      "definition": "increase at the same rate as something else",
+      "example": "Wages haven't kept up with rent."
+    },
+    {
+      "term": "in bulk",
+      "vi": "số lượng lớn",
+      "definition": "in large quantities, usually at a lower price per item",
+      "example": "The food bank buys dairy in bulk."
+    },
+    {
+      "term": "wholesale",
+      "vi": "giá sỉ, bán buôn",
+      "definition": "the price businesses pay when buying large amounts, lower than store prices",
+      "example": "They buy produce at wholesale prices."
+    },
+    {
+      "term": "pickup",
+      "vi": "việc đến nhận hàng",
+      "definition": "the act of collecting something from a place",
+      "example": "Hamper pickup will run until eight p.m. on Tuesdays."
+    },
+    {
+      "term": "commit to",
+      "vi": "cam kết (dành thời gian)",
+      "definition": "promise to give your time or effort to something regularly",
+      "example": "Some volunteers can't commit to evening shifts."
+    },
+    {
+      "term": "on someone's behalf",
+      "vi": "thay mặt ai",
+      "definition": "for another person, in their place",
+      "example": "A friend can pick up the hamper on your behalf."
+    },
+    {
+      "term": "hamper",
+      "vi": "giỏ/thùng thực phẩm",
+      "definition": "a box or bag of food given to a household",
+      "example": "Each family receives one hamper a week."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independently solved all 5 items; keys, evidence and trap tags correct; attitude item (pleased but cautious) unambiguous. One narrator, 286 words, fictional food bank. No changes needed."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

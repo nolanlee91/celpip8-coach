@@ -1,0 +1,316 @@
+{
+  "id": "l6-mock-01",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "customer-service",
+  "title": "Viewpoints: Tipping prompts at the counter",
+  "context": "You will hear a retail consultant speaking to local business owners at a chamber of commerce breakfast in Kelowna.",
+  "estimatedMinutes": 7,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Marcus Delgado, retail consultant",
+          "voice": "male_b",
+          "text": "Good morning, everyone. I want to talk about something that comes up at nearly every client meeting I have lately, and that's the payment screen that swivels around at the till. You buy a muffin, you pour your own coffee, and suddenly you're being asked whether you'd like to leave eighteen, twenty, or twenty-five percent."
+        },
+        {
+          "speaker": "Marcus Delgado, retail consultant",
+          "voice": "male_b",
+          "text": "Now, I understand why so many of you have turned it on. Food costs are up, rents are up, and when a payment company offers a feature that puts extra money in your staff's pockets without touching your menu prices, it's tempting. And to be fair, it works, at least on paper. Several owners I advise tell me their counter staff are taking home three or four dollars more an hour."
+        },
+        {
+          "speaker": "Marcus Delgado, retail consultant",
+          "voice": "male_b",
+          "text": "But here's what those same owners don't see. Customers don't complain at the till. They just come in less often. When we surveyed about six hundred shoppers in the Okanagan last spring, nearly half said they now avoid places where they feel pressured to tip for counter service. The money you gain at the screen, you may be losing at the door."
+        },
+        {
+          "speaker": "Marcus Delgado, retail consultant",
+          "voice": "male_b",
+          "text": "I've heard the argument that this is simply the price of fair wages, and that customers who object are just being cheap. I don't buy that. The customer isn't refusing to pay the worker. They're refusing to be put on the spot, in front of a line of people, with the employee watching. That's a design problem, not a character flaw."
+        },
+        {
+          "speaker": "Marcus Delgado, retail consultant",
+          "voice": "male_b",
+          "text": "Some people want the province to step in and ban these prompts outright, or cap the suggested percentages. I'd be careful there. Rules like that are hard to enforce, and frankly, I think the businesses that handle this well will win customers from the ones that don't. You don't need a law to fix this. You need to make a decision."
+        },
+        {
+          "speaker": "Marcus Delgado, retail consultant",
+          "voice": "male_b",
+          "text": "So what do I recommend? If you genuinely serve people at a table, keep the prompt. For counter service, either switch it off or go back to a simple tip jar, so people can choose without an audience."
+        },
+        {
+          "speaker": "Marcus Delgado, retail consultant",
+          "voice": "male_b",
+          "text": "And if your staff truly depend on that extra income, build it into your prices and say so on the menu. In my experience, customers respect a business that's honest about what things cost far more than one that asks them to make up the difference at the last second."
+        },
+        {
+          "speaker": "Marcus Delgado, retail consultant",
+          "voice": "male_b",
+          "text": "One last thing, in fairness. A couple of my clients who did this saw a short dip in staff take-home pay before regular traffic picked back up. So it isn't free. But I'd take loyal customers over awkward ones any day."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is the speaker's main concern about tipping prompts at counters?",
+          "options": [
+            {
+              "text": "Staff do not actually receive the extra money.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông thừa nhận nhân viên kiếm thêm 3–4 đô mỗi giờ."
+            },
+            {
+              "text": "Payment companies charge businesses high fees for the feature.",
+              "trap": "not_mentioned",
+              "whyVi": "Có nhắc công ty thanh toán nhưng không nói gì về phí cao."
+            },
+            {
+              "text": "They may quietly drive regular customers away.",
+              "trap": "none",
+              "whyVi": "Đúng: khách không phàn nàn mà chỉ đến ít hơn; tiền thu ở màn hình có thể mất ở cửa."
+            },
+            {
+              "text": "Customers are unwilling to support fair wages.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là lập luận của người khác mà ông bác bỏ ('I don't buy that')."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "Customers don't complain at the till. They just come in less often.",
+          "explanationVi": "Ý chính được tóm lại trong 'The money you gain at the screen, you may be losing at the door'. 'come in less often' + 'don't complain' được diễn đạt lại thành 'quietly drive... customers away'.",
+          "vocabulary": [
+            "till"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "What did the survey of Okanagan shoppers find?",
+          "options": [
+            {
+              "text": "About six hundred shoppers had complained at the till.",
+              "trap": "word_match",
+              "whyVi": "600 là số người được khảo sát; bài nói khách KHÔNG phàn nàn ở quầy."
+            },
+            {
+              "text": "Many shoppers stay away from businesses where they feel obliged to tip at the counter.",
+              "trap": "none",
+              "whyVi": "Đúng: gần một nửa nói họ tránh những nơi khiến họ thấy bị ép phải tip khi phục vụ tại quầy."
+            },
+            {
+              "text": "Counter staff earn three or four dollars more per hour.",
+              "trap": "wrong_detail",
+              "whyVi": "Con số này đến từ các chủ doanh nghiệp, không phải từ cuộc khảo sát."
+            },
+            {
+              "text": "Nearly half of businesses have turned off their prompts.",
+              "trap": "wrong_detail",
+              "whyVi": "'Nearly half' là về người mua sắm, không phải doanh nghiệp."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "nearly half said they now avoid places where they feel pressured to tip for counter service",
+          "explanationVi": "'avoid places' = 'stay away from businesses'; 'feel pressured' = 'feel obliged'. Cần phân biệt nguồn của từng con số trong bài.",
+          "vocabulary": [
+            "counter service"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "According to the speaker, why do customers object to tipping prompts?",
+          "options": [
+            {
+              "text": "They think the payment screens are too complicated to use.",
+              "trap": "word_match",
+              "whyVi": "Ông nói 'a design problem' nhưng ý là cách đặt khách vào thế khó xử, không phải màn hình khó dùng."
+            },
+            {
+              "text": "They do not want to make a decision publicly while under pressure.",
+              "trap": "none",
+              "whyVi": "Đúng: họ không muốn bị đặt vào thế khó trước hàng người và nhân viên đang nhìn."
+            },
+            {
+              "text": "They are not willing to pay workers fairly.",
+              "trap": "opposite",
+              "whyVi": "Ông bác bỏ ý này: 'The customer isn't refusing to pay the worker'."
+            },
+            {
+              "text": "They believe tips should be paid by the government.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói gì về chính phủ trả tiền tip."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "They're refusing to be put on the spot, in front of a line of people, with the employee watching.",
+          "explanationVi": "'put on the spot, in front of a line of people' được diễn đạt lại thành 'make a decision publicly while under pressure'.",
+          "vocabulary": [
+            "put someone on the spot"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What is the speaker's view of a provincial ban on tipping prompts?",
+          "options": [
+            {
+              "text": "He doubts it is needed and expects competition to solve the problem.",
+              "trap": "none",
+              "whyVi": "Đúng: luật khó thực thi, và doanh nghiệp làm tốt sẽ giành khách từ doanh nghiệp làm kém."
+            },
+            {
+              "text": "He prefers a cap on percentages rather than a full ban.",
+              "trap": "partially_true",
+              "whyVi": "Ông nhắc cả lệnh cấm và giới hạn phần trăm, và thận trọng với cả hai, không ủng hộ phương án nào."
+            },
+            {
+              "text": "He strongly supports it to protect customers.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông nói 'You don't need a law to fix this'."
+            },
+            {
+              "text": "He points out that a similar ban already exists in other provinces.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói tỉnh khác đã có lệnh cấm."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "the businesses that handle this well will win customers from the ones that don't",
+          "explanationVi": "Ông nói 'I'd be careful there', 'hard to enforce' và tin rằng thị trường tự điều chỉnh. Đáp án A diễn đạt lại thành 'competition to solve the problem'.",
+          "vocabulary": [
+            "enforce",
+            "outright"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What does the speaker recommend for counter-service businesses whose staff depend on tip income?",
+          "options": [
+            {
+              "text": "Keep the prompt but lower the suggested percentages",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không đề xuất giảm mức phần trăm gợi ý."
+            },
+            {
+              "text": "Move the payment screen to the tables",
+              "trap": "word_match",
+              "whyVi": "'Table' xuất hiện trong bài: giữ lời nhắc cho nơi phục vụ tại bàn, không phải di chuyển màn hình."
+            },
+            {
+              "text": "Include the cost in menu prices and be open about it",
+              "trap": "none",
+              "whyVi": "Đúng: 'build it into your prices and say so on the menu'."
+            },
+            {
+              "text": "Replace every tipping prompt with a tip jar, including at tables",
+              "trap": "too_broad",
+              "whyVi": "Quá rộng: với phục vụ tại bàn, ông nói nên giữ lời nhắc tip."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "similar_choices",
+          "evidence": "build it into your prices and say so on the menu",
+          "explanationVi": "Các lựa chọn đều nghe giống lời khuyên trong bài. Chỉ C đúng với trường hợp nhân viên phụ thuộc vào tiền tip: 'build it into your prices' = 'include the cost in menu prices'; 'say so on the menu' = 'be open about it'.",
+          "vocabulary": [
+            "build into"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "What does the speaker admit about his recommendation?",
+          "options": [
+            {
+              "text": "It caused some businesses to lose regular customers.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: lượng khách quen sau đó tăng trở lại."
+            },
+            {
+              "text": "It permanently lowered what staff took home.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: thu nhập chỉ giảm tạm thời ('a short dip')."
+            },
+            {
+              "text": "It might reduce employees' earnings for a while.",
+              "trap": "none",
+              "whyVi": "Đúng: một số khách hàng của ông thấy thu nhập nhân viên giảm ngắn hạn."
+            },
+            {
+              "text": "Most of his clients refused to try it.",
+              "trap": "not_mentioned",
+              "whyVi": "Không có thông tin này; ông chỉ nói 'a couple of my clients' đã làm thử."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "saw a short dip in staff take-home pay before regular traffic picked back up",
+          "explanationVi": "'a short dip in staff take-home pay' được diễn đạt lại thành 'reduce employees' earnings for a while'. Chữ 'short' loại B.",
+          "vocabulary": [
+            "take-home pay"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "till",
+      "vi": "quầy tính tiền",
+      "definition": "the place in a shop where you pay",
+      "example": "Customers don't complain at the till."
+    },
+    {
+      "term": "counter service",
+      "vi": "phục vụ tại quầy",
+      "definition": "a style of service where customers order and collect at a counter, not at a table",
+      "example": "Many people dislike tipping for counter service."
+    },
+    {
+      "term": "put someone on the spot",
+      "vi": "đặt ai vào thế khó",
+      "definition": "force someone to make a decision or answer immediately, often in front of others",
+      "example": "Customers don't like being put on the spot."
+    },
+    {
+      "term": "outright",
+      "vi": "hoàn toàn, thẳng thừng",
+      "definition": "completely and immediately",
+      "example": "Some want to ban the prompts outright."
+    },
+    {
+      "term": "enforce",
+      "vi": "thực thi (luật)",
+      "definition": "make sure people obey a law or rule",
+      "example": "Rules like that are hard to enforce."
+    },
+    {
+      "term": "build into",
+      "vi": "tính gộp vào",
+      "definition": "include something as a permanent part of a price or plan",
+      "example": "Build the extra income into your prices."
+    },
+    {
+      "term": "take-home pay",
+      "vi": "thu nhập thực nhận",
+      "definition": "the money a worker receives after deductions",
+      "example": "Staff saw a short dip in take-home pay."
+    },
+    {
+      "term": "make up the difference",
+      "vi": "bù phần chênh lệch",
+      "definition": "provide the amount that is still missing",
+      "example": "Customers shouldn't be asked to make up the difference at the last second."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 items independently; keys match; Q5 (counter service + staff depend on tips) has a single answer because D adds \"including at tables\". Concession/counter-argument structure clear, one voice, 439 words, survey fictional. No changes needed."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

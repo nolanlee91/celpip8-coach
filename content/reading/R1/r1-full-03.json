@@ -1,0 +1,205 @@
+{
+  "id": "r1-full-03",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "full",
+  "difficulty": 6,
+  "topic": "social",
+  "title": "News from Kelowna and a long-weekend invitation",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. Changed 'book the Monday off' to 'book the Friday off' (the August long weekend Monday is BC Day, a statutory holiday, so booking it off was unrealistic); Q6 evidence/whyVi/explanationVi updated. All blanks verified." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a friend",
+      "kind": "text",
+      "text": "Hi Jun,\n\nSorry it's taken me so long to write. The last two months have been a blur of boxes, paperwork and figuring out where everything is. But I'm finally settled enough to send you a proper update!\n\nThe job is going well, mostly. Okanagan Ridge Orchards is a lot smaller than the firm in Richmond, so instead of only doing payables, I'm handling everything from payroll to ordering picking bins. Some days I feel like I'm in over my head, but my boss, Gail, is incredibly patient and never makes me feel silly for asking questions. The best part? I can see rows of apple trees from my desk instead of a parking garage.\n\nThe neighbourhood is another story. Our townhouse in Rutland is twice the size of the Richmond apartment for almost the same rent, but it's a fifteen-minute drive to anything, and the bus comes once an hour if you're lucky. I never thought I'd miss SkyTrain this much! Still, the neighbours are lovely. The couple next door brought us a bag of peaches the day we moved in, and their teenage son has already offered to mow our lawn.\n\nSo here's the real reason I'm writing: why don't you come up for the August long weekend? We have a spare room now (no more air mattress!), and the lake is perfect at that time of year. There's a farmers' market on Saturday morning, and Sami wants to take you paddleboarding if you're brave enough. If you'd rather not do the drive alone, there's a direct flight from YVR that takes under an hour, and I can come and get you at the airport.\n\nLet me know soon so I can book the Friday off. Things get busy at the orchard in August.\n\nHugs,\nFarah",
+      "table": null
+    },
+    {
+      "label": "Reply",
+      "kind": "text",
+      "text": "Hi Farah,\n\nIt was so good to hear from you! I'm glad the new job is going well, even if it sounds like you're [[7]] at times. Knowing you, you'll be running the place by next year.\n\nI would love to come for the long weekend. My car has been making a strange noise lately, so I think I'll [[8]] rather than risk the Coquihalla. I'll send you my flight details as soon as I've booked, so you'll know when to [[9]].\n\nAs for plans, the farmers' market sounds perfect. Please tell Sami I'm [[10]], although I can't promise I'll stay dry! And honestly, after reading about your bus, I've realized how lucky I am to [[11]] here in Vancouver.\n\nSee you in August,\nJun",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Why is Farah writing to Jun?",
+      "options": [
+        { "text": "To give an update on her new life and invite Jun to stay", "trap": "none", "whyVi": "Đúng: thư kể về công việc, khu phố, rồi mời Jun lên chơi dịp lễ dài tháng Tám." },
+        { "text": "To ask Jun for advice about her new job", "trap": "not_mentioned", "whyVi": "Farah không xin lời khuyên; sếp cô đã giúp cô rồi." },
+        { "text": "To complain about the cost of housing in Kelowna", "trap": "opposite", "whyVi": "Nhà rộng gấp đôi mà giá thuê gần như bằng — đây là điểm tốt, không phải lời phàn nàn." },
+        { "text": "To apologise for missing Jun's last visit", "trap": "word_match", "whyVi": "Farah có xin lỗi ('Sorry'), nhưng là vì viết thư muộn, không phải vì lỡ chuyến thăm nào." }
+      ],
+      "answerIndex": 0,
+      "category": "main_idea",
+      "evidence": "So here's the real reason I'm writing: why don't you come up for the August long weekend?",
+      "explanationVi": "Thư có hai phần: 'a proper update' (cập nhật) và 'the real reason I'm writing' (lời mời). Đáp án A gộp cả hai; 'come up' = 'stay', 'proper update' = 'give an update on her new life'.",
+      "vocabulary": ["long weekend"]
+    },
+    {
+      "number": 2,
+      "prompt": "How is Farah's new job different from her old one?",
+      "options": [
+        { "text": "She works fewer hours each week.", "trap": "not_mentioned", "whyVi": "Bài không nói về số giờ làm." },
+        { "text": "She supervises a larger team.", "trap": "opposite", "whyVi": "Công ty mới nhỏ hơn nhiều, và cô không nói mình quản lý ai." },
+        { "text": "She is responsible for a wider range of tasks.", "trap": "none", "whyVi": "Đúng: trước chỉ làm 'payables', giờ làm 'everything from payroll to ordering picking bins'." },
+        { "text": "Her desk now faces a parking garage.", "trap": "opposite", "whyVi": "Ngược lại: bây giờ cô nhìn ra vườn táo 'instead of a parking garage'." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "instead of only doing payables, I'm handling everything from payroll to ordering picking bins",
+      "explanationVi": "So sánh 'instead of only doing X, I'm handling everything from... to...' → phạm vi công việc rộng hơn. Đáp án C diễn đạt lại bằng 'a wider range of tasks'.",
+      "vocabulary": ["payables"]
+    },
+    {
+      "number": 3,
+      "prompt": "What does Farah say about her boss?",
+      "options": [
+        { "text": "Gail often loses patience with new staff.", "trap": "opposite", "whyVi": "Farah nói Gail 'incredibly patient' — rất kiên nhẫn." },
+        { "text": "Gail makes it easy for Farah to ask for help.", "trap": "none", "whyVi": "Đúng: Gail 'never makes me feel silly for asking questions'." },
+        { "text": "Gail checks all of Farah's work.", "trap": "not_mentioned", "whyVi": "Không có thông tin này." },
+        { "text": "Gail hired Farah for her payroll experience.", "trap": "word_match", "whyVi": "Bài có từ 'payroll' nhưng không nói lý do Gail tuyển Farah." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "never makes me feel silly for asking questions",
+      "explanationVi": "Tìm tên 'Gail' trong bài. 'never makes me feel silly for asking questions' (không bao giờ khiến tôi thấy ngớ ngẩn khi hỏi) = 'makes it easy for Farah to ask for help'.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "What is one disadvantage of Farah's new neighbourhood?",
+      "options": [
+        { "text": "Her rent is much higher than in Richmond.", "trap": "opposite", "whyVi": "Giá thuê 'almost the same rent' — gần như bằng." },
+        { "text": "The townhouse is smaller than her old apartment.", "trap": "opposite", "whyVi": "Nhà mới 'twice the size' — rộng gấp đôi." },
+        { "text": "The teenager next door is noisy.", "trap": "word_match", "whyVi": "Cậu con trai nhà bên được nhắc đến vì tốt bụng (đề nghị cắt cỏ), không phải ồn ào." },
+        { "text": "It is hard to get around without a car.", "trap": "none", "whyVi": "Đúng: đi đâu cũng mất 15 phút lái xe và xe buýt một tiếng mới có một chuyến." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "it's a fifteen-minute drive to anything, and the bus comes once an hour if you're lucky",
+      "explanationVi": "'The neighbourhood is another story' báo hiệu điểm trừ. Sau 'but' là nhược điểm: xa mọi thứ và xe buýt thưa. Suy ra: không có ô tô thì rất khó đi lại.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "What does Farah mean when she says \"I feel like I'm in over my head\"?",
+      "options": [
+        { "text": "She has too little to do at work.", "trap": "opposite", "whyVi": "Cô làm rất nhiều việc, không phải quá rảnh." },
+        { "text": "Her boss watches her too closely.", "trap": "not_mentioned", "whyVi": "Không có ý này; sếp cô được khen là kiên nhẫn." },
+        { "text": "The work is sometimes more than she can handle.", "trap": "none", "whyVi": "Đúng: 'in over my head' = bị quá tải, việc vượt quá khả năng xử lý." },
+        { "text": "Her office is in a tall building.", "trap": "word_match", "whyVi": "Bẫy hiểu theo nghĩa đen của 'over my head'; văn phòng nhìn ra vườn táo." }
+      ],
+      "answerIndex": 2,
+      "category": "vocabulary",
+      "evidence": "Some days I feel like I'm in over my head, but my boss, Gail, is incredibly patient",
+      "explanationVi": "Đoán nghĩa thành ngữ: câu trước nói cô phải làm 'everything', và sau 'but' là sếp kiên nhẫn giúp đỡ → 'in over my head' là cảm giác quá sức.",
+      "vocabulary": ["in over my head"]
+    },
+    {
+      "number": 6,
+      "prompt": "Why does Farah want Jun to reply soon?",
+      "options": [
+        { "text": "She needs to request a day off work.", "trap": "none", "whyVi": "Đúng: 'so I can book the Friday off' và tháng Tám ở vườn cây rất bận." },
+        { "text": "Flights from YVR sell out quickly.", "trap": "not_mentioned", "whyVi": "Bài chỉ nói có chuyến bay thẳng dưới một tiếng, không nói hết vé." },
+        { "text": "Someone else may take the spare room.", "trap": "not_mentioned", "whyVi": "Không có ai khác muốn ở phòng trống." },
+        { "text": "The farmers' market is closing for the season.", "trap": "word_match", "whyVi": "Chợ nông sản có nhắc đến, nhưng không nói sắp đóng cửa." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "Let me know soon so I can book the Friday off.",
+      "explanationVi": "'so I can...' nêu mục đích. 'book the Friday off' (xin nghỉ ngày thứ Sáu) = 'request a day off work'.",
+      "vocabulary": ["book time off"]
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "bored with the work", "trap": "opposite", "whyVi": "Farah có quá nhiều việc, không hề chán." },
+        { "text": "a little overwhelmed", "trap": "none", "whyVi": "Đúng: ứng với 'I feel like I'm in over my head' (đôi khi quá tải)." },
+        { "text": "only doing payables", "trap": "wrong_detail", "whyVi": "Đó là công việc cũ ở Richmond." },
+        { "text": "earning less than before", "trap": "not_mentioned", "whyVi": "Farah không nói về lương." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Some days I feel like I'm in over my head",
+      "explanationVi": "Cụm 'even if ... at times' báo hiệu một mặt khó khăn của công việc đang 'going well'. Mặt khó khăn Farah kể là 'in over my head' → 'a little overwhelmed'. 'Some days' = 'at times'.",
+      "vocabulary": ["in over my head"]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "drive up on Friday night", "trap": "opposite", "whyVi": "Xe của Jun đang có tiếng lạ, và Jun nói 'rather than risk the Coquihalla' (đường cao tốc) — tức là không lái xe." },
+        { "text": "take the bus from the city", "trap": "word_match", "whyVi": "Bài có nhắc 'bus' nhưng đó là xe buýt ở Rutland, và câu sau nói Jun sẽ gửi 'flight details'." },
+        { "text": "borrow Sami's car", "trap": "not_mentioned", "whyVi": "Không ai nhắc đến việc mượn xe của Sami." },
+        { "text": "take the direct flight", "trap": "none", "whyVi": "Đúng: Farah gợi ý chuyến bay thẳng từ YVR, và câu sau Jun nhắc 'my flight details'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "there's a direct flight from YVR that takes under an hour",
+      "explanationVi": "Hai manh mối: (1) xe hỏng nên không muốn lái qua Coquihalla, (2) câu kế tiếp có 'flight details'. Vậy Jun chọn đi máy bay như Farah gợi ý.",
+      "vocabulary": []
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "pick me up", "trap": "none", "whyVi": "Đúng: Farah hứa 'I can come and get you at the airport'; biết giờ bay thì biết lúc nào ra đón." },
+        { "text": "buy my ticket", "trap": "wrong_speaker", "whyVi": "Jun tự đặt vé ('as soon as I've booked'), Farah không mua vé." },
+        { "text": "mow the lawn", "trap": "wrong_speaker", "whyVi": "Người đề nghị cắt cỏ là cậu con trai nhà hàng xóm, không liên quan giờ bay." },
+        { "text": "book the ferry", "trap": "not_mentioned", "whyVi": "Không có phà nào trong chuyến đi này." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "I can come and get you at the airport",
+      "explanationVi": "Thông tin chuyến bay giúp Farah biết khi nào cần làm gì? → lời hứa ra sân bay đón. 'come and get you' = 'pick me up'.",
+      "vocabulary": []
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "too nervous to go on the lake", "trap": "opposite", "whyVi": "Nếu sợ không xuống hồ thì câu 'can't promise I'll stay dry' (không dám chắc sẽ không bị ướt) không hợp lý." },
+        { "text": "happy to help with the lawn", "trap": "wrong_speaker", "whyVi": "Việc cắt cỏ thuộc về cậu con trai nhà bên, và không liên quan đến 'stay dry'." },
+        { "text": "up for the paddleboarding challenge", "trap": "none", "whyVi": "Đúng: Farah viết 'if you're brave enough'; Jun nhận lời và đùa có thể sẽ ngã xuống nước." },
+        { "text": "free on Saturday morning", "trap": "wrong_detail", "whyVi": "Sáng thứ Bảy là chợ nông sản, không liên quan việc 'stay dry'." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Sami wants to take you paddleboarding if you're brave enough",
+      "explanationVi": "Lời nhắn gửi Sami → liên quan đến hoạt động Sami đề nghị (chèo SUP). Vế 'although I can't promise I'll stay dry' cho thấy Jun đồng ý tham gia. 'up for the challenge' = sẵn sàng thử, trả lời cho 'if you're brave enough'.",
+      "vocabulary": ["be up for something"]
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "rent a large townhouse", "trap": "wrong_speaker", "whyVi": "Người thuê nhà phố rộng là Farah ở Kelowna, không phải Jun." },
+        { "text": "live near a SkyTrain station", "trap": "none", "whyVi": "Đúng: Farah viết 'I never thought I'd miss SkyTrain this much' sau khi kể về xe buýt thưa." },
+        { "text": "get free peaches from neighbours", "trap": "word_match", "whyVi": "Túi đào là quà của hàng xóm Farah, không liên quan đến xe buýt." },
+        { "text": "own a car that never breaks down", "trap": "opposite", "whyVi": "Xe của Jun đang có tiếng kêu lạ." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I never thought I'd miss SkyTrain this much!",
+      "explanationVi": "'after reading about your bus' → Jun thấy mình may mắn vì có phương tiện công cộng tốt hơn. Trong thư Farah, đối lập với xe buýt thưa là SkyTrain mà cô nhớ.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "a blur", "vi": "khoảng thời gian trôi qua rất nhanh, bận rộn đến mức không nhớ rõ", "definition": "a period when things happen so fast that you cannot remember them clearly", "example": "The first week at the new job was a blur." },
+    { "term": "in over my head", "vi": "quá sức, quá tải", "definition": "in a situation that is too difficult for you to manage", "example": "When I started doing payroll, I felt in over my head." },
+    { "term": "payables", "vi": "các khoản phải trả (kế toán)", "definition": "money a company owes to suppliers; the work of paying those bills", "example": "She used to handle payables for a firm in Richmond." },
+    { "term": "long weekend", "vi": "kỳ nghỉ cuối tuần dài (có ngày lễ)", "definition": "a weekend with an extra holiday on Friday or Monday", "example": "We're driving to the Okanagan for the long weekend." },
+    { "term": "book time off", "vi": "xin nghỉ phép (đăng ký trước)", "definition": "to arrange with your employer not to work on certain days", "example": "I need to book time off before the schedule is posted." },
+    { "term": "be up for something", "vi": "sẵn sàng, hào hứng làm gì", "definition": "to be willing and keen to do an activity", "example": "Are you up for a hike on Saturday?" },
+    { "term": "another story", "vi": "lại là chuyện khác (thường kém hơn)", "definition": "used to say that something is quite different, often worse", "example": "The job is great, but the commute is another story." },
+    { "term": "settled", "vi": "ổn định (sau khi chuyển nhà)", "definition": "comfortable and organized in a new home or situation", "example": "Once we're settled, we'll invite everyone over." }
+  ]
+}

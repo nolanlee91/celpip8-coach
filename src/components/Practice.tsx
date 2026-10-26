@@ -51,8 +51,8 @@ export function History({ skill }: { skill: Skill }) {
               <td className="ellipsis">{a.title}</td>
               <td><Badge>{a.mode}</Badge></td>
               <td>{a.difficulty}</td>
-              <td>{a.total ? `${a.correct}/${a.total} (${Math.round((a.correct / a.total) * 100)}%)` : a.estimatedBand ? `~${a.estimatedBand[0]}–${a.estimatedBand[1]}` : "–"}</td>
-              <td>{a.evaluationId ? <Link to={`/evaluation/${a.evaluationId}`}>Xem</Link> : <Link to={`/review/${a.id}`}>Xem lại</Link>}</td>
+              <td>{a.total ? `${a.correct}/${a.total} (${Math.round((a.correct / a.total) * 100)}%)` : a.estimatedBand ? `~${a.estimatedBand[0]}–${a.estimatedBand[1]}` : "chưa chấm"}</td>
+              <td>{a.evaluationId ? <Link to={`/evaluation/${a.evaluationId}`}>Xem</Link> : (a as { submissionId?: string | null }).submissionId ? <Link to={`/submission/${(a as { submissionId?: string }).submissionId}`}>Xem / chấm</Link> : <Link to={`/review/${a.id}`}>Xem lại</Link>}</td>
             </tr>
           ))}
         </tbody>

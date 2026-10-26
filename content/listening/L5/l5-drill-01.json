@@ -1,0 +1,311 @@
+{
+  "id": "l5-drill-01",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Long-conversation drill: Holiday coverage in accounts payable",
+  "context": "You will hear an accounts payable team at a freight company in Richmond planning who will work over the holidays.",
+  "estimatedMinutes": 6,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Farah, team lead",
+          "voice": "female_a",
+          "text": "Okay, I've got the holiday calendar up. Finance wants at least two of us in the office every working day from December twenty-second to January second, because of the year-end close. So let's see who's away when."
+        },
+        {
+          "speaker": "Kevin, AP clerk",
+          "voice": "male_a",
+          "text": "I already booked flights to Ho Chi Minh City. I leave on the twentieth and I'm back on the fifth, so I'm out for the whole period. Sorry, I booked them back in August."
+        },
+        {
+          "speaker": "Farah, team lead",
+          "voice": "female_a",
+          "text": "No, that's fine, it was approved months ago. Priscilla?"
+        },
+        {
+          "speaker": "Priscilla, AP clerk",
+          "voice": "female_b",
+          "text": "I was hoping to take Christmas week off, so the twenty-second to the twenty-sixth. But I'm flexible after that. I could work the twenty-ninth through the second."
+        },
+        {
+          "speaker": "Dmitri, AP analyst",
+          "voice": "male_b",
+          "text": "I'm happy to work Christmas week. The only thing is, I celebrate Orthodox Christmas on January seventh, so I'd like the sixth and seventh off. That's after the close, so it shouldn't be a problem."
+        },
+        {
+          "speaker": "Farah, team lead",
+          "voice": "female_a",
+          "text": "Okay, so Christmas week, it's Dmitri and me, I guess. Except I was going to take the twenty-third off for my daughter's recital."
+        },
+        {
+          "speaker": "Priscilla, AP clerk",
+          "voice": "female_b",
+          "text": "I could come in that one day, the twenty-third, if it helps. My in-laws don't arrive until the evening."
+        },
+        {
+          "speaker": "Farah, team lead",
+          "voice": "female_a",
+          "text": "Are you sure? That would be great. I'll owe you one."
+        },
+        {
+          "speaker": "Dmitri, AP analyst",
+          "voice": "male_b",
+          "text": "Wait, what about the twenty-ninth onward? Priscilla's in, I'm in. Do you need to be there too, Farah?"
+        },
+        {
+          "speaker": "Farah, team lead",
+          "voice": "female_a",
+          "text": "Somebody has to sign off on the year-end accruals by the thirty-first, and that's me. So I'll be in on the twenty-ninth, thirtieth and thirty-first at least. Dmitri, if you wanted the second off for a long weekend, Priscilla and I could cover it."
+        },
+        {
+          "speaker": "Dmitri, AP analyst",
+          "voice": "male_b",
+          "text": "Thanks, but I'd rather work the second and keep the sixth and seventh like I planned."
+        },
+        {
+          "speaker": "Kevin, AP clerk",
+          "voice": "male_a",
+          "text": "Can I suggest something? I'll have my laptop with me. With the time difference, I could clear the vendor payment queue overnight, so you're not starting every morning with a backlog."
+        },
+        {
+          "speaker": "Farah, team lead",
+          "voice": "female_a",
+          "text": "That's generous, Kevin, but you're on vacation. Let's keep that as a last resort. I'll text you only if we're really falling behind."
+        },
+        {
+          "speaker": "Priscilla, AP clerk",
+          "voice": "female_b",
+          "text": "So just to confirm, I'm off the twenty-second, twenty-fourth and twenty-sixth, but in on the twenty-third?"
+        },
+        {
+          "speaker": "Farah, team lead",
+          "voice": "female_a",
+          "text": "Right, and the twenty-fifth is a stat holiday anyway. I'll update the calendar and send it to finance this afternoon."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Who will be in the office on December twenty-third?",
+          "options": [
+            {
+              "text": "Farah and Dmitri",
+              "trap": "wrong_detail",
+              "whyVi": "Farah nghỉ ngày 23 để dự buổi biểu diễn của con gái."
+            },
+            {
+              "text": "Farah and Priscilla",
+              "trap": "wrong_detail",
+              "whyVi": "Farah nghỉ ngày 23, nên không thể là cặp này."
+            },
+            {
+              "text": "Priscilla and Dmitri",
+              "trap": "none",
+              "whyVi": "Đúng: Dmitri làm cả tuần Giáng sinh, và Priscilla đi làm riêng ngày 23 để thay Farah."
+            },
+            {
+              "text": "Dmitri and Kevin, working remotely",
+              "trap": "wrong_speaker",
+              "whyVi": "Kevin chỉ đề nghị làm từ xa, nhưng Farah chỉ xem đó là phương án cuối cùng."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "I could come in that one day, the twenty-third, if it helps.",
+          "explanationVi": "Phải nối nhiều lượt nói: Dmitri làm tuần Giáng sinh, Farah muốn nghỉ ngày 23, rồi Priscilla nhận làm thay riêng ngày đó.",
+          "vocabulary": [
+            "cover"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "Why does Farah need to work from the twenty-ninth to the thirty-first?",
+          "options": [
+            {
+              "text": "Dmitri asked to take those days off.",
+              "trap": "wrong_detail",
+              "whyVi": "Dmitri muốn nghỉ ngày 6 và 7 tháng 1, không phải những ngày này."
+            },
+            {
+              "text": "She is the person who must approve certain year-end figures.",
+              "trap": "none",
+              "whyVi": "Đúng: cô phải ký duyệt các khoản dồn tích cuối năm trước ngày 31."
+            },
+            {
+              "text": "Priscilla can only work part of that period.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: Priscilla có thể làm từ ngày 29 đến ngày 2."
+            },
+            {
+              "text": "Finance requires three people in the office on those days.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: bộ phận tài chính yêu cầu ít nhất HAI người."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "Somebody has to sign off on the year-end accruals by the thirty-first, and that's me.",
+          "explanationVi": "'sign off on the year-end accruals' được diễn đạt lại thành 'approve certain year-end figures'. Câu này trả lời câu hỏi Dmitri đặt ra trước đó.",
+          "vocabulary": [
+            "sign off on",
+            "accruals"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Dmitri decide about January second?",
+          "options": [
+            {
+              "text": "He will take it off to have a long weekend.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: anh từ chối lời đề nghị nghỉ ngày 2."
+            },
+            {
+              "text": "He will work it and still take his planned days off later.",
+              "trap": "none",
+              "whyVi": "Đúng: anh đi làm ngày 2 và giữ ngày 6, 7 như kế hoạch."
+            },
+            {
+              "text": "He will swap it with Priscilla for the twenty-third.",
+              "trap": "not_mentioned",
+              "whyVi": "Không có chuyện đổi ngày giữa Dmitri và Priscilla."
+            },
+            {
+              "text": "He will take it off instead of January sixth and seventh.",
+              "trap": "partially_true",
+              "whyVi": "Farah có gợi ý cho anh nghỉ ngày 2, nhưng anh chọn giữ ngày 6 và 7."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "I'd rather work the second and keep the sixth and seventh like I planned.",
+          "explanationVi": "Farah đề nghị cho Dmitri nghỉ ngày 2, nhưng anh nói 'I'd rather work the second and keep the sixth and seventh'. Cần nghe đến phản hồi cuối của anh.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "How does Farah react to Kevin's offer?",
+          "options": [
+            {
+              "text": "She accepts it and asks him to handle payments every night.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô không giao việc hằng đêm cho Kevin."
+            },
+            {
+              "text": "She rejects it because of data security rules.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nhắc đến quy định bảo mật."
+            },
+            {
+              "text": "She is annoyed that he booked his trip during the close.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô nói chuyến đi đã được duyệt từ lâu và 'that's fine'."
+            },
+            {
+              "text": "She appreciates it but will only use it if necessary.",
+              "trap": "none",
+              "whyVi": "Đúng: cô khen 'generous' nhưng chỉ nhắn nếu thật sự bị tồn đọng."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "That's generous, Kevin, but you're on vacation. Let's keep that as a last resort.",
+          "explanationVi": "'generous' cho thấy cô cảm kích; 'last resort' = chỉ dùng khi không còn cách nào khác, được diễn đạt lại thành 'only... if necessary'.",
+          "vocabulary": [
+            "last resort",
+            "backlog"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "Which days will Priscilla be away from work during Christmas week?",
+          "options": [
+            {
+              "text": "Every day of that week except the twenty-third",
+              "trap": "none",
+              "whyVi": "Đúng: nghỉ ngày 22, 24, 26, và 25 là ngày lễ; chỉ đi làm ngày 23."
+            },
+            {
+              "text": "The whole week, including the twenty-third",
+              "trap": "partially_true",
+              "whyVi": "Đây là kế hoạch ban đầu, nhưng sau đó cô nhận đi làm ngày 23."
+            },
+            {
+              "text": "Only the twenty-fifth, because it is a holiday",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: cô nghỉ cả ngày 22, 24 và 26."
+            },
+            {
+              "text": "From the twenty-ninth to January second",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: đây là những ngày cô đi làm."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "long_conversation",
+          "evidence": "I'm off the twenty-second, twenty-fourth and twenty-sixth, but in on the twenty-third?",
+          "explanationVi": "Kế hoạch của Priscilla thay đổi trong cuộc trò chuyện. Câu xác nhận cuối cùng cho biết cô chỉ đi làm ngày 23; ngày 25 là ngày lễ.",
+          "vocabulary": [
+            "stat holiday"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "year-end close",
+      "vi": "khóa sổ cuối năm",
+      "definition": "the accounting work done to finish and check a company's records for the year",
+      "example": "We need two people in the office during the year-end close."
+    },
+    {
+      "term": "cover",
+      "vi": "làm thay, trực thay",
+      "definition": "do someone's work while they are away",
+      "example": "Priscilla and I could cover the second."
+    },
+    {
+      "term": "sign off on",
+      "vi": "ký duyệt",
+      "definition": "give official approval to something",
+      "example": "Farah has to sign off on the accruals."
+    },
+    {
+      "term": "accruals",
+      "vi": "các khoản dồn tích",
+      "definition": "income or expenses recorded before money is actually paid or received",
+      "example": "The year-end accruals must be approved by the thirty-first."
+    },
+    {
+      "term": "backlog",
+      "vi": "việc tồn đọng",
+      "definition": "work that has built up and not yet been done",
+      "example": "Nobody wants to start the morning with a backlog."
+    },
+    {
+      "term": "last resort",
+      "vi": "phương án cuối cùng",
+      "definition": "something you do only when every other option has failed",
+      "example": "Let's keep that as a last resort."
+    },
+    {
+      "term": "stat holiday",
+      "vi": "ngày lễ theo luật định",
+      "definition": "a statutory holiday, an official paid day off set by law",
+      "example": "The twenty-fifth is a stat holiday."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rebuilt the full coverage calendar (two staff every working day Dec 22-Jan 2 is met) and solved all 5 items; keys correct, Q5 consistent with BC stat holidays (Dec 25 only; Boxing Day is not a BC stat). 4 voices, 4/5 long_conversation. Q2 option A trap changed wrong_speaker -> wrong_detail (Dmitri did ask for days off, just different ones)."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

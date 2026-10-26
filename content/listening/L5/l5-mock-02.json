@@ -1,0 +1,425 @@
+{
+  "id": "l5-mock-02",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "education",
+  "title": "Discussion: Choosing the spring school fundraiser",
+  "context": "You will hear a meeting of an elementary school's parent advisory council in Coquitlam about a spring fundraiser.",
+  "estimatedMinutes": 9,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Nadia, PAC chair",
+          "voice": "female_a",
+          "text": "Okay, let's get started. We're still about eighteen thousand dollars short for the accessible playground, and the district's matching grant only applies if we've raised our share by the end of May. So tonight we need to pick our spring fundraiser."
+        },
+        {
+          "speaker": "Jordan, PAC treasurer",
+          "voice": "male_a",
+          "text": "I'll say what I always say. The cookie dough sale is our best earner. Last year it brought in almost nine thousand dollars with very little work from the committee."
+        },
+        {
+          "speaker": "Mei, parent volunteer",
+          "voice": "female_b",
+          "text": "Very little work from the committee, maybe. But a lot of work for parents. I had three different families in my building asking me to buy dough, and honestly, I think people are tired of it."
+        },
+        {
+          "speaker": "Mr. Bell, principal",
+          "voice": "male_b",
+          "text": "I'll add something there. After last year's sale, I got several emails from families who felt pressured, especially families who are new to Canada and weren't sure whether taking part was expected. I'd rather we chose something where nobody feels they have to spend money."
+        },
+        {
+          "speaker": "Jordan, PAC treasurer",
+          "voice": "male_a",
+          "text": "Fair enough, but the playground isn't going to pay for itself. What's the alternative?"
+        },
+        {
+          "speaker": "Mei, parent volunteer",
+          "voice": "female_b",
+          "text": "What about a walk-a-thon? Kids collect pledges, but it's flexible. A grandparent can pledge five dollars, or nothing at all, and every child still gets to walk. I've heard some schools in the district raise over ten thousand dollars that way."
+        },
+        {
+          "speaker": "Nadia, PAC chair",
+          "voice": "female_a",
+          "text": "I like that it involves the kids directly, and it fits what the playground is about, which is everyone being included. My worry is the weather. If it pours on the day, we've lost our event."
+        },
+        {
+          "speaker": "Mr. Bell, principal",
+          "voice": "male_b",
+          "text": "We could book a rain date. And the gym's available as a backup for the younger grades anyway."
+        },
+        {
+          "speaker": "Jordan, PAC treasurer",
+          "voice": "male_a",
+          "text": "Ten thousand would be a great year for a walk-a-thon, though. I'd want to see realistic numbers. We're a lot smaller than most of those schools."
+        },
+        {
+          "speaker": "Nadia, PAC chair",
+          "voice": "female_a",
+          "text": "Then why not combine it with something? We could run an online silent auction the same week. Local businesses donate prizes, people bid from home, and nobody's knocking on doors."
+        },
+        {
+          "speaker": "Jordan, PAC treasurer",
+          "voice": "male_a",
+          "text": "An auction I can get behind. Collecting donations takes effort, but almost every dollar we raise is ours to keep. If we got twenty decent items, I'd estimate five or six thousand."
+        },
+        {
+          "speaker": "Mei, parent volunteer",
+          "voice": "female_b",
+          "text": "I can help with that. My husband runs a physiotherapy clinic on Austin Avenue, and I know a few other owners on that street who'd probably donate gift cards."
+        },
+        {
+          "speaker": "Mr. Bell, principal",
+          "voice": "male_b",
+          "text": "One thing to keep in mind. Report cards go home the second week of April, and teachers are swamped then. Could we aim for early May instead?"
+        },
+        {
+          "speaker": "Nadia, PAC chair",
+          "voice": "female_a",
+          "text": "Early May works, but that's cutting it close for the grant deadline. Jordan, how quickly does pledge money usually come in?"
+        },
+        {
+          "speaker": "Jordan, PAC treasurer",
+          "voice": "male_a",
+          "text": "Usually within two weeks. If we hold it the first week of May, we'd have it by the deadline, but only just."
+        },
+        {
+          "speaker": "Nadia, PAC chair",
+          "voice": "female_a",
+          "text": "Okay. So, a walk-a-thon plus an online auction, first week of May. Mei, would you be willing to lead the auction donations?"
+        },
+        {
+          "speaker": "Mei, parent volunteer",
+          "voice": "female_b",
+          "text": "Happy to. But I'll need at least two more volunteers."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is the main purpose of the meeting?",
+          "options": [
+            {
+              "text": "To decide how to spend the district's matching grant",
+              "trap": "word_match",
+              "whyVi": "Có nhắc 'matching grant' nhưng cuộc họp không bàn cách tiêu khoản tài trợ."
+            },
+            {
+              "text": "To review the results of last year's cookie dough sale",
+              "trap": "partially_true",
+              "whyVi": "Đợt bán bột bánh năm ngoái có được nhắc tới, nhưng chỉ là một phần của cuộc thảo luận."
+            },
+            {
+              "text": "To select a way of raising the remaining money for a playground",
+              "trap": "none",
+              "whyVi": "Đúng: còn thiếu khoảng 18.000 đô cho sân chơi và cần chọn hoạt động gây quỹ mùa xuân."
+            },
+            {
+              "text": "To plan the opening celebration for the new playground",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói về lễ khai trương sân chơi."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "So tonight we need to pick our spring fundraiser.",
+          "explanationVi": "Nadia nêu mục đích ngay đầu cuộc họp: 'we need to pick our spring fundraiser' để bù khoản còn thiếu cho sân chơi. 'pick' được diễn đạt lại thành 'select'.",
+          "vocabulary": [
+            "fundraiser"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "Why does Jordan first suggest the cookie dough sale?",
+          "options": [
+            {
+              "text": "It raised a lot of money without much effort from the organizers.",
+              "trap": "none",
+              "whyVi": "Đúng: gần 9.000 đô mà ban tổ chức gần như không tốn công."
+            },
+            {
+              "text": "Parents enjoy selling to their neighbours.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: Mei nói phụ huynh đã chán việc này."
+            },
+            {
+              "text": "It raised more than ten thousand dollars last year.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai số: gần 9.000 đô. 'Hơn 10.000' là con số Mei nghe về đi bộ gây quỹ."
+            },
+            {
+              "text": "It is the easiest option for families new to Canada.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: hiệu trưởng nói các gia đình mới đến cảm thấy bị áp lực."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "it brought in almost nine thousand dollars with very little work from the committee",
+          "explanationVi": "'brought in almost nine thousand dollars' = 'raised a lot of money'; 'very little work from the committee' = 'without much effort from the organizers'.",
+          "vocabulary": [
+            "bring in"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What concern does the principal have about the cookie dough sale?",
+          "options": [
+            {
+              "text": "Parents are tired of being asked to buy dough.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là ý của Mei, không phải của hiệu trưởng."
+            },
+            {
+              "text": "Some families felt they were obliged to spend money.",
+              "trap": "none",
+              "whyVi": "Đúng: ông nhận email từ các gia đình cảm thấy bị áp lực, nhất là gia đình mới đến Canada."
+            },
+            {
+              "text": "The sale took place when teachers were busiest.",
+              "trap": "wrong_detail",
+              "whyVi": "Chuyện giáo viên bận là lý do ông muốn dời ngày sự kiện mới, không phải về đợt bán bột bánh."
+            },
+            {
+              "text": "Selling food at school breaks district rules.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nhắc quy định của học khu về bán thực phẩm."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "I got several emails from families who felt pressured",
+          "explanationVi": "Mr. Bell nói 'families who felt pressured' và muốn chọn hoạt động 'where nobody feels they have to spend money'. 'felt pressured' được diễn đạt lại thành 'felt they were obliged'. Lựa chọn A là ý của Mei.",
+          "vocabulary": [
+            "pressured"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "According to Mei, what is an advantage of a walk-a-thon?",
+          "options": [
+            {
+              "text": "It is guaranteed to raise over ten thousand dollars.",
+              "trap": "too_broad",
+              "whyVi": "Mei chỉ nói đã NGHE một số trường thu được hơn 10.000, không hề đảm bảo."
+            },
+            {
+              "text": "It can be moved into the gym if it rains.",
+              "trap": "wrong_speaker",
+              "whyVi": "Ý dùng phòng thể dục khi mưa là của hiệu trưởng."
+            },
+            {
+              "text": "It does not require any parent volunteers.",
+              "trap": "not_mentioned",
+              "whyVi": "Mei không nói gì về việc không cần tình nguyện viên."
+            },
+            {
+              "text": "Every child can participate, whatever their family is able to give.",
+              "trap": "none",
+              "whyVi": "Đúng: ông bà có thể cam kết 5 đô hoặc không gì cả, mọi em vẫn được đi bộ."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "A grandparent can pledge five dollars, or nothing at all, and every child still gets to walk.",
+          "explanationVi": "'five dollars, or nothing at all, and every child still gets to walk' được khái quát thành 'every child can participate, whatever their family is able to give'.",
+          "vocabulary": [
+            "pledge",
+            "walk-a-thon"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What is Jordan's attitude toward the walk-a-thon estimate?",
+          "options": [
+            {
+              "text": "He doubts their school could raise as much as other schools.",
+              "trap": "none",
+              "whyVi": "Đúng: anh muốn thấy con số thực tế vì trường mình nhỏ hơn nhiều."
+            },
+            {
+              "text": "He is confident it will earn more than the cookie dough sale.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: anh nghi ngờ con số 10.000 đô."
+            },
+            {
+              "text": "He thinks bad weather is the biggest risk.",
+              "trap": "wrong_speaker",
+              "whyVi": "Lo ngại về thời tiết là của Nadia."
+            },
+            {
+              "text": "He refuses to support any event that involves pledges.",
+              "trap": "too_broad",
+              "whyVi": "Quá mạnh: anh chỉ hoài nghi con số, và cuối cùng đồng ý kế hoạch."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "I'd want to see realistic numbers. We're a lot smaller than most of those schools.",
+          "explanationVi": "Jordan nói 'I'd want to see realistic numbers' và 'We're a lot smaller', cho thấy anh hoài nghi trường mình đạt được mức đó.",
+          "vocabulary": []
+        },
+        {
+          "number": 6,
+          "prompt": "Why is Jordan in favour of the online auction?",
+          "options": [
+            {
+              "text": "It requires very little work to organize.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: anh nói việc xin quà tặng 'takes effort'."
+            },
+            {
+              "text": "Mei's husband has agreed to donate all of the prizes.",
+              "trap": "word_match",
+              "whyVi": "Mei chỉ nói chồng cô có phòng khám và cô biết vài chủ cửa hàng 'probably' sẽ tặng thẻ quà; chưa ai đồng ý tặng hết."
+            },
+            {
+              "text": "Nearly all of the money it brings in can be kept.",
+              "trap": "none",
+              "whyVi": "Đúng: 'almost every dollar we raise is ours to keep'."
+            },
+            {
+              "text": "It can raise ten thousand dollars with twenty items.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai số: anh ước tính 5.000–6.000 đô với 20 món."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "almost every dollar we raise is ours to keep",
+          "explanationVi": "'almost every dollar we raise is ours to keep' được diễn đạt lại thành 'nearly all of the money... can be kept'.",
+          "vocabulary": [
+            "silent auction"
+          ]
+        },
+        {
+          "number": 7,
+          "prompt": "Why does Mr. Bell suggest holding the events in early May?",
+          "options": [
+            {
+              "text": "The grant deadline is at the start of May.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: hạn chót tài trợ là cuối tháng 5."
+            },
+            {
+              "text": "The gym is not available in April.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói phòng thể dục bận vào tháng 4."
+            },
+            {
+              "text": "The weather is usually better in May.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói thời tiết tháng 5 tốt hơn."
+            },
+            {
+              "text": "Teachers are very busy with report cards in April.",
+              "trap": "none",
+              "whyVi": "Đúng: phiếu điểm phát vào tuần thứ hai tháng 4 và giáo viên rất bận."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "Report cards go home the second week of April, and teachers are swamped then.",
+          "explanationVi": "'swamped' = rất bận. Lý do là phiếu điểm vào tháng 4, nên ông đề xuất dời sang đầu tháng 5.",
+          "vocabulary": [
+            "swamped"
+          ]
+        },
+        {
+          "number": 8,
+          "prompt": "What can be inferred about holding the events in the first week of May?",
+          "options": [
+            {
+              "text": "The pledge money will arrive after the grant deadline.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: Jordan nói tiền sẽ về kịp, dù sát nút."
+            },
+            {
+              "text": "It leaves little margin before the grant deadline.",
+              "trap": "none",
+              "whyVi": "Đúng: Nadia nói 'cutting it close' và Jordan nói 'but only just'."
+            },
+            {
+              "text": "The district will probably extend the deadline.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói học khu sẽ gia hạn."
+            },
+            {
+              "text": "The events will have to be moved to June.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: nhóm chốt tuần đầu tháng 5."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "If we hold it the first week of May, we'd have it by the deadline, but only just.",
+          "explanationVi": "Phải nối hai ý: Nadia nói 'cutting it close for the grant deadline' và Jordan xác nhận 'but only just'. Hai cách nói này đều có nghĩa là rất sát hạn.",
+          "vocabulary": [
+            "cut it close"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "fundraiser",
+      "vi": "hoạt động gây quỹ",
+      "definition": "an event or activity organized to collect money for a cause",
+      "example": "We need to pick our spring fundraiser."
+    },
+    {
+      "term": "bring in",
+      "vi": "thu về (tiền)",
+      "definition": "earn or collect an amount of money",
+      "example": "The sale brought in almost nine thousand dollars."
+    },
+    {
+      "term": "pressured",
+      "vi": "bị áp lực",
+      "definition": "made to feel you must do something even if you don't want to",
+      "example": "Some families felt pressured to buy."
+    },
+    {
+      "term": "pledge",
+      "vi": "cam kết đóng góp",
+      "definition": "a promise to give money, often for each km walked or for taking part",
+      "example": "A grandparent can pledge five dollars."
+    },
+    {
+      "term": "walk-a-thon",
+      "vi": "đi bộ gây quỹ",
+      "definition": "a walking event where participants collect money from sponsors",
+      "example": "Many schools hold a walk-a-thon in spring."
+    },
+    {
+      "term": "silent auction",
+      "vi": "đấu giá kín",
+      "definition": "an auction where people write or submit bids instead of calling them out",
+      "example": "We could run an online silent auction."
+    },
+    {
+      "term": "swamped",
+      "vi": "ngập đầu (công việc)",
+      "definition": "extremely busy, with too much to do",
+      "example": "Teachers are swamped when report cards go home."
+    },
+    {
+      "term": "cut it close",
+      "vi": "sát nút, sát hạn",
+      "definition": "leave very little extra time before a deadline",
+      "example": "Early May is cutting it close for the grant deadline."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 8 items independently; keys, evidence and trap tags correct; speaker attributions (Mei vs Mr. Bell vs Jordan vs Nadia) unambiguous; timing logic (pledges in ~2 weeks, end-of-May deadline) consistent. 4 voices, 480 words. No changes needed."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

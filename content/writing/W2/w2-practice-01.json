@@ -1,0 +1,68 @@
+{
+  "id": "w2-practice-01",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "community-services",
+  "title": "Community centre project: pool or library",
+  "situation": "Your local community centre has received funding for one major improvement project next year. The centre's board is asking residents which project they would prefer, and has sent the following survey to everyone in the neighbourhood.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Build a new indoor swimming pool, with swimming lessons for children and adults.",
+  "optionB": "Option B: Expand the library branch inside the centre, with more books, quiet study rooms and computer stations.",
+  "structure": [
+    "Opening: state your choice clearly + a one-line overall reason",
+    "Reason 1 + specific example (ideally from your own experience)",
+    "Reason 2 + explanation of the consequence",
+    "Acknowledge the other option fairly, then explain why yours is still better",
+    "Short conclusion restating your choice in different words"
+  ],
+  "modelResponse": "I would prefer that the community centre expand its library branch, mainly because it would benefit a wider range of residents at a lower ongoing cost.\n\nFirst, a library serves almost everyone in the neighbourhood. Students need quiet places to study, newcomers use the computers to apply for jobs and practise English, and seniors rely on free books and programs. When I first arrived in Canada, my local library was where I printed my résumé and joined a conversation circle, so I know how valuable these services are.\n\nSecond, an expanded library is more affordable to run. An indoor pool requires lifeguards, heating, chemicals and regular repairs, and those expenses could eventually lead to higher fees or cuts to other programs. Study rooms and computers, by contrast, are relatively inexpensive to maintain.\n\nAdmittedly, a pool would encourage physical activity and teach children an important safety skill. However, there are already public pools in nearby neighbourhoods, while our current library is often so crowded that people cannot find a seat.\n\nFor these reasons, I believe the library expansion is the more practical and inclusive choice.",
+  "usefulExpressions": [
+    {
+      "expression": "I would prefer that… , mainly because…",
+      "usageVi": "Câu mở bài nêu lựa chọn và lý do tổng quát ngay lập tức."
+    },
+    {
+      "expression": "a wider range of residents",
+      "usageVi": "Cụm danh từ giúp nói 'nhiều kiểu người hơn' một cách tự nhiên, trang trọng."
+    },
+    {
+      "expression": "…, so I know how valuable… are",
+      "usageVi": "Kết nối ví dụ cá nhân với lập luận — ví dụ thật làm bài thuyết phục hơn."
+    },
+    {
+      "expression": "by contrast",
+      "usageVi": "Đối chiếu hai lựa chọn trong cùng một đoạn."
+    },
+    {
+      "expression": "could eventually lead to…",
+      "usageVi": "Nói về hậu quả có thể xảy ra trong tương lai, giọng thận trọng."
+    },
+    {
+      "expression": "Admittedly, …. However, …",
+      "usageVi": "Thừa nhận ưu điểm của phương án kia rồi phản bác — kỹ thuật quan trọng để đạt điểm cao ở W2."
+    },
+    {
+      "expression": "For these reasons, I believe…",
+      "usageVi": "Mở đầu đoạn kết, tóm tắt lại lựa chọn."
+    }
+  ],
+  "commonMistakes": [
+    "Không chọn rõ ràng hoặc chọn cả hai ('Both options are good'). Đề yêu cầu chọn MỘT phương án và bảo vệ nó.",
+    "Chỉ liệt kê ưu điểm mà không có ví dụ cụ thể. Mỗi lý do nên có một ví dụ hoặc giải thích hậu quả.",
+    "Thiếu mạo từ/số nhiều: 'library is more cheap' → 'a library is cheaper'; 'pool need lifeguard' → 'a pool needs lifeguards'.",
+    "Bỏ qua phương án còn lại hoàn toàn. Một câu thừa nhận ưu điểm của phương án kia rồi phản bác sẽ giúp bài cân bằng và thuyết phục hơn."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked choice, personal example, running-cost argument, concession, Canadian spelling (practise as verb), word count (184). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

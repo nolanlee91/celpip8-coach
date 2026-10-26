@@ -1,0 +1,54 @@
+{
+  "id": "s2-practice-01",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "practice",
+  "difficulty": 6,
+  "topic": "community-services",
+  "title": "A time you helped someone",
+  "prompt": "Talk about a time when you helped someone who needed it. Describe the situation, what you did to help, and how you felt afterwards.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Set the scene: when, where, who (1–2 sentences)",
+    "The problem: what the person needed",
+    "What you did, step by step",
+    "How you felt + why it mattered to you"
+  ],
+  "modelAnswer": "About two years ago, I was waiting for the bus near my apartment in Surrey when I noticed an elderly woman who looked really confused. She was holding a piece of paper and kept looking at the bus schedule.\n\nSo, I walked over and asked if she needed help. It turned out she'd just arrived from Vietnam to visit her daughter, and she didn't speak much English. She was trying to get to a medical clinic, but she had no idea which bus to take.\n\nBecause I speak Vietnamese, I was able to explain the route to her. Actually, the clinic was on my way, so I just rode the bus with her and walked her to the front door. I even helped her check in at the reception desk.\n\nAfterwards, I felt really happy. It reminded me of how lost I felt when I first came to Canada, and I was glad I could make her day a little easier.",
+  "usefulExpressions": [
+    {
+      "expression": "About two years ago, …",
+      "usageVi": "Mở đầu bằng thời gian giúp câu chuyện rõ ràng ngay từ đầu."
+    },
+    {
+      "expression": "It turned out (that)…",
+      "usageVi": "'Hóa ra là…' — dùng khi kể chi tiết bất ngờ, rất tự nhiên trong văn nói."
+    },
+    {
+      "expression": "had no idea…",
+      "usageVi": "Hoàn toàn không biết — tự nhiên hơn 'did not know'."
+    },
+    {
+      "expression": "It reminded me of…",
+      "usageVi": "Liên hệ với cảm xúc/kinh nghiệm cá nhân ở phần kết."
+    },
+    {
+      "expression": "make her day a little easier",
+      "usageVi": "Cách nói ấm áp, tự nhiên để kết thúc câu chuyện."
+    }
+  ],
+  "commonMistakes": [
+    "Dùng thì hiện tại khi kể chuyện quá khứ ('I see a woman, she ask me…'). Hãy giữ quá khứ đơn: 'I saw', 'she asked'.",
+    "Kể quá dài phần bối cảnh và hết giờ trước khi nói cảm xúc. Phân bổ: bối cảnh 15 giây, hành động 30 giây, cảm xúc 15 giây.",
+    "Nhầm 'he/she' khi nói nhanh — lỗi rất phổ biến của người Việt vì tiếng Việt không phân biệt rõ. Hãy chú ý giữ đúng 'she' cho người phụ nữ."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Removed opening 'Sure.' (there is no interviewer in S2, so it sounds like a reply). Checked all 3 parts of the prompt and length (~161)."
+  },
+  "createdAt": "2026-10-26"
+}

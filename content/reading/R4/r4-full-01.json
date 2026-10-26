@@ -1,0 +1,188 @@
+{
+  "id": "r4-full-01",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Westholme's Four-Day Week: A Year of Mixed Reviews",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 10 independently; keys match; every blank tested with all options - one fits grammar and article. Q1 main-idea evidence was thin (only the decision date); added a natural article sentence 'With that decision approaching, both supporters and critics are making their case.' (article now ~484 words) and used it as evidence; explanation now names the supporter/critic paragraphs." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "When the City of Westholme moved about 180 of its office staff to a four-day work week last October, Mayor Renata Oyelaran called it \"an experiment, not a promise.\" Employees in planning, finance, bylaw services and the permits office now work four ten-hour days instead of five eight-hour days, with Fridays off on a rotating basis so that every service counter stays open five days a week. The pilot ends in March, and council will decide in April whether to make it permanent. With that decision approaching, both supporters and critics are making their case.\n\nSupporters point first to recruitment. Westholme, like many smaller municipalities in the Lower Mainland, has struggled to compete with Vancouver and Surrey for planners and engineers, who can often earn more in larger cities. Human resources director Kwame Asante says applications for posted positions have roughly doubled since the pilot was announced, and sick days are down 22 per cent compared with the same months last year. \"We can't win a salary war with the big cities,\" Asante said. \"But we can offer people their Fridays, and that turns out to matter a great deal.\"\n\nSome employees describe the change in personal terms. Lena Kowalczyk, a permit technician and mother of two, says the extra day off has replaced the Friday childcare she used to pay for, saving her family about $250 a month. \"The longer days are tiring, I won't pretend otherwise,\" she said. \"But I'd never go back.\"\n\nCritics are not convinced the benefits reach residents. Councillor Doug Featherstone, who voted against the pilot, says the average time to approve a basic building permit has increased from 31 to 38 business days, and he has received complaints from contractors who cannot reach the staff member handling their file on that person's day off. \"Staff morale is important, but this is a public service,\" he said. \"The question is not whether employees like it. Of course they do. The question is whether taxpayers are getting the same service.\"\n\nAsante disputes that the permit delays are caused by the schedule, noting that the number of permit applications rose by 15 per cent this year because of a construction boom along the new rapid-bus corridor. An independent review by a consulting firm, due in February, is supposed to separate the two effects.\n\nEven some supporters admit the model may not suit every department. The pilot did not include outside workers in parks, roads or water services, whose union contract sets different shift rules. Several of those employees have asked why office staff should receive a benefit they cannot access, and the union has said it will raise the issue in next year's bargaining.\n\nFor now, Oyelaran is careful not to take sides. \"If the numbers show residents are worse off, we will change course,\" she said. \"If they don't, I suspect a lot of other cities will be calling us.\"",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I run a small renovation company in Westholme, so I read this article with real interest. I'll admit my first reaction to the pilot was frustration, because it can be hard to get hold of the [[6]]. Still, I think Councillor Featherstone is too quick to [[7]]. The article makes it clear that permit applications [[8]], so the slower approvals may have little to do with the new schedule. I'd rather wait for the [[9]] before anyone draws firm conclusions. What concerns me more is fairness inside City Hall. If the four-day week stays an office-only benefit, the city risks [[10]] who keep our roads, parks and water systems running. Council should find a way to include them before making anything permanent.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the main purpose of the article?",
+      "options": [
+        { "text": "To argue that every BC municipality should adopt a four-day week", "trap": "too_broad", "whyVi": "Bài không kêu gọi mọi đô thị áp dụng; chỉ thị trưởng đoán các thành phố khác 'will be calling us'. Đây là ý quá rộng." },
+        { "text": "To present different opinions on a trial schedule before a decision is made", "trap": "none", "whyVi": "Đúng: Bài nêu ý kiến ủng hộ (Asante, Kowalczyk) và phản đối (Featherstone, công nhân ngoài trời) trước khi hội đồng quyết định vào tháng Tư." },
+        { "text": "To explain why permit approvals in Westholme have become slower", "trap": "partially_true", "whyVi": "Việc cấp phép chậm chỉ là một phần của bài, không phải mục đích chính." },
+        { "text": "To report on a dispute between the city and its outdoor workers' union", "trap": "partially_true", "whyVi": "Công đoàn chỉ được nhắc trong một đoạn; bài không chủ yếu nói về tranh chấp với công đoàn." }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "With that decision approaching, both supporters and critics are making their case.",
+      "explanationVi": "Câu hỏi ý chính: nhìn toàn bài. Đoạn đầu nói hội đồng sẽ quyết định vào tháng Tư và 'both supporters and critics are making their case' (cả phe ủng hộ lẫn phe phản đối đang trình bày lý lẽ). Sau đó bài lần lượt đưa ý kiến ủng hộ ('Supporters point first to recruitment', Kowalczyk) và phản đối ('Critics are not convinced', công nhân ngoài trời), kết thúc bằng thị trưởng 'careful not to take sides'. 'A trial schedule' = 'the pilot'; 'before a decision is made' = 'With that decision approaching'.",
+      "vocabulary": ["pilot"]
+    },
+    {
+      "number": 2,
+      "prompt": "According to Kwame Asante, how does the four-day week help the city?",
+      "options": [
+        { "text": "It allows the city to pay its employees lower salaries.", "trap": "word_match", "whyVi": "Bài có từ 'salary' nhưng Asante nói thành phố không thể cạnh tranh về lương, không nói trả lương thấp hơn." },
+        { "text": "It has shortened the time needed to approve building permits.", "trap": "opposite", "whyVi": "Thời gian cấp phép thực tế tăng từ 31 lên 38 ngày; Asante chỉ phản bác rằng nguyên nhân không phải do lịch làm việc." },
+        { "text": "It lets the city close its offices on Fridays to save money.", "trap": "opposite", "whyVi": "Ngày nghỉ thứ Sáu được luân phiên để quầy dịch vụ vẫn mở năm ngày một tuần." },
+        { "text": "It gives the city an advantage in hiring that it cannot get through pay.", "trap": "none", "whyVi": "Đúng: Asante nói 'We can't win a salary war ... But we can offer people their Fridays' và số đơn xin việc tăng gấp đôi." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "\"We can't win a salary war with the big cities,\" Asante said. \"But we can offer people their Fridays, and that turns out to matter a great deal.\"",
+      "explanationVi": "'Can't win a salary war' = không thể cạnh tranh bằng lương; 'offer people their Fridays' giúp thu hút ứng viên (số đơn 'roughly doubled'). Đáp án đúng diễn đạt lại thành 'an advantage in hiring that it cannot get through pay'.",
+      "vocabulary": ["recruitment"]
+    },
+    {
+      "number": 3,
+      "prompt": "What is Councillor Featherstone's view of the pilot?",
+      "options": [
+        { "text": "He thinks staff satisfaction should not be the main way to judge it.", "trap": "none", "whyVi": "Đúng: Ông nói 'The question is not whether employees like it ... The question is whether taxpayers are getting the same service'." },
+        { "text": "He believes most employees are unhappy with the longer days.", "trap": "opposite", "whyVi": "Ông nói 'Of course they do' — tức là ông thừa nhận nhân viên thích chương trình." },
+        { "text": "He wants it to be extended to outdoor workers.", "trap": "wrong_speaker", "whyVi": "Mong muốn mở rộng cho công nhân ngoài trời đến từ chính những công nhân đó và công đoàn, không phải Featherstone." },
+        { "text": "He feels contractors have complained without good reason.", "trap": "opposite", "whyVi": "Ông dùng lời phàn nàn của nhà thầu làm bằng chứng chống lại chương trình, nên ông coi chúng là có lý." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"The question is not whether employees like it. Of course they do. The question is whether taxpayers are getting the same service.\"",
+      "explanationVi": "Câu hỏi về thái độ. Featherstone đồng ý nhân viên thích ('Of course they do') nhưng cho rằng câu hỏi quan trọng là dịch vụ cho người đóng thuế. Vậy ông cho rằng sự hài lòng của nhân viên không nên là thước đo chính.",
+      "vocabulary": ["morale"]
+    },
+    {
+      "number": 4,
+      "prompt": "How has the city kept its services available five days a week?",
+      "options": [
+        { "text": "Staff now work five shorter days instead of four long ones.", "trap": "opposite", "whyVi": "Ngược lại: nhân viên làm bốn ngày 10 tiếng thay vì năm ngày 8 tiếng." },
+        { "text": "Outdoor workers cover the service counters on Fridays.", "trap": "wrong_detail", "whyVi": "Công nhân ngoài trời không tham gia chương trình và bài không nói họ trực quầy." },
+        { "text": "Employees take turns having Fridays off.", "trap": "none", "whyVi": "Đúng: 'with Fridays off on a rotating basis so that every service counter stays open five days a week'." },
+        { "text": "The permits office has added Saturday hours.", "trap": "not_mentioned", "whyVi": "Bài không nhắc đến giờ mở cửa thứ Bảy." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "with Fridays off on a rotating basis so that every service counter stays open five days a week",
+      "explanationVi": "'On a rotating basis' = luân phiên → 'take turns'. Đây là cách giữ quầy dịch vụ mở cả năm ngày.",
+      "vocabulary": ["on a rotating basis"]
+    },
+    {
+      "number": 5,
+      "prompt": "What can be inferred about the city's outdoor workers?",
+      "options": [
+        { "text": "They took part in the first months of the pilot.", "trap": "opposite", "whyVi": "Bài nói rõ 'The pilot did not include outside workers'." },
+        { "text": "They are likely to push for a similar benefit in future contract talks.", "trap": "none", "whyVi": "Đúng: Họ hỏi vì sao nhân viên văn phòng được hưởng còn họ thì không, và công đoàn 'will raise the issue in next year's bargaining'." },
+        { "text": "They prefer the shift rules in their current contract.", "trap": "not_mentioned", "whyVi": "Bài chỉ nói hợp đồng của họ có quy định ca khác, không nói họ thích quy định đó." },
+        { "text": "They will move to a four-day week next year.", "trap": "wrong_detail", "whyVi": "Công đoàn chỉ sẽ 'raise the issue' (nêu vấn đề) năm sau; chưa có quyết định nào." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "the union has said it will raise the issue in next year's bargaining",
+      "explanationVi": "'Bargaining' = đàm phán hợp đồng lao động ('contract talks'). Công nhân cho rằng không công bằng và công đoàn sẽ nêu vấn đề → suy ra họ sẽ đòi quyền lợi tương tự. Không chọn 'will move to a four-day week' vì đó là kết quả chưa chắc chắn.",
+      "vocabulary": ["bargaining"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "employee handling my file on their day off", "trap": "none", "whyVi": "Đúng: khớp với lời phàn nàn của nhà thầu trong bài — không liên lạc được người phụ trách hồ sơ vào ngày nghỉ của họ." },
+        { "text": "permits counter, which now closes on Fridays", "trap": "opposite", "whyVi": "Quầy vẫn mở năm ngày một tuần nhờ lịch nghỉ luân phiên." },
+        { "text": "consultants who are reviewing the program", "trap": "wrong_detail", "whyVi": "Công ty tư vấn chỉ thực hiện đánh giá; nhà thầu không cần liên hệ họ." },
+        { "text": "mayor, who refuses to take sides", "trap": "word_match", "whyVi": "Bài có 'careful not to take sides' nhưng đó là quan điểm của thị trưởng, không liên quan đến khó liên lạc." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "he has received complaints from contractors who cannot reach the staff member handling their file on that person's day off",
+      "explanationVi": "Người viết là chủ công ty sửa nhà (nhà thầu). 'Hard to get hold of' = 'cannot reach'. Bài nói nhà thầu không liên lạc được 'the staff member handling their file on that person's day off' → chọn đáp án tương ứng.",
+      "vocabulary": ["get hold of"]
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "praise the pilot's early results", "trap": "opposite", "whyVi": "Featherstone phản đối chương trình, không khen ngợi." },
+        { "text": "ignore complaints from contractors", "trap": "opposite", "whyVi": "Ông chính là người nêu lời phàn nàn của nhà thầu." },
+        { "text": "blame the new schedule for the delays", "trap": "none", "whyVi": "Đúng: Câu sau nói việc cấp phép chậm có thể không liên quan đến lịch mới — tức là người viết cho rằng Featherstone đổ lỗi quá vội." },
+        { "text": "cut the salaries of city planners", "trap": "not_mentioned", "whyVi": "Không ai đề xuất cắt lương; 'salary' chỉ xuất hiện trong câu của Asante." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Asante disputes that the permit delays are caused by the schedule",
+      "explanationVi": "Đọc câu tiếp theo trong bình luận: 'so the slower approvals may have little to do with the new schedule'. Vậy người viết cho rằng Featherstone đã vội đổ lỗi cho lịch mới. 'Be too quick to + verb' = vội vàng làm gì."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "fell sharply after the pilot began", "trap": "opposite", "whyVi": "Số đơn xin giấy phép tăng chứ không giảm." },
+        { "text": "now take 38 business days to approve", "trap": "partially_true", "whyVi": "Con số 38 ngày là đúng, nhưng nó không giải thích được vì sao việc chậm 'có thể không liên quan đến lịch mới' — câu sẽ không hợp logic." },
+        { "text": "have roughly doubled since the pilot was announced", "trap": "wrong_detail", "whyVi": "'Roughly doubled' là số đơn xin VIỆC, không phải đơn xin giấy phép xây dựng." },
+        { "text": "went up by 15 per cent this year", "trap": "none", "whyVi": "Đúng: Số đơn xin giấy phép 'rose by 15 per cent this year' do bùng nổ xây dựng." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "the number of permit applications rose by 15 per cent this year because of a construction boom",
+      "explanationVi": "Chỗ trống cần lý do khác giải thích việc cấp phép chậm. Bài nói số đơn xin giấy phép tăng 15%. Bẫy: 'roughly doubled' là đơn xin việc ('applications for posted positions')."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "union's bargaining next year", "trap": "wrong_detail", "whyVi": "Đàm phán của công đoàn là về công nhân ngoài trời, không giúp xác định nguyên nhân chậm cấp phép." },
+        { "text": "outside review due in February", "trap": "none", "whyVi": "Đúng: Đánh giá độc lập vào tháng Hai 'is supposed to separate the two effects' — đúng thứ người viết muốn chờ." },
+        { "text": "end of the construction boom", "trap": "word_match", "whyVi": "Bài có 'construction boom' nhưng không nói khi nào kết thúc, và chờ điều đó không giúp kết luận." },
+        { "text": "city's next salary survey", "trap": "not_mentioned", "whyVi": "Bài không nhắc đến khảo sát lương." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "An independent review by a consulting firm, due in February, is supposed to separate the two effects.",
+      "explanationVi": "Người viết muốn chờ trước khi 'draws firm conclusions' về nguyên nhân chậm cấp phép. Bài nói đánh giá độc lập sẽ tách hai nguyên nhân (lịch làm việc và số đơn tăng). 'Independent review by a consulting firm' = 'outside review'."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "creating resentment among the employees", "trap": "none", "whyVi": "Đúng: Công nhân ngoài trời đã hỏi vì sao nhân viên văn phòng được hưởng quyền lợi họ không có — tức là có sự bất mãn." },
+        { "text": "losing the planners and engineers", "trap": "word_match", "whyVi": "Bài có 'planners and engineers' nhưng họ là nhân viên văn phòng được hưởng chương trình, không phải người 'keep our roads ... running'." },
+        { "text": "giving every Friday off to the workers", "trap": "opposite", "whyVi": "Đây là giải pháp người viết mong muốn, không phải rủi ro ('risks')." },
+        { "text": "paying overtime to the contractors", "trap": "not_mentioned", "whyVi": "Bài không nói về tiền làm thêm giờ cho nhà thầu." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Several of those employees have asked why office staff should receive a benefit they cannot access",
+      "explanationVi": "'Risks + V-ing' = có nguy cơ gây ra điều xấu. Người viết lo về 'fairness'. Bài cho thấy công nhân ngoài trời thấy không công bằng → 'resentment' (sự bất mãn). Chỉ đáp án A vừa là điều xấu, vừa khớp với 'who keep our roads, parks and water systems running'.",
+      "vocabulary": ["resentment"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "pilot", "vi": "chương trình thí điểm", "definition": "a small trial to test an idea before using it more widely", "example": "The four-day week pilot ends in March." },
+    { "term": "on a rotating basis", "vi": "theo hình thức luân phiên", "definition": "taking turns in a regular order", "example": "Staff have Fridays off on a rotating basis." },
+    { "term": "recruitment", "vi": "tuyển dụng", "definition": "the process of finding new people to work for an organisation", "example": "Supporters say the pilot has helped recruitment." },
+    { "term": "morale", "vi": "tinh thần làm việc", "definition": "the level of confidence and satisfaction a group of people feel", "example": "Staff morale has improved since the change." },
+    { "term": "bargaining", "vi": "đàm phán (hợp đồng lao động)", "definition": "discussion between a union and an employer about pay and conditions", "example": "The union will raise the issue in next year's bargaining." },
+    { "term": "get hold of", "vi": "liên lạc được với ai", "definition": "to manage to contact someone", "example": "It is hard to get hold of the planner on Fridays." },
+    { "term": "resentment", "vi": "sự bất mãn, oán giận", "definition": "a feeling of anger because something seems unfair", "example": "The office-only benefit caused resentment among outdoor crews." },
+    { "term": "take sides", "vi": "đứng về một phía", "definition": "to support one person or group in an argument", "example": "The mayor is careful not to take sides." },
+    { "term": "change course", "vi": "thay đổi hướng đi", "definition": "to start doing something in a different way", "example": "If the results are poor, the city will change course." }
+  ]
+}

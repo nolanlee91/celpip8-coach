@@ -1,0 +1,68 @@
+{
+  "id": "w2-mock-01",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "recreation",
+  "title": "New park feature: dog park or playground",
+  "situation": "An empty lot in your neighbourhood is being turned into a small park. The city's parks department has enough space and money for only one main feature, and it is asking nearby residents for their preference.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: A fenced off-leash dog park with benches, shade trees and water fountains.",
+  "optionB": "Option B: A children's playground with climbing equipment, swings and a summer splash pad.",
+  "structure": [
+    "Opening: acknowledge both options, then state your choice for this specific location",
+    "Reason 1: what the neighbourhood already has and lacks (facts about the area)",
+    "Reason 2: the wider problem your option solves for everyone, including people who chose the other option",
+    "Concede the other option's appeal + explain why it duplicates existing facilities",
+    "Conclusion"
+  ],
+  "modelResponse": "Although both options have merit, I would choose the fenced off-leash dog park for this particular location.\n\nFirst of all, our neighbourhood already has two playgrounds within a ten-minute walk, including a large one at the elementary school that is open to the public after school hours. By contrast, the closest off-leash area is more than three kilometres away, which is too far for most owners to visit every day.\n\nMore importantly, a dog park would reduce a problem that affects everyone. Since many residents live in apartments with no yard, people often let their dogs run loose on the school field or in Cedar Park. This creates conflicts with families and leaves the grass in poor condition. A fenced area would give dogs a proper place to exercise and keep other public spaces cleaner and safer for children.\n\nOf course, a new playground with a splash pad would be popular in summer. However, it would largely duplicate facilities we already have, whereas a dog park would meet a need that is currently ignored.\n\nFor these reasons, I believe the off-leash dog park would be the most useful addition to our community.",
+  "usefulExpressions": [
+    {
+      "expression": "Although both options have merit, I would choose…",
+      "usageVi": "Mở bài tinh tế: ghi nhận cả hai phương án nhưng vẫn chọn rõ ràng."
+    },
+    {
+      "expression": "for this particular location",
+      "usageVi": "Giới hạn lập luận vào bối cảnh cụ thể — giúp lựa chọn 'bất ngờ' trở nên hợp lý."
+    },
+    {
+      "expression": "More importantly, …",
+      "usageVi": "Đưa ra lý do mạnh nhất sau lý do thứ nhất."
+    },
+    {
+      "expression": "a problem that affects everyone",
+      "usageVi": "Mở rộng lợi ích ra toàn cộng đồng, kể cả những người không nuôi chó."
+    },
+    {
+      "expression": "it would largely duplicate facilities we already have",
+      "usageVi": "'duplicate' = trùng lặp; lập luận rằng phương án kia không cần thiết."
+    },
+    {
+      "expression": "whereas…",
+      "usageVi": "Liên từ đối chiếu trang trọng, dùng trong cùng một câu."
+    },
+    {
+      "expression": "meet a need that is currently ignored",
+      "usageVi": "Cụm 'meet a need' = đáp ứng nhu cầu; rất hữu ích cho bài khảo sát cộng đồng."
+    }
+  ],
+  "commonMistakes": [
+    "Chọn phương án nhưng lập luận chung chung ('Dogs are cute', 'Children are the future'). Lập luận mạnh dựa vào thực tế của khu vực: đã có gì, còn thiếu gì.",
+    "Nhầm 'off-leash' thành 'no leash' hoặc 'free dog'. Thuật ngữ đúng ở Canada là 'off-leash dog park' / 'off-leash area'.",
+    "Thiếu mạo từ và sai số nhiều: 'neighbourhood already has two playground' → 'two playgrounds'; 'dog need place to run' → 'dogs need a place to run'.",
+    "Phản đối phương án kia bằng giọng tiêu cực về một nhóm người ('Parents never watch their kids'). Hãy phản bác bằng lý lẽ, không chỉ trích người khác."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked clear choice, two developed reasons, fair concession, word count (192), terminology note (off-leash). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

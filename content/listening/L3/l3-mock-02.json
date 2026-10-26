@@ -1,0 +1,142 @@
+{
+  "id": "l3-mock-02",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "education",
+  "title": "Advice on a part-time bookkeeping certificate",
+  "context": "You will hear a prospective student talking to an academic advisor at a community college about a part-time bookkeeping program.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Andrés", "voice": "male_a", "text": "Thanks for seeing me. So, I'm working in a warehouse office right now, mostly receiving and invoicing, and my manager suggested I look into bookkeeping. I saw your part-time certificate online, but honestly, the website was a bit confusing." },
+        { "speaker": "Fiona", "voice": "female_b", "text": "You're not the first person to say that. Let me give you the short version. The certificate is eight courses. Seven are required, and you pick one elective, usually either payroll or small business taxation." },
+        { "speaker": "Andrés", "voice": "male_a", "text": "And it's all evenings?" },
+        { "speaker": "Fiona", "voice": "female_b", "text": "Mostly. Classes run Tuesday and Thursday evenings, six-thirty to nine-thirty, live online. But the final exams are written in person, on campus, on Saturdays. So you'd need to come in roughly twice a term." },
+        { "speaker": "Andrés", "voice": "male_a", "text": "That's fine. How long does the whole thing take?" },
+        { "speaker": "Fiona", "voice": "female_b", "text": "If you take two courses a term, about sixteen months. Some people try to do three at once while working full-time. I'd strongly advise against that, especially in your first term." },
+        { "speaker": "Fiona", "voice": "female_b", "text": "We see a lot of people burn out and drop a course halfway, and you don't get that money back after the second week." },
+        { "speaker": "Andrés", "voice": "male_a", "text": "Okay. Two at a time, then. What do I need to get in?" },
+        { "speaker": "Fiona", "voice": "female_b", "text": "English 12 with a C-plus or better, or our English assessment. And Math 11, or you can write our math placement test instead." },
+        { "speaker": "Andrés", "voice": "male_a", "text": "I finished high school in Colombia, so I don't have English 12." },
+        { "speaker": "Fiona", "voice": "female_b", "text": "That's very common. You'd just book the English assessment. It's forty-five dollars and takes about two hours. Do you have any previous accounting courses?" },
+        { "speaker": "Andrés", "voice": "male_a", "text": "I took an intro to accounting course in Bogotá, but that was, um, nine years ago." },
+        { "speaker": "Fiona", "voice": "female_b", "text": "Unfortunately, transfer credit only applies to courses from the last five years. But here's an option. You could challenge the intro course." },
+        { "speaker": "Fiona", "voice": "female_b", "text": "You write the final exam, pay a hundred and fifty dollars instead of the full fee, and if you pass, you get the credit. Given your work experience, you might do fine." },
+        { "speaker": "Andrés", "voice": "male_a", "text": "That would save a lot. What does each course normally cost?" },
+        { "speaker": "Fiona", "voice": "female_b", "text": "Five hundred and twenty dollars, plus textbooks. For funding, there's our Continuing Studies bursary, up to a thousand dollars per term. The deadline for the January intake is November thirtieth." },
+        { "speaker": "Fiona", "voice": "female_b", "text": "And ask your employer. A lot of companies will reimburse part of it, especially if your manager's the one who suggested it." },
+        { "speaker": "Andrés", "voice": "male_a", "text": "Good point. She did say something about a training budget." },
+        { "speaker": "Fiona", "voice": "female_b", "text": "Then I'd get that in writing before you register. Some employers only pay if you get a B or higher, so check the conditions." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How is the bookkeeping certificate structured?",
+          "options": [
+            { "text": "Eight compulsory courses, including payroll.", "trap": "too_broad", "whyVi": "Chỉ có 7 môn bắt buộc; payroll là một lựa chọn tự chọn." },
+            { "text": "Seven compulsory courses plus one the student chooses.", "trap": "none", "whyVi": "Đúng: 'Seven are required, and you pick one elective'." },
+            { "text": "Six required courses and two electives.", "trap": "wrong_detail", "whyVi": "Sai số lượng: 7 bắt buộc + 1 tự chọn." },
+            { "text": "Seven courses, with small business taxation required.", "trap": "word_match", "whyVi": "Thuế doanh nghiệp nhỏ là môn tự chọn, không bắt buộc." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "Seven are required, and you pick one elective",
+          "explanationVi": "'Required' = 'compulsory'; 'elective' = môn được tự chọn. Tổng 8 môn.",
+          "vocabulary": ["elective"]
+        },
+        {
+          "number": 2,
+          "prompt": "What does Fiona say about the final exams?",
+          "options": [
+            { "text": "They are taken online on Tuesday and Thursday evenings.", "trap": "word_match", "whyVi": "Tối thứ Ba, thứ Năm là giờ học trực tuyến, không phải giờ thi." },
+            { "text": "Students write one exam at the end of the program.", "trap": "not_mentioned", "whyVi": "Fiona nói khoảng hai lần mỗi học kỳ, không phải một kỳ thi cuối chương trình." },
+            { "text": "They require attending the college in person on weekends.", "trap": "none", "whyVi": "Đúng: thi trực tiếp tại trường vào thứ Bảy." },
+            { "text": "They can be skipped by paying a fee.", "trap": "not_mentioned", "whyVi": "Không có chuyện trả phí để bỏ thi." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "But the final exams are written in person, on campus, on Saturdays.",
+          "explanationVi": "'In person, on campus, on Saturdays' = phải đến trường vào cuối tuần. Từ 'But' báo hiệu ngoại lệ so với lớp học trực tuyến.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "What is Fiona's attitude toward taking three courses in one term?",
+          "options": [
+            { "text": "She recommends it for students with work experience.", "trap": "opposite", "whyVi": "Fiona khuyên không nên, kể cả với người đang đi làm toàn thời gian." },
+            { "text": "She thinks it is acceptable once the first term is over.", "trap": "partially_true", "whyVi": "'Especially in your first term' nghĩa là nhất là kỳ đầu, không có nghĩa sau đó thì được." },
+            { "text": "She leaves the decision entirely to the student.", "trap": "opposite", "whyVi": "Cô bày tỏ ý kiến rất rõ ('strongly advise against')." },
+            { "text": "She clearly discourages it because students often end up dropping a course.", "trap": "none", "whyVi": "Đúng: cô 'strongly advise against' vì nhiều người kiệt sức và bỏ môn." }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "I'd strongly advise against that, especially in your first term.",
+          "explanationVi": "'Strongly advise against' = phản đối rõ ràng. Lý do theo sau: 'burn out and drop a course halfway'. Bẫy B hiểu sai từ 'especially'.",
+          "vocabulary": ["burn out"]
+        },
+        {
+          "number": 4,
+          "prompt": "Why can't Andrés receive transfer credit for his earlier course?",
+          "options": [
+            { "text": "He completed it too long ago.", "trap": "none", "whyVi": "Đúng: khóa học cách đây 9 năm, mà chỉ công nhận trong vòng 5 năm." },
+            { "text": "It was taken outside Canada.", "trap": "not_mentioned", "whyVi": "Fiona không nói khóa học ở nước ngoài bị từ chối; lý do là thời gian." },
+            { "text": "He doesn't have English 12.", "trap": "wrong_detail", "whyVi": "English 12 là điều kiện đầu vào, không liên quan đến việc công nhận tín chỉ." },
+            { "text": "His grade in the course was too low.", "trap": "not_mentioned", "whyVi": "Không ai nhắc đến điểm của khóa học cũ." }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "Unfortunately, transfer credit only applies to courses from the last five years.",
+          "explanationVi": "Ghép hai ý: khóa học cách đây 'nine years ago' và quy định 'only... the last five years'. Bẫy B hấp dẫn vì khóa học ở Bogotá, nhưng bài không nói đó là lý do.",
+          "vocabulary": ["transfer credit"]
+        },
+        {
+          "number": 5,
+          "prompt": "What does Fiona suggest about the challenge exam?",
+          "options": [
+            { "text": "It costs forty-five dollars and takes two hours.", "trap": "wrong_detail", "whyVi": "Đó là bài đánh giá tiếng Anh; thi vượt môn tốn 150 đô." },
+            { "text": "His job experience may help him pass it.", "trap": "none", "whyVi": "Đúng: 'Given your work experience, you might do fine'." },
+            { "text": "Passing it is guaranteed for anyone with work experience.", "trap": "too_broad", "whyVi": "'Might do fine' chỉ là khả năng, không phải đảm bảo." },
+            { "text": "It is usually harder than taking the full course.", "trap": "not_mentioned", "whyVi": "Fiona không so sánh độ khó." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "Given your work experience, you might do fine.",
+          "explanationVi": "Fiona tỏ ra lạc quan nhưng thận trọng ('might'). 'Given your work experience' = vì kinh nghiệm công việc của anh.",
+          "vocabulary": ["challenge a course"]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Fiona advise Andrés to do about funding from his employer?",
+          "options": [
+            { "text": "Apply for the bursary before November thirtieth.", "trap": "wrong_detail", "whyVi": "Đây là lời khuyên về học bổng của trường, không phải về tiền từ công ty." },
+            { "text": "Ask his manager to pay the full cost of the program.", "trap": "too_broad", "whyVi": "Fiona nói nhiều công ty hoàn trả MỘT PHẦN, không bảo xin trả toàn bộ." },
+            { "text": "Confirm the reimbursement terms in writing before enrolling.", "trap": "none", "whyVi": "Đúng: 'get that in writing before you register' và kiểm tra điều kiện." },
+            { "text": "Only register if he is sure he can get a B.", "trap": "word_match", "whyVi": "'B or higher' là điều kiện của một số công ty, không phải lời khuyên chỉ đăng ký khi chắc đạt B." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "Then I'd get that in writing before you register.",
+          "explanationVi": "'Get that in writing before you register' + 'check the conditions' = xác nhận điều kiện hoàn tiền bằng văn bản trước khi đăng ký. 'Register' ↔ 'enrolling'.",
+          "vocabulary": ["reimburse"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "elective", "vi": "môn tự chọn", "definition": "a course a student chooses from several options", "example": "You pick one elective, usually payroll or taxation." },
+    { "term": "placement test", "vi": "bài kiểm tra xếp lớp", "definition": "a test that shows which level a student should start at", "example": "You can write our math placement test instead." },
+    { "term": "transfer credit", "vi": "công nhận tín chỉ chuyển đổi", "definition": "credit given for a course completed at another school", "example": "Transfer credit only applies to recent courses." },
+    { "term": "challenge a course", "vi": "thi vượt môn", "definition": "to take only the final exam to get credit without attending the course", "example": "You could challenge the intro course for a lower fee." },
+    { "term": "burn out", "vi": "kiệt sức", "definition": "to become exhausted from working or studying too hard", "example": "Students who take three courses often burn out." },
+    { "term": "bursary", "vi": "học bổng hỗ trợ tài chính", "definition": "money given to a student, usually based on financial need", "example": "The bursary pays up to a thousand dollars per term." },
+    { "term": "intake", "vi": "kỳ tuyển sinh / đợt nhập học", "definition": "the group of students who start a program at a particular time", "example": "The deadline for the January intake is November thirtieth." },
+    { "term": "reimburse", "vi": "hoàn trả (chi phí)", "definition": "to pay back money that someone has spent", "example": "Many employers will reimburse part of the tuition." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; key matched. Checked number distractors ($45 assessment vs $150 challenge vs $520 course, 5-year transfer window vs 9 years). Changed: Q3 correct option said 'dropping out' but Fiona talks about dropping a course - reworded to match the transcript." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

@@ -320,3 +320,13 @@ table.diagram th { background: var(--bg); }
   .stats-row { grid-template-columns: repeat(2, 1fr); }
   .grid-2 { grid-template-columns: 1fr; }
 }
+
+/* Content-library refactor */
+.banner.subtle { background: var(--info-soft); border-color: var(--line); }
+.pick-reason { background: var(--accent-soft); border-radius: 8px; padding: 8px 12px; font-size: 0.86rem; }
+.pick-reason.repeat { background: var(--warn-soft); }
+.ai-box { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; background: var(--bg); border: 1px dashed var(--line); border-radius: 10px; padding: 10px 12px; margin-top: 10px; }
+.ai-box p { margin: 4px 0 0; }
+.self-check h3 { margin-bottom: 6px; }
+.hidden { display: none; }
+.bar-row.fixed { grid-template-columns: 180px 1fr 360px; }

@@ -1,0 +1,73 @@
+{
+  "id": "w1-practice-01",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "housing",
+  "title": "Early-morning construction noise",
+  "situation": "You rent an apartment in a mid-rise building in Burnaby. For the past two weeks, renovation work in a unit on your floor has been starting very early in the morning, including on weekends. You have decided to email the building's property manager.",
+  "instructions": [
+    "Describe the noise and when it happens.",
+    "Explain how this problem is affecting you.",
+    "Suggest what the property manager could do to solve the problem."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting + purpose of the email in 1–2 sentences (report a noise problem)",
+    "Instruction 1: describe the noise — what kind, which unit, what time it starts, how long it has continued",
+    "Instruction 2: explain the effect on you with one concrete personal detail (work schedule, sleep, concentration)",
+    "Instruction 3: show understanding, then suggest 1–2 realistic solutions politely",
+    "Formal closing line + sign-off + full name"
+  ],
+  "modelResponse": "Dear Ms. Laurent,\n\nI am writing to report a noise problem that has been affecting residents on the fourth floor of Cedar Court for the past two weeks. Renovation work in Unit 412 begins at around 6:30 every morning, including Saturdays and Sundays. The drilling and hammering are loud enough to wake me up, and they usually continue for several hours.\n\nThis has become a serious issue for me. I work evening shifts at a distribution centre and rarely get home before midnight, so I depend on sleeping until at least 8 a.m. Lately I have been getting only four or five hours of rest, and I am finding it difficult to concentrate at work. At least two of my neighbours have told me they feel the same way.\n\nI understand that renovations are necessary, and I am not asking for the work to stop. However, I would appreciate it if you could ask the contractor to start no earlier than 8 a.m. on weekdays and to avoid noisy work on weekends. It would also help if residents received a schedule of the loudest work in advance.\n\nThank you for your attention to this matter.\n\nSincerely,\nMinh Tran",
+  "usefulExpressions": [
+    {
+      "expression": "I am writing to report…",
+      "usageVi": "Mở đầu thư phàn nàn trang trọng, nêu ngay mục đích viết thư ở câu đầu tiên."
+    },
+    {
+      "expression": "…has been affecting residents for the past two weeks",
+      "usageVi": "Thì hiện tại hoàn thành tiếp diễn + 'for the past…' để nói vấn đề kéo dài đến hiện tại."
+    },
+    {
+      "expression": "loud enough to wake me up",
+      "usageVi": "Cấu trúc 'adj + enough to + V' giúp mô tả mức độ cụ thể thay vì chỉ nói 'very loud'."
+    },
+    {
+      "expression": "This has become a serious issue for me.",
+      "usageVi": "Câu chuyển ý sang phần ảnh hưởng (ý 2), giúp giám khảo thấy rõ bố cục."
+    },
+    {
+      "expression": "I understand that…, and I am not asking for…",
+      "usageVi": "Thể hiện sự thông cảm trước khi yêu cầu, làm giọng thư lịch sự và hợp lý hơn."
+    },
+    {
+      "expression": "I would appreciate it if you could…",
+      "usageVi": "Cách yêu cầu lịch sự chuẩn trong thư trang trọng, thay cho 'Please do…' hoặc 'You must…'."
+    },
+    {
+      "expression": "It would also help if…",
+      "usageVi": "Đưa thêm một gợi ý phụ một cách nhẹ nhàng."
+    },
+    {
+      "expression": "Thank you for your attention to this matter.",
+      "usageVi": "Câu kết trang trọng, phù hợp với thư gửi quản lý tòa nhà hoặc cơ quan."
+    }
+  ],
+  "commonMistakes": [
+    "Giọng quá gay gắt, ra lệnh (ví dụ 'You must stop this immediately'). Thư gửi quản lý tòa nhà nên thể hiện thông cảm trước rồi mới đưa ra yêu cầu lịch sự.",
+    "Mô tả chung chung như 'there is a lot of noise'. Giám khảo cần chi tiết: loại tiếng ồn, giờ bắt đầu, kéo dài bao lâu, căn hộ nào.",
+    "Sai mạo từ và giới từ: 'renovation in unit on my floor' → 'in a unit on my floor'; 'since two weeks' → 'for the past two weeks'.",
+    "Viết rất dài cho ý 1 và 2 nhưng chỉ một câu ngắn cho ý 3 (giải pháp). Mỗi ý cần được phát triển tương đối cân bằng."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked format, all 3 bullets, polite complaint register, word count (198), expressions/mistakes. No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

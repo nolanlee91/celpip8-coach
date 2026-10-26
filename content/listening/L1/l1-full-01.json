@@ -1,0 +1,192 @@
+{
+  "id": "l1-full-01",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "full",
+  "difficulty": 6,
+  "topic": "transportation",
+  "title": "Car trouble on the way to the ferry",
+  "context": "You will hear a conversation between a couple whose car has a problem on the highway while they are driving to catch a ferry.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Mei", "voice": "female_a", "text": "Daniel, why are we slowing down? We've only got forty minutes to get to Horseshoe Bay." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "I know, I know. But look at the dashboard. That red light just came on, the one shaped like a thermometer." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "And there's steam, see? It's coming out from under the hood." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Oh no. Okay, pull over there, by the lookout. Don't keep driving if it's overheating. My dad wrecked an engine that way." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Yeah, I'm pulling in. Alright, engine's off. I'll take a look, but honestly, I'm not a mechanic." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Is it the coolant? We had it serviced in August, didn't we?" },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Actually, no, that was the oil change in June. The coolant hasn't been checked in, well, probably a year. And there's a puddle under the car, so something's leaking." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Great. So we can't just top it up and keep going?" },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Even if we had coolant, which we don't, it'd just leak out again. I don't want to risk it on the highway." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Okay. So we're stuck here, and the ferry leaves at three-ten. And my sister's expecting us in Nanaimo for dinner." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why did Daniel slow the car down?",
+          "options": [
+            { "text": "Mei told him to stop at the lookout.", "trap": "wrong_speaker", "whyVi": "Mei chỉ bảo dừng ở chỗ ngắm cảnh SAU KHI Daniel đã giảm tốc; cô không phải lý do anh giảm tốc." },
+            { "text": "A dashboard warning showed the engine was getting too hot.", "trap": "none", "whyVi": "Đúng: đèn đỏ hình nhiệt kế bật sáng, tức là máy đang quá nóng." },
+            { "text": "He wanted to check the oil level.", "trap": "word_match", "whyVi": "Có nhắc 'oil change' nhưng đó là lần bảo dưỡng tháng Sáu, không phải lý do giảm tốc." },
+            { "text": "They were running low on gas.", "trap": "not_mentioned", "whyVi": "Bài không nói gì về việc sắp hết xăng." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "That red light just came on, the one shaped like a thermometer.",
+          "explanationVi": "Daniel nói 'that red light just came on, the one shaped like a thermometer' và Mei nói 'overheating'. Đáp án B diễn đạt lại thành 'warning showed the engine was getting too hot'.",
+          "vocabulary": ["overheat"]
+        },
+        {
+          "number": 2,
+          "prompt": "What does Daniel say about the car's last service?",
+          "options": [
+            { "text": "The coolant was checked in August.", "trap": "wrong_speaker", "whyVi": "Đây là điều Mei tưởng, và Daniel đã sửa lại là không đúng." },
+            { "text": "It included both an oil change and a coolant check.", "trap": "partially_true", "whyVi": "Chỉ có thay dầu; nước làm mát đã khoảng một năm chưa kiểm tra." },
+            { "text": "It was only an oil change, done in June.", "trap": "none", "whyVi": "Đúng: Daniel nói 'that was the oil change in June'." },
+            { "text": "It was done at a garage in Nanaimo.", "trap": "not_mentioned", "whyVi": "Nanaimo là nơi em gái Mei sống, bài không nói xe được bảo dưỡng ở đâu." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "Actually, no, that was the oil change in June.",
+          "explanationVi": "Mei đoán sai là tháng Tám; Daniel sửa lại: 'Actually, no, that was the oil change in June'. Chú ý 'Actually, no' báo hiệu thông tin trước đó bị sửa.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "Why doesn't Daniel want to add coolant and continue driving?",
+          "options": [
+            { "text": "Mei's father warned him not to.", "trap": "word_match", "whyVi": "Mei có nhắc bố cô từng làm hỏng máy, nhưng ông không hề cảnh báo Daniel." },
+            { "text": "The liquid would escape again because of a leak.", "trap": "none", "whyVi": "Đúng: 'it'd just leak out again' – có rò rỉ nên đổ thêm cũng chảy ra." },
+            { "text": "Coolant would be too expensive at a highway store.", "trap": "not_mentioned", "whyVi": "Bài không nói gì về giá nước làm mát." },
+            { "text": "They would miss the ferry anyway.", "trap": "partially_true", "whyVi": "Họ có lo lỡ phà, nhưng đó không phải lý do Daniel không đổ thêm nước làm mát." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "Even if we had coolant, which we don't, it'd just leak out again.",
+          "explanationVi": "Daniel nói 'it'd just leak out again' và trước đó thấy 'a puddle under the car'. Đáp án B diễn đạt 'leak out' thành 'escape because of a leak'.",
+          "vocabulary": ["top up"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Daniel", "voice": "male_a", "text": "Okay, let's think. I'll call BCAA first. We've got the Plus membership, so the tow's covered." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Yeah, but they're always busy on long weekends. How long did they say last time, two hours?" },
+        { "speaker": "Daniel", "voice": "male_a", "text": "That was in the snow. Let me just, okay, I'm on hold. Meanwhile, can you check the ferry app? Can we move our reservation?" },
+        { "speaker": "Mei", "voice": "female_a", "text": "Hang on. Okay, so the three-ten is full, but there's space on the five forty-five. Changing it is free if we do it more than, no wait, it says there's a ten-dollar fee if you change within two hours of the sailing." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Ten bucks is nothing. But we still need a car on the other side." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Do we, though? What if we go as foot passengers? My sister can pick us up at Departure Bay. Walk-on tickets don't need a reservation." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Hmm, and leave the car here? No way. They'd ticket it, or worse." },
+        { "speaker": "Mei", "voice": "female_a", "text": "No, no, BCAA tows it to a garage first. Then we take a cab to the terminal. It's only about fifteen minutes from here." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Oh, they just picked up. Hold on." }
+      ],
+      "questions": [
+        {
+          "number": 4,
+          "prompt": "What does Mei find out about changing their ferry reservation?",
+          "options": [
+            { "text": "It can be changed free of charge.", "trap": "partially_true", "whyVi": "Mei bắt đầu nói 'free' nhưng tự sửa lại: đổi trong vòng 2 giờ trước chuyến thì mất phí." },
+            { "text": "The five forty-five sailing is already full.", "trap": "wrong_detail", "whyVi": "Chuyến 3:10 mới đầy; chuyến 5:45 vẫn còn chỗ." },
+            { "text": "There is a small charge because their sailing is so soon.", "trap": "none", "whyVi": "Đúng: phí 10 đô vì đổi trong vòng 2 giờ trước giờ tàu chạy." },
+            { "text": "It can only be changed at the terminal.", "trap": "not_mentioned", "whyVi": "Bài không nói phải đổi ở bến phà; Mei đang xem trên app." }
+          ],
+          "answerIndex": 2,
+          "category": "similar_choices",
+          "evidence": "it says there's a ten-dollar fee if you change within two hours of the sailing",
+          "explanationVi": "Mei tự sửa lời: 'Changing it is free if..., no wait, it says there's a ten-dollar fee'. Thông tin sau 'no wait' mới là thông tin đúng. 'Within two hours of the sailing' = chuyến sắp chạy.",
+          "vocabulary": ["sailing"]
+        },
+        {
+          "number": 5,
+          "prompt": "Why does Daniel object to Mei's idea at first?",
+          "options": [
+            { "text": "He thinks a taxi to the terminal would cost too much.", "trap": "not_mentioned", "whyVi": "Daniel không nhắc tới giá taxi." },
+            { "text": "He believes walk-on passengers need a reservation.", "trap": "opposite", "whyVi": "Mei nói rõ vé đi bộ KHÔNG cần đặt chỗ; Daniel cũng không phản đối điều này." },
+            { "text": "He doesn't want her sister to drive to the terminal.", "trap": "wrong_detail", "whyVi": "Daniel không phản đối việc em gái Mei đón họ." },
+            { "text": "He doesn't want to abandon the car by the side of the road.", "trap": "none", "whyVi": "Đúng: 'and leave the car here? No way. They'd ticket it, or worse.'" }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "Hmm, and leave the car here? No way. They'd ticket it, or worse.",
+          "explanationVi": "Daniel phản đối vì nghĩ phải bỏ xe lại bên đường ('leave the car here? No way'). Đáp án D diễn đạt lại thành 'abandon the car by the side of the road'.",
+          "vocabulary": ["foot passenger"]
+        },
+        {
+          "number": 6,
+          "prompt": "What is Mei's plan for the car and the trip?",
+          "options": [
+            { "text": "Have the car towed to a garage, then take a taxi and board on foot.", "trap": "none", "whyVi": "Đúng: BCAA kéo xe tới gara, rồi họ đi taxi ra bến và đi phà dạng hành khách đi bộ." },
+            { "text": "Wait for BCAA to repair the car and then drive onto the later ferry.", "trap": "partially_true", "whyVi": "BCAA chỉ kéo xe, không sửa; và ý của Mei là đi bộ lên phà, không lái xe lên." },
+            { "text": "Ask her sister to drive over and pick them up on the highway.", "trap": "wrong_detail", "whyVi": "Em gái chỉ đón họ ở Departure Bay (bến bên kia), không phải trên đường cao tốc." },
+            { "text": "Leave the car at the lookout and collect it after the weekend.", "trap": "opposite", "whyVi": "Mei nói rõ xe sẽ được kéo đi trước: 'BCAA tows it to a garage first'." }
+          ],
+          "answerIndex": 0,
+          "category": "long_conversation",
+          "evidence": "No, no, BCAA tows it to a garage first. Then we take a cab to the terminal.",
+          "explanationVi": "Phải ghép hai lượt lời của Mei: đi dạng 'foot passengers' và 'BCAA tows it to a garage first. Then we take a cab'. 'Cab' = taxi, 'foot passengers' = 'board on foot'.",
+          "vocabulary": ["tow", "foot passenger"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Daniel", "voice": "male_a", "text": "Okay, so that was BCAA. Good news and bad news. The tow truck can be here in about forty-five minutes." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Forty-five minutes? Then we'll never make the three-ten, even as walk-ons." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Right. But the guy said there's a garage in Squamish, no, sorry, in West Vancouver, on Marine Drive, that's open till six. They'll take the car there, and the mechanic can probably look at it tomorrow morning." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Tomorrow's Sunday, though. Are they even open?" },
+        { "speaker": "Daniel", "voice": "male_a", "text": "He said they do Sundays until noon. So here's what I'm thinking. We go over as foot passengers on the five forty-five, have dinner with your sister, and I come back alone on Monday to pick up the car." },
+        { "speaker": "Mei", "voice": "female_a", "text": "You'd do the round trip by yourself? That's a lot of ferry time." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "It's fine, I'll bring my laptop and work on the ferry. Better than both of us missing dinner. And honestly, I should've checked the coolant before a long trip. That one's on me." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Well, I'm not going to argue with that. Okay, text my sister. I'll cancel the car reservation so they don't charge us a no-show fee." }
+      ],
+      "questions": [
+        {
+          "number": 7,
+          "prompt": "Where will the car be taken?",
+          "options": [
+            { "text": "To a garage in Squamish.", "trap": "wrong_detail", "whyVi": "Daniel nói nhầm Squamish rồi sửa lại ngay: 'no, sorry, in West Vancouver'." },
+            { "text": "To a repair shop in West Vancouver.", "trap": "none", "whyVi": "Đúng: gara ở West Vancouver, trên đường Marine Drive." },
+            { "text": "To the ferry terminal parking lot.", "trap": "word_match", "whyVi": "Có nhắc tới phà và 'terminal' nhưng xe không được đưa tới bến phà." },
+            { "text": "To a garage in Nanaimo.", "trap": "wrong_detail", "whyVi": "Nanaimo là nơi họ đến ăn tối, không phải nơi gửi xe." }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "no, sorry, in West Vancouver, on Marine Drive",
+          "explanationVi": "Daniel tự sửa: 'a garage in Squamish, no, sorry, in West Vancouver'. Khi người nói tự sửa, thông tin sau 'no, sorry' là đáp án.",
+          "vocabulary": []
+        },
+        {
+          "number": 8,
+          "prompt": "How does Daniel feel about the breakdown?",
+          "options": [
+            { "text": "He blames Mei for not booking a service.", "trap": "wrong_speaker", "whyVi": "Daniel không trách Mei; anh nhận lỗi về mình." },
+            { "text": "He is annoyed that BCAA is taking so long.", "trap": "not_mentioned", "whyVi": "Daniel báo tin xe kéo đến sau 45 phút nhưng không tỏ ra bực BCAA." },
+            { "text": "He accepts that he should have prepared the car better.", "trap": "none", "whyVi": "Đúng: 'I should've checked the coolant before a long trip. That one's on me.'" },
+            { "text": "He is upset about having to work during the weekend.", "trap": "opposite", "whyVi": "Daniel chủ động đề nghị làm việc trên phà và nói 'It's fine'." }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "I should've checked the coolant before a long trip. That one's on me.",
+          "explanationVi": "'That one's on me' là thành ngữ nghĩa 'đó là lỗi của tôi'. Daniel nhận trách nhiệm vì không kiểm tra nước làm mát trước chuyến đi dài.",
+          "vocabulary": ["that's on me"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "overheat", "vi": "quá nóng (động cơ)", "definition": "to become too hot, especially of an engine", "example": "Don't keep driving if the engine starts to overheat." },
+    { "term": "pull over", "vi": "tấp xe vào lề", "definition": "to move a vehicle to the side of the road and stop", "example": "Pull over by the lookout so we can check the car." },
+    { "term": "top up", "vi": "đổ thêm cho đầy", "definition": "to add more liquid to fill something to the right level", "example": "We can't just top up the coolant if it's leaking." },
+    { "term": "tow", "vi": "kéo xe (bằng xe cứu hộ)", "definition": "to pull a broken vehicle with another vehicle", "example": "BCAA will tow the car to a garage in West Vancouver." },
+    { "term": "foot passenger", "vi": "hành khách đi bộ lên phà (không mang xe)", "definition": "a ferry passenger who travels without a vehicle", "example": "Foot passengers don't need a reservation." },
+    { "term": "sailing", "vi": "chuyến phà (theo giờ khởi hành)", "definition": "a scheduled departure of a ferry or ship", "example": "The three-ten sailing is already full." },
+    { "term": "no-show fee", "vi": "phí không đến (khi đã đặt chỗ)", "definition": "a charge for not using a reservation without cancelling it", "example": "Cancel the reservation so they don't charge a no-show fee." },
+    { "term": "that's on me", "vi": "đó là lỗi của tôi", "definition": "an informal way of accepting responsibility for a mistake", "example": "I forgot to check the coolant, so that's on me." }
+  ],
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; key matched on every item. Checked evidence/chunk placement, traps, Vietnamese, BC Ferries/BCAA details (plausible). Changed: Q8 correct option reworded (dropped inaccurate 'partly'; Daniel takes full blame); Q5 explanationVi quoted a phrase not in the option - fixed." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

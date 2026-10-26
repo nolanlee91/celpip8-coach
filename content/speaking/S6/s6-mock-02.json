@@ -1,0 +1,58 @@
+{
+  "id": "s6-mock-02",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "education",
+  "title": "Your teenager's part-time job and falling grades",
+  "prompt": "Your 16-year-old daughter has been offered a part-time job at a café owned by a family friend, Mr. Chen. She would work three evenings a week. She is very excited about earning her own money. However, her marks in math and science have dropped this term, and you are worried that the job will take too much time away from her studies.\n\nChoose ONE of the following options:\n\nOption A: Talk to your daughter. Explain your concerns and suggest a compromise.\n\nOption B: Talk to Mr. Chen. Explain the situation and ask whether the job could be adjusted.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Warm opener + recognise the positive side of her news",
+    "Explain your concern honestly, with specific reasons",
+    "Propose a compromise with a clear trial period",
+    "Invite her opinion + close warmly"
+  ],
+  "modelAnswer": "Hey sweetie, can we talk for a minute about the job at Mr. Chen's café? First of all, I want you to know I'm really proud of you. It shows that people trust you, and I love that you want to earn your own money.\n\nBut I have to be honest with you. Your math and science marks dropped this term, and grade eleven is really important for university applications. Three evenings a week is a lot, especially with homework and volleyball practice. I'm worried you'll end up exhausted, and your marks might drop even more.\n\nSo, here's what I'm thinking. What if you started with just one weeknight and one shift on Saturday? That way, you'd still earn some money, but you'd have more time to study. Let's try it until your next report card comes out. If your marks go back up, I'll happily support you taking more shifts.\n\nWhat do you think? I really want to find something that works for both of us.",
+  "usefulExpressions": [
+    {
+      "expression": "I want you to know I'm really proud of you.",
+      "usageVi": "Bắt đầu bằng lời khen giúp cuộc nói chuyện khó khăn trở nên nhẹ nhàng hơn."
+    },
+    {
+      "expression": "But I have to be honest with you.",
+      "usageVi": "Chuyển sang phần lo ngại một cách chân thành."
+    },
+    {
+      "expression": "I'm worried (that)…",
+      "usageVi": "Nêu nỗi lo mà không ra lệnh."
+    },
+    {
+      "expression": "What if you + past tense…?",
+      "usageVi": "Đề xuất thỏa hiệp nhẹ nhàng; động từ chia quá khứ ('started') vì là giả định."
+    },
+    {
+      "expression": "That way, …",
+      "usageVi": "Giải thích lợi ích của đề xuất."
+    },
+    {
+      "expression": "What do you think?",
+      "usageVi": "Mời người nghe góp ý kiến, thể hiện sự tôn trọng."
+    }
+  ],
+  "commonMistakes": [
+    "Ra lệnh thay vì thỏa hiệp ('You cannot take this job'). Đề yêu cầu 'suggest a compromise', nên cần một giải pháp ở giữa.",
+    "Nói 'What if you start…' thay vì 'What if you started…' — với giả định nhẹ nhàng, dùng quá khứ nghe tự nhiên hơn.",
+    "Dùng 'marks' và 'grades' lẫn lộn không sao, nhưng tránh 'points' ('her points dropped') — ở Canada nói 'marks' hoặc 'grades'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Replaced date-specific 'until report cards come out in January' with 'until your next report card comes out' (reporting periods vary by school). Compromise and tone checked."
+  },
+  "createdAt": "2026-10-26"
+}

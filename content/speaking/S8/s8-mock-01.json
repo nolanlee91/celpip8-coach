@@ -1,0 +1,58 @@
+{
+  "id": "s8-mock-01",
+  "kind": "speaking",
+  "taskType": "S8",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "housing",
+  "title": "An unusual chair in a furniture store",
+  "prompt": "You are helping your sister furnish her new apartment. In a furniture store, you come across this unusual chair. Call your sister, who is not with you, and describe the chair carefully so that she can picture it. Tell her whether you think it would suit her place.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='#f5f0fa'/><rect y='440' width='800' height='60' fill='#d7ccc8'/><path d='M405 112 Q420 40 520 70' stroke='#2d3436' stroke-width='5' fill='none'/><polygon points='500,68 540,68 556,110 484,110' fill='#fdcb6e'/><circle cx='520' cy='113' r='6' fill='#fff7c2'/><rect x='320' y='150' width='40' height='165' rx='10' fill='#0984e3'/><rect x='380' y='110' width='40' height='205' rx='10' fill='#74b9ff'/><rect x='440' y='170' width='40' height='145' rx='10' fill='#0984e3'/><ellipse cx='400' cy='440' rx='90' ry='14' fill='#7f8c8d'/><path d='M400 438 L370 428 L430 416 L370 404 L430 392 L370 380 L430 368 L400 356' stroke='#d63031' stroke-width='8' fill='none' stroke-linejoin='round' stroke-linecap='round'/><rect x='345' y='325' width='110' height='31' rx='4' fill='#a0522d'/><circle cx='400' cy='343' r='5' fill='#f1c40f'/><rect x='240' y='228' width='52' height='92' fill='#8e5b2e'/><rect x='240' y='270' width='52' height='5' fill='#6b4220'/><rect x='246' y='238' width='8' height='32' fill='#d63031'/><rect x='256' y='242' width='8' height='28' fill='#00b894'/><rect x='266' y='236' width='8' height='34' fill='#fdcb6e'/><rect x='276' y='240' width='8' height='30' fill='#6c5ce7'/><rect x='246' y='283' width='8' height='30' fill='#0984e3'/><rect x='256' y='287' width='8' height='26' fill='#e17055'/><rect x='266' y='281' width='8' height='32' fill='#2d3436'/><rect x='276' y='285' width='8' height='28' fill='#e84393'/><rect x='530' y='278' width='14' height='38' fill='#8e5b2e'/><rect x='508' y='260' width='64' height='20' rx='6' fill='#8e5b2e'/><path d='M565 242 q12 0 12 9 q0 9 -12 9' stroke='#e84393' stroke-width='4' fill='none'/><rect x='545' y='236' width='20' height='26' rx='3' fill='#e84393'/><ellipse cx='555' cy='262' rx='14' ry='4' fill='#2d3436'/><ellipse cx='400' cy='315' rx='110' ry='22' fill='#f1c40f'/></svg>",
+  "options": null,
+  "structure": [
+    "Say where you are and that you've found an unusual chair.",
+    "Describe from the bottom up: base, spring, drawer, seat cushion.",
+    "Describe the backrest, the two different armrests and the lamp.",
+    "Give your opinion on whether it suits her apartment, and ask what she thinks."
+  ],
+  "modelAnswer": "Hi Mai, I'm still at the furniture store, and I've just spotted a really unusual chair. Let me describe it from the bottom up. Instead of legs, it sits on one big red spring, and the spring stands on a round grey base, so I guess it bounces a little when you sit down. Right under the seat, there's a wooden drawer with a small yellow knob. The seat itself is a round, bright yellow cushion. The backrest is three blue panels of different heights, with the middle one the tallest, kind of like a bar graph. The armrests don't match at all. On the left, there's a tiny wooden bookshelf with about eight colourful books in it, and on the right, there's a little wooden side table with a pink mug on it. Best of all, a curved black arm comes out of the middle panel and holds a yellow lampshade over the seat. Since you love reading, I think it'd look great in your living room. What do you think?",
+  "usefulExpressions": [
+    {
+      "expression": "Let me describe it from the bottom up",
+      "usageVi": "Báo trước trình tự mô tả — giúp bài nói mạch lạc"
+    },
+    {
+      "expression": "Instead of legs, it sits on…",
+      "usageVi": "So sánh với ghế bình thường để làm nổi bật điểm lạ"
+    },
+    {
+      "expression": "…so I guess it bounces a little",
+      "usageVi": "Suy đoán công dụng từ hình dạng"
+    },
+    {
+      "expression": "…kind of like a bar graph",
+      "usageVi": "So sánh hình ảnh dễ hình dung (giống biểu đồ cột)"
+    },
+    {
+      "expression": "The armrests don't match at all",
+      "usageVi": "Nhận xét tổng quát trước khi tả chi tiết từng bên"
+    },
+    {
+      "expression": "Best of all, …",
+      "usageVi": "Giới thiệu chi tiết hay nhất ở cuối để tạo điểm nhấn"
+    }
+  ],
+  "commonMistakes": [
+    "Dùng 'it have' → 'it has'; 'there have a drawer' → 'there's a drawer'.",
+    "Không dùng giới từ vị trí (under, on top of, on the left) nên người nghe không hình dung được bố cục chiếc ghế.",
+    "Quên nói ý kiến cá nhân ở cuối (có hợp với căn hộ của em gái không) như đề bài yêu cầu."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rendered and inspected the picture/cards; checked the model answer against the drawing, length (60 s), task fulfilment, expressions and mistakes. Changes: Right side is a small wooden side table with a mug (no cup holder drawn) -> fixed; answer now says whether it suits her place, as the prompt requires; trimmed to stay ~170 words."
+  },
+  "createdAt": "2026-10-26"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "s5-practice-01",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "practice",
+  "difficulty": 6,
+  "topic": "transportation",
+  "title": "Choosing between two used cars",
+  "prompt": "Your family needs a second car, and you have found two used cars for sale online. Choose the one you prefer. Then persuade your father, who likes the other car better, that your choice makes more sense for the family.",
+  "svg": null,
+  "options": [
+    {
+      "title": "2017 Honda Civic sedan",
+      "details": [
+        "Price: $16,500 CAD",
+        "Mileage: 85,000 km, one previous owner",
+        "Fuel use: about 7 L/100 km",
+        "Private seller in Burnaby; no warranty"
+      ]
+    },
+    {
+      "title": "2015 Toyota RAV4 SUV",
+      "details": [
+        "Price: $19,900 CAD",
+        "Mileage: 140,000 km",
+        "All-wheel drive, roof rack and a large trunk",
+        "Dealer in Surrey with a 6-month warranty"
+      ]
+    }
+  ],
+  "structure": [
+    "State your choice clearly and acknowledge your father's preference.",
+    "Reason 1 with a concrete number: price (save $3,400).",
+    "Reason 2 with a concrete number: lower mileage and better fuel economy.",
+    "Answer his main argument (space, AWD, warranty) and close with a suggestion."
+  ],
+  "modelAnswer": "Dad, I know you really like the RAV4, but I honestly think the Civic is the smarter choice for us. First of all, it's $3,400 cheaper, and that's money we could put toward insurance or new winter tires. Second, the Civic has only 85,000 kilometres on it, and it's had just one owner, while the RAV4 has already done 140,000. That's a big difference, because a car with that many kilometres is going to need expensive repairs sooner. On top of that, the Civic only uses about seven litres per hundred kilometres, so with gas prices in BC, we'd save a lot every month. Now, I get that the SUV has more space and all-wheel drive, but this is our second car. It'll mostly be used for commuting and grocery runs, and we already have the minivan for road trips. As for the warranty, why don't we just pay a mechanic to inspect the Civic first? That way, we get peace of mind and still save money.",
+  "usefulExpressions": [
+    {
+      "expression": "I know you really like…, but I honestly think…",
+      "usageVi": "Thừa nhận ý kiến người kia trước rồi mới nêu lựa chọn của mình — lịch sự và thuyết phục"
+    },
+    {
+      "expression": "…that's money we could put toward…",
+      "usageVi": "Số tiền đó có thể dùng cho… — biến con số thành lợi ích cụ thể"
+    },
+    {
+      "expression": "That's a big difference, because…",
+      "usageVi": "Nhấn mạnh sự chênh lệch và giải thích vì sao quan trọng"
+    },
+    {
+      "expression": "Now, I get that…, but…",
+      "usageVi": "Đáp lại phản bác của người kia (tôi hiểu là…, nhưng…)"
+    },
+    {
+      "expression": "Why don't we just…? That way, …",
+      "usageVi": "Đưa ra giải pháp cho điểm yếu của lựa chọn mình và kết thúc tích cực"
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ đọc lại thông tin trên thẻ ('it is 16,500 dollars, it has 85,000 km') mà không giải thích lợi ích; hãy nói 'so we'd save…', 'which means…'.",
+    "Quên nói chuyện trực tiếp với người thân (Dad, you…); Task 5 là thuyết phục một người cụ thể, không phải thuyết trình.",
+    "Bỏ qua lý do người kia thích lựa chọn còn lại; bài Level 8+ luôn phản hồi lại điểm mạnh của phương án kia."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rendered and inspected the picture/cards; checked the model answer against the drawing, length (60 s), task fulfilment, expressions and mistakes. Changes: Prices/mileage plausible for BC; no change needed."
+  },
+  "createdAt": "2026-10-26"
+}

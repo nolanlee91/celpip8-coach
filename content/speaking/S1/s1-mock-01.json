@@ -1,0 +1,59 @@
+{
+  "id": "s1-mock-01",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "workplace",
+  "title": "Advice for a stressed coworker with a deadline",
+  "prompt": "Your coworker Priya has to finish a large project report by the end of next week. She is feeling very stressed because she also has to keep up with her regular daily tasks, and she is worried that she will not finish the report on time.\n\nGive Priya some advice about how to manage the situation.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Show empathy + introduce your advice",
+    "Advice 1: break the report into smaller tasks and schedule them",
+    "Advice 2: speak to the manager early about workload",
+    "Advice 3: protect focused time + offer your own help",
+    "Final tip about rest + encouragement"
+  ],
+  "modelAnswer": "Hey Priya, I can tell you've been under a lot of pressure lately, so I just wanted to share a few ideas that have worked for me.\n\nThe first thing I'd do is break the report down into smaller pieces. Instead of thinking about the whole thing, list every section, estimate how long each one will take, and put them into your calendar for the next seven days. It's much less overwhelming when you can see a clear plan.\n\nNext, I really think you should talk to our manager today rather than waiting until the end of the week. Just explain that the report and your daily tasks don't fit into the same few days. She might be able to move some of your routine work, like the invoice entries, to someone else for a while. Managers usually prefer to hear about a problem early.\n\nAlso, try to protect a block of focused time every morning. Turn off your email notifications and maybe book a meeting room, so people don't keep interrupting you. And honestly, if you need help with the data tables, I'm happy to pitch in. I've got some free time on Wednesday afternoon.\n\nLast but not least, don't skip lunch or stay up all night. You'll actually work faster if you're rested. You've got this!",
+  "usefulExpressions": [
+    {
+      "expression": "I can tell you've been under a lot of pressure.",
+      "usageVi": "Thể hiện sự đồng cảm trước khi khuyên — giúp phần nói tự nhiên và lịch sự."
+    },
+    {
+      "expression": "The first thing I'd do is…",
+      "usageVi": "Cách mở lời khuyên đầu tiên rất tự nhiên, thay cho 'Firstly, you should…'."
+    },
+    {
+      "expression": "…rather than + V-ing…",
+      "usageVi": "So sánh hai cách làm, nhấn mạnh cách tốt hơn."
+    },
+    {
+      "expression": "I'm happy to pitch in.",
+      "usageVi": "'pitch in' = góp tay giúp đỡ; thành ngữ phổ biến ở nơi làm việc Canada."
+    },
+    {
+      "expression": "Last but not least, …",
+      "usageVi": "Báo hiệu lời khuyên cuối cùng nhưng vẫn quan trọng."
+    },
+    {
+      "expression": "You've got this!",
+      "usageVi": "Câu động viên thân mật để kết thúc."
+    }
+  ],
+  "commonMistakes": [
+    "Lời khuyên quá chung chung ('Don't worry, just work hard'). Lời khuyên mức 8 cần cụ thể: làm gì, khi nào, như thế nào.",
+    "Dùng câu mệnh lệnh liên tục ('Do this. Do that.'). Xen kẽ với 'I really think you should…', 'It might help to…', 'Try to…'.",
+    "Phát âm không rõ đuôi -s/-ed ('She need', 'I worked' nghe như 'I work'). Người Việt hay bỏ âm cuối — hãy nói chậm lại ở các từ này."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked advice format, 3+ specific pieces of advice with reasons, spoken naturalness, length (~218 words for 90 s). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

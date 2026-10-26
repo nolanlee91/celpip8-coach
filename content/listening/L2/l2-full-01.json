@@ -1,0 +1,121 @@
+{
+  "id": "l2-full-01",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "full",
+  "difficulty": 6,
+  "topic": "healthcare",
+  "title": "Transferring prescriptions to a new pharmacy",
+  "context": "You will hear a conversation between a customer and a pharmacist at a pharmacy in Coquitlam.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Minh", "voice": "male_a", "text": "Hi, I hope this is the right counter. I just moved to Coquitlam from Surrey, and I'd like to move my prescriptions here, if that's possible." },
+        { "speaker": "Ms. Kaur", "voice": "female_b", "text": "Sure, we can do that. Transfers are pretty simple. Which pharmacy are you using now?" },
+        { "speaker": "Minh", "voice": "male_a", "text": "Fraser Valley Drug Mart, on 72nd Avenue. I don't have their number on me, sorry." },
+        { "speaker": "Ms. Kaur", "voice": "female_b", "text": "No problem, I can look it up. And what are the medications?" },
+        { "speaker": "Minh", "voice": "male_a", "text": "There's my blood pressure pill, I take it every morning, and there's a skin cream my doctor gave me for eczema. Oh, and the pain medication I got after my knee surgery, but I've almost finished that." },
+        { "speaker": "Ms. Kaur", "voice": "female_b", "text": "Okay. The blood pressure pill and the cream, I can transfer, as long as there are refills left on them. The pain medication is a different story." },
+        { "speaker": "Ms. Kaur", "voice": "female_b", "text": "That's a controlled medication, so the rules are a lot stricter, and we can't transfer it over. If you need more, you'd have to get a new prescription from your doctor." },
+        { "speaker": "Minh", "voice": "male_a", "text": "That's fine, actually. I'm hoping I won't need any more." },
+        { "speaker": "Ms. Kaur", "voice": "female_b", "text": "Good to hear. Now, how many pills do you have left of the blood pressure one?" },
+        { "speaker": "Minh", "voice": "male_a", "text": "Um, maybe four or five? I was going to refill it this week anyway." },
+        { "speaker": "Ms. Kaur", "voice": "female_b", "text": "Okay, so here's the thing. We usually carry that one, but we ran out of the ten-milligram strength yesterday. I can order it, and it'll be here tomorrow after eleven." },
+        { "speaker": "Ms. Kaur", "voice": "female_b", "text": "Is that alright, or would you rather our Lougheed location fill it, so you can pick it up there today?" },
+        { "speaker": "Minh", "voice": "male_a", "text": "Tomorrow's fine. I've got enough until then. Is there a charge for the transfer?" },
+        { "speaker": "Ms. Kaur", "voice": "female_b", "text": "No, there's no fee for the transfer itself. You'll just pay the usual dispensing fee when you pick it up. Can I get your date of birth and your Personal Health Number? It's on the back of your BC Services Card." },
+        { "speaker": "Minh", "voice": "male_a", "text": "Sure, let me find it." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why does Minh want to transfer his prescriptions?",
+          "options": [
+            { "text": "His old pharmacy has run out of his medication.", "trap": "wrong_detail", "whyVi": "Chính nhà thuốc MỚI hết loại 10 mg, không phải nhà thuốc cũ." },
+            { "text": "He has recently moved to a different city.", "trap": "none", "whyVi": "Đúng: anh vừa chuyển từ Surrey đến Coquitlam." },
+            { "text": "His doctor told him to change pharmacies.", "trap": "word_match", "whyVi": "Có nhắc 'doctor' nhưng bác sĩ không khuyên đổi nhà thuốc." },
+            { "text": "His old pharmacy is closing.", "trap": "not_mentioned", "whyVi": "Bài không nói nhà thuốc cũ đóng cửa." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "I just moved to Coquitlam from Surrey",
+          "explanationVi": "'I just moved to Coquitlam from Surrey' = vừa chuyển đến thành phố khác. Đáp án B diễn đạt lại.",
+          "vocabulary": ["transfer a prescription"]
+        },
+        {
+          "number": 2,
+          "prompt": "Which medication cannot be moved to the new pharmacy?",
+          "options": [
+            { "text": "The cream for his skin condition.", "trap": "wrong_detail", "whyVi": "Kem bôi chàm chuyển được nếu còn lượt mua lại." },
+            { "text": "The pill he takes every morning.", "trap": "wrong_detail", "whyVi": "Thuốc huyết áp chuyển được nếu còn lượt mua lại." },
+            { "text": "None of them, unless they still have refills.", "trap": "partially_true", "whyVi": "Điều kiện 'còn refill' chỉ áp dụng cho thuốc huyết áp và kem; thuốc giảm đau thì không chuyển được dù thế nào." },
+            { "text": "The medicine he was given after an operation.", "trap": "none", "whyVi": "Đúng: thuốc giảm đau sau phẫu thuật đầu gối là thuốc kiểm soát, không chuyển được." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "That's a controlled medication, so the rules are a lot stricter, and we can't transfer it over.",
+          "explanationVi": "'The pain medication I got after my knee surgery' + 'we can't transfer it over'. 'Knee surgery' được diễn đạt thành 'an operation'.",
+          "vocabulary": ["controlled medication"]
+        },
+        {
+          "number": 3,
+          "prompt": "How does Minh react when he hears about the pain medication?",
+          "options": [
+            { "text": "He doesn't mind, because he expects not to need it.", "trap": "none", "whyVi": "Đúng: 'That's fine, actually. I'm hoping I won't need any more.'" },
+            { "text": "He is frustrated and asks to speak to his doctor.", "trap": "opposite", "whyVi": "Minh không bực bội; anh nói 'That's fine'." },
+            { "text": "He is worried about running out of it.", "trap": "opposite", "whyVi": "Anh đã gần dùng hết và hy vọng không cần thêm." },
+            { "text": "He plans to get a new prescription right away.", "trap": "wrong_speaker", "whyVi": "Dược sĩ chỉ nói 'nếu cần thêm' thì phải xin đơn mới; Minh không định làm vậy." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "That's fine, actually. I'm hoping I won't need any more.",
+          "explanationVi": "Thái độ thoải mái: 'That's fine' và 'I'm hoping I won't need any more'. Đáp án A diễn đạt lại cả hai ý.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "What problem does the pharmacist mention about the blood pressure pill?",
+          "options": [
+            { "text": "Minh has no refills left on it.", "trap": "not_mentioned", "whyVi": "Dược sĩ chỉ nói điều kiện 'as long as there are refills', không nói anh đã hết lượt." },
+            { "text": "It is a controlled medication.", "trap": "wrong_detail", "whyVi": "Đó là thuốc giảm đau, không phải thuốc huyết áp." },
+            { "text": "Her pharmacy is temporarily out of his dose.", "trap": "none", "whyVi": "Đúng: nhà thuốc vừa hết loại 10 mg hôm qua, sẽ đặt hàng." },
+            { "text": "It is only available at the Lougheed location.", "trap": "partially_true", "whyVi": "Chi nhánh Lougheed chỉ là lựa chọn để lấy thuốc ngay hôm nay, không phải nơi duy nhất có thuốc." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "We usually carry that one, but we ran out of the ten-milligram strength yesterday.",
+          "explanationVi": "'Ran out of the ten-milligram strength' = hết liều 10 mg; 'I can order it' cho thấy chỉ là tạm thời. Đáp án C: 'temporarily out of his dose'.",
+          "vocabulary": ["strength"]
+        },
+        {
+          "number": 5,
+          "prompt": "What will Minh have to pay?",
+          "options": [
+            { "text": "A fee for transferring the prescriptions.", "trap": "opposite", "whyVi": "Dược sĩ nói 'there's no fee for the transfer itself'." },
+            { "text": "Nothing at all.", "trap": "partially_true", "whyVi": "Chuyển đơn miễn phí, nhưng vẫn trả phí cấp thuốc thông thường." },
+            { "text": "Only the standard charge for filling the prescription.", "trap": "none", "whyVi": "Đúng: chỉ trả 'the usual dispensing fee' khi lấy thuốc." },
+            { "text": "An extra charge for ordering the pills.", "trap": "not_mentioned", "whyVi": "Không có phí đặt hàng nào được nhắc tới." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "No, there's no fee for the transfer itself. You'll just pay the usual dispensing fee when you pick it up.",
+          "explanationVi": "Hai ý liền nhau: không mất phí chuyển, NHƯNG vẫn trả 'usual dispensing fee'. 'Usual dispensing fee' = 'standard charge for filling the prescription'.",
+          "vocabulary": ["dispensing fee"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "transfer a prescription", "vi": "chuyển đơn thuốc (sang nhà thuốc khác)", "definition": "to move a prescription record from one pharmacy to another", "example": "I'd like to transfer my prescription to this pharmacy." },
+    { "term": "refill", "vi": "lượt mua lại thuốc theo đơn", "definition": "a repeat supply of a medication allowed by a prescription", "example": "There are two refills left on your prescription." },
+    { "term": "controlled medication", "vi": "thuốc thuộc diện kiểm soát", "definition": "a drug with extra legal restrictions, such as strong pain medicine", "example": "Controlled medications have much stricter rules." },
+    { "term": "strength", "vi": "hàm lượng (thuốc)", "definition": "the amount of active drug in one dose, such as 10 milligrams", "example": "We ran out of the ten-milligram strength." },
+    { "term": "dispensing fee", "vi": "phí cấp phát thuốc", "definition": "the fee a pharmacy charges for preparing and giving out a prescription", "example": "You'll just pay the usual dispensing fee." },
+    { "term": "Personal Health Number", "vi": "mã số y tế cá nhân (BC)", "definition": "the ID number for a person's public health coverage in British Columbia", "example": "Your Personal Health Number is on your BC Services Card." }
+  ],
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. Changed: pharmacist's absolute claim that controlled drugs 'can't be transferred between pharmacies' (federal transfer rules for controlled substances have changed since 2020) softened to a pharmacy-level statement; Q2 evidence/explanation and vocab example updated. Q1 option A trap wrong_speaker -> wrong_detail. PHN on BC Services Card and dispensing fee verified." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

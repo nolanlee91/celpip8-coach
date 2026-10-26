@@ -1,0 +1,184 @@
+{
+  "id": "r4-full-03",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "full",
+  "difficulty": 6,
+  "topic": "transportation",
+  "title": "Should Teens Ride the Bus for Free?",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 10 independently; keys match; blank 8 option C correctly ruled out by 'burden on our city budget will be smaller'. No changes." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "Should teenagers ride the bus for free? That question will be in front of the Tidewater Regional Transit board next week, when it votes on a plan to remove fares for all riders aged 13 to 17. Children 12 and under already ride free. If the plan passes, teens would tap a free youth card on every bus and rapid line, starting next September.\n\nThe idea came from the region's youth council, a group of high school students who advise the board. Its chair, 16-year-old Noor Rahimi, says many of her classmates miss after-school jobs, sports and volunteer work because they cannot afford the $2.25 youth fare twice a day. \"A monthly pass is $60,\" she said. \"For a family with three teenagers, that's $180 a month just so kids can get to school and practice. Some families just can't do it.\"\n\nSupporters also see a long-term benefit. Transit planner Dominic Achterberg points to research from other cities suggesting that people who use transit regularly as teenagers are more likely to keep using it as adults. \"We are not only giving teens a free ride,\" he said. \"We are building the next generation of riders.\"\n\nThe plan has a price tag, though. Youth fares bring in about $7.4 million a year, and the transit authority would need to replace that money. Board member Patricia Lindqvist, a former bus driver, worries that the cost will be covered by cutting service somewhere else. \"If we pay for free youth fares by running the No. 42 every thirty minutes instead of every fifteen, we've helped one group and hurt another,\" she said. \"Seniors and shift workers depend on those routes too.\"\n\nSome drivers have raised a different concern. A spokesperson for the drivers' union says buses on school routes are already crowded at 3 p.m., and free fares could bring more teens who ride only a stop or two. The union has asked for extra buses on those routes before any change takes effect.\n\nThe transit authority says it has a plan for the money. About half would come from a new advertising contract on buses and shelters, and the region's municipalities would split the rest according to population. Burnside's mayor, Elaine Chou, says her city is willing to pay its share. \"We spend millions on roads every year,\" she said. \"Helping kids get around without a car is a much better deal.\"\n\nThe board's vote is scheduled for Thursday. If the plan is approved, the authority has promised to review ridership and costs after one year.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "As a mother of two teenagers in Burnside, I'm happy to see this plan. My daughter wanted a part-time job at the community centre last spring, but once we added up the [[6]], it just didn't make sense. That said, Ms. Lindqvist makes a fair point. Free rides for teens should not come at the cost of [[7]] for seniors and shift workers. I was glad to read that about half of the money will come from [[8]], so the burden on our city budget will be smaller. I also think the union's request for [[9]] is reasonable, because nobody wants a student left standing at a full bus stop. Finally, I like that the authority will [[10]] after a year. If the numbers don't work, it can change the plan.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Who first suggested the free-fare plan?",
+      "options": [
+        { "text": "A transit planner who studied other cities", "trap": "wrong_speaker", "whyVi": "Dominic Achterberg ủng hộ kế hoạch nhưng không phải người đề xuất." },
+        { "text": "The mayor of Burnside", "trap": "wrong_speaker", "whyVi": "Thị trưởng Chou chỉ nói thành phố sẵn sàng chia chi phí." },
+        { "text": "A group of students who give advice to the board", "trap": "none", "whyVi": "Đúng: 'The idea came from the region's youth council, a group of high school students who advise the board'." },
+        { "text": "The union that represents bus drivers", "trap": "wrong_speaker", "whyVi": "Công đoàn tài xế lo ngại xe đông, không đề xuất kế hoạch." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "The idea came from the region's youth council, a group of high school students who advise the board.",
+      "explanationVi": "'First suggested' = 'The idea came from'. 'Give advice to the board' = 'advise the board'. Các đáp án khác là những người có ý kiến trong bài nhưng không phải người đề xuất."
+    },
+    {
+      "number": 2,
+      "prompt": "According to Noor Rahimi, why do some teenagers miss activities after school?",
+      "options": [
+        { "text": "Their families cannot always pay for bus fares.", "trap": "none", "whyVi": "Đúng: Các bạn 'cannot afford the $2.25 youth fare twice a day' và 'Some families just can't do it'." },
+        { "text": "The buses are too crowded in the afternoon.", "trap": "wrong_speaker", "whyVi": "Xe đông lúc 3 giờ chiều là ý của công đoàn tài xế, không phải của Noor." },
+        { "text": "Buses on their routes come only every thirty minutes.", "trap": "word_match", "whyVi": "'Every thirty minutes' là ví dụ của bà Lindqvist về việc có thể cắt giảm dịch vụ, không phải lý do của Noor." },
+        { "text": "There are no bus routes near their schools.", "trap": "not_mentioned", "whyVi": "Bài không nói trường học thiếu tuyến xe buýt." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "many of her classmates miss after-school jobs, sports and volunteer work because they cannot afford the $2.25 youth fare twice a day",
+      "explanationVi": "Tìm từ 'because' sau 'miss after-school jobs'. Lý do: 'cannot afford the ... fare' = 'cannot pay for bus fares'.",
+      "vocabulary": ["afford"]
+    },
+    {
+      "number": 3,
+      "prompt": "What is Patricia Lindqvist worried about?",
+      "options": [
+        { "text": "Teenagers will behave badly on free buses.", "trap": "not_mentioned", "whyVi": "Bà không nói về hành vi của thiếu niên." },
+        { "text": "Other riders could end up with less frequent service.", "trap": "none", "whyVi": "Đúng: Bà lo chi phí sẽ bù bằng cách giảm chuyến, ví dụ xe số 42 chạy 30 phút một chuyến thay vì 15 phút." },
+        { "text": "The plan will require the purchase of new buses.", "trap": "wrong_speaker", "whyVi": "Yêu cầu thêm xe là của công đoàn tài xế, không phải lo ngại của bà Lindqvist." },
+        { "text": "Advertising on buses will annoy passengers.", "trap": "word_match", "whyVi": "Bài có nói về quảng cáo nhưng đó là nguồn tiền của cơ quan giao thông, bà Lindqvist không nhắc đến." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "worries that the cost will be covered by cutting service somewhere else",
+      "explanationVi": "'Cutting service' = giảm dịch vụ. Ví dụ của bà: xe 42 chạy thưa hơn → 'less frequent service'. 'Other riders' = 'Seniors and shift workers'.",
+      "vocabulary": ["frequent"]
+    },
+    {
+      "number": 4,
+      "prompt": "What has the drivers' union asked for?",
+      "options": [
+        { "text": "Higher pay for drivers on school routes", "trap": "not_mentioned", "whyVi": "Bài không nói công đoàn đòi tăng lương." },
+        { "text": "That teens pay a fare for very short trips", "trap": "word_match", "whyVi": "Bài có 'ride only a stop or two' nhưng đó là mô tả lo ngại, không phải yêu cầu thu phí." },
+        { "text": "That the plan be cancelled completely", "trap": "opposite", "whyVi": "Công đoàn không đòi huỷ; họ chỉ muốn thêm xe trước khi thay đổi." },
+        { "text": "More buses on busy school routes before the change", "trap": "none", "whyVi": "Đúng: 'The union has asked for extra buses on those routes before any change takes effect'." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "The union has asked for extra buses on those routes before any change takes effect.",
+      "explanationVi": "'Has asked for' → yêu cầu. 'Extra buses on those routes' = 'More buses on busy school routes'; 'before any change takes effect' = 'before the change'."
+    },
+    {
+      "number": 5,
+      "prompt": "How does Mayor Elaine Chou feel about her city paying part of the cost?",
+      "options": [
+        { "text": "She is reluctant but will pay if other cities do.", "trap": "opposite", "whyVi": "Bà sẵn sàng ('willing') và gọi đây là 'a much better deal', không miễn cưỡng." },
+        { "text": "She thinks it is good value compared with spending on roads.", "trap": "none", "whyVi": "Đúng: 'We spend millions on roads ... Helping kids get around without a car is a much better deal'." },
+        { "text": "She believes the province should pay instead.", "trap": "not_mentioned", "whyVi": "Bài không nhắc đến chính quyền tỉnh." },
+        { "text": "She will pay only if advertising covers most of the cost.", "trap": "partially_true", "whyVi": "Quảng cáo trả khoảng một nửa là kế hoạch của cơ quan giao thông, không phải điều kiện của bà Chou." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"We spend millions on roads every year,\" she said. \"Helping kids get around without a car is a much better deal.\"",
+      "explanationVi": "Câu hỏi về thái độ. 'Willing to pay its share' + 'a much better deal' (đáng tiền hơn nhiều) so với chi tiêu cho đường xá → bà thấy đây là khoản đầu tư hợp lý.",
+      "vocabulary": ["a better deal"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "fares for children under 12", "trap": "wrong_detail", "whyVi": "Trẻ dưới 12 tuổi đã đi miễn phí, và con gái người viết là thiếu niên." },
+        { "text": "advertising on bus shelters", "trap": "word_match", "whyVi": "Quảng cáo là nguồn tiền của cơ quan giao thông, không liên quan đến chi phí đi làm của con gái." },
+        { "text": "cost of her bus fares", "trap": "none", "whyVi": "Đúng: Giống các bạn của Noor, chi phí vé xe khiến việc đi làm thêm không đáng." },
+        { "text": "salary of a bus driver", "trap": "not_mentioned", "whyVi": "Không liên quan đến công việc của con gái." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "many of her classmates miss after-school jobs, sports and volunteer work because they cannot afford the $2.25 youth fare twice a day",
+      "explanationVi": "'Added up the ...' = cộng lại các chi phí. Con gái muốn đi làm thêm nhưng 'it just didn't make sense' → tiền vé xe quá đắt so với lương. Đây đúng là vấn đề Noor mô tả trong bài."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "free youth cards", "trap": "opposite", "whyVi": "Thẻ miễn phí là lợi ích cho thiếu niên, không phải cái giá người già và người làm ca phải trả." },
+        { "text": "less frequent buses", "trap": "none", "whyVi": "Đúng: Ý của bà Lindqvist — giảm chuyến xe sẽ ảnh hưởng người cao tuổi và người làm ca." },
+        { "text": "more advertising", "trap": "word_match", "whyVi": "Quảng cáo có trong bài nhưng không phải điều bà Lindqvist lo ngại." },
+        { "text": "longer school days", "trap": "not_mentioned", "whyVi": "Bài không nhắc đến giờ học." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "\"If we pay for free youth fares by running the No. 42 every thirty minutes instead of every fifteen, we've helped one group and hurt another,\"",
+      "explanationVi": "Câu trước nói 'Ms. Lindqvist makes a fair point', nên chỗ trống phải là ý của bà. Chạy 30 phút thay vì 15 phút một chuyến = 'less frequent buses'. 'At the cost of' = phải đánh đổi bằng."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "the provincial government", "trap": "not_mentioned", "whyVi": "Bài không nói chính quyền tỉnh góp tiền." },
+        { "text": "higher fares for adults", "trap": "not_mentioned", "whyVi": "Bài không nói tăng giá vé người lớn." },
+        { "text": "the region's municipalities", "trap": "partially_true", "whyVi": "Các đô thị trả phần còn lại, không phải nửa đầu; và nếu chọn vậy thì câu 'the burden on our city budget will be smaller' không hợp lý." },
+        { "text": "a new advertising contract", "trap": "none", "whyVi": "Đúng: 'About half would come from a new advertising contract on buses and shelters'." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "About half would come from a new advertising contract on buses and shelters, and the region's municipalities would split the rest according to population.",
+      "explanationVi": "'About half of the money will come from' khớp với 'About half would come from a new advertising contract'. Vế sau 'so the burden on our city budget will be smaller' cho thấy nguồn tiền đó không phải từ thành phố."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "extra buses on school routes", "trap": "none", "whyVi": "Đúng: Công đoàn yêu cầu thêm xe trên các tuyến đi học; khớp với 'nobody wants a student left standing at a full bus stop'." },
+        { "text": "higher wages for drivers", "trap": "not_mentioned", "whyVi": "Công đoàn không đòi tăng lương trong bài." },
+        { "text": "a one-year delay", "trap": "wrong_detail", "whyVi": "'One year' là thời điểm đánh giá lại, không phải yêu cầu hoãn của công đoàn." },
+        { "text": "fewer stops near schools", "trap": "opposite", "whyVi": "Bớt điểm dừng sẽ làm học sinh khó đi xe hơn, ngược với mục đích." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "The union has asked for extra buses on those routes before any change takes effect.",
+      "explanationVi": "Vế sau 'nobody wants a student left standing at a full bus stop' (học sinh bị bỏ lại vì xe đầy) cho thấy yêu cầu là thêm xe. Bài nói công đoàn 'asked for extra buses on those routes'."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "raise youth fares", "trap": "not_mentioned", "whyVi": "Bài không nói sẽ tăng giá vé thiếu niên sau một năm." },
+        { "text": "end free fares for children", "trap": "not_mentioned", "whyVi": "Không có kế hoạch nào như vậy." },
+        { "text": "look at ridership and costs", "trap": "none", "whyVi": "Đúng: 'the authority has promised to review ridership and costs after one year'." },
+        { "text": "hold another board vote", "trap": "not_mentioned", "whyVi": "Bài chỉ nói cuộc bỏ phiếu vào thứ Năm; không có lần bỏ phiếu sau một năm." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "the authority has promised to review ridership and costs after one year",
+      "explanationVi": "'Look at' = 'review'. Câu sau 'If the numbers don't work' khớp với việc xem lại số liệu (số hành khách và chi phí).",
+      "vocabulary": ["ridership"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "fare", "vi": "giá vé (xe buýt, tàu)", "definition": "the money you pay to travel on public transport", "example": "The youth fare is $2.25." },
+    { "term": "afford", "vi": "đủ khả năng chi trả", "definition": "to have enough money to pay for something", "example": "Some families cannot afford a monthly pass." },
+    { "term": "price tag", "vi": "cái giá, chi phí", "definition": "the cost of something, especially a plan", "example": "The plan has a price tag of $7.4 million a year." },
+    { "term": "frequent", "vi": "thường xuyên, dày (chuyến)", "definition": "happening often", "example": "Seniors need frequent bus service." },
+    { "term": "take effect", "vi": "có hiệu lực", "definition": "to start to apply or work", "example": "The change will take effect next September." },
+    { "term": "a better deal", "vi": "lựa chọn có lợi hơn", "definition": "something that gives more value for the money", "example": "Transit is a better deal than new roads." },
+    { "term": "ridership", "vi": "số lượng hành khách", "definition": "the number of people who use a transport service", "example": "The authority will review ridership after a year." },
+    { "term": "burden", "vi": "gánh nặng", "definition": "something difficult or expensive that someone must deal with", "example": "The burden on the city budget will be smaller." }
+  ]
+}

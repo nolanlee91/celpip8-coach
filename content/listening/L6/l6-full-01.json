@@ -1,0 +1,307 @@
+{
+  "id": "l6-full-01",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Viewpoints: Remote work and downtown small businesses",
+  "context": "You will hear a radio commentary about remote work and the small businesses in downtown Vancouver.",
+  "estimatedMinutes": 7,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Alan, radio host",
+          "voice": "male_a",
+          "text": "Welcome back. Downtown Vancouver's lunch crowds still haven't fully returned, and some business groups want large employers to bring staff back to the office four or five days a week. Our commentator this morning, Rebecca Thiessen, runs a small accounting practice, and she sees it differently."
+        },
+        {
+          "speaker": "Rebecca Thiessen, commentator",
+          "voice": "female_a",
+          "text": "Thanks, Alan. Let me start by saying I have a lot of sympathy for the people asking for this. The sandwich shop near my old office closed in the spring after nineteen years, and the owner told me Fridays had turned into a ghost town. Those losses are real, and nobody should pretend otherwise."
+        },
+        {
+          "speaker": "Rebecca Thiessen, commentator",
+          "voice": "female_a",
+          "text": "But I don't accept that the solution is ordering thousands of people back into towers so they'll buy more lattes. Downtown businesses deserve customers who want to be there, not customers who've been told to show up. If the only reason a street survives is that office workers have no choice, that street was more fragile than we thought."
+        },
+        {
+          "speaker": "Rebecca Thiessen, commentator",
+          "voice": "female_a",
+          "text": "The business associations argue that remote work is a passing trend, and that once employers lose patience, things will go back to normal. I think the evidence points the other way. Most of the firms I work with have already given up expensive leases. One of them went from two full floors to a handful of shared desks. They're not coming back to the same floor space, no matter how many speeches are made."
+        },
+        {
+          "speaker": "Rebecca Thiessen, commentator",
+          "voice": "female_a",
+          "text": "So what should change? First, the city needs to make it much easier to convert empty office floors into housing. People who live downtown buy groceries, get haircuts and eat dinner there seven days a week, not just Tuesday to Thursday."
+        },
+        {
+          "speaker": "Rebecca Thiessen, commentator",
+          "voice": "female_a",
+          "text": "Second, getting a permit for a patio, a pop-up shop or a small street event still takes months. That's far too slow for a business that's struggling right now, and cutting the wait to a few weeks would cost the city almost nothing."
+        },
+        {
+          "speaker": "Rebecca Thiessen, commentator",
+          "voice": "female_a",
+          "text": "Now, there's one argument from the other side that I take seriously. Junior employees do learn faster when they're around experienced colleagues, and I've watched new staff struggle working from home. But that's a reason for employers to organize better mentoring, maybe two well-planned days a week in the office. It's not a reason to fill buildings for the sake of the coffee shop downstairs."
+        },
+        {
+          "speaker": "Rebecca Thiessen, commentator",
+          "voice": "female_a",
+          "text": "Here's my worry. If we spend the next few years trying to bring back twenty nineteen, we'll miss the chance to build a downtown that fits how people actually live now. The shop owners I talk to don't need nostalgia. They need neighbours."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is Rebecca Thiessen's main argument?",
+          "options": [
+            {
+              "text": "Employers should require more office days to support local shops.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là quan điểm của các hiệp hội doanh nghiệp mà Rebecca phản đối."
+            },
+            {
+              "text": "Downtown should adapt to new work habits instead of relying on forced office attendance.",
+              "trap": "none",
+              "whyVi": "Đúng: bà phản đối việc buộc nhân viên quay lại văn phòng và đề xuất thay đổi để khu trung tâm phù hợp với lối sống mới."
+            },
+            {
+              "text": "Remote work has mostly harmed junior employees.",
+              "trap": "partially_true",
+              "whyVi": "Bà có thừa nhận nhân viên mới gặp khó khăn, nhưng đó chỉ là một ý phụ, không phải lập luận chính."
+            },
+            {
+              "text": "Small businesses should move out of downtown to the suburbs.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không đề xuất chuyển doanh nghiệp ra ngoại ô."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "we'll miss the chance to build a downtown that fits how people actually live now",
+          "explanationVi": "Rebecca phản đối 'ordering thousands of people back into towers' và kết luận cần xây dựng 'a downtown that fits how people actually live now'. Đáp án B tóm tắt cả hai ý.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "How does Rebecca feel about the losses that downtown businesses have suffered?",
+          "options": [
+            {
+              "text": "She thinks the owners have exaggerated them.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà nói thiệt hại là có thật và không ai nên phủ nhận."
+            },
+            {
+              "text": "She believes they are only temporary.",
+              "trap": "wrong_detail",
+              "whyVi": "Ý 'xu hướng nhất thời' ('passing trend') là của các hiệp hội doanh nghiệp, nói về làm việc từ xa, không phải về thiệt hại."
+            },
+            {
+              "text": "She sees them as serious and genuine.",
+              "trap": "none",
+              "whyVi": "Đúng: 'Those losses are real' và bà rất cảm thông."
+            },
+            {
+              "text": "She blames the shop owners for failing to adapt.",
+              "trap": "not_mentioned",
+              "whyVi": "Bà không hề đổ lỗi cho chủ cửa hàng."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "Those losses are real, and nobody should pretend otherwise.",
+          "explanationVi": "Bà mở đầu bằng 'I have a lot of sympathy' và 'Those losses are real'. 'real' được diễn đạt lại thành 'genuine'. Dù bà không đồng ý với giải pháp, bà vẫn công nhận vấn đề.",
+          "vocabulary": [
+            "ghost town"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Rebecca say about the companies she works with?",
+          "options": [
+            {
+              "text": "They have reduced their office space and are unlikely to take it back.",
+              "trap": "none",
+              "whyVi": "Đúng: họ đã bỏ các hợp đồng thuê đắt tiền và sẽ không quay lại diện tích cũ."
+            },
+            {
+              "text": "They plan to return to the office once their leases end.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: họ đã từ bỏ hợp đồng thuê và không quay lại."
+            },
+            {
+              "text": "They require staff to come in two days a week.",
+              "trap": "word_match",
+              "whyVi": "'Two days a week' là gợi ý của Rebecca cho việc kèm cặp nhân viên mới, không phải chính sách của khách hàng của bà."
+            },
+            {
+              "text": "They have moved their offices out of the city.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói các công ty chuyển văn phòng ra khỏi thành phố."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "Most of the firms I work with have already given up expensive leases.",
+          "explanationVi": "'given up expensive leases' được diễn đạt lại thành 'reduced their office space'; 'not coming back to the same floor space' thành 'unlikely to take it back'.",
+          "vocabulary": [
+            "lease"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "Why does Rebecca want more office buildings converted into housing?",
+          "options": [
+            {
+              "text": "To let office workers live closer to their jobs",
+              "trap": "word_match",
+              "whyVi": "Bài có 'office' và 'live downtown' nhưng không nói mục đích là để nhân viên văn phòng ở gần chỗ làm."
+            },
+            {
+              "text": "To solve the city's housing shortage",
+              "trap": "not_mentioned",
+              "whyVi": "Nghe hợp lý nhưng Rebecca không nhắc đến tình trạng thiếu nhà ở."
+            },
+            {
+              "text": "To lower the rent that small businesses pay",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói việc chuyển đổi sẽ làm giảm tiền thuê cho cửa hàng."
+            },
+            {
+              "text": "To give local businesses steady customers throughout the week",
+              "trap": "none",
+              "whyVi": "Đúng: cư dân mua sắm, cắt tóc, ăn tối ở đó bảy ngày một tuần."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "People who live downtown buy groceries, get haircuts and eat dinner there seven days a week, not just Tuesday to Thursday.",
+          "explanationVi": "'seven days a week, not just Tuesday to Thursday' được diễn đạt lại thành 'steady customers throughout the week'.",
+          "vocabulary": [
+            "convert"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "Which argument from the other side does Rebecca partly accept?",
+          "options": [
+            {
+              "text": "Remote work is a passing trend that will end soon.",
+              "trap": "opposite",
+              "whyVi": "Bà bác bỏ ý này: 'the evidence points the other way'."
+            },
+            {
+              "text": "Newer employees benefit from working near experienced colleagues.",
+              "trap": "none",
+              "whyVi": "Đúng: bà nói 'one argument... I take seriously' là nhân viên mới học nhanh hơn khi ở gần đồng nghiệp giàu kinh nghiệm."
+            },
+            {
+              "text": "Permits for patios and events take too long.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là ý của chính Rebecca, không phải lập luận của phía bên kia."
+            },
+            {
+              "text": "Office workers spend more money than residents do.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai so sánh chi tiêu giữa nhân viên văn phòng và cư dân."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "Junior employees do learn faster when they're around experienced colleagues",
+          "explanationVi": "Cụm 'one argument from the other side that I take seriously' báo hiệu điều bà chấp nhận. Tuy vậy bà dùng 'But' để giới hạn: đó là lý do để tổ chức kèm cặp tốt hơn, không phải để lấp đầy văn phòng. 'junior employees' = 'newer employees'.",
+          "vocabulary": [
+            "mentoring"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Rebecca mean when she says the shop owners \"need neighbours\"?",
+          "options": [
+            {
+              "text": "They need people who live nearby and shop with them regularly.",
+              "trap": "none",
+              "whyVi": "Đúng: nối với ý chuyển văn phòng thành nhà ở để có cư dân mua sắm hằng ngày."
+            },
+            {
+              "text": "They should cooperate more with nearby businesses.",
+              "trap": "word_match",
+              "whyVi": "Hiểu 'neighbours' theo nghĩa cửa hàng bên cạnh là sai ngữ cảnh."
+            },
+            {
+              "text": "They need office workers to return full-time.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại với toàn bộ lập luận của bà."
+            },
+            {
+              "text": "They need more financial help from the government.",
+              "trap": "not_mentioned",
+              "whyVi": "Bà không nói về hỗ trợ tài chính."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "vocabulary",
+          "evidence": "The shop owners I talk to don't need nostalgia. They need neighbours.",
+          "explanationVi": "Câu kết đối lập 'nostalgia' (muốn quay về năm 2019) với 'neighbours' (cư dân sống quanh khu trung tâm), liên hệ với đề xuất chuyển văn phòng thành nhà ở.",
+          "vocabulary": [
+            "nostalgia"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "ghost town",
+      "vi": "nơi vắng tanh",
+      "definition": "a place that is almost empty of people",
+      "example": "Fridays downtown had turned into a ghost town."
+    },
+    {
+      "term": "fragile",
+      "vi": "mong manh, dễ đổ vỡ",
+      "definition": "easily damaged or likely to fail",
+      "example": "That street was more fragile than we thought."
+    },
+    {
+      "term": "passing trend",
+      "vi": "xu hướng nhất thời",
+      "definition": "something popular for a short time only",
+      "example": "Some say remote work is a passing trend."
+    },
+    {
+      "term": "lease",
+      "vi": "hợp đồng thuê",
+      "definition": "a legal agreement to rent property for a period of time",
+      "example": "Many firms have given up expensive leases."
+    },
+    {
+      "term": "convert",
+      "vi": "chuyển đổi",
+      "definition": "change something so it can be used for a different purpose",
+      "example": "The city should convert empty office floors into housing."
+    },
+    {
+      "term": "mentoring",
+      "vi": "kèm cặp, hướng dẫn",
+      "definition": "guidance given by an experienced person to a less experienced one",
+      "example": "Employers should organize better mentoring."
+    },
+    {
+      "term": "nostalgia",
+      "vi": "sự hoài niệm",
+      "definition": "a longing for the way things were in the past",
+      "example": "Shop owners don't need nostalgia."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 items independently; keys match, opposing view (mentoring argument, passing-trend claim) engaged and tested. Host + commentator, 425 words. Changes: Q2 option B trap word_match -> wrong_detail (no word reuse); Q5 option C trap partially_true -> wrong_speaker (it is Rebecca's own idea, not the other side's); Q5 category long_conversation -> speaker_attitude (monologue concession item)."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

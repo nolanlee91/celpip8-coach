@@ -1,0 +1,68 @@
+{
+  "id": "w1-practice-04",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 6,
+  "topic": "social",
+  "title": "Recommending a moving company to a friend",
+  "situation": "Your friend Kevin is moving from Richmond to a new apartment in North Vancouver next month. He has asked if you know a good moving company. Last summer, you used a moving company and were very happy with the service.",
+  "instructions": [
+    "Recommend the moving company and explain why you liked it.",
+    "Give your friend some tips to help him prepare for the move.",
+    "Offer to help him in some way."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Informal greeting + a friendly reaction to his news",
+    "Instruction 1: name the company and give 2–3 concrete reasons from your own experience",
+    "Instruction 2: 2–3 practical tips, each with a short reason",
+    "Instruction 3: a specific offer (what, when) + friendly sign-off"
+  ],
+  "modelResponse": "Hi Kevin,\n\nCongrats on the new place! North Van is a great area, and you'll love being so close to the mountains.\n\nYou asked about movers, so I'd definitely recommend Blue Heron Moving. I used them last summer when I moved to Coquitlam, and they were fantastic. The crew showed up right on time, wrapped all my furniture in blankets and didn't break a single thing. Best of all, the final bill was exactly what they'd quoted, with no surprise fees.\n\nA few tips from my experience: book at least three weeks ahead, because the end of the month gets really busy. Also, start packing early and label every box with the room it's going to. It saves so much time on moving day. And don't forget to reserve the elevator in both buildings, or the movers might have to wait and charge you extra.\n\nIf you want, I can come over the weekend before and help you pack up the kitchen. I've still got a bunch of boxes and tape in my storage locker, so I'll bring those too.\n\nTalk soon,\nLinh",
+  "usefulExpressions": [
+    {
+      "expression": "Congrats on the new place!",
+      "usageVi": "Mở đầu thân mật, phản ứng với tin vui của bạn trước khi vào nội dung chính."
+    },
+    {
+      "expression": "I'd definitely recommend…",
+      "usageVi": "Giới thiệu/khuyên dùng một dịch vụ một cách tự nhiên trong thư thân mật."
+    },
+    {
+      "expression": "Best of all, …",
+      "usageVi": "Nhấn mạnh lý do quan trọng nhất ở cuối danh sách, giúp đoạn văn có điểm nhấn."
+    },
+    {
+      "expression": "A few tips from my experience: …",
+      "usageVi": "Câu chuyển sang phần lời khuyên (ý 2), rõ ràng và thân mật."
+    },
+    {
+      "expression": "Don't forget to…, or…",
+      "usageVi": "Nhắc nhở kèm hậu quả nếu không làm; 'or' = nếu không thì."
+    },
+    {
+      "expression": "If you want, I can…",
+      "usageVi": "Đề nghị giúp đỡ thân mật, tự nhiên hơn 'I would like to offer my help'."
+    },
+    {
+      "expression": "Talk soon,",
+      "usageVi": "Câu kết thân mật thay cho 'Sincerely' hay 'Best regards'."
+    }
+  ],
+  "commonMistakes": [
+    "Dùng giọng quá trang trọng với bạn thân ('Dear Kevin, I am writing to inform you…', 'Yours sincerely'). Thư cho bạn bè nên dùng từ rút gọn (I'd, don't) và câu tự nhiên.",
+    "Giới thiệu công ty nhưng không giải thích lý do cụ thể ('They are very good'). Hãy kể chi tiết từ trải nghiệm thật: đúng giờ, không làm vỡ đồ, giá đúng báo giá.",
+    "Lời đề nghị giúp đỡ quá chung chung ('Tell me if you need help'). Ý 3 sẽ mạnh hơn nếu nói rõ giúp gì và khi nào.",
+    "Thiếu mạo từ và số nhiều: 'label every boxes' → 'label every box'; 'reserve elevator' → 'reserve the elevator'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked informal register (contractions, 'Talk soon'), all 3 bullets with concrete detail, word count (183), Vietnamese notes. No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

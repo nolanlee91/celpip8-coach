@@ -1,0 +1,121 @@
+{
+  "id": "l2-mock-01",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "social",
+  "title": "A ladder and a broken fence",
+  "context": "You will hear two next-door neighbours in Maple Ridge talking on a Saturday morning.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Dave", "voice": "male_a", "text": "Morning, Gurpreet! Sorry to bug you on a Saturday. I was wondering if I could borrow your extension ladder again? My gutters are full of needles from that big cedar." },
+        { "speaker": "Gurpreet", "voice": "female_a", "text": "Oh, hi Dave. Sure, of course. It's in the garage. Just bring it back by Monday, though. Raj needs it to fix the light over our deck." },
+        { "speaker": "Dave", "voice": "male_a", "text": "Monday, no problem. I'll probably have it back tomorrow. Actually, while I've got you, have you seen the fence? The back section, behind the shed?" },
+        { "speaker": "Gurpreet", "voice": "female_a", "text": "I have. That windstorm on Wednesday really did a number on it. Two of the posts are basically leaning on my rhododendrons." },
+        { "speaker": "Dave", "voice": "male_a", "text": "Yeah. So I got a quote from Fraser Fencing. They want twenty-four hundred to replace that whole back section. Split down the middle, that's twelve hundred each." },
+        { "speaker": "Gurpreet", "voice": "female_a", "text": "Twelve hundred. Hmm. That's more than I was expecting, to be honest." },
+        { "speaker": "Dave", "voice": "male_a", "text": "Me too. Which is why I had another idea. My brother-in-law, Kyle, does this kind of thing on weekends. He says he'd do it for the cost of materials, maybe nine hundred total." },
+        { "speaker": "Gurpreet", "voice": "female_a", "text": "That's a lot cheaper. But, um, is he actually a fence builder? I don't want to be doing this again in two years." },
+        { "speaker": "Dave", "voice": "male_a", "text": "Well, he's a carpenter. He built his own deck, and it's held up fine." },
+        { "speaker": "Gurpreet", "voice": "female_a", "text": "I'm sure he's great. It's just, Fraser Fencing gives a warranty, right? If Kyle's posts rot, who do we call?" },
+        { "speaker": "Dave", "voice": "male_a", "text": "Yeah, ten years. Fair enough, that's a good point." },
+        { "speaker": "Gurpreet", "voice": "female_a", "text": "How about this? Let's get one more quote from a proper company. If it's close to Kyle's price, we go with the company. If not, well, maybe Kyle." },
+        { "speaker": "Dave", "voice": "male_a", "text": "Okay, I can live with that. I'll call around on Monday. And look, if money's tight right now, I don't mind covering the whole thing first. You can pay me back later." },
+        { "speaker": "Gurpreet", "voice": "female_a", "text": "That's kind of you, but it's fine. We'll pay our share when the work's done." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why does Dave want to borrow the ladder?",
+          "options": [
+            { "text": "To fix a light over his deck.", "trap": "wrong_speaker", "whyVi": "Raj (người nhà của Gurpreet) mới là người cần sửa đèn trên sân sau." },
+            { "text": "To clear plant debris out of his gutters.", "trap": "none", "whyVi": "Đúng: máng xối đầy lá kim từ cây tuyết tùng." },
+            { "text": "To repair the damaged fence.", "trap": "word_match", "whyVi": "Hàng rào là chủ đề sau, không phải lý do mượn thang." },
+            { "text": "To cut branches off the cedar tree.", "trap": "word_match", "whyVi": "'Cedar' có được nhắc nhưng Dave không nói sẽ tỉa cây." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "My gutters are full of needles from that big cedar.",
+          "explanationVi": "'Gutters are full of needles' ngụ ý anh cần dọn máng xối. 'Needles' (lá kim) được diễn đạt chung thành 'plant debris'.",
+          "vocabulary": ["gutter"]
+        },
+        {
+          "number": 2,
+          "prompt": "By when does Gurpreet need the ladder returned?",
+          "options": [
+            { "text": "By Sunday.", "trap": "wrong_speaker", "whyVi": "Dave nói anh 'probably' trả vào ngày mai (Chủ nhật), nhưng Gurpreet yêu cầu trước thứ Hai." },
+            { "text": "By Wednesday.", "trap": "wrong_detail", "whyVi": "Thứ Tư là ngày có bão gió." },
+            { "text": "By Saturday evening.", "trap": "wrong_detail", "whyVi": "Hôm nay là thứ Bảy; không ai yêu cầu trả trong tối nay." },
+            { "text": "No later than Monday.", "trap": "none", "whyVi": "Đúng: 'Just bring it back by Monday'." }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "Just bring it back by Monday, though.",
+          "explanationVi": "Câu hỏi hỏi Gurpreet CẦN khi nào: 'bring it back by Monday'. Dave nói 'tomorrow' chỉ là dự định của anh.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "How does Gurpreet feel about the first quote?",
+          "options": [
+            { "text": "She thinks it is a fair price.", "trap": "opposite", "whyVi": "Cô nói giá cao hơn cô nghĩ." },
+            { "text": "She finds it higher than she had expected.", "trap": "none", "whyVi": "Đúng: 'That's more than I was expecting, to be honest'." },
+            { "text": "She refuses to pay any part of it.", "trap": "too_broad", "whyVi": "Cô thấy đắt nhưng không từ chối trả; cuối bài cô nói sẽ trả phần của mình." },
+            { "text": "She thinks Dave should pay more than half.", "trap": "not_mentioned", "whyVi": "Không ai đề nghị Dave trả nhiều hơn một nửa." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "That's more than I was expecting, to be honest.",
+          "explanationVi": "'Hmm' và 'more than I was expecting' thể hiện sự bất ngờ vì giá cao. Đáp án B là cách nói lại.",
+          "vocabulary": ["quote"]
+        },
+        {
+          "number": 4,
+          "prompt": "What is Gurpreet's main concern about having Kyle do the work?",
+          "options": [
+            { "text": "There would be no guarantee if the fence failed.", "trap": "none", "whyVi": "Đúng: công ty có bảo hành, còn nếu cột của Kyle mục thì 'who do we call?'." },
+            { "text": "He would charge more than Fraser Fencing.", "trap": "opposite", "whyVi": "Kyle rẻ hơn nhiều (khoảng 900 đô)." },
+            { "text": "He might damage her rhododendrons.", "trap": "word_match", "whyVi": "Hoa đỗ quyên bị cột hàng rào đổ đè vì bão, không liên quan tới Kyle." },
+            { "text": "He only works on weekends.", "trap": "word_match", "whyVi": "Dave có nói Kyle làm vào cuối tuần, nhưng Gurpreet không lo về điều này." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "If Kyle's posts rot, who do we call?",
+          "explanationVi": "Gurpreet so sánh: công ty có 'warranty' 10 năm, còn Kyle thì không – 'who do we call?'. 'Warranty' = 'guarantee'.",
+          "vocabulary": ["warranty"]
+        },
+        {
+          "number": 5,
+          "prompt": "What do the neighbours finally agree to do?",
+          "options": [
+            { "text": "Hire Kyle because his price is much lower.", "trap": "partially_true", "whyVi": "Kyle chỉ được chọn NẾU báo giá thứ hai không gần với giá của anh." },
+            { "text": "Book Fraser Fencing on Monday.", "trap": "word_match", "whyVi": "Dave sẽ gọi vào thứ Hai để xin thêm báo giá, không phải đặt Fraser Fencing." },
+            { "text": "Compare another professional estimate before deciding.", "trap": "none", "whyVi": "Đúng: xin thêm một báo giá từ công ty chuyên nghiệp rồi mới quyết." },
+            { "text": "Let Dave pay the whole cost first.", "trap": "opposite", "whyVi": "Dave đề nghị nhưng Gurpreet từ chối: 'That's kind of you, but it's fine'." }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "Let's get one more quote from a proper company.",
+          "explanationVi": "Gurpreet đề xuất và Dave đồng ý ('I can live with that'). 'One more quote from a proper company' = 'another professional estimate'.",
+          "vocabulary": ["quote"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "gutter", "vi": "máng xối", "definition": "a channel along the edge of a roof that carries rainwater away", "example": "My gutters are full of needles from the cedar." },
+    { "term": "extension ladder", "vi": "thang rút / thang nối dài", "definition": "a long ladder made of sections that slide to make it longer", "example": "Can I borrow your extension ladder?" },
+    { "term": "do a number on", "vi": "làm hư hại nặng", "definition": "an informal way to say something damaged or hurt something badly", "example": "The windstorm really did a number on the fence." },
+    { "term": "quote", "vi": "bảng báo giá", "definition": "a statement of how much a job will cost", "example": "Let's get one more quote from a proper company." },
+    { "term": "split down the middle", "vi": "chia đôi", "definition": "to divide a cost equally between two people", "example": "Split down the middle, that's twelve hundred each." },
+    { "term": "warranty", "vi": "bảo hành", "definition": "a written promise to repair or replace something if it fails", "example": "Fraser Fencing gives a ten-year warranty." },
+    { "term": "I can live with that", "vi": "tôi chấp nhận được", "definition": "an informal way of agreeing to something that is not perfect", "example": "Okay, one more quote. I can live with that." }
+  ],
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. Distractors (Sunday vs Monday, Kyle vs second quote) checked for single defensible answer. Changed only Q1 option A whyVi, which asserted Raj is Gurpreet's husband (not stated)." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

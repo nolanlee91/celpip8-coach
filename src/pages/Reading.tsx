@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { useSearchParams } from "react-router-dom";
 import type { ReadingSet, Settings } from "../../shared/types";
 import { CATEGORIES, READING_PARTS } from "../../shared/spec";
 import { api, post } from "../api";
-import { Card, ErrorBox, TimerPill, Unofficial, useCountdown, Badge } from "../components/ui";
-import { DrillPicker, Generating, History } from "../components/Practice";
+import { Card, ErrorBox, Loading, TimerPill, Unofficial, useCountdown, Badge } from "../components/ui";
+import { DrillPicker, History } from "../components/Practice";
+import { LibraryBrowser, PickReason, useLibraryPick } from "../components/Library";
 import { Passage } from "../components/Passage";
 import { McqList } from "../components/Mcq";
 import { WeaknessReport, type ObjectiveResult } from "../components/Results";
@@ -12,61 +12,52 @@ import { useTutorContext } from "../components/Tutor";
 import type { Mode } from "../../shared/types";
 
 export function ReadingPage() {
-  const [params, setParams] = useSearchParams();
   const [settings, setSettings] = useState<Settings | null>(null);
-  const [set, setSet] = useState<ReadingSet | null>(null);
-  const [mode, setMode] = useState<Mode>("learn");
-  const [busy, setBusy] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const { picked, busy, error, next, open, exit } = useLibraryPick<ReadingSet>("reading");
 
   useEffect(() => { api<Settings>("/api/settings").then(setSettings).catch(() => {}); }, []);
 
-  const generate = useCallback(async (taskType: string | undefined, m: Mode, focus?: string) => {
-    setBusy(true); setError(null); setSet(null); setMode(m);
-    try {
-      setSet(await post<ReadingSet>("/api/generate/reading", { taskType, mode: m, focus }));
-    } catch (e) { setError((e as Error).message); } finally { setBusy(false); }
-  }, []);
-
-  // Deep links from the planner: ?task=R2, ?mode=drill&focus=inference, ?mode=weekly&task=R4
-  const started = useRef("");
-  useEffect(() => {
-    const key = params.toString();
-    if (!key || started.current === key) return;
-    started.current = key;
-    const m = (params.get("mode") as Mode) || "learn";
-    void generate(params.get("task") ?? undefined, m, params.get("focus") ?? undefined);
-  }, [params, generate]);
-
-  if (busy) return <div className="page"><Generating what="bài Reading" /></div>;
-  if (set) return <ReadingSession key={set.id} set={set} mode={mode} onNext={() => generate(set.taskType, mode, set.focus[0])} onExit={() => { setSet(null); setParams({}); started.current = ""; }} />;
+  if (busy) return <div className="page"><Loading text="Đang mở bài từ thư viện…" /></div>;
+  if (picked) {
+    const set = picked.item;
+    return (
+      <ReadingSession key={set.id + picked.mode} set={set} mode={picked.mode}
+        banner={<PickReason reason={picked.reason} repeated={picked.repeated} />}
+        onNext={() => next({ mode: picked.mode, taskType: picked.mode === "drill" ? undefined : set.taskType, focus: picked.mode === "drill" ? set.questions.map((q) => q.category).sort((a, b) => set.questions.filter((q) => q.category === b).length - set.questions.filter((q) => q.category === a).length)[0] : undefined })}
+        onExit={exit} />
+    );
+  }
 
   return (
     <div className="page">
       <h1>📖 Reading</h1>
-      <p className="muted">Kỹ năng ưu tiên cao nhất (5 → 8). Mỗi bài được tạo theo lỗi bạn hay mắc và độ khó tự điều chỉnh.</p>
+      <p className="muted">Kỹ năng ưu tiên cao nhất (5 → 8). Bài được chọn ngay từ thư viện đã kiểm duyệt — theo part yếu nhất, độ khó hiện tại và lịch sử làm bài. Không cần AI.</p>
       <ErrorBox error={error} />
+      <div className="row gap-s wrap">
+        <button className="btn primary big" onClick={() => next({ mode: "learn" })}>▶ Bài đề xuất cho tôi</button>
+      </div>
       <div className="part-grid">
         {READING_PARTS.map((p) => (
           <Card key={p.id} title={`Part ${p.part}: ${p.name}`}>
             <p className="small muted">{p.description}</p>
             <div className="row between">
-              <span className="small">{p.questions} câu · {p.minutes} phút · độ khó <strong>{settings?.difficulty[p.id] ?? "–"}</strong></span>
-              <button className="btn primary small" onClick={() => generate(p.id, "learn")}>Bắt đầu</button>
+              <span className="small">{p.questions} câu · ~{p.minutes} phút · độ khó <strong>{settings?.difficulty[p.id] ?? "–"}</strong></span>
+              <button className="btn primary small" onClick={() => next({ mode: "learn", taskType: p.id })}>Bắt đầu</button>
             </div>
           </Card>
         ))}
       </div>
       <Card title="Drill theo loại lỗi">
-        <p className="small muted">Bài ngắn (~6 câu) trong đó ≥70% câu hỏi nhắm vào đúng loại lỗi bạn chọn.</p>
-        <DrillPicker skill="reading" onStart={(f) => generate(undefined, "drill", f)} />
+        <p className="small muted">Bài ngắn (4–7 câu) tập trung vào đúng loại lỗi bạn chọn.</p>
+        <DrillPicker skill="reading" onStart={(f) => next({ mode: "drill", focus: f })} />
       </Card>
+      <LibraryBrowser skill="reading" tasks={READING_PARTS.map((p) => p.id)} onOpen={(id) => open(id)} />
       <History skill="reading" />
     </div>
   );
 }
 
-function ReadingSession({ set, mode, onNext, onExit }: { set: ReadingSet; mode: Mode; onNext: () => void; onExit: () => void }) {
+function ReadingSession({ set, mode, banner, onNext, onExit }: { set: ReadingSet; mode: Mode; banner: React.ReactNode; onNext: () => void; onExit: () => void }) {
   const part = READING_PARTS.find((p) => p.id === set.taskType)!;
   const limit = (mode === "drill" ? Math.max(5, Math.round(part.minutes * 0.6)) : part.minutes) * 60;
   const [answers, setAnswers] = useState<Record<string, number | null>>({});
@@ -124,6 +115,7 @@ function ReadingSession({ set, mode, onNext, onExit }: { set: ReadingSet; mode: 
         </div>
       </div>
       <Unofficial compact />
+      {!result && banner}
       <ErrorBox error={error} />
       {result && <WeaknessReport result={result} skill="reading" />}
 
@@ -158,7 +150,7 @@ function ReadingSession({ set, mode, onNext, onExit }: { set: ReadingSet; mode: 
             <button className="btn primary big full" onClick={() => submit(false)}>Nộp bài</button>
           ) : (
             <div className="row gap-s">
-              <button className="btn primary" onClick={onNext}>Bài tiếp theo (thích ứng)</button>
+              <button className="btn primary" onClick={onNext}>Bài tiếp theo (từ thư viện)</button>
               <button className="btn" onClick={onExit}>Chọn dạng khác</button>
             </div>
           )}

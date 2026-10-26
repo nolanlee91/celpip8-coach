@@ -1,0 +1,191 @@
+{
+  "id": "r3-full-02",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "government",
+  "title": "Understanding Your Property Assessment Notice",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 9 independently; keys match; each statement maps to one paragraph, Q5 E verified. Dates (Jan notice, July 1 valuation, Oct 31 physical condition, Jan 31 deadline, Feb-Mar review panel hearings) mirror the real BC assessment system and are accurate; the authority is fictionalised (CPAA). Changed: removed the specific '$30' appeal-board fee (now 'a filing fee') so no exact real-world figure can go stale; Q3 option D whyVi updated." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "Every January, owners of the roughly two million properties in the province receive an assessment notice from the Coastal Property Assessment Authority (CPAA), either by mail or through an online account. The notice shows what the authority estimates the property was worth on July 1 of the previous year. That same date is used for every property in the province so that values can be compared fairly. Many owners are surprised that a deck they added in November, or a kitchen renovation finished just before the holidays, does not appear in the figure. This is because the value reflects market conditions on July 1 and the property's physical condition as of October 31.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "It helps to understand what the notice does not do. The CPAA does not send tax bills; municipalities do, using the assessed value together with a tax rate that each council sets in the spring. Because of this, a rise in assessed value does not automatically lead to a bigger bill. If a home's value went up by 8 per cent while the average home in the same city went up by 12 per cent, its owner may actually pay a slightly smaller share of the city's taxes. What matters, assessors explain, is how a property's change compares with the average change in its community.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Owners who believe their value is wrong are encouraged to contact the CPAA before January 31. An appraiser will review the file, and many concerns are settled in a single phone call, for example when the notice lists a finished basement that was never actually completed, or counts a garage that was torn down years ago. Owners who call should have specific evidence ready, such as recent sales of similar homes on their street, or photos showing damage that lowers the value. Simply saying that the number \"feels too high\" rarely leads to any change.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "If that conversation does not resolve the issue, an owner can file a formal complaint, but the deadline is strict: it must be received by January 31, with no exceptions for delays in the mail. Complaints are heard in February and March by an independent Property Assessment Review Panel, made up of local residents appointed by the province rather than CPAA staff. Hearings usually last about fifteen minutes and are held by phone or video. Filing a complaint is free. Owners who disagree with the panel's decision may take their case to a provincial appeal board, although that step involves a filing fee and a much longer process.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Every property's value is estimated as of the same day in the year.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Đoạn A nói ngày 1/7 'is used for every property in the province'." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B có nhắc 'in the spring' nhưng đó là thời điểm hội đồng thành phố đặt thuế suất, không phải ngày định giá." },
+        { "text": "C", "trap": "wrong_detail", "whyVi": "Đoạn C có ngày 31/1 nhưng đó là hạn liên hệ CPAA, không phải ngày định giá." },
+        { "text": "D", "trap": "wrong_detail", "whyVi": "Đoạn D nói hạn khiếu nại và thời gian phiên điều trần, không nói ngày định giá." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "That same date is used for every property in the province so that values can be compared fairly.",
+      "explanationVi": "Đề có nhiều mốc ngày (1/7, 31/10, 31/1). Câu hỏi nói về ngày dùng để định giá chung cho mọi bất động sản → Đoạn A: 'That same date is used for every property'. 'Estimated as of the same day' = 'worth on July 1 ... same date ... every property'."
+    },
+    {
+      "number": 2,
+      "prompt": "The people who decide formal complaints are not employed by the organisation that set the value.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A chỉ giới thiệu CPAA và thông báo định giá, không nói ai xử lý khiếu nại." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B nói 'assessors explain' — đây là nhân viên CPAA giải thích, không phải người xét khiếu nại." },
+        { "text": "C", "trap": "wrong_speaker", "whyVi": "Đoạn C nói về chuyên viên thẩm định (appraiser) của CPAA xem lại hồ sơ — đây chính là nhân viên CPAA, ngược với ý câu hỏi." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Hội đồng xét khiếu nại gồm 'local residents appointed by the province rather than CPAA staff'." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "made up of local residents appointed by the province rather than CPAA staff",
+      "explanationVi": "'Not employed by the organisation that set the value' = 'rather than CPAA staff'. Chú ý phân biệt: ở Đoạn C người xem hồ sơ là appraiser của CPAA (giai đoạn không chính thức); ở Đoạn D là hội đồng độc lập (khiếu nại chính thức).",
+      "vocabulary": ["independent"]
+    },
+    {
+      "number": 3,
+      "prompt": "Owners whose property value went up might still not end up paying more tax.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không nói về thuế." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Đoạn B nói giá trị tăng 'does not automatically lead to a bigger bill' và đưa ví dụ 8% so với 12%." },
+        { "text": "C", "trap": "opposite", "whyVi": "Đoạn C nói về chủ nhà cho rằng giá trị quá cao, không nói về ảnh hưởng của giá trị tăng lên thuế." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D có nhắc tiền ('a filing fee') nhưng đó là phí nộp đơn kháng nghị, không phải thuế nhà." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "a rise in assessed value does not automatically lead to a bigger bill",
+      "explanationVi": "'Value went up' = 'a rise in assessed value'; 'might still not end up paying more tax' = 'does not automatically lead to a bigger bill'. Ví dụ 8% vs 12% trong Đoạn B giải thích lý do: điều quan trọng là so với mức tăng trung bình."
+    },
+    {
+      "number": 4,
+      "prompt": "A general feeling that the figure is too high is seldom enough to get it changed.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A nói nhiều chủ nhà ngạc nhiên về con số, nhưng không nói cảm giác đó có làm thay đổi giá trị hay không." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B giải thích thuế, không nói về việc yêu cầu sửa giá trị." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Đoạn C nói chỉ nói rằng con số 'feels too high' 'rarely leads to any change'." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D nói về khiếu nại chính thức nhưng không nói lý do mơ hồ thì không có tác dụng." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Simply saying that the number \"feels too high\" rarely leads to any change.",
+      "explanationVi": "'Seldom' = 'rarely'; 'a general feeling' = 'simply saying that the number feels too high'; 'get it changed' = 'leads to any change'. Câu này nằm cuối Đoạn C, sau lời khuyên phải có bằng chứng cụ thể.",
+      "vocabulary": ["evidence"]
+    },
+    {
+      "number": 5,
+      "prompt": "Owners may pay a professional to speak on their behalf at a hearing.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không nói về phiên điều trần." },
+        { "text": "B", "trap": "wrong_speaker", "whyVi": "Đoạn B có 'assessors' (chuyên viên định giá) nhưng họ chỉ giải thích cách tính thuế, không đại diện cho chủ nhà." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'An appraiser' (người chuyên nghiệp) nhưng đó là nhân viên CPAA xem lại hồ sơ, không phải người chủ nhà thuê." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D mô tả phiên điều trần (15 phút, qua điện thoại hoặc video) nhưng không nói gì về việc thuê người đại diện." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: Không đoạn nào nói chủ nhà có thể thuê người đại diện." }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "Hearings usually last about fifteen minutes and are held by phone or video.",
+      "explanationVi": "Câu gần nhất là ở Đoạn D, mô tả phiên điều trần kéo dài bao lâu và diễn ra thế nào, nhưng hoàn toàn không nhắc đến việc thuê chuyên gia hay người đại diện. 'Appraiser' ở Đoạn C là nhân viên CPAA. Vì vậy chọn E."
+    },
+    {
+      "number": 6,
+      "prompt": "A complaint that arrives late because the post was slow will not be accepted.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'by mail' nhưng đó là cách CPAA gửi thông báo, không phải hạn nộp khiếu nại." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B không nói về hạn chót." },
+        { "text": "C", "trap": "partially_true", "whyVi": "Đoạn C có ngày 31/1 nhưng chỉ là lời khuyến khích liên hệ trước ngày đó ('encouraged'), không nói về việc trễ do bưu điện." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Khiếu nại phải được nhận trước 31/1, 'with no exceptions for delays in the mail'." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "it must be received by January 31, with no exceptions for delays in the mail",
+      "explanationVi": "'Arrives late because the post was slow' = 'delays in the mail'; 'will not be accepted' = 'no exceptions'. Đoạn C cũng có ngày 31/1 nhưng chỉ nói 'encouraged', không có quy định nghiêm ngặt như Đoạn D.",
+      "vocabulary": ["deadline"]
+    },
+    {
+      "number": 7,
+      "prompt": "The organisation that estimates property values is not responsible for sending tax bills.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A nói CPAA gửi thông báo định giá (assessment notice), không phải hoá đơn thuế; đoạn này không nói ai gửi hoá đơn." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Đoạn B nói 'The CPAA does not send tax bills; municipalities do'." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về việc liên hệ để xem lại giá trị." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về khiếu nại chính thức, không nói về hoá đơn thuế." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "The CPAA does not send tax bills; municipalities do",
+      "explanationVi": "'The organisation that estimates property values' chính là CPAA. Đoạn B nói rõ CPAA không gửi hoá đơn thuế, chính quyền thành phố mới gửi."
+    },
+    {
+      "number": 8,
+      "prompt": "Improvements made to a home late in the year may not be included in its value.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Đoạn A nói sân gỗ làm trong tháng 11 hay bếp sửa trước kỳ nghỉ lễ 'does not appear in the figure'." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói về thuế suất, không nói về sửa chữa nhà." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có nhắc 'a finished basement that was never actually completed' — đây là lỗi ghi sai thông tin, không phải cải tạo cuối năm bị bỏ sót." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D không nói về sửa chữa nhà." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "a deck they added in November, or a kitchen renovation finished just before the holidays, does not appear in the figure",
+      "explanationVi": "'Improvements made late in the year' là cách nói chung cho 'a deck they added in November' và 'a kitchen renovation finished just before the holidays'. 'Not included in its value' = 'does not appear in the figure'. Lý do: tình trạng nhà chỉ tính đến 31/10."
+    },
+    {
+      "number": 9,
+      "prompt": "Errors about features a home does not really have can often be fixed quickly.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A nói về những thay đổi chưa được tính, không phải đặc điểm bị ghi sai." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B không nói về lỗi trong thông báo." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Đoạn C nói nhiều vấn đề được giải quyết 'in a single phone call', ví dụ tầng hầm chưa từng hoàn thiện hay gara đã bị phá." },
+        { "text": "D", "trap": "opposite", "whyVi": "Đoạn D mô tả quy trình khiếu nại chính thức và việc kháng nghị lên hội đồng tỉnh là 'a much longer process' — không phải cách sửa nhanh." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "many concerns are settled in a single phone call, for example when the notice lists a finished basement that was never actually completed",
+      "explanationVi": "'Fixed quickly' = 'settled in a single phone call'. 'Features a home does not really have' = tầng hầm 'never actually completed' và gara 'torn down years ago'.",
+      "vocabulary": ["settle"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "assessment", "vi": "sự định giá (bất động sản để tính thuế)", "definition": "an official estimate of the value of a property", "example": "Our assessment went up by 6 per cent this year." },
+    { "term": "appraiser", "vi": "chuyên viên thẩm định giá", "definition": "a person whose job is to estimate the value of property", "example": "An appraiser reviewed our file and corrected the error." },
+    { "term": "settle", "vi": "giải quyết (vấn đề, tranh chấp)", "definition": "to end a disagreement or problem", "example": "Most concerns are settled in one phone call." },
+    { "term": "evidence", "vi": "bằng chứng", "definition": "facts or documents that show something is true", "example": "Bring evidence such as recent sales of similar homes." },
+    { "term": "file a complaint", "vi": "nộp đơn khiếu nại", "definition": "to make an official complaint", "example": "You can file a complaint online before January 31." },
+    { "term": "deadline", "vi": "hạn chót", "definition": "the latest time by which something must be done", "example": "The deadline is strict, with no exceptions." },
+    { "term": "independent", "vi": "độc lập", "definition": "not controlled by another organisation", "example": "An independent panel hears the complaints." },
+    { "term": "share", "vi": "phần (đóng góp, chia)", "definition": "the part of a total that one person pays or receives", "example": "Your share of the city's taxes depends on the average change." }
+  ]
+}

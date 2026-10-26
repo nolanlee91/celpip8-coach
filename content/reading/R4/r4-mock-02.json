@@ -1,0 +1,183 @@
+{
+  "id": "r4-mock-02",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "shopping",
+  "title": "More Machines at the Grocery Checkout",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 10 independently; keys match. Q5 main-idea evidence 'Not every shopper is convinced.' was too thin; added 'The announcement has drawn mixed reactions from shoppers, workers and industry experts.' to paragraph 1 and used it as evidence; explanation updated. Q5 option B trap changed too_broad -> not_mentioned." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "Harvest Lane Foods, which operates 38 grocery stores across British Columbia, announced last week that it will add self-checkout stations to every location by next summer. In its eight largest stores, the number of staffed checkout lanes will drop from twelve to five, with self-checkouts filling the rest of the space. The company says no cashiers will lose their jobs; instead, they will be retrained to restock shelves, pack online orders and supervise the self-checkout area. The announcement has drawn mixed reactions from shoppers, workers and industry experts.\n\nCompany spokesperson Bianca Ferraro says the change is driven by customers. \"When we surveyed shoppers, people buying fewer than ten items told us the thing they hated most was waiting behind a full cart,\" she said. \"Self-checkout lets them be in and out in a few minutes.\" Ferraro added that the savings will help the chain keep its prices competitive, although she declined to say how much it expects to save.\n\nNot every shopper is convinced. Desmond Achebe, a 74-year-old retired bookkeeper, shops at the chain's Kelowna store twice a week and says the machines confuse him, especially when he has to weigh loose produce. \"Every time I put my apples down, the machine announces there's an unexpected item in the bagging area,\" he said. \"Then I wait for an employee anyway. So what have I saved?\" Accessibility advocates add that touchscreens can be difficult for people with low vision or limited hand movement.\n\nThe union representing grocery workers is sceptical of the promise about jobs. Union researcher Priyanka Deshmukh points out that it covers current employees but says nothing about future hiring. \"Nobody gets fired. They just don't replace people who leave,\" she said. \"In five years, you have half the cashiers and you can still say you never laid anyone off.\" She adds that watching six or eight machines at once is more stressful than running a single till, because one worker must deal with several customers' problems at the same time.\n\nRetail analysts point to an issue that grocery companies discuss less openly: theft. Several American chains have recently removed some self-checkouts after losses rose, partly from deliberate theft and partly from honest scanning mistakes. Dr. Laurent Mbeki, who studies retail operations at a Victoria business school, says the technology works best as one option among several. \"Stores that went all-in on self-checkout often had to backtrack,\" he said. \"The smart approach is a mix, and paying close attention to who is using which lanes.\"\n\nHarvest Lane says it has learned from those examples. Every store will keep at least two staffed lanes open during all opening hours, and one of them will be reserved for customers who need extra help. The company is also testing cameras that alert staff when an item is not scanned, a feature privacy groups have already questioned.\n\nThe first stores to change will be in Kelowna and Abbotsford, starting in February.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I shop at the Harvest Lane in Abbotsford, so my store will be one of the first to change, in [[6]]. Honestly, I'm one of the shoppers Ms. Ferraro described: when I only need milk and bread, I don't want to [[7]]. Still, I sympathize with Mr. Achebe. I've had the same trouble with [[8]], and it's frustrating when the machine stops me every few seconds. I'm glad the company will keep [[9]] open at all times, especially for older customers. Nobody should have to argue with a machine just to buy a bag of apples. But I think the union raises a fair question about what happens when cashiers [[10]]. A promise that nobody will be fired is not the same as a promise to keep the jobs.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "According to Bianca Ferraro, why is Harvest Lane adding self-checkouts?",
+      "options": [
+        { "text": "To reduce losses from shoplifting", "trap": "not_mentioned", "whyVi": "Ferraro không nói về trộm cắp; vấn đề trộm cắp do các nhà phân tích nêu ra." },
+        { "text": "Because the union asked for less stressful work", "trap": "wrong_speaker", "whyVi": "Công đoàn thực ra nói giám sát nhiều máy còn căng thẳng hơn." },
+        { "text": "To reduce the number of cashiers it employs", "trap": "opposite", "whyVi": "Công ty khẳng định không thu ngân nào mất việc; đây là nghi ngờ của công đoàn, không phải lý do Ferraro nêu." },
+        { "text": "Because shoppers with small orders dislike waiting in line", "trap": "none", "whyVi": "Đúng: Người mua dưới 10 món ghét nhất là 'waiting behind a full cart'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "people buying fewer than ten items told us the thing they hated most was waiting behind a full cart",
+      "explanationVi": "'Shoppers with small orders' = 'people buying fewer than ten items'; 'dislike waiting in line' = 'hated most was waiting behind a full cart'. Ferraro cũng nhắc tiết kiệm chi phí, nhưng lý do chính bà nêu là khách hàng."
+    },
+    {
+      "number": 2,
+      "prompt": "What does Desmond Achebe's comment suggest?",
+      "options": [
+        { "text": "Self-checkout does not save him time because he still needs help.", "trap": "none", "whyVi": "Đúng: 'Then I wait for an employee anyway. So what have I saved?'" },
+        { "text": "He would rather order his groceries online.", "trap": "not_mentioned", "whyVi": "Ông không nói về mua hàng trực tuyến." },
+        { "text": "He finds the store's employees unhelpful.", "trap": "opposite", "whyVi": "Ông vẫn phải chờ nhân viên giúp — vấn đề là cái máy, không phải nhân viên." },
+        { "text": "He thinks the machines have made prices higher.", "trap": "word_match", "whyVi": "'What have I saved?' nói về thời gian, không nói về giá cả." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"Then I wait for an employee anyway. So what have I saved?\"",
+      "explanationVi": "'So what have I saved?' là câu hỏi tu từ: ông không tiết kiệm được gì (thời gian), vì máy báo lỗi và ông vẫn phải chờ nhân viên ('anyway'). Đây là câu hỏi suy luận thái độ."
+    },
+    {
+      "number": 3,
+      "prompt": "What is Priyanka Deshmukh's point about the company's promise?",
+      "options": [
+        { "text": "Cashiers will be dismissed after they are retrained.", "trap": "opposite", "whyVi": "Bà nói 'Nobody gets fired' — vấn đề không phải sa thải." },
+        { "text": "Retrained workers will earn less than they do now.", "trap": "not_mentioned", "whyVi": "Bà không nói về lương." },
+        { "text": "Cashier jobs could shrink over time even if nobody is fired.", "trap": "none", "whyVi": "Đúng: Công ty không thay người nghỉ việc, nên 'In five years, you have half the cashiers'." },
+        { "text": "The union fully supports the company's plan.", "trap": "opposite", "whyVi": "Công đoàn 'sceptical' (hoài nghi), không ủng hộ hoàn toàn." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "\"Nobody gets fired. They just don't replace people who leave,\"",
+      "explanationVi": "Lời hứa chỉ áp dụng cho nhân viên hiện tại. Khi người nghỉ việc không được thay thế, số thu ngân giảm dần ('shrink over time') mà công ty vẫn nói 'never laid anyone off'.",
+      "vocabulary": ["lay off"]
+    },
+    {
+      "number": 4,
+      "prompt": "What is Dr. Laurent Mbeki's view of self-checkout?",
+      "options": [
+        { "text": "Stores should remove self-checkouts completely.", "trap": "opposite", "whyVi": "Ông nói công nghệ này 'works best as one option among several', không đòi bỏ hẳn." },
+        { "text": "It works well when combined with other checkout options.", "trap": "none", "whyVi": "Đúng: 'The smart approach is a mix'." },
+        { "text": "Concerns about theft have been exaggerated.", "trap": "opposite", "whyVi": "Bài nói các chuỗi ở Mỹ thực sự mất hàng nhiều hơn; ông không nói lo ngại này bị phóng đại." },
+        { "text": "It is better suited to American stores than Canadian ones.", "trap": "word_match", "whyVi": "Bài có 'American chains' nhưng chỉ là ví dụ về việc phải rút lại, không so sánh Mỹ và Canada." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "says the technology works best as one option among several",
+      "explanationVi": "'One option among several' và 'a mix' = 'combined with other checkout options'. 'Went all-in ... had to backtrack' cho thấy ông không phản đối máy, mà phản đối việc dùng toàn máy.",
+      "vocabulary": ["backtrack"]
+    },
+    {
+      "number": 5,
+      "prompt": "Which best describes how the article is written?",
+      "options": [
+        { "text": "It argues that self-checkout should be banned in BC.", "trap": "opposite", "whyVi": "Người viết không đưa ra quan điểm cấm; bài chỉ tường thuật ý kiến." },
+        { "text": "It mainly explains how self-checkout machines work.", "trap": "not_mentioned", "whyVi": "Bài không giải thích máy hoạt động thế nào; chỉ có một chi tiết nhỏ về cân rau quả." },
+        { "text": "It reports a company's plan along with concerns raised by several groups.", "trap": "none", "whyVi": "Đúng: Bài trình bày kế hoạch của Harvest Lane, rồi ý kiến khách hàng, công đoàn, nhà phân tích và nhóm bảo vệ quyền riêng tư." },
+        { "text": "It focuses mostly on the problem of theft.", "trap": "partially_true", "whyVi": "Trộm cắp chỉ là một đoạn trong bài, không phải trọng tâm." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "The announcement has drawn mixed reactions from shoppers, workers and industry experts.",
+      "explanationVi": "Câu hỏi về cách viết của tác giả. Đoạn đầu nêu kế hoạch của công ty rồi nói ngay 'The announcement has drawn mixed reactions from shoppers, workers and industry experts'. Các đoạn sau lần lượt đưa ý kiến khách hàng (Achebe), công đoàn (Deshmukh), chuyên gia (Mbeki), phản hồi của công ty và lo ngại của nhóm bảo vệ quyền riêng tư. 'Concerns raised by several groups' = 'mixed reactions from shoppers, workers and industry experts'. Tác giả không đứng về phía nào."
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "February", "trap": "none", "whyVi": "Đúng: Cửa hàng ở Kelowna và Abbotsford thay đổi đầu tiên, 'starting in February'." },
+        { "text": "next summer", "trap": "wrong_detail", "whyVi": "'Next summer' là thời hạn cho TẤT CẢ cửa hàng, không phải các cửa hàng đầu tiên." },
+        { "text": "five years", "trap": "word_match", "whyVi": "'Five years' là dự đoán của công đoàn về số thu ngân." },
+        { "text": "the spring", "trap": "not_mentioned", "whyVi": "Bài không nhắc đến mùa xuân." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "The first stores to change will be in Kelowna and Abbotsford, starting in February.",
+      "explanationVi": "Người viết mua sắm ở Abbotsford, 'one of the first to change' → câu cuối bài: 'The first stores ... Abbotsford, starting in February'. Bẫy 'next summer' là hạn hoàn tất cho toàn bộ chuỗi."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "use a touchscreen", "trap": "wrong_speaker", "whyVi": "Khó dùng màn hình cảm ứng là ý của nhóm vận động tiếp cận; người viết lại thích tự thanh toán." },
+        { "text": "weigh loose produce", "trap": "wrong_detail", "whyVi": "Mua sữa và bánh mì thì không cần cân rau quả; và đây là vấn đề của ông Achebe." },
+        { "text": "speak to an employee", "trap": "not_mentioned", "whyVi": "Ferraro không nói khách ngại nói chuyện với nhân viên." },
+        { "text": "wait behind someone with a full cart", "trap": "none", "whyVi": "Đúng: Đây chính là điều Ferraro nói khách mua ít đồ ghét nhất." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "the thing they hated most was waiting behind a full cart",
+      "explanationVi": "'I'm one of the shoppers Ms. Ferraro described' → người mua ít đồ ('only need milk and bread'). Ferraro nói họ ghét 'waiting behind a full cart'."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "finding a staffed lane", "trap": "not_mentioned", "whyVi": "Bài không nói khó tìm quầy có nhân viên, và câu sau nói về cái máy." },
+        { "text": "weighing fruit and vegetables", "trap": "none", "whyVi": "Đúng: Giống ông Achebe — cân rau quả khiến máy báo 'unexpected item' liên tục." },
+        { "text": "the cameras that alert staff", "trap": "wrong_detail", "whyVi": "Camera mới chỉ đang được thử nghiệm và vấn đề của chúng là quyền riêng tư." },
+        { "text": "paying higher prices", "trap": "opposite", "whyVi": "Công ty nói tiết kiệm sẽ giúp giữ giá cạnh tranh; và câu sau nói máy dừng lại, không phải giá." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "especially when he has to weigh loose produce",
+      "explanationVi": "'The same trouble' như ông Achebe → 'weigh loose produce' (cân rau quả rời). 'Fruit and vegetables' = 'produce'. Câu sau 'the machine stops me every few seconds' khớp với 'unexpected item in the bagging area'.",
+      "vocabulary": ["produce"]
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "twelve staffed lanes", "trap": "wrong_detail", "whyVi": "Các cửa hàng lớn giảm từ 12 xuống 5 quầy có nhân viên." },
+        { "text": "the self-checkout area", "trap": "word_match", "whyVi": "Khu tự thanh toán có trong bài nhưng không phải điều giúp người cao tuổi; công ty hứa giữ quầy có nhân viên." },
+        { "text": "at least two staffed lanes", "trap": "none", "whyVi": "Đúng: 'Every store will keep at least two staffed lanes open during all opening hours'." },
+        { "text": "the online order desk", "trap": "not_mentioned", "whyVi": "Bài không nói về quầy đơn hàng trực tuyến mở cả ngày." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "Every store will keep at least two staffed lanes open during all opening hours",
+      "explanationVi": "'Keep ... open at all times' = 'keep ... open during all opening hours'. 'Especially for older customers' liên quan đến quầy dành cho người cần giúp đỡ."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "are fired next year", "trap": "opposite", "whyVi": "Công đoàn đồng ý là 'Nobody gets fired'; vấn đề là người nghỉ không được thay." },
+        { "text": "leave and are not replaced", "trap": "none", "whyVi": "Đúng: 'They just don't replace people who leave' — đúng câu hỏi công đoàn đặt ra." },
+        { "text": "steal from the store", "trap": "word_match", "whyVi": "Trộm cắp có trong bài nhưng liên quan đến khách hàng, không phải thu ngân." },
+        { "text": "ask for higher wages", "trap": "not_mentioned", "whyVi": "Bài không nói thu ngân đòi tăng lương." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"Nobody gets fired. They just don't replace people who leave,\"",
+      "explanationVi": "Câu sau chỗ trống: 'A promise that nobody will be fired is not the same as a promise to keep the jobs' → vấn đề là việc làm mất đi khi người nghỉ không được thay thế. Khớp với ý của Deshmukh."
+    }
+  ],
+  "vocabulary": [
+    { "term": "staffed", "vi": "có nhân viên phục vụ", "definition": "having workers present to provide a service", "example": "Every store will keep two staffed lanes open." },
+    { "term": "lay off", "vi": "cho nghỉ việc, sa thải", "definition": "to end someone's job, usually because there is not enough work", "example": "The company says it has never laid anyone off." },
+    { "term": "sceptical", "vi": "hoài nghi", "definition": "having doubts that something is true or will happen", "example": "The union is sceptical of the promise." },
+    { "term": "produce", "vi": "rau củ quả tươi", "definition": "fresh fruit and vegetables", "example": "Weighing loose produce at self-checkout can be confusing." },
+    { "term": "backtrack", "vi": "rút lại, quay lại cách cũ", "definition": "to change a plan or reverse a decision", "example": "Several chains had to backtrack on self-checkout." },
+    { "term": "go all-in", "vi": "dốc toàn lực, đặt cược hết", "definition": "to commit completely to one choice", "example": "Stores that went all-in on machines regretted it." },
+    { "term": "competitive", "vi": "cạnh tranh (giá)", "definition": "as good as or better than others, especially in price", "example": "Savings help the chain keep prices competitive." },
+    { "term": "till", "vi": "quầy tính tiền, máy thu ngân", "definition": "a cash register or checkout counter", "example": "She worked the till for ten years." }
+  ]
+}

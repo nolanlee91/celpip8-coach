@@ -1,52 +1,75 @@
 # CELPIP 8 Coach
 
-Ứng dụng web cá nhân, dùng AI (Google Gemini) để luyện CELPIP-General từ L6 / R5 / W7 / S6 lên **Level 8 ở cả 4 kỹ năng**.
+A personal web app for studying CELPIP-General, built to take one learner from L6 / R5 / W7 / S6 to **Level 8 in every skill**.
 
-> Đây là công cụ luyện tập **không chính thức**, không liên kết với CELPIP hay Paragon Testing. Mọi đề bài do AI tạo ra, và mọi mức điểm hiển thị đều là **ước tính luyện tập**, không thay thế điểm thi chính thức.
+> This is an **unofficial** practice tool. It is not affiliated with CELPIP or Paragon Testing. All practice content is original, and every score the app shows is a **practice estimate**, not an official result.
 
-## Cài đặt & chạy
+## Architecture: content first, AI optional
 
-Yêu cầu: Node.js 20+ và trình duyệt **Microsoft Edge** hoặc **Chrome**. Hai trình duyệt này cần cho micro, nhận dạng giọng nói và giọng đọc tự nhiên.
+| Layer | What it does | Needs AI? |
+|---|---|---|
+| **A. Content library** | `content/` holds prebuilt Reading/Listening sets, Writing/Speaking prompts with Level 8 model answers, vocabulary, and mock-exam packages. It is validated automatically and checked by an independent review before use. | No |
+| **B. Learning engine** | Exercise selection, local scoring, explanations, mistake tracking, SM-2 spaced repetition, adaptive difficulty, daily plan, analytics, vocabulary review, mock exams | No |
+| **C. AI assistance** | Writing/Speaking evaluation (**only when the learner presses the button**), AI Tutor, and the admin tools for generating content and audio | Gemini |
+
+**Without a Gemini key** you can still practise Reading, Listening (sets whose audio has already been generated), vocabulary, the mistake notebook, the study plan and the prebuilt mock exams. Writing and Speaking work too: the learner sees the model answer straight away, and AI evaluation can be requested later.
+
+### Storage
+
+| Data | Location | In git? |
+|---|---|---|
+| Static content (A) | `content/` (curated) + `$DATA_DIR/library/` (approved through the admin page) | `content/` yes |
+| Learning progress (B) | `$DATA_DIR/progress.json` | no |
+| AI results, pending submissions, usage log, cache (C) | `$DATA_DIR/ai.json` | no |
+| Listening audio (D) | `$DATA_DIR/audio-assets/*.wav` + `manifest.json` | no (large files) |
+| Speaking recordings | `$DATA_DIR/audio/` | no |
+| Generation drafts | `$DATA_DIR/content-drafts/<job>/` | no |
+
+**Migrating from the old version:** on first start, the old `db.json` is split into `progress.json` + `ai.json`. A backup is kept as `db.json.migrated-<time>`. Old AI-generated exercises are kept so the history can still be reviewed.
+
+## Running locally
 
 ```bash
 cd celpip8-coach
 npm install
-copy .env.example .env      # rồi điền GEMINI_API_KEY=... (lấy tại https://aistudio.google.com/apikey)
-npm run dev                 # mở http://localhost:5173
+copy .env.example .env      # GEMINI_API_KEY is optional (see above)
+npm run dev                 # http://localhost:5173 — use Edge/Chrome
 ```
 
-Chạy bản production (một cổng duy nhất):
+## Commands
 
-```bash
-npm run build
-npm start                   # mở http://localhost:8787
-```
-
-## Deploy lên Railway
-
-1. Trên Railway, chọn **New Project → Deploy from GitHub repo** rồi chọn repo này. Railway đọc `railway.json` để build (`npm run build`) và chạy (`npm start`).
-2. Trong **Variables**, thêm các biến sau:
-   - `GEMINI_API_KEY`: key Gemini của bạn.
-   - `APP_PASSWORD`: **bắt buộc**. Mật khẩu vào app; ô tên đăng nhập nhập gì cũng được. Nếu thiếu, ai có link cũng dùng được Gemini key của bạn.
-   - `DATA_DIR=/data`
-   - `GEMINI_MODEL` (tùy chọn).
-3. Bấm chuột phải vào service, chọn **Attach Volume** và đặt mount path `/data`. Thiếu Volume thì mọi tiến độ học sẽ mất sau mỗi lần deploy lại.
-4. Trong **Settings → Networking**, chọn **Generate Domain**. Railway cấp HTTPS, mà micro (Speaking) bắt buộc phải chạy trên HTTPS.
-
-## Các thành phần
-
-| Thư mục | Nội dung |
+| Command | Purpose |
 |---|---|
-| `server/` | Express API, gọi Gemini (mặc định `gemini-2.5-pro`, đổi bằng `GEMINI_MODEL`; đầu ra JSON có schema), lặp lại ngắt quãng (SM-2), phân tích điểm yếu, lập kế hoạch |
-| `shared/spec.ts` | Cấu trúc bài thi (số part, số câu, thời gian) và danh mục loại lỗi. **Nên đối chiếu với celpip.ca** |
-| `src/` | Giao diện React: Dashboard, Reading, Listening, Speaking, Writing, Sổ lỗi, Từ vựng, Kế hoạch, Thi thử, Thống kê, AI Tutor |
-| `data/db.json` | Toàn bộ dữ liệu học, lưu trên máy bạn. Có nút xuất/nhập trong mục Cài đặt |
-| `data/audio/` | Bản ghi âm Speaking |
+| `npm run content:validate` | Checks the whole library: required fields, unique IDs, 4 options (R3: A–E), valid answer key, evidence quoted verbatim, correct part format, no duplicate questions/passages. Add `-- --filter r1-` to narrow the scope. |
+| `npm run content:generate -- --skill reading --task R4 --count 3 [--set-type full\|drill\|mock] [--focus inference] [--topic housing]` | Generates **drafts** in small batches (≤ 25), validates them automatically, then runs an independent AI review. Resume an interrupted job with `-- --resume <jobId>`. Track tokens per job with `-- --list`. |
+| `npm run content:review -- --job <id> [--show/--approve/--reject <draftId>]` | Human review. A draft with errors cannot be approved. |
+| `npm run content:import [-- --target library]` | Imports approved drafts into `content/` (to commit) or into `$DATA_DIR/library`. |
+| `npm run audio:generate [-- --limit 10] [-- --status]` | Generates each listening clip **once** with Gemini TTS (multiple voices). Can be resumed and skips finished clips. |
+| `npm run test:smoke` | End-to-end test **without an API key** in a temporary data directory. |
+| `npm run typecheck` / `npm run build` | |
 
-## Những giới hạn cần biết
+The same actions (validation, audio, generation, approval, AI usage) are on the **Admin** page (`/admin`).
 
-- **Listening:** âm thanh được tạo bằng giọng đọc của trình duyệt (Web Speech API). Edge có giọng "Natural" en-CA khá tự nhiên, nhưng vẫn không giống hệt ghi âm thật. Part 5 trong đề thật là video; ở đây chỉ có âm thanh.
-- **Speaking:** AI chỉ nhận **bản chép lời**, vì speech-to-text chạy trong trình duyệt. Phát âm, ngữ điệu và độ trôi chảy của âm thanh **không được đánh giá**, và mọi trang kết quả đều ghi rõ điều này. Bạn nên tự nghe lại bản ghi âm.
-- **Ước tính điểm:** với Reading/Listening, ước tính dùng quy tắc kinh nghiệm (độ khó × độ chính xác), không phải bảng quy đổi chính thức. Với Writing/Speaking, đó là band do AI ước tính.
-- **Chi phí & hạn mức:** mỗi lần tạo đề hoặc chấm bài là một lần gọi Gemini API. Một bài thi thử tạo 20 phần đề (4 yêu cầu song song), sau đó chấm 10 bài Writing/Speaking. Với gói miễn phí, bạn có thể gặp lỗi 429 (vượt hạn mức); khi đó hãy chờ một lúc rồi thử lại, hoặc bật billing.
-- **Model:** nếu Google ngừng hỗ trợ model mặc định, app sẽ báo lỗi 404. Lúc đó hãy đặt `GEMINI_MODEL` trong `.env` thành một model đang hoạt động.
+> **Listening needs audio.** A listening set without generated audio is marked "pending audio" and excluded from practice and mock exams. It is **never** silently turned into a text exercise. The learner can turn on *browser voice* in Settings, and any set using it is clearly labelled.
+
+## Deploying to Railway
+
+1. **New Project → Deploy from GitHub repo.** `railway.json` already sets build = `npm run build` and start = `npm start`.
+2. **Variables:**
+
+   | Variable | Value |
+   |---|---|
+   | `APP_PASSWORD` | **Required** |
+   | `DATA_DIR` | `/data` |
+   | `GEMINI_API_KEY` | Optional |
+   | `GEMINI_MODEL` / `GEMINI_TTS_MODEL` | Optional |
+
+3. **Attach Volume** with mount path `/data`. Progress, AI results and audio live there and survive redeploys.
+4. **Generate Domain** to get HTTPS (needed for the microphone).
+5. Open `/admin` → *Audio Listening* → generate audio in small batches. Each clip is generated once and stored on the volume.
+
+## Limitations
+
+- **Speaking** is evaluated from the transcript only. Pronunciation and audio fluency are **not** assessed.
+- **Reading/Listening estimates** are a rough rule, not the official score conversion.
+- **Validation is not proof of quality.** It checks structure and consistency. Every item also needs a careful review (independent AI review + `review.status`). See `content/CONTENT_GUIDE.md` and `AUDIT.md`.

@@ -1,0 +1,68 @@
+{
+  "id": "w2-practice-02",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "New employee perk: casual Fridays or flexible start times",
+  "situation": "Your company wants to introduce a new benefit to improve employee morale. Management has sent all staff a short survey asking them to choose one of the two options below.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Casual Fridays — employees may wear casual clothing, such as jeans, every Friday.",
+  "optionB": "Option B: Flexible start times — employees may begin work at any time between 7:00 and 10:00 a.m., as long as they work a full day.",
+  "structure": [
+    "Opening: clear choice + why it matters more than the other option",
+    "Reason 1: the everyday problems it solves for staff (with specific examples)",
+    "Reason 2: the benefit for the company (productivity, customer service)",
+    "Fair comment on the other option + why it is less valuable",
+    "Conclusion: restate your support"
+  ],
+  "modelResponse": "In my opinion, flexible start times would be a far more valuable benefit for our staff than casual Fridays.\n\nThe main reason is that flexible hours solve real, everyday problems. Many of my colleagues have to drop their children off at school or daycare, and others commute from Langley or Maple Ridge, where traffic is unpredictable. Being able to start any time between 7:00 and 10:00 would reduce stress and lateness, and people could plan their days around their actual responsibilities.\n\nIn addition, flexible schedules could improve productivity. Some employees concentrate best early in the morning, while others are more focused later in the day. If people work during their most productive hours, the quality of their work is likely to improve. From an operations point of view, staggered start times would also extend the hours when someone is available to answer customers.\n\nCasual Fridays would certainly be pleasant, and they would cost the company nothing. However, the benefit is mostly symbolic, and our dress code is already fairly relaxed.\n\nOverall, flexible start times would make a genuine difference to employees' lives, so I strongly support this option.",
+  "usefulExpressions": [
+    {
+      "expression": "…would be a far more valuable… than…",
+      "usageVi": "So sánh hơn có 'far' để nhấn mạnh mức độ chênh lệch."
+    },
+    {
+      "expression": "The main reason is that…",
+      "usageVi": "Giới thiệu lý do chính, rõ ràng cho giám khảo."
+    },
+    {
+      "expression": "plan their days around…",
+      "usageVi": "Cụm động từ tự nhiên: sắp xếp lịch sinh hoạt xoay quanh việc gì đó."
+    },
+    {
+      "expression": "is likely to improve",
+      "usageVi": "Dự đoán có cơ sở, thận trọng hơn 'will improve'."
+    },
+    {
+      "expression": "From an operations point of view, …",
+      "usageVi": "Đưa góc nhìn chuyên môn (vận hành) vào lập luận, đặc biệt phù hợp nếu bạn làm trong ngành kho vận/logistics."
+    },
+    {
+      "expression": "…would certainly be pleasant. However, …",
+      "usageVi": "Thừa nhận ưu điểm của phương án kia trước khi phản bác."
+    },
+    {
+      "expression": "make a genuine difference to…",
+      "usageVi": "Cách nói tự nhiên cho 'có tác động thực sự đến…'."
+    }
+  ],
+  "commonMistakes": [
+    "Viết như thư gửi quản lý ('Dear Manager, …'). W2 là câu trả lời khảo sát, không cần lời chào hay ký tên.",
+    "Lý do chỉ xoay quanh bản thân ('I like to sleep late'). Lý do mạnh hơn khi nói về lợi ích cho nhiều đồng nghiệp và cho công ty.",
+    "Dùng 'flexible time start' hoặc 'start time flexible' — sai trật tự từ. Đúng: 'flexible start times'.",
+    "Lặp lại 'I think' quá nhiều lần. Thay bằng 'In my opinion', 'I strongly believe', 'It seems clear that'."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Generalized one usageVi that assumed the learner works in logistics. Model answer, structure and mistakes checked; no other changes."
+  },
+  "createdAt": "2026-10-26"
+}

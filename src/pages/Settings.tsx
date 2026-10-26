@@ -32,14 +32,23 @@ export function SettingsPage() {
     <div className="page">
       <h1>⚙️ Cài đặt</h1>
       <ErrorBox error={error} />
-      <Card title="Kết nối AI">
+      <Card title="AI (tùy chọn)">
         {status?.aiConfigured
-          ? <p>✅ Đã cấu hình API key · model <code>{status.model}</code></p>
-          : <p>❌ Chưa có <code>GEMINI_API_KEY</code>. Tạo file <code>.env</code> trong thư mục app (xem <code>.env.example</code>) rồi khởi động lại server.</p>}
-        <label className="field">Mức suy nghĩ khi tạo đề Reading/Listening
+          ? <p>✅ Đã cấu hình Gemini · model <code>{status.model}</code></p>
+          : <p>❌ Chưa có <code>GEMINI_API_KEY</code>. Reading, Listening (có audio), từ vựng, sổ lỗi, kế hoạch và thi thử vẫn hoạt động bình thường. Chỉ nhận xét Writing/Speaking, Tutor và công cụ quản trị cần AI.</p>}
+        <p className="small muted">AI chỉ được gọi khi bạn bấm: “Nhận xét bằng AI”, hỏi Tutor, hoặc thao tác ở trang Quản trị. Thống kê lượt gọi & token: <a href="/admin">Quản trị → Sử dụng AI</a>. Đổi model qua biến môi trường <code>GEMINI_MODEL</code>.</p>
+        <label className="row gap-s"><input type="checkbox" checked={s.aiCache} onChange={(e) => upd({ aiCache: e.target.checked })} /> Dùng lại nhận xét AI đã có khi nộp lại đúng bài làm giống hệt (tiết kiệm quota)</label>
+        <label className="field">Mức suy nghĩ khi sinh nội dung (trang Quản trị)
           <select value={s.effort} onChange={(e) => upd({ effort: e.target.value as Settings["effort"] })}>
             <option value="low">Nhanh (low)</option><option value="medium">Cân bằng (medium)</option><option value="high">Kỹ nhất (high, chậm hơn)</option>
           </select>
+        </label>
+      </Card>
+
+      <Card title="Audio Listening">
+        <p className="small muted">Bài Listening dùng audio dựng sẵn (tạo một lần ở trang Quản trị). Bài chưa có audio bị loại khỏi luyện tập và thi thử.</p>
+        <label className="row gap-s"><input type="checkbox" checked={s.allowBrowserVoice} onChange={(e) => upd({ allowBrowserVoice: e.target.checked })} />
+          <span>Cho phép dùng <strong>giọng đọc trình duyệt</strong> cho bài chưa có audio (chất lượng thấp hơn, luôn được ghi chú rõ trên bài).</span>
         </label>
       </Card>
 

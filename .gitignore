@@ -1,5 +1,5 @@
 node_modules
 dist
 .env
-data/*.json
-data/audio
+# All learner data, AI results, generated audio and drafts live in DATA_DIR (default ./data) — never in git.
+data/

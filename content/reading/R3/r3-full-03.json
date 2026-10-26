@@ -1,0 +1,189 @@
+{
+  "id": "r3-full-03",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "From One Truck to 120: A Fraser Valley Family Business",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 9 independently; keys match; one paragraph per statement, Q4 E verified (no pay comparison anywhere). Statements paraphrase well. No changes." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "In 1988, Gurdev Dhaliwal spent most of his savings on a used tractor-trailer and began hauling raspberries and blueberries from Fraser Valley farms to a processing plant in Abbotsford. He drove six days a week during the summer harvest and repaired the truck himself in a rented shed. His wife, Manjit, kept the books at the kitchen table and took calls from farmers in the evenings. Within five years the couple owned four trucks, but the work was still almost entirely seasonal. In the winter months, Gurdev often drove for other companies to keep up with the loan payments.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "The turning point came in 1996, when a dairy co-operative in Chilliwack asked whether the company could move refrigerated milk products to grocery warehouses in Delta and Surrey. Accepting the contract meant buying three refrigerated trailers, a risk the family debated for weeks. It paid off: the dairy work ran twelve months a year and closed the winter gap that had troubled the business since it began. Over the next decade, Dhaliwal Valley Freight added routes to the Okanagan and to Calgary, and by 2008 it employed 45 drivers. Gurdev still insisted on meeting every new driver personally before their first trip.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "His daughter, Simran, joined the company in 2010 after six years as a logistics analyst for a national retailer. She introduced GPS tracking and routing software that cut the number of trucks returning empty, a problem she estimates had been eating up about 15 per cent of the fuel budget. Several long-time drivers objected to being tracked, so she arranged for them to see the same screens the dispatchers saw, including their own idle time. Most of the complaints stopped within a few months. Today, drivers check their schedules and submit their logbooks on a tablet, and the dispatch office runs around the clock.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "The company now runs 120 trucks, but finding drivers has become harder than finding customers. The average age of its drivers is 51, and Simran says roughly a quarter of them could retire within five years. In 2022 the firm began paying the full cost of commercial licence training for new hires who agree to stay for at least two years. The November 2021 floods, which cut highway links between the Lower Mainland and the rest of the province for weeks, also pushed the family to open a small second yard in Kamloops, so that their trucks are never all trapped on one side of a closure.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "New employees can have their training paid for if they promise to remain with the company.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A nói về những năm đầu, chưa có nhân viên được đào tạo." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B có 'every new driver' nhưng chỉ nói ông Gurdev gặp từng tài xế mới, không nói trả tiền đào tạo." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về phần mềm và máy tính bảng, không nói về chi phí đào tạo." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Công ty trả 'the full cost of commercial licence training for new hires who agree to stay for at least two years'." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "the firm began paying the full cost of commercial licence training for new hires who agree to stay for at least two years",
+      "explanationVi": "'New employees' = 'new hires'; 'promise to remain with the company' = 'agree to stay for at least two years'; 'have their training paid for' = 'paying the full cost of ... training'."
+    },
+    {
+      "number": 2,
+      "prompt": "In the early years, the founder sometimes had to work for other employers during the off-season.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Đoạn A nói vào mùa đông Gurdev 'often drove for other companies' để trả tiền vay." },
+        { "text": "B", "trap": "partially_true", "whyVi": "Đoạn B có nhắc 'the winter gap' (khoảng trống mùa đông) nhưng không nói người sáng lập đi làm cho công ty khác." },
+        { "text": "C", "trap": "wrong_speaker", "whyVi": "Đoạn C nói Simran từng làm cho một nhà bán lẻ quốc gia — đó là con gái, không phải người sáng lập, và không phải công việc theo mùa." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về tình hình hiện tại, không nói về những năm đầu." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "In the winter months, Gurdev often drove for other companies to keep up with the loan payments.",
+      "explanationVi": "'The founder' = Gurdev; 'the off-season' = 'the winter months' (vì công việc chở trái cây chỉ có vào mùa hè); 'work for other employers' = 'drove for other companies'. Đoạn B chỉ nói khoảng trống mùa đông đã được giải quyết, không nói ông làm gì."
+    },
+    {
+      "number": 3,
+      "prompt": "A request from a client led the business to make a large purchase.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A có một khoản chi lớn (mua xe tải cũ bằng tiền tiết kiệm) nhưng không phải do khách hàng yêu cầu." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Hợp tác xã sữa hỏi công ty có thể chở hàng lạnh không, và nhận hợp đồng nghĩa là phải mua ba rơ-moóc lạnh." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'a national retailer' (một khách hàng tiềm năng) nhưng đó là nơi Simran từng làm việc, không phải khách yêu cầu dịch vụ." },
+        { "text": "D", "trap": "wrong_detail", "whyVi": "Đoạn D nói việc mở bãi xe thứ hai là do lũ lụt, không phải do khách hàng yêu cầu." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Accepting the contract meant buying three refrigerated trailers, a risk the family debated for weeks.",
+      "explanationVi": "Câu hỏi có hai ý: (1) khách hàng yêu cầu và (2) mua sắm lớn. Đoạn B có cả hai: 'a dairy co-operative ... asked' và 'buying three refrigerated trailers'. Đoạn A và D có chi tiêu lớn nhưng không do khách hàng yêu cầu."
+    },
+    {
+      "number": 4,
+      "prompt": "The company's drivers earn more than drivers at most other trucking firms.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'drove for other companies' nhưng không so sánh lương." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói số lượng tài xế năm 2008, không nói lương." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về theo dõi GPS, không nói lương." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D nói công ty trả chi phí đào tạo bằng lái và khó tuyển tài xế, nhưng không nói lương của tài xế cao hơn nơi khác." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: Không đoạn nào so sánh lương tài xế với công ty khác." }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "In 2022 the firm began paying the full cost of commercial licence training",
+      "explanationVi": "Câu gần nhất là ở Đoạn D: công ty 'paying the full cost of ... training'. Đây là trả tiền đào tạo, không phải lương. Bài cũng nói khó tìm tài xế, nên người đọc dễ đoán công ty trả lương cao — nhưng bài không hề nói vậy. Chọn E."
+    },
+    {
+      "number": 5,
+      "prompt": "Staff who disliked being monitored were shown the same information the office team used.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không có công nghệ theo dõi." },
+        { "text": "B", "trap": "wrong_detail", "whyVi": "Đoạn B nói ông Gurdev gặp riêng từng tài xế mới, không phải chia sẻ dữ liệu theo dõi." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Tài xế phản đối bị theo dõi nên Simran cho họ xem 'the same screens the dispatchers saw'." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về tuổi tài xế và lũ lụt, không nói về việc theo dõi." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Several long-time drivers objected to being tracked, so she arranged for them to see the same screens the dispatchers saw",
+      "explanationVi": "'Disliked being monitored' = 'objected to being tracked'; 'the office team' = 'the dispatchers' (nhân viên điều phối); 'were shown the same information' = 'see the same screens'.",
+      "vocabulary": ["object to", "dispatcher"]
+    },
+    {
+      "number": 6,
+      "prompt": "The founder's partner was in charge of the money side of the business at first.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Vợ ông, Manjit, 'kept the books' — tức là ghi chép sổ sách kế toán." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B có 'the family debated' về việc mua rơ-moóc, nhưng không nói ai quản lý tài chính." },
+        { "text": "C", "trap": "wrong_speaker", "whyVi": "Đoạn C nói về Simran (con gái), người giảm chi phí nhiên liệu — không phải vợ người sáng lập và không phải những năm đầu." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D không nói ai quản lý tài chính." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "vocabulary",
+      "evidence": "His wife, Manjit, kept the books at the kitchen table",
+      "explanationVi": "Thành ngữ 'keep the books' nghĩa là làm sổ sách kế toán → 'in charge of the money side'. 'The founder's partner' = 'His wife'. Đây là câu hỏi từ vựng: nếu không biết 'keep the books' sẽ dễ bỏ qua.",
+      "vocabulary": ["keep the books"]
+    },
+    {
+      "number": 7,
+      "prompt": "An extreme weather event caused the company to set up a base in another city.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A có 'a rented shed' nhưng không liên quan đến thời tiết." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B nói công ty mở tuyến đến Okanagan và Calgary — đó là mở rộng tuyến đường, không phải lập cơ sở mới do thời tiết." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C không nói về thời tiết." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Trận lũ tháng 11/2021 khiến gia đình mở 'a small second yard in Kamloops'." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "The November 2021 floods, which cut highway links between the Lower Mainland and the rest of the province for weeks, also pushed the family to open a small second yard in Kamloops",
+      "explanationVi": "'An extreme weather event' = 'The November 2021 floods'; 'caused ... to' = 'pushed ... to'; 'set up a base in another city' = 'open a small second yard in Kamloops'."
+    },
+    {
+      "number": 8,
+      "prompt": "A family member brought knowledge gained at a different employer into the company.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'drove for other companies' nhưng ông Gurdev đi làm thêm để trả nợ, không phải mang kiến thức về." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B không nói ai mang kinh nghiệm từ nơi khác về." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Simran vào công ty sau sáu năm làm 'logistics analyst for a national retailer' và áp dụng phần mềm định tuyến." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D có Simran phát biểu về tài xế, nhưng không nói kinh nghiệm trước đây của cô." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "His daughter, Simran, joined the company in 2010 after six years as a logistics analyst for a national retailer.",
+      "explanationVi": "'A family member' = 'His daughter, Simran'; 'a different employer' = 'a national retailer'. Bài không nói thẳng cô 'mang kiến thức về', nhưng ngay sau đó cô giới thiệu GPS và phần mềm định tuyến — suy ra cô áp dụng kinh nghiệm logistics."
+    },
+    {
+      "number": 9,
+      "prompt": "Taking on work that continued all year solved the problem of quiet months.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A mô tả vấn đề (công việc theo mùa) nhưng chưa có giải pháp." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Việc chở sữa 'ran twelve months a year and closed the winter gap'." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói phòng điều phối hoạt động suốt ngày đêm ('around the clock') — đó là về giờ làm, không phải mùa vắng việc." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói vấn đề hiện nay là thiếu tài xế, không phải thiếu việc." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "the dairy work ran twelve months a year and closed the winter gap that had troubled the business since it began",
+      "explanationVi": "'Work that continued all year' = 'ran twelve months a year'; 'solved the problem of quiet months' = 'closed the winter gap'. Đoạn A chỉ nêu vấn đề; Đoạn B mới nêu cách giải quyết."
+    }
+  ],
+  "vocabulary": [
+    { "term": "haul", "vi": "chở, vận chuyển (hàng nặng)", "definition": "to carry goods, usually by truck, over a distance", "example": "He began hauling blueberries to a processing plant." },
+    { "term": "keep the books", "vi": "làm sổ sách kế toán", "definition": "to record the money a business receives and spends", "example": "Manjit kept the books at the kitchen table." },
+    { "term": "turning point", "vi": "bước ngoặt", "definition": "a time when an important change happens", "example": "The dairy contract was the turning point for the company." },
+    { "term": "pay off", "vi": "mang lại kết quả tốt, đáng công", "definition": "to bring a good result after a risk or effort", "example": "The risk paid off within a year." },
+    { "term": "object to", "vi": "phản đối", "definition": "to say that you do not like or agree with something", "example": "Some drivers objected to being tracked." },
+    { "term": "dispatcher", "vi": "nhân viên điều phối", "definition": "a person who sends vehicles or workers where they are needed", "example": "The dispatchers can see every truck on the map." },
+    { "term": "idle time", "vi": "thời gian chạy không tải / chờ", "definition": "time when a vehicle or worker is not doing productive work", "example": "Drivers could see their own idle time on the screen." },
+    { "term": "new hire", "vi": "nhân viên mới tuyển", "definition": "a person who has recently been employed", "example": "New hires must agree to stay for two years." }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "r3-mock-01",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "Paramedics Who Knock Before the Emergency",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 9 independently; keys match. Q4 and Q8 E verified (no cost savings or extra pay stated). Q7 relies on 'own figures' - acceptable inference. No changes." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "In the small communities strung along Highway 16 west of Prince George, the nearest hospital can be more than an hour away, and an ambulance crew may go days between emergency calls. Since 2019, paramedics in twelve of these towns have been spending their quieter hours on scheduled home visits through the Northern Community Paramedicine Initiative. Rather than sitting at the station, they check blood pressure, go over medications and look for hazards such as loose rugs or poor lighting. Their patients are mostly elderly or chronically ill residents referred by a family doctor, a nurse practitioner or a hospital discharge planner. The visits cost patients nothing.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "Lorraine Bjornson, 78, lives alone with heart failure. Before she joined, she made seven trips to the emergency department in a single year, usually when fluid built up in her lungs. Now paramedic Tomás Reyes visits every two weeks and weighs her each time, because a sudden gain of two kilograms is often the first sign that fluid is collecting. When that happens, he can phone her doctor the same afternoon to adjust her medication. She has needed emergency care only once in the past eighteen months. Across the initiative, emergency visits among enrolled patients have dropped by about 40 per cent, according to the health authority's own figures.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "The approach is not without critics. The union representing paramedics supports the visits in principle but warns that in towns with a single crew, a paramedic on a home visit may be twenty minutes from the ambulance when a 911 call comes in. The health authority says visits are booked within a short drive of the station and are cancelled whenever crews are needed elsewhere, but it has not said how often that happens. Some family doctors raise a different concern: paramedics' notes are not always entered into the clinic's records system in time, so a doctor may change a prescription without knowing what the paramedic observed that morning.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Paramedics in the initiative complete an extra 120 hours of training in chronic disease, wound care and medication safety, most of it online so that they do not have to leave their communities. The program will expand to nine more towns next spring, and organizers hope to add video calls so that a physician in Prince George can examine a wound through the paramedic's tablet. For Reyes, who spent his first decade on the job in Surrey, the biggest change has been the relationships. \"In the city, you meet people on the worst day of their lives and never see them again,\" he says. \"Here, I know who takes milk in their tea.\"",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "A change in a patient's weight can be an early warning of a health problem.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A liệt kê những gì nhân viên kiểm tra (huyết áp, thuốc, nguy cơ té ngã) nhưng không nói gì về cân nặng." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Tăng hai ký đột ngột 'is often the first sign that fluid is collecting'." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'what the paramedic observed' nhưng nói về việc ghi chép không kịp, không nói về dấu hiệu cân nặng." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về đào tạo và mở rộng chương trình." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "a sudden gain of two kilograms is often the first sign that fluid is collecting",
+      "explanationVi": "'A change in weight' = 'a sudden gain of two kilograms'; 'an early warning' = 'the first sign'. Từ khoá 'weigh' chỉ xuất hiện ở Đoạn B."
+    },
+    {
+      "number": 2,
+      "prompt": "Paramedics now make use of time they would otherwise spend waiting for emergency calls.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Đoạn A nói nhân viên cấp cứu dùng 'quieter hours' để đi thăm nhà, 'Rather than sitting at the station'." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói về một bệnh nhân cụ thể, không nói nhân viên dùng thời gian rảnh thế nào." },
+        { "text": "C", "trap": "opposite", "whyVi": "Đoạn C lo ngại điều ngược lại: khi đi thăm nhà, nhân viên có thể ở xa xe cứu thương lúc có cuộc gọi 911." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về đào tạo, không nói về thời gian chờ." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "paramedics in twelve of these towns have been spending their quieter hours on scheduled home visits",
+      "explanationVi": "Đoạn A nói xe cứu thương có thể 'go days between emergency calls' và nhân viên dùng 'quieter hours' đi thăm nhà 'Rather than sitting at the station'. Ghép các ý lại → họ tận dụng thời gian lẽ ra chỉ ngồi chờ."
+    },
+    {
+      "number": 3,
+      "prompt": "Some fear the program could slow down the response to emergencies.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có nói bệnh viện gần nhất cách hơn một giờ, nhưng đó là khoảng cách địa lý, không phải lo ngại về chương trình." },
+        { "text": "B", "trap": "opposite", "whyVi": "Đoạn B cho thấy chương trình giảm số lần phải cấp cứu — tác động tích cực, không phải lo ngại." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Công đoàn cảnh báo nhân viên đang thăm nhà có thể cách xe cứu thương 20 phút khi có cuộc gọi 911." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D không nói về lo ngại nào." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "a paramedic on a home visit may be twenty minutes from the ambulance when a 911 call comes in",
+      "explanationVi": "Đoạn C không dùng từ 'slow down', nhưng 'twenty minutes from the ambulance when a 911 call comes in' ngụ ý phản ứng cấp cứu sẽ chậm hơn. 'Some fear' = 'warns'."
+    },
+    {
+      "number": 4,
+      "prompt": "The program has lowered the amount the health authority spends on care.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'cost patients nothing' — đó là chi phí của bệnh nhân, không phải chi tiêu của cơ quan y tế." },
+        { "text": "B", "trap": "partially_true", "whyVi": "Đoạn B nói số lượt cấp cứu giảm khoảng 40%, nhưng không nói chi phí giảm bao nhiêu hay có giảm không." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về lo ngại, không có số liệu chi phí." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói chương trình mở rộng nhưng không nói về tiết kiệm chi phí." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: Không đoạn nào nói chương trình giúp cơ quan y tế tiết kiệm tiền." }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "emergency visits among enrolled patients have dropped by about 40 per cent",
+      "explanationVi": "Câu gần nhất ở Đoạn B: số lượt cấp cứu giảm 40%. Người đọc dễ suy ra 'ít cấp cứu hơn = tiết kiệm tiền', nhưng bài không nói về chi tiêu. 'Cost patients nothing' ở Đoạn A là về bệnh nhân. Không có thông tin → E."
+    },
+    {
+      "number": 5,
+      "prompt": "Most of the additional instruction can be completed without travelling.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có nhắc khoảng cách (bệnh viện cách hơn một giờ) nhưng không nói về đào tạo." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B không nói về đào tạo." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C không nói về đào tạo." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: 120 giờ đào tạo thêm, 'most of it online so that they do not have to leave their communities'." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "most of it online so that they do not have to leave their communities",
+      "explanationVi": "'Additional instruction' = 'an extra 120 hours of training'; 'without travelling' = 'online so that they do not have to leave their communities'."
+    },
+    {
+      "number": 6,
+      "prompt": "Doctors may not have up-to-date information about what paramedics have seen.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'a family doctor' nhưng chỉ nói bác sĩ giới thiệu bệnh nhân." },
+        { "text": "B", "trap": "opposite", "whyVi": "Đoạn B nói anh Reyes gọi cho bác sĩ ngay trong buổi chiều — thông tin đến nhanh, ngược với câu hỏi." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Ghi chép của nhân viên cấp cứu 'are not always entered into the clinic's records system in time'." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D nói về kế hoạch gọi video để bác sĩ xem vết thương — đó là dự định tương lai, không nói về vấn đề thông tin bị chậm." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "paramedics' notes are not always entered into the clinic's records system in time",
+      "explanationVi": "'May not have up-to-date information' = ghi chép 'not always entered ... in time'; 'what paramedics have seen' = 'what the paramedic observed'. Lưu ý Đoạn B có ví dụ ngược lại (gọi bác sĩ ngay), nên đọc kỹ."
+    },
+    {
+      "number": 7,
+      "prompt": "The figures showing the program's success were produced by the health authority itself rather than by outside researchers.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không đưa ra kết quả nào." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Con số giảm 40% là 'according to the health authority's own figures' — số liệu của chính cơ quan điều hành." },
+        { "text": "C", "trap": "wrong_detail", "whyVi": "Đoạn C nói cơ quan y tế chưa công bố số lần huỷ thăm nhà — đó là thông tin bị thiếu, không phải nguồn của kết quả." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D không nói về kết quả hay nguồn số liệu." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Đoạn B có cho biết nguồn số liệu ('own figures'), nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "according to the health authority's own figures",
+      "explanationVi": "Chữ 'own' rất quan trọng: 'the health authority's own figures' nghĩa là số liệu do chính cơ quan y tế (đơn vị điều hành chương trình) đưa ra, không phải nghiên cứu độc lập. Câu này kiểm tra khả năng đọc chi tiết nhỏ ở cuối Đoạn B.",
+      "vocabulary": ["according to"]
+    },
+    {
+      "number": 8,
+      "prompt": "Paramedics receive extra pay for taking part in the home visits.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A nói thăm nhà miễn phí cho bệnh nhân, không nói nhân viên có được trả thêm không." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B không nói về lương." },
+        { "text": "C", "trap": "wrong_speaker", "whyVi": "Đoạn C có công đoàn nhân viên cấp cứu, nhưng họ chỉ lo về thời gian phản ứng, không nói về lương." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D có từ 'extra' nhưng là 'extra 120 hours of training', không phải tiền trả thêm." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: Không đoạn nào nói nhân viên được trả thêm tiền." }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "Paramedics in the initiative complete an extra 120 hours of training",
+      "explanationVi": "Câu gần nhất là ở Đoạn D, có từ 'extra' — nhưng là thêm giờ đào tạo, không phải thêm lương. Công đoàn ở Đoạn C cũng không nhắc tới tiền. Bài không có thông tin về lương → E."
+    },
+    {
+      "number": 9,
+      "prompt": "One paramedic values getting to know patients over a long period.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A mô tả công việc chung, không có cảm nhận cá nhân." },
+        { "text": "B", "trap": "wrong_detail", "whyVi": "Đoạn B có anh Reyes thăm bà Bjornson hai tuần một lần, nhưng không nói cảm nhận của anh về mối quan hệ." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói ý kiến của công đoàn và bác sĩ, không phải cảm nhận của một nhân viên." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Reyes nói thay đổi lớn nhất là 'the relationships' và anh biết ai uống trà với sữa." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "the biggest change has been the relationships",
+      "explanationVi": "Reyes so sánh: ở thành phố 'never see them again', còn ở đây 'I know who takes milk in their tea'. Giọng điệu cho thấy anh trân trọng việc quen biết bệnh nhân lâu dài. Đoạn B có tên Reyes nhưng chỉ mô tả việc anh làm."
+    }
+  ],
+  "vocabulary": [
+    { "term": "referral / refer", "vi": "giới thiệu (bệnh nhân) đến dịch vụ khác", "definition": "to send someone to another person or service for help", "example": "Her family doctor referred her to the program." },
+    { "term": "chronically ill", "vi": "mắc bệnh mãn tính", "definition": "having an illness that lasts a long time", "example": "Most patients are elderly or chronically ill." },
+    { "term": "discharge planner", "vi": "nhân viên lập kế hoạch xuất viện", "definition": "a hospital worker who arranges care for patients leaving hospital", "example": "A discharge planner can also refer patients." },
+    { "term": "in principle", "vi": "về nguyên tắc", "definition": "agreeing with the general idea, but perhaps not the details", "example": "The union supports the visits in principle." },
+    { "term": "according to", "vi": "theo (nguồn thông tin)", "definition": "as stated by a person or source", "example": "According to the health authority, visits dropped by 40 per cent." },
+    { "term": "enrol", "vi": "ghi danh, tham gia", "definition": "to officially join a program or course", "example": "Enrolled patients made fewer emergency visits." },
+    { "term": "hazard", "vi": "mối nguy hiểm", "definition": "something that could cause harm or an accident", "example": "Loose rugs are a common hazard for older adults." },
+    { "term": "not without critics", "vi": "cũng có người phản đối", "definition": "having some people who disagree with it", "example": "The plan is popular, but it is not without critics." }
+  ]
+}

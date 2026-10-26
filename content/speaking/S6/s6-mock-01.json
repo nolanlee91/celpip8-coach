@@ -1,0 +1,59 @@
+{
+  "id": "s6-mock-01",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "workplace",
+  "title": "A colleague's late invoices causing fees",
+  "prompt": "You work on the accounts payable team at a mid-sized company. You have noticed that your colleague Anna, who is also a good friend, has been entering supplier invoices several days late. As a result, the company has paid late-payment fees twice this month. Your supervisor has started asking why the fees are happening, and the quarter-end review is in two weeks.\n\nChoose ONE of the following options:\n\nOption A: Talk to Anna. Tell her what you have noticed and encourage her to deal with the problem.\n\nOption B: Talk to your supervisor. Explain what you have noticed and suggest a fair way to handle the situation.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Open politely + link to the supervisor's question about the fees",
+    "State the facts you have noticed (neutral, specific, no blame)",
+    "Give fair context about your colleague",
+    "Suggest 1–2 practical solutions focused on the process",
+    "Offer your help + close"
+  ],
+  "modelAnswer": "Hi Robert, thanks for making time to see me. I wanted to talk about the late fees you asked about last week, because I think I may know what's causing them.\n\nI've noticed that some supplier invoices have been entered three or four days after we receive them. A few of those suppliers have strict payment terms, so even a short delay triggers a penalty. I'm bringing it up now because I don't want it to become a bigger issue at the quarter-end review.\n\nNow, I want to be fair here. It's mostly been Anna's batches, but she's been covering two extra vendors since Carlos left, and I honestly think she's overloaded rather than careless. So, instead of treating this as a performance problem, could we look at the workload? Maybe we could split the high-volume vendors between the three of us, or set up a shared tracker that flags invoices due within five days.\n\nI'd be happy to help set that up if it works for you.",
+  "usefulExpressions": [
+    {
+      "expression": "I think I may know what's causing them.",
+      "usageVi": "Giới thiệu vấn đề một cách thận trọng, không khẳng định quá mức."
+    },
+    {
+      "expression": "I'm bringing it up now because…",
+      "usageVi": "'bring up' = nêu ra; giải thích lý do bạn lên tiếng."
+    },
+    {
+      "expression": "Now, I want to be fair here.",
+      "usageVi": "Chuyển sang phần bảo vệ đồng nghiệp — thể hiện sự chín chắn và công bằng."
+    },
+    {
+      "expression": "…overloaded rather than careless",
+      "usageVi": "So sánh hai nguyên nhân để định hướng cách giải quyết tích cực."
+    },
+    {
+      "expression": "instead of treating this as…, could we…?",
+      "usageVi": "Đề xuất cách tiếp cận khác một cách lịch sự với cấp trên."
+    },
+    {
+      "expression": "I'd be happy to help…",
+      "usageVi": "Chủ động đề nghị giúp đỡ, kết thúc mang tính xây dựng."
+    }
+  ],
+  "commonMistakes": [
+    "Đổ lỗi trực tiếp cho đồng nghiệp ('Anna is lazy'). Với cấp trên, hãy nói sự thật trung lập và tập trung vào giải pháp quy trình.",
+    "Mở đầu bằng 'I choose option B'. Giám khảo muốn bạn nói chuyện trực tiếp với người được chọn ngay từ đầu.",
+    "Dùng sai thì: 'She enters invoices late since March' → 'She has been entering invoices late since March'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked option B spoken directly to the supervisor, neutral fact-based tone, fair context about Anna, process-focused solution, length (~168). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

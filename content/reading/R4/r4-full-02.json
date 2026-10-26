@@ -1,0 +1,186 @@
+{
+  "id": "r4-full-02",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "housing",
+  "title": "Laneway Homes: Gentle Density or Crowded Lanes?",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 10 independently; keys match; each blank has one option consistent with the article. No changes. Minor realism note: real BC housing legislation already requires municipalities to permit small-scale multi-unit housing, but the city is fictional and no rule is claimed." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "Hollis Creek council is expected to vote next month on a proposal that would allow laneway homes, small detached houses built at the back of a lot and facing the lane, on almost every single-family property in the city. Supporters call it \"gentle density\": adding homes without adding towers. Opponents say it is anything but gentle for the people next door.\n\nThe proposal would permit laneway homes of up to 90 square metres on lots wider than ten metres, as long as the owner either lives on the property or rents both units on long-term leases. Short-term rentals through holiday websites would be banned in the new units. City staff estimate that around 400 laneway homes could be built in the first five years, a modest number compared with the 3,000 new homes the province expects Hollis Creek to add by 2031.\n\nFor Yasmin Nwosu, a nurse who rents a basement suite with her teenage son, the change cannot come soon enough. \"A laneway home has its own front door, windows at eye level and nobody walking around above your bedroom at midnight,\" she said. \"For families like mine, that's the difference between renting somewhere and actually living somewhere.\"\n\nBuilder Arturo Benedetti, who has completed more than sixty laneway homes in Vancouver, says demand is strongest among older homeowners. \"A lot of my clients are retired couples,\" he said. \"They move into the laneway house, rent the main house to a young family, and the rent covers their property taxes and then some. They get to stay on the street they love.\"\n\nBut residents of the Elmwood neighbourhood have organised against the plan. Graham Pettigrew, who chairs the Elmwood Residents' Association, says the group does not oppose new housing but worries about parking, shade and the loss of mature trees. \"Many of our lanes are narrow and unpaved,\" he said. \"Add forty new households and fire trucks and garbage trucks will struggle to get through.\" The association has asked council to require one off-street parking space for every laneway home, a condition builders say would make most projects impossible on standard lots.\n\nPlanning director Sung-min Park acknowledges that trees are a real concern, and the draft bylaw requires a replacement tree to be planted for any healthy tree removed. On parking, however, she is less sympathetic. \"Most of these lots are within a ten-minute walk of a bus stop,\" she said. \"If we require parking for every new home, we're designing the city for cars rather than for people.\"\n\nEconomists are more cautious than either side. Dr. Helen Mayrhofer of the Pacific Institute for Housing Studies notes that laneway homes often cost $400,000 or more to build, so the rents they generate are rarely within reach of low-income households. \"They're a useful piece of the puzzle,\" she said. \"But nobody should promise that they will solve affordability by themselves.\"\n\nCouncil will hold a public hearing on November 18 before the final vote.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I live on one of the narrow Elmwood lanes Mr. Pettigrew described, and I was surprised to find myself agreeing with parts of this proposal. The rule that owners must live on site or rent long term should stop these units from [[6]]. I also appreciate that the city will [[7]] whenever a healthy tree comes down. However, I share the association's worry about emergency access, and I don't think Ms. Park has [[8]]. Her point about bus stops answers the parking question, not the question of whether a fire truck can turn into our lane. As for affordability, Dr. Mayrhofer is right that a $400,000 cottage will [[9]]. I hope council uses the [[10]] on November 18 to listen to the people who actually live on these lanes.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Why does Yasmin Nwosu support the proposal?",
+      "options": [
+        { "text": "She expects laneway homes to rent for less than basement suites.", "trap": "not_mentioned", "whyVi": "Chị không nói gì về giá thuê; chị nói về cửa riêng, cửa sổ và tiếng ồn." },
+        { "text": "She is planning to build a laneway home for her son.", "trap": "wrong_detail", "whyVi": "Chị là người thuê nhà, không nói sẽ xây nhà cho con trai." },
+        { "text": "Laneway homes would give tenants more privacy and a greater sense of home.", "trap": "none", "whyVi": "Đúng: Chị nhắc đến cửa trước riêng, không có người đi lại phía trên phòng ngủ, và 'the difference between renting somewhere and actually living somewhere'." },
+        { "text": "She believes laneway homes will solve the city's housing shortage.", "trap": "wrong_speaker", "whyVi": "Chị không nói vậy; còn Dr. Mayrhofer thì cảnh báo không nên hứa nhà laneway giải quyết được vấn đề." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "\"For families like mine, that's the difference between renting somewhere and actually living somewhere.\"",
+      "explanationVi": "Yasmin so sánh tầng hầm với nhà laneway: 'its own front door', 'nobody walking around above your bedroom' → riêng tư hơn. 'Actually living somewhere' → cảm giác có một mái nhà thực sự ('a greater sense of home')."
+    },
+    {
+      "number": 2,
+      "prompt": "According to Arturo Benedetti, what do many of his retired clients do?",
+      "options": [
+        { "text": "They move into the smaller home and rent out the main house to cover their costs.", "trap": "none", "whyVi": "Đúng: 'They move into the laneway house, rent the main house to a young family, and the rent covers their property taxes'." },
+        { "text": "They sell their main house and move to a quieter street.", "trap": "opposite", "whyVi": "Ngược lại: họ ở lại con phố họ yêu thích ('stay on the street they love') và cho thuê chứ không bán." },
+        { "text": "They rent the laneway home to tourists through holiday websites.", "trap": "word_match", "whyVi": "Bài có 'holiday websites' nhưng đó là quy định cấm cho thuê ngắn hạn, không phải điều khách của Benedetti làm." },
+        { "text": "They build laneway homes for their adult children.", "trap": "not_mentioned", "whyVi": "Benedetti không nhắc đến con cái của khách hàng." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "They move into the laneway house, rent the main house to a young family, and the rent covers their property taxes and then some.",
+      "explanationVi": "'The smaller home' = 'the laneway house'; 'rent out the main house' = 'rent the main house to a young family'; 'to cover their costs' = 'the rent covers their property taxes and then some' ('and then some' = còn dư nữa).",
+      "vocabulary": ["and then some"]
+    },
+    {
+      "number": 3,
+      "prompt": "How does Sung-min Park feel about the request for off-street parking?",
+      "options": [
+        { "text": "She supports it as a way to protect mature trees.", "trap": "wrong_detail", "whyVi": "Bà đồng ý về vấn đề cây (yêu cầu trồng cây thay thế), nhưng không đồng ý với yêu cầu chỗ đậu xe." },
+        { "text": "She agrees that the lanes are too narrow for emergency vehicles.", "trap": "wrong_speaker", "whyVi": "Ý lối đi hẹp là của Graham Pettigrew, không phải của bà Park." },
+        { "text": "She has not yet formed an opinion about it.", "trap": "opposite", "whyVi": "Bà nói rõ quan điểm: yêu cầu đó là thiết kế thành phố cho xe hơi." },
+        { "text": "She opposes it because it would put cars ahead of residents' needs.", "trap": "none", "whyVi": "Đúng: Bà 'less sympathetic' về chỗ đậu xe và nói yêu cầu đó là 'designing the city for cars rather than for people'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "\"If we require parking for every new home, we're designing the city for cars rather than for people.\"",
+      "explanationVi": "Câu hỏi về thái độ. 'Less sympathetic' (ít đồng cảm hơn) cho thấy bà không đồng ý. Lý do: 'designing the city for cars rather than for people' → đặt xe hơi lên trên nhu cầu con người.",
+      "vocabulary": ["sympathetic"]
+    },
+    {
+      "number": 4,
+      "prompt": "What has the Elmwood Residents' Association asked council to do?",
+      "options": [
+        { "text": "Reject all new housing in the Elmwood neighbourhood", "trap": "opposite", "whyVi": "Hội nói rõ họ 'does not oppose new housing'." },
+        { "text": "Make each laneway home include a parking space off the street", "trap": "none", "whyVi": "Đúng: Hội yêu cầu 'one off-street parking space for every laneway home'." },
+        { "text": "Pave the narrow lanes before any homes are built", "trap": "word_match", "whyVi": "Bài có 'narrow and unpaved' nhưng hội không yêu cầu trải nhựa đường." },
+        { "text": "Require a new tree for every healthy tree removed", "trap": "wrong_speaker", "whyVi": "Quy định trồng cây thay thế nằm trong dự thảo của thành phố (bà Park), không phải yêu cầu của hội." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "The association has asked council to require one off-street parking space for every laneway home",
+      "explanationVi": "Tìm động từ 'asked council to'. Câu này nói rõ yêu cầu: 'one off-street parking space for every laneway home'. Cẩn thận: trồng cây thay thế là quy định của thành phố."
+    },
+    {
+      "number": 5,
+      "prompt": "Which statement best describes Dr. Helen Mayrhofer's position?",
+      "options": [
+        { "text": "Laneway homes cost too much to be worth building.", "trap": "partially_true", "whyVi": "Bà nói chúng đắt, nhưng vẫn gọi chúng là 'a useful piece of the puzzle' — không nói là không đáng xây." },
+        { "text": "Laneway homes will make rents affordable for most families.", "trap": "opposite", "whyVi": "Bà nói tiền thuê 'rarely within reach of low-income households'." },
+        { "text": "Laneway homes can help, but they are not a complete answer.", "trap": "none", "whyVi": "Đúng: 'a useful piece of the puzzle' nhưng 'nobody should promise that they will solve affordability by themselves'." },
+        { "text": "More research is needed before laneway homes are allowed.", "trap": "not_mentioned", "whyVi": "Bà không yêu cầu nghiên cứu thêm." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "\"They're a useful piece of the puzzle,\" she said. \"But nobody should promise that they will solve affordability by themselves.\"",
+      "explanationVi": "Thành ngữ 'a piece of the puzzle' = một phần của giải pháp. 'By themselves' = một mình. Vậy bà thấy nhà laneway có ích nhưng không đủ. Bài cũng nói chuyên gia kinh tế 'more cautious than either side' — thận trọng, không cực đoan.",
+      "vocabulary": ["a piece of the puzzle"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "being built on narrow lots", "trap": "wrong_detail", "whyVi": "Quy định về chiều rộng lô đất (trên 10 mét) là một quy định khác, không phải quy định chủ nhà phải sống tại chỗ." },
+        { "text": "becoming holiday rentals", "trap": "none", "whyVi": "Đúng: Quy định chủ nhà sống tại chỗ hoặc cho thuê dài hạn — cùng với lệnh cấm cho thuê ngắn hạn — ngăn nhà trở thành chỗ cho khách du lịch thuê." },
+        { "text": "costing more than $400,000", "trap": "word_match", "whyVi": "Con số $400,000 có trong bài, nhưng quy định về người ở không ảnh hưởng chi phí xây dựng." },
+        { "text": "needing their own parking spaces", "trap": "not_mentioned", "whyVi": "Quy định về người ở không liên quan đến chỗ đậu xe." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "as long as the owner either lives on the property or rents both units on long-term leases",
+      "explanationVi": "Chỗ trống nói về kết quả của quy định 'live on site or rent long term'. Cho thuê dài hạn là ngược với cho thuê ngắn hạn kiểu du lịch ('short-term rentals through holiday websites'). Vì vậy quy định này ngăn nhà trở thành 'holiday rentals'.",
+      "vocabulary": ["long-term lease"]
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "fine the property owner", "trap": "not_mentioned", "whyVi": "Bài không nói về tiền phạt." },
+        { "text": "cancel the building permit", "trap": "not_mentioned", "whyVi": "Bài không nói huỷ giấy phép xây dựng." },
+        { "text": "pave the lane behind the lot", "trap": "word_match", "whyVi": "Bài có từ 'unpaved' nhưng không có quy định trải nhựa đường." },
+        { "text": "require a new one to be planted", "trap": "none", "whyVi": "Đúng: Dự thảo 'requires a replacement tree to be planted for any healthy tree removed'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "the draft bylaw requires a replacement tree to be planted for any healthy tree removed",
+      "explanationVi": "'Whenever a healthy tree comes down' = 'any healthy tree removed'; 'a new one' = 'a replacement tree'. Người viết khen điểm này ('I also appreciate')."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "really addressed that concern", "trap": "none", "whyVi": "Đúng: Câu sau giải thích bà Park chỉ trả lời về chỗ đậu xe, chưa trả lời vấn đề xe cứu hoả." },
+        { "text": "considered the parking issue at all", "trap": "opposite", "whyVi": "Bà Park có nói về chỗ đậu xe; người viết thậm chí thừa nhận 'Her point about bus stops answers the parking question'." },
+        { "text": "supported planting new trees", "trap": "opposite", "whyVi": "Bà Park có ủng hộ trồng cây thay thế, và chuyện cây không liên quan đến lối vào khẩn cấp." },
+        { "text": "lived in Hollis Creek for long", "trap": "not_mentioned", "whyVi": "Bài không nói bà Park sống ở đâu hay bao lâu." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"Most of these lots are within a ten-minute walk of a bus stop,\" she said.",
+      "explanationVi": "Đọc câu ngay sau chỗ trống: 'Her point about bus stops answers the parking question, not the question of whether a fire truck can turn into our lane.' → người viết cho rằng bà Park chưa trả lời mối lo về lối vào khẩn cấp ('that concern')."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "pay for itself within a few years", "trap": "not_mentioned", "whyVi": "Bài không nói thời gian hoàn vốn." },
+        { "text": "solve the city's housing shortage", "trap": "opposite", "whyVi": "Dr. Mayrhofer nói ngược lại: chúng không tự giải quyết được vấn đề." },
+        { "text": "rarely be affordable for low-income renters", "trap": "none", "whyVi": "Đúng: Tiền thuê 'rarely within reach of low-income households'." },
+        { "text": "be too large for most standard lots", "trap": "wrong_detail", "whyVi": "Việc dự án không khả thi trên lô tiêu chuẩn là do yêu cầu chỗ đậu xe (theo nhà xây dựng), không phải do Dr. Mayrhofer nói." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "so the rents they generate are rarely within reach of low-income households",
+      "explanationVi": "'Dr. Mayrhofer is right that...' → đáp án phải là ý của bà. 'Rarely within reach of low-income households' = 'rarely be affordable for low-income renters'.",
+      "vocabulary": ["within reach"]
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "final vote", "trap": "wrong_detail", "whyVi": "Cuộc bỏ phiếu cuối cùng diễn ra SAU buổi điều trần và không phải là nơi lắng nghe người dân; ngày 18/11 là buổi điều trần." },
+        { "text": "public hearing", "trap": "none", "whyVi": "Đúng: 'Council will hold a public hearing on November 18' — dịp để người dân phát biểu." },
+        { "text": "association's next meeting", "trap": "wrong_speaker", "whyVi": "Cuộc họp của hội cư dân không phải do hội đồng thành phố tổ chức và bài không nhắc đến." },
+        { "text": "planning department's survey", "trap": "not_mentioned", "whyVi": "Bài không nhắc đến khảo sát nào." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "Council will hold a public hearing on November 18 before the final vote.",
+      "explanationVi": "Chỗ trống có ngày 'November 18' và mục đích 'to listen to the people' → buổi điều trần công khai. 'Final vote' là bẫy vì xuất hiện trong cùng câu nhưng diễn ra sau.",
+      "vocabulary": ["public hearing"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "gentle density", "vi": "tăng mật độ nhẹ nhàng (thêm nhà nhỏ, không xây cao tầng)", "definition": "adding homes to a neighbourhood with small buildings rather than towers", "example": "Laneway homes are a form of gentle density." },
+    { "term": "long-term lease", "vi": "hợp đồng thuê dài hạn", "definition": "a rental agreement that lasts many months or years", "example": "Owners must rent both units on long-term leases." },
+    { "term": "and then some", "vi": "và còn hơn thế nữa", "definition": "and even more than that", "example": "The rent covers their taxes and then some." },
+    { "term": "sympathetic", "vi": "đồng cảm, ủng hộ", "definition": "showing support or understanding for an idea or person", "example": "She is less sympathetic to the parking request." },
+    { "term": "a piece of the puzzle", "vi": "một phần của giải pháp", "definition": "one part of the solution to a complex problem", "example": "Laneway homes are one piece of the puzzle." },
+    { "term": "within reach", "vi": "trong khả năng (chi trả)", "definition": "possible to get or afford", "example": "These rents are not within reach of low-income families." },
+    { "term": "public hearing", "vi": "buổi điều trần công khai", "definition": "a meeting where the public can speak before a decision is made", "example": "Residents spoke at the public hearing." },
+    { "term": "acknowledge", "vi": "thừa nhận", "definition": "to accept that something is true", "example": "The planner acknowledged that trees are a real concern." }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "r2-drill-02",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "drill",
+  "difficulty": 6,
+  "topic": "customer-service",
+  "title": "Inference drill: Switching to a better phone plan",
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. Fixed internal contradiction: email said Hoa already uses a hotspot 'every day', but her current plan (Basic 10, Q5 key) has no hotspot; now 'which I need so I can work on my laptop during my bus ride every day'. Q1 evidence changed from the table cell to the email sentence that causes the high bills. Q5 Smart 50 whyVi softened (table does not state Smart 50's rate to Vietnam). Verified $75-$5-$3=$67." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Plan chart",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Cedarline Mobile — Monthly plans (prices before tax). Auto-pay discount: $5 off any plan per month. Bring your own phone: $3 off per month.",
+        "headers": ["Plan", "Monthly price", "Data", "Calls and texts in Canada", "International calling", "Extras"],
+        "rows": [
+          ["Talk & Text", "$25", "None", "Unlimited", "Not included", "None"],
+          ["Basic 10", "$39", "10 GB", "Unlimited", "Not included ($0.50 per minute)", "None"],
+          ["Smart 50", "$55", "50 GB", "Unlimited", "300 minutes to the US and Mexico", "Mobile hotspot up to 10 GB"],
+          ["Global 100", "$75", "100 GB", "Unlimited", "500 minutes to 60 countries, including Vietnam, India and the Philippines", "Mobile hotspot up to 25 GB; free roaming in the US"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Priya,\n\nThanks for your help on the phone yesterday. After looking at the chart you sent, I think my current plan is the real problem. I keep going over my data limit, and I've been paying 50 cents a minute every time I call my mother in Da Nang, so it's no wonder my bills have been [[1]].\n\nThe [[2]] plan seems to be the only one that covers my calls home. It also lets me [[3]], which I need so I can work on my laptop during my bus ride every day. If I set up auto-pay and keep using the phone I already own, the monthly price would come down to [[4]].\n\nCould you switch me over before my next billing date?\n\nThanks,\nHoa Tran",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "lower than usual", "trap": "opposite", "whyVi": "Vượt data và trả tiền gọi quốc tế thì hóa đơn phải cao hơn, không thấp hơn." },
+        { "text": "much higher than expected", "trap": "none", "whyVi": "Đúng: phí vượt data và $0.50/phút gọi về Việt Nam làm hóa đơn tăng." },
+        { "text": "paid automatically", "trap": "word_match", "whyVi": "Hoa chỉ định đăng ký auto-pay sau này; đây không phải hệ quả của các khoản phí." },
+        { "text": "the same every month", "trap": "opposite", "whyVi": "Phí phát sinh thay đổi theo số phút và data, nên hóa đơn không cố định." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I keep going over my data limit, and I've been paying 50 cents a minute every time I call my mother in Da Nang",
+      "explanationVi": "'it's no wonder' (chẳng có gì lạ) nối kết quả với nguyên nhân phía trước: vượt data + trả tiền theo phút. Suy ra hóa đơn cao bất thường. Bảng xác nhận gói Basic 10 tính $0.50/phút gọi quốc tế.",
+      "vocabulary": ["no wonder"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "Smart 50", "trap": "partially_true", "whyVi": "Smart 50 có gọi quốc tế, nhưng chỉ đến Mỹ và Mexico — không có Việt Nam." },
+        { "text": "Basic 10", "trap": "wrong_detail", "whyVi": "Basic 10 không bao gồm gọi quốc tế." },
+        { "text": "Talk & Text", "trap": "wrong_detail", "whyVi": "Talk & Text không có gọi quốc tế và không có data." },
+        { "text": "Global 100", "trap": "none", "whyVi": "Đúng: chỉ Global 100 bao gồm phút gọi đến Việt Nam." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "500 minutes to 60 countries, including Vietnam, India and the Philippines",
+      "explanationVi": "Email không nói thẳng 'Vietnam' mà nói 'my mother in Da Nang' — phải biết Đà Nẵng ở Việt Nam. Sau đó dò cột 'International calling': chỉ Global 100 có Vietnam.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "share my phone's data as a hotspot", "trap": "none", "whyVi": "Đúng: Global 100 có 'Mobile hotspot up to 25 GB' — dùng điện thoại phát mạng cho laptop." },
+        { "text": "roam in the US at no charge", "trap": "partially_true", "whyVi": "Đúng là tính năng của gói, nhưng không liên quan đến việc dùng laptop trên xe buýt." },
+        { "text": "send texts to the US only", "trap": "wrong_detail", "whyVi": "Gói này gọi được 60 nước; và nhắn tin không giúp làm việc trên laptop." },
+        { "text": "use unlimited data", "trap": "wrong_detail", "whyVi": "Global 100 có 100 GB, không phải không giới hạn." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Mobile hotspot up to 25 GB; free roaming in the US",
+      "explanationVi": "'so I can work on my laptop during my bus ride' → laptop cần internet từ điện thoại. Tính năng phù hợp là 'mobile hotspot' trong cột Extras.",
+      "vocabulary": ["mobile hotspot"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "$70", "trap": "partially_true", "whyVi": "Chỉ trừ giảm giá auto-pay ($5), quên giảm $3 khi dùng điện thoại riêng." },
+        { "text": "$72", "trap": "partially_true", "whyVi": "Chỉ trừ $3, quên giảm $5 auto-pay." },
+        { "text": "$67", "trap": "none", "whyVi": "Đúng: $75 − $5 (auto-pay) − $3 (dùng điện thoại riêng) = $67." },
+        { "text": "$47", "trap": "wrong_detail", "whyVi": "Tính từ giá Smart 50 ($55 − $8), không phải gói Hoa chọn." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Bring your own phone: $3 off per month.",
+      "explanationVi": "Áp dụng hai khoản giảm giá trong caption: 'set up auto-pay' → −$5; 'keep using the phone I already own' = 'Bring your own phone' → −$3. Giá Global 100 $75 − $8 = $67.",
+      "vocabulary": ["auto-pay"]
+    },
+    {
+      "number": 5,
+      "prompt": "Which plan is Hoa most likely using now?",
+      "options": [
+        { "text": "Talk & Text", "trap": "opposite", "whyVi": "Talk & Text không có data, nên không thể 'going over my data limit'." },
+        { "text": "Basic 10", "trap": "none", "whyVi": "Đúng: có giới hạn data (10 GB) và tính $0.50/phút gọi quốc tế — khớp cả hai vấn đề của Hoa." },
+        { "text": "Smart 50", "trap": "wrong_detail", "whyVi": "Bảng chỉ ghi giá $0.50/phút ở Basic 10; Smart 50 có 50 GB và 300 phút đi Mỹ/Mexico, không có chi tiết nào khớp với mức 50 cent/phút." },
+        { "text": "Global 100", "trap": "opposite", "whyVi": "Đây là gói Hoa muốn chuyển sang, không phải gói hiện tại." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I've been paying 50 cents a minute every time I call my mother",
+      "explanationVi": "Ghép hai chi tiết: (1) có data nhưng bị vượt, (2) trả 50 cent/phút. Trong bảng, chỉ Basic 10 ghi '$0.50 per minute' và có giới hạn data. '50 cents' = '$0.50'.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "Why would the Smart 50 plan not solve Hoa's main problem?",
+      "options": [
+        { "text": "Its calling minutes do not include Vietnam.", "trap": "none", "whyVi": "Đúng: Smart 50 chỉ gọi được đến Mỹ và Mexico." },
+        { "text": "It has no mobile hotspot.", "trap": "wrong_detail", "whyVi": "Smart 50 có hotspot đến 10 GB." },
+        { "text": "It costs more than Global 100.", "trap": "opposite", "whyVi": "Smart 50 ($55) rẻ hơn Global 100 ($75)." },
+        { "text": "It offers less data than her current plan.", "trap": "opposite", "whyVi": "50 GB nhiều hơn 10 GB của Basic 10." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "300 minutes to the US and Mexico",
+      "explanationVi": "Vấn đề chính của Hoa là gọi về mẹ ở Đà Nẵng. Cột International calling của Smart 50 chỉ ghi 'the US and Mexico' → không có Việt Nam.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "mobile hotspot", "vi": "phát Wi-Fi từ điện thoại", "definition": "a feature that lets other devices use your phone's internet connection", "example": "I use my mobile hotspot to work on my laptop on the bus." },
+    { "term": "go over (a limit)", "vi": "vượt quá (hạn mức)", "definition": "to use more than the amount allowed", "example": "If you go over your data, you pay extra." },
+    { "term": "auto-pay", "vi": "thanh toán tự động", "definition": "a setting where your bill is paid automatically each month", "example": "Set up auto-pay and save $5 a month." },
+    { "term": "roaming", "vi": "chuyển vùng quốc tế", "definition": "using your phone service in another country", "example": "This plan includes free roaming in the US." },
+    { "term": "billing date", "vi": "ngày lập hóa đơn", "definition": "the day each month when your bill is calculated", "example": "The change will start on your next billing date." },
+    { "term": "no wonder", "vi": "chẳng trách, không có gì lạ", "definition": "used to say that something is not surprising", "example": "No wonder your bill was so high." }
+  ]
+}

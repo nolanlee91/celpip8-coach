@@ -1,0 +1,59 @@
+{
+  "id": "s1-practice-02",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "practice",
+  "difficulty": 6,
+  "topic": "housing",
+  "title": "Advice for a cousin choosing where to live",
+  "prompt": "Your cousin is moving to British Columbia next month. She will be working in downtown Vancouver, and she is trying to decide whether to rent an apartment downtown or live in a cheaper area outside the city and commute.\n\nGive your cousin some advice about where she should live.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Friendly greeting + main recommendation",
+    "Advice 1: the cost difference, with an example",
+    "Advice 2: stay close to a SkyTrain station (commute time, no car needed)",
+    "Advice 3: safety tip about rental scams + a neighbourhood tip",
+    "Summary of your advice + offer to help"
+  ],
+  "modelAnswer": "Hi Mai, it's so exciting that you're finally coming to BC! I remember how confusing it was when I first arrived, so here's my advice.\n\nFirst, I'd recommend living outside downtown, maybe in Burnaby or New Westminster, at least for your first year. Rent downtown is really expensive, and in Burnaby you can often find a similar one-bedroom for a few hundred dollars less a month. That extra money can go into your savings while you're getting settled.\n\nSecond, make sure your place is close to a SkyTrain station. If you can walk to the station in five or ten minutes, your commute downtown will only be about half an hour, and you won't need a car. Trust me, parking downtown is a nightmare.\n\nAnother tip is to be careful with online rental ads. There are quite a few scams, so never send a deposit before you've seen the apartment in person.\n\nFinally, think about the neighbourhood itself. Metrotown, for example, has lots of shops and Asian grocery stores, which can help you feel at home.\n\nSo, my suggestion is to start outside the city, save some money, and then decide later if you really want to live downtown. Let me know if you need help looking at places!",
+  "usefulExpressions": [
+    {
+      "expression": "I'd recommend + V-ing…",
+      "usageVi": "Đưa lời khuyên chính; sau 'recommend' dùng V-ing hoặc 'that + S + V'."
+    },
+    {
+      "expression": "Make sure…",
+      "usageVi": "Nhắc nhở điều quan trọng một cách thân mật."
+    },
+    {
+      "expression": "Trust me, …",
+      "usageVi": "Nhấn mạnh dựa trên kinh nghiệm cá nhân — làm lời khuyên tự nhiên, sinh động."
+    },
+    {
+      "expression": "Another tip is to…",
+      "usageVi": "Chuyển sang lời khuyên tiếp theo."
+    },
+    {
+      "expression": "never… before you've…",
+      "usageVi": "Cảnh báo rõ ràng; dùng hiện tại hoàn thành sau 'before' để chỉ việc phải xong trước."
+    },
+    {
+      "expression": "So, my suggestion is to…",
+      "usageVi": "Tóm tắt lời khuyên ở cuối, giúp phần nói có kết thúc rõ ràng."
+    }
+  ],
+  "commonMistakes": [
+    "Nói 'I recommend you to live…' — sai cấu trúc. Đúng: 'I'd recommend living…' hoặc 'I recommend that you live…'.",
+    "Nói giá tiền thiếu đơn vị hoặc sai cách đọc ('two thousand eight hundred dollar') — nhớ thêm 's': 'dollars'.",
+    "Hết giờ trước khi kết luận. Hãy để dành 5–10 giây cuối cho câu tóm tắt."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Removed a specific downtown rent figure ('close to three thousand dollars a month') that could be inaccurate or dated; kept only the relative comparison ('a few hundred dollars less a month'). Rest checked; ~205 words."
+  },
+  "createdAt": "2026-10-26"
+}

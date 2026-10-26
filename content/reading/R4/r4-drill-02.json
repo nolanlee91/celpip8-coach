@@ -1,0 +1,124 @@
+{
+  "id": "r4-drill-02",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "drill",
+  "difficulty": 6,
+  "topic": "community-services",
+  "title": "Main idea drill: The Library Goes Fine-Free",
+  "estimatedMinutes": 8,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 6 independently; keys match. Q4 headline evidence 'Not everyone agrees with the change.' covered only half the headline; added 'The change has won praise, but it also has its doubters.' to paragraph 1 and used it as evidence; explanation updated." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "Fraserview Public Library will stop charging late fines on January 1, joining a growing list of Canadian libraries that have gone \"fine-free.\" Borrowers will still have to pay for items that are lost or damaged, and anything more than 30 days overdue will be treated as lost. But a book returned a week late will no longer cost a cent. The change has won praise, but it also has its doubters.\n\nChief librarian Teresa Mahlangu says fines were keeping people away. Last year, about 4,200 cardholders had their accounts blocked because they owed more than $10, and many of them were children and seniors. \"A fine doesn't teach a nine-year-old responsibility,\" she said. \"It teaches her family that the library isn't for them.\" Mahlangu says libraries that went fine-free in other cities saw many blocked users come back, and most items were still returned on time.\n\nThe money involved is small but not nothing. Fines brought in about $85,000 last year, less than one per cent of the library's budget. The library expects to recover part of that amount because staff will spend less time collecting fines and handling arguments at the front desk.\n\nNot everyone agrees with the change. Library board member Gordon Fairweather voted against it. He worries that without fines, popular books and new releases will sit on people's shelves for weeks. \"When there's a waiting list of eighty people for a bestseller, a late book isn't a private matter,\" he said. \"It's eighty neighbours waiting.\" He has suggested keeping fines only for items with long waiting lists.\n\nSome regular users are unsure as well. Retired teacher Nadia Bouchard, who visits the library three times a week, says she has always returned her books on time and has never minded paying on the rare occasions she forgot. \"I understand the idea,\" she said. \"But I hope people still remember that the books belong to all of us.\"\n\nThe library will report on return times and waiting lists after six months. If delays grow, Mahlangu says, the board will consider its options, including Fairweather's suggestion.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I volunteer at a food bank in Fraserview, and every week I see how small costs can push families away from public services. That's why I agree with Ms. Mahlangu's main point: fines [[5]]. My own kids once ran up fourteen dollars in fines on picture books, and their cards stayed blocked for months. A blocked library card can mean a child stops reading altogether, and that is a much bigger loss than a few dollars. Mr. Fairweather's worry about bestsellers is fair, though, and I'm glad the library will check the results after [[6]]. If delays really become a problem, keeping fines for high-demand books seems like a sensible middle ground. Either way, I'd rather see a few late books than empty reading rooms.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the article mainly about?",
+      "options": [
+        { "text": "How libraries decide which books to buy", "trap": "not_mentioned", "whyVi": "Bài không nói về việc mua sách." },
+        { "text": "Why the library is facing a serious budget problem", "trap": "opposite", "whyVi": "Tiền phạt chỉ chiếm dưới 1% ngân sách; không có khủng hoảng tài chính." },
+        { "text": "A library's decision to end late fines and how people are reacting", "trap": "none", "whyVi": "Đúng: Bài nói về việc bỏ phí trễ hạn, lý do, và ý kiến ủng hộ lẫn lo ngại." },
+        { "text": "The rules for paying for lost or damaged books", "trap": "partially_true", "whyVi": "Quy định về sách mất chỉ là một chi tiết nhỏ ở đoạn đầu." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "Fraserview Public Library will stop charging late fines on January 1",
+      "explanationVi": "Ý chính thường ở câu đầu và được phát triển qua cả bài. Câu đầu nêu quyết định bỏ phí phạt; các đoạn sau đưa ý kiến của thủ thư (ủng hộ), thành viên hội đồng và người dùng (lo ngại). Đáp án D chỉ là chi tiết nhỏ."
+    },
+    {
+      "number": 2,
+      "prompt": "What is Teresa Mahlangu's main argument for the change?",
+      "options": [
+        { "text": "Fines discourage some people from using the library.", "trap": "none", "whyVi": "Đúng: 'fines were keeping people away' — hàng nghìn tài khoản bị khoá, nhiều người là trẻ em và người cao tuổi." },
+        { "text": "Fines take too much time for staff to collect.", "trap": "partially_true", "whyVi": "Tiết kiệm thời gian nhân viên được nhắc đến ở đoạn về tiền, nhưng đó là lợi ích phụ, không phải lập luận chính của bà." },
+        { "text": "Children should learn responsibility in other ways.", "trap": "word_match", "whyVi": "Bài có 'responsibility' nhưng bà nói phí phạt không dạy được trách nhiệm, không đề xuất cách khác." },
+        { "text": "Most borrowers return their books late.", "trap": "opposite", "whyVi": "Bà nói ở các thành phố khác 'most items were still returned on time'." }
+      ],
+      "answerIndex": 0,
+      "category": "main_idea",
+      "evidence": "Chief librarian Teresa Mahlangu says fines were keeping people away.",
+      "explanationVi": "Câu chủ đề của đoạn 2 là 'fines were keeping people away'. Các chi tiết sau (4,200 tài khoản bị khoá, câu nói về em bé 9 tuổi) đều hỗ trợ ý này. 'Discourage ... from using' = 'keeping people away'.",
+      "vocabulary": ["keep someone away"]
+    },
+    {
+      "number": 3,
+      "prompt": "What is Gordon Fairweather's main concern?",
+      "options": [
+        { "text": "The library will lose too much money.", "trap": "not_mentioned", "whyVi": "Ông không nói về tiền; số tiền phạt nhỏ được nêu ở đoạn khác." },
+        { "text": "Popular books returned late will make many other people wait.", "trap": "none", "whyVi": "Đúng: 'a late book isn't a private matter ... It's eighty neighbours waiting'." },
+        { "text": "Children will damage more books.", "trap": "not_mentioned", "whyVi": "Không ai nói trẻ em làm hỏng sách." },
+        { "text": "Regular users like Nadia Bouchard will stop visiting.", "trap": "wrong_speaker", "whyVi": "Bà Bouchard nói về ý thức chung, và ông Fairweather không nhắc đến bà." }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "\"When there's a waiting list of eighty people for a bestseller, a late book isn't a private matter,\" he said. \"It's eighty neighbours waiting.\"",
+      "explanationVi": "Ý chính của đoạn 4: không có phí phạt, sách hot sẽ bị giữ lâu và nhiều người phải chờ. 'Eighty neighbours waiting' = 'make many other people wait'."
+    },
+    {
+      "number": 4,
+      "prompt": "Which headline best fits the article?",
+      "options": [
+        { "text": "Lost Library Books Now Free of Charge", "trap": "opposite", "whyVi": "Sách bị mất hoặc hư vẫn phải trả tiền." },
+        { "text": "Children Blocked from Using Local Library", "trap": "word_match", "whyVi": "Bài có 'blocked' và 'children' nhưng đó là vấn đề cũ mà quyết định mới muốn giải quyết." },
+        { "text": "Library Board Votes to Raise Fines on Bestsellers", "trap": "wrong_detail", "whyVi": "Giữ phí cho sách có danh sách chờ chỉ là đề xuất của Fairweather, chưa được thông qua." },
+        { "text": "Library Drops Late Fines, but Some Have Doubts", "trap": "none", "whyVi": "Đúng: Bao quát cả quyết định chính và các ý kiến lo ngại." }
+      ],
+      "answerIndex": 3,
+      "category": "main_idea",
+      "evidence": "The change has won praise, but it also has its doubters.",
+      "explanationVi": "Tiêu đề tốt phải bao quát toàn bài: (1) bỏ phí phạt ('will stop charging late fines') và (2) có người nghi ngại. Đoạn đầu tóm tắt: 'The change has won praise, but it also has its doubters' → 'but Some Have Doubts' ('doubters' = người nghi ngại). Phần sau phát triển ý này: 'Not everyone agrees with the change' (Fairweather) và 'Some regular users are unsure' (Bouchard). Các đáp án khác sai hoặc chỉ nói một chi tiết."
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "help teach children to be responsible", "trap": "opposite", "whyVi": "Bà Mahlangu nói ngược lại: 'A fine doesn't teach a nine-year-old responsibility'." },
+        { "text": "are an important source of income", "trap": "opposite", "whyVi": "Tiền phạt chưa đến 1% ngân sách." },
+        { "text": "push away the people who need the library most", "trap": "none", "whyVi": "Đúng: Ý chính của bà là phí phạt khiến mọi người, nhất là trẻ em và người cao tuổi, rời xa thư viện." },
+        { "text": "make popular books come back faster", "trap": "wrong_speaker", "whyVi": "Đây gần với ý của ông Fairweather, không phải 'Ms. Mahlangu's main point'." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "\"It teaches her family that the library isn't for them.\"",
+      "explanationVi": "Chỗ trống là 'Ms. Mahlangu's main point'. Ý chính của bà: phí phạt làm mọi người xa thư viện ('keeping people away', 'the library isn't for them'). Câu trước trong bình luận ('small costs can push families away') cũng gợi ý từ 'push away'."
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "30 days", "trap": "wrong_detail", "whyVi": "30 ngày là mốc để coi sách là bị mất." },
+        { "text": "six months", "trap": "none", "whyVi": "Đúng: 'The library will report on return times and waiting lists after six months'." },
+        { "text": "one year", "trap": "not_mentioned", "whyVi": "Bài không nói đánh giá sau một năm." },
+        { "text": "January 1", "trap": "wrong_detail", "whyVi": "Ngày 1/1 là ngày bắt đầu bỏ phí phạt, không phải lúc xem kết quả." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "The library will report on return times and waiting lists after six months.",
+      "explanationVi": "'Check the results' = 'report on return times and waiting lists'. Bài cho mốc 'after six months'. Các mốc thời gian khác trong bài là bẫy."
+    }
+  ],
+  "vocabulary": [
+    { "term": "overdue", "vi": "quá hạn", "definition": "not returned or paid by the expected time", "example": "Items more than 30 days overdue are treated as lost." },
+    { "term": "fine-free", "vi": "không thu phí phạt", "definition": "not charging money as a penalty for late returns", "example": "Many libraries have gone fine-free." },
+    { "term": "keep someone away", "vi": "khiến ai tránh xa", "definition": "to stop someone from coming to a place", "example": "Fines were keeping families away from the library." },
+    { "term": "cardholder", "vi": "người có thẻ (thư viện)", "definition": "a person who has a membership card", "example": "About 4,200 cardholders had their accounts blocked." },
+    { "term": "waiting list", "vi": "danh sách chờ", "definition": "a list of people waiting for something", "example": "There is a waiting list of eighty people for that novel." },
+    { "term": "middle ground", "vi": "giải pháp dung hoà", "definition": "a position between two opposing views", "example": "Keeping fines only for bestsellers is a sensible middle ground." },
+    { "term": "not a private matter", "vi": "không phải chuyện riêng", "definition": "something that affects other people too", "example": "A late bestseller is not a private matter." }
+  ]
+}

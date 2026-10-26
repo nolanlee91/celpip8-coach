@@ -1,0 +1,59 @@
+{
+  "id": "s1-mock-02",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "mock",
+  "difficulty": 6,
+  "topic": "recreation",
+  "title": "Advice for a neighbour starting a vegetable garden",
+  "prompt": "Your neighbour, Mr. Singh, has just moved into a house with a small backyard. He would like to start a vegetable garden this spring, but he has never grown anything before.\n\nGive your neighbour some advice about how to get started.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Positive reaction + say why you can help",
+    "Advice 1: start small (raised beds)",
+    "Advice 2: choose easy vegetables + the right spot",
+    "Advice 3: timing and watering in BC",
+    "Where to get more help + friendly offer"
+  ],
+  "modelAnswer": "Oh, that's a great idea, Mr. Singh! Growing your own vegetables is really rewarding. I've been gardening for a few years now, so here are some tips.\n\nFirst, start small. A lot of beginners try to plant everything at once, and then they can't keep up with the watering and weeding. I'd suggest one or two raised beds for your first season. They're easy to build, and the soil warms up faster in spring.\n\nSecond, choose easy vegetables. Lettuce, peas, zucchini and beans grow really well here in the Lower Mainland. Tomatoes are popular too, but they need a lot of sun, so put them in the sunniest part of your yard.\n\nAnother important thing is timing. We can still get frost in early spring, so don't plant anything delicate too early. You can start some seeds inside on a windowsill and move them outside in May.\n\nAlso, think about watering. In summer, there are sometimes watering restrictions, so a rain barrel can save you a lot of trouble.\n\nFinally, don't be afraid to ask for help. The staff at the garden centre are usually very helpful, and of course, you can always knock on my door. I've got some extra seeds I can give you!",
+  "usefulExpressions": [
+    {
+      "expression": "Here are some tips.",
+      "usageVi": "Câu giới thiệu phần lời khuyên, ngắn gọn và tự nhiên."
+    },
+    {
+      "expression": "Start small.",
+      "usageVi": "Lời khuyên ngắn, mạnh, dễ nhớ — câu mệnh lệnh ngắn tạo nhịp nói tự nhiên."
+    },
+    {
+      "expression": "can't keep up with…",
+      "usageVi": "'keep up with' = theo kịp; diễn tả lý do của lời khuyên."
+    },
+    {
+      "expression": "Another important thing is…",
+      "usageVi": "Chuyển ý mà không cần đếm số thứ tự."
+    },
+    {
+      "expression": "can save you a lot of trouble",
+      "usageVi": "Nói về lợi ích của lời khuyên một cách tự nhiên."
+    },
+    {
+      "expression": "you can always…",
+      "usageVi": "Đề nghị giúp đỡ thân thiện ở cuối bài."
+    }
+  ],
+  "commonMistakes": [
+    "Dùng 'Mr. Singh' lúc đầu rồi chuyển sang 'he' giữa chừng. Hãy giữ cách nói trực tiếp 'you' với hàng xóm.",
+    "Không biết từ vựng làm vườn nên dừng lại lâu. Hãy diễn đạt đơn giản ('a box for growing vegetables') thay vì im lặng.",
+    "Liệt kê nhiều lời khuyên ngắn mà không giải thích lý do. Mỗi lời khuyên nên có 'because…' hoặc 'so…'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked advice to neighbour, BC-appropriate gardening details (Lower Mainland, frost, watering restrictions hedged with 'sometimes'), length (~206). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

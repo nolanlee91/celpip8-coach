@@ -1,0 +1,54 @@
+{
+  "id": "s3-mock-01",
+  "kind": "speaking",
+  "taskType": "S3",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "The airport arrivals hall",
+  "prompt": "Describe some things that are happening in the picture below as well as you can. The person with whom you are speaking cannot see the picture.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='300' fill='#e8edf2'/><rect y='300' width='800' height='200' fill='#b9c2cc'/><line x1='0' y1='360' x2='800' y2='360' stroke='#a5afba' stroke-width='2'/><line x1='0' y1='430' x2='800' y2='430' stroke='#a5afba' stroke-width='2'/><line x1='340' y1='0' x2='340' y2='12' stroke='#5d6d7e' stroke-width='3'/><line x1='460' y1='0' x2='460' y2='12' stroke='#5d6d7e' stroke-width='3'/><rect x='300' y='12' width='200' height='40' rx='4' fill='#f1c40f'/><text x='400' y='40' font-family='Arial' font-size='22' font-weight='bold' fill='#1b2631' text-anchor='middle'>ARRIVALS</text><rect x='30' y='70' width='170' height='122' rx='4' fill='#1b2631'/><text x='115' y='88' font-family='Arial' font-size='13' fill='#ffffff' text-anchor='middle'>FLIGHTS</text><rect x='42' y='100' width='96' height='8' fill='#d5dbdb'/><rect x='148' y='100' width='40' height='8' fill='#2ecc71'/><rect x='42' y='120' width='96' height='8' fill='#d5dbdb'/><rect x='148' y='120' width='40' height='8' fill='#2ecc71'/><rect x='42' y='140' width='96' height='8' fill='#d5dbdb'/><rect x='148' y='140' width='40' height='8' fill='#e74c3c'/><rect x='42' y='160' width='96' height='8' fill='#d5dbdb'/><rect x='148' y='160' width='40' height='8' fill='#2ecc71'/><rect x='42' y='176' width='96' height='8' fill='#d5dbdb'/><rect x='148' y='176' width='40' height='8' fill='#2ecc71'/><rect x='320' y='90' width='160' height='210' fill='#aed6f1' stroke='#5d6d7e' stroke-width='4'/><line x1='400' y1='90' x2='400' y2='300' stroke='#5d6d7e' stroke-width='3'/><circle cx='400' cy='233' r='11' fill='#f0c8a0'/><path d='M389 231 Q400 216 411 231 Z' fill='#1e1e1e'/><rect x='388' y='245' width='24' height='34' rx='5' fill='#7f8c8d'/><line x1='400' y1='247' x2='400' y2='265' stroke='#c0392b' stroke-width='3'/><rect x='390' y='279' width='9' height='26' fill='#5d6d7e'/><rect x='401' y='279' width='9' height='26' fill='#5d6d7e'/><line x1='429' y1='279' x2='429' y2='262' stroke='#2c3e50' stroke-width='3'/><line x1='411' y1='252' x2='428' y2='262' stroke='#7f8c8d' stroke-width='6' stroke-linecap='round'/><rect x='418' y='279' width='22' height='26' rx='3' fill='#34495e'/><circle cx='422' cy='307' r='2.5' fill='#111111'/><circle cx='436' cy='307' r='2.5' fill='#111111'/><circle cx='710' cy='193' r='11' fill='#8d5a3b'/><rect x='698' y='204' width='24' height='18' rx='4' fill='#1b2631'/><rect x='630' y='150' width='160' height='26' fill='#c0392b'/><text x='710' y='169' font-family='Arial' font-size='16' font-weight='bold' fill='#ffffff' text-anchor='middle'>COFFEE</text><rect x='636' y='176' width='5' height='44' fill='#6e2c00'/><rect x='779' y='176' width='5' height='44' fill='#6e2c00'/><rect x='630' y='220' width='160' height='80' fill='#6e2c00'/><rect x='652' y='208' width='10' height='12' fill='#ffffff'/><rect x='666' y='208' width='10' height='12' fill='#ffffff'/><rect x='746' y='208' width='10' height='12' fill='#ffffff'/><rect x='40' y='395' width='150' height='35' fill='#2e86c1'/><line x1='90' y1='395' x2='90' y2='430' stroke='#1f618d' stroke-width='2'/><line x1='140' y1='395' x2='140' y2='430' stroke='#1f618d' stroke-width='2'/><rect x='40' y='430' width='150' height='12' fill='#1f618d'/><rect x='50' y='442' width='6' height='30' fill='#34495e'/><rect x='174' y='442' width='6' height='30' fill='#34495e'/><circle cx='90' cy='384' r='11' fill='#8d5a3b'/><path d='M79 382 Q90 368 101 382 Z' fill='#1e1e1e'/><rect x='78' y='396' width='24' height='34' rx='5' fill='#e67e22'/><rect x='78' y='426' width='34' height='10' fill='#2c3e50'/><rect x='104' y='434' width='10' height='34' fill='#2c3e50'/><rect x='102' y='466' width='16' height='6' fill='#111111'/><line x1='98' y1='412' x2='106' y2='408' stroke='#e67e22' stroke-width='6' stroke-linecap='round'/><rect x='104' y='400' width='8' height='13' rx='1' fill='#111111'/><circle cx='250' cy='348' r='11' fill='#c98e64'/><path d='M239 346 Q250 332 261 346 Z' fill='#3b2412'/><rect x='238' y='360' width='24' height='32' rx='5' fill='#c0392b'/><rect x='240' y='392' width='9' height='28' fill='#2c3e50'/><rect x='251' y='392' width='9' height='28' fill='#2c3e50'/><rect x='178' y='362' width='144' height='30' fill='#ffffff' stroke='#333333' stroke-width='2'/><text x='250' y='382' font-family='Arial' font-size='10.5' font-weight='bold' fill='#c0392b' text-anchor='middle'>WELCOME HOME LINH</text><circle cx='180' cy='377' r='4' fill='#c98e64'/><circle cx='320' cy='377' r='4' fill='#c98e64'/><rect x='460' y='380' width='70' height='30' rx='3' fill='#2980b9'/><rect x='466' y='356' width='58' height='24' rx='3' fill='#e67e22'/><rect x='474' y='336' width='42' height='20' rx='3' fill='#8e44ad'/><rect x='455' y='410' width='82' height='8' fill='#7f8c8d'/><rect x='460' y='418' width='4' height='30' fill='#7f8c8d'/><rect x='528' y='418' width='4' height='30' fill='#7f8c8d'/><circle cx='462' cy='452' r='6' fill='#2d3436'/><circle cx='530' cy='452' r='6' fill='#2d3436'/><line x1='536' y1='380' x2='536' y2='412' stroke='#7f8c8d' stroke-width='4'/><path d='M548 380 Q560 360 572 380 L572 396 L548 396 Z' fill='#5e3b1a'/><circle cx='560' cy='378' r='11' fill='#e0ac80'/><path d='M549 376 Q560 360 571 376 Z' fill='#5e3b1a'/><rect x='548' y='390' width='24' height='36' rx='6' fill='#16a085'/><rect x='550' y='426' width='9' height='24' fill='#2d3436'/><rect x='561' y='426' width='9' height='24' fill='#2d3436'/><line x1='550' y1='398' x2='537' y2='394' stroke='#16a085' stroke-width='6' stroke-linecap='round'/><circle cx='660' cy='348' r='11' fill='#f0c8a0'/><path d='M649 346 Q660 330 671 346 Z' fill='#bdc3c7'/><rect x='648' y='360' width='24' height='36' rx='6' fill='#8e44ad'/><rect x='650' y='396' width='9' height='24' fill='#636e72'/><rect x='661' y='396' width='9' height='24' fill='#636e72'/><rect x='694' y='362' width='12' height='26' rx='3' fill='#2c3e50'/><circle cx='684' cy='346' r='11' fill='#f0c8a0'/><path d='M673 346 Q684 328 695 346 L695 356 L673 356 Z' fill='#111111'/><circle cx='684' cy='348' r='9' fill='#f0c8a0'/><rect x='672' y='358' width='24' height='36' rx='6' fill='#f1c40f'/><rect x='674' y='394' width='9' height='26' fill='#34495e'/><rect x='685' y='394' width='9' height='26' fill='#34495e'/><line x1='668' y1='368' x2='690' y2='372' stroke='#8e44ad' stroke-width='6' stroke-linecap='round'/><line x1='676' y1='366' x2='652' y2='372' stroke='#f1c40f' stroke-width='6' stroke-linecap='round'/></svg>",
+  "options": null,
+  "structure": [
+    "Overview: say it's an airport arrivals hall and mention the big sign.",
+    "Centre and back: the sliding doors and the traveller coming out.",
+    "Left side: the flight board, the man on the seats and the man holding a sign.",
+    "Middle and right: the woman with the luggage cart, the coffee stand and the people hugging; close with the mood."
+  ],
+  "modelAnswer": "This is the arrivals hall at an airport. Hanging from the ceiling, there's a yellow sign that says \"Arrivals\", and right underneath it there's a pair of glass sliding doors. A businessman in a grey suit is walking out, pulling a small dark suitcase behind him. On the left wall, there's a flight information board, and one of the flights is marked in red, so it's probably delayed. Below the board, a man in an orange shirt is sitting on a row of blue seats, checking his phone. Close to him, a man is holding up a big white sign that says \"Welcome Home Linh\", so he's obviously waiting for someone. In the middle, a woman in a green jacket is pushing a luggage cart piled high with three suitcases. On the right, there's a coffee stand with a barista behind the counter. Just in front of it, an older woman and a young woman are giving each other a big hug. It looks like a happy reunion.",
+  "usefulExpressions": [
+    {
+      "expression": "Hanging from the ceiling, there's…",
+      "usageVi": "Mở đầu câu bằng cụm chỉ vị trí để câu đa dạng hơn"
+    },
+    {
+      "expression": "…is walking out, pulling… behind him",
+      "usageVi": "Ghép hai hành động bằng V-ing (vừa đi ra vừa kéo vali)"
+    },
+    {
+      "expression": "…so it's probably delayed / so he's obviously waiting for someone",
+      "usageVi": "Thêm suy luận ngắn sau khi mô tả, thể hiện tư duy Level 8+"
+    },
+    {
+      "expression": "piled high with…",
+      "usageVi": "Chất cao đầy… (tả xe đẩy hành lý)"
+    },
+    {
+      "expression": "giving each other a big hug",
+      "usageVi": "Ôm nhau thật chặt — cách nói tự nhiên hơn 'they are hugging'"
+    }
+  ],
+  "commonMistakes": [
+    "Nói 'luggages' — 'luggage' là danh từ không đếm được; nói 'three suitcases' hoặc 'a lot of luggage'.",
+    "Đọc chữ trên biển nhưng không giải thích ý nghĩa; nên thêm 'so he's waiting for someone'.",
+    "Không nói rõ vị trí (left/right/in the middle), người nghe qua điện thoại sẽ không hình dung được."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rendered and inspected the picture/cards; checked the model answer against the drawing, length (60 s), task fulfilment, expressions and mistakes. Changes: S3 standard instruction; removed \"red shirt\" for the sign-holder (his shirt is completely hidden by the sign); aligned expression with answer wording."
+  },
+  "createdAt": "2026-10-26"
+}

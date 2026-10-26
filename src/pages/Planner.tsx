@@ -72,7 +72,7 @@ export function PlannerPage() {
         <div className="row gap-s wrap">
           <Link className="btn" to="/reading?mode=weekly&task=R4">1. Reading Part 4</Link>
           <Link className="btn" to="/listening?mode=weekly&task=L5">2. Listening Part 5</Link>
-          <Link className="btn" to="/speaking?task=S7">3. Speaking Task 7</Link>
+          <Link className="btn" to="/speaking?mode=weekly&task=S7">3. Speaking Task 7</Link>
           <button className="btn primary" onClick={doCheckin}>✔ Hoàn tất đánh giá tuần {plan.week}</button>
         </div>
         {checkin && (

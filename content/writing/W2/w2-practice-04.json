@@ -1,0 +1,64 @@
+{
+  "id": "w2-practice-04",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 6,
+  "topic": "education",
+  "title": "School schedule: longer lunch or earlier finish",
+  "situation": "Your child's secondary school is reviewing its daily schedule for next year. The principal has sent a survey to all parents asking which of the following changes they would prefer.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Make the lunch break longer, from 40 minutes to 60 minutes. The school day would end at the same time as now.",
+  "optionB": "Option B: Keep the 40-minute lunch break and end the school day 20 minutes earlier.",
+  "structure": [
+    "Opening: your choice, from your point of view as a parent",
+    "Reason 1 + example about your own child",
+    "Reason 2 + example",
+    "One sentence about the other option and why it is less suitable",
+    "Short conclusion"
+  ],
+  "modelResponse": "As a parent, I would prefer the longer lunch break of 60 minutes.\n\nThe most important reason is my son's health. At the moment, students have only 40 minutes, and they spend much of that time lining up in the cafeteria. My son often tells me that he has to eat very quickly or leave half of his lunch. With an extra 20 minutes, students could eat properly, relax and go back to class with more energy.\n\nAnother reason is that a longer break gives students time for activities. Many clubs and sports teams meet at lunchtime. My son would like to join the chess club, but right now he cannot fit it into such a short break. A 60-minute lunch would let more students take part without staying late after school.\n\nI understand that finishing 20 minutes earlier would help some families with transportation or part-time jobs. However, for many working parents like me, an earlier finish simply means that children are at home alone for longer.\n\nFor these reasons, I believe a longer lunch break would be better for students' health and their school life.",
+  "usefulExpressions": [
+    {
+      "expression": "As a parent, I would prefer…",
+      "usageVi": "Nêu lựa chọn kèm vai trò của bạn — giúp lập luận có góc nhìn rõ ràng."
+    },
+    {
+      "expression": "The most important reason is…",
+      "usageVi": "Giới thiệu lý do chính."
+    },
+    {
+      "expression": "At the moment, …",
+      "usageVi": "Mô tả tình hình hiện tại trước khi giải thích vì sao cần thay đổi."
+    },
+    {
+      "expression": "With an extra 20 minutes, students could…",
+      "usageVi": "Cấu trúc 'With + N, S + could…' để nói về lợi ích của thay đổi."
+    },
+    {
+      "expression": "Another reason is that…",
+      "usageVi": "Chuyển sang lý do thứ hai, đơn giản và rõ ràng."
+    },
+    {
+      "expression": "I understand that…. However, …",
+      "usageVi": "Thừa nhận ưu điểm của phương án kia rồi phản bác."
+    }
+  ],
+  "commonMistakes": [
+    "Viết 'lunch time break is more long' — sai so sánh. Đúng: 'a longer lunch break'.",
+    "Không có ví dụ cụ thể. Ở mức 6–7, chỉ cần một ví dụ đơn giản về con mình (ăn vội, muốn tham gia câu lạc bộ) là đủ thuyết phục.",
+    "Sai hòa hợp chủ ngữ – động từ: 'My son always tell me' → 'My son often tells me' (thiếu -s ngôi thứ ba số ít — lỗi rất phổ biến của người Việt).",
+    "Kết bài bằng câu mới không liên quan hoặc thêm lý do mới. Kết luận chỉ nên tóm tắt lại lựa chọn."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Relabelled a commonMistake: 'tell -> tells' is subject-verb agreement, not a tense error. Model answer (parent perspective, two examples, concession) checked; word count (187)."
+  },
+  "createdAt": "2026-10-26"
+}

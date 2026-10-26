@@ -1,0 +1,240 @@
+{
+  "id": "l6-drill-01",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "environment",
+  "title": "Speaker-attitude drill: Banning single-use coffee cups",
+  "context": "You will hear a radio commentary about a proposal in Victoria to ban single-use coffee cups.",
+  "estimatedMinutes": 5,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Jason Park, commentator",
+          "voice": "male_b",
+          "text": "Victoria council is considering a bylaw that would ban single-use coffee cups in cafés by twenty twenty-eight. I drink two coffees a day, usually on the go, so let me declare my interest up front."
+        },
+        {
+          "speaker": "Jason Park, commentator",
+          "voice": "male_b",
+          "text": "Let me be clear about one thing first. I'm not here to defend the paper cup. Most of them are lined with plastic, very few actually get recycled, and the city says they make up a surprising share of what's collected from downtown garbage bins. If you asked me whether we should use far fewer of them, I'd say yes without hesitation."
+        },
+        {
+          "speaker": "Jason Park, commentator",
+          "voice": "male_b",
+          "text": "Where I part ways with council is the word ban. A ban sounds decisive, and I suspect that's a big part of its appeal. But announcing one is the easy part. What about the commuter who forgot her travel mug, or the tourist who just stepped off the ferry? Unless there's a reliable way to borrow a cup here and return it over there, we're not changing habits. We're just annoying people."
+        },
+        {
+          "speaker": "Jason Park, commentator",
+          "voice": "male_b",
+          "text": "And frankly, I'm not convinced council has thought about who pays. A large chain can afford thousands of reusable cups and a commercial washing system. A family-run café in Fernwood can't, at least not without help."
+        },
+        {
+          "speaker": "Jason Park, commentator",
+          "voice": "male_b",
+          "text": "There's a better approach, and it isn't complicated. Start with a twenty-five-cent charge on every disposable cup, so that grabbing a throwaway cup is no longer the automatic choice. Put that money into a shared cup program that works across many cafés, with return bins at bus stops and ferry terminals."
+        },
+        {
+          "speaker": "Jason Park, commentator",
+          "voice": "male_b",
+          "text": "Then, in three years, look at the numbers. If disposable cups are still everywhere, I'll be the first to call for a ban."
+        },
+        {
+          "speaker": "Jason Park, commentator",
+          "voice": "male_b",
+          "text": "Supporters will say we've had decades of gentle nudges and they haven't worked. That's a fair criticism. But a ban that people resent and small businesses can't meet won't work either. It'll simply be ignored."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is the speaker's attitude toward disposable coffee cups?",
+          "options": [
+            {
+              "text": "He thinks their environmental impact has been exaggerated.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông nêu rõ cốc lót nhựa, ít được tái chế và chiếm phần đáng kể rác."
+            },
+            {
+              "text": "He agrees they are a real problem that should be reduced.",
+              "trap": "none",
+              "whyVi": "Đúng: ông nói sẽ đồng ý ngay việc dùng ít cốc hơn rất nhiều."
+            },
+            {
+              "text": "He believes they should be banned immediately.",
+              "trap": "partially_true",
+              "whyVi": "Ông muốn giảm cốc, nhưng phản đối lệnh cấm lúc này."
+            },
+            {
+              "text": "He defends them because he drinks coffee on the go.",
+              "trap": "word_match",
+              "whyVi": "Ông có nói mình uống cà phê mang đi, nhưng khẳng định 'I'm not here to defend the paper cup'."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "If you asked me whether we should use far fewer of them, I'd say yes without hesitation.",
+          "explanationVi": "Thái độ thể hiện qua 'I'm not here to defend the paper cup' và 'I'd say yes without hesitation'. Lựa chọn D lợi dụng chi tiết ông thú nhận mình uống cà phê mang đi.",
+          "vocabulary": [
+            "declare an interest"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "How does the speaker feel about council's proposed ban?",
+          "options": [
+            {
+              "text": "He feels it does not go far enough.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông thấy lệnh cấm là quá sớm, không phải chưa đủ mạnh."
+            },
+            {
+              "text": "He believes council is acting dishonestly.",
+              "trap": "too_broad",
+              "whyVi": "Quá mạnh: ông chỉ nghi ngờ hội đồng chưa tính kỹ, không cáo buộc họ gian dối."
+            },
+            {
+              "text": "He thinks it sounds impressive but has not been planned properly.",
+              "trap": "none",
+              "whyVi": "Đúng: 'sounds decisive' nhưng thiếu hệ thống mượn–trả cốc và chưa tính ai sẽ trả tiền."
+            },
+            {
+              "text": "He fully supports it as long as tourists are exempt.",
+              "trap": "word_match",
+              "whyVi": "'Tourist' được nhắc như ví dụ về người bị bất tiện, ông không đề xuất miễn trừ."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "A ban sounds decisive, and I suspect that's a big part of its appeal. But announcing one is the easy part.",
+          "explanationVi": "Giọng hơi châm biếm: lệnh cấm 'sounds decisive' và 'announcing one is the easy part', kèm 'I'm not convinced council has thought about who pays'. Đáp án C tổng hợp hai ý này.",
+          "vocabulary": [
+            "part ways with",
+            "decisive"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does the speaker suggest doing with the money from the cup charge?",
+          "options": [
+            {
+              "text": "Funding a reusable cup system shared by many cafés",
+              "trap": "none",
+              "whyVi": "Đúng: đưa tiền vào chương trình cốc dùng chung với thùng trả cốc ở trạm xe buýt và bến phà."
+            },
+            {
+              "text": "Buying washing systems for large coffee chains",
+              "trap": "word_match",
+              "whyVi": "Có nhắc hệ thống rửa của chuỗi lớn, nhưng đó là ví dụ về việc chuỗi lớn tự trang trải được."
+            },
+            {
+              "text": "Giving it back to customers who bring travel mugs",
+              "trap": "not_mentioned",
+              "whyVi": "Không nhắc đến việc hoàn tiền cho khách mang cốc riêng."
+            },
+            {
+              "text": "Paying for more garbage bins downtown",
+              "trap": "word_match",
+              "whyVi": "'Garbage bins' xuất hiện trong bài nhưng nói về rác thu gom, không phải nơi dùng tiền."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "Put that money into a shared cup program that works across many cafés",
+          "explanationVi": "'a shared cup program that works across many cafés' được diễn đạt lại thành 'a reusable cup system shared by many cafés'.",
+          "vocabulary": [
+            "disposable"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "How does the speaker respond to supporters who say gentle measures have failed?",
+          "options": [
+            {
+              "text": "He rejects their claim as completely untrue.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông nói 'That's a fair criticism'."
+            },
+            {
+              "text": "He agrees, and he now supports an immediate ban.",
+              "trap": "partially_true",
+              "whyVi": "Ông đồng ý một phần, nhưng không ủng hộ cấm ngay; ông chỉ xét cấm sau 3 năm nếu không hiệu quả."
+            },
+            {
+              "text": "He says small businesses are to blame for the failure.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không đổ lỗi cho doanh nghiệp nhỏ."
+            },
+            {
+              "text": "He accepts their point but argues an unpopular ban would also fail.",
+              "trap": "none",
+              "whyVi": "Đúng: ông công nhận lời phê bình nhưng nói lệnh cấm bị ghét và không khả thi cũng sẽ bị phớt lờ."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "That's a fair criticism. But a ban that people resent and small businesses can't meet won't work either.",
+          "explanationVi": "Cấu trúc 'That's a fair criticism. But...' là dấu hiệu của thái độ nhượng bộ rồi phản bác. 'won't work either' = 'would also fail'.",
+          "vocabulary": [
+            "nudge",
+            "resent"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "declare an interest",
+      "vi": "nói trước lợi ích cá nhân liên quan",
+      "definition": "openly state a personal connection that could affect your opinion",
+      "example": "I drink two coffees a day, so let me declare my interest."
+    },
+    {
+      "term": "part ways with",
+      "vi": "bất đồng với, rẽ hướng khác",
+      "definition": "stop agreeing with someone on a particular point",
+      "example": "That's where I part ways with council."
+    },
+    {
+      "term": "decisive",
+      "vi": "quyết đoán",
+      "definition": "showing the ability to make decisions quickly and firmly",
+      "example": "A ban sounds decisive."
+    },
+    {
+      "term": "disposable",
+      "vi": "dùng một lần",
+      "definition": "made to be thrown away after one use",
+      "example": "Charge twenty-five cents for every disposable cup."
+    },
+    {
+      "term": "nudge",
+      "vi": "sự thúc đẩy nhẹ",
+      "definition": "a small encouragement to change behaviour without forcing it",
+      "example": "Decades of gentle nudges haven't worked."
+    },
+    {
+      "term": "resent",
+      "vi": "bực bội, oán",
+      "definition": "feel angry about something you think is unfair",
+      "example": "People resent a ban they can't follow."
+    },
+    {
+      "term": "without hesitation",
+      "vi": "không do dự",
+      "definition": "immediately and with confidence",
+      "example": "I'd say yes without hesitation."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 4 items independently; keys match, attitude items have one defensible answer, 3/4 speaker_attitude. Removed an unsupported factual claim (that other cities' 25-cent cup fees \"cut use noticeably\"; Vancouver repealed its fee in 2024 amid doubts about its effect) and replaced it with a neutral rationale; no item depended on it. One voice, ~310 words (drill)."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

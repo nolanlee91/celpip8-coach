@@ -21,6 +21,9 @@ export function VocabularyPage() {
   const [newTerm, setNewTerm] = useState("");
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [info, setInfo] = useState<string | null>(null);
+  const [useAi, setUseAi] = useState(false);
+  const [tab, setTab] = useState<"notebook" | "library">("notebook");
 
   const load = () => api<V[]>("/api/vocab").then(setItems).catch((e) => setError(e.message));
   useEffect(() => { void load(); }, []);
@@ -40,14 +43,17 @@ export function VocabularyPage() {
   if (!items) return <div className="page"><Loading /></div>;
   if (reviewing) return <div className="page"><Review pool={items} queue={reviewing.queue} mode={reviewing.mode} onDone={() => { setReviewing(null); void load(); }} /></div>;
 
-  const due = items.filter((v) => v.due);
+  const due = items.filter((v) => v.due && (v.vi || v.definition));
   const pending = items.filter((v) => !v.enriched).length;
 
   return (
     <div className="page">
       <h1>📚 Sổ từ vựng thông minh</h1>
-      <p className="muted">Tự động thu thập từ câu sai, bài đọc, transcript nghe và phần sửa bài Writing/Speaking. Ôn theo lịch lặp lại ngắt quãng (SM-2).</p>
+      <p className="muted">Tự động thu thập từ câu sai, bài đọc, transcript nghe và phần sửa bài Writing/Speaking; tra nghĩa từ thư viện từ vựng soạn sẵn — không cần AI. Ôn theo lịch lặp lại ngắt quãng (SM-2).</p>
+      <Segmented value={tab} onChange={setTab} options={[{ value: "notebook", label: "Sổ của tôi" }, { value: "library", label: "Thư viện từ vựng" }]} />
       <ErrorBox error={error} />
+      {info && <p className="ok-msg small">{info}</p>}
+      {tab === "library" ? <VocabLibrary onAdded={(n) => { setInfo("Đã thêm " + n + " từ vào sổ."); void load(); }} /> : <>
       <div className="grid-2">
         <Card title="Ôn tập">
           <p><strong>{due.length}</strong> từ đến hạn · {items.length} từ tổng · {items.filter((v) => v.srs.interval >= 21).length} đã thuộc</p>
@@ -64,18 +70,28 @@ export function VocabularyPage() {
             e.preventDefault();
             if (!newTerm.trim()) return;
             setBusy("add"); setError(null);
-            try { await post("/api/vocab", { term: newTerm, source: "manual" }); setNewTerm(""); await load(); } catch (err) { setError((err as Error).message); } finally { setBusy(null); }
+            setInfo(null);
+            try {
+              const r = await post<{ from: string }>("/api/vocab", { term: newTerm, source: "manual", useAi });
+              setInfo(r.from === "library" ? "Đã thêm từ thư viện từ vựng (không dùng AI)." : r.from === "ai" ? "Đã tra bằng AI và thêm vào sổ." : r.from === "notebook" ? "Từ này đã có trong sổ." : "Đã lưu từ (chưa có nghĩa — không có trong thư viện; bật “tra bằng AI” nếu muốn).");
+              setNewTerm(""); await load();
+            } catch (err) { setError((err as Error).message); } finally { setBusy(null); }
           }}>
             <input value={newTerm} onChange={(e) => setNewTerm(e.target.value)} placeholder="vd: be eligible for" className="grow" />
-            <button className="btn primary" disabled={busy === "add"}>{busy === "add" ? "Đang tra…" : "Thêm (AI tra)"}</button>
+            <button className="btn primary" disabled={busy === "add"}>{busy === "add" ? "Đang thêm…" : "Thêm"}</button>
           </form>
+          <label className="row gap-s small" style={{ marginTop: 6 }}><input type="checkbox" checked={useAi} onChange={(e) => setUseAi(e.target.checked)} />Tra bằng AI nếu từ không có trong thư viện (tốn 1 lượt Gemini)</label>
           {pending > 0 && (
             <div className="row gap-s" style={{ marginTop: 10 }}>
-              <span className="small muted">{pending} từ chưa có collocation/từ đồng nghĩa.</span>
+              <span className="small muted">{pending} từ chưa đủ chi tiết.</span>
               <button className="btn small" disabled={busy === "enrich"} onClick={async () => {
-                setBusy("enrich");
-                try { await post("/api/vocab/enrich"); await load(); } catch (err) { setError((err as Error).message); } finally { setBusy(null); }
-              }}>{busy === "enrich" ? "Đang bổ sung…" : "Bổ sung chi tiết bằng AI"}</button>
+                setBusy("enrich"); setInfo(null);
+                try { const r = await post<{ fromLibrary: number; stillPending: number }>("/api/vocab/enrich"); setInfo("Bổ sung từ thư viện: " + r.fromLibrary + " từ. Còn " + r.stillPending + " từ chưa có."); await load(); } catch (err) { setError((err as Error).message); } finally { setBusy(null); }
+              }}>Bổ sung từ thư viện</button>
+              <button className="btn small ghost" disabled={busy === "enrich"} onClick={async () => {
+                setBusy("enrich"); setInfo(null);
+                try { const r = await post<{ fromLibrary: number; fromAi: number }>("/api/vocab/enrich", { useAi: true }); setInfo("Thư viện: " + r.fromLibrary + " · AI: " + r.fromAi + "."); await load(); } catch (err) { setError((err as Error).message); } finally { setBusy(null); }
+              }}>…hoặc bằng AI</button>
             </div>
           )}
         </Card>
@@ -112,7 +128,67 @@ export function VocabularyPage() {
           </div>
         )}
       </Card>
+      </>}
     </div>
+  );
+}
+
+interface LibEntry { id: string; term: string; vi: string; definition: string; example: string; collocations: string[]; synonyms: string[]; topic: string; difficulty: number; tasks: string[]; inNotebook: boolean }
+
+const ALL_TASKS = ["R1", "R2", "R3", "R4", "L1", "L2", "L3", "L4", "L5", "L6", "W1", "W2", "S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"];
+
+function VocabLibrary({ onAdded }: { onAdded: (n: number) => void }) {
+  const [rows, setRows] = useState<LibEntry[] | null>(null);
+  const [total, setTotal] = useState(0);
+  const [topics, setTopics] = useState<Record<string, string>>({});
+  const [f, setF] = useState({ topic: "", difficulty: "", task: "", q: "" });
+  const [error, setError] = useState<string | null>(null);
+  const load = () => {
+    const qs = new URLSearchParams(Object.fromEntries(Object.entries(f).filter(([, v]) => v)));
+    api<{ rows: LibEntry[]; total: number; topics: Record<string, string> }>("/api/vocab/library?" + qs)
+      .then((r) => { setRows(r.rows); setTotal(r.total); setTopics(r.topics); }).catch((e) => setError(e.message));
+  };
+  useEffect(load, [f]);
+  const add = async (ids: string[]) => {
+    try { const r = await post<{ added: number }>("/api/vocab/pack", { ids }); onAdded(r.added); load(); } catch (e) { setError((e as Error).message); }
+  };
+  const notIn = (rows ?? []).filter((r) => !r.inNotebook);
+  return (
+    <Card title={"Thư viện từ vựng (" + total + " mục)"} actions={
+      <>
+        <input value={f.q} onChange={(e) => setF({ ...f, q: e.target.value })} placeholder="Tìm…" />
+        <select value={f.topic} onChange={(e) => setF({ ...f, topic: e.target.value })}><option value="">Mọi chủ đề</option>{Object.entries(topics).map(([k, v]) => <option key={k} value={k}>{v}</option>)}</select>
+        <select value={f.difficulty} onChange={(e) => setF({ ...f, difficulty: e.target.value })}><option value="">Mọi cấp độ</option>{[5, 6, 7, 8, 9, 10].map((d) => <option key={d} value={d}>Cấp {d}</option>)}</select>
+        <select value={f.task} onChange={(e) => setF({ ...f, task: e.target.value })}><option value="">Mọi dạng bài</option>{ALL_TASKS.map((t) => <option key={t} value={t}>{t}</option>)}</select>
+      </>
+    }>
+      <ErrorBox error={error} />
+      {!rows ? <Loading /> : rows.length === 0 ? <Empty>Không có mục nào.</Empty> : (
+        <>
+          <div className="row gap-s" style={{ marginBottom: 10 }}>
+            <button className="btn primary small" disabled={!notIn.length} onClick={() => add(notIn.slice(0, 30).map((r) => r.id))}>+ Thêm {Math.min(30, notIn.length)} từ đang lọc vào sổ</button>
+            <span className="muted small">{rows.length} mục khớp · {notIn.length} chưa có trong sổ</span>
+          </div>
+          <div className="vocab-grid">
+            {rows.slice(0, 120).map((v) => (
+              <div key={v.id} className="vocab-card">
+                <div className="row between">
+                  <strong className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm">🔊</button></strong>
+                  {v.inNotebook ? <Badge tone="good">trong sổ</Badge> : <button className="btn small" onClick={() => add([v.id])}>+ Sổ</button>}
+                </div>
+                <div>🇻🇳 {v.vi}</div>
+                <div className="muted small">{v.definition}</div>
+                <div className="small"><em>{v.example}</em></div>
+                <div className="tiny"><strong>Collocations:</strong> {v.collocations.join(" · ")}</div>
+                <div className="tiny"><strong>Đồng nghĩa:</strong> {v.synonyms.join(", ")}</div>
+                <div className="tiny muted">{topics[v.topic] ?? v.topic} · cấp {v.difficulty} · {v.tasks.join(", ")}</div>
+              </div>
+            ))}
+          </div>
+          {rows.length > 120 && <p className="muted small">Hiển thị 120/{rows.length} — dùng bộ lọc để thu hẹp.</p>}
+        </>
+      )}
+    </Card>
   );
 }
 

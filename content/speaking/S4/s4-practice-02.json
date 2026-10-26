@@ -1,0 +1,58 @@
+{
+  "id": "s4-practice-02",
+  "kind": "speaking",
+  "taskType": "S4",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Moving day at the office",
+  "prompt": "In this picture, what do you think will happen next? Describe what will happen next as well as you can. The person with whom you are speaking cannot see the picture.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='320' fill='#eef1f4'/><rect y='320' width='800' height='180' fill='#9aa5b1'/><rect x='40' y='40' width='200' height='130' fill='#cfe8f7' stroke='#7f8c8d' stroke-width='5'/><rect x='42' y='155' width='196' height='13' fill='#95a5a6'/><rect x='60' y='100' width='110' height='50' fill='#ffffff' stroke='#999999'/><text x='115' y='131' font-family='Arial' font-size='13' font-weight='bold' fill='#e67e22' text-anchor='middle'>MOVERS</text><rect x='170' y='115' width='40' height='35' fill='#e67e22'/><rect x='185' y='120' width='20' height='12' fill='#aed6f1'/><circle cx='85' cy='152' r='9' fill='#2d3436'/><circle cx='150' cy='152' r='9' fill='#2d3436'/><circle cx='195' cy='152' r='9' fill='#2d3436'/><rect x='300' y='30' width='200' height='36' rx='4' fill='#e67e22'/><text x='400' y='54' font-family='Arial' font-size='18' font-weight='bold' fill='#ffffff' text-anchor='middle'>MOVING DAY</text><circle cx='720' cy='110' r='20' fill='#ffffff' stroke='#333333' stroke-width='3'/><line x1='720' y1='110' x2='720' y2='96' stroke='#333333' stroke-width='2'/><line x1='720' y1='110' x2='730' y2='114' stroke='#333333' stroke-width='2'/><line x1='645' y1='330' x2='680' y2='140' stroke='#95a5a6' stroke-width='5'/><line x1='715' y1='330' x2='680' y2='140' stroke='#95a5a6' stroke-width='5'/><path d='M672.6 180 H687.4 M665.3 220 H694.7 M657.9 260 H702.1 M650.5 300 H709.5' stroke='#95a5a6' stroke-width='4'/><circle cx='680' cy='144' r='11' fill='#c98e64'/><path d='M669 142 Q680 128 691 142 Z' fill='#1e1e1e'/><rect x='668' y='156' width='24' height='34' rx='5' fill='#27ae60'/><rect x='671' y='190' width='8' height='30' fill='#2c3e50'/><rect x='681' y='190' width='8' height='30' fill='#2c3e50'/><line x1='690' y1='162' x2='703' y2='126' stroke='#27ae60' stroke-width='6' stroke-linecap='round'/><rect x='40' y='300' width='180' height='12' fill='#8e5b2e'/><rect x='48' y='312' width='8' height='80' fill='#8e5b2e'/><rect x='204' y='312' width='8' height='80' fill='#8e5b2e'/><rect x='60' y='250' width='64' height='44' fill='#2d3436'/><rect x='88' y='294' width='8' height='6' fill='#2d3436'/><rect x='184' y='262' width='64' height='38' fill='#c8a165' stroke='#9c7a45' stroke-width='1.5'/><text x='216' y='286' font-family='Arial' font-size='11' font-weight='bold' fill='#c0392b' text-anchor='middle'>FRAGILE</text><line x1='500' y1='300' x2='500' y2='400' stroke='#7f8c8d' stroke-width='5'/><line x1='500' y1='400' x2='466' y2='400' stroke='#7f8c8d' stroke-width='5'/><rect x='462' y='340' width='36' height='58' fill='#c8a165' stroke='#9c7a45' stroke-width='1.5'/><rect x='466' y='302' width='32' height='38' fill='#d4b483' stroke='#9c7a45' stroke-width='1.5' transform='rotate(-8 482 321)'/><circle cx='505' cy='402' r='10' fill='#2d3436'/><circle cx='306' cy='398' r='11' fill='#8d5a3b'/><path d='M295 396 Q306 382 317 396 Z' fill='#2e5c9a'/><rect x='294' y='410' width='24' height='32' rx='5' fill='#2e5c9a'/><line x1='300' y1='442' x2='292' y2='470' stroke='#1f2d3d' stroke-width='8' stroke-linecap='round'/><line x1='312' y1='442' x2='322' y2='470' stroke='#1f2d3d' stroke-width='8' stroke-linecap='round'/><rect x='314' y='390' width='56' height='40' fill='#c8a165' stroke='#9c7a45' stroke-width='1.5'/><rect x='314' y='350' width='56' height='40' fill='#c8a165' stroke='#9c7a45' stroke-width='1.5'/><rect x='314' y='310' width='56' height='40' fill='#c8a165' stroke='#9c7a45' stroke-width='1.5'/><rect x='318' y='272' width='50' height='38' fill='#c8a165' stroke='#9c7a45' stroke-width='1.5' transform='rotate(10 343 291)'/><path d='M342 310 V430' stroke='#e6cf9e' stroke-width='5'/><line x1='300' y1='416' x2='316' y2='431' stroke='#2e5c9a' stroke-width='6' stroke-linecap='round'/><circle cx='318' cy='432' r='4' fill='#8d5a3b'/><path d='M380 472 Q450 455 500 472 Q530 482 552 466' stroke='#111111' stroke-width='4' fill='none'/><rect x='548' y='460' width='28' height='10' fill='#ecf0f1' stroke='#555555'/><path d='M599 398 Q610 380 621 398 L621 416 L599 416 Z' fill='#d4a017'/><circle cx='610' cy='398' r='11' fill='#f0c8a0'/><path d='M599 396 Q610 380 621 396 Z' fill='#d4a017'/><rect x='598' y='410' width='24' height='36' rx='6' fill='#c0392b'/><line x1='604' y1='446' x2='598' y2='470' stroke='#2d3436' stroke-width='7' stroke-linecap='round'/><line x1='616' y1='446' x2='622' y2='470' stroke='#2d3436' stroke-width='7' stroke-linecap='round'/><line x1='600' y1='420' x2='594' y2='404' stroke='#c0392b' stroke-width='5' stroke-linecap='round'/><rect x='589' y='392' width='8' height='13' rx='1' fill='#111111'/><line x1='602' y1='430' x2='590' y2='430' stroke='#c0392b' stroke-width='5' stroke-linecap='round'/><rect x='574' y='420' width='10' height='14' fill='#ffffff' stroke='#999999'/><rect x='573' y='417' width='12' height='4' fill='#6e2c00'/><rect x='586' y='422' width='10' height='14' fill='#ffffff' stroke='#999999'/><rect x='585' y='419' width='12' height='4' fill='#6e2c00'/><ellipse cx='750' cy='405' rx='8' ry='18' fill='#27ae60' transform='rotate(-20 750 405)'/><ellipse cx='766' cy='405' rx='8' ry='18' fill='#27ae60' transform='rotate(20 766 405)'/><ellipse cx='758' cy='398' rx='8' ry='20' fill='#2ecc71'/><polygon points='740,420 776,420 770,460 746,460' fill='#c0643b'/></svg>",
+  "options": null,
+  "structure": [
+    "Main prediction: an accident is about to happen in the middle of the office.",
+    "Explain the clues: the tall stack of boxes, the cable on the floor, the woman looking at her phone.",
+    "Add a second prediction (the 'Fragile' box on the desk) and how others might react.",
+    "Finish with what will happen afterwards."
+  ],
+  "modelAnswer": "I think there's going to be an accident in the next few seconds. In the middle of the picture, a mover in a blue uniform is carrying a stack of four boxes that's taller than he is, so he can't really see the floor ahead of him. Right in his path, there's a black cable lying across the carpet, so he'll probably trip over it. At the same time, a woman is walking toward him with two cups of coffee, and she's looking at her phone instead of watching where she's going. My guess is that they'll bump into each other, the top box, which is already tilting, will fall, and she'll spill coffee everywhere. On top of that, on the desk on the left, there's a box marked \"Fragile\" hanging over the edge, so if anyone knocks the desk, it'll end up on the floor. Hopefully, the man on the ladder will see what's happening and shout a warning. Afterwards, I'm sure someone will move that cable out of the way.",
+  "usefulExpressions": [
+    {
+      "expression": "There's going to be… in the next few seconds",
+      "usageVi": "Dự đoán chắc chắn dựa trên bằng chứng rõ ràng trong tranh"
+    },
+    {
+      "expression": "Right in his path, there's…",
+      "usageVi": "Ngay trên đường anh ấy đi có… — chỉ ra manh mối nguy hiểm"
+    },
+    {
+      "expression": "…instead of watching where she's going",
+      "usageVi": "Thay vì nhìn đường — giải thích nguyên nhân sự cố"
+    },
+    {
+      "expression": "My guess is that…",
+      "usageVi": "Cách nói tự nhiên để đưa ra dự đoán"
+    },
+    {
+      "expression": "On top of that, …",
+      "usageVi": "Thêm vào đó — thêm một dự đoán phụ"
+    },
+    {
+      "expression": "…it'll end up on the floor",
+      "usageVi": "Rốt cuộc sẽ rơi xuống sàn — nói kết quả cuối cùng"
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ nói một dự đoán rồi hết ý; hãy chuẩn bị 2–3 dự đoán (người khuân hộp, người cầm cà phê, hộp 'Fragile').",
+    "Dùng 'fall' sai dạng: 'the box will falls / will fell' → 'the box will fall'.",
+    "Nói 'he will be fall down' → đúng là 'he will fall' hoặc 'he will trip over the cable'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rendered and inspected the picture/cards; checked the model answer against the drawing, length (60 s), task fulfilment, expressions and mistakes. Changes: S4 standard instruction; answer matched the drawing, no other change."
+  },
+  "createdAt": "2026-10-26"
+}

@@ -1,0 +1,191 @@
+{
+  "id": "r3-mock-02",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "education",
+  "title": "How English Classes for Newcomers Have Changed",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 9 independently; keys match; Q5 E verified (motivation only, no job outcome). No changes." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "Twenty years ago, most newcomers to the Lower Mainland who wanted free English classes followed the same path. They took a placement test, were assigned a level, and attended a classroom three hours a day, five days a week, sometimes for a full year. Classes were organised by language level alone, so a retired engineer and a teenager who had left school early might sit side by side. For adults who needed to start earning money quickly, that schedule was often impossible, and teachers at the time estimated that nearly half of all learners quit before finishing a level.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "The biggest shift has been in timing and format. At the Harbourview Settlement Society in New Westminster, only a third of English classes now meet on weekday mornings or afternoons. The rest run in the evening, on Saturdays or online, and learners can move between in-person and online sessions from one week to the next. Program director Farida Haidari says the arrangement began as a temporary response to the public-health closures of 2020 but proved so popular that it was never reversed. Attendance is now recorded on the online platform, which alerts staff when a learner misses two classes in a row so they can call to check in.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Classes have also become more closely tied to work. Many centres now offer sector-specific streams in which learners practise the English used in warehouses, early childhood education or bookkeeping. In the bookkeeping stream, learners read real invoices, write short emails to suppliers and role-play phone calls with customers who have not paid on time. Employers sometimes help design these courses; a regional grocery distributor, for instance, supplied safety manuals and shift-change scripts for the warehouse stream. Instructors say learners stay motivated when they can see a direct connection between the lesson and a job.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "The way progress is measured has changed too. Instead of a single test at the end of a level, most programs now use portfolio-based assessment: learners collect samples of real tasks, such as a completed job application or a recorded voicemail message, and instructors assess them throughout the term. Some learners find this less stressful, but others say they miss knowing exactly where they stand. \"With a test, I knew my score,\" says Oleksandr Petrenko, who arrived from Ukraine in 2023. \"With the portfolio, I sometimes didn't know if I was ready to move up until the teacher told me.\"",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Something introduced to deal with an emergency was kept afterwards.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A mô tả mô hình cũ, không nhắc đến tình huống khẩn cấp." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Lịch học linh hoạt bắt đầu như 'a temporary response to the public-health closures of 2020' nhưng 'was never reversed'." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'safety manuals' (sổ tay an toàn) nhưng đó là tài liệu học, không phải biện pháp khẩn cấp." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D cũng nói về một thay đổi (đánh giá bằng portfolio) nhưng không nói nó bắt đầu vì tình huống khẩn cấp." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "the arrangement began as a temporary response to the public-health closures of 2020 but proved so popular that it was never reversed",
+      "explanationVi": "'An emergency' = 'the public-health closures of 2020'; 'introduced to deal with' = 'began as a temporary response'; 'was kept afterwards' = 'was never reversed' (không bao giờ bị huỷ bỏ).",
+      "vocabulary": ["reverse"]
+    },
+    {
+      "number": 2,
+      "prompt": "Learners with very different life experiences used to be grouped together.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Lớp chỉ chia theo trình độ, nên 'a retired engineer and a teenager ... might sit side by side'." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói về thời gian và hình thức học, không nói cách xếp lớp." },
+        { "text": "C", "trap": "opposite", "whyVi": "Đoạn C nói ngày nay có lớp chia theo ngành nghề — gần như ngược với việc xếp chung mọi người." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D nhắc đến một học viên từ Ukraine nhưng không nói về việc xếp lớp." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Classes were organised by language level alone, so a retired engineer and a teenager who had left school early might sit side by side.",
+      "explanationVi": "'Used to' → nói về quá khứ → Đoạn A. 'Very different life experiences' được minh hoạ bằng ví dụ kỹ sư về hưu và thiếu niên bỏ học; 'grouped together' = 'sit side by side'."
+    },
+    {
+      "number": 3,
+      "prompt": "Learners' work is judged at several points during a course rather than only once.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A có bài kiểm tra xếp lớp ('placement test') nhưng đó là một lần đầu khoá, không phải đánh giá nhiều lần." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B có ghi nhận chuyên cần ('Attendance is now recorded'), nhưng đó là điểm danh, không phải đánh giá bài làm." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C không nói cách chấm điểm." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Thay vì 'a single test at the end', giáo viên đánh giá 'throughout the term'." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Instead of a single test at the end of a level, most programs now use portfolio-based assessment",
+      "explanationVi": "'Rather than only once' = 'Instead of a single test at the end'; 'at several points during a course' = 'throughout the term'.",
+      "vocabulary": ["assessment"]
+    },
+    {
+      "number": 4,
+      "prompt": "Some businesses have provided materials used in lessons.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không nhắc đến doanh nghiệp." },
+        { "text": "B", "trap": "wrong_speaker", "whyVi": "Đoạn B có tổ chức Harbourview Settlement Society — đây là đơn vị tổ chức lớp học, không phải doanh nghiệp cung cấp tài liệu." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Một nhà phân phối thực phẩm 'supplied safety manuals and shift-change scripts'." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D có 'a completed job application' (tài liệu công việc) nhưng đó là bài làm của học viên, không phải doanh nghiệp cung cấp." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "a regional grocery distributor, for instance, supplied safety manuals and shift-change scripts for the warehouse stream",
+      "explanationVi": "'Some businesses' = 'Employers' / 'a regional grocery distributor'; 'provided materials' = 'supplied safety manuals and shift-change scripts'."
+    },
+    {
+      "number": 5,
+      "prompt": "People who complete a job-focused stream find work faster than other learners.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'start earning money quickly' nhưng đó là nhu cầu của học viên ngày xưa, không phải kết quả tìm việc." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B không nói về việc làm sau khoá học." },
+        { "text": "C", "trap": "partially_true", "whyVi": "Đoạn C nói học viên có động lực hơn khi thấy liên hệ với công việc, nhưng không nói họ tìm được việc nhanh hơn." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D có 'job application' nhưng chỉ là một mẫu bài tập." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: Không đoạn nào so sánh tốc độ tìm việc." }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "Instructors say learners stay motivated when they can see a direct connection between the lesson and a job.",
+      "explanationVi": "Câu gần nhất ở Đoạn C chỉ nói về động lực học ('stay motivated'), không nói kết quả tìm việc. Đừng tự suy ra 'có động lực → có việc nhanh hơn'. Bài không có thông tin → E."
+    },
+    {
+      "number": 6,
+      "prompt": "A large share of learners once left their classes early.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Giáo viên ước tính 'nearly half of all learners quit before finishing a level'." },
+        { "text": "B", "trap": "partially_true", "whyVi": "Đoạn B nói hệ thống báo khi học viên vắng hai buổi liên tiếp — đó là cách theo dõi hiện nay, không nói nhiều người từng bỏ học." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói học viên có động lực, không nói về bỏ học." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D không nói về tỷ lệ bỏ học." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "vocabulary",
+      "evidence": "teachers at the time estimated that nearly half of all learners quit before finishing a level",
+      "explanationVi": "'A large share' = 'nearly half'; 'left their classes early' = 'quit before finishing a level'; 'once' = 'at the time' (hai mươi năm trước). Cẩn thận: 'leave early' ở đây nghĩa là bỏ học giữa chừng, không phải về sớm trong ngày.",
+      "vocabulary": ["drop out / quit"]
+    },
+    {
+      "number": 7,
+      "prompt": "Some learners are less sure how well they are doing under the newer approach.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A nói về mô hình cũ." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói học viên thích lịch linh hoạt, không nói họ không chắc về tiến bộ." },
+        { "text": "C", "trap": "opposite", "whyVi": "Đoạn C nói học viên có động lực khi thấy liên hệ với công việc — cảm xúc tích cực, không phải không chắc chắn." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Một số người 'miss knowing exactly where they stand', như Oleksandr không biết mình đã sẵn sàng lên lớp chưa." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "others say they miss knowing exactly where they stand",
+      "explanationVi": "Thành ngữ 'know where you stand' = biết rõ tình trạng/vị trí của mình. 'Miss knowing where they stand' → hiện giờ họ không chắc → 'less sure how well they are doing'.",
+      "vocabulary": ["know where you stand"]
+    },
+    {
+      "number": 8,
+      "prompt": "Some learners practise handling conversations about unpaid bills.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'earning money' nhưng nói về nhu cầu kiếm tiền, không phải bài tập." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B có 'call to check in' — nhân viên gọi học viên vắng mặt, không phải bài tập về hoá đơn." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Lớp kế toán có 'role-play phone calls with customers who have not paid on time'." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D có các bài tập thực tế (đơn xin việc, tin nhắn thoại) nhưng không có nội dung về hoá đơn chưa trả." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "role-play phone calls with customers who have not paid on time",
+      "explanationVi": "'Unpaid bills' = 'customers who have not paid on time'; 'practise handling conversations' = 'role-play phone calls'. Đoạn D cũng có bài tập thực tế nhưng là đơn xin việc và tin nhắn thoại."
+    },
+    {
+      "number": 9,
+      "prompt": "Staff are notified so that they can contact learners who have been absent.",
+      "options": [
+        { "text": "A", "trap": "opposite", "whyVi": "Đoạn A nói ngày xưa nhiều người bỏ học nhưng không nói có ai liên hệ lại với họ." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Hệ thống 'alerts staff when a learner misses two classes in a row so they can call to check in'." },
+        { "text": "C", "trap": "wrong_speaker", "whyVi": "Đoạn C có ý kiến của giảng viên về động lực, không nói về việc liên hệ học viên vắng mặt." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D có 'until the teacher told me' — giáo viên thông báo việc lên lớp, không phải liên hệ người vắng mặt." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "alerts staff when a learner misses two classes in a row so they can call to check in",
+      "explanationVi": "'Staff are notified' = 'alerts staff'; 'learners who have been absent' = 'misses two classes in a row'; 'contact' = 'call to check in'."
+    }
+  ],
+  "vocabulary": [
+    { "term": "placement test", "vi": "bài kiểm tra xếp lớp", "definition": "a test that decides which level a learner should start at", "example": "Every newcomer took a placement test before the first class." },
+    { "term": "side by side", "vi": "cạnh nhau", "definition": "next to each other", "example": "An engineer and a teenager might sit side by side." },
+    { "term": "reverse", "vi": "đảo ngược, huỷ bỏ (quyết định)", "definition": "to change a decision back to what it was before", "example": "The temporary change was never reversed." },
+    { "term": "check in", "vi": "hỏi thăm tình hình", "definition": "to contact someone to see how they are", "example": "Staff call to check in when a learner misses two classes." },
+    { "term": "stream", "vi": "nhánh / chương trình chuyên biệt", "definition": "a group of classes for learners with a particular goal", "example": "She joined the bookkeeping stream." },
+    { "term": "assessment", "vi": "sự đánh giá", "definition": "the process of judging a learner's ability or work", "example": "Portfolio-based assessment happens throughout the term." },
+    { "term": "know where you stand", "vi": "biết rõ mình đang ở mức nào", "definition": "to understand clearly your situation or level", "example": "With a test score, you know where you stand." },
+    { "term": "drop out / quit", "vi": "bỏ học giữa chừng", "definition": "to leave a course before it is finished", "example": "Nearly half of learners quit before finishing a level." }
+  ]
+}

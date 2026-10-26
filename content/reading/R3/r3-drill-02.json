@@ -1,0 +1,143 @@
+{
+  "id": "r3-drill-02",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "drill",
+  "difficulty": 6,
+  "topic": "transportation",
+  "title": "Detail drill: Riverbend's E-Bike Rebate Program",
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 6 independently; keys match; Q4 E verified. Fixed Q1 option C whyVi (Paragraph C says 'upload a copy', not 'online')." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "The City of Riverbend's e-bike rebate program, now in its second year, offers residents up to $600 toward the purchase of a new electric bicycle. Council set aside $450,000 for 2026, which is enough for about 900 rebates, and roughly 520 had been approved by the end of September. The goal, according to the city's sustainability office, is to replace short car trips. A 2025 survey found that more than half of the trips residents make by car are shorter than five kilometres, a distance most people can cover on an e-bike in under twenty minutes.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "To qualify, applicants must be at least 18 years old, live in Riverbend, and buy the bike from a shop that has a physical store in the city. Purchases made online, even from a local shop's website, are not eligible. The bike must cost at least $1,200 before tax and must be a pedal-assist model, which means the motor only helps while the rider is pedalling. Electric scooters and bikes that can be driven with a throttle alone do not qualify. Only one rebate is allowed per household in each calendar year.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "The amount of the rebate depends on household income. Households earning less than $60,000 a year receive the full $600, while those earning between $60,000 and $100,000 receive $350. Households above $100,000 can still apply, but their rebate is limited to $150, because the city wants most of the money to go to families on tighter budgets. Applicants in the lowest income group must upload a copy of their most recent Notice of Assessment from the Canada Revenue Agency as proof. Everyone else simply states their income on the application form, and city staff check a random sample of applications each month.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Residents must apply online before they buy anything. The city replies within ten business days with a reservation number, which is valid for 60 days; anyone who misses that window has to apply again. After purchasing the bike, the applicant uploads the store receipt and a photo of the bike's serial number. The rebate is then paid by direct deposit, usually about four weeks later. Councillor Ines Moretti, who first proposed the program, says the city will publish a report next spring on how many people who received rebates are still riding their e-bikes regularly.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "A bike ordered through a website will not qualify for a rebate.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A nói về ngân sách và mục tiêu, không nói về cách mua." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: 'Purchases made online, even from a local shop's website, are not eligible'." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'upload a copy' (tải giấy tờ lên mạng), nhưng đó là nộp giấy chứng minh thu nhập, không phải mua xe qua mạng." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D nói phải nộp đơn trực tuyến ('apply online') — đó là nộp đơn, không phải mua xe qua mạng." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "Purchases made online, even from a local shop's website, are not eligible.",
+      "explanationVi": "'Ordered through a website' = 'Purchases made online'; 'will not qualify' = 'are not eligible'. Cẩn thận Đoạn D: 'apply online' là nộp đơn trên mạng, được phép.",
+      "vocabulary": ["eligible"]
+    },
+    {
+      "number": 2,
+      "prompt": "A household with a middle-range income gets $350.",
+      "options": [
+        { "text": "A", "trap": "wrong_detail", "whyVi": "Đoạn A chỉ nói mức tối đa $600, không nói mức $350." },
+        { "text": "B", "trap": "wrong_detail", "whyVi": "Đoạn B có con số $1,200 (giá xe tối thiểu), không phải số tiền hoàn lại." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Hộ có thu nhập từ $60,000 đến $100,000 'receive $350'." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về quy trình, không nói số tiền theo thu nhập." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "those earning between $60,000 and $100,000 receive $350",
+      "explanationVi": "Đoạn C chia ba mức thu nhập. Mức giữa ('middle-range') là từ $60,000 đến $100,000 → $350. Đọc kỹ các con số để không nhầm với $600 hay $150."
+    },
+    {
+      "number": 3,
+      "prompt": "More than half of this year's available rebates had been approved by the end of September.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Ngân sách đủ cho khoảng 900 suất, và 'roughly 520 had been approved by the end of September' — hơn một nửa." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói về điều kiện, không có số lượng đã duyệt." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'a random sample of applications each month' — kiểm tra hồ sơ hàng tháng, không phải số suất đã duyệt." },
+        { "text": "D", "trap": "wrong_detail", "whyVi": "Đoạn D có các mốc thời gian (10 ngày, 60 ngày, 4 tuần) nhưng không nói đã duyệt bao nhiêu suất." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "which is enough for about 900 rebates, and roughly 520 had been approved by the end of September",
+      "explanationVi": "Cần làm phép so sánh nhỏ: 520 trên khoảng 900 suất → hơn một nửa. Thông tin nằm ở Đoạn A. Lưu ý 'more than half' cũng xuất hiện ở Đoạn A nhưng là về các chuyến đi bằng ô tô — vẫn là Đoạn A."
+    },
+    {
+      "number": 4,
+      "prompt": "Residents who receive a rebate can also take a cycling safety course at a reduced price.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A nói về mục tiêu giảm chuyến đi bằng ô tô, không có khoá học an toàn." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói về điều kiện xe và người nộp đơn." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về mức hoàn tiền theo thu nhập." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D có 'people who received rebates' và việc theo dõi họ còn đạp xe không, nhưng không nói về khoá học." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: Không đoạn nào nhắc đến khoá học an toàn." }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "the city will publish a report next spring on how many people who received rebates are still riding their e-bikes regularly",
+      "explanationVi": "Câu gần nhất ở Đoạn D nói về người đã nhận tiền hoàn lại, nhưng chỉ nói thành phố sẽ báo cáo họ còn đạp xe không. Bài không nhắc đến khoá học an toàn hay giảm giá khác → E."
+    },
+    {
+      "number": 5,
+      "prompt": "Applicants need the city's approval before they pay for a bike.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'approved' nhưng chỉ nói số suất đã duyệt, không nói phải duyệt trước khi mua." },
+        { "text": "B", "trap": "partially_true", "whyVi": "Đoạn B nói các điều kiện để được nhận tiền, nhưng không nói thứ tự nộp đơn và mua xe." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về giấy tờ thu nhập." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: 'Residents must apply online before they buy anything' và chờ mã đặt chỗ." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "Residents must apply online before they buy anything.",
+      "explanationVi": "'Before they pay for a bike' = 'before they buy anything'. Sau khi nộp đơn, thành phố gửi 'a reservation number' — tức là sự chấp thuận trước khi mua."
+    },
+    {
+      "number": 6,
+      "prompt": "The money is sent straight to the applicant's bank account.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A nói tổng ngân sách, không nói cách trả tiền." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B không nói cách trả tiền." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'Canada Revenue Agency' (cơ quan thuế) và thu nhập, nhưng không nói tiền được chuyển thế nào." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: 'The rebate is then paid by direct deposit'." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "vocabulary",
+      "evidence": "The rebate is then paid by direct deposit, usually about four weeks later.",
+      "explanationVi": "'Direct deposit' là chuyển khoản trực tiếp vào tài khoản ngân hàng → 'sent straight to the applicant's bank account'. Cần biết từ vựng này để nối đúng.",
+      "vocabulary": ["direct deposit"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "rebate", "vi": "tiền hoàn lại (sau khi mua)", "definition": "an amount of money paid back to you after you buy something", "example": "The city offers a rebate of up to $600 on e-bikes." },
+    { "term": "eligible", "vi": "đủ điều kiện", "definition": "allowed to do or receive something because you meet the conditions", "example": "Online purchases are not eligible for the rebate." },
+    { "term": "set aside", "vi": "dành riêng (tiền, thời gian)", "definition": "to keep money or time for a particular purpose", "example": "Council set aside $450,000 for the program." },
+    { "term": "pedal-assist", "vi": "trợ lực khi đạp", "definition": "describing an e-bike whose motor helps only while you pedal", "example": "Only pedal-assist models qualify." },
+    { "term": "direct deposit", "vi": "chuyển khoản trực tiếp vào tài khoản", "definition": "a payment sent electronically into a bank account", "example": "Your rebate will arrive by direct deposit." },
+    { "term": "proof", "vi": "bằng chứng, giấy tờ chứng minh", "definition": "a document that shows something is true", "example": "Upload your Notice of Assessment as proof of income." },
+    { "term": "random sample", "vi": "mẫu ngẫu nhiên", "definition": "a group chosen by chance from a larger group", "example": "Staff check a random sample of applications." }
+  ]
+}

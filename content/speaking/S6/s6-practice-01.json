@@ -1,0 +1,54 @@
+{
+  "id": "s6-practice-01",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Extra shift or helping your brother move",
+  "prompt": "Your manager has just asked you to work an extra shift this Saturday. Two warehouse workers are sick, and a large shipment is arriving that day. However, a month ago you promised your brother that you would help him move into his new apartment on Saturday. He has already rented a truck, and he is counting on you.\n\nChoose ONE of the following options:\n\nOption A: Talk to your manager. Explain why you cannot work on Saturday, and suggest another way you could help.\n\nOption B: Talk to your brother. Explain why you need to work on Saturday, and suggest how you can still help him with his move.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Polite opener + show you understand the other person's problem",
+    "Explain your situation honestly with a specific reason",
+    "Offer 2–3 concrete alternatives or solutions",
+    "Apologise briefly + close positively"
+  ],
+  "modelAnswer": "Hi Karen, do you have a minute? It's about the Saturday shift. I completely understand that we're short-staffed and that this shipment is a big one, so I really wish I could say yes. The problem is, I promised my brother a month ago that I'd help him move this Saturday. He's already rented a truck, and honestly, I'm the only person he has to help him.\n\nBut I don't want to leave the team in a difficult position, so here's what I can do. I could come in a couple of hours early on Friday and get the receiving area ready so the crew can unload faster on Saturday. I could also stay late on Monday to finish any put-away that's left. And if you'd like, I'll call Minh. I know he's been looking for extra hours.\n\nI'm sorry I can't be there on Saturday itself, but I hope one of these options helps.",
+  "usefulExpressions": [
+    {
+      "expression": "Do you have a minute?",
+      "usageVi": "Cách mở đầu lịch sự khi muốn nói chuyện với cấp trên."
+    },
+    {
+      "expression": "I completely understand that…",
+      "usageVi": "Thể hiện bạn hiểu vấn đề của người kia trước khi từ chối."
+    },
+    {
+      "expression": "The problem is, …",
+      "usageVi": "Chuyển sang giải thích khó khăn của bạn một cách tự nhiên."
+    },
+    {
+      "expression": "I don't want to leave the team in a difficult position, so here's what I can do.",
+      "usageVi": "Câu chuyển rất hiệu quả từ lời từ chối sang giải pháp."
+    },
+    {
+      "expression": "I could… / I could also…",
+      "usageVi": "Dùng 'could' để đưa ra phương án một cách mềm mỏng, để người kia lựa chọn."
+    }
+  ],
+  "commonMistakes": [
+    "Nói về cả hai người hoặc nói với giám khảo ('I would choose option A because…'). Hãy chọn một người và nói trực tiếp với họ ngay từ câu đầu.",
+    "Từ chối quá thẳng ('I can't work Saturday. Sorry.'). Ở S6, giọng lịch sự và có giải pháp thay thế là yếu tố quyết định điểm.",
+    "Thiếu giải pháp cụ thể. 'I will try to help' quá chung chung — hãy nói rõ thời gian và việc bạn sẽ làm."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Clarified ambiguous 'come in early on Friday, maybe at five' -> 'a couple of hours early on Friday'. Direct address to manager, 3 concrete alternatives, length (~153) checked."
+  },
+  "createdAt": "2026-10-26"
+}

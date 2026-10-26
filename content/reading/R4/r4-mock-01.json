@@ -1,0 +1,184 @@
+{
+  "id": "r4-mock-01",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "education",
+  "title": "Locking Phones Away for the Whole School Day",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": { "status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 10 independently; keys match. Blank 10 (author-flagged) depended only on the comment's logic; added to the article 'One trustee has suggested approving the pouches for one school year, then reviewing the results.' (article ~492 words), switched evidence to it and updated explanation and option D whyVi. Other blanks verified unique." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "When the Kinsella School District restricted cellphones during class time two years ago, the rule was simple: phones stay in backpacks unless a teacher says otherwise. Now trustees are considering going further. Under a proposal to be debated this month, students at the district's six secondary schools would lock their phones in magnetic pouches at the start of the day and unlock them only at dismissal, lunch included.\n\nPrincipal Ravinder Gill of Kinsella Secondary, one of two schools that tested the pouches last spring, has become the plan's most visible champion. He says the classroom-only rule worked on paper but not in practice. \"Teachers were spending the first five minutes of every period negotiating,\" he said. \"With the pouches, that argument simply disappears.\" During the trial, his school recorded 40 per cent fewer reports of online harassment, much of which had started with photos taken in hallways and the cafeteria. Gill is careful about what he claims, though. The figures cover a single term, he notes, and could reflect other factors, including an anti-bullying program introduced at the same time.\n\nTeachers are divided. Marguerite Okafor, who teaches Grade 11 English, says she has not seen students this attentive in fifteen years. \"They talk to each other at lunch now. It's almost old-fashioned.\" But Jonah Weiss, a science teacher at the same school, worries that the district is solving one problem by creating another. Weiss uses phone cameras for lab work and for timing experiments, and the school does not have enough tablets to replace them. \"I'm told I can request an exception,\" he said, \"but the pouch policy turns every exception into a paperwork exercise.\"\n\nParents have raised safety concerns. After a lockdown drill last year, several told trustees they wanted their children to be able to reach them in an emergency. The district's safety coordinator, Felicity Arroyo, responds that during a real emergency, phone use can put students at greater risk by revealing their location or spreading false information, and that the district contacts families directly. Not all parents are persuaded. \"It's not about trust in the school,\" said Hamid Rostami. \"It's about my daughter, who has diabetes and uses an app to monitor her blood sugar.\" The proposal does include medical exemptions, but Rostami says he only learned about them by reading the draft policy himself.\n\nStudents, perhaps unsurprisingly, are mostly opposed, though not entirely. A survey by Kinsella's student council found that 68 per cent disliked the pouches, yet nearly half of those same students said they felt less pressure to answer messages during the day. Student council president Ana Lucía Ferreira summed it up: \"We hate it, but we kind of needed it.\"\n\nTrustees are scheduled to vote on November 30. If the plan is approved, the pouches, which cost about $30 each, would be paid for out of the district's technology budget. One trustee has suggested approving the pouches for one school year, then reviewing the results.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I teach at another secondary school in the district, and I think this article captures the debate fairly. I'm sympathetic to Mr. Gill, but trustees should remember that the harassment figures cover only [[6]] before treating them as proof. Mr. Weiss's point also deserves more attention: if the district takes phones out of science labs, it should first [[7]]. On safety, I find Ms. Arroyo's argument convincing, but the district clearly needs to [[8]], given that Mr. Rostami had to discover them on his own. What struck me most, though, was the student survey. When nearly half of the students who dislike the pouches still admit they feel [[9]], that tells us something. My suggestion is to approve the policy, but [[10]] so that evidence, not just enthusiasm, decides its future.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Why does Ravinder Gill prefer the pouches to the earlier classroom-only rule?",
+      "options": [
+        { "text": "They are cheaper for the district to enforce.", "trap": "not_mentioned", "whyVi": "Gill không so sánh chi phí; giá $30 chỉ được nêu ở cuối bài." },
+        { "text": "They end the need for teachers to bargain with students over phones.", "trap": "none", "whyVi": "Đúng: Trước đây giáo viên mất năm phút mỗi tiết 'negotiating'; với túi khoá, 'that argument simply disappears'." },
+        { "text": "They have permanently reduced online harassment by 40 per cent.", "trap": "partially_true", "whyVi": "Con số 40% là đúng nhưng chỉ trong một học kỳ; chính Gill thận trọng, không nói là giảm vĩnh viễn." },
+        { "text": "The earlier rule had never been officially written down.", "trap": "word_match", "whyVi": "'Worked on paper but not in practice' nghĩa là quy định tốt trên lý thuyết nhưng không hiệu quả thực tế — không phải là chưa được viết ra." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "\"Teachers were spending the first five minutes of every period negotiating,\" he said. \"With the pouches, that argument simply disappears.\"",
+      "explanationVi": "'Negotiating' / 'that argument' = 'bargain with students'. 'Simply disappears' = 'end the need'. Bẫy 'on paper' là thành ngữ: 'work on paper but not in practice' = có vẻ ổn trên lý thuyết nhưng thực tế thì không.",
+      "vocabulary": ["on paper"]
+    },
+    {
+      "number": 2,
+      "prompt": "What does Gill's comment about the harassment figures show about him?",
+      "options": [
+        { "text": "He believes the figures prove the pouches work.", "trap": "opposite", "whyVi": "Ngược lại: ông nói số liệu chỉ trong một học kỳ và có thể do yếu tố khác." },
+        { "text": "He thinks the anti-bullying program was a failure.", "trap": "not_mentioned", "whyVi": "Ông nhắc đến chương trình chống bắt nạt như một yếu tố có thể đóng góp, không nói nó thất bại." },
+        { "text": "He doubts that the figures were collected accurately.", "trap": "wrong_detail", "whyVi": "Ông không nghi ngờ cách thu thập số liệu, mà nghi ngờ nguyên nhân của sự thay đổi." },
+        { "text": "He is careful not to give the pouches all the credit.", "trap": "none", "whyVi": "Đúng: 'Gill is careful about what he claims' — kết quả 'could reflect other factors, including an anti-bullying program'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Gill is careful about what he claims, though. The figures cover a single term, he notes, and could reflect other factors, including an anti-bullying program introduced at the same time.",
+      "explanationVi": "Câu hỏi về thái độ. Dù ủng hộ túi khoá, Gill thừa nhận kết quả có thể do 'other factors'. Vậy ông thận trọng, không cho rằng túi khoá là nguyên nhân duy nhất ('give ... all the credit').",
+      "vocabulary": ["give someone credit"]
+    },
+    {
+      "number": 3,
+      "prompt": "What is Jonah Weiss's main concern?",
+      "options": [
+        { "text": "The policy will interfere with his use of phones as teaching tools.", "trap": "none", "whyVi": "Đúng: Ông dùng camera điện thoại cho thí nghiệm, trường thiếu máy tính bảng, và xin ngoại lệ thì rắc rối giấy tờ." },
+        { "text": "Students have become less attentive since the trial.", "trap": "opposite", "whyVi": "Không ai nói học sinh kém tập trung hơn; cô Okafor còn nói ngược lại." },
+        { "text": "Teachers will not be allowed to request any exceptions.", "trap": "opposite", "whyVi": "Ông được bảo là 'can request an exception'; vấn đề là thủ tục giấy tờ, không phải bị cấm." },
+        { "text": "Students will talk too much at lunch.", "trap": "wrong_speaker", "whyVi": "Việc học sinh nói chuyện lúc ăn trưa là nhận xét tích cực của cô Okafor, không phải mối lo của Weiss." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Weiss uses phone cameras for lab work and for timing experiments, and the school does not have enough tablets to replace them.",
+      "explanationVi": "'Solving one problem by creating another' — vấn đề mới của Weiss là mất công cụ dạy học. Ông dùng điện thoại để chụp ảnh thí nghiệm và bấm giờ → 'teaching tools'. Ngoại lệ vẫn có nhưng là 'a paperwork exercise'.",
+      "vocabulary": ["paperwork"]
+    },
+    {
+      "number": 4,
+      "prompt": "What does Hamid Rostami's experience suggest?",
+      "options": [
+        { "text": "He does not trust the school to handle emergencies.", "trap": "opposite", "whyVi": "Ông nói rõ 'It's not about trust in the school'." },
+        { "text": "The draft policy does not allow any medical exemptions.", "trap": "opposite", "whyVi": "Dự thảo có ngoại lệ y tế ('does include medical exemptions')." },
+        { "text": "The district has not explained the medical exemptions well to families.", "trap": "none", "whyVi": "Đúng: Có ngoại lệ y tế, nhưng ông 'only learned about them by reading the draft policy himself' → học khu chưa thông báo rõ." },
+        { "text": "His daughter had a medical problem during the lockdown drill.", "trap": "not_mentioned", "whyVi": "Bài không nói con gái ông gặp sự cố trong buổi diễn tập." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "The proposal does include medical exemptions, but Rostami says he only learned about them by reading the draft policy himself.",
+      "explanationVi": "Từ 'only' và 'himself' là manh mối: ông phải tự đọc mới biết → học khu không chủ động thông báo. Đây là suy luận, bài không nói thẳng 'the district failed to explain'.",
+      "vocabulary": ["exemption"]
+    },
+    {
+      "number": 5,
+      "prompt": "Which statement best describes Ana Lucía Ferreira's view of the pouches?",
+      "options": [
+        { "text": "She is completely against them.", "trap": "partially_true", "whyVi": "Cô nói 'We hate it' nhưng thêm 'but we kind of needed it' — không phản đối hoàn toàn." },
+        { "text": "She dislikes them but admits they have helped.", "trap": "none", "whyVi": "Đúng: 'We hate it, but we kind of needed it.'" },
+        { "text": "She says most students support them.", "trap": "opposite", "whyVi": "Khảo sát cho thấy 68% không thích." },
+        { "text": "She wants students to be able to choose whether to use them.", "trap": "not_mentioned", "whyVi": "Cô không đề xuất cho học sinh tự chọn." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"We hate it, but we kind of needed it.\"",
+      "explanationVi": "Câu hỏi về thái độ hai chiều. 'We hate it' (không thích) + 'but we kind of needed it' (nhưng thừa nhận cần) → 'dislikes them but admits they have helped'. Câu dẫn 'though not entirely' cũng báo hiệu thái độ không hoàn toàn phản đối."
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "two years", "trap": "wrong_detail", "whyVi": "'Two years ago' là khi quy định cũ (chỉ trong lớp) bắt đầu, không phải thời gian thử túi khoá." },
+        { "text": "fifteen years", "trap": "word_match", "whyVi": "'Fifteen years' là kinh nghiệm dạy của cô Okafor." },
+        { "text": "six secondary schools", "trap": "wrong_detail", "whyVi": "Học khu có sáu trường, nhưng chỉ hai trường thử nghiệm và số liệu đến từ trường của Gill." },
+        { "text": "a single term", "trap": "none", "whyVi": "Đúng: 'The figures cover a single term'." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "The figures cover a single term, he notes",
+      "explanationVi": "'The harassment figures cover only ...' gần như lặp lại câu trong bài 'The figures cover a single term'. Người viết dùng điểm thận trọng của Gill để nói số liệu chưa đủ làm bằng chứng."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "train teachers to lock the pouches", "trap": "not_mentioned", "whyVi": "Bài không nói giáo viên cần được đào tạo để khoá túi." },
+        { "text": "provide enough tablets for lab work", "trap": "none", "whyVi": "Đúng: Weiss nói trường 'does not have enough tablets to replace them'." },
+        { "text": "remove the medical exemptions", "trap": "wrong_detail", "whyVi": "Ngoại lệ y tế liên quan đến phụ huynh như ông Rostami, không liên quan đến phòng thí nghiệm." },
+        { "text": "move the vote to November 30", "trap": "word_match", "whyVi": "Cuộc bỏ phiếu đã được lên lịch ngày 30/11; điều này không giải quyết vấn đề của Weiss." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "the school does not have enough tablets to replace them",
+      "explanationVi": "Nếu bỏ điện thoại khỏi phòng thí nghiệm, cần thứ thay thế. Bài nói trường thiếu máy tính bảng để thay điện thoại → học khu nên cung cấp đủ máy tính bảng trước."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "tell parents clearly about the medical exemptions", "trap": "none", "whyVi": "Đúng: 'them' trong 'discover them on his own' chỉ các ngoại lệ y tế mà ông Rostami phải tự tìm hiểu." },
+        { "text": "let students keep phones during lockdowns", "trap": "opposite", "whyVi": "Người viết thấy lập luận của bà Arroyo thuyết phục — bà cho rằng dùng điện thoại khi khẩn cấp có thể nguy hiểm." },
+        { "text": "cancel future lockdown drills", "trap": "word_match", "whyVi": "Bài có 'lockdown drill' nhưng không ai đề nghị huỷ diễn tập, và 'them' không thể chỉ diễn tập." },
+        { "text": "pay for the pouches from another budget", "trap": "wrong_detail", "whyVi": "Nguồn tiền mua túi không liên quan đến ông Rostami." }
+      ],
+      "answerIndex": 0,
+      "category": "grammar",
+      "evidence": "Rostami says he only learned about them by reading the draft policy himself",
+      "explanationVi": "Chú ý đại từ 'them' sau chỗ trống: 'given that Mr. Rostami had to discover them on his own'. 'Them' phải chỉ một danh từ số nhiều trong chỗ trống — 'the medical exemptions'. Chỉ đáp án A vừa đúng ngữ pháp vừa đúng nội dung."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "more connected to friends online", "trap": "opposite", "whyVi": "Khi điện thoại bị khoá cả ngày, học sinh ít kết nối trực tuyến hơn." },
+        { "text": "safer during emergencies", "trap": "wrong_speaker", "whyVi": "An toàn khẩn cấp là lập luận của bà Arroyo, không phải kết quả khảo sát học sinh." },
+        { "text": "less pressure to answer messages", "trap": "none", "whyVi": "Đúng: 'nearly half of those same students said they felt less pressure to answer messages during the day'." },
+        { "text": "more attentive in English class", "trap": "wrong_speaker", "whyVi": "Đó là nhận xét của cô Okafor (giáo viên), không phải điều học sinh nói trong khảo sát." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "yet nearly half of those same students said they felt less pressure to answer messages during the day",
+      "explanationVi": "Chỗ trống nói về 'the student survey' và 'nearly half of the students who dislike the pouches'. Bài: 'nearly half of those same students said they felt less pressure to answer messages'. Đáp án D là ý của giáo viên, không phải học sinh."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "pay for it from the technology budget", "trap": "word_match", "whyVi": "Đây là thông tin có trong bài, nhưng không giúp 'evidence ... decides its future'." },
+        { "text": "make the pouches optional for students", "trap": "not_mentioned", "whyVi": "Không ai trong bài đề xuất tự nguyện, và điều này không liên quan đến thu thập bằng chứng." },
+        { "text": "postpone the vote indefinitely", "trap": "opposite", "whyVi": "Mâu thuẫn với 'approve the policy' ngay trước đó." },
+        { "text": "review its results after a full school year", "trap": "none", "whyVi": "Đúng: Khớp với đề xuất trong bài 'approving the pouches for one school year, then reviewing the results'; người viết lo số liệu chỉ trong một học kỳ, nên muốn có bằng chứng sau cả năm học." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "One trustee has suggested approving the pouches for one school year, then reviewing the results.",
+      "explanationVi": "Đọc cả câu: 'approve the policy, but ... so that evidence, not just enthusiasm, decides its future'. Cuối bài có đề xuất của một uỷ viên: thông qua cho một năm học rồi xem lại kết quả ('approving the pouches for one school year, then reviewing the results'). Người viết đã chỉ ra số liệu chỉ trong 'a single term', nên ủng hộ cách làm này: 'review its results after a full school year' = 'reviewing the results' sau 'one school year'. Chỉ đáp án D vừa hợp với 'approve the policy, but...' vừa tạo ra bằng chứng."
+    }
+  ],
+  "vocabulary": [
+    { "term": "champion", "vi": "người ủng hộ nhiệt tình", "definition": "a person who strongly supports an idea or plan", "example": "The principal has become the plan's most visible champion." },
+    { "term": "on paper", "vi": "trên lý thuyết", "definition": "in theory, but not necessarily in reality", "example": "The rule worked on paper but not in practice." },
+    { "term": "give someone credit", "vi": "ghi nhận công lao", "definition": "to say that someone or something caused a good result", "example": "He won't give the pouches all the credit." },
+    { "term": "exemption", "vi": "sự miễn trừ, ngoại lệ", "definition": "permission not to follow a rule", "example": "Students with medical needs can apply for an exemption." },
+    { "term": "paperwork", "vi": "thủ tục giấy tờ", "definition": "forms and documents that must be completed", "example": "Every request becomes a paperwork exercise." },
+    { "term": "persuaded", "vi": "bị thuyết phục", "definition": "convinced to believe or do something", "example": "Not all parents are persuaded." },
+    { "term": "attentive", "vi": "chú ý, tập trung", "definition": "listening or watching carefully", "example": "Students seem more attentive this year." },
+    { "term": "dismissal", "vi": "giờ tan học", "definition": "the time when students are allowed to leave school", "example": "Phones are unlocked at dismissal." }
+  ]
+}

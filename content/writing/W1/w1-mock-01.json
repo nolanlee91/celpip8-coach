@@ -1,0 +1,73 @@
+{
+  "id": "w1-mock-01",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "Feedback on a proposed bus route change",
+  "situation": "Your city's transit planning office has proposed changing Bus Route 25 so that it no longer stops on Maple Street, where you live. If the change goes ahead, the nearest stop will be a 15-minute walk from your home. The office is asking residents for feedback before it makes a final decision.",
+  "instructions": [
+    "Explain how you currently use this bus route.",
+    "Describe how the proposed change would affect you and other people in your neighbourhood.",
+    "Suggest an alternative to the proposed change."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting + purpose: responding to the proposal for Route 25",
+    "Instruction 1: how often, why and when you use the route (one concrete routine)",
+    "Instruction 2: the effect on you + the effect on a specific group of neighbours (seniors, students, shift workers)",
+    "Instruction 3: acknowledge the city's goal, then offer 1–2 realistic alternatives",
+    "Formal closing + sign-off"
+  ],
+  "modelResponse": "Dear Transit Planning Office,\n\nI am writing in response to the proposal to remove the Maple Street stops from Route 25. I have lived on Maple Street for six years, and I take this bus every weekday to get to my job at a warehouse in the industrial park. The stop is two minutes from my door, which allows me to start my 7 a.m. shift without needing a car.\n\nIf the change goes ahead, my nearest stop will be a fifteen-minute walk away. In winter, when it is dark and the sidewalks are often icy, that walk would be unpleasant and possibly unsafe. More importantly, there is a seniors' housing complex on our street, and many of its residents use walkers. For them, an extra fifteen minutes on foot could mean giving up transit altogether.\n\nI understand that the city wants to make the route faster. Instead of removing the stops completely, perhaps buses could skip Maple Street only on late-evening trips, when ridership is low. Alternatively, a small community shuttle could connect our street to the new stop.\n\nThank you for considering residents' views.\n\nSincerely,\nHoa Le",
+  "usefulExpressions": [
+    {
+      "expression": "I am writing in response to the proposal to…",
+      "usageVi": "Mở đầu khi góp ý cho một đề xuất chính thức của cơ quan nhà nước."
+    },
+    {
+      "expression": "which allows me to…",
+      "usageVi": "Mệnh đề quan hệ nối tiếp để giải thích lợi ích hiện tại của tuyến xe."
+    },
+    {
+      "expression": "If the change goes ahead, …",
+      "usageVi": "Câu điều kiện nói về hậu quả nếu đề xuất được thực hiện; 'go ahead' = được tiến hành."
+    },
+    {
+      "expression": "More importantly, …",
+      "usageVi": "Chuyển từ ảnh hưởng cá nhân sang ảnh hưởng lớn hơn tới cộng đồng, làm lập luận mạnh hơn."
+    },
+    {
+      "expression": "could mean giving up… altogether",
+      "usageVi": "Diễn tả hậu quả nghiêm trọng một cách mềm mỏng; 'altogether' = hoàn toàn."
+    },
+    {
+      "expression": "I understand that the city wants to…",
+      "usageVi": "Ghi nhận mục tiêu của bên kia trước khi phản đối — giọng điệu hợp tác, không công kích."
+    },
+    {
+      "expression": "Instead of + V-ing…, perhaps…",
+      "usageVi": "Đưa ra phương án thay thế một cách nhẹ nhàng."
+    },
+    {
+      "expression": "Alternatively, …",
+      "usageVi": "Giới thiệu phương án thứ hai."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ phản đối mà không đưa ra phương án thay thế, hoặc đề xuất phi thực tế ('The city should build a new SkyTrain line'). Ý 3 cần giải pháp cụ thể, khả thi.",
+    "Chỉ nói về bản thân trong ý 2. Đề yêu cầu cả 'other people in your neighbourhood', nên cần nhắc đến một nhóm cụ thể.",
+    "Thiếu mạo từ: 'I take bus every day' → 'I take the bus every day'; 'there is seniors' housing complex' → 'there is a seniors' housing complex'.",
+    "Dùng giọng đòi hỏi ('You must cancel this plan'). Khi góp ý chính sách, nên dùng 'perhaps', 'I would suggest', 'Instead of…'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked formal email format, all 3 bullets fully covered (own use, effect on self + seniors, realistic alternatives), register, grammar, word count (189), expressions and Vietnamese notes. No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

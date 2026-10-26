@@ -1,0 +1,138 @@
+{
+  "id": "r2-drill-01",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "drill",
+  "difficulty": 6,
+  "topic": "housing",
+  "title": "Detail drill: Renting a storage unit during a renovation",
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. Q4 option 'the whole year' replaced with 'two months': staying a whole year would also satisfy the 3-month minimum, so it was a second defensible answer. Other lookups ($149, drive-up, $18 one-time, insurance waiver) verified." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Storage price list",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Lockwell Self Storage, Port Coquitlam — Unit sizes and prices. First month 50% off with a 3-month minimum stay. Disc lock: $18 one-time purchase. Insurance required: $12 per month, or show proof of your own home or tenant insurance.",
+        "headers": ["Unit", "Size", "Fits roughly", "Monthly price", "Access", "Features"],
+        "rows": [
+          ["Locker", "4 × 5 ft", "Boxes and seasonal items", "$49", "Indoor, 6 a.m.–10 p.m.", "Climate-controlled"],
+          ["Small", "5 × 10 ft", "Contents of a studio", "$95", "Indoor, 6 a.m.–10 p.m.", "Climate-controlled"],
+          ["Medium", "10 × 10 ft", "Contents of a one-bedroom apartment", "$149 (most popular)", "Drive-up, 24 hours", "Not climate-controlled"],
+          ["Large", "10 × 15 ft", "Contents of a two-bedroom apartment", "$199", "Drive-up, 24 hours", "Not climate-controlled"],
+          ["Extra Large", "10 × 20 ft", "Contents of a three-bedroom house, or a car", "$259", "Drive-up, 24 hours", "Electrical outlet inside"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Dev,\n\nI called Lockwell about storing our things while the condo is being repainted. For a one-bedroom like ours, they suggest the [[1]] unit, which costs [[2]] a month. The good news is that it's a drive-up unit, so we can [[3]] instead of pushing carts down a long hallway. We'll also get half off the first month, because we're staying for [[4]].\n\nWe'll need to buy one of their locks, but we can skip their insurance because our condo policy already covers belongings in storage.\n\nSound good? If so, I'll reserve it for the 14th.\n\nAna",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "Small", "trap": "wrong_detail", "whyVi": "Small dành cho đồ của một căn studio." },
+        { "text": "Large", "trap": "wrong_detail", "whyVi": "Large dành cho căn hai phòng ngủ." },
+        { "text": "Medium", "trap": "none", "whyVi": "Đúng: Medium chứa 'Contents of a one-bedroom apartment'." },
+        { "text": "Locker", "trap": "wrong_detail", "whyVi": "Locker chỉ chứa thùng đồ và đồ dùng theo mùa." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "Contents of a one-bedroom apartment",
+      "explanationVi": "Từ khóa trong email là 'one-bedroom'. Dò cột 'Fits roughly' để tìm 'one-bedroom apartment' → hàng Medium.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "$149", "trap": "none", "whyVi": "Đúng: giá hằng tháng của Medium." },
+        { "text": "$95", "trap": "wrong_detail", "whyVi": "$95 là giá của Small." },
+        { "text": "$199", "trap": "wrong_detail", "whyVi": "$199 là giá của Large." },
+        { "text": "$74.50", "trap": "partially_true", "whyVi": "$74.50 chỉ là giá tháng đầu (giảm 50%), không phải giá mỗi tháng." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "$149 (most popular)",
+      "explanationVi": "Đi theo hàng Medium sang cột 'Monthly price' → $149. Email nói 'a month' nên là giá thường mỗi tháng; giảm giá chỉ áp dụng cho tháng đầu.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "plug in our old fridge", "trap": "wrong_detail", "whyVi": "Ổ điện chỉ có trong Extra Large." },
+        { "text": "only visit before 10 p.m.", "trap": "wrong_detail", "whyVi": "Giờ 6 a.m.–10 p.m. là của kho trong nhà; kho drive-up mở 24 giờ — và đây không phải 'good news'." },
+        { "text": "keep everything climate-controlled", "trap": "opposite", "whyVi": "Medium ghi 'Not climate-controlled'." },
+        { "text": "unload right from the vehicle", "trap": "none", "whyVi": "Đúng: 'drive-up' nghĩa là lái xe đến sát cửa kho, nên dỡ đồ thẳng từ xe thay vì đẩy xe đẩy dọc hành lang." }
+      ],
+      "answerIndex": 3,
+      "category": "vocabulary",
+      "evidence": "Drive-up, 24 hours",
+      "explanationVi": "Hiểu từ 'drive-up' (lái xe tới tận cửa kho). Vế 'instead of pushing carts down a long hallway' (thay vì đẩy xe đẩy qua hành lang) giúp đoán nghĩa.",
+      "vocabulary": ["drive-up"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "one month", "trap": "wrong_detail", "whyVi": "Giảm giá cần ở tối thiểu 3 tháng." },
+        { "text": "at least three months", "trap": "none", "whyVi": "Đúng: 'First month 50% off with a 3-month minimum stay'." },
+        { "text": "24 hours", "trap": "word_match", "whyVi": "'24 hours' là giờ truy cập kho, không phải thời gian thuê." },
+        { "text": "two months", "trap": "wrong_detail", "whyVi": "Hai tháng chưa đủ mức tối thiểu 3 tháng nên sẽ không được giảm 50% tháng đầu." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "First month 50% off with a 3-month minimum stay.",
+      "explanationVi": "'half off the first month' = '50% off' trong chú thích bảng. Điều kiện đi kèm là 'a 3-month minimum stay' (thuê ít nhất 3 tháng).",
+      "vocabulary": ["minimum stay"]
+    },
+    {
+      "number": 5,
+      "prompt": "How much will Ana and Dev pay for the lock?",
+      "options": [
+        { "text": "$18, paid once", "trap": "none", "whyVi": "Đúng: 'Disc lock: $18 one-time purchase'." },
+        { "text": "$12 every month", "trap": "wrong_detail", "whyVi": "$12/tháng là phí bảo hiểm." },
+        { "text": "$18 every month", "trap": "partially_true", "whyVi": "Số tiền đúng nhưng chỉ trả một lần, không phải hằng tháng." },
+        { "text": "Nothing, because it is included", "trap": "opposite", "whyVi": "Ana nói 'We'll need to buy one of their locks'." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "Disc lock: $18 one-time purchase.",
+      "explanationVi": "Thông tin khóa nằm trong chú thích (caption), không nằm trong bảng. 'one-time purchase' = 'paid once'. Luôn đọc cả caption trong Part 2.",
+      "vocabulary": ["one-time"]
+    },
+    {
+      "number": 6,
+      "prompt": "Why don't Ana and Dev need to buy Lockwell's insurance?",
+      "options": [
+        { "text": "The Medium unit comes with insurance.", "trap": "not_mentioned", "whyVi": "Bảng không ghi kho nào có sẵn bảo hiểm." },
+        { "text": "They are only storing boxes.", "trap": "wrong_detail", "whyVi": "Họ cất đồ của cả căn một phòng ngủ." },
+        { "text": "Their own insurance already protects stored items.", "trap": "none", "whyVi": "Đúng: chú thích cho phép thay bằng 'proof of your own home or tenant insurance', và bảo hiểm căn hộ của họ đã bao gồm." },
+        { "text": "Insurance is only for units without climate control.", "trap": "not_mentioned", "whyVi": "Không có quy định này." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "or show proof of your own home or tenant insurance",
+      "explanationVi": "Chú thích: bảo hiểm là bắt buộc, nhưng có thể thay bằng bảo hiểm nhà riêng. Email: 'our condo policy already covers belongings in storage'. 'policy' = 'insurance'; 'belongings' = 'items'.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "drive-up", "vi": "(kho) có thể lái xe tới tận cửa", "definition": "able to be reached directly by car or truck", "example": "Drive-up units make moving heavy furniture easier." },
+    { "term": "climate-controlled", "vi": "được điều chỉnh nhiệt độ, độ ẩm", "definition": "kept at a steady temperature and humidity", "example": "Store photos and electronics in a climate-controlled unit." },
+    { "term": "minimum stay", "vi": "thời gian thuê tối thiểu", "definition": "the shortest period you must rent something for", "example": "The discount requires a three-month minimum stay." },
+    { "term": "one-time", "vi": "trả một lần", "definition": "happening or paid only once", "example": "There's a one-time fee of $18 for the lock." },
+    { "term": "belongings", "vi": "đồ đạc, tài sản cá nhân", "definition": "the things that a person owns", "example": "Our insurance covers belongings in storage." },
+    { "term": "proof of insurance", "vi": "giấy tờ chứng minh có bảo hiểm", "definition": "a document showing that you have insurance", "example": "Bring proof of insurance when you sign the contract." }
+  ]
+}

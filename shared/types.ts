@@ -1,4 +1,5 @@
 import type { Skill } from "./spec";
+import type { ContentSource, ObjectiveSetType, PromptSetType, ReviewInfo } from "./content";
 
 export type Mode = "learn" | "drill" | "exam" | "weekly";
 
@@ -27,6 +28,15 @@ export interface McqQuestion {
   category: string; // key of CATEGORIES[skill] — what the question tests
   evidence: string; // exact quote from passage/transcript supporting the answer
   explanationVi: string;
+  vocabulary?: string[]; // terms (from the set's vocabulary) relevant to this question
+}
+
+/** Library metadata shared by every prebuilt item. Optional so legacy AI-generated items still load. */
+export interface LibraryMeta {
+  topic?: string;
+  estimatedMinutes?: number;
+  source?: ContentSource;
+  review?: ReviewInfo;
 }
 
 export interface ReadingSection {
@@ -43,7 +53,7 @@ export interface VocabSeed {
   example: string;
 }
 
-export interface ReadingSet {
+export interface ReadingSet extends LibraryMeta {
   id: string;
   kind: "reading";
   taskType: string; // R1..R4
@@ -54,6 +64,7 @@ export interface ReadingSet {
   vocabulary: VocabSeed[];
   createdAt: string;
   focus: string[];
+  setType?: ObjectiveSetType;
 }
 
 export interface ListeningSegment {
@@ -67,7 +78,7 @@ export interface ListeningChunk {
   questions: McqQuestion[];
 }
 
-export interface ListeningSet {
+export interface ListeningSet extends LibraryMeta {
   id: string;
   kind: "listening";
   taskType: string; // L1..L6
@@ -78,9 +89,10 @@ export interface ListeningSet {
   vocabulary: VocabSeed[];
   createdAt: string;
   focus: string[];
+  setType?: ObjectiveSetType;
 }
 
-export interface WritingPrompt {
+export interface WritingPrompt extends LibraryMeta {
   id: string;
   kind: "writing";
   taskType: string; // W1 | W2
@@ -91,9 +103,14 @@ export interface WritingPrompt {
   optionA: string | null; // survey options (W2)
   optionB: string | null;
   createdAt: string;
+  setType?: PromptSetType;
+  structure?: string[]; // suggested response outline
+  modelResponse?: string; // Level 8+ style sample
+  usefulExpressions?: { expression: string; usageVi: string }[];
+  commonMistakes?: string[]; // Vietnamese
 }
 
-export interface SpeakingPrompt {
+export interface SpeakingPrompt extends LibraryMeta {
   id: string;
   kind: "speaking";
   taskType: string; // S1..S8
@@ -103,6 +120,11 @@ export interface SpeakingPrompt {
   svg: string | null; // illustrated scene for S3, S4, S8
   options: { title: string; details: string[] }[] | null; // S5
   createdAt: string;
+  setType?: PromptSetType;
+  structure?: string[];
+  modelAnswer?: string; // Level 8+ style sample
+  usefulExpressions?: { expression: string; usageVi: string }[];
+  commonMistakes?: string[];
 }
 
 export type ContentItem = ReadingSet | ListeningSet | WritingPrompt | SpeakingPrompt;
@@ -211,6 +233,7 @@ export interface StudyLogEntry {
 
 export interface MockExam {
   id: string;
+  packageId: string | null; // prebuilt package; null for legacy AI-generated mocks
   createdAt: string;
   status: "preparing" | "ready" | "in_progress" | "grading" | "done" | "failed";
   progress: { done: number; total: number; error: string | null };
@@ -229,7 +252,7 @@ export interface MockExam {
     audioFile: string | null;
     chosenOption: string | null;
   }[];
-  results: Partial<Record<Skill, { correct?: number; total?: number; estimate: number | null }>> | null;
+  results: Partial<Record<Skill, { correct?: number; total?: number; estimate: number | null; pending?: number }>> | null;
   finishedAt: string | null;
 }
 
@@ -246,6 +269,8 @@ export interface Settings {
   difficulty: Record<string, number>; // per taskType, 5–10
   preferredVoice: string | null;
   effort: "low" | "medium" | "high";
+  allowBrowserVoice: boolean; // explicit opt-in: use browser TTS for listening sets whose audio is pending
+  aiCache: boolean; // reuse an earlier AI evaluation for an identical response
 }
 
 export interface WeeklyAssessment {
@@ -256,6 +281,37 @@ export interface WeeklyAssessment {
   weightsBefore: Record<Skill, number>;
   weightsAfter: Record<Skill, number>;
   note: string;
+}
+
+/** A writing/speaking response saved without AI; evaluated only when the learner asks. */
+export interface Submission {
+  id: string;
+  skill: "writing" | "speaking";
+  contentId: string;
+  attemptId: string;
+  response: string;
+  durationSec: number;
+  transcriptSource: "speech-to-text" | "typed" | null;
+  audioFile: string | null;
+  chosenOption: string | null;
+  createdAt: string;
+  status: "pending" | "evaluated" | "failed";
+  evaluationId: string | null;
+  lastError: string | null;
+  mockExamId: string | null;
+}
+
+export interface AiUsageEntry {
+  at: string;
+  kind: string; // "evaluate-writing", "tutor", "tts", "generate:reading", ...
+  model: string;
+  ok: boolean;
+  promptTokens: number;
+  outputTokens: number;
+  thoughtsTokens: number;
+  totalTokens: number;
+  error: string | null;
+  cached: boolean;
 }
 
 export interface Db {
@@ -270,6 +326,10 @@ export interface Db {
   mockExams: MockExam[];
   weekly: WeeklyAssessment[];
   planCompletions: Record<string, string[]>; // date -> completed block ids
+  // Stored in ai.json (Layer C), separate from progress.json:
+  submissions: Submission[];
+  aiUsage: AiUsageEntry[];
+  aiCache: Record<string, string>; // sha256(contentId + response) -> evaluation id
 }
 
 // ---------- Derived (server-computed) ----------

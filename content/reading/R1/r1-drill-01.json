@@ -1,0 +1,128 @@
+{
+  "id": "r1-drill-01",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "drill",
+  "difficulty": 6,
+  "topic": "banking",
+  "title": "Inference drill: A card charge I don't recognize",
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. All keys verified (skimming at the gas pump, new card number, temporary credit covers rent). No changes needed." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a credit union member",
+      "kind": "text",
+      "text": "Hello,\n\nI'm writing about a charge on my Salishan Coast debit card that I don't recognize. On October 18, $412.60 was taken from my chequing account by a merchant listed as \"NRTHWND OUTFITTERS ONLINE.\" I've never heard of this company, and I certainly didn't buy anything from them. The strange thing is that my card hasn't left my wallet, and I haven't lent it to anyone.\n\nI did use the card at a self-serve gas pump in Abbotsford the week before. I remember the card reader felt a bit loose, but I didn't think much of it at the time.\n\nI've already locked the card through your mobile app, but I'm not sure that's enough. I'm flying to Calgary for work next Thursday, and I'll need a card I can actually use while I'm there. My rent also comes out of this account on the first of the month, and the balance is quite low right now.\n\nCould you tell me what I need to do to get the money back?\n\nThanks,\nOlumide Adeyemi\nMember #20817",
+      "table": null
+    },
+    {
+      "label": "Reply from the credit union",
+      "kind": "text",
+      "text": "Dear Mr. Adeyemi,\n\nThank you for contacting us so quickly. Because your card never left your possession, this looks like a case of card skimming, most likely at [[4]].\n\nLocking the card stops new purchases, but it does not cancel the card number, so I have [[5]]. It will arrive by courier within three business days, in plenty of time for your trip.\n\nI've also placed a temporary credit of $412.60 in your chequing account while we investigate, so [[6]]. Please complete the attached dispute form and return it within 10 days.\n\nRegards,\nHye-jin Park\nMember Services, Salishan Coast Credit Union",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What does Olumide seem to suspect?",
+      "options": [
+        { "text": "A family member borrowed his card without asking.", "trap": "opposite", "whyVi": "Anh nói 'I haven't lent it to anyone' và thẻ vẫn trong ví." },
+        { "text": "The online store charged him twice for one order.", "trap": "not_mentioned", "whyVi": "Anh chưa từng mua gì ở cửa hàng đó." },
+        { "text": "His card information may have been stolen at a gas pump.", "trap": "none", "whyVi": "Đúng: anh nhắc đến đầu đọc thẻ lỏng ở cây xăng — gợi ý thông tin thẻ bị đánh cắp ở đó." },
+        { "text": "He dropped his card somewhere in Abbotsford.", "trap": "opposite", "whyVi": "Thẻ 'hasn't left my wallet' — không bị rơi." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "I remember the card reader felt a bit loose, but I didn't think much of it at the time.",
+      "explanationVi": "Olumide không nói thẳng 'tôi nghĩ bị đánh cắp ở cây xăng'. Nhưng sau khi nói thẻ vẫn trong ví, anh kể chi tiết đầu đọc thẻ lỏng. 'didn't think much of it at the time' (lúc đó không để ý) ngụ ý bây giờ anh nghi ngờ nó.",
+      "vocabulary": ["card reader"]
+    },
+    {
+      "number": 2,
+      "prompt": "Why is Olumide worried about his rent?",
+      "options": [
+        { "text": "The missing money could leave too little for the payment.", "trap": "none", "whyVi": "Đúng: tiền nhà trừ từ cùng tài khoản và số dư 'quite low right now' sau khi mất $412.60." },
+        { "text": "His landlord charges a large late fee.", "trap": "not_mentioned", "whyVi": "Không nhắc đến phí trả muộn." },
+        { "text": "His rent is paid with the card he locked.", "trap": "wrong_detail", "whyVi": "Tiền nhà 'comes out of this account' — trừ từ tài khoản, không phải bằng thẻ." },
+        { "text": "He will be in Calgary on the first of the month.", "trap": "not_mentioned", "whyVi": "Anh bay đi thứ Năm tới; bài không nói anh ở Calgary vào ngày 1." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "My rent also comes out of this account on the first of the month, and the balance is quite low right now.",
+      "explanationVi": "Ghép hai ý: tiền nhà trừ từ tài khoản này + số dư đang thấp (vì bị lấy $412.60) → lo không đủ tiền trả nhà. Bài không dùng từ 'worried' cho rent, phải tự suy ra.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "What has Olumide already done about the problem?",
+      "options": [
+        { "text": "Reported the charge to the police", "trap": "not_mentioned", "whyVi": "Không nhắc đến cảnh sát." },
+        { "text": "Contacted the online store directly", "trap": "not_mentioned", "whyVi": "Anh chưa từng nghe đến công ty này, và không liên hệ họ." },
+        { "text": "Filled out a dispute form", "trap": "wrong_speaker", "whyVi": "Mẫu khiếu nại do nhân viên gửi kèm trong thư trả lời; anh chưa điền." },
+        { "text": "Blocked the card using an app", "trap": "none", "whyVi": "Đúng: 'I've already locked the card through your mobile app'." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "I've already locked the card through your mobile app",
+      "explanationVi": "Từ khóa 'already' trong câu hỏi và trong bài. 'locked the card through your mobile app' = 'blocked the card using an app'.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "the online store's warehouse", "trap": "word_match", "whyVi": "Thẻ chưa từng được dùng ở cửa hàng đó; skimming xảy ra ở nơi quẹt thẻ thật." },
+        { "text": "the fuel station you mentioned", "trap": "none", "whyVi": "Đúng: nơi duy nhất anh kể có đầu đọc thẻ bất thường là cây xăng ở Abbotsford." },
+        { "text": "your workplace in Calgary", "trap": "wrong_detail", "whyVi": "Anh chưa đi Calgary; chuyến đi là thứ Năm tới." },
+        { "text": "one of our branches", "trap": "not_mentioned", "whyVi": "Không có thông tin anh dùng thẻ ở chi nhánh." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I did use the card at a self-serve gas pump in Abbotsford the week before.",
+      "explanationVi": "'card skimming' là sao chép thông tin thẻ qua đầu đọc giả. Nhân viên suy luận từ chi tiết 'card reader felt a bit loose'. 'gas pump' = 'fuel station'.",
+      "vocabulary": ["card skimming"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "ordered you a new card with a different number", "trap": "none", "whyVi": "Đúng: thẻ khóa vẫn giữ số cũ, và câu sau nói 'It will arrive by courier' — tức là một chiếc thẻ mới." },
+        { "text": "unlocked your card for your trip", "trap": "opposite", "whyVi": "Mở khóa thẻ cũ sẽ nguy hiểm vì số thẻ đã bị lộ; và không có gì 'arrive by courier'." },
+        { "text": "closed your chequing account", "trap": "too_broad", "whyVi": "Vấn đề chỉ ở số thẻ; tài khoản vẫn được dùng (còn nhận khoản tín dụng tạm thời)." },
+        { "text": "mailed your old card to Calgary", "trap": "wrong_detail", "whyVi": "Thẻ cũ vẫn trong ví của anh; thư nói về thẻ được gửi bằng courier." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "I'll need a card I can actually use while I'm there",
+      "explanationVi": "Khóa thẻ 'does not cancel the card number' → cần số thẻ mới. Câu tiếp theo 'It will arrive by courier ... in time for your trip' cho thấy 'It' là một chiếc thẻ mới, đáp ứng nhu cầu 'a card I can actually use'.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "you can shop at that online store again", "trap": "word_match", "whyVi": "Không ai muốn mua ở cửa hàng lạ đó; khoản tín dụng không liên quan đến việc mua sắm." },
+        { "text": "you won't need to fill in any forms", "trap": "opposite", "whyVi": "Câu ngay sau yêu cầu điền 'the attached dispute form'." },
+        { "text": "your rent should come out as usual", "trap": "none", "whyVi": "Đúng: tiền được hoàn tạm thời nên số dư đủ để trừ tiền nhà ngày 1 — trả lời đúng mối lo của anh." },
+        { "text": "your flight to Calgary will be covered", "trap": "not_mentioned", "whyVi": "Ngân hàng không trả tiền vé máy bay." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "My rent also comes out of this account on the first of the month, and the balance is quite low right now.",
+      "explanationVi": "Nhân viên trả lời lần lượt từng mối lo: thẻ cho chuyến đi (ô 5), rồi số dư thấp (ô 6). Khoản 'temporary credit' bù lại $412.60 → tiền nhà có thể trừ bình thường.",
+      "vocabulary": ["temporary credit"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "merchant", "vi": "đơn vị bán hàng, người bán (trên sao kê thẻ)", "definition": "a business that sells goods or services and accepts card payments", "example": "The merchant's name on my statement was hard to recognize." },
+    { "term": "card skimming", "vi": "đánh cắp thông tin thẻ (qua đầu đọc giả)", "definition": "stealing card details with a hidden device attached to a card reader", "example": "Card skimming often happens at gas pumps and ATMs." },
+    { "term": "card reader", "vi": "máy đọc thẻ", "definition": "the machine you put or tap your card on to pay", "example": "The card reader at the pump looked damaged." },
+    { "term": "temporary credit", "vi": "khoản hoàn tiền tạm thời", "definition": "money put back into an account while a problem is being investigated", "example": "The bank gave me a temporary credit until the dispute is settled." },
+    { "term": "dispute form", "vi": "mẫu đơn khiếu nại giao dịch", "definition": "a form used to officially challenge a charge", "example": "Return the dispute form within 10 days." },
+    { "term": "possession", "vi": "sự sở hữu, đang giữ trong tay", "definition": "the state of having or holding something", "example": "The card never left my possession." }
+  ]
+}

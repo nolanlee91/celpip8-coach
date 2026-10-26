@@ -1,0 +1,273 @@
+{
+  "id": "l4-mock-02",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "environment",
+  "title": "News: Smoke advisory and clean-air centres in Kamloops",
+  "context": "You will hear a local radio news report about wildfire smoke in Kamloops.",
+  "estimatedMinutes": 5,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "An air quality advisory is in effect for Kamloops and the surrounding area this afternoon, as smoke from wildfires burning north of the city drifts into the valley. Officials expect the smoke to linger until at least Thursday, when a shift in the wind should start to clear the air."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Dr. Harjit Sandhu, a medical health officer with the regional health authority, says the fine particles in smoke can travel deep into the lungs. She's urging seniors, young children, pregnant people and anyone with asthma or heart conditions to limit their time outdoors."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Sandhu also warned that ordinary cloth masks offer very little protection against smoke. If people do need to be outside, she says a well-fitted N95 respirator is a much better choice."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Because the advisory comes during a stretch of hot weather, the city has opened two clean-air centres. The Riverside Community Centre and the North Shore library branch will both stay open until ten p.m. They're air-conditioned and have filtration systems that remove most smoke particles."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Emergency program manager Kevin Laroche says residents shouldn't wait until they feel unwell to come in. He added that pets on a leash are welcome at the community centre, but not at the library."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "For people who would rather stay home, the health authority recommends setting up one clean room by closing the windows and running a portable air purifier. Laroche admitted the city's free purifier loan program ran out of units within a day last summer. This year there are twice as many, but supplies are still limited, so priority will go to people with medical conditions."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Outdoor events are also affected. Saturday's charity fun run along the river has been postponed, not cancelled, and organizers say all registrations will carry over to the new date."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "When is the air quality expected to begin improving?",
+          "options": [
+            {
+              "text": "Later this afternoon",
+              "trap": "wrong_detail",
+              "whyVi": "Chiều nay là lúc cảnh báo bắt đầu có hiệu lực, không phải lúc không khí cải thiện."
+            },
+            {
+              "text": "Only after the fires north of the city are put out",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói phải chờ dập lửa; bài nói gió đổi hướng sẽ làm sạch không khí."
+            },
+            {
+              "text": "Around Thursday, when the wind changes direction",
+              "trap": "none",
+              "whyVi": "Đúng: khói kéo dài ít nhất đến thứ Năm, khi gió đổi hướng."
+            },
+            {
+              "text": "On Saturday, the day of the fun run",
+              "trap": "wrong_detail",
+              "whyVi": "Thứ Bảy là ngày của cuộc chạy từ thiện đã bị hoãn."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "until at least Thursday, when a shift in the wind should start to clear the air",
+          "explanationVi": "'a shift in the wind' được diễn đạt lại thành 'the wind changes direction'. Bài có nhiều mốc thời gian (chiều nay, thứ Năm, thứ Bảy), cần nghe kỹ mốc nào gắn với việc không khí sạch lại.",
+          "vocabulary": [
+            "linger"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "What does Dr. Sandhu say about masks?",
+          "options": [
+            {
+              "text": "Everyone should wear an N95 respirator, even indoors.",
+              "trap": "too_broad",
+              "whyVi": "Bà chỉ khuyên dùng N95 NẾU phải ra ngoài, không nói mọi người phải đeo cả trong nhà."
+            },
+            {
+              "text": "Regular fabric masks do little to filter out smoke.",
+              "trap": "none",
+              "whyVi": "Đúng: khẩu trang vải thông thường bảo vệ rất ít trước khói."
+            },
+            {
+              "text": "Healthy adults do not need to wear masks.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói người lớn khỏe mạnh không cần khẩu trang."
+            },
+            {
+              "text": "Free masks are available at the clean-air centres.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc phát khẩu trang miễn phí ở trung tâm."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "ordinary cloth masks offer very little protection against smoke",
+          "explanationVi": "'ordinary cloth masks' được diễn đạt lại thành 'regular fabric masks', và 'offer very little protection' thành 'do little to filter out smoke'.",
+          "vocabulary": [
+            "respirator"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "Which statement about the clean-air centres is correct?",
+          "options": [
+            {
+              "text": "Both centres are open twenty-four hours a day.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: hai trung tâm mở đến 10 giờ tối."
+            },
+            {
+              "text": "Residents should go only once they start to feel sick.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông Laroche nói KHÔNG nên đợi đến khi thấy mệt mới đến."
+            },
+            {
+              "text": "Pets on a leash are allowed at both locations.",
+              "trap": "partially_true",
+              "whyVi": "Chỉ đúng một phần: thú cưng được vào trung tâm cộng đồng nhưng không được vào thư viện."
+            },
+            {
+              "text": "People bringing a dog should choose the community centre.",
+              "trap": "none",
+              "whyVi": "Đúng: thú cưng có dây xích được chào đón ở trung tâm cộng đồng, không phải ở thư viện."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "pets on a leash are welcome at the community centre, but not at the library",
+          "explanationVi": "Hai lựa chọn C và D rất giống nhau. Chi tiết 'but not at the library' loại C và xác nhận D.",
+          "vocabulary": [
+            "clean-air centre"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What can be inferred about the purifier loan program?",
+          "options": [
+            {
+              "text": "Last year, it could not keep up with demand.",
+              "trap": "none",
+              "whyVi": "Đúng: máy lọc hết sạch chỉ trong một ngày vào mùa hè năm ngoái, nghĩa là số máy không đủ đáp ứng nhu cầu; vì vậy năm nay số máy được tăng gấp đôi."
+            },
+            {
+              "text": "Any resident can borrow a purifier on a first-come basis.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: người có bệnh lý được ưu tiên."
+            },
+            {
+              "text": "It is being offered for the first time this summer.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: chương trình đã có từ mùa hè năm ngoái."
+            },
+            {
+              "text": "It is run by the North Shore library branch.",
+              "trap": "word_match",
+              "whyVi": "Thư viện North Shore được nhắc tới như một trung tâm không khí sạch, không phải nơi cho mượn máy lọc."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "ran out of units within a day last summer",
+          "explanationVi": "Đây là câu suy luận: 'ran out of units within a day last summer' cho thấy nhu cầu lớn hơn số máy có sẵn. Đáp án A diễn đạt lại thành 'could not keep up with demand'.",
+          "vocabulary": [
+            "run out of",
+            "priority"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What has happened to the charity fun run?",
+          "options": [
+            {
+              "text": "It has been cancelled, and participants will get refunds.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cuộc chạy bị hoãn, KHÔNG bị hủy."
+            },
+            {
+              "text": "It will be held later, and existing sign-ups will still count.",
+              "trap": "none",
+              "whyVi": "Đúng: hoãn sang ngày khác và đăng ký được giữ nguyên."
+            },
+            {
+              "text": "It will go ahead on Saturday on a shorter route.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: thứ Bảy là ngày cũ, cuộc chạy không diễn ra hôm đó."
+            },
+            {
+              "text": "It has been moved indoors to the community centre.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói chuyển vào trong nhà."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "has been postponed, not cancelled, and organizers say all registrations will carry over to the new date",
+          "explanationVi": "'postponed' = 'held later'; 'registrations will carry over' được diễn đạt lại thành 'existing sign-ups will still count'.",
+          "vocabulary": [
+            "postpone",
+            "carry over"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "linger",
+      "vi": "kéo dài, còn lưu lại",
+      "definition": "stay somewhere longer than expected",
+      "example": "The smoke will linger until Thursday."
+    },
+    {
+      "term": "respirator",
+      "vi": "khẩu trang lọc chuyên dụng",
+      "definition": "a fitted mask that filters very small particles from the air",
+      "example": "A well-fitted N95 respirator gives better protection."
+    },
+    {
+      "term": "clean-air centre",
+      "vi": "trung tâm không khí sạch",
+      "definition": "a public building with filtered air where people can shelter from smoke",
+      "example": "The city opened two clean-air centres."
+    },
+    {
+      "term": "run out of",
+      "vi": "hết sạch",
+      "definition": "use or give away all of something so none is left",
+      "example": "The program ran out of purifiers within a day."
+    },
+    {
+      "term": "priority",
+      "vi": "sự ưu tiên",
+      "definition": "the right to be served or helped first",
+      "example": "Priority will go to people with medical conditions."
+    },
+    {
+      "term": "postpone",
+      "vi": "hoãn lại",
+      "definition": "move an event to a later time",
+      "example": "The fun run has been postponed, not cancelled."
+    },
+    {
+      "term": "carry over",
+      "vi": "chuyển sang, giữ nguyên",
+      "definition": "continue to be valid at a later time",
+      "example": "Registrations will carry over to the new date."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 5 items independently; keys match. Q4 correct option reworded from \"higher than the city expected\" (a step beyond the text) to \"could not keep up with demand\", which the evidence directly supports; whyVi/explanation updated. Smoke/N95/clean-air advice consistent with BC public-health guidance. One narrator, 296 words."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

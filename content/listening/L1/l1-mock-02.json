@@ -1,0 +1,188 @@
+{
+  "id": "l1-mock-02",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "housing",
+  "title": "A lost building fob",
+  "context": "You will hear two roommates who rent a condo in Burnaby talking about a lost building key fob and how to replace it.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Chloe", "voice": "female_a", "text": "Farid, have you seen my fob? The blue one. I swear I put it in my jacket pocket last night." },
+        { "speaker": "Farid", "voice": "male_a", "text": "The building fob? No. Did you check your gym bag? You had it at the pool yesterday, right?" },
+        { "speaker": "Chloe", "voice": "female_a", "text": "I checked everywhere. Gym bag, the car, the couch. Honestly, I think it fell out when I was taking my phone out at the bus stop on Kingsway." },
+        { "speaker": "Farid", "voice": "male_a", "text": "Okay, that's not great. Anyone who finds it can get into the parkade and the bike room. Remember that email from strata last spring about bikes going missing?" },
+        { "speaker": "Chloe", "voice": "female_a", "text": "Don't remind me. Okay, so I need to report it. Who do we even contact, the building manager?" },
+        { "speaker": "Farid", "voice": "male_a", "text": "No, the building manager just handles repairs. Fobs go through the property management company, Westgate something. Their number's on the notice board in the lobby." },
+        { "speaker": "Chloe", "voice": "female_a", "text": "And until then, how am I supposed to get in? I've got a shift at seven tomorrow morning." },
+        { "speaker": "Farid", "voice": "male_a", "text": "You can take mine in the morning. I work from home on Wednesdays, so I won't need it." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Where does Chloe think she lost the fob?",
+          "options": [
+            { "text": "At the swimming pool.", "trap": "wrong_speaker", "whyVi": "Đó là gợi ý của Farid; Chloe đã kiểm tra túi tập và không thấy." },
+            { "text": "In the parkade of the building.", "trap": "word_match", "whyVi": "'Parkade' được nhắc khi nói ai nhặt được fob có thể vào đâu, không phải nơi đánh rơi." },
+            { "text": "While she was waiting for a bus.", "trap": "none", "whyVi": "Đúng: cô nghĩ nó rơi khi lấy điện thoại ở trạm xe buýt trên đường Kingsway." },
+            { "text": "Somewhere inside her car.", "trap": "partially_true", "whyVi": "Chloe có tìm trong xe nhưng không thấy; cô không nghĩ mất ở đó." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "I think it fell out when I was taking my phone out at the bus stop on Kingsway.",
+          "explanationVi": "Chloe nói 'it fell out... at the bus stop on Kingsway'. Đáp án C diễn đạt 'at the bus stop' thành 'while she was waiting for a bus'.",
+          "vocabulary": ["fob"]
+        },
+        {
+          "number": 2,
+          "prompt": "Why is Farid worried about the lost fob?",
+          "options": [
+            { "text": "A stranger could use it to enter shared parts of the building.", "trap": "none", "whyVi": "Đúng: ai nhặt được có thể vào bãi đỗ xe và phòng để xe đạp." },
+            { "text": "Chloe's bike was stolen last spring.", "trap": "wrong_detail", "whyVi": "Email của strata hồi mùa xuân nói chung về xe đạp bị mất trong tòa nhà, không nói xe của Chloe." },
+            { "text": "Chloe might be late for her shift.", "trap": "wrong_speaker", "whyVi": "Chính Chloe lo về ca làm sáng mai, không phải lý do Farid lo lắng." },
+            { "text": "The strata will fine them for losing it.", "trap": "not_mentioned", "whyVi": "Ở đoạn này không ai nói tới tiền phạt vì làm mất fob." }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "Anyone who finds it can get into the parkade and the bike room.",
+          "explanationVi": "'Anyone who finds it can get into the parkade and the bike room' = người lạ có thể vào khu vực chung. Câu nhắc email về xe đạp chỉ minh họa nỗi lo này.",
+          "vocabulary": ["parkade"]
+        },
+        {
+          "number": 3,
+          "prompt": "Why is Farid able to lend Chloe his fob tomorrow?",
+          "options": [
+            { "text": "He has a spare fob at home.", "trap": "not_mentioned", "whyVi": "Farid không nói có fob dự phòng." },
+            { "text": "His shift starts later than hers.", "trap": "wrong_detail", "whyVi": "Farid không nói về giờ làm; anh làm việc tại nhà." },
+            { "text": "The building manager will let him in.", "trap": "word_match", "whyVi": "Building manager được nhắc nhưng chỉ phụ trách sửa chữa." },
+            { "text": "He will not be leaving home for work that day.", "trap": "none", "whyVi": "Đúng: 'I work from home on Wednesdays, so I won't need it'." }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "I work from home on Wednesdays, so I won't need it.",
+          "explanationVi": "Farid làm việc ở nhà vào thứ Tư (ngày mai) nên không cần fob. 'Work from home' = không ra khỏi nhà đi làm.",
+          "vocabulary": []
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Chloe", "voice": "female_a", "text": "Okay, I just got off the phone with Westgate. So, they'll deactivate the old one right away, which is good. But the replacement is a hundred and twenty-five dollars." },
+        { "speaker": "Farid", "voice": "male_a", "text": "A hundred and twenty-five? For a little piece of plastic?" },
+        { "speaker": "Chloe", "voice": "female_a", "text": "That's what I said. And it's not just that. Because we're renters, the owner has to fill out an authorization form. They won't release a fob to a tenant directly." },
+        { "speaker": "Farid", "voice": "male_a", "text": "So we need Mr. Okafor to sign something. He's in Calgary until the end of the month, isn't he?" },
+        { "speaker": "Chloe", "voice": "female_a", "text": "He can sign it electronically, they said. That part's fine. Oh, and pickup is only Tuesdays and Thursdays, between ten and two." },
+        { "speaker": "Farid", "voice": "male_a", "text": "Hmm. You know, my cousin got a copy made at one of those key kiosks in Metrotown. It was like thirty-five bucks." },
+        { "speaker": "Chloe", "voice": "female_a", "text": "I asked about that, actually. The woman said the strata bylaws don't allow copied fobs. If they find one in the system, they can fine the unit owner two hundred dollars." },
+        { "speaker": "Farid", "voice": "male_a", "text": "Okay, so that would land on Mr. Okafor. Forget it, then." }
+      ],
+      "questions": [
+        {
+          "number": 4,
+          "prompt": "What does Chloe learn about getting a replacement fob?",
+          "options": [
+            { "text": "Mr. Okafor must come in person to sign a form.", "trap": "opposite", "whyVi": "Chủ nhà có thể ký điện tử ('sign it electronically')." },
+            { "text": "The owner of the unit has to approve the request.", "trap": "none", "whyVi": "Đúng: vì họ là người thuê, chủ căn hộ phải điền giấy ủy quyền." },
+            { "text": "Tenants can collect fobs on any weekday.", "trap": "wrong_detail", "whyVi": "Chỉ nhận vào thứ Ba và thứ Năm, từ 10 giờ đến 2 giờ." },
+            { "text": "The old fob will work until the new one is picked up.", "trap": "opposite", "whyVi": "Fob cũ bị vô hiệu hóa ngay lập tức ('right away')." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "Because we're renters, the owner has to fill out an authorization form.",
+          "explanationVi": "'The owner has to fill out an authorization form' = chủ nhà phải cho phép/phê duyệt. Đáp án B là cách nói lại.",
+          "vocabulary": ["authorization form", "deactivate"]
+        },
+        {
+          "number": 5,
+          "prompt": "How much does an official replacement fob cost?",
+          "options": [
+            { "text": "Thirty-five dollars.", "trap": "wrong_detail", "whyVi": "Đây là giá làm bản sao ở ki-ốt mà anh họ Farid đã trả." },
+            { "text": "Two hundred dollars.", "trap": "wrong_detail", "whyVi": "Đây là tiền phạt nếu dùng fob sao chép." },
+            { "text": "One hundred and twenty-five dollars.", "trap": "none", "whyVi": "Đúng: 'the replacement is a hundred and twenty-five dollars'." },
+            { "text": "One hundred and twenty dollars.", "trap": "wrong_detail", "whyVi": "Gần giống nhưng sai; con số đúng là 125, không phải 120." }
+          ],
+          "answerIndex": 2,
+          "category": "similar_choices",
+          "evidence": "But the replacement is a hundred and twenty-five dollars.",
+          "explanationVi": "Bài có nhiều con số: 125 đô (fob chính thức), 35 đô (bản sao), 200 đô (tiền phạt). Phải ghi chú con số đi với từ 'replacement'.",
+          "vocabulary": []
+        },
+        {
+          "number": 6,
+          "prompt": "Why do they decide against getting a copy made at a kiosk?",
+          "options": [
+            { "text": "It would cost more than an official fob.", "trap": "opposite", "whyVi": "Bản sao rẻ hơn nhiều (35 đô so với 125 đô)." },
+            { "text": "Their landlord could be penalized if it were discovered.", "trap": "none", "whyVi": "Đúng: nếu phát hiện, chủ căn hộ có thể bị phạt 200 đô." },
+            { "text": "Farid's cousin's copy stopped working.", "trap": "word_match", "whyVi": "Anh họ Farid có làm bản sao, nhưng bài không nói nó hỏng." },
+            { "text": "The kiosk in Metrotown has closed.", "trap": "not_mentioned", "whyVi": "Bài không nói ki-ốt đã đóng cửa." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "If they find one in the system, they can fine the unit owner two hundred dollars.",
+          "explanationVi": "'Fine the unit owner' = chủ căn hộ (landlord) bị phạt; Farid kết luận 'that would land on Mr. Okafor'. 'Fine' được diễn đạt lại thành 'penalized'.",
+          "vocabulary": ["bylaw"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Farid", "voice": "male_a", "text": "So, who's paying for it? Not to be difficult, but it was your fob." },
+        { "speaker": "Chloe", "voice": "female_a", "text": "Yeah, no, I know. I'll pay for the fob, obviously. But here's the thing. They also charge a forty-dollar admin fee to the unit's strata account, and that goes on Mr. Okafor's bill." },
+        { "speaker": "Chloe", "voice": "female_a", "text": "He might try to take it out of our damage deposit." },
+        { "speaker": "Farid", "voice": "male_a", "text": "Can't we just pay him the forty directly? Before he even sees it?" },
+        { "speaker": "Chloe", "voice": "female_a", "text": "That's what I was thinking. I'll e-transfer him the forty with a note when I send him the form. It's more honest that way, and he won't be surprised." },
+        { "speaker": "Farid", "voice": "male_a", "text": "Good call. He's been really decent with us, and I don't want to mess that up. So, pickup's Thursday?" },
+        { "speaker": "Chloe", "voice": "female_a", "text": "Yeah, I'm off at one on Thursday, so I'll go straight to their office on Hastings. Can I keep using yours until then?" },
+        { "speaker": "Farid", "voice": "male_a", "text": "Sure. Just leave it on the hook by the door when you get home." }
+      ],
+      "questions": [
+        {
+          "number": 7,
+          "prompt": "How will the forty-dollar admin fee be handled?",
+          "options": [
+            { "text": "It will be taken out of their damage deposit.", "trap": "word_match", "whyVi": "Đây là điều Chloe lo có thể xảy ra, và họ chọn cách khác để tránh nó." },
+            { "text": "Farid and Chloe will split it equally.", "trap": "not_mentioned", "whyVi": "Không ai nói chia đôi khoản phí này." },
+            { "text": "Mr. Okafor will pay it himself.", "trap": "partially_true", "whyVi": "Phí ghi vào hóa đơn của ông Okafor, nhưng Chloe sẽ chuyển tiền trả lại cho ông." },
+            { "text": "Chloe will send the money to the landlord herself.", "trap": "none", "whyVi": "Đúng: 'I'll e-transfer him the forty with a note'." }
+          ],
+          "answerIndex": 3,
+          "category": "long_conversation",
+          "evidence": "I'll e-transfer him the forty with a note when I send him the form.",
+          "explanationVi": "Khoản 40 đô bị tính vào tài khoản của chủ nhà, nhưng Chloe quyết định chủ động chuyển khoản trả ông ấy. Chú ý: 'damage deposit' chỉ là điều cô sợ sẽ xảy ra.",
+          "vocabulary": ["damage deposit", "e-transfer"]
+        },
+        {
+          "number": 8,
+          "prompt": "What is Farid's attitude toward their landlord?",
+          "options": [
+            { "text": "He suspects the landlord will overcharge them.", "trap": "opposite", "whyVi": "Farid khen chủ nhà 'really decent', không nghi ngờ." },
+            { "text": "He appreciates the landlord and wants to stay on good terms.", "trap": "none", "whyVi": "Đúng: 'He's been really decent with us, and I don't want to mess that up'." },
+            { "text": "He thinks the landlord should pay for the new fob.", "trap": "not_mentioned", "whyVi": "Farid không nói chủ nhà nên trả tiền fob; anh còn nhắc fob là của Chloe." },
+            { "text": "He is annoyed that the landlord is away in Calgary.", "trap": "word_match", "whyVi": "Calgary có được nhắc nhưng Farid không tỏ ra bực bội." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "He's been really decent with us, and I don't want to mess that up.",
+          "explanationVi": "'Decent' = tử tế; 'I don't want to mess that up' = không muốn làm hỏng mối quan hệ tốt. Đáp án B là cách nói lại.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "fob", "vi": "thẻ/chìa từ mở cửa tòa nhà", "definition": "a small electronic device used to open building doors", "example": "I think my building fob fell out at the bus stop." },
+    { "term": "parkade", "vi": "bãi đỗ xe nhiều tầng (từ Canada)", "definition": "a multi-level parking garage, a common Canadian word", "example": "Anyone with the fob can get into the parkade." },
+    { "term": "deactivate", "vi": "vô hiệu hóa", "definition": "to make a device or account stop working", "example": "They'll deactivate the old fob right away." },
+    { "term": "authorization form", "vi": "giấy ủy quyền / cho phép", "definition": "a document that gives official permission", "example": "The owner has to sign an authorization form." },
+    { "term": "bylaw", "vi": "quy định nội bộ (của strata/thành phố)", "definition": "a rule made by a strata corporation or local government", "example": "The strata bylaws don't allow copied fobs." },
+    { "term": "damage deposit", "vi": "tiền đặt cọc (bảo đảm hư hỏng)", "definition": "money a tenant pays at the start of a tenancy; in BC the landlord can keep part of it only with the tenant's written agreement or a Residential Tenancy Branch order", "example": "He might take the fee out of our damage deposit." },
+    { "term": "e-transfer", "vi": "chuyển khoản điện tử (Interac)", "definition": "to send money electronically from one bank account to another", "example": "I'll e-transfer him the forty dollars tonight." }
+  ],
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; key matched. Changed: softened Chloe's line about the landlord simply deducting from the damage deposit and corrected the vocab definition (in BC a landlord needs written consent or an RTB order); Q2 option B whyVi said 'last year' while transcript says 'last spring' - fixed." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

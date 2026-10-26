@@ -1,0 +1,105 @@
+{
+  "id": "l3-drill-01",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "drill",
+  "difficulty": 6,
+  "topic": "banking",
+  "title": "Paraphrase drill: Savings account or TFSA?",
+  "context": "You will hear a customer talking to a representative at a credit union about where to keep her savings. The interest rates are fictional.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Mai", "voice": "female_a", "text": "Hi. I've got about eight thousand dollars sitting in my chequing account, and my friend says I'm basically wasting it. I'm trying to decide between your high-interest savings account and a TFSA." },
+        { "speaker": "Samuel", "voice": "male_b", "text": "Your friend's right, chequing pays almost nothing. So, the high-interest savings account pays three point one percent right now. You can put in as much as you like and take money out any time, no fees." },
+        { "speaker": "Samuel", "voice": "male_b", "text": "The catch is that the interest counts as income, so you pay tax on it." },
+        { "speaker": "Mai", "voice": "female_a", "text": "And the TFSA?" },
+        { "speaker": "Samuel", "voice": "male_b", "text": "Our TFSA savings account pays a bit less, two point seven five percent. But whatever it earns is tax-free. You never report it on your tax return." },
+        { "speaker": "Mai", "voice": "female_a", "text": "Oh, so even with the lower rate, I might end up with more." },
+        { "speaker": "Samuel", "voice": "male_b", "text": "For a lot of people, yes, especially if you're in a higher tax bracket. The thing to watch is your contribution room. There's a yearly limit set by the government, and if you go over it, there's a penalty of one percent a month on the extra amount." },
+        { "speaker": "Mai", "voice": "female_a", "text": "How do I know my limit? I moved to Canada in twenty twenty-one." },
+        { "speaker": "Samuel", "voice": "male_b", "text": "You'd check your CRA My Account online. Your room started building the year you became a resident, so you probably have plenty for eight thousand. But please check before you deposit." },
+        { "speaker": "Mai", "voice": "female_a", "text": "Okay. And if I need the money for, say, an emergency?" },
+        { "speaker": "Samuel", "voice": "male_b", "text": "You can withdraw from the TFSA any time. Just know that the amount you take out only gets added back to your room the following January." },
+        { "speaker": "Samuel", "voice": "male_b", "text": "So if you take out two thousand in March and put it back in June, that could cause an over-contribution." },
+        { "speaker": "Mai", "voice": "female_a", "text": "Wow, that's a trap I'd definitely fall into." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is the main disadvantage of the high-interest savings account?",
+          "options": [
+            { "text": "There is a fee for each withdrawal.", "trap": "opposite", "whyVi": "Rút tiền bất cứ lúc nào, 'no fees'." },
+            { "text": "The money it earns is taxable.", "trap": "none", "whyVi": "Đúng: tiền lãi tính là thu nhập nên phải đóng thuế." },
+            { "text": "There is a limit on how much you can deposit.", "trap": "wrong_detail", "whyVi": "Giới hạn đóng góp là của TFSA; tài khoản này 'put in as much as you like'." },
+            { "text": "It pays less interest than the TFSA.", "trap": "opposite", "whyVi": "Tài khoản này lãi cao hơn (3,1% so với 2,75%)." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "The catch is that the interest counts as income, so you pay tax on it.",
+          "explanationVi": "'The catch' = điểm bất lợi. 'Interest counts as income, so you pay tax on it' được diễn đạt lại thành 'the money it earns is taxable'.",
+          "vocabulary": ["the catch"]
+        },
+        {
+          "number": 2,
+          "prompt": "What does Mai realize about the TFSA?",
+          "options": [
+            { "text": "It could leave her better off despite its lower interest rate.", "trap": "none", "whyVi": "Đúng: 'even with the lower rate, I might end up with more'." },
+            { "text": "It pays a higher rate than the savings account.", "trap": "opposite", "whyVi": "TFSA lãi thấp hơn (2,75%)." },
+            { "text": "She must report its interest on her tax return.", "trap": "opposite", "whyVi": "Lãi TFSA miễn thuế, 'You never report it'." },
+            { "text": "It is only worth it for people in a high tax bracket.", "trap": "too_broad", "whyVi": "Samuel nói 'especially' với người thuế suất cao, không phải 'only'." }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "Oh, so even with the lower rate, I might end up with more.",
+          "explanationVi": "'End up with more' = cuối cùng có nhiều tiền hơn, tức là 'better off'. 'Even with the lower rate' = 'despite its lower interest rate'.",
+          "vocabulary": ["end up with"]
+        },
+        {
+          "number": 3,
+          "prompt": "What happens if Mai puts in more than her TFSA limit?",
+          "options": [
+            { "text": "Her account will be closed.", "trap": "not_mentioned", "whyVi": "Không ai nói tài khoản bị đóng." },
+            { "text": "She will lose all the interest she has earned.", "trap": "not_mentioned", "whyVi": "Không nói mất tiền lãi." },
+            { "text": "She will pay one percent a year on her whole balance.", "trap": "wrong_detail", "whyVi": "Phạt 1% MỖI THÁNG và chỉ trên phần vượt, không phải mỗi năm trên toàn bộ số dư." },
+            { "text": "She will be charged a monthly penalty on the excess amount.", "trap": "none", "whyVi": "Đúng: phạt 1% mỗi tháng trên số tiền vượt mức." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "if you go over it, there's a penalty of one percent a month on the extra amount",
+          "explanationVi": "'Go over it' = vượt giới hạn; 'the extra amount' = 'the excess amount'; 'one percent a month' = phạt hằng tháng.",
+          "vocabulary": ["contribution room"]
+        },
+        {
+          "number": 4,
+          "prompt": "What does Samuel explain about taking money out of a TFSA?",
+          "options": [
+            { "text": "Withdrawals are only allowed in January.", "trap": "word_match", "whyVi": "'January' là lúc hạn mức được cộng lại; rút tiền được bất cứ lúc nào." },
+            { "text": "Money withdrawn can be put back right away without any problem.", "trap": "opposite", "whyVi": "Gửi lại ngay trong cùng năm có thể gây vượt mức đóng góp." },
+            { "text": "The room used by a withdrawal is only restored the next year.", "trap": "none", "whyVi": "Đúng: số tiền rút ra chỉ được cộng lại vào hạn mức vào tháng Một năm sau." },
+            { "text": "There is a two-thousand-dollar limit on withdrawals.", "trap": "wrong_detail", "whyVi": "2.000 đô chỉ là ví dụ, không phải giới hạn rút tiền." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "Just know that the amount you take out only gets added back to your room the following January.",
+          "explanationVi": "'Gets added back to your room the following January' = hạn mức được khôi phục vào năm sau. Ví dụ rút tháng Ba, gửi lại tháng Sáu minh họa cho bẫy này.",
+          "vocabulary": ["withdraw", "over-contribution"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "the catch", "vi": "điểm bất lợi ẩn", "definition": "a hidden problem or disadvantage", "example": "The catch is that you pay tax on the interest." },
+    { "term": "tax-free", "vi": "miễn thuế", "definition": "not subject to tax", "example": "Interest earned in a TFSA is tax-free." },
+    { "term": "end up with", "vi": "cuối cùng có được", "definition": "to have something as a final result", "example": "Even at a lower rate, you might end up with more." },
+    { "term": "tax bracket", "vi": "bậc thuế thu nhập", "definition": "a range of income taxed at a particular rate", "example": "It helps more if you're in a higher tax bracket." },
+    { "term": "contribution room", "vi": "hạn mức đóng góp (TFSA/RRSP)", "definition": "the amount you are allowed to put into a registered account", "example": "Check your contribution room before you deposit." },
+    { "term": "withdraw", "vi": "rút tiền", "definition": "to take money out of an account", "example": "You can withdraw from the TFSA at any time." },
+    { "term": "over-contribution", "vi": "đóng góp vượt mức", "definition": "putting in more than your allowed limit", "example": "Putting the money back too soon could cause an over-contribution." }
+  ],
+  "estimatedMinutes": 4,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 4 Qs; key matched; all 4 paraphrase. TFSA facts verified: 1%/month on excess, room accrues from year of residency (18+), withdrawals restored the following Jan 1, HISA interest taxable; rates flagged as fictional. No changes needed." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

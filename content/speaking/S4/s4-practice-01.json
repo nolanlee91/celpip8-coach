@@ -1,0 +1,58 @@
+{
+  "id": "s4-practice-01",
+  "kind": "speaking",
+  "taskType": "S4",
+  "setType": "practice",
+  "difficulty": 6,
+  "topic": "social",
+  "title": "A backyard birthday party with a storm coming",
+  "prompt": "In this picture, what do you think will happen next? Describe what will happen next as well as you can. The person with whom you are speaking cannot see the picture.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='260' fill='#9ec9e6'/><line x1='30' y1='120' x2='20' y2='198' stroke='#5b7da8' stroke-width='2'/><line x1='55' y1='120' x2='45' y2='198' stroke='#5b7da8' stroke-width='2'/><line x1='80' y1='120' x2='70' y2='198' stroke='#5b7da8' stroke-width='2'/><line x1='105' y1='120' x2='95' y2='198' stroke='#5b7da8' stroke-width='2'/><line x1='180' y1='120' x2='170' y2='198' stroke='#5b7da8' stroke-width='2'/><line x1='205' y1='120' x2='195' y2='198' stroke='#5b7da8' stroke-width='2'/><line x1='230' y1='120' x2='220' y2='198' stroke='#5b7da8' stroke-width='2'/><line x1='255' y1='110' x2='245' y2='198' stroke='#5b7da8' stroke-width='2'/><ellipse cx='330' cy='80' rx='60' ry='28' fill='#6b7280'/><ellipse cx='60' cy='60' rx='90' ry='45' fill='#4a4f57'/><ellipse cx='170' cy='50' rx='90' ry='45' fill='#4a4f57'/><ellipse cx='260' cy='75' rx='70' ry='35' fill='#4a4f57'/><ellipse cx='110' cy='95' rx='100' ry='35' fill='#4a4f57'/><polygon points='150,110 128,160 142,160 124,205 166,145 150,145 162,110' fill='#f9e79f'/><rect y='200' width='800' height='60' fill='#c49a6c'/><path d='M40 200 V260 M80 200 V260 M120 200 V260 M160 200 V260 M200 200 V260 M240 200 V260 M280 200 V260 M320 200 V260 M360 200 V260 M400 200 V260 M440 200 V260 M480 200 V260 M520 200 V260 M560 200 V260 M600 200 V260 M640 200 V260' stroke='#a07850' stroke-width='2'/><rect y='260' width='800' height='240' fill='#7dbb5a'/><polygon points='635,115 725,50 800,95 800,115' fill='#8e3b2f'/><rect x='650' y='110' width='150' height='220' fill='#e8d8c4'/><rect x='750' y='140' width='36' height='36' fill='#aed6f1' stroke='#ffffff' stroke-width='3'/><rect x='690' y='230' width='46' height='100' fill='#3b2a1a'/><polygon points='736,230 756,240 756,322 736,330' fill='#9b6b3f'/><rect x='236' y='140' width='6' height='130' fill='#8e5b2e'/><line x1='242' y1='147' x2='650' y2='150' stroke='#555555' stroke-width='1.5'/><polygon points='270,147 286,147 284,163' fill='#e74c3c'/><polygon points='310,147 326,147 324,163' fill='#f1c40f'/><polygon points='350,147 366,147 364,163' fill='#3498db'/><polygon points='390,148 406,148 404,164' fill='#2ecc71'/><polygon points='430,148 446,148 444,164' fill='#e74c3c'/><polygon points='470,148 486,148 484,164' fill='#f1c40f'/><polygon points='510,148 526,148 524,164' fill='#3498db'/><polygon points='550,149 566,149 564,165' fill='#2ecc71'/><polygon points='590,149 606,149 604,165' fill='#e74c3c'/><rect x='370' y='168' width='180' height='26' rx='3' fill='#f5b7b1' transform='rotate(-3 460 181)'/><text x='460' y='187' font-family='Arial' font-size='15' font-weight='bold' fill='#922b21' text-anchor='middle' transform='rotate(-3 460 181)'>HAPPY BIRTHDAY</text><line x1='335' y1='330' x2='370' y2='262' stroke='#555555' stroke-width='1.2'/><line x1='335' y1='330' x2='392' y2='279' stroke='#555555' stroke-width='1.2'/><line x1='335' y1='330' x2='352' y2='285' stroke='#555555' stroke-width='1.2'/><ellipse cx='370' cy='245' rx='14' ry='17' fill='#e74c3c'/><ellipse cx='392' cy='262' rx='14' ry='17' fill='#3498db'/><ellipse cx='352' cy='268' rx='14' ry='17' fill='#f1c40f'/><path d='M434 282 Q445 262 456 282 L456 292 L434 292 Z' fill='#3b2412'/><circle cx='445' cy='282' r='10' fill='#e0ac80'/><polygon points='437,274 453,274 445,250' fill='#9b59b6'/><circle cx='445' cy='250' r='3' fill='#f1c40f'/><rect x='433' y='292' width='24' height='38' rx='6' fill='#e84393'/><rect x='330' y='330' width='220' height='10' fill='#ffffff'/><rect x='330' y='340' width='220' height='32' fill='#f8c8dc'/><rect x='340' y='372' width='6' height='40' fill='#8e5b2e'/><rect x='534' y='372' width='6' height='40' fill='#8e5b2e'/><rect x='470' y='300' width='50' height='30' fill='#fdebd0'/><rect x='470' y='300' width='50' height='7' fill='#f78fb3'/><path d='M480 300 V288 M490 300 V288 M500 300 V288 M510 300 V288' stroke='#3498db' stroke-width='3'/><ellipse cx='482' cy='284' rx='2.5' ry='4' fill='#f39c12' transform='rotate(30 482 284)'/><ellipse cx='492' cy='284' rx='2.5' ry='4' fill='#f39c12' transform='rotate(30 492 284)'/><ellipse cx='502' cy='284' rx='2.5' ry='4' fill='#f39c12' transform='rotate(30 502 284)'/><ellipse cx='512' cy='284' rx='2.5' ry='4' fill='#f39c12' transform='rotate(30 512 284)'/><rect x='360' y='316' width='10' height='14' fill='#e74c3c'/><rect x='376' y='316' width='10' height='14' fill='#3498db'/><ellipse cx='410' cy='328' rx='14' ry='3' fill='#d5dbdb'/><rect x='566' y='296' width='14' height='14' fill='#ffffff' transform='rotate(25 573 303)'/><rect x='596' y='272' width='14' height='14' fill='#ffffff' transform='rotate(-20 603 279)'/><path d='M562 300 q-10 -4 -18 2 M592 276 q-10 -4 -18 2' stroke='#ffffff' stroke-width='1.5' fill='none'/><path d='M416 400 V412 M424 402 V412 M438 402 V412 M446 400 V412' stroke='#d4a017' stroke-width='4'/><ellipse cx='430' cy='398' rx='22' ry='10' fill='#d4a017'/><circle cx='410' cy='393' r='9' fill='#d4a017'/><ellipse cx='412' cy='395' rx='3' ry='7' fill='#9a7209'/><circle cx='406' cy='391' r='1.8' fill='#000000'/><path d='M560 375 A30 18 0 0 1 620 375 Z' fill='#2d3436'/><rect x='560' y='375' width='60' height='22' fill='#2d3436'/><line x1='568' y1='397' x2='562' y2='440' stroke='#2d3436' stroke-width='4'/><line x1='612' y1='397' x2='618' y2='440' stroke='#2d3436' stroke-width='4'/><path d='M575 352 q10 -15 25 -10 q15 5 30 -8' stroke='#bdc3c7' stroke-width='3' fill='none'/><circle cx='640' cy='378' r='11' fill='#c98e64'/><path d='M629 376 Q640 362 651 376 Z' fill='#1e1e1e'/><rect x='628' y='390' width='24' height='36' rx='6' fill='#2980b9'/><rect x='632' y='396' width='16' height='30' fill='#ffffff'/><rect x='630' y='426' width='9' height='24' fill='#2d3436'/><rect x='641' y='426' width='9' height='24' fill='#2d3436'/><line x1='630' y1='398' x2='614' y2='386' stroke='#2980b9' stroke-width='6' stroke-linecap='round'/><line x1='614' y1='386' x2='598' y2='374' stroke='#7f8c8d' stroke-width='3'/><path d='M139 370 Q150 350 161 370 L161 384 L139 384 Z' fill='#6e2c00'/><circle cx='150' cy='368' r='11' fill='#f0c8a0'/><path d='M139 366 Q150 350 161 366 Z' fill='#6e2c00'/><polygon points='138,380 162,380 170,420 130,420' fill='#27ae60'/><rect x='141' y='420' width='7' height='20' fill='#f0c8a0'/><rect x='152' y='420' width='7' height='20' fill='#f0c8a0'/><line x1='142' y1='386' x2='118' y2='348' stroke='#f0c8a0' stroke-width='5' stroke-linecap='round'/><line x1='160' y1='388' x2='168' y2='408' stroke='#f0c8a0' stroke-width='5' stroke-linecap='round'/><circle cx='250' cy='418' r='9' fill='#8d5a3b'/><rect x='241' y='428' width='18' height='24' rx='4' fill='#e67e22'/><line x1='246' y1='452' x2='238' y2='474' stroke='#2c3e50' stroke-width='6' stroke-linecap='round'/><line x1='254' y1='452' x2='262' y2='474' stroke='#2c3e50' stroke-width='6' stroke-linecap='round'/><line x1='258' y1='434' x2='274' y2='428' stroke='#e67e22' stroke-width='5' stroke-linecap='round'/><circle cx='300' cy='418' r='9' fill='#f0c8a0'/><path d='M291 416 Q300 404 309 416 Z' fill='#d4a017'/><rect x='291' y='428' width='18' height='24' rx='4' fill='#3498db'/><line x1='296' y1='452' x2='288' y2='474' stroke='#2c3e50' stroke-width='6' stroke-linecap='round'/><line x1='304' y1='452' x2='312' y2='474' stroke='#2c3e50' stroke-width='6' stroke-linecap='round'/><line x1='308' y1='434' x2='322' y2='424' stroke='#3498db' stroke-width='5' stroke-linecap='round'/></svg>",
+  "options": null,
+  "structure": [
+    "Main prediction first: the storm will reach the party very soon.",
+    "Evidence: point to the clues (dark clouds, rain, lightning, wind blowing balloons and napkins).",
+    "Predict what 3–4 people will do (will probably / is going to / might).",
+    "Final outcome: how the situation will most likely end."
+  ],
+  "modelAnswer": "Looking at this picture, I think the party is about to be interrupted by a storm. On the left, dark clouds are rolling in, and you can already see rain and even lightning just behind the fence. The wind is picking up, too, because the balloons are blowing sideways and a couple of napkins are flying off the table. So I'd say it'll start pouring in the next few minutes. The woman in the green dress, who's pointing at the sky, will probably tell everyone to go inside. The dad at the barbecue will have to grab the food off the grill, and the two boys on the lawn will run in through the open back door. As for the birthday girl, she'll have to blow out her candles quickly, or the wind will do it for her! Someone will carry the cake inside, and the dog, which is already hiding under the table, won't need to be asked twice. In the end, they'll just move the party indoors.",
+  "usefulExpressions": [
+    {
+      "expression": "…is about to be interrupted by…",
+      "usageVi": "Sắp bị… làm gián đoạn — dự đoán việc xảy ra ngay lập tức"
+    },
+    {
+      "expression": "The wind is picking up",
+      "usageVi": "Gió đang mạnh lên — dùng làm bằng chứng cho dự đoán"
+    },
+    {
+      "expression": "So I'd say… in the next few minutes",
+      "usageVi": "Đưa ra dự đoán chính kèm khung thời gian"
+    },
+    {
+      "expression": "…will probably / will have to…",
+      "usageVi": "Thay đổi mức độ chắc chắn khi dự đoán hành động của từng người"
+    },
+    {
+      "expression": "As for the birthday girl, …",
+      "usageVi": "Còn về… — chuyển sang nhân vật khác mượt mà"
+    },
+    {
+      "expression": "In the end, …",
+      "usageVi": "Kết luận cách tình huống sẽ kết thúc"
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ mô tả bức tranh như Task 3 mà quên dự đoán; Task 4 phải dùng nhiều 'will / is going to / might'.",
+    "Đưa ra dự đoán không có căn cứ trong tranh (ví dụ 'they will call the police'); hãy luôn chỉ ra manh mối như mây đen, gió.",
+    "Dùng sai 'will' với động từ chia: 'it will starts' → 'it will start'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rendered and inspected the picture/cards; checked the model answer against the drawing, length (60 s), task fulfilment, expressions and mistakes. Changes: S4 standard instruction; answer matched the drawing, no other change."
+  },
+  "createdAt": "2026-10-26"
+}

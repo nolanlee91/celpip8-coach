@@ -1,0 +1,58 @@
+{
+  "id": "s8-practice-01",
+  "kind": "speaking",
+  "taskType": "S8",
+  "setType": "practice",
+  "difficulty": 6,
+  "topic": "shopping",
+  "title": "A strange all-in-one kitchen gadget",
+  "prompt": "You and a friend are looking for a housewarming gift for someone who loves cooking. While browsing in a kitchen store, you see this unusual object. Phone your friend and describe it in as much detail as you can, and say what you think it is for. Your friend cannot see it.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='#f4efe6'/><rect y='430' width='800' height='70' fill='#c8b6a0'/><path d='M520 420 Q600 455 680 440' stroke='#2d3436' stroke-width='3' fill='none'/><rect x='680' y='433' width='20' height='14' rx='2' fill='#2d3436'/><path d='M270 385 Q200 380 190 302' stroke='#b2bec3' stroke-width='10' fill='none' stroke-linecap='round'/><ellipse cx='186' cy='252' rx='22' ry='45' fill='none' stroke='#95a5a6' stroke-width='3'/><ellipse cx='186' cy='252' rx='11' ry='45' fill='none' stroke='#95a5a6' stroke-width='3'/><line x1='186' y1='207' x2='186' y2='297' stroke='#95a5a6' stroke-width='3'/><rect x='179' y='290' width='14' height='16' rx='3' fill='#636e72'/><path d='M530 385 Q600 380 612 322' stroke='#b2bec3' stroke-width='10' fill='none' stroke-linecap='round'/><rect x='585' y='230' width='60' height='90' rx='8' fill='#dfe6e9' stroke='#95a5a6' stroke-width='2'/><ellipse cx='615' cy='230' rx='30' ry='8' fill='#b2bec3'/><g fill='#636e72'><circle cx='597' cy='250' r='2.5'/><circle cx='612' cy='250' r='2.5'/><circle cx='627' cy='250' r='2.5'/><circle cx='604' cy='263' r='2.5'/><circle cx='619' cy='263' r='2.5'/><circle cx='634' cy='263' r='2.5'/><circle cx='597' cy='276' r='2.5'/><circle cx='612' cy='276' r='2.5'/><circle cx='627' cy='276' r='2.5'/><circle cx='604' cy='289' r='2.5'/><circle cx='619' cy='289' r='2.5'/><circle cx='634' cy='289' r='2.5'/><circle cx='597' cy='302' r='2.5'/><circle cx='612' cy='302' r='2.5'/><circle cx='627' cy='302' r='2.5'/></g><polygon points='330,182 470,182 455,360 345,360' fill='#cfeaf8' stroke='#74b9ff' stroke-width='3'/><path d='M436 220 H452 M439 260 H452 M442 300 H452' stroke='#0984e3' stroke-width='2'/><path d='M375 342 L400 330 L425 342 M400 330 V352' stroke='#636e72' stroke-width='4' fill='none' stroke-linecap='round'/><circle cx='400' cy='330' r='5' fill='#636e72'/><rect x='320' y='164' width='160' height='20' rx='6' fill='#00b894'/><path d='M355 164 Q400 100 445 164 Z' fill='#fdcb6e'/><path d='M400 132 L372 164 M400 132 L386 164 M400 132 L400 164 M400 132 L414 164 M400 132 L428 164' stroke='#e1a62b' stroke-width='2'/><rect x='270' y='360' width='260' height='70' rx='18' fill='#d63031'/><rect x='300' y='378' width='90' height='34' rx='4' fill='#0984e3'/><text x='345' y='401' font-family='Arial' font-size='18' font-weight='bold' fill='#ffffff' text-anchor='middle'>12:30</text><circle cx='425' cy='395' r='10' fill='#00b894'/><circle cx='455' cy='395' r='10' fill='#fdcb6e'/><circle cx='485' cy='395' r='10' fill='#ffffff'/><ellipse cx='300' cy='432' rx='16' ry='5' fill='#2d3436'/><ellipse cx='500' cy='432' rx='16' ry='5' fill='#2d3436'/><rect x='80' y='440' width='110' height='40' rx='4' fill='#ffffff' stroke='#999999'/><text x='135' y='467' font-family='Arial' font-size='20' font-weight='bold' fill='#d63031' text-anchor='middle'>$89.99</text></svg>",
+  "options": null,
+  "structure": [
+    "Greet your friend and say why you're calling (you found something unusual).",
+    "Describe the main body from bottom to top: base, screen and buttons, jar, lid, lemon squeezer.",
+    "Describe the unusual parts: the two arms with the whisk and the grater.",
+    "Guess what it's for, give the price and ask your friend's opinion."
+  ],
+  "modelAnswer": "Hi Lan, it's me. I'm at the kitchen store, and I've found something really unusual that might work as a housewarming gift. It looks like an all-in-one cooking machine. At the bottom, there's a wide red base. On the front, there's a small blue digital screen showing the time, and next to it there are three round buttons: green, yellow and white. Sitting on top of the base is a clear jar, a bit like a blender jar, with measuring lines on the side and a blade at the bottom. It's got a green lid, and on top of the lid, there's a yellow dome with ridges. I'm pretty sure it's a lemon squeezer. Now here's the weird part: two metal arms are sticking out of the sides. The one on the left curves up and ends in a whisk, and the one on the right holds a round grater full of tiny holes. So I guess you could blend, whisk, grate and squeeze lemons with one machine. It's $89.99. What do you think?",
+  "usefulExpressions": [
+    {
+      "expression": "I've found something really unusual that might work as…",
+      "usageVi": "Mở đầu cuộc gọi: nói lý do gọi và giới thiệu đồ vật"
+    },
+    {
+      "expression": "It looks like an all-in-one…",
+      "usageVi": "Cho người nghe hình dung tổng thể trước khi tả chi tiết"
+    },
+    {
+      "expression": "Sitting on top of the base is…",
+      "usageVi": "Đảo ngữ chỉ vị trí — nghe tự nhiên và đa dạng câu"
+    },
+    {
+      "expression": "…a bit like a blender jar",
+      "usageVi": "So sánh với vật quen thuộc để người nghe dễ hình dung"
+    },
+    {
+      "expression": "Now here's the weird part: …",
+      "usageVi": "Báo hiệu chi tiết lạ nhất — thu hút sự chú ý"
+    },
+    {
+      "expression": "The one on the left…, and the one on the right…",
+      "usageVi": "Tả hai bộ phận đối xứng một cách rõ ràng"
+    }
+  ],
+  "commonMistakes": [
+    "Không biết tên bộ phận thì im lặng; hãy dùng cách diễn đạt vòng: 'a round thing with tiny holes, like a cheese grater'.",
+    "Tả lộn xộn; nên đi theo một hướng cố định (dưới lên trên, trái sang phải).",
+    "Quên tính từ màu sắc, hình dạng, chất liệu (red, round, clear, metal) — đây là trọng tâm của Task 8."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rendered and inspected the picture/cards; checked the model answer against the drawing, length (60 s), task fulfilment, expressions and mistakes. Changes: Prompt asks to say what it is for -> added an explicit purpose sentence."
+  },
+  "createdAt": "2026-10-26"
+}

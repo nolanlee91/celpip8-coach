@@ -1,0 +1,54 @@
+{
+  "id": "s2-practice-02",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "education",
+  "title": "Learning a new skill as an adult",
+  "prompt": "Talk about a time when you learned a new skill as an adult. What was the skill, how did you learn it, and how has it helped you?",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Name the skill in one sentence",
+    "Why you needed it (a specific moment)",
+    "How you learned it (method, time, who helped)",
+    "Result + how it helps you now / what you learned"
+  ],
+  "modelAnswer": "The skill I'd like to talk about is using advanced Excel, especially pivot tables and lookup formulas.\n\nA couple of years ago, I started a new job at a logistics company, and in my first week my supervisor asked me to prepare a monthly report on late deliveries. Honestly, I was a bit embarrassed, because I only knew the basics, and it took me almost a whole day.\n\nSo I decided to learn it properly. I signed up for a free online course through the public library, and every evening I spent about thirty minutes practising with real data from work. Whenever I got stuck, I watched short videos or asked a colleague who was good with spreadsheets.\n\nAfter about two months, I could build the same report in less than an hour. Now my manager actually asks me to train new staff. Looking back, learning that skill gave me a lot more confidence at work, and it showed me that it's never too late to learn something new.",
+  "usefulExpressions": [
+    {
+      "expression": "The skill I'd like to talk about is…",
+      "usageVi": "Câu mở đầu rõ ràng, trả lời ngay câu hỏi 'What was the skill?'."
+    },
+    {
+      "expression": "Honestly, I was a bit embarrassed, because…",
+      "usageVi": "Chia sẻ cảm xúc thật làm câu chuyện sinh động và tự nhiên hơn."
+    },
+    {
+      "expression": "Whenever I got stuck, …",
+      "usageVi": "'get stuck' = bị bí; 'whenever' diễn tả hành động lặp lại."
+    },
+    {
+      "expression": "Looking back, …",
+      "usageVi": "Nhìn lại — dùng để rút ra bài học ở cuối câu chuyện."
+    },
+    {
+      "expression": "it's never too late to…",
+      "usageVi": "Câu kết mang tính bài học, phù hợp với đề về học kỹ năng mới."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ trả lời 1–2 trong 3 câu hỏi của đề. Hãy đảm bảo nói đủ: kỹ năng gì, học thế nào, giúp ích ra sao.",
+    "Nói 'I learned to Excel' hoặc 'I learned about use Excel' — đúng là 'I learned how to use Excel'.",
+    "Thiếu từ nối giữa các phần, khiến bài nghe như liệt kê. Dùng 'So…', 'After about two months…', 'Now…', 'Looking back…'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked skill/how/benefit all answered, natural spoken tone, length (~169). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

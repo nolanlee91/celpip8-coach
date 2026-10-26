@@ -1,0 +1,59 @@
+{
+  "id": "s7-practice-01",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "environment",
+  "title": "Banning gas-powered yard equipment",
+  "prompt": "Some cities in British Columbia are considering a ban on gas-powered leaf blowers and lawn mowers in residential neighbourhoods. Residents and landscaping companies would have to use electric or manual equipment instead.\n\nDo you think your city should introduce this ban? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Clear position in the first sentence (yes/no + any condition)",
+    "Reason 1 + personal example",
+    "Reason 2 + explanation",
+    "Reason 3 or counter-argument with your response",
+    "Conclusion restating your position"
+  ],
+  "modelAnswer": "Yes, I think my city should introduce this ban, although I'd want it to be phased in gradually.\n\nMy first reason is noise. Gas leaf blowers are incredibly loud. In my neighbourhood in Burnaby, landscaping crews sometimes run them for an hour on a Saturday morning, and you can hear them through closed windows. For people who work night shifts, or families with babies, that's a real problem. Electric models are much quieter, so everyone would benefit.\n\nSecond, there's the environmental side. A lot of people don't realize that small gas engines are surprisingly dirty, because they don't have the same pollution controls that cars have. If our city is serious about its climate goals, this is an easy place to start.\n\nOn top of that, the technology is ready now. Battery-powered mowers and blowers have improved a lot, and they're cheaper to maintain because you don't need gas or oil changes.\n\nOf course, I understand that landscaping companies would face real costs to replace their equipment. That's why I'd suggest giving them a couple of years to switch, and maybe offering rebates to help small businesses.\n\nSo overall, I support the ban, as long as it's introduced in a fair and gradual way.",
+  "usefulExpressions": [
+    {
+      "expression": "Yes, I think…, although I'd want…",
+      "usageVi": "Nêu quan điểm rõ ràng kèm điều kiện — thể hiện suy nghĩ chín chắn."
+    },
+    {
+      "expression": "My first reason is…",
+      "usageVi": "Mở đầu lý do thứ nhất ngắn gọn."
+    },
+    {
+      "expression": "A lot of people don't realize that…",
+      "usageVi": "Giới thiệu thông tin ít người biết, làm lập luận hấp dẫn hơn."
+    },
+    {
+      "expression": "On top of that, …",
+      "usageVi": "Thêm lý do theo phong cách văn nói tự nhiên, thay cho 'Moreover'."
+    },
+    {
+      "expression": "Of course, I understand that…. That's why…",
+      "usageVi": "Thừa nhận ý kiến trái chiều rồi đưa ra giải pháp — kỹ thuật quan trọng ở S7."
+    },
+    {
+      "expression": "as long as…",
+      "usageVi": "Nêu điều kiện cho quan điểm của bạn ở phần kết."
+    }
+  ],
+  "commonMistakes": [
+    "Không nêu rõ quan điểm ngay từ đầu, hoặc đổi ý giữa chừng. Câu đầu tiên phải trả lời thẳng câu hỏi.",
+    "Chỉ lặp lại cùng một lý do bằng nhiều cách khác nhau. Cần 2–3 lý do thật sự khác nhau (tiếng ồn, môi trường, công nghệ).",
+    "Phát âm sai 'blower' /ˈbloʊ.ɚ/ hoặc bỏ âm cuối 'ban' → 'ba'. Người Việt hay nuốt phụ âm cuối — hãy chú ý khi nói từ khóa của đề."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked prompt realism ('considering' is accurate), three distinct reasons + counter-argument, hedged claims, length (~204). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

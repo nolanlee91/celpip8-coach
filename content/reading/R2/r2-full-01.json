@@ -1,0 +1,169 @@
+{
+  "id": "r2-full-01",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "full",
+  "difficulty": 6,
+  "topic": "recreation",
+  "title": "Choosing a fall program for Maya",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. Recomputed all lookups (ages vs Maya 7, times vs 5 p.m./piano 9-10, $110-$100=$10, $75 lowest fee). Q2: made the Wednesday constraint explicit in the email ('so neither of us could take her that night'); Coding is also excluded by age (9-12), so the key no longer depends on an implied constraint. Updated Q2 whyVi/explanationVi accordingly." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Program guide",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Brightwater Community Centre — Fall Children's Programs (classes start the week of September 21)",
+        "headers": ["Program", "Ages", "Day and time", "Sessions", "Fee", "Spaces left"],
+        "rows": [
+          ["Junior Swim Level 3", "6–8", "Saturday 9:00–9:45 a.m.", "10", "$95", "2"],
+          ["Learn-to-Skate", "5–7", "Sunday 1:00–1:45 p.m.", "8", "$88", "0 (waitlist only)"],
+          ["Kids' Hip Hop", "7–10", "Tuesday 4:30–5:30 p.m.", "10", "$120", "6"],
+          ["Junior Coding Club", "9–12", "Wednesday 5:00–6:30 p.m.", "8", "$160 (laptops provided)", "4"],
+          ["Mini Soccer", "5–7", "Thursday 5:00–6:00 p.m.", "10", "$75 (team shirt included)", "9"],
+          ["Art Explorers", "6–9", "Saturday 10:30 a.m.–12:00 p.m.", "8", "$110 (all supplies included)", "3"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Marco,\n\nI finally went through the Brightwater fall guide. Since Maya turned 7 last month, she's old enough for almost everything this time. I know she's set on skating, but that class [[1]], so it'll have to wait until winter.\n\nWeekdays are tricky. I'm not off work until 4:30 and the drive takes twenty minutes, so anything that starts before 5 is out, and you've got your Wednesday evening course, so neither of us could take her that night. That leaves [[2]] as our only weekday choice.\n\nOn Saturdays she has piano from 9 to 10, so the swim class [[3]]. Art Explorers would fit nicely after piano, and she'd love it, but at $110 it's [[4]] the $100 limit we agreed on for one program this fall.\n\nSo I'm leaning toward soccer. It's [[5]] on the list, and with nine spots left, we don't need to rush, though I'd rather sign her up this weekend anyway.\n\nWhat do you think?\n\nLeila",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "is only for children aged 9 to 12", "trap": "wrong_detail", "whyVi": "9–12 tuổi là của Junior Coding Club; Learn-to-Skate dành cho 5–7 tuổi, Maya 7 tuổi vẫn vừa." },
+        { "text": "has no spaces left", "trap": "none", "whyVi": "Đúng: cột 'Spaces left' của Learn-to-Skate ghi '0 (waitlist only)'." },
+        { "text": "starts too early in the morning", "trap": "wrong_detail", "whyVi": "Lớp trượt băng vào Chủ nhật 1 giờ chiều." },
+        { "text": "costs more than $100", "trap": "wrong_detail", "whyVi": "Phí chỉ $88, dưới mức $100." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "0 (waitlist only)",
+      "explanationVi": "Tìm hàng 'Learn-to-Skate' trong bảng và kiểm tra từng cột: tuổi (5–7) hợp, giờ và phí đều ổn, chỉ có 'Spaces left' = 0. 'so it'll have to wait until winter' xác nhận lý do là hết chỗ.",
+      "vocabulary": ["waitlist"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "Kids' Hip Hop on Tuesdays", "trap": "wrong_detail", "whyVi": "Hip Hop bắt đầu 4:30 — trước 5 giờ nên Leila không kịp đưa đi." },
+        { "text": "Junior Coding Club", "trap": "wrong_detail", "whyVi": "Lớp này dành cho 9–12 tuổi (Maya mới 7), và lại rơi vào tối thứ Tư — tối Marco đi học." },
+        { "text": "Learn-to-Skate", "trap": "wrong_detail", "whyVi": "Lớp trượt băng vào Chủ nhật, không phải ngày thường, và đã hết chỗ." },
+        { "text": "Mini Soccer on Thursdays", "trap": "none", "whyVi": "Đúng: thứ Năm 5:00 — không trước 5 giờ, không phải thứ Tư, và Maya (7) nằm trong độ tuổi 5–7." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Thursday 5:00–6:00 p.m.",
+      "explanationVi": "Áp dụng hai điều kiện của người viết vào bảng: (1) không bắt đầu trước 5 giờ → loại Hip Hop (4:30); (2) không vào thứ Tư ('neither of us could take her that night') → loại Coding (lớp này cũng chỉ nhận 9–12 tuổi). Lớp ngày thường còn lại là Mini Soccer thứ Năm 5:00.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "clashes with her lesson", "trap": "none", "whyVi": "Đúng: bơi 9:00–9:45 sáng thứ Bảy, trùng giờ piano 9–10." },
+        { "text": "is already full", "trap": "wrong_detail", "whyVi": "Lớp bơi vẫn còn 2 chỗ." },
+        { "text": "is for older children", "trap": "wrong_detail", "whyVi": "Lớp bơi dành cho 6–8 tuổi; Maya 7 tuổi vẫn phù hợp." },
+        { "text": "is over our budget", "trap": "wrong_detail", "whyVi": "Phí $95, dưới giới hạn $100." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Saturday 9:00–9:45 a.m.",
+      "explanationVi": "Câu bắt đầu bằng lịch piano '9 to 10' rồi dùng 'so' → lý do liên quan đến thời gian. So với bảng: Junior Swim 9:00–9:45 thứ Bảy → trùng giờ. 'clash with' = trùng lịch.",
+      "vocabulary": ["clash with"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "ten dollars under", "trap": "opposite", "whyVi": "$110 lớn hơn $100, không phải nhỏ hơn." },
+        { "text": "exactly at", "trap": "wrong_detail", "whyVi": "$110 không bằng $100." },
+        { "text": "ten dollars over", "trap": "none", "whyVi": "Đúng: $110 − $100 = $10 vượt mức; 'but' cho thấy đây là điểm trừ." },
+        { "text": "thirty-five dollars over", "trap": "wrong_detail", "whyVi": "$35 là chênh lệch giữa Art Explorers ($110) và Mini Soccer ($75), không phải so với giới hạn $100." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "$110 (all supplies included)",
+      "explanationVi": "Liên từ 'but' báo hiệu vấn đề. So sánh phí $110 với 'the $100 limit' → vượt $10. Cẩn thận phép trừ nhầm với giá của lớp khác.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "the only weekend program", "trap": "opposite", "whyVi": "Mini Soccer diễn ra vào thứ Năm, không phải cuối tuần." },
+        { "text": "the cheapest program", "trap": "none", "whyVi": "Đúng: $75 là mức phí thấp nhất trong bảng." },
+        { "text": "the longest program", "trap": "wrong_detail", "whyVi": "Mỗi buổi chỉ 60 phút; Coding và Art Explorers dài 90 phút." },
+        { "text": "the program with the fewest spaces", "trap": "opposite", "whyVi": "Mini Soccer còn 9 chỗ — nhiều nhất bảng." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "$75 (team shirt included)",
+      "explanationVi": "So sánh cột 'Fee' của cả bảng: $95, $88, $120, $160, $75, $110 → $75 là thấp nhất. Phải đọc cả cột, không chỉ một hàng.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "According to Leila's needs, why is Kids' Hip Hop not a good choice?",
+      "options": [
+        { "text": "It begins before she can get Maya there.", "trap": "none", "whyVi": "Đúng: Hip Hop bắt đầu 4:30, nhưng Leila tan làm 4:30 và lái xe mất 20 phút." },
+        { "text": "Maya is too young for it.", "trap": "wrong_detail", "whyVi": "Hip Hop dành cho 7–10 tuổi; Maya 7 tuổi vẫn được." },
+        { "text": "It has no spaces left.", "trap": "wrong_detail", "whyVi": "Hip Hop vẫn còn 6 chỗ." },
+        { "text": "It is on the night of Marco's course.", "trap": "wrong_detail", "whyVi": "Marco học tối thứ Tư; Hip Hop vào thứ Ba." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "I'm not off work until 4:30 and the drive takes twenty minutes, so anything that starts before 5 is out",
+      "explanationVi": "Email không nhắc tên Hip Hop, nên phải áp dụng điều kiện vào bảng: Hip Hop 'Tuesday 4:30' → bắt đầu trước 5 giờ. 'not off work until 4:30' + 'drive takes twenty minutes' → đến nơi khoảng 4:50.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Which program is Maya NOT old enough to join?",
+      "options": [
+        { "text": "Art Explorers", "trap": "wrong_detail", "whyVi": "Dành cho 6–9 tuổi, Maya 7 tuổi được tham gia." },
+        { "text": "Kids' Hip Hop", "trap": "wrong_detail", "whyVi": "Dành cho 7–10 tuổi, Maya vừa đủ tuổi." },
+        { "text": "Junior Swim Level 3", "trap": "wrong_detail", "whyVi": "Dành cho 6–8 tuổi, Maya phù hợp." },
+        { "text": "Junior Coding Club", "trap": "none", "whyVi": "Đúng: dành cho 9–12 tuổi; Maya mới 7 tuổi." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "Since Maya turned 7 last month, she's old enough for almost everything this time.",
+      "explanationVi": "Từ 'almost everything' gợi ý có ngoại lệ. Lấy tuổi Maya (7) đối chiếu cột 'Ages': chỉ Junior Coding Club (9–12) không bao gồm 7.",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "What does Leila say about registering for soccer?",
+      "options": [
+        { "text": "She will add Maya to the waitlist.", "trap": "not_mentioned", "whyVi": "Danh sách chờ là của lớp trượt băng; Leila không nói sẽ ghi tên vào đó." },
+        { "text": "She plans to wait until winter.", "trap": "word_match", "whyVi": "'winter' là lúc thử lại lớp trượt băng, không phải bóng đá." },
+        { "text": "She wants to do it soon even though there is no hurry.", "trap": "none", "whyVi": "Đúng: 'we don't need to rush, though I'd rather sign her up this weekend anyway'." },
+        { "text": "She will register Maya for soccer and art together.", "trap": "opposite", "whyVi": "Ngân sách chỉ cho 'one program', và Art Explorers đã bị loại vì vượt giới hạn." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "we don't need to rush, though I'd rather sign her up this weekend anyway",
+      "explanationVi": "'don't need to rush' = 'there is no hurry'; 'I'd rather sign her up this weekend' = 'wants to do it soon'. Từ 'though' nối hai ý trái chiều — đáp án C giữ đúng cấu trúc đó với 'even though'.",
+      "vocabulary": ["sign up"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "waitlist", "vi": "danh sách chờ", "definition": "a list of people waiting for a place to become available", "example": "Skating is full, but you can join the waitlist." },
+    { "term": "clash with", "vi": "trùng (lịch) với", "definition": "to happen at the same time as something else", "example": "The swim class clashes with her piano lesson." },
+    { "term": "be set on", "vi": "nhất quyết muốn", "definition": "to want something very much and be determined to have it", "example": "She's set on joining the soccer team." },
+    { "term": "lean toward", "vi": "nghiêng về (lựa chọn nào đó)", "definition": "to be likely to choose one option over another", "example": "I'm leaning toward the Thursday class." },
+    { "term": "sign up", "vi": "đăng ký", "definition": "to put your name on a list to take part in something", "example": "We should sign her up before the weekend." },
+    { "term": "be off work", "vi": "tan làm, hết giờ làm", "definition": "to finish your working day", "example": "I'm not off work until 4:30." }
+  ]
+}

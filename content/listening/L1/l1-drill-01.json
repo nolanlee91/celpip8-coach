@@ -1,0 +1,103 @@
+{
+  "id": "l1-drill-01",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "drill",
+  "difficulty": 6,
+  "topic": "housing",
+  "title": "Missed information drill: A leak from the unit above",
+  "context": "You will hear a tenant talking to her neighbour late one evening after she finds water coming through her bathroom ceiling.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Rosa", "voice": "female_a", "text": "Tomás, sorry to bang on your door so late. Do you know anything about the unit above me? There's water dripping through my bathroom ceiling, right by the light fixture." },
+        { "speaker": "Tomás", "voice": "male_a", "text": "Oh no. That's four-oh-two. Did you knock?" },
+        { "speaker": "Rosa", "voice": "female_a", "text": "Twice. Nobody answered." },
+        { "speaker": "Tomás", "voice": "male_a", "text": "Yeah, the owner's in Mexico till the end of the month, I think. Okay, first thing, don't touch that light. Turn off the breaker for the bathroom. Water and electricity, you know." },
+        { "speaker": "Rosa", "voice": "female_a", "text": "Right, good thinking. Then what, call the landlord?" },
+        { "speaker": "Tomás", "voice": "male_a", "text": "Call the building's emergency line first. It's not the regular office number, it's the after-hours one on the yellow sticker by the elevator." },
+        { "speaker": "Tomás", "voice": "male_a", "text": "When it happened to me last year, the caretaker came up with a master key in, like, twenty minutes." },
+        { "speaker": "Rosa", "voice": "female_a", "text": "Okay. Twenty minutes I can handle. I'll put some towels and a bucket down." },
+        { "speaker": "Tomás", "voice": "male_a", "text": "And take photos before you clean anything up. The ceiling, the floor, anything that's damaged. Your tenant insurance will want them." },
+        { "speaker": "Rosa", "voice": "female_a", "text": "I'm not even sure my policy covers this. I've only had it since March." },
+        { "speaker": "Tomás", "voice": "male_a", "text": "Most do, but call them tomorrow to check. Oh, and email your landlord tonight, even if you've already called the emergency line. You want it in writing, with the time." },
+        { "speaker": "Rosa", "voice": "female_a", "text": "Got it. Breaker, emergency line, photos, email. Thanks, Tomás. Seriously." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why can't Rosa get help from the people in unit 402?",
+          "options": [
+            { "text": "The owner refused to open the door.", "trap": "opposite", "whyVi": "Không ai từ chối; đơn giản là không có ai ở nhà." },
+            { "text": "Tomás doesn't know who lives there.", "trap": "opposite", "whyVi": "Tomás biết rõ chủ căn hộ đang đi Mexico." },
+            { "text": "The owner is away on a trip.", "trap": "none", "whyVi": "Đúng: chủ căn hộ ở Mexico đến cuối tháng." },
+            { "text": "The unit is empty because it's being renovated.", "trap": "not_mentioned", "whyVi": "Bài không nói căn hộ đang sửa chữa." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "the owner's in Mexico till the end of the month",
+          "explanationVi": "Tomás nói nhanh 'the owner's in Mexico till the end of the month' – thông tin dễ lỡ vì đi kèm 'I think'. 'In Mexico' = 'away on a trip'.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "Where will Rosa find the number she should call first?",
+          "options": [
+            { "text": "On a sticker near the elevator.", "trap": "none", "whyVi": "Đúng: số khẩn cấp ngoài giờ nằm trên nhãn dán màu vàng cạnh thang máy." },
+            { "text": "On the regular building office website.", "trap": "word_match", "whyVi": "Tomás nói rõ KHÔNG phải số văn phòng thường ('not the regular office number')." },
+            { "text": "In her tenant insurance policy.", "trap": "wrong_detail", "whyVi": "Bảo hiểm được nhắc sau, không liên quan đến số khẩn cấp." },
+            { "text": "In an email from her landlord.", "trap": "word_match", "whyVi": "Email được nhắc nhưng là việc Rosa sẽ gửi cho chủ nhà." }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "it's the after-hours one on the yellow sticker by the elevator",
+          "explanationVi": "Câu 'It's not the regular office number' là bẫy; thông tin đúng nằm ngay sau: 'on the yellow sticker by the elevator'.",
+          "vocabulary": ["after-hours"]
+        },
+        {
+          "number": 3,
+          "prompt": "According to Tomás, what should Rosa do before cleaning up the water?",
+          "options": [
+            { "text": "Phone her insurance company.", "trap": "wrong_detail", "whyVi": "Tomás bảo gọi bảo hiểm vào ngày mai, không phải trước khi lau dọn." },
+            { "text": "Wait for the caretaker to inspect the damage.", "trap": "not_mentioned", "whyVi": "Tomás không nói phải chờ người quản lý kiểm tra." },
+            { "text": "Send photos to the owner of unit 402.", "trap": "wrong_detail", "whyVi": "Ảnh dùng cho bảo hiểm của Rosa; không nói gửi cho chủ căn 402." },
+            { "text": "Take pictures of everything that's damaged.", "trap": "none", "whyVi": "Đúng: 'take photos before you clean anything up'." }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "And take photos before you clean anything up.",
+          "explanationVi": "Từ khóa 'before you clean anything up' khớp với câu hỏi. 'Take photos' = 'take pictures'.",
+          "vocabulary": ["tenant insurance"]
+        },
+        {
+          "number": 4,
+          "prompt": "Why does Tomás tell Rosa to email her landlord tonight?",
+          "options": [
+            { "text": "The emergency line might not answer at night.", "trap": "not_mentioned", "whyVi": "Tomás không nói đường dây khẩn cấp có thể không trả lời." },
+            { "text": "So there is a written record showing when she reported it.", "trap": "none", "whyVi": "Đúng: 'You want it in writing, with the time'." },
+            { "text": "Because her landlord is in Mexico.", "trap": "wrong_detail", "whyVi": "Người ở Mexico là chủ căn 402, không phải chủ nhà của Rosa." },
+            { "text": "To ask the landlord to pay her insurance claim.", "trap": "not_mentioned", "whyVi": "Bài không nói chủ nhà trả tiền bảo hiểm." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "You want it in writing, with the time.",
+          "explanationVi": "'In writing, with the time' = có bằng chứng bằng văn bản ghi thời gian báo sự cố. Đáp án B diễn đạt lại thành 'a written record showing when she reported it'.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "light fixture", "vi": "đèn gắn trần/tường", "definition": "a light that is attached to a ceiling or wall", "example": "Water is dripping right by the light fixture." },
+    { "term": "breaker", "vi": "cầu dao điện", "definition": "a switch that cuts off electricity to part of a home", "example": "Turn off the breaker for the bathroom." },
+    { "term": "after-hours", "vi": "ngoài giờ làm việc", "definition": "outside normal business hours", "example": "Call the after-hours emergency line." },
+    { "term": "caretaker", "vi": "người quản lý/trông coi tòa nhà", "definition": "a person employed to look after a building", "example": "The caretaker came up with a master key." },
+    { "term": "master key", "vi": "chìa khóa vạn năng", "definition": "a key that opens all the doors in a building", "example": "Only the caretaker has a master key." },
+    { "term": "tenant insurance", "vi": "bảo hiểm cho người thuê nhà", "definition": "insurance that covers a renter's belongings and liability", "example": "Your tenant insurance will want photos of the damage." }
+  ],
+  "estimatedMinutes": 4,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 4 Qs; key matched. 3/4 missed_info (meets 70% drill target). Evidence, traps and Vietnamese checked; tenant-insurance/emergency-line advice is sensible. No changes needed." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

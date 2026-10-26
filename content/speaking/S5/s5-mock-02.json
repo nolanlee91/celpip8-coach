@@ -1,0 +1,77 @@
+{
+  "id": "s5-mock-02",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "recreation",
+  "title": "Choosing a family vacation package in BC",
+  "prompt": "Your family is planning a four-day holiday in British Columbia this summer. Select the package that appeals to you more. Your mother has her heart set on the other package, so try to persuade her that yours is the better choice.",
+  "svg": null,
+  "options": [
+    {
+      "title": "Tofino Beach Getaway",
+      "details": [
+        "$2,650 CAD for a family of four, 4 days / 3 nights",
+        "Oceanfront cabin with a full kitchen",
+        "Includes a whale-watching tour and surf lessons",
+        "About 5 hours from Vancouver by ferry and car"
+      ]
+    },
+    {
+      "title": "Okanagan Lake Resort",
+      "details": [
+        "$3,100 CAD for a family of four, 4 days / 3 nights",
+        "Hotel room with a breakfast buffet and an outdoor pool",
+        "Includes a winery tour and a boat rental for one afternoon",
+        "About 4 hours' drive from Vancouver"
+      ]
+    }
+  ],
+  "structure": [
+    "Acknowledge why Mom likes the Okanagan, then state your choice.",
+    "Reason 1: value for money ($450 cheaper, kitchen saves on meals).",
+    "Reason 2: activities the whole family can share (whale watching, surfing vs. a winery tour).",
+    "Handle her objection (longer trip) and end with a warm, persuasive line."
+  ],
+  "modelAnswer": "Mom, I totally understand why you like the Okanagan package. A lake, a pool and breakfast every morning sound really relaxing. But hear me out, because I think Tofino would make this a trip we'll remember for years. For one thing, it's $450 cheaper, and since the cabin has a full kitchen, we can cook some of our own meals instead of eating out three times a day. That alone could save us a few hundred dollars more. But it's not just about money. In Tofino, the activities are something all four of us can enjoy together. Whale watching is a once-in-a-lifetime experience, and Bao has been talking about trying surfing for ages. The winery tour, on the other hand, would be pretty boring for him. I know the trip is about an hour longer, but the ferry ride is actually part of the fun, and you could relax on the deck with a coffee. So, what do you say? Let's give the ocean a try this year.",
+  "usefulExpressions": [
+    {
+      "expression": "But hear me out, because…",
+      "usageVi": "Nhưng mẹ nghe con nói đã — cách mở lời thuyết phục rất tự nhiên"
+    },
+    {
+      "expression": "For one thing, …",
+      "usageVi": "Trước hết là… — giới thiệu lý do đầu tiên"
+    },
+    {
+      "expression": "But it's not just about money.",
+      "usageVi": "Chuyển từ lý do tiền bạc sang lý do khác, tạo nhịp cho bài nói"
+    },
+    {
+      "expression": "…, on the other hand, is really only for…",
+      "usageVi": "So sánh trực tiếp với điểm yếu của phương án kia"
+    },
+    {
+      "expression": "I know…, but… is actually part of the fun",
+      "usageVi": "Biến nhược điểm thành ưu điểm khi trả lời phản bác"
+    },
+    {
+      "expression": "So, what do you say?",
+      "usageVi": "Câu hỏi kết thúc thân mật, mời người nghe đồng ý"
+    }
+  ],
+  "commonMistakes": [
+    "Dành quá nhiều thời gian mô tả cả hai gói du lịch; người nghe đã biết thông tin, hãy tập trung vào lý do thuyết phục.",
+    "Dùng 'travel' như danh từ đếm được ('a travel'); nói 'a trip' hoặc 'a holiday'.",
+    "Không có so sánh trực tiếp ('cheaper than', 'more… than', 'on the other hand'); Task 5 yêu cầu so sánh hai lựa chọn."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rendered and inspected the picture/cards; checked the model answer against the drawing, length (60 s), task fulfilment, expressions and mistakes. Changes: Raised package prices to realistic summer levels ($2,650 / $3,100, same $450 gap); \"the kids\" was inconsistent (speaker is one of the family of four) -> named younger brother."
+  },
+  "createdAt": "2026-10-26"
+}

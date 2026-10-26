@@ -1,0 +1,72 @@
+{
+  "id": "w2-mock-02",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "workplace",
+  "title": "Year-end reward: team retreat or gift cards",
+  "situation": "Your company has had a successful year, and management has set aside $300 per employee for a year-end reward. All employees are being asked to vote for one of the two options below.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: A one-day team-building retreat at a resort in the Fraser Valley, including group activities and dinner. Transportation from the office would be provided.",
+  "optionB": "Option B: A $300 gift card for each employee, which can be used at a wide range of stores and restaurants.",
+  "structure": [
+    "Opening: recognise the value of the other option, then state your choice and a summary reason",
+    "Reason 1: practical problems with the other option (scheduling, family responsibilities)",
+    "Reason 2: advantages of your option (choice, fairness, cost of living)",
+    "Concession: the goal behind the other option is valid + a smaller alternative that meets it",
+    "Conclusion"
+  ],
+  "modelResponse": "While I appreciate the idea behind a team-building retreat, I would vote for individual gift cards, as I believe they would be a fairer and more meaningful reward.\n\nThe main issue with a retreat is that not everyone could fully enjoy it. Our warehouse and office teams work different shifts, so it would be difficult to find a single day when everyone is free without disrupting operations. In addition, employees with young children or caregiving responsibilities may find a full day away, plus a long drive to the Fraser Valley, more stressful than rewarding.\n\nA gift card, on the other hand, allows each person to decide what a reward means to them. Some might treat their family to dinner, while others might put it towards winter tires or holiday shopping, which is especially helpful given the rising cost of living. Because the value is the same for everyone, it also feels transparent and fair.\n\nThat said, I recognize that our teams would benefit from spending time together. Perhaps a smaller, informal lunch during work hours could achieve that goal at a fraction of the cost.\n\nOverall, I think gift cards would show appreciation in the most practical way.",
+  "usefulExpressions": [
+    {
+      "expression": "While I appreciate the idea behind…, I would…",
+      "usageVi": "Mở bài lịch sự, tôn trọng phương án kia trước khi đưa ra lựa chọn — phù hợp với môi trường công sở."
+    },
+    {
+      "expression": "The main issue with… is that…",
+      "usageVi": "Chỉ ra nhược điểm chính của phương án kia một cách khách quan."
+    },
+    {
+      "expression": "without disrupting operations",
+      "usageVi": "Cụm từ chuyên môn về vận hành, thể hiện bạn hiểu thực tế công việc."
+    },
+    {
+      "expression": "more stressful than rewarding",
+      "usageVi": "So sánh hai tính từ cho cùng một chủ thể — cấu trúc gọn và tinh tế."
+    },
+    {
+      "expression": "put it towards…",
+      "usageVi": "Dùng tiền để góp vào việc gì đó — cách nói tự nhiên của người bản xứ."
+    },
+    {
+      "expression": "given the rising cost of living",
+      "usageVi": "'given' = xét đến; liên hệ với bối cảnh thực tế ở Canada."
+    },
+    {
+      "expression": "That said, I recognize that…",
+      "usageVi": "Nhượng bộ ở cấp độ cao, thay cho 'But I know that…'."
+    },
+    {
+      "expression": "at a fraction of the cost",
+      "usageVi": "Với chi phí thấp hơn nhiều — cụm hữu ích khi đề xuất phương án tiết kiệm."
+    }
+  ],
+  "commonMistakes": [
+    "Lý do mang tính cá nhân quá mức ('I don't like my coworkers'). Ở W2, hãy lập luận từ góc độ lợi ích chung và sự công bằng.",
+    "Viết 'gift card' không có mạo từ hoặc số nhiều ('I prefer gift card') → 'I prefer gift cards' / 'a gift card'.",
+    "Dùng 'Moreover', 'Furthermore' ở đầu mọi đoạn. Đa dạng từ nối: 'In addition', 'on the other hand', 'That said', 'Overall'.",
+    "Đề xuất phương án thứ ba thay cho việc chọn A hoặc B. Có thể gợi ý thêm một ý nhỏ (như bữa trưa), nhưng lựa chọn chính vẫn phải là A hoặc B."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked clear choice of B, reasons, concession with a small side-suggestion (does not replace the choice), word count (198), notes. No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "s5-mock-01",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "housing",
+  "title": "Choosing an apartment to share",
+  "prompt": "You and your brother are going to rent a place together in Metro Vancouver. Decide which home you would prefer, and then persuade your brother, who has his eye on the other one, to agree with your decision.",
+  "svg": null,
+  "options": [
+    {
+      "title": "Two-bedroom apartment in Richmond",
+      "details": [
+        "$2,850 CAD per month, utilities included",
+        "5-minute walk to a Canada Line SkyTrain station",
+        "Fourth floor with a small balcony",
+        "Shared laundry room in the building; built in 1985"
+      ]
+    },
+    {
+      "title": "Two-bedroom townhouse in Langley",
+      "details": [
+        "$2,600 CAD per month, utilities extra (about $180)",
+        "Private backyard and one parking spot",
+        "In-suite washer and dryer",
+        "Nearest bus stop is a 15-minute walk"
+      ]
+    }
+  ],
+  "structure": [
+    "Choose the Richmond apartment and recognise what your brother likes about the townhouse.",
+    "Show that the real cost difference is small (utilities, car costs).",
+    "Main argument: transit and commuting time, with a concrete example.",
+    "Respond to the laundry/backyard point and finish with a confident request."
+  ],
+  "modelAnswer": "Minh, I know the townhouse looks great, especially the backyard and the in-suite laundry, but I really think we should go with the apartment in Richmond. First, the price gap isn't as big as it looks. The townhouse is $250 cheaper, but utilities are extra, about $180 a month, so we'd only save around seventy dollars. And the biggest issue is location. The apartment is a five-minute walk from the SkyTrain, so we can both get downtown in about half an hour without a car. From the townhouse, the closest bus stop is fifteen minutes away, which means one of us would basically need a car, and with insurance, gas and parking, that'll cost way more than seventy dollars. Sure, sharing a laundry room is a bit annoying, but it's just once a week. And we'll still have a balcony for our plants and a barbecue. So honestly, the apartment saves us time, money and stress. Let's call the landlord today before someone else takes it.",
+  "usefulExpressions": [
+    {
+      "expression": "I really think we should go with…",
+      "usageVi": "Mình thật sự nghĩ chúng ta nên chọn… — nêu lựa chọn rõ ràng"
+    },
+    {
+      "expression": "The price gap isn't as big as it looks",
+      "usageVi": "Chênh lệch giá không lớn như vẻ ngoài — phản bác lập luận về giá"
+    },
+    {
+      "expression": "…which means one of us would basically need…",
+      "usageVi": "Điều đó có nghĩa là… — chỉ ra hậu quả của phương án kia"
+    },
+    {
+      "expression": "Sure, …, but…",
+      "usageVi": "Đúng là…, nhưng… — nhượng bộ một điểm rồi giảm nhẹ nó"
+    },
+    {
+      "expression": "So honestly, … saves us time, money and stress",
+      "usageVi": "Tóm tắt lợi ích bằng bộ ba (rule of three) trước khi kết"
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ so sánh giá thuê mà quên các chi phí ẩn (utilities, xe hơi); người chấm đánh giá cao lập luận có tính toán.",
+    "Dùng 'cheap' cho căn hộ đắt hơn hoặc nói 'more cheaper'; đúng là 'cheaper' / 'less expensive'.",
+    "Kết thúc lửng lơ; nên có câu kêu gọi hành động (Let's call the landlord today)."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rendered and inspected the picture/cards; checked the model answer against the drawing, length (60 s), task fulfilment, expressions and mistakes. Changes: Raised rents to 2026 Metro Vancouver levels ($2,850 / $2,600), keeping the $250 gap the answer relies on."
+  },
+  "createdAt": "2026-10-26"
+}

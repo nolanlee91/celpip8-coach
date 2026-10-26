@@ -1,0 +1,205 @@
+{
+  "id": "r1-mock-01",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "community-services",
+  "title": "Welcome to the library's conversation circles",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. BC Criminal Records Review Program checks are free for volunteers, so 'The library covers the fee' was replaced with 'Checks for volunteers are free' (evidence quotes unchanged); Q1 and Q10 whyVi updated. All blanks verified (Nov 18 evening orientation, circles start January)." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from the volunteer coordinator",
+      "kind": "text",
+      "text": "Dear Tariq,\n\nI'm delighted to let you know that your application to volunteer with our English Conversation Circles has been accepted. Your interview made a strong impression on the panel, particularly your story about helping your new neighbours fill out their tenancy paperwork.\n\nBefore you're matched with a group, there are a few steps to complete. First, every new volunteer attends an orientation session. The next two are on Saturday, November 7, from 10 a.m. to 1 p.m., and Wednesday, November 18, from 6 to 9 p.m., both in the Cedar Room on the second floor. Please let me know which one suits you. Second, because some of our circles include participants under 19, we need a criminal record check. You can apply online through the provincial portal. Checks for volunteers are free, so ignore any request for payment and enter the access code I've attached instead. Please be aware that results can take up to three weeks, and you won't be able to start until we've received them.\n\nAs for the schedule, circles run on Tuesday and Thursday evenings from 6:30 to 8:00. We ask volunteers to commit to one evening a week for at least one full term, which runs from January to April. We understand that life happens, but if you need to miss a session, please give us at least 48 hours' notice so I can arrange a replacement. Volunteers who miss three sessions without notice are usually asked to step back from the program.\n\nFinally, a word on what the role is and isn't. You'll be guiding conversation, not teaching grammar lessons, so there's no need to prepare materials; our lead facilitator, Mr. Abara, provides a theme each week. Many volunteers worry that they need teaching experience. You don't. What matters most is patience and a genuine interest in people.\n\nWelcome aboard!\n\nRosalind Achterberg\nVolunteer Coordinator, Harbourview Branch\nNorth Shore Regional Library",
+      "table": null
+    },
+    {
+      "label": "Reply from the volunteer",
+      "kind": "text",
+      "text": "Dear Rosalind,\n\nThank you so much for your kind email. I'm thrilled to be joining the program. Unfortunately, I work Saturdays until mid-December, so I'll [[7]] if there is still space. Please put my name down whenever you get a chance.\n\nI submitted my record check application this morning and [[8]], as you instructed. Since the results may take a few weeks, I hope they'll arrive well before [[9]].\n\nRegarding the schedule, Thursday evenings would work best for me, and I'm happy to [[10]]. I have to admit I was relieved to read that volunteers [[11]], since I've never taught a class in my life. What I do have is plenty of patience, and I genuinely enjoy meeting people from different backgrounds.\n\nThank you again. If you need anything else from me before the orientation, just let me know. I'm looking forward to meeting everyone.\n\nBest regards,\nTariq Haddad",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the main purpose of Rosalind's email?",
+      "options": [
+        { "text": "To invite Tariq to an interview for a volunteer role", "trap": "opposite", "whyVi": "Buổi phỏng vấn đã diễn ra rồi ('Your interview made a strong impression')." },
+        { "text": "To ask Tariq to lead a weekly grammar class", "trap": "opposite", "whyVi": "Thư nói rõ 'not teaching grammar lessons'." },
+        { "text": "To request payment for a background check", "trap": "opposite", "whyVi": "Kiểm tra lý lịch cho tình nguyện viên miễn phí ('Checks for volunteers are free')." },
+        { "text": "To confirm Tariq's acceptance and explain the next steps", "trap": "none", "whyVi": "Đúng: báo đơn được chấp nhận, rồi nêu các bước: định hướng, kiểm tra lý lịch, lịch, vai trò." }
+      ],
+      "answerIndex": 3,
+      "category": "main_idea",
+      "evidence": "your application to volunteer with our English Conversation Circles has been accepted",
+      "explanationVi": "Câu đầu báo tin chấp nhận; phần còn lại mở đầu bằng 'there are a few steps to complete'. 'accepted' = 'confirm acceptance', 'steps to complete' = 'next steps'.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "Why does Rosalind mention Tariq's neighbours?",
+      "options": [
+        { "text": "They will be joining one of the circles.", "trap": "not_mentioned", "whyVi": "Không có thông tin hàng xóm sẽ tham gia lớp." },
+        { "text": "It was part of his interview that impressed the selectors.", "trap": "none", "whyVi": "Đúng: câu chuyện giúp hàng xóm là điều gây ấn tượng với hội đồng phỏng vấn." },
+        { "text": "She wants him to help them with their paperwork again.", "trap": "word_match", "whyVi": "Có từ 'paperwork' nhưng đó là việc Tariq đã làm trước đây, không phải yêu cầu của Rosalind." },
+        { "text": "They recommended him for the volunteer position.", "trap": "not_mentioned", "whyVi": "Bài không nói hàng xóm giới thiệu Tariq." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Your interview made a strong impression on the panel, particularly your story about helping your new neighbours fill out their tenancy paperwork.",
+      "explanationVi": "'particularly' (đặc biệt là) nối câu chuyện về hàng xóm với 'made a strong impression on the panel'. 'panel' = 'the selectors'.",
+      "vocabulary": ["make an impression"]
+    },
+    {
+      "number": 3,
+      "prompt": "What should Tariq do if the record check website asks him to pay?",
+      "options": [
+        { "text": "Use the code Rosalind sent rather than paying", "trap": "none", "whyVi": "Đúng: 'ignore any request for payment and enter the access code I've attached instead'." },
+        { "text": "Pay the fee and keep the receipt for the library", "trap": "opposite", "whyVi": "Thư bảo bỏ qua yêu cầu thanh toán." },
+        { "text": "Bring the payment to his orientation session", "trap": "not_mentioned", "whyVi": "Không có hướng dẫn mang tiền đến buổi định hướng." },
+        { "text": "Contact the province to ask for a refund", "trap": "not_mentioned", "whyVi": "Không cần hoàn tiền vì không phải trả." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "ignore any request for payment and enter the access code I've attached instead",
+      "explanationVi": "Tìm từ 'payment' trong đoạn 2. 'enter the access code I've attached instead' = 'use the code Rosalind sent rather than paying'.",
+      "vocabulary": ["criminal record check"]
+    },
+    {
+      "number": 4,
+      "prompt": "What could delay Tariq's first session with a group?",
+      "options": [
+        { "text": "The term only begins in April.", "trap": "wrong_detail", "whyVi": "Học kỳ chạy từ tháng 1 đến tháng 4, không bắt đầu vào tháng 4." },
+        { "text": "Mr. Abara has not yet chosen the weekly themes.", "trap": "word_match", "whyVi": "Mr. Abara và 'theme' có trong bài, nhưng không liên quan đến việc bắt đầu muộn." },
+        { "text": "The library may still be waiting for his check results.", "trap": "none", "whyVi": "Đúng: kết quả có thể mất tới ba tuần và 'you won't be able to start until we've received them'." },
+        { "text": "The Tuesday groups are already full.", "trap": "not_mentioned", "whyVi": "Bài không nói nhóm nào đã đủ người." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "you won't be able to start until we've received them",
+      "explanationVi": "Câu 'won't be able to start until...' chỉ điều kiện để bắt đầu. 'them' = 'results' của record check, có thể mất 'up to three weeks' → có thể làm chậm việc bắt đầu.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "What usually happens to volunteers who miss several sessions without warning?",
+      "options": [
+        { "text": "They must pay for a replacement volunteer.", "trap": "not_mentioned", "whyVi": "Không có khoản phạt tiền nào." },
+        { "text": "They are asked to leave the program.", "trap": "none", "whyVi": "Đúng: 'are usually asked to step back from the program'." },
+        { "text": "They are moved to a different evening.", "trap": "not_mentioned", "whyVi": "Không có thông tin chuyển buổi." },
+        { "text": "They must give 48 hours' notice in future.", "trap": "partially_true", "whyVi": "Báo trước 48 giờ là quy định chung cho mọi người, không phải hậu quả của việc vắng nhiều lần." }
+      ],
+      "answerIndex": 1,
+      "category": "vocabulary",
+      "evidence": "Volunteers who miss three sessions without notice are usually asked to step back from the program.",
+      "explanationVi": "'without notice' = 'without warning'; 'three sessions' = 'several'. Cụm 'step back from the program' (rút khỏi chương trình) = 'leave the program'.",
+      "vocabulary": ["step back from"]
+    },
+    {
+      "number": 6,
+      "prompt": "What does Rosalind suggest about the volunteer role?",
+      "options": [
+        { "text": "Volunteers must plan the topic for each session.", "trap": "wrong_speaker", "whyVi": "Người đưa ra chủ đề mỗi tuần là Mr. Abara." },
+        { "text": "Volunteers mainly correct participants' grammar.", "trap": "opposite", "whyVi": "Vai trò là dẫn dắt trò chuyện, 'not teaching grammar lessons'." },
+        { "text": "Volunteers should attend both evenings every week.", "trap": "wrong_detail", "whyVi": "Chỉ cần cam kết 'one evening a week'." },
+        { "text": "Volunteers do not need a background in education.", "trap": "none", "whyVi": "Đúng: 'Many volunteers worry that they need teaching experience. You don't.'" }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Many volunteers worry that they need teaching experience. You don't.",
+      "explanationVi": "Đoạn cuối nói vai trò 'is and isn't'. 'You don't [need teaching experience]' = 'do not need a background in education'.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "attend the November 7 session", "trap": "opposite", "whyVi": "7/11 là thứ Bảy, mà Tariq làm việc thứ Bảy." },
+        { "text": "come to the Cedar Room on a Tuesday", "trap": "wrong_detail", "whyVi": "Không có buổi định hướng nào vào thứ Ba; thứ Ba là ngày của các nhóm trò chuyện." },
+        { "text": "join the evening orientation instead", "trap": "none", "whyVi": "Đúng: buổi còn lại là tối thứ Tư 18/11, từ 6 đến 9 giờ." },
+        { "text": "skip the orientation altogether", "trap": "opposite", "whyVi": "Mọi tình nguyện viên mới đều phải dự định hướng ('every new volunteer attends')." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Wednesday, November 18, from 6 to 9 p.m.",
+      "explanationVi": "Có hai buổi định hướng: thứ Bảy buổi sáng và thứ Tư buổi tối. Tariq bận thứ Bảy → chọn buổi tối thứ Tư. 'evening orientation' là cách nói lại '6 to 9 p.m.'.",
+      "vocabulary": ["orientation"]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "entered the code you provided", "trap": "none", "whyVi": "Đúng: Rosalind hướng dẫn 'enter the access code I've attached'." },
+        { "text": "paid the fee by credit card", "trap": "opposite", "whyVi": "Rosalind dặn bỏ qua yêu cầu thanh toán, nên trả phí không phải 'as you instructed'." },
+        { "text": "mailed a copy to the library", "trap": "not_mentioned", "whyVi": "Không có hướng dẫn gửi bản sao qua bưu điện." },
+        { "text": "booked a fingerprint appointment", "trap": "not_mentioned", "whyVi": "Thư không nhắc đến lấy dấu vân tay." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "enter the access code I've attached instead",
+      "explanationVi": "'as you instructed' (như chị đã hướng dẫn) → tìm hướng dẫn về record check trong thư gốc. 'the access code I've attached' = 'the code you provided'.",
+      "vocabulary": []
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "the end of April", "trap": "wrong_detail", "whyVi": "Tháng 4 là lúc học kỳ kết thúc; kết quả cần có trước khi bắt đầu." },
+        { "text": "the 48-hour deadline", "trap": "word_match", "whyVi": "48 giờ là thời hạn báo vắng, không liên quan đến kết quả kiểm tra lý lịch." },
+        { "text": "Mr. Abara chooses a theme", "trap": "word_match", "whyVi": "Chủ đề hằng tuần không phụ thuộc vào kết quả kiểm tra lý lịch của Tariq." },
+        { "text": "the circles start in January", "trap": "none", "whyVi": "Đúng: Tariq không thể bắt đầu nếu chưa có kết quả, và học kỳ bắt đầu từ tháng 1." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "at least one full term, which runs from January to April",
+      "explanationVi": "Tariq lo kết quả đến muộn vì 'you won't be able to start until we've received them'. Thời điểm anh bắt đầu là đầu học kỳ — tháng 1.",
+      "vocabulary": []
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "lead a grammar lesson each week", "trap": "opposite", "whyVi": "Vai trò không phải dạy ngữ pháp." },
+        { "text": "stay for the whole January-to-April term", "trap": "none", "whyVi": "Đúng: đáp ứng yêu cầu 'commit to one evening a week for at least one full term'." },
+        { "text": "pay for my own record check", "trap": "opposite", "whyVi": "Kiểm tra cho tình nguyện viên miễn phí, và Tariq vừa dùng mã truy cập." },
+        { "text": "begin volunteering in April", "trap": "wrong_detail", "whyVi": "Học kỳ bắt đầu tháng 1; tháng 4 là lúc kết thúc." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "We ask volunteers to commit to one evening a week for at least one full term",
+      "explanationVi": "Đoạn này trong thư trả lời nói về lịch → tương ứng với yêu cầu về lịch trong thư gốc: một buổi tối/tuần (Tariq chọn thứ Năm) trong cả học kỳ. 'commit to ... one full term' = 'stay for the whole ... term'.",
+      "vocabulary": ["commit to"]
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "don't need any teaching background", "trap": "none", "whyVi": "Đúng: khớp với 'Many volunteers worry that they need teaching experience. You don't.' và 'I've never taught a class'." },
+        { "text": "must prepare their own materials", "trap": "opposite", "whyVi": "Thư nói 'there's no need to prepare materials'; điều này cũng không làm Tariq 'relieved'." },
+        { "text": "lead grammar lessons each week", "trap": "opposite", "whyVi": "Ngược với 'not teaching grammar lessons', và người chưa từng dạy sẽ không thấy nhẹ nhõm." },
+        { "text": "can skip the orientation session", "trap": "not_mentioned", "whyVi": "Không ai được bỏ buổi định hướng, và điều này không liên quan đến việc chưa từng dạy học." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Many volunteers worry that they need teaching experience. You don't.",
+      "explanationVi": "'relieved' (nhẹ nhõm) + 'since I've never taught a class' → chỗ trống phải là tin tốt cho người chưa có kinh nghiệm dạy. 'teaching experience' = 'teaching background'.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "make an impression", "vi": "gây ấn tượng", "definition": "to cause people to notice and remember you, usually in a good way", "example": "Her volunteer experience made a strong impression on the panel." },
+    { "term": "orientation", "vi": "buổi định hướng, giới thiệu ban đầu", "definition": "a session that introduces new people to an organization and its rules", "example": "All new volunteers must attend an orientation." },
+    { "term": "criminal record check", "vi": "kiểm tra lý lịch tư pháp", "definition": "an official search to see if a person has a criminal record", "example": "Anyone working with children needs a criminal record check." },
+    { "term": "commit to", "vi": "cam kết (làm gì trong một thời gian)", "definition": "to promise to give your time or effort to something", "example": "Volunteers commit to one evening a week." },
+    { "term": "step back from", "vi": "rút lui khỏi, thôi tham gia", "definition": "to stop being involved in an activity or role", "example": "He decided to step back from coaching for a year." },
+    { "term": "facilitator", "vi": "người điều phối, dẫn dắt (buổi thảo luận)", "definition": "a person who guides a group discussion or activity", "example": "The facilitator gives the group a new theme each week." },
+    { "term": "give notice", "vi": "báo trước", "definition": "to tell someone in advance that something will happen", "example": "Please give 48 hours' notice if you can't come." },
+    { "term": "welcome aboard", "vi": "chào mừng gia nhập", "definition": "a friendly way to welcome a new member of a team", "example": "Welcome aboard! We're glad to have you on the team." }
+  ]
+}

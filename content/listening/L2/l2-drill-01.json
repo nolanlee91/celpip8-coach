@@ -1,0 +1,104 @@
+{
+  "id": "l2-drill-01",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "drill",
+  "difficulty": 6,
+  "topic": "social",
+  "title": "Speaker attitude drill: Planning a farewell potluck",
+  "context": "You will hear two friends from work talking about a farewell potluck for a coworker who is moving away.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Ana", "voice": "female_a", "text": "Ben! Okay, I've got an idea. Jun's last day is the twentieth, right? Let's do a potluck for her. Something small, just the old team." },
+        { "speaker": "Ben", "voice": "male_a", "text": "A potluck. Hmm. You mean, like, at someone's place?" },
+        { "speaker": "Ana", "voice": "female_a", "text": "Well, I was kind of hoping yours. You've got that big balcony." },
+        { "speaker": "Ben", "voice": "male_a", "text": "Big is generous. And, I mean, I'm not saying no, but you remember the last one, right? Twelve people, and nine of them brought chips." },
+        { "speaker": "Ana", "voice": "female_a", "text": "Ha, okay, that was bad. But this time I'll make a sign-up sheet. Mains, salads, desserts. Nobody gets to pick chips." },
+        { "speaker": "Ben", "voice": "male_a", "text": "A sign-up sheet. Okay, that's actually not a terrible idea." },
+        { "speaker": "Ana", "voice": "female_a", "text": "See? And I'll come over early to help set up, and I'll stay to clean." },
+        { "speaker": "Ben", "voice": "male_a", "text": "You say that every time, Ana." },
+        { "speaker": "Ana", "voice": "female_a", "text": "And this time I mean it! Come on, it's Jun. She covered your shifts for, like, two weeks when your dad was in the hospital." },
+        { "speaker": "Ben", "voice": "male_a", "text": "Yeah, I know. I know. She did. Okay, fine. But Saturday afternoon, not evening. My building's strict about noise after ten, and I don't want another warning from strata." },
+        { "speaker": "Ana", "voice": "female_a", "text": "Afternoon works. Three o'clock?" },
+        { "speaker": "Ben", "voice": "male_a", "text": "Three's fine. And I'm making my mom's spring rolls, so nobody else bring spring rolls." },
+        { "speaker": "Ana", "voice": "female_a", "text": "Deal. I'll send the sheet out tonight." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How does Ben first respond to the idea of hosting the potluck?",
+          "options": [
+            { "text": "He is excited and offers his balcony right away.", "trap": "opposite", "whyVi": "Chính Ana đề nghị dùng ban công; Ben còn đùa 'Big is generous'." },
+            { "text": "He refuses because his apartment is too small.", "trap": "partially_true", "whyVi": "Ben có đùa là ban công không lớn ('Big is generous'), nhưng anh nói 'I'm not saying no' – anh không từ chối." },
+            { "text": "He is hesitant, though he doesn't reject it outright.", "trap": "none", "whyVi": "Đúng: 'I'm not saying no, but...' – ngần ngại nhưng chưa từ chối." },
+            { "text": "He is angry that Ana didn't ask him earlier.", "trap": "not_mentioned", "whyVi": "Ben không tỏ ra giận dữ." }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "I'm not saying no, but you remember the last one, right?",
+          "explanationVi": "Cấu trúc 'I'm not saying no, but...' thể hiện sự miễn cưỡng nhưng còn để ngỏ. 'Not rejecting it outright' = 'not saying no'.",
+          "vocabulary": ["not saying no, but"]
+        },
+        {
+          "number": 2,
+          "prompt": "What is Ben's opinion of the sign-up sheet?",
+          "options": [
+            { "text": "He admits, a little reluctantly, that it is a good idea.", "trap": "none", "whyVi": "Đúng: 'that's actually not a terrible idea' – cách khen gián tiếp, miễn cưỡng." },
+            { "text": "He thinks it is a terrible idea.", "trap": "word_match", "whyVi": "Có từ 'terrible' nhưng Ben nói 'NOT a terrible idea' – nghĩa là ý hay." },
+            { "text": "He thinks people will still bring chips.", "trap": "opposite", "whyVi": "Ana nói danh sách sẽ ngăn việc mang khoai tây chiên; Ben không phản bác." },
+            { "text": "He wants to make the list himself.", "trap": "wrong_speaker", "whyVi": "Ana là người sẽ làm và gửi danh sách." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "Okay, that's actually not a terrible idea.",
+          "explanationVi": "'Not a terrible idea' là cách nói giảm (understatement) = khá hay. Từ 'actually' cho thấy anh hơi bất ngờ khi đồng ý.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "What does Ben mean when he says, \"You say that every time\"?",
+          "options": [
+            { "text": "He is thankful that Ana always helps him.", "trap": "opposite", "whyVi": "Câu này mang ý nghi ngờ, không phải cảm ơn." },
+            { "text": "He doubts that Ana will really stay to clean up.", "trap": "none", "whyVi": "Đúng: Ana hứa ở lại dọn dẹp, và Ben ngụ ý lần nào cô cũng hứa vậy mà không làm." },
+            { "text": "He wants Ana to arrive earlier than usual.", "trap": "word_match", "whyVi": "Ana nói 'come over early' nhưng Ben không yêu cầu đến sớm hơn." },
+            { "text": "He is tired of Ana planning parties.", "trap": "too_broad", "whyVi": "Ben chỉ nghi ngờ lời hứa dọn dẹp, không phải chán chuyện tổ chức tiệc." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "You say that every time, Ana.",
+          "explanationVi": "Câu trả lời của Ana 'And this time I mean it!' xác nhận Ben đang nghi ngờ lời hứa của cô. Cần hiểu ý ngầm, không hiểu theo nghĩa đen.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "What finally persuades Ben to host?",
+          "options": [
+            { "text": "Ana's promise to help him clean.", "trap": "partially_true", "whyVi": "Ben vẫn còn nghi ngờ sau lời hứa này; anh chỉ đồng ý sau khi nghe nhắc tới Jun." },
+            { "text": "Being reminded that Jun supported him during a difficult time.", "trap": "none", "whyVi": "Đúng: Jun đã làm thay ca cho anh khi bố anh nằm viện; ngay sau đó Ben nói 'Okay, fine'." },
+            { "text": "Learning that the strata has changed its noise rules.", "trap": "wrong_detail", "whyVi": "Quy định tiếng ồn không đổi; đó là lý do anh muốn tổ chức buổi chiều." },
+            { "text": "Being allowed to make his mother's spring rolls.", "trap": "word_match", "whyVi": "Chả giò được nhắc sau khi Ben đã đồng ý." }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "She covered your shifts for, like, two weeks when your dad was in the hospital.",
+          "explanationVi": "Ben đáp 'Yeah, I know. I know. She did. Okay, fine.' ngay sau câu này. 'Covered your shifts when your dad was in the hospital' = 'supported him during a difficult time'.",
+          "vocabulary": ["cover a shift"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "potluck", "vi": "tiệc mỗi người mang một món", "definition": "a meal where each guest brings a dish to share", "example": "Let's have a potluck for Jun's last day." },
+    { "term": "sign-up sheet", "vi": "danh sách đăng ký", "definition": "a list where people write their names to choose a task or item", "example": "I'll make a sign-up sheet so nobody brings chips." },
+    { "term": "cover a shift", "vi": "làm thay ca", "definition": "to work in place of a coworker", "example": "She covered my shifts when my dad was sick." },
+    { "term": "not saying no, but", "vi": "không phải từ chối, nhưng...", "definition": "a phrase used to show doubt without refusing", "example": "I'm not saying no, but my place is tiny." },
+    { "term": "generous", "vi": "nói quá lên, hào phóng (khi khen)", "definition": "here, describing something more kindly than it deserves", "example": "Calling my balcony big is generous." },
+    { "term": "deal", "vi": "đồng ý / chốt nhé", "definition": "an informal way to say you agree to an arrangement", "example": "Three o'clock? Deal." }
+  ],
+  "estimatedMinutes": 4,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 4 Qs; key matched. 3/4 speaker_attitude (meets drill target). Changed: Q1 option B trap tag too_broad -> partially_true with whyVi explaining the 'Big is generous' hint." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

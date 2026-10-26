@@ -1,0 +1,141 @@
+{
+  "id": "l3-mock-01",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "environment",
+  "title": "Questions at the recycling depot",
+  "context": "You will hear a resident asking a staff member at a recycling depot in North Vancouver about what she can bring.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Priya", "voice": "female_a", "text": "Hi, sorry, is this the right place to ask questions? It's my first time here, and I've got, well, a whole garage to clear out." },
+        { "speaker": "Owen", "voice": "male_b", "text": "You're in the right spot. What are you bringing?" },
+        { "speaker": "Priya", "voice": "female_a", "text": "Okay, so, an old laptop and a printer, a few cans of leftover paint, a bunch of styrofoam from a new TV, and, um, a mattress. Oh, and probably twenty bags of cans and bottles." },
+        { "speaker": "Owen", "voice": "male_b", "text": "That's quite the list. Let's go through it. The laptop and printer are easy, electronics are free. Just wipe your personal data off the laptop first. We don't do that for you." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Right, I'll do a factory reset. And the paint?" },
+        { "speaker": "Owen", "voice": "male_b", "text": "Paint's free too, as long as it's in the original can with the label on it. If you poured it into a jar or something, we can't take it." },
+        { "speaker": "Owen", "voice": "male_b", "text": "And no pesticides or pool chemicals. Those go to the hazardous waste day the district runs twice a year." },
+        { "speaker": "Priya", "voice": "female_a", "text": "No, it's all in the original cans. What about the styrofoam?" },
+        { "speaker": "Owen", "voice": "male_b", "text": "We take it here, but only the white, clean packaging foam. Pull off any tape or stickers. If it's the coloured stuff, or those foam peanuts, that's garbage, unfortunately." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Okay. And the mattress?" },
+        { "speaker": "Owen", "voice": "male_b", "text": "Mattresses are twenty-five dollars each, and they have to be dry. If it's been sitting outside in the rain, we'll turn it away." },
+        { "speaker": "Owen", "voice": "male_b", "text": "You pay at the scale house when you drive in, and it's card only, no cash." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Card only, got it. And the bottles, do I get the deposit back in cash?" },
+        { "speaker": "Owen", "voice": "male_b", "text": "Up to fifty dollars, yes. Anything over that, we send you an e-transfer within two business days. Honestly, with twenty bags, you're probably over fifty." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Probably. When's the best time to come? I work weekdays." },
+        { "speaker": "Owen", "voice": "male_b", "text": "We're open Tuesday to Saturday, nine to five. Saturday mornings are packed, though. If you can, come after two on Saturday. It's way quieter." },
+        { "speaker": "Owen", "voice": "male_b", "text": "Just keep in mind large items like mattresses have to be dropped off by four-thirty." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Saturday after two, mattress before four-thirty. Okay. Do I need to book anything?" },
+        { "speaker": "Owen", "voice": "male_b", "text": "No booking needed. Just don't come on a Sunday or Monday. We're closed both days." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What must Priya do with her laptop before she brings it in?",
+          "options": [
+            { "text": "Pay a small electronics fee.", "trap": "opposite", "whyVi": "Đồ điện tử được nhận miễn phí." },
+            { "text": "Remove her personal information from it.", "trap": "none", "whyVi": "Đúng: 'wipe your personal data off the laptop first'." },
+            { "text": "Ask the staff to erase the hard drive.", "trap": "opposite", "whyVi": "Owen nói rõ 'We don't do that for you'." },
+            { "text": "Bring it in its original box.", "trap": "word_match", "whyVi": "'Original' được nói về lon sơn, không phải laptop." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "Just wipe your personal data off the laptop first.",
+          "explanationVi": "'Wipe your personal data off' = xóa thông tin cá nhân. Đáp án B dùng 'remove... personal information'.",
+          "vocabulary": ["wipe"]
+        },
+        {
+          "number": 2,
+          "prompt": "Under what condition will the depot accept paint?",
+          "options": [
+            { "text": "If it has been sealed in a clean glass jar.", "trap": "opposite", "whyVi": "Sơn đã đổ sang lọ khác thì KHÔNG được nhận." },
+            { "text": "Only on the district's hazardous waste day.", "trap": "wrong_detail", "whyVi": "Ngày rác nguy hại dành cho thuốc trừ sâu và hóa chất hồ bơi, không phải sơn." },
+            { "text": "If it is still in its labelled original container.", "trap": "none", "whyVi": "Đúng: 'in the original can with the label on it'." },
+            { "text": "If Priya pays a disposal fee at the scale house.", "trap": "word_match", "whyVi": "Trả phí ở trạm cân áp dụng cho nệm; sơn được nhận miễn phí." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "as long as it's in the original can with the label on it",
+          "explanationVi": "'As long as' báo hiệu điều kiện. 'Original can with the label' = 'labelled original container'.",
+          "vocabulary": ["hazardous waste"]
+        },
+        {
+          "number": 3,
+          "prompt": "Which kind of foam can Priya drop off?",
+          "options": [
+            { "text": "Clean white packing foam with the tape removed.", "trap": "none", "whyVi": "Đúng: chỉ nhận xốp trắng, sạch, đã gỡ băng keo và nhãn." },
+            { "text": "Any foam that came with electronics.", "trap": "too_broad", "whyVi": "Không phải mọi loại xốp; xốp màu và xốp hạt bị loại." },
+            { "text": "Coloured foam, if it is clean.", "trap": "wrong_detail", "whyVi": "Xốp màu là rác thường, không được nhận." },
+            { "text": "Foam peanuts in a sealed bag.", "trap": "wrong_detail", "whyVi": "'Foam peanuts' cũng là rác thường." }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "only the white, clean packaging foam. Pull off any tape or stickers.",
+          "explanationVi": "Từ 'only' giới hạn loại xốp: trắng, sạch, xốp đóng gói, gỡ băng keo. Xốp màu và 'foam peanuts' là rác.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "How will Priya pay for dropping off the mattress?",
+          "options": [
+            { "text": "In cash when she leaves the depot.", "trap": "opposite", "whyVi": "Không nhận tiền mặt và trả khi vào, không phải khi ra." },
+            { "text": "By e-transfer within two business days.", "trap": "word_match", "whyVi": "E-transfer là cách depot trả tiền cọc chai lọ cho cô, không phải cách cô trả phí." },
+            { "text": "Online when she books a time slot.", "trap": "opposite", "whyVi": "Không cần đặt lịch ('No booking needed')." },
+            { "text": "With a card at the entrance when she arrives.", "trap": "none", "whyVi": "Đúng: trả ở trạm cân khi lái xe vào, chỉ nhận thẻ." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "You pay at the scale house when you drive in, and it's card only, no cash.",
+          "explanationVi": "'Scale house when you drive in' = lối vào khi vừa đến; 'card only' = trả bằng thẻ. Đáp án D kết hợp hai ý.",
+          "vocabulary": ["scale house"]
+        },
+        {
+          "number": 5,
+          "prompt": "How will Priya most likely receive her bottle deposit refund?",
+          "options": [
+            { "text": "Entirely in cash at the counter.", "trap": "partially_true", "whyVi": "Chỉ trả tiền mặt tối đa 50 đô; với 20 túi, cô có thể vượt mức đó." },
+            { "text": "Partly by e-transfer, since the total will probably exceed the cash limit.", "trap": "none", "whyVi": "Đúng: trên 50 đô thì chuyển khoản, và Owen nói 20 túi 'probably over fifty'." },
+            { "text": "As a credit toward the mattress fee.", "trap": "not_mentioned", "whyVi": "Không có việc trừ tiền cọc vào phí nệm." },
+            { "text": "By cheque in the mail within two weeks.", "trap": "wrong_detail", "whyVi": "Tiền chuyển qua e-transfer trong 2 ngày làm việc, không phải séc trong 2 tuần." }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "Anything over that, we send you an e-transfer within two business days. Honestly, with twenty bags, you're probably over fifty.",
+          "explanationVi": "Phải ghép hai ý: tiền mặt tối đa 50 đô, phần vượt chuyển e-transfer; và 20 túi có lẽ vượt 50 đô. Suy ra một phần sẽ qua e-transfer.",
+          "vocabulary": ["deposit refund"]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Owen recommend about the timing of Priya's visit?",
+          "options": [
+            { "text": "Arrive early on Saturday morning before it gets busy.", "trap": "opposite", "whyVi": "Owen nói sáng thứ Bảy rất đông ('packed')." },
+            { "text": "Come on Saturday afternoon, when it's less crowded.", "trap": "none", "whyVi": "Đúng: 'come after two on Saturday. It's way quieter'." },
+            { "text": "Come on Monday, when there are no lineups.", "trap": "wrong_detail", "whyVi": "Depot đóng cửa thứ Hai và Chủ nhật." },
+            { "text": "Book a weekday appointment in advance.", "trap": "opposite", "whyVi": "Không cần đặt lịch, và Priya làm việc các ngày trong tuần." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "If you can, come after two on Saturday. It's way quieter.",
+          "explanationVi": "'After two on Saturday' = chiều thứ Bảy; 'way quieter' = ít người hơn. Đáp án B diễn đạt lại.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "clear out", "vi": "dọn sạch (đồ cũ)", "definition": "to remove unwanted things from a place", "example": "I've got a whole garage to clear out." },
+    { "term": "wipe", "vi": "xóa sạch (dữ liệu)", "definition": "to completely delete information from a device", "example": "Wipe your personal data off the laptop first." },
+    { "term": "hazardous waste", "vi": "chất thải nguy hại", "definition": "waste that is dangerous to people or the environment, such as chemicals", "example": "Pesticides go to the hazardous waste day." },
+    { "term": "turn away", "vi": "từ chối không nhận", "definition": "to refuse to accept someone or something", "example": "If the mattress is wet, we'll turn it away." },
+    { "term": "scale house", "vi": "trạm cân (ở lối vào bãi rác/depot)", "definition": "the booth at a depot entrance where loads are weighed and fees are paid", "example": "You pay at the scale house when you drive in." },
+    { "term": "deposit refund", "vi": "tiền hoàn cọc (chai lon)", "definition": "money returned when you bring back bottles or cans you paid a deposit on", "example": "Twenty bags of bottles should get a good deposit refund." },
+    { "term": "packed", "vi": "rất đông", "definition": "very crowded", "example": "Saturday mornings are packed." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; key matched. Q5 (cash up to $50, rest by e-transfer, 20 bags probably over $50) verified as single defensible inference. Changed: foam rule framed as this depot's policy ('We take it here') since BC-wide foam acceptance rules differ by depot. Other depot rules are presented as site-specific." },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

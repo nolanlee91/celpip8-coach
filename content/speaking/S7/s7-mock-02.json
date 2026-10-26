@@ -1,0 +1,59 @@
+{
+  "id": "s7-mock-02",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "housing",
+  "title": "Allowing laneway houses in every neighbourhood",
+  "prompt": "Some cities are changing their rules so that homeowners in all residential neighbourhoods can build a small second home, such as a laneway house, on their property.\n\nDo you think this is a good idea? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Clear position + main reason in one sentence",
+    "Reason 1: more homes without changing the neighbourhood much",
+    "Reason 2: benefits for families (personal/community example)",
+    "Reason 3 + address a common concern",
+    "Conclusion: benefits outweigh drawbacks"
+  ],
+  "modelAnswer": "Yes, I think it's a good idea to allow laneway houses in all residential neighbourhoods, mainly because of the housing shortage we're facing.\n\nFirst and foremost, it creates more homes without changing the character of a neighbourhood too much. Instead of building huge towers, you're just adding a small house behind an existing one. There are a few laneway homes on my street already, and honestly, most people don't even notice them.\n\nSecondly, it helps families. A lot of immigrant families, including many of my Vietnamese friends, want their parents to live close by but still have some privacy. A laneway house is perfect for that. It can also be a home for adult children who can't afford rent on their own.\n\nAnother benefit is extra income for homeowners. Renting out a laneway house can help people pay their mortgage, which is a big deal with today's interest rates.\n\nNow, some people worry about parking and crowded streets, and I think that's a fair concern. But cities can deal with that through design rules, like limiting the size of the house or requiring a parking space.\n\nSo, all things considered, I believe allowing laneway houses is a practical way to add housing, and the benefits clearly outweigh the drawbacks.",
+  "usefulExpressions": [
+    {
+      "expression": "mainly because of…",
+      "usageVi": "Nêu lý do tổng quát ngay trong câu mở đầu."
+    },
+    {
+      "expression": "First and foremost, …",
+      "usageVi": "Mở đầu lý do quan trọng nhất, mạnh hơn 'First'."
+    },
+    {
+      "expression": "which is a big deal with…",
+      "usageVi": "'a big deal' = điều quan trọng; cách nói tự nhiên trong văn nói."
+    },
+    {
+      "expression": "I think that's a fair concern. But…",
+      "usageVi": "Công nhận lo ngại hợp lý của người khác trước khi phản bác."
+    },
+    {
+      "expression": "all things considered",
+      "usageVi": "Cân nhắc mọi mặt — mở đầu kết luận ở mức điểm cao."
+    },
+    {
+      "expression": "the benefits clearly outweigh the drawbacks",
+      "usageVi": "Câu kết kinh điển cho bài nêu quan điểm; 'outweigh' = lớn hơn, quan trọng hơn."
+    }
+  ],
+  "commonMistakes": [
+    "Không biết từ 'laneway house' nên nói vòng vo hoặc dừng lại. Hãy dùng ngay từ trong đề; nếu cần, giải thích đơn giản: 'a small house in the backyard'.",
+    "Nói 'house price is very expensive' — 'price' không 'expensive'. Đúng: 'house prices are very high' hoặc 'houses are very expensive'.",
+    "Thiếu số nhiều/mạo từ: 'many immigrant family want parent live near' → 'many immigrant families want their parents to live nearby'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked prompt realism (BC now allows small-scale secondary homes broadly), clear position, concern addressed, length (~209). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

@@ -72,6 +72,107 @@ export function SegmentPlayer({
   );
 }
 
+export interface ChunkAudio { url: string | null; durationSec: number | null; segments: { start: number; end: number }[] | null }
+
+/**
+ * Plays one pre-generated audio file.
+ * exam = true: a single play, no controls, no pause/seek/speed (as in the real test).
+ */
+export function AudioChunkPlayer({ audio, exam, onFinished }: { audio: ChunkAudio; exam: boolean; onFinished: () => void }) {
+  const ref = useRef<HTMLAudioElement>(null);
+  const [state, setState] = useState<"idle" | "playing" | "done">("idle");
+  const [rate, setRate] = useState(1);
+  const [pos, setPos] = useState(0);
+  const finished = useRef(false);
+  const finish = () => { setState("done"); if (!finished.current) { finished.current = true; onFinished(); } };
+  useEffect(() => { if (ref.current) ref.current.playbackRate = rate; }, [rate]);
+  const dur = audio.durationSec ?? 1;
+
+  if (!audio.url) return <div className="error-box small">Thiếu file audio.</div>;
+  return (
+    <div className="player">
+      <audio
+        ref={ref}
+        src={audio.url}
+        preload="auto"
+        controls={!exam}
+        className={exam ? "hidden" : "audio"}
+        onPlay={() => setState("playing")}
+        onEnded={finish}
+        onTimeUpdate={(e) => setPos(e.currentTarget.currentTime)}
+        onSeeking={(e) => { if (exam && Math.abs(e.currentTarget.currentTime - pos) > 1) e.currentTarget.currentTime = pos; }}
+        onPause={(e) => { if (exam && !e.currentTarget.ended) void e.currentTarget.play(); }}
+      />
+      <div className="player-bar"><div style={{ width: `${Math.min(100, (pos / dur) * 100)}%` }} /></div>
+      <div className="row gap-s wrap">
+        {exam ? (
+          state === "idle"
+            ? <button className="btn primary" onClick={() => void ref.current?.play()}>▶ Phát (chỉ một lần)</button>
+            : <span className="muted small">{state === "playing" ? "🔊 Đang phát… (không thể tạm dừng trong chế độ thi)" : "Đã phát xong."}</span>
+        ) : (
+          <>
+            <select value={rate} onChange={(e) => setRate(Number(e.target.value))} title="Tốc độ">
+              {[0.75, 0.85, 1, 1.1, 1.25].map((r) => <option key={r} value={r}>{r}×</option>)}
+            </select>
+            {state !== "done" && <button className="btn ghost small" onClick={() => { ref.current?.pause(); finish(); }}>Bỏ qua tới câu hỏi</button>}
+          </>
+        )}
+        <span className="muted small">{Math.round(pos)}s / {Math.round(dur)}s</span>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Transcript with replay from the pre-generated audio. Offsets are exact when the audio was generated
+ * per segment, otherwise estimated from text length (marked ≈).
+ */
+export function AudioTranscript({ segments, audio, evidence }: { segments: ListeningSegment[]; audio: ChunkAudio; evidence: string[] }) {
+  const ref = useRef<HTMLAudioElement>(null);
+  const stopAt = useRef<number | null>(null);
+  const isEvidence = (s: string) => evidence.some((e) => e && (s.toLowerCase().includes(e.toLowerCase().slice(0, 30)) || e.toLowerCase().includes(s.toLowerCase().slice(0, 30))));
+  const dur = audio.durationSec ?? 0;
+  const total = segments.reduce((n, s) => n + s.text.length, 0) || 1;
+  let acc = 0;
+  const timed = segments.map((seg, i) => {
+    const segStart = audio.segments?.[i]?.start ?? (acc / total) * dur;
+    const segEnd = audio.segments?.[i]?.end ?? ((acc + seg.text.length) / total) * dur;
+    acc += seg.text.length;
+    const sents = splitSentences(seg.text);
+    const len = sents.reduce((n, s) => n + s.length, 0) || 1;
+    let a = 0;
+    return {
+      seg,
+      sents: sents.map((s) => {
+        const st = segStart + (a / len) * (segEnd - segStart);
+        a += s.length;
+        return { text: s, start: Math.max(0, st - 0.3), end: segStart + (a / len) * (segEnd - segStart) + 0.3 };
+      }),
+    };
+  });
+  const play = (start: number, end: number) => {
+    const el = ref.current;
+    if (!el) return;
+    el.currentTime = start;
+    stopAt.current = end;
+    void el.play();
+  };
+  return (
+    <div className="transcript">
+      <audio ref={ref} src={audio.url ?? undefined} controls className="audio" onTimeUpdate={(e) => { if (stopAt.current !== null && e.currentTarget.currentTime >= stopAt.current) { e.currentTarget.pause(); stopAt.current = null; } }} />
+      {timed.map(({ seg, sents }, i) => (
+        <div key={i} className="t-seg">
+          <span className="speaker">{seg.speaker}:</span>{" "}
+          {sents.map((s, j) => (
+            <span key={j} className={`t-sent ${isEvidence(s.text) ? "evidence" : ""}`} onClick={() => play(s.start, s.end)} title="Bấm để nghe lại câu này">{s.text}{" "}</span>
+          ))}
+        </div>
+      ))}
+      <p className="muted tiny">Bấm vào một câu để nghe lại {audio.segments ? "" : "(vị trí ≈ ước lượng theo độ dài câu)"}. Câu tô vàng là bằng chứng cho đáp án.</p>
+    </div>
+  );
+}
+
 /** Transcript with sentence-level replay, shown only after answering. */
 export function Transcript({ segments, evidence, preferredVoice }: { segments: ListeningSegment[]; evidence: string[]; preferredVoice?: string | null }) {
   const [rate, setRate] = useState(0.9);

@@ -1,0 +1,205 @@
+{
+  "id": "r1-full-02",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "A dispatch coordinator opening in Delta",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. Q6 key reworded from 'working hours might clash with Linh's studies' to 'schedule might be hard to combine with' (a 6-2:30 shift does not literally clash with evening classes; the letter only says it 'might not suit'). Explanation updated." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a former colleague",
+      "kind": "text",
+      "text": "Hi Linh,\n\nIt's been ages! I hope things are calmer at Fraserline than when I left. I still have nightmares about the week the scanners went down in the middle of the Boxing Day rush.\n\nAnyway, I'll admit I'm writing with a bit of an ulterior motive. We're hiring a dispatch coordinator at Tidewater, and when my manager described the kind of person she wants, your name was the first that came to mind. The role is basically the link between our drivers, the warehouse floor and the customer-service team: building the daily routes, rebooking deliveries when a truck breaks down, and keeping customers in the loop. You'd be working out of our Tilbury yard in Delta.\n\nI'll be upfront about the downsides. The shift is 6 a.m. to 2:30 p.m., Monday to Friday, plus one Saturday a month, and the first hour is usually chaos while the drivers are heading out. The routing software is also new to us, so whoever gets the job will be learning it alongside everyone else, and there will be some growing pains. On the plus side, the pay starts at around $27 an hour, which I suspect is a step up from what you're getting now, and the company covers the full cost of the Class 3 licence course if you ever want it. They also take promoting from within seriously. I was hired as a coordinator myself eighteen months ago.\n\nThe posting goes live on the company website on Monday, but the hiring manager, Deborah Kwan, has agreed to look at referrals this week before it's public. If you're interested, send me your résumé by Thursday and I'll pass it straight to her with a note. No pressure at all. I know you were thinking about finishing your supply-chain certificate first, and the schedule might not suit you if you're still taking evening classes.\n\nEither way, let's grab lunch soon. My treat!\n\nMarisol",
+      "table": null
+    },
+    {
+      "label": "Reply",
+      "kind": "text",
+      "text": "Hi Marisol,\n\nWhat a lovely surprise, and thank you for thinking of me! The job sounds like a great fit. I already spend half my day [[7]] at Fraserline, so the work itself wouldn't be new to me, and honestly, the wage you mentioned is about four dollars more than I'm making now.\n\nAs for my certificate, good news: I [[8]] last month, so my evenings are free again. The early start doesn't worry me either, since I've always been a morning person. The only thing I'd want to ask Deborah about is the [[9]], because I help coach my son's soccer team on weekends during the season.\n\nI've attached my résumé. Thank you for offering to [[10]]; I know a personal recommendation goes a long way. I'll also keep an eye out for the public posting on [[11]] in case I need to submit a formal application as well.\n\nAnd yes to lunch, but I'm paying this time.\n\nLinh",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the main purpose of Marisol's email?",
+      "options": [
+        { "text": "To offer Linh a position at Tidewater", "trap": "partially_true", "whyVi": "Có một vị trí tuyển dụng, nhưng Marisol không có quyền tuyển; cô ấy chỉ chuyển hồ sơ cho quản lý tuyển dụng." },
+        { "text": "To remind Linh of a stressful week they shared", "trap": "word_match", "whyVi": "Chuyện tuần Boxing Day chỉ là câu mở đầu thân mật, không phải mục đích chính." },
+        { "text": "To encourage Linh to apply for a job before it is advertised", "trap": "none", "whyVi": "Đúng: Marisol mời Linh gửi hồ sơ trong tuần này, trước khi tin tuyển dụng được đăng công khai." },
+        { "text": "To ask Linh to recommend someone for an opening", "trap": "not_mentioned", "whyVi": "Marisol không nhờ Linh giới thiệu người khác; chính Linh là người được giới thiệu." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "has agreed to look at referrals this week before it's public",
+      "explanationVi": "Ý chính thường nằm ở chỗ người viết nói 'I'm writing with...' và lời đề nghị cuối thư. Marisol nói có 'ulterior motive' (lý do khác), rồi mời gửi résumé trước khi tin đăng 'goes live'. 'before it's public' = 'before it is advertised'.",
+      "vocabulary": ["ulterior motive", "referral"]
+    },
+    {
+      "number": 2,
+      "prompt": "What does Marisol suggest about Linh's current job?",
+      "options": [
+        { "text": "It requires Linh to work most weekends.", "trap": "not_mentioned", "whyVi": "Bài không nói gì về lịch cuối tuần ở công việc hiện tại của Linh." },
+        { "text": "Linh has already decided to leave it.", "trap": "not_mentioned", "whyVi": "Marisol không biết Linh có định nghỉ hay không ('No pressure at all')." },
+        { "text": "It uses the same routing software as Tidewater.", "trap": "word_match", "whyVi": "Bài nhắc 'routing software' nhưng chỉ nói phần mềm mới với Tidewater, không liên quan Fraserline." },
+        { "text": "It probably pays less than the new role.", "trap": "none", "whyVi": "Đúng: 'which I suspect is a step up from what you're getting now'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "which I suspect is a step up from what you're getting now",
+      "explanationVi": "'I suspect' = đoán, nên đáp án dùng 'probably'. 'a step up from' = cao hơn → công việc hiện tại của Linh trả lương thấp hơn mức $27/giờ.",
+      "vocabulary": ["a step up"]
+    },
+    {
+      "number": 3,
+      "prompt": "According to Marisol, which task is part of the dispatch coordinator's job?",
+      "options": [
+        { "text": "Arranging new delivery times when a vehicle has mechanical trouble", "trap": "none", "whyVi": "Đúng: 'rebooking deliveries when a truck breaks down'." },
+        { "text": "Driving a delivery truck when the yard is busy", "trap": "word_match", "whyVi": "Bài nói về tài xế và xe tải, nhưng điều phối viên không lái xe." },
+        { "text": "Teaching other employees the new routing software", "trap": "wrong_detail", "whyVi": "Người được tuyển sẽ học phần mềm 'alongside everyone else', không phải người dạy." },
+        { "text": "Fixing scanners in the warehouse", "trap": "word_match", "whyVi": "Máy quét bị hỏng là chuyện cũ ở Fraserline, không phải nhiệm vụ của vị trí mới." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "rebooking deliveries when a truck breaks down",
+      "explanationVi": "Danh sách nhiệm vụ nằm sau dấu hai chấm trong đoạn 2. 'rebooking deliveries' = 'arranging new delivery times'; 'a truck breaks down' = 'a vehicle has mechanical trouble'.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "What does Marisol mean when she says \"there will be some growing pains\"?",
+      "options": [
+        { "text": "The company is expanding faster than it can manage.", "trap": "word_match", "whyVi": "Bẫy từ 'growing': câu này nói về phần mềm mới, không phải công ty mở rộng." },
+        { "text": "There will be some difficulties while everyone adjusts to the new system.", "trap": "none", "whyVi": "Đúng: 'growing pains' = khó khăn ban đầu khi bắt đầu cái mới; ngữ cảnh là phần mềm mới mà mọi người đang học." },
+        { "text": "The early shift will be physically exhausting.", "trap": "wrong_detail", "whyVi": "Ca sớm được nhắc trong câu trước, nhưng 'growing pains' nói về phần mềm." },
+        { "text": "Warehouse staff are often injured during the morning rush.", "trap": "word_match", "whyVi": "Bẫy từ 'pains' (đau) — bài không nói đến chấn thương." }
+      ],
+      "answerIndex": 1,
+      "category": "vocabulary",
+      "evidence": "The routing software is also new to us, so whoever gets the job will be learning it alongside everyone else",
+      "explanationVi": "Đoán nghĩa thành ngữ từ ngữ cảnh: cụm 'growing pains' đứng cùng câu với phần mềm mới và việc mọi người cùng học → khó khăn tạm thời khi thích nghi.",
+      "vocabulary": ["growing pains"]
+    },
+    {
+      "number": 5,
+      "prompt": "Why does Marisol mention when she was hired?",
+      "options": [
+        { "text": "To show that she is experienced enough to train Linh", "trap": "not_mentioned", "whyVi": "Marisol không nói cô sẽ đào tạo Linh." },
+        { "text": "To explain why she left Fraserline", "trap": "not_mentioned", "whyVi": "Bài không giải thích lý do Marisol rời Fraserline." },
+        { "text": "To prove that the pay rises quickly", "trap": "wrong_detail", "whyVi": "Câu này đi sau ý về thăng chức, không phải tăng lương." },
+        { "text": "To give an example of the company promoting its own staff", "trap": "none", "whyVi": "Đúng: cô từng vào làm coordinator 18 tháng trước và giờ đã là cấp cao hơn." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "They also take promoting from within seriously. I was hired as a coordinator myself eighteen months ago.",
+      "explanationVi": "Câu về bản thân Marisol đứng ngay sau 'take promoting from within seriously' → đó là ví dụ minh họa. Ta suy ra cô đã được thăng chức từ vị trí coordinator.",
+      "vocabulary": ["promote from within"]
+    },
+    {
+      "number": 6,
+      "prompt": "What possible problem does Marisol raise near the end of her email?",
+      "options": [
+        { "text": "The schedule might be hard to combine with Linh's studies.", "trap": "none", "whyVi": "Đúng: 'the schedule might not suit you if you're still taking evening classes'." },
+        { "text": "Linh may earn less than at Fraserline.", "trap": "opposite", "whyVi": "Marisol cho rằng lương mới cao hơn ('a step up')." },
+        { "text": "The Tilbury yard may be too far from Linh's home.", "trap": "not_mentioned", "whyVi": "Bài không nói Linh sống ở đâu." },
+        { "text": "Linh does not yet have a Class 3 licence.", "trap": "word_match", "whyVi": "Bằng Class 3 là một phúc lợi tùy chọn ('if you ever want it'), không phải điều kiện." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "the schedule might not suit you if you're still taking evening classes",
+      "explanationVi": "Cuối thư Marisol viết 'No pressure at all' rồi nêu lo ngại. 'schedule might not suit you' = 'might be hard to combine'; 'evening classes' = 'studies'.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "fixing broken scanners", "trap": "word_match", "whyVi": "Máy quét được nhắc trong thư, nhưng sửa máy không giống công việc điều phối." },
+        { "text": "driving a Class 3 truck", "trap": "word_match", "whyVi": "Class 3 chỉ là khóa học được hỗ trợ; lái xe không phải việc của coordinator." },
+        { "text": "rebooking deliveries and updating customers", "trap": "none", "whyVi": "Đúng: đây là nhiệm vụ của vị trí mới, nên Linh nói 'the work itself wouldn't be new'." },
+        { "text": "teaching staff new software", "trap": "wrong_detail", "whyVi": "Phần mềm mới chính là thứ người được tuyển sẽ phải học, không phải dạy." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "rebooking deliveries when a truck breaks down, and keeping customers in the loop",
+      "explanationVi": "Mệnh đề 'so the work itself wouldn't be new to me' → chỗ trống phải là công việc giống với vị trí ở Tidewater. 'keeping customers in the loop' = 'updating customers'.",
+      "vocabulary": ["keep someone in the loop"]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "registered for the next term", "trap": "opposite", "whyVi": "Đăng ký học tiếp thì buổi tối sẽ không rảnh." },
+        { "text": "completed the program", "trap": "none", "whyVi": "Đúng: Marisol nói Linh muốn 'finishing your supply-chain certificate first'; giờ đã xong nên 'evenings are free again'." },
+        { "text": "started evening classes", "trap": "opposite", "whyVi": "Mâu thuẫn với 'my evenings are free again'." },
+        { "text": "earned my Class 3 licence", "trap": "word_match", "whyVi": "Câu đang nói về 'my certificate' (chứng chỉ chuỗi cung ứng), không phải bằng lái Class 3." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I know you were thinking about finishing your supply-chain certificate first",
+      "explanationVi": "Liên kết hai thư: Marisol lo Linh còn học buổi tối. Linh trả lời 'good news ... so my evenings are free again' → đã học xong. 'finishing' = 'completed'.",
+      "vocabulary": []
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "6 a.m. start time", "trap": "opposite", "whyVi": "Linh vừa nói 'The early start doesn't worry me'." },
+        { "text": "starting wage", "trap": "opposite", "whyVi": "Linh đã hài lòng với mức lương (cao hơn bốn đô)." },
+        { "text": "distance to the Tilbury yard", "trap": "not_mentioned", "whyVi": "Linh không nhắc đến quãng đường đi làm." },
+        { "text": "Saturday shift each month", "trap": "none", "whyVi": "Đúng: ca thứ Bảy mỗi tháng trùng với việc huấn luyện đội bóng con trai vào cuối tuần." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "plus one Saturday a month",
+      "explanationVi": "Lý do sau 'because': Linh bận 'on weekends'. Trong lịch làm việc, chỉ có 'one Saturday a month' rơi vào cuối tuần. Hai lựa chọn còn lại về giờ sớm và lương đã được Linh nói là không vấn đề.",
+      "vocabulary": []
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "pass it on to the hiring manager yourself", "trap": "none", "whyVi": "Đúng: Marisol hứa 'I'll pass it straight to her with a note'; câu sau nói 'a personal recommendation goes a long way'." },
+        { "text": "post the job on the company website", "trap": "wrong_detail", "whyVi": "Tin tuyển dụng tự đăng lên website vào thứ Hai; Marisol không đề nghị việc này." },
+        { "text": "pay for my licence course", "trap": "wrong_speaker", "whyVi": "Người trả tiền khóa học Class 3 là công ty, không phải Marisol." },
+        { "text": "interview me this week", "trap": "wrong_speaker", "whyVi": "Người xem hồ sơ là Deborah Kwan, và thư không nói có phỏng vấn trong tuần này." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "I'll pass it straight to her with a note",
+      "explanationVi": "'Thank you for offering to...' → tìm điều Marisol đã đề nghị làm. 'pass it straight to her with a note' = chuyển trực tiếp kèm lời giới thiệu; câu sau 'a personal recommendation' xác nhận.",
+      "vocabulary": ["referral"]
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "Tidewater's website by Thursday", "trap": "wrong_detail", "whyVi": "Thứ Năm là hạn gửi résumé cho Marisol; tin công khai đăng vào thứ Hai." },
+        { "text": "the Fraserline notice board", "trap": "word_match", "whyVi": "Fraserline là nơi Linh đang làm, không phải nơi đăng tin của Tidewater." },
+        { "text": "Tidewater's website on Monday", "trap": "none", "whyVi": "Đúng: 'The posting goes live on the company website on Monday'." },
+        { "text": "a job board next month", "trap": "not_mentioned", "whyVi": "Không có thông tin về bảng tin việc làm nào vào tháng sau." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "The posting goes live on the company website on Monday",
+      "explanationVi": "'the public posting' trong thư trả lời ứng với 'The posting goes live' (được đăng công khai). Cần đúng cả nơi (company website) lẫn thời gian (Monday).",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "ulterior motive", "vi": "động cơ/mục đích khác (ẩn sau)", "definition": "a hidden or second reason for doing something", "example": "I'm calling with a bit of an ulterior motive: we need a volunteer." },
+    { "term": "keep someone in the loop", "vi": "cập nhật thông tin cho ai đó", "definition": "to make sure someone knows what is happening", "example": "Please keep the customer in the loop if the delivery is late." },
+    { "term": "growing pains", "vi": "khó khăn ban đầu (khi thay đổi, phát triển)", "definition": "problems that happen at the start of something new", "example": "The new warehouse system had some growing pains in the first month." },
+    { "term": "a step up", "vi": "một bước tiến, tốt hơn", "definition": "an improvement compared with something else", "example": "The new salary is a real step up from my old one." },
+    { "term": "promote from within", "vi": "thăng chức nhân viên nội bộ", "definition": "to give higher positions to people who already work at the company", "example": "Our company prefers to promote from within." },
+    { "term": "referral", "vi": "sự giới thiệu (ứng viên)", "definition": "a recommendation of a person for a job by someone who knows them", "example": "Many hires at our company come from employee referrals." },
+    { "term": "go live", "vi": "được đăng/đưa vào hoạt động", "definition": "to become available to the public", "example": "The job posting goes live on Monday morning." },
+    { "term": "upfront", "vi": "thẳng thắn, nói trước", "definition": "honest and direct about something from the start", "example": "She was upfront about the long hours." }
+  ]
+}

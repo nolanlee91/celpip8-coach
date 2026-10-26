@@ -1,0 +1,54 @@
+{
+  "id": "s6-practice-02",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "practice",
+  "difficulty": 6,
+  "topic": "housing",
+  "title": "A neighbour using your parking spot",
+  "prompt": "You live in a townhouse complex where each home has one assigned parking spot. For the past two weeks, your new neighbour has often parked his second car in your spot. Because of this, you have had to park on the street several blocks away.\n\nChoose ONE of the following options:\n\nOption A: Talk to your neighbour. Explain the problem and ask him to stop using your parking spot.\n\nOption B: Talk to the strata manager. Explain the problem and ask what can be done about it.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Friendly introduction (who you are) + welcome",
+    "Describe the problem politely, assuming it was an honest mistake",
+    "Explain how it affects you",
+    "Make a clear request + offer a helpful suggestion + thank them"
+  ],
+  "modelAnswer": "Hi, I'm Linh from number fourteen, right next door. Welcome to the complex! I hope you're settling in well.\n\nUm, I just wanted to mention something small. I've noticed that your second car has been parked in spot fourteen quite a few times over the past couple of weeks. That's actually my assigned spot. I'm sure it was just a mix-up, because the numbers on the pavement are pretty faded.\n\nThe thing is, when my spot is taken, I have to park on the street a few blocks away, and that's tough when I come home late from work or have groceries to carry.\n\nSo, would you mind using the visitor parking or the street for your second car from now on? If it helps, I can show you where the extra rental spots are. I think the strata office rents them out for a small monthly fee.\n\nThanks so much for understanding. And let me know if you ever need anything!",
+  "usefulExpressions": [
+    {
+      "expression": "I just wanted to mention something small.",
+      "usageVi": "Mở đầu vấn đề nhạy cảm một cách nhẹ nhàng, không gây căng thẳng."
+    },
+    {
+      "expression": "I'm sure it was just a mix-up.",
+      "usageVi": "Giả định người kia vô tình — giúp họ không bị mất mặt."
+    },
+    {
+      "expression": "The thing is, …",
+      "usageVi": "Cách nói tự nhiên để giải thích khó khăn của bạn."
+    },
+    {
+      "expression": "Would you mind + V-ing…?",
+      "usageVi": "Yêu cầu rất lịch sự; sau 'mind' dùng V-ing."
+    },
+    {
+      "expression": "Thanks so much for understanding.",
+      "usageVi": "Câu kết thân thiện, giữ quan hệ hàng xóm tốt."
+    }
+  ],
+  "commonMistakes": [
+    "Buộc tội trực tiếp ('You always steal my parking spot'). Ở S6, giọng điệu lịch sự và giữ thể diện cho người nghe rất quan trọng.",
+    "Nói 'Would you mind to use…' — sai. Đúng: 'Would you mind using…'.",
+    "Quên nói rõ yêu cầu cụ thể. Sau khi giải thích vấn đề, phải có một câu hỏi/yêu cầu rõ ràng."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Checked direct, face-saving request to the neighbour, clear ask, hedged strata detail, length (~162). No changes needed."
+  },
+  "createdAt": "2026-10-26"
+}

@@ -1,0 +1,171 @@
+{
+  "id": "r2-mock-02",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "Choosing an extended health and dental plan",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independently solved every question before checking answerIndex; all keys match. Tested every option in every blank for grammar and meaning; checked evidence is verbatim and supports the answer, trap tags, Vietnamese explanations, word counts and realism. Recomputed $134-$100=$34, $500/$120 = about 4 sessions, $150 = half of $300, $86x12=$1,032 (distractors $576, $1,200, $1,608 correct). Pre-existing waiting periods (12 vs 6 months) applied correctly. No changes needed." },
+  "createdAt": "2026-10-26",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Plan comparison",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Pacific Shield Benefits — Individual Extended Health and Dental Plans (single coverage, BC residents)",
+        "headers": ["Benefit", "Essential", "Plus", "Premier"],
+        "rows": [
+          ["Monthly premium", "$48", "$86", "$134"],
+          ["Basic dental (exams, cleanings, fillings)", "60%, up to $500 per year", "80%, up to $1,000 per year", "90%, up to $1,500 per year"],
+          ["Major dental (crowns, bridges)", "Not covered", "50%, up to $750 per year", "60%, up to $1,500 per year"],
+          ["Prescription drugs", "70%, up to $1,200 per year", "80%, up to $2,500 per year", "90%, no annual maximum"],
+          ["Vision (glasses or contact lenses)", "Not covered", "$150 every 2 years", "$300 every 2 years"],
+          ["Paramedical (physiotherapy, massage, counselling)", "$300 per year, all practitioners combined", "Up to $500 per practitioner type per year", "Up to $750 per practitioner type per year"],
+          ["Pre-existing conditions", "Not covered for the first 12 months", "Not covered for the first 6 months", "Covered from day one"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Tomasz,\n\nThanks for pointing me to Pacific Shield. Now that I'm freelancing, I've lost my old work benefits, so your tip came at the right time. I've narrowed it down, and I'd love your opinion before I sign up.\n\nPremier looks wonderful, but it costs [[1]] more each month than the $100 I told myself I'd spend, so it's out. Essential is tempting at $48, but since I've been on thyroid medication for years, it wouldn't pay for my pills until [[2]]. At $95 a month, that adds up fast.\n\nThat leaves Plus. It isn't perfect: I'll still have to cover my prescription myself for the first [[3]]. On the other hand, my counsellor charges $120 a session, and Plus would pay for roughly [[4]] of the eight sessions I have planned this year. I'll also need new glasses in the spring, and the allowance would [[5]] the $300 I usually spend.\n\nMy teeth are in good shape, so cleanings are all I need, and every plan includes those.\n\nDoes this make sense to you, or am I missing something?\n\nMireille",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "$48", "trap": "wrong_detail", "whyVi": "$48 là chênh lệch giữa Premier và Plus ($134 − $86), không phải so với ngân sách $100." },
+        { "text": "$34", "trap": "none", "whyVi": "Đúng: $134 − $100 = $34." },
+        { "text": "$86", "trap": "wrong_detail", "whyVi": "$86 là phí của gói Plus." },
+        { "text": "$134", "trap": "partially_true", "whyVi": "$134 là toàn bộ phí Premier, không phải phần vượt ngân sách." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "the $100 I told myself I'd spend",
+      "explanationVi": "Đọc kỹ cấu trúc 'costs X more each month than the $100' → X là phần chênh lệch. Phí Premier $134 (hàng Monthly premium) − $100 = $34.",
+      "vocabulary": ["premium"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "six months had passed", "trap": "wrong_detail", "whyVi": "Sáu tháng là thời gian chờ của gói Plus." },
+        { "text": "my claims reached $1,200", "trap": "word_match", "whyVi": "$1,200 là mức tối đa chi trả thuốc của Essential, không phải điều kiện bắt đầu chi trả." },
+        { "text": "I switched to a family plan", "trap": "not_mentioned", "whyVi": "Bảng chỉ có gói cá nhân; không có điều kiện này." },
+        { "text": "I had been on the plan for a full year", "trap": "none", "whyVi": "Đúng: Essential không chi trả bệnh có từ trước trong 12 tháng đầu." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Not covered for the first 12 months",
+      "explanationVi": "'I've been on thyroid medication for years' → đây là bệnh có từ trước ('pre-existing condition'). Tra hàng Pre-existing conditions của Essential: không chi trả 12 tháng đầu = 'a full year'.",
+      "vocabulary": ["pre-existing condition"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "six months", "trap": "none", "whyVi": "Đúng: gói Plus không chi trả bệnh có từ trước trong 6 tháng đầu." },
+        { "text": "twelve months", "trap": "wrong_detail", "whyVi": "12 tháng là thời gian chờ của Essential." },
+        { "text": "two years", "trap": "wrong_detail", "whyVi": "'every 2 years' là chu kỳ của quyền lợi kính mắt." },
+        { "text": "thirty days", "trap": "not_mentioned", "whyVi": "Bảng không có thời hạn 30 ngày." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "Not covered for the first 6 months",
+      "explanationVi": "'I'll still have to cover my prescription myself' → giai đoạn bảo hiểm chưa trả. Vì bệnh tuyến giáp là bệnh có từ trước, tra cột Plus ở hàng Pre-existing conditions: 6 tháng đầu.",
+      "vocabulary": ["pre-existing condition"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "two", "trap": "wrong_detail", "whyVi": "Hai buổi tương ứng với mức $300 của Essential." },
+        { "text": "all", "trap": "opposite", "whyVi": "Tám buổi × $120 = $960, vượt xa hạn mức $500." },
+        { "text": "four", "trap": "none", "whyVi": "Đúng: Plus chi trả tối đa $500 cho mỗi loại chuyên viên mỗi năm; $500 ÷ $120 ≈ 4 buổi." },
+        { "text": "six", "trap": "wrong_detail", "whyVi": "Sáu buổi tương ứng với mức $750 của Premier." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Up to $500 per practitioner type per year",
+      "explanationVi": "Counselling thuộc nhóm 'Paramedical'. Cột Plus: tối đa $500/năm. Chia cho giá mỗi buổi $120 → khoảng 4 buổi ('roughly'). Phải dùng đúng cột của gói đã chọn.",
+      "vocabulary": ["paramedical"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "pay for all of", "trap": "wrong_detail", "whyVi": "Chỉ Premier mới có $300 cho kính; Plus chỉ có $150." },
+        { "text": "not apply to", "trap": "opposite", "whyVi": "'Not covered' là của Essential; Plus có quyền lợi kính mắt." },
+        { "text": "be twice", "trap": "opposite", "whyVi": "$150 là một nửa, không phải gấp đôi $300." },
+        { "text": "cover only half of", "trap": "none", "whyVi": "Đúng: Plus trả $150, bằng một nửa $300 mà Mireille thường chi." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "$150 every 2 years",
+      "explanationVi": "Tra hàng Vision, cột Plus: $150. So với chi phí thường ngày của Mireille ($300) → bảo hiểm trả một nửa. Bẫy 'pay for all of' dùng con số $300 của Premier.",
+      "vocabulary": ["allowance"]
+    },
+    {
+      "number": 6,
+      "prompt": "What can be inferred about Mireille's thyroid condition?",
+      "options": [
+        { "text": "She had it before applying for any of these plans.", "trap": "none", "whyVi": "Đúng: cô uống thuốc 'for years', nên với công ty bảo hiểm đây là bệnh có từ trước." },
+        { "text": "It was diagnosed only recently.", "trap": "opposite", "whyVi": "Cô đã dùng thuốc nhiều năm." },
+        { "text": "Her medication costs under $50 a month.", "trap": "wrong_detail", "whyVi": "Thuốc tốn $95 mỗi tháng; $48 là phí gói Essential." },
+        { "text": "Her former employer's plan will keep paying for it.", "trap": "opposite", "whyVi": "Cô nói 'I've lost my old work benefits'." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "since I've been on thyroid medication for years",
+      "explanationVi": "Bài không dùng từ 'pre-existing'. Nhưng 'for years' + việc cô lo về thời gian chờ chi trả cho thấy cô hiểu đây là 'pre-existing condition' trong bảng.",
+      "vocabulary": ["pre-existing condition"]
+    },
+    {
+      "number": 7,
+      "prompt": "Which type of coverage does NOT affect Mireille's choice of plan?",
+      "options": [
+        { "text": "Prescription drugs", "trap": "opposite", "whyVi": "Thuốc tuyến giáp là lý do chính khiến cô loại Essential." },
+        { "text": "Vision", "trap": "opposite", "whyVi": "Cô có tính đến tiền kính mắt mùa xuân." },
+        { "text": "Basic dental", "trap": "none", "whyVi": "Đúng: cô chỉ cần cạo vôi răng, và 'every plan includes those'." },
+        { "text": "Paramedical", "trap": "opposite", "whyVi": "Cô tính số buổi tư vấn tâm lý được chi trả." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "so cleanings are all I need, and every plan includes those",
+      "explanationVi": "Một quyền lợi không ảnh hưởng lựa chọn khi cả ba gói đều đáp ứng nhu cầu. Hàng 'Basic dental (exams, cleanings, fillings)' có ở cả ba cột, và Mireille chỉ cần cleanings.",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "If Mireille chooses the plan she prefers, how much will she pay in premiums over one year?",
+      "options": [
+        { "text": "$576", "trap": "wrong_detail", "whyVi": "$576 = $48 × 12 — đó là phí cả năm của Essential (hoặc mức chênh Premier – Plus)." },
+        { "text": "$1,032", "trap": "none", "whyVi": "Đúng: gói Plus $86 × 12 tháng = $1,032." },
+        { "text": "$1,200", "trap": "wrong_detail", "whyVi": "$1,200 là ngân sách $100 × 12, không phải phí thực tế." },
+        { "text": "$1,608", "trap": "wrong_detail", "whyVi": "$1,608 là phí cả năm của Premier ($134 × 12)." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "That leaves Plus.",
+      "explanationVi": "Bước 1: xác định gói cô chọn — 'That leaves Plus'. Bước 2: tra phí tháng của Plus ($86). Bước 3: nhân 12 → $1,032.",
+      "vocabulary": ["premium"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "premium", "vi": "phí bảo hiểm (định kỳ)", "definition": "the amount you pay regularly for insurance", "example": "The monthly premium for the Plus plan is $86." },
+    { "term": "pre-existing condition", "vi": "bệnh có từ trước (khi mua bảo hiểm)", "definition": "a health problem you had before your insurance started", "example": "Many plans don't cover pre-existing conditions right away." },
+    { "term": "paramedical", "vi": "dịch vụ y tế bổ trợ (vật lý trị liệu, massage, tư vấn)", "definition": "health services such as physiotherapy, massage therapy and counselling", "example": "My plan covers $500 of paramedical services a year." },
+    { "term": "allowance", "vi": "hạn mức chi trả, khoản trợ cấp", "definition": "a fixed amount of money that a plan will pay for something", "example": "The vision allowance is $150 every two years." },
+    { "term": "narrow down", "vi": "thu hẹp (lựa chọn)", "definition": "to reduce the number of possible choices", "example": "I've narrowed it down to two plans." },
+    { "term": "add up", "vi": "cộng dồn lại thành nhiều", "definition": "to increase gradually until it becomes a large amount", "example": "Small monthly costs can add up fast." },
+    { "term": "freelance", "vi": "làm tự do", "definition": "to work for yourself for different clients instead of one employer", "example": "Since she started freelancing, she has no work benefits." }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "id": "l5-full-01",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Discussion: Moving the warehouse to scheduling software",
+  "context": "You will hear a team meeting at a warehouse in Delta about switching from paper schedules to a scheduling app.",
+  "estimatedMinutes": 9,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Grace, operations manager",
+          "voice": "female_a",
+          "text": "Okay, thanks for staying a few minutes after the shift, everyone. As you know, head office wants every site off paper schedules and onto ShiftLink. I'd like to hear your concerns before we commit to a start date."
+        },
+        {
+          "speaker": "Marco, shift supervisor",
+          "voice": "male_a",
+          "text": "Honestly, Grace, I'm not against the software itself. What worries me is the timing. If we switch in January, we'll be training people right when the post-holiday returns are piling up, and that's our second-busiest stretch of the year."
+        },
+        {
+          "speaker": "Grace, operations manager",
+          "voice": "female_a",
+          "text": "That's fair. Head office originally said January, but they've told me we have some flexibility, as long as we're fully switched over by the end of March."
+        },
+        {
+          "speaker": "Tanvir, forklift operator",
+          "voice": "male_b",
+          "text": "Can I jump in? My concern's a bit different. A lot of the guys on the night crew don't check email, and a couple of them don't even have smartphones. If shift swaps only happen through an app, they're going to miss out on extra hours."
+        },
+        {
+          "speaker": "Lena, HR coordinator",
+          "voice": "female_b",
+          "text": "Actually, Tanvir, that's something I looked into. ShiftLink has a kiosk mode, so we could set up a tablet in the break room. Anyone without a phone could log in there with their employee number."
+        },
+        {
+          "speaker": "Tanvir, forklift operator",
+          "voice": "male_b",
+          "text": "A tablet in the break room. Okay, that helps. But who's going to show them how to use it? Some of these guys have been here twenty years. They're not going to read a manual."
+        },
+        {
+          "speaker": "Marco, shift supervisor",
+          "voice": "male_a",
+          "text": "That's exactly my point. Training takes time, and I can't pull people off the floor in January."
+        },
+        {
+          "speaker": "Grace, operations manager",
+          "voice": "female_a",
+          "text": "What if we did it in two phases? We start with the day crew in February, since they're more comfortable with apps, and we pick a couple of them to be go-to people. Then the night crew follows in March, once we've ironed out the problems."
+        },
+        {
+          "speaker": "Lena, HR coordinator",
+          "voice": "female_b",
+          "text": "I like that. It also gives me time to sort out the payroll connection. Right now, approved overtime has to be typed in by hand, and that's where most of our pay errors come from. ShiftLink sends hours straight to payroll, so those mistakes should drop way down."
+        },
+        {
+          "speaker": "Marco, shift supervisor",
+          "voice": "male_a",
+          "text": "Okay, a February start for days, I can live with that. My only other request is that a supervisor still approves every swap. I don't want two operators trading shifts and leaving the dock without anyone certified on the forklift."
+        },
+        {
+          "speaker": "Lena, HR coordinator",
+          "voice": "female_b",
+          "text": "The system can handle that. You can flag certain positions so that any swap needs a supervisor's sign-off."
+        },
+        {
+          "speaker": "Tanvir, forklift operator",
+          "voice": "male_b",
+          "text": "And what about seniority? Right now, extra shifts go to whoever's been here the longest. If the app just gives them to whoever taps first, people are going to be upset, and I'm the one who'll be hearing about it in the lunchroom."
+        },
+        {
+          "speaker": "Grace, operations manager",
+          "voice": "female_a",
+          "text": "That's a good question, and I don't have an answer yet. Lena, can you check whether ShiftLink can rank offers by seniority?"
+        },
+        {
+          "speaker": "Lena, HR coordinator",
+          "voice": "female_b",
+          "text": "I'll ask the vendor this week. If it can't, we may have to keep posting extra shifts manually for now."
+        },
+        {
+          "speaker": "Grace, operations manager",
+          "voice": "female_a",
+          "text": "Alright. So, day crew in February, night crew in March, a tablet in the break room, and Lena gets back to us on seniority. Tanvir, would you be willing to be one of the go-to people for the night crew?"
+        },
+        {
+          "speaker": "Tanvir, forklift operator",
+          "voice": "male_b",
+          "text": "Sure, as long as I get trained properly first."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is Marco's attitude toward the new scheduling software?",
+          "options": [
+            {
+              "text": "He opposes replacing the paper schedules.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: Marco nói rõ anh không phản đối phần mềm."
+            },
+            {
+              "text": "He worries that staff without phones will lose extra hours.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là mối lo của Tanvir về ca đêm, không phải của Marco."
+            },
+            {
+              "text": "He accepts the software but objects to introducing it at a busy time.",
+              "trap": "none",
+              "whyVi": "Đúng: anh không phản đối phần mềm, chỉ lo về thời điểm vì tháng 1 là giai đoạn bận thứ hai trong năm."
+            },
+            {
+              "text": "He expects it to reduce the number of payroll mistakes.",
+              "trap": "wrong_speaker",
+              "whyVi": "Lena mới là người nói phần mềm sẽ giảm lỗi lương."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "I'm not against the software itself. What worries me is the timing.",
+          "explanationVi": "Marco nói 'not against the software itself' và 'what worries me is the timing', vì tháng 1 là 'our second-busiest stretch of the year'. Đáp án C diễn đạt lại thành 'busy time'.",
+          "vocabulary": [
+            "stretch"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "By when must the warehouse be fully using the new system?",
+          "options": [
+            {
+              "text": "The end of January",
+              "trap": "wrong_detail",
+              "whyVi": "Tháng 1 là kế hoạch ban đầu, sau đó trụ sở chính cho linh hoạt hơn."
+            },
+            {
+              "text": "The end of March",
+              "trap": "none",
+              "whyVi": "Đúng: phải chuyển đổi hoàn toàn trước cuối tháng 3."
+            },
+            {
+              "text": "February, when the day crew starts",
+              "trap": "word_match",
+              "whyVi": "Tháng 2 chỉ là lúc ca ngày bắt đầu, chưa phải hạn chót chuyển đổi toàn bộ."
+            },
+            {
+              "text": "There is no deadline from head office.",
+              "trap": "opposite",
+              "whyVi": "Sai: vẫn có hạn chót, chỉ là linh hoạt hơn."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "as long as we're fully switched over by the end of March",
+          "explanationVi": "Cụm 'fully switched over by the end of March' là hạn chót. Trong bài có nhiều tháng (January, February, March), cần gắn đúng tháng với đúng sự kiện.",
+          "vocabulary": [
+            "switch over"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "How does Lena suggest helping workers who don't have smartphones?",
+          "options": [
+            {
+              "text": "By putting a shared device in a common area",
+              "trap": "none",
+              "whyVi": "Đúng: đặt một máy tính bảng ở phòng nghỉ, ai cũng đăng nhập được bằng mã nhân viên."
+            },
+            {
+              "text": "By giving them company phones",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai đề xuất cấp điện thoại công ty."
+            },
+            {
+              "text": "By sending shift offers to them by email",
+              "trap": "opposite",
+              "whyVi": "Tanvir nói nhiều người ca đêm không kiểm tra email, nên đây không phải giải pháp."
+            },
+            {
+              "text": "By having coworkers act as go-to people for them",
+              "trap": "wrong_speaker",
+              "whyVi": "Ý tưởng 'go-to people' là của Grace, không phải đề xuất của Lena cho vấn đề điện thoại."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "we could set up a tablet in the break room",
+          "explanationVi": "'a tablet in the break room' được diễn đạt lại thành 'a shared device in a common area'.",
+          "vocabulary": [
+            "kiosk mode"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "When Grace says the night crew will start \"once we've ironed out the problems\", what does she mean?",
+          "options": [
+            {
+              "text": "After the problems have been reported to head office",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói báo cáo vấn đề lên trụ sở chính."
+            },
+            {
+              "text": "After the night crew has finished its training",
+              "trap": "word_match",
+              "whyVi": "Có nhắc đào tạo, nhưng 'iron out' không có nghĩa là học xong."
+            },
+            {
+              "text": "After the busiest period of the year has passed",
+              "trap": "wrong_detail",
+              "whyVi": "Thời điểm bận là mối lo của Marco, nhưng không phải nghĩa của cụm từ này."
+            },
+            {
+              "text": "After the early difficulties have been fixed",
+              "trap": "none",
+              "whyVi": "Đúng: 'iron out' nghĩa là giải quyết các trục trặc nhỏ."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "vocabulary",
+          "evidence": "Then the night crew follows in March, once we've ironed out the problems.",
+          "explanationVi": "'Iron out the problems' là thành ngữ = giải quyết các trục trặc. Ca ngày dùng thử trước để sửa lỗi, rồi ca đêm mới áp dụng.",
+          "vocabulary": [
+            "iron out"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "According to Lena, what causes most of the pay errors now?",
+          "options": [
+            {
+              "text": "Supervisors approve too much overtime.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'approved overtime' nhưng vấn đề là nhập tay, không phải duyệt quá nhiều."
+            },
+            {
+              "text": "Overtime hours are entered manually.",
+              "trap": "none",
+              "whyVi": "Đúng: giờ tăng ca đã duyệt phải gõ tay, đó là nguồn gốc của phần lớn lỗi lương."
+            },
+            {
+              "text": "Workers forget to record their shift swaps.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói công nhân quên ghi đổi ca."
+            },
+            {
+              "text": "The night crew does not check its email.",
+              "trap": "wrong_detail",
+              "whyVi": "Đây là chi tiết Tanvir nói về việc nhận thông báo đổi ca, không liên quan đến lỗi lương."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "approved overtime has to be typed in by hand, and that's where most of our pay errors come from",
+          "explanationVi": "'typed in by hand' được diễn đạt lại thành 'entered manually'.",
+          "vocabulary": [
+            "payroll"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "Why does Marco want a supervisor to approve every shift swap?",
+          "options": [
+            {
+              "text": "To make sure extra shifts go to the most senior workers",
+              "trap": "wrong_speaker",
+              "whyVi": "Thâm niên là mối quan tâm của Tanvir, không phải lý do của Marco."
+            },
+            {
+              "text": "To prevent operators from using the app at all",
+              "trap": "too_broad",
+              "whyVi": "Marco chỉ muốn duyệt việc đổi ca, không cấm dùng ứng dụng."
+            },
+            {
+              "text": "To avoid a situation where no qualified operator is on the dock",
+              "trap": "none",
+              "whyVi": "Đúng: anh không muốn đổi ca khiến khu bến bốc hàng không có ai có chứng chỉ lái xe nâng."
+            },
+            {
+              "text": "To reduce the amount of overtime paid each month",
+              "trap": "not_mentioned",
+              "whyVi": "Marco không nhắc gì đến việc giảm tiền tăng ca."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "I don't want two operators trading shifts and leaving the dock without anyone certified on the forklift.",
+          "explanationVi": "'without anyone certified' được diễn đạt lại thành 'no qualified operator'. Lựa chọn A dễ nhầm vì ngay sau đó Tanvir nói về thâm niên.",
+          "vocabulary": [
+            "sign-off"
+          ]
+        },
+        {
+          "number": 7,
+          "prompt": "What can be inferred about Tanvir from the discussion?",
+          "options": [
+            {
+              "text": "He is one of the supervisors who approves swaps.",
+              "trap": "wrong_detail",
+              "whyVi": "Tanvir là người lái xe nâng; người giám sát là Marco."
+            },
+            {
+              "text": "His coworkers tend to bring their complaints to him.",
+              "trap": "none",
+              "whyVi": "Đúng: anh nói nếu chia ca không công bằng thì 'I'm the one who'll be hearing about it'."
+            },
+            {
+              "text": "He has worked at the warehouse for twenty years.",
+              "trap": "word_match",
+              "whyVi": "'Twenty years' là nói về một số đồng nghiệp ca đêm, không phải về Tanvir."
+            },
+            {
+              "text": "He refuses to help the night crew learn the system.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cuối buổi anh đồng ý làm người hỗ trợ cho ca đêm."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "I'm the one who'll be hearing about it in the lunchroom",
+          "explanationVi": "Đây là câu suy luận: Tanvir nói anh sẽ là người phải nghe đồng nghiệp phàn nàn, nghĩa là mọi người thường đến than phiền với anh.",
+          "vocabulary": [
+            "seniority"
+          ]
+        },
+        {
+          "number": 8,
+          "prompt": "Which issue is still unresolved at the end of the meeting?",
+          "options": [
+            {
+              "text": "Whether the app can give extra shifts based on length of service",
+              "trap": "none",
+              "whyVi": "Đúng: Grace chưa có câu trả lời và Lena sẽ hỏi nhà cung cấp trong tuần này."
+            },
+            {
+              "text": "Whether supervisors can be required to approve certain swaps",
+              "trap": "wrong_detail",
+              "whyVi": "Đã giải quyết: Lena nói hệ thống làm được việc này."
+            },
+            {
+              "text": "Who will help the night crew learn the system",
+              "trap": "wrong_detail",
+              "whyVi": "Đã giải quyết: Tanvir đồng ý làm người hỗ trợ."
+            },
+            {
+              "text": "When the day crew will begin using the app",
+              "trap": "wrong_detail",
+              "whyVi": "Đã chốt: ca ngày bắt đầu vào tháng 2."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "long_conversation",
+          "evidence": "That's a good question, and I don't have an answer yet.",
+          "explanationVi": "Cần theo dõi cả cuộc họp: các vấn đề khác đều đã chốt, chỉ có chuyện xếp ca theo thâm niên ('rank offers by seniority') là còn chờ Lena hỏi nhà cung cấp. 'Seniority' được diễn đạt lại thành 'length of service'.",
+          "vocabulary": [
+            "seniority",
+            "vendor"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "stretch",
+      "vi": "giai đoạn, quãng thời gian",
+      "definition": "a continuous period of time",
+      "example": "January is our second-busiest stretch of the year."
+    },
+    {
+      "term": "switch over",
+      "vi": "chuyển đổi hoàn toàn",
+      "definition": "change completely from one system to another",
+      "example": "We must be fully switched over by the end of March."
+    },
+    {
+      "term": "kiosk mode",
+      "vi": "chế độ máy dùng chung",
+      "definition": "a setting that lets a shared device be used by many people for one purpose",
+      "example": "ShiftLink has a kiosk mode for a break-room tablet."
+    },
+    {
+      "term": "iron out",
+      "vi": "giải quyết (trục trặc)",
+      "definition": "fix small problems or difficulties",
+      "example": "We'll start the night crew once we've ironed out the problems."
+    },
+    {
+      "term": "payroll",
+      "vi": "bộ phận/hệ thống tính lương",
+      "definition": "the system a company uses to calculate and pay wages",
+      "example": "The app sends hours straight to payroll."
+    },
+    {
+      "term": "sign-off",
+      "vi": "sự phê duyệt",
+      "definition": "official approval from someone in charge",
+      "example": "Any swap needs a supervisor's sign-off."
+    },
+    {
+      "term": "seniority",
+      "vi": "thâm niên",
+      "definition": "the advantage you have from working somewhere longer than others",
+      "example": "Extra shifts go by seniority."
+    },
+    {
+      "term": "vendor",
+      "vi": "nhà cung cấp",
+      "definition": "a company that sells a product or service to another company",
+      "example": "I'll ask the vendor this week."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 8 items independently; keys match, who-said-what distractors verified against speaker turns, no double-answer items. 4 distinct voices/opinions, 523 words. Trap tags corrected: Q4 option C partially_true -> wrong_detail (a misreading of the idiom, not partly true); Q8 option B opposite -> wrong_detail (an issue that was already resolved), consistent with Q8 C/D."
+  },
+  "createdAt": "2026-10-26",
+  "focus": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": "w1-practice-03",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "customer-service",
+  "title": "Delayed and damaged suitcase",
+  "situation": "You recently flew from Vancouver to Toronto to attend a five-day work conference. Your checked suitcase did not arrive with your flight. It was delivered to your hotel two days later, but one of the wheels was broken and the zipper was torn. You have decided to email the airline's customer relations department.",
+  "instructions": [
+    "Give details of your flight and explain what happened to your suitcase.",
+    "Describe the problems this caused you.",
+    "Say what compensation you expect from the airline."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting + one-sentence purpose with flight number, date and route",
+    "Instruction 1: what happened step by step — missing bag, report filed (file number), late delivery, exact damage",
+    "Instruction 2: the consequences — what you had to buy or do, with amounts in CAD",
+    "Instruction 3: a clear, specific request (reimbursement amount + replacement cost) and mention attached evidence",
+    "Formal closing asking for a prompt reply + sign-off"
+  ],
+  "modelResponse": "Dear Customer Relations Team,\n\nI am writing about my checked suitcase on flight 418 from Vancouver to Toronto on October 3. The bag did not arrive with the flight, so I filed a report at the baggage counter (file number YYZ-55213). It was finally delivered to my hotel two days later, but one wheel had snapped off and the main zipper was torn, so the suitcase can no longer be closed properly.\n\nThe delay caused me considerable inconvenience. I was in Toronto for a work conference, and all of my business clothes were in the bag. As a result, I had to buy a jacket, two shirts, trousers and toiletries at short notice, which cost $214. I also took two taxis to the airport to check on the bag, which cost a further $58.\n\nI would therefore like to request reimbursement of these expenses, totalling $272, as well as $160 for a replacement suitcase. I have attached copies of all receipts, my baggage report and photos of the damage.\n\nI look forward to your prompt response.\n\nSincerely,\nDaniel Pham",
+  "usefulExpressions": [
+    {
+      "expression": "I am writing about…",
+      "usageVi": "Mở đầu trực tiếp, trang trọng; theo sau là thông tin nhận dạng (số chuyến bay, ngày, tuyến)."
+    },
+    {
+      "expression": "The delay caused me considerable inconvenience.",
+      "usageVi": "Câu chủ đề cho đoạn nói về hậu quả; 'considerable' trang trọng hơn 'a lot of'."
+    },
+    {
+      "expression": "As a result, I had to…",
+      "usageVi": "Nối nguyên nhân – kết quả rõ ràng, giúp lập luận đòi bồi thường chặt chẽ."
+    },
+    {
+      "expression": "at short notice",
+      "usageVi": "Nghĩa là 'gấp, không kịp chuẩn bị' — tự nhiên hơn 'suddenly' trong ngữ cảnh này."
+    },
+    {
+      "expression": "which cost a further $58",
+      "usageVi": "Mệnh đề quan hệ không xác định để thêm chi phí; 'a further' = thêm nữa."
+    },
+    {
+      "expression": "I would therefore like to request reimbursement of…",
+      "usageVi": "Yêu cầu bồi thường dứt khoát nhưng lịch sự; 'therefore' liên kết với đoạn trước."
+    },
+    {
+      "expression": "I have attached copies of…",
+      "usageVi": "Nhắc đến bằng chứng đính kèm, làm yêu cầu đáng tin hơn."
+    },
+    {
+      "expression": "I look forward to your prompt response.",
+      "usageVi": "Câu kết trang trọng, ngụ ý mong được giải quyết sớm mà không thô lỗ."
+    }
+  ],
+  "commonMistakes": [
+    "Đòi bồi thường mơ hồ ('I want compensation'). Ý 3 cần nêu rõ khoản nào, bao nhiêu tiền và dựa trên chứng từ gì.",
+    "Giọng tức giận, đe dọa ('I will never fly with you again', 'This is unacceptable!!!'). Thư phàn nàn đạt điểm cao vẫn bình tĩnh và chuyên nghiệp.",
+    "Sai thì khi kể lại sự việc: trộn hiện tại và quá khứ ('The bag does not arrive and I file a report'). Dùng quá khứ đơn và quá khứ hoàn thành ('had snapped off').",
+    "Thiếu mạo từ / số nhiều: 'I bought new shirt and toiletry' → 'I bought a new shirt and some toiletries'; 'cost of replace suitcase' → 'the cost of replacing the suitcase'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: Changed 'Yours faithfully' (British) to 'Sincerely' (Canadian norm); clarified ambiguous 'the cost of replacing the suitcase, which was $160' -> '$160 for a replacement suitcase'. Bullets, amounts ($214 + $58 = $272) and register checked."
+  },
+  "createdAt": "2026-10-26"
+}
