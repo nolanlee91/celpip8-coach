@@ -161,6 +161,29 @@ async function main() {
     check(`GET ${url}`, r.status === 200);
   }
 
+  // --- Learn Mode (no AI)
+  const curr = await call("/api/curriculum");
+  check("GET /api/curriculum", curr.status === 200 && Array.isArray(curr.data.modules), `${curr.data.counts?.active} active lessons of ${curr.data.counts?.planned} planned`);
+  const firstLesson = (curr.data.modules ?? []).flatMap((m: { lessons: { id: string }[] }) => m.lessons)[0] as { id: string } | undefined;
+  const correctResponse = (ex: any) => ex.type === "choice" ? ex.answerIndex : ex.type === "text" ? ex.answers[0] : ex.type === "order" ? ex.items : { text: ex.modelAnswer, checked: ex.checklist.map((_: string, i: number) => i) };
+  let lessonId: string | null = null;
+  let guidedId: string | null = null;
+  if (firstLesson) {
+    lessonId = firstLesson.id;
+    const L = await call(`/api/lessons/${lessonId}`);
+    check("lesson opens without AI (concept, examples, exercises)", L.status === 200 && L.data.lesson.concept.length >= 3 && L.data.lesson.examples.length >= 2 && L.data.lesson.independent.length >= 5);
+    await call(`/api/lessons/${lessonId}/start`, {});
+    await call(`/api/lessons/${lessonId}/step`, { step: "concept", timeSec: 60 });
+    const g = L.data.lesson.guided[0];
+    guidedId = g.id;
+    const a = await call(`/api/lessons/${lessonId}/answer`, { exerciseId: g.id, response: correctResponse(g), timeSec: 20 });
+    check("guided answer graded locally", a.status === 200 && a.data.correct === true && a.data.section === "guided");
+    const plan = await call("/api/plan?minutes=60");
+    check("daily plan resumes the unfinished lesson", plan.data.blocks.some((b: { kind?: string; lessonId?: string }) => b.kind === "learn" && b.lessonId === lessonId));
+  } else {
+    check("curriculum reports planned lessons even before approval", (curr.data.counts?.planned ?? 0) > 0);
+  }
+
   // --- persistence across restart
   const before = (await call("/api/history")).data.length;
   const vocabBefore = (await call("/api/vocab")).data.length;
@@ -170,6 +193,23 @@ async function main() {
   const vocabAfter = (await call("/api/vocab")).data.length;
   const settingsAfter = (await call("/api/settings")).data;
   check("progress persists after restart", before === after && vocabBefore === vocabAfter && settingsAfter.allowBrowserVoice === true, `${after} attempts, ${vocabAfter} vocab`);
+
+  if (lessonId && guidedId) {
+    const L = await call(`/api/lessons/${lessonId}`);
+    check("unfinished lesson resumes after restart", L.data.progress?.step === "guided" && Boolean(L.data.progress?.answers?.[guidedId]));
+    for (const ex of L.data.lesson.independent) await call(`/api/lessons/${lessonId}/answer`, { exerciseId: ex.id, response: correctResponse(ex), timeSec: 15 });
+    const done = await call(`/api/lessons/${lessonId}/complete`, {});
+    check("mastery check: all-correct pass → mastered, review scheduled", done.status === 200 && done.data.run.outcome === "advance" && done.data.progress.status === "mastered" && Boolean(done.data.nextReview), `score ${done.data.run?.score}`);
+    const vocab = await call(`/api/lessons/${lessonId}/vocab`, {});
+    check("lesson expressions added to the SRS notebook", vocab.status === 200 && vocab.data.added > 0, `${vocab.data.added} added`);
+    const coachRes = await call("/api/coach");
+    check("coach recommends a different lesson next", coachRes.status === 200 && coachRes.data.next && coachRes.data.next.lessonId !== lessonId, coachRes.data.next?.title);
+    // The tutor streams Server-Sent Events; without a key it must report an error instead of crashing.
+    const tr = await fetch(`${BASE}/api/tutor`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ context: { lessonId, exerciseId: guidedId }, messages: [{ role: "user", content: "hint?" }] }) });
+    const tbody = await tr.text();
+    check("tutor needs a key and fails cleanly without one", tr.status >= 400 || /event: error/.test(tbody), `HTTP ${tr.status}`);
+    check("server still healthy after tutor error", (await call("/api/health")).status === 200);
+  }
 
   await stop();
   console.log(`\n${passed} passed, ${failed} failed. Temp data: ${dataDir}`);

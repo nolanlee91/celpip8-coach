@@ -1,0 +1,363 @@
+{
+  "id": "sp-04",
+  "skill": "speaking",
+  "module": "speaking-foundations",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Fluency without hesitation",
+  "titleVi": "Nói trôi chảy, bớt ngập ngừng",
+  "estimatedMinutes": 30,
+  "prerequisites": ["sp-03"],
+  "competencies": ["fluency_hesitation"],
+  "tasks": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"],
+  "objectives": [
+    "You will be able to replace harmful fillers (uh, um, à, ờ, long silences) with a few natural ones (well, the thing is, let me think).",
+    "You will be able to speak in chunks (thought groups) and pause at chunk boundaries instead of in the middle of a phrase.",
+    "You will be able to correct yourself quickly with “I mean” or “sorry” without restarting the sentence.",
+    "You will be able to recover when you forget a word or run out of ideas, by paraphrasing or moving to your next note."
+  ],
+  "objectiveVi": "Bạn sẽ biết phân biệt filler tự nhiên với filler gây hại, nói theo cụm thay vì từng từ, tự sửa nhanh mà không bắt đầu lại câu, và có sẵn “phao cứu sinh” khi quên từ hoặc hết ý.",
+  "whyItMattersVi": "Nhiều người ở Speaking 6 có đủ ý và ngữ pháp tương đối ổn, nhưng câu trả lời bị chia nhỏ bởi “uh… um…”, những lần bắt đầu lại câu và khoảng lặng dài. Người chấm đánh giá bạn như một người nghe thật, nên ngập ngừng nhiều làm giảm độ dễ nghe (listenability) và khiến bạn không kịp phát triển ý. Giảm ngập ngừng là một trong những cách nhanh nhất để từ 6 lên 7–8 mà không cần học thêm nhiều từ mới.",
+  "concept": [
+    {
+      "heading": "Fluency là gì (và không phải là gì)",
+      "body": "Fluency **không** có nghĩa là nói thật nhanh hay không bao giờ dừng. Người bản xứ cũng ngắt nghỉ, cũng nói “well…”. Fluency là: lời nói **liên tục**, ngắt nghỉ ở **đúng chỗ** (giữa các cụm ý), **không có khoảng lặng dài**, và khi sai thì **sửa nhanh** rồi đi tiếp.\n\nNgười học Việt Nam thường ngập ngừng vì ba lý do: (1) dịch từng từ từ tiếng Việt; (2) dừng lại để sửa mọi lỗi ngữ pháp nhỏ; (3) chưa có ý tiếp theo (đã giải quyết một phần ở sp-02 bằng ghi chú keyword)."
+    },
+    {
+      "heading": "Filler tự nhiên và filler gây hại",
+      "body": "**Gây hại:** “uh/um” trước gần mỗi câu hoặc giữa cụm từ; filler tiếng Việt (*à, ờ, thì, kiểu*); lặp từ (“and, and, and”); im lặng trên 3 giây.\n\n**Tự nhiên (dùng có chừng mực):**\n- *Well, …* — mở đầu câu trả lời hoặc câu khó.\n- *Let me think… / Let me think of a good example.* — câu “mua thời gian” có nghĩa.\n- *The thing is, …* — dẫn vào lý do chính.\n- *You know, … / I mean, …* — làm rõ ý.\n- *How can I put it?* — khi tìm cách diễn đạt.\n\nMột filler tự nhiên mỗi 15–20 giây nghe hoàn toàn bình thường. Mười cái “um” trong 60 giây thì không."
+    },
+    {
+      "heading": "Nói theo cụm (chunking)",
+      "body": "Người nói trôi chảy không ghép từng từ; họ nói theo **cụm ý (thought groups)** 3–7 từ và nghỉ ngắn giữa các cụm:\n\n*If I were you | I'd take the SkyTrain | because parking downtown | is a nightmare.*\n\nNghỉ ở ranh giới cụm nghe tự nhiên; nghỉ **giữa** cụm (“I'd take the… | SkyTrain”) nghe như đang bí. Cách luyện: học thuộc các **cụm có sẵn** (lexical chunks) như *end up + V-ing, it's worth + V-ing, the last thing you want is…, if I were you, I'd…*. Một cụm học thuộc được nói ra như một “từ dài”, không cần lắp ráp.\n\nTốc độ: khoảng 130–150 từ/phút là vừa. Tránh kiểu nói rất nhanh rồi dừng lâu — tốc độ đều dễ nghe hơn."
+    },
+    {
+      "heading": "Tự sửa lỗi nhanh",
+      "body": "Khi nói nhầm, hãy sửa trong 1–2 giây và đi tiếp:\n\n- *He moved to Calgary — sorry, I mean Edmonton — two years ago.*\n- *We left at six, or rather, a bit after six.*\n- *Actually, it was a Tuesday.*\n\n**Không** bắt đầu lại cả câu, **không** xin lỗi nhiều lần (“sorry, sorry”), **không** dừng để sửa lỗi nhỏ không làm sai nghĩa (thiếu -s, sai mạo từ). Chỉ sửa khi lỗi làm **sai nghĩa** (sai tên, sai số, sai thời gian). Sửa quá nhiều còn làm người nghe chú ý vào lỗi của bạn."
+    },
+    {
+      "heading": "Khi bị kẹt: ba “phao cứu sinh”",
+      "body": "1. **Quên từ → paraphrase.** Dùng *the person who…, the thing you use to…, the place where…*: “the person who owns your apartment” thay cho “landlord”. Hoặc dùng từ chung hơn: *the owner, the paperwork*.\n2. **Hết ý trong một khối → thêm ví dụ.** “Let me give you an example…” rồi kể một tình huống nhỏ của bạn hoặc người quen.\n3. **Rối hoàn toàn → nhảy sang keyword tiếp theo** với một signpost: “Anyway, another thing to keep in mind is…”.\n\nTuyệt đối không chuyển sang tiếng Việt và không im lặng chờ hết giờ. Một câu đơn giản nhưng liên tục luôn tốt hơn một câu hoàn hảo bị bỏ dở."
+    }
+  ],
+  "stimuli": {
+    "carlos-prompt": {
+      "title": "Task 1 prompt: a first job interview in English",
+      "text": "Your friend Carlos has his first job interview in English next week, at a logistics company in Delta. He is very nervous.\n\nGive Carlos some advice about how to prepare for the interview. (Preparation: 30 seconds. Speaking: 90 seconds.)"
+    },
+    "carlos-model-audio": {
+      "title": "Listen: a fluent Level 8 answer to Carlos",
+      "audio": [
+        {
+          "speaker": "Ben",
+          "voice": "male_a",
+          "text": "Hey Carlos, congrats on landing the interview! I know doing it in English feels like a lot of pressure, but honestly, you've got this. Let me give you a few tips. First of all, practise your answers out loud, not just in your head. The thing is, you might know exactly what you want to say, but if you've never actually said it, the words don't come out smoothly. So grab a friend, or even just your phone, and record yourself answering the classics, like “Tell me about yourself,” or “Why do you want this job?” Second, have two or three stories ready about times you solved a problem at work. I mean, they don't have to be dramatic. Something like the time you trained a new coworker, sorry, two new coworkers, during the holiday rush is perfect. And finally, if you don't understand a question, it's totally fine to ask them to rephrase it. Interviewers would much rather you ask than guess. So, practise out loud, get your stories ready, and don't be afraid to ask. You'll do great."
+        }
+      ]
+    },
+    "restart-transcript": {
+      "title": "A learner's Task 4 response (transcript)",
+      "text": "“I think the boy, the boy is, the boy will, uh, the boy is going to… no, the boy will fall. Because the, the ladder is, is not, the ladder isn't stable. And then the mother, the mom, she will, she's going to… she will run to, run to him.”"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Task 1: the same ideas with different fluency",
+      "stimulusId": "carlos-prompt",
+      "question": "What exactly makes one answer sound hesitant and another sound fluent?",
+      "steps": [
+        "Ý tưởng của cả ba bản gần như giống nhau: luyện câu trả lời, chuẩn bị ví dụ/tìm hiểu công ty, đến sớm/hỏi lại khi không hiểu. Sự khác biệt nằm ở **cách nói**.",
+        "Đánh dấu khi nghe: (a) filler gây hại (uh, um, à), (b) bắt đầu lại câu, (c) khoảng lặng dài, (d) filler tự nhiên, (e) tự sửa nhanh.",
+        "Để ý vị trí ngắt nghỉ: bản yếu dừng giữa cụm (“for the… the… question”), bản Level 8 dừng giữa các cụm ý.",
+        "Nghe bản Level 8 (audio) và chú ý “The thing is”, “I mean” và cách người nói sửa “a new coworker” mà không dừng lại."
+      ],
+      "answer": "The Level 8 version keeps going: natural fillers are rare and meaningful (Let me give you…, The thing is, I mean), the one self-correction takes about a second, pauses fall between chunks, and there is no silence.",
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "Hi Carlos. Uh… I think you should, you should, uh… prepare. Prepare for the… the… uh, the question. À… because the interviewer, he, he will ask… uh… about your experience. [3-second pause] Uh… and you should… practise, practise with friend. Um… um… and, and, and you should go early. Because… uh… [4-second pause] because the traffic. Uh… yeah. Good luck.",
+          "commentVi": "Filler gây hại gần như mỗi cụm (uh, um), có cả filler tiếng Việt “À”. Bắt đầu lại và lặp từ liên tục (“you should, you should”, “practise, practise”, “and, and, and”). Hai khoảng lặng dài 3–4 giây. Dừng giữa cụm (“for the… the… question”) cho thấy đang ghép từng từ. Vì toàn bộ sức lực dồn vào việc tìm từ, các ý không được phát triển; thêm lỗi “with friend”, “because the traffic” (thiếu “of”). Nói được khoảng 40 giây, phần còn lại là im lặng."
+        },
+        {
+          "label": "acceptable",
+          "text": "Hi Carlos, I heard you have an interview next week. Um, I have some advice for you. First, you should prepare answers for common questions. Um… for example, “Tell me about yourself.” You can practise it, uh, many times so you feel… uh… more confident. Second, you should research the company. Um, look at their website and, uh, learn what they do. Then you can, uh, you can ask good questions. Finally, um, try to arrive early, maybe ten minutes. Um… that's my advice. Good luck!",
+          "commentVi": "Khung rõ, không có khoảng lặng dài, chỉ một lần lặp (“you can, uh, you can”). Nhưng “um/uh” xuất hiện trước gần mỗi câu (khoảng 10 lần trong 50 giây), tạo nhịp nói ngắt quãng; một số chỗ dừng giữa cụm (“you feel… uh… more confident”). Người nghe theo kịp, nhưng nghe rõ là người nói đang vất vả. Câu trả lời cũng ngắn (khoảng 50 giây) vì nhịp chậm."
+        },
+        {
+          "label": "level8",
+          "text": "Hey Carlos, congrats on landing the interview! I know doing it in English feels like a lot of pressure, but honestly, you've got this. Let me give you a few tips. First of all, practise your answers out loud, not just in your head. The thing is, you might know exactly what you want to say, but if you've never actually said it, the words don't come out smoothly. So grab a friend, or even just your phone, and record yourself answering the classics, like “Tell me about yourself” or “Why do you want this job?” Second, have two or three stories ready about times you solved a problem at work. I mean, they don't have to be dramatic. Something like the time you trained a new coworker — sorry, two new coworkers — during the holiday rush is perfect. And finally, if you don't understand a question, it's totally fine to ask them to rephrase it. Interviewers would much rather you ask than guess. So, practise out loud, get your stories ready, and don't be afraid to ask. You'll do great.",
+          "commentVi": "Liên tục, không có khoảng lặng. Filler ít và có nghĩa: “Let me give you a few tips”, “The thing is”, “I mean” — chúng vừa cho người nói thời gian nghĩ vừa dẫn dắt người nghe. Tự sửa một lần trong khoảng một giây (“a new coworker — sorry, two new coworkers”) rồi đi tiếp, không bắt đầu lại câu. Nhiều cụm có sẵn được nói như một khối (congrats on landing, you've got this, would much rather… than…). Ngắt nghỉ ở ranh giới cụm. Khoảng 85–90 giây."
+        }
+      ],
+      "takeawayVi": "Fluency không đến từ việc nói nhanh hơn, mà từ việc thay “uh/um” bằng vài cụm tự nhiên, nói theo cụm, và sửa lỗi trong một giây rồi đi tiếp."
+    },
+    {
+      "id": "ex2",
+      "title": "Chunking one long sentence",
+      "question": "How do you say this sentence smoothly? “If you leave it until the last minute you'll probably end up paying twice as much for your flight.”",
+      "steps": [
+        "Tìm các cụm ý: mệnh đề if, cụm thời gian, mệnh đề chính, cụm V-ing, cụm giới từ.",
+        "Chia: If you leave it | until the last minute, | you'll probably end up | paying twice as much | for your flight.",
+        "Trong mỗi cụm, nhấn vào một từ mang nghĩa: LEAVE it | LAST minute | END up | TWICE as much | FLIGHT.",
+        "Nghỉ rất ngắn (dưới nửa giây) ở mỗi dấu |, không nghỉ giữa cụm. Luyện 3 lần: chậm → bình thường → bình thường mà không nhìn chữ.",
+        "Ghi nhớ các cụm có sẵn để dùng lại: leave it until the last minute, end up + V-ing, twice as much."
+      ],
+      "answer": "If you LEAVE it | until the LAST minute, | you'll probably END up | paying TWICE as much | for your FLIGHT.",
+      "takeawayVi": "Một câu dài trở nên dễ nói khi bạn coi nó là 4–5 cụm ngắn. Học cụm, không học từ lẻ — đó là cách người bản xứ nói nhanh mà không vấp."
+    },
+    {
+      "id": "ex3",
+      "title": "Recovering when you get stuck",
+      "question": "In the middle of a Task 6 answer to your neighbour, you forget the word “landlord”, and then you run out of things to say about your first point. What do you do?",
+      "steps": [
+        "Quên từ: không dừng, không nói tiếng Việt. Paraphrase bằng mệnh đề quan hệ: “I'll talk to… the person who owns the building, and…”.",
+        "Hết ý ở khối đầu: dùng câu mua thời gian có nghĩa và thêm ví dụ: “Let me give you an example. Last month, the same thing happened with the people upstairs…”.",
+        "Vẫn rối: nhảy sang keyword tiếp theo bằng signpost: “Anyway, the other thing I wanted to suggest is…”.",
+        "So sánh: phản ứng yếu là “uh… the… the… à… người chủ nhà… sorry, I forgot” — dừng 4–5 giây và mất mạch câu trả lời."
+      ],
+      "answer": "“If the noise keeps going, I'll have to talk to… the person who owns the building, but I'd really rather sort it out with you first. Let me give you an example. Last month, the people upstairs had the same problem, and they just switched to quieter shoes after ten o'clock, which made a huge difference. Anyway, the other thing I wanted to suggest is…”",
+      "takeawayVi": "Khi kẹt, mục tiêu là giữ mạch nói: paraphrase từ bị quên, thêm ví dụ khi hết ý, hoặc chuyển sang ý tiếp theo bằng signpost. Người chấm khó nhận ra bạn vừa quên từ."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "prompt": "In a Task 7 answer, you need a second to think of an example. What is the most natural thing to say?",
+      "hint": "Chọn cụm vừa cho bạn thời gian vừa cho người nghe biết điều gì sắp đến.",
+      "options": [
+        { "text": "“Uhhhhhh… um… uhhh…”", "misconception": "harmful-fillers", "whyVi": "Âm kéo dài không mang nghĩa, cho thấy bạn đang bí." },
+        { "text": "“À… ờ… thì…”", "misconception": "harmful-fillers", "whyVi": "Filler tiếng Việt nghe rất rõ với người chấm và làm gián đoạn tiếng Anh." },
+        { "text": "“Let me think of a good example…”", "misconception": null, "whyVi": "Đúng. Câu có nghĩa, nghe tự nhiên, cho bạn 1–2 giây và báo trước rằng một ví dụ sắp đến." },
+        { "text": "“Sorry, sorry, I forgot, sorry.”", "misconception": "restarting", "whyVi": "Xin lỗi nhiều lần làm người nghe chú ý vào sự bối rối của bạn thay vì nội dung." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Filler tốt là một cụm tiếng Anh có nghĩa (Let me think…, The thing is…, Well…). Dùng thưa — khoảng một lần mỗi 15–20 giây.",
+      "competency": "fluency_hesitation"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "prompt": "Which version shows the most natural places to pause? ( | = a short pause)",
+      "hint": "Nghỉ ở ranh giới giữa các cụm ý (mệnh đề, cụm giới từ), không nghỉ giữa một cụm như “the SkyTrain”.",
+      "options": [
+        { "text": "If I | were you I'd | take the | SkyTrain because | parking downtown is | a nightmare.", "misconception": "word-by-word", "whyVi": "Các chỗ nghỉ cắt ngang cụm (“If I | were you”, “take the | SkyTrain”) — nghe như đang tìm từ." },
+        { "text": "If I were you | I'd take the SkyTrain | because parking downtown | is a nightmare.", "misconception": null, "whyVi": "Đúng. Mỗi cụm là một đơn vị nghĩa: điều kiện | lời khuyên | nguyên nhân | kết luận." },
+        { "text": "If I were you I'd take the SkyTrain because parking downtown is a nightmare.", "misconception": "speed-burst", "whyVi": "Không nghỉ chỗ nào nghe như đọc vội; câu dài nói một hơi khó nghe và dễ vấp ở cuối." },
+        { "text": "If | I | were | you | I'd | take | the SkyTrain.", "misconception": "word-by-word", "whyVi": "Nghỉ sau mỗi từ là dấu hiệu rõ nhất của việc dịch và lắp ráp từng từ." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Chunking = nói theo cụm ý 3–7 từ, nghỉ ngắn giữa các cụm. Nó vừa dễ nghe hơn vừa cho bạn thời gian chuẩn bị cụm tiếp theo.",
+      "competency": "fluency_hesitation"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "prompt": "You say: “My brother moved to Calgary…” but you meant Edmonton. What is the best way to fix it?",
+      "hint": "Sửa nhanh, chỉ một lần, rồi tiếp tục câu đang nói.",
+      "options": [
+        { "text": "“My brother moved to Calgary — sorry, I mean Edmonton — about two years ago.”", "misconception": null, "whyVi": "Đúng. Một cụm sửa ngắn (“sorry, I mean”), không dừng lâu, câu vẫn tiếp tục." },
+        { "text": "Stop, take a breath, and start the whole answer again from the beginning.", "misconception": "restarting", "whyVi": "Bắt đầu lại tốn nhiều giây và làm hỏng mạch câu trả lời — rất tốn thời gian trong 60–90 giây." },
+        { "text": "“Calgary, no, no, no, sorry, sorry, not Calgary, sorry, Edmonton.”", "misconception": "restarting", "whyVi": "Sửa đúng thông tin nhưng quá dài và rối; người nghe bị phân tâm." },
+        { "text": "Stop talking for a few seconds while you work out how to fix it, then continue.", "misconception": "long-silence", "whyVi": "Lỗi sai tên thành phố đáng sửa, nhưng im lặng vài giây để “tính” cách sửa làm đứt mạch nói. Cụm “sorry, I mean…” cho phép sửa ngay mà không cần dừng." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Sửa lỗi làm sai nghĩa (tên, số, thời gian) bằng “sorry, I mean…”, “or rather…”, “actually…”. Bỏ qua lỗi nhỏ không làm sai nghĩa.",
+      "competency": "fluency_hesitation"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "carlos-model-audio",
+      "prompt": "Listen to the fluent answer to Carlos. When the speaker corrects himself, what does he say?",
+      "hint": "Nghe đoạn nói về việc chuẩn bị câu chuyện ở chỗ làm. Người nói sửa một con số.",
+      "options": [
+        { "text": "“sorry, two new coworkers”", "misconception": null, "whyVi": "Đúng. Anh ấy nói “a new coworker”, sửa ngay thành “sorry, two new coworkers” và tiếp tục câu mà không dừng." },
+        { "text": "“I mean, they don't have to be dramatic”", "misconception": "restarting", "whyVi": "“I mean” ở đây dùng để làm rõ ý, không phải để sửa lỗi." },
+        { "text": "“The thing is”", "misconception": "harmful-fillers", "whyVi": "“The thing is” là cụm dẫn vào lý do, không phải tự sửa." },
+        { "text": "“Let me give you a few tips”", "misconception": "harmful-fillers", "whyVi": "Đây là câu báo trước nội dung, không phải tự sửa." }
+      ],
+      "answerIndex": 0,
+      "evidence": "the time you trained a new coworker, sorry, two new coworkers, during the holiday rush",
+      "explanationVi": "Tự sửa tốt nhanh đến mức người nghe gần như không bị gián đoạn. Câu vẫn tiếp tục với “during the holiday rush is perfect”.",
+      "competency": "fluency_hesitation"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "prompt": "In the middle of a Task 1 answer you forget the word “receipt”. What is the best thing to say?",
+      "options": [
+        { "text": "“Keep the… the piece of paper the store gives you that shows what you paid, so you can return it.”", "misconception": null, "whyVi": "Đúng. Paraphrase bằng mệnh đề quan hệ (that shows what you paid) — người nghe hiểu ngay và câu không bị đứt." },
+        { "text": "“Keep the… the… paper thing… um… the… [long pause]”", "misconception": "long-silence", "whyVi": "Bắt đầu paraphrase nhưng bỏ dở và rơi vào im lặng." },
+        { "text": "“Keep the hóa đơn, so you can return it.”", "misconception": "long-silence", "whyVi": "Chuyển sang tiếng Việt khiến người chấm không hiểu và làm gián đoạn câu trả lời." },
+        { "text": "“Sorry, I forgot the word. I'll start again.”", "misconception": "restarting", "whyVi": "Dừng lại và bắt đầu lại tốn thời gian và làm lộ sự bối rối." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Khung paraphrase: the thing you use to… / the piece of paper that… / the person who… / the place where…",
+      "competency": "fluency_hesitation"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "prompt": "Fill in ONE word to complete this quick self-correction: “We left the house at six — sorry, I ___ seven — so we hit all the traffic on Highway 1.”",
+      "answers": ["mean", "meant"],
+      "mode": "exact",
+      "misconception": "restarting",
+      "explanationVi": "“Sorry, I mean…” là cụm tự sửa phổ biến nhất trong văn nói. Nói nó nhanh, rồi tiếp tục câu.",
+      "competency": "fluency_hesitation"
+    },
+    {
+      "id": "i3",
+      "type": "order",
+      "prompt": "Put these chunks in order to make one fluent sentence.",
+      "items": [
+        "The thing is,",
+        "if you wait until August to book a campsite,",
+        "you'll probably end up",
+        "driving around all weekend looking for a spot."
+      ],
+      "misconception": "word-by-word",
+      "explanationVi": "Mỗi mảnh là một cụm ý bạn nói một hơi: cụm dẫn (The thing is) → điều kiện → cụm có sẵn “end up” → kết quả “+ V-ing”. Nghỉ ngắn ở ranh giới cụm.",
+      "competency": "fluency_hesitation"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "restart-transcript",
+      "prompt": "Which advice would help this speaker MOST?",
+      "options": [
+        { "text": "Learn more difficult vocabulary for describing pictures.", "misconception": "word-by-word", "whyVi": "Từ vựng không phải vấn đề — người nói đã biết đủ từ (ladder, stable, fall)." },
+        { "text": "Stop restarting sentences to fix small grammar choices; pick one form (“is going to”) and keep going.", "misconception": null, "whyVi": "Đúng. Người nói liên tục bắt đầu lại để đổi giữa “will” và “is going to” hoặc “mother/mom” — đều không làm sai nghĩa. Mỗi lần bắt đầu lại phá vỡ mạch nói." },
+        { "text": "Speak much faster so the examiner doesn't notice the mistakes.", "misconception": "speed-burst", "whyVi": "Nói nhanh hơn không giải quyết việc bắt đầu lại; còn dễ vấp và khó nghe hơn." },
+        { "text": "Pause for a few seconds before each sentence to plan it perfectly.", "misconception": "long-silence", "whyVi": "Khoảng lặng dài trước mỗi câu làm câu trả lời rời rạc và tốn thời gian." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Bắt đầu lại câu (false starts) thường đến từ cầu toàn ngữ pháp. Lỗi nhỏ không làm sai nghĩa thì bỏ qua; chọn một cấu trúc và nói đến hết câu: “I think the boy is going to fall, because the ladder isn't stable. Then his mom will probably run over to help him.”",
+      "competency": "fluency_hesitation"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "prompt": "You are 50 seconds into a 90-second Task 1 answer, and you have finished all your notes. What is the best move?",
+      "options": [
+        { "text": "Say “That's all I have” and wait silently for the time to end.", "misconception": "long-silence", "whyVi": "40 giây im lặng là mất cơ hội thể hiện khả năng nói; người chấm không có gì để đánh giá." },
+        { "text": "Go back to your strongest point and add a concrete example: “Let me give you an example. When my cousin started at a new job…”, then wrap up.", "misconception": null, "whyVi": "Đúng. Thêm ví dụ cụ thể cho ý đã nói là cách lấp thời gian có giá trị nhất, rồi kết thúc bằng câu kết." },
+        { "text": "Go back to the beginning and start the whole answer again, more carefully this time.", "misconception": "restarting", "whyVi": "Bắt đầu lại từ đầu lặp lại nội dung đã nói, tốn thời gian và gần như chắc chắn bị cắt trước câu kết." },
+        { "text": "Keep the sound going with “um… so… yeah… um…” until the timer ends.", "misconception": "harmful-fillers", "whyVi": "Âm không nghĩa kéo dài không phải là nội dung; người chấm nghe rõ bạn đang lấp chỗ trống." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "“Phao cứu sinh” số 2: hết ý → thêm ví dụ (Let me give you an example…) → câu kết. Đây cũng là lý do nên để dành một ví dụ “dự phòng” khi ghi chú.",
+      "competency": "fluency_hesitation"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "Four learners answer the same Task 7 question. Which one sounds closest to Level 8 fluency?",
+      "options": [
+        { "text": "“I think, uh, um, cities should, uh, build more, um, bike lanes, uh, because, um, it is, uh, safer.”", "misconception": "harmful-fillers", "whyVi": "“uh/um” sau gần mỗi từ — dù câu đơn giản, nó nghe rất ngập ngừng." },
+        { "text": "“Well, I think cities should build more bike lanes. The thing is, when cyclists share the road with buses, everyone's nervous — I mean, both the drivers and the cyclists.”", "misconception": null, "whyVi": "Đúng. Mở bằng “Well”, dẫn lý do bằng “The thing is”, làm rõ bằng “I mean” — filler tự nhiên, ít, có nghĩa; nói theo cụm, không lặp." },
+        { "text": "“Ithinkcitiesshouldbuildmorebikelanesbecauseitissaferandcheaperandbetter… [5-second pause] …and also healthy.”", "misconception": "speed-burst", "whyVi": "Nói một hơi rất nhanh rồi dừng lâu — tốc độ không đều, khó nghe." },
+        { "text": "“I think cities should, should, cities must build, should build more bike, bike lanes, more lanes for bikes.”", "misconception": "restarting", "whyVi": "Liên tục bắt đầu lại và tự sửa những thứ không cần sửa." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Level 8 fluency: tốc độ đều, filler ít và tự nhiên, ngắt nghỉ theo cụm, không lặp và không bắt đầu lại câu.",
+      "competency": "fluency_hesitation"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "prompt": "Which self-correction is the MOST worth making while you speak?",
+      "options": [
+        { "text": "You said “an advice” instead of “some advice”.", "misconception": "restarting", "whyVi": "Lỗi nhỏ, người nghe vẫn hiểu đúng nghĩa. Dừng để sửa sẽ làm gián đoạn nhiều hơn lợi ích." },
+        { "text": "You said “the meeting is on Monday” but it is actually on Thursday.", "misconception": null, "whyVi": "Đúng. Sai ngày làm sai nghĩa thông tin — đáng sửa nhanh: “— sorry, I mean Thursday —”." },
+        { "text": "You said “he go” instead of “he goes”.", "misconception": "restarting", "whyVi": "Lỗi ngữ pháp nhỏ, không đổi nghĩa. Hãy luyện để giảm nó, nhưng khi đang nói thì đi tiếp." },
+        { "text": "You used “big” and later thought “huge” would sound better.", "misconception": "restarting", "whyVi": "Không phải lỗi; đổi từ giữa chừng chỉ làm câu bị ngắt." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Quy tắc: sửa lỗi làm sai nghĩa (người, nơi chốn, số, thời gian, phủ định); bỏ qua lỗi nhỏ. Lỗi ngữ pháp lặp lại nhiều thì xử lý trong lúc luyện tập (sp-15), không phải trong lúc thi.",
+      "competency": "fluency_hesitation"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 60,
+      "prompt": "Task 2: Talk about a time when you were late for something important. What happened, and how did you deal with it?\n\nRecord your answer, then listen back once and check it against the list.",
+      "checklist": [
+        "There was no silent pause longer than about 2–3 seconds",
+        "I used no Vietnamese fillers (à, ờ, thì) and no more than 3–4 “uh/um” sounds",
+        "I used at least one natural filler or time-buying phrase (well / the thing is / let me think / I mean)",
+        "I never restarted a whole sentence; any self-correction was short (“sorry, I mean…”)",
+        "My pauses came between chunks, not in the middle of phrases",
+        "I kept talking until I reached a wrap-up sentence"
+      ],
+      "modelAnswer": "Well, the one that comes to mind is the day of my driving road test in Surrey, about three years ago — sorry, I mean four years ago. The test was at nine, and I'd planned to leave at eight. The thing is, it had snowed overnight, and when I got to the car, it was completely covered and the windshield was frozen. By the time I'd scraped it off, it was already ten past eight. Then traffic on King George was crawling. I called the ICBC office from the car, and I expected them to cancel, but the woman was really understanding and said I could still come if I arrived before nine-fifteen. I made it with about two minutes to spare, and, believe it or not, I passed. Looking back, it taught me to always check the weather the night before anything important.",
+      "misconception": "harmful-fillers",
+      "explanationVi": "Nghe lại bản ghi và đếm: số “uh/um”, số khoảng lặng dài, số lần bắt đầu lại câu. Bài mẫu có hai filler tự nhiên (Well, The thing is), một lần tự sửa nhanh (sorry, I mean…), và các cụm có sẵn (by the time…, with two minutes to spare, believe it or not, looking back).",
+      "competency": "fluency_hesitation"
+    }
+  ],
+  "misconceptions": {
+    "harmful-fillers": {
+      "label": "Filler gây hại (uh, um, à, ờ)",
+      "explanationVi": "Bạn dùng âm không nghĩa hoặc filler tiếng Việt trước gần mỗi câu hay giữa cụm từ. Đó là dấu hiệu bạn đang tìm từ, và nó làm câu trả lời khó nghe dù nội dung ổn.",
+      "fixVi": "Ghi âm và đếm số “uh/um”. Thay dần bằng 3–4 cụm có nghĩa: Well…, Let me think…, The thing is…, I mean… Khi cần dừng, dừng im lặng ngắn (dưới 1 giây) còn tốt hơn kéo dài “uhhh”."
+    },
+    "restarting": {
+      "label": "Bắt đầu lại câu / sửa quá nhiều",
+      "explanationVi": "Bạn dừng để sửa lỗi nhỏ không làm sai nghĩa, đổi cấu trúc giữa chừng, hoặc xin lỗi nhiều lần. Đây là thói quen cầu toàn ngữ pháp, làm câu trả lời bị đứt quãng và tốn thời gian.",
+      "fixVi": "Chỉ sửa lỗi làm sai nghĩa, bằng một cụm ngắn (sorry, I mean… / or rather…). Lỗi nhỏ thì đi tiếp. Khi luyện, tập nói hết câu dù biết có lỗi."
+    },
+    "long-silence": {
+      "label": "Bế tắc khi bị kẹt (im lặng, chèn tiếng Việt)",
+      "explanationVi": "Khi quên từ hoặc hết ý, bạn dừng lại chờ — có khi 3–5 giây hoặc đến hết giờ — hoặc chèn luôn từ tiếng Việt. Thời gian im lặng không thể hiện được gì, từ tiếng Việt thì người nghe không hiểu, và người chấm nghe rõ bạn bị kẹt mà không có cách xoay xở.",
+      "fixVi": "Dùng ba phao cứu sinh: paraphrase từ bị quên (the person who…), thêm ví dụ (Let me give you an example…), hoặc chuyển sang keyword tiếp theo (Anyway, another thing is…)."
+    },
+    "word-by-word": {
+      "label": "Ghép từng từ, nghỉ giữa cụm",
+      "explanationVi": "Bạn xây câu từng từ một (thường do dịch từ tiếng Việt), nên ngắt nghỉ rơi vào giữa cụm (“take the… SkyTrain”). Câu nghe vấp và chậm dù từ vựng không khó.",
+      "fixVi": "Học và luyện theo cụm có sẵn (end up + V-ing, if I were you, it's worth + V-ing). Khi luyện, đánh dấu | giữa các cụm và nói mỗi cụm một hơi."
+    },
+    "speed-burst": {
+      "label": "Tốc độ không đều",
+      "explanationVi": "Bạn nói rất nhanh một đoạn (thường là phần đã chuẩn bị) rồi dừng lâu khi hết. Người nghe khó theo kịp đoạn nhanh và nghe rõ khoảng lặng sau đó.",
+      "fixVi": "Giữ tốc độ khoảng 130–150 từ/phút: chậm lại một chút ở các ý chính, nghỉ ngắn giữa các cụm. Tốc độ đều cho bạn thời gian nghĩ câu tiếp theo trong lúc nói."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "Well, …", "vi": "À thì, … (mở câu một cách tự nhiên, cho bạn một nhịp nghĩ).", "example": "Well, the first thing I'd do is call the strata office." },
+    { "term": "Let me think…", "vi": "Để mình nghĩ xem… (mua thời gian có nghĩa).", "example": "Let me think of a good example… Okay, last winter in Kelowna…" },
+    { "term": "The thing is, …", "vi": "Vấn đề là, … (dẫn vào lý do chính).", "example": "The thing is, the 99 B-Line is always packed at eight." },
+    { "term": "I mean, …", "vi": "Ý mình là, … (làm rõ hoặc sửa nhẹ ý vừa nói).", "example": "It's a great school. I mean, the classes are small and the teachers really care." },
+    { "term": "sorry, I mean …", "vi": "xin lỗi, ý mình là … (tự sửa nhanh).", "example": "The appointment is on Tuesday — sorry, I mean Wednesday." },
+    { "term": "…, or rather, …", "vi": "…, hay đúng hơn là, … (chỉnh lại cho chính xác).", "example": "We waited an hour, or rather, about fifty minutes." },
+    { "term": "How can I put it?", "vi": "Nói thế nào nhỉ? (khi tìm cách diễn đạt).", "example": "The neighbourhood is… how can I put it? Quiet, but not boring." },
+    { "term": "Anyway, …", "vi": "Dù sao thì, … (quay lại ý chính / chuyển sang ý tiếp).", "example": "Anyway, the other thing I wanted to mention is the parking." },
+    { "term": "end up + V-ing", "vi": "rốt cuộc lại phải … (cụm có sẵn rất hay dùng).", "example": "If you don't book early, you'll end up paying more for the ferry." },
+    { "term": "the person who … / the thing you use to …", "vi": "khung paraphrase khi quên từ.", "example": "You should call the person who owns the building — the landlord." }
+  ],
+  "grammar": [
+    {
+      "point": "Relative clauses for paraphrasing a word you forget",
+      "explanationVi": "Khi quên một danh từ, bạn có thể mô tả nó bằng mệnh đề quan hệ: “the person who + V” (người), “the thing (that) you use to + V” (đồ vật), “the place where + mệnh đề” (nơi chốn), “the paper that shows + …”. Đây là kỹ năng giữ fluency quan trọng nhất và cũng được dùng nhiều trong Task 8. Chú ý: “who” cho người, “that/which” cho vật, “where” cho nơi chốn; động từ sau “who” chia theo danh từ đứng trước (the person who owns…).",
+      "examples": [
+        "the person who fixes pipes (= a plumber)",
+        "the thing you use to scrape ice off the windshield (= an ice scraper)",
+        "the place where you renew your driver's licence (= the ICBC office)",
+        "the piece of paper that shows what you paid (= a receipt)"
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Task 2: Personal experience", "route": "/speaking?task=S2" },
+    { "label": "Practise Task 1: Giving advice", "route": "/speaking?task=S1" },
+    { "label": "Review your mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises; keys confirmed. Rewrote i5 distractors so each maps cleanly (restart whole answer -> restarting; um-filling -> harmful-fillers), rewrote g3 option 4 to fit long-silence, remapped i1 Vietnamese-word option and broadened the long-silence misconception, added \"meant\" to i2, quoted interview questions in the audio clip (180 words, g4 evidence still verbatim), trimmed the 60-s model to 144 words."}
+}

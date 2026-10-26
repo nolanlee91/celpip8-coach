@@ -1,0 +1,416 @@
+{
+  "id": "ls-08",
+  "skill": "listening",
+  "module": "listening-comprehension",
+  "level": "core",
+  "difficulty": 8,
+  "title": "Following longer conversations",
+  "titleVi": "Theo dõi hội thoại dài và nhiều người nói",
+  "estimatedMinutes": 35,
+  "prerequisites": ["ls-06"],
+  "competencies": ["long_conversation"],
+  "tasks": ["L1", "L5"],
+  "objectives": [
+    "You will be able to keep track of who said what in a conversation with two or three speakers.",
+    "You will be able to tell the difference between a suggestion, an objection and a final decision.",
+    "You will be able to follow changes of plan and identify what was actually agreed at the end."
+  ],
+  "objectiveVi": "Sau bài này, bạn theo dõi được ai đề xuất gì, ai phản đối, kế hoạch đổi thế nào và cuối cùng mọi người chốt điều gì — kể cả khi có ba người cùng nói.",
+  "whyItMattersVi": "Part 1 (Problem Solving) và Part 5 (Discussion) là những phần dài nhất của Listening, với nhiều câu hỏi dựa trên cùng một cuộc hội thoại. Người học Level 6 thường nhớ được từng ý lẻ nhưng lẫn lộn người nói, hoặc chọn một đề xuất đã bị bác bỏ thay cho quyết định cuối cùng. Chỉ cần sửa hai lỗi này, bạn có thể lấy thêm nhiều câu ở hai Part chiếm tới 16 câu hỏi.",
+  "concept": [
+    {
+      "heading": "Hội thoại dài có một “bộ khung” lặp lại",
+      "body": "Phần lớn hội thoại giải quyết vấn đề trong CELPIP đi theo bộ khung:\n\n**Vấn đề → Đề xuất 1 → Phản đối → Đề xuất 2 → (điều chỉnh) → Quyết định → Phân công việc.**\n\nCâu hỏi thường nhắm vào đúng những điểm chuyển này: *Whose idea was…? Why was the first plan rejected? What do they finally decide? What will the woman do next?* Nếu bạn biết trước bộ khung này, bạn sẽ không bị cuốn vào từng chi tiết mà luôn biết mình đang ở “bước nào” của cuộc thảo luận.\n\nĐiều quan trọng nhất: **một ý được nhắc tới chưa chắc đã được chọn**. Nhiều đáp án sai là những đề xuất có thật trong bài nhưng đã bị gạt đi."
+    },
+    {
+      "heading": "Ngôn ngữ đề xuất, phản đối và quyết định",
+      "body": "- **Đề xuất (suggestion):** *What if we…? How about…? Could we…? I'd suggest… I was thinking… Why not…?* → mới là ý tưởng, **chưa phải quyết định**.\n- **Phản đối/đặt vấn đề (objection):** *The trouble with… is… That's a long way… I can't do… It'll be freezing… Sounds complicated.*\n- **Đồng ý (agreement):** *I agree with Sam. Works for me. I'm on board. Fair.*\n- **Đổi kế hoạch (change of plan):** *Actually… Then… Hmm, what about… instead? On second thought… Wait…*\n- **Quyết định (decision):** *Okay, so… / Alright. / Let's… / So, X it is. / That's settled.* — thường là **lời tóm tắt** ở cuối, do người điều phối nói.\n- **Còn để ngỏ (not decided):** *Let's keep that as a maybe. We'll vote on it later. I'll confirm…* → chưa phải quyết định."
+    },
+    {
+      "heading": "Theo dõi ai nói gì",
+      "body": "Với ba người nói, hãy làm quen với từng giọng ngay từ 2–3 câu đầu: ai là người chủ trì (thường mở đầu và tóm tắt), ai hay phản đối, ai hay đưa ý mới. Khi ghi chú, dùng **chữ cái đầu tên** trước mỗi ý:\n\n*A: Fri dinner? — B: Fri ✗ (late shift) — C: Sun brunch ✓ — A: park? ✗ rain → B: café ✓*\n\nCâu hỏi *Who suggested…?* hay đặt bẫy bằng cách gán ý cho **người đồng ý** hoặc **người tóm tắt**, thay vì người đầu tiên nêu ý. Người nói “Let's do X” ở cuối thường không phải là người nghĩ ra X."
+    },
+    {
+      "heading": "Bẫy thường gặp trong hội thoại dài",
+      "body": "1. **Đề xuất bị bác bỏ:** đáp án mô tả ý được nhắc tới nhưng không được chọn (ví dụ: picnic ở công viên đã bị bác vì trời mưa).\n2. **Nhầm người:** đúng ý nhưng sai người nói hoặc sai người được giao việc.\n3. **Quyết định chưa chốt:** đáp án nói “they agreed on the budget” trong khi bài nói “we'll vote on it next month”.\n4. **Thông tin cũ bị cập nhật:** một người nói sai rồi được sửa lại (*'No, the pool closes at eight on Sundays, remember?'*). Đáp án dựa vào thông tin cũ là sai.\n5. **Lẫn lý do:** lý do bác bỏ kế hoạch A bị gán cho kế hoạch B."
+    },
+    {
+      "heading": "Cách nghe một hội thoại dài",
+      "body": "1. **Trước khi nghe:** đọc dòng giới thiệu, xác định vấn đề cần giải quyết.\n2. **Trong khi nghe:** ghi theo dạng **danh sách phương án**, mỗi phương án có dấu ✓ (giữ) hoặc ✗ (bỏ) và lý do ngắn.\n3. **Đặc biệt chú ý 20 giây cuối:** đó là nơi có lời tóm tắt và phân công.\n4. **Khi trả lời:** với câu hỏi *final decision*, chỉ chọn phương án mang dấu ✓ cuối cùng; với câu hỏi *who*, kiểm tra chữ cái đầu trong ghi chú.\n\nBạn không cần nhớ từng câu. Bạn cần nhớ **trạng thái** của mỗi ý: ai đưa ra, có bị bác không, và vì sao."
+    }
+  ],
+  "stimuli": {
+    "long-weekend": {
+      "title": "Three friends plan a long weekend",
+      "audio": [
+        { "speaker": "Megan", "voice": "female_a", "text": "Okay, so for the long weekend, I was thinking we drive up to Whistler on Friday night." },
+        { "speaker": "Jordan", "voice": "male_a", "text": "Friday night's gonna be a nightmare on the Sea-to-Sky. What if we leave Saturday morning instead, like, really early?" },
+        { "speaker": "Chloe", "voice": "female_b", "text": "I can't do Saturday morning. I've got my sister's thing until noon. Could we go Saturday afternoon?" },
+        { "speaker": "Megan", "voice": "female_a", "text": "Then we'd only get a day and a half up there. Hmm. What about Squamish instead? It's only an hour, so leaving in the afternoon is no big deal." },
+        { "speaker": "Jordan", "voice": "male_a", "text": "Squamish works for me. There's that campground near the Chief." },
+        { "speaker": "Chloe", "voice": "female_b", "text": "Camping? In May? It'll be freezing at night." },
+        { "speaker": "Megan", "voice": "female_a", "text": "Fair. Okay, let's find an Airbnb in Squamish and leave Saturday at one. And Jordan, you're driving, since you've got the bigger car." },
+        { "speaker": "Jordan", "voice": "male_a", "text": "Ha. Fine." }
+      ]
+    },
+    "strata-bbq": {
+      "title": "A strata council meeting",
+      "audio": [
+        { "speaker": "Helen", "voice": "female_a", "text": "Next item: the summer barbecue. Last year we had it in the courtyard on a Sunday. Any thoughts for this year?" },
+        { "speaker": "Victor", "voice": "male_b", "text": "I'd suggest a Saturday. A lot of people start work early on Mondays, and they left before the cleanup last time." },
+        { "speaker": "Sunita", "voice": "female_b", "text": "I agree with Victor. And could we have it on the rooftop? It's got a much better view." },
+        { "speaker": "Helen", "voice": "female_a", "text": "I like that idea, but the rooftop has a capacity of forty people, and we've got sixty units. Unless we did two sittings, maybe." },
+        { "speaker": "Victor", "voice": "male_b", "text": "Two sittings sounds complicated. Let's just keep it in the courtyard." },
+        { "speaker": "Sunita", "voice": "female_b", "text": "Okay, okay, the courtyard's fine. But can we at least rent a couple of tents in case it rains?" },
+        { "speaker": "Helen", "voice": "female_a", "text": "Yes, that's sensible. So: Saturday, in the courtyard, with tents. I'll get some quotes for the tents, and we'll vote on the budget at the June meeting." }
+      ]
+    },
+    "moving-day": {
+      "title": "A couple plans their move",
+      "audio": [
+        { "speaker": "Anh", "voice": "female_a", "text": "So the movers called back. They can do the twenty-eighth, but it's eighteen hundred dollars, which is way more than the quote online." },
+        { "speaker": "David", "voice": "male_a", "text": "Eighteen hundred? The website said around eleven hundred." },
+        { "speaker": "Anh", "voice": "female_a", "text": "Apparently that was for a weekday. The twenty-eighth is a Saturday, and it's the end of the month, so everyone's moving." },
+        { "speaker": "David", "voice": "male_a", "text": "Okay, so what if we move on the Wednesday before, the twenty-fifth? We'd have to pay a few days' extra rent on the new place, though." },
+        { "speaker": "Anh", "voice": "female_a", "text": "No, the new lease starts on the twentieth anyway, remember? We're paying for those days whether we're living there or not." },
+        { "speaker": "David", "voice": "male_a", "text": "Oh, right. Then Wednesday's a no-brainer. And let's pack the boxes ourselves to save a bit more." },
+        { "speaker": "Anh", "voice": "female_a", "text": "Sounds good. I'll check that I can take the day off, but I'm pretty sure it's fine. Let's book the movers before that slot's gone." }
+      ]
+    },
+    "training-plan": {
+      "title": "Staff planning a training session",
+      "audio": [
+        { "speaker": "Robert", "voice": "male_b", "text": "So, the cybersecurity training. Head office wants everyone done by the end of March. I was going to book one big session in the boardroom." },
+        { "speaker": "Fatima", "voice": "female_a", "text": "The trouble with one session is the front desk. Somebody always has to be on, so two or three people would miss it no matter what." },
+        { "speaker": "Kenji", "voice": "male_a", "text": "Could we just do it online? Everyone watches the module whenever it suits them." },
+        { "speaker": "Robert", "voice": "male_b", "text": "Head office actually recommended in person, because people tend to click through the online version without really paying attention." },
+        { "speaker": "Fatima", "voice": "female_a", "text": "Then why not run it twice? One morning, one afternoon. The front desk staff can swap." },
+        { "speaker": "Kenji", "voice": "male_a", "text": "I'd be fine with that, as long as it's not on a Monday. Mondays are chaos for my team." },
+        { "speaker": "Robert", "voice": "male_b", "text": "Alright. Two in-person sessions, probably a Tuesday and a Thursday. Fatima, could you sort out the front desk swaps? I'll confirm the dates with the trainer before I send anything out." }
+      ]
+    },
+    "birthday-dinner": {
+      "title": "Siblings plan their mother's birthday",
+      "audio": [
+        { "speaker": "Minh", "voice": "male_a", "text": "For Mom's sixtieth, I was thinking that Vietnamese place on Kingsway. She loves their pho." },
+        { "speaker": "Thu", "voice": "female_b", "text": "She does, but she goes there every other week. It's not exactly special. What about the seafood restaurant in Steveston? We could walk along the docks after." },
+        { "speaker": "Minh", "voice": "male_a", "text": "Steveston's a long drive for Auntie Hoa, though, and she doesn't drive at night." },
+        { "speaker": "Thu", "voice": "female_b", "text": "I could pick her up. Honestly, it's on my way." },
+        { "speaker": "Minh", "voice": "male_a", "text": "Okay, if you're sure. But the seafood place only takes reservations for groups of up to ten, and we're twelve." },
+        { "speaker": "Thu", "voice": "female_b", "text": "Hmm. Then let's book their private room. It's an extra hundred, but split twelve ways, that's nothing." },
+        { "speaker": "Minh", "voice": "male_a", "text": "Fine, I'm convinced. Actually, wait. Didn't you say Mom's not into fancy places? Is a private room too much?" },
+        { "speaker": "Thu", "voice": "female_b", "text": "I said she's not into fancy food. A nice room is different. She'll love it." }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "e1",
+      "title": "Final decision vs earlier suggestions",
+      "stimulusId": "long-weekend",
+      "question": "What do the friends finally decide? (A) Drive to Whistler on Friday night. (B) Leave for Whistler early Saturday morning. (C) Camp near the Chief in Squamish. (D) Stay at an Airbnb in Squamish and leave on Saturday afternoon.",
+      "steps": [
+        "I write each proposal as it comes, with a ✓ or ✗ and the reason: 'M: Whistler Fri night' → 'J: traffic ✗'.",
+        "'J: Sat a.m. early' → 'C: can't, sister till noon ✗'. 'C: Sat p.m.' → 'M: only 1.5 days in Whistler ✗'.",
+        "'M: Squamish instead (1 hr)' → 'J: works ✓'. 'J: campground' → 'C: freezing in May ✗'.",
+        "The last 15 seconds contain the decision language: 'Okay, let's find an Airbnb in Squamish and leave Saturday at one.' One o'clock = Saturday afternoon.",
+        "A, B and C were all mentioned, but each has a ✗ in my notes. Only D has a ✓ at the end."
+      ],
+      "answer": "(D) Stay at an Airbnb in Squamish and leave on Saturday afternoon.",
+      "takeawayVi": "Ba trong bốn đáp án là những ý có thật trong bài nhưng đã bị bác bỏ. Ghi chú theo dạng ✓/✗ giúp bạn chỉ chọn ý còn “sống” ở cuối cuộc trò chuyện."
+    },
+    {
+      "id": "e2",
+      "title": "Who said what with three speakers",
+      "stimulusId": "long-weekend",
+      "question": "Who objects to the idea of camping, and why? (A) Megan, because it is too far. (B) Jordan, because his car is too small. (C) Chloe, because it will be too cold at night. (D) Megan, because the campground is full.",
+      "steps": [
+        "Three voices: Megan (opens and summarizes), Jordan, Chloe. I note initials before each idea.",
+        "The camping idea comes from Jordan: 'There's that campground near the Chief.' So Jordan is not the one who objects.",
+        "The next turn is Chloe: 'Camping? In May? It'll be freezing at night.' That is the objection, with a reason.",
+        "Megan only agrees with the objection ('Fair'). She does not raise it. And Jordan has 'the bigger car', which is the opposite of B.",
+        "Answer: C."
+      ],
+      "answer": "(C) Chloe, because it will be too cold at night.",
+      "takeawayVi": "Người phản đối là người nói ngay sau đề xuất, không phải người đồng ý (“Fair”) hay người tóm tắt. Ghi chữ cái đầu tên trước mỗi ý giúp bạn tránh bẫy nhầm người."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "strata-bbq",
+      "prompt": "Who first suggests changing the day of the barbecue?",
+      "hint": "Listen for suggestion language such as 'I'd suggest…' or 'What if…'. Agreeing with an idea is not the same as suggesting it.",
+      "options": [
+        { "text": "Helen", "misconception": "wrong_speaker", "whyVi": "Helen chủ trì và chỉ nhắc lại năm ngoái tổ chức vào Chủ nhật." },
+        { "text": "Victor", "misconception": null, "whyVi": "Đúng: “I'd suggest a Saturday.”" },
+        { "text": "Sunita", "misconception": "wrong_speaker", "whyVi": "Sunita chỉ đồng ý (“I agree with Victor”) rồi đề xuất địa điểm khác." },
+        { "text": "Nobody; they keep it on a Sunday.", "misconception": "rejected_option", "whyVi": "Chủ nhật là kế hoạch năm ngoái; quyết định cuối là thứ Bảy." }
+      ],
+      "answerIndex": 1,
+      "evidence": "I'd suggest a Saturday.",
+      "explanationVi": "“I'd suggest…” là tín hiệu đề xuất. Người đồng ý sau đó (Sunita) và người tóm tắt (Helen) không phải là người đưa ra ý tưởng.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "strata-bbq",
+      "prompt": "What is the main problem with holding the barbecue on the rooftop?",
+      "hint": "Helen says 'I like that idea, but…'. Listen to the numbers she gives after 'but'.",
+      "options": [
+        { "text": "The view is better in the courtyard.", "misconception": "confused_reason", "whyVi": "Ngược lại: Sunita nói rooftop có view đẹp hơn." },
+        { "text": "Two sittings would be too complicated.", "misconception": "confused_reason", "whyVi": "Đó là lý do bác bỏ giải pháp “two sittings”, không phải vấn đề chính của rooftop." },
+        { "text": "It is not big enough for all the residents.", "misconception": null, "whyVi": "Đúng: sức chứa 40 người, trong khi tòa nhà có 60 căn hộ." },
+        { "text": "It might rain on the rooftop.", "misconception": "confused_reason", "whyVi": "Mưa là lý do Sunita muốn thuê lều cho courtyard." }
+      ],
+      "answerIndex": 2,
+      "evidence": "the rooftop has a capacity of forty people, and we've got sixty units",
+      "explanationVi": "Hãy giữ lý do gắn với đúng phương án: rooftop ✗ vì sức chứa; two sittings ✗ vì phức tạp; tents ✓ vì có thể mưa. Đáp án sai mượn lý do của phương án khác.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "g3",
+      "type": "order",
+      "stimulusId": "strata-bbq",
+      "prompt": "Put the ideas in the order in which they were raised during the meeting.",
+      "hint": "Write one short note per turn while you listen, with the speaker's initial. Each new idea usually reacts to the one just before it.",
+      "items": [
+        "Holding the barbecue on a Saturday",
+        "Moving the barbecue to the rooftop",
+        "Running two separate sittings",
+        "Renting tents in case of rain"
+      ],
+      "misconception": "lost_sequence",
+      "explanationVi": "Thứ tự: Victor đề xuất thứ Bảy → Sunita đề xuất rooftop → Helen nêu khả năng chia hai đợt → Sunita đề xuất thuê lều. Theo dõi trình tự giúp bạn biết ý nào được nêu sau và có thể thay thế ý trước.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "strata-bbq",
+      "prompt": "What has been decided about the cost of the tents?",
+      "hint": "Listen to Helen's last sentence. Is there a word that shows the decision is still in the future?",
+      "options": [
+        { "text": "Helen has already approved the budget.", "misconception": "not_final", "whyVi": "Helen chỉ sẽ lấy báo giá; ngân sách chưa được duyệt." },
+        { "text": "Sunita will pay for the tents herself.", "misconception": "wrong_speaker", "whyVi": "Không ai nói Sunita trả tiền; cô ấy chỉ đề xuất." },
+        { "text": "The council will vote on it at a later meeting.", "misconception": null, "whyVi": "Đúng: “we'll vote on the budget at the June meeting”." },
+        { "text": "They decided the tents are too expensive.", "misconception": "rejected_option", "whyVi": "Lều đã được chấp nhận (“that's sensible”); chỉ chi phí là chưa chốt." }
+      ],
+      "answerIndex": 2,
+      "evidence": "I'll get some quotes for the tents, and we'll vote on the budget at the June meeting.",
+      "explanationVi": "Ý tưởng thuê lều đã được chấp nhận, nhưng ngân sách thì chưa: “we'll vote… at the June meeting” là dấu hiệu của việc còn để ngỏ. Phân biệt “đồng ý ý tưởng” và “đã quyết định chi tiết”.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "g5",
+      "type": "choice",
+      "stimulusId": "strata-bbq",
+      "prompt": "What is the final plan for the barbecue?",
+      "hint": "Helen summarizes the plan, starting with 'So:'. Check every part of each option against that summary.",
+      "options": [
+        { "text": "Sunday, in the courtyard, with tents", "misconception": "rejected_option", "whyVi": "Chủ nhật là kế hoạch năm ngoái, đã đổi sang thứ Bảy." },
+        { "text": "Saturday, on the rooftop, in two sittings", "misconception": "rejected_option", "whyVi": "Rooftop và hai đợt đều đã bị bác." },
+        { "text": "Saturday, in the courtyard, with tents", "misconception": null, "whyVi": "Đúng: “So: Saturday, in the courtyard, with tents.”" },
+        { "text": "Saturday, on the rooftop, with tents", "misconception": "rejected_option", "whyVi": "Kết hợp một ý được chọn (tents) với một ý bị bác (rooftop)." }
+      ],
+      "answerIndex": 2,
+      "evidence": "So: Saturday, in the courtyard, with tents.",
+      "explanationVi": "Lời tóm tắt bắt đầu bằng “So:” ở cuối là bằng chứng mạnh nhất cho quyết định cuối cùng. Các đáp án sai trộn ý đã bị bác với ý được giữ.",
+      "competency": "long_conversation"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "moving-day",
+      "prompt": "Why is the price for the twenty-eighth so high?",
+      "options": [
+        { "text": "The online quote was a mistake.", "misconception": "outdated_info", "whyVi": "Báo giá online không sai; nó áp dụng cho ngày thường." },
+        { "text": "It is a busy weekend day at the end of the month.", "misconception": null, "whyVi": "Đúng: “The twenty-eighth is a Saturday, and it's the end of the month, so everyone's moving.”" },
+        { "text": "They have more furniture than the movers expected.", "misconception": "not_mentioned", "whyVi": "Không nhắc tới lượng đồ đạc." },
+        { "text": "They have to pay a few days' extra rent on the new place.", "misconception": "confused_reason", "whyVi": "Đây là nỗi lo (sai) của David về việc chuyển sớm, không phải lý do giá chuyển nhà cao." }
+      ],
+      "answerIndex": 1,
+      "evidence": "The twenty-eighth is a Saturday, and it's the end of the month, so everyone's moving.",
+      "explanationVi": "Lý do giá cao là nhu cầu: thứ Bảy + cuối tháng. Đáp án “overlap” mượn một lý do của phương án khác (chuyển vào thứ Tư).",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "moving-day",
+      "prompt": "Why will moving on the twenty-fifth not cost them any extra rent?",
+      "options": [
+        { "text": "The movers charge less on a weekday.", "misconception": "confused_reason", "whyVi": "Ngày thường rẻ hơn là lý do tiết kiệm tiền thuê dịch vụ chuyển nhà, không phải lý do không tốn thêm tiền nhà." },
+        { "text": "They will pay only a few days' extra rent on the new place.", "misconception": "outdated_info", "whyVi": "Đó là điều David tưởng, và Anh đã sửa lại ngay (“No… remember?”)." },
+        { "text": "Their old landlord will refund the rest of the month.", "misconception": "not_mentioned", "whyVi": "Không ai nhắc tới chủ nhà cũ hay việc hoàn tiền." },
+        { "text": "Their rent on the new place starts before the twenty-fifth anyway.", "misconception": null, "whyVi": "Đúng: “the new lease starts on the twentieth anyway… We're paying for those days whether we're living there or not.”" }
+      ],
+      "answerIndex": 3,
+      "evidence": "No, the new lease starts on the twentieth anyway, remember? We're paying for those days whether we're living there or not.",
+      "explanationVi": "David đưa ra thông tin sai (“pay a few days' extra rent”), Anh sửa lại bằng “No… remember?”: hợp đồng mới đã bắt đầu từ ngày 20, nên chuyển ngày 25 không tốn thêm. Trong hội thoại dài, thông tin được sửa sau luôn thay thế thông tin trước.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "moving-day",
+      "prompt": "What do Anh and David finally agree to do?",
+      "options": [
+        { "text": "Book the movers for the twenty-fifth and pack the boxes themselves", "misconception": null, "whyVi": "Đúng: “Wednesday's a no-brainer… pack the boxes ourselves” + “Let's book the movers”." },
+        { "text": "Book the movers for the twenty-eighth and pack the boxes themselves", "misconception": "rejected_option", "whyVi": "Ngày 28 quá đắt và đã bị bỏ." },
+        { "text": "Have the movers pack everything on the twenty-fifth", "misconception": "partial_decision", "whyVi": "Đúng ngày nhưng sai chi tiết: họ tự đóng thùng để tiết kiệm." },
+        { "text": "Wait until Anh's day off is approved before choosing a date", "misconception": "not_final", "whyVi": "Anh nói sẽ kiểm tra nhưng vẫn quyết định đặt ngay (“Let's book the movers before that slot's gone”)." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Let's book the movers before that slot's gone.",
+      "explanationVi": "Quyết định gồm hai phần: ngày 25 (thứ Tư) và tự đóng thùng. Việc Anh xin nghỉ chỉ là một bước kiểm tra, không làm hoãn quyết định.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "training-plan",
+      "prompt": "Whose idea is it to hold the training twice?",
+      "options": [
+        { "text": "Robert's", "misconception": "wrong_speaker", "whyVi": "Robert ban đầu muốn một buổi lớn; anh ấy chỉ tóm tắt và chốt ý của Fatima." },
+        { "text": "Kenji's", "misconception": "wrong_speaker", "whyVi": "Kenji đề xuất học online, sau đó chỉ đồng ý có điều kiện." },
+        { "text": "Fatima's", "misconception": null, "whyVi": "Đúng: “Then why not run it twice? One morning, one afternoon.”" },
+        { "text": "Head office's", "misconception": "wrong_speaker", "whyVi": "Head office chỉ khuyến nghị học trực tiếp, không nói tổ chức hai buổi." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Then why not run it twice? One morning, one afternoon.",
+      "explanationVi": "“Why not…?” là tín hiệu đề xuất. Robert là người nói câu quyết định (“Alright. Two in-person sessions”), nhưng người nghĩ ra ý tưởng là Fatima.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "training-plan",
+      "prompt": "Why is Kenji's suggestion not accepted?",
+      "options": [
+        { "text": "Front desk staff would not be able to attend.", "misconception": "confused_reason", "whyVi": "Đó là vấn đề của phương án “one big session”, không phải của online." },
+        { "text": "People often do the online course without really paying attention.", "misconception": null, "whyVi": "Đúng: “people tend to click through the online version without really paying attention”." },
+        { "text": "Mondays are too busy for his team.", "misconception": "confused_reason", "whyVi": "Đây là điều kiện Kenji đặt ra cho phương án hai buổi, không phải lý do bác bỏ online." },
+        { "text": "The training must be finished by the end of March.", "misconception": "confused_reason", "whyVi": "Hạn chót áp dụng cho mọi phương án, không phải lý do bỏ online." }
+      ],
+      "answerIndex": 1,
+      "evidence": "people tend to click through the online version without really paying attention",
+      "explanationVi": "Mỗi phương án có lý do riêng: one session ✗ (front desk), online ✗ (không tập trung), two sessions ✓ (không vào thứ Hai). Ba đáp án sai đều là lý do có thật nhưng thuộc về chỗ khác.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "training-plan",
+      "prompt": "Which part of the plan has NOT been confirmed yet?",
+      "options": [
+        { "text": "The exact days of the sessions", "misconception": null, "whyVi": "Đúng: “probably a Tuesday and a Thursday… I'll confirm the dates with the trainer”." },
+        { "text": "Whether the training will be in person", "misconception": "not_final", "whyVi": "Đã chốt: “Two in-person sessions”." },
+        { "text": "How many sessions there will be", "misconception": "not_final", "whyVi": "Đã chốt: hai buổi." },
+        { "text": "Who will organize the front desk swaps", "misconception": "not_final", "whyVi": "Đã giao cho Fatima." }
+      ],
+      "answerIndex": 0,
+      "evidence": "I'll confirm the dates with the trainer before I send anything out.",
+      "explanationVi": "“Probably” và “I'll confirm…” cho thấy ngày cụ thể vẫn còn để ngỏ. Câu hỏi NOT buộc bạn kiểm tra trạng thái của từng phần trong kế hoạch.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "birthday-dinner",
+      "prompt": "What does Thu clarify at the end of the conversation?",
+      "options": [
+        { "text": "Their mother prefers simple food, but she will enjoy a nice room.", "misconception": null, "whyVi": "Đúng: “I said she's not into fancy food. A nice room is different.”" },
+        { "text": "Their mother does not like fancy restaurants of any kind.", "misconception": "outdated_info", "whyVi": "Đây chính là cách Minh hiểu sai, và Thu đã sửa lại." },
+        { "text": "The private room costs much more than she first said.", "misconception": "not_mentioned", "whyVi": "Không có thông tin mới về giá." },
+        { "text": "She would prefer to go to the restaurant on Kingsway after all.", "misconception": "rejected_option", "whyVi": "Thu là người bác bỏ quán Kingsway ngay từ đầu." }
+      ],
+      "answerIndex": 0,
+      "evidence": "I said she's not into fancy food. A nice room is different.",
+      "explanationVi": "Minh nhắc lại một ý cũ nhưng sai (“not into fancy places”); Thu sửa lại chính xác (“fancy food”). Ở Level 8, bạn phải nhận ra chỗ khác biệt nhỏ giữa lời nói ban đầu và cách người khác nhắc lại.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "birthday-dinner",
+      "prompt": "Which statement about the final plan is correct?",
+      "options": [
+        { "text": "Minh will pick up Auntie Hoa, and they will book two tables of six.", "misconception": "wrong_speaker", "whyVi": "Thu là người đón dì, và không ai nói đặt hai bàn." },
+        { "text": "They will go to Kingsway because Steveston is too far for Auntie Hoa.", "misconception": "rejected_option", "whyVi": "Vấn đề khoảng cách đã được giải quyết khi Thu đề nghị đón dì." },
+        { "text": "Thu will drive Auntie Hoa, and they will reserve the private room.", "misconception": null, "whyVi": "Đúng: “I could pick her up” + “let's book their private room” + Minh: “Fine, I'm convinced.”" },
+        { "text": "They will book a regular table for twelve and split the extra cost.", "misconception": "partial_decision", "whyVi": "Nhà hàng chỉ nhận đặt bàn tối đa mười người; khoản thêm 100 đô là cho phòng riêng." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Then let's book their private room. It's an extra hundred, but split twelve ways, that's nothing.",
+      "explanationVi": "Kế hoạch thay đổi ba lần: Kingsway ✗ (không đặc biệt) → Steveston ✓ (Thu đón dì giải quyết vấn đề đi lại) → bàn thường ✗ (tối đa 10 người) → phòng riêng ✓. Đáp án đúng phải khớp mọi phần, cả người làm việc.",
+      "competency": "long_conversation"
+    }
+  ],
+  "misconceptions": {
+    "rejected_option": {
+      "label": "Chọn phương án đã bị bác bỏ",
+      "explanationVi": "Bạn nhớ một ý vì nó được nhắc rõ ràng trong bài, nhưng không theo dõi việc ý đó sau đó bị phản đối và thay thế. Đây là lỗi nghe “nội dung” mà không nghe “trạng thái” của từng phương án.",
+      "fixVi": "Ghi mỗi phương án kèm dấu ✓ hoặc ✗ ngay khi nghe phản hồi. Với câu hỏi về quyết định cuối cùng, chỉ chọn những phần còn dấu ✓ ở cuối."
+    },
+    "wrong_speaker": {
+      "label": "Nhầm người nói/người được giao việc",
+      "explanationVi": "Bạn nghe đúng ý nhưng gán cho người đồng ý, người tóm tắt hoặc một người khác trong nhóm. Với ba giọng nói, nếu không đánh dấu người nói, trí nhớ sẽ trộn lẫn các ý.",
+      "fixVi": "Ghi chữ cái đầu tên trước mỗi ý (V:, S:, H:). Nhớ rằng người nói “Let's…” ở cuối thường là người chốt, chưa chắc là người nghĩ ra ý."
+    },
+    "not_final": {
+      "label": "Nhầm việc còn để ngỏ với quyết định",
+      "explanationVi": "Bạn không phân biệt được điều đã chốt với điều sẽ được xem xét sau (we'll vote on it, I'll confirm, let's keep it as a maybe, probably), nên chọn sai ở câu hỏi “what has been decided” hoặc “what is NOT confirmed”.",
+      "fixVi": "Chú ý các từ chỉ tương lai và sự chưa chắc chắn: will vote, will confirm, probably, maybe, I'll check. Đánh dấu “?” trong ghi chú cho những phần chưa chốt."
+    },
+    "confused_reason": {
+      "label": "Gán lý do cho sai phương án",
+      "explanationVi": "Hội thoại dài có nhiều lý do cho nhiều phương án khác nhau. Bạn nhớ được lý do nhưng gắn nó vào nhầm phương án, ví dụ lý do bác bỏ “one session” lại gán cho “online”.",
+      "fixVi": "Viết lý do ngay cạnh phương án, trên cùng một dòng: online ✗ – ppl click through. Khi trả lời câu hỏi Why…?, tìm đúng dòng của phương án được hỏi."
+    },
+    "outdated_info": {
+      "label": "Dùng thông tin đã được sửa lại",
+      "explanationVi": "Một người nói thông tin sai hoặc nhớ nhầm, người khác sửa lại (No…, remember?, I said…, Actually…). Bạn giữ phiên bản đầu tiên vì nó được nói trước và nghe rõ.",
+      "fixVi": "Khi nghe No… / Actually… / remember? / I said…, gạch bỏ thông tin cũ trong ghi chú và viết phiên bản mới bên cạnh."
+    },
+    "partial_decision": {
+      "label": "Chỉ đúng một phần của quyết định",
+      "explanationVi": "Quyết định cuối thường có nhiều phần (ngày + cách làm, địa điểm + người làm). Bạn kiểm tra phần dễ nhớ nhất rồi chọn luôn, bỏ qua phần còn lại bị đổi.",
+      "fixVi": "Tách đáp án thành từng phần và đối chiếu từng phần với ghi chú. Một phần sai là cả đáp án sai."
+    },
+    "lost_sequence": {
+      "label": "Mất dấu trình tự cuộc thảo luận",
+      "explanationVi": "Bạn nhớ các ý nhưng không nhớ ý nào đến trước, ý nào đến sau, nên không biết ý nào đã thay thế ý nào. Trình tự là xương sống để hiểu kế hoạch thay đổi thế nào.",
+      "fixVi": "Ghi chú theo dòng thời gian, mỗi lượt nói một dòng ngắn. Khi có ý mới, dùng mũi tên → để nối với ý mà nó thay thế."
+    },
+    "not_mentioned": {
+      "label": "Thông tin không có trong bài",
+      "explanationVi": "Đáp án đưa ra một lý do nghe hợp lý nhưng không ai trong cuộc hội thoại nói tới. Khi hội thoại dài, bạn dễ lấp chỗ trống bằng suy đoán.",
+      "fixVi": "Chỉ chấp nhận một lý do khi bạn nhớ hoặc ghi được câu nói cụ thể chứa nó. Không có câu nào → loại."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "What if we…?", "vi": "hay là chúng ta… (đưa ra đề xuất)", "example": "What if we take the ferry on Thursday instead?" },
+    { "term": "I'd suggest…", "vi": "tôi đề nghị…", "example": "I'd suggest booking the community hall early, because it fills up fast." },
+    { "term": "The trouble with… is…", "vi": "vấn đề của… là… (đặt vấn đề, phản đối nhẹ)", "example": "The trouble with a Sunday meeting is that half of us coach soccer." },
+    { "term": "… works for me / I'm on board", "vi": "… được đấy / tôi đồng ý", "example": "Friday at six works for me. I'm on board." },
+    { "term": "Let's keep that as a maybe.", "vi": "tạm để đó như một khả năng (chưa quyết)", "example": "A spring pancake breakfast? Let's keep that as a maybe for now." },
+    { "term": "So, … it is.", "vi": "vậy chốt là… (quyết định cuối)", "example": "So, the online auction it is." },
+    { "term": "a no-brainer", "vi": "lựa chọn hiển nhiên, khỏi phải nghĩ", "example": "If the weekday rate is half the price, moving on Wednesday is a no-brainer." },
+    { "term": "Could you sort out…?", "vi": "bạn lo giúp… được không? (phân công việc)", "example": "Could you sort out the parking passes for the visitors?" },
+    { "term": "I'll confirm… before…", "vi": "tôi sẽ xác nhận… trước khi… (chưa chốt)", "example": "I'll confirm the room with the library before I send the invite." }
+  ],
+  "grammar": [],
+  "practice": [
+    { "label": "Long conversation drill", "route": "/listening?mode=drill&focus=long_conversation" },
+    { "label": "Listening Part 1: Problem solving", "route": "/listening?task=L1" },
+    { "label": "Listening Part 5: Discussion", "route": "/listening?task=L5" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 13 items. Rewrote the moving-day rent logic (David/Anh lines were incoherent about overlap on the old place) and rebuilt i2 options/evidence; removed concept examples and g1/g3 hints that gave away guided/independent answers."}
+}

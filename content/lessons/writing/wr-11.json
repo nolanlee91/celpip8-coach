@@ -1,0 +1,347 @@
+{
+  "id": "wr-11",
+  "skill": "writing",
+  "module": "writing-survey",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Developing arguments",
+  "titleVi": "Phát triển lập luận",
+  "estimatedMinutes": 30,
+  "prerequisites": ["wr-10"],
+  "competencies": ["task_fulfillment", "vocabulary_range"],
+  "tasks": ["W2"],
+  "objectives": [
+    "You will be able to develop each reason with an explanation, a specific example and a consequence (the R-E-E-C chain).",
+    "You will be able to replace vague claims such as 'it has many benefits' with concrete, believable Canadian details.",
+    "You will be able to choose two well-developed reasons instead of listing four weak ones in a 150–200-word survey response."
+  ],
+  "objectiveVi": "Sau bài này, bạn biến mỗi lý do thành một đoạn lập luận hoàn chỉnh: lý do → giải thích → ví dụ cụ thể → kết quả, và thay các câu chung chung bằng chi tiết đời thực ở BC.",
+  "whyItMattersVi": "Writing của bạn đang ở Level 7: cấu trúc bài và ngữ pháp cơ bản đã ổn. Khoảng cách lên Level 8 ở Task 2 thường nằm ở chỗ lý do có được *phát triển* hay không. Bài Level 7 nói 'Option B is safer'; bài Level 8 cho người đọc thấy *vì sao* nó an toàn hơn, *ở đâu* bạn đã thấy điều đó, và *điều gì sẽ thay đổi* nếu chọn nó. Kỹ năng này nâng cùng lúc task fulfillment (thuyết phục được người đọc) và vocabulary range (từ ngữ chính xác thay cho 'good', 'many benefits').",
+  "concept": [
+    {
+      "heading": "Vì sao 'đủ lý do' vẫn chỉ được Level 7",
+      "body": "Nhiều bài survey ở Level 6–7 có bố cục đúng (chọn → lý do 1 → lý do 2 → kết luận) nhưng mỗi lý do chỉ có một câu: *Option B is cheaper. Also, it is more convenient.* Người chấm thấy bạn **có** lý do nhưng không thấy bạn **chứng minh** lý do.\n\nỞ Level 8+, mỗi lý do là một đoạn lập luận được phát triển (**developed argument**): người đọc hiểu cơ chế, thấy một trường hợp thật, và biết hệ quả. Quy tắc thực tế: **hai lý do phát triển tốt mạnh hơn bốn lý do liệt kê**. Với 150–200 từ, bạn có chỗ cho khoảng 2 lý do × 55–65 từ, cộng mở bài (20–25 từ) và kết bài (15–20 từ)."
+    },
+    {
+      "heading": "Chuỗi R-E-E-C: Reason → Explanation → Example → Consequence",
+      "body": "- **Reason** (1 câu – topic sentence): nêu lý do, gắn với phương án đã chọn. *The main reason I prefer Option B is that it would make walking to school safer.*\n- **Explanation** (1–2 câu): trả lời *how exactly? why?* – chỉ ra cơ chế. *The sidewalks are so narrow that children step onto the road to pass other people.*\n- **Example** (1–2 câu): một trường hợp cụ thể – trải nghiệm của bạn, hàng xóm, đồng nghiệp. *Last November, a student outside my son's school was nearly hit by a car.*\n- **Consequence** (1 câu): điều gì xảy ra nếu chọn (hoặc không chọn) phương án – quay về lý do. *As a result, parents would feel comfortable letting their children walk.*\n\nTừ tín hiệu: Explanation – *This is because…, The problem is that…, In practical terms…*; Example – *For instance…, To give a concrete example…, Last winter…*; Consequence – *As a result…, This means that…, In the long run…*. Lưu ý: explanation **không phải** là nhắc lại lý do bằng từ khác (*In other words, it is safer* – chưa giải thích gì)."
+    },
+    {
+      "heading": "Ví dụ cụ thể kiểu Canada/BC",
+      "body": "Ví dụ mạnh có ba yếu tố: **ai** (I, my neighbour, my coworker Priya), **ở đâu/khi nào** (on Kingsway, last February, during the heat dome), **chi tiết đo được** (a 40-minute bus ride, $60 a month, three times a week). Bạn được phép dùng trải nghiệm cá nhân giả định – đây là bài thi, không phải báo cáo – nhưng phải *tin được* và nhỏ, đời thường.\n\nBối cảnh BC dùng tốt: SkyTrain và bus pass, strata, mùa đông mưa nhiều, khói cháy rừng mùa hè, community centre, khoá học buổi tối ở một college địa phương, cầu và kẹt xe giờ cao điểm.\n\nTránh **số liệu bịa nghe như nghiên cứu** (*Studies show that 90% of Canadians…*). Người chấm không cần thống kê; một con số từ đời sống của bạn đáng tin hơn và không làm người đọc nghi ngờ."
+    },
+    {
+      "heading": "Loại bỏ khẳng định mơ hồ (vague claims)",
+      "body": "Dấu hiệu nhận biết: *good for everyone, many benefits, very convenient, it is important, people like it, things*. Cách sửa: tự hỏi **good how? for whom? compared with what?**\n\n- *It is very convenient.* → *I could drop my daughter off at daycare at 8:30 instead of rushing out at 7:15.*\n- *It has many benefits for the community.* → *Seniors in our building could walk to the pharmacy without stepping into traffic.*\n\nĐây cũng là cách tăng **vocabulary range**: thay *good* bằng *safer, more affordable, less stressful*; thay *help* bằng *allow, reduce, prevent, save*. Từ chính xác buộc bạn phải nói rõ ý."
+    },
+    {
+      "heading": "Áp dụng trong 26 phút",
+      "body": "Trong 3–4 phút lập dàn ý, ghi cho mỗi lý do bốn từ khoá theo R / E / Ex / C. Ví dụ: *safety / narrow, cracked / son, 8th Ave, Nov / parents let kids walk*. Nếu sau 30 giây không nghĩ ra ví dụ cho một lý do, hãy đổi sang lý do khác – lý do không có ví dụ gần như chắc chắn sẽ thành câu chung chung. Khi viết, mỗi câu trong đoạn phải phục vụ **một** lý do; ý mới thì để sang đoạn mới."
+    }
+  ],
+  "stimuli": {
+    "survey-street": {
+      "title": "Survey: Neighbourhood improvement",
+      "text": "Your city council has funding for one neighbourhood improvement project next year and is asking residents for their opinion.\n\n**Option A:** Plant 300 new street trees and add benches along residential streets.\n\n**Option B:** Repair and widen sidewalks and add pedestrian crossing lights near schools.\n\nChoose the option you prefer. Explain the reasons for your choice. Write about 150–200 words."
+    },
+    "survey-perk": {
+      "title": "Survey: New employee benefit",
+      "text": "Your employer, a mid-sized logistics company in Richmond, wants to offer staff one new benefit next year. All employees have been asked to choose.\n\n**Option A:** A four-day work week, with four 10-hour days instead of five 8-hour days.\n\n**Option B:** A $1,200 yearly allowance that employees can spend on courses and training.\n\nChoose the option you prefer. Explain the reasons for your choice. Write about 150–200 words."
+    },
+    "survey-shuttle": {
+      "title": "Survey: Weekend services",
+      "text": "Your town council in the Fraser Valley can pay for one new service starting next spring.\n\n**Option A:** A free community shuttle bus on Saturdays and Sundays connecting residential areas with the hospital and main shopping areas.\n\n**Option B:** A new fenced off-leash dog park next to the elementary school field.\n\nChoose the option you prefer. Explain the reasons for your choice. Write about 150–200 words."
+    },
+    "survey-market": {
+      "title": "Survey: Summer program",
+      "text": "Your municipality in the Fraser Valley can fund one free summer program this year and has posted a survey on its website.\n\n**Option A:** A weekly evening farmers' market downtown, every Thursday from 4 to 8 p.m.\n\n**Option B:** Free outdoor movie nights in the main park every Friday in July and August.\n\nChoose the option you prefer. Explain the reasons for your choice. Write about 150–200 words."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "From a bare reason to a full R-E-E-C paragraph",
+      "stimulusId": "survey-street",
+      "question": "A writer chose Option B and wants to develop the reason 'safety'. How does the paragraph change from Level 6–7 to Level 8+?",
+      "steps": [
+        "Find the bare reason in the before version: 'it is more safety'. It is a reason with no explanation (and 'safety' should be the adjective 'safer').",
+        "Ask WHY it is safer to get the explanation: the sidewalks are narrow and cracked, so children step onto the road.",
+        "Ask WHERE and WHEN I have seen this to get the example: outside my son's school on 8th Avenue, last November, a student was nearly hit.",
+        "Ask WHAT WOULD HAPPEN if the city chose Option B to get the consequence: parents would let their children walk, and morning traffic would drop.",
+        "Check unity: every sentence supports safety. The ideas about seniors and trees are removed because they belong to other paragraphs."
+      ],
+      "answer": "See the 'after' version: one reason, fully explained, proved with one specific local example, and closed with a consequence.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "I choose option B because it is more safety. Sidewalk in my area is very bad and many people walk there. Also it is good for the children and old people. Trees is nice but safety is more important. So I think option B is the best choice for everyone.",
+          "commentVi": "Bài kiểu Level 6–7: có lý do nhưng không phát triển. (1) 'more safety' sai từ loại – cần tính từ 'safer'. (2) 'Sidewalk… very bad' mơ hồ: xấu như thế nào? Thiếu mạo từ/số nhiều ('The sidewalks'). (3) 'Also it is good for the children and old people' chen thêm ý mới mà không giải thích. (4) 'Trees is' sai hoà hợp chủ ngữ–động từ. (5) Không có ví dụ cụ thể nào. (6) Kết bằng khẳng định chung chung 'the best choice for everyone'."
+        },
+        {
+          "label": "after",
+          "text": "The main reason I prefer Option B is that it would make walking to school much safer. On many residential streets in our neighbourhood, the sidewalks are so narrow and cracked that children often step onto the road to get past strollers or other students. For instance, outside my son's elementary school on 8th Avenue, a Grade 3 student was nearly hit by a car last November while walking around a large puddle on the broken pavement. Wider sidewalks and a crossing light would remove this daily risk. As a result, more parents, including me, would feel comfortable letting their children walk to school instead of driving them, which would also ease the morning traffic jam.",
+          "commentVi": "Các thay đổi: (1) Topic sentence nêu lý do rõ ràng, đúng từ loại 'safer'. (2) Thêm explanation chỉ ra cơ chế: vỉa hè hẹp và nứt → trẻ bước xuống lòng đường. (3) Thay 'very bad' bằng chi tiết quan sát được: 'narrow and cracked'. (4) Thêm example cụ thể có ai (a Grade 3 student), ở đâu (8th Avenue), khi nào (last November). (5) Thêm consequence nối về lý do: phụ huynh yên tâm cho con đi bộ, giảm kẹt xe buổi sáng. (6) Bỏ ý lạc 'old people' và câu về cây xanh – để dành cho đoạn khác. (7) Từ vựng chính xác hơn: 'remove this daily risk', 'feel comfortable letting…', 'ease the morning traffic jam'. Lưu ý: đoạn này khoảng 115 từ để minh hoạ đầy đủ cả bốn phần; trong bài thi 150–200 từ, mỗi lý do chỉ nên khoảng 55–65 từ, nên hãy rút mỗi phần còn một câu ngắn (xem bài mẫu ở bài tập cuối)."
+        }
+      ],
+      "takeawayVi": "Mỗi lý do phải trả lời đủ ba câu hỏi sau topic sentence: Vì sao? Ví dụ nào? Kết quả gì? Thiếu một câu, đoạn văn sẽ nghe chung chung."
+    },
+    {
+      "id": "ex2",
+      "title": "Turning a vague claim into a specific, believable example",
+      "stimulusId": "survey-perk",
+      "question": "The writer chose Option B and wrote: 'Training is good for my future and has many benefits.' How can this be made specific?",
+      "steps": [
+        "Underline the vague words: 'good', 'my future', 'many benefits'. None of them tells the reader what would actually happen.",
+        "Ask 'good how?': I could finally complete a payroll certificate.",
+        "Ask 'where and why haven't I done it already?': an evening course at a college near the office, postponed for two years because of the cost.",
+        "Add one measurable detail: the $1,200 allowance would cover most of the tuition.",
+        "Finish with a consequence that matters to the reader of the survey (the employer): I could handle payroll questions myself, so the company would not need to pay an outside consultant."
+      ],
+      "answer": "With a $1,200 allowance, I could finally take the evening payroll certificate course at a college near our office, which I have postponed for two years because of the cost. Once I finish it, I could answer our department's payroll questions myself, so the company would no longer need to pay an outside consultant every month.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Training is good for my future and has many benefits. I can learn many things and it make me better worker.",
+          "commentVi": "Ba từ mơ hồ ('good', 'future', 'many benefits') và 'many things' không cho người đọc hình dung gì. Lỗi ngữ pháp kiểu người Việt: 'it make' thiếu -s, 'better worker' thiếu mạo từ 'a'."
+        },
+        {
+          "label": "after",
+          "text": "With a $1,200 allowance, I could finally take the evening payroll certificate course at a college near our office, which I have postponed for two years because of the cost. Once I finish it, I could answer our department's payroll questions myself, so the company would no longer need to pay an outside consultant every month.",
+          "commentVi": "Các thay đổi: (1) 'many things' → một khoá học cụ thể (payroll certificate, evening course). (2) Thêm con số và lý do thật: $1,200, hoãn hai năm vì học phí. (3) 'better worker' → hệ quả đo được: tự trả lời câu hỏi lương, công ty không phải thuê tư vấn. (4) Dùng 'could/would' đúng cho tình huống giả định. (5) Hệ quả hướng về lợi ích của người đọc khảo sát (công ty), nên thuyết phục hơn."
+        }
+      ],
+      "takeawayVi": "Khi thấy 'good', 'many benefits', 'things' trong bài, dừng lại và hỏi: good how? for whom? Câu trả lời chính là câu bạn nên viết."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "survey-perk",
+      "prompt": "A writer chose Option A and wrote this topic sentence: 'The main reason I prefer a four-day week is that it would give me more time with my family.' Which sentence is the best EXPLANATION to come next?",
+      "options": [
+        { "text": "Family is very important to me and to many people in Canada.", "misconception": "vague_claim", "whyVi": "Câu chung chung, ai cũng nói được; không chỉ ra một ngày nghỉ thêm tạo ra thời gian cho gia đình *như thế nào*." },
+        { "text": "With Fridays off, I could book appointments and do errands that day, so my weekends would be free for my kids.", "misconception": null, "whyVi": "Đúng: câu này cho thấy cơ chế – việc vặt dồn sang thứ Sáu nên cuối tuần trống cho con." },
+        { "text": "In addition, a four-day week would reduce traffic on Highway 99.", "misconception": "listing_reasons", "whyVi": "Đây là một lý do mới, không giải thích lý do đang nói. Thêm lý do mới giữa đoạn làm lập luận bị đứt." },
+        { "text": "In other words, I want to spend more time with my family.", "misconception": "restating_not_explaining", "whyVi": "Chỉ nhắc lại topic sentence bằng từ khác; người đọc không biết thêm gì." }
+      ],
+      "answerIndex": 1,
+      "hint": "An explanation answers 'how exactly?'. Reject any option that adds a new idea or says the same idea again in other words.",
+      "explanationVi": "Explanation trả lời câu hỏi 'bằng cách nào?'. Lựa chọn đúng nối ngày nghỉ thứ Sáu với kết quả cụ thể là cuối tuần rảnh – đó là cơ chế. Các lựa chọn khác hoặc chung chung, hoặc là ý mới, hoặc là nhắc lại.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g2",
+      "type": "order",
+      "stimulusId": "survey-street",
+      "prompt": "This writer chose Option A. Put the sentences of the paragraph in R-E-E-C order.",
+      "items": [
+        "Another reason I support Option A is that more trees would keep our streets cooler in summer.",
+        "Trees shade the pavement and the walls of houses, so the air around them stays noticeably cooler on hot afternoons.",
+        "During the heat dome in June 2021, my elderly neighbour on our treeless block could not leave her apartment for four days.",
+        "As a result, seniors like her could still walk to the bus stop safely during the hottest weeks of the year."
+      ],
+      "misconception": "broken_chain",
+      "hint": "Label each sentence: which one names the reason, which shows how it works, which proves it with a real case, and which says what would happen?",
+      "explanationVi": "Thứ tự R-E-E-C: lý do (cây làm mát đường phố) → giải thích (bóng râm che mặt đường và tường nhà) → ví dụ (người hàng xóm trong đợt heat dome 2021) → kết quả ('As a result', người cao tuổi vẫn đi bộ ra trạm xe buýt được). Từ tín hiệu 'Another reason', 'During…', 'As a result' giúp bạn xác định vị trí.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "survey-street",
+      "prompt": "Which EXAMPLE best supports this reason for Option B: 'Wider sidewalks would also help people who use wheelchairs or walkers'?",
+      "options": [
+        { "text": "For example, many people in Canada have mobility problems and need more help.", "misconception": "vague_claim", "whyVi": "Không có ai, ở đâu, chuyện gì xảy ra – chỉ là một khẳng định chung." },
+        { "text": "For example, research proves that 87% of wheelchair users avoid narrow sidewalks.", "misconception": "unsupported_statistic", "whyVi": "Số liệu bịa đặt nghe như nghiên cứu; người đọc không thể tin và nó không phải trải nghiệm của bạn." },
+        { "text": "For example, my neighbour, who uses a walker, has to move into the bike lane on Rupert Street because a hydro pole blocks the sidewalk.", "misconception": null, "whyVi": "Đúng: có người cụ thể, địa điểm cụ thể, vấn đề quan sát được, và chứng minh đúng lý do (người dùng xe lăn/khung tập đi)." },
+        { "text": "For example, the new trees in Option A would also look beautiful in the fall.", "misconception": "broken_chain", "whyVi": "Ví dụ không liên quan đến lý do đang nói, thậm chí nói về phương án kia." }
+      ],
+      "answerIndex": 2,
+      "hint": "A strong example names who, where and what happened, and it must prove this exact reason.",
+      "explanationVi": "Ví dụ tốt nhất là một trường hợp nhỏ, đời thường, có chi tiết (neighbour, walker, Rupert Street, hydro pole). Số liệu 'research proves' không đáng tin; câu chung chung không chứng minh gì; ví dụ về cây xanh lạc đề.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g4",
+      "type": "text",
+      "stimulusId": "survey-perk",
+      "prompt": "Fill the gap with a connector that introduces a CONSEQUENCE (one word or a short phrase): 'With a four-day week, I would drive to the warehouse in Richmond one day less each week. ____, I would spend about $25 less on gas every week.'",
+      "answers": ["As a result", "Consequently", "As a consequence", "Because of this", "Because of that", "As a result of this", "For this reason", "For that reason", "Therefore", "Thus", "Hence", "Accordingly", "So", "That way", "This way", "In this way"],
+      "mode": "exact",
+      "misconception": "broken_chain",
+      "hint": "The second sentence happens because of the first one. Choose a connector that means 'because of what I just said'.",
+      "explanationVi": "Câu thứ hai là kết quả của câu thứ nhất, nên cần từ nối chỉ kết quả: As a result / Consequently / Because of this / Therefore. 'Also' hay 'In addition' sai vì chúng thêm ý chứ không nối nguyên nhân – kết quả.",
+      "competency": "vocabulary_range"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "text",
+      "stimulusId": "survey-perk",
+      "prompt": "Which part of the R-E-E-C chain is this sentence? Type one word: reason, explanation, example or consequence.\n\n'For instance, last March my coworker Priya used her own savings to take a forklift safety course in Surrey.'",
+      "answers": ["example"],
+      "mode": "exact",
+      "misconception": "broken_chain",
+      "explanationVi": "'For instance' + một người cụ thể (Priya), thời gian (last March), địa điểm (Surrey) = example. Ví dụ chứng minh lý do đã nêu (nhân viên đang phải tự trả tiền học).",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "stimulusId": "survey-shuttle",
+      "prompt": "Which part of the R-E-E-C chain is this sentence? Type one word: reason, explanation, example or consequence.\n\n'This is because the regular bus to the hospital does not run on Sundays, so people without a car have to pay for a taxi or ask a friend for a ride.'",
+      "answers": ["explanation"],
+      "mode": "exact",
+      "misconception": "broken_chain",
+      "explanationVi": "'This is because…' giải thích cơ chế (không có xe buýt Chủ nhật → phải đi taxi). Không có người cụ thể hay sự kiện cụ thể nên đây chưa phải example.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "survey-perk",
+      "prompt": "Four writers chose Option A. Which paragraph is the best developed?",
+      "options": [
+        { "text": "I prefer Option A. It gives more free time. It saves gas. It is good for health. Also my coworkers like it.", "misconception": "listing_reasons", "whyVi": "Bốn lý do liệt kê, không lý do nào được giải thích hay có ví dụ." },
+        { "text": "I prefer Option A because I want more free time. Free time is very important. Having more free time would give me more time for myself.", "misconception": "restating_not_explaining", "whyVi": "Một lý do được nhắc lại ba lần bằng từ khác nhau; không có giải thích hay ví dụ." },
+        { "text": "I prefer Option A because it reduces stress. Studies show that 80% of Canadian workers are happier with a four-day week, so it is clearly the best choice.", "misconception": "unsupported_statistic", "whyVi": "Dựa vào một con số bịa thay vì giải thích và ví dụ thật; 'clearly the best choice' là khẳng định quá mạnh." },
+        { "text": "I prefer Option A because it would cut my commuting stress. I drive from Langley, and the trip often takes over an hour in rush-hour traffic. Last Friday alone, an accident on the highway added forty minutes. With one less commuting day, I would arrive at work rested rather than exhausted.", "misconception": null, "whyVi": "Đúng: đủ R-E-E-C – lý do (giảm stress đi lại), giải thích (hơn một giờ giờ cao điểm), ví dụ (thứ Sáu tuần trước, tai nạn, 40 phút), kết quả (đến nơi tỉnh táo)." }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Đoạn phát triển tốt không cần nhiều lý do; nó cần một lý do được giải thích, chứng minh bằng chi tiết thật và kết bằng hệ quả.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i4",
+      "type": "order",
+      "stimulusId": "survey-shuttle",
+      "prompt": "This writer chose Option A. Put the sentences in the most logical order.",
+      "items": [
+        "I strongly prefer Option A because a weekend shuttle would help residents who do not drive reach essential services.",
+        "Right now, the regular bus to the hospital does not run on Sundays, so people without a car must pay for a taxi or rely on others.",
+        "Last month, my neighbour Mr. Tran paid almost $40 for a return taxi just to visit his wife at the hospital.",
+        "A free shuttle would save families like his hundreds of dollars a year and allow them to visit relatives more often."
+      ],
+      "misconception": "broken_chain",
+      "explanationVi": "Lý do (giúp người không lái xe) → giải thích (không có xe buýt Chủ nhật) → ví dụ (ông Tran, $40 tiền taxi) → kết quả ('families like his' chỉ ngược về ví dụ nên phải đứng cuối).",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "survey-shuttle",
+      "prompt": "Read the paragraph and choose the best final sentence (the CONSEQUENCE).\n\n'Another advantage of the shuttle is that it would help teenagers get to weekend jobs. Many students in our area work part-time at the mall on the edge of town, but their shifts start before their parents are free to drive them. My daughter, for example, almost turned down a job at a bakery last spring because she had no way to get there on Saturday mornings.' ____",
+      "options": [
+        { "text": "As a result, everyone in Canada would be much happier.", "misconception": "vague_claim", "whyVi": "Phóng đại và chung chung; không nối về thanh thiếu niên hay việc làm." },
+        { "text": "In addition, the dog park in Option B is not really necessary.", "misconception": "broken_chain", "whyVi": "Chuyển sang phương án kia ở cuối đoạn; không phải kết quả của lý do đang nói." },
+        { "text": "As a result, teenagers could keep weekend jobs without depending on their parents' cars, gaining work experience and some independence.", "misconception": null, "whyVi": "Đúng: kết quả cụ thể, nối thẳng về lý do (đi làm cuối tuần) và nâng lên một lợi ích lâu dài." },
+        { "text": "In other words, teenagers need transportation on weekends.", "misconception": "restating_not_explaining", "whyVi": "Chỉ nhắc lại lý do; không cho biết điều gì thay đổi nếu chọn phương án A." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Consequence tốt trả lời 'nếu chọn phương án này thì điều gì thay đổi?' và quay về đúng lý do của đoạn. Câu đúng còn mở rộng sang lợi ích dài hạn (kinh nghiệm làm việc, tự lập) – dấu hiệu của lập luận Level 8.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "survey-shuttle",
+      "prompt": "A writer who chose Option B wrote: 'Option B is good for the community and has many benefits.' Which revision is strongest?",
+      "options": [
+        { "text": "A fenced off-leash area would give the many dog owners in our townhouse complex a safe place to exercise their pets, so fewer dogs would run loose on the school field.", "misconception": null, "whyVi": "Đúng: nói rõ ai được lợi (chủ chó trong khu townhouse), lợi ích gì (chỗ an toàn cho chó chạy), và hệ quả cho cộng đồng (ít chó chạy rông trên sân trường)." },
+        { "text": "Option B is very, very good for the whole community and has a lot of great benefits.", "misconception": "vague_claim", "whyVi": "Thêm từ nhấn mạnh nhưng vẫn không nói lợi ích là gì." },
+        { "text": "According to experts, 95% of dog owners would use the park every day.", "misconception": "unsupported_statistic", "whyVi": "Số liệu không có nguồn, không thể tin, và không giải thích lợi ích cho cộng đồng." },
+        { "text": "Option B is good, and it is also cheap, popular and modern.", "misconception": "listing_reasons", "whyVi": "Liệt kê thêm tính từ chung chung, không phát triển ý nào." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Sửa khẳng định mơ hồ bằng cách trả lời 'good for whom? how?'. Câu đúng dùng từ chính xác (fenced, off-leash, exercise their pets, run loose) và có hệ quả rõ ràng.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i7",
+      "type": "produce",
+      "medium": "write",
+      "stimulusId": "survey-market",
+      "prompt": "Write a complete survey response (150–200 words). Choose one option and develop two reasons, each with an explanation, a specific example and a consequence.",
+      "minWords": 150,
+      "checklist": [
+        "States the chosen option clearly in the first sentence",
+        "Each body paragraph opens with one clear reason (topic sentence)",
+        "Each reason has an explanation that shows how or why it works",
+        "Each reason has a specific example with a person, place, time or number from real life",
+        "Each reason ends with a consequence that links back to the choice",
+        "Avoids vague claims such as 'many benefits' or 'good for everyone' and stays within 150–200 words"
+      ],
+      "modelAnswer": "I would choose Option A, a weekly evening farmers' market, because it would support local growers and give working families a healthier way to shop.\n\nFirst, a downtown market would put money directly into the pockets of Fraser Valley farmers. At the moment, most residents buy produce at large grocery chains, where much of the fruit is imported. For example, my cousin runs a small blueberry farm in Abbotsford and sells most of his crop to a wholesaler at a low price. A Thursday market would let farms like his sell straight to customers and earn a fairer income.\n\nSecond, the evening schedule would suit busy parents. Many of us finish work at five and spend our weekends driving children to hockey practice and birthday parties. If the market ran until 8 p.m., I could pick up fresh vegetables on the way home and cook a proper dinner instead of ordering takeout. As a result, my kids would eat better and learn where their food comes from.\n\nFor these reasons, I believe a farmers' market would benefit our community long after the summer ends.",
+      "misconception": "listing_reasons",
+      "explanationVi": "So sánh bài của bạn với bài mẫu: mỗi lý do có đủ bốn phần (ví dụ lý do 1: hỗ trợ nông dân → hiện nay mua ở chuỗi siêu thị → anh họ ở Abbotsford bán rẻ cho đại lý → thu nhập công bằng hơn). Nếu một lý do của bạn thiếu ví dụ cụ thể, đó là chỗ cần sửa đầu tiên.",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "misconceptions": {
+    "listing_reasons": {
+      "label": "Liệt kê nhiều lý do, không phát triển",
+      "explanationVi": "Bạn nghĩ càng nhiều lý do càng thuyết phục, nên mỗi lý do chỉ có một câu. Kỹ năng còn thiếu là phát triển chiều sâu: người chấm đánh giá mức độ lập luận được chứng minh, không đếm số lý do.",
+      "fixVi": "Chọn tối đa hai lý do mạnh nhất. Với mỗi lý do, viết đủ R-E-E-C (4–5 câu, khoảng 55–65 từ) trước khi nghĩ đến lý do thứ ba."
+    },
+    "restating_not_explaining": {
+      "label": "Nhắc lại thay vì giải thích",
+      "explanationVi": "Câu 'giải thích' của bạn chỉ là lý do được diễn đạt lại ('In other words…', 'This is very important'). Bạn chưa chỉ ra cơ chế – lý do đó dẫn đến kết quả như thế nào.",
+      "fixVi": "Sau topic sentence, tự hỏi 'how exactly?' hoặc 'why?' và viết câu trả lời bằng sự việc cụ thể (cái gì xảy ra, với ai). Nếu câu tiếp theo có thể thay bằng 'I repeat', hãy xoá nó."
+    },
+    "vague_claim": {
+      "label": "Khẳng định chung chung, mơ hồ",
+      "explanationVi": "Bạn dùng các cụm như 'good for everyone', 'many benefits', 'very convenient', 'everyone would be happy'. Chúng đúng nhưng rỗng, không cho người đọc hình dung, và còn khiến từ vựng của bạn có vẻ hạn chế.",
+      "fixVi": "Gạch dưới mỗi từ mơ hồ và hỏi 'good how? for whom? compared with what?'. Thay bằng ai, ở đâu, khi nào, bao nhiêu – và một động từ chính xác (save, prevent, allow, reduce)."
+    },
+    "unsupported_statistic": {
+      "label": "Dùng số liệu bịa hoặc 'nghiên cứu cho thấy'",
+      "explanationVi": "Bạn thay ví dụ thật bằng số liệu không có nguồn ('Studies show 90%…'). Người đọc không thể kiểm chứng, nên lập luận trở nên kém tin cậy thay vì mạnh hơn.",
+      "fixVi": "Dùng trải nghiệm nhỏ, đời thường của bạn hoặc người quen, với con số bạn có thể biết (40 phút đi xe, $40 tiền taxi). Bỏ 'research proves', 'experts say' nếu bạn không có nguồn."
+    },
+    "broken_chain": {
+      "label": "Đứt mạch R-E-E-C",
+      "explanationVi": "Các phần lập luận bị đặt sai thứ tự, dùng sai từ nối, hoặc ví dụ/kết quả không thuộc về lý do đang nói (thậm chí nói sang phương án kia). Người đọc khó theo dõi vì mỗi câu không nối với câu trước.",
+      "fixVi": "Dán nhãn từng câu R / E / Ex / C khi kiểm tra bài. Dùng từ tín hiệu đúng chức năng (This is because – For instance – As a result). Ý nào không phục vụ lý do của đoạn thì chuyển đi hoặc xoá."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "This is because…", "vi": "Đó là vì… (mở câu giải thích cơ chế)", "example": "This is because the morning bus is often full by the time it reaches our stop on No. 3 Road." },
+    { "term": "In practical terms,", "vi": "Nói một cách thực tế, (đưa lý do trừu tượng về đời sống)", "example": "In practical terms, a four-day week would mean one less trip over the Oak Street Bridge every week." },
+    { "term": "For instance,", "vi": "Chẳng hạn, (mở ví dụ)", "example": "For instance, my neighbour in Coquitlam waits 20 minutes for a bus every morning in the rain." },
+    { "term": "To give a concrete example,", "vi": "Để đưa ra một ví dụ cụ thể,", "example": "To give a concrete example, our strata spent $3,000 last year repairing cracked walkways." },
+    { "term": "As a result,", "vi": "Kết quả là, (dẫn tới hệ quả)", "example": "As a result, more families would shop locally instead of driving to Costco in Abbotsford." },
+    { "term": "…, which means (that)…", "vi": "…, điều đó có nghĩa là… (nối hệ quả vào cuối câu)", "example": "The market would run until 8 p.m., which means shift workers could still get there after work." },
+    { "term": "In the long run,", "vi": "Về lâu dài,", "example": "In the long run, wider sidewalks would cost the city less than repairing them every winter." },
+    { "term": "make a real difference to…", "vi": "tạo ra thay đổi thật sự cho…", "example": "A free shuttle would make a real difference to seniors who no longer drive." },
+    { "term": "ease / reduce / prevent", "vi": "làm dịu / giảm / ngăn chặn (động từ chính xác thay cho 'help')", "example": "Crossing lights would prevent near misses outside the school and ease the morning rush." }
+  ],
+  "grammar": [
+    {
+      "point": "Second conditional for consequences: If + past simple, … would/could + verb",
+      "explanationVi": "Survey hỏi về một phương án *chưa xảy ra*, nên khi nêu kết quả, dùng would/could thay vì will để nói về tình huống giả định. Lỗi thường gặp: trộn 'If the city chooses…, people would…' hoặc bỏ 'would' ('If we have a market, I buy vegetables'). Giữ nhất quán: If + quá khứ đơn → would/could.",
+      "examples": [
+        "If the city chose Option B, parents would feel safer letting their children walk.",
+        "If the market ran until 8 p.m., I could shop on my way home from work.",
+        "With a four-day week, I would spend about $25 less on gas every week."
+      ]
+    },
+    {
+      "point": "Result structures: so + clause / As a result, + clause / …, which means (that) + clause",
+      "explanationVi": "Ba cách nối kết quả ở ba vị trí khác nhau giúp câu đa dạng. 'so' nối hai mệnh đề trong một câu (có dấu phẩy trước 'so'). 'As a result,' đứng đầu câu mới. ', which means…' gắn hệ quả vào cuối câu, trong đó 'which' chỉ cả mệnh đề trước. Tránh viết 'Because of this reason' (thừa) hoặc 'so that' khi bạn muốn nói kết quả (so that = mục đích).",
+      "examples": [
+        "The sidewalk is blocked by a hydro pole, so my neighbour has to use the bike lane.",
+        "Shifts start at 7 a.m. As a result, many students cannot get a ride.",
+        "The bus does not run on Sundays, which means seniors have to pay for taxis."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Luyện Writing Task 2 (survey) với chuỗi R-E-E-C", "route": "/writing?task=W2" },
+    { "label": "Ôn các cụm từ lập luận trong sổ từ vựng", "route": "/vocabulary" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 11 exercises independently; keys correct. Widened g4 consequence-connector answers (For this reason, Hence, Accordingly, So, etc.), removed specific real-place claims from the shuttle survey (Chilliwack bus/hospital, Luckakuck Way) and noted that the 115-word ex1 paragraph exceeds the 55–65-word exam budget. Model answer 184 words, chooses one option."}
+}

@@ -1,0 +1,342 @@
+{
+  "id": "rd-12",
+  "skill": "reading",
+  "module": "reading-parts",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Part 2 strategy: Applying a diagram",
+  "titleVi": "Chiến lược Part 2: Áp dụng sơ đồ, bảng biểu",
+  "estimatedMinutes": 30,
+  "prerequisites": ["rd-02", "rd-06"],
+  "competencies": ["detail", "paraphrase"],
+  "tasks": ["R2"],
+  "objectives": [
+    "You will be able to read a price table or schedule quickly by its headings, labels, units and footnotes.",
+    "You will be able to list every condition in the email (budget, time, size, eligibility, season) and match each one to the diagram even when it is paraphrased.",
+    "You will be able to eliminate options with a constraint grid and do the simple calculations Part 2 requires without falling for discount and minimum traps."
+  ],
+  "objectiveVi": "Sau bài này, bạn đọc bảng giá hoặc lịch theo tiêu đề, nhãn, đơn vị và chú thích; rút ra mọi điều kiện của người viết email; dùng bảng loại trừ để chọn phương án duy nhất phù hợp và tính tiền chính xác.",
+  "whyItMattersVi": "Part 2 không khó về từ vựng, nhưng người đạt Reading 5 thường mất điểm vì bỏ sót một điều kiện (mùa, giờ mở cửa, số người) hoặc quên chú thích nhỏ dưới bảng. Đây là Part dễ lấy điểm nhất nếu làm có hệ thống: mỗi câu chỉ có một phương án thoả mãn tất cả điều kiện. Làm đúng 7–8/8 câu ở đây giúp bù cho những câu khó ở Part 3 và 4.",
+  "concept": [
+    {
+      "heading": "Part 2 trông như thế nào",
+      "body": "Part 2 (**Reading to Apply a Diagram**) có hai phần: một **diagram** (bảng giá, lịch học, danh sách dịch vụ, bản đồ, thực đơn) và một **email** có 5 chỗ trống. Người viết email đang dùng diagram để ra quyết định, và bạn phải chọn cụm từ phù hợp cho từng chỗ trống. Sau đó có 3 câu hỏi trắc nghiệm, thường hỏi \"Why…?\" hoặc một tình huống giả định (\"If… which option…?\"). Tổng cộng 8 câu trong khoảng 9 phút.\n\nĐiểm mấu chốt: mọi đáp án là kết quả của việc **áp dụng điều kiện** trong email vào diagram. Bạn không cần hiểu sâu, nhưng phải cẩn thận và có hệ thống."
+    },
+    {
+      "heading": "Đọc diagram như một văn bản",
+      "body": "Đừng đọc từng ô. Trong 60–90 giây đầu, hãy đọc:\n\n- **Tiêu đề**: diagram nói về cái gì, ở đâu, áp dụng khi nào (weekends, fall programs).\n- **Nhãn và cột**: mỗi lựa chọn được mô tả theo những tiêu chí nào (size, capacity, price, access).\n- **Đơn vị**: *$/hour*, *$/month*, *3-hour minimum*, *up to 50 people*. Nhầm đơn vị là lỗi tính toán phổ biến nhất.\n- **Chú thích** (dòng in nghiêng hoặc có dấu *): giảm giá, phí bắt buộc, quy định chung. Chú thích thường là nơi giấu đáp án của 1–2 câu.\n\nSau bước này bạn chưa cần nhớ chi tiết; bạn chỉ cần biết thông tin nằm ở đâu để quay lại tra."
+    },
+    {
+      "heading": "Rút ra điều kiện và nhận ra paraphrase",
+      "body": "Khi đọc email, gạch ra mọi **điều kiện** (constraint): số người, ngân sách, ngày giờ, thời gian thuê, mùa, ai được giảm giá, nhu cầu đặc biệt. Email hiếm khi dùng đúng từ của bảng, nên bạn phải nối bằng paraphrase:\n\n- *mustn't sit anywhere cold or damp* ↔ **Climate controlled: yes**\n- *Nani uses a wheelchair… step-free entrance* ↔ **Wheelchair-accessible entrance**\n- *cook the biryani on site* ↔ **Full kitchen with stove and oven** (một *kitchenette* không có bếp nấu thì không đủ)\n- *we're only out for seven weeks* ↔ **Rentals of 3 months or more**\n\nNgôn ngữ điều kiện cần để ý: *up to* (tối đa), *at least / minimum* (tối thiểu), *only if, as long as, unless*, *no later than / must end by*."
+    },
+    {
+      "heading": "Loại trừ bằng bảng điều kiện",
+      "body": "Với chỗ trống yêu cầu chọn một phương án, hãy lập **constraint grid** trong đầu: hàng là các lựa chọn, cột là các điều kiện. Một lựa chọn chỉ cần **một dấu ✗** là bị loại. Thứ tự hiệu quả:\n\n1. Bắt đầu với điều kiện loại được nhiều lựa chọn nhất (thường là số người hoặc kích thước).\n2. Áp dụng điều kiện đặc biệt (mùa, bếp, lối vào cho xe lăn, giờ mở cửa).\n3. Kiểm tra phương án còn lại với **tất cả** điều kiện, kể cả chú thích.\n\nEmail thường tự loại bớt giúp bạn (*That rules out…*, *That leaves…*). Hãy dùng những câu này để kiểm tra lại grid của mình."
+    },
+    {
+      "heading": "Tính toán và các bẫy thường gặp",
+      "body": "Part 2 hay có phép tính đơn giản: số giờ × giá, trừ phần trăm giảm giá, cộng phí bắt buộc. Trước khi tính, trả lời ba câu hỏi:\n\n- Giảm giá áp dụng cho **cái gì**? (*15% off the hourly rate (not the deposit)*)\n- Người viết có **đủ điều kiện** không? (thuê 7 tuần thì không được ưu đãi dành cho 3 tháng trở lên)\n- Email hỏi **khoản nào**? (*the room itself will cost…, plus the cleaning deposit* nghĩa là không cộng tiền cọc)\n\nBẫy thường gặp: **đúng nhưng không liên quan** (một thông tin có thật trong bảng nhưng không giải thích được vấn đề), **bỏ qua chú thích**, **quên một điều kiện**, và **trùng từ** (đáp án là tên một phương án đã bị loại)."
+    }
+  ],
+  "stimuli": {
+    "storage-set": {
+      "title": "Storage units and Gabriel's email",
+      "text": "**Harbour Self Storage — Unit options (Port Coquitlam)**\n\n- **Locker** — 5 × 5 ft. Fits: boxes, a bike, seasonal items. Climate controlled: yes. Access: 6 a.m.–10 p.m. daily. $69/month.\n- **Small** — 5 × 10 ft. Fits: a studio or one-bedroom without large appliances. Climate controlled: yes. Access: 6 a.m.–10 p.m. daily. $119/month.\n- **Medium** — 10 × 10 ft. Fits: a one- or two-bedroom apartment, including a fridge. Climate controlled: no. Drive-up access: yes, 24 hours. $159/month.\n- **Large** — 10 × 15 ft. Fits: a two- or three-bedroom home. Climate controlled: yes. Access: 6 a.m.–10 p.m. daily. $219/month.\n- **Garage** — 10 × 20 ft. Fits: a car or the contents of a large house. Climate controlled: no. Drive-up access: yes, 24 hours. $289/month.\n\n*Rentals of 3 months or more: first month half price. Insurance required: $12/month, or show proof of home insurance.*\n\n---\n\nHi Mei,\n\nI went through the Harbour Self Storage list so we have somewhere to put our things while the floors are being redone. Since we're only out of the condo for seven weeks, we won't qualify for the [[1]], which is a shame. We need room for everything in our one-bedroom, fridge included, plus your piano, and remember the tuner said it mustn't sit anywhere cold or damp. That rules out the Medium unit, even though it's cheaper, and the Small one won't work because of [[2]]. So the [[3]] unit it is. Our home insurance covers stored items, so we'll just show proof, and for the two months we'll need, the total comes to [[4]].\n\nOne problem: the moving company offered us a 5:30 a.m. Saturday slot. Since the unit [[5]], I'll ask them for a later time.\n\nGabriel"
+    },
+    "hall-set": {
+      "title": "Room rentals and Farida's email",
+      "text": "**Maple Ridge Neighbourhood Hub — Room rentals (weekends)**\n\n- **Cedar Room** — up to 30 people. Kitchenette (fridge, microwave, no stove). Projector: yes. $45/hour, 3-hour minimum.\n- **Spruce Room** — up to 50 people. No kitchen. Projector: no. $55/hour, 2-hour minimum. Wheelchair-accessible entrance.\n- **Alder Hall** — up to 80 people. Full kitchen with stove and oven. Projector: yes. $85/hour, 4-hour minimum. Wheelchair-accessible entrance.\n- **Garden Patio** — up to 40 people. Outdoor; covered area for 20. No kitchen. $30/hour, May–September only.\n\n*All rooms: cleaning deposit $150, refunded within 10 days if the room is left clean. Maple Ridge residents receive 15% off the hourly rate (not the deposit). Events must end by 11 p.m.*\n\n---\n\nHi Sunil,\n\nThanks for offering to help with Nani's 90th birthday on Saturday, November 16. We're expecting about 45 guests, so the Cedar Room is too small, and since it's November, the [[1]] isn't an option either. Nani uses a wheelchair now, so we need a step-free entrance, and my aunties want to cook the biryani on site, which means we need [[2]]. That leaves Alder Hall.\n\nThe party will run from 6 to 10 p.m. Because I live in Maple Ridge, we get [[3]] off the hourly rate, so the room itself will cost [[4]], plus the cleaning deposit. As long as we leave everything spotless, we should get the $150 back [[5]].\n\nCan you bring your projector for the slideshow? Actually, never mind. I just noticed the hall already has one.\n\nFarida"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Choosing the one option that meets every condition",
+      "stimulusId": "storage-set",
+      "question": "Blank [[3]]: 'So the [[3]] unit it is.' Options: (A) Large (B) Garage (C) Medium (D) Locker",
+      "steps": [
+        "Liệt kê điều kiện trong email: (1) chứa được đồ của căn một phòng ngủ, có tủ lạnh; (2) có đàn piano không được để nơi lạnh hoặc ẩm; (3) thuê 7 tuần; (4) có bảo hiểm nhà.",
+        "Paraphrase điều kiện (2): 'mustn't sit anywhere cold or damp' tương ứng với cột 'Climate controlled: yes' trong bảng.",
+        "Lập grid. Locker: chỉ chứa boxes, a bike → ✗ kích thước. Small: 'without large appliances' → ✗ tủ lạnh. Medium: 'Climate controlled: no' → ✗ piano (email cũng nói 'That rules out the Medium unit'). Garage: 'Climate controlled: no' → ✗ piano.",
+        "Kiểm tra phương án còn lại với tất cả điều kiện. Large: 'a two- or three-bedroom home' → đủ chỗ cho căn một phòng ngủ có tủ lạnh; 'Climate controlled: yes' → piano an toàn. Không có dấu ✗ nào.",
+        "Cảnh giác bẫy: Garage lớn nhất và có '24 hours' nên trông hấp dẫn, nhưng chỉ một điều kiện (climate control) là đủ loại nó."
+      ],
+      "answer": "(A) Large",
+      "takeawayVi": "Đừng chọn phương án 'trông tốt nhất'. Chọn phương án duy nhất không bị điều kiện nào loại. Nhớ paraphrase giữa email và bảng: email ít khi dùng đúng chữ của bảng."
+    },
+    {
+      "id": "ex2",
+      "title": "Calculating with conditions and footnotes",
+      "stimulusId": "storage-set",
+      "question": "Blank [[4]]: 'for the two months we'll need, the total comes to [[4]].' Options: (A) $219 (B) $438 (C) $462 (D) $328.50",
+      "steps": [
+        "Xác định đơn giá: Large là '$219/month'. Email nói 'for the two months we'll need', nên cơ sở tính là 2 × $219.",
+        "Đọc chú thích về giảm giá: 'Rentals of 3 months or more: first month half price.' Gabriel chỉ thuê hai tháng (bảy tuần), và chính anh viết 'we won't qualify for the [[1]]'. Vậy không giảm giá → loại D ($109.50 + $219 = $328.50).",
+        "Đọc chú thích về bảo hiểm: 'Insurance required: $12/month, or show proof of home insurance.' Gabriel có bảo hiểm nhà và sẽ 'just show proof', nên không cộng $24 → loại C ($438 + $24 = $462).",
+        "A ($219) chỉ là giá một tháng, trong khi email nói rõ hai tháng.",
+        "Kết quả: 2 × $219 = $438."
+      ],
+      "answer": "(B) $438",
+      "takeawayVi": "Trước khi tính, kiểm tra từng chú thích: người viết có đủ điều kiện được giảm giá không, có phải trả phí bắt buộc không. Các đáp án sai thường chính là kết quả của việc áp dụng nhầm một chú thích."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "storage-set",
+      "competency": "detail",
+      "prompt": "Choose the best option for blank [[1]]: 'Since we're only out of the condo for seven weeks, we won't qualify for the [[1]], which is a shame.'",
+      "hint": "Which part of the guide depends on how long you rent? Check the line below the list.",
+      "options": [
+        { "text": "24-hour access", "misconception": "true-but-irrelevant", "whyVi": "24-hour access phụ thuộc vào loại unit, không phụ thuộc vào thời gian thuê." },
+        { "text": "half-price first month", "misconception": null, "whyVi": "Đúng. Ưu đãi chỉ dành cho người thuê từ 3 tháng trở lên; 7 tuần thì không đủ." },
+        { "text": "climate control", "misconception": "missed-condition", "whyVi": "Climate control là đặc điểm của unit, không liên quan đến 'seven weeks'." },
+        { "text": "free insurance", "misconception": "footnote-ignored", "whyVi": "Chú thích không nói bảo hiểm miễn phí; nó bắt buộc phải trả $12/tháng hoặc có bằng chứng bảo hiểm nhà." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Rentals of 3 months or more: first month half price.",
+      "explanationVi": "Từ 'Since… only… seven weeks' cho thấy chỗ trống là một quyền lợi phụ thuộc vào thời gian thuê. Chỉ có chú thích về '3 months or more' liên quan đến thời gian."
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "storage-set",
+      "competency": "paraphrase",
+      "prompt": "Choose the best option for blank [[2]]: 'the Small one won't work because of [[2]].'",
+      "hint": "Compare what the Small unit fits with the list of things Gabriel needs to store.",
+      "options": [
+        { "text": "its price", "misconception": "true-but-irrelevant", "whyVi": "Small rẻ hơn Large; giá không phải lý do loại nó." },
+        { "text": "the lack of climate control", "misconception": "missed-condition", "whyVi": "Small có 'Climate controlled: yes', nên lý do này sai với bảng." },
+        { "text": "its opening hours", "misconception": "word-match", "whyVi": "Giờ mở cửa của Small giống hệt Large, nên không thể là lý do loại Small mà vẫn chọn Large." },
+        { "text": "the fridge", "misconception": null, "whyVi": "Đúng. Small chỉ chứa căn hộ 'without large appliances', mà họ phải cất cả tủ lạnh." }
+      ],
+      "answerIndex": 3,
+      "evidence": "Fits: a studio or one-bedroom without large appliances.",
+      "explanationVi": "'large appliances' là cách nói chung, còn email dùng ví dụ cụ thể 'fridge included'. Đây là paraphrase general ↔ specific: tủ lạnh là một large appliance."
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "storage-set",
+      "competency": "detail",
+      "prompt": "Choose the best option for blank [[5]]: 'the moving company offered us a 5:30 a.m. Saturday slot. Since the unit [[5]], I'll ask them for a later time.'",
+      "hint": "The problem is about 5:30 a.m. Look at the access hours for the unit Gabriel chose.",
+      "options": [
+        { "text": "doesn't open until 6 a.m.", "misconception": null, "whyVi": "Đúng. Large chỉ cho vào từ 6 a.m., nên 5:30 a.m. là quá sớm." },
+        { "text": "closes at 10 p.m.", "misconception": "true-but-irrelevant", "whyVi": "Thông tin này đúng với bảng, nhưng giờ đóng cửa không giải thích được vấn đề của 5:30 sáng." },
+        { "text": "has drive-up access", "misconception": "word-match", "whyVi": "Drive-up access chỉ có ở Medium và Garage; với Large bảng không nói, và nó cũng không giải thích vấn đề giờ." },
+        { "text": "is only open on weekdays", "misconception": "missed-condition", "whyVi": "Bảng ghi 'daily', tức là mở cả cuối tuần." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Climate controlled: yes. Access: 6 a.m.–10 p.m. daily. $219/month.",
+      "explanationVi": "Chỗ trống giải thích vì sao 5:30 sáng không được. Với unit Large, giờ vào cửa là 6 a.m.–10 p.m. Phương án 'closes at 10 p.m.' là bẫy đúng nhưng không liên quan."
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "storage-set",
+      "competency": "detail",
+      "prompt": "A night-shift nurse needs to drop off a few boxes at 11 p.m. on weeknights. What is the cheapest unit she could rent?",
+      "hint": "First remove every unit she cannot enter at 11 p.m., then compare prices.",
+      "options": [
+        { "text": "Locker", "misconception": "missed-condition", "whyVi": "Locker rẻ nhất nhưng chỉ mở 6 a.m.–10 p.m., nên 11 p.m. không vào được." },
+        { "text": "Small", "misconception": "missed-condition", "whyVi": "Small cũng chỉ mở đến 10 p.m." },
+        { "text": "Medium", "misconception": null, "whyVi": "Đúng. Chỉ Medium và Garage có truy cập 24 giờ, và Medium rẻ hơn ($159 so với $289)." },
+        { "text": "Garage", "misconception": "calc-error", "whyVi": "Garage vào được 24 giờ nhưng đắt hơn Medium." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Climate controlled: no. Drive-up access: yes, 24 hours. $159/month.",
+      "explanationVi": "Áp dụng điều kiện loại nhiều nhất trước (giờ truy cập): chỉ còn Medium và Garage. Sau đó so sánh giá. Điều kiện 'cheapest' chỉ được xét sau khi đã loại các phương án không hợp lệ."
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "hall-set",
+      "competency": "detail",
+      "prompt": "Choose the best option for blank [[1]]: 'since it's November, the [[1]] isn't an option either.'",
+      "options": [
+        { "text": "Spruce Room", "misconception": "missed-condition", "whyVi": "Spruce Room bị loại vì không có bếp, không phải vì tháng 11." },
+        { "text": "Garden Patio", "misconception": null, "whyVi": "Đúng. Garden Patio chỉ cho thuê từ tháng 5 đến tháng 9." },
+        { "text": "Cedar Room", "misconception": "word-match", "whyVi": "Cedar Room đã bị loại ở vế trước vì quá nhỏ." },
+        { "text": "Alder Hall", "misconception": "word-match", "whyVi": "Alder Hall là phòng Farida chọn cuối cùng." }
+      ],
+      "answerIndex": 1,
+      "evidence": "$30/hour, May–September only.",
+      "explanationVi": "'since it's November' là điều kiện về mùa. Chỉ có Garden Patio bị giới hạn theo tháng."
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "hall-set",
+      "competency": "paraphrase",
+      "prompt": "Choose the best option for blank [[2]]: 'my aunties want to cook the biryani on site, which means we need [[2]].'",
+      "options": [
+        { "text": "a kitchenette with a microwave", "misconception": "missed-condition", "whyVi": "Kitchenette của Cedar Room có microwave nhưng 'no stove', không đủ để nấu biryani." },
+        { "text": "a projector", "misconception": "true-but-irrelevant", "whyVi": "Máy chiếu không liên quan đến việc nấu ăn." },
+        { "text": "a full kitchen with a stove", "misconception": null, "whyVi": "Đúng. Nấu tại chỗ cần bếp nấu; chỉ Alder Hall có 'Full kitchen with stove and oven'." },
+        { "text": "a covered area", "misconception": "word-match", "whyVi": "Covered area thuộc Garden Patio và không liên quan đến nấu ăn." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Full kitchen with stove and oven.",
+      "explanationVi": "'cook… on site' là paraphrase của nhu cầu có bếp nấu thật. Kitchenette là bẫy: có chữ 'kitchen' nhưng 'no stove'."
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "hall-set",
+      "competency": "detail",
+      "prompt": "Choose the best option for blank [[3]]: 'Because I live in Maple Ridge, we get [[3]] off the hourly rate.'",
+      "options": [
+        { "text": "15%", "misconception": null, "whyVi": "Đúng. Cư dân Maple Ridge được giảm 15% trên giá theo giờ." },
+        { "text": "$150", "misconception": "footnote-ignored", "whyVi": "$150 là tiền cọc vệ sinh, không phải khoản giảm giá." },
+        { "text": "$45", "misconception": "word-match", "whyVi": "$45 là giá theo giờ của Cedar Room." },
+        { "text": "10%", "misconception": "footnote-ignored", "whyVi": "Không có mức giảm 10% nào trong bảng." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Maple Ridge residents receive 15% off the hourly rate (not the deposit).",
+      "explanationVi": "Điều kiện 'Because I live in Maple Ridge' dẫn thẳng đến chú thích dưới bảng. Nếu bỏ qua chú thích, bạn không thể trả lời câu này."
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "hall-set",
+      "competency": "detail",
+      "prompt": "Choose the best option for blank [[4]]: 'so the room itself will cost [[4]], plus the cleaning deposit.'",
+      "options": [
+        { "text": "$340", "misconception": "footnote-ignored", "whyVi": "$85 × 4 = $340 là giá chưa trừ 15% dành cho cư dân." },
+        { "text": "$439", "misconception": "calc-error", "whyVi": "$439 = $289 + $150 tiền cọc, nhưng email nói 'plus the cleaning deposit', tức là chưa tính tiền cọc." },
+        { "text": "$255", "misconception": "calc-error", "whyVi": "$255 là $85 × 3 giờ; tiệc kéo dài 4 giờ (6–10 p.m.)." },
+        { "text": "$289", "misconception": null, "whyVi": "Đúng. 4 giờ × $85 = $340; trừ 15% ($51) còn $289." }
+      ],
+      "answerIndex": 3,
+      "evidence": "Full kitchen with stove and oven. Projector: yes. $85/hour, 4-hour minimum.",
+      "explanationVi": "Ba bước: số giờ (6–10 p.m. = 4 giờ, vừa đúng mức tối thiểu), giá ($85 × 4 = $340), giảm giá (15% chỉ trên giá theo giờ → $289). 'the room itself… plus the cleaning deposit' cho biết không cộng tiền cọc."
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "hall-set",
+      "competency": "detail",
+      "prompt": "Choose the best option for blank [[5]]: 'As long as we leave everything spotless, we should get the $150 back [[5]].'",
+      "options": [
+        { "text": "on the night of the party", "misconception": "missed-condition", "whyVi": "Bảng không nói hoàn tiền ngay trong đêm tiệc." },
+        { "text": "minus the 15% discount", "misconception": "footnote-ignored", "whyVi": "Giảm giá 15% áp dụng cho giá theo giờ, 'not the deposit'; tiền cọc không bị trừ." },
+        { "text": "within 10 days", "misconception": null, "whyVi": "Đúng. Tiền cọc được hoàn trong vòng 10 ngày nếu phòng sạch." },
+        { "text": "after 11 p.m.", "misconception": "word-match", "whyVi": "11 p.m. là giờ sự kiện phải kết thúc, không liên quan đến hoàn tiền." }
+      ],
+      "answerIndex": 2,
+      "evidence": "cleaning deposit $150, refunded within 10 days if the room is left clean",
+      "explanationVi": "'As long as we leave everything spotless' là paraphrase của 'if the room is left clean'. Câu trả lời nằm ngay trong cùng chú thích."
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "hall-set",
+      "competency": "paraphrase",
+      "prompt": "Why is the Spruce Room not suitable for Farida's party?",
+      "options": [
+        { "text": "It cannot hold 45 guests.", "misconception": "missed-condition", "whyVi": "Spruce Room chứa được 'up to 50 people', đủ cho 45 khách." },
+        { "text": "It has no kitchen for cooking.", "misconception": null, "whyVi": "Đúng. Spruce Room đủ chỗ và có lối vào cho xe lăn, nhưng 'No kitchen'." },
+        { "text": "It has no wheelchair-accessible entrance.", "misconception": "missed-condition", "whyVi": "Sai: Spruce Room có 'Wheelchair-accessible entrance'." },
+        { "text": "Its 2-hour minimum is too long for the party.", "misconception": "calc-error", "whyVi": "Tiệc kéo dài 4 giờ, nhiều hơn mức tối thiểu 2 giờ; 'minimum' là tối thiểu, không phải tối đa." }
+      ],
+      "answerIndex": 1,
+      "evidence": "up to 50 people. No kitchen. Projector: no. $55/hour, 2-hour minimum. Wheelchair-accessible entrance.",
+      "explanationVi": "Email không nhắc tên Spruce Room, nên bạn phải tự kiểm tra nó với từng điều kiện: 45 khách ✓, lối vào xe lăn ✓, nấu tại chỗ ✗. Chỉ cần một ✗ là bị loại."
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "hall-set",
+      "competency": "detail",
+      "prompt": "Farida's neighbour wants to rent a space for a 4-hour baby shower on a Saturday in July. She expects 20 guests, is bringing food that is already cooked, and does not need a projector. Which space would cost her the least?",
+      "options": [
+        { "text": "Cedar Room", "misconception": "calc-error", "whyVi": "Cedar Room phù hợp (tối đa 30 người) nhưng 4 × $45 = $180, đắt hơn Garden Patio." },
+        { "text": "Spruce Room", "misconception": "calc-error", "whyVi": "Spruce Room phù hợp nhưng 4 × $55 = $220." },
+        { "text": "Alder Hall", "misconception": "true-but-irrelevant", "whyVi": "Alder Hall có bếp đầy đủ, nhưng cô ấy không cần nấu; 4 × $85 = $340 là đắt nhất." },
+        { "text": "Garden Patio", "misconception": null, "whyVi": "Đúng. Tháng 7 nằm trong May–September, 20 khách dưới mức 40 (và vừa chỗ có mái che cho 20), không cần bếp; 4 × $30 = $120 là rẻ nhất." }
+      ],
+      "answerIndex": 3,
+      "evidence": "Outdoor; covered area for 20. No kitchen. $30/hour, May–September only.",
+      "explanationVi": "Câu giả định thay đổi các điều kiện: tháng 7 làm Garden Patio hợp lệ trở lại, không nấu ăn nên không cần bếp. Sau khi kiểm tra cả bốn phòng đều hợp lệ, chỉ còn so sánh giá cho 4 giờ."
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "hall-set",
+      "competency": "detail",
+      "prompt": "One of Farida's aunties suggests keeping the party going until 11:30 p.m. According to the guide, what is the problem with this idea?",
+      "options": [
+        { "text": "It would go over the hall's 4-hour minimum.", "misconception": "calc-error", "whyVi": "'4-hour minimum' là thời gian thuê tối thiểu; thuê lâu hơn không vi phạm quy định này." },
+        { "text": "Events at the Hub must finish by 11 p.m.", "misconception": null, "whyVi": "Đúng. Quy định chung cho mọi phòng: 'Events must end by 11 p.m.'" },
+        { "text": "Farida would lose the cleaning deposit.", "misconception": "missed-condition", "whyVi": "Tiền cọc chỉ phụ thuộc vào việc phòng có sạch không; bảng không nói về việc kéo dài giờ." },
+        { "text": "The resident discount would no longer apply.", "misconception": "footnote-ignored", "whyVi": "Không có điều kiện nào gắn giảm giá với giờ kết thúc." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Events must end by 11 p.m.",
+      "explanationVi": "Câu hỏi về quy định chung, nằm ở chú thích cuối bảng. Đáp án về '4-hour minimum' đọc nhầm 'minimum' thành 'maximum'; hai đáp án về tiền cọc và giảm giá gán cho chú thích những điều kiện nó không hề nêu."
+    }
+  ],
+  "misconceptions": {
+    "missed-condition": {
+      "label": "Bỏ sót một điều kiện",
+      "explanationVi": "Bạn kiểm tra phương án với một hoặc hai điều kiện rồi dừng, hoặc đọc sai một ô trong bảng (mùa, sức chứa, giờ mở cửa). Một phương án có vẻ ổn vẫn có thể bị loại bởi điều kiện bạn chưa xét.",
+      "fixVi": "Liệt kê mọi điều kiện trong email trước khi chọn. Với phương án cuối cùng, kiểm tra lại từng điều kiện một, kể cả mùa, giờ và chú thích."
+    },
+    "footnote-ignored": {
+      "label": "Bỏ qua chú thích dưới bảng",
+      "explanationVi": "Bạn chỉ nhìn các dòng chính của bảng và bỏ qua dòng in nghiêng hoặc dòng có dấu * ở cuối, nơi ghi giảm giá, phí bắt buộc và quy định chung.",
+      "fixVi": "Luôn đọc chú thích trong lần lướt diagram đầu tiên. Khi email nhắc đến giảm giá, tiền cọc, bảo hiểm hay giờ kết thúc, quay lại chú thích ngay."
+    },
+    "calc-error": {
+      "label": "Tính toán hoặc so sánh sai",
+      "explanationVi": "Bạn nhân sai số giờ/tháng, áp dụng giảm giá cho khoản không được giảm, cộng nhầm một khoản email không hỏi, hoặc hiểu nhầm minimum (tối thiểu) thành giới hạn tối đa.",
+      "fixVi": "Viết phép tính ra giấy nháp: số lượng × đơn giá, rồi mới áp dụng giảm giá và phí. Đọc lại câu trong email để biết nó hỏi khoản nào (the room itself, the total)."
+    },
+    "true-but-irrelevant": {
+      "label": "Đúng nhưng không liên quan",
+      "explanationVi": "Đáp án là một thông tin có thật trong bảng nhưng không trả lời được câu hỏi hoặc không giải thích được vấn đề trong email.",
+      "fixVi": "Sau khi thấy một đáp án đúng với bảng, hỏi thêm: nó có giải thích đúng vấn đề này không? Ví dụ vấn đề là 5:30 sáng thì giờ đóng cửa không liên quan."
+    },
+    "word-match": {
+      "label": "Bẫy trùng từ",
+      "explanationVi": "Bạn chọn một tên phòng, con số hoặc tính năng chỉ vì nó xuất hiện trong bảng hoặc email, mà không kiểm tra nó đóng vai trò gì trong câu.",
+      "fixVi": "Xác định chức năng của chỗ trống trước (lý do, số tiền, thời gian, tên phương án), rồi chỉ xét những đáp án có đúng chức năng đó."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "rule out", "vi": "loại trừ (một khả năng)", "example": "The lane closures on the Lions Gate Bridge rule out driving downtown, so we'll take the SeaBus." },
+    { "term": "qualify for", "vi": "đủ điều kiện để được (ưu đãi, trợ cấp)", "example": "Seniors over 65 qualify for a reduced rate at the community pool." },
+    { "term": "that leaves", "vi": "vậy chỉ còn lại", "example": "Monday and Tuesday are booked, which leaves Wednesday for the dentist." },
+    { "term": "up to", "vi": "tối đa (đến)", "example": "The shuttle to Whistler holds up to 12 passengers." },
+    { "term": "a 3-hour minimum", "vi": "thuê/đặt tối thiểu 3 giờ", "example": "The movers charge $140 an hour with a 3-hour minimum." },
+    { "term": "refundable deposit", "vi": "tiền đặt cọc được hoàn lại", "example": "The bike rental needs a $50 refundable deposit." },
+    { "term": "on site", "vi": "tại chỗ, ngay tại địa điểm", "example": "There's free parking on site, but it fills up by 9 a.m." },
+    { "term": "climate-controlled", "vi": "có kiểm soát nhiệt độ và độ ẩm", "example": "Store the wine in a climate-controlled unit so it doesn't freeze in January." },
+    { "term": "wheelchair-accessible / step-free", "vi": "có lối đi cho xe lăn / không có bậc thang", "example": "The new library entrance on Main Street is fully step-free." }
+  ],
+  "grammar": [
+    {
+      "point": "Limiting and condition expressions",
+      "explanationVi": "Part 2 dùng nhiều cụm từ giới hạn và điều kiện. 'up to' = tối đa; 'at least / minimum' = tối thiểu; 'only' giới hạn phạm vi (May–September only); 'as long as / if' = với điều kiện là; 'unless' = trừ khi; 'must end by' = phải kết thúc trước. Đọc sai một cụm này là đổi hẳn đáp án.",
+      "examples": [
+        "The Cedar Room holds up to 30 people. (30 is the maximum)",
+        "Alder Hall has a 4-hour minimum. (you must book at least 4 hours)",
+        "The deposit is refunded as long as the room is left clean.",
+        "You won't get the discount unless you rent for 3 months or more."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise a full Part 2 set", "route": "/reading?task=R2" },
+    { "label": "Detail drill", "route": "/reading?mode=drill&focus=detail" },
+    { "label": "Review your mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises and re-checked every condition and calculation against both tables ($438, $289, cheapest-unit and cheapest-space items). Changed i7 guest count 25 -> 20 so the Garden Patio's 'covered area for 20' cannot be read as a rival condition; fixed a vocab example (Lions Gate Bridge -> SeaBus, not SkyTrain)."}
+}

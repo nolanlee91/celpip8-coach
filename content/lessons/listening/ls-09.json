@@ -1,0 +1,395 @@
+{
+  "id": "ls-09",
+  "skill": "listening",
+  "module": "listening-comprehension",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Predicting answers before you listen",
+  "titleVi": "Đoán trước đáp án trước khi nghe",
+  "estimatedMinutes": 30,
+  "prerequisites": ["ls-02"],
+  "competencies": ["similar_choices"],
+  "tasks": ["L1", "L2", "L3", "L4", "L5", "L6"],
+  "objectives": [
+    "You will be able to use the context line and the type of situation to predict the kind of information you will need to note.",
+    "You will be able to compare answer options quickly, identify exactly where they differ, and check that point against what you heard.",
+    "You will be able to choose between near-identical options by checking every detail: who, what, when, where and how many."
+  ],
+  "objectiveVi": "Sau bài này, bạn biết cách dùng dòng giới thiệu, câu hỏi và các đáp án để đoán trước mình cần nghe gì, và phân biệt những đáp án gần giống nhau chỉ khác một chi tiết nhỏ.",
+  "whyItMattersVi": "Trong CELPIP Listening, audio chỉ phát một lần và câu hỏi thường chỉ hiện ra **sau khi** đoạn nghe kết thúc — trước đó bạn chỉ có màn hình giới thiệu (context line). Người học Level 6 thường nghe “thụ động”, rồi khi nhìn bốn đáp án gần giống nhau thì không nhớ chi tiết nào quyết định. Người đạt Level 8 nghe “có mục tiêu”: từ context line, họ đoán trước loại chi tiết sẽ bị hỏi (ngày, giờ, người, số lượng, quyết định cuối) và ghi lại; khi đáp án hiện ra, họ tìm ngay điểm khác nhau giữa các đáp án và đối chiếu đúng điểm đó với ghi chú.",
+  "concept": [
+    {
+      "heading": "Nghe có mục tiêu thay vì nghe thụ động",
+      "body": "Bộ não không thể nhớ mọi chi tiết của một đoạn hội thoại 60–90 giây. Nhưng nếu bạn biết trước **mình đang tìm gì**, bạn sẽ “bắt” được chi tiết đó khi nó xuất hiện. Đây gọi là **prediction** (dự đoán).\n\nDự đoán có ba tầng:\n1. **Dòng giới thiệu (context line):** *'You will hear a conversation between a patient and a dental receptionist.'* → Đoán chủ đề: lịch hẹn, ngày giờ, bác sĩ, có thể là đổi lịch.\n2. **Kiểu tình huống:** gọi điện đổi lịch → nhiều lựa chọn, một lựa chọn được chốt; thông báo → thông tin cũ và mới; tư vấn → lời khuyên và điều kiện. Từ đó đoán câu hỏi: *When…?* → thời gian; *Why…?* → lý do (because, so, since, the thing is); *What will she do…?* → quyết định cuối (I'll…, let's…).\n3. **Các đáp án (khi chúng hiện ra):** cho biết **chính xác** chi tiết nào quyết định đáp án. Trong CELPIP, câu hỏi và đáp án thường xuất hiện **sau** khi audio kết thúc, nên bạn so đáp án với **ghi chú và trí nhớ**. Ở Part 1, câu hỏi của đoạn trước còn giúp bạn đoán đoạn sau sẽ nói về gì."
+    },
+    {
+      "heading": "Tìm “điểm khác nhau” giữa các đáp án",
+      "body": "Khi các đáp án gần giống nhau (similar choices), đừng đọc chúng như bốn câu riêng. Hãy đặt chúng cạnh nhau và tìm **chỗ khác biệt**:\n\n- Tuesday 14th, 10:30, Dr. Patel\n- Wednesday 15th, 2:00, Dr. Patel\n- Thursday, 9:00, Dr. Kim\n- Tuesday 14th, 2:00, Dr. Patel\n\n→ Các đáp án khác nhau ở **ngày**, **giờ** và **bác sĩ**. Đây là ba thứ bạn phải nghe. Cũng lưu ý: đáp án thứ tư **trộn** ngày của đáp án 1 với giờ của đáp án 2 — một kiểu bẫy rất phổ biến.\n\nCác kiểu khác biệt hay gặp: **số lượng** (one/two cans), **người** (he/she, Dr. Patel/Dr. Kim), **thời gian** (morning/afternoon, 3:15/3:40), **địa điểm** (Gate B16/B61), **điều kiện** (allowed / allowed with a fee / not allowed)."
+    },
+    {
+      "heading": "Nghe được rồi, vẫn phải nghe tiếp",
+      "body": "Trong hội thoại thật, thông tin thường được **nêu ra nhiều lần và thay đổi**: nhân viên đưa ra ba lựa chọn, khách từ chối hai, chọn một. Một số câu bị đổi: *'from Platform 2, not Platform 4 as previously announced'*, *'originally scheduled for 7:20, will now begin at 7:50'*. Vì vậy:\n\n- Khi nghe một chi tiết khớp với một đáp án, **đánh dấu tạm**, đừng chốt ngay.\n- Chờ tín hiệu chốt: *Let's do…, Perfect, …, I'll just…, will now…*.\n- Những từ như *originally, previously, instead, actually, not… but…* báo hiệu thông tin cũ bị thay thế.\n\nĐáp án nhiễu thường là **lựa chọn được nhắc đầu tiên** hoặc **thông tin cũ trước khi bị sửa**."
+    },
+    {
+      "heading": "Quy trình 3 bước: trước, trong và sau khi nghe",
+      "body": "1. **Trước khi nghe — đọc context line (vài giây):** ai nói với ai, ở đâu, về việc gì? Đoán loại chi tiết có thể bị hỏi (ngày, giờ, giá, lựa chọn, quyết định) và chuẩn bị ghi theo đó, ví dụ: *ngày? giờ? bác sĩ? → chốt?*\n2. **Trong khi nghe — ghi các biến, không ghi cả câu:** *Tue 14 10:30 / Wed 15 2:00 / Thu 9 Kim → ✓ Tue*. Đánh dấu ✗ khi một lựa chọn bị từ chối.\n3. **Khi đáp án hiện ra — so sánh đáp án (khoảng 10 giây):** gạch bỏ phần giống nhau, tìm điểm khác nhau, rồi đối chiếu đúng điểm đó với ghi chú.\n\nKhi luyện tập (như các bài tập trong bài học này), bạn có thể đọc câu hỏi trước để luyện bước 3 thật nhanh. Trong bài thi thật, câu hỏi thường chỉ hiện ra sau audio, nên hãy tập làm bước 1–2 chỉ dựa vào context line."
+    },
+    {
+      "heading": "Bẫy của đáp án gần giống nhau",
+      "body": "- **Trộn chi tiết (mixed details):** ngày đúng + giờ sai, người đúng + hành động sai.\n- **Lựa chọn bị từ chối:** được nhắc tới nhưng người nói nói *no good, I'd rather not*.\n- **Thông tin cũ:** giờ/địa điểm trước khi được cập nhật.\n- **Đảo chi tiết:** giảm giá áp dụng cho người cao tuổi nhưng đáp án nói học sinh; quầy A đóng cửa nhưng đáp án nói quầy B.\n- **Số gần giống:** 16 và 61, 7:30 và 7:40, fifteen và fifty.\n\nDự đoán không có nghĩa là **đoán bừa đáp án** trước khi nghe — nó có nghĩa là biết **chỗ cần nghe**. Đáp án cuối cùng vẫn phải đến từ audio."
+    }
+  ],
+  "stimuli": {
+    "dentist-call": {
+      "title": "A dental clinic calls a patient",
+      "text": "You will hear a phone call between a dental receptionist and a patient.",
+      "audio": [
+        { "speaker": "Receptionist", "voice": "female_a", "text": "Hi, this is Coastal Dental calling for Mr. Nguyen. I'm afraid Dr. Patel is going to be away on Thursday the ninth, so we need to move your cleaning. We've got Tuesday the fourteenth at ten-thirty, or Wednesday the fifteenth at two. If neither of those works, Dr. Kim has an opening this Thursday at nine, but just so you know, she'd be doing the cleaning instead of Dr. Patel." },
+        { "speaker": "Mr. Nguyen", "voice": "male_b", "text": "Hmm. I'd rather stay with Dr. Patel. And Wednesday afternoon's no good, I've got the kids. Let's do the Tuesday." },
+        { "speaker": "Receptionist", "voice": "female_a", "text": "Perfect. Tuesday the fourteenth at ten-thirty with Dr. Patel. See you then." }
+      ]
+    },
+    "paint-store": {
+      "title": "At a hardware store",
+      "text": "You will hear a conversation between a customer and an employee in the paint department of a hardware store.",
+      "audio": [
+        { "speaker": "Greg", "voice": "male_a", "text": "Hi there. I'm painting a bedroom, about twelve by fourteen. How much paint do I need?" },
+        { "speaker": "Employee", "voice": "female_b", "text": "For a room that size, with two coats, you're looking at about two cans. Are you painting over a dark colour?" },
+        { "speaker": "Greg", "voice": "male_a", "text": "Yeah, it's navy right now. We're going to a light grey." },
+        { "speaker": "Employee", "voice": "female_b", "text": "Then you'll want a primer first, or you'll be doing three or four coats. Honestly, with the primer, our regular line will do just fine. You don't need the premium stuff." },
+        { "speaker": "Greg", "voice": "male_a", "text": "Okay. So, one can of primer and two cans of the regular grey." },
+        { "speaker": "Employee", "voice": "female_b", "text": "You got it. Rollers are in aisle six." }
+      ]
+    },
+    "pharmacy-call": {
+      "title": "Calling a pharmacy about a refill",
+      "text": "You will hear a phone call between a customer and a pharmacist about a prescription refill.",
+      "audio": [
+        { "speaker": "Olivia", "voice": "female_b", "text": "Hi, I'm calling to see if my prescription refill is ready. The last name's Brooks." },
+        { "speaker": "Pharmacist", "voice": "female_a", "text": "Let me check. Okay, Olivia Brooks. So, one of your two medications is ready, the blood pressure one. The other one we're out of stock on, unfortunately. We should have it in by Thursday." },
+        { "speaker": "Olivia", "voice": "female_b", "text": "Thursday? I've only got two pills left." },
+        { "speaker": "Pharmacist", "voice": "female_a", "text": "Right. In that case, I can give you a three-day supply today to tide you over, and you can pick up the rest on Thursday. Or, if it's easier, our location on Main Street has it in stock right now, and I could transfer the whole prescription there." },
+        { "speaker": "Olivia", "voice": "female_b", "text": "I'll just come in today and grab the three days. Main Street's way out of my way." }
+      ]
+    },
+    "swim-message": {
+      "title": "A recorded phone message",
+      "text": "You will hear a recorded phone message from a community centre.",
+      "audio": [
+        { "speaker": "Recording", "voice": "narrator", "text": "Thank you for calling the Hillcrest Community Centre. Registration for fall swimming lessons opens Monday, August twenty-fifth, at nine a.m. online, and at ten a.m. in person at the front desk. Lessons for preschoolers run on Saturday mornings, and lessons for school-age children are on Tuesday and Thursday evenings. Please note that the Level Three class on Thursdays has been cancelled this session due to a shortage of instructors. The Tuesday Level Three class will run as usual. For more information, press one." }
+      ]
+    },
+    "apartment-viewing": {
+      "title": "Viewing an apartment",
+      "text": "You will hear a conversation between a landlord and a woman who is looking at an apartment.",
+      "audio": [
+        { "speaker": "Sofia", "voice": "female_b", "text": "So the ad said seventeen-fifty a month. Does that include utilities?" },
+        { "speaker": "Mr. Chen", "voice": "male_a", "text": "Heat and hot water are included. Electricity's separate. It's usually around forty or fifty a month for a place this size. Internet you'd set up yourself." },
+        { "speaker": "Sofia", "voice": "female_b", "text": "Okay. And is parking included?" },
+        { "speaker": "Mr. Chen", "voice": "male_a", "text": "There's one spot that comes with the unit. If you need a second one, it's an extra seventy-five, but there's a waitlist for those right now." },
+        { "speaker": "Sofia", "voice": "female_b", "text": "Just one's fine. And what about pets?" },
+        { "speaker": "Mr. Chen", "voice": "male_a", "text": "Cats are okay. Dogs, I'm sorry, the strata doesn't allow them." }
+      ]
+    },
+    "gate-announcement": {
+      "title": "An airport announcement",
+      "text": "You will hear an announcement at Vancouver International Airport.",
+      "audio": [
+        { "speaker": "Announcer", "voice": "narrator", "text": "Attention, passengers on Flight four-twelve to Calgary. This flight will now depart from Gate C thirty-four, not Gate C forty-three as previously shown. Boarding, originally scheduled for three-fifteen, will now begin at three-forty, and the departure time has been changed to four-ten. Passengers who need extra time or assistance to board are invited to approach the gate agent at three-thirty. We apologize for the delay." }
+      ]
+    },
+    "course-advice": {
+      "title": "Talking to a college advisor",
+      "text": "You will hear a conversation between a student and an academic advisor at a college in BC.",
+      "audio": [
+        { "speaker": "Tyler", "voice": "male_b", "text": "I want to take Intro to Accounting this fall, but I work Monday and Wednesday evenings." },
+        { "speaker": "Ms. Okafor", "voice": "female_a", "text": "Okay, so the evening section's out, since it meets on Mondays and Wednesdays. There's a daytime section on Tuesday and Thursday mornings, but that one's full. You could put your name on the waitlist, though. People do drop in the first week, so your chances are decent. The other option is the online section. It's self-paced, but you'd still have to write the midterm and the final in person, on campus." },
+        { "speaker": "Tyler", "voice": "male_b", "text": "Self-paced sounds risky for me. I'm a bit of a procrastinator, to be honest." },
+        { "speaker": "Ms. Okafor", "voice": "female_a", "text": "Then I'd join the waitlist for the morning section and register in the online one as a backup. If you get a seat in person, you can drop the online section with a full refund until September twelfth." }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "e1",
+      "title": "Mapping the differences before you listen",
+      "stimulusId": "dentist-call",
+      "question": "When is Mr. Nguyen's new appointment? (A) Tuesday the 14th at 10:30 with Dr. Patel. (B) Wednesday the 15th at 2:00 with Dr. Patel. (C) Thursday at 9:00 with Dr. Kim. (D) Tuesday the 14th at 2:00 with Dr. Patel.",
+      "steps": [
+        "Context line: a dental receptionist and a patient. I predict dates, times and maybe a change of appointment.",
+        "I compare the options and write the differences: 'Tue 14 / Wed 15 / Thu – 10:30 / 2:00 / 9:00 – Patel / Kim'. I notice D mixes A's day with B's time.",
+        "While listening, the receptionist offers all three slots. I mark them but don't choose yet, because the patient hasn't decided.",
+        "The patient rejects Dr. Kim ('I'd rather stay with Dr. Patel') and Wednesday ('Wednesday afternoon's no good'), then says 'Let's do the Tuesday.'",
+        "Final check with the receptionist's confirmation: 'Tuesday the fourteenth at ten-thirty with Dr. Patel.' Day, time and dentist all match A, and D has the wrong time."
+      ],
+      "answer": "(A) Tuesday the 14th at 10:30 with Dr. Patel.",
+      "takeawayVi": "Ba lựa chọn đều được nói ra, nên nghe thấy một chi tiết khớp chưa đủ. Biết trước ba điểm khác biệt (ngày–giờ–bác sĩ) giúp bạn theo dõi từng lựa chọn bị loại và nhận ra đáp án “trộn” D."
+    },
+    {
+      "id": "e2",
+      "title": "Similar choices about quantity and type",
+      "stimulusId": "paint-store",
+      "question": "What will Greg buy? (A) Two cans of premium grey paint. (B) Two cans of regular paint and one can of primer. (C) One can of primer and one can of regular paint. (D) Three cans of regular paint and no primer.",
+      "steps": [
+        "Context: the paint department. Question: 'What will Greg buy?', so I need his final order.",
+        "Differences between the options: number of cans (1/2/3), type (premium/regular) and primer (yes/no). Those are my three targets.",
+        "Listening: 'about two cans' → two cans of paint. 'You'll want a primer first' → primer yes. 'Three or four coats' is what happens WITHOUT primer, so D's 'three' is a number trap.",
+        "'Our regular line will do just fine. You don't need the premium stuff' → regular, not premium. That removes A.",
+        "Greg confirms: 'one can of primer and two cans of the regular grey'. Only B has all three details right; C has the wrong number of paint cans."
+      ],
+      "answer": "(B) Two cans of regular paint and one can of primer.",
+      "takeawayVi": "Khi đáp án khác nhau ở số lượng và loại hàng, hãy theo dõi từng biến riêng. Con số “three” có trong bài nhưng thuộc về một tình huống giả định (nếu không dùng primer)."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "pharmacy-call",
+      "prompt": "Before you listen, read this question and its options: 'What will Olivia do?' (a) Pick up a three-day supply today. (b) Have the prescription transferred to Main Street. (c) Pick up both medications on Thursday. (d) Get her whole refill today. Where do these options mainly differ?",
+      "hint": "Line the four options up. Ignore the words they share and look only at the words that change from one option to the next.",
+      "options": [
+        { "text": "In which medication is for blood pressure", "misconception": "no_prediction", "whyVi": "Không đáp án nào nhắc tới loại thuốc; đây không phải điểm khác biệt." },
+        { "text": "In when and where she gets her medication", "misconception": null, "whyVi": "Đúng: các đáp án khác nhau ở thời điểm (today/Thursday) và địa điểm (this pharmacy/Main Street)." },
+        { "text": "In how much she has to pay", "misconception": "no_prediction", "whyVi": "Không đáp án nào nói về tiền." },
+        { "text": "In who will pick up the medication", "misconception": "no_prediction", "whyVi": "Tất cả các đáp án đều nói về Olivia." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Đặt bốn đáp án cạnh nhau, phần thay đổi là today / Thursday / Main Street. Vậy khi nghe, bạn chỉ cần theo dõi: lấy thuốc khi nào và ở đâu. Đây là bước dự đoán trước khi nghe.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "pharmacy-call",
+      "prompt": "What will Olivia do?",
+      "hint": "The pharmacist offers two solutions. Don't choose when you hear the first one. Wait for Olivia's final words: 'I'll just…'.",
+      "options": [
+        { "text": "Pick up a three-day supply today", "misconception": null, "whyVi": "Đúng: “I'll just come in today and grab the three days.”" },
+        { "text": "Have the prescription transferred to Main Street", "misconception": "rejected_choice", "whyVi": "Olivia từ chối: “Main Street's way out of my way.”" },
+        { "text": "Pick up both medications on Thursday", "misconception": "mixed_details", "whyVi": "Thursday là ngày lấy phần còn lại, nhưng hôm nay cô ấy vẫn lấy thuốc." },
+        { "text": "Get her whole refill today", "misconception": "mixed_details", "whyVi": "Chỉ một loại thuốc có đủ; loại kia hết hàng tới thứ Năm, hôm nay chỉ lấy được ba ngày." }
+      ],
+      "answerIndex": 0,
+      "evidence": "I'll just come in today and grab the three days.",
+      "explanationVi": "Vì bạn đã biết cần nghe “khi nào và ở đâu”, bạn có thể theo dõi: Main Street ✗, hôm nay lấy ba ngày ✓. Hai đáp án sai trộn chi tiết “today/Thursday” với “both medications”.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "pharmacy-call",
+      "prompt": "Why isn't Olivia's whole refill ready?",
+      "hint": "The options differ in two ways: how many medications, and what the problem is. Count the medications the pharmacist mentions.",
+      "options": [
+        { "text": "Both of her medications are out of stock.", "misconception": "mixed_details", "whyVi": "Sai số lượng: thuốc huyết áp đã sẵn sàng." },
+        { "text": "One of her medications is out of stock.", "misconception": null, "whyVi": "Đúng: “The other one we're out of stock on, unfortunately.”" },
+        { "text": "One of her medications needs a doctor's approval.", "misconception": "not_mentioned", "whyVi": "Không nhắc tới bác sĩ." },
+        { "text": "The pharmacy is closed until Thursday.", "misconception": "mixed_details", "whyVi": "Thursday là ngày hàng về, không phải ngày mở cửa lại." }
+      ],
+      "answerIndex": 1,
+      "evidence": "So, one of your two medications is ready, the blood pressure one. The other one we're out of stock on, unfortunately.",
+      "explanationVi": "Các đáp án gần giống nhau, chỉ khác ở “both/one” và loại vấn đề. Theo dõi đúng hai biến đó là đủ để chọn.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "swim-message",
+      "prompt": "When can people register in person?",
+      "hint": "The message gives two times for the same day. Which one goes with 'in person at the front desk'?",
+      "options": [
+        { "text": "Monday, August 25, at 9 a.m.", "misconception": "mixed_details", "whyVi": "9 giờ là giờ mở đăng ký online." },
+        { "text": "Monday, August 25, at 10 a.m.", "misconception": null, "whyVi": "Đúng: “at ten a.m. in person at the front desk”." },
+        { "text": "Tuesday, August 26, at 10 a.m.", "misconception": "mixed_details", "whyVi": "Đúng giờ nhưng sai ngày." },
+        { "text": "Saturday morning at 9 a.m.", "misconception": "mixed_details", "whyVi": "Saturday morning là giờ học của trẻ mầm non." }
+      ],
+      "answerIndex": 1,
+      "evidence": "opens Monday, August twenty-fifth, at nine a.m. online, and at ten a.m. in person at the front desk",
+      "explanationVi": "Ngày giống nhau, giờ khác nhau theo hình thức đăng ký. Dự đoán trước “cần nghe giờ + hình thức” giúp bạn gắn 10 a.m. với “in person”.",
+      "competency": "similar_choices"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "swim-message",
+      "prompt": "Which class will NOT run this session?",
+      "options": [
+        { "text": "Level Three on Tuesdays", "misconception": "swapped_detail", "whyVi": "Lớp thứ Ba “will run as usual”." },
+        { "text": "Level Three on Thursdays", "misconception": null, "whyVi": "Đúng: “the Level Three class on Thursdays has been cancelled”." },
+        { "text": "All Thursday evening lessons", "misconception": "mixed_details", "whyVi": "Quá rộng: chỉ lớp Level 3 vào thứ Năm bị hủy." },
+        { "text": "The preschool lessons on Saturdays", "misconception": "not_mentioned", "whyVi": "Không có thông tin lớp mầm non bị hủy." }
+      ],
+      "answerIndex": 1,
+      "evidence": "the Level Three class on Thursdays has been cancelled this session due to a shortage of instructors",
+      "explanationVi": "Hai đáp án đầu chỉ khác nhau một từ (Tuesdays/Thursdays). Khi nghe một thông báo hủy hoặc thay đổi, luôn ghi kèm ngày (Thu L3 ✗, Tue L3 ✓), vì đáp án gần giống nhau sẽ khác nhau đúng ở chi tiết đó.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "apartment-viewing",
+      "prompt": "What is included in the rent?",
+      "options": [
+        { "text": "Heat, hot water and electricity", "misconception": "mixed_details", "whyVi": "Electricity tính riêng (khoảng 40–50 đô)." },
+        { "text": "Heat, hot water and internet", "misconception": "mixed_details", "whyVi": "Internet người thuê tự lắp." },
+        { "text": "Heat, hot water and two parking spots", "misconception": "mixed_details", "whyVi": "Chỉ một chỗ đỗ; chỗ thứ hai thêm 75 đô." },
+        { "text": "Heat, hot water and one parking spot", "misconception": null, "whyVi": "Đúng: “Heat and hot water are included” + “one spot that comes with the unit”." }
+      ],
+      "answerIndex": 3,
+      "evidence": "There's one spot that comes with the unit.",
+      "explanationVi": "Cả bốn đáp án giống nhau ở “heat, hot water”; điểm khác nằm ở món thứ ba. Vậy bạn chỉ cần nghe kỹ electricity / internet / parking và số lượng chỗ đỗ.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "apartment-viewing",
+      "prompt": "What does the landlord say about pets?",
+      "options": [
+        { "text": "Dogs are allowed, but cats are not.", "misconception": "swapped_detail", "whyVi": "Đảo ngược: mèo được, chó không." },
+        { "text": "Cats are allowed for an extra monthly fee.", "misconception": "mixed_details", "whyVi": "Khoản thêm (75 đô) là cho chỗ đỗ xe thứ hai, không phải thú cưng." },
+        { "text": "Cats are allowed, but dogs are not because of strata rules.", "misconception": null, "whyVi": "Đúng: “Cats are okay. Dogs, I'm sorry, the strata doesn't allow them.”" },
+        { "text": "No pets are allowed because the landlord has allergies.", "misconception": "not_mentioned", "whyVi": "Không nhắc tới dị ứng; mèo vẫn được phép." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Cats are okay. Dogs, I'm sorry, the strata doesn't allow them.",
+      "explanationVi": "Các đáp án khác nhau ở loài vật, điều kiện và lý do. Chú ý lý do “strata” (ban quản trị tòa nhà) — không phải quyết định riêng của chủ nhà.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "gate-announcement",
+      "prompt": "Where and when does boarding begin?",
+      "options": [
+        { "text": "Gate C34 at 3:40", "misconception": null, "whyVi": "Đúng: “Gate C thirty-four” + “will now begin at three-forty”." },
+        { "text": "Gate C43 at 3:40", "misconception": "outdated_detail", "whyVi": "C43 là cổng cũ (“as previously shown”)." },
+        { "text": "Gate C34 at 3:15", "misconception": "outdated_detail", "whyVi": "3:15 là giờ cũ (“originally scheduled”)." },
+        { "text": "Gate C34 at 4:10", "misconception": "mixed_details", "whyVi": "4:10 là giờ cất cánh, không phải giờ lên máy bay." }
+      ],
+      "answerIndex": 0,
+      "evidence": "This flight will now depart from Gate C thirty-four, not Gate C forty-three as previously shown. Boarding, originally scheduled for three-fifteen, will now begin at three-forty",
+      "explanationVi": "Dự đoán: đáp án khác nhau ở số cổng (34/43) và giờ (3:15/3:40/4:10). Thông báo đổi lịch luôn có thông tin cũ và mới; tín hiệu “now”, “not… as previously shown”, “originally” giúp bạn bỏ thông tin cũ.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "gate-announcement",
+      "prompt": "Who is asked to go to the gate agent at 3:30?",
+      "options": [
+        { "text": "Passengers who were waiting at Gate C43", "misconception": "outdated_detail", "whyVi": "Thông báo không yêu cầu người ở cổng cũ gặp nhân viên." },
+        { "text": "Passengers who need help or more time to board", "misconception": null, "whyVi": "Đúng: “Passengers who need extra time or assistance to board”." },
+        { "text": "Passengers who want to change to a later flight", "misconception": "not_mentioned", "whyVi": "Không nhắc tới việc đổi chuyến." },
+        { "text": "All passengers on the delayed flight", "misconception": "mixed_details", "whyVi": "Quá rộng: chỉ nhóm cần hỗ trợ." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Passengers who need extra time or assistance to board are invited to approach the gate agent at three-thirty.",
+      "explanationVi": "Câu hỏi đã cho sẵn con số 3:30, nên bạn biết phải nghe câu chứa “three-thirty” và người được nhắc trong câu đó. “Assistance” được paraphrase thành “help”.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "course-advice",
+      "prompt": "Why can't Tyler take the evening section?",
+      "options": [
+        { "text": "It is already full.", "misconception": "swapped_detail", "whyVi": "Lớp đầy là lớp buổi sáng thứ Ba và thứ Năm." },
+        { "text": "It has been cancelled this fall.", "misconception": "not_mentioned", "whyVi": "Không ai nói lớp tối bị hủy." },
+        { "text": "It meets on the evenings when he works.", "misconception": null, "whyVi": "Đúng: Tyler làm tối thứ Hai và thứ Tư, và lớp tối học “on Mondays and Wednesdays”." },
+        { "text": "It requires him to write exams on campus.", "misconception": "swapped_detail", "whyVi": "Thi tại trường là quy định của lớp online." }
+      ],
+      "answerIndex": 2,
+      "evidence": "the evening section's out, since it meets on Mondays and Wednesdays",
+      "explanationVi": "Ba lớp có ba đặc điểm khác nhau (tối: trùng giờ làm; sáng: đầy; online: thi tại trường). Các đáp án sai gán đặc điểm của lớp này cho lớp khác.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "course-advice",
+      "prompt": "What does the advisor recommend?",
+      "options": [
+        { "text": "Register for the morning section and join the waitlist for the online one", "misconception": "swapped_detail", "whyVi": "Đảo vị trí: lớp sáng mới là lớp cần waitlist, còn online là phương án dự phòng." },
+        { "text": "Join the waitlist for the morning section and register online as a backup", "misconception": null, "whyVi": "Đúng: “join the waitlist for the morning section and register in the online one as a backup”." },
+        { "text": "Take only the online section, since it is self-paced", "misconception": "rejected_choice", "whyVi": "Tyler sợ tự học (“risky… procrastinator”), nên online chỉ là dự phòng." },
+        { "text": "Join the waitlist for the evening section", "misconception": "rejected_choice", "whyVi": "Lớp tối đã bị loại vì trùng giờ làm." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Then I'd join the waitlist for the morning section and register in the online one as a backup.",
+      "explanationVi": "Hai đáp án đầu dùng cùng các từ (morning, online, waitlist, register) nhưng đổi vị trí. Với đáp án gần giống nhau, hãy kiểm tra hành động nào gắn với lớp nào.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "course-advice",
+      "prompt": "Which statement about the online section is correct?",
+      "options": [
+        { "text": "The exams can be written online from home.", "misconception": "swapped_detail", "whyVi": "Ngược lại: thi giữa kỳ và cuối kỳ phải “in person, on campus”." },
+        { "text": "Students can drop it for a full refund until September 12.", "misconception": null, "whyVi": "Đúng: “you can drop the online section with a full refund until September twelfth”." },
+        { "text": "It meets on Tuesday and Thursday mornings.", "misconception": "swapped_detail", "whyVi": "Đó là lịch của lớp buổi sáng; lớp online tự học theo tiến độ riêng." },
+        { "text": "Students can get a full refund until September 20.", "misconception": "mixed_details", "whyVi": "Sai số: “twelfth” (12), không phải 20." }
+      ],
+      "answerIndex": 1,
+      "evidence": "you can drop the online section with a full refund until September twelfth",
+      "explanationVi": "Đây là câu Level 8: phải gắn đúng đặc điểm với đúng lớp (exam on campus, self-paced, refund) và nghe chính xác ngày (twelfth vs twentieth).",
+      "competency": "similar_choices"
+    }
+  ],
+  "misconceptions": {
+    "no_prediction": {
+      "label": "Không so sánh để tìm điểm khác nhau giữa các đáp án",
+      "explanationVi": "Bạn đọc các đáp án như những câu riêng lẻ và không xác định được chúng khác nhau ở đâu, nên khi nghe không biết phải tập trung vào chi tiết nào.",
+      "fixVi": "Khi đáp án hiện ra (hoặc khi luyện tập có sẵn câu hỏi), đặt các đáp án cạnh nhau, gạch bỏ phần giống nhau và ghi lại phần khác nhau (ví dụ: today/Thu – here/Main St). Sau đó đối chiếu đúng những biến đó với ghi chú."
+    },
+    "mixed_details": {
+      "label": "Chọn đáp án trộn chi tiết",
+      "explanationVi": "Đáp án có một chi tiết đúng (ngày, cổng, loại hàng) kết hợp với một chi tiết sai lấy từ chỗ khác trong bài. Bạn kiểm tra một chi tiết rồi dừng lại.",
+      "fixVi": "Với đáp án gần giống nhau, kiểm tra TỪNG biến: ai, cái gì, khi nào, ở đâu, bao nhiêu. Chỉ chọn khi mọi biến đều khớp."
+    },
+    "rejected_choice": {
+      "label": "Chọn lựa chọn đã bị từ chối",
+      "explanationVi": "Người nói được đưa nhiều lựa chọn và từ chối một số (I'd rather…, no good, way out of my way, sounds risky). Bạn chọn lựa chọn được nêu rõ nhất mà không chờ quyết định.",
+      "fixVi": "Khi nghe một lựa chọn, chỉ đánh dấu tạm. Chờ câu chốt như Let's do…, I'll just…, Perfect… rồi mới quyết định đáp án."
+    },
+    "outdated_detail": {
+      "label": "Dùng thông tin cũ đã bị thay đổi",
+      "explanationVi": "Thông báo hoặc hội thoại có thông tin cũ và mới. Bạn giữ thông tin cũ vì nó trùng với đáp án và bỏ qua tín hiệu now, originally, not… as previously shown.",
+      "fixVi": "Khi nghe originally, previously, instead, not X but Y, gạch thông tin cũ và ghi thông tin mới. Đáp án đúng gần như luôn là thông tin mới."
+    },
+    "swapped_detail": {
+      "label": "Đảo vị trí chi tiết",
+      "explanationVi": "Đáp án dùng đúng các từ trong bài nhưng gắn chúng sai chỗ: đặc điểm của lớp này gán cho lớp kia, chó thành mèo, thứ Ba thành thứ Năm. Bạn nhận ra từ nhưng không kiểm tra mối liên kết.",
+      "fixVi": "Khi ghi chú, viết theo cặp: lớp sáng – full; online – exams on campus. Khi so đáp án, kiểm tra từng cặp, không chỉ kiểm tra từ có xuất hiện hay không."
+    },
+    "not_mentioned": {
+      "label": "Thông tin không có trong bài",
+      "explanationVi": "Đáp án đưa ra một lý do hoặc chi tiết hợp lý theo kinh nghiệm thực tế (dị ứng, cần bác sĩ duyệt, lớp bị hủy) nhưng không được nói trong audio.",
+      "fixVi": "Dự đoán giúp bạn biết chỗ cần nghe, nhưng đáp án phải có câu chứng minh trong audio. Không có câu nào → loại, dù nghe có vẻ hợp lý."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "I'd rather (stay with / not)…", "vi": "tôi muốn… hơn (từ chối một lựa chọn)", "example": "I'd rather keep my Tuesday appointment than switch to a new doctor." },
+    { "term": "… is no good (for me)", "vi": "… không được (với tôi)", "example": "Friday morning's no good for me, I've got a shift at the store." },
+    { "term": "originally scheduled for… / will now…", "vi": "ban đầu dự kiến… / nay sẽ… (thông tin bị thay đổi)", "example": "The meeting, originally scheduled for two, will now start at three." },
+    { "term": "not… as previously shown", "vi": "không phải… như thông báo trước", "example": "The ferry leaves from Berth 3, not Berth 5 as previously shown." },
+    { "term": "out of stock ↔ not available right now", "vi": "hết hàng", "example": "The winter tires in that size are out of stock until next week." },
+    { "term": "to tide you over", "vi": "để cầm cự tạm thời", "example": "Here's a small supply to tide you over until your order arrives." },
+    { "term": "comes with (the unit) ↔ is included", "vi": "đi kèm, đã bao gồm", "example": "A storage locker comes with the unit." },
+    { "term": "… is out ↔ … is not an option", "vi": "… bị loại, không được", "example": "With the bridge closed, driving is out. We'll take the SeaBus." },
+    { "term": "as a backup", "vi": "làm phương án dự phòng", "example": "Book the campsite at Alice Lake and keep a motel as a backup." }
+  ],
+  "grammar": [],
+  "practice": [
+    { "label": "Similar choices drill", "route": "/listening?mode=drill&focus=similar_choices" },
+    { "label": "Listening Part 1: Problem solving", "route": "/listening?task=L1" },
+    { "label": "Listening Part 3: Information", "route": "/listening?task=L3" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 items; keys hold. Corrected the false claim that CELPIP shows questions before the audio (questions usually appear after; prediction now framed as context line + comparing options when they appear), removed concept examples that duplicated i1/i3/i4 answers, made g2 option D unambiguous, extended i4 evidence."}
+}

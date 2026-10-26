@@ -1,0 +1,346 @@
+{
+  "id": "rd-02",
+  "skill": "reading",
+  "module": "reading-foundations",
+  "level": "foundation",
+  "difficulty": 6,
+  "title": "Scanning for specific details",
+  "titleVi": "Đọc dò tìm chi tiết cụ thể",
+  "estimatedMinutes": 25,
+  "prerequisites": ["rd-01"],
+  "competencies": ["detail"],
+  "tasks": ["R1", "R2", "R3", "R4"],
+  "objectives": [
+    "You will be able to choose the keywords in a question and predict how they may be paraphrased or written in the text.",
+    "You will be able to scan quickly for names, numbers, dates, times and prices without reading every word.",
+    "You will be able to stop at the right place and check the full sentence for changes, conditions and exceptions before answering."
+  ],
+  "objectiveVi": "Sau bài này, bạn biết chọn từ khóa trong câu hỏi, đoán trước cách bài đọc diễn đạt lại từ khóa đó, dò nhanh tên, số, ngày giờ, và kiểm tra điều kiện hoặc thông tin bị thay đổi trước khi chọn đáp án.",
+  "whyItMattersVi": "Rất nhiều câu hỏi ở Part 1 và Part 2 là câu hỏi chi tiết: ai, khi nào, bao nhiêu tiền, điều kiện gì. Ở mức Reading 5, lỗi phổ biến nhất là tìm đúng chỗ nhưng lấy nhầm con số bên cạnh, hoặc bỏ sót chữ 'only', 'except', 'instead'. Nắm chắc kỹ năng scanning giúp bạn lấy điểm nhanh ở các câu chi tiết và dành thời gian cho câu suy luận khó hơn — đó là con đường thực tế từ 5 lên 8.",
+  "concept": [
+    {
+      "heading": "Scanning khác skimming thế nào",
+      "body": "**Skimming** (bài rd-01) cho bạn ý chung. **Scanning** là dò tìm một thông tin cụ thể: tên người, ngày, giờ, giá tiền, địa điểm, điều kiện. Khi scan, mắt bạn lướt rất nhanh qua bài và **chỉ dừng lại** khi thấy thứ giống với từ khóa bạn đang tìm. Bạn không cố hiểu những câu khác.\n\nHãy tưởng tượng bạn tìm giờ xe buýt cuối cùng trên lịch trình: bạn không đọc từng dòng, bạn tìm chữ *last* hoặc giờ muộn nhất. Đó là scanning."
+    },
+    {
+      "heading": "Bước 1–2: Chọn từ khóa và đoán paraphrase",
+      "body": "Gạch dưới **1–2 từ khóa** trong câu hỏi: danh từ riêng, con số, và từ nội dung (*cost, cancel, children*). Bỏ qua từ chức năng (*the, does, what*).\n\nSau đó **đoán cách bài viết diễn đạt lại** từ khóa, vì CELPIP hiếm khi lặp nguyên văn:\n- *cost* → fee, price, rate, $, charge\n- *cancel* → call off, change your mind, notice\n- *a 10-year-old* → ages 9–12, youth\n- *three days* → 72 hours\n- *chemicals* → bleach, cleaning products\n- *in the afternoon* → 2:00–3:00 p.m.\n\nNếu bạn chỉ dò đúng chữ trong câu hỏi, bạn sẽ đi qua đáp án mà không nhận ra."
+    },
+    {
+      "heading": "Bước 3: Dò tên, số, ngày giờ",
+      "body": "Một số thông tin rất dễ thấy khi lướt mắt:\n- **Tên riêng**: chữ in hoa (*Marco, Laurel Street*).\n- **Số và ký hiệu**: $, %, a.m./p.m., số nhà, số tuyến xe.\n- **Ngày**: có nhiều cách viết — *May 17, the 17th, Saturday, next weekend, 72 hours before*.\n- **Định dạng danh sách**: dấu gạch đầu dòng, chữ đậm, tiêu đề nhỏ trong lịch trình hay bảng giá.\n\nLưu ý: một bài thường có **nhiều số giống nhau về loại** (hai ngày, ba mức giá). Tìm thấy một con số chưa đủ — phải xác định nó thuộc về **đối tượng nào** (deposit hay move date? drop-in hay registered?)."
+    },
+    {
+      "heading": "Bước 4–5: Dừng lại, đọc kỹ, kiểm tra điều kiện",
+      "body": "Khi mắt đã dừng ở đúng chỗ, **chuyển sang đọc kỹ**: đọc trọn câu đó và câu ngay sau. Đây là lúc duy nhất bạn đọc từng chữ.\n\nKiểm tra ba loại 'bẫy' trong câu:\n- **Thông tin bị thay đổi**: *Please note a change…, instead, not Steve as we first mentioned, We have moved your appointment to…*. Thông tin mới mới là đáp án.\n- **Điều kiện và ngoại lệ**: *only, except, unless, on weekends only, drop-in rates excluded, at least*.\n- **Phủ định**: *will not be served, we do not move*.\n\nCâu tiếp theo thường chứa phần sửa lại hoặc điều kiện, vì vậy đừng dừng ở nửa câu."
+    },
+    {
+      "heading": "Khi nào không đọc từng chữ",
+      "body": "Đọc kỹ cả bài trước khi xem câu hỏi chi tiết là lãng phí: bạn sẽ quên chi tiết và phải tìm lại. Quy tắc:\n- Câu hỏi có **tên, số, ngày, địa điểm** → scan.\n- Câu hỏi về **lý do, thái độ, mục đích** → scan đến khu vực liên quan, rồi đọc kỹ cả đoạn.\n- Trong Part 2 (diagram), scan bảng theo **cột điều kiện** (tuổi, ngày, giá) và loại dần lựa chọn.\n\nMột câu hỏi chi tiết tốt nên mất 30–60 giây: 10 giây chọn từ khóa, 10–20 giây dò, 20 giây đọc kỹ và kiểm tra."
+    }
+  ],
+  "stimuli": {
+    "email-dentist": {
+      "title": "Appointment email",
+      "text": "Subject: Your appointment\n\nHi Ms. Nguyen,\n\nThis is a reminder from Brightwater Dental about your cleaning appointment with Dr. Ahmed on Thursday, November 6 at 3:30 p.m.\n\nUnfortunately, Dr. Ahmed will be away that afternoon. We have moved your appointment to Friday, November 7 at 10:15 a.m. with the same hygienist, Carla. If this new time doesn't suit you, please call us at 604-555-0188 before Monday.\n\nAs a reminder, we need 24 hours' notice for cancellations, or a $50 fee applies.\n\nThank you,\nBrightwater Dental"
+    },
+    "schedule-rec": {
+      "title": "Community centre program list",
+      "text": "Hillcrest Community Centre — Fall Programs (September 8 to December 12)\n\n- **Parent & Tot Swim** (ages 2–4, with an adult): Saturdays, 9:00–9:45 a.m. · $68 for 10 sessions\n- **Learn to Skate** (ages 5–8): Sundays, 1:00–1:50 p.m. · $85 · skates can be rented for $3 per session\n- **Youth Basketball** (ages 9–12): Wednesdays, 6:00–7:30 p.m. · $110\n- **Gentle Yoga** (19+): Mondays and Thursdays, 10:00–11:00 a.m. · $12 drop-in or $95 for 10 visits\n- **Seniors' Strength Training** (55+): Tuesdays, 2:00–3:00 p.m. · free with a Hillcrest seniors' pass\n\nRegistration opens online on August 18 at 8:30 a.m. Leisure Access Pass holders receive 50% off all registered programs (drop-in rates excluded)."
+    },
+    "email-movers": {
+      "title": "Moving company confirmation",
+      "text": "Subject: Booking confirmation #BC-4471\n\nHi Mr. Tran,\n\nThank you for choosing Fraser Valley Movers. This email confirms your move from 2210 Cedar Lane, Abbotsford, to 85 Poplar Crescent, Langley.\n\n- Date: Saturday, May 24\n- Arrival window: 8:00–9:00 a.m.\n- Crew: three movers and one 20-foot truck\n- Rate: $165 per hour (minimum three hours), plus a one-time travel fee of $60\n\nPlease note a change from our phone call: because of a scheduling conflict, your crew leader will be Marco, not Steve as we first mentioned.\n\nA deposit of $150 is required by May 17 to hold the date. Cancellations made at least 72 hours before the move are fully refunded; after that, the deposit is not returned.\n\nPlease have all boxes packed and labelled before the crew arrives. We do not move propane tanks, paint or cleaning chemicals.\n\nBest regards,\nJanelle Wu\nCustomer Care"
+    },
+    "notice-transit": {
+      "title": "Transit service notice",
+      "text": "SERVICE CHANGE — Routes 14 and 22\n\nFrom Monday, March 3 to Sunday, March 30, Kingsway Avenue between 41st and 49th will be closed for water main repairs.\n\n- Route 14 will detour along Main Street. Stops at 43rd and 45th on Kingsway will not be served. Please use the temporary stop on Main Street at 44th.\n- Route 22 is not affected on weekdays. On weekends only, it will end at 41st Avenue; riders travelling further should transfer to Route 14.\n- Night bus N9 will run on its regular route, as the closure applies only between 6 a.m. and 10 p.m.\n\nQuestions? Call Transit Info at 604-555-0142."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Scanning for a date that has been changed",
+      "stimulusId": "email-dentist",
+      "question": "When is Ms. Nguyen's appointment now?",
+      "steps": [
+        "Keywords: 'appointment' and 'now'. The word 'now' warns me there may be an old time and a new time. I predict change words: moved, rescheduled, instead, new time.",
+        "Scan for dates and times: my eyes stop at 'Thursday, November 6 at 3:30 p.m.' and again at 'Friday, November 7 at 10:15 a.m.' Two candidates — I must not grab the first one.",
+        "Read the full sentence around each date. The first is the original booking. The second sentence says 'We have moved your appointment to Friday, November 7 at 10:15 a.m.' — this is the change.",
+        "Read the next sentence too: 'If this new time doesn't suit you…' confirms that Friday is the new time. The other numbers ('before Monday', '24 hours', '$50') belong to different topics."
+      ],
+      "answer": "Friday, November 7 at 10:15 a.m.",
+      "takeawayVi": "Khi câu hỏi có 'now', 'new', 'final', 'actually', hãy chờ đợi hai phiên bản thông tin. Dò tất cả các ngày giờ, rồi đọc câu chứa từ chỉ sự thay đổi (moved, instead, not… as we first mentioned)."
+    },
+    {
+      "id": "ex2",
+      "title": "Scanning a schedule with a paraphrased keyword",
+      "stimulusId": "schedule-rec",
+      "question": "Which program could a three-year-old attend with her father?",
+      "steps": [
+        "Keywords: 'three-year-old' and 'with her father'. The schedule will not say 'three-year-old' — it will show an age range. 'With her father' may appear as 'with a parent' or 'with an adult'.",
+        "Scan only the brackets with ages: 2–4, 5–8, 9–12, 19+, 55+. My eyes skip the times and prices for now.",
+        "Three falls inside '2–4'. Read that line fully: 'Parent & Tot Swim (ages 2–4, with an adult)'. 'With an adult' matches 'with her father'.",
+        "Quick check of conditions: Saturdays 9:00–9:45 a.m., $68. No exception stops a father from joining."
+      ],
+      "answer": "Parent & Tot Swim",
+      "takeawayVi": "Lịch trình và bảng giá diễn đạt từ khóa bằng khoảng số (ages 2–4), ký hiệu (19+) hoặc từ khái quát (an adult). Hãy chuyển từ khóa của câu hỏi sang dạng mà bảng có khả năng dùng trước khi dò."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "text",
+      "stimulusId": "schedule-rec",
+      "prompt": "How much does it cost to rent skates for one Learn to Skate session? Type the amount (for example: $5).",
+      "hint": "Scan for the program name in bold first, then for the word that means 'rent' and the dollar sign that follows it — not the program fee.",
+      "answers": ["$3", "3", "3$", "3 dollars", "three dollars", "$3.00", "3.00", "$3 per session", "3 per session", "3 dollars per session", "$3 a session"],
+      "mode": "exact",
+      "misconception": "wrong-number",
+      "explanationVi": "Dòng Learn to Skate có hai con số tiền: $85 là học phí, '$3 per session' là tiền thuê giày trượt. Tìm thấy dòng đúng chưa đủ — phải gắn con số với đúng đối tượng.",
+      "competency": "detail"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "email-movers",
+      "prompt": "Who will lead the moving crew on May 24?",
+      "hint": "Two names appear. Scan for a sentence that announces a change, and read it to the end.",
+      "options": [
+        { "text": "Steve", "misconception": "missed-update", "whyVi": "Steve là người được nhắc trong cuộc gọi trước, nhưng email nói rõ 'not Steve'." },
+        { "text": "Marco", "misconception": null, "whyVi": "Đúng. 'Please note a change… your crew leader will be Marco, not Steve'." },
+        { "text": "Janelle Wu", "misconception": "wrong-number", "whyVi": "Janelle Wu ký tên cuối email — cô làm ở bộ phận Customer Care, không dẫn đội chuyển nhà." },
+        { "text": "Mr. Tran", "misconception": "wrong-number", "whyVi": "Mr. Tran là khách hàng nhận email." }
+      ],
+      "answerIndex": 1,
+      "evidence": "your crew leader will be Marco, not Steve as we first mentioned",
+      "explanationVi": "Cụm 'Please note a change' và 'not… as we first mentioned' báo hiệu thông tin cũ bị thay thế. Luôn chọn thông tin mới nhất.",
+      "competency": "detail"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "notice-transit",
+      "prompt": "Amir usually catches Route 14 at the 45th Avenue stop on Kingsway. Where should he wait during the closure?",
+      "hint": "Scan for '45th' in the Route 14 line. Then read the next sentence, which tells riders what to do instead.",
+      "options": [
+        { "text": "At his usual stop at 45th and Kingsway", "misconception": "missed-condition", "whyVi": "Thông báo nói các trạm 43rd và 45th trên Kingsway 'will not be served'." },
+        { "text": "At the temporary stop on Main Street at 44th", "misconception": null, "whyVi": "Đúng. Câu ngay sau hướng dẫn hành khách dùng trạm tạm trên Main Street ở 44th." },
+        { "text": "At 41st Avenue, where Route 22 ends", "misconception": "wrong-number", "whyVi": "41st Avenue liên quan đến Route 22 vào cuối tuần, không phải Route 14." },
+        { "text": "At any N9 night bus stop", "misconception": "exact-word-only", "whyVi": "N9 là xe đêm chạy tuyến cũ, không thay thế Route 14 ban ngày." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Please use the temporary stop on Main Street at 44th.",
+      "explanationVi": "Khi tìm thấy từ khóa (45th) trong một câu phủ định ('will not be served'), câu tiếp theo thường cho giải pháp thay thế. Đừng dừng lại ở câu đầu tiên.",
+      "competency": "detail"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "email-movers",
+      "prompt": "Which of these items will the movers refuse to carry?",
+      "hint": "Scan for a negative ('do not'). The option will use a different, more specific word than the email — think about which category each item belongs to.",
+      "options": [
+        { "text": "A heavy bookcase", "misconception": "exact-word-only", "whyVi": "Email không cấm đồ nặng; công ty có ba người và xe tải 20 feet." },
+        { "text": "A bottle of bleach", "misconception": null, "whyVi": "Đúng. Bleach (thuốc tẩy) thuộc nhóm 'cleaning chemicals' mà công ty không chở." },
+        { "text": "A labelled box of dishes", "misconception": "exact-word-only", "whyVi": "Email yêu cầu đóng gói và dán nhãn hộp — hộp có nhãn là được chấp nhận." },
+        { "text": "A 20-foot rug", "misconception": "exact-word-only", "whyVi": "'20-foot' là kích thước xe tải, không phải đồ bị cấm. Đây là bẫy trùng từ." }
+      ],
+      "answerIndex": 1,
+      "evidence": "We do not move propane tanks, paint or cleaning chemicals.",
+      "explanationVi": "Câu hỏi dùng một ví dụ cụ thể (bleach) trong khi bài dùng từ khái quát (cleaning chemicals). Đây là kiểu paraphrase general ↔ specific rất phổ biến.",
+      "competency": "detail"
+    },
+    {
+      "id": "g5",
+      "type": "order",
+      "prompt": "Put the scanning steps in the order taught in this lesson.",
+      "hint": "Start with the question, not the text. Fast eye movement comes before careful reading.",
+      "items": [
+        "Underline one or two keywords in the question",
+        "Predict how the keywords might be paraphrased or written in the text",
+        "Move your eyes quickly through the text, stopping only at those forms",
+        "Read the full sentence where you stop, plus the sentence after it",
+        "Check for changes, conditions and negatives before answering"
+      ],
+      "misconception": "read-all",
+      "explanationVi": "Scanning bắt đầu từ câu hỏi: biết mình tìm gì và nó có thể trông như thế nào. Chỉ khi mắt dừng đúng chỗ, bạn mới đọc kỹ và kiểm tra bẫy.",
+      "competency": "detail"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "schedule-rec",
+      "prompt": "Which program is suitable for a 10-year-old?",
+      "options": [
+        { "text": "Learn to Skate", "misconception": "wrong-number", "whyVi": "Learn to Skate dành cho 5–8 tuổi." },
+        { "text": "Youth Basketball", "misconception": null, "whyVi": "Đúng. 10 nằm trong khoảng 9–12." },
+        { "text": "Parent & Tot Swim", "misconception": "wrong-number", "whyVi": "Dành cho trẻ 2–4 tuổi đi cùng người lớn." },
+        { "text": "Gentle Yoga", "misconception": "wrong-number", "whyVi": "'19+' nghĩa là từ 19 tuổi trở lên." }
+      ],
+      "answerIndex": 1,
+      "evidence": "ages 9–12",
+      "explanationVi": "Đổi từ khóa '10-year-old' thành 'khoảng tuổi chứa số 10', rồi chỉ dò phần trong ngoặc.",
+      "competency": "detail"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "stimulusId": "email-movers",
+      "prompt": "By what date must Mr. Tran pay the deposit? Type the date (for example: June 3).",
+      "answers": ["May 17", "17 May", "May 17th", "17th May", "the 17th of May", "Saturday May 17", "Saturday May 17th", "by May 17", "by May 17th", "on May 17", "Sat May 17"],
+      "mode": "exact",
+      "misconception": "wrong-number",
+      "explanationVi": "Email có hai ngày: May 24 là ngày chuyển nhà, May 17 là hạn đặt cọc. Từ khóa 'deposit' giúp bạn chọn đúng câu: 'A deposit of $150 is required by May 17'.",
+      "competency": "detail"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "email-movers",
+      "prompt": "What must Mr. Tran do to get his deposit back if he cancels?",
+      "options": [
+        { "text": "Cancel no later than May 17", "misconception": "wrong-number", "whyVi": "May 17 là hạn đặt cọc, không phải hạn hủy. Điều kiện hoàn tiền là hủy ít nhất 72 giờ trước ngày chuyển (May 24), nên không bắt buộc phải hủy trước May 17." },
+        { "text": "Cancel at least three days before the move", "misconception": null, "whyVi": "Đúng. '72 hours' được diễn đạt lại thành 'three days'." },
+        { "text": "Nothing — the deposit is always refunded", "misconception": "missed-condition", "whyVi": "Bỏ qua điều kiện 'at least 72 hours' và vế sau 'after that, the deposit is not returned'." },
+        { "text": "Pay the $60 travel fee", "misconception": "wrong-number", "whyVi": "Phí đi lại $60 là một phần giá dịch vụ, không liên quan đến việc hủy." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Cancellations made at least 72 hours before the move are fully refunded",
+      "explanationVi": "Từ khóa 'cancels' và 'back' → dò 'Cancellations' và 'refunded'. Đáp án đúng dùng paraphrase con số: 72 hours = three days.",
+      "competency": "detail"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "notice-transit",
+      "prompt": "Why can the N9 night bus keep its regular route?",
+      "options": [
+        { "text": "Because it has been moved to Main Street", "misconception": "exact-word-only", "whyVi": "Main Street là tuyến vòng của Route 14, không liên quan đến N9." },
+        { "text": "Because the road is closed only during the day and evening", "misconception": null, "whyVi": "Đúng. Đoạn đường chỉ đóng từ 6 a.m. đến 10 p.m., nên xe đêm vẫn chạy bình thường." },
+        { "text": "Because the repairs will finish before March 30", "misconception": "wrong-number", "whyVi": "Thông báo nói đóng đến March 30, không nói xong sớm hơn — và đó không phải lý do được nêu." },
+        { "text": "Because it runs only on weekends", "misconception": "missed-condition", "whyVi": "'On weekends only' là điều kiện của Route 22, không phải N9." }
+      ],
+      "answerIndex": 1,
+      "evidence": "as the closure applies only between 6 a.m. and 10 p.m.",
+      "explanationVi": "Câu hỏi 'Why' → dò dòng N9 rồi tìm từ chỉ lý do ('as', 'because', 'since'). Lý do đi kèm điều kiện 'only between 6 a.m. and 10 p.m.'.",
+      "competency": "detail"
+    },
+    {
+      "id": "i5",
+      "type": "text",
+      "stimulusId": "schedule-rec",
+      "prompt": "Hoa has a Leisure Access Pass. She wants to try one Gentle Yoga class without registering. How much will she pay? Type the amount (for example: $20).",
+      "answers": ["$12", "12", "12$", "12 dollars", "twelve dollars", "$12.00", "12.00"],
+      "mode": "exact",
+      "misconception": "missed-condition",
+      "explanationVi": "Giảm 50% chỉ áp dụng cho chương trình đăng ký: '(drop-in rates excluded)'. Học thử một buổi là drop-in, nên Hoa trả đủ $12, không phải $6.",
+      "competency": "detail"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "notice-transit",
+      "prompt": "On Saturday, March 15, Lina takes Route 22 to get to 47th Avenue. What should she do?",
+      "options": [
+        { "text": "Stay on Route 22, which runs as usual", "misconception": "missed-condition", "whyVi": "Route 22 chỉ chạy bình thường vào ngày thường; March 15 là thứ Bảy." },
+        { "text": "Ride Route 22 to 41st Avenue and transfer to Route 14", "misconception": null, "whyVi": "Đúng. Cuối tuần Route 22 dừng ở 41st; người đi xa hơn phải chuyển sang Route 14." },
+        { "text": "Take the N9 night bus instead", "misconception": "exact-word-only", "whyVi": "N9 là xe đêm; thông báo không khuyên dùng N9 thay cho Route 22." },
+        { "text": "Wait at the temporary stop on Main Street at 44th", "misconception": "wrong-number", "whyVi": "Trạm tạm ở 44th dành cho hành khách Route 14 ở 43rd và 45th; Lina đi Route 22." }
+      ],
+      "answerIndex": 1,
+      "evidence": "On weekends only, it will end at 41st Avenue; riders travelling further should transfer to Route 14.",
+      "explanationVi": "Câu này kết hợp hai điều kiện: ngày (Saturday → weekend) và địa điểm (47th xa hơn 41st). Hãy dò cả hai và đọc trọn câu đến dấu chấm.",
+      "competency": "detail"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "schedule-rec",
+      "prompt": "Thu wants a weekend program for her six-year-old son. She has a Leisure Access Pass and can spend at most $50 on the program fee. Which program fits all her conditions?",
+      "options": [
+        { "text": "Parent & Tot Swim", "misconception": "missed-condition", "whyVi": "Giá sau giảm là $34 và học thứ Bảy, nhưng chỉ dành cho trẻ 2–4 tuổi." },
+        { "text": "Learn to Skate", "misconception": null, "whyVi": "Đúng. Ages 5–8, học Chủ nhật, $85 giảm 50% còn $42.50 — dưới $50." },
+        { "text": "Youth Basketball", "misconception": "missed-condition", "whyVi": "Học vào thứ Tư (không phải cuối tuần) và dành cho 9–12 tuổi." },
+        { "text": "None of the programs fits", "misconception": "missed-condition", "whyVi": "Bạn có thể đã quên áp dụng giảm giá 50%: $85 không vừa, nhưng $42.50 thì vừa." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Leisure Access Pass holders receive 50% off all registered programs",
+      "explanationVi": "Câu hỏi Level 8 thường có nhiều điều kiện (tuổi, ngày, ngân sách, giảm giá). Scan từng cột điều kiện và loại dần; đừng quên ghi chú ở cuối bảng vì nó thay đổi giá.",
+      "competency": "detail"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "email-movers",
+      "prompt": "Which statement about Mr. Tran's move is true?",
+      "options": [
+        { "text": "The movers will pack his boxes when they arrive", "misconception": "exact-word-only", "whyVi": "Ngược lại: khách phải đóng gói và dán nhãn 'before the crew arrives'." },
+        { "text": "He will be charged for at least four hours of work", "misconception": "wrong-number", "whyVi": "Email ghi tối thiểu là ba giờ ('minimum three hours'), không phải bốn." },
+        { "text": "Steve will be in charge of the crew", "misconception": "missed-update", "whyVi": "Thông tin này đã bị thay đổi: crew leader là Marco." },
+        { "text": "The crew should arrive no later than 9 a.m.", "misconception": null, "whyVi": "Đúng. 'Arrival window: 8:00–9:00 a.m.' nghĩa là muộn nhất 9 giờ sáng." }
+      ],
+      "answerIndex": 3,
+      "evidence": "Arrival window: 8:00–9:00 a.m.",
+      "explanationVi": "Với câu 'Which statement is true?', mỗi đáp án là một câu hỏi chi tiết riêng. Chọn từ khóa của từng đáp án (pack, hours, Steve, arrive), scan và kiểm tra — đáp án đúng thường được diễn đạt lại ('no later than 9' = '8:00–9:00 window').",
+      "competency": "detail"
+    }
+  ],
+  "misconceptions": {
+    "exact-word-only": {
+      "label": "Chỉ dò đúng chữ / chọn vì trùng chữ",
+      "explanationVi": "Bạn chỉ tìm những chữ giống hệt trong câu hỏi, nên bỏ qua đáp án được diễn đạt lại (bleach = cleaning chemicals), hoặc bị hút vào đáp án có chữ trùng với bài nhưng sai nghĩa.",
+      "fixVi": "Trước khi dò, viết nhanh 2–3 cách diễn đạt khác của từ khóa (từ đồng nghĩa, con số, ví dụ cụ thể, từ khái quát). Khi thấy chữ trùng, đọc lại cả câu để xác nhận nghĩa."
+    },
+    "wrong-number": {
+      "label": "Lấy nhầm con số / tên bên cạnh",
+      "explanationVi": "Bạn tìm đúng khu vực nhưng lấy một con số, ngày hoặc tên thuộc về đối tượng khác (hạn đặt cọc thay vì ngày chuyển, học phí thay vì phí thuê).",
+      "fixVi": "Khi thấy một con số, hỏi: 'Số này là của cái gì?'. Nối số với danh từ đi cùng nó (deposit, rate, travel fee) trước khi trả lời."
+    },
+    "missed-update": {
+      "label": "Bỏ qua thông tin đã thay đổi",
+      "explanationVi": "Bạn lấy thông tin xuất hiện đầu tiên mà không thấy câu sửa lại sau đó (moved to, instead, not… as we first mentioned).",
+      "fixVi": "Khi câu hỏi có 'now', 'new', 'final', hoặc khi bài có hai phiên bản thông tin, dò các từ chỉ sự thay đổi và luôn chọn phiên bản mới nhất."
+    },
+    "missed-condition": {
+      "label": "Bỏ sót điều kiện / ngoại lệ",
+      "explanationVi": "Bạn tìm đúng thông tin nhưng không đọc hết câu nên bỏ lỡ only, except, excluded, at least, on weekends — những từ làm thay đổi câu trả lời.",
+      "fixVi": "Sau khi tìm thấy chỗ cần, đọc trọn câu đến dấu chấm và cả câu kế tiếp. Khoanh các từ điều kiện, rồi kiểm tra đáp án có thỏa mãn mọi điều kiện của câu hỏi không."
+    },
+    "read-all": {
+      "label": "Đọc hết từng chữ thay vì scan",
+      "explanationVi": "Bạn đọc cả bài một lượt trước rồi mới tìm thông tin, nên mất thời gian và vẫn phải đọc lại. Đây là thói quen đọc như đọc sách, không phải đọc để trả lời câu hỏi.",
+      "fixVi": "Bắt đầu từ câu hỏi: chọn từ khóa, đoán dạng của nó, rồi lướt mắt. Chỉ đọc kỹ ở chỗ mắt dừng lại."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "drop-in (rate)", "vi": "giá một buổi lẻ, không cần đăng ký", "example": "The drop-in rate for public skating is $5.25 at our rec centre." },
+    { "term": "excluded", "vi": "không bao gồm, loại trừ", "example": "Leisure Access discounts apply to all programs, drop-in rates excluded." },
+    { "term": "at least 72 hours before", "vi": "ít nhất 72 giờ (ba ngày) trước", "example": "Cancel at least 72 hours before your appointment to avoid a fee." },
+    { "term": "arrival window", "vi": "khung giờ đến (đến trong khoảng)", "example": "The technician's arrival window is between 1 and 3 p.m." },
+    { "term": "detour", "vi": "đi đường vòng, tuyến tạm", "example": "The bus will detour along Main Street during the repairs." },
+    { "term": "not be served (stop)", "vi": "(trạm) không có xe dừng", "example": "The stop at 45th Avenue will not be served this weekend." },
+    { "term": "Please note a change", "vi": "Xin lưu ý có thay đổi", "example": "Please note a change: the meeting will be in Room B, not Room A." },
+    { "term": "hold the date", "vi": "giữ chỗ cho ngày đó", "example": "A $150 deposit is required to hold the date." }
+  ],
+  "grammar": [
+    {
+      "point": "Reduced conditions and exceptions in notices",
+      "explanationVi": "Thông báo và lịch trình hay rút gọn điều kiện thành cụm ngắn trong ngoặc hoặc sau dấu chấm phẩy: (drop-in rates excluded), on weekends only, at least 72 hours before. Những cụm ngắn này dễ bị bỏ sót nhưng thường quyết định đáp án.",
+      "examples": [
+        "Members receive 20% off (sale items excluded).",
+        "On weekends only, the route will end at 41st Avenue.",
+        "Cancellations made at least 72 hours before the move are fully refunded."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Reading Part 2 — Applying a diagram", "route": "/reading?task=R2" },
+    { "label": "Drill: details", "route": "/reading?mode=drill&focus=detail" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 13 exercises; keys and evidence correct, dates/weekdays consistent. Widened typed-answer variants (g1 '3$'/'3 per session', i2 date forms like '17th May'/'by May 17', i5 '12$') and clarified the i3 May-17 distractor rationale (cancelling by May 17 would also refund, but is not required)."}
+}

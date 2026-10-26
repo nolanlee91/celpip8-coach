@@ -1,0 +1,673 @@
+{
+  "id": "ls-15",
+  "skill": "listening",
+  "module": "listening-parts",
+  "level": "target8",
+  "difficulty": 9,
+  "title": "Part 6: Viewpoints",
+  "titleVi": "Part 6: Nghe quan điểm",
+  "estimatedMinutes": 32,
+  "prerequisites": [
+    "ls-07",
+    "ls-10"
+  ],
+  "competencies": [
+    "speaker_attitude",
+    "paraphrase"
+  ],
+  "tasks": [
+    "L6"
+  ],
+  "objectives": [
+    "You will be able to map a commentary onto its argument structure: issue, other views, the speaker's position, reasons, concession, rebuttal and conclusion.",
+    "You will be able to separate the speaker's own view from views the speaker reports or argues against.",
+    "You will be able to identify which point a speaker concedes and how they limit that concession.",
+    "You will be able to interpret rhetorical comments, comparisons and sarcasm as part of the argument."
+  ],
+  "objectiveVi": "Sau bài này, bạn nghe một bài bình luận trong Part 6 và vẽ được \"bản đồ lập luận\": vấn đề, quan điểm của người khác, lập trường của chính người nói, lý do, điều họ nhượng bộ, cách họ phản bác, và kết luận.",
+  "whyItMattersVi": "Part 6 là phần cuối và trừu tượng nhất của bài Listening: 6 câu hỏi về lập luận, không chỉ về chi tiết. Ở Listening 6, lỗi lớn nhất là chọn một quan điểm mà người nói CHỈ THUẬT LẠI (\"Opponents say…\") như thể đó là ý của họ, hoặc chọn điều họ nhượng bộ thay vì lập trường chính. Phân biệt được hai lớp \"ý của tôi\" và \"ý của người khác\" là kỹ năng tách người đạt Level 7 với người đạt Level 9.",
+  "concept": [
+    {
+      "heading": "Part 6 trông như thế nào",
+      "body": "**Part 6 – Listening to Viewpoints** (6 câu): bạn nghe một bài bình luận hoặc phóng sự, khoảng 2–3 phút. Thường có một người dẫn giới thiệu ngắn, sau đó một người (nhà bình luận, chuyên gia) trình bày quan điểm về một vấn đề gây tranh cãi: chính sách đô thị, công việc, môi trường. Người nói **có lập trường rõ ràng** nhưng thường nhắc đến quan điểm trái chiều.\n\nCâu hỏi điển hình: *What is the speaker's main argument? / What do critics claim? / Which point does the speaker partly accept? / Why does the speaker mention X? / What does the speaker mean by \"…\"?*"
+    },
+    {
+      "heading": "Bản đồ lập luận",
+      "body": "Hầu hết bài bình luận đi theo khung sau (thứ tự có thể thay đổi):\n\n1. **Issue** – vấn đề đang tranh luận.\n2. **Other views** – người khác nghĩ gì: *Critics argue…, Opponents say…, You'll often hear that…, Some people want to go further…*\n3. **Thesis** – lập trường của người nói: *My view is…, I'd argue…, Here's what I think…, I don't accept that…*\n4. **Reasons / evidence** – ví dụ cá nhân, số liệu, so sánh.\n5. **Concession** – thừa nhận một điểm của phía bên kia: *I'll be honest…, To be fair…, I'm not saying every concern is…, There's one argument I take seriously.*\n6. **Rebuttal** – giới hạn sự thừa nhận đó: *But that's a reason for X, not Y. / Those are exactly what rules are for.*\n7. **Conclusion** – kết luận, thường là một câu ngắn gọn, giàu hình ảnh.\n\nGhi chú bằng các nhãn `ISSUE / THEY / ME / BC / YES-BUT / END`."
+    },
+    {
+      "heading": "Ý của người nói hay ý được thuật lại?",
+      "body": "Đây là bẫy số một của Part 6. Một câu nói **xuất hiện** trong bài không có nghĩa người nói **đồng ý** với nó.\n\n- **Tín hiệu thuật lại:** *Critics say, Some argue, The common view is, Opponents have told council, You'll hear that…* → ghi vào cột `THEY`.\n- **Tín hiệu quan điểm riêng:** *I think, In my view, I'd argue, I just don't buy that, My worry is…* → ghi vào cột `ME`.\n- **Tín hiệu phản bác ngay sau:** *I'd take that more seriously if…, That sounds reasonable, but…, I don't accept that…* → ý vừa thuật lại sẽ bị bác.\n\nKhi câu hỏi hỏi \"the speaker's opinion\", chỉ tra cột `ME`. Khi hỏi \"What do opponents claim?\", tra cột `THEY`, dù người nói không đồng ý với nó."
+    },
+    {
+      "heading": "Nhượng bộ, tu từ và mỉa mai",
+      "body": "**Concession** là khi người nói nhận một phần lý lẽ của phía kia. Câu hỏi \"Which point does the speaker partly accept?\" có đáp án là điểm được nhượng bộ — **không phải** lập trường chính. Luôn ghi cả phần \"yes\" lẫn phần \"but\": `YES: X is a real problem / BUT: fix with Y, not by Z`.\n\n**Rhetorical devices** – thiết bị tu từ – cũng mang lập luận:\n\n- *Câu hỏi tu từ:* \"Do we really want to wait another ten years for a decision?\" → người nói ngụ ý **không**.\n- *So sánh / tương tự:* đưa ra một trường hợp quen thuộc để cho thấy lý lẽ của phía kia vô lý.\n- *Mỉa mai nhẹ:* \"Sure, because the last 'temporary' closure only lasted five years.\" → người nói cho rằng lời hứa \"tạm thời\" không đáng tin.\n\nVới giọng đọc đều, bạn phải nhận ra mỉa mai từ **mâu thuẫn logic** trong câu, không phải từ ngữ điệu."
+    },
+    {
+      "heading": "Chiến lược từng bước",
+      "body": "1. **Phần giới thiệu:** nếu có người dẫn, họ thường cho biết người bình luận là ai và có \"see it differently\" hay không — gợi ý đầu tiên về lập trường.\n2. **Ghi chú hai cột** `THEY | ME`; mỗi ý mới, hỏi: ai nghĩ vậy?\n3. **Đánh dấu YES-BUT** khi nghe *I'll admit / to be fair / I'm not saying*.\n4. **Câu cuối** thường tóm lại lập trường bằng hình ảnh — ghi vài từ nguyên văn.\n5. **Câu hỏi \"main argument\":** chọn đáp án bao quát cả thesis lẫn kết luận, không phải một lý do lẻ.\n6. **Câu hỏi \"why does the speaker mention…\":** trả lời bằng **chức năng** của chi tiết (bằng chứng, phản bác, minh hoạ), không phải nội dung của nó."
+    }
+  ],
+  "stimuli": {
+    "remote-work-commentary": {
+      "title": "Library clip: Remote work and downtown small businesses",
+      "audioRef": {
+        "setId": "l6-full-01",
+        "chunk": 0
+      }
+    },
+    "marker-lines": {
+      "title": "Five sentences from one commentary on bike lanes",
+      "text": "1. \"Critics argue that the new bike lanes are hurting local shops.\"\n2. \"I'd take that more seriously if sales had actually dropped.\"\n3. \"To be fair, the construction period was hard on everyone.\"\n4. \"But a few bad months are a reason to build faster next time, not to rip the lanes out.\"\n5. \"In my view, the lanes are the best thing to happen to this street in years.\""
+    },
+    "park-passes-commentary": {
+      "title": "Part 6 style: Day-use passes in busy BC parks",
+      "audio": [
+        {
+          "speaker": "Host",
+          "voice": "female_a",
+          "text": "Our commentator today, Daniel Cho, is a hiking guide in Squamish, and he's been following the debate over day-use passes in some of BC's busiest parks."
+        },
+        {
+          "speaker": "Daniel Cho, commentator",
+          "voice": "male_a",
+          "text": "Thanks. As many listeners know, a few of our most popular parks now require a free day-use pass that you book online, often days ahead. A lot of people hate it. You'll hear that the system is unfair to people who work shifts and can't plan, and that parks belong to everyone, so nobody should need permission to walk in the woods."
+        },
+        {
+          "speaker": "Daniel Cho, commentator",
+          "voice": "male_a",
+          "text": "I'll be honest, the first complaint is completely fair. If you find out on Friday night that you've got Saturday off, you're often out of luck. That's a real flaw."
+        },
+        {
+          "speaker": "Daniel Cho, commentator",
+          "voice": "male_a",
+          "text": "But the second argument, that any limit on access is somehow wrong, I just don't buy. Before the passes, I watched trailheads turn into parking lots. People were parking along the highway, and the meadows at the top were being trampled flat. Unlimited access didn't protect those parks. It was slowly wearing them out."
+        },
+        {
+          "speaker": "Daniel Cho, commentator",
+          "voice": "male_a",
+          "text": "So my view is that the passes should stay, but the system needs fixing. First, hold back a bigger share of passes, say a third, for booking on the same morning. That helps shift workers without adding a single extra visitor. Second, add more shuttle buses from town, so fewer cars end up at the trailhead."
+        },
+        {
+          "speaker": "Daniel Cho, commentator",
+          "voice": "male_a",
+          "text": "Some people want to go further and charge a fee, the way the national parks do. I understand the logic, but I'd be careful. A fee would raise money, sure, but it would also tell a family on a tight budget that the mountains aren't for them. That's the opposite of what we should want."
+        },
+        {
+          "speaker": "Daniel Cho, commentator",
+          "voice": "male_a",
+          "text": "Limits aren't the enemy. Badly designed limits are."
+        }
+      ]
+    },
+    "corner-stores-commentary": {
+      "title": "Part 6 style: Bringing back the corner store",
+      "audio": [
+        {
+          "speaker": "Laura Mendes, urban planner",
+          "voice": "female_b",
+          "text": "For about seventy years, most Canadian cities have kept shops off residential streets. If you live in a typical suburb, buying a carton of milk means getting in the car. A few cities are now talking about allowing small corner stores again, and the reaction has been loud."
+        },
+        {
+          "speaker": "Laura Mendes, urban planner",
+          "voice": "female_b",
+          "text": "Opponents say corner stores bring noise, traffic and late-night crowds. Some neighbours have told council that property values will drop. I'd take that fear more seriously if there were any evidence for it. Some of the older neighbourhoods that still have corner stores are among the most expensive places to live in the country. If corner stores destroy property values, nobody told the buyers."
+        },
+        {
+          "speaker": "Laura Mendes, urban planner",
+          "voice": "female_b",
+          "text": "Now, I'm not saying every concern is imaginary. Delivery trucks can be a real problem on narrow streets, and a store that stays open until two in the morning is a different thing from one that closes at eight. Those are reasonable issues, and they're exactly what rules on hours and delivery times are for."
+        },
+        {
+          "speaker": "Laura Mendes, urban planner",
+          "voice": "female_b",
+          "text": "What I'd ask people to consider is who benefits. Seniors who've stopped driving. Teenagers who could walk to a first job. Parents who need one thing for dinner. A corner store isn't just a shop. It's a reason for neighbours to run into each other."
+        },
+        {
+          "speaker": "Laura Mendes, urban planner",
+          "voice": "female_b",
+          "text": "So, should we ban corner stores because some of them might be noisy? We don't ban cars because some drivers speed."
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "ex-1",
+      "title": "Separating reported views from the speaker's view",
+      "stimulusId": "remote-work-commentary",
+      "question": "Is \"remote work is a passing trend\" Rebecca's view? Whose view is it, and how does she respond?",
+      "steps": [
+        "Phần giới thiệu: người dẫn nói Rebecca \"sees it differently\" so với các nhóm doanh nghiệp → dự đoán: cô sẽ phản bác việc buộc nhân viên quay lại văn phòng.",
+        "Nghe tín hiệu thuật lại: \"The business associations argue that remote work is a passing trend\" → ghi vào cột `THEY: biz assoc – remote = passing trend`.",
+        "Tín hiệu quan điểm riêng ngay sau: \"I think the evidence points the other way.\" → cột `ME: not a passing trend`.",
+        "Bằng chứng của cô: \"Most of the firms I work with have already given up expensive leases\" → `BC: firms gave up leases, won't come back`.",
+        "Kết luận: câu đó là quan điểm của các hiệp hội doanh nghiệp; Rebecca bác bỏ nó bằng bằng chứng từ khách hàng của mình. Một đáp án kiểu \"Rebecca believes remote work will soon end\" là bẫy thuật lại."
+      ],
+      "answer": "No. It is the business associations' view; Rebecca rejects it, saying her clients have already given up office space.",
+      "takeawayVi": "Một ý được nói ra trong bài chưa chắc là ý của người nói. Luôn hỏi: ai là chủ ngữ của động từ \"argue/say/claim\"? Rồi nghe câu ngay sau để biết người nói đồng ý hay phản bác."
+    },
+    {
+      "id": "ex-2",
+      "title": "Concession and rebuttal",
+      "stimulusId": "remote-work-commentary",
+      "question": "Rebecca accepts one point from the other side. What conclusion does she draw from it?",
+      "steps": [
+        "Tín hiệu nhượng bộ: \"Now, there's one argument from the other side that I take seriously.\" → mở `YES-BUT`.",
+        "Phần YES: \"Junior employees do learn faster when they're around experienced colleagues\" + bằng chứng cá nhân \"I've watched new staff struggle working from home\".",
+        "Phần BUT: \"But that's a reason for employers to organize better mentoring, maybe two well-planned days a week in the office. It's not a reason to fill buildings for the sake of the coffee shop downstairs.\"",
+        "Mẫu \"a reason for X, not a reason for Y\": X = kết luận cô chấp nhận (mentoring tốt hơn, khoảng hai ngày ở văn phòng), Y = kết luận cô bác bỏ (lấp đầy toà nhà để cứu quán cà phê).",
+        "Vậy đáp án cho câu hỏi này là X. Bẫy: chọn \"She agrees employees should return to the office full-time\" — đó là việc mở rộng sự nhượng bộ quá giới hạn cô đặt ra."
+      ],
+      "answer": "She concludes that employers should organize better mentoring, perhaps two planned office days a week, but not bring everyone back full-time.",
+      "takeawayVi": "Một sự nhượng bộ luôn có giới hạn. Ghi cả YES và BUT; đáp án đúng cho câu hỏi về nhượng bộ thường nằm ở giao điểm: người nói chấp nhận điều gì, và chỉ đến mức nào."
+    },
+    {
+      "id": "ex-3",
+      "title": "Sorting sentences into THEY / ME / YES-BUT",
+      "stimulusId": "marker-lines",
+      "question": "Which sentence is a concession, and which sentence states the speaker's own position?",
+      "steps": [
+        "Câu 1: \"Critics argue…\" → `THEY`. Đây không phải ý của người nói.",
+        "Câu 2: \"I'd take that more seriously if sales had actually dropped.\" → `ME`, nhưng chức năng là **phản bác** câu 1 (ngụ ý: doanh số không giảm).",
+        "Câu 3: \"To be fair, the construction period was hard on everyone.\" → `YES` (nhượng bộ). Câu 4 bắt đầu bằng \"But…\" → `BUT` (giới hạn nhượng bộ).",
+        "Câu 5: \"In my view, the lanes are the best thing…\" → `ME` — lập trường chính.",
+        "Kiểm tra: nếu câu hỏi hỏi \"Which point does the speaker partly accept?\" → câu 3; \"What is the speaker's main view?\" → câu 5; \"What do critics claim?\" → câu 1."
+      ],
+      "answer": "Sentence 3 is the concession; sentence 5 states the speaker's own position.",
+      "takeawayVi": "Trước khi chọn đáp án Part 6, gắn nhãn cho mỗi ý: THEY, ME, YES hay BUT. Ba câu hỏi khác nhau có thể dùng cùng một bài nhưng có ba đáp án khác nhau tuỳ nhãn."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "park-passes-commentary",
+      "prompt": "What is Daniel Cho's main position?",
+      "hint": "Tìm tín hiệu quan điểm riêng \"So my view is…\". Câu đó có hai nửa — kiểm tra xem mỗi đáp án có giữ được cả hai không.",
+      "options": [
+        {
+          "text": "The pass system should be replaced by an entrance fee.",
+          "misconception": "reported_as_speaker",
+          "whyVi": "Thu phí là ý của \"some people\"; Daniel nói \"I'd be careful\"."
+        },
+        {
+          "text": "Parks belong to everyone, so access should not be limited.",
+          "misconception": "reported_as_speaker",
+          "whyVi": "Đây là quan điểm anh thuật lại rồi bác bỏ: \"I just don't buy\"."
+        },
+        {
+          "text": "The passes should be kept, but the way they work needs to improve.",
+          "misconception": null,
+          "whyVi": "Đúng: \"my view is that the passes should stay, but the system needs fixing\"."
+        },
+        {
+          "text": "Shift workers should get priority over other visitors.",
+          "misconception": "concession_as_thesis",
+          "whyVi": "Anh chỉ muốn giữ lại một phần vé đặt trong ngày, giúp người làm ca — đó là một giải pháp, không phải lập trường chính, và không phải \"ưu tiên\"."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "So my view is that the passes should stay, but the system needs fixing.",
+      "explanationVi": "\"So my view is…\" là câu thesis. Đáp án đúng paraphrase cả hai nửa: giữ hệ thống (\"should stay\") + cải thiện (\"needs fixing\"). Hai đáp án nhiễu đầu là các quan điểm anh thuật lại.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "park-passes-commentary",
+      "prompt": "Which criticism of the pass system does Daniel accept?",
+      "hint": "Anh thuật lại HAI lời phàn nàn liền nhau, rồi phản ứng với từng cái theo thứ tự. Nghe tín hiệu nhượng bộ \"I'll be honest…\" và xem nó nói về lời phàn nàn thứ mấy.",
+      "options": [
+        {
+          "text": "It makes it hard for people who can't plan their days off in advance.",
+          "misconception": null,
+          "whyVi": "Đúng: \"the first complaint is completely fair\" — lời phàn nàn về người làm ca không lên kế hoạch trước được."
+        },
+        {
+          "text": "Nobody should need permission to go hiking.",
+          "misconception": "concession_as_thesis",
+          "whyVi": "Đây là lời phàn nàn thứ hai, và anh bác bỏ: \"I just don't buy\"."
+        },
+        {
+          "text": "The passes have caused crowding along the highway.",
+          "misconception": "unsupported",
+          "whyVi": "Ngược lại: cảnh đỗ xe dọc highway xảy ra TRƯỚC khi có vé."
+        },
+        {
+          "text": "The passes are too expensive for families.",
+          "misconception": "unsupported",
+          "whyVi": "Vé hiện tại miễn phí; chi phí với gia đình là lo ngại về đề xuất thu phí."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "I'll be honest, the first complaint is completely fair.",
+      "explanationVi": "\"The first complaint\" trỏ về lời phàn nàn đầu tiên: hệ thống \"unfair to people who work shifts and can't plan\". Ví dụ Friday night/Saturday off minh hoạ cho đúng điểm này. Phải nhớ thứ tự hai lời phàn nàn mới trả lời được — đó là lý do cần ghi chú THEY 1, THEY 2.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "park-passes-commentary",
+      "prompt": "What evidence does Daniel give against unlimited access?",
+      "hint": "Sau \"I just don't buy\", anh dùng ví dụ từ trải nghiệm của chính mình (\"I watched…\"). Đáp án đúng là chức năng của ví dụ đó trong lập luận.",
+      "options": [
+        {
+          "text": "National parks have more visitors because they charge a fee.",
+          "misconception": "unsupported",
+          "whyVi": "Không có so sánh lượng khách với công viên quốc gia."
+        },
+        {
+          "text": "Shift workers rarely visited the parks before the passes.",
+          "misconception": "unsupported",
+          "whyVi": "Không có thông tin này."
+        },
+        {
+          "text": "The shuttle buses from town were always full.",
+          "misconception": "unsupported",
+          "whyVi": "Xe đưa đón là đề xuất cho tương lai, không phải bằng chứng về quá khứ."
+        },
+        {
+          "text": "Before the passes, crowds and parked cars were damaging the parks.",
+          "misconception": null,
+          "whyVi": "Đúng: \"trailheads turn into parking lots… meadows at the top were being trampled flat\"."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "Unlimited access didn't protect those parks. It was slowly wearing them out.",
+      "explanationVi": "Mẫu: phản bác (\"I just don't buy\") → bằng chứng cá nhân (\"I watched…\") → kết luận (\"It was slowly wearing them out\"). \"Wearing them out\" + \"trampled flat\" được paraphrase thành \"damaging the parks\".",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "park-passes-commentary",
+      "prompt": "Why does Daniel suggest holding back a third of the passes for same-morning booking?",
+      "hint": "Ngay sau đề xuất có một câu bắt đầu bằng \"That helps…\". Để ý phần \"without…\" — đó là điểm khiến đề xuất phù hợp với lập trường của anh.",
+      "options": [
+        {
+          "text": "To raise more money for park maintenance.",
+          "misconception": "reported_as_speaker",
+          "whyVi": "Kiếm tiền là lý lẽ của đề xuất thu phí, mà anh không ủng hộ."
+        },
+        {
+          "text": "To help people with last-minute plans without increasing total visitor numbers.",
+          "misconception": null,
+          "whyVi": "Đúng: \"That helps shift workers without adding a single extra visitor.\""
+        },
+        {
+          "text": "To reduce the number of cars at the trailhead.",
+          "misconception": "unsupported",
+          "whyVi": "Giảm xe là mục đích của đề xuất thứ hai (shuttle buses), không phải của việc giữ vé."
+        },
+        {
+          "text": "To let more visitors into the parks on weekends.",
+          "misconception": "attitude_degree",
+          "whyVi": "Ngược lại: anh nhấn mạnh không thêm \"a single extra visitor\"."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "That helps shift workers without adding a single extra visitor.",
+      "explanationVi": "Đề xuất này giải quyết đúng điểm anh đã nhượng bộ (người làm ca) mà vẫn giữ lập trường chính (giới hạn số khách). \"Shift workers\" → \"people with last-minute plans\"; \"without adding a single extra visitor\" → \"without increasing total visitor numbers\".",
+      "competency": "paraphrase"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "park-passes-commentary",
+      "prompt": "What is Daniel's attitude toward charging a fee to enter the parks?",
+      "options": [
+        {
+          "text": "He supports it because the national parks already do it.",
+          "misconception": "reported_as_speaker",
+          "whyVi": "Đó là lý lẽ của \"some people\"; anh chỉ nói \"I understand the logic\"."
+        },
+        {
+          "text": "He understands the reasoning but is against it because it could exclude low-income families.",
+          "misconception": null,
+          "whyVi": "Đúng: \"I understand the logic, but I'd be careful… tell a family on a tight budget that the mountains aren't for them.\""
+        },
+        {
+          "text": "He is angry that anyone would suggest it.",
+          "misconception": "attitude_degree",
+          "whyVi": "Quá mạnh: \"I understand the logic\" cho thấy anh tôn trọng lý lẽ đó."
+        },
+        {
+          "text": "He has no opinion on it.",
+          "misconception": "attitude_degree",
+          "whyVi": "Anh có ý kiến rõ: \"That's the opposite of what we should want.\""
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "A fee would raise money, sure, but it would also tell a family on a tight budget that the mountains aren't for them.",
+      "explanationVi": "Mẫu \"I understand the logic, but…\" + \"X, sure, but Y\": công nhận một lợi ích (raise money) rồi đưa ra lý do phản đối mạnh hơn. \"A family on a tight budget\" → \"low-income families\". Mức độ: phản đối có lý lẽ, không giận dữ.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "park-passes-commentary",
+      "prompt": "What does Daniel mean when he ends with \"Limits aren't the enemy. Badly designed limits are\"?",
+      "options": [
+        {
+          "text": "The problem is not having restrictions, but how they are set up.",
+          "misconception": null,
+          "whyVi": "Đúng: câu kết tóm lại lập trường \"passes should stay, but the system needs fixing\"."
+        },
+        {
+          "text": "All limits on park access should be removed.",
+          "misconception": "reported_as_speaker",
+          "whyVi": "Đây là quan điểm anh đã bác bỏ."
+        },
+        {
+          "text": "Park visitors are the real enemy of nature.",
+          "misconception": "too_literal",
+          "whyVi": "Hiểu \"enemy\" theo nghĩa đen và gán sai đối tượng; anh không đổ lỗi cho người đi bộ."
+        },
+        {
+          "text": "The government designed the passes badly on purpose.",
+          "misconception": "too_literal",
+          "whyVi": "Anh nói hệ thống cần sửa, không cáo buộc ai cố tình làm sai."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "Limits aren't the enemy. Badly designed limits are.",
+      "explanationVi": "Câu kết hình ảnh thường là bản rút gọn của thesis. \"Limits aren't the enemy\" = không phản đối việc giới hạn; \"badly designed limits are\" = vấn đề nằm ở cách thiết kế. Khớp với \"the passes should stay, but the system needs fixing\".",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "corner-stores-commentary",
+      "prompt": "What is Laura Mendes's main argument?",
+      "options": [
+        {
+          "text": "Corner stores cause too much traffic in residential areas.",
+          "misconception": "reported_as_speaker",
+          "whyVi": "Đây là ý của \"Opponents\", không phải của Laura."
+        },
+        {
+          "text": "Cities should allow corner stores in neighbourhoods and manage the problems with rules.",
+          "misconception": null,
+          "whyVi": "Đúng: cô bác bỏ các nỗi lo chính, chấp nhận vài vấn đề nhỏ và nói \"they're exactly what rules on hours and delivery times are for\"."
+        },
+        {
+          "text": "Corner stores should only open until eight p.m.",
+          "misconception": "concession_as_thesis",
+          "whyVi": "Giờ mở cửa chỉ là ví dụ trong phần nhượng bộ, không phải lập trường chính."
+        },
+        {
+          "text": "Property values in older neighbourhoods are too high.",
+          "misconception": "too_literal",
+          "whyVi": "Giá nhà được dùng làm bằng chứng phản bác, không phải điều cô phàn nàn."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "Those are reasonable issues, and they're exactly what rules on hours and delivery times are for.",
+      "explanationVi": "Laura không nói thẳng \"my view is…\" — lập trường được ráp từ nhiều phần: bác bỏ nỗi lo về giá nhà, nhượng bộ có giới hạn (các vấn đề hợp lý → giải quyết bằng quy định), lợi ích (who benefits), và câu hỏi tu từ cuối (không nên cấm). Câu hỏi \"main argument\" cần đáp án bao quát cả bài.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "corner-stores-commentary",
+      "prompt": "How does Laura respond to the claim that corner stores will lower property values?",
+      "options": [
+        {
+          "text": "She agrees that some prices may fall slightly.",
+          "misconception": "attitude_degree",
+          "whyVi": "Cô không đồng ý chút nào; cô nói không có bằng chứng."
+        },
+        {
+          "text": "She says buyers should be warned before they purchase homes.",
+          "misconception": "too_literal",
+          "whyVi": "Hiểu câu \"nobody told the buyers\" theo nghĩa đen."
+        },
+        {
+          "text": "She doubts it, pointing out that areas with corner stores are very expensive.",
+          "misconception": null,
+          "whyVi": "Đúng: \"I'd take that fear more seriously if there were any evidence… among the most expensive places to live\"."
+        },
+        {
+          "text": "She thinks property values matter less than noise.",
+          "misconception": "unsupported",
+          "whyVi": "Cô không so sánh giá nhà với tiếng ồn."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "I'd take that fear more seriously if there were any evidence for it.",
+      "explanationVi": "\"I'd take that more seriously if there were any evidence\" = lịch sự nhưng rõ ràng: không có bằng chứng → cô không tin. Câu \"If corner stores destroy property values, nobody told the buyers\" là mỉa mai nhẹ: người mua vẫn trả giá rất cao ở những khu có corner store.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "corner-stores-commentary",
+      "prompt": "Which concern does Laura accept as reasonable?",
+      "options": [
+        {
+          "text": "Corner stores attract late-night crowds wherever they open.",
+          "misconception": "reported_as_speaker",
+          "whyVi": "\"Late-night crowds\" là lời của phía phản đối; cô chỉ phân biệt cửa hàng mở đến 2 giờ sáng với cửa hàng đóng lúc 8 giờ."
+        },
+        {
+          "text": "Corner stores make neighbours less friendly.",
+          "misconception": "unsupported",
+          "whyVi": "Ngược lại: cô nói corner store là \"a reason for neighbours to run into each other\"."
+        },
+        {
+          "text": "Property values will drop near new stores.",
+          "misconception": "reported_as_speaker",
+          "whyVi": "Đây là nỗi lo cô bác bỏ."
+        },
+        {
+          "text": "Deliveries can cause problems on narrow streets.",
+          "misconception": null,
+          "whyVi": "Đúng: \"Delivery trucks can be a real problem on narrow streets\"."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "Delivery trucks can be a real problem on narrow streets",
+      "explanationVi": "Tín hiệu nhượng bộ: \"I'm not saying every concern is imaginary.\" Ngay sau đó là hai vấn đề cô coi là có thật: xe giao hàng trên đường hẹp và giờ mở cửa quá khuya. Đáp án đầu mượn chữ của phía phản đối và biến nó thành khẳng định chung (\"wherever they open\").",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "corner-stores-commentary",
+      "prompt": "Why does Laura mention seniors, teenagers and parents?",
+      "options": [
+        {
+          "text": "To show that these groups have complained to council.",
+          "misconception": "reported_as_speaker",
+          "whyVi": "Người phàn nàn với hội đồng là \"some neighbours\" phản đối; các nhóm này là người được hưởng lợi."
+        },
+        {
+          "text": "To illustrate who would gain from having shops within walking distance.",
+          "misconception": null,
+          "whyVi": "Đúng: \"What I'd ask people to consider is who benefits.\""
+        },
+        {
+          "text": "To argue that these groups need cheaper groceries.",
+          "misconception": "unsupported",
+          "whyVi": "Không có ý về giá cả rẻ hơn."
+        },
+        {
+          "text": "To explain why corner stores closed seventy years ago.",
+          "misconception": "unsupported",
+          "whyVi": "Cô không giải thích lý do lịch sử."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "What I'd ask people to consider is who benefits.",
+      "explanationVi": "Câu hỏi \"Why does the speaker mention…\" hỏi về CHỨC NĂNG: ba nhóm này là ví dụ minh hoạ cho \"who benefits\" — những người không lái xe hoặc chỉ cần đi bộ mua một món. Đây là phần lý do ủng hộ trong bản đồ lập luận.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "corner-stores-commentary",
+      "prompt": "What does Laura imply by saying \"If corner stores destroy property values, nobody told the buyers\"?",
+      "options": [
+        {
+          "text": "Home buyers are often given false information by agents.",
+          "misconception": "too_literal",
+          "whyVi": "Hiểu theo nghĩa đen; cô không nói về môi giới."
+        },
+        {
+          "text": "People who buy near corner stores later regret it.",
+          "misconception": "unsupported",
+          "whyVi": "Không có thông tin về việc người mua hối tiếc."
+        },
+        {
+          "text": "Buyers clearly don't think corner stores make homes less valuable.",
+          "misconception": null,
+          "whyVi": "Đúng: người mua vẫn trả giá rất cao ở những khu có corner store — bằng chứng thực tế phản bác nỗi lo."
+        },
+        {
+          "text": "The city should inform buyers before allowing new stores.",
+          "misconception": "too_literal",
+          "whyVi": "Đây là cách hiểu câu mỉa mai thành một đề xuất chính sách."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "If corner stores destroy property values, nobody told the buyers.",
+      "explanationVi": "Mỉa mai nhận ra từ mâu thuẫn logic: nếu corner store thật sự làm giảm giá nhà, người mua sẽ không trả giá cao ở những khu đó. Vì họ vẫn trả giá cao → nỗi lo kia sai. Giọng đọc đều không giúp được gì; logic của câu mới là manh mối.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "corner-stores-commentary",
+      "prompt": "What is the purpose of Laura's final comparison with cars and speeding?",
+      "options": [
+        {
+          "text": "To argue that problems caused by a few are not a reason to ban something entirely.",
+          "misconception": null,
+          "whyVi": "Đúng: \"should we ban corner stores because some of them might be noisy? We don't ban cars because some drivers speed.\""
+        },
+        {
+          "text": "To suggest that corner stores will reduce speeding in neighbourhoods.",
+          "misconception": "too_literal",
+          "whyVi": "Hiểu phép so sánh theo nghĩa đen; cô không nói corner store ảnh hưởng đến tốc độ xe."
+        },
+        {
+          "text": "To admit that corner stores are as dangerous as cars.",
+          "misconception": "concession_as_thesis",
+          "whyVi": "Phép so sánh không phải là nhượng bộ về mức nguy hiểm."
+        },
+        {
+          "text": "To support the opponents' concern about traffic.",
+          "misconception": "reported_as_speaker",
+          "whyVi": "Ngược lại: câu này phản bác phía phản đối."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "We don't ban cars because some drivers speed.",
+      "explanationVi": "Câu hỏi tu từ + phép tương tự: trong cuộc sống, ta không cấm cả một thứ vì một số người dùng sai → cũng không nên cấm corner store vì vài cửa hàng có thể ồn. Câu hỏi về \"purpose\" cần chức năng lập luận, không phải nội dung nghĩa đen về xe cộ.",
+      "competency": "paraphrase"
+    }
+  ],
+  "misconceptions": {
+    "reported_as_speaker": {
+      "label": "Nhầm ý được thuật lại với ý của người nói",
+      "explanationVi": "Bạn chọn một quan điểm người nói CHỈ THUẬT LẠI (Opponents say…, Some people want…, You'll hear that…) như thể đó là quan điểm của họ — hoặc ngược lại. Kỹ năng bị thiếu là theo dõi \"chủ nhân\" của từng ý trong một bài có hai lớp tiếng nói.",
+      "fixVi": "Ghi hai cột THEY | ME. Mỗi lần nghe argue / say / claim, hỏi chủ ngữ là ai. Nghe câu ngay sau để biết người nói đồng ý hay bác bỏ (I just don't buy, I'd take that more seriously if…)."
+    },
+    "concession_as_thesis": {
+      "label": "Nhầm điều nhượng bộ với lập trường chính",
+      "explanationVi": "Bạn chọn điểm người nói THỪA NHẬN một phần (hoặc một giải pháp nhỏ) như thể đó là lập trường chính, hoặc mở rộng sự nhượng bộ vượt quá giới hạn họ đặt ra. Bạn nghe được \"yes\" nhưng không nghe đủ \"but\".",
+      "fixVi": "Khi nghe I'll be honest / to be fair / I'm not saying, ghi YES-BUT gồm cả hai phần. Câu hỏi \"main argument\" lấy từ ME + END; câu hỏi \"partly accept\" lấy từ YES."
+    },
+    "too_literal": {
+      "label": "Hiểu câu tu từ hoặc so sánh theo nghĩa đen",
+      "explanationVi": "Bạn hiểu câu mỉa mai, câu hỏi tu từ hoặc phép so sánh theo nghĩa đen (\"nobody told the buyers\" → phải báo cho người mua). Người nói dùng những câu này để lập luận, không phải để mô tả sự thật.",
+      "fixVi": "Hỏi: câu này giúp lập luận như thế nào? Nó phản bác ai, ủng hộ điều gì? Nếu nghĩa đen không hợp logic với bài, người nói đang dùng tu từ."
+    },
+    "attitude_degree": {
+      "label": "Sai mức độ thái độ",
+      "explanationVi": "Bạn chọn thái độ quá mạnh (angry), quá yếu (no opinion) hoặc trái hướng so với lời người nói. Trong Part 6, người bình luận thường phản đối một cách lịch sự và có lý lẽ (I understand the logic, but…), nên các đáp án cảm xúc mạnh thường sai.",
+      "fixVi": "Ghi lại cụm từ thái độ nguyên văn và xếp mức độ: support / partly accept / doubt / reject. Chọn đáp án cùng mức."
+    },
+    "unsupported": {
+      "label": "Thông tin không có trong bài",
+      "explanationVi": "Đáp án nghe hợp lý với chủ đề nhưng người nói không hề đưa ra (giá rẻ hơn, người mua hối tiếc, xe buýt luôn đầy). Bạn đang suy đoán theo hiểu biết chung về vấn đề.",
+      "fixVi": "Mỗi đáp án phải gắn được với một câu cụ thể và một nhãn trong bản đồ lập luận. Không gắn được thì loại."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "I just don't buy it",
+      "vi": "Tôi không tin / không chấp nhận lý lẽ đó",
+      "example": "They say the new rink will pay for itself in five years. I just don't buy it."
+    },
+    {
+      "term": "I'll be honest / To be fair",
+      "vi": "Thật lòng mà nói / Công bằng mà nói (mở đầu nhượng bộ)",
+      "example": "To be fair, the city did hold three public meetings before the decision."
+    },
+    {
+      "term": "I understand the logic, but…",
+      "vi": "Tôi hiểu lý lẽ đó, nhưng…",
+      "example": "I understand the logic of a toll on the bridge, but it would hit commuters hardest."
+    },
+    {
+      "term": "I'd take that more seriously if…",
+      "vi": "Tôi sẽ coi trọng ý đó hơn nếu… (ngụ ý: không có căn cứ)",
+      "example": "I'd take that claim more seriously if anyone had actually measured the noise."
+    },
+    {
+      "term": "I'm not saying…, but…",
+      "vi": "Tôi không nói rằng…, nhưng… (giới hạn lập luận của mình)",
+      "example": "I'm not saying the plan is perfect, but it's better than doing nothing."
+    },
+    {
+      "term": "a reason for X, not a reason for Y",
+      "vi": "là lý do để làm X, chứ không phải lý do để làm Y",
+      "example": "A few accidents are a reason for better signs, not a reason to close the trail."
+    },
+    {
+      "term": "on a tight budget",
+      "vi": "eo hẹp về tài chính",
+      "example": "Students on a tight budget often shop at the farmers' market near closing time."
+    },
+    {
+      "term": "run into someone",
+      "vi": "tình cờ gặp ai",
+      "example": "I ran into my old neighbour at the Save-On-Foods in Coquitlam."
+    },
+    {
+      "term": "out of luck",
+      "vi": "hết cơ hội, đành chịu",
+      "example": "If you arrive after the ferry's full, you're out of luck until the next sailing."
+    }
+  ],
+  "grammar": [
+    {
+      "point": "Unreal conditionals for argument: I'd take that more seriously if there were…",
+      "explanationVi": "Câu điều kiện không có thật (would + V, if + past) được dùng để phản bác lịch sự: người nói ngụ ý điều kiện KHÔNG đúng trong thực tế. \"I'd worry if X were true\" = X không đúng, nên tôi không lo.",
+      "examples": [
+        "I'd take that more seriously if sales had actually dropped.",
+        "I'd agree with the critics if the trail were really empty on weekdays."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "label": "Luyện Part 6 – Viewpoints",
+      "route": "/listening?task=L6"
+    },
+    {
+      "label": "Drill thái độ người nói",
+      "route": "/listening?mode=drill&focus=speaker_attitude"
+    }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Re-solved 4 guided + 8 independent items against l6-full-01 ch0 and both commentary clips; THEY/ME/concession keys are sound and the sarcasm is signalled by logic, not intonation. The BC Parks/Parks Canada facts are kept general and correct. Fixed: g1 hint softened so it does not single out the answer, and the strategy step now says a host may not be present."}
+}

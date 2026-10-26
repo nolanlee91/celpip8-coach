@@ -1,0 +1,353 @@
+{
+  "id": "rd-09",
+  "skill": "reading",
+  "module": "reading-techniques",
+  "level": "core",
+  "difficulty": 8,
+  "title": "Fact, opinion and assumption",
+  "titleVi": "Sự thật, ý kiến và giả định",
+  "estimatedMinutes": 35,
+  "prerequisites": ["rd-08"],
+  "competencies": ["inference", "distractor"],
+  "tasks": ["R4"],
+  "objectives": [
+    "You will be able to classify a statement as a fact, an opinion or an unstated assumption.",
+    "You will be able to use hedging and stance language (arguably, it seems, clearly, concedes, insists) to judge how strongly a view is held.",
+    "You will be able to separate the writer's own view from the views of the people quoted in an article."
+  ],
+  "objectiveVi": "Bạn sẽ phân biệt được đâu là sự thật kiểm chứng được, đâu là ý kiến, đâu là giả định ngầm; nhận ra mức độ chắc chắn qua từ rào đón; và tách quan điểm của tác giả khỏi quan điểm của người được trích dẫn — kỹ năng cốt lõi của Reading Part 4.",
+  "whyItMattersVi": "Part 4 (Reading for Viewpoints) có 10 câu và là phần khó nhất đối với người đang ở Reading 5. Bài báo thường có ba, bốn tiếng nói khác nhau, và đáp án sai thường là quan điểm THẬT trong bài nhưng của SAI người, hoặc là một tuyên bố bị trình bày như sự thật. Nếu bạn đọc được 'ai nghĩ gì, chắc chắn đến mức nào, dựa trên cái gì', bạn sẽ lấy được phần lớn điểm ở Part 4 và tiến gần Level 8.",
+  "concept": [
+    {
+      "heading": "Fact, opinion, assumption — ba loại câu khác nhau",
+      "body": "- **Fact (sự thật):** có thể kiểm chứng bằng số liệu, sự kiện, hồ sơ. *'A local residents' group has collected 2,400 signatures.'* Dấu hiệu: con số, ngày tháng, động từ trung tính (*has collected, opened, rose*).\n- **Opinion (ý kiến):** đánh giá, nhận định, đề xuất — người khác có thể không đồng ý. *'There is no good reason to keep them.'* Dấu hiệu: tính từ đánh giá (*simple, unfair, best*), *should / ought to*, *I think*, so sánh mang tính đánh giá.\n- **Assumption (giả định):** niềm tin **không được nói ra** nhưng lập luận cần nó để đứng vững. Nếu Hoffmann nói 'không có lý do nào để giữ máy thổi lá', bà ấy **ngầm cho rằng** các cách khác (cào, máy chạy pin) đủ tốt để thay thế.\n\nLưu ý: một **dự đoán** (*'Clients won't pay for the extra hours'*) cũng là ý kiến, dù nghe chắc chắn."
+    },
+    {
+      "heading": "Từ rào đón và từ khẳng định: đo độ chắc chắn",
+      "body": "**Hedging (rào đón, giảm độ chắc):** *arguably, it seems, may, might, perhaps, probably, appears to, it may be too early to say, partly*.\n**Boosters (tăng độ chắc):** *clearly, undoubtedly, there is no question, what is clear is that, certainly, insists*.\n\nĐáp án phải giữ **đúng mức độ** của bài. Bài nói *'Arguably, both sides are partly right'* → đáp án *'The writer is certain that one side is wrong'* sai, và *'The writer believes both sides are completely right'* cũng sai vì bỏ mất *partly*.\n\n**Reporting verbs cho biết thái độ:**\n- *insists, argues, claims* → người nói giữ quan điểm mạnh (claim còn hàm ý chưa được chứng minh).\n- *concedes, admits, acknowledges* → người nói **chấp nhận một điểm của phía bên kia**.\n- *points out, notes* → người nói đưa ra một điểm mà người viết coi là hợp lý.\n- *is unconvinced, doubts* → không đồng ý."
+    },
+    {
+      "heading": "Quan điểm của tác giả vs quan điểm được trích dẫn",
+      "body": "Trong bài báo Part 4, phần lớn câu chữ là **lời của người khác**: trong ngoặc kép, sau *says / argues / according to*, hoặc gán cho nhóm (*critics, some residents, business owners*). Đó **không phải** quan điểm của tác giả.\n\nQuan điểm của tác giả thường nằm ở:\n1. **Đoạn cuối** hoặc câu kết luận.\n2. **Câu không có người nói** đi kèm từ đánh giá hoặc rào đón: *'Arguably…', 'It may be too early to say…', 'What is clear is that…', 'Still, few would argue…'*.\n3. Cách tác giả **chọn từ** khi tường thuật: *'Mehta concedes'* thể hiện tác giả thấy ông ấy đã nhượng bộ.\n\nCâu hỏi 'What does the writer think?' và 'According to X, …' cần hai cách tìm khác nhau. Đừng trả lời câu thứ nhất bằng lời trích dẫn."
+    },
+    {
+      "heading": "Claim vs evidence, và cách dùng trong bài thi",
+      "body": "Một **claim** là tuyên bố; **evidence** là thứ ủng hộ tuyên bố (số liệu, nghiên cứu, ví dụ). *'Her group cites a study showing…'* — nghiên cứu là bằng chứng **mà một bên sử dụng**; tác giả không xác nhận nó. Bẫy hay gặp: đáp án biến bằng chứng của một bên thành 'sự thật đã được tác giả chứng minh'.\n\nQuy trình cho mỗi câu Part 4:\n1. Câu hỏi hỏi về **ai**? (tác giả / một nhân vật / bình luận của độc giả)\n2. Tìm câu của **đúng người** đó.\n3. Xác định loại: fact, opinion hay assumption? Mạnh hay rào đón?\n4. Chọn đáp án giữ đúng **người, loại, và mức độ**.\n\nTrong phần bình luận (comment) của độc giả ở Part 4, người viết thường *đồng ý một phần*: *'has a point, but…'*. Đáp án đúng phải phản ánh cả sự đồng ý lẫn phần 'but'."
+    }
+  ],
+  "stimuli": {
+    "leaf-blower-article": {
+      "title": "Article: The case against leaf blowers — or is there one?",
+      "text": "The Case Against Leaf Blowers — Or Is There One?\n\nEvery fall, the roar of gas-powered leaf blowers returns to many Lower Mainland neighbourhoods, and so does the debate about banning them. Several cities in the United States have already restricted them, and a local residents' group has collected 2,400 signatures asking their municipal council to do the same.\n\nThe group's spokesperson, Lena Hoffmann, insists the issue is simple. 'These machines are loud, they pollute, and there is no good reason to keep them,' she says. Her group cites a study showing that a commercial gas blower can produce more smog-forming emissions in an hour than a car does over a long drive.\n\nLandscaping companies see it differently. Owner Raj Mehta concedes that the machines are noisy but argues that a sudden ban would hurt small businesses. 'Battery models cost three times as much, and their batteries last about forty minutes,' he says. 'Clients won't pay for the extra hours.'\n\nArguably, both sides are partly right. A ban phased in over several years, perhaps with rebates for battery equipment, would seem to address the noise without forcing small firms to replace everything at once. What is clear is that the current approach — complaints to bylaw officers, which rarely lead to fines — satisfies no one."
+    },
+    "downtown-article": {
+      "title": "Article: Is hybrid work emptying downtown?",
+      "text": "Is Hybrid Work Emptying Downtown?\n\nWeekday foot traffic in downtown Vancouver remains below its 2019 level, according to figures collected by a local business association. Coffee shops near office towers say Mondays and Fridays are the quietest days.\n\nSome business owners blame hybrid work schedules. 'If people only come in Tuesday to Thursday, we lose forty percent of our customers,' says café owner Daniel Kwan. He believes employers should require staff to return full time.\n\nUrban planner Sofia Reyes is unconvinced. She points out that new residential towers have brought thousands of residents downtown, and that evening and weekend visits have recovered strongly. 'Downtown isn't dying; it's changing who it serves,' she says. In her view, businesses that adjust their hours will probably do better than those waiting for the old commute to return.\n\nIt may be too early to say who is right. The association's figures do not separate office workers from tourists, so it is hard to know exactly whose visits have declined. Still, few would argue that forcing employees back is a simple fix: companies that have tried it have often faced resignations."
+    },
+    "reader-comment": {
+      "title": "Reader comment on 'Is hybrid work emptying downtown?'",
+      "text": "Posted by T. Nguyen, Burnaby\n\nAs someone who manages a small bakery near Waterfront Station, I think Ms. Reyes has a point, but she makes it sound easier than it is. We tried opening until 8 p.m. last summer, and our evening sales barely covered staff wages. Maybe that was just bad timing. Personally, I'd rather see the city offer free transit on Mondays and Fridays to bring people back than tell companies what to do."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Spotting the fact",
+      "stimulusId": "leaf-blower-article",
+      "question": "Which of the following is presented as a fact rather than an opinion? (A) 'There is no good reason to keep them.' (B) A residents' group has collected 2,400 signatures. (C) Both sides are partly right. (D) Clients won't pay for the extra hours.",
+      "steps": [
+        "Test each statement: could it be checked with a record or a count?",
+        "(A) 'no good reason' is a judgment by Hoffmann — others clearly disagree. Opinion.",
+        "(B) A number of signatures can be counted. Neutral verb 'has collected'. Fact.",
+        "(C) 'Arguably… partly right' — an evaluation by the writer, even hedged. Opinion.",
+        "(D) A prediction about clients' behaviour by Mehta. It sounds certain ('won't'), but it is still an opinion about the future."
+      ],
+      "answer": "(B) A residents' group has collected 2,400 signatures.",
+      "takeawayVi": "Câu nghe chắc chắn (D) chưa chắc là sự thật. Sự thật là điều kiểm chứng được; dự đoán và đánh giá luôn là ý kiến."
+    },
+    {
+      "id": "ex2",
+      "title": "Finding the writer's own view",
+      "stimulusId": "leaf-blower-article",
+      "question": "What is the writer's own position? (A) A gradual ban seems a reasonable compromise. (B) Gas blowers should be banned right away. (C) No change to the current rules is needed. (D) Bylaw officers should issue more fines.",
+      "steps": [
+        "Question asks about the WRITER, so I skip the quotations and look for sentences with no speaker attached.",
+        "Paragraph 4 has no 'says' or quotation marks and contains hedges: 'Arguably', 'perhaps', 'would seem'. This is the writer speaking.",
+        "The writer suggests 'a ban phased in over several years'. Hedges = the writer proposes it cautiously → 'seems a reasonable compromise' keeps the same strength. (A) matches.",
+        "(B) is Hoffmann's view (wrong source). (C) contradicts 'satisfies no one'. (D) The writer says complaints rarely lead to fines but never proposes more fines — over-reading."
+      ],
+      "answer": "(A) A gradual ban seems a reasonable compromise.",
+      "takeawayVi": "Tìm câu KHÔNG có người nói + có từ rào đón/đánh giá: đó là giọng tác giả. Đáp án đúng giữ đúng mức độ rào đón ('seems')."
+    },
+    {
+      "id": "ex3",
+      "title": "Reading a reporting verb",
+      "stimulusId": "leaf-blower-article",
+      "question": "What does the verb 'concedes' tell you about Raj Mehta?",
+      "steps": [
+        "'Owner Raj Mehta concedes that the machines are noisy but argues that a sudden ban would hurt small businesses.'",
+        "'Concede' = accept a point that supports the other side. The other side (Hoffmann) said the machines are loud.",
+        "Then 'but argues' introduces his real position.",
+        "So Mehta accepts one criticism (noise) while still opposing a sudden ban. An option saying 'Mehta denies that blowers are noisy' would be the opposite; 'Mehta supports a ban' would ignore 'but argues'."
+      ],
+      "answer": "He accepts that blowers are noisy, but still opposes a sudden ban.",
+      "takeawayVi": "Concede/admit = nhượng bộ một điểm; quan điểm thật nằm sau 'but'. Đây là cấu trúc rất phổ biến trong Part 4."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "text",
+      "stimulusId": "leaf-blower-article",
+      "prompt": "Type the ONE reporting verb in paragraph 3 that shows Raj Mehta accepts part of the other side's argument.",
+      "hint": "Two reporting verbs describe Mehta in one sentence. One introduces a point he accepts; the other, after 'but', introduces his own position.",
+      "answers": ["concedes", "concede"],
+      "mode": "exact",
+      "misconception": "source_confusion",
+      "explanationVi": "'Concedes' = thừa nhận một điểm của phía kia. Động từ 'argues' sau đó mới là lập trường của ông. Phân biệt hai động từ này giúp bạn trả lời đúng câu hỏi 'Mehta's position is…'.",
+      "competency": "inference"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "leaf-blower-article",
+      "prompt": "How does the article present the information about gas blower emissions?",
+      "hint": "Who is doing the citing? Look at the subject of the verb 'cites'.",
+      "options": [
+        { "text": "As a fact the writer has checked and confirmed.", "misconception": "claim_as_evidence", "whyVi": "Tác giả không nói đã kiểm tra; chỉ thuật lại rằng nhóm cư dân trích dẫn nghiên cứu." },
+        { "text": "As evidence used by one side of the debate.", "misconception": null, "whyVi": "Đúng: 'Her group cites a study' — đây là bằng chứng của phe muốn cấm." },
+        { "text": "As the writer's personal opinion.", "misconception": "source_confusion", "whyVi": "Câu thuộc đoạn của Hoffmann; chủ ngữ là 'Her group', không phải tác giả." },
+        { "text": "As a rumour that the writer rejects.", "misconception": "hedge_ignored", "whyVi": "Không có từ nào cho thấy tác giả bác bỏ; bạn đang đọc thêm thái độ không có trong bài." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Her group cites a study showing that a commercial gas blower can produce more smog-forming emissions",
+      "explanationVi": "Bằng chứng được gắn với người dùng nó. Tác giả tường thuật trung lập ('cites'), nên đáp án đúng là 'evidence used by one side', không phải 'fact confirmed by the writer'.",
+      "competency": "distractor"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "leaf-blower-article",
+      "prompt": "Hoffmann's claim that there is 'no good reason to keep them' depends on which unstated assumption?",
+      "hint": "Ask: what must Hoffmann believe for 'no good reason' to be true, even though she never says it? Think about what would replace the machines.",
+      "options": [
+        { "text": "Quieter alternatives can do the job well enough.", "misconception": null, "whyVi": "Đúng: nếu không có cách thay thế đủ tốt, sẽ có lý do để giữ máy. Bà không nói ra điều này nhưng lập luận cần nó." },
+        { "text": "The restrictions in U.S. cities have failed.", "misconception": "hidden_assumption_missed", "whyVi": "Nếu giả định này đúng thì lập luận của bà sẽ yếu đi, không phải được ủng hộ." },
+        { "text": "Landscaping companies already support a ban.", "misconception": "hidden_assumption_missed", "whyVi": "Lập luận của bà không cần điều này; và đoạn 3 cho thấy họ không ủng hộ." },
+        { "text": "Bylaw officers already give many fines.", "misconception": "opinion_as_fact", "whyVi": "Đoạn cuối nói khiếu nại 'rarely lead to fines'; và điều này không liên quan đến 'no good reason'." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Giả định = mắt xích ngầm. Mẹo kiểm tra: phủ định giả định ('Các cách khác KHÔNG làm tốt được') — nếu lập luận sụp đổ, đó chính là giả định.",
+      "competency": "inference"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "leaf-blower-article",
+      "prompt": "In the last paragraph, what does the phrase 'What is clear is that' signal?",
+      "hint": "Compare the strength of 'Arguably' at the start of the paragraph with 'What is clear'.",
+      "options": [
+        { "text": "The writer is reporting what residents think.", "misconception": "source_confusion", "whyVi": "Không có người nói nào được nhắc trong câu; đây là giọng tác giả." },
+        { "text": "The writer is stating a view with confidence.", "misconception": null, "whyVi": "Đúng: 'What is clear' là booster — tác giả chắc chắn rằng cách làm hiện nay không ai hài lòng." },
+        { "text": "The writer is presenting survey results.", "misconception": "claim_as_evidence", "whyVi": "Không có khảo sát nào; đây là nhận định." },
+        { "text": "The writer is unsure about the point.", "misconception": "hedge_ignored", "whyVi": "Ngược lại: sự rào đón nằm ở 'Arguably'; 'What is clear' thì chắc chắn." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Cùng một đoạn, tác giả rào đón về giải pháp ('Arguably', 'would seem') nhưng chắc chắn về vấn đề ('What is clear'). Câu hỏi Level 8 thường kiểm tra bạn phân biệt hai mức độ này.",
+      "competency": "inference"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "downtown-article",
+      "prompt": "Which statement from the article is presented as a fact rather than an opinion?",
+      "options": [
+        { "text": "Employers should require staff to return full time.", "misconception": "opinion_as_fact", "whyVi": "'Should' = đề xuất; đây là ý kiến của Kwan." },
+        { "text": "Businesses that adjust their hours will probably do better.", "misconception": "opinion_as_fact", "whyVi": "Dự đoán có rào đón 'probably' của Reyes — là ý kiến." },
+        { "text": "The association's figures do not separate office workers from tourists.", "misconception": null, "whyVi": "Đúng: đây là mô tả về cách số liệu được thu thập — kiểm chứng được, do tác giả nêu." },
+        { "text": "Downtown is changing who it serves.", "misconception": "opinion_as_fact", "whyVi": "Đây là nhận định của Reyes, người khác có thể không đồng ý." }
+      ],
+      "answerIndex": 2,
+      "evidence": "The association's figures do not separate office workers from tourists",
+      "explanationVi": "Một câu nói về NỘI DUNG dữ liệu (số liệu có hoặc không tách nhóm) có thể kiểm tra được, nên là sự thật. Các đáp án còn lại có should, probably hoặc là đánh giá.",
+      "competency": "distractor"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "downtown-article",
+      "prompt": "According to the article, what does Daniel Kwan believe?",
+      "options": [
+        { "text": "Employers should bring their staff back to the office every weekday.", "misconception": null, "whyVi": "Đúng: 'require staff to return full time' = mọi ngày làm việc." },
+        { "text": "Hybrid work has been good for downtown businesses.", "misconception": "source_confusion", "whyVi": "Ngược với Kwan; gần với cách nhìn tích cực của Reyes hơn." },
+        { "text": "Downtown is changing rather than dying.", "misconception": "source_confusion", "whyVi": "Đây là câu nói của Sofia Reyes." },
+        { "text": "Foot traffic data cannot show whose visits have fallen.", "misconception": "source_confusion", "whyVi": "Đây là nhận xét của tác giả ở đoạn cuối." }
+      ],
+      "answerIndex": 0,
+      "evidence": "He believes employers should require staff to return full time.",
+      "explanationVi": "Ba đáp án sai đều là ý THẬT trong bài nhưng của người khác. Với câu 'According to X', hãy chỉ đọc những câu gắn với X.",
+      "competency": "distractor"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "downtown-article",
+      "prompt": "The sentence 'Urban planner Sofia Reyes is unconvinced' tells the reader that Reyes…",
+      "options": [
+        { "text": "doubts the explanation given by business owners like Kwan.", "misconception": null, "whyVi": "Đúng: 'unconvinced' = chưa bị thuyết phục bởi lập luận vừa nêu (hybrid work là nguyên nhân)." },
+        { "text": "has no opinion on the issue yet.", "misconception": "hedge_ignored", "whyVi": "Bà có quan điểm rõ: 'Downtown isn't dying'." },
+        { "text": "agrees that employers should require full-time office work.", "misconception": "source_confusion", "whyVi": "Đó là quan điểm bà nghi ngờ, không phải quan điểm của bà." },
+        { "text": "has data that prove Kwan's figures are false.", "misconception": "claim_as_evidence", "whyVi": "Quá mạnh: bà đưa ra điểm khác ('points out'), không chứng minh số liệu của Kwan sai." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Urban planner Sofia Reyes is unconvinced.",
+      "explanationVi": "Từ thái độ như unconvinced, sceptical, doubts luôn hướng về ý vừa được nêu ngay trước — ở đây là lời giải thích của chủ doanh nghiệp.",
+      "competency": "inference"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "downtown-article",
+      "prompt": "Kwan's statement 'If people only come in Tuesday to Thursday, we lose forty percent of our customers' assumes that…",
+      "options": [
+        { "text": "many of his customers are people who work in nearby offices.", "misconception": null, "whyVi": "Đúng: chỉ khi khách chủ yếu là dân văn phòng thì lịch làm việc hybrid mới làm ông mất 40% khách." },
+        { "text": "tourists visit his café only on weekends.", "misconception": "hidden_assumption_missed", "whyVi": "Lập luận của ông không cần điều này để đứng vững." },
+        { "text": "rents in downtown Vancouver are rising.", "misconception": "hidden_assumption_missed", "whyVi": "Không liên quan đến số khách; đây là kiến thức ngoài bài." },
+        { "text": "the business association's figures are accurate.", "misconception": "hidden_assumption_missed", "whyVi": "Câu nói của Kwan dựa vào khách của chính ông, không dựa vào số liệu hiệp hội." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Phủ định thử: 'Khách của ông KHÔNG phải dân văn phòng' → lịch Tuesday–Thursday không ảnh hưởng đến ông, lập luận sụp đổ. Vậy đây là giả định ngầm.",
+      "competency": "inference"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "downtown-article",
+      "prompt": "What is the writer's own position on the debate?",
+      "options": [
+        { "text": "Reyes is clearly right about downtown.", "misconception": "hedge_ignored", "whyVi": "Tác giả nói 'It may be too early to say who is right' — không chọn phe." },
+        { "text": "It is uncertain who is right, but forcing workers back is not an easy solution.", "misconception": null, "whyVi": "Đúng: 'may be too early to say' + 'few would argue that forcing employees back is a simple fix'." },
+        { "text": "Employers should require full-time office attendance.", "misconception": "source_confusion", "whyVi": "Đây là ý của Kwan; tác giả còn nghi ngờ giải pháp này." },
+        { "text": "The association's figures prove that downtown is declining.", "misconception": "claim_as_evidence", "whyVi": "Tác giả chỉ ra hạn chế của số liệu, không coi đó là bằng chứng chắc chắn." }
+      ],
+      "answerIndex": 1,
+      "evidence": "It may be too early to say who is right.",
+      "explanationVi": "Level 8: quan điểm tác giả có hai lớp — rào đón về câu hỏi lớn ('may be too early') và khá chắc về một điểm nhỏ ('few would argue'). Đáp án đúng giữ cả hai mức độ.",
+      "competency": "inference"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "reader-comment",
+      "prompt": "How does T. Nguyen respond to Ms. Reyes's view?",
+      "options": [
+        { "text": "Nguyen partly agrees but thinks it is harder to apply than she suggests.", "misconception": null, "whyVi": "Đúng: 'has a point' (đồng ý một phần) + 'makes it sound easier than it is' (nhưng khó hơn)." },
+        { "text": "Nguyen fully agrees with her.", "misconception": "hedge_ignored", "whyVi": "Bỏ qua 'but she makes it sound easier than it is'." },
+        { "text": "Nguyen rejects her view completely.", "misconception": "hedge_ignored", "whyVi": "Bỏ qua 'I think Ms. Reyes has a point'." },
+        { "text": "Nguyen says her figures are wrong.", "misconception": "claim_as_evidence", "whyVi": "Nguyen không bàn đến số liệu; chỉ kể kinh nghiệm của tiệm bánh." }
+      ],
+      "answerIndex": 0,
+      "evidence": "I think Ms. Reyes has a point, but she makes it sound easier than it is.",
+      "explanationVi": "Mẫu 'X has a point, but…' là tín hiệu đồng ý một phần rất hay gặp ở bình luận Part 4. Đáp án hoàn toàn đồng ý hoặc hoàn toàn phản đối đều sai.",
+      "competency": "inference"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "reader-comment",
+      "prompt": "Nguyen writes 'Maybe that was just bad timing.' What does this sentence show?",
+      "options": [
+        { "text": "Nguyen admits the bakery's experience may not prove very much.", "misconception": null, "whyVi": "Đúng: 'Maybe… just' là rào đón cho chính bằng chứng của mình — có thể chỉ là xui." },
+        { "text": "Nguyen is sure that evening hours never work.", "misconception": "hedge_ignored", "whyVi": "Ngược lại: câu này làm yếu kết luận 'evening hours don't work'." },
+        { "text": "Nguyen blames Ms. Reyes for the poor sales.", "misconception": "source_confusion", "whyVi": "Không có lời trách Reyes; 'bad timing' nói về thời điểm thử nghiệm." },
+        { "text": "Nguyen is giving a statistic about evening sales.", "misconception": "claim_as_evidence", "whyVi": "Không có con số nào; đây là nhận xét về kinh nghiệm cá nhân." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Maybe that was just bad timing.",
+      "explanationVi": "Level 8: người viết có thể rào đón chính bằng chứng của mình. Một ví dụ cá nhân ('last summer') kèm 'maybe' là bằng chứng yếu — câu hỏi kiểm tra bạn có nhận ra điều đó không.",
+      "competency": "inference"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "reader-comment",
+      "prompt": "Which approach does Nguyen prefer?",
+      "options": [
+        { "text": "Giving people a reason to come downtown instead of placing rules on employers.", "misconception": null, "whyVi": "Đúng: 'I'd rather see the city offer free transit… than tell companies what to do' — ưu đãi thay vì quy định." },
+        { "text": "Requiring office staff to return full time.", "misconception": "source_confusion", "whyVi": "Đây là giải pháp của Kwan; Nguyen phản đối việc 'tell companies what to do'." },
+        { "text": "Keeping businesses open later in the evening.", "misconception": "source_confusion", "whyVi": "Đây là gợi ý của Reyes, và Nguyen cho rằng nó khó hơn bà ấy nói." },
+        { "text": "Free transit, which Nguyen has proved would bring people back.", "misconception": "claim_as_evidence", "whyVi": "Nguyen chỉ đề xuất ('I'd rather see'), không có bằng chứng nào cho thấy giải pháp này hiệu quả." }
+      ],
+      "answerIndex": 0,
+      "evidence": "I'd rather see the city offer free transit on Mondays and Fridays to bring people back than tell companies what to do.",
+      "explanationVi": "Level 8: đáp án đúng là paraphrase trừu tượng (free transit → 'a reason to come downtown'; tell companies what to do → 'rules on employers'). Đáp án D có đúng đề xuất nhưng biến ý kiến thành điều đã được chứng minh.",
+      "competency": "distractor"
+    }
+  ],
+  "misconceptions": {
+    "opinion_as_fact": {
+      "label": "Coi ý kiến là sự thật",
+      "explanationVi": "Bạn chưa phân biệt câu kiểm chứng được với câu đánh giá, đề xuất hay dự đoán. Câu nghe chắc chắn ('Clients won't pay') vẫn có thể chỉ là ý kiến.",
+      "fixVi": "Hỏi: 'Có thể kiểm tra câu này bằng số liệu, hồ sơ hay sự kiện không?' Nếu câu có should, best, probably, will (dự đoán) hoặc tính từ đánh giá → ý kiến."
+    },
+    "source_confusion": {
+      "label": "Nhầm quan điểm của ai",
+      "explanationVi": "Bạn gán quan điểm của người được trích dẫn cho tác giả, hoặc của người này cho người khác. Đáp án sai ở Part 4 thường là ý thật trong bài nhưng của sai người.",
+      "fixVi": "Khi đọc bài nhiều tiếng nói, ghi nhanh: tên → lập trường (1–3 từ). Câu hỏi về tác giả → tìm câu không có người nói; câu hỏi 'According to X' → chỉ đọc câu gắn với X."
+    },
+    "hedge_ignored": {
+      "label": "Bỏ qua mức độ chắc chắn",
+      "explanationVi": "Bạn bỏ qua từ rào đón (arguably, may, maybe, partly, has a point but) hoặc từ khẳng định (clearly, what is clear), nên chọn đáp án mạnh hơn hoặc yếu hơn bài.",
+      "fixVi": "Khoanh mọi từ chỉ mức độ trong câu bằng chứng. Đáp án phải giữ đúng mức: 'partly agrees' ≠ 'agrees', 'may be too early' ≠ 'is certain'."
+    },
+    "claim_as_evidence": {
+      "label": "Nhầm tuyên bố với bằng chứng",
+      "explanationVi": "Bạn coi một tuyên bố hay đề xuất là đã được chứng minh, hoặc coi bằng chứng của một bên là sự thật tác giả xác nhận.",
+      "fixVi": "Phân biệt: ai đưa ra bằng chứng (cites, according to)? Tác giả có xác nhận không? Đáp án có những từ prove, confirmed, data show cần bằng chứng rất rõ trong bài."
+    },
+    "hidden_assumption_missed": {
+      "label": "Không nhận ra giả định ngầm",
+      "explanationVi": "Bạn chọn một điều có liên quan đến chủ đề nhưng lập luận không cần đến nó. Giả định là mắt xích mà nếu thiếu, lập luận sẽ sụp đổ.",
+      "fixVi": "Dùng phép thử phủ định: đặt 'KHÔNG' vào đáp án. Nếu lập luận vẫn đứng vững → không phải giả định; nếu lập luận sụp đổ → đó là giả định."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "arguably", "vi": "có thể cho rằng (rào đón nhẹ)", "example": "Arguably, the SkyTrain extension is the most important project in the region." },
+    { "term": "it seems / would seem to", "vi": "có vẻ như", "example": "A phased approach would seem to satisfy both residents and businesses." },
+    { "term": "concede / admit", "vi": "thừa nhận (nhượng bộ một điểm)", "example": "The mayor conceded that the new parking rates were introduced too quickly." },
+    { "term": "insist", "vi": "khăng khăng, nhấn mạnh (quan điểm mạnh)", "example": "Parents insist the crosswalk near the school is unsafe." },
+    { "term": "be unconvinced", "vi": "chưa bị thuyết phục, nghi ngờ", "example": "Many drivers are unconvinced that the new bus lane will save time." },
+    { "term": "point out", "vi": "chỉ ra (một điểm hợp lý)", "example": "She pointed out that the ferry fares had not changed in two years." },
+    { "term": "has a point, but …", "vi": "nói cũng có lý, nhưng …", "example": "He has a point about the cost, but the old arena really is falling apart." },
+    { "term": "what is clear is that …", "vi": "điều rõ ràng là … (khẳng định mạnh)", "example": "What is clear is that the current recycling system confuses many residents." },
+    { "term": "cite (a study)", "vi": "trích dẫn (một nghiên cứu) làm bằng chứng", "example": "The group cites a study showing that bike lanes reduce collisions." }
+  ],
+  "grammar": [
+    {
+      "point": "Hedging with modals and adverbs",
+      "explanationVi": "May, might, would seem, probably, arguably, perhaps làm giảm độ chắc chắn. Khi paraphrase, đáp án đúng phải giữ mức độ tương đương (may → might/possibly), không nâng lên will/definitely.",
+      "examples": [
+        "Businesses that adjust their hours will probably do better. (likely, not certain)",
+        "It may be too early to say who is right. (the writer does not choose a side)"
+      ]
+    },
+    {
+      "point": "Concession structures: concede … but; has a point, but",
+      "explanationVi": "Cấu trúc nhượng bộ đưa ra một điểm của phía bên kia rồi chuyển sang quan điểm thật sau but/however. Lập trường của người nói nằm ở vế sau.",
+      "examples": [
+        "Mehta concedes that the machines are noisy but argues that a sudden ban would hurt small businesses.",
+        "I think Ms. Reyes has a point, but she makes it sound easier than it is."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Part 4: Reading for Viewpoints", "route": "/reading?task=R4" },
+    { "label": "Drill: inference questions", "route": "/reading?mode=drill&focus=inference" },
+    { "label": "Drill: distractors", "route": "/reading?mode=drill&focus=distractor" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 items; i8 abstract paraphrase is defensible and uniquely best (D adds \"proved\", B/C are other speakers). Reworded i1 prompt (distractors are quoted views, not the writer’s), made g1 hint less give-away, remapped i4 option D misconception."}
+}

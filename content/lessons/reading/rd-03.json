@@ -1,0 +1,346 @@
+{
+  "id": "rd-03",
+  "skill": "reading",
+  "module": "reading-foundations",
+  "level": "foundation",
+  "difficulty": 6,
+  "title": "Vocabulary in context",
+  "titleVi": "Đoán nghĩa từ vựng qua ngữ cảnh",
+  "estimatedMinutes": 30,
+  "prerequisites": [],
+  "competencies": ["vocabulary"],
+  "tasks": ["R1", "R2", "R3", "R4"],
+  "objectives": [
+    "You will be able to work out the meaning of an unfamiliar word using four context clues: definition, contrast, example and cause/effect.",
+    "You will be able to break a word into prefix, root and suffix — and spot exceptions such as 'invaluable'.",
+    "You will be able to tell whether a word carries a positive or negative tone (cozy vs cramped, bold vs reckless).",
+    "You will be able to choose the meaning that fits a collocation or idiom instead of the most common dictionary meaning."
+  ],
+  "objectiveVi": "Sau bài này, bạn đoán được nghĩa từ lạ bằng manh mối ngữ cảnh, phân tích tiền tố – gốc – hậu tố, nhận ra sắc thái tích cực/tiêu cực, và chọn nghĩa đúng của từ nhiều nghĩa trong cụm từ cố định.",
+  "whyItMattersVi": "Ở Reading 5, bạn thường dừng lại vì một từ lạ rồi mất bình tĩnh, hoặc chọn nghĩa quen thuộc nhất của từ (address = địa chỉ) dù ngữ cảnh nói khác. Bài thi Level 8 luôn có những từ bạn chưa gặp. Người đạt 8 không biết hết mọi từ — họ biết cách đoán nghĩa từ câu xung quanh trong vài giây và đi tiếp.",
+  "concept": [
+    {
+      "heading": "Vì sao phải đoán nghĩa từ ngữ cảnh",
+      "body": "Trong CELPIP không có từ điển. Đề thi hiếm khi hỏi thẳng kiểu *As used in the passage, 'curb' is closest in meaning to…* (bài này dùng dạng đó để luyện kỹ năng), nhưng từ vựng ảnh hưởng **gián tiếp** đến hầu hết câu hỏi: nếu bạn hiểu sai một từ quan trọng, bạn hiểu sai cả câu và chọn sai đáp án. Mục tiêu không phải hiểu chính xác 100% nghĩa từ điển, mà hiểu **đủ** để biết câu đang nói gì: tích cực hay tiêu cực, nhiều hay ít, tăng hay giảm."
+    },
+    {
+      "heading": "Bốn loại manh mối ngữ cảnh (context clues)",
+      "body": "- **Definition / restatement**: bài tự giải thích từ ngay sau đó, thường sau dấu gạch ngang, dấu phẩy, *that is, which means, or*. Ví dụ: *The market was sparse — perhaps six vendors on a good day.*\n- **Contrast**: từ lạ đối lập với một ý bạn hiểu. Tín hiệu: *but, unlike, although, instead of, in reality, today*. *Ten years ago it was sparse; today it is thriving with forty stalls* → sparse là ngược với đông đúc.\n- **Example**: ví dụ cho bạn thấy nghĩa. Tín hiệu: *such as, for example, including, built from…*. *makeshift stands built from crates and old tarps* → tạm bợ, tận dụng vật liệu.\n- **Cause / effect**: lý do hoặc kết quả làm rõ nghĩa. Tín hiệu: *because, so, as a result, since*. *The market is lucrative; sales cover half her yearly income* → sinh lời."
+    },
+    {
+      "heading": "Phân tích cấu tạo từ (word parts)",
+      "body": "Nhiều từ dài được ghép từ phần nhỏ:\n- Tiền tố phủ định: **un-, in-, im-, dis-, ir-** (*unauthorized, inaccessible, irreversible*).\n- Mức độ: **over-** (quá nhiều), **under-** (quá ít): *underestimate* = đánh giá thấp hơn thực tế.\n- Lặp lại: **re-** (*reassess* = đánh giá lại).\n- Hậu tố: **-able/-ible** (có thể), **-less** (không có), **-ful** (đầy).\n\n**Ngoại lệ quan trọng**: *invaluable* nghĩa là **cực kỳ quý giá**, không phải 'không có giá trị'. Tương tự *priceless*. Vì vậy, luôn kiểm tra nghĩa bạn đoán từ cấu tạo từ bằng ngữ cảnh: nếu người viết đang cảm ơn, từ đó không thể mang nghĩa xấu."
+    },
+    {
+      "heading": "Sắc thái từ (tone words)",
+      "body": "Hai từ có thể chỉ cùng một thứ nhưng khác thái độ: *cozy* (ấm cúng, tích cực) và *cramped* (chật chội, tiêu cực); *thrifty* (tiết kiệm) và *cheap* (keo kiệt); *bold* (táo bạo) và *reckless* (liều lĩnh). Ở Part 4 (Viewpoints), sắc thái từ cho biết người viết đồng ý hay phản đối. Hãy hỏi: từ này đi cùng những từ tích cực hay tiêu cực xung quanh? Có từ đối lập như *but, in reality, I'd call it…* không?"
+    },
+    {
+      "heading": "Collocation và từ nhiều nghĩa",
+      "body": "Từ quen thuộc thường là bẫy lớn nhất vì bạn tự động chọn nghĩa đầu tiên mình học. Trong cụm cố định, nghĩa thay đổi:\n- *address a concern* = giải quyết (không phải 'địa chỉ')\n- *raise a concern* = nêu ra\n- *run a session* = điều hành, phụ trách\n- *curb the hours* = hạn chế (không phải 'lề đường')\n- *a sore point* = chuyện gây bực mình\n- *bear with me* = kiên nhẫn chờ tôi\n\n**Quy trình 4 bước**: (1) xác định từ loại (động từ, tính từ…); (2) tìm manh mối trong câu đó và câu bên cạnh; (3) đoán nghĩa đơn giản bằng tiếng Việt hoặc tiếng Anh dễ; (4) **thay thử** đáp án vào câu — nếu câu vẫn hợp lý và đúng sắc thái, đó là đáp án."
+    }
+  ],
+  "stimuli": {
+    "note-adamant": {
+      "title": "Short workplace note",
+      "text": "Our team lead was adamant that the safety audit be finished by Friday. Several of us asked for one more week, but she would not change her mind, no matter what reasons we gave."
+    },
+    "review-suite": {
+      "title": "Online rental review",
+      "text": "Review — Basement suite for rent, Commercial Drive\n\nThe listing called the suite 'cozy and charming.' In reality, it was cramped: my desk and bed barely fit, and the 'charming' old windows were drafty all winter. The landlord was helpful, though, and the location is unbeatable — two minutes from the SkyTrain."
+    },
+    "article-market": {
+      "title": "Local news article",
+      "text": "Saturday Market Turns Ten\n\nTen years ago, the Saturday market in Cedar Bay was sparse — on a good day, perhaps six vendors set up tables in the church parking lot. Today it is thriving, with more than forty stalls and a waiting list of local farmers.\n\nUnlike the early years, when vendors sold from makeshift stands built from crates and old tarps, the market now has proper covered booths provided by the district. For some growers, the market has become surprisingly lucrative; one berry farmer says Saturday sales now cover half her yearly income.\n\nNot everyone is pleased, though. Nearby residents complain that the crowds make street parking scarce, and a few have asked council to curb the market's hours."
+    },
+    "notice-fire": {
+      "title": "Regional parks notice",
+      "text": "Fire Season Update — Cedar Bay Regional Parks\n\nBecause of extreme dryness, the Ridge Trail is temporarily inaccessible; the access road has been blocked at the lower parking lot. Campfires are prohibited in all parks until further notice, and unauthorized fires may result in a fine.\n\nWe want to thank our volunteer patrol, whose help this summer has been invaluable. They report hazards, guide lost hikers and remind visitors of the rules.\n\nEven a small spark can cause irreversible damage to old-growth forest, so please do not underestimate the risk. Staff will reassess conditions every Friday."
+    },
+    "email-manager": {
+      "title": "Email from a store manager",
+      "text": "Subject: Following up on Monday\n\nHi team,\n\nThanks for raising your concerns at Monday's meeting. I want to address them before the holiday rush.\n\nFirst, several of you said the new scheduling app is hard to use. I've booked a training session for Thursday, and Jordan has agreed to run it.\n\nSecond, about overtime: head office has been reluctant to approve extra hours this year, but I'll keep pushing. I can't promise anything yet, so please bear with me.\n\nFinally, I know the staff room fridge has been a sore point for months. It's being replaced next week — for real this time.\n\nThanks,\nKendra"
+    },
+    "comment-bikelane": {
+      "title": "Reader comment",
+      "text": "Comment on 'Oak Street Bike Lane Opens'\n\nMarcus_W: The city calls it a 'bold' redesign. I'd call it reckless. Drivers turning right now have to cross a lane of cyclists with almost no warning, and nobody seems to have tested how this works at night or in the rain. I'm all for cycling, but this was rushed."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Using a contrast clue to guess an adjective",
+      "stimulusId": "note-adamant",
+      "question": "In the note, 'adamant' is closest in meaning to: (a) unsure (b) very firm (c) angry (d) forgetful",
+      "steps": [
+        "Part of speech: 'was adamant that…' — an adjective describing how the team lead felt about her decision.",
+        "Find the clue in the next sentence: staff asked for more time, 'but she would not change her mind, no matter what reasons we gave.' The word 'but' gives a contrast: they pushed, she did not move.",
+        "Guess simply: 'adamant' = refusing to change her opinion, very firm.",
+        "Test by substitution: 'Our team lead was very firm that the audit be finished by Friday' — makes sense. 'Unsure' contradicts 'would not change her mind'. 'Angry' is possible in real life but nothing in the text says she was angry — don't add feelings the text doesn't give."
+      ],
+      "answer": "(b) very firm",
+      "takeawayVi": "Đừng đoán nghĩa chỉ bằng cảm giác. Tìm câu bên cạnh (thường sau 'but', dấu gạch ngang hoặc dấu hai chấm), đoán nghĩa đơn giản rồi thay thử vào câu. Loại các đáp án 'có thể đúng ngoài đời' nhưng không có căn cứ trong bài."
+    },
+    {
+      "id": "ex2",
+      "title": "Word parts and tone together",
+      "stimulusId": "review-suite",
+      "question": "What does 'unbeatable' mean here, and is the writer's attitude toward the location positive or negative?",
+      "steps": [
+        "Break it up: un- (not) + beat + -able (can be) → 'cannot be beaten'.",
+        "Check the context: 'The landlord was helpful, though, and the location is unbeatable — two minutes from the SkyTrain.' The word 'though' marks a change from the complaints (cramped, drafty) to positive points.",
+        "The dash gives an example clue: two minutes from the SkyTrain — a very convenient location. So 'cannot be beaten' = the best possible.",
+        "Compare tone words in the review: the listing's 'cozy' (positive) vs the writer's 'cramped' (negative) for the same small space. The writer is negative about the suite but positive about the landlord and location."
+      ],
+      "answer": "'Unbeatable' means excellent / the best possible; the attitude toward the location is positive.",
+      "takeawayVi": "Cấu tạo từ cho bạn giả thuyết đầu tiên, ngữ cảnh xác nhận nó. Từ tín hiệu như 'though', 'in reality' cho biết sắc thái đổi chiều — rất quan trọng khi bài có cả khen lẫn chê."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "article-market",
+      "prompt": "As used in the article, 'sparse' is closest in meaning to:",
+      "hint": "Two clues: what comes after the dash in the same sentence, and the word that begins the next sentence ('Today…').",
+      "options": [
+        { "text": "crowded", "misconception": "opposite-clue", "whyVi": "'Crowded' mô tả chợ ngày nay (forty stalls). 'Sparse' đối lập với nó." },
+        { "text": "having very few sellers", "misconception": null, "whyVi": "Đúng. Ví dụ sau dấu gạch ngang ('perhaps six vendors') và tương phản với 'Today it is thriving, with more than forty stalls'." },
+        { "text": "expensive", "misconception": "ignored-clue", "whyVi": "Đoạn văn không nói gì về giá cả ở chợ mười năm trước." },
+        { "text": "held outdoors", "misconception": "ignored-clue", "whyVi": "Chợ ở bãi đậu xe, nhưng đó là thông tin về địa điểm, không phải nghĩa của 'sparse'." }
+      ],
+      "answerIndex": 1,
+      "evidence": "on a good day, perhaps six vendors set up tables in the church parking lot",
+      "explanationVi": "Hai manh mối cùng chỉ một hướng: định nghĩa/ví dụ (sáu người bán) và tương phản (ngày nay hơn bốn mươi gian hàng). Khi hai manh mối khớp nhau, bạn có thể tự tin.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "article-market",
+      "prompt": "The word 'makeshift' in paragraph 2 describes stands that were:",
+      "hint": "Look at what the stands were built from, and at the word 'Unlike', which compares them with today's booths.",
+      "options": [
+        { "text": "permanent and covered", "misconception": "opposite-clue", "whyVi": "Đây là mô tả gian hàng hiện nay ('proper covered booths'), trái ngược với 'makeshift'." },
+        { "text": "brightly decorated", "misconception": "ignored-clue", "whyVi": "Không có chi tiết nào về màu sắc hay trang trí." },
+        { "text": "roughly put together from whatever was available", "misconception": null, "whyVi": "Đúng. 'Built from crates and old tarps' là ví dụ cho thấy chúng tạm bợ, tận dụng vật liệu sẵn có." },
+        { "text": "provided by the district", "misconception": "ignored-clue", "whyVi": "'Provided by the district' nói về gian hàng mới, không phải gian hàng cũ." }
+      ],
+      "answerIndex": 2,
+      "evidence": "makeshift stands built from crates and old tarps",
+      "explanationVi": "Manh mối ví dụ ('built from crates and old tarps') kết hợp tín hiệu tương phản 'Unlike' với 'proper covered booths'. 'Makeshift' = tạm bợ, chắp vá.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "notice-fire",
+      "prompt": "The notice says the volunteers' help 'has been invaluable'. This means their help has been:",
+      "hint": "Word parts can mislead here — compare with 'inaccessible' in the same notice, then check what the writer is doing in that sentence and what the volunteers actually did.",
+      "options": [
+        { "text": "not useful", "misconception": "word-part-error", "whyVi": "'In-' thường là phủ định, nhưng 'invaluable' là ngoại lệ. Người viết đang cảm ơn — không thể nói họ vô dụng." },
+        { "text": "extremely useful", "misconception": null, "whyVi": "Đúng. 'Invaluable' = quý giá đến mức không đo được. Câu sau liệt kê việc tốt họ làm." },
+        { "text": "unpaid", "misconception": "ignored-clue", "whyVi": "Họ là tình nguyện viên nên có thể không được trả lương, nhưng 'invaluable' không mang nghĩa đó." },
+        { "text": "difficult to organize", "misconception": "ignored-clue", "whyVi": "Không có manh mối nào nói về việc tổ chức nhóm tình nguyện." }
+      ],
+      "answerIndex": 1,
+      "evidence": "We want to thank our volunteer patrol, whose help this summer has been invaluable.",
+      "explanationVi": "Phân tích cấu tạo từ là giả thuyết, không phải kết luận. Ngữ cảnh (lời cảm ơn, danh sách việc tốt) cho thấy 'invaluable' mang nghĩa tích cực mạnh.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "email-manager",
+      "prompt": "Kendra writes, 'I want to address them before the holiday rush.' Here, 'address' means:",
+      "hint": "'Them' refers back to something in the previous sentence. Then read what Kendra does in the next three paragraphs.",
+      "options": [
+        { "text": "write the location on", "misconception": "common-meaning", "whyVi": "Đây là nghĩa quen thuộc (địa chỉ trên phong bì), không hợp với 'concerns'." },
+        { "text": "give a formal speech to", "misconception": "common-meaning", "whyVi": "'Address an audience' có nghĩa này, nhưng ở đây tân ngữ là các mối lo ngại, không phải người nghe." },
+        { "text": "deal with", "misconception": null, "whyVi": "Đúng. 'Address concerns' = xử lý, giải quyết các mối lo ngại — và ba đoạn sau cho thấy cô đang làm điều đó." },
+        { "text": "postpone", "misconception": "ignored-clue", "whyVi": "Cô muốn làm 'before the holiday rush', tức là sớm, không phải hoãn lại." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Thanks for raising your concerns at Monday's meeting. I want to address them before the holiday rush.",
+      "explanationVi": "Nghĩa của từ nhiều nghĩa phụ thuộc vào từ đi cùng (collocation). 'Address + concern/issue/problem' gần như luôn là 'giải quyết'.",
+      "competency": "vocabulary"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "article-market",
+      "prompt": "As used in the article, 'lucrative' is closest in meaning to:",
+      "options": [
+        { "text": "tiring", "misconception": "ignored-clue", "whyVi": "Không có thông tin nào về việc bán hàng mệt mỏi." },
+        { "text": "profitable", "misconception": null, "whyVi": "Đúng. Manh mối kết quả: doanh thu thứ Bảy bằng một nửa thu nhập cả năm." },
+        { "text": "popular with tourists", "misconception": "ignored-clue", "whyVi": "Bài không nhắc khách du lịch; đây là đoán theo kiến thức chung." },
+        { "text": "risky", "misconception": "wrong-tone", "whyVi": "'Risky' mang sắc thái tiêu cực, trong khi câu sau mô tả kết quả rất tốt." }
+      ],
+      "answerIndex": 1,
+      "evidence": "one berry farmer says Saturday sales now cover half her yearly income",
+      "explanationVi": "Dấu chấm phẩy (;) thường nối một ý với lời giải thích hoặc ví dụ của nó. Câu sau dấu chấm phẩy là manh mối cause/effect cho 'lucrative'.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "article-market",
+      "prompt": "Some residents have asked council to 'curb the market's hours'. 'Curb' here means:",
+      "options": [
+        { "text": "extend", "misconception": "opposite-clue", "whyVi": "Cư dân đang phàn nàn về đám đông, nên họ muốn giảm, không phải tăng giờ chợ." },
+        { "text": "the edge of a sidewalk", "misconception": "common-meaning", "whyVi": "'Curb' danh từ là lề đường, nhưng ở đây là động từ đi với 'hours'." },
+        { "text": "advertise", "misconception": "ignored-clue", "whyVi": "Không hợp với thái độ không hài lòng của cư dân ('Not everyone is pleased')." },
+        { "text": "limit", "misconception": null, "whyVi": "Đúng. Cư dân khó chịu vì thiếu chỗ đậu xe nên muốn hạn chế giờ chợ." }
+      ],
+      "answerIndex": 3,
+      "evidence": "Nearby residents complain that the crowds make street parking scarce, and a few have asked council to curb the market's hours.",
+      "explanationVi": "Xác định từ loại trước: 'asked council to curb…' → 'curb' là động từ, nên loại ngay nghĩa danh từ. Sau đó dùng thái độ của cư dân (không hài lòng) để chọn hướng nghĩa.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "i3",
+      "type": "text",
+      "stimulusId": "notice-fire",
+      "prompt": "Find one word in the notice that means 'cannot be undone or repaired'. Type the word.",
+      "answers": ["irreversible"],
+      "mode": "exact",
+      "misconception": "word-part-error",
+      "explanationVi": "ir- (không) + reverse (đảo ngược) + -ible (có thể) → không thể đảo ngược. Ngữ cảnh 'damage to old-growth forest' xác nhận: rừng già bị cháy không thể khôi phục.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "notice-fire",
+      "prompt": "'Please do not underestimate the risk' asks visitors not to:",
+      "options": [
+        { "text": "think the risk is greater than it really is", "misconception": "word-part-error", "whyVi": "Đó là nghĩa của 'overestimate'. 'Under-' nghĩa là thấp hơn, ít hơn." },
+        { "text": "think the risk is smaller than it really is", "misconception": null, "whyVi": "Đúng. 'Under-' + 'estimate' = đánh giá thấp. Câu trước nói một tia lửa nhỏ cũng gây thiệt hại lớn." },
+        { "text": "report the risk to staff", "misconception": "ignored-clue", "whyVi": "Báo cáo nguy hiểm là việc của tình nguyện viên và được khuyến khích, không bị cấm." },
+        { "text": "check the risk every Friday", "misconception": "ignored-clue", "whyVi": "'Every Friday' là lịch đánh giá lại của nhân viên ('reassess'), không liên quan đến 'underestimate'." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Even a small spark can cause irreversible damage to old-growth forest, so please do not underestimate the risk.",
+      "explanationVi": "'So' nối nguyên nhân với lời khuyên: vì một tia lửa nhỏ cũng nguy hiểm, nên đừng coi nhẹ rủi ro. Cấu tạo từ (under-) và manh mối nhân quả cùng chỉ một đáp án.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "email-manager",
+      "prompt": "Head office 'has been reluctant to approve extra hours'. 'Reluctant' means:",
+      "options": [
+        { "text": "eager", "misconception": "opposite-clue", "whyVi": "Nếu trụ sở háo hức duyệt, Kendra đã không cần 'keep pushing'." },
+        { "text": "unwilling", "misconception": null, "whyVi": "Đúng. 'But I'll keep pushing' và 'I can't promise anything' cho thấy trụ sở không muốn duyệt." },
+        { "text": "too busy", "misconception": "ignored-clue", "whyVi": "Không có thông tin nào nói trụ sở bận; đây là lý do bạn tự thêm vào." },
+        { "text": "not allowed by law", "misconception": "ignored-clue", "whyVi": "Email không nhắc đến luật lệ." }
+      ],
+      "answerIndex": 1,
+      "evidence": "head office has been reluctant to approve extra hours this year, but I'll keep pushing",
+      "explanationVi": "Tín hiệu 'but' sau từ lạ cho biết hành động tiếp theo đi ngược với nó: trụ sở không muốn, nên Kendra phải tiếp tục thúc đẩy.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "i6",
+      "type": "text",
+      "stimulusId": "email-manager",
+      "prompt": "Kendra uses a verb + noun collocation that means 'to mention a worry so that people can discuss it'. Type the verb exactly as it appears in the email.",
+      "answers": ["raising", "raise"],
+      "mode": "exact",
+      "misconception": "common-meaning",
+      "explanationVi": "'Thanks for raising your concerns' — 'raise a concern' = nêu ra mối lo ngại. 'Raise' ở đây không có nghĩa là nâng lên hay tăng lương.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "comment-bikelane",
+      "prompt": "Marcus calls the redesign 'reckless'. What does this word suggest he thinks?",
+      "options": [
+        { "text": "It is brave and creative", "misconception": "wrong-tone", "whyVi": "Đây là sắc thái của 'bold' — từ của thành phố. Marcus dùng 'I'd call it…' để thay bằng một từ tiêu cực." },
+        { "text": "It is too expensive for the city", "misconception": "ignored-clue", "whyVi": "Marcus không nhắc đến chi phí." },
+        { "text": "It was done without enough care for safety", "misconception": null, "whyVi": "Đúng. Anh nêu nguy hiểm cho xe rẽ phải, không thử nghiệm ban đêm hay trời mưa, và 'this was rushed'." },
+        { "text": "It is unfair to cyclists", "misconception": "opposite-clue", "whyVi": "Anh nói 'I'm all for cycling' — anh ủng hộ người đạp xe; vấn đề là thiết kế vội vàng." }
+      ],
+      "answerIndex": 2,
+      "evidence": "nobody seems to have tested how this works at night or in the rain",
+      "explanationVi": "'The city calls it X. I'd call it Y.' là mẫu câu đối lập sắc thái: cùng một hành động, nhưng người viết chọn từ tiêu cực. Các chi tiết theo sau (nguy hiểm, không thử nghiệm, vội vàng) xác nhận 'reckless' = liều lĩnh, thiếu cẩn trọng.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "email-manager",
+      "prompt": "Kendra says the staff room fridge 'has been a sore point for months'. What does she mean?",
+      "options": [
+        { "text": "Someone was hurt by the fridge", "misconception": "common-meaning", "whyVi": "Hiểu theo nghĩa đen của 'sore' (đau). Đây là thành ngữ." },
+        { "text": "The fridge is the most popular thing in the staff room", "misconception": "wrong-tone", "whyVi": "Sắc thái ngược lại: 'sore point' là điều gây khó chịu." },
+        { "text": "Staff have been annoyed about the fridge for a long time", "misconception": null, "whyVi": "Đúng. 'For months' và 'for real this time' cho thấy vấn đề kéo dài và đã bị hứa nhiều lần." },
+        { "text": "The fridge will be repaired next week", "misconception": "ignored-clue", "whyVi": "Tủ lạnh sẽ được thay ('replaced'), không phải sửa — và đáp án này không giải thích nghĩa của 'sore point'." }
+      ],
+      "answerIndex": 2,
+      "evidence": "It's being replaced next week — for real this time.",
+      "explanationVi": "Thành ngữ không dịch từng chữ được. Dùng câu xung quanh: 'for months' (kéo dài) + 'for real this time' (đã hứa nhiều lần trước đây) → một chuyện khiến mọi người bực mình.",
+      "competency": "vocabulary"
+    }
+  ],
+  "misconceptions": {
+    "common-meaning": {
+      "label": "Chọn nghĩa quen thuộc nhất",
+      "explanationVi": "Bạn gặp một từ quen (address, curb, raise, sore) và tự động dùng nghĩa đầu tiên mình học, không kiểm tra từ loại và từ đi kèm. Đây là lỗ hổng về collocation và từ nhiều nghĩa.",
+      "fixVi": "Với từ quen nhưng câu nghe lạ, xác định từ loại và từ đi cùng (address + concerns, curb + hours). Thay nghĩa bạn định chọn vào câu: nếu câu vô lý, tìm nghĩa khác."
+    },
+    "ignored-clue": {
+      "label": "Đoán theo cảm giác, bỏ qua manh mối",
+      "explanationVi": "Bạn chọn nghĩa có vẻ hợp lý ngoài đời (unpaid, too busy, popular with tourists) nhưng không có căn cứ trong câu. Bạn chưa tìm manh mối định nghĩa, ví dụ hoặc nhân quả quanh từ lạ.",
+      "fixVi": "Trước khi xem đáp án, đọc câu chứa từ và câu kế bên, gạch chân manh mối (dấu gạch ngang, such as, because, so, dấu chấm phẩy). Đáp án đúng phải được manh mối đó ủng hộ."
+    },
+    "opposite-clue": {
+      "label": "Hiểu ngược tín hiệu đối lập",
+      "explanationVi": "Bài dùng tín hiệu tương phản (but, unlike, today, I'd call it) để cho thấy từ lạ trái nghĩa với một ý khác, nhưng bạn lại chọn chính ý bị đối lập đó.",
+      "fixVi": "Khi thấy but, unlike, instead of, in reality, hãy tự hỏi: từ lạ nằm ở phía nào của sự đối lập? Đáp án đúng thường là nghĩa ngược với phía còn lại."
+    },
+    "word-part-error": {
+      "label": "Phân tích cấu tạo từ sai",
+      "explanationVi": "Bạn nhầm tiền tố (over- và under-) hoặc áp dụng quy tắc 'in- = không' cho ngoại lệ như invaluable. Bạn dùng cấu tạo từ như kết luận thay vì giả thuyết.",
+      "fixVi": "Tách từ thành tiền tố – gốc – hậu tố để có giả thuyết, rồi luôn kiểm tra lại bằng ngữ cảnh. Ghi nhớ các ngoại lệ: invaluable (vô cùng quý giá), priceless (vô giá), inflammable (dễ cháy — cùng nghĩa với flammable, không phải 'không cháy')."
+    },
+    "wrong-tone": {
+      "label": "Sai sắc thái tích cực/tiêu cực",
+      "explanationVi": "Bạn hiểu đại khái nghĩa của từ nhưng nhầm thái độ đi kèm (bold ↔ reckless, cozy ↔ cramped). Điều này dẫn đến hiểu sai quan điểm của người viết, nhất là ở Part 4.",
+      "fixVi": "Xem từ lạ đứng cạnh những từ tích cực hay tiêu cực, và người viết đang khen hay chê. Chú ý mẫu 'They call it X. I'd call it Y.' — Y là sắc thái của người viết."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "adamant", "vi": "kiên quyết, không chịu thay đổi ý kiến", "example": "My landlord was adamant that rent is due on the first of the month." },
+    { "term": "sparse", "vi": "thưa thớt, ít ỏi", "example": "Bus service is sparse in rural BC after 7 p.m." },
+    { "term": "makeshift", "vi": "tạm bợ, chắp vá", "example": "We used a makeshift shelter of tarps during the rainstorm at the campsite." },
+    { "term": "lucrative", "vi": "sinh lời, có lãi lớn", "example": "Tree planting in northern BC can be lucrative for fast workers." },
+    { "term": "curb (verb)", "vi": "hạn chế, kiềm chế", "example": "The city wants to curb noise from late-night construction." },
+    { "term": "invaluable", "vi": "vô cùng quý giá (không phải 'vô giá trị')", "example": "Your advice about the strata meeting was invaluable." },
+    { "term": "reluctant", "vi": "miễn cưỡng, không muốn", "example": "Many drivers are reluctant to pay for parking downtown." },
+    { "term": "address a concern", "vi": "giải quyết mối lo ngại", "example": "The school board will address parents' concerns at Tuesday's meeting." },
+    { "term": "bear with me", "vi": "xin hãy kiên nhẫn chờ tôi", "example": "Please bear with me while I find your file." },
+    { "term": "a sore point", "vi": "chuyện gây bực mình, điểm nhạy cảm", "example": "The broken elevator has been a sore point with tenants all winter." }
+  ],
+  "grammar": [
+    {
+      "point": "Use the part of speech to narrow the meaning",
+      "explanationVi": "Vị trí của từ cho biết từ loại: sau 'to' hoặc chủ ngữ thường là động từ (asked council to curb…); sau 'was/is/seems' là tính từ (was adamant); sau 'a/the' là danh từ (a sore point). Biết từ loại giúp bạn loại ngay các nghĩa sai loại, ví dụ 'curb' = lề đường (danh từ).",
+      "examples": [
+        "Residents asked council to curb the market's hours. (verb)",
+        "The team lead was adamant that the audit be finished. (adjective)",
+        "The fridge has been a sore point for months. (noun phrase)"
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Drill: vocabulary in context", "route": "/reading?mode=drill&focus=vocabulary" },
+    { "label": "Vocabulary notebook", "route": "/vocabulary" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises; keys sound. Glossed the 'inflammable' exception (= flammable, easily set on fire; accurate), softened an implied claim that CELPIP regularly asks direct 'closest in meaning' questions, accepted 'raise' in i6, and replaced the weak i2 evidence with the sentence containing 'curb'."}
+}

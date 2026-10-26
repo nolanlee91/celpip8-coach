@@ -1,0 +1,671 @@
+{
+  "id": "ls-05",
+  "skill": "listening",
+  "module": "listening-foundations",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Shadowing for listening fluency",
+  "titleVi": "Shadowing: nhại theo để nghe trôi chảy",
+  "estimatedMinutes": 35,
+  "prerequisites": [
+    "ls-03"
+  ],
+  "competencies": [
+    "vocabulary",
+    "missed_info"
+  ],
+  "tasks": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6"
+  ],
+  "objectives": [
+    "You will be able to shadow a short recording using a five-step routine: listen, mark, repeat, overlap, shadow without text.",
+    "You will be able to divide spoken English into natural chunks (thought groups) and avoid breaking a chunk in the wrong place.",
+    "You will be able to identify which words carry sentence stress, including contrastive stress such as \"in MY case\".",
+    "You will be able to recognize falling, rising and list intonation, and use this rhythm awareness to catch details in new recordings."
+  ],
+  "objectiveVi": "Sau bài này, bạn biết cách luyện shadowing đúng quy trình, chia câu nói thành các cụm ý tự nhiên, nhận ra từ được nhấn và ngữ điệu lên xuống, rồi áp dụng nhịp điệu đó để chép chính tả và bắt chi tiết trong các đoạn nghe mới.",
+  "whyItMattersVi": "Ở Listening 6, tai bạn thường xử lý tiếng Anh từng từ một, nên khi người nói tăng tốc ở Part 4–6, bạn bị tụt lại phía sau và mất cả cụm thông tin. Shadowing (nói nhại theo gần như đồng thời) luyện cho não xử lý theo cụm và theo nhịp nhấn của tiếng Anh, giống người bản xứ. Khi đã quen nhịp, bạn biết từ nào quan trọng (từ được nhấn), đoán trước được phần tiếp theo và có thời gian để hiểu. Đây là cách luyện hằng ngày hiệu quả nhất để đẩy Listening từ 6 lên 8.",
+  "concept": [
+    {
+      "heading": "Shadowing là gì và vì sao nó giúp bạn NGHE tốt hơn?",
+      "body": "**Shadowing** là nghe một đoạn ghi âm và nói lặp lại theo người nói, chậm hơn họ khoảng nửa giây, như cái bóng (shadow) đi theo người. Nhiều người nghĩ đây là bài tập nói, nhưng lợi ích lớn nhất là cho **kỹ năng nghe**:\n- Bạn buộc phải nghe trọn từng cụm, không thể “nghe đại khái”.\n- Bạn cảm nhận được nhịp nhấn, nối âm và từ đọc yếu (đã học ở bài dictation) bằng chính miệng mình.\n- Não học cách **đoán trước** phần tiếp theo của câu, nên khi vào phòng thi bạn xử lý nhanh hơn.\n\nChỉ cần 10–15 phút mỗi ngày với một đoạn 30–60 giây, nghe đi nghe lại nhiều lần, là hiệu quả hơn nghe thụ động hàng giờ."
+    },
+    {
+      "heading": "Quy trình 5 bước",
+      "body": "1. **Listen:** nghe 1–2 lần **không nhìn chữ**, chỉ để hiểu ý.\n2. **Mark:** đọc transcript, đánh dấu **ranh giới cụm** (/) và **từ được nhấn** (viết hoa hoặc gạch chân).\n3. **Repeat:** nghe từng cụm, dừng, rồi nhắc lại đúng nhịp và ngữ điệu.\n4. **Overlap:** nói **cùng lúc** với bản ghi trong khi nhìn transcript, chậm hơn khoảng nửa giây.\n5. **Shadow:** làm lại bước 4 nhưng **không nhìn chữ**. Nếu được, ghi âm lại giọng mình để so sánh.\n\nSai lầm thường gặp: nhảy thẳng vào bước 4–5 khi chưa hiểu nghĩa, hoặc đọc transcript từng chữ với nhịp đều đều như đọc chính tả. Shadowing phải đi theo **cụm và nhịp**, không theo từng chữ."
+    },
+    {
+      "heading": "Chia cụm (chunking / thought groups)",
+      "body": "Người nói không nói từng từ mà nói theo **cụm ý** (thought groups), mỗi cụm thường dài 2–6 từ và có một trọng âm chính. Ranh giới cụm tự nhiên thường nằm:\n- ở dấu phẩy, dấu chấm;\n- trước liên từ: *so, but, because, and*;\n- giữa các thành phần lớn: chủ ngữ + động từ / cụm giới từ / mệnh đề phụ.\n\n**Không bao giờ** cắt giữa mạo từ và danh từ (*the / drop box*), giữa giới từ và tân ngữ (*beside / the main entrance*), hay giữa tính từ và danh từ (*no clear / line*).\n\nVí dụ: *If you have books, DVDs, or laptops to return, / please use the drop box / beside the main entrance.* Khi nghe bài thi, việc quen nhận ra cụm giúp bạn hiểu từng khối nghĩa thay vì từng từ rời rạc."
+    },
+    {
+      "heading": "Trọng âm câu (sentence stress)",
+      "body": "Tiếng Anh có nhịp **nhấn – lướt**: từ nội dung (danh từ, động từ chính, tính từ, số, từ phủ định) được nhấn; từ chức năng (*the, a, to, for, will, on*) đọc nhẹ.\n\n*The library will be CLOSED on MONday for FAMily DAY.*\n\nTrọng âm **mạnh nhất** thường rơi vào **thông tin mới** hoặc **thông tin tương phản**:\n- *I don't need a ride THERE. I need a ride BACK.*\n- *Everyone says… But in MY case…* (nhấn *my* để đối lập với *everyone*)\n\nVì sao quan trọng cho bài nghe? Từ được nhấn gần như luôn là **từ khoá** mang đáp án. Nếu bạn quen bắt các từ nhấn, bạn vẫn nắm được ý chính ngay cả khi bỏ sót vài từ lướt."
+    },
+    {
+      "heading": "Ngữ điệu (intonation)",
+      "body": "- **Xuống giọng ↘:** câu khẳng định và câu hỏi có từ để hỏi (*Where should I meet you?↘*).\n- **Lên giọng ↗:** câu hỏi yes/no (*Do you need a ride?↗*), câu hỏi xác nhận viết như câu khẳng định (*By the bakery stand, around noon?↗*), hoặc ngạc nhiên (*Oh, it's at the beach?↗*).\n- **Danh sách:** lên ở từng mục, xuống ở mục cuối (*books↗, DVDs↗, or laptops↘*).\n- **Xuống–lên (fall-rise):** lưỡng lự, chưa chắc, hoặc lịch sự có điều kiện (*I think so…*).\n\nNgữ điệu cho bạn biết người nói đang **hỏi, khẳng định, chưa chắc hay ngạc nhiên**. Đây là manh mối quan trọng cho câu hỏi về thái độ ở Part 2, 5 và 6. Khi shadowing, hãy bắt chước cả đường lên xuống của giọng, không chỉ phát âm từng từ."
+    }
+  ],
+  "stimuli": {
+    "ex-shadow-commute": {
+      "title": "Shadowing script: a voice message from the bus",
+      "showTranscript": "always",
+      "audio": [
+        {
+          "speaker": "Nadia",
+          "voice": "female_a",
+          "text": "Hi, it's Nadia. I'm on the bus, so I might cut out. The SkyTrain's delayed again, so I'm going to be about twenty minutes late. Could you start the meeting without me? The slides are in the shared folder, and I'll join as soon as I get there. Sorry about this, see you soon."
+        }
+      ]
+    },
+    "ex-shadow-barbecue": {
+      "title": "Shadowing script: planning a barbecue",
+      "showTranscript": "always",
+      "audio": [
+        {
+          "speaker": "Ken",
+          "voice": "male_a",
+          "text": "Are you coming to the barbecue on Saturday?"
+        },
+        {
+          "speaker": "Amy",
+          "voice": "female_a",
+          "text": "I think so. What time does it start?"
+        },
+        {
+          "speaker": "Ken",
+          "voice": "male_a",
+          "text": "Around four, down at the beach. Bring a chair, a jacket, and something to drink."
+        },
+        {
+          "speaker": "Amy",
+          "voice": "female_a",
+          "text": "Oh, it's at the beach? I thought it was at your place."
+        },
+        {
+          "speaker": "Ken",
+          "voice": "male_a",
+          "text": "No, at the beach. My place is way too small."
+        },
+        {
+          "speaker": "Amy",
+          "voice": "female_a",
+          "text": "Perfect. See you there."
+        }
+      ]
+    },
+    "shadow-library": {
+      "title": "Shadowing script: library announcement",
+      "showTranscript": "always",
+      "audio": [
+        {
+          "speaker": "Announcer",
+          "voice": "narrator",
+          "text": "Good afternoon, library users. Just a reminder that the library will be closed on Monday for Family Day. On Tuesday, we'll be open from ten to eight as usual. If you have books, DVDs, or laptops to return, please use the drop box beside the main entrance. Items returned over the long weekend won't be charged late fees. Thanks, and enjoy the holiday."
+        }
+      ]
+    },
+    "shadow-market": {
+      "title": "Shadowing script: asking for a ride",
+      "showTranscript": "always",
+      "audio": [
+        {
+          "speaker": "Mia",
+          "voice": "female_a",
+          "text": "Hey, are you heading to the farmers' market this morning?"
+        },
+        {
+          "speaker": "Leo",
+          "voice": "male_a",
+          "text": "Yeah, I'm leaving in ten minutes. Why, do you need a ride?"
+        },
+        {
+          "speaker": "Mia",
+          "voice": "female_a",
+          "text": "Actually, I don't need a ride there. I need a ride back. My sister's dropping me off, but she can't pick me up."
+        },
+        {
+          "speaker": "Leo",
+          "voice": "male_a",
+          "text": "Oh, no problem. Where should I meet you?"
+        },
+        {
+          "speaker": "Mia",
+          "voice": "female_a",
+          "text": "By the bakery stand, around noon?"
+        },
+        {
+          "speaker": "Leo",
+          "voice": "male_a",
+          "text": "Sounds good. Text me if anything changes."
+        }
+      ]
+    },
+    "shadow-remote-work": {
+      "title": "Shadowing script: a short opinion",
+      "showTranscript": "always",
+      "audio": [
+        {
+          "speaker": "Speaker",
+          "voice": "male_a",
+          "text": "Everyone says remote work saves time, and for a lot of people, it does. But in my case, working from home made my days longer, not shorter. Without the commute, there was no clear line between work and the rest of my life. So these days, I go into the office three days a week, and honestly, I'm a lot more productive on those days."
+        }
+      ]
+    },
+    "transfer-soccer": {
+      "title": "New recording: a message from the soccer club",
+      "showTranscript": "never",
+      "audio": [
+        {
+          "speaker": "Grace",
+          "voice": "female_a",
+          "text": "Hi Marco, it's Grace from the soccer club. Just a quick update about Saturday's game. Because of the rain, the field at Central Park is closed, so we're moving to the turf field behind the high school. The game still starts at ten, but please try to get there by nine-thirty so the kids can warm up. Call me if you have any questions."
+        }
+      ]
+    },
+    "transfer-garden-news": {
+      "title": "New recording: local news",
+      "showTranscript": "never",
+      "audio": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Good morning. The city has opened a new community garden in Cedar Grove Park, with more than sixty plots available to local residents. Plots cost twenty-five dollars for the season. The city says priority will go to people living in apartments without yards. Organizers hope the garden will also become a place where neighbours can meet and share gardening tips. Applications are open until the end of April, and they can be submitted online or at any community centre."
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "ls05-ex1",
+      "title": "A full shadowing cycle on a 20-second message",
+      "stimulusId": "ex-shadow-commute",
+      "question": "How do you shadow Nadia's message, and what do you mark on the transcript?",
+      "steps": [
+        "Listen (no text): Nadia is on the bus, she will be late, and she asks someone to start the meeting without her.",
+        "Mark the chunks: \"Hi, it's Nadia. / I'm on the bus, / so I might cut out. / The SkyTrain's delayed again, / so I'm going to be / about twenty minutes late. / Could you start the meeting / without me?\"",
+        "Mark the stress: BUS, CUT out, deLAYED aGAIN, TWENty MINutes LATE, START the MEETing, withOUT me. Function words such as \"the\", \"to\", \"so\" stay light; \"going to\" may become \"gonna\".",
+        "Repeat: play one chunk, pause, say it with the same rhythm. Then overlap: speak together with the audio, about half a second behind, reading the marked text.",
+        "Shadow without the text. If you lose the thread, it is usually inside a long chunk such as \"so I'm going to be about twenty minutes late\". Repeat just that chunk three times, then try the whole message again."
+      ],
+      "answer": "Listen → mark chunks and stress → repeat chunk by chunk → overlap with text → shadow without text, focusing on the stressed words BUS, LATE, START, MEETing.",
+      "takeawayVi": "Đánh dấu cụm (/) và từ nhấn trước khi nhại. Khi bị “rớt”, chỉ luyện lại đúng cụm khó rồi ghép vào cả đoạn. Nhịp nhấn–lướt quan trọng hơn phát âm hoàn hảo từng từ."
+    },
+    {
+      "id": "ls05-ex2",
+      "title": "Copying intonation: questions, lists and surprise",
+      "stimulusId": "ex-shadow-barbecue",
+      "question": "Which intonation patterns should you copy when you shadow this dialogue, and what do they tell a listener?",
+      "steps": [
+        "\"Are you coming to the barbecue on Saturday?\" is a yes/no question, so the voice rises at the end ↗.",
+        "\"What time does it start?\" is a wh-question, so it falls ↘. \"I think so\" can have a slight fall-rise, which sounds less than 100% certain.",
+        "\"Bring a chair↗, a jacket↗, and something to drink↘\" is a list: it rises on each item and falls on the last one, which tells you the list is finished.",
+        "\"Oh, it's at the beach?\" is grammatically a statement, but the rising tone makes it a surprised question. Amy then contrasts: \"I thought it was at your PLACE\", and Ken answers \"No, at the BEACH\". By the contrastive-stress rule, PLACE and BEACH carry the strongest stress, so stress them clearly when you shadow, even if the recording sounds flatter than a real speaker.",
+        "Listening benefit: the rise on \"it's at the beach?\" tells you Amy didn't know the location, which is exactly the kind of detail a question might ask about."
+      ],
+      "answer": "Rise on the yes/no question and the surprised \"it's at the beach?\"; fall on the wh-question; rise–rise–fall on the list; strong contrastive stress on BEACH and PLACE.",
+      "takeawayVi": "Ngữ điệu mang nghĩa: câu khẳng định lên giọng thành câu hỏi ngạc nhiên; danh sách xuống giọng ở mục cuối báo hiệu đã hết. Khi shadowing, hãy bắt chước cả đường lên xuống của giọng."
+    }
+  ],
+  "guided": [
+    {
+      "id": "ls05-g1",
+      "type": "order",
+      "stimulusId": "shadow-remote-work",
+      "prompt": "You are going to shadow this short opinion. Put the steps of the shadowing routine in the right order.",
+      "hint": "Understanding comes before marking, and the transcript is removed only at the very end.",
+      "items": [
+        "Listen once or twice without the transcript to understand the message",
+        "Mark chunk boundaries and stressed words on the transcript",
+        "Repeat each chunk after pausing the audio",
+        "Speak along with the audio while reading the marked transcript",
+        "Shadow the whole recording without looking at the text"
+      ],
+      "misconception": "mechanical_shadowing",
+      "explanationVi": "Listen → Mark → Repeat → Overlap → Shadow. Nếu nhại ngay khi chưa hiểu nghĩa, bạn chỉ lặp âm thanh mà không luyện được việc xử lý nghĩa theo cụm, tức là kỹ năng thật sự cần cho bài nghe.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls05-g2",
+      "type": "choice",
+      "stimulusId": "shadow-library",
+      "prompt": "Which version divides this sentence into the most natural chunks? \"If you have books, DVDs, or laptops to return, please use the drop box beside the main entrance.\"",
+      "hint": "A chunk boundary should fall at a comma or between big sentence parts. Never separate \"the\" from its noun or a preposition from its object.",
+      "options": [
+        {
+          "text": "If you have / books, DVDs, or laptops / to return please / use the drop box beside / the main entrance",
+          "misconception": "mechanical_shadowing",
+          "whyVi": "“to return please” trộn hai mệnh đề; “beside / the main entrance” tách giới từ khỏi tân ngữ."
+        },
+        {
+          "text": "If you have books, DVDs, or laptops to return, / please use the drop box / beside the main entrance",
+          "misconception": null,
+          "whyVi": "Đúng: mệnh đề “If…”, rồi lời yêu cầu chính, rồi cụm giới từ chỉ vị trí. Mỗi cụm là một khối nghĩa trọn vẹn."
+        },
+        {
+          "text": "If you / have books, DVDs, or laptops to return please use / the drop box beside the / main entrance",
+          "misconception": "mechanical_shadowing",
+          "whyVi": "Tách chủ ngữ “you” khỏi động từ, và tách “the” khỏi “main entrance”."
+        },
+        {
+          "text": "If you have books, DVDs, or / laptops to return, please use the / drop box beside the main / entrance",
+          "misconception": "mechanical_shadowing",
+          "whyVi": "Cắt theo độ dài dòng chứ không theo nghĩa: “or / laptops”, “the / drop box”, “main / entrance”."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "If you have books, DVDs, or laptops to return, please use the drop box beside the main entrance.",
+      "explanationVi": "Ranh giới cụm tự nhiên nằm ở dấu phẩy và giữa các thành phần lớn (mệnh đề điều kiện / lời yêu cầu / vị trí). Người nói thường ngừng nhẹ đúng ở đó, nên nghe ra cụm cũng là nghe ra cấu trúc câu.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls05-g3",
+      "type": "choice",
+      "stimulusId": "shadow-library",
+      "prompt": "In \"the library will be closed on Monday for Family Day\", which group of words should carry the sentence stress when you shadow it?",
+      "hint": "Stress goes on content words, the ones that carry the information a listener needs: what happens, when and why.",
+      "options": [
+        {
+          "text": "the, will, on, for",
+          "misconception": "stress_misplaced",
+          "whyVi": "Đây đều là từ chức năng, được đọc lướt và nhẹ."
+        },
+        {
+          "text": "library, be, on, Day",
+          "misconception": "stress_misplaced",
+          "whyVi": "Trộn lẫn: “be” và “on” là từ chức năng, đọc yếu."
+        },
+        {
+          "text": "closed, Monday, Family Day",
+          "misconception": null,
+          "whyVi": "Đúng: đây là thông tin chính, gồm cái gì xảy ra (closed), khi nào (Monday) và vì sao (Family Day)."
+        },
+        {
+          "text": "will, closed, for",
+          "misconception": "stress_misplaced",
+          "whyVi": "“Will” và “for” đọc yếu; chỉ “closed” là từ nội dung."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "the library will be closed on Monday for Family Day",
+      "explanationVi": "“The library will be CLOSED on MONday for FAMily DAY.” Từ được nhấn chính là thông tin mà câu hỏi bài thi sẽ hỏi. “Library” cũng mang nội dung nhưng đã được nhắc ngay trước đó (“library users”), nên nhẹ hơn.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls05-g4",
+      "type": "choice",
+      "stimulusId": "shadow-market",
+      "prompt": "Which of these questions from the dialogue normally ends with a falling tone?",
+      "hint": "Questions that start with a wh-word (what, where, when…) usually fall. Yes/no questions and checking questions usually rise.",
+      "options": [
+        {
+          "text": "\"Are you heading to the farmers' market this morning?\"",
+          "misconception": "intonation_pattern",
+          "whyVi": "Câu hỏi yes/no thường lên giọng ở cuối."
+        },
+        {
+          "text": "\"Do you need a ride?\"",
+          "misconception": "intonation_pattern",
+          "whyVi": "Câu hỏi yes/no: lên giọng."
+        },
+        {
+          "text": "\"Where should I meet you?\"",
+          "misconception": null,
+          "whyVi": "Đúng: câu hỏi bắt đầu bằng “Where” thường xuống giọng ở cuối."
+        },
+        {
+          "text": "\"By the bakery stand, around noon?\"",
+          "misconception": "intonation_pattern",
+          "whyVi": "Câu hỏi xác nhận viết như câu khẳng định: lên giọng để hỏi ý người kia."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "Where should I meet you?",
+      "explanationVi": "Wh-question ↘, yes/no question ↗, câu hỏi xác nhận ↗. “By the bakery stand, around noon?” lên giọng cho thấy Mia đang đề xuất và chờ Leo đồng ý, chứ chưa phải quyết định cuối cùng.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls05-g5",
+      "type": "text",
+      "mode": "dictation",
+      "stimulusId": "transfer-soccer",
+      "prompt": "New recording (no transcript). Write the sentence about the start time and the arrival time (14 words).",
+      "hint": "Use your chunking: the sentence has three chunks (the start time / what the club asks parents to try to do / the arrival time). Write the stressed words of each chunk first, then fill in the weak words such as prepositions and \"to\".",
+      "answers": [
+        "The game still starts at ten, but please try to get there by nine-thirty.",
+        "The game still starts at 10, but please try to get there by 9:30.",
+        "The game still starts at ten, but please try to get there by nine thirty."
+      ],
+      "misconception": "weak_forms_missed",
+      "explanationVi": "Ba cụm: “The game still starts at TEN, / but please TRY to get THERE / by nine-THIRty.” Chép theo cụm dễ hơn từng từ. Các từ yếu hay mất là “at”, “to” và “by”.",
+      "competency": "missed_info"
+    }
+  ],
+  "independent": [
+    {
+      "id": "ls05-i1",
+      "type": "choice",
+      "stimulusId": "shadow-market",
+      "prompt": "In \"I don't need a ride there. I need a ride back.\", which two words should get the strongest stress when you shadow it?",
+      "options": [
+        {
+          "text": "need … need",
+          "misconception": "stress_misplaced",
+          "whyVi": "“Need” lặp lại ở cả hai câu nên không phải thông tin mới."
+        },
+        {
+          "text": "ride … ride",
+          "misconception": "stress_misplaced",
+          "whyVi": "“Ride” cũng lặp lại; người nghe đã biết chủ đề là đi nhờ xe."
+        },
+        {
+          "text": "there … back",
+          "misconception": null,
+          "whyVi": "Đúng: đây là hai thông tin tương phản (chiều đi và chiều về), nên được nhấn mạnh nhất."
+        },
+        {
+          "text": "I … I",
+          "misconception": "stress_misplaced",
+          "whyVi": "Chủ ngữ không đổi nên không có gì để đối lập."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "Actually, I don't need a ride there. I need a ride back.",
+      "explanationVi": "Trọng âm tương phản rơi vào phần **khác nhau** giữa hai câu. Đây chính là chi tiết bài thi hay hỏi: Mia cần đi nhờ xe chiều về, không phải chiều đi.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls05-i2",
+      "type": "choice",
+      "stimulusId": "shadow-library",
+      "prompt": "When you shadow \"books, DVDs, or laptops\", which intonation pattern should you copy?",
+      "options": [
+        {
+          "text": "Falling on every item",
+          "misconception": "intonation_pattern",
+          "whyVi": "Xuống giọng ở từng mục nghe như ba câu riêng biệt, người nghe tưởng danh sách đã hết."
+        },
+        {
+          "text": "Rising on every item, including the last one",
+          "misconception": "intonation_pattern",
+          "whyVi": "Lên ở mục cuối nghe như danh sách chưa xong hoặc như một câu hỏi."
+        },
+        {
+          "text": "Rising on \"books\" and \"DVDs\", falling on \"laptops\"",
+          "misconception": null,
+          "whyVi": "Đúng: danh sách lên ở từng mục và xuống ở mục cuối để báo hiệu đã hết."
+        },
+        {
+          "text": "Flat, with no change, to sound clear",
+          "misconception": "mechanical_shadowing",
+          "whyVi": "Đọc đều đều là dấu hiệu nhại máy móc; ngữ điệu là một phần của nghĩa."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "If you have books, DVDs, or laptops to return",
+      "explanationVi": "Mẫu danh sách: ↗, ↗, ↘. Khi nghe, giọng xuống ở mục cuối cho biết danh sách đã đủ, giúp bạn không chờ thêm mục và không bỏ lỡ phần tiếp theo.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls05-i3",
+      "type": "choice",
+      "stimulusId": "shadow-remote-work",
+      "prompt": "Which version chunks this sentence most naturally? \"Without the commute, there was no clear line between work and the rest of my life.\"",
+      "options": [
+        {
+          "text": "Without the / commute, there was no clear / line between work and the / rest of my life",
+          "misconception": "mechanical_shadowing",
+          "whyVi": "Cắt “the / commute”, “clear / line”, “the / rest”: tách mạo từ và tính từ khỏi danh từ."
+        },
+        {
+          "text": "Without the commute, / there was no clear line / between work / and the rest of my life",
+          "misconception": null,
+          "whyVi": "Đúng: cụm giới từ mở đầu, mệnh đề chính, rồi hai vế “between work / and the rest of my life”."
+        },
+        {
+          "text": "Without / the commute there was / no clear line between work and the rest / of my life",
+          "misconception": "mechanical_shadowing",
+          "whyVi": "Tách “Without” khỏi tân ngữ và nối qua dấu phẩy; cụm thứ ba quá dài, khó nhại theo."
+        },
+        {
+          "text": "Without the commute there / was no / clear line between / work and the rest of / my life",
+          "misconception": "mechanical_shadowing",
+          "whyVi": "Tách chủ ngữ “there” khỏi động từ “was”, “of / my life” tách giới từ khỏi tân ngữ."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "Without the commute, there was no clear line between work and the rest of my life.",
+      "explanationVi": "Câu dài ở Part 6 trở nên dễ nghe khi bạn nhận ra các cụm: [hoàn cảnh] / [ý chính] / [phạm vi]. Mỗi cụm có một từ nhấn: COMmute, CLEAR LINE, WORK, REST of my LIFE.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls05-i4",
+      "type": "choice",
+      "stimulusId": "shadow-remote-work",
+      "prompt": "In \"But in my case, working from home made my days longer\", which word in \"in my case\" should you stress when you shadow it, and why?",
+      "options": [
+        {
+          "text": "\"case\", because nouns are always stressed most",
+          "misconception": "stress_misplaced",
+          "whyVi": "Danh từ thường được nhấn, nhưng ở đây trọng âm tương phản được ưu tiên hơn."
+        },
+        {
+          "text": "\"in\", because it starts the phrase",
+          "misconception": "stress_misplaced",
+          "whyVi": "“In” là giới từ, đọc lướt."
+        },
+        {
+          "text": "\"my\", to contrast the speaker with \"everyone\"",
+          "misconception": null,
+          "whyVi": "Đúng: câu trước là “Everyone says…”, nên “in MY case” đối lập trải nghiệm riêng của người nói với ý kiến chung."
+        },
+        {
+          "text": "None of them, because the phrase is just a filler",
+          "misconception": "mechanical_shadowing",
+          "whyVi": "Đây không phải từ đệm; nó đánh dấu chỗ người nói chuyển sang quan điểm riêng."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "But in my case, working from home made my days longer, not shorter.",
+      "explanationVi": "Tính từ sở hữu và đại từ (my, I, you) thường đọc yếu, nhưng khi tương phản thì chúng nhận trọng âm mạnh. Nghe thấy “But in MY case” là dấu hiệu người nói sắp đưa quan điểm ngược với ý kiến phổ biến, rất hữu ích ở Part 6.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls05-i5",
+      "type": "choice",
+      "stimulusId": "transfer-soccer",
+      "prompt": "New recording (no transcript). Where will Saturday's game be played?",
+      "options": [
+        {
+          "text": "At the field in Central Park",
+          "misconception": "detail_missed",
+          "whyVi": "Sân ở Central Park bị đóng vì mưa. Đây là thông tin cũ trước khi thay đổi."
+        },
+        {
+          "text": "On the turf field behind the high school",
+          "misconception": null,
+          "whyVi": "Đúng: “we're moving to the turf field behind the high school”."
+        },
+        {
+          "text": "Indoors at the high school gym",
+          "misconception": "detail_missed",
+          "whyVi": "Không ai nhắc đến phòng gym; “turf field” là sân cỏ nhân tạo ngoài trời."
+        },
+        {
+          "text": "The game has been cancelled because of the rain",
+          "misconception": "detail_missed",
+          "whyVi": "Trận đấu vẫn diễn ra (“The game still starts at ten”), chỉ đổi sân."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "so we're moving to the turf field behind the high school",
+      "explanationVi": "Nghe theo cụm: “Because of the RAIN, / the field at Central PARK is CLOSED, / so we're MOVing / to the TURF field / behind the HIGH school.” Từ nhấn “closed” và “moving” báo hiệu có thay đổi; đáp án nằm ở cụm sau “so”.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls05-i6",
+      "type": "text",
+      "mode": "dictation",
+      "stimulusId": "transfer-garden-news",
+      "prompt": "New recording (no transcript). Write the sentence about who gets priority for a plot (13 words).",
+      "answers": [
+        "The city says priority will go to people living in apartments without yards.",
+        "The city says priority will go to people who live in apartments without yards."
+      ],
+      "misconception": "weak_forms_missed",
+      "explanationVi": "Cụm: “The city SAYS / PRIORity will GO to PEOple / LIVing in aPARTments / withOUT YARDS.” Từ yếu dễ mất: “will”, “to”, “in”. Đừng quên -s ở “says”, “apartments”, “yards”.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls05-i7",
+      "type": "text",
+      "mode": "dictation",
+      "stimulusId": "transfer-garden-news",
+      "prompt": "New recording (no transcript). Write the sentence about what organizers hope the garden will become (17 words).",
+      "answers": [
+        "Organizers hope the garden will also become a place where neighbours can meet and share gardening tips.",
+        "Organizers hope the garden will also become a place where neighbors can meet and share gardening tips."
+      ],
+      "misconception": "weak_forms_missed",
+      "explanationVi": "Câu dài 17 từ chỉ còn bốn cụm: “ORganizers HOPE / the GARden will ALso beCOME a PLACE / where NEIGHbours can MEET / and SHARE GARdening TIPS.” Nhớ theo cụm thay vì từng từ là kỹ năng shadowing chuyển sang nghe.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls05-i8",
+      "type": "choice",
+      "stimulusId": "transfer-garden-news",
+      "prompt": "New recording (no transcript). Which statement about the community garden is correct?",
+      "options": [
+        {
+          "text": "Plots are free for people who live in apartments.",
+          "misconception": "detail_missed",
+          "whyVi": "Mọi ô đất đều có giá 25 đô một mùa; người ở căn hộ chỉ được ưu tiên, không được miễn phí."
+        },
+        {
+          "text": "Applications can only be submitted at community centres.",
+          "misconception": "detail_missed",
+          "whyVi": "Có thể nộp “online or at any community centre”."
+        },
+        {
+          "text": "People can apply until the end of April.",
+          "misconception": null,
+          "whyVi": "Đúng: “Applications are open until the end of April”."
+        },
+        {
+          "text": "There are about sixteen plots for local residents.",
+          "misconception": "stress_misplaced",
+          "whyVi": "Bản tin nói “more than sixty plots”, trọng âm ở đầu (SIXty), không phải sixTEEN."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "Applications are open until the end of April",
+      "explanationVi": "Mỗi đáp án sai đổi một chi tiết: miễn phí so với ưu tiên, “only” so với “online or”, sixteen so với sixty. Nghe theo cụm và bắt từ nhấn (TWENty-five DOLlars, PRIORity, END of APril, SIXty) giúp bạn kiểm tra từng chi tiết.",
+      "competency": "missed_info"
+    }
+  ],
+  "misconceptions": {
+    "mechanical_shadowing": {
+      "label": "Nhại máy móc, không theo cụm",
+      "explanationVi": "Bạn xử lý tiếng Anh từng từ: chia cụm theo độ dài thay vì theo nghĩa, đọc đều đều, hoặc nhảy vào nhại khi chưa hiểu. Shadowing khi đó chỉ là lặp âm thanh và không luyện được kỹ năng nghe theo khối nghĩa.",
+      "fixVi": "Luôn nghe hiểu trước, rồi đánh dấu cụm ở dấu phẩy, trước so/but/because và giữa các thành phần lớn. Không tách mạo từ, tính từ hay giới từ khỏi danh từ đi sau."
+    },
+    "stress_misplaced": {
+      "label": "Nhấn sai hoặc không nhận ra từ được nhấn",
+      "explanationVi": "Bạn chú ý vào từ chức năng hoặc từ lặp lại, mà bỏ qua từ mang thông tin mới hay tương phản. Kết quả là bạn nghe không ra từ khoá. Lỗi này cũng gây nhầm sixteen/sixty, vì vị trí trọng âm phân biệt hai số.",
+      "fixVi": "Hỏi: từ nào mang thông tin mới hoặc đối lập với câu trước? Đó là từ nhấn mạnh nhất. Khi shadowing, nói to và dài hơn ở từ đó, lướt nhanh qua the/to/for/will."
+    },
+    "intonation_pattern": {
+      "label": "Không nhận ra mẫu ngữ điệu",
+      "explanationVi": "Bạn chỉ nghe từ mà bỏ qua đường lên xuống của giọng, nên không phân biệt được câu hỏi yes/no, câu hỏi wh-, câu hỏi xác nhận, danh sách hay sự ngạc nhiên. Ngữ điệu mang một phần nghĩa mà chữ viết không thể hiện.",
+      "fixVi": "Học bốn mẫu: wh-question ↘, yes/no ↗, câu hỏi xác nhận/ngạc nhiên ↗, danh sách ↗↗↘. Khi shadowing, vẽ mũi tên trên transcript và bắt chước đúng hướng giọng."
+    },
+    "weak_forms_missed": {
+      "label": "Bỏ sót từ yếu khi chép câu mới",
+      "explanationVi": "Khi gặp bản ghi mới không có transcript, bạn bắt được từ nhấn nhưng mất các từ lướt giữa chúng (to, at, will, in) hoặc đuôi -s. Bạn chưa chuyển được nhịp nhấn–lướt đã luyện khi shadowing sang lúc nghe.",
+      "fixVi": "Chép theo cụm: viết các từ nhấn của từng cụm trước, rồi điền từ yếu dựa vào ngữ pháp và nhịp bạn đã quen khi shadowing. Đọc lại để kiểm tra -s, mạo từ và giới từ."
+    },
+    "detail_missed": {
+      "label": "Bỏ lỡ chi tiết hoặc thông tin đã thay đổi",
+      "explanationVi": "Bạn giữ thông tin nghe đầu tiên (Central Park), trộn hai chi tiết gần nhau (ưu tiên và miễn phí), hoặc bỏ qua các từ giới hạn như only, still. Điều này xảy ra khi bạn bị tụt lại sau tốc độ người nói và chỉ bắt được mảnh rời.",
+      "fixVi": "Theo dõi các từ nhấn báo hiệu thay đổi (closed, moving, still) và cụm theo sau “so/but”. Với mỗi đáp án, kiểm tra từng phần (ai, cái gì, điều kiện) với cụm bạn nghe được."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "I might cut out",
+      "vi": "(điện thoại) có thể bị mất sóng, ngắt quãng",
+      "example": "I'm driving through the tunnel, so I might cut out for a second."
+    },
+    {
+      "term": "as soon as I get there",
+      "vi": "ngay khi tôi đến nơi",
+      "example": "I'll call you as soon as I get there, the ferry should land at six."
+    },
+    {
+      "term": "drop (someone) off / pick (someone) up",
+      "vi": "đưa ai đến / đón ai về",
+      "example": "Can you drop me off at the clinic and pick me up after my appointment?"
+    },
+    {
+      "term": "Sounds good.",
+      "vi": "Được đấy / Nghe ổn đấy (đồng ý nhanh)",
+      "example": "Brunch at eleven on Sunday? Sounds good."
+    },
+    {
+      "term": "Text me if anything changes.",
+      "vi": "Có gì thay đổi thì nhắn tin cho tôi nhé.",
+      "example": "I'll be at the trailhead at nine. Text me if anything changes."
+    },
+    {
+      "term": "in my case",
+      "vi": "trong trường hợp của tôi (dùng để đối lập với ý kiến chung)",
+      "example": "Most people love the new bike lanes, but in my case, they've made my commute longer."
+    },
+    {
+      "term": "no clear line between A and B",
+      "vi": "không có ranh giới rõ ràng giữa A và B",
+      "example": "When you run a business from home, there's no clear line between work and family time."
+    },
+    {
+      "term": "warm up",
+      "vi": "khởi động (trước khi chơi thể thao)",
+      "example": "Get to the pool ten minutes early so you have time to warm up."
+    },
+    {
+      "term": "priority will go to…",
+      "vi": "sẽ ưu tiên cho…",
+      "example": "Priority will go to families who already have a child at the daycare."
+    }
+  ],
+  "grammar": [],
+  "practice": [
+    {
+      "label": "Drill: vocabulary in listening",
+      "route": "/listening?mode=drill&focus=vocabulary"
+    },
+    {
+      "label": "Listening Part 3: Information",
+      "route": "/listening?task=L3"
+    },
+    {
+      "label": "Listening Part 6: Viewpoints",
+      "route": "/listening?task=L6"
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "author-agent+independent-review-agent",
+    "notes": "Checked all 13 items; stress/intonation items are now explicitly rule-based ('should you stress when you shadow it') since TTS prosody is neutral. Fixed the g5 hint that gave the dictation answer away, made the barbecue script coherent (Ken now says the beach before Amy's surprised question), softened an example claim about audible contrastive stress, and replaced the real Richmond/Westminster Highway garden with a fictional park."
+  }
+}

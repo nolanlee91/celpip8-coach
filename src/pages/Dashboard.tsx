@@ -5,6 +5,12 @@ import type { Dashboard as DashboardData } from "../../shared/types";
 import { CATEGORIES, SKILL_LABEL, SKILLS, type Skill } from "../../shared/spec";
 import { api, post } from "../api";
 import { Badge, Card, ErrorBox, Loading, ProgressBar, Segmented } from "../components/ui";
+import { MasteryBars, RecommendationCard, type LearningSummary } from "./Learn";
+
+const KIND: Record<string, { label: string; tone: "info" | "good" | "warn" | "neutral" | "bad" }> = {
+  learn: { label: "Học", tone: "info" }, guided: { label: "Luyện có hướng dẫn", tone: "info" }, "lesson-review": { label: "Ôn bài học", tone: "warn" },
+  vocab: { label: "Từ vựng", tone: "neutral" }, mistakes: { label: "Ôn lỗi", tone: "warn" }, practice: { label: "Practice", tone: "good" }, exam: { label: "Thi thử", tone: "bad" }, weekly: { label: "Kiểm tra tuần", tone: "bad" },
+};
 
 const SKILL_ICON: Record<Skill, string> = { listening: "🎧", reading: "📖", writing: "✍️", speaking: "🎙" };
 
@@ -50,6 +56,7 @@ export function DashboardPage() {
   if (!data) return <Loading />;
 
   const { plan } = data;
+  const learning = data.learning as LearningSummary | undefined;
   const nextBlock = plan.blocks.find((b) => !plan.completed.includes(b.id)) ?? plan.blocks[0];
   const toggle = async (id: string, done: boolean) => {
     await post("/api/plan/complete", { blockId: id, done });
@@ -62,10 +69,51 @@ export function DashboardPage() {
         <div>
           <h1>Chào {data.settings.learnerName} 👋</h1>
           <p className="muted">Tuần {plan.week}/{data.settings.planWeeks} · Giai đoạn {plan.phase.number}: <strong>{plan.phase.name}</strong> — {plan.phase.goal}</p>
-          <div className="recommend">💡 {data.recommendation}</div>
         </div>
         <button className="btn primary big" onClick={() => nextBlock && nav(nextBlock.route)}>▶ Bắt đầu buổi học hôm nay</button>
       </div>
+
+      <Card title="📋 Kế hoạch học hôm nay" className="today-plan" actions={
+        <Segmented value={minutes ?? data.settings.dailyMinutes} options={[30, 60, 90, 120].map((m) => ({ value: m, label: `${m}′` }))} onChange={(m) => setMinutes(m)} />
+      }>
+        <ul className="plan-list">
+          {plan.blocks.map((b) => {
+            const done = plan.completed.includes(b.id);
+            const kind = b.kind ? KIND[b.kind] : null;
+            return (
+              <li key={b.id} className={done ? "done" : ""}>
+                <input type="checkbox" checked={done} onChange={(e) => toggle(b.id, e.target.checked)} />
+                <div className="grow">
+                  <div className="row between wrap gap-s"><span>{kind && <Badge tone={kind.tone}>{kind.label}</Badge>} <strong>{b.title}</strong></span><span className="muted small">{b.minutes} phút</span></div>
+                  <div className="muted small">{b.detail}</div>
+                  {b.reason && <div className="small reason">💡 {b.reason}</div>}
+                </div>
+                <Link className="btn small" to={b.route}>Bắt đầu</Link>
+              </li>
+            );
+          })}
+        </ul>
+        <p className="muted tiny">Tổng {plan.blocks.reduce((n, b) => n + b.minutes, 0)} phút · trộn bài học, luyện có hướng dẫn, ôn ngắt quãng và luyện dạng thi theo điểm yếu của bạn.</p>
+      </Card>
+
+      {learning && (
+        <div className="grid-2">
+          <Card title="🧭 Nên học gì tiếp theo?">
+            {learning.next ? <RecommendationCard rec={learning.next} /> : <p className="muted">Bạn đã hoàn thành lộ trình hiện có 🎉 — tiếp tục Practice Mode và thi thử.</p>}
+            {learning.dueReviews > 0 && <p className="small" style={{ marginTop: 8 }}>🔁 {learning.dueReviews} bài học đến hạn ôn — <Link to="/learn">xem lịch ôn</Link></p>}
+            <h4>Mức độ nắm vững</h4>
+            <MasteryBars rows={learning.mastery} />
+          </Card>
+          <Card title="🚧 Điều đang giữ bạn dưới Level 8">
+            <ul className="plain">{learning.blockers.map((b) => (
+              <li key={`${b.skill}-${b.label}`}>{b.textVi} {b.lessonId && <Link to={`/learn/${b.lessonId}`}>→ {b.lessonTitle}</Link>}</li>
+            ))}</ul>
+            <h4>📈 Bạn đã tiến bộ gì?</h4>
+            {learning.improvements.length ? <ul className="plain">{learning.improvements.map((t) => <li key={t}>{t}</li>)}</ul> : <p className="muted small">Chưa có thay đổi đủ lớn để ghi nhận — hoàn thành vài bài học và bài luyện để thấy tiến bộ ở đây.</p>}
+            <div className="recommend small">Practice: {data.recommendation}</div>
+          </Card>
+        </div>
+      )}
 
       <div className="skill-cards">
         {data.skills.map((s) => {
@@ -91,27 +139,7 @@ export function DashboardPage() {
         })}
       </div>
 
-      <div className="grid-dash">
-        <Card title="Kế hoạch hôm nay" actions={
-          <Segmented value={minutes ?? data.settings.dailyMinutes} options={[30, 60, 90, 120].map((m) => ({ value: m, label: `${m}′` }))} onChange={(m) => setMinutes(m)} />
-        }>
-          <ul className="plan-list">
-            {plan.blocks.map((b) => {
-              const done = plan.completed.includes(b.id);
-              return (
-                <li key={b.id} className={done ? "done" : ""}>
-                  <input type="checkbox" checked={done} onChange={(e) => toggle(b.id, e.target.checked)} />
-                  <div className="grow">
-                    <div className="row between"><strong>{b.title}</strong><span className="muted small">{b.minutes} phút</span></div>
-                    <div className="muted small">{b.detail}</div>
-                  </div>
-                  <Link className="btn small" to={b.route}>Bắt đầu</Link>
-                </li>
-              );
-            })}
-          </ul>
-        </Card>
-
+      <div className="grid-2">
         <div className="stack">
           <div className="stats-row">
             <div className="stat"><span>🔥</span><strong>{data.streak}</strong><small>ngày liên tiếp</small></div>

@@ -1,0 +1,348 @@
+{
+  "id": "wr-12",
+  "skill": "writing",
+  "module": "writing-survey",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Addressing the other option",
+  "titleVi": "Xử lý phương án còn lại",
+  "estimatedMinutes": 30,
+  "prerequisites": ["wr-11"],
+  "competencies": ["coherence", "tone_register"],
+  "tasks": ["W2"],
+  "objectives": [
+    "You will be able to acknowledge a genuine advantage of the option you did not choose (concession) in one well-built sentence.",
+    "You will be able to follow the concession with a rebuttal that links back to your own reason, so your position stays clear.",
+    "You will be able to use concession structures (while, although, admittedly, despite) correctly and in a respectful, semi-formal tone."
+  ],
+  "objectiveVi": "Sau bài này, bạn biết thừa nhận ưu điểm của phương án kia một cách lịch sự, rồi phản bác ngắn gọn để người đọc thấy lựa chọn của bạn vẫn hợp lý hơn – mà không bị 'đổi phe' giữa chừng.",
+  "whyItMattersVi": "Ở Task 2, nhắc đến phương án còn lại không bắt buộc, nhưng làm tốt thì cho thấy bạn hiểu cả hai phía và lập luận có chiều sâu – một đặc điểm của bài Level 8+. Làm không tốt thì phản tác dụng: người viết Level 6–7 thường viết 'Although… but…', khen phương án kia quá nhiều rồi kết bằng 'both options are good', hoặc chê thô lỗ. Bài này dạy bạn một công thức 1–2 câu (concession → rebuttal) vừa tăng coherence, vừa thể hiện giọng văn lịch sự, chín chắn.",
+  "concept": [
+    {
+      "heading": "Vì sao nên nhắc đến phương án kia",
+      "body": "Người đọc khảo sát (hội đồng thành phố, ban quản lý strata, công ty) đang cân nhắc **cả hai** phương án. Khi bạn thừa nhận ưu điểm của phương án kia rồi giải thích vì sao lựa chọn của bạn vẫn tốt hơn, bạn cho thấy mình đã suy nghĩ cân bằng – lập luận trở nên đáng tin hơn. Đây gọi là **concession** (nhượng bộ) + **rebuttal** (phản bác).\n\nPhần này **ngắn**: khoảng 30–45 từ trong bài 150–200 từ. Nó không thay thế hai lý do chính; nếu thiếu thời gian, hãy ưu tiên phát triển lý do (bài wr-11) trước."
+    },
+    {
+      "heading": "Công thức: Concession → Pivot → Rebuttal",
+      "body": "1. **Concession** – thừa nhận một ưu điểm *thật* và cụ thể của phương án kia.\n2. **Pivot** – từ chuyển hướng: *However, … / That said, … / Even so, … / but …*\n3. **Rebuttal** – vì sao ưu điểm đó không đủ, nối về lý do của bạn.\n\nCác khung câu:\n- *While Option A would …, Option B would …*\n- *Admittedly, Option A would … . However, …*\n- *It is true that … ; even so, …*\n- *I can see why some residents prefer …, but …*\n- *Despite the convenience of …, I still believe …*\n\nVí dụ: *Admittedly, a 24-hour gym would suit shift workers. However, the centre already opens at 6 a.m., so the extra hours would serve very few people compared with new daytime classes.*"
+    },
+    {
+      "heading": "Ba kiểu phản bác hiệu quả",
+      "body": "- **Lợi ích nhỏ hơn / ít người hơn**: *…only a handful of members would use it at 3 a.m.*\n- **Nhu cầu đó đã được đáp ứng / có cách khác**: *…the centre already opens at 6 a.m.* hoặc *…chargers could be added later when demand grows.*\n- **Lợi ích ngắn hạn, của bạn lâu dài hơn**: *…a holiday shutdown helps for one week, while flexible vacation helps all year.*\n\nPhản bác phải **nối về lý do của bạn** (bằng từ khoá hoặc ý chính). Câu *However, I like Option B more* không phải phản bác – nó chỉ là sở thích."
+    },
+    {
+      "heading": "Cân bằng mà không đổi phe",
+      "body": "Các bẫy thường gặp:\n- **Nhượng bộ quá dài, quá mạnh**: ba câu khen Option A, một câu ngắn cho Option B → người đọc nghĩ bạn đang nghiêng sang A.\n- **Kết bằng phương án kia**: đoạn văn phải kết bằng lựa chọn của bạn – 'lời cuối' thuộc về bạn.\n- **'Both options are good, so it is hard to choose'**: xoá ngay; câu này làm mất lập trường.\n- **Ngôn ngữ do dự**: *maybe Option A is better, I am not sure…*\n\nQuy tắc: concession tối đa **1 câu**, rebuttal ít nhất **1 câu**, và rebuttal luôn đứng sau."
+    },
+    {
+      "heading": "Giọng văn: tôn trọng nhưng chắc chắn",
+      "body": "Survey là văn bản semi-formal gửi cho tổ chức. Tránh chê bai (*stupid, useless, a waste of money, only lazy people want it*) – nó làm giọng văn thiếu chuyên nghiệp và làm yếu lập luận. Dùng từ thừa nhận lịch sự: *a fair point, understandable, a valid concern, certainly has its appeal*. Làm mềm phần nhượng bộ bằng *may, might, for some people*, rồi khẳng định lập trường bằng *I still believe, on balance, would better serve*.\n\n**Vị trí**: (a) một đoạn ngắn riêng ngay trước kết luận – dễ nhất; (b) lồng vào câu kết luận bằng *While…*; (c) mở đầu đoạn lý do 2: *While Option A may be cheaper, Option B would…*"
+    }
+  ],
+  "stimuli": {
+    "survey-holiday": {
+      "title": "Survey: Holiday vacation policy",
+      "text": "Your company, an accounting firm in Vancouver with 45 employees, is reviewing its vacation policy and has asked staff to vote.\n\n**Option A:** Close the office from December 24 to January 1. Employees would use three of their vacation days for this period.\n\n**Option B:** Keep the office open all year. Employees would continue to choose all their own vacation days.\n\nChoose the option you prefer. Explain the reasons for your choice. Write about 150–200 words."
+    },
+    "survey-rec": {
+      "title": "Survey: Recreation centre upgrade",
+      "text": "Your recreation centre in Surrey has extra funding for one change to its fitness program and has emailed all members.\n\n**Option A:** Keep the fitness centre open 24 hours a day, seven days a week (it currently opens from 6 a.m. to 10 p.m.).\n\n**Option B:** Keep the current hours but add 15 new group classes a week, such as yoga, spin and strength training for seniors.\n\nChoose the option you prefer. Explain the reasons for your choice. Write about 150–200 words."
+    },
+    "survey-garden": {
+      "title": "Survey: Strata building improvement",
+      "text": "You live in a 60-unit condo building in New Westminster. The strata council has $40,000 available for one improvement and has sent a survey to all owners.\n\n**Option A:** Turn the unused concrete courtyard into community garden plots with raised beds and a tool shed.\n\n**Option B:** Install ten electric vehicle (EV) charging stations in the underground parkade.\n\nChoose the option you prefer. Explain the reasons for your choice. Write about 150–200 words."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Repairing a concession that changes sides",
+      "stimulusId": "survey-holiday",
+      "question": "The writer chose Option B (flexible vacation) and wanted to mention Option A. How does the concession paragraph improve?",
+      "steps": [
+        "Spot the grammar transfer from Vietnamese 'Mặc dù… nhưng…': 'Although option A have some good point, but…'. English uses only one of them: Although… , … OR …, but… .",
+        "Spot the tone problem: 'very bad idea' dismisses a choice many colleagues may support.",
+        "Spot the position problem: 'Both option are good' at the end makes the writer sound undecided.",
+        "Rebuild with the formula: one-sentence concession naming a REAL advantage (everyone rests at the same time, no pile of emails) → pivot 'However' → rebuttal linked to the writer's reason (employees celebrate at different times).",
+        "End on the writer's option, so the last word supports Option B."
+      ],
+      "answer": "See the 'after' version: one concession sentence, a pivot, a rebuttal tied to the writer's reason, and a final sentence that returns to Option B.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Although option A have some good point, but I think option B is better. Option A is very bad idea because not everyone celebrate Christmas. Both option are good but I choose option B.",
+          "commentVi": "Lỗi điển hình Level 6–7: (1) 'Although… but' – dịch từ 'Mặc dù… nhưng'. (2) 'option A have', 'everyone celebrate' sai hoà hợp chủ ngữ – động từ; 'some good point', 'Both option' thiếu số nhiều; 'very bad idea' thiếu 'a'. (3) Không nói ưu điểm cụ thể nào của A – nhượng bộ rỗng. (4) 'very bad idea' thiếu tôn trọng. (5) 'Both option are good' làm mất lập trường ở câu cuối."
+        },
+        {
+          "label": "after",
+          "text": "Admittedly, closing the office for the holidays would give everyone a proper break at the same time, and nobody would return to a pile of unanswered emails. However, not all of our employees celebrate Christmas, and many would rather save their vacation days for Lunar New Year or a summer trip to visit family overseas. A flexible policy respects these different needs while still allowing anyone who wants the last week of December off to take it.",
+          "commentVi": "Các thay đổi: (1) Mở bằng 'Admittedly,' – một từ nhượng bộ, không có 'but' đi kèm sai. (2) Nhượng bộ nêu ưu điểm thật, cụ thể (nghỉ cùng lúc, không bị dồn email) – thể hiện sự công bằng. (3) 'However' chuyển hướng rõ ràng. (4) Phản bác nối về lý do chính (nhân viên đón lễ khác nhau) với ví dụ cụ thể (Lunar New Year, về thăm gia đình). (5) Câu cuối quay về Option B và còn 'hấp thụ' ưu điểm của A (ai muốn nghỉ cuối tháng 12 vẫn nghỉ được). (6) Bỏ 'very bad idea' và 'both are good' – giọng văn tôn trọng nhưng chắc chắn. (7) Sửa toàn bộ lỗi hoà hợp và số nhiều."
+        }
+      ],
+      "takeawayVi": "Nhượng bộ một câu, có ưu điểm thật; chuyển hướng bằng However/That said; phản bác nối về lý do của bạn; kết bằng phương án bạn chọn."
+    },
+    {
+      "id": "ex2",
+      "title": "Choosing the strongest rebuttal",
+      "stimulusId": "survey-rec",
+      "question": "The writer chose Option B (more classes). Their main reason is that classes would serve many more members, especially seniors. Which rebuttal to the 24-hour option works best?",
+      "steps": [
+        "Write the concession first, using a real advantage: 'Admittedly, a 24-hour gym would suit shift workers, such as nurses at Surrey Memorial Hospital.'",
+        "Brainstorm the three rebuttal types: (a) fewer people benefit – few members train at 3 a.m.; (b) the need is mostly met – the centre already opens at 6 a.m. and closes at 10 p.m.; (c) short-term vs long-term – not strong here.",
+        "Pick the rebuttal that links to the writer's own reason (serving MORE members): type (a) + (b) together.",
+        "Write it with a pivot and a contrast back to Option B: 'However, the current 6 a.m. to 10 p.m. schedule already covers most people, so overnight hours would benefit only a small group compared with new classes that hundreds of members could join.'",
+        "Check the length: about 45 words for the concession plus rebuttal, which is fine within a 180-word response."
+      ],
+      "answer": "Admittedly, a 24-hour gym would suit shift workers, such as nurses at Surrey Memorial Hospital. However, the current 6 a.m. to 10 p.m. schedule already covers most people, so overnight hours would benefit only a small group compared with new classes that hundreds of members could join.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Some people like 24 hours gym. But I don't like it because I like classes more.",
+          "commentVi": "Nhượng bộ mơ hồ ('Some people like') và thiếu gạch nối/số nhiều ('a 24-hour gym'). Phản bác chỉ là sở thích cá nhân ('I like classes more'), không có lý lẽ, không nối về lý do chính. Giọng hơi khẩu ngữ ('don't')."
+        },
+        {
+          "label": "after",
+          "text": "Admittedly, a 24-hour gym would suit shift workers, such as nurses at Surrey Memorial Hospital. However, the current 6 a.m. to 10 p.m. schedule already covers most people, so overnight hours would benefit only a small group compared with new classes that hundreds of members could join.",
+          "commentVi": "Các thay đổi: (1) Nhượng bộ nêu rõ AI được lợi (shift workers, nurses) – công bằng và cụ thể. (2) 'a 24-hour gym' đúng dạng tính từ ghép. (3) Phản bác dùng hai lý lẽ: nhu cầu đã gần như được đáp ứng (6 a.m.–10 p.m.) và ít người hưởng lợi. (4) 'compared with new classes that hundreds of members could join' nối thẳng về lý do chính của người viết. (5) Không dùng dạng rút gọn – phù hợp giọng semi-formal."
+        }
+      ],
+      "takeawayVi": "Phản bác mạnh nhất là phản bác dùng lại lý do chính của bạn. 'I like B more' không phải là phản bác."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "survey-rec",
+      "prompt": "The writer chose Option B. Which sentence handles Option A best?",
+      "options": [
+        { "text": "A 24-hour gym is a useless idea that only a few strange people would want.", "misconception": "dismissive_tone", "whyVi": "Chê bai thiếu tôn trọng ('useless', 'strange people'); không thừa nhận ưu điểm nào." },
+        { "text": "Although a 24-hour gym would help shift workers, but more classes are better.", "misconception": "although_but", "whyVi": "Sai cấu trúc 'Although… but'; phản bác cũng chỉ là khẳng định 'better' không có lý do." },
+        { "text": "While a 24-hour gym would help shift workers, new classes would benefit far more members, including seniors who exercise during the day.", "misconception": null, "whyVi": "Đúng: nhượng bộ có ưu điểm thật, phản bác nối về lý do chính (nhiều thành viên hơn, người cao tuổi), đúng ngữ pháp, giọng tôn trọng." },
+        { "text": "A 24-hour gym would help shift workers, students and parents with babies, and it would be very convenient for almost everyone.", "misconception": "changing_sides", "whyVi": "Toàn bộ câu khen Option A, không có phản bác – nghe như người viết đã đổi phe." }
+      ],
+      "answerIndex": 2,
+      "hint": "Check three things: Is there a real advantage of A? Is there a rebuttal that returns to B? Is the grammar of the concession word correct?",
+      "explanationVi": "Câu tốt có cả ba phần: nhượng bộ (While… shift workers), phản bác (new classes would benefit far more members), và nối về lý do (seniors). 'While' chỉ cần một mệnh đề chính phía sau, không thêm 'but'.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g2",
+      "type": "text",
+      "stimulusId": "survey-rec",
+      "prompt": "This sentence has one extra word that makes it ungrammatical. Type the word that must be deleted.\n\n'Although the 24-hour option sounds convenient, but very few members would use the gym at 3 a.m.'",
+      "answers": ["but", "although"],
+      "mode": "exact",
+      "misconception": "although_but",
+      "hint": "In English, a concession sentence uses one linking word, not a pair like 'Mặc dù… nhưng…'.",
+      "explanationVi": "'Although' đã nối hai mệnh đề; thêm 'but' là thừa (lỗi chuyển từ 'Mặc dù… nhưng…'). Xoá một trong hai từ (thường xoá 'but') đều được chấp nhận. Viết: 'Although the 24-hour option sounds convenient, very few members would…' hoặc 'The 24-hour option sounds convenient, but very few members would…'.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g3",
+      "type": "order",
+      "stimulusId": "survey-rec",
+      "prompt": "The writer chose Option B. Put this short paragraph about Option A in order.",
+      "items": [
+        "I understand why some members would like the fitness centre to stay open around the clock, especially those who work night shifts.",
+        "However, the centre already opens at 6 a.m. and closes at 10 p.m., which covers most people's schedules.",
+        "Keeping the building staffed all night would also cost a great deal for the small number of people who would use it at 2 or 3 a.m.",
+        "That money would do far more good funding daytime and evening classes that hundreds of residents could join."
+      ],
+      "misconception": "weak_rebuttal",
+      "hint": "Concession first, then the pivot word, then extra support for the rebuttal, and finally the sentence that returns to the writer's own option.",
+      "explanationVi": "Nhượng bộ (I understand why…) → chuyển hướng + phản bác 1 (However, đã mở 6 a.m.–10 p.m.) → phản bác 2 (also, chi phí lớn cho ít người) → nối về Option B (That money… classes). 'That money' chỉ ngược về 'cost' ở câu 3 nên phải đứng cuối.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "survey-holiday",
+      "prompt": "Choose the best word or phrase for the gap: 'Option A would certainly give everyone a quiet week at the end of December. ____, it would force employees who do not celebrate Christmas to use vacation days when they do not need them.'",
+      "options": [
+        { "text": "As a result", "misconception": "weak_rebuttal", "whyVi": "'As a result' chỉ kết quả, nhưng câu sau không phải kết quả của câu trước – nó là ý trái ngược." },
+        { "text": "Even so", "misconception": null, "whyVi": "Đúng: 'Even so' = dù vậy, chuyển từ nhượng bộ sang phản bác." },
+        { "text": "Although", "misconception": "although_but", "whyVi": "'Although' là liên từ phụ thuộc, không đứng một mình với dấu phẩy để mở một câu độc lập; ở đây nó tạo thành câu sai ngữ pháp." },
+        { "text": "In other words", "misconception": "weak_rebuttal", "whyVi": "'In other words' dùng để diễn đạt lại cùng ý, không phải để phản bác." }
+      ],
+      "answerIndex": 1,
+      "hint": "The second sentence goes AGAINST the first. Which choice is a pivot that can start a new sentence?",
+      "explanationVi": "Sau câu nhượng bộ, cần từ chuyển hướng có thể mở câu mới: However, / Even so, / That said, / Nevertheless,. 'Although' cũng mang nghĩa nhượng bộ nhưng phải gắn với một mệnh đề chính trong cùng câu.",
+      "competency": "coherence"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "text",
+      "stimulusId": "survey-rec",
+      "prompt": "Complete the sentence with ONE word meaning 'even though there is': 'I chose Option B ____ the convenience of a 24-hour gym.'",
+      "answers": ["despite", "notwithstanding"],
+      "mode": "exact",
+      "misconception": "although_but",
+      "explanationVi": "Sau chỗ trống là cụm danh từ ('the convenience of…'), nên cần giới từ 'despite' (hoặc cụm 'in spite of'). 'Although' cần một mệnh đề có chủ ngữ + động từ: 'although a 24-hour gym is convenient'.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "survey-holiday",
+      "prompt": "The writer chose Option B. Which conclusion keeps the writer's position clear while still recognizing Option A?",
+      "options": [
+        { "text": "In conclusion, both options are good, so it is hard to choose, but I will choose Option B.", "misconception": "changing_sides", "whyVi": "'Both options are good… hard to choose' làm yếu lập trường ngay ở câu cuối." },
+        { "text": "In conclusion, Option A is a waste of everyone's vacation days and only managers want it.", "misconception": "dismissive_tone", "whyVi": "Giọng chê bai và quy chụp ('only managers want it'), không phù hợp văn bản gửi công ty." },
+        { "text": "In conclusion, Option A also has some advantages for the office.", "misconception": "concession_without_rebuttal", "whyVi": "Kết bằng ưu điểm của phương án kia và bỏ lửng – người đọc không biết bạn chọn gì." },
+        { "text": "Although a holiday shutdown has its appeal, a flexible policy would better suit a team as diverse as ours, so I strongly support Option B.", "misconception": null, "whyVi": "Đúng: nhượng bộ ngắn (has its appeal), phản bác nối về lý do (a team as diverse as ours), kết bằng lựa chọn của người viết." }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Kết luận có thể lồng nhượng bộ bằng 'Although…' nhưng mệnh đề chính – phần được nhấn mạnh – phải là lựa chọn của bạn.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "survey-holiday",
+      "prompt": "A writer who chose Option B wrote this paragraph. What is its main problem?\n\n'Admittedly, closing the office would let everyone rest at the same time, clients usually send fewer emails in late December, it would save on heating costs, and the whole team could come back refreshed together in January. However, I prefer Option B.'",
+      "options": [
+        { "text": "There is no real problem; the paragraph is well balanced.", "misconception": "changing_sides", "whyVi": "Không cân bằng: bốn ưu điểm của A so với một câu ngắn cho B. Nếu bạn thấy đoạn này ổn, bạn đang đánh giá thấp cảm giác 'đổi phe' mà nó tạo ra." },
+        { "text": "The tone is too negative about Option A.", "misconception": "dismissive_tone", "whyVi": "Ngược lại – đoạn văn khen Option A rất nhiều, không hề tiêu cực." },
+        { "text": "The concession is far longer and stronger than the rebuttal, which gives no reason, so the writer sounds unsure of their own choice.", "misconception": null, "whyVi": "Đúng: nhượng bộ chiếm gần hết đoạn; 'I prefer Option B' chỉ là sở thích, không phải phản bác." },
+        { "text": "The rebuttal should come before the concession.", "misconception": "weak_rebuttal", "whyVi": "Thứ tự nhượng bộ → phản bác là đúng; vấn đề là phản bác quá yếu, không phải vị trí." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Quy tắc cân bằng: nhượng bộ tối đa một ý ngắn, phản bác ít nhất một câu có lý lẽ. Ở đây tỉ lệ bị đảo ngược, nên người đọc dễ nghĩ người viết thực ra thích Option A.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i4",
+      "type": "order",
+      "stimulusId": "survey-holiday",
+      "prompt": "The writer chose Option B. Put the sentences in order.",
+      "items": [
+        "Some colleagues argue that closing the office in late December would let everyone rest at the same time.",
+        "That is a fair point, but our team is far from uniform in how and when it celebrates.",
+        "For instance, two of my coworkers save their vacation days every year to fly to Vietnam for Lunar New Year.",
+        "A flexible policy would let them do that while still giving others the last week of December off."
+      ],
+      "misconception": "weak_rebuttal",
+      "explanationVi": "Quan điểm của người khác (Some colleagues argue…) → thừa nhận + phản bác (That is a fair point, but…) → ví dụ chứng minh phản bác (two of my coworkers…) → quay về Option B ('them' chỉ hai đồng nghiệp ở câu 3).",
+      "competency": "coherence"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "survey-garden",
+      "prompt": "The writer chose Option A (the garden) because it would benefit many residents. Complete the paragraph with the best rebuttal: 'Admittedly, EV charging stations would add value to our building, and more owners will probably switch to electric cars over time. ____'",
+      "options": [
+        { "text": "However, electric cars are just a trend, and the people who buy them are showing off.", "misconception": "dismissive_tone", "whyVi": "Chê bai người khác, không có lý lẽ; giọng văn thiếu tôn trọng với hàng xóm." },
+        { "text": "Honestly, they might even be more useful than a garden in the future.", "misconception": "changing_sides", "whyVi": "Tiếp tục khen phương án kia – người viết tự làm yếu lựa chọn của mình." },
+        { "text": "However, I personally enjoy gardening very much.", "misconception": "weak_rebuttal", "whyVi": "Sở thích cá nhân không trả lời được ưu điểm vừa thừa nhận và không nối về lý do 'many residents'." },
+        { "text": "However, only four households own one today, and chargers could be installed later when demand grows, whereas a garden could benefit dozens of residents from the first spring.", "misconception": null, "whyVi": "Đúng: dùng hai kiểu phản bác (ít người hưởng lợi hiện nay; có thể làm sau) và nối về lý do chính (dozens of residents)." }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Phản bác Level 8 trả lời trực tiếp ưu điểm vừa thừa nhận ('more owners will switch over time' → 'chargers could be installed later when demand grows') rồi quay về lý do của bạn.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "survey-rec",
+      "prompt": "Which sentence addresses Option A in the most appropriate tone for a survey sent to your recreation centre?",
+      "options": [
+        { "text": "People who want a 24-hour gym are just being selfish.", "misconception": "dismissive_tone", "whyVi": "Công kích người khác ('selfish') thay vì đánh giá phương án." },
+        { "text": "I can see why a 24-hour gym appeals to shift workers; however, the cost of overnight staff would be hard to justify for so few users.", "misconception": null, "whyVi": "Đúng: thừa nhận lịch sự ('I can see why… appeals to'), phản bác chắc chắn bằng lý lẽ chi phí – số người dùng, giọng semi-formal." },
+        { "text": "A 24-hour gym is honestly the dumbest idea I've heard all year, lol.", "misconception": "dismissive_tone", "whyVi": "Vừa chê bai vừa quá suồng sã ('lol', 'dumbest') – sai register." },
+        { "text": "A 24-hour gym is maybe a good idea, I am not sure, maybe it is better than classes.", "misconception": "changing_sides", "whyVi": "Do dự và nghiêng sang phương án kia; người đọc không biết bạn đứng ở đâu." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Giọng phù hợp là tôn trọng nhưng chắc chắn: dùng 'I can see why…', 'a fair point', 'understandable' cho phần nhượng bộ, rồi 'however' + lý lẽ cụ thể cho phần phản bác.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "i7",
+      "type": "produce",
+      "medium": "write",
+      "stimulusId": "survey-garden",
+      "prompt": "Write a complete survey response (150–200 words) to the strata council. Choose one option, develop your reasons, and include a short concession and rebuttal about the other option.",
+      "minWords": 150,
+      "checklist": [
+        "States the choice clearly in the first sentence and never switches sides",
+        "Develops at least one reason with an explanation and a specific example",
+        "Includes a one-sentence concession that names a genuine advantage of the other option",
+        "Follows the concession with a rebuttal that links back to your own reason",
+        "Uses respectful language about the other option (no 'stupid', 'useless' or 'waste')",
+        "Uses concession grammar correctly (no 'Although… but') and stays within 150–200 words"
+      ],
+      "modelAnswer": "I would prefer Option A, turning our unused courtyard into community garden plots.\n\nMy main reason is that a garden would bring neighbours together. At the moment, most of the 60 households in our building barely know each other; we nod in the elevator and that is all. When I lived in a Burnaby townhouse complex with shared garden beds, residents traded tomatoes, watered each other's plots during vacations and held a harvest potluck every September. A garden here would create the same everyday contact and make the building feel like a community rather than a collection of units.\n\nAdmittedly, EV charging stations would add value to our parkade, and more owners will probably drive electric cars in the future. However, only four households own one today, and chargers could be installed later when demand actually grows. A garden, on the other hand, could benefit dozens of residents, including children and seniors, from the very first spring.\n\nFor these reasons, I hope the council will choose the community garden.",
+      "misconception": "concession_without_rebuttal",
+      "explanationVi": "Trong bài mẫu, đoạn nhượng bộ chỉ có một câu ('Admittedly, … in the future.'), sau đó là hai câu phản bác nối về lý do chính ('dozens of residents'). Kiểm tra bài của bạn: câu cuối của đoạn về phương án kia có ủng hộ lựa chọn của bạn không?",
+      "competency": "coherence"
+    }
+  ],
+  "misconceptions": {
+    "changing_sides": {
+      "label": "Nhượng bộ quá mức, nghe như đổi phe",
+      "explanationVi": "Bạn muốn tỏ ra công bằng nên khen phương án kia quá dài hoặc quá mạnh, dùng ngôn ngữ do dự, hoặc kết bằng 'both are good'. Kỹ năng còn thiếu là giữ lập trường nhất quán: người đọc phải luôn biết bạn chọn gì.",
+      "fixVi": "Giới hạn nhượng bộ trong một câu, luôn theo sau bằng phản bác, và để câu cuối của đoạn (và của bài) ủng hộ lựa chọn của bạn. Xoá 'hard to choose', 'maybe… I am not sure'."
+    },
+    "dismissive_tone": {
+      "label": "Chê bai, thiếu tôn trọng",
+      "explanationVi": "Bạn bác bỏ phương án kia bằng từ ngữ tiêu cực hoặc công kích người chọn nó ('useless', 'selfish', 'waste of money'). Trong văn bản semi-formal, điều này làm giọng văn thiếu chuyên nghiệp và khiến lập luận có vẻ cảm tính.",
+      "fixVi": "Thừa nhận bằng cụm lịch sự (I can see why…, That is a fair point, … certainly has its appeal), rồi phản bác bằng sự việc: chi phí, số người hưởng lợi, thời gian."
+    },
+    "concession_without_rebuttal": {
+      "label": "Nhượng bộ rồi bỏ lửng",
+      "explanationVi": "Bạn nhắc đến ưu điểm của phương án kia nhưng không giải thích vì sao lựa chọn của mình vẫn tốt hơn. Nhượng bộ không có phản bác chỉ làm mạnh thêm cho phía bên kia.",
+      "fixVi": "Mỗi lần viết 'Admittedly / While / It is true that…', bắt buộc viết tiếp 'However / Even so…' + một lý do nối về phương án bạn chọn."
+    },
+    "although_but": {
+      "label": "Although… but / dùng sai cấu trúc nhượng bộ",
+      "explanationVi": "Tiếng Việt dùng cặp 'Mặc dù… nhưng…', nên nhiều người viết 'Although…, but…'. Tiếng Anh chỉ dùng một từ nối. Ngoài ra, 'although' cần mệnh đề (chủ ngữ + động từ), còn 'despite/in spite of' đi với danh từ hoặc V-ing.",
+      "fixVi": "Khi viết 'Although/While/Even though', kiểm tra xem câu có 'but' không – nếu có, xoá một trong hai. Trước cụm danh từ dùng 'despite'; trước mệnh đề dùng 'although'."
+    },
+    "weak_rebuttal": {
+      "label": "Phản bác yếu hoặc sai từ chuyển hướng",
+      "explanationVi": "Phần phản bác của bạn chỉ là sở thích ('I like B more'), không trả lời ưu điểm vừa thừa nhận, không nối về lý do chính, hoặc dùng từ nối sai chức năng (As a result, In other words thay vì However, Even so). Mạch lập luận vì thế bị đứt.",
+      "fixVi": "Chọn một trong ba kiểu phản bác: ít người hưởng lợi hơn / nhu cầu đã được đáp ứng hoặc làm sau được / lợi ích ngắn hạn. Mở bằng từ chuyển hướng tương phản và nhắc lại từ khoá của lý do chính."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "Admittedly, …", "vi": "Phải thừa nhận rằng… (mở câu nhượng bộ)", "example": "Admittedly, EV chargers would make our building more attractive to future buyers." },
+    { "term": "It is true that…; even so, …", "vi": "Đúng là…; dù vậy, …", "example": "It is true that a holiday shutdown is simple to organize; even so, it ignores staff who celebrate at other times." },
+    { "term": "I can see why some residents prefer…", "vi": "Tôi hiểu vì sao một số cư dân thích…", "example": "I can see why some residents prefer longer gym hours, especially those who work late at the hospital." },
+    { "term": "That is a fair point, but…", "vi": "Đó là một ý hợp lý, nhưng…", "example": "That is a fair point, but most members already finish their workouts before 10 p.m." },
+    { "term": "That said, …", "vi": "Dù nói vậy, … (chuyển hướng nhẹ nhàng)", "example": "That said, the courtyard would still need a tool shed and a water tap." },
+    { "term": "certainly has its appeal", "vi": "chắc chắn có sức hấp dẫn riêng", "example": "A week off at Christmas certainly has its appeal for families with young children." },
+    { "term": "outweigh", "vi": "vượt trội hơn, nặng ký hơn (lợi ích/chi phí)", "example": "For me, the benefits of flexible vacation outweigh the convenience of a shared shutdown." },
+    { "term": "On balance, …", "vi": "Cân nhắc mọi mặt, …", "example": "On balance, new classes would serve far more members than overnight hours." },
+    { "term": "whereas", "vi": "trong khi đó (đối chiếu hai phương án)", "example": "Chargers would serve four households today, whereas a garden could serve dozens." }
+  ],
+  "grammar": [
+    {
+      "point": "Concession structures: although / while / even though + clause; despite / in spite of + noun or -ing; never 'Although… but'",
+      "explanationVi": "'Although, while, even though' là liên từ: theo sau là mệnh đề đầy đủ (chủ ngữ + động từ), và câu chỉ cần MỘT từ nối – không thêm 'but' như 'Mặc dù… nhưng' trong tiếng Việt. 'Despite / in spite of' là giới từ: theo sau là cụm danh từ hoặc V-ing, không phải mệnh đề. 'However' là trạng từ nối: đứng đầu câu mới hoặc sau dấu chấm phẩy, có dấu phẩy theo sau.",
+      "examples": [
+        "Although a 24-hour gym is convenient, very few members would use it overnight.",
+        "Despite the convenience of a 24-hour gym, I prefer more classes.",
+        "Despite being convenient, a holiday shutdown would not suit everyone.",
+        "A shutdown is easy to organize; however, it ignores other holidays."
+      ]
+    },
+    {
+      "point": "Softening the concession with modals and limiting phrases",
+      "explanationVi": "Để phần nhượng bộ nghe công bằng nhưng không quá mạnh, dùng 'may/might/could', 'for some people', 'in some cases'. Phần phản bác thì dùng 'would' và động từ chắc chắn hơn. Sự chênh lệch này giúp người đọc cảm nhận lập trường của bạn mà không cần chê phương án kia.",
+      "examples": [
+        "A shutdown might suit families with young children.",
+        "For some members, overnight hours could be useful.",
+        "However, new classes would serve far more people."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Luyện Writing Task 2 có đoạn nhượng bộ – phản bác", "route": "/writing?task=W2" },
+    { "label": "Xem lại lỗi đã mắc trong sổ lỗi", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 11 exercises; keys correct. g2 now also accepts 'although' (deleting either word fixes the Although…but sentence, as the explanation already showed); fixed a quote mismatch in ex2 steps. Model answer 169 words, one clear side, one-sentence concession."}
+}

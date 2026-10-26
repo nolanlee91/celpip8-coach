@@ -1,0 +1,362 @@
+{
+  "id": "wr-07",
+  "skill": "writing",
+  "module": "writing-email",
+  "level": "core",
+  "difficulty": 8,
+  "title": "Formal emails: complaints and requests",
+  "titleVi": "Email trang trọng: phàn nàn và đề nghị",
+  "estimatedMinutes": 32,
+  "prerequisites": ["wr-05", "wr-06"],
+  "competencies": ["tone_register", "task_fulfillment"],
+  "tasks": ["W1"],
+  "objectives": [
+    "You will be able to write a complaint that is polite but firm, without sounding weak or aggressive.",
+    "You will be able to describe a problem with precise facts: dates, reference numbers and exact details.",
+    "You will be able to request a specific action with a deadline and propose a realistic resolution.",
+    "You will be able to use formal email expressions for opening, requesting and closing."
+  ],
+  "objectiveVi": "Sau bài này, bạn sẽ viết được email phàn nàn hoặc đề nghị với giọng lịch sự nhưng kiên quyết, trình bày sự việc bằng dữ kiện cụ thể, yêu cầu hành động rõ ràng có thời hạn, và dùng đúng các mẫu câu trang trọng.",
+  "whyItMattersVi": "Đề Task 1 rất hay yêu cầu viết cho quản lý tòa nhà, công ty, dịch vụ khách hàng hoặc cơ quan — tức là giọng trang trọng. Người viết Level 7 thường rơi vào một trong hai cực: quá gay gắt ('You must…', 'I am very angry') hoặc quá rụt rè ('Sorry to bother you, maybe…'), và yêu cầu chung chung ('please do something'). Level 8 đòi hỏi bạn kiểm soát giọng văn: lịch sự, có dữ kiện, và đề xuất giải pháp cụ thể.",
+  "concept": [
+    {
+      "heading": "Polite but firm: giọng văn ở giữa hai cực",
+      "body": "Một email phàn nàn tốt giống một người lịch sự nhưng biết rõ quyền lợi của mình. So sánh ba mức:\n\n- **Too weak**: *Sorry to bother you, but maybe if possible you could look at my internet sometime?* → người đọc không thấy vấn đề nghiêm trọng, không biết bạn muốn gì.\n- **Too aggressive**: *Your service is terrible. Fix it now or I will sue you.* → xúc phạm, đe dọa; người nhận phòng thủ thay vì giúp đỡ.\n- **Polite but firm**: *I would appreciate it if you could send a technician by Friday, March 20.* → lịch sự, rõ ràng, có thời hạn.\n\nBí quyết: **lịch sự trong cách nói, kiên quyết trong nội dung**. Bạn dùng cấu trúc mềm (*would, could, I would appreciate*) nhưng yêu cầu thì cụ thể và có hạn chót."
+    },
+    {
+      "heading": "Sáu bước của một email phàn nàn hoặc đề nghị",
+      "body": "Ba bullet của đề thường rơi vào khung sau (bạn sắp xếp theo thứ tự bullet):\n\n1. **Purpose** — *I am writing to complain about… / to request…* + số tài khoản, số đơn hàng.\n2. **Facts** — chuyện gì xảy ra, khi nào, ở đâu, bao lâu.\n3. **Impact** — vấn đề ảnh hưởng tới bạn thế nào (công việc, chi phí, sức khỏe, gia đình).\n4. **Previous attempts** — bạn đã làm gì (gọi điện ngày nào, gửi yêu cầu, kết quả).\n5. **Requested action** — muốn gì, trước ngày nào; có thể đưa phương án thay thế.\n6. **Closing** — *Thank you for your prompt attention to this matter.*\n\nKhông phải đề nào cũng đủ cả sáu, nhưng nếu bullet hỏi 'what you want', bước 5 phải thật cụ thể."
+    },
+    {
+      "heading": "Dữ kiện thay cho cảm xúc",
+      "body": "Giám khảo và người nhận đều bị thuyết phục bởi **facts**, không phải tính từ cảm xúc. Thay vì *I am very very angry* hay *It is terrible*, hãy cho:\n\n- **Ngày giờ**: *on March 9, between 8 a.m. and noon*\n- **Số tham chiếu**: *order number WC-80215, account 58-3317*\n- **Con số**: *four or five times a day, for twenty minutes each time*\n- **Hậu quả cụ thể**: *I was disconnected during two client meetings.*\n\nCảm xúc vẫn có thể xuất hiện nhưng ở dạng tiết chế: *I was disappointed to find that…*, *This has been very frustrating.* Khi nói về lỗi của người khác, dùng **câu bị động** để trung lập: *The appointment was missed* thay vì *Your technician didn't come.* Tránh buộc tội như *You obviously don't care.*"
+    },
+    {
+      "heading": "Yêu cầu hành động và đề xuất giải pháp",
+      "body": "Đoạn yêu cầu là nơi nhiều bài mất điểm. Một đề xuất Level 8 có:\n\n- **Hành động cụ thể**: refund, replacement, repair, credit, a technician visit, a written confirmation.\n- **Thời hạn**: *by December 5*, *within five business days*.\n- **Sự hợp lý**: thể hiện bạn hiểu phía bên kia — *I understand that delays can happen; however,…*\n- **Phương án dự phòng** (không bắt buộc): *If a replacement is not available, I would like to request a full refund.*\n\nMẫu câu yêu cầu trang trọng: *I would appreciate it if you could…*, *I would be grateful if…*, *I would like to request…*, *Could you please…?* Tránh *You must…*, *I want…* (quá thẳng) và *Maybe…?* (quá yếu)."
+    },
+    {
+      "heading": "Kiểm tra register trang trọng",
+      "body": "Trước khi nộp, rà soát:\n\n- **Lời chào**: *Dear Mr. Patel, / Dear Ms. Albright,* nếu biết tên; *Dear Customer Service Manager,* hoặc *Dear Sir or Madam,* nếu không. Không dùng *Hey*, *Hi guys*.\n- **Không viết tắt** trong thư trang trọng: *I am, do not, would not*.\n- **Không slang hay từ mơ hồ**: *kinda, stuff, asap, guys*.\n- **Câu kết + sign-off**: *Thank you for your prompt attention to this matter. / Sincerely,* + họ tên đầy đủ. Không dùng *Love,* hay *Cheers,*.\n- **Không đe dọa** (đánh giá xấu khắp nơi, kiện tụng) — nếu muốn nói hậu quả, nói nhẹ: *If the issue cannot be resolved, I may need to consider other providers.*"
+    }
+  ],
+  "stimuli": {
+    "prompt-internet": {
+      "title": "Task 1 prompt — unreliable home internet",
+      "text": "You have home internet service with a provider in Surrey. For the past three weeks, your connection has been dropping several times a day, and a technician who was supposed to visit did not arrive. Write an email to the company's customer service manager.\n\nIn your email:\n- Describe the problem and how long it has been happening.\n- Explain how it has affected you.\n- Say what you would like the company to do.\n\nWrite 150–200 words."
+    },
+    "prompt-bikes": {
+      "title": "Task 1 prompt — bike storage request",
+      "text": "You live in a condo building in Coquitlam. Several residents' bicycles have been stolen from the underground parkade in recent months. Write an email to the building's strata council.\n\nIn your email:\n- Describe the problem with bike storage in the building.\n- Explain why the current arrangement is not working.\n- Request a specific change and offer to help.\n\nWrite 150–200 words."
+    },
+    "prompt-coat": {
+      "title": "Task 1 prompt — wrong coat and no reply",
+      "text": "You ordered a winter coat online from a Canadian clothing retailer. When it arrived, it was the wrong size and the zipper was broken. You sent a return request through the company's website two weeks ago but have not received a reply. Write an email to the company's customer service manager.\n\nIn your email:\n- Describe what you ordered and what you received.\n- Explain what you have already done to solve the problem.\n- Say what you would like the company to do and by when.\n\nWrite 150–200 words."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Mapping a complaint prompt to the six moves",
+      "stimulusId": "prompt-internet",
+      "question": "Plan the internet complaint before writing a single sentence.",
+      "steps": [
+        "Situation: I am a paying customer writing to a manager I do not know → formal register, 'Dear Customer Service Manager,', no contractions, 'Sincerely,'.",
+        "Purpose sentence: complain about repeated outages + give an account number so the manager can find me.",
+        "Bullet 1 (facts + duration): how often it drops (four or five times a day), how long each time, since when (three weeks), the reported date and the missed technician visit with its date and time window.",
+        "Bullet 2 (impact): two concrete effects — I work from home and lost two client meetings; my children could not submit homework.",
+        "Bullet 3 (requested action): a technician visit within five business days with written confirmation + a credit for the bad service. Specific, realistic, with a time limit.",
+        "Tone check: describe the missed visit in the passive ('no one arrived') rather than accusing a person; no threats."
+      ],
+      "answer": "Dear Customer Service Manager → purpose + account number → facts (frequency, duration, report date, missed visit) → impact (work meetings, children's homework) → request (visit within five business days + written confirmation + credit) → 'Thank you for your prompt attention to this matter.' → Sincerely, full name.",
+      "takeawayVi": "Lập dàn ý theo sáu bước giúp bạn không quên dữ kiện hay thời hạn. Quyết định giọng văn ngay từ câu situation: người nhận là ai, quan hệ thế nào."
+    },
+    {
+      "id": "ex2",
+      "title": "Before and after: the internet complaint",
+      "stimulusId": "prompt-internet",
+      "question": "Compare a typical Level 6–7 complaint with a Level 8+ version.",
+      "steps": [
+        "Read the before version and mark every emotional word: 'very angry', 'terrible', 'nobody help me', 'You must'.",
+        "Look for missing facts: no dates, no account number, no frequency — the manager cannot act on it.",
+        "Find the request: 'fix it now', 'I want my money back' — direct demands with no detail about what exactly or by when.",
+        "Rewrite: replace emotions with facts, give each bullet its own paragraph, and turn the demand into a specific request with a deadline.",
+        "Check register: formal greeting, no contractions, a formal closing line and full name."
+      ],
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Hello,\n\nI am very angry with your internet service. It is terrible. My internet stop working many times every day, I cannot do anything. I call you many times but nobody help me. Your technician also did not come, I waited all day for nothing. I work from home so this is very big problem for me and my kids cannot do homework. You must fix it now or I will change to other company. I want my money back.\n\nThanks,\nTuan",
+          "commentVi": "Vấn đề: (1) Mở bằng cảm xúc ('very angry', 'terrible') thay vì mục đích và số tài khoản. (2) Không có dữ kiện: mất mạng bao nhiêu lần, bao lâu, từ khi nào, đã báo ngày nào, kỹ thuật viên hẹn ngày nào. (3) Buộc tội ('nobody help me', 'Your technician also did not come'). (4) Yêu cầu dạng ra lệnh và đe dọa ('You must fix it now or I will change…'), 'I want my money back' quá thẳng và không rõ hoàn bao nhiêu. (5) Một khối chữ, không chia đoạn theo bullet. (6) Lỗi ngữ pháp: 'stop' (thiếu -s/-ped), 'nobody help', 'very big problem' (thiếu 'a'), 'other company'. (7) 'kids', 'Thanks,' và chỉ ký tên là không phù hợp thư trang trọng. Khoảng 80 từ — quá ngắn."
+        },
+        {
+          "label": "after",
+          "text": "Dear Customer Service Manager,\n\nI am writing to express my concern about the repeated loss of internet service at my home in Surrey, account number 58-3317.\n\nFor the past three weeks, my connection has dropped four or five times a day, usually for twenty to thirty minutes at a time. I reported the problem on March 2, and a technician visit was booked for March 9 between 8 a.m. and noon. Unfortunately, no one arrived, and I did not receive a call to explain the delay.\n\nThese outages have caused serious difficulties for my family. I work from home as a bookkeeper, and I have been disconnected during two client meetings. My children have also been unable to submit their homework online on several evenings.\n\nI would appreciate it if you could schedule a technician visit within the next five business days and confirm the time in writing. I would also like to request a credit for the three weeks of unreliable service.\n\nThank you for your prompt attention to this matter.\n\nSincerely,\nTuan Le",
+          "commentVi": "Thay đổi: (1) Lời chào trang trọng và câu mục đích dùng mẫu 'I am writing to express my concern about…' kèm số tài khoản. (2) Cảm xúc được thay bằng dữ kiện: 4–5 lần/ngày, 20–30 phút, báo ngày 2/3, hẹn ngày 9/3 từ 8 giờ đến trưa. (3) Lỗi của kỹ thuật viên được nói trung lập: 'a technician visit was booked… no one arrived' — không buộc tội cá nhân. (4) Đoạn ảnh hưởng có hai hậu quả cụ thể (mất kết nối trong hai cuộc họp, con không nộp được bài). (5) 'You must fix it now' → 'I would appreciate it if you could schedule… within the next five business days'; 'I want my money back' → 'I would also like to request a credit for…'. (6) Bỏ đe dọa. (7) Chia đoạn theo bullet, sửa ngữ pháp, không viết tắt. (8) Kết bằng câu trang trọng + 'Sincerely,' + họ tên. Khoảng 180 từ."
+        }
+      ],
+      "takeawayVi": "Bản 'after' kiên quyết hơn bản 'before' dù không có từ nào gay gắt: nó có dữ kiện, có thời hạn, có yêu cầu cụ thể. Sự kiên quyết đến từ nội dung, không đến từ giọng to."
+    },
+    {
+      "id": "ex3",
+      "title": "Calibrating a request paragraph",
+      "stimulusId": "prompt-bikes",
+      "question": "Write the paragraph for Bullet 3: 'Request a specific change and offer to help.'",
+      "steps": [
+        "Identify the two parts: (a) a specific change, (b) an offer to help. Both are needed.",
+        "Reject the too-weak version (apologizing, 'maybe', no concrete change) and the too-aggressive version ('The council must install a cage immediately — this is your job').",
+        "Choose a concrete, realistic change: a locked bike cage in an unused area of the parkade, accessed by residents' fobs.",
+        "Add reasonableness: residents would share the cost.",
+        "Make the offer concrete: collect quotes from local suppliers before a named meeting date."
+      ],
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Sorry for bother you, I know you are very busy. Maybe if it is possible, you can think about doing something for the bikes? I can help if you need.",
+          "commentVi": "Quá rụt rè và mơ hồ: (1) Xin lỗi không cần thiết và sai ngữ pháp ('Sorry for bother you' → 'Sorry to bother you'). (2) 'Maybe if it is possible… think about doing something' không đề xuất thay đổi cụ thể nào — vi phạm yêu cầu 'a specific change'. (3) 'I can help if you need' có lời đề nghị giúp nhưng không nói giúp gì."
+        },
+        {
+          "label": "after",
+          "text": "I would like to request that the council install a locked bike cage in the unused corner of level P2, next to the storage lockers, with access limited to residents' fobs. Several neighbours have told me they would gladly pay a small annual fee to cover the cost. I would also be happy to help by collecting quotes from two or three local suppliers before the next council meeting on April 15.",
+          "commentVi": "Thay đổi: (1) Mẫu trang trọng 'I would like to request that the council install…' (động từ nguyên mẫu sau 'request that'). (2) Thay đổi cụ thể: lồng khóa ở góc P2, mở bằng fob. (3) Thêm tính hợp lý: cư dân sẵn sàng góp phí. (4) Lời đề nghị giúp cụ thể: lấy báo giá từ 2–3 nhà cung cấp trước cuộc họp ngày 15/4. (5) Bỏ lời xin lỗi thừa — lịch sự nhưng tự tin."
+        }
+      ],
+      "takeawayVi": "Đề nghị tốt = hành động cụ thể + lý do hợp lý + (nếu đề yêu cầu) lời đề nghị giúp cụ thể. Không cần xin lỗi khi bạn đang yêu cầu một điều chính đáng."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "prompt-internet",
+      "prompt": "Which is the best first sentence after 'Dear Customer Service Manager,'?",
+      "hint": "A strong opening states the purpose calmly and gives the manager something to look up.",
+      "options": [
+        { "text": "Hey there, just wanted to complain about the internet.", "misconception": "informal_slip", "whyVi": "'Hey there', 'just wanted to' là văn nói thân mật, không hợp với thư gửi quản lý công ty." },
+        { "text": "I am writing to complain about frequent interruptions to my home internet service, account number 58-3317, which have continued for three weeks.", "misconception": null, "whyVi": "Đúng: nêu mục đích, có số tài khoản và thời gian kéo dài — trang trọng, bình tĩnh, cụ thể." },
+        { "text": "I am so angry that I can't even describe how I feel about your company.", "misconception": "too_aggressive", "whyVi": "Mở bằng cảm xúc gay gắt, không cho thông tin gì. Người nhận sẽ phòng thủ." },
+        { "text": "I am sorry to bother you, but maybe there could be a small problem with my internet.", "misconception": "too_weak", "whyVi": "Xin lỗi không cần thiết và 'maybe… a small problem' làm giảm mức nghiêm trọng của vấn đề ba tuần." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Câu mở của thư phàn nàn: I am writing to complain about / express my concern about + vấn đề + số tham chiếu. Bình tĩnh nhưng rõ ràng ngay từ đầu.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "prompt-internet",
+      "prompt": "Which request is polite but firm?",
+      "hint": "Look for a soft structure combined with a concrete action and a time limit.",
+      "options": [
+        { "text": "Fix my internet now.", "misconception": "too_aggressive", "whyVi": "Câu mệnh lệnh trống trơn, không có từ lịch sự nào — quá thẳng với thư trang trọng." },
+        { "text": "If it's not too much trouble, maybe someone could look at it sometime?", "misconception": "too_weak", "whyVi": "'Maybe… sometime' không có hành động cụ thể, không có thời hạn — người nhận có thể trì hoãn mãi." },
+        { "text": "I would like a technician to visit by Friday, March 20, and I would appreciate written confirmation of the appointment.", "misconception": null, "whyVi": "Đúng: cấu trúc lịch sự (would like, would appreciate) + hành động cụ thể + hạn chót." },
+        { "text": "Can u send someone asap?", "misconception": "informal_slip", "whyVi": "'u', 'asap' là kiểu nhắn tin, hoàn toàn sai register của thư trang trọng." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Polite but firm = cấu trúc mềm (would, could, appreciate) + nội dung cứng (cái gì, khi nào).",
+      "competency": "tone_register"
+    },
+    {
+      "id": "g3",
+      "type": "text",
+      "prompt": "Complete the formal request with one word: 'I would ____ it if you could confirm the new appointment by email.'",
+      "hint": "The missing verb means 'be thankful for' and is followed by 'it if'.",
+      "answers": ["appreciate"],
+      "mode": "exact",
+      "misconception": "informal_slip",
+      "explanationVi": "'I would appreciate it if you could…' là mẫu yêu cầu trang trọng phổ biến nhất. Đừng quên 'it' — 'I would appreciate if you could' là lỗi thường gặp.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "prompt": "Bullet: 'Describe the problem with your furniture order.' Which sentence is the most effective start to this paragraph?",
+      "hint": "Which option gives the reader facts they could check in their own records?",
+      "options": [
+        { "text": "The order was very bad and I was really upset when I opened the boxes.", "misconception": "vague_facts", "whyVi": "Chỉ có cảm xúc và tính từ chung chung, không có số đơn hàng, ngày hay mô tả hư hỏng." },
+        { "text": "Order #A4471, placed on February 3, arrived on February 17, ten days late, and two of the four dining chairs had cracked legs.", "misconception": null, "whyVi": "Đúng: số đơn hàng, ngày đặt, ngày giao, mức trễ, và hư hỏng cụ thể — người nhận có thể kiểm tra ngay." },
+        { "text": "I always buy from your store and I have never had a problem before, so I am very surprised.", "misconception": "vague_facts", "whyVi": "Đây là thông tin nền, không mô tả vấn đề. Bullet hỏi 'describe the problem' nhưng câu này chưa nói vấn đề là gì." },
+        { "text": "Your warehouse obviously packed everything carelessly.", "misconception": "too_aggressive", "whyVi": "Buộc tội và đoán nguyên nhân ('obviously') thay vì mô tả sự việc." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Dữ kiện (số, ngày, chi tiết hư hỏng) thuyết phục hơn mọi tính từ cảm xúc. Mở đoạn mô tả vấn đề bằng những gì có thể kiểm chứng.",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "prompt": "Which is the most appropriate closing line for a formal complaint to a property management company?",
+      "options": [
+        { "text": "Thank you for your prompt attention to this matter.", "misconception": null, "whyVi": "Đúng: câu kết trang trọng chuẩn, lịch sự và ngầm nhắc rằng bạn mong được xử lý sớm." },
+        { "text": "Hope you guys can sort it out soon!", "misconception": "informal_slip", "whyVi": "'you guys', 'sort it out' và dấu chấm than là giọng thân mật." },
+        { "text": "If I don't hear from you by tomorrow, I will tell everyone how bad your company is.", "misconception": "too_aggressive", "whyVi": "Đe dọa, hạn chót không hợp lý (ngày mai), và có viết tắt. Giọng này làm mất thiện chí của người nhận." },
+        { "text": "Sorry for taking your time with my small problem.", "misconception": "too_weak", "whyVi": "Tự hạ thấp vấn đề ('small problem') ở cuối thư làm yếu toàn bộ yêu cầu bạn vừa đưa ra." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Câu kết trang trọng cần lịch sự, tự tin và không đe dọa. Các lựa chọn khác: 'I look forward to your reply.' / 'I look forward to hearing from you.'",
+      "competency": "tone_register"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "prompt": "You are writing a formal complaint to a hotel manager in Whistler. Which sentence should you NOT include because it would damage the tone?",
+      "options": [
+        { "text": "I was disappointed to find that our room had not been cleaned during our three-night stay.", "misconception": "too_weak", "whyVi": "Câu này hoàn toàn phù hợp: nêu cảm xúc tiết chế ('disappointed') kèm dữ kiện. Nói thẳng vấn đề không phải là bất lịch sự." },
+        { "text": "Your staff are lazy and clearly don't know how to do their jobs.", "misconception": null, "whyVi": "Đúng: đây là câu xúc phạm nhân viên, quy chụp và buộc tội — phải bỏ. Hãy mô tả sự việc thay vì đánh giá con người." },
+        { "text": "Unfortunately, the air conditioning in Room 214 did not work, even after it was reported to the front desk.", "misconception": "too_weak", "whyVi": "Câu này phù hợp: 'Unfortunately' + dữ kiện + câu bị động trung lập ('it was reported'). Không có gì cần bỏ." },
+        { "text": "I would appreciate a partial refund for the two nights affected.", "misconception": "too_weak", "whyVi": "Đây là một yêu cầu hợp lý và lịch sự. Đưa ra yêu cầu cụ thể là việc nên làm, không làm hỏng giọng văn." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Polite but firm không có nghĩa là né tránh vấn đề. Các câu nêu dữ kiện và yêu cầu hợp lý đều nên giữ; chỉ câu xúc phạm, quy chụp mới phải bỏ.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "i3",
+      "type": "text",
+      "prompt": "Rewrite in formal register. 'I want my money back.' → 'I would like to request a full ____.' (one word)",
+      "answers": ["refund", "reimbursement"],
+      "mode": "exact",
+      "misconception": "informal_slip",
+      "explanationVi": "'Request a full refund' là collocation trang trọng chuẩn ('a full reimbursement' cũng đúng nhưng ít phổ biến hơn). Tương tự: request a replacement, request a credit, request a repair.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "i4",
+      "type": "order",
+      "prompt": "Put the parts of this billing complaint in the most logical order.",
+      "items": [
+        "Dear Ms. Albright,",
+        "I am writing regarding an incorrect charge on my membership account at the Lonsdale Fitness Centre.",
+        "On my April statement, I was charged $59.99 twice on April 1, even though I have only one monthly membership.",
+        "I called the front desk on April 4 and was told that the issue would be corrected within a week, but the second charge has still not been refunded.",
+        "I would appreciate it if you could refund the duplicate charge to my credit card by April 30 and confirm this by email.",
+        "Thank you for your prompt attention to this matter.\n\nSincerely,\nNgoc Anh Bui"
+      ],
+      "misconception": "vague_facts",
+      "explanationVi": "Khung phàn nàn: chào → mục đích → dữ kiện (bị trừ tiền hai lần ngày 1/4) → việc đã làm (gọi ngày 4/4, kết quả) → yêu cầu có hạn chót → câu kết + ký tên. Yêu cầu chỉ có sức nặng khi đặt sau dữ kiện và nỗ lực trước đó.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i5",
+      "type": "text",
+      "prompt": "Make this sentence less accusatory by using the passive. 'Your technician missed the appointment.' → 'The appointment ____ ____.' (two words)",
+      "answers": ["was missed"],
+      "mode": "exact",
+      "misconception": "too_aggressive",
+      "explanationVi": "Câu bị động (was missed) tập trung vào sự việc thay vì người gây ra lỗi, giúp giọng văn trung lập mà vẫn rõ ràng. Rất hữu ích khi phàn nàn với công ty.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "A moving company scratched your dining table. Which paragraph is the best answer to the bullet 'Say what you would like the company to do'?",
+      "options": [
+        { "text": "Please do something about this. I hope you understand how I feel.", "misconception": "too_weak", "whyVi": "'Do something' không phải yêu cầu cụ thể; câu thứ hai thiên về cảm xúc. Công ty không biết bạn muốn gì." },
+        { "text": "I would like you to pay for the repair. Thank you.", "misconception": "vague_facts", "whyVi": "Có hành động nhưng thiếu số tiền, thiếu bằng chứng và thiếu thời hạn — khó được xử lý nhanh." },
+        { "text": "I have attached two photos of the damage and a repair estimate of $280 from a local furniture repair shop. I would appreciate it if you could cover this cost, either by reimbursing me directly or by arranging the repair yourselves, and let me know your decision by Friday, May 15.", "misconception": null, "whyVi": "Đúng: có bằng chứng (ảnh, báo giá), số tiền cụ thể, hai phương án hợp lý và hạn chót — lịch sự nhưng kiên quyết." },
+        { "text": "If you do not pay $280 immediately, I will report your company and leave bad reviews everywhere.", "misconception": "too_aggressive", "whyVi": "Có số tiền cụ thể nhưng giọng đe dọa. Ở Level 8, giọng văn sai làm hỏng một yêu cầu hợp lý." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Đoạn yêu cầu Level 8: bằng chứng + hành động cụ thể (có thể hai phương án) + hạn chót + cấu trúc lịch sự.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "prompt-internet",
+      "prompt": "Which sentence best shows understanding while staying firm?",
+      "options": [
+        { "text": "I understand that technical problems can happen; however, three weeks without reliable service is not acceptable for a plan that costs $85 a month.", "misconception": null, "whyVi": "Đúng: thừa nhận một cách hợp lý ('I understand that…') rồi chuyển sang lập trường rõ ràng bằng 'however' và dữ kiện cụ thể." },
+        { "text": "I understand that you are busy, so it is okay if you cannot fix it soon.", "misconception": "too_weak", "whyVi": "Sự thông cảm biến thành nhượng bộ hoàn toàn — bạn tự xóa bỏ yêu cầu của mình." },
+        { "text": "Technical problems happen, but your company obviously does not care about its customers.", "misconception": "too_aggressive", "whyVi": "Vế sau quy chụp động cơ ('obviously does not care') — buộc tội thay vì nêu dữ kiện." },
+        { "text": "I understand that technical problems can happen, but it's kinda annoying, to be honest.", "misconception": "informal_slip", "whyVi": "Cấu trúc tốt nhưng 'it's kinda annoying, to be honest' là văn nói thân mật, sai register." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Mẫu 'I understand that… ; however, …' giúp bạn tỏ ra hợp lý mà không lùi bước. Vế sau cần dữ kiện, không cần tính từ cảm xúc.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "stimulusId": "prompt-coat",
+      "medium": "write",
+      "minWords": 150,
+      "prompt": "Write the full complaint to the customer service manager (150–200 words). Use at least three formal expressions from this lesson.",
+      "checklist": [
+        "States the purpose (complaint and request for help) in the first sentence, with an order number.",
+        "Bullet 1 gives specific facts: date, item details and exactly what was wrong.",
+        "Bullet 2 describes the previous attempt with a date and its result.",
+        "Bullet 3 requests a specific action with a deadline, ideally with an alternative.",
+        "Stays polite but firm: no threats, insults, slang or contractions.",
+        "Uses a formal greeting, closing line and sign-off; 150–200 words."
+      ],
+      "modelAnswer": "Dear Customer Service Manager,\n\nI am writing to complain about a recent online order, number WC-80215, and to ask for your help in resolving it.\n\nOn November 3, I ordered a navy down-filled winter coat in size medium for $249. However, the coat that arrived on November 10 was an extra-large, and the main zipper was broken, so it cannot be closed at all.\n\nOn November 11, I submitted a return request through your website and attached photos of the size label and the damaged zipper. Despite this, I have not received a reply in over two weeks, and my account still shows the request as pending. With temperatures in Prince George already below zero, I urgently need a coat I can wear.\n\nI would appreciate it if you could send a replacement in the correct size by December 5, along with a prepaid label for returning the damaged one. If a replacement is not available, I would like to request a full refund to my credit card.\n\nThank you for your prompt attention to this matter.\n\nSincerely,\nHanh Do",
+      "misconception": "too_aggressive",
+      "explanationVi": "Đối chiếu bài của bạn với sáu bước: mục đích + số đơn → dữ kiện → việc đã làm → yêu cầu + hạn chót (+ phương án dự phòng) → câu kết. Đọc lại từng câu và hỏi: câu này có đe dọa, buộc tội hay quá rụt rè không?",
+      "competency": "tone_register"
+    }
+  ],
+  "misconceptions": {
+    "too_aggressive": {
+      "label": "Giọng gay gắt, đe dọa",
+      "explanationVi": "Bạn nghĩ rằng phàn nàn mạnh mẽ nghĩa là dùng từ mạnh: ra lệnh ('You must'), buộc tội ('your staff are lazy'), đe dọa ('I will sue'). Trong thư trang trọng, giọng này làm bạn kém chuyên nghiệp và khiến người nhận phòng thủ — một lỗi kiểm soát register.",
+      "fixVi": "Giữ sự kiên quyết trong nội dung (dữ kiện, yêu cầu, hạn chót), còn cách nói thì dùng cấu trúc mềm: I would appreciate it if…, I would like to request… Dùng câu bị động để nói về lỗi mà không buộc tội cá nhân."
+    },
+    "too_weak": {
+      "label": "Quá rụt rè, yêu cầu mơ hồ",
+      "explanationVi": "Bạn sợ bị coi là bất lịch sự nên xin lỗi thừa, dùng 'maybe', 'if possible', tự hạ thấp vấn đề, hoặc nghĩ rằng nêu thẳng vấn đề là thô lỗ. Kết quả: người nhận không thấy vấn đề nghiêm trọng và không biết phải làm gì.",
+      "fixVi": "Bỏ lời xin lỗi khi bạn là người bị ảnh hưởng. Nêu vấn đề bằng dữ kiện và yêu cầu bằng một hành động cụ thể + hạn chót. Lịch sự nằm ở 'would/could', không nằm ở 'maybe'."
+    },
+    "vague_facts": {
+      "label": "Thiếu dữ kiện cụ thể",
+      "explanationVi": "Bạn mô tả bằng cảm xúc và tính từ chung chung ('very bad', 'many times') thay vì dữ kiện. Người nhận không thể kiểm tra hay xử lý, và giám khảo thấy bullet chưa được phát triển đầy đủ.",
+      "fixVi": "Mỗi email phàn nàn cần ít nhất: một số tham chiếu, một hoặc hai ngày cụ thể, một con số (bao nhiêu lần, bao nhiêu tiền) và một hậu quả cụ thể. Sắp xếp: dữ kiện → việc đã làm → yêu cầu."
+    },
+    "informal_slip": {
+      "label": "Lẫn từ ngữ thân mật",
+      "explanationVi": "Bạn quen văn nói hoặc tin nhắn nên vô tình dùng 'Hey', 'guys', 'kinda', 'asap', viết tắt, hoặc ký 'Thanks,' trong thư trang trọng. Một vài từ sai register đủ làm cả email kém chuyên nghiệp.",
+      "fixVi": "Khi viết cho công ty hay cơ quan, kiểm tra ba chỗ: lời chào (Dear + tên/chức danh), không viết tắt/slang trong thân thư, và câu kết + 'Sincerely,' + họ tên đầy đủ."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "I am writing to express my concern about…", "vi": "Tôi viết thư để bày tỏ sự lo ngại về… (mở đầu phàn nàn lịch sự)", "example": "I am writing to express my concern about the repeated power outages in our building in Burnaby." },
+    { "term": "I was disappointed to find that…", "vi": "Tôi thất vọng khi phát hiện rằng… (cảm xúc tiết chế)", "example": "I was disappointed to find that the parcel had been left outside in the rain." },
+    { "term": "Despite + noun / -ing", "vi": "Mặc dù… (nhấn mạnh rằng nỗ lực trước đó không có kết quả)", "example": "Despite two phone calls to your office, the issue has not been resolved." },
+    { "term": "I would appreciate it if you could…", "vi": "Tôi sẽ rất cảm kích nếu anh/chị có thể… (yêu cầu lịch sự)", "example": "I would appreciate it if you could send a replacement by December 5." },
+    { "term": "I would like to request…", "vi": "Tôi xin đề nghị… (yêu cầu trang trọng, rõ ràng)", "example": "I would like to request a full refund for the cancelled class." },
+    { "term": "I understand that…; however,…", "vi": "Tôi hiểu rằng…; tuy nhiên… (thông cảm nhưng vẫn giữ lập trường)", "example": "I understand that delays can happen; however, I have now waited six weeks for this repair." },
+    { "term": "within five business days", "vi": "trong vòng năm ngày làm việc (thời hạn cụ thể)", "example": "Could you please confirm the new appointment within five business days?" },
+    { "term": "I have attached…", "vi": "Tôi đã đính kèm… (đưa bằng chứng)", "example": "I have attached a copy of my receipt and two photos of the damage." },
+    { "term": "Thank you for your prompt attention to this matter.", "vi": "Cảm ơn anh/chị đã sớm quan tâm xử lý việc này. (câu kết trang trọng)", "example": "Thank you for your prompt attention to this matter. Sincerely, Hanh Do" }
+  ],
+  "grammar": [
+    {
+      "point": "Polite request structures: would appreciate it if / would be grateful if / would like to request",
+      "explanationVi": "Các cấu trúc với 'would' làm yêu cầu mềm hơn nhưng vẫn rõ ràng. Lưu ý: 'appreciate IT if you could' (không bỏ 'it'); 'grateful if you could'; 'request that + chủ ngữ + động từ nguyên mẫu' (request that the council install, không phải installs).",
+      "examples": [
+        "I would appreciate it if you could refund the duplicate charge.",
+        "I would be grateful if you could confirm the appointment in writing.",
+        "I would like to request that the council install a locked bike cage."
+      ]
+    },
+    {
+      "point": "Passive voice for neutral, non-accusatory facts",
+      "explanationVi": "Khi nói về lỗi của người khác trong thư trang trọng, câu bị động giúp tập trung vào sự việc thay vì buộc tội cá nhân. Cấu trúc: be (chia theo thì) + quá khứ phân từ.",
+      "examples": [
+        "Your technician didn't come. → The scheduled visit was missed.",
+        "You charged me twice. → I was charged twice on April 1.",
+        "The problem was reported to the front desk on April 4."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Luyện Task 1 – viết email trang trọng", "route": "/writing?task=W1" },
+    { "label": "Ôn từ vựng email trang trọng", "route": "/vocabulary" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises; keys sound, i2 has exactly one sentence to remove. Added 'reimbursement' as an accepted i3 answer, changed apologising to apologizing (Canadian -ize); word counts and register guidance verified."}
+}

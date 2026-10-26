@@ -1,0 +1,339 @@
+{
+  "id": "sp-07",
+  "skill": "speaking",
+  "module": "speaking-tasks",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Task 2: Talking about a personal experience",
+  "titleVi": "Task 2: Kể về một trải nghiệm cá nhân",
+  "estimatedMinutes": 30,
+  "prerequisites": ["sp-01"],
+  "competencies": ["grammar", "coherence"],
+  "tasks": ["S2"],
+  "objectives": [
+    "You will be able to tell a 60-second story in a clear order: scene → events → turning point → ending → feelings and lesson.",
+    "You will be able to use past simple, past continuous and past perfect correctly and consistently while you speak.",
+    "You will be able to guide the listener with time markers (a couple of years ago, at first, all of a sudden, eventually, looking back).",
+    "You will be able to finish with how you felt and what you learned, linked back to the present."
+  ],
+  "objectiveVi": "Sau bài này, bạn kể một câu chuyện 60 giây theo trình tự rõ ràng, dùng đúng và nhất quán các thì quá khứ, dẫn dắt người nghe bằng từ chỉ thời gian, và kết thúc bằng cảm xúc + bài học.",
+  "whyItMattersVi": "Tiếng Việt không chia động từ theo thì, nên khi kể chuyện bằng tiếng Anh dưới áp lực thời gian, người Việt rất hay trượt về thì hiện tại (“Last year I go…”, “he say…”). Giám khảo nghe lỗi này ngay lập tức, và nó kéo điểm grammar xuống mức 6. Task 2 là cơ hội tốt nhất để chứng minh bạn kiểm soát được thì quá khứ. Nếu thêm vào đó một trình tự rõ ràng và phần cảm xúc/bài học, câu trả lời của bạn sẽ nghe mạch lạc và “trưởng thành” — đúng đặc điểm của Level 8.",
+  "concept": [
+    {
+      "heading": "Task 2 yêu cầu gì",
+      "body": "Trong **Task 2: Talking about a Personal Experience**, đề hỏi về một lần bạn đã trải qua điều gì đó: *Talk about a time when…* Bạn có **30 giây chuẩn bị** và **60 giây nói**. Đề thường có 2–3 câu hỏi phụ (*what happened, how you solved it, how you felt*). Phải trả lời **tất cả** các câu hỏi phụ.\n\nCâu chuyện **không cần có thật hoàn toàn**. Nếu không nhớ ra trải nghiệm nào, hãy chọn một chuyện đơn giản, dễ kể, có thể bịa thêm chi tiết. Một câu chuyện nhỏ kể rõ ràng tốt hơn một câu chuyện lớn kể lộn xộn."
+    },
+    {
+      "heading": "Trình tự 5 bước trong 60 giây",
+      "body": "1. **Set the scene (≈10 giây):** khi nào, ở đâu, với ai. *A couple of winters ago, I was driving to Whistler with two friends.*\n2. **Events (≈15 giây):** 2–3 sự việc theo đúng thứ tự. *At first… Then… After that…*\n3. **Turning point / problem (≈10 giây):** điều bất ngờ. *All of a sudden, the car started sliding.*\n4. **Ending (≈10 giây):** bạn đã giải quyết thế nào. *Eventually, a tow truck pulled us out.*\n5. **Feelings + lesson (≈10–15 giây):** *I was shaken but relieved. Looking back, it taught me to always check the road report.*\n\nKhoảng **130–150 từ** là vừa đủ 60 giây. Đừng dành 30 giây cho bước 1 — người nghe muốn nghe chuyện gì đã xảy ra."
+    },
+    {
+      "heading": "Ba thì quá khứ: mỗi thì một vai trò",
+      "body": "- **Past simple** — các sự việc chính, theo thứ tự: *I **missed** the bus, so I **called** a taxi.* Chú ý động từ bất quy tắc: *go → went, take → took, lose → lost, tell → told, find → found.*\n- **Past continuous** — bối cảnh, hành động đang diễn ra khi có chuyện khác chen vào: *I **was waiting** at the bus stop **when** it **started** to pour.*\n- **Past perfect** — chuyện xảy ra *trước* thời điểm trong câu chuyện: *I **had** never **driven** in snow before.* / *By the time I got there, the store **had** already **closed**.*\n\nQuy tắc quan trọng nhất: khi đã bắt đầu kể ở quá khứ, **giữ quá khứ đến hết câu chuyện**. Chỉ chuyển sang hiện tại ở phần bài học: *Since then, I**'ve** always **kept** a snow brush in my car* (present perfect nối quá khứ với hiện tại) hoặc *Now I **always** check the forecast.*"
+    },
+    {
+      "heading": "Từ chỉ thời gian và cảm xúc",
+      "body": "**Time markers** giúp người nghe không bị lạc:\n- Mở đầu: *A couple of years ago… / Last spring… / When I first moved to Burnaby…*\n- Diễn tiến: *At first… / Then… / After that… / Right after that…*\n- Bất ngờ: *All of a sudden… / Out of nowhere… / That's when…*\n- Kết: *Eventually… / In the end… / By the time…*\n\n**Cảm xúc** — thay *happy/sad/scared* bằng từ chính xác hơn: *relieved* (nhẹ nhõm), *embarrassed* (ngượng), *frustrated* (bực bội), *overwhelmed* (choáng ngợp), *proud of myself*, *grateful*, *nervous*, *shaken* (còn run).\n\n**Bài học:** *Looking back, … / It taught me that… / Since then, I've…*"
+    },
+    {
+      "heading": "Phương pháp 30 giây chuẩn bị",
+      "body": "1. **(5 giây)** Chọn ngay câu chuyện đầu tiên đến trong đầu — không đổi ý.\n2. **(15 giây)** Ghi một dòng thời gian 4 ô bằng từ khoá: *Whistler / snow → slide → tow truck → relieved, check road report*.\n3. **(5 giây)** Ghi 1–2 động từ bất quy tắc bạn sẽ dùng để nhắc mình giữ quá khứ (*slid, took*).\n4. **(5 giây)** Chuẩn bị câu kết bài học.\n\nKhi nói, nếu lỡ dùng sai thì, **tự sửa nhanh** (*we go— we went*) rồi nói tiếp. Tự sửa tự nhiên không bị trừ điểm nhiều bằng việc để lỗi lặp lại suốt câu chuyện."
+    }
+  ],
+  "stimuli": {
+    "prompt-lost": {
+      "title": "Task 2 prompt: getting lost",
+      "text": "Talk about a time when you got lost or had trouble finding your way somewhere. What happened, and how did you solve the problem?"
+    },
+    "prompt-learn": {
+      "title": "Task 2 prompt: learning something quickly",
+      "text": "Talk about a time when you had to learn a new skill very quickly. What was the skill, why did you need it, and how did it go?"
+    },
+    "prompt-weather": {
+      "title": "Task 2 prompt: weather changing your plans",
+      "text": "Talk about a time when the weather changed your plans. What had you planned to do, what happened, and how did you feel about it?"
+    },
+    "prompt-event": {
+      "title": "Task 2 prompt: an event that did not go as planned",
+      "text": "Talk about a time when a party, celebration or event that you helped to organize did not go as planned. Describe what happened and what you learned from it."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Three versions of the same story",
+      "stimulusId": "prompt-lost",
+      "question": "Compare a weak, an acceptable and a Level 8 answer to the 'getting lost' prompt.",
+      "steps": [
+        "Choose one simple story fast: the first week in Vancouver, taking the wrong bus to a job interview.",
+        "Make a 4-box timeline: new in Vancouver / interview downtown → wrong bus, phone dead → asked a driver, ran → made it, relieved; always plan a backup.",
+        "Plan the tenses: past continuous for the background (was heading), past perfect for the earlier fact (had only been here a week), past simple for the events.",
+        "Check the prompt's two questions: 'what happened' (the wrong bus) and 'how did you solve it' (the bus driver + running). Both must be answered.",
+        "Compare the three versions below."
+      ],
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "OK, when I come to Canada, I get lost one time. I go to interview and I take bus. But bus is wrong. I don't know where I am. My phone is no battery. I am very scared. Then I ask one man and he tell me. So I go to the interview. It was OK. I think it is very bad experience.",
+          "commentVi": "Gần như toàn bộ dùng thì hiện tại (come, get, go, take, tell) — lỗi lớn nhất khiến điểm grammar ở mức 5–6. Thiếu mạo từ (to interview, take bus, bus is wrong), “my phone is no battery” là dịch từ tiếng Việt. Không có bối cảnh cụ thể (ở đâu, khi nào), không có từ chỉ thời gian ngoài “then”, cảm xúc chỉ là “very scared”, câu kết “very bad experience” không phải là bài học. Khoảng 60 từ → chỉ khoảng 30 giây."
+        },
+        {
+          "label": "acceptable",
+          "text": "When I first came to Vancouver, I got lost on the way to a job interview. I took a bus downtown, but it was the wrong bus, and it went to Stanley Park. My phone battery was dead, so I couldn't check the map. I was really nervous. Then I asked the bus driver, and he told me which bus to take. I arrived ten minutes late, but the interviewer was nice. I felt happy. After that, I always check the route before I go somewhere.",
+          "commentVi": "Thì quá khứ đúng và nhất quán, có trình tự rõ, trả lời đủ hai câu hỏi của đề — mức Level 6–7. Nhưng chỉ dùng past simple, câu ngắn nối bằng “and/so/then”; cảm xúc đơn giản (nervous, happy); thiếu một chút chi tiết để câu chuyện sống động. Khoảng 90 từ → khoảng 45 giây, còn dư thời gian để phát triển phần cao trào."
+        },
+        {
+          "label": "level8",
+          "text": "This happened during my first week in Vancouver. I had a job interview downtown, and since I'd only been in the city for a few days, I was relying completely on my phone for directions. I was sitting on the bus, going over my answers, when I suddenly realized nothing outside looked familiar. I'd taken the right number but in the wrong direction, and to make things worse, my phone had just died. I was starting to panic. So I went up to the driver and explained what had happened. He showed me where to get off and which bus to catch back. I ended up running the last two blocks, and I walked in just two minutes late, completely out of breath. In the end, I got the job! Looking back, it taught me to always carry a backup, so now I keep a portable charger in my bag.",
+          "commentVi": "Dùng linh hoạt ba thì quá khứ đúng vai trò: past perfect cho bối cảnh trước đó (I'd only been, I'd taken, had just died), past continuous cho hành động đang diễn ra bị cắt ngang (was sitting… when I suddenly realized), past simple cho chuỗi sự việc. Time markers dẫn dắt rõ (during my first week, suddenly, In the end, Looking back). Có cao trào (to make things worse), cảm xúc cụ thể (starting to panic, out of breath), và bài học nối về hiện tại (so now I keep…). Khoảng 150 từ — vừa đủ 60 giây nếu nói trôi chảy, không ngập ngừng."
+        }
+      ],
+      "answer": "The Level 8 version controls all three past tenses, follows a clear scene → events → turning point → ending → lesson order, and links the lesson to the present.",
+      "takeawayVi": "Ngữ pháp đúng là nền (acceptable). Để lên Level 8: thêm past continuous/past perfect đúng chỗ, một khoảnh khắc cao trào, cảm xúc chính xác và bài học nối về hiện tại."
+    },
+    {
+      "id": "ex2",
+      "title": "From a 4-box timeline to a story",
+      "stimulusId": "prompt-learn",
+      "question": "How do you turn 30 seconds of notes into a 60-second story for 'learning a new skill quickly'?",
+      "steps": [
+        "Pick a story: learning to drive and passing the ICBC road test within two months of arriving, because a new job required a licence.",
+        "Box 1 (scene): 'new job in Langley, no transit, licence needed in 2 months'. Box 2 (events): 'lessons every Saturday, practised with my brother-in-law in an empty parking lot'. Box 3 (turning point): 'failed the first road test — rolled through a stop sign'. Box 4 (ending + lesson): 'passed second try, proud; mistakes are part of learning'.",
+        "Mark the tense for each box: Box 1 = past continuous/past perfect for background (I'd just been offered…); Boxes 2–3 = past simple; Box 4 = past simple + present perfect for the lesson (Since then, I've…).",
+        "Attach a time marker to each box: When I first… / Every Saturday… / That's when… / In the end…",
+        "Speak from the boxes, not from memorized sentences."
+      ],
+      "answer": "Sample opening: \"A few years ago, I'd just been offered a job in Langley, but there was no transit near the warehouse, so I had to get my driver's licence in less than two months.\"",
+      "takeawayVi": "Dòng thời gian 4 ô + một từ chỉ thời gian cho mỗi ô = khung xương của câu chuyện. Ghi sẵn thì cho từng ô giúp bạn không trượt về thì hiện tại."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "text",
+      "stimulusId": "prompt-weather",
+      "prompt": "Complete the sentence with the correct form of \"drive\": \"We ______ up the Sea-to-Sky Highway when it started snowing really heavily.\"",
+      "hint": "One action was already in progress when a second, shorter action interrupted it.",
+      "answers": ["were driving", "had been driving"],
+      "mode": "exact",
+      "misconception": "tense-slip",
+      "explanationVi": "Hành động đang diễn ra (lái xe) bị một sự việc khác chen vào (bắt đầu có tuyết) → past continuous “were driving” + past simple “started”.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "prompt-weather",
+      "prompt": "Which sentence uses the past perfect correctly to give background to the story?",
+      "hint": "The past perfect is for something that happened before the main moment of the story.",
+      "options": [
+        { "text": "We had planned the camping trip for weeks, so we were really disappointed when the park closed the campground.", "misconception": null, "whyVi": "Đúng: việc lên kế hoạch xảy ra trước khi khu cắm trại đóng cửa → had planned." },
+        { "text": "We have planned the camping trip for weeks, so we were really disappointed.", "misconception": "tense-slip", "whyVi": "Present perfect (have planned) không dùng cho chuyện đã kết thúc trong quá khứ của câu chuyện." },
+        { "text": "We had plan the camping trip for weeks, so we were really disappointed.", "misconception": "tense-slip", "whyVi": "Past perfect cần quá khứ phân từ: had planned, không phải had plan." },
+        { "text": "We plan the camping trip for weeks, so we are really disappointed.", "misconception": "tense-slip", "whyVi": "Trượt về thì hiện tại — câu chuyện đã xảy ra trong quá khứ." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Past perfect (had + V3) đưa người nghe lùi về trước thời điểm chính của câu chuyện. Rất hữu ích cho câu đầu (bối cảnh) mà không làm rối trình tự.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g3",
+      "type": "order",
+      "stimulusId": "prompt-weather",
+      "prompt": "Put the parts of this Task 2 story in the best order.",
+      "hint": "Follow the five-step order: scene → events → turning point → ending → feelings and lesson.",
+      "items": [
+        "Last August, my family had planned a long weekend at a campsite near Kamloops.",
+        "We packed the car on Friday morning and set off right after breakfast.",
+        "About an hour into the drive, we heard on the radio that a wildfire nearby had closed the campground.",
+        "In the end, we turned around and spent the weekend having a picnic and a movie night at home instead.",
+        "I was disappointed at first, but looking back, it taught me to always check the BC Wildfire Service website before a summer trip."
+      ],
+      "misconception": "jumbled-order",
+      "explanationVi": "Trình tự 5 bước giúp người nghe theo kịp: bối cảnh (Last August) → sự việc (packed, set off) → bước ngoặt (heard on the radio) → kết (In the end) → cảm xúc + bài học (looking back).",
+      "competency": "coherence"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "prompt-weather",
+      "prompt": "The prompt asks \"how did you feel about it?\" Which ending answers this best?",
+      "hint": "Look for a precise feeling word and a link from the past to what you do now.",
+      "options": [
+        { "text": "So that's my story. Thank you.", "misconception": "missing-reflection", "whyVi": "Không trả lời câu hỏi về cảm xúc; kết như vậy lãng phí 10 giây cuối." },
+        { "text": "I was frustrated at first because we'd been looking forward to it for so long, but honestly, I ended up feeling grateful that we were safe, and since then I've always had a backup plan for summer trips.", "misconception": null, "whyVi": "Cảm xúc chính xác, có thay đổi (frustrated → grateful), lý do, và bài học nối về hiện tại bằng present perfect." },
+        { "text": "The weather in BC is very unpredictable, especially in summer.", "misconception": "missing-reflection", "whyVi": "Nhận xét chung về thời tiết, không phải cảm xúc của bạn." },
+        { "text": "I feel very sad and very angry.", "misconception": "tense-slip", "whyVi": "Sai thì (feel thay vì felt) và từ cảm xúc đơn giản, lặp “very”." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Phần kết Level 8 = cảm xúc chính xác + lý do + bài học hoặc thay đổi đến hiện tại (since then I've…, now I always…).",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "prompt": "Which sentence from a Task 2 story contains NO grammar errors?",
+      "options": [
+        { "text": "Last spring I go to Victoria with my wife and we take the ferry.", "misconception": "tense-slip", "whyVi": "“Last spring” là quá khứ nhưng động từ ở hiện tại (go, take) → went, took." },
+        { "text": "Last spring I went to Victoria with my wife, and we took the ferry from Tsawwassen.", "misconception": null, "whyVi": "Đúng: past simple nhất quán, động từ bất quy tắc đúng (went, took)." },
+        { "text": "Last spring I was went to Victoria with my wife and we taked the ferry.", "misconception": "tense-slip", "whyVi": "“was went” sai cấu trúc; “taked” sai dạng bất quy tắc (took)." },
+        { "text": "Last spring I have gone to Victoria with my wife and we have taken the ferry.", "misconception": "tense-slip", "whyVi": "Present perfect không đi với mốc thời gian quá khứ xác định (last spring)." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Với mốc thời gian quá khứ xác định (last spring, two years ago), dùng past simple. Ôn kỹ động từ bất quy tắc thường gặp khi kể chuyện.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "prompt": "Complete with the correct form of \"leave\": \"By the time I got to the station, the last SkyTrain had already ______.\"",
+      "answers": ["left"],
+      "mode": "exact",
+      "misconception": "tense-slip",
+      "explanationVi": "“By the time + past simple” → mệnh đề kia dùng past perfect: had already left (leave → left → left).",
+      "competency": "grammar"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "prompt": "Choose the best time marker for the gap: \"We were halfway through setting up the tables in the backyard. ______, the sprinklers came on and soaked everything.\"",
+      "options": [
+        { "text": "All of a sudden", "misconception": null, "whyVi": "Đúng: báo hiệu một sự việc bất ngờ xảy ra — bước ngoặt của câu chuyện." },
+        { "text": "Eventually", "misconception": "jumbled-order", "whyVi": "Eventually dùng cho kết quả sau một thời gian dài, không phải cho sự việc bất ngờ." },
+        { "text": "Looking back", "misconception": "jumbled-order", "whyVi": "Looking back dùng ở phần bài học cuối chuyện, khi bạn nhìn lại." },
+        { "text": "First of all", "misconception": "jumbled-order", "whyVi": "First of all dùng để liệt kê ý, không dùng để kể một sự việc bất ngờ." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Mỗi từ chỉ thời gian có vị trí riêng trong câu chuyện. Bước ngoặt: All of a sudden / Out of nowhere / That's when.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "prompt-event",
+      "prompt": "A learner has 30 seconds to plan the 'event that did not go as planned' prompt. Which set of notes is the most useful?",
+      "options": [
+        { "text": "Full sentences: 'Two years ago I organized a surprise party for my sister in our condo in Richmond and I invited twenty people...'", "misconception": "jumbled-order", "whyVi": "Viết câu hoàn chỉnh tốn hết 30 giây và chỉ kịp ghi phần mở đầu; không có dòng thời gian cho cả câu chuyện." },
+        { "text": "sister's surprise party / she came home early → everyone not hidden → laughed, still fun / plan B, tell partner the timing", "misconception": null, "whyVi": "Dòng thời gian 4 ô bằng từ khoá: bối cảnh → bước ngoặt → kết → bài học. Đủ để nói 60 giây." },
+        { "text": "parties, Canada, family, food, fun, problems", "misconception": "missing-reflection", "whyVi": "Danh sách chủ đề, không phải câu chuyện; không có trình tự và không có bài học." },
+        { "text": "Write ten useful vocabulary words to use somewhere in the answer.", "misconception": "jumbled-order", "whyVi": "Từ vựng rời rạc không giúp bạn kể theo trình tự; dễ dẫn đến câu chuyện lộn xộn." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Ghi chú tốt cho Task 2 là dòng thời gian bằng từ khoá, kết thúc bằng bài học. Đề này yêu cầu “what you learned”, nên ô cuối phải có bài học.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i5",
+      "type": "order",
+      "stimulusId": "prompt-learn",
+      "prompt": "Put these sentences in order to make a clear story about learning a skill quickly.",
+      "items": [
+        "Two years ago, my manager asked me to cover for a co-worker who ran the forklift in our warehouse.",
+        "I had never driven one before, so I spent every lunch break that week practising with our supervisor.",
+        "On the Friday, while I was moving my first full pallet, I misjudged a corner and nearly hit a shelf.",
+        "I took a deep breath, backed up slowly and finished the shift without any more problems.",
+        "Since then, I've realized that I learn fastest when I practise a little every day instead of all at once."
+      ],
+      "misconception": "jumbled-order",
+      "explanationVi": "Bối cảnh (Two years ago) → nền và sự việc (had never driven, spent every lunch break) → bước ngoặt (while I was moving… nearly hit) → kết (finished the shift) → bài học nối hiện tại (Since then, I've realized).",
+      "competency": "coherence"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "Which sentence is the most natural, accurate Level 8 way to describe the turning point of a story?",
+      "options": [
+        { "text": "I was walking the dog along the seawall when I noticed my wallet was missing from my jacket pocket.", "misconception": null, "whyVi": "Past continuous (bối cảnh đang diễn ra) + when + past simple (sự việc chen vào), chi tiết cụ thể." },
+        { "text": "I walk the dog along the seawall and I notice my wallet is missing.", "misconception": "tense-slip", "whyVi": "Toàn bộ ở thì hiện tại — câu chuyện đã xảy ra trong quá khứ." },
+        { "text": "I was walking the dog along the seawall when I was noticing my wallet was missing.", "misconception": "tense-slip", "whyVi": "Hành động ngắn “notice” chen vào phải dùng past simple (noticed), không dùng past continuous." },
+        { "text": "When I had walked the dog, I notice my wallet missing.", "misconception": "tense-slip", "whyVi": "Past perfect dùng sai chỗ và “notice” không chia quá khứ; câu thiếu chặt chẽ." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Mẫu “was/were + V-ing … when + past simple” là cách tự nhiên nhất để mở ra khoảnh khắc bất ngờ trong câu chuyện.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i7",
+      "type": "produce",
+      "stimulusId": "prompt-event",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 60,
+      "prompt": "Record your answer to the prompt. You have 30 seconds to prepare and 60 seconds to speak.",
+      "checklist": [
+        "Sets the scene in the first 10 seconds (when, where, who, what the event was).",
+        "Tells the events in a clear order with at least three different time markers.",
+        "Keeps past tenses consistent and uses past continuous or past perfect at least once correctly.",
+        "Describes how you felt with a precise feeling word (e.g. embarrassed, relieved, overwhelmed).",
+        "Ends with what you learned, linked to the present (since then I've…, now I always…)."
+      ],
+      "modelAnswer": "A couple of years ago, my partner and I decided to throw a surprise thirtieth birthday party for my sister at our condo in Richmond. We'd spent about two weeks planning everything, and her husband had promised to bring her over at seven. So at around six-thirty, we were still blowing up balloons and setting out the food when, all of a sudden, the door opened and there she was, half an hour early! Apparently, her husband had mixed up the times. Half of the guests weren't even there yet, and I was standing on a chair holding a banner. I was so embarrassed at first, but then everyone just burst out laughing, and honestly, it turned out to be a really fun night. Looking back, I learned that you can't control everything, and since then, whenever I organize something, I always confirm the timing twice with everyone involved.",
+      "misconception": "tense-slip",
+      "explanationVi": "Nghe lại bản ghi của bạn và đếm số lần trượt về thì hiện tại. Mục tiêu: 0 lần trong phần kể chuyện, chỉ dùng hiện tại/present perfect ở phần bài học cuối.",
+      "competency": "grammar"
+    }
+  ],
+  "misconceptions": {
+    "tense-slip": {
+      "label": "Trượt thì: kể chuyện quá khứ bằng thì hiện tại",
+      "explanationVi": "Tiếng Việt không chia động từ theo thì, nên khi tập trung vào ý, bạn để động từ ở dạng nguyên mẫu. Đây là lỗi kiểm soát ngữ pháp dưới áp lực, không phải do bạn không biết quy tắc.",
+      "fixVi": "Khi chuẩn bị, ghi 1–2 động từ quá khứ bạn sẽ dùng. Khi nói, nếu nghe mình nói sai (we go…), tự sửa ngay (we went) rồi tiếp tục. Ôn danh sách động từ bất quy tắc thường dùng khi kể chuyện."
+    },
+    "jumbled-order": {
+      "label": "Trình tự câu chuyện lộn xộn",
+      "explanationVi": "Bạn kể theo thứ tự nhớ ra chứ không theo thứ tự xảy ra, hoặc dùng sai từ chỉ thời gian, khiến người nghe không biết chuyện gì xảy ra trước, sau.",
+      "fixVi": "Luôn lập dòng thời gian 4 ô (bối cảnh → sự việc → bước ngoặt → kết + bài học) và gắn sẵn một time marker cho mỗi ô: A couple of years ago / Then / All of a sudden / In the end / Looking back."
+    },
+    "missing-reflection": {
+      "label": "Thiếu cảm xúc và bài học",
+      "explanationVi": "Bạn kể sự việc nhưng bỏ qua phần “how did you feel / what did you learn” mà đề yêu cầu. Câu trả lời thiếu một phần nhiệm vụ và kết thúc đột ngột.",
+      "fixVi": "Dành 10–15 giây cuối cho cảm xúc chính xác + lý do + bài học nối về hiện tại: I was relieved because… Looking back, it taught me… Since then, I've…"
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "A couple of years ago, …", "vi": "Khoảng hai năm trước, … (mở đầu câu chuyện)", "example": "A couple of years ago, I took the ferry to Nanaimo for a job interview." },
+    { "term": "All of a sudden, …", "vi": "Bỗng nhiên, … (báo bước ngoặt)", "example": "All of a sudden, the power went out in the whole building." },
+    { "term": "That's when …", "vi": "Đúng lúc đó thì …", "example": "That's when I realized I'd left my keys inside the car." },
+    { "term": "Eventually, … / In the end, …", "vi": "Cuối cùng thì …", "example": "In the end, a neighbour helped us push the car out of the snow." },
+    { "term": "to make things worse", "vi": "tệ hơn nữa là", "example": "I missed the bus, and to make things worse, it started to pour." },
+    { "term": "I ended up + V-ing", "vi": "rốt cuộc tôi đã…", "example": "I ended up walking all the way home from Metrotown." },
+    { "term": "relieved / embarrassed / overwhelmed", "vi": "nhẹ nhõm / ngượng ngùng / choáng ngợp", "example": "I was so relieved when the clerk found my reservation." },
+    { "term": "Looking back, …", "vi": "Nhìn lại thì, …", "example": "Looking back, it was the best mistake I've ever made." },
+    { "term": "It taught me to + V / that …", "vi": "Điều đó dạy tôi rằng…", "example": "It taught me to always check the road report before driving to the Interior." }
+  ],
+  "grammar": [
+    {
+      "point": "Past simple vs past continuous (was/were + V-ing … when …)",
+      "explanationVi": "Past continuous mô tả hành động đang diễn ra làm nền; past simple mô tả sự việc ngắn chen vào hoặc chuỗi sự việc chính. Đừng dùng past continuous cho hành động ngắn (✗ when I was noticing).",
+      "examples": [
+        "I was waiting for the bus when a car splashed water all over me.",
+        "While we were setting up the tent, it started to rain."
+      ]
+    },
+    {
+      "point": "Past perfect for earlier background (had + past participle)",
+      "explanationVi": "Dùng past perfect để nói chuyện xảy ra trước thời điểm chính của câu chuyện. Một hoặc hai lần là đủ; không cần dùng cho mọi câu.",
+      "examples": [
+        "I had never driven in snow before that trip.",
+        "By the time we arrived, the restaurant had already closed."
+      ]
+    },
+    {
+      "point": "Present perfect to link the lesson to now",
+      "explanationVi": "Ở câu cuối, chuyển sang present perfect hoặc hiện tại đơn để cho thấy ảnh hưởng của câu chuyện đến bây giờ. Đây là lần duy nhất nên rời khỏi thì quá khứ.",
+      "examples": [
+        "Since then, I've always kept a portable charger in my bag.",
+        "Now I always double-check the ferry schedule."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Speaking Task 2: Personal experience", "route": "/speaking?task=S2" },
+    { "label": "Review your speaking mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all exercises; keys correct. Added 'had been driving' as an accepted variant in g1, removed a false implication that driving on the right is new for Vietnamese learners (ex2), trimmed the Level 8 comparison to ~150 words for 60 s."}
+}

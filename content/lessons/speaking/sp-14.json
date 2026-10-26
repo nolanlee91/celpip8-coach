@@ -1,0 +1,352 @@
+{
+  "id": "sp-14",
+  "skill": "speaking",
+  "module": "speaking-level8",
+  "level": "target8",
+  "difficulty": 9,
+  "title": "Upgrading vocabulary range",
+  "titleVi": "Nâng cấp độ phong phú từ vựng",
+  "estimatedMinutes": 30,
+  "prerequisites": ["sp-04"],
+  "competencies": ["vocabulary_range"],
+  "tasks": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"],
+  "objectives": [
+    "You will be able to replace the 'empty words' good, bad, very, a lot and thing with precise, natural alternatives while speaking.",
+    "You will be able to use strong adjectives correctly (exhausted, packed, awful) and avoid 'very' with extreme adjectives.",
+    "You will be able to use common verb–noun and adjective–noun collocations (make a decision, heavy traffic, pay attention).",
+    "You will be able to add one or two natural idiomatic expressions without sounding memorized or over-formal."
+  ],
+  "objectiveVi": "Sau bài này, bạn thay được các \"từ rỗng\" (good, bad, very, a lot, thing) bằng từ chính xác và tự nhiên, dùng đúng tính từ mạnh và collocation phổ biến, và thêm được một vài thành ngữ tự nhiên mà không nghe như học thuộc.",
+  "whyItMattersVi": "Ở Speaking 6, bạn thường diễn đạt được ý nhưng bằng một bộ từ rất hẹp: \"very good\", \"a lot of people\", \"many things\". Người chấm nghe được điều đó ngay trong 10 giây đầu. Lên Level 8 không cần từ hiếm; cần từ chính xác hơn cho đúng ngữ cảnh và các cụm từ đi với nhau tự nhiên (collocation). Kỹ năng này áp dụng cho cả 8 task, và cũng giúp phần Writing của bạn.",
+  "concept": [
+    {
+      "heading": "\"Vocabulary range\" ở Level 8 nghĩa là gì",
+      "body": "Độ phong phú từ vựng **không** có nghĩa là dùng từ dài hay hiếm. Người chấm nghe xem từ bạn chọn có **chính xác** (đúng nghĩa cho ngữ cảnh), **đa dạng** (không lặp một từ nhiều lần) và **tự nhiên** (người Canada có thật sự nói như vậy không).\n\nNăm \"từ rỗng\" làm câu trả lời nghe như Level 5–6: **good, bad, very, a lot, thing**. Chúng không sai, nhưng gần như không mang thông tin. Mục tiêu: mỗi câu trả lời dùng mỗi từ này **tối đa một lần**."
+    },
+    {
+      "heading": "Thay good / bad / nice bằng tính từ theo ngữ cảnh",
+      "body": "Hãy hỏi: **good ở điểm nào?** Câu trả lời chính là từ bạn cần.\n- Địa điểm: *convenient* (tiện), *spacious* (rộng rãi), *cramped* (chật chội), *quiet*, *walkable*.\n- Trải nghiệm: *rewarding* (đáng công), *eye-opening*, *frustrating*, *stressful*.\n- Người: *reliable*, *considerate*, *patient*, *easy-going*.\n- Đồ ăn: *delicious*, *fresh*, *bland* (nhạt), *greasy*.\n- Ý tưởng: *practical*, *fair*, *unrealistic*.\n\nVí dụ: *\"The apartment is good\"* → *\"The apartment is bright and spacious, and it's really convenient for the SkyTrain.\"*"
+    },
+    {
+      "heading": "Thay very bằng tính từ mạnh",
+      "body": "Nhiều cặp **very + tính từ** có một từ mạnh thay thế: *very tired → exhausted*, *very big → huge*, *very small → tiny*, *very bad → awful / terrible*, *very good → excellent / fantastic*, *very crowded → packed*, *very hungry → starving*, *very cold → freezing*.\n\n**Quy tắc ngữ pháp:** tính từ mạnh (extreme adjectives) **không** đi với *very*. Nói *\"absolutely exhausted\"* hoặc *\"really exhausted\"*, không nói *\"very exhausted\"*. Với tính từ thường, có thể dùng *really, pretty, incredibly, quite* để đa dạng thay vì lặp *very*."
+    },
+    {
+      "heading": "Thay a lot và thing bằng danh từ, collocation cụ thể",
+      "body": "- *a lot of traffic* → **heavy traffic**; *a lot of rain* → **heavy rain**; *a lot of people* → *the place was* **packed**; *a lot of money* → **a fortune / a big chunk of my pay**.\n- *thing* → danh từ cụ thể: *belongings* (đồ đạc), *groceries*, *tasks*, *details*, *issue*, *feature*. *\"The thing is…\"* trong văn nói thì chấp nhận được, nhưng đừng dùng *thing* để gọi đồ vật.\n\n**Collocation** là các từ thường đi với nhau. Người Việt hay dịch thẳng: *\"do a mistake\"* (đúng: **make** a mistake), *\"big traffic\"* (đúng: **heavy** traffic), *\"rent is expensive\"* (tự nhiên hơn: rent is **high**), *\"take a decision\"* (Canada: **make** a decision)."
+    },
+    {
+      "heading": "Động từ chính xác thay cho get / do / make chung chung",
+      "body": "*Get* có hàng chục nghĩa; chọn động từ cụ thể hơn khi có thể: *got a prize → won*, *got better → improved*, *got a letter → received*, *got to work → arrived at work*, *got money → earned / saved*. Các động từ như *boost, cut down on, deal with, figure out, sign up for* vừa chính xác vừa rất tự nhiên trong văn nói Canada."
+    },
+    {
+      "heading": "Thành ngữ: tự nhiên, không phô trương",
+      "body": "Một hoặc hai cụm thành ngữ **hiện đại, phổ biến** làm câu trả lời sinh động: *a no-brainer* (quyết định quá dễ), *go the extra mile*, *on the fence* (phân vân), *pay off* (đáng công), *a game-changer*. Tránh thành ngữ cũ hoặc phóng đại như *\"raining cats and dogs\"*, và tránh văn viết trang trọng khi nói: *\"Furthermore, it is of paramount importance…\"* nghe như đọc thuộc. Nguyên tắc: nếu bạn không chắc người bạn Canada của mình có nói câu đó không, đừng dùng."
+    }
+  ],
+  "stimuli": {
+    "s2-trip": {
+      "title": "Task 2 prompt: A trip somewhere new",
+      "text": "Talk about a time you visited a place in British Columbia for the first time. Where did you go, what happened, and how did you feel about the trip?"
+    },
+    "s1-apartment": {
+      "title": "Task 1 prompt: Advice on renting",
+      "text": "Your friend has just moved to Vancouver and is looking for an apartment to rent. She has asked you for advice. Give her some suggestions."
+    },
+    "s1-neighbourhood": {
+      "title": "Task 1 prompt: Choosing a neighbourhood",
+      "text": "A friend of yours is moving to the Lower Mainland with his family next spring. He can't decide which neighbourhood to live in and has asked for your advice. Tell him what he should think about when choosing."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Same story, three levels of vocabulary",
+      "stimulusId": "s2-trip",
+      "question": "Compare three answers about a first trip to Tofino. The content is almost identical; only the vocabulary changes.",
+      "steps": [
+        "Count the empty words in the weak version: 'very' ×6, 'good' ×4, 'a lot' ×3, 'things' ×2. That repetition is what the listener hears first.",
+        "For each one, ask 'good in what way?', 'very what?', 'a lot of what?'. The answer gives a precise word: very tired → exhausted, a lot of rain → pouring rain, good view → breathtaking view.",
+        "Check collocations: 'take a photo' (not 'make a photo'), 'heavy rain', 'make a reservation'.",
+        "Add one natural idiom where it fits the story: 'it totally paid off'."
+      ],
+      "answer": "The Level 8 version tells the same story but every empty word has been replaced with a precise adjective, a collocation or a specific noun, plus one natural idiom.",
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "Last year I go to Tofino with my family. The trip is very long, about five hours, and I was very tired. When we arrive, there was a lot of rain, very bad weather. But the beach is very good, the view is very good. We make a lot of photo. We also eat a lot of seafood, it is good. We buy some things in the small shop, many things for souvenir. I feel very happy. It is a good trip.",
+          "commentVi": "Lặp \"very\" sáu lần, \"good\" bốn lần, \"a lot\" ba lần; \"things\" không cho biết mua gì. Collocation sai do dịch thẳng: \"make a lot of photo\" (đúng: take a lot of photos). Thêm lỗi thì (\"I go\", \"we arrive\", \"the beach is\" khi kể chuyện quá khứ) và số nhiều (\"photo\"). Người nghe hiểu câu chuyện nhưng không cảm nhận được gì."
+        },
+        {
+          "label": "acceptable",
+          "text": "Last summer, I went to Tofino with my family for the first time. The trip was really long, about five hours with the ferry, so I was quite tired when we arrived. Unfortunately, it was raining heavily, and the weather was terrible. But the beach was beautiful, and the view was amazing. We took a lot of photos and ate some delicious seafood. We also bought some souvenirs in a small shop. Overall, I felt very happy, and it was a great trip.",
+          "commentVi": "Đã sửa thì và collocation (took photos, raining heavily). Có một số tính từ cụ thể hơn (terrible, delicious, souvenirs). Nhưng vẫn dùng các tính từ \"an toàn\" ai cũng dùng (beautiful, amazing, great, very happy), và không có chi tiết tạo hình ảnh. Đạt mức hiểu rõ, nhưng chưa \"phong phú\"."
+        },
+        {
+          "label": "level8",
+          "text": "Last summer, I finally made it to Tofino with my family. With the ferry from Horseshoe Bay, the trip took almost five hours, and by the time we pulled into town, I was absolutely exhausted. To make things worse, it was pouring rain, the kind of grey, windy weather where you can barely see the road. But the next morning, the sky cleared, and the view from Chesterman Beach was honestly breathtaking: huge waves, misty forest right behind the sand, and surfers everywhere. We took dozens of photos and had the freshest fish tacos I've ever tasted. Before we left, we picked up a few handmade souvenirs from a local gallery. It was a long trip for a weekend, but it totally paid off.",
+          "commentVi": "Mỗi \"từ rỗng\" được thay bằng từ chính xác: very tired → absolutely exhausted, a lot of rain → pouring rain, good view → breathtaking, a lot of photos → dozens of photos, good seafood → the freshest fish tacos, things → handmade souvenirs. Động từ cụ thể: made it to, pulled into, picked up. Thành ngữ tự nhiên \"it totally paid off\". Không có từ hiếm hay trang trọng — chỉ chính xác hơn."
+        }
+      ],
+      "takeawayVi": "Nội dung giống nhau, điểm khác nhau nằm ở độ chính xác của từng từ. Hỏi \"good ở điểm nào? very gì? a lot of gì?\" để tìm từ thay thế."
+    },
+    {
+      "id": "ex2",
+      "title": "Upgrading an advice answer, one sentence at a time",
+      "stimulusId": "s1-apartment",
+      "question": "Upgrade these three sentences from a Task 1 answer: (1) 'You should find a good place near the SkyTrain.' (2) 'Rent is very expensive, so you need a lot of money.' (3) 'Check the thing in the contract.'",
+      "steps": [
+        "(1) Good in what way? Near transit means convenient. → 'I'd look for somewhere close to a SkyTrain station, so your commute is quick and convenient.'",
+        "(2) Collocation: 'rent is high' sounds more natural than 'rent is expensive'. 'A lot of money' → specific: first month plus a deposit. → 'Rent is pretty high here, so make sure you've saved up enough for the first month and the damage deposit.'",
+        "(3) Which thing? Name it. → 'Before you sign, read the lease carefully, especially the parts about utilities and pets.'",
+        "Read the three upgraded sentences aloud. Check they still sound like you talking to a friend, not like a formal letter."
+      ],
+      "answer": "Precise adjective (convenient), collocations (rent is high, damage deposit, sign the lease), specific nouns (utilities, pets) and precise verbs (saved up, read carefully).",
+      "takeawayVi": "Nâng cấp từng câu một: tìm từ rỗng → hỏi câu hỏi \"cụ thể là gì?\" → thay bằng tính từ, collocation hoặc danh từ cụ thể → đọc lại xem còn tự nhiên không."
+    },
+    {
+      "id": "ex3",
+      "title": "Fixing translated collocations",
+      "question": "Which of these phrases are direct translations from Vietnamese, and what do Canadians actually say?",
+      "steps": [
+        "'do a mistake' (làm lỗi) → make a mistake.",
+        "'big traffic' / 'many traffic' (kẹt xe nhiều) → heavy traffic / the traffic was bad / I got stuck in traffic.",
+        "'open the light' (mở đèn) → turn on the light.",
+        "'learn a course' (học một khóa) → take a course / sign up for a course.",
+        "'strong rain' (mưa to) → heavy rain / pouring rain."
+      ],
+      "answer": "make a mistake, heavy traffic, turn on the light, take a course, heavy rain.",
+      "takeawayVi": "Collocation không dịch được từng từ. Khi học một danh từ mới, hãy học luôn động từ và tính từ đi với nó."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "text",
+      "prompt": "Replace 'very tired' with ONE strong adjective (or a two-word phrasal adjective): \"After a twelve-hour shift at the warehouse, I was very tired.\"",
+      "hint": "Think of the strong adjective that means 'extremely tired'. It cannot be used with 'very'.",
+      "answers": ["exhausted", "drained", "worn out", "worn-out", "wiped out", "wiped-out", "spent", "shattered", "beat", "wiped"],
+      "mode": "exact",
+      "misconception": "empty_words",
+      "explanationVi": "\"Exhausted\" là cách phổ biến nhất. \"Beat\", \"wiped\" hay \"spent\" cũng đúng nhưng rất thân mật — chỉ dùng khi nói với bạn bè. Nếu muốn nhấn mạnh, nói \"absolutely exhausted\" hoặc \"totally wiped out\" — không phải \"very exhausted\".",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "prompt": "Choose the natural collocation: \"I was late because there was ___ traffic on the Lions Gate Bridge.\"",
+      "hint": "The same adjective is used with 'rain' and 'snow' to mean 'a large amount'.",
+      "options": [
+        { "text": "big", "misconception": "wrong_collocation", "whyVi": "\"Big traffic\" là dịch thẳng từ tiếng Việt; người Canada không nói như vậy." },
+        { "text": "heavy", "misconception": null, "whyVi": "\"Heavy traffic\" là collocation chuẩn, giống \"heavy rain\", \"heavy snow\"." },
+        { "text": "many", "misconception": "wrong_collocation", "whyVi": "\"Traffic\" là danh từ không đếm được, nên không dùng \"many\"." },
+        { "text": "strong", "misconception": "wrong_collocation", "whyVi": "\"Strong\" đi với coffee, wind, opinion — không đi với traffic." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Heavy + traffic / rain / snow / workload. Học collocation theo cụm, không theo từng từ riêng lẻ.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "prompt": "Replace 'good' with the most precise word: \"The new community centre is good because it's right next to the bus loop and open until ten.\"",
+      "hint": "Ask: good in what way? The reason in the sentence is about location and opening hours.",
+      "options": [
+        { "text": "comfortable", "misconception": "wrong_meaning", "whyVi": "\"Comfortable\" nói về cảm giác dễ chịu (ghế, phòng), không liên quan đến vị trí hay giờ mở cửa." },
+        { "text": "nice", "misconception": "empty_words", "whyVi": "\"Nice\" vẫn là một từ rỗng, mơ hồ như \"good\"." },
+        { "text": "convenient", "misconception": null, "whyVi": "\"Convenient\" = tiện lợi về vị trí, thời gian — khớp chính xác với lý do trong câu." },
+        { "text": "magnificent", "misconception": "fancy_misuse", "whyVi": "\"Magnificent\" dùng cho cảnh đẹp hoặc công trình hoành tráng; dùng ở đây nghe lạ và phóng đại." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Từ chính xác nằm ngay trong lý do của câu: gần bến xe + mở muộn = convenient.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "g4",
+      "type": "text",
+      "prompt": "Fill in ONE verb: \"I need to ___ a decision about the job offer by Friday.\"",
+      "hint": "The same verb goes with 'a mistake', 'a reservation' and 'an appointment'.",
+      "answers": ["make"],
+      "mode": "exact",
+      "misconception": "wrong_collocation",
+      "explanationVi": "Trong tiếng Anh Canada: make a decision, make a mistake, make a reservation, make an appointment. \"Take a decision\" có trong tiếng Anh Anh nhưng ít nghe ở Canada; \"do a decision\" thì sai.",
+      "competency": "vocabulary_range"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "text",
+      "prompt": "Replace 'very small' with ONE adjective: \"The basement suite was very small, with barely enough room for a bed.\"",
+      "answers": ["tiny", "cramped", "minuscule", "minute", "poky", "teeny", "teeny-tiny"],
+      "mode": "exact",
+      "misconception": "empty_words",
+      "explanationVi": "\"Tiny\" = rất nhỏ; \"cramped\" = nhỏ và chật chội, khó chịu. Cả hai mạnh và chính xác hơn \"very small\".",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "prompt": "Choose the most precise verb to replace 'got': \"My daughter got $500 for coming second in the science fair.\"",
+      "options": [
+        { "text": "won", "misconception": null, "whyVi": "Tiền thưởng cuộc thi → \"won\". Chính xác và tự nhiên." },
+        { "text": "earned", "misconception": "wrong_meaning", "whyVi": "\"Earned\" thường dùng cho tiền kiếm được từ công việc, không phải giải thưởng." },
+        { "text": "obtained", "misconception": "fancy_misuse", "whyVi": "\"Obtained\" quá trang trọng cho văn nói, nghe như văn bản hành chính." },
+        { "text": "took", "misconception": "wrong_meaning", "whyVi": "\"Took $500\" nghe như lấy tiền của ai đó, sai nghĩa." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Thay \"get\" bằng động từ đúng ngữ cảnh: giải thưởng → won, lương → earned, thư → received, tốt hơn → improved.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i3",
+      "type": "text",
+      "prompt": "Fill in ONE verb: \"When you're driving downtown, you really need to ___ attention to the parking signs.\"",
+      "answers": ["pay"],
+      "mode": "exact",
+      "misconception": "wrong_collocation",
+      "explanationVi": "Collocation cố định: pay attention to. Người Việt hay nói \"give attention\" hoặc \"focus attention\" do dịch \"chú ý\"; hãy học nguyên cụm \"pay attention to\".",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "prompt": "Which word best replaces 'a lot of people' while keeping a natural spoken tone? \"The Richmond Night Market had a lot of people on Saturday, so we could hardly move.\" → \"The Richmond Night Market was ___ on Saturday…\"",
+      "options": [
+        { "text": "very peopled", "misconception": "wrong_collocation", "whyVi": "\"Peopled\" không dùng như vậy trong văn nói hiện đại." },
+        { "text": "populated", "misconception": "wrong_meaning", "whyVi": "\"Populated\" nói về dân số của một vùng (a densely populated city), không phải đám đông ở một sự kiện." },
+        { "text": "packed", "misconception": null, "whyVi": "\"Packed\" = đông nghẹt, rất tự nhiên khi nói về chợ đêm, quán ăn, xe buýt." },
+        { "text": "plentiful", "misconception": "fancy_misuse", "whyVi": "\"Plentiful\" là dồi dào (thực phẩm, tài nguyên); dùng cho người nghe lạ và quá văn viết." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "\"Packed\", \"crowded\", \"jammed\" là các từ tự nhiên để nói một nơi đông người. \"Packed\" là tính từ mạnh nên không dùng \"very packed\"; nói \"completely packed\".",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "prompt": "Which sentence uses intensifiers and strong adjectives CORRECTLY?",
+      "options": [
+        { "text": "The ferry ride was very amazing, and I was very starving by the time we got to Nanaimo.", "misconception": "very_with_extreme", "whyVi": "\"Amazing\" và \"starving\" là tính từ mạnh, không đi với \"very\"." },
+        { "text": "The ferry ride was absolutely stunning, and I was starving by the time we got to Nanaimo.", "misconception": null, "whyVi": "\"Absolutely\" đi đúng với tính từ mạnh \"stunning\"; \"starving\" tự nó đã đủ mạnh." },
+        { "text": "The ferry ride was absolutely nice, and I was absolutely hungry by the time we got to Nanaimo.", "misconception": "very_with_extreme", "whyVi": "\"Absolutely\" chỉ đi với tính từ mạnh; \"nice\" và \"hungry\" là tính từ thường, phải dùng really/very." },
+        { "text": "The ferry ride was very very good, and I was a lot hungry by the time we got to Nanaimo.", "misconception": "empty_words", "whyVi": "Lặp \"very\", dùng \"good\" mơ hồ, và \"a lot hungry\" sai ngữ pháp." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Tính từ thường (hungry, nice, tired) đi với very/really/pretty. Tính từ mạnh (starving, stunning, exhausted) đi với absolutely/totally/really hoặc đứng một mình.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i6",
+      "type": "text",
+      "prompt": "Replace 'very bad' with ONE strong adjective: \"The customer service at that phone company was very bad. I waited on hold for an hour.\"",
+      "answers": ["awful", "terrible", "horrible", "dreadful", "atrocious", "appalling", "horrendous", "abysmal"],
+      "mode": "exact",
+      "misconception": "empty_words",
+      "explanationVi": "\"Awful\" và \"terrible\" là lựa chọn tự nhiên nhất trong văn nói. Với dịch vụ, bạn cũng có thể nói cụ thể hơn: \"slow and unhelpful\".",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "s1-neighbourhood",
+      "prompt": "Which advice sentence shows the strongest vocabulary range while still sounding natural in speech?",
+      "options": [
+        { "text": "You should choose a good neighbourhood with a lot of good things, like good schools and a lot of parks.", "misconception": "empty_words", "whyVi": "\"Good\" ba lần, \"a lot\" hai lần, \"things\" — gần như không có từ chính xác nào." },
+        { "text": "It is of paramount importance that you ascertain the proximity of educational institutions prior to relocation.", "misconception": "fancy_misuse", "whyVi": "Từ đúng nghĩa nhưng quá trang trọng, nghe như đọc văn bản. Không ai nói với bạn như vậy." },
+        { "text": "Honestly, if you've got kids, a walkable area near a decent elementary school is a no-brainer, and it's worth checking how long the commute is at rush hour, too.", "misconception": null, "whyVi": "Từ chính xác và tự nhiên: walkable, decent, commute, rush hour, thành ngữ \"a no-brainer\", cụm \"it's worth + V-ing\"." },
+        { "text": "You should do a research about the area and see if the school is very excellent.", "misconception": "wrong_collocation", "whyVi": "\"Research\" không đếm được (do some research), và \"very excellent\" sai vì excellent là tính từ mạnh." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Level 8–9 = chính xác + tự nhiên. Một thành ngữ phổ biến, vài collocation đúng và tính từ cụ thể có giá trị hơn nhiều so với từ trang trọng hiếm.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "stimulusId": "s1-neighbourhood",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 90,
+      "prompt": "Respond to this Task 1 prompt for 90 seconds. Focus on vocabulary: avoid the empty words and use precise adjectives, collocations and verbs.",
+      "checklist": [
+        "Uses each of 'good', 'bad', 'very', 'a lot' and 'thing' no more than once.",
+        "Uses at least three precise adjectives instead of good/bad (e.g. walkable, convenient, affordable, spacious).",
+        "Uses at least three correct collocations (e.g. heavy traffic, rent is high, take a look, do some research).",
+        "Uses at least two precise verbs instead of 'get' or 'have' (e.g. commute, save, figure out, sign up for).",
+        "Includes one natural idiomatic expression (e.g. a no-brainer, pay off, on the fence) without sounding memorized."
+      ],
+      "modelAnswer": "Hey Marco, congrats on the move! Choosing a neighbourhood here is a big decision, so I'd think about three main factors. First, the commute. Figure out exactly where you and your wife will be working, and then check how long the drive or transit ride takes at rush hour. Traffic on the bridges can be really heavy, so living somewhere close to a SkyTrain station could save you an hour a day. Second, think about the kids. If they're still in elementary school, I'd look for a walkable area with a decent school, a community centre and a few parks nearby. Places like that tend to be safer and more family-friendly. Third, be realistic about your budget. Rent and house prices are pretty high in Vancouver itself, so you might get a lot more space for your money somewhere like Coquitlam or Langley. If you're on the fence, I'd honestly suggest renting for a year first. That way, you can explore a few areas before you commit to buying. It really pays off to take your time.",
+      "explanationVi": "Ghi âm rồi nghe lại, đếm số lần dùng good/bad/very/a lot/thing. Gạch chân các collocation và động từ cụ thể bạn đã dùng.",
+      "misconception": "empty_words",
+      "competency": "vocabulary_range"
+    }
+  ],
+  "misconceptions": {
+    "empty_words": {
+      "label": "Lặp \"từ rỗng\"",
+      "explanationVi": "Bạn dựa vào good, bad, very, a lot, thing vì chúng an toàn và đến đầu tiên khi nói. Chúng không sai, nhưng không mang thông tin cụ thể, và việc lặp lại nhiều lần là dấu hiệu rõ nhất của vốn từ hẹp ở Level 5–6.",
+      "fixVi": "Mỗi khi định nói một từ rỗng, hỏi: \"good ở điểm nào? very gì? a lot of gì?\". Chuẩn bị sẵn 3 tính từ thay thế cho mỗi chủ đề hay gặp (nhà ở, giao thông, công việc, đồ ăn)."
+    },
+    "wrong_collocation": {
+      "label": "Sai collocation do dịch thẳng",
+      "explanationVi": "Bạn ghép từ theo nghĩa tiếng Việt (\"big traffic\", \"do a mistake\", \"give attention\"). Mỗi từ đúng nghĩa nhưng tổ hợp thì người bản xứ không dùng, nên nghe không tự nhiên.",
+      "fixVi": "Học danh từ cùng động từ và tính từ đi kèm: make a decision, heavy traffic, pay attention to, take a course. Ghi vào sổ từ vựng theo cụm."
+    },
+    "very_with_extreme": {
+      "label": "Dùng sai từ nhấn mạnh",
+      "explanationVi": "Bạn ghép \"very\" với tính từ mạnh (very exhausted, very amazing) hoặc \"absolutely\" với tính từ thường (absolutely hungry). Đây là lỗi ngữ pháp về tính từ có mức độ (gradable) và tính từ cực độ (non-gradable).",
+      "fixVi": "Tính từ thường → very/really/pretty. Tính từ mạnh → absolutely/totally/really hoặc để đứng một mình."
+    },
+    "fancy_misuse": {
+      "label": "Dùng từ hiếm hoặc quá trang trọng",
+      "explanationVi": "Bạn nghĩ từ dài, hiếm sẽ được điểm cao, nên dùng từ văn viết (obtain, paramount, ascertain) hoặc từ phóng đại sai ngữ cảnh (magnificent). Kết quả nghe như học thuộc và đôi khi sai nghĩa. Level 8 cần chính xác và tự nhiên, không cần cầu kỳ.",
+      "fixVi": "Tự hỏi: \"Một người Canada có nói câu này với bạn bè không?\" Ưu tiên phrasal verb và từ phổ biến nhưng chính xác (figure out, packed, convenient)."
+    },
+    "wrong_meaning": {
+      "label": "Chọn từ đồng nghĩa sai nghĩa",
+      "explanationVi": "Bạn tra từ đồng nghĩa và chọn một từ có nghĩa gần nhưng không khớp ngữ cảnh (comfortable thay cho convenient, earned thay cho won). Từ đồng nghĩa hiếm khi thay thế hoàn toàn cho nhau.",
+      "fixVi": "Học từ mới kèm một câu ví dụ thực tế, và kiểm tra xem từ đó dùng cho người, nơi chốn, sự việc hay cảm xúc."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "exhausted", "vi": "kiệt sức (= very tired; không dùng với very)", "example": "After moving boxes all day in Surrey, I was absolutely exhausted." },
+    { "term": "convenient", "vi": "tiện lợi (vị trí, thời gian)", "example": "The new clinic is really convenient because it's open on weekends." },
+    { "term": "packed", "vi": "đông nghẹt", "example": "The SkyTrain was packed after the Canucks game." },
+    { "term": "heavy traffic", "vi": "kẹt xe, giao thông đông", "example": "There's always heavy traffic on Highway 1 on Friday afternoons." },
+    { "term": "make a decision", "vi": "đưa ra quyết định", "example": "We need to make a decision about the daycare by the end of the month." },
+    { "term": "pay attention to", "vi": "chú ý đến", "example": "Pay attention to the tide times when you walk out on the beach in White Rock." },
+    { "term": "rewarding", "vi": "đáng công, mang lại sự hài lòng", "example": "Volunteering at the food bank has been really rewarding." },
+    { "term": "a no-brainer", "vi": "một quyết định quá dễ, khỏi phải nghĩ", "example": "With a bus stop right outside, getting a Compass Card was a no-brainer." },
+    { "term": "pay off", "vi": "đáng công, mang lại kết quả", "example": "All those evening classes finally paid off when I got the promotion." },
+    { "term": "on the fence", "vi": "còn phân vân, chưa quyết định", "example": "I'm still on the fence about buying a car or just using Evo." }
+  ],
+  "grammar": [
+    {
+      "point": "Gradable vs extreme adjectives (very tired / absolutely exhausted)",
+      "explanationVi": "Tính từ thường (gradable: tired, hungry, cold, big) có thể đi với very, really, pretty, quite. Tính từ cực độ (extreme / non-gradable: exhausted, starving, freezing, huge, amazing) đã mang nghĩa \"rất\", nên đi với absolutely, totally, completely, really — không đi với very. \"Really\" dùng được với cả hai loại.",
+      "examples": [
+        "It was very cold this morning. / It was absolutely freezing this morning.",
+        "I was really hungry. / I was starving.",
+        "Not: very exhausted, very amazing, absolutely hungry."
+      ]
+    },
+    {
+      "point": "Uncountable nouns in common collocations",
+      "explanationVi": "Nhiều danh từ hay gặp khi nói là không đếm được: traffic, research, advice, information, equipment, furniture. Không thêm -s, không dùng a/an hay many. Dùng much/a lot of/some, hoặc collocation như heavy traffic, do some research, a piece of advice.",
+      "examples": [
+        "There was heavy traffic. (not: many traffics)",
+        "I did some research before signing the lease. (not: a research)",
+        "Can I give you some advice? (not: an advice)"
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Save these expressions to your notebook", "route": "/vocabulary" },
+    { "label": "Practise Task 1 with upgraded vocabulary", "route": "/speaking?task=S1" },
+    { "label": "Practise Task 2 with upgraded vocabulary", "route": "/speaking?task=S2" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises independently; checked collocations, BC details (Horseshoe Bay–Tofino ≈5 h incl. ferry is plausible) and timings. Kept informal beat/wiped in g1 (genuine Canadian usage) and added worn-out/wiped-out/spent variants with a register note; i1 adds minute/teeny-tiny; softened 'rent is high, not expensive'; fixed 'in somewhere like' in i8 model."}
+}

@@ -1,0 +1,380 @@
+{
+  "id": "ls-06",
+  "skill": "listening",
+  "module": "listening-comprehension",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Paraphrase in listening",
+  "titleVi": "Nhận ra paraphrase khi nghe",
+  "estimatedMinutes": 30,
+  "prerequisites": ["ls-01"],
+  "competencies": ["paraphrase"],
+  "tasks": ["L1", "L2", "L3", "L4", "L5", "L6"],
+  "objectives": [
+    "You will be able to match what a speaker says to an answer option that uses completely different words.",
+    "You will be able to recognize the most common paraphrase types: synonyms, word-form changes, general vs specific, and positive vs negative wording.",
+    "You will be able to reject word-match traps that repeat the speaker's words but change the meaning."
+  ],
+  "objectiveVi": "Sau bài này, bạn nghe ý của người nói rồi tìm đáp án diễn đạt cùng ý đó bằng từ khác, thay vì đi tìm đáp án có từ giống hệt bài nghe.",
+  "whyItMattersVi": "Listening 6 → 8 phần lớn không phải do bạn nghe sót từ, mà do bạn nghe đúng nhưng không nhận ra đáp án đúng vì nó được viết bằng từ khác. Trong CELPIP, đáp án đúng gần như luôn là paraphrase, còn đáp án lặp lại nguyên văn từ của người nói thường là bẫy. Khi bạn quen nghe theo ý thay vì theo từ, bạn sẽ gỡ được nhiều câu “tưởng đúng mà sai” ở tất cả các Part.",
+  "concept": [
+    {
+      "heading": "Vì sao đáp án hiếm khi lặp lại lời người nói",
+      "body": "Người ra đề muốn kiểm tra bạn **hiểu ý**, không phải kiểm tra bạn **nghe được âm thanh**. Vì vậy họ gần như luôn viết lại ý của người nói bằng từ khác. Ví dụ, người nói: *'Somebody else is waiting for that one'* → đáp án: **Another person has reserved it.** Không có từ nào trùng, nhưng ý giống hệt.\n\nNgược lại, các đáp án sai thường **mượn đúng từ** trong bài nghe để kéo bạn vào. Bạn nghe thấy *'twenty minutes'*, thấy đáp án có *'20 minutes'* là chọn ngay — đó chính là cái bẫy. Nguyên tắc của bài này: **nghe để lấy ý, đọc đáp án để tìm cùng ý đó.** Trùng từ không phải là bằng chứng; trùng ý mới là bằng chứng."
+    },
+    {
+      "heading": "Năm kiểu paraphrase hay gặp",
+      "body": "1. **Synonym (từ đồng nghĩa):** *pushed back* ↔ *postponed*; *backed up* ↔ *busy*; *a spot* ↔ *a place / an opening*.\n2. **Word form / cấu trúc câu khác:** *'It's a team lead role. I'd be managing people'* ↔ *the chance to supervise others*. Động từ đổi thành danh từ, chủ động đổi thành bị động.\n3. **Cụ thể ↔ khái quát (specific ↔ general):** *'My mom's offered to watch her'* ↔ *a relative will help*. *Brakes and chain* ↔ *a few parts*.\n4. **Khẳng định ↔ phủ định:** *'Service is not affected'* ↔ *trains will run normally*. *'You won't be able to borrow anything new'* ↔ *borrowing is paused*.\n5. **Thành ngữ / cụm động từ ↔ từ trang trọng:** *'It's pretty much a wash'* ↔ *the gain would be cancelled out*; *'hang on to them'* ↔ *keep them longer*.\n\nKhi nghe, hãy tự hỏi: “Nếu nói câu này bằng từ đơn giản hơn thì là gì?”"
+    },
+    {
+      "heading": "Bẫy trùng từ (word-match trap) và các bẫy họ hàng",
+      "body": "Đáp án nhiễu trong Listening thường thuộc một trong các dạng sau:\n- **Trùng từ nhưng sai ý:** dùng lại *'twenty minutes'* hoặc *'new bike'* nhưng gắn với một ý khác.\n- **Đúng một phần:** đúng một nửa thông tin, nửa còn lại bị đổi (ví dụ *three days* thành *every weekday*).\n- **Không được nhắc tới:** nghe hợp lý, đúng với đời thực, nhưng người nói không hề nói.\n- **Nhầm người nói:** ý có trong bài nhưng do người khác nói hoặc làm.\n- **Đảo nghĩa:** bỏ qua *not, no longer, isn't, but* nên hiểu ngược.\n\nMẹo: đáp án càng giống nguyên văn bài nghe, bạn càng phải kiểm tra kỹ hơn, không phải tin hơn."
+    },
+    {
+      "heading": "Quy trình 4 bước khi nghe",
+      "body": "1. **Đọc câu hỏi, gạch chân ý cần tìm** (why, what will happen, what does she suggest). Nếu có thời gian, đọc lướt các đáp án và đoán chúng sẽ được nói bằng từ nào.\n2. **Nghe theo ý, ghi 2–3 từ khóa của ý đó** bằng từ của bạn, ví dụ: *1 book – someone waiting*.\n3. **So ý, không so từ:** với mỗi đáp án, hỏi “Người nói có nói ý này không, kể cả bằng từ khác?”.\n4. **Loại đáp án theo tên bẫy:** trùng từ, đúng một phần, không nhắc tới, nhầm người, đảo nghĩa. Đáp án còn lại phải đúng **toàn bộ**.\n\nTrong bài thi thật, audio chỉ phát **một lần**, nên bước 2 rất quan trọng: đừng cố nhớ nguyên câu, hãy nhớ ý."
+    },
+    {
+      "heading": "Cặp paraphrase hay gặp trong hội thoại Canada",
+      "body": "- *'Is there any way to hang on to them a bit longer?'* ↔ asking for an extension\n- *'We're pretty backed up'* ↔ the shop is very busy\n- *'It'll ride like new'* ↔ it will work as well as a new one\n- *'There's no spot until spring'* ↔ she can't start for several months\n- *'I'd put about a hundred and twenty bucks into it'* ↔ the repair will cost about $120\n- *'What's holding you back?'* ↔ what is your concern?\n- *'Allow an extra twenty minutes'* ↔ leave earlier than usual\n\nHãy học các cụm này theo cặp: một vế là lời nói tự nhiên, một vế là cách đề thi viết lại."
+    }
+  ],
+  "stimuli": {
+    "library-renewal": {
+      "title": "Phone call to a public library",
+      "audio": [
+        { "speaker": "Daniel", "voice": "male_b", "text": "Hi, I've got three books checked out, and I don't think I'm gonna finish them before Friday. Is there any way to hang on to them a bit longer?" },
+        { "speaker": "Librarian", "voice": "female_a", "text": "Sure, I can renew them for you. Actually, it looks like one of them has a hold on it, so somebody else is waiting for that one. I can't extend that one, I'm afraid, but the other two are fine for another three weeks." },
+        { "speaker": "Daniel", "voice": "male_b", "text": "Oh, okay. And what happens if I bring the first one back late?" },
+        { "speaker": "Librarian", "voice": "female_a", "text": "We don't charge late fees anymore, but you won't be able to borrow anything new until it's returned." }
+      ]
+    },
+    "bike-repair": {
+      "title": "At a bike repair shop",
+      "audio": [
+        { "speaker": "Erin", "voice": "female_b", "text": "So, what's the damage? Is it even worth fixing, or should I just get a new bike?" },
+        { "speaker": "Raj", "voice": "male_a", "text": "Honestly, the frame's in great shape. It's really just the brakes and the chain that are worn out. I'd put about a hundred and twenty bucks into it, and it'll ride like new. A comparable new bike would run you five, six hundred at least." },
+        { "speaker": "Erin", "voice": "female_b", "text": "Okay, that makes sense. How long will it take?" },
+        { "speaker": "Raj", "voice": "male_a", "text": "We're pretty backed up this week, with the sunny weather and everything. Realistically, Thursday afternoon." }
+      ]
+    },
+    "skytrain-notice": {
+      "title": "Weekend transit announcement",
+      "audio": [
+        { "speaker": "Announcer", "voice": "narrator", "text": "Attention, Expo Line passengers. Due to scheduled track maintenance, there will be no train service between Commercial-Broadway and Waterfront stations this Saturday and Sunday. Shuttle buses will run between those stations every five to ten minutes. Please allow an extra twenty minutes for your trip. Service between Commercial-Broadway and King George is not affected, and Compass Cards and tickets will be accepted on the shuttle buses as usual. Thank you for your patience." }
+      ]
+    },
+    "daycare-waitlist": {
+      "title": "Two parents talking about daycare",
+      "audio": [
+        { "speaker": "Priya", "voice": "female_a", "text": "Did you ever hear back from that daycare on Fraser Street?" },
+        { "speaker": "Tom", "voice": "male_a", "text": "Yeah, finally. They said there's no spot for Lily until at least next spring. We're something like fourteenth on the list." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Ugh, that's rough. So what are you gonna do in the meantime?" },
+        { "speaker": "Tom", "voice": "male_a", "text": "My mom's offered to watch her three days a week, which is amazing. For the other two days, Jen's going to switch to working from home. Her manager was actually pretty good about it." },
+        { "speaker": "Priya", "voice": "female_a", "text": "That's lucky. A lot of places wouldn't go for that." }
+      ]
+    },
+    "garden-plots": {
+      "title": "Asking about a community garden",
+      "audio": [
+        { "speaker": "Kevin", "voice": "male_b", "text": "Hi, I saw the poster about the community garden. Are there still plots available?" },
+        { "speaker": "Marion", "voice": "female_a", "text": "There are a few left, yeah. The fee's forty dollars for the season, and that covers your water and the shared tools in the shed. The one thing we're pretty strict about is upkeep. If your plot gets overgrown and we can't reach you after two reminders, we'll offer it to the next person on the waitlist." },
+        { "speaker": "Kevin", "voice": "male_b", "text": "Fair enough. I'm away for most of July, though." },
+        { "speaker": "Marion", "voice": "female_a", "text": "That's not a problem, as long as you arrange for someone to water it while you're gone. Lots of people team up with a neighbour for that." }
+      ]
+    },
+    "job-offer": {
+      "title": "Two colleagues talking about a job offer",
+      "audio": [
+        { "speaker": "Marcus", "voice": "male_a", "text": "So, did you take the Kelowna job or not?" },
+        { "speaker": "Hana", "voice": "female_b", "text": "Not yet. The salary's a little better, but not by much, and once you factor in moving costs, it's pretty much a wash. What really tempts me is that it's a team lead role. I'd finally be managing people." },
+        { "speaker": "Marcus", "voice": "male_a", "text": "Right. And what's holding you back?" },
+        { "speaker": "Hana", "voice": "female_b", "text": "My partner's work, mostly. He'd have to find something new out there, and the job market in his field is a lot smaller. We've agreed to give it until the end of the month before we decide." }
+      ]
+    },
+    "mediation-news": {
+      "title": "Local news: a tenancy pilot program",
+      "audio": [
+        { "speaker": "News reader", "voice": "narrator", "text": "Renters in Harbourview may soon have a new way to resolve disagreements with their landlords. City council voted Tuesday to fund a pilot program offering free mediation sessions to tenants and property owners before a dispute goes to the provincial Residential Tenancy Branch. Councillor Ana Ruiz, who proposed the idea, said formal hearings can take months to schedule, while many conflicts, such as disagreements over repairs or security deposits, could be settled in a single conversation. The program will start in January and run for one year. If it leads to fewer formal complaints, council says it may become permanent." }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "e1",
+      "title": "Finding an answer with no shared words",
+      "stimulusId": "library-renewal",
+      "question": "Why can't one of Daniel's books be renewed? (A) It is already overdue. (B) Another person has reserved it. (C) Daniel has borrowed too many books. (D) The library no longer renews books.",
+      "steps": [
+        "Before listening: the question asks for a reason (why). I expect to hear 'because' or a reason after 'I can't…'.",
+        "While listening: the librarian says 'one of them has a hold on it, so somebody else is waiting for that one. I can't extend that one'. My note: 1 book – someone waiting.",
+        "Compare ideas, not words: 'somebody else is waiting' = another person wants it next = it has been reserved. Option B says this with different words.",
+        "Check the traps: A uses the idea of 'late' from later in the conversation, but the book is not overdue now (word match). C is not mentioned. D is the opposite: she renews the other two books.",
+        "B is the only option that is completely true."
+      ],
+      "answer": "(B) Another person has reserved it.",
+      "takeawayVi": "Đáp án đúng không có từ nào trùng với lời người nói (“has a hold”, “somebody else is waiting” → “reserved”). Đáp án dùng lại từ “late” lại là bẫy."
+    },
+    {
+      "id": "e2",
+      "title": "General ↔ specific and a word-match trap",
+      "stimulusId": "bike-repair",
+      "question": "What does the mechanic recommend? (A) Buying a new bike because the frame is damaged. (B) Repairing the bike because it costs much less than replacing it. (C) Replacing only the frame. (D) Waiting until the weather improves.",
+      "steps": [
+        "The question asks for a recommendation, so I listen for Raj's opinion about Erin's question 'worth fixing, or should I just get a new bike?'.",
+        "Raj says 'the frame's in great shape', 'I'd put about a hundred and twenty bucks into it, and it'll ride like new', and 'a comparable new bike would run you five, six hundred'.",
+        "Paraphrase: $120 vs $500–600 = 'costs much less than replacing it'. 'I'd put… into it' = repair it. So B matches the idea.",
+        "Traps: A repeats 'new bike' and 'frame' but reverses the meaning: the frame is in great shape. C uses 'frame' again (word match). D twists 'sunny weather', which is the reason the shop is busy, not advice.",
+        "Answer B."
+      ],
+      "answer": "(B) Repairing the bike because it costs much less than replacing it.",
+      "takeawayVi": "Hai đáp án sai đều có từ “frame”, một đáp án có “weather” — đều là từ có trong bài nhưng bị gắn sai ý. Hãy kiểm tra ý của cả câu, không chỉ một từ."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "skytrain-notice",
+      "prompt": "Why will there be no train service between the two stations?",
+      "hint": "Listen for the phrase that comes right after 'Due to'. Then find the option that says the same thing in other words.",
+      "options": [
+        { "text": "An unexpected problem with the tracks", "misconception": "meaning_flip", "whyVi": "Thông báo nói “scheduled” (đã lên kế hoạch), ngược với “unexpected”." },
+        { "text": "Planned work on the rail line", "misconception": null, "whyVi": "Đúng: “scheduled track maintenance” = planned work on the rail line." },
+        { "text": "A shortage of shuttle buses", "misconception": "word_match", "whyVi": "“Shuttle buses” có trong bài nhưng là giải pháp thay thế, không phải lý do." },
+        { "text": "A special event downtown this weekend", "misconception": "not_mentioned", "whyVi": "Không hề nhắc tới sự kiện nào." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Due to scheduled track maintenance, there will be no train service between Commercial-Broadway and Waterfront stations",
+      "explanationVi": "“Scheduled” = planned, “track maintenance” = work on the rail line. Đáp án đúng đổi toàn bộ từ nhưng giữ nguyên ý.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "skytrain-notice",
+      "prompt": "What are passengers advised to do?",
+      "hint": "Find the sentence that starts with 'Please'. What does it mean in practice for someone who has to be somewhere on time?",
+      "options": [
+        { "text": "Buy a special ticket for the shuttle bus", "misconception": "meaning_flip", "whyVi": "Ngược lại: vé và Compass Card được dùng “as usual”, không cần vé đặc biệt." },
+        { "text": "Wait twenty minutes for the next shuttle", "misconception": "word_match", "whyVi": "Bẫy trùng số: “twenty minutes” là thời gian cộng thêm cho chuyến đi; xe buýt chạy mỗi 5–10 phút." },
+        { "text": "Leave earlier than they normally would", "misconception": null, "whyVi": "Đúng: “allow an extra twenty minutes for your trip” = leave earlier than usual." },
+        { "text": "Avoid travelling to King George station", "misconception": "word_match", "whyVi": "Bẫy trùng từ: “King George” có trong bài, nhưng đoạn tới King George “is not affected”, nên không có lý do tránh." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Please allow an extra twenty minutes for your trip.",
+      "explanationVi": "Lời khuyên “allow an extra twenty minutes” được paraphrase thành hành động cụ thể: đi sớm hơn bình thường. Đáp án có số “twenty minutes” lại là bẫy.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "daycare-waitlist",
+      "prompt": "What did the daycare tell Tom?",
+      "hint": "Focus on 'no spot… until at least next spring'. Does 'until at least' promise anything?",
+      "options": [
+        { "text": "Lily has been given a place starting in the spring.", "misconception": "partial_match", "whyVi": "“Until at least next spring” chỉ nói sớm nhất là mùa xuân, không hứa có chỗ." },
+        { "text": "Lily cannot start there for several months.", "misconception": null, "whyVi": "Đúng: “no spot… until at least next spring” = not for several months." },
+        { "text": "The daycare has stopped accepting names for its list.", "misconception": "not_mentioned", "whyVi": "Không ai nói danh sách chờ đã đóng; Tom còn đang ở vị trí thứ 14." },
+        { "text": "Fourteen children will start before spring.", "misconception": "word_match", "whyVi": "Dùng lại con số “fourteenth” nhưng gắn với một ý không có trong bài." }
+      ],
+      "answerIndex": 1,
+      "evidence": "They said there's no spot for Lily until at least next spring.",
+      "explanationVi": "“No spot until at least next spring” được viết lại thành “cannot start for several months”. Cẩn thận với cụm “until at least”: nó chỉ đặt mốc sớm nhất, không phải lời hứa.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "daycare-waitlist",
+      "prompt": "How will Tom's family manage until a daycare spot opens?",
+      "hint": "Tom describes two arrangements. The correct option must cover both, maybe in more general words, and it must link each arrangement to the right person.",
+      "options": [
+        { "text": "Tom will work from home two days a week.", "misconception": "wrong_speaker", "whyVi": "Người chuyển sang làm ở nhà là Jen, không phải Tom." },
+        { "text": "Tom's mother will care for Lily every weekday.", "misconception": "partial_match", "whyVi": "Bà chỉ trông ba ngày một tuần, không phải mỗi ngày." },
+        { "text": "A relative will help, and one parent will change how she works.", "misconception": null, "whyVi": "Đúng: “my mom” → a relative; “Jen's going to switch to working from home” → one parent will change how she works." },
+        { "text": "They will look for a different daycare nearby.", "misconception": "not_mentioned", "whyVi": "Không ai nhắc tới việc tìm nhà trẻ khác." }
+      ],
+      "answerIndex": 2,
+      "evidence": "My mom's offered to watch her three days a week, which is amazing. For the other two days, Jen's going to switch to working from home.",
+      "explanationVi": "Đây là paraphrase kiểu cụ thể → khái quát: “my mom” thành “a relative”, “Jen… working from home” thành “one parent will change how she works”.",
+      "competency": "paraphrase"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "garden-plots",
+      "prompt": "What does the forty-dollar fee pay for?",
+      "options": [
+        { "text": "Seeds, soil and water for the season", "misconception": "not_mentioned", "whyVi": "Không nhắc tới seeds hay soil." },
+        { "text": "Water and the use of shared equipment", "misconception": null, "whyVi": "Đúng: “covers your water and the shared tools” = water and the use of shared equipment." },
+        { "text": "A set of garden tools you can keep", "misconception": "word_match", "whyVi": "Có từ “tools” nhưng là dụng cụ dùng chung trong kho, không phải được mang về." },
+        { "text": "A place on the waitlist for next year", "misconception": "word_match", "whyVi": "“Waitlist” có trong bài nhưng liên quan tới việc mất ô đất, không phải phí." }
+      ],
+      "answerIndex": 1,
+      "evidence": "The fee's forty dollars for the season, and that covers your water and the shared tools in the shed.",
+      "explanationVi": "“Covers” = pays for; “shared tools” = shared equipment. Đáp án sai có từ “tools” nhưng đổi nghĩa thành dụng cụ riêng.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "garden-plots",
+      "prompt": "What happens if a gardener does not look after their plot?",
+      "options": [
+        { "text": "They will have to pay an extra fee.", "misconception": "not_mentioned", "whyVi": "Không có khoản phạt hay phí thêm nào." },
+        { "text": "They lose the plot after one warning.", "misconception": "partial_match", "whyVi": "Sai chi tiết: là sau hai lần nhắc (“two reminders”) và chỉ khi không liên lạc được." },
+        { "text": "The plot may be given to someone else.", "misconception": null, "whyVi": "Đúng: “we'll offer it to the next person on the waitlist” = it may be given to someone else." },
+        { "text": "The coordinator will clean it up for them.", "misconception": "not_mentioned", "whyVi": "Marion không nói sẽ dọn giúp." }
+      ],
+      "answerIndex": 2,
+      "evidence": "If your plot gets overgrown and we can't reach you after two reminders, we'll offer it to the next person on the waitlist.",
+      "explanationVi": "“Not look after” trong câu hỏi = “gets overgrown” trong bài. “Offer it to the next person” = give it to someone else. Cả câu hỏi lẫn đáp án đều là paraphrase.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "garden-plots",
+      "prompt": "What does Marion suggest Kevin do about his July trip?",
+      "options": [
+        { "text": "Give up the plot for the month of July", "misconception": "meaning_flip", "whyVi": "Ngược lại: Marion nói “That's not a problem”, Kevin vẫn giữ ô đất." },
+        { "text": "Get someone to look after his plants while he is away", "misconception": null, "whyVi": "Đúng: “arrange for someone to water it while you're gone” = get someone to look after his plants." },
+        { "text": "Pay a neighbour to take over the plot", "misconception": "partial_match", "whyVi": "Có “neighbour” nhưng không nói trả tiền hay giao hẳn ô đất." },
+        { "text": "Join the garden after he comes back", "misconception": "not_mentioned", "whyVi": "Không ai đề nghị hoãn việc đăng ký." }
+      ],
+      "answerIndex": 1,
+      "evidence": "That's not a problem, as long as you arrange for someone to water it while you're gone.",
+      "explanationVi": "“Arrange for someone to water it while you're gone” → “get someone to look after his plants while he is away”. Đáp án có “neighbour” thêm chi tiết “pay” và “take over” không có trong bài.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "job-offer",
+      "prompt": "What attracts Hana most about the job in Kelowna?",
+      "options": [
+        { "text": "The much higher salary", "misconception": "meaning_flip", "whyVi": "Hana nói lương chỉ cao hơn “a little… but not by much”." },
+        { "text": "The chance to supervise a team", "misconception": null, "whyVi": "Đúng: “team lead role… managing people” = supervise a team." },
+        { "text": "Lower living costs in a smaller city", "misconception": "not_mentioned", "whyVi": "Không nhắc tới chi phí sinh hoạt; chỉ nói chi phí chuyển nhà." },
+        { "text": "A better job market for her partner", "misconception": "meaning_flip", "whyVi": "Ngược lại: thị trường việc làm cho ngành của anh ấy “a lot smaller”." }
+      ],
+      "answerIndex": 1,
+      "evidence": "What really tempts me is that it's a team lead role. I'd finally be managing people.",
+      "explanationVi": "“What really tempts me” = what attracts her most. “Managing people” = supervising a team. Chú ý cụm “but not by much” làm giảm hẳn ý “salary's a little better”.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "job-offer",
+      "prompt": "When Hana says the salary increase is 'pretty much a wash', what does she mean?",
+      "options": [
+        { "text": "The extra money would be roughly cancelled out by other costs.", "misconception": null, "whyVi": "Đúng: “once you factor in moving costs” → khoản tăng lương gần như bị chi phí chuyển nhà “xóa” mất." },
+        { "text": "The salary is clearly the best part of the offer.", "misconception": "meaning_flip", "whyVi": "Ngược với ý cô ấy: lương không phải điểm hấp dẫn chính." },
+        { "text": "She would need to pay for cleaning when she moves.", "misconception": "word_match", "whyVi": "Hiểu “wash” theo nghĩa đen (giặt, rửa) — đây là thành ngữ." },
+        { "text": "The company has not told her the salary yet.", "misconception": "not_mentioned", "whyVi": "Cô ấy đã biết lương “a little better”." }
+      ],
+      "answerIndex": 0,
+      "evidence": "once you factor in moving costs, it's pretty much a wash",
+      "explanationVi": "“It's a wash” là thành ngữ: lợi và hại bù trừ nhau, kết quả gần như bằng không. Câu đứng trước (“once you factor in moving costs”) chính là manh mối ngữ cảnh.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "job-offer",
+      "prompt": "What is Hana's main concern about accepting the offer?",
+      "options": [
+        { "text": "Her partner does not want to leave his current job.", "misconception": "not_mentioned", "whyVi": "Không nói anh ấy không muốn; chỉ nói anh ấy sẽ phải tìm việc mới." },
+        { "text": "She is not confident about managing people.", "misconception": "meaning_flip", "whyVi": "Ngược lại: quản lý người khác là điều cô ấy thích (“finally”)." },
+        { "text": "Her partner may have trouble finding work there.", "misconception": null, "whyVi": "Đúng: “He'd have to find something new… the job market in his field is a lot smaller”." },
+        { "text": "She has to give her answer by the end of the week.", "misconception": "partial_match", "whyVi": "Sai chi tiết: họ tự cho mình tới cuối tháng, và đó không phải nỗi lo." }
+      ],
+      "answerIndex": 2,
+      "evidence": "He'd have to find something new out there, and the job market in his field is a lot smaller.",
+      "explanationVi": "“What's holding you back?” (câu hỏi của Marcus) = concern. Câu trả lời “job market… a lot smaller” được paraphrase thành “may have trouble finding work”.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "mediation-news",
+      "prompt": "What is the main purpose of the new program?",
+      "options": [
+        { "text": "To replace the Residential Tenancy Branch for the city", "misconception": "partial_match", "whyVi": "Quá mạnh: chương trình diễn ra “before” tranh chấp lên Branch, không thay thế nó." },
+        { "text": "To provide free lawyers to tenants in formal hearings", "misconception": "not_mentioned", "whyVi": "Đây là “mediation” (hòa giải) cho cả hai bên, không phải luật sư cho người thuê." },
+        { "text": "To shorten the wait for formal hearings at the Branch", "misconception": "word_match", "whyVi": "Dùng lại “formal hearings… months” nhưng chương trình không thay đổi lịch phiên điều trần." },
+        { "text": "To help both sides settle conflicts without a formal hearing", "misconception": null, "whyVi": "Đúng: free mediation for tenants and property owners, before a dispute goes to the Branch; many conflicts “could be settled in a single conversation”." }
+      ],
+      "answerIndex": 3,
+      "evidence": "offering free mediation sessions to tenants and property owners before a dispute goes to the provincial Residential Tenancy Branch",
+      "explanationVi": "“Tenants and property owners” = both sides; “before a dispute goes to…” = without (needing) a formal hearing. Đáp án “shorten the wait” là bẫy trùng từ với câu của Councillor Ruiz.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "mediation-news",
+      "prompt": "According to the report, what will decide whether the program continues after one year?",
+      "options": [
+        { "text": "Whether tenants say they are satisfied with it", "misconception": "not_mentioned", "whyVi": "Không nhắc tới khảo sát mức độ hài lòng." },
+        { "text": "Whether it reduces the number of official complaints", "misconception": null, "whyVi": "Đúng: “If it leads to fewer formal complaints… it may become permanent”." },
+        { "text": "Whether the province agrees to pay for it", "misconception": "wrong_speaker", "whyVi": "Người quyết định và chi tiền là city council, không phải tỉnh bang." },
+        { "text": "Whether it can settle every case in a single conversation", "misconception": "word_match", "whyVi": "Dùng lại “a single conversation” — đó là ý kiến của Ruiz về nhiều vụ việc, không phải điều kiện tiếp tục." }
+      ],
+      "answerIndex": 1,
+      "evidence": "If it leads to fewer formal complaints, council says it may become permanent.",
+      "explanationVi": "“Continues after one year” = “become permanent”; “fewer formal complaints” = “reduces the number of official complaints”. Ở Level 8, cả câu hỏi và đáp án đều đã được paraphrase — bạn phải nối ý ở cả hai phía.",
+      "competency": "paraphrase"
+    }
+  ],
+  "misconceptions": {
+    "word_match": {
+      "label": "Chọn vì trùng từ",
+      "explanationVi": "Bạn chọn đáp án vì nó chứa đúng một từ hoặc con số bạn vừa nghe, mà không kiểm tra từ đó có được dùng với cùng ý hay không. Đây là thói quen nghe theo âm thanh thay vì nghe theo ý.",
+      "fixVi": "Khi một đáp án lặp lại nguyên văn từ trong bài, hãy dừng lại và hỏi: “Trong bài, từ này gắn với ý gì?”. Chỉ chọn khi cả ý của câu trùng khớp."
+    },
+    "partial_match": {
+      "label": "Chỉ đúng một phần",
+      "explanationVi": "Đáp án có một phần đúng với bài nghe nhưng một chi tiết bị đổi (số lần, số ngày, mức độ) hoặc bị nói quá lên. Bạn đã nhận ra ý chính nhưng chưa kiểm tra hết từng chi tiết.",
+      "fixVi": "Chia đáp án thành từng mẩu (ai, làm gì, bao nhiêu, khi nào) và kiểm tra từng mẩu với ghi chú. Chỉ một mẩu sai là cả đáp án sai."
+    },
+    "not_mentioned": {
+      "label": "Thông tin không được nhắc tới",
+      "explanationVi": "Đáp án nghe hợp lý hoặc đúng với đời thực, nên bạn dùng kiến thức và suy đoán của mình để lấp chỗ trống, thay vì dựa vào điều người nói thực sự nói.",
+      "fixVi": "Với mỗi đáp án, hãy tìm câu trong bài nói ý đó (kể cả bằng từ khác). Nếu không tìm được câu nào, loại đáp án đó, dù nó nghe hợp lý đến đâu."
+    },
+    "meaning_flip": {
+      "label": "Hiểu ngược nghĩa",
+      "explanationVi": "Bạn bỏ qua các từ đảo nghĩa như not, no longer, but not by much, scheduled vs unexpected, nên chọn đáp án có ý ngược lại với người nói.",
+      "fixVi": "Nghe kỹ các từ phủ định và từ chỉ mức độ (not, never, only, a little, not by much). Khi ghi chú, dùng dấu ✗ hoặc ↓ để không quên chiều của ý."
+    },
+    "wrong_speaker": {
+      "label": "Nhầm người nói/người làm",
+      "explanationVi": "Ý trong đáp án có xuất hiện trong bài, nhưng thuộc về người khác (Jen thay vì Tom, hội đồng thành phố thay vì tỉnh). Bạn nắm được nội dung nhưng không gắn nó với đúng người.",
+      "fixVi": "Khi ghi chú, luôn ghi tên hoặc chữ cái đầu của người nói/làm trước ý: J → WFH 2 days. Khi đọc đáp án, kiểm tra chủ ngữ trước tiên."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "has a hold on it ↔ has been reserved", "vi": "đã có người đặt giữ (sách, hàng)", "example": "Sorry, that book has a hold on it, so I can't renew it." },
+    { "term": "hang on to something ↔ keep something longer", "vi": "giữ lại thêm một thời gian", "example": "Can I hang on to the parking pass until Monday?" },
+    { "term": "backed up ↔ very busy / behind schedule", "vi": "bị dồn việc, quá tải", "example": "The tire shop is backed up because everyone's switching to winter tires." },
+    { "term": "ride like new / run like new ↔ work as well as a new one", "vi": "chạy tốt như mới", "example": "After the tune-up, my old car runs like new." },
+    { "term": "no spot until… ↔ cannot start / no opening before…", "vi": "không có chỗ trống cho tới…", "example": "There's no spot in the swim class until January." },
+    { "term": "it's a wash ↔ the gain and loss cancel out", "vi": "lợi và thiệt bù trừ nhau, coi như hòa", "example": "The cheaper rent is a wash once you add the longer commute." },
+    { "term": "what's holding you back? ↔ what is your concern?", "vi": "điều gì khiến bạn còn do dự?", "example": "You love the condo, so what's holding you back?" },
+    { "term": "allow extra time ↔ leave earlier than usual", "vi": "dành thêm thời gian, đi sớm hơn", "example": "Allow an extra half hour if you're taking the ferry on a long weekend." }
+  ],
+  "grammar": [],
+  "practice": [
+    { "label": "Paraphrase drill (listening)", "route": "/listening?mode=drill&focus=paraphrase" },
+    { "label": "Listening Part 2: Daily life conversation", "route": "/listening?task=L2" },
+    { "label": "Review your mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 items from audio; keys and evidence hold. Fixed g4 hint (it named the answer wording), relabelled g2 King George distractor as word_match, and moved the mediation-pilot news to a fictional city (Harbourview) so it is not a claim about a real Victoria program."}
+}

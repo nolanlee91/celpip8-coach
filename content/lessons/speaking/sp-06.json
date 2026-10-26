@@ -1,0 +1,340 @@
+{
+  "id": "sp-06",
+  "skill": "speaking",
+  "module": "speaking-tasks",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Task 1: Giving advice",
+  "titleVi": "Task 1: Đưa ra lời khuyên",
+  "estimatedMinutes": 30,
+  "prerequisites": ["sp-01", "sp-03"],
+  "competencies": ["task_fulfillment", "vocabulary_range"],
+  "tasks": ["S1"],
+  "objectives": [
+    "You will be able to open a Task 1 answer by naming the person and their problem in one or two sentences.",
+    "You will be able to give two or three pieces of advice, each linked to a detail in the prompt and supported by a reason and a result.",
+    "You will be able to vary your advice language (I'd recommend…, you might want to…, if I were you…, it might be worth…) instead of repeating \"you should\".",
+    "You will be able to fill the 90 seconds with developed ideas and finish with a clear wrap-up."
+  ],
+  "objectiveVi": "Sau bài này, bạn trả lời Task 1 theo một khung cố định: mở đầu gọi tên người nghe và tóm tắt vấn đề, 2–3 lời khuyên có lý do và kết quả, rồi kết thúc gọn gàng. Bạn cũng có sẵn 6–8 cách khuyên khác nhau để không lặp lại “you should”.",
+  "whyItMattersVi": "Speaking 6 → 8 trong Task 1 thường không bị chặn bởi phát âm mà bởi hai điểm: (1) lời khuyên chung chung, không dựa vào chi tiết của đề, và (2) vốn từ khuyên quá hẹp (“you should… you should…”). Task 1 có 90 giây — dài nhất cùng Task 7 — nên nếu chỉ liệt kê ý, bạn sẽ hết ý sau 40–50 giây. Học cách phát triển mỗi lời khuyên bằng lý do + kết quả giúp bạn vừa lấp đủ thời gian, vừa thể hiện được độ phong phú từ vựng mà Level 8 cần.",
+  "concept": [
+    {
+      "heading": "Task 1 yêu cầu gì",
+      "body": "Trong **Task 1: Giving Advice**, bạn đọc một tình huống: một người bạn, người thân, đồng nghiệp hoặc hàng xóm đang gặp vấn đề hoặc phải ra quyết định. Bạn có **30 giây chuẩn bị** và **90 giây nói**. Bạn nói **trực tiếp với người đó** (dùng “you”, gọi tên họ), không phải nói với giám khảo.\n\nĐiều quan trọng nhất: đề luôn có **2–3 chi tiết cụ thể** (ví dụ: *đau đầu gối*, *thấy phòng gym đắt*, *chán khi tập một mình*). Lời khuyên tốt phải **giải quyết đúng những chi tiết đó**. Nếu bạn khuyên “go to the gym” cho người vừa nói gym quá đắt, bạn đang bỏ qua đề — đây là lỗi task fulfilment nặng nhất."
+    },
+    {
+      "heading": "Khung 90 giây: mở đầu → 2–3 lời khuyên A-R-R → kết",
+      "body": "- **Opening (≈10 giây):** gọi tên + tóm tắt vấn đề bằng lời của bạn. *Hey Mark, I know you want to get more active, but your knees have been bothering you.*\n- **Advice 1, 2, (3) (≈20–25 giây mỗi ý):** mỗi lời khuyên theo công thức **A-R-R**:\n  - **Advice:** *I'd recommend trying aquafit.*\n  - **Reason** (gắn với chi tiết của đề): *Water takes the pressure off your knees.*\n  - **Result / example:** *That way, you can exercise longer without pain.*\n- **Wrap-up (≈10 giây):** một bước tiếp theo cụ thể + lời động viên. *Maybe start with one class this week and see how you feel. Good luck!*\n\nHai lời khuyên phát triển đầy đủ tốt hơn bốn lời khuyên chỉ có một câu. Mục tiêu khoảng **170–210 từ** trong 90 giây với tốc độ nói tự nhiên."
+    },
+    {
+      "heading": "Ngôn ngữ khuyên: từ nhẹ đến mạnh",
+      "body": "Level 8 không có nghĩa là dùng từ khó, mà là **đa dạng và đúng mức độ**:\n- **Nhẹ, lịch sự:** *You might want to + V* · *It might be worth + V-ing* · *Have you thought about + V-ing?*\n- **Trung bình:** *I'd recommend + V-ing* · *I'd suggest + V-ing* · *One option would be to + V*\n- **Giả định:** *If I were you, I'd + V*\n- **Mạnh, khi có rủi ro:** *Make sure you + V* · *You really should + V* · *Whatever you do, don't + V*\n\n**Bẫy ngữ pháp** người Việt hay mắc: ~~recommend you to go~~, ~~suggest you to go~~. Đúng là *I'd recommend going* / *I'd suggest that you go*. Và luôn là *If I **were** you*, không phải *If I was you* (trong bài thi nên dùng *were*)."
+    },
+    {
+      "heading": "Phương pháp 30 giây chuẩn bị",
+      "body": "1. **(5 giây)** Gạch chân trong đầu 2–3 chi tiết của đề: ai, vấn đề gì, hạn chế gì (tiền, thời gian, sức khoẻ…).\n2. **(15 giây)** Ghi **một từ khoá cho mỗi lời khuyên**, và mỗi lời khuyên trả lời một chi tiết: *knees → aquafit*, *cost → free walking group*, *bored → pickleball/friends*.\n3. **(5 giây)** Gán sẵn một cụm khuyên khác nhau cho mỗi ý: *I'd recommend… / You might want to… / If I were you…*\n4. **(5 giây)** Nghĩ trước câu kết: một bước cụ thể (*start with one class*, *call the landlord first*).\n\nKhông viết câu hoàn chỉnh — chỉ ghi từ khoá. Khi nói, dùng connector để chuyển ý: *First of all… On top of that… And if I were you, I'd also… Anyway, …*"
+    },
+    {
+      "heading": "Những gì làm câu trả lời bị điểm thấp",
+      "body": "- **Lời khuyên chung chung**, áp dụng cho ai cũng được (*exercise is good for health*).\n- **Liệt kê không lý do**: *You should swim. You should walk. You should do yoga.* Nghe như danh sách, không phải lời khuyên.\n- **Nói về bản thân quá lâu** (*my father also…*) thay vì nói về người cần lời khuyên.\n- **Kết thúc đột ngột** ở giây 45 rồi im lặng, hoặc bị cắt giữa ý vì không chừa thời gian kết.\n- **Giọng văn quá trang trọng** (*Firstly, I would like to advise you…*). Đây là cuộc nói chuyện với bạn bè hoặc người thân: tự nhiên, ấm áp, dùng contraction (*I'd, you'll, it's*)."
+    }
+  ],
+  "stimuli": {
+    "prompt-mark": {
+      "title": "Task 1 prompt: a neighbour who wants to stay active",
+      "text": "Your neighbour Mark has just retired. He wants to become more active, but he has problems with his knees, he thinks gym memberships are too expensive, and he gets bored when he exercises alone.\n\nGive Mark some advice about how he can stay active."
+    },
+    "prompt-linh": {
+      "title": "Task 1 prompt: renting a first apartment",
+      "text": "Your cousin Linh has just moved to Surrey for a new job and needs to rent her first apartment in Canada. She has found a one-bedroom apartment next to a SkyTrain station that costs $2,300 a month, and a basement suite for $1,600 a month that is a 25-minute bus ride from the station. She has never signed a lease before and is worried about making a mistake.\n\nGive Linh some advice to help her."
+    },
+    "prompt-priya": {
+      "title": "Task 1 prompt: a colleague who is nervous about presentations",
+      "text": "Your co-worker Priya has been asked to give a short presentation at the monthly team meeting. She knows the topic well, but she gets very nervous speaking in front of groups, and she has very little free time because she has two young children.\n\nGive Priya some advice to help her prepare."
+    },
+    "prompt-hoa": {
+      "title": "Task 1 prompt: buying a first car",
+      "text": "Your friend Hoa wants to buy her first car in BC. She has a budget of about $12,000, she doesn't know much about cars, and she is worried that a seller might take advantage of her.\n\nGive Hoa some advice about buying a car."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Three versions of the same advice answer",
+      "stimulusId": "prompt-mark",
+      "question": "Compare a weak, an acceptable and a Level 8 response to Mark's situation. What makes the difference?",
+      "steps": [
+        "List the details in the prompt: (1) knee problems, (2) gyms are too expensive, (3) bored alone. Each piece of advice should answer at least one of them.",
+        "Plan A-R-R for each idea: aquafit → easy on knees → can exercise longer; free walking group → costs nothing + company → stays motivated; pickleball → low-impact and social → exercise feels like fun.",
+        "Choose a different advice phrase for each idea: I'd really recommend… / you might want to… / if I were you, I'd also…",
+        "Plan the wrap-up: one concrete next step (start with one activity) + encouragement.",
+        "Now compare the three versions below and notice which ones use the prompt details, how each idea is developed, and how long each would take to say."
+      ],
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "Hi Mark. I think you should go to gym. Gym is very good for health. And you should walk. Walking is good. And you should, uh, join a club. Because you are retired, you have many time. I think exercise is very important for everybody. My father also retired and he go walking every day. So you should exercise. OK, good luck.",
+          "commentVi": "Câu trả lời này đi ngược đề: khuyên “go to gym” trong khi Mark nói gym quá đắt, và hoàn toàn bỏ qua chuyện đầu gối. Bốn lần “you should”, không có lý do gắn với Mark, ý “my father” lạc đề. Lỗi ngữ pháp điển hình: thiếu mạo từ (go to gym), “many time” (phải là much time / a lot of time), “he go” (thiếu -es). Chỉ khoảng 65 từ → hết ý sau khoảng 35–40 giây, phần còn lại im lặng."
+        },
+        {
+          "label": "acceptable",
+          "text": "Hi Mark, I heard you want to be more active after you retired. First, I think you should try swimming, because it is easy for your knees. Many community centres have pools and it is not expensive. Second, you should walk with a group. There are walking groups in our neighbourhood, so you will not be bored. Also, you can try yoga at home with YouTube videos. It's free. I think these ideas will help you. Good luck!",
+          "commentVi": "Đã giải quyết cả ba chi tiết (đầu gối, chi phí, buồn chán) và có cấu trúc rõ ràng — đây là mức Level 6–7. Nhưng: lý do rất ngắn và không có kết quả (“so what?”); cụm khuyên lặp lại (should ×2, can); “First… Second… Also” nghe như đọc danh sách; “after you retired” nên là “now that you've retired”. Khoảng 80 từ → chỉ dùng khoảng 40–50 giây trong 90 giây, thiếu phần phát triển ý."
+        },
+        {
+          "label": "level8",
+          "text": "Hey Mark, congratulations again on retiring! I know you're keen to get more active, but with your knees, the cost of gyms, and the fact that you get bored on your own, you need something that ticks all three boxes. So here are a few ideas. First of all, I'd really recommend checking out the aquafit classes at your local rec centre. Exercising in water takes the pressure off your knees, and most rec centres have discounted drop-in rates for seniors, so it won't break the bank. On top of that, you might want to join a neighbourhood walking group. A lot of them are free, and since you'd be walking with the same people every week, you'd have company and someone to keep you going. And if I were you, I'd also give pickleball a try. It's really popular with retirees around here, it's fairly gentle on the joints, and it's a great way to make friends. That way, exercise wouldn't feel like a chore; it'd be something social you actually look forward to. Anyway, maybe start with just one of these this week and see how your knees feel. Let me know how it goes!",
+          "commentVi": "Mở đầu tóm tắt đúng ba chi tiết của đề bằng lời của mình (“ticks all three boxes”). Mỗi lời khuyên theo A-R-R: aquafit → giảm áp lực đầu gối → không tốn kém; walking group → miễn phí + có bạn → giữ động lực; pickleball → nhẹ nhàng + xã hội → tập không thấy chán. Ba cụm khuyên khác nhau (I'd really recommend / you might want to / if I were you, I'd), connector nói tự nhiên (On top of that, That way, Anyway), collocation tốt (break the bank, keep you going, feel like a chore). Câu kết có bước cụ thể. Khoảng 200 từ → vừa đủ 90 giây."
+        }
+      ],
+      "answer": "The Level 8 version wins because every piece of advice answers a detail from the prompt, each idea is developed with a reason and a result, the advice language is varied, and the length fits 90 seconds.",
+      "takeawayVi": "Chất lượng lời khuyên = gắn với chi tiết đề + lý do + kết quả. Hai hoặc ba ý phát triển đầy đủ, mỗi ý một cụm khuyên khác nhau, là đủ để lấp 90 giây."
+    },
+    {
+      "id": "ex2",
+      "title": "Planning in 30 seconds: from prompt details to keyword notes",
+      "stimulusId": "prompt-linh",
+      "question": "How would you plan an answer for Linh in 30 seconds?",
+      "steps": [
+        "Find the details: two choices (expensive near SkyTrain vs cheaper basement suite + 25-minute bus), first lease in Canada, worried about mistakes.",
+        "Turn each detail into one keyword of advice: 'total cost' (compare rent + transit + time), 'visit + ask' (view the suite, check heat/laundry, meet the landlord), 'lease' (read it, get it in writing, check the Residential Tenancy Branch website).",
+        "Attach an advice phrase to each keyword: Have you thought about… (total cost) / Make sure you… (visit) / If I were you, I'd… (lease).",
+        "Plan a reason + result for each: e.g. 'Make sure you visit in person → you'll see problems like damp or no laundry → you won't get a nasty surprise after you move in.'",
+        "Plan the wrap-up: 'If you'd like, I can come with you to see the basement suite this weekend.'"
+      ],
+      "answer": "Notes: (1) total cost → rent + bus + time; (2) visit + ask → damp, heat, laundry; (3) lease → in writing, RTB website; close → offer to go with her.",
+      "takeawayVi": "Ghi chú 30 giây chỉ cần 3 từ khoá, mỗi từ khoá trả lời một chi tiết của đề, kèm sẵn một cụm khuyên. Đừng cố viết câu — câu sẽ được tạo ra khi bạn nói theo A-R-R."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "prompt-priya",
+      "prompt": "Which opening is the best way to start your answer to Priya?",
+      "hint": "A good opening talks to the person directly and sums up the details of her situation in your own words.",
+      "options": [
+        { "text": "Hi Priya, congrats on being asked to present! I know you know the topic inside out, but speaking in front of the team makes you nervous, and with two little ones at home, you don't have much time to prepare.", "misconception": null, "whyVi": "Đúng: nói trực tiếp với Priya, tóm tắt cả ba chi tiết (biết chủ đề, hồi hộp, ít thời gian) bằng lời của mình, giọng tự nhiên." },
+        { "text": "Presentations are very important in Canadian workplaces, and many people feel nervous about them.", "misconception": "generic-advice", "whyVi": "Câu chung chung, không nói với Priya và không nhắc chi tiết nào của cô ấy (hai con nhỏ, ít thời gian)." },
+        { "text": "Firstly, I would like to give you some advice about your presentation, which is as follows.", "misconception": "weak-structure", "whyVi": "Quá trang trọng như đọc văn viết, và không tóm tắt vấn đề — người nghe không biết bạn hiểu tình huống chưa." },
+        { "text": "Hi Priya. When I was in Vietnam, I also had to give a presentation and I was very nervous too.", "misconception": "generic-advice", "whyVi": "Chuyển sang nói về bản thân ngay từ đầu; Task 1 là về người cần lời khuyên, không phải về bạn." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Mở đầu tốt = gọi tên + cho thấy bạn hiểu đúng các chi tiết của đề. Chỉ cần 1–2 câu, khoảng 10 giây.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g2",
+      "type": "text",
+      "prompt": "Complete the advice with the correct form of the verb in brackets: \"I'd recommend ______ (practise) your talk out loud while you're cooking dinner.\"",
+      "hint": "After recommend and suggest, which verb form follows directly?",
+      "answers": ["practising", "practicing"],
+      "mode": "exact",
+      "misconception": "advice-grammar",
+      "explanationVi": "Sau recommend / suggest dùng V-ing (I'd recommend practising) hoặc mệnh đề that + động từ nguyên mẫu (I'd recommend that you practise). Không dùng “recommend you to practise”.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "prompt-priya",
+      "prompt": "Which piece of advice for Priya is fully developed with Advice + Reason + Result?",
+      "hint": "Check each option for three parts: what to do, why it fits her situation, and what will happen if she does it.",
+      "options": [
+        { "text": "You should practise. Practice is important. Good luck.", "misconception": "no-reason", "whyVi": "Chỉ có lời khuyên, lý do chung chung (“important”), không có kết quả." },
+        { "text": "You might want to record yourself on your phone and listen to it on your commute. It only takes ten minutes a day, so it fits around the kids, and by the meeting you'll know your talk well enough that your nerves won't take over.", "misconception": null, "whyVi": "Đủ A-R-R: lời khuyên cụ thể → lý do gắn với chi tiết (ít thời gian, có con nhỏ) → kết quả (bớt hồi hộp)." },
+        { "text": "You should practise, practise with your husband, and practise with your friends, and also practise at work.", "misconception": "no-reason", "whyVi": "Lặp lại một ý dưới dạng danh sách; không có lý do hay kết quả nào." },
+        { "text": "You should take a public speaking course at a college this semester.", "misconception": "generic-advice", "whyVi": "Có lời khuyên nhưng bỏ qua chi tiết Priya rất bận vì có hai con nhỏ, và không có lý do hay kết quả." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Một lời khuyên Level 8 trả lời được ba câu hỏi: làm gì? tại sao hợp với người này? kết quả là gì? Phần lý do phải dựa vào chi tiết của đề.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g4",
+      "type": "order",
+      "stimulusId": "prompt-priya",
+      "prompt": "Put the parts of this answer to Priya in the most logical order.",
+      "hint": "Think opening → advice 1 → a second piece of advice introduced with an adding connector → a closing step.",
+      "items": [
+        "Hey Priya, I know you're nervous about the team meeting and really short on time with the kids.",
+        "First of all, I'd recommend keeping your slides simple, with just a few key words on each one, because then you won't have to memorize a script.",
+        "On top of that, you might want to do a quick run-through with one friendly colleague at lunch, so that the room feels less scary on the day.",
+        "Anyway, maybe start with the slides tonight, and let me know if you'd like me to be your practice audience."
+      ],
+      "misconception": "weak-structure",
+      "explanationVi": "Khung chuẩn: mở đầu tóm tắt vấn đề → lời khuyên 1 (First of all) → lời khuyên 2 (On top of that) → kết với bước cụ thể (Anyway, maybe start…).",
+      "competency": "coherence"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        { "text": "I suggest you to call the landlord before you sign anything.", "misconception": "advice-grammar", "whyVi": "Sai: suggest không đi với cấu trúc “somebody to do”." },
+        { "text": "I'd suggest calling the landlord before you sign anything.", "misconception": null, "whyVi": "Đúng: suggest + V-ing." },
+        { "text": "I recommend you to calling the landlord before you sign anything.", "misconception": "advice-grammar", "whyVi": "Sai hai lần: recommend không dùng “you to”, và “to calling” không đúng." },
+        { "text": "I'd suggest that you will call the landlord before you sign anything.", "misconception": "advice-grammar", "whyVi": "Sau “suggest that you” dùng động từ nguyên mẫu (call), không dùng will." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Hai mẫu an toàn: I'd suggest / recommend + V-ing, hoặc I'd suggest / recommend that you + V nguyên mẫu.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "prompt": "Fill in the missing word: \"If I ______ you, I'd ask for the lease in writing before paying the deposit.\"",
+      "answers": ["were"],
+      "mode": "exact",
+      "misconception": "advice-grammar",
+      "explanationVi": "Câu điều kiện loại 2 dùng để khuyên: If I were you, I'd + V. Trong bài thi, dùng “were” cho mọi ngôi.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "prompt-linh",
+      "prompt": "Which piece of advice for Linh responds most directly to the details of her situation?",
+      "options": [
+        { "text": "Living in Canada is expensive, so you should save money.", "misconception": "generic-advice", "whyVi": "Đúng với bất kỳ ai; không nhắc đến hai lựa chọn nhà hay hợp đồng thuê." },
+        { "text": "Have you thought about adding up the total cost of each place? The basement suite is $700 cheaper, but once you add a monthly transit pass and almost an hour of bus rides a day, the gap might be smaller than it looks.", "misconception": null, "whyVi": "Dùng chính các con số trong đề ($700 chênh lệch, 25 phút xe buýt) để giúp Linh so sánh." },
+        { "text": "You should buy a car, because then you can live anywhere.", "misconception": "generic-advice", "whyVi": "Lời khuyên không liên quan đến vấn đề chính (chọn chỗ thuê, lần đầu ký hợp đồng) và có thể còn tốn kém hơn." },
+        { "text": "You should rent the apartment. You should also check the suite. You should read the lease.", "misconception": "repetitive-should", "whyVi": "Có nhắc đến chi tiết nhưng chỉ là danh sách ba lần “should”, không có lý do và kết quả." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Task fulfilment tốt nghĩa là lời khuyên dùng lại chi tiết cụ thể của đề (số tiền, thời gian, mối lo lắng) — không phải lời khuyên chung áp dụng cho ai cũng được.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "prompt": "A learner keeps saying \"you should\". Which rewrite of \"You should visit the suite in person\" sounds most natural in a friendly Task 1 answer?",
+      "options": [
+        { "text": "It is advisable that you conduct an in-person inspection of the suite.", "misconception": "weak-structure", "whyVi": "Quá trang trọng, nghe như văn bản pháp lý; không phù hợp khi nói với người thân." },
+        { "text": "Make sure you go and see the suite in person, because photos online can hide things like damp or a really low ceiling.", "misconception": null, "whyVi": "Cụm khuyên mạnh, tự nhiên (Make sure you), có lý do cụ thể ngay sau đó." },
+        { "text": "You should really, really see the suite.", "misconception": "repetitive-should", "whyVi": "Vẫn là “you should”, chỉ thêm “really” cho mạnh hơn; không mở rộng vốn từ khuyên và không có lý do." },
+        { "text": "You should to visit the suite in person.", "misconception": "advice-grammar", "whyVi": "Sai ngữ pháp: should + V nguyên mẫu, không có “to”." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Mỗi cụm khuyên có mức độ riêng: Make sure you… phù hợp khi có rủi ro (mất tiền cọc, nhà ẩm). Giữ giọng thân mật và luôn kèm lý do.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "prompt-hoa",
+      "prompt": "You have 90 seconds for Hoa's question. Which plan is the most effective?",
+      "options": [
+        { "text": "Six short pieces of advice, one sentence each, so you cover as many ideas as possible.", "misconception": "no-reason", "whyVi": "Nhiều ý nhưng không ý nào được phát triển; nghe như danh sách và thiếu lý do." },
+        { "text": "One idea explained in great detail for the whole 90 seconds.", "misconception": "weak-structure", "whyVi": "Một ý duy nhất thường bị lặp lại và không trả lời được các chi tiết khác của đề (ngân sách, sợ bị lừa)." },
+        { "text": "A short opening, three pieces of advice that match her budget, her lack of car knowledge and her fear of being cheated, each with a reason and result, then a closing step.", "misconception": null, "whyVi": "Đúng khung: mở đầu → 3 ý A-R-R, mỗi ý ứng với một chi tiết của đề → kết." },
+        { "text": "Start by telling Hoa about the car you bought, then give one piece of advice at the end.", "misconception": "generic-advice", "whyVi": "Câu chuyện cá nhân chiếm gần hết thời gian; Task 1 yêu cầu lời khuyên cho Hoa." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "90 giây vừa đủ cho 2–3 lời khuyên phát triển đầy đủ. Mỗi lời khuyên nên “nhắm” vào một chi tiết của đề.",
+      "competency": "timing"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "prompt-hoa",
+      "prompt": "Which piece of advice for Hoa is the strongest at Level 8?",
+      "options": [
+        { "text": "You should be careful because some sellers are bad.", "misconception": "no-reason", "whyVi": "Chung chung, không nói Hoa cần làm gì cụ thể; từ vựng hạn chế (bad)." },
+        { "text": "Whatever you do, don't skip the pre-purchase inspection. For around $150, a mechanic can spot problems you'd never notice, and if the seller refuses to let you get one, that's a red flag that they're hiding something.", "misconception": null, "whyVi": "Cụm khuyên mạnh phù hợp với rủi ro, lý do gắn với việc Hoa không rành về xe, kết quả rõ (nhận ra người bán gian dối), collocation tự nhiên (red flag)." },
+        { "text": "I recommend you to buy a car from a dealer because dealer is more safe.", "misconception": "advice-grammar", "whyVi": "Sai ngữ pháp (recommend you to, thiếu mạo từ “a dealer”, more safe → safer) và lý do quá ngắn." },
+        { "text": "You should buy a new car, a new car is better than a used car, and new cars are nice.", "misconception": "generic-advice", "whyVi": "Bỏ qua ngân sách $12,000 trong đề, lặp từ và không có lý do thuyết phục." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Level 8: cụm khuyên đúng mức độ + chi tiết cụ thể (giá, ai làm, làm gì) + hệ quả. Không cần từ hiếm, chỉ cần chính xác và tự nhiên.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i7",
+      "type": "produce",
+      "stimulusId": "prompt-hoa",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 90,
+      "prompt": "Record your answer to Hoa. You have 30 seconds to prepare and 90 seconds to speak.",
+      "checklist": [
+        "Opens by speaking to Hoa by name and summarizing her situation (budget, little car knowledge, worry about being cheated).",
+        "Gives 2–3 pieces of advice, each linked to a different detail in the prompt.",
+        "Supports each piece of advice with a reason and a result or example.",
+        "Uses at least three different advice structures (e.g. I'd recommend + -ing, you might want to, if I were you, make sure you).",
+        "Ends with a concrete next step or offer and speaks for at least 75 of the 90 seconds."
+      ],
+      "modelAnswer": "Hi Hoa, it's so exciting that you're finally getting your own car! I know twelve thousand dollars isn't a huge budget, you're not really a car person, and you're worried someone might rip you off, so let me share a few tips. First of all, I'd recommend doing some homework before you look at any cars. Websites like Consumer Reports rank which models are the most reliable, and if you stick to something like a Corolla or a Mazda3, you'll find plenty in your price range that last for years. On top of that, make sure you get a vehicle history report and a pre-purchase inspection from a mechanic you trust. It costs a little extra, but it'll tell you if the car's been in an accident or needs expensive repairs, so you'll have proof instead of just the seller's word. And if I were you, I'd bring someone along when you test drive it, even just me. Sellers are much less likely to pressure you when there are two of you, and you'll feel more confident negotiating the price. So maybe start by making a short list this weekend, and I'm happy to come with you to see a few cars.",
+      "misconception": "no-reason",
+      "explanationVi": "Tự chấm theo checklist. Đặc biệt kiểm tra: mỗi lời khuyên có trả lời một chi tiết khác nhau của đề không, và bạn có dùng ít nhất ba cụm khuyên khác nhau không.",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "misconceptions": {
+    "generic-advice": {
+      "label": "Lời khuyên chung chung, bỏ qua chi tiết đề",
+      "explanationVi": "Bạn trả lời theo chủ đề chung (sức khoẻ, tiền bạc…) thay vì theo tình huống cụ thể của người trong đề. Đây là lỗi đọc đề và lập kế hoạch: bạn chưa biến các chi tiết của đề thành lời khuyên.",
+      "fixVi": "Trong 5 giây đầu, xác định 2–3 chi tiết (hạn chế về tiền, thời gian, sức khoẻ, cảm xúc). Mỗi lời khuyên phải trả lời ít nhất một chi tiết, và nhắc lại chi tiết đó khi nói (because of your knees…, with your budget…)."
+    },
+    "no-reason": {
+      "label": "Liệt kê lời khuyên không có lý do và kết quả",
+      "explanationVi": "Bạn có ý nhưng không phát triển ý. Thiếu lý do và kết quả khiến câu trả lời ngắn, nghe như danh sách, và thường hết ý trước 90 giây.",
+      "fixVi": "Áp dụng A-R-R cho từng lời khuyên: Advice → Reason (vì sao hợp với người này) → Result (That way… / so you'll… / By the time…). Ít ý hơn nhưng sâu hơn."
+    },
+    "repetitive-should": {
+      "label": "Lặp “you should”, vốn từ khuyên hẹp",
+      "explanationVi": "Bạn chỉ có một hoặc hai cấu trúc khuyên. Giám khảo nghe thấy vốn từ hạn chế, dù ý có đúng.",
+      "fixVi": "Gán trước cho mỗi ý một cụm khác nhau khi chuẩn bị: I'd recommend + V-ing / You might want to / If I were you, I'd / Make sure you / Have you thought about + V-ing?"
+    },
+    "advice-grammar": {
+      "label": "Sai cấu trúc ngữ pháp sau động từ khuyên",
+      "explanationVi": "Tiếng Việt nói “khuyên bạn làm” nên người học hay dịch thành “recommend you to do / suggest you to do”. Đây là lỗi chuyển ngữ, không phải lỗi từ vựng.",
+      "fixVi": "Học thuộc ba khuôn: recommend/suggest + V-ing; recommend/suggest that you + V nguyên mẫu; If I were you, I'd + V. Should/might/must + V nguyên mẫu, không có “to”."
+    },
+    "weak-structure": {
+      "label": "Thiếu khung mở đầu – ý chính – kết, hoặc sai giọng",
+      "explanationVi": "Câu trả lời không có mở đầu tóm tắt vấn đề, không có kết, hoặc dùng giọng văn viết trang trọng. Người nghe khó theo dõi và câu trả lời không giống một cuộc trò chuyện thật.",
+      "fixVi": "Luôn theo khung: gọi tên + tóm tắt (10 giây) → 2–3 ý với connector nói (First of all, On top of that, And if I were you) → kết với một bước cụ thể (Anyway, maybe start by…)."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "I'd recommend + V-ing", "vi": "Tôi khuyên bạn nên… (lịch sự, phổ biến)", "example": "I'd recommend taking the SkyTrain for a week before you decide where to live." },
+    { "term": "You might want to + V", "vi": "Có lẽ bạn nên… (nhẹ nhàng, không áp đặt)", "example": "You might want to check if your rec centre has a seniors' discount." },
+    { "term": "If I were you, I'd + V", "vi": "Nếu tôi là bạn, tôi sẽ…", "example": "If I were you, I'd ask the landlord whether hydro is included in the rent." },
+    { "term": "It might be worth + V-ing", "vi": "Có lẽ cũng đáng để…", "example": "It might be worth calling ICBC before you buy the car to get an insurance quote." },
+    { "term": "Have you thought about + V-ing?", "vi": "Bạn đã nghĩ đến việc… chưa?", "example": "Have you thought about joining the walking group at the library?" },
+    { "term": "Make sure you + V", "vi": "Nhớ phải… / Đảm bảo là bạn… (khi có rủi ro)", "example": "Make sure you get the lease in writing before you pay a deposit." },
+    { "term": "That way, …", "vi": "Như vậy thì… (nêu kết quả của lời khuyên)", "example": "Practise on your commute. That way, you won't need extra time in the evening." },
+    { "term": "won't break the bank", "vi": "không tốn nhiều tiền", "example": "A drop-in aquafit class won't break the bank." },
+    { "term": "a red flag", "vi": "dấu hiệu đáng ngờ, cảnh báo", "example": "If the seller won't let a mechanic look at the car, that's a red flag." }
+  ],
+  "grammar": [
+    {
+      "point": "recommend / suggest + V-ing or + that + base verb",
+      "explanationVi": "Sau recommend và suggest không dùng tân ngữ + to-infinitive. Dùng V-ing, hoặc mệnh đề that + chủ ngữ + động từ nguyên mẫu (không chia, không will).",
+      "examples": [
+        "I'd recommend booking the inspection early.",
+        "I'd suggest that you visit the suite in the evening, when it's noisier.",
+        "✗ I suggest you to visit the suite. → ✓ I suggest visiting the suite."
+      ]
+    },
+    {
+      "point": "Second conditional for advice: If I were you, I'd…",
+      "explanationVi": "Đặt mình vào vị trí người kia để khuyên. Mệnh đề if dùng quá khứ (were cho mọi ngôi), mệnh đề chính dùng would/'d + V nguyên mẫu.",
+      "examples": [
+        "If I were you, I'd start with just one class a week.",
+        "If I were in your shoes, I wouldn't sign anything until you've read the whole lease."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Speaking Task 1: Giving advice", "route": "/speaking?task=S1" },
+    { "label": "Review your speaking mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 4 guided + 7 independent exercises independently; keys correct and unambiguous. Fixed: word-count target aligned to 170–210 words/90 s, acceptable-version count corrected (~80 words), replaced the typo-like 'You must must' distractor with a 'should really, really' one that fits its misconception."}
+}

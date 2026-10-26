@@ -1,0 +1,345 @@
+{
+  "id": "wr-03",
+  "skill": "writing",
+  "module": "writing-foundations",
+  "level": "foundation",
+  "difficulty": 7,
+  "title": "Paragraph organization",
+  "titleVi": "Tổ chức đoạn văn",
+  "estimatedMinutes": 30,
+  "prerequisites": ["wr-01"],
+  "competencies": ["coherence"],
+  "tasks": ["W1", "W2"],
+  "objectives": [
+    "You will be able to write a topic sentence that is neither too broad nor too narrow.",
+    "You will be able to build a body paragraph in four moves: topic sentence, support, example, link.",
+    "You will be able to spot and remove a sentence that breaks the one-idea-per-paragraph rule.",
+    "You will be able to plan paragraph lengths for a 150–200-word CELPIP response."
+  ],
+  "objectiveVi": "Bạn sẽ viết được mỗi đoạn thân bài theo bốn bước: câu chủ đề → giải thích → ví dụ cụ thể → câu nối/kết, và giữ mỗi đoạn chỉ có một ý chính.",
+  "whyItMattersVi": "Ở Writing 7, bạn thường có đủ ý nhưng các ý nằm lẫn lộn: đoạn mở bằng chi tiết nhỏ, ví dụ không gắn với lý do, hoặc một câu lạc đề chen vào giữa. Người chấm phải tự sắp xếp lại, và điểm mạch lạc (coherence) bị kéo xuống. Bài viết Level 8 cho người đọc biết ngay ý của từng đoạn qua câu đầu, rồi chứng minh ý đó bằng chi tiết cụ thể. Đây là khung bạn sẽ dùng lại trong mọi bài email và khảo sát.",
+  "concept": [
+    {
+      "heading": "1. Một đoạn = một ý điều khiển",
+      "body": "Một **paragraph** tốt có **một controlling idea** (ý điều khiển) duy nhất, và mọi câu trong đoạn đều phục vụ ý đó. Trong CELPIP:\n\n- **Task 1 (email):** mỗi gạch đầu dòng của đề thường là một đoạn thân bài.\n- **Task 2 (survey):** mỗi lý do chính là một đoạn thân bài.\n\nKhi bạn chuyển sang một ý mới (lý do khác, yêu cầu khác), hãy xuống dòng mở đoạn mới. Một đoạn chứa hai lý do thì cả hai đều bị phát triển nửa vời."
+    },
+    {
+      "heading": "2. Câu chủ đề (topic sentence)",
+      "body": "Câu chủ đề là câu đầu tiên của đoạn, nêu **ý chính + hướng phát triển**. Tránh ba kiểu yếu:\n\n- **Quá rộng:** *There are many advantages.* (lợi ích gì?)\n- **Quá hẹp:** *The bus comes every 8 minutes.* Đây là chi tiết hỗ trợ, không phải ý chính.\n- **Câu thông báo:** *In this paragraph, I will talk about cost.* Câu này chỉ nói bạn sắp làm gì, chưa nói ý.\n\nCâu chủ đề tốt: *The main reason I prefer the downtown location is that it is far easier to reach by transit.* Người đọc biết ngay: lý do = dễ đi bằng phương tiện công cộng, và phần sau sẽ chứng minh điều đó.\n\nMẹo: câu chủ đề nên trả lời được câu hỏi \"Đoạn này nói gì, và vì sao điều đó quan trọng?\""
+    },
+    {
+      "heading": "3. Bốn bước: Topic → Support → Example → Link",
+      "body": "1. **Topic sentence:** nêu ý.\n2. **Support / explanation:** giải thích *vì sao* hoặc *như thế nào* (1–2 câu). Đây là bước người Việt hay bỏ qua: nêu ý xong là nhảy ngay sang ví dụ.\n3. **Example:** một chi tiết **cụ thể**: tên địa điểm, con số, trải nghiệm thật. *For instance, my commute from Burnaby takes 25 minutes on the Expo Line, compared with 50 minutes by car at rush hour.*\n4. **Link:** câu kết nối lại với lựa chọn của bạn, với yêu cầu trong email, hoặc dẫn sang đoạn sau. *This would save me almost an hour every day.*\n\nTín hiệu hữu ích: *This is because…, In other words…, For instance…, As a result…, That is why…*"
+    },
+    {
+      "heading": "4. Tính thống nhất: loại bỏ câu lạc đề",
+      "body": "Câu lạc đề (**off-topic sentence**) thường là một ý thật, đúng, thậm chí thú vị, nhưng thuộc về đoạn khác hoặc không liên quan đến câu chủ đề. Ví dụ: đoạn nói về chi phí lại chen câu *Also, the staff are very friendly.*\n\nCách kiểm tra: đọc câu chủ đề, rồi hỏi với từng câu sau đó: *Câu này có chứng minh hoặc giải thích câu chủ đề không?* Nếu không, hãy xoá câu đó hoặc chuyển sang đoạn phù hợp. Trong giới hạn 200 chữ, mỗi câu lạc đề là chữ bị lãng phí."
+    },
+    {
+      "heading": "5. Độ dài đoạn trong 150–200 chữ",
+      "body": "Một kế hoạch thực tế:\n\n- **Task 1:** lời chào + câu mục đích (15–25 chữ) → ba đoạn thân, mỗi đoạn 40–50 chữ cho một gạch đầu dòng → câu kết (10–20 chữ).\n- **Task 2:** câu nêu lựa chọn (15–25 chữ) → hai đoạn thân, mỗi đoạn 60–70 chữ → câu kết ngắn.\n\nĐoạn thân chỉ có một câu là quá mỏng; đoạn dài hơn 90 chữ thường chứa hai ý. Khi lập dàn ý, hãy viết trước câu chủ đề của từng đoạn, rồi mới điền giải thích và ví dụ."
+    }
+  ],
+  "stimuli": {
+    "survey-commute-draft": {
+      "title": "Draft Task 2 paragraph (Level 6–7)",
+      "text": "The bus is every 8 minutes. I think option A is better. My friend drives to work and pays a lot for parking. Also the staff at the downtown office are very friendly. Transit is cheap and fast. So option A."
+    },
+    "numbered-paragraph": {
+      "title": "Body paragraph from a survey response about a new library branch",
+      "text": "(1) The strongest argument for building the new branch in Cloverdale is that families there currently have no library within walking distance. (2) At the moment, parents must drive twenty minutes to the Surrey Central branch, which is difficult for those without a car. (3) The Surrey Central branch also has a beautiful rooftop garden. (4) For instance, my neighbour takes two buses every Saturday so that her children can attend story time. (5) A local branch would make these programs accessible to hundreds of families who are currently left out."
+    }
+  },
+  "examples": [
+    {
+      "id": "wr-03-ex1",
+      "title": "Rebuilding a disorganized survey paragraph",
+      "stimulusId": "survey-commute-draft",
+      "question": "The survey asks whether employees prefer to work at a downtown office (option A) or a suburban office with free parking (option B). Reorganize this paragraph using Topic → Support → Example → Link.",
+      "steps": [
+        "Find the controlling idea: buried in 'I think option A is better' and 'Transit is cheap and fast'. The real point is: downtown is easier and cheaper to reach by transit.",
+        "Write a topic sentence that states the choice AND the reason: 'I prefer option A mainly because the downtown office is much easier and cheaper to reach by public transit.'",
+        "Turn 'The bus is every 8 minutes' into support that explains why transit works: frequent service means no long waits and no planning around schedules.",
+        "Develop the example: the friend who pays for parking shows the cost difference. Add a specific detail (a monthly pass vs parking fees).",
+        "Remove the off-topic sentence about friendly staff. It is a different idea and belongs in another paragraph, if anywhere.",
+        "Replace 'So option A.' (a fragment) with a link sentence that connects back to the choice."
+      ],
+      "answer": "I prefer option A mainly because the downtown office is much easier and cheaper to reach by public transit. Several bus routes and the SkyTrain stop within a block of the building, and buses run every eight minutes at rush hour, so employees never have to plan their day around a schedule. By contrast, a colleague of mine who drives downtown pays over $300 a month for parking, while a monthly transit pass costs less than half of that. For most staff, then, the downtown location would mean a shorter, less expensive commute.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "The bus is every 8 minutes. I think option A is better. My friend drives to work and pays a lot for parking. Also the staff at the downtown office are very friendly. Transit is cheap and fast. So option A.",
+          "commentVi": "Đoạn mở bằng một chi tiết (bus every 8 minutes) thay vì câu chủ đề; lựa chọn chỉ xuất hiện ở câu 2; ví dụ về người bạn không được giải thích nên không rõ liên quan thế nào; câu \"friendly staff\" lạc đề; ý chính \"cheap and fast\" lại nằm gần cuối; câu kết \"So option A.\" là câu cụt."
+        },
+        {
+          "label": "after",
+          "text": "I prefer option A mainly because the downtown office is much easier and cheaper to reach by public transit. Several bus routes and the SkyTrain stop within a block of the building, and buses run every eight minutes at rush hour, so employees never have to plan their day around a schedule. By contrast, a colleague of mine who drives downtown pays over $300 a month for parking, while a monthly transit pass costs less than half of that. For most staff, then, the downtown location would mean a shorter, less expensive commute.",
+          "commentVi": "Các thay đổi: câu chủ đề nêu cả lựa chọn và lý do; chi tiết \"every 8 minutes\" được chuyển xuống làm phần giải thích (vì sao tiện); ví dụ người bạn được làm cụ thể bằng con số và nối bằng \"By contrast\"; xoá câu lạc đề về nhân viên; câu cuối \"For most staff, then,…\" nối lại với lựa chọn thay cho câu cụt."
+        }
+      ],
+      "takeawayVi": "Ý tưởng thường đã có sẵn trong bản nháp. Việc tổ chức đoạn chủ yếu là sắp xếp lại: ý chính lên đầu, chi tiết làm phần giải thích, ví dụ có con số, câu lạc đề bị loại."
+    },
+    {
+      "id": "wr-03-ex2",
+      "title": "Choosing the strongest topic sentence",
+      "question": "An email bullet says: 'Explain why the community centre's new class schedule is a problem for you.' Which topic sentence is best: (a) 'There are some problems with the schedule.' (b) 'The yoga class now starts at 5:30.' (c) 'The new schedule is a problem for me because the evening classes now start before I finish work.' (d) 'I want to talk about the schedule.'",
+      "steps": [
+        "(a) is too broad: 'some problems' tells the reader nothing specific.",
+        "(b) is too narrow: it is a supporting detail, not the point of the paragraph.",
+        "(d) is an announcement: it says what you will do, not what you think.",
+        "(c) states the point (the schedule is a problem) and the direction (it clashes with work hours). The time 5:30 can now follow as support."
+      ],
+      "answer": "(c) The new schedule is a problem for me because the evening classes now start before I finish work.",
+      "takeawayVi": "Câu chủ đề tốt = ý chính + lý do/hướng phát triển. Nếu câu có thể dùng làm chi tiết hỗ trợ thì nó quá hẹp; nếu có thể dùng cho bất kỳ đề nào thì nó quá rộng."
+    },
+    {
+      "id": "wr-03-ex3",
+      "title": "Building a Task 1 bullet paragraph",
+      "question": "Bullet: 'Suggest how the problem could be solved.' (Email to a community centre manager about the new evening schedule.) Build a paragraph of about 50–60 words.",
+      "steps": [
+        "Topic sentence (the suggestion itself): 'One simple solution would be to offer a second evening session.'",
+        "Support (why it works): it keeps the current class for people who like it and adds one for workers.",
+        "Example (specific): a 7 p.m. class on Tuesdays and Thursdays.",
+        "Link (back to the reader): it would let more members use the classes they pay for."
+      ],
+      "answer": "One simple solution would be to offer a second evening session. This would keep the current class for members who enjoy it while giving people who work until five a realistic option. For example, a 7 p.m. class on Tuesdays and Thursdays would fit most office schedules and help more members use the classes they already pay for.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Maybe you can change it. 7 p.m. is good. Many people work. Thank you.",
+          "commentVi": "Không có câu chủ đề rõ ràng (\"change it\" là đổi cái gì?); câu \"7 p.m. is good\" là ví dụ nhưng chưa có giải thích; \"Many people work\" là lý do nhưng đứng sau ví dụ; \"Thank you\" không phải câu nối của đoạn này. Cả đoạn chỉ 14 chữ, quá mỏng cho một gạch đầu dòng."
+        },
+        {
+          "label": "after",
+          "text": "One simple solution would be to offer a second evening session. This would keep the current class for members who enjoy it while giving people who work until five a realistic option. For example, a 7 p.m. class on Tuesdays and Thursdays would fit most office schedules and help more members use the classes they already pay for.",
+          "commentVi": "Các thay đổi: câu chủ đề nêu đề xuất cụ thể (second evening session); câu giải thích dùng \"while\" để cho thấy giải pháp có lợi cho cả hai nhóm; ví dụ có giờ và ngày cụ thể; vế cuối nối về lợi ích của người đọc (members use the classes they pay for). Gần 60 chữ: hơi dài hơn mức 40–50 chữ, nhưng vẫn vừa trong tổng 150–200 chữ nếu hai đoạn còn lại gọn hơn."
+        }
+      ],
+      "takeawayVi": "Trong Task 1, mỗi gạch đầu dòng là một đoạn nhỏ theo đúng bốn bước. Ba đoạn như vậy cộng phần mở và kết là vừa đủ 150–200 chữ."
+    }
+  ],
+  "guided": [
+    {
+      "id": "wr-03-g1",
+      "type": "choice",
+      "prompt": "Survey: 'Should your town spend its budget on a new hockey arena or on repairing local roads?' Which is the best topic sentence for a body paragraph supporting road repairs?",
+      "hint": "The best topic sentence names one specific reason and could not be used as a supporting detail.",
+      "options": [
+        { "text": "Roads are very important for everyone in many ways.", "misconception": "topic-too-broad", "whyVi": "Quá rộng: \"in many ways\" không cho biết đoạn sẽ chứng minh điều gì." },
+        { "text": "There is a pothole on Fraser Highway near my house.", "misconception": "topic-too-narrow", "whyVi": "Quá hẹp: đây là một ví dụ cụ thể, phù hợp làm chi tiết hỗ trợ." },
+        { "text": "Repairing local roads should come first because damaged roads are a daily safety risk for drivers and cyclists.", "misconception": null, "whyVi": "Đúng. Nêu lựa chọn và một lý do cụ thể (safety), mở hướng cho giải thích và ví dụ." },
+        { "text": "In this paragraph, I will explain my opinion about roads.", "misconception": "topic-too-broad", "whyVi": "Câu thông báo, không nêu ý; người đọc vẫn chưa biết lý do của bạn." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Câu chủ đề phải trả lời: đoạn này nói gì và vì sao. \"Repairing roads should come first because…\" làm được cả hai.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-03-g2",
+      "type": "text",
+      "stimulusId": "numbered-paragraph",
+      "prompt": "Which sentence (type its number) breaks the one-idea-per-paragraph rule and should be removed?",
+      "hint": "Re-read sentence 1. Then ask of each sentence: does it help prove that Cloverdale families need a library close to home?",
+      "answers": ["3", "three", "sentence 3", "(3)"],
+      "mode": "exact",
+      "misconception": "off-topic-sentence",
+      "explanationVi": "Câu (3) nói về khu vườn trên mái của chi nhánh Surrey Central. Thông tin đúng nhưng không chứng minh rằng Cloverdale cần thư viện gần nhà. Thậm chí nó còn làm yếu lập luận vì khen chi nhánh cũ.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-03-g3",
+      "type": "choice",
+      "stimulusId": "numbered-paragraph",
+      "prompt": "What job does sentence (5) do in the paragraph?",
+      "hint": "Look at where it is and whether it adds a new detail or connects back to sentence (1).",
+      "options": [
+        { "text": "It gives a specific example.", "misconception": "missing-link", "whyVi": "Ví dụ cụ thể là câu (4) (người hàng xóm đi hai chuyến xe buýt)." },
+        { "text": "It links the example back to the main point and shows the result.", "misconception": null, "whyVi": "Đúng. Câu (5) rút ra hệ quả (accessible to hundreds of families) và nối lại với ý ở câu (1)." },
+        { "text": "It introduces a new reason for the next paragraph.", "misconception": "off-topic-sentence", "whyVi": "Câu (5) không đưa ra lý do mới, mà vẫn nói về việc thiếu thư viện gần nhà." },
+        { "text": "It is the topic sentence of the paragraph.", "misconception": "topic-too-narrow", "whyVi": "Câu chủ đề là câu (1); câu (5) là câu kết đoạn." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Câu nối/kết (link) không lặp lại y nguyên câu chủ đề mà cho thấy hệ quả hoặc ý nghĩa của ví dụ, đưa người đọc quay về ý chính.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-03-g4",
+      "type": "order",
+      "prompt": "Put these sentences in the Topic → Support → Example → Link order for an email to a neighbour about a shared fence.",
+      "hint": "Start with the sentence that states the main point; finish with the one that tells the reader what you hope will happen next.",
+      "items": [
+        "I think the best option would be to replace the fence together and split the cost.",
+        "Since the fence sits on the property line, it belongs to both of us, and a shared project would be fair.",
+        "For example, the contractor who did my sister's yard in Abbotsford quoted about $1,800 for a similar length, so we would each pay roughly $900.",
+        "If that works for you, I could ask him to come by next week and give us an exact price."
+      ],
+      "misconception": "missing-link",
+      "explanationVi": "Đề xuất (topic) → vì sao công bằng (support, \"Since…\") → con số cụ thể (example, \"For example…\") → bước tiếp theo (link, \"If that works for you…\").",
+      "competency": "coherence"
+    }
+  ],
+  "independent": [
+    {
+      "id": "wr-03-i1",
+      "type": "choice",
+      "prompt": "Which sentence would work best as the topic sentence of an email paragraph answering the bullet 'Describe what happened'? (You are writing to an airline about lost luggage.)",
+      "options": [
+        { "text": "I am very upset and disappointed with your company.", "misconception": "topic-too-broad", "whyVi": "Câu này nêu cảm xúc chung chung, không nói chuyện gì đã xảy ra." },
+        { "text": "My suitcase did not arrive when I landed in Vancouver on my flight from Toronto on June 3.", "misconception": null, "whyVi": "Đúng. Nêu sự việc chính (suitcase did not arrive) cùng bối cảnh cần thiết; chi tiết về quầy hành lý và màu vali có thể theo sau." },
+        { "text": "The suitcase is blue with a red ribbon on the handle.", "misconception": "topic-too-narrow", "whyVi": "Đây là chi tiết mô tả, nên đặt sau câu chủ đề." },
+        { "text": "Now I want to describe what happened to me.", "misconception": "topic-too-broad", "whyVi": "Câu thông báo, không chứa thông tin." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Với gạch đầu dòng \"Describe what happened\", câu chủ đề nên tóm tắt sự việc chính, sau đó mới thêm chi tiết.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-03-i2",
+      "type": "choice",
+      "prompt": "A paragraph begins: 'Working from home would also improve employees' health.' Which sentence should come NEXT?",
+      "options": [
+        { "text": "For example, my coworker Daniel lost five kilograms last year.", "misconception": "vague-support", "whyVi": "Ví dụ đến quá sớm và chưa rõ vì sao giảm cân liên quan đến làm việc ở nhà; cần câu giải thích trước." },
+        { "text": "Without a long commute, people have more time to exercise, cook proper meals and sleep.", "misconception": null, "whyVi": "Đúng. Đây là câu giải thích (support), cho biết vì sao làm việc ở nhà tốt cho sức khoẻ; ví dụ sẽ theo sau." },
+        { "text": "Working from home also saves money on gas.", "misconception": "off-topic-sentence", "whyVi": "Đây là ý khác (tiết kiệm tiền), thuộc về một đoạn khác." },
+        { "text": "That is why I strongly support this option.", "misconception": "missing-link", "whyVi": "Câu kết đặt ngay sau câu chủ đề thì đoạn không có nội dung chứng minh." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Sau câu chủ đề là phần giải thích \"vì sao/như thế nào\", rồi mới đến ví dụ. Bỏ qua bước giải thích làm ví dụ trông lạc lõng.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-03-i3",
+      "type": "order",
+      "prompt": "Order these sentences into one well-organized survey paragraph. (Topic: should the city ban gas-powered leaf blowers?)",
+      "items": [
+        "I support the ban mainly because gas leaf blowers create a level of noise that seriously affects people who work from home.",
+        "Unlike electric models, they can be loud enough to drown out a phone call even from across the street.",
+        "Last fall, for instance, a crew worked outside my building every Tuesday morning, and I had to reschedule several video meetings with clients.",
+        "Switching to quieter equipment would protect the many residents who now depend on a calm home office."
+      ],
+      "misconception": "missing-link",
+      "explanationVi": "Câu chủ đề (lý do: tiếng ồn ảnh hưởng người làm ở nhà) → giải thích (ồn đến mức nào, \"Unlike electric models\") → ví dụ cá nhân có thời gian cụ thể (\"Last fall, for instance\") → câu nối về lợi ích của lệnh cấm.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-03-i4",
+      "type": "choice",
+      "prompt": "Which paragraph plan is best for a Task 2 response (150–200 words)?",
+      "options": [
+        { "text": "One long paragraph that gives the choice, four reasons and the conclusion together.", "misconception": "off-topic-sentence", "whyVi": "Một đoạn chứa nhiều ý thì không ý nào được phát triển, và người đọc khó theo dõi." },
+        { "text": "Opening with the choice, two body paragraphs of about 60–70 words with one reason each, and a short conclusion.", "misconception": null, "whyVi": "Đúng. Mỗi lý do có đủ chỗ cho giải thích và ví dụ, tổng cộng nằm trong 150–200 chữ." },
+        { "text": "Opening, six short body paragraphs of one sentence each, and a conclusion.", "misconception": "vague-support", "whyVi": "Đoạn một câu không có chỗ cho giải thích và ví dụ; bài trông như danh sách." },
+        { "text": "A long introduction about the topic in general, then one body paragraph with the choice.", "misconception": "topic-too-broad", "whyVi": "Mở bài dài và chung chung lãng phí chữ; lựa chọn nên xuất hiện ngay đầu bài." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Hai lý do được phát triển kỹ mạnh hơn bốn lý do chỉ được liệt kê. Lập kế hoạch độ dài trước khi viết.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-03-i5",
+      "type": "text",
+      "prompt": "Read this paragraph and type the number of the sentence that should be the TOPIC sentence (it is currently in the wrong place). '(1) For example, the community centre in my neighbourhood offers free English conversation circles twice a week. (2) Newcomers can practise speaking with locals in a relaxed setting and make friends at the same time. (3) Community centres are one of the best resources for newcomers who want to improve their English.'",
+      "answers": ["3", "three", "sentence 3", "(3)"],
+      "mode": "exact",
+      "misconception": "topic-too-narrow",
+      "explanationVi": "Câu (3) nêu ý tổng quát mà hai câu còn lại chứng minh, nên nó phải đứng đầu. Câu (1) là ví dụ cụ thể, câu (2) giải thích lợi ích. Theo khung Topic → Support → Example của bài, thứ tự tốt nhất là 3 → 2 → 1 (giải thích trước, ví dụ sau).",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-03-i6",
+      "type": "choice",
+      "prompt": "Which body paragraph is best organized (Level 8)? Survey: 'Should high schools start classes at 9:30 instead of 8:30?'",
+      "options": [
+        { "text": "A later start would improve students' learning. Teenagers' sleep cycles shift later, so many cannot fall asleep before eleven and are exhausted at 8:30. My nephew in Grade 11, for example, often falls asleep in his first-period math class. Starting at 9:30 would let students arrive rested and ready to focus.", "misconception": null, "whyVi": "Đúng. Câu chủ đề → giải thích (vì sao: nhịp ngủ) → ví dụ cụ thể (người cháu lớp 11) → câu nối về lợi ích của 9:30." },
+        { "text": "My nephew in Grade 11 often falls asleep in his first-period math class. Teenagers need sleep. A later start would improve students' learning. Also, buses are less crowded at 9:30.", "misconception": "topic-too-narrow", "whyVi": "Mở bằng ví dụ, ý chính nằm ở câu 3, câu cuối về xe buýt lạc đề." },
+        { "text": "A later start would improve students' learning. It is very good for them in many ways and they will be happier and better. It is a great idea for everyone. That is why I agree.", "misconception": "vague-support", "whyVi": "Có câu chủ đề nhưng phần hỗ trợ mơ hồ, không có giải thích cụ thể hay ví dụ." },
+        { "text": "A later start would improve students' learning. Teenagers' sleep cycles shift later. However, parents who work early might find it hard to drive their kids. My nephew is in Grade 11.", "misconception": "off-topic-sentence", "whyVi": "Chen ý phản biện của phụ huynh vào giữa đoạn ủng hộ; ví dụ cuối không được nối với ý chính." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Đoạn Level 8 không chỉ có các câu đúng, mà các câu đứng đúng vai trò và đúng thứ tự, mỗi câu đều phục vụ câu chủ đề.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-03-i7",
+      "type": "produce",
+      "medium": "write",
+      "minWords": 60,
+      "prompt": "Survey: 'Your employer is choosing between (A) a free transit pass for every employee or (B) a free gym membership. Which would you prefer?' Write ONE body paragraph (60–80 words) giving your main reason, using Topic → Support → Example → Link.",
+      "checklist": [
+        "The first sentence states the choice and one specific reason",
+        "At least one sentence explains why or how the reason matters before the example",
+        "Includes a specific example (a place, number or personal experience)",
+        "The last sentence links back to the choice or shows the result",
+        "Every sentence supports the topic sentence (no off-topic sentence)"
+      ],
+      "modelAnswer": "I would choose the free transit pass because it would cut one of my largest monthly expenses. A monthly pass for a two-zone commute can cost over a hundred dollars, so most employees feel it on every paycheque. For instance, I commute from New Westminster to downtown five days a week, and the pass takes almost a tenth of my take-home pay. A free pass would give me real, immediate savings, which a gym membership could not match.",
+      "misconception": "vague-support",
+      "explanationVi": "So sánh từng câu của bạn với bốn vai trò. Nếu bạn không chỉ ra được câu nào là giải thích và câu nào là ví dụ, đoạn của bạn đang thiếu một bước.",
+      "competency": "coherence"
+    }
+  ],
+  "misconceptions": {
+    "topic-too-broad": {
+      "label": "Câu chủ đề quá rộng hoặc chỉ là câu thông báo",
+      "explanationVi": "Bạn mở đoạn bằng câu chung chung (\"There are many advantages\") hoặc câu thông báo (\"I will talk about…\"), nên người đọc chưa biết ý chính. Đây là lỗi chưa xác định được ý điều khiển trước khi viết.",
+      "fixVi": "Câu chủ đề phải có ý chính + lý do cụ thể. Thử kiểm tra: nếu câu dùng được cho bất kỳ đề bài nào thì nó quá rộng."
+    },
+    "topic-too-narrow": {
+      "label": "Mở đoạn bằng chi tiết thay vì ý chính",
+      "explanationVi": "Bạn nhầm chi tiết hỗ trợ (con số, ví dụ) với ý chính, nên đoạn bắt đầu bằng thông tin nhỏ và người đọc phải đợi đến cuối mới hiểu bạn muốn nói gì. Đây là thói quen viết theo trình tự suy nghĩ thay vì trình tự người đọc cần.",
+      "fixVi": "Tự hỏi: câu này có thể là bằng chứng cho một câu khác không? Nếu có, nó là chi tiết; hãy viết câu tổng quát hơn để đặt lên đầu."
+    },
+    "off-topic-sentence": {
+      "label": "Câu lạc đề / hai ý trong một đoạn",
+      "explanationVi": "Bạn đưa vào đoạn một ý đúng nhưng không chứng minh câu chủ đề, thường vì nghĩ đến đâu viết đến đó. Đoạn mất tính thống nhất (unity) và mất chữ quý giá.",
+      "fixVi": "Sau khi viết, đọc lại câu chủ đề rồi kiểm tra từng câu: câu này có giải thích hoặc chứng minh ý đó không? Không thì xoá hoặc chuyển sang đoạn khác."
+    },
+    "vague-support": {
+      "label": "Thiếu giải thích hoặc ví dụ cụ thể",
+      "explanationVi": "Đoạn của bạn có ý chính nhưng phần sau chỉ lặp lại ý đó bằng từ chung chung (good, many ways, better), hoặc đưa ví dụ mà không giải thích. Người chấm không thấy lập luận được phát triển.",
+      "fixVi": "Mỗi đoạn cần ít nhất một câu \"vì sao/như thế nào\" và một ví dụ có chi tiết thật: tên nơi, con số, trải nghiệm."
+    },
+    "missing-link": {
+      "label": "Không có câu nối / sai thứ tự vai trò câu",
+      "explanationVi": "Đoạn kết thúc đột ngột sau ví dụ, hoặc các câu không theo trình tự chủ đề → giải thích → ví dụ → kết, nên người đọc không thấy ví dụ dẫn đến kết luận gì.",
+      "fixVi": "Kết đoạn bằng một câu cho thấy hệ quả hoặc nối về lựa chọn/yêu cầu: That is why…, As a result…, This would…, If that works for you…"
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "The main reason I prefer… is that…", "vi": "Lý do chính tôi chọn… là…", "example": "The main reason I prefer the Saturday market is that it sells produce from local farms." },
+    { "term": "This is because…", "vi": "Điều này là vì…", "example": "This is because most parents in our area finish work after five." },
+    { "term": "In other words,…", "vi": "Nói cách khác,…", "example": "In other words, the new route would save commuters about twenty minutes." },
+    { "term": "For instance,…", "vi": "Chẳng hạn,…", "example": "For instance, the Grandview pool is closed every Monday morning." },
+    { "term": "By contrast,…", "vi": "Ngược lại,…", "example": "By contrast, the suburban office has no transit stop within walking distance." },
+    { "term": "As a result,…", "vi": "Kết quả là,…", "example": "As a result, many seniors no longer visit the library." },
+    { "term": "That is why…", "vi": "Đó là lý do…", "example": "That is why I believe the city should repair the roads first." },
+    { "term": "One simple solution would be to…", "vi": "Một giải pháp đơn giản là…", "example": "One simple solution would be to add a second evening session." }
+  ],
+  "grammar": [
+    {
+      "point": "Noun clauses after 'The reason… is that…'",
+      "explanationVi": "Câu chủ đề hay dùng cấu trúc \"The main reason (why) I… is that + mệnh đề\". Sau \"is\" dùng \"that\" + mệnh đề đầy đủ, không dùng \"because\" (✗ The reason is because…).",
+      "examples": [
+        "The main reason I support option B is that it costs taxpayers less.",
+        "The biggest problem is that the classes start before most people finish work.",
+        "One advantage of the new location is that it has free parking."
+      ]
+    },
+    {
+      "point": "'would' for hypothetical results in link sentences",
+      "explanationVi": "Khi kết đoạn bằng hệ quả của một lựa chọn chưa xảy ra, dùng would + động từ nguyên mẫu. Câu kết như vậy nối ví dụ về lựa chọn của bạn một cách tự nhiên.",
+      "examples": [
+        "A free pass would give me real savings every month.",
+        "A local branch would make these programs accessible to more families.",
+        "This change would let members use the classes they already pay for."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Write a Task 2 survey response with two Topic–Support–Example–Link paragraphs", "route": "/writing?task=W2" },
+    { "label": "Write a Task 1 email: one paragraph per bullet", "route": "/writing?task=W1" }
+  ],
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "author-agent+independent-review-agent", "notes": "Solved all 11 exercises independently; keys and both order items are unambiguous. Fixed ex3 word target (said 45 words, answer is ~58), trimmed the i7 model to 78 words (limit 80) and softened its transit-price claim, replaced a real-centre program claim in i5 with a generic one, and made the i5 explanation follow the lesson's support-before-example order." }
+}

@@ -1,0 +1,353 @@
+{
+  "id": "sp-05",
+  "skill": "speaking",
+  "module": "speaking-foundations",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Using the time well",
+  "titleVi": "Dùng thời gian hiệu quả",
+  "estimatedMinutes": 30,
+  "prerequisites": ["sp-01"],
+  "competencies": ["timing"],
+  "tasks": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"],
+  "objectives": [
+    "You will be able to estimate how much content fills 60 and 90 seconds and budget time for each part of your answer.",
+    "You will be able to check your progress against time checkpoints while you speak.",
+    "You will be able to expand or shorten your answer on the fly with an optional “accordion” detail.",
+    "You will be able to finish with a complete wrap-up sentence before the recording stops."
+  ],
+  "objectiveVi": "Bạn sẽ biết 60 và 90 giây tương đương bao nhiêu nội dung, chia thời gian cho từng phần, theo dõi các mốc thời gian khi nói, co giãn nội dung linh hoạt và luôn kết thúc bằng một câu trọn vẹn trước khi hệ thống ngừng ghi âm.",
+  "whyItMattersVi": "Hai lỗi thời gian thường gặp ở Level 6 là: nói hết ý ở giây 30–40 rồi im lặng, hoặc mất quá nhiều thời gian cho phần mở và bị cắt ngang giữa câu, không có kết. Cả hai đều làm người chấm nghe thấy một câu trả lời không trọn vẹn — thiếu phát triển hoặc thiếu kết luận. Kiểm soát thời gian tốt giúp bạn thể hiện hết những gì đã chuẩn bị và nghe chủ động, tự tin như một người nói Level 8.",
+  "concept": [
+    {
+      "heading": "Thời gian của từng task",
+      "body": "Đồng hồ đếm ngược hiện trên màn hình, và khi hết giờ nói, hệ thống **tự động dừng ghi âm** — những gì bạn nói sau đó không được ghi lại.\n\n- Task 1 (Advice): chuẩn bị 30 s, nói **90 s**\n- Task 2, 3, 4, 8: chuẩn bị 30 s, nói **60 s**\n- Task 5 (Comparing & Persuading): 60 s chọn phương án + 60 s chuẩn bị, nói **60 s**\n- Task 6 (Difficult Situation): chuẩn bị 60 s, nói **60 s**\n- Task 7 (Opinions): chuẩn bị 30 s, nói **90 s**\n\nChỉ có hai độ dài cần làm chủ: **60 giây** và **90 giây**. Hãy luyện cho đến khi bạn “cảm” được hai độ dài này mà không cần nhìn đồng hồ liên tục."
+    },
+    {
+      "heading": "Bao nhiêu nội dung thì vừa?",
+      "body": "Ở tốc độ tự nhiên của Level 8 (khoảng 120–150 từ/phút, tính cả các chỗ ngắt nghỉ ngắn):\n\n- **60 giây ≈ 120–150 từ ≈ 9–12 câu.** Thường là câu mở + **2 ý** phát triển (hoặc 3 khu vực trong Task 3) + câu kết.\n- **90 giây ≈ 180–220 từ ≈ 13–17 câu.** Câu mở + **2–3 ý** phát triển (+ nhượng bộ ngắn trong Task 7) + câu kết.\n\nNgân sách mẫu cho 60 giây: mở 5–8 s → ý 1 khoảng 20 s → ý 2 khoảng 20 s → kết 5–8 s. Cho 90 giây: mở ~10 s → ý 1 ~25 s → ý 2 ~25 s → ý 3 hoặc nhượng bộ ~20 s → kết ~10 s.\n\nNếu bạn thường nói xong ở giây 35–40, vấn đề là thiếu phát triển (xem sp-02: Reason → Example → Result), không phải nói quá chậm."
+    },
+    {
+      "heading": "Các mốc kiểm tra (checkpoints)",
+      "body": "Đừng nhìn đồng hồ mỗi câu — chỉ liếc ở **hai mốc**:\n\n- **Giữa giờ** (giây 30 của 60, giây 45 của 90): bạn nên đang **kết thúc ý 1 hoặc bắt đầu ý 2**. Nếu vẫn còn ở câu mở hoặc bối cảnh → cắt ngắn, chuyển ý ngay.\n- **Còn khoảng 10 giây**: **chuyển sang câu kết**, dù còn ý chưa nói. Câu kết quan trọng hơn ý thứ ba.\n\nTrong Task 2, mốc giữa giờ là lúc bạn nên đang ở **sự việc chính**, không còn ở phần “khi nào, ở đâu”."
+    },
+    {
+      "heading": "Kỹ thuật “accordion”: co và giãn",
+      "body": "Khi ghi chú, chia nội dung thành **phần lõi** (bắt buộc) và **phần tuỳ chọn** (thêm nếu còn thời gian). Phần tuỳ chọn có thể là: một ví dụ thứ hai, một con số, cảm xúc của bạn, hoặc một câu nhượng bộ.\n\n- **Đang nhanh** (ý 2 xong ở giây 40 của 60): giãn ra — thêm phần tuỳ chọn: “Just to give you one more example…”.\n- **Đang chậm** (còn 15 giây mà chưa xong ý 2): co lại — bỏ phần tuỳ chọn, nói một câu chốt ý 2, rồi kết.\n\nĐánh dấu phần tuỳ chọn trên ghi chú bằng dấu (+): “② U-Pass – no car → save $ (+ gym, discounts)”."
+    },
+    {
+      "heading": "Kết thúc gọn gàng",
+      "body": "- **Câu cuối phải trọn vẹn.** Bị cắt giữa câu (“and also I think you should…”) để lại ấn tượng chưa hoàn thành.\n- **Không mở ý mới trong 10 giây cuối.** Một ý mới cần ít nhất 15–20 giây để phát triển.\n- **Câu kết ngắn, chuẩn bị sẵn:** “So, that's why I'd…”, “So, all in all…”, “Could you call me back this afternoon?”\n- **Xong sớm vài giây là ổn.** Kết thúc ở giây 55 với một câu kết rõ ràng tốt hơn nhiều so với cố lấp bằng “um… that's all… thank you”.\n\nKhông cần nói “Thank you for listening” — đó không phải câu kết nội dung."
+    }
+  ],
+  "stimuli": {
+    "party-prompt": {
+      "title": "Task 6 prompt: a double-booked party room",
+      "text": "You booked the multipurpose room at your local community centre for your son's birthday party this Saturday. Today, Thursday, the centre calls to say the room was accidentally double-booked.\n\nChoose ONE:\n• Talk to the community centre manager and ask them to solve the problem.\n• Call the parents of the invited children and tell them the party is moving to your home.\n\n(Preparation: 60 seconds. Speaking: 60 seconds.)"
+    },
+    "cutoff-transcript": {
+      "title": "A learner's Task 7 response (90 seconds, with timestamps)",
+      "text": "[0:00] “Okay, so, this question is about whether cities should have more bus lanes. This is a very interesting and important question in Canada because many people live in cities, and traffic is a big problem in many cities like Vancouver, Toronto and Calgary, and people have different opinions…\n[0:28] I agree with more bus lanes. The first reason is that buses would be faster. For example, when I take the bus from Richmond to downtown, it takes one hour because of traffic, and sometimes the bus is so full that it passes my stop, and I have to wait for the next one, and in winter it is very cold, and one time I waited thirty minutes…\n[1:15] The second reason is the environment, because buses…\n[1:24] …and the third reason is that, um, buses are—” [recording stops]"
+    },
+    "stranger-prompt": {
+      "title": "Task 2 prompt: help from a stranger",
+      "text": "Talk about a time when a stranger helped you. What happened, and how did you feel? (Preparation: 30 seconds. Speaking: 60 seconds.)"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Task 6: three ways to use 60 seconds",
+      "stimulusId": "party-prompt",
+      "question": "How should the 60 seconds be divided, and what goes wrong when timing is poor?",
+      "steps": [
+        "Chọn người nói chuyện: quản lý trung tâm (vẫn có khả năng giữ được buổi tiệc ở trung tâm).",
+        "Lập ngân sách 60 giây: mở + nêu vấn đề ~10 s → giải pháp 1 ~12 s → giải pháp 2 ~12 s → giải pháp dự phòng ~10 s → câu chốt ~8 s.",
+        "Ghi chú có dấu (+) cho phần tuỳ chọn: ① other room same time (+ craft room ok) ② other group move? (+ I'll call them) ③ else refund → book elsewhere · End: call back this afternoon.",
+        "Khi nói, liếc đồng hồ ở giây 30 (nên đang ở giải pháp 2) và khi còn 10 giây (chuyển sang câu chốt). So sánh ba bản có mốc thời gian dưới đây."
+      ],
+      "answer": "Budget: [0:00–0:14] greeting + problem + cooperative tone → [0:14–0:25] solution 1 → [0:25–0:37] solution 2 → [0:37–0:48] back-up → [0:48–0:57] clear request + thanks.",
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "[0:00] Hello, manager. Um, I book the room for Saturday, but you call me and say the room is double book. [0:12] Um… this is a big problem because the party is on Saturday. Um, so you need to fix it. [0:22] Because many children will come. [0:26] Um… okay, please fix it. Thank you. [0:31] (silence until 1:00)",
+          "commentVi": "Hết nội dung ở giây 31 — gần một nửa thời gian bị bỏ trống. Chỉ có một ý (“you need to fix it”), không đưa ra giải pháp nào cụ thể nên không hoàn thành yêu cầu “ask them to solve the problem”. Lỗi thì điển hình: “I book” → “I booked”, “you call” → “you called”, “double book” → “double-booked”. Giọng ra lệnh (“you need to fix it”) không phù hợp với Task 6. Câu kết “Thank you” không tóm lại yêu cầu."
+        },
+        {
+          "label": "acceptable",
+          "text": "[0:00] Hi, my name is Thu, and I'm calling about the room booking for Saturday. I booked the multipurpose room about a month ago for my son's seventh birthday party, from two to four, and I paid the full deposit, fifty dollars, at the front desk, and the woman there told me everything was confirmed, so I already sent invitations to fifteen kids from his class… [0:30] and I'm really upset because my son has been talking about this party for weeks. [0:38] So I want to ask if you have another room, or maybe another time, or if… [0:50] maybe you could also give me a discount, because it's your mistake, and also I think you should— [recording stops]",
+          "commentVi": "Ngữ pháp khá tốt và có chi tiết, nhưng 38 giây đầu dành cho bối cảnh và cảm xúc — mốc giữa giờ đã qua mà chưa có giải pháp nào. Các giải pháp bị dồn vào 20 giây cuối thành một danh sách vội (“another room, or maybe another time, or if…”), không phát triển. Mở ý mới (discount) khi chỉ còn 10 giây và bị cắt giữa câu, không có câu kết. Người chấm nghe thấy nội dung chưa hoàn chỉnh."
+        },
+        {
+          "label": "level8",
+          "text": "[0:00] Hi, this is Thu Nguyen. I'm calling about my booking for the multipurpose room this Saturday. [0:06] I understand mistakes happen, but I've already invited fifteen kids, so I'm hoping we can sort this out together. [0:14] The simplest solution would be another room at the same time. Even the smaller craft room would work, since we'd mostly be doing games and cake. [0:25] If nothing's free on Saturday, could the other group possibly move to a different time? I'd be happy to call them myself if that helps. [0:37] And if neither option works, I'd appreciate a full refund of my deposit, so I can book somewhere else today while there's still time. [0:48] So, could you check what's available and call me back this afternoon? Thanks so much — I really appreciate your help. [0:57]",
+          "commentVi": "Ngân sách thời gian cân đối: vấn đề được nêu gọn trong 14 giây, ba giải pháp mỗi cái khoảng 11–12 giây và có lý do (since we'd mostly be doing games; so I can book somewhere else today). Ở giây 30 đã sang giải pháp 2 — đúng mốc. Phần tuỳ chọn (+ craft room, + I'll call them) được thêm vì còn thời gian. Câu kết là một yêu cầu rõ ràng, hoàn chỉnh ở giây 57. Giọng lịch sự, hợp tác (I understand mistakes happen, I'd appreciate…) — đúng tinh thần Task 6."
+        }
+      ],
+      "takeawayVi": "Timing tốt = bối cảnh ngắn, nội dung chính chiếm phần lớn thời gian, và câu kết trọn vẹn trước khi hết giờ. Liếc đồng hồ ở giữa giờ và khi còn 10 giây."
+    },
+    {
+      "id": "ex2",
+      "title": "Task 7: budgeting 90 seconds",
+      "question": "Prompt: “Some people think employers should not be allowed to contact staff after working hours. Do you agree?” How do you plan 90 seconds?",
+      "steps": [
+        "Ước lượng: 90 s × khoảng 2,3 từ/giây ≈ 200 từ ≈ 15–17 câu. Đủ cho lập trường + 2 lý do phát triển + nhượng bộ ngắn + kết.",
+        "Chia ngân sách: mở 0:00–0:10 (1–2 câu) · lý do 1 0:10–0:40 (4–5 câu: reason, example, result) · lý do 2 0:40–1:10 (4–5 câu) · nhượng bộ 1:10–1:20 (2 câu) · kết 1:20–1:30 (1 câu).",
+        "Đặt mốc: ở 0:45 bạn nên đang bắt đầu lý do 2; ở 1:20 bắt đầu câu kết dù nhượng bộ chưa xong.",
+        "Đánh dấu phần tuỳ chọn (+) để co giãn: nhượng bộ là phần có thể bỏ nếu chậm; một ví dụ thứ hai cho lý do 2 là phần có thể thêm nếu nhanh."
+      ],
+      "answer": "Notes: AGREE · ① rest – burnout – sister's 10 p.m. emails → couldn't switch off ② family time – kids' hockey practice → phone face-down (+ France / Ontario “right to disconnect” idea) · (+) other side: emergencies → clear exceptions · End: healthier, more productive staff\n\nCheckpoints: 0:45 → start ②; 1:20 → wrap-up.",
+      "takeawayVi": "Chia 90 giây thành các khối có thời lượng cụ thể và chỉ kiểm tra hai mốc. Phần nhượng bộ trong Task 7 là phần “co giãn” lý tưởng: thêm nếu còn thời gian, bỏ nếu chậm."
+    },
+    {
+      "id": "ex3",
+      "title": "Task 2: the accordion in action",
+      "stimulusId": "stranger-prompt",
+      "question": "How do you adjust a 60-second story if you are faster or slower than planned?",
+      "steps": [
+        "Ghi chú phần lõi theo thời gian: winter – Coquihalla – flat tire → truck driver stopped → changed tire 20 min → grateful, pay it forward.",
+        "Ghi phần tuỳ chọn (+): (+ no cell signal, −10°C) (+ refused money) (+ I now carry a tire kit).",
+        "Kịch bản nhanh: ở giây 35 đã kể xong việc thay lốp → thêm hai chi tiết (+) để làm câu chuyện sống động, rồi kết ở giây 55–58.",
+        "Kịch bản chậm: ở giây 40 mới kể đến lúc tài xế dừng xe → bỏ hết (+), một câu kết quả (“he had it fixed in twenty minutes”), một câu bài học, kết."
+      ],
+      "answer": "Fast version adds: “There was no cell signal, and it was minus ten… When I tried to give him some cash, he just laughed and said, ‘Do the same for someone else.’” Slow version ends: “…he had the tire changed in about twenty minutes. Since then, I've always stopped when I see someone stuck on the highway.”",
+      "takeawayVi": "Cùng một câu chuyện có thể dài 45 hoặc 60 giây tuỳ bạn thêm hay bỏ phần (+). Phần lõi và câu kết thì không bao giờ bỏ."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "prompt": "At a natural speaking pace, about how many words fill a 60-second answer?",
+      "hint": "Ước lượng: một câu trả lời 60 giây gồm câu mở, 2 ý có ví dụ và câu kết — khoảng 10 câu. Một câu nói trung bình dài bao nhiêu từ?",
+      "options": [
+        { "text": "About 40–60 words", "misconception": "under-time", "whyVi": "Đây là lượng nội dung của khoảng 20–25 giây. Nếu chuẩn bị chừng này, bạn sẽ hết ý rất sớm." },
+        { "text": "About 120–150 words", "misconception": null, "whyVi": "Đúng. Khoảng 9–12 câu — đủ cho câu mở, 2 ý phát triển và câu kết." },
+        { "text": "About 250–300 words", "misconception": "over-time", "whyVi": "Đây là lượng của gần 2 phút. Lên kế hoạch như vậy chắc chắn sẽ bị cắt trước câu kết." },
+        { "text": "About 15–20 words", "misconception": "under-time", "whyVi": "Chỉ khoảng 2 câu — chưa đến 10 giây nói." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Ghi nhớ: 60 s ≈ 120–150 từ (≈ 10 câu), 90 s ≈ 180–220 từ (≈ 15 câu).",
+      "competency": "timing"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "prompt": "You are giving a 60-second Task 2 answer. You look at the timer: 30 seconds have passed. Where should you be in your story?",
+      "hint": "Nhớ mốc giữa giờ: phần bối cảnh nên đã xong từ lâu.",
+      "options": [
+        { "text": "Still explaining when and where it happened.", "misconception": "unbalanced-time", "whyVi": "Đã nửa thời gian mà vẫn ở bối cảnh — bạn sẽ không đủ thời gian cho sự việc chính và kết quả." },
+        { "text": "In the main event — what happened and what you did.", "misconception": null, "whyVi": "Đúng. Bối cảnh mất khoảng 10–15 giây; ở giữa giờ bạn nên đang ở phần sự việc chính, để còn 20–25 giây cho kết quả và cảm xúc/bài học." },
+        { "text": "Already finished, with the lesson you learned.", "misconception": "under-time", "whyVi": "Kết thúc ở giây 30 nghĩa là câu chuyện chưa được phát triển và còn bỏ trống một nửa thời gian." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Mốc giữa giờ giúp bạn tự điều chỉnh: còn ở bối cảnh → nhảy sang sự việc; đã ở kết quả → thêm phần tuỳ chọn.",
+      "competency": "timing"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "prompt": "Task 1 (90 seconds): about 10 seconds are left, and you are in the middle of your second piece of advice. You still have a third piece of advice in your notes. What should you do?",
+      "hint": "Câu kết quan trọng hơn ý thứ ba.",
+      "options": [
+        { "text": "Finish your current sentence, skip the third piece of advice, and give your wrap-up.", "misconception": null, "whyVi": "Đúng. Một câu kết trọn vẹn cho người chấm thấy câu trả lời hoàn chỉnh; ý thứ ba không đủ thời gian để phát triển." },
+        { "text": "Speed up and say the third piece of advice as fast as you can.", "misconception": "over-time", "whyVi": "Nói vội làm giảm độ dễ nghe, và gần như chắc chắn bị cắt trước khi có câu kết." },
+        { "text": "Start the third piece of advice; the examiner will understand if it gets cut off.", "misconception": "late-wrap-up", "whyVi": "Bị cắt giữa ý để lại ấn tượng chưa hoàn thành." },
+        { "text": "Stop talking immediately so you don't go over time.", "misconception": "under-time", "whyVi": "Dừng giữa ý mà không có câu kết cũng làm câu trả lời bị hụt." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Quy tắc 10 giây: còn khoảng 10 giây → hoàn thành câu đang nói → câu kết. Không mở ý mới.",
+      "competency": "timing"
+    },
+    {
+      "id": "g4",
+      "type": "order",
+      "prompt": "Put this 90-second Task 1 time budget in order.",
+      "hint": "Mỗi khối có một khoảng thời gian; các khối nối liền nhau từ 0:00 đến 1:30.",
+      "items": [
+        "0:00–0:10 — Respond to the situation and preview your advice",
+        "0:10–0:35 — Advice 1 with a reason and an example",
+        "0:35–1:00 — Advice 2 with a reason and an example",
+        "1:00–1:20 — Advice 3, or an extra example if you only planned two",
+        "1:20–1:30 — Wrap-up: next step and encouragement"
+      ],
+      "misconception": "unbalanced-time",
+      "explanationVi": "Phần mở và phần kết mỗi phần khoảng 10 giây; phần thân chiếm khoảng 70 giây. Nếu câu mở của bạn kéo dài 25–30 giây, ngân sách cho các ý chính sẽ bị thiếu.",
+      "competency": "timing"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "text",
+      "prompt": "How many seconds do you have to SPEAK in Task 7 (Expressing Opinions)? Type the number.",
+      "answers": ["90", "ninety", "90 seconds", "ninety seconds", "90 s", "90s", "90 sec"],
+      "mode": "exact",
+      "misconception": "timing-format",
+      "explanationVi": "Task 1 và Task 7 cho 90 giây nói; các task còn lại cho 60 giây. Biết trước độ dài giúp bạn lên kế hoạch 2–3 ý thay vì 2.",
+      "competency": "timing"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "prompt": "Which plan best fits a 60-second Task 6 answer?",
+      "options": [
+        { "text": "Brief greeting and the problem (≈10 s) → acknowledge the other person's view (≈5 s) → your explanation (≈15 s) → one clear solution with a detail (≈20 s) → closing request (≈8 s).", "misconception": null, "whyVi": "Đúng. Tổng khoảng 58 giây, cân đối, có giải pháp được phát triển và câu chốt." },
+        { "text": "A detailed description of the whole background (≈35 s) → one solution (≈15 s) → closing (≈10 s).", "misconception": "unbalanced-time", "whyVi": "Bối cảnh chiếm hơn nửa thời gian; người nghe đã biết tình huống, phần quan trọng là giải pháp." },
+        { "text": "Greeting → five different solutions, one sentence each → closing.", "misconception": "over-time", "whyVi": "Quá nhiều nội dung cho 60 giây và không giải pháp nào được phát triển." },
+        { "text": "Greeting → one solution in one sentence → “That's all.”", "misconception": "under-time", "whyVi": "Chỉ khoảng 15 giây nội dung; phần lớn thời gian bị bỏ trống." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Với 60 giây, mỗi khối có “giá” cụ thể. Bối cảnh nên ngắn nhất có thể; giải pháp là phần đáng đầu tư thời gian.",
+      "competency": "timing"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "cutoff-transcript",
+      "prompt": "What is the main timing problem in this response?",
+      "options": [
+        { "text": "The speaker talked too slowly overall.", "misconception": "unbalanced-time", "whyVi": "Tốc độ không phải vấn đề — người nói có rất nhiều lời. Vấn đề là thời gian được phân bổ sai chỗ." },
+        { "text": "The opening took almost 30 seconds and the first example kept growing, so the second and third reasons were rushed and there was no wrap-up.", "misconception": null, "whyVi": "Đúng. Câu mở 28 giây (đáng lẽ ~10 giây), ví dụ cho lý do 1 lan man thêm hơn 45 giây. Đến 1:15 mới sang lý do 2, rồi mở lý do 3 ở 1:24 và bị cắt — không có câu kết." },
+        { "text": "The speaker should have given four reasons instead of three.", "misconception": "over-time", "whyVi": "Thêm lý do sẽ làm vấn đề tệ hơn; câu trả lời đã không đủ thời gian cho ba lý do." },
+        { "text": "The speaker finished too early and left silence at the end.", "misconception": "under-time", "whyVi": "Ngược lại — câu trả lời bị cắt giữa câu ở cuối." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Bản sửa: câu mở 1 câu (“I agree that cities should add more bus lanes, mainly for two reasons.”), ví dụ lý do 1 giới hạn 3 câu, liếc đồng hồ ở 0:45 để chuyển sang lý do 2, bỏ lý do 3, bắt đầu câu kết ở 1:20.",
+      "competency": "timing"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "prompt": "Task 3 (60 seconds): you have described the overall scene and two areas of the picture, and 15 seconds are left. What is the best use of that time?",
+      "options": [
+        { "text": "Say “That's all I can see” and stop.", "misconception": "under-time", "whyVi": "Bỏ trống 15 giây khi bức tranh vẫn còn chi tiết để mô tả." },
+        { "text": "Start predicting what the people will do next.", "misconception": "timing-format", "whyVi": "Dự đoán là yêu cầu của Task 4, không phải Task 3 — dùng thời gian còn lại cho nội dung sai task." },
+        { "text": "Briefly describe one more area or person, then give a one-sentence overall impression.", "misconception": null, "whyVi": "Đúng. Dùng phần tuỳ chọn (một khu vực nữa) rồi kết bằng ấn tượng chung (“Overall, it looks like a relaxed, busy Saturday.”)." },
+        { "text": "Go back and describe the first area again in more detail.", "misconception": "unbalanced-time", "whyVi": "Quay lại khu vực đã nói làm câu trả lời lộn xộn; người nghe muốn nghe phần chưa được mô tả." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Accordion cho Task 3: khu vực thứ ba hoặc một người nổi bật là phần (+). Câu ấn tượng chung là câu kết.",
+      "competency": "timing"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "prompt": "Task 5 (60 seconds): you are persuading your family to choose a one-week camping trip in Jasper instead of a resort in Mexico. Which plan fits the time best?",
+      "options": [
+        { "text": "State your choice (≈5 s) → criterion 1: cost, with numbers (≈20 s) → criterion 2: activities for the kids (≈20 s) → briefly acknowledge the resort's advantage (≈7 s) → wrap-up (≈8 s).", "misconception": null, "whyVi": "Đúng. Hai tiêu chí được phát triển, có nhượng bộ ngắn và câu kết — vừa 60 giây." },
+        { "text": "State your choice → compare five criteria (cost, weather, food, travel time, activities), one sentence each → wrap-up.", "misconception": "over-time", "whyVi": "Năm tiêu chí trong 60 giây = danh sách vội, không tiêu chí nào thuyết phục." },
+        { "text": "Spend 40 seconds describing everything about the resort in Mexico so your family understands the other option.", "misconception": "unbalanced-time", "whyVi": "Thời gian dồn cho phương án bạn không chọn; Task 5 là để thuyết phục cho lựa chọn của bạn." },
+        { "text": "State your choice → one reason → finish at 25 seconds to avoid mistakes.", "misconception": "under-time", "whyVi": "Bỏ trống hơn nửa thời gian để “an toàn” làm mất cơ hội phát triển ý." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "60 giây ≈ 2 tiêu chí phát triển tốt. Phần nhượng bộ ngắn là phần co giãn.",
+      "competency": "timing"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "You speak at about 140 words per minute. For a 60-second Task 4 answer, you have planned enough content for about 260 words. What is most likely to happen, and what should you do?",
+      "options": [
+        { "text": "Nothing — the extra content keeps you safe from running out of ideas.", "misconception": "over-time", "whyVi": "260 từ ở 140 từ/phút cần gần 2 phút. Bạn sẽ bị cắt ở khoảng giữa nội dung." },
+        { "text": "The recording will stop around the middle of your plan, before your wrap-up; cut the plan to about 140 words by keeping two developed predictions.", "misconception": null, "whyVi": "Đúng. 60 giây ≈ 140 từ ở tốc độ của bạn; giữ 2 dự đoán có lý do, đánh dấu phần (+) để thêm nếu còn thời gian." },
+        { "text": "Speak twice as fast so everything fits.", "misconception": "over-time", "whyVi": "Nói gấp đôi tốc độ (≈ 280 từ/phút) làm câu trả lời gần như không thể nghe rõ." },
+        { "text": "Skip the opening sentence and start directly with the details.", "misconception": "unbalanced-time", "whyVi": "Câu mở chỉ tốn vài giây và rất quan trọng cho coherence; vấn đề nằm ở lượng nội dung thân bài." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Tính nhẩm: số giây × (tốc độ của bạn ÷ 60) = số từ phù hợp. Tự ghi âm một lần để biết tốc độ thật của mình.",
+      "competency": "timing"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "prompt": "Task 6: you have about 6 seconds left after explaining your solution to your landlord. Which is the best final sentence?",
+      "options": [
+        { "text": "“So, could we agree to have the heater fixed by Friday? Thanks for understanding.”", "misconception": null, "whyVi": "Đúng. Một câu chốt trọn vẹn, nói được trong khoảng 5 giây, tóm lại yêu cầu và giữ giọng lịch sự." },
+        { "text": "“Another thing I wanted to mention is that the kitchen window also doesn't close properly, and—”", "misconception": "late-wrap-up", "whyVi": "Mở vấn đề mới trong 6 giây cuối — chắc chắn bị cắt giữa câu." },
+        { "text": "“Thank you for listening. Bye.”", "misconception": "late-wrap-up", "whyVi": "Không phải câu kết nội dung; yêu cầu chính không được nhắc lại." },
+        { "text": "“Um, I think I have no more time now.”", "misconception": "timing-format", "whyVi": "Nói về đồng hồ thay vì nội dung — người nghe trong tình huống (chủ nhà) không biết gì về giới hạn thời gian." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Câu kết lý tưởng dài 1 câu, khoảng 5–8 giây, chuẩn bị sẵn trong lúc prep. Trong Task 6, câu kết thường là một yêu cầu hoặc đề nghị rõ ràng.",
+      "competency": "timing"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 90,
+      "prompt": "Task 7: Some people think employers should not be allowed to contact their staff by email or text after working hours, except in emergencies. Do you agree or disagree? Explain your reasons.\n\nRecord yourself with a visible timer. When you listen back, note the time at which each part starts.",
+      "checklist": [
+        "I started speaking within about 3 seconds and my opening took no more than about 10 seconds",
+        "I had moved on to my second reason by about the 45-second mark",
+        "I started my wrap-up with about 10–15 seconds left and did not begin a new point after that",
+        "My last sentence was complete before the recording stopped",
+        "I spoke for at least 80 of the 90 seconds"
+      ],
+      "modelAnswer": "[0:00] I agree that employers shouldn't contact staff after hours, except in real emergencies, mainly because people need time to rest and time with their families. [0:11] The main reason is that constant messages lead to burnout. My sister works in an office in Burnaby, and her manager used to send emails at ten at night. Even if she didn't answer, she'd lie awake thinking about them, so she never really switched off. After a year, she was exhausted and started looking for another job. [0:40] The second reason is family time. When your phone keeps buzzing during your kid's hockey practice or at dinner, you're physically there but mentally still at work. If there were a clear rule, people could put their phones away without feeling guilty and actually enjoy their evening. [1:03] Now, some people might say that certain jobs, like IT support or hospital work, need flexibility, and that's fair. That's exactly why emergencies should be an exception, as long as they're clearly defined. [1:18] So, all in all, I think a simple after-hours rule would give us healthier and, honestly, more productive employees. [1:28]",
+      "misconception": "unbalanced-time",
+      "explanationVi": "So sánh mốc thời gian của bạn với bài mẫu: mở xong ở 0:11, lý do 2 bắt đầu ở 0:40, nhượng bộ ở 1:03, kết bắt đầu ở 1:18 và xong ở 1:28. Nếu bạn lệch nhiều ở mốc giữa giờ, hãy rút ngắn ví dụ của lý do 1 hoặc đánh dấu phần tuỳ chọn (+) rõ hơn khi ghi chú.",
+      "competency": "timing"
+    }
+  ],
+  "misconceptions": {
+    "under-time": {
+      "label": "Nói quá ngắn / bỏ trống thời gian",
+      "explanationVi": "Bạn hết nội dung ở giây 30–40 và để im lặng hoặc nói “that's all”. Nguyên nhân thường là các ý không được phát triển (thiếu ví dụ, kết quả), không phải nói quá nhanh.",
+      "fixVi": "Lên kế hoạch đủ nội dung: 60 s ≈ 120–150 từ, 90 s ≈ 180–220 từ. Với mỗi ý, chuẩn bị Reason → Example → Result và một phần (+) dự phòng."
+    },
+    "over-time": {
+      "label": "Quá nhiều nội dung, bị cắt",
+      "explanationVi": "Bạn chuẩn bị quá nhiều ý hoặc quá nhiều chi tiết so với độ dài task, nên bị cắt trước câu kết hoặc phải nói vội đến mức khó nghe.",
+      "fixVi": "Giới hạn 2 ý cho 60 giây, 2–3 ý cho 90 giây. Tách nội dung thành phần lõi và phần (+) để có thể bỏ bớt khi cần."
+    },
+    "unbalanced-time": {
+      "label": "Phân bổ thời gian lệch",
+      "explanationVi": "Câu mở, bối cảnh hoặc ý đầu tiên chiếm quá nhiều thời gian, khiến các ý sau bị dồn vội. Đây là lỗi không theo dõi mốc thời gian khi nói.",
+      "fixVi": "Câu mở tối đa ~10 giây. Liếc đồng hồ ở giữa giờ: nếu chưa sang ý 2, kết thúc ý 1 bằng một câu và chuyển ngay."
+    },
+    "late-wrap-up": {
+      "label": "Không có câu kết / mở ý mới ở cuối",
+      "explanationVi": "Bạn cố nói thêm ý mới trong 10 giây cuối, hoặc kết bằng câu không có nội dung (“Thank you for listening”). Câu trả lời bị cắt hoặc kết thúc không có chủ ý.",
+      "fixVi": "Chuẩn bị sẵn câu kết trong lúc prep. Còn khoảng 10 giây → hoàn thành câu đang nói → câu kết. Không bao giờ mở ý mới sau mốc này."
+    },
+    "timing-format": {
+      "label": "Không nắm định dạng/thời gian task",
+      "explanationVi": "Bạn không nhớ task nào 60 giây, task nào 90 giây, hoặc dùng thời gian cho nội dung của task khác (dự đoán trong Task 3), hoặc nói về đồng hồ thay vì nội dung.",
+      "fixVi": "Thuộc lòng: Task 1 và 7 nói 90 giây; các task khác 60 giây. Task 5 và 6 có 60 giây chuẩn bị. Mỗi task có yêu cầu riêng — dùng thời gian thừa cho đúng yêu cầu đó."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "So, to wrap up, …", "vi": "Vậy, để kết lại, … (mở câu kết, tự nhiên khi nói).", "example": "So, to wrap up, I think the townhouse in Langley is the better deal." },
+    { "term": "All things considered, …", "vi": "Xét mọi mặt thì, … (kết sau khi đã nhượng bộ).", "example": "All things considered, the ferry is still the more relaxing option." },
+    { "term": "That's the main reason why …", "vi": "Đó là lý do chính vì sao … (kết ngắn, nhắc lại lập trường).", "example": "That's the main reason why I'd rather work four longer days." },
+    { "term": "Just to give you one more example, …", "vi": "Cho bạn thêm một ví dụ nữa, … (phần “accordion” khi còn thời gian).", "example": "Just to give you one more example, my coworker saved two hours a week by carpooling." },
+    { "term": "In short, …", "vi": "Nói ngắn gọn, … (câu kết rất ngắn khi gần hết giờ).", "example": "In short, it's cheaper, faster and better for the kids." },
+    { "term": "Could you get back to me by …?", "vi": "Bạn có thể phản hồi mình trước … không? (câu chốt Task 6).", "example": "Could you get back to me by Friday about the repair?" },
+    { "term": "with time to spare / with two minutes to spare", "vi": "còn dư thời gian / còn dư hai phút.", "example": "We made it to the Horseshoe Bay terminal with ten minutes to spare." },
+    { "term": "Overall, …", "vi": "Nhìn chung, … (câu ấn tượng chung kết Task 3).", "example": "Overall, it looks like a relaxed Saturday morning at the market." },
+    { "term": "Since then, I've …", "vi": "Kể từ đó, mình đã … (câu kết bài học của Task 2).", "example": "Since then, I've always kept a spare charger in my car." }
+  ],
+  "grammar": [
+    {
+      "point": "Clean one-sentence endings: “That's why…”, “…, which is why…”, “Since then, I've + past participle”",
+      "explanationVi": "Câu kết cần ngắn và trọn vẹn. “That's why + mệnh đề” và “…, which is why + mệnh đề” giúp bạn chốt lập trường bằng một câu. Với Task 2, “Since then, I've + V3” (hiện tại hoàn thành) nối trải nghiệm trong quá khứ với thói quen hiện tại — đây là cách kết câu chuyện tự nhiên. Lỗi hay gặp: dùng quá khứ đơn sau “since then” cho một thói quen vẫn đang tiếp diễn (“Since then, I always checked…” ✗).",
+      "examples": [
+        "That's why I'd talk to the manager first.",
+        "Some jobs need flexibility, which is why emergencies should be an exception.",
+        "✗ Since then, I always checked the weather. → ✓ Since then, I've always checked the weather.",
+        "Since then, I've never left home without a spare tire kit."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Task 6: Difficult situation", "route": "/speaking?task=S6" },
+    { "label": "Practise Task 7: Expressing opinions", "route": "/speaking?task=S7" },
+    { "label": "Practise Task 2: Personal experience", "route": "/speaking?task=S2" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises; keys confirmed. Removed g1 hint that gave the answer, aligned word-count guidance to 120-150 wpm (60 s 120-150, 90 s 180-220) and lengthened the 90-s model to 182 words with re-timed checkpoints, remapped g3/i3 distractors (over-time, unbalanced-time), added i1 answer variants, fixed the since-then grammar example."}
+}

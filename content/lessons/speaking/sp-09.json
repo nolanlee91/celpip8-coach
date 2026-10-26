@@ -1,0 +1,504 @@
+{
+  "id": "sp-09",
+  "skill": "speaking",
+  "module": "speaking-tasks",
+  "level": "core",
+  "difficulty": 8,
+  "title": "Task 4: Making predictions",
+  "titleVi": "Task 4: Dự đoán điều sắp xảy ra",
+  "estimatedMinutes": 35,
+  "prerequisites": [
+    "sp-08"
+  ],
+  "competencies": [
+    "grammar",
+    "task_fulfillment"
+  ],
+  "tasks": [
+    "S4"
+  ],
+  "objectives": [
+    "You will be able to state a main prediction in your first sentence and support it with clues from the picture.",
+    "You will be able to choose the right future form for your level of certainty (is going to, is about to, will probably, is likely to, might).",
+    "You will be able to predict what several different people will do, linking actions with when, as soon as and if (+ present simple).",
+    "You will be able to spend most of the 60 seconds on the future and finish with the most likely final outcome."
+  ],
+  "objectiveVi": "Sau bài này, bạn mở đầu Task 4 bằng dự đoán chính, chứng minh bằng manh mối trong tranh, dùng đúng dạng tương lai theo mức độ chắc chắn, dự đoán phản ứng của nhiều người theo chuỗi nguyên nhân – kết quả, và kết thúc bằng kết cục có khả năng nhất.",
+  "whyItMattersVi": "Lỗi lớn nhất ở Task 4 là biến nó thành Task 3: tả tranh suốt 40 giây rồi mới nói “I think it will rain”. Khi đó bạn không hoàn thành nhiệm vụ, và chỉ dùng được một dạng tương lai (will). Level 8 cần hai thứ: (1) phần lớn thời gian nói về tương lai, mỗi dự đoán có lý do từ tranh; (2) ngữ pháp tương lai đa dạng và chính xác — đặc biệt các lỗi người Việt hay mắc như “will to go”, “is likely fall” hay “when it will rain”. Bài này luyện đúng hai điểm đó.",
+  "concept": [
+    {
+      "heading": "Task 4 yêu cầu gì",
+      "body": "Trong **Task 4: Making Predictions**, bạn thấy một bức tranh và trả lời *In this picture, what do you think will happen next?* cho một người **không nhìn thấy tranh**. Bạn có **30 giây chuẩn bị** và **60 giây nói**.\n\nKhác với Task 3, ở đây **mô tả chỉ là công cụ**: bạn tả ngắn một manh mối để làm lý do cho dự đoán. Quy tắc dễ nhớ: **ít nhất 70% thời gian nói về tương lai**. Nếu bạn nhận thấy mình đã nói ba câu liền ở thì hiện tại tiếp diễn mà chưa có câu dự đoán nào, hãy chuyển ngay sang *so I think…*"
+    },
+    {
+      "heading": "Khung: dự đoán chính → manh mối → chuỗi phản ứng → kết cục",
+      "body": "1. **Main prediction (1–2 câu):** sự kiện lớn sắp xảy ra. *I think this party is about to be rained out.*\n2. **Clue → prediction:** mỗi dự đoán đi kèm một bằng chứng nhìn thấy được.\n   *Since the balloons and napkins are blowing sideways, the wind **is going to** get even stronger.*\n3. **Several people (3–4 người):** mỗi người sẽ làm gì? *The dad at the barbecue **will probably** grab the food… The kids **might** think it's fun at first…*\n4. **Final outcome (1 câu):** chuyện kết thúc thế nào. *In the end, I'm sure they'll move the party indoors.*\n\nMẫu câu nối manh mối và dự đoán: *Because…, … will… / Judging by…, … is likely to… / …, so … is going to…*"
+    },
+    {
+      "heading": "Dạng tương lai theo mức độ chắc chắn",
+      "body": "- **Gần như chắc chắn, có bằng chứng ngay lúc này:** *is going to* · *is about to* (sắp, trong vài giây) · *will definitely*\n- **Khả năng cao:** *will probably* · *is likely to* · *there's a good chance (that)…*\n- **Có thể:** *might* · *could* · *may*\n- **Phủ định:** *probably won't* (probably đứng **trước** won't) · *isn't likely to* · *might not*\n\nLỗi ngữ pháp hay gặp:\n- ~~will to fall~~ → *will fall*; ~~might will~~ → *might*\n- ~~is likely fall~~ → *is likely **to** fall*\n- ~~is going to falls~~ → *is going to **fall***\n- *will probably not* thì không sai, nhưng trong văn nói *probably won't* tự nhiên hơn.\n\nDùng xen kẽ ít nhất 3–4 dạng khác nhau thay vì “will… will… will…”."
+    },
+    {
+      "heading": "Chuỗi phản ứng của nhiều người: when / as soon as / if",
+      "body": "Dự đoán Level 8 cho thấy **người này phản ứng với việc kia**:\n*As soon as the first drops **fall**, the mom in the green dress **will** call everyone inside.*\n\nQuy tắc quan trọng: sau **when, as soon as, before, after, until, if** khi nói về tương lai, dùng **hiện tại đơn**, không dùng will.\n- ~~When it will rain, they will run inside.~~\n- *When it **rains**, they**'ll** run inside.*\n\nCách này vừa nối các ý một cách mạch lạc (coherence), vừa cho thấy kiểm soát ngữ pháp phức tạp."
+    },
+    {
+      "heading": "30 giây chuẩn bị và nhịp 60 giây",
+      "body": "1. **(5 giây)** Tìm “vấn đề” của bức tranh: điều gì sắp thay đổi? (cơn bão, tai nạn, ai đó sắp ngã…)\n2. **(10 giây)** Tìm 2–3 **manh mối** chứng minh: mây đen, gió thổi, dây điện trên sàn, người không nhìn đường.\n3. **(10 giây)** Chọn 3–4 người và nghĩ mỗi người sẽ làm gì.\n4. **(5 giây)** Chọn kết cục.\n\nNhịp gợi ý: dự đoán chính 5–10 giây → manh mối + 3–4 dự đoán 40 giây → kết cục 5–10 giây. Khoảng **130–150 từ**. Không cần tả màu sắc hay mọi chi tiết như Task 3 — chỉ tả những gì làm lý do cho dự đoán."
+    }
+  ],
+  "stimuli": {
+    "party": {
+      "title": "Task 4 scene: a backyard birthday party",
+      "imageRef": "s4-practice-01",
+      "text": "In this picture, what do you think will happen next? Describe what will happen next as well as you can. The person with whom you are speaking cannot see the picture."
+    },
+    "office": {
+      "title": "Task 4 scene: moving day at the office",
+      "imageRef": "s4-practice-02",
+      "text": "In this picture, what do you think will happen next? Describe what will happen next as well as you can. The person with whom you are speaking cannot see the picture."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Three answers about the birthday party",
+      "stimulusId": "party",
+      "question": "Compare a weak, an acceptable and a Level 8 answer for the backyard birthday party picture.",
+      "steps": [
+        "Find the 'problem': a storm is coming toward a backyard party. Dark clouds, rain and lightning are on the left, just beyond the fence.",
+        "Find the clues: the balloons, the napkins and even the candle flames are all blowing to one side, so the wind is strong; the back door of the house on the right is open.",
+        "Choose 3–4 people: the woman in the green dress who is pointing at the sky; the dad in the apron at the barbecue; the birthday girl in the party hat behind the cake; the two kids on the lawn (plus the dog under the table).",
+        "Choose the outcome: the party will move inside.",
+        "Plan different future forms: is about to, is going to, will probably, might, as soon as + present simple. Then compare the three versions below."
+      ],
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "In this picture there is a birthday party. There is a girl with a hat and there is a cake. A man is cooking on barbecue. A woman is wearing green dress. The children are playing. There is a dog under the table. There are many balloons. The sky is dark. I think it will rain. They will go inside. Maybe the cake will wet.",
+          "commentVi": "Đây là câu trả lời Task 3 chứ không phải Task 4: tám câu đầu chỉ tả tranh, dự đoán chỉ xuất hiện ở ba câu cuối. Dự đoán không có lý do, không nói từng người sẽ làm gì. Chỉ có một dạng tương lai (will), lỗi “the cake will wet” (phải là will get wet), thiếu mạo từ (on barbecue, green dress). Khoảng 65 từ → chỉ khoảng 30 giây."
+        },
+        {
+          "label": "acceptable",
+          "text": "I think a storm will come to this birthday party very soon. The sky on the left is very dark and there is rain and lightning. Also, the wind is strong because the balloons are moving. So I think the woman in the green dress will tell everybody to go inside. The man at the barbecue will take the food into the house. The kids will run inside too. The girl will be sad because her party is finished. In the end, they will have the party inside.",
+          "commentVi": "Đúng nhiệm vụ: mở đầu bằng dự đoán, có manh mối, dự đoán cho nhiều người và có kết cục — mức Level 6–7. Nhưng mọi dự đoán đều dùng “will” (6 lần), không có mức độ chắc chắn khác nhau, các ý đặt cạnh nhau chứ không nối thành chuỗi phản ứng. “Her party is finished” mâu thuẫn với câu kết (tiệc chuyển vào nhà). Khoảng 90 từ → khoảng 45 giây."
+        },
+        {
+          "label": "level8",
+          "text": "I think this party is about to be rained out. Behind the fence on the left, there are dark storm clouds, and it's already pouring over there, with lightning too. The wind's picking up, because the balloons, the napkins and the candle flames are all blowing sideways. So the storm is going to hit the yard within minutes. The woman in the green dress is pointing at the sky, and as soon as the first drops fall, she'll probably call everyone inside. The dad at the barbecue is likely to grab the food and rush it through the open back door. The two kids might think the rain is fun at first, but they'll come running when they hear thunder. As for the birthday girl, she'd better blow out her candles fast, or the wind will do it for her! In the end, I'm pretty sure they'll finish the party in the living room.",
+          "commentVi": "Câu đầu là dự đoán chính (is about to be rained out). Manh mối được tả ngắn gọn và luôn gắn với dự đoán (because…, so… is going to…). Dạng tương lai đa dạng theo mức chắc chắn: is about to, is going to, will probably, is likely to, might, 'll, I'm pretty sure. Chuỗi phản ứng dùng đúng ngữ pháp: as soon as the first drops fall (hiện tại đơn), when they hear thunder. Có 4 người + kết cục rõ ràng. Khoảng 150 từ — vừa 60 giây; nếu bạn nói chậm hơn, có thể bỏ câu về cô bé sinh nhật."
+        }
+      ],
+      "answer": "The Level 8 answer predicts from the first sentence, ties each prediction to a visible clue, varies future forms by certainty, links people's reactions with as soon as / when, and ends with an outcome.",
+      "takeawayVi": "Task 4 = dự đoán có lý do. Tả tranh chỉ để làm bằng chứng. Đổi dạng tương lai theo mức chắc chắn và nối các phản ứng bằng when/as soon as + hiện tại đơn."
+    },
+    {
+      "id": "ex2",
+      "title": "Building a clue → prediction → reaction chain",
+      "stimulusId": "party",
+      "question": "How do you turn one clue in the party picture into a chain of predictions?",
+      "steps": [
+        "Start from one visible clue: smoke is rising from the barbecue on the right, and the dad in the white apron is holding a spatula over the grill.",
+        "Add a cause from the main event: the rain is coming from the left → the grill and the food will get soaked.",
+        "Predict his action with a certainty form: → He's likely to cover the grill or carry the food inside.",
+        "Chain a reaction from another person or animal with a time clause: → As soon as he opens the lid, the dog under the table will probably run over, hoping for a sausage!",
+        "Join it: \"Since the rain is heading straight for the yard, the dad at the barbecue is likely to grab the food and carry it inside, and as soon as he opens the lid, the dog under the table will probably come running, hoping for a sausage.\""
+      ],
+      "answer": "One clue becomes two or three linked predictions: clue → cause → action (certainty form) → another person's reaction (time clause + present simple).",
+      "takeawayVi": "Một manh mối có thể tạo ra 2–3 dự đoán nối nhau. Đây là cách lấp 60 giây bằng nội dung có logic, thay vì liệt kê “A will…, B will…, C will…”."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "office",
+      "prompt": "Look at the office picture. Which sentence is the strongest way to START a Task 4 answer?",
+      "hint": "Task 4 asks about the future. Which sentence makes a prediction straight away?",
+      "options": [
+        {
+          "text": "There is a banner at the top that says \"Moving Day\".",
+          "misconception": "describing-not-predicting",
+          "whyVi": "Chỉ tả một chi tiết; chưa dự đoán gì. Đây là cách mở đầu của Task 3."
+        },
+        {
+          "text": "There's going to be an accident in the middle of this office any second now.",
+          "misconception": null,
+          "whyVi": "Đúng: câu đầu là dự đoán chính, dùng dạng tương lai có bằng chứng (is going to) và mốc thời gian (any second now)."
+        },
+        {
+          "text": "A man in a blue uniform is carrying some boxes, and a woman is holding coffee.",
+          "misconception": "describing-not-predicting",
+          "whyVi": "Tả người, chưa nói điều gì sẽ xảy ra."
+        },
+        {
+          "text": "I think the company will become very successful in its new office.",
+          "misconception": "unsupported-prediction",
+          "whyVi": "Là dự đoán nhưng không có manh mối nào trong tranh hỗ trợ; bỏ qua sự việc chính sắp xảy ra."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Mở đầu Task 4 bằng dự đoán chính về sự việc lớn nhất trong tranh. Tả chi tiết đến sau, như bằng chứng.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g2",
+      "type": "text",
+      "stimulusId": "office",
+      "prompt": "The woman on the right is looking at her phone while she walks. Complete with \"probably\" + \"notice\" in a negative future form: \"She ______ ______ ______ the cable on the floor.\" (Type all three words.)",
+      "hint": "Think about where probably goes in a negative future sentence, and which form sounds most natural in speech.",
+      "answers": [
+        "probably won't notice",
+        "probably will not notice",
+        "will probably not notice"
+      ],
+      "mode": "exact",
+      "misconception": "future-form-error",
+      "explanationVi": "Dạng tự nhiên nhất: probably won't + V nguyên mẫu. “will probably not notice” đúng ngữ pháp nhưng ít gặp trong văn nói.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "office",
+      "prompt": "You predict: \"The mover is going to trip.\" Which clue from the picture supports this prediction best?",
+      "hint": "Look for something on the floor in front of him, and something that stops him from seeing it.",
+      "options": [
+        {
+          "text": "There's a moving truck parked outside the window.",
+          "misconception": "unsupported-prediction",
+          "whyVi": "Có trong tranh nhưng không liên quan đến việc anh ấy sắp vấp."
+        },
+        {
+          "text": "He's carrying a stack of boxes taller than his head, and there's a black cable lying across the floor right in his path.",
+          "misconception": null,
+          "whyVi": "Hai manh mối kết hợp: anh ấy không nhìn thấy sàn + có dây điện ngay trước mặt → khả năng vấp rất cao."
+        },
+        {
+          "text": "There's a clock on the wall on the right.",
+          "misconception": "unsupported-prediction",
+          "whyVi": "Đồng hồ không liên quan gì đến việc vấp ngã."
+        },
+        {
+          "text": "He's wearing a blue cap and a blue uniform.",
+          "misconception": "describing-not-predicting",
+          "whyVi": "Chỉ là mô tả ngoại hình, không phải bằng chứng cho dự đoán."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Mỗi dự đoán cần một manh mối nhìn thấy được và có quan hệ nhân quả. Nói rõ cả hai: Because…, he's going to…",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g4",
+      "type": "order",
+      "stimulusId": "office",
+      "prompt": "Put these parts of a Task 4 answer about the office in the best order.",
+      "hint": "Main prediction → the clue for it → what another person will do → the final outcome.",
+      "items": [
+        "I think the mover in the middle is about to have a nasty accident.",
+        "His stack of boxes is so tall that he can't see the black cable stretched across the floor in front of him.",
+        "On top of that, the woman with the coffees is staring at her phone, so she's likely to walk straight into him when he stumbles.",
+        "In the end, I'm sure someone will tape that cable down so it doesn't happen again."
+      ],
+      "misconception": "single-prediction",
+      "explanationVi": "Khung Task 4: dự đoán chính → manh mối → dự đoán thêm cho người khác (nối bằng On top of that) → kết cục (In the end).",
+      "competency": "coherence"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "text",
+      "stimulusId": "office",
+      "prompt": "Complete with the correct form of \"fall\": \"As soon as the top box ______, the man on the ladder will probably shout a warning.\"",
+      "answers": [
+        "falls"
+      ],
+      "mode": "exact",
+      "misconception": "future-form-error",
+      "explanationVi": "Sau as soon as / when / if nói về tương lai, dùng hiện tại đơn: falls (không phải will fall).",
+      "competency": "grammar"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "office",
+      "prompt": "Which sentence about the box marked \"Fragile\" is grammatically correct?",
+      "options": [
+        {
+          "text": "The fragile box is likely fall off the desk.",
+          "misconception": "future-form-error",
+          "whyVi": "Thiếu “to”: is likely to fall."
+        },
+        {
+          "text": "The fragile box will likely to fall off the desk.",
+          "misconception": "future-form-error",
+          "whyVi": "Sau will không có “to”: will likely fall."
+        },
+        {
+          "text": "The fragile box is hanging over the edge of the desk, so it's likely to fall off if anyone bumps into it.",
+          "misconception": null,
+          "whyVi": "Đúng: is likely to + V, có manh mối (hanging over the edge) và điều kiện (if anyone bumps into it)."
+        },
+        {
+          "text": "The fragile box might will fall off the desk.",
+          "misconception": "future-form-error",
+          "whyVi": "Không dùng hai trợ động từ liền nhau: might fall."
+        }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Ba khuôn cần nhớ: is likely to + V; will (probably) + V; might/could + V. Không ghép hai modal (might will) và không thêm “to” sau will.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "office",
+      "prompt": "Which prediction about the office is the most reasonable, supported by what you can see?",
+      "options": [
+        {
+          "text": "The movers will finish early and take everyone out for lunch.",
+          "misconception": "unsupported-prediction",
+          "whyVi": "Không có manh mối nào trong tranh cho dự đoán này."
+        },
+        {
+          "text": "If the woman bumps into the mover, she'll probably spill both of her coffees.",
+          "misconception": null,
+          "whyVi": "Có cơ sở: cô ấy đang cầm hai cốc cà phê, nhìn điện thoại và đi về phía người khuân vác."
+        },
+        {
+          "text": "The moving truck outside is going to break down.",
+          "misconception": "unsupported-prediction",
+          "whyVi": "Chiếc xe tải trông bình thường; không có dấu hiệu hỏng hóc."
+        },
+        {
+          "text": "The plant in the corner will grow very tall.",
+          "misconception": "unsupported-prediction",
+          "whyVi": "Không liên quan đến tình huống và không phải “điều sắp xảy ra tiếp theo”."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Dự đoán hợp lý phải xuất phát từ manh mối nhìn thấy được và liên quan đến sự việc chính của bức tranh.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "office",
+      "prompt": "The top box on the mover's stack is already tilting. Which sentence matches this strong, visible evidence best?",
+      "options": [
+        {
+          "text": "Maybe one day the box will fall.",
+          "misconception": "future-form-error",
+          "whyVi": "“Maybe one day” quá yếu và quá xa so với bằng chứng ngay trước mắt."
+        },
+        {
+          "text": "Look at that top box. It's going to slide off any second.",
+          "misconception": null,
+          "whyVi": "Bằng chứng rõ ràng ngay lúc này → be going to + mốc thời gian gần (any second)."
+        },
+        {
+          "text": "The top box is going to slides off.",
+          "misconception": "future-form-error",
+          "whyVi": "Sau going to dùng động từ nguyên mẫu: slide."
+        },
+        {
+          "text": "The top box slides off tomorrow.",
+          "misconception": "future-form-error",
+          "whyVi": "Hiện tại đơn không dùng cho dự đoán; “tomorrow” không hợp lý."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Chọn dạng tương lai theo bằng chứng: bằng chứng rõ ngay lúc này → is going to / is about to; khả năng cao → will probably / is likely to; có thể → might / could.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "office",
+      "prompt": "Which sentence links several people's reactions most effectively at Level 8?",
+      "options": [
+        {
+          "text": "The man will fall. The woman will fall. The man on the ladder will see.",
+          "misconception": "single-prediction",
+          "whyVi": "Ba câu rời rạc, lặp “will”, không có quan hệ giữa các phản ứng."
+        },
+        {
+          "text": "When the boxes hit the floor, the man on the ladder will probably climb down to help, and someone is likely to finally move that cable out of the way.",
+          "misconception": null,
+          "whyVi": "Chuỗi phản ứng có quan hệ thời gian (When + hiện tại đơn), hai dạng tương lai khác nhau và một kết quả hợp lý."
+        },
+        {
+          "text": "When the boxes will hit the floor, the man on the ladder will climb down.",
+          "misconception": "future-form-error",
+          "whyVi": "Sau when không dùng will: When the boxes hit…"
+        },
+        {
+          "text": "The man on the ladder is wearing a green shirt and he is reaching up.",
+          "misconception": "describing-not-predicting",
+          "whyVi": "Chỉ tả, không dự đoán."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Nối các dự đoán bằng when / as soon as / if + hiện tại đơn giúp câu trả lời mạch lạc và thể hiện ngữ pháp phức tạp.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "Which way of using your 60 seconds in Task 4 is the most effective?",
+      "options": [
+        {
+          "text": "About 40 seconds describing the picture in detail, then 20 seconds of predictions.",
+          "misconception": "describing-not-predicting",
+          "whyVi": "Phần lớn thời gian là Task 3; nhiệm vụ chính (dự đoán) bị thu hẹp."
+        },
+        {
+          "text": "A main prediction in the first sentence, about 40 seconds of clue-based predictions for 3–4 people or things, then a final outcome.",
+          "misconception": null,
+          "whyVi": "Đúng: hầu hết thời gian nói về tương lai, mỗi dự đoán có lý do, kết thúc rõ."
+        },
+        {
+          "text": "One prediction repeated in different words for the whole 60 seconds.",
+          "misconception": "single-prediction",
+          "whyVi": "Lặp ý; thiếu phạm vi và phát triển."
+        },
+        {
+          "text": "Predictions about what each person will do next year.",
+          "misconception": "unsupported-prediction",
+          "whyVi": "Đề hỏi điều sẽ xảy ra tiếp theo trong tình huống của tranh, không phải tương lai xa."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Ít nhất 70% thời gian nói về tương lai; mô tả chỉ đủ để làm bằng chứng.",
+      "competency": "timing"
+    },
+    {
+      "id": "i7",
+      "type": "produce",
+      "stimulusId": "office",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 60,
+      "prompt": "Say what you think will happen next in the office picture. You have 30 seconds to prepare and 60 seconds to speak.",
+      "checklist": [
+        "Opens with a main prediction in the first sentence.",
+        "Supports each prediction with a visible clue (because…, since…, judging by…).",
+        "Predicts what at least three different people will do.",
+        "Uses at least four different future forms (e.g. is about to, is going to, will probably, is likely to, might).",
+        "Uses at least one time or condition clause with the present simple (when / as soon as / if + present) and ends with a final outcome."
+      ],
+      "modelAnswer": "I'd say this moving day is about to go very wrong. The mover in the blue uniform has stacked his boxes so high that he can't see where he's going, and there's a black cable running right across the floor in front of him. So he's almost certainly going to catch his foot on it. At the same time, the woman on the right is walking toward him with two coffees, but her eyes are glued to her phone, so she probably won't see him stumble. If they collide, those coffees are likely to end up all over the carpet, and the top box, which is already leaning, will come crashing down. The guy on the ladder might hear the noise and turn around, and as soon as he sees the mess, he'll probably hurry down to help. In the end, I think everyone will be fine, but someone will definitely move that cable.",
+      "misconception": "future-form-error",
+      "explanationVi": "Nghe lại và đếm: bạn dùng bao nhiêu dạng tương lai khác nhau? Có câu nào “when … will” không? Có bao nhiêu giây chỉ tả mà không dự đoán?",
+      "competency": "grammar"
+    }
+  ],
+  "misconceptions": {
+    "describing-not-predicting": {
+      "label": "Tả tranh thay vì dự đoán",
+      "explanationVi": "Bạn làm Task 4 như Task 3 vì tả tranh dễ hơn và quen hơn. Nhưng đề hỏi “what will happen next”, nên mô tả dài mà không có dự đoán là không hoàn thành nhiệm vụ.",
+      "fixVi": "Câu đầu tiên phải là dự đoán. Mỗi khi tả một chi tiết, nối ngay sang dự đoán: …, so … is going to… Giữ ít nhất 70% thời gian ở tương lai."
+    },
+    "unsupported-prediction": {
+      "label": "Dự đoán không có căn cứ từ tranh",
+      "explanationVi": "Bạn đoán những điều không có manh mối trong tranh hoặc không liên quan đến sự việc chính. Người nghe không thấy logic, và câu trả lời trở nên ngẫu nhiên.",
+      "fixVi": "Với mỗi dự đoán, hỏi: “Mình thấy gì trong tranh làm mình nghĩ vậy?” Nói luôn manh mối đó bằng because / since / judging by."
+    },
+    "future-form-error": {
+      "label": "Sai hoặc thiếu đa dạng dạng tương lai",
+      "explanationVi": "Bạn chỉ dùng “will”, hoặc dùng sai cấu trúc (will to, is likely fall, might will, when it will…). Đây là lỗi kiểm soát ngữ pháp khi nói nhanh và thiếu khuôn mẫu sẵn có.",
+      "fixVi": "Học thuộc khuôn: is going to + V, is about to + V, will probably + V, probably won't + V, is likely to + V, might + V. Sau when / as soon as / if: hiện tại đơn."
+    },
+    "single-prediction": {
+      "label": "Chỉ một dự đoán, không có chuỗi phản ứng và kết cục",
+      "explanationVi": "Bạn đưa ra một dự đoán rồi lặp lại, hoặc liệt kê từng người mà không nối với nhau. Câu trả lời thiếu phát triển và thiếu mạch lạc.",
+      "fixVi": "Chuẩn bị 3–4 người/vật và nghĩ xem họ phản ứng với nhau thế nào (When X happens, Y will…). Luôn kết bằng một câu kết cục: In the end, …"
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "is about to + V",
+      "vi": "sắp sửa (trong vài giây, vài phút tới)",
+      "example": "The bus is about to leave, so they'll have to run."
+    },
+    {
+      "term": "is going to + V (with evidence)",
+      "vi": "sắp… (có bằng chứng ngay trước mắt)",
+      "example": "Look at those clouds over Grouse Mountain. It's going to pour."
+    },
+    {
+      "term": "will probably / probably won't",
+      "vi": "có lẽ sẽ / có lẽ sẽ không",
+      "example": "He probably won't notice the wet floor sign."
+    },
+    {
+      "term": "is likely to + V",
+      "vi": "nhiều khả năng sẽ…",
+      "example": "The ferry is likely to be late because of the wind."
+    },
+    {
+      "term": "There's a good chance (that) …",
+      "vi": "Rất có thể là…",
+      "example": "There's a good chance the game will be cancelled."
+    },
+    {
+      "term": "Judging by …, …",
+      "vi": "Dựa vào…, … (nêu manh mối)",
+      "example": "Judging by the long line, they're likely to sell out of donuts soon."
+    },
+    {
+      "term": "As soon as …, …",
+      "vi": "Ngay khi…, … (nối chuỗi phản ứng)",
+      "example": "As soon as the music starts, the kids will rush to the dance floor."
+    },
+    {
+      "term": "end up + V-ing / in a place",
+      "vi": "rốt cuộc sẽ…",
+      "example": "The coffee will end up all over the carpet."
+    },
+    {
+      "term": "In the end, I'm pretty sure …",
+      "vi": "Cuối cùng, tôi khá chắc là…",
+      "example": "In the end, I'm pretty sure they'll move the barbecue into the garage."
+    }
+  ],
+  "grammar": [
+    {
+      "point": "Future forms by certainty: is going to / is about to / will probably / is likely to / might",
+      "explanationVi": "Chọn dạng theo mức độ chắc chắn và bằng chứng. Tất cả đều + động từ nguyên mẫu. Chú ý: is likely TO + V; probably đứng sau will nhưng trước won't.",
+      "examples": [
+        "The top box is about to fall.",
+        "She'll probably drop her coffee.",
+        "He's likely to trip over the cable.",
+        "The man on the ladder might not hear them."
+      ]
+    },
+    {
+      "point": "Future time and condition clauses: when / as soon as / if + present simple",
+      "explanationVi": "Khi nói về tương lai, mệnh đề bắt đầu bằng when, as soon as, before, after, until, if dùng hiện tại đơn; mệnh đề chính dùng will / be going to / might.",
+      "examples": [
+        "When it starts to rain, they'll run inside.",
+        "As soon as the dad opens the lid, the dog will come running.",
+        "✗ If she will bump into him → ✓ If she bumps into him, she'll spill her coffee."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "label": "Practise Speaking Task 4: Making predictions",
+      "route": "/speaking?task=S4"
+    },
+    {
+      "label": "Review your speaking mistakes",
+      "route": "/mistakes"
+    }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Checked all details against the s4-practice-01/02 SVGs (storm on left, open back door, tilting top box, cable in path, Fragile box over desk edge); keys correct. Trimmed Level 8 comparison to ~150 words, fixed sentence/word counts in commentVi, removed strikethrough on the correct 'will probably not', softened the g2 hint."}
+}

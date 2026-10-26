@@ -1,0 +1,386 @@
+{
+  "id": "ls-04",
+  "skill": "listening",
+  "module": "listening-foundations",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Canadian everyday English",
+  "titleVi": "Tiếng Anh đời thường kiểu Canada",
+  "estimatedMinutes": 30,
+  "prerequisites": ["ls-03"],
+  "competencies": ["vocabulary"],
+  "tasks": ["L1", "L2", "L5"],
+  "objectives": [
+    "You will be able to understand everyday Canadian words such as double-double, toque, loonie, toonie, washroom, parkade, runners and hydro bill.",
+    "You will be able to interpret Canadian conversational markers such as eh, for sure, sorry and no worries.",
+    "You will be able to recognize indirect requests, refusals and reluctant agreement (I was wondering if…, That might be a bit tricky, I suppose that could work).",
+    "You will be able to understand common phrasal verbs and idioms in context (swing by, hold off on, chip in, play it by ear)."
+  ],
+  "objectiveVi": "Sau bài này, bạn hiểu các từ vựng đời sống đặc trưng của Canada, các từ đệm hội thoại như eh, for sure, và quan trọng nhất là nhận ra khi người Canada nhờ vả, từ chối hay đồng ý một cách gián tiếp, lịch sự.",
+  "whyItMattersVi": "CELPIP là bài thi của Canada: Part 1, 2 và 5 dùng các tình huống đời thường ở Canada, nơi người nói dùng từ như parkade, toque, hydro bill và nói rất lịch sự, vòng vo. Ở Listening 6, bạn có thể nghe rõ từng từ nhưng vẫn hiểu sai ý, vì “That might be a bit tricky” thật ra là “không”, còn “I suppose that could work” là đồng ý miễn cưỡng. Nắm được những tầng nghĩa này là khác biệt giữa Level 6 và Level 8 ở các câu hỏi về ý định và kết quả hội thoại.",
+  "concept": [
+    {
+      "heading": "Tiếng Anh Canada trong bài nghe CELPIP",
+      "body": "Bài nghe CELPIP mô phỏng cuộc sống ở Canada: hàng xóm trong chung cư, đồng nghiệp, chủ nhà, cửa hàng, sân trượt băng. Người nói không dùng tiếng lóng nặng, nhưng dùng tự nhiên những **từ đời thường của Canada** mà sách giáo khoa ít dạy. Nếu bạn sống ở BC, bạn đã nghe nhiều từ này; bài học này giúp bạn nhận ra chúng **ngay lập tức** khi nghe, không phải dừng lại suy nghĩ.\n\nBa nhóm cần nắm: (1) từ vựng đời sống, (2) từ đệm hội thoại (eh, for sure), (3) **lối nói lịch sự gián tiếp**, nhóm quan trọng nhất cho các câu hỏi về ý định và kết quả."
+    },
+    {
+      "heading": "Từ vựng đời sống Canada",
+      "body": "- **double-double**: cà phê có hai phần kem và hai phần đường (gọi ở Tim Hortons, hay gọi thân mật là *Timmies*).\n- **toque** (đọc *tuke*): mũ len mùa đông.\n- **loonie** = đồng xu 1 đô; **toonie** = đồng xu 2 đô. *Chip in a toonie* = góp 2 đô.\n- **washroom**: nhà vệ sinh công cộng (ít dùng *restroom* như ở Mỹ).\n- **parkade**: bãi đỗ xe nhiều tầng.\n- **runners**: giày thể thao (sneakers).\n- **pop**: nước ngọt có ga (soda).\n- **hydro bill**: hoá đơn **tiền điện**. Ở BC, *hydro* gần như đồng nghĩa với điện vì công ty điện chính của tỉnh là BC Hydro.\n- **line-up**: hàng người xếp hàng (*the line-up at the bank*).\n- **basement suite**: căn hộ tầng hầm cho thuê; **eavestroughs**: máng xối trên mái nhà.\n\nTrong câu hỏi, đáp án đúng thường **diễn đạt lại** các từ này bằng từ chung: *toque* → *a warm hat*; *hydro bill* → *electricity bill*; *parkade* → *parking garage*."
+    },
+    {
+      "heading": "Eh, for sure, sorry, no worries",
+      "body": "- **eh** ở cuối câu: tìm sự đồng tình, giống “nhỉ / ha” (*Brutal out there, eh?*). Không phải câu hỏi thật.\n- **for sure**: “chắc chắn rồi, được thôi”, một cách nói *yes* rất phổ biến ở Canada.\n- **sorry**: không chỉ là xin lỗi, mà còn là *excuse me* (*Sorry, can I squeeze past?*) hoặc *pardon?* (*Sorry?* = bạn nói lại được không?). *Sorry to bug you* = xin lỗi đã làm phiền.\n- **no worries**: “không sao đâu”, đáp lại lời xin lỗi hoặc cảm ơn.\n- **I'm easy / I could go either way**: “sao cũng được”. Nhưng chú ý: nếu theo sau là *though…* hoặc một lời phàn nàn, người nói thật ra **không hào hứng**."
+    },
+    {
+      "heading": "Lịch sự gián tiếp: nghe ý thật đằng sau lời nói",
+      "body": "Người Canada thường làm mềm lời nói. Hãy nghe **chức năng** của câu, không chỉ nghĩa đen:\n- **Nhờ vả:** *I was wondering if…*, *Would you mind…?*, *Sorry to bother you, but…*, *If it's not too much trouble…*\n- **Từ chối:** *That might be a bit tricky.* / *I'm not sure that'll work.* / *I'd love to, but…* Cả ba câu đều có nghĩa là **không**, thường kèm lý do và một gợi ý khác (*You could try asking Mark, though*).\n- **Đề nghị:** *What if we…?*, *Maybe skip the pop?* (= đừng mua), *I'd hold off on ordering* (= nên chờ).\n- **Đồng ý miễn cưỡng:** *I guess that works.* / *I suppose that could work.* / *As long as…* (đồng ý **có điều kiện**).\n\nTrong CELPIP, câu hỏi kiểu *What does the woman mean when she says…?* hay *How does the man feel about the plan?* kiểm tra đúng kỹ năng này."
+    },
+    {
+      "heading": "Phrasal verbs và thành ngữ hay gặp",
+      "body": "- **swing by / drop by**: ghé qua (*I'll swing by the bakery on my way in*).\n- **pick up**: đi lấy, mua mang về; **chip in**: góp tiền.\n- **hold off on**: hoãn lại, chưa làm vội.\n- **sort out / figure out**: giải quyết, tìm cách.\n- **knock (forty bucks) off**: giảm (40 đô).\n- **toss**: vứt đi (*I tossed the receipt*).\n- **put together**: soạn, chuẩn bị (*put together a sign-up sheet*).\n- **play it by ear**: tuỳ cơ ứng biến, quyết định sau.\n\nĐừng dịch từng chữ: *hold off* không liên quan đến “giữ”, *play it by ear* không liên quan đến âm nhạc. Nghĩa đến từ **ngữ cảnh**: điều gì xảy ra trước và sau cụm đó?"
+    }
+  ],
+  "stimuli": {
+    "ex-coffee-run": {
+      "title": "A coffee run at work",
+      "audio": [
+        { "speaker": "Jess", "voice": "female_a", "text": "Hey, I'm doing a coffee run before the meeting. Want anything?" },
+        { "speaker": "Omar", "voice": "male_a", "text": "Oh, for sure. Could you grab me a medium double-double? And maybe one of those breakfast sandwiches, if the line-up isn't too crazy." },
+        { "speaker": "Jess", "voice": "female_a", "text": "No problem. That's like seven bucks, right?" },
+        { "speaker": "Omar", "voice": "male_a", "text": "Yeah, here's a five and a toonie. Thanks, you're the best." }
+      ]
+    },
+    "ex-ladder-request": {
+      "title": "A neighbour asks a favour",
+      "audio": [
+        { "speaker": "Gord", "voice": "male_a", "text": "Hey, Lan, sorry to bug you. I was wondering if I could borrow your ladder this weekend? I want to clean out the eavestroughs before it starts raining again." },
+        { "speaker": "Lan", "voice": "female_a", "text": "Oh, this weekend might be a bit tricky. My brother-in-law took it to his place last week, and I'm not sure when he's bringing it back. You could try asking Mark at number twelve, though. I think he's got one." }
+      ]
+    },
+    "rink-chat": {
+      "title": "Two parents at the hockey rink",
+      "audio": [
+        { "speaker": "Karen", "voice": "female_a", "text": "Hey, Steve! Brutal out there this morning, eh? I could barely see the road." },
+        { "speaker": "Steve", "voice": "male_a", "text": "Tell me about it. I parked on the second level of the parkade, and I still had to scrape the windshield." },
+        { "speaker": "Karen", "voice": "female_a", "text": "And you're not wearing a hat? It's freezing in here. Here, I've got a spare toque in my bag." },
+        { "speaker": "Steve", "voice": "male_a", "text": "Oh, thanks. I came straight from the gym, so I'm still in my runners, too. Do you know where the washrooms are in this place?" },
+        { "speaker": "Karen", "voice": "female_a", "text": "Down the hall, past the snack bar. Could you grab me a hot chocolate while you're there? I'll pay you back." }
+      ]
+    },
+    "hydro-call": {
+      "title": "A tenant calls her landlord",
+      "audio": [
+        { "speaker": "Linh", "voice": "female_a", "text": "Hi, Mr. Kowalski, it's Linh from the basement suite. Sorry to bother you on a Sunday." },
+        { "speaker": "Mr. Kowalski", "voice": "male_b", "text": "No worries. What's up?" },
+        { "speaker": "Linh", "voice": "female_a", "text": "So, I was wondering if we could talk about the hydro bill. It's been almost double since October, and I think the heater in the laundry room is on the same meter as my suite. Would you mind having someone take a look?" },
+        { "speaker": "Mr. Kowalski", "voice": "male_b", "text": "Huh. That's possible. I'm not sure I can get an electrician in this week, though. What if I knock forty bucks off your rent for now, and we sort it out properly in the new year?" },
+        { "speaker": "Linh", "voice": "female_a", "text": "Okay, I guess that works. Thanks for figuring something out." }
+      ]
+    },
+    "farewell-lunch": {
+      "title": "Planning a farewell lunch",
+      "audio": [
+        { "speaker": "Priya", "voice": "female_a", "text": "Okay, so for Daniel's farewell lunch on Friday, I was thinking we just order pizza to the office. And everyone chips in a toonie or two for the cake." },
+        { "speaker": "Mike", "voice": "male_a", "text": "Works for me. I can swing by the bakery on my way in and pick up the cake. Should we get pop too?" },
+        { "speaker": "Ashley", "voice": "female_b", "text": "Maybe skip the pop? Half the team brings their own water bottles anyway. And honestly, I'd hold off on ordering until Thursday. We still don't know who's working from home that day." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Good call. Ashley, could you put together a quick sign-up sheet? Then I'll place the order Thursday afternoon." },
+        { "speaker": "Ashley", "voice": "female_b", "text": "For sure. I'll send it out after lunch." }
+      ]
+    },
+    "runners-return": {
+      "title": "Returning a pair of shoes",
+      "audio": [
+        { "speaker": "Tom", "voice": "male_a", "text": "Hi, I bought these runners here about three weeks ago, and the sole's already coming off. I was hoping to get a refund." },
+        { "speaker": "Clerk", "voice": "female_a", "text": "Oh, I'm so sorry about that. Do you have the receipt?" },
+        { "speaker": "Tom", "voice": "male_a", "text": "Uh, no, I think I tossed it. I paid with my debit card, though." },
+        { "speaker": "Clerk", "voice": "female_a", "text": "Okay, no worries. Unfortunately, without the receipt I can't put the money back on your card. What I can do is give you store credit, or swap them for a new pair in the same size." },
+        { "speaker": "Tom", "voice": "male_a", "text": "I'll go with the new pair, I guess. Same size, ten and a half." }
+      ]
+    },
+    "saturday-plans": {
+      "title": "Two friends make weekend plans",
+      "audio": [
+        { "speaker": "Alex", "voice": "male_a", "text": "So, are we doing the Granville Island thing on Saturday or what?" },
+        { "speaker": "Sophie", "voice": "female_a", "text": "I mean, I could go either way. It's supposed to rain, though, and I'm not going to lie, fighting for parking down there isn't really my idea of fun." },
+        { "speaker": "Alex", "voice": "male_a", "text": "Fair enough. What if we take the bus and just play it by ear? If it's pouring, we can grab lunch at the market and head home." },
+        { "speaker": "Sophie", "voice": "female_a", "text": "Yeah, I suppose that could work. As long as we're not standing around in the rain for hours." },
+        { "speaker": "Alex", "voice": "male_a", "text": "Deal. I'll text you in the morning." }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "ls04-ex1",
+      "title": "Decoding a Canadian coffee order",
+      "stimulusId": "ex-coffee-run",
+      "question": "What does Omar order, and how much money does he give Jess?",
+      "steps": [
+        "\"Oh, for sure\" means yes, he wants something. It is not a question about being sure.",
+        "\"A medium double-double\" is a medium coffee with two creams and two sugars. If you didn't know the word, the context \"coffee run\" tells you it's a drink order.",
+        "\"if the line-up isn't too crazy\": the sandwich is conditional. Omar only wants it if the line is short.",
+        "Payment: \"a five and a toonie\" means a $5 bill and a $2 coin, so $7. That matches Jess's estimate of \"like seven bucks\" (bucks = dollars).",
+        "A likely option in a test: \"He gives her seven dollars for a coffee and a sandwich\". It paraphrases \"a five and a toonie\" without using the Canadian word."
+      ],
+      "answer": "A medium coffee with two creams and two sugars, plus a breakfast sandwich if the line is short; he gives her $7 (a five-dollar bill and a two-dollar coin).",
+      "takeawayVi": "Từ Canada (double-double, toonie, line-up) thường xuất hiện trong bài nghe, còn trong đáp án chúng được diễn đạt lại bằng từ chung (coffee with cream and sugar, two-dollar coin). Hãy học từ kèm cách diễn đạt tương đương."
+    },
+    {
+      "id": "ls04-ex2",
+      "title": "Hearing a polite \"no\"",
+      "stimulusId": "ex-ladder-request",
+      "question": "Will Lan lend Gord her ladder this weekend?",
+      "steps": [
+        "Gord's request is indirect: \"sorry to bug you. I was wondering if I could borrow your ladder\". Function: a polite request.",
+        "Lan's reply never says \"no\". But \"this weekend might be a bit tricky\" is a standard Canadian way to refuse.",
+        "The reason confirms it: her brother-in-law has the ladder, and she doesn't know when he'll return it.",
+        "The alternative confirms it again: \"You could try asking Mark at number twelve, though.\" People suggest another option when they are declining.",
+        "Conclusion: No. She can't lend it, and she suggests Mark. An option like \"She agrees to lend it later in the weekend\" would be a literal-meaning trap: \"might be\" sounds uncertain, but the function is a refusal."
+      ],
+      "answer": "No. She politely refuses because her brother-in-law has the ladder, and she suggests asking Mark instead.",
+      "takeawayVi": "Lời từ chối kiểu Canada thường có ba phần: câu làm mềm (might be a bit tricky), lý do, rồi gợi ý khác (You could try…, though). Nghe thấy cả ba phần là chắc chắn người nói đang từ chối."
+    }
+  ],
+  "guided": [
+    {
+      "id": "ls04-g1",
+      "type": "choice",
+      "stimulusId": "rink-chat",
+      "prompt": "What does Karen offer Steve?",
+      "hint": "Karen first notices that Steve is not wearing something. What she offers solves that problem.",
+      "options": [
+        { "text": "A warm winter hat", "misconception": null, "whyVi": "Đúng: “toque” là mũ len mùa đông. Karen để ý Steve không đội mũ (“you're not wearing a hat?”)." },
+        { "text": "A pair of running shoes", "misconception": "unknown_canadianism", "whyVi": "“Runners” là giày Steve đang mang, không phải thứ Karen đưa." },
+        { "text": "A hot chocolate", "misconception": "wrong_speaker", "whyVi": "Ngược lại: Karen nhờ Steve mua hot chocolate cho cô." },
+        { "text": "A pair of warm gloves", "misconception": "unknown_canadianism", "whyVi": "“Toque” không phải găng tay. Nếu chưa biết từ này, hãy dựa vào câu ngay trước: “you're not wearing a hat?”." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Here, I've got a spare toque in my bag.",
+      "explanationVi": "Không biết “toque” vẫn đoán được: câu trước là “you're not wearing a hat? It's freezing in here”, nên thứ Karen đưa phải là một loại mũ ấm. Đáp án dùng cách diễn đạt chung “a warm winter hat”.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls04-g2",
+      "type": "choice",
+      "stimulusId": "hydro-call",
+      "prompt": "What problem does Linh want to discuss?",
+      "hint": "In BC, \"hydro\" is used for one specific household utility. Linh's reason (a heater on the same meter) tells you which one.",
+      "options": [
+        { "text": "Her water bill has gone up since October.", "misconception": "literal_meaning", "whyVi": "“Hydro” gợi đến nước (hydro- = nước), nhưng ở BC, hydro bill là hoá đơn điện. Cái “heater” và “meter” cũng chỉ về điện." },
+        { "text": "Her electricity bill may include a heater she doesn't use.", "misconception": null, "whyVi": "Đúng: hydro bill = hoá đơn điện; cô nghĩ máy sưởi ở phòng giặt dùng chung đồng hồ điện với căn hộ của mình." },
+        { "text": "The heater in her suite is broken.", "misconception": "literal_meaning", "whyVi": "Máy sưởi được nhắc là ở phòng giặt và không hề hỏng; vấn đề là nó tính vào hoá đơn của cô." },
+        { "text": "She wants to move out of the basement suite.", "misconception": "indirect_missed", "whyVi": "Linh không đề cập chuyện chuyển nhà; cô chỉ nhờ kiểm tra." }
+      ],
+      "answerIndex": 1,
+      "evidence": "I think the heater in the laundry room is on the same meter as my suite",
+      "explanationVi": "“Hydro bill” là một từ rất Canada (đặc biệt ở BC, Ontario, Quebec) chỉ hoá đơn điện. Cũng chú ý lời nhờ gián tiếp: “I was wondering if we could talk about…”, “Would you mind having someone take a look?”.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls04-g3",
+      "type": "text",
+      "mode": "exact",
+      "stimulusId": "farewell-lunch",
+      "prompt": "Priya says everyone should contribute a coin or two for the cake. Which coin does she name? Type the Canadian word.",
+      "hint": "Canadians have nicknames for the one-dollar and two-dollar coins. Listen to the phrase right after \"chips in a…\".",
+      "answers": ["toonie", "toonies", "a toonie", "twoonie"],
+      "misconception": "unknown_canadianism",
+      "explanationVi": "“Everyone chips in a toonie or two”: mỗi người góp một hay hai đồng toonie, tức 2–4 đô. Loonie = 1 đô (hình chim loon), toonie = 2 đô.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls04-g4",
+      "type": "choice",
+      "stimulusId": "runners-return",
+      "prompt": "What is the problem with Tom's refund request?",
+      "hint": "The clerk asks Tom for one thing. Listen to his answer and to the clerk's sentence that starts with \"Unfortunately\".",
+      "options": [
+        { "text": "There is no problem: the clerk says \"no worries\" and refunds his card.", "misconception": "literal_meaning", "whyVi": "“No worries” chỉ là lời đáp lịch sự; ngay sau đó cô nói “Unfortunately, without the receipt I can't put the money back on your card”." },
+        { "text": "He left the receipt at home and has to come back with it.", "misconception": "phrasal_verb", "whyVi": "“I think I tossed it” = tôi vứt nó đi rồi, không phải để quên ở nhà. Anh không còn hoá đơn để mang lại." },
+        { "text": "He no longer has his receipt, so the money can't go back on his card.", "misconception": null, "whyVi": "Đúng: “I think I tossed it”, tức anh đã vứt hoá đơn, và cô giải thích “without the receipt I can't put the money back on your card”." },
+        { "text": "The store won't take the runners back at all.", "misconception": "indirect_missed", "whyVi": "Quá mạnh: “Unfortunately, I can't…” chỉ từ chối việc hoàn tiền vào thẻ; ngay sau đó là “What I can do is…” với store credit hoặc đổi đôi mới." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Unfortunately, without the receipt I can't put the money back on your card.",
+      "explanationVi": "“Toss” = vứt đi. Cấu trúc thường gặp khi từ chối lịch sự: “Unfortunately, I can't… What I can do is…”, tức một lời “không” kèm giải pháp thay thế.",
+      "competency": "vocabulary"
+    }
+  ],
+  "independent": [
+    {
+      "id": "ls04-i1",
+      "type": "choice",
+      "stimulusId": "rink-chat",
+      "prompt": "Why does Steve mention his runners?",
+      "options": [
+        { "text": "To explain that he came straight from the gym and isn't dressed for the cold", "misconception": null, "whyVi": "Đúng: “runners” là giày thể thao; anh đến thẳng từ phòng gym nên không mặc đồ hợp với thời tiết lạnh." },
+        { "text": "To say that he ran all the way to the rink", "misconception": "literal_meaning", "whyVi": "Hiểu “runners” theo nghĩa đen là chạy bộ; anh lái xe và đỗ ở parkade." },
+        { "text": "To ask Karen where he can buy new shoes", "misconception": "indirect_missed", "whyVi": "Câu hỏi của anh là về washroom, không phải về chỗ mua giày." },
+        { "text": "To show that he is wearing warm winter boots", "misconception": "unknown_canadianism", "whyVi": "“Runners” là giày thể thao, không phải ủng mùa đông; ý của anh là mình ăn mặc chưa đủ ấm." }
+      ],
+      "answerIndex": 0,
+      "evidence": "I came straight from the gym, so I'm still in my runners, too.",
+      "explanationVi": "“Runners” (Canada) = sneakers (Mỹ) = giày thể thao. “Too” nối với ý trước: không đội mũ và cũng chỉ mang giày thể thao, tức là ăn mặc không đủ ấm.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls04-i2",
+      "type": "choice",
+      "stimulusId": "rink-chat",
+      "prompt": "What does Karen ask Steve to do?",
+      "options": [
+        { "text": "Show her where the washrooms are", "misconception": "wrong_speaker", "whyVi": "Chính Steve hỏi đường đến washroom, và Karen chỉ cho anh." },
+        { "text": "Buy her a hot chocolate on his way to the washroom", "misconception": null, "whyVi": "Đúng: “Could you grab me a hot chocolate while you're there? I'll pay you back.”" },
+        { "text": "Lend her money for the snack bar", "misconception": "wrong_speaker", "whyVi": "Ngược lại, Karen sẽ trả tiền lại (“I'll pay you back”) cho đồ Steve mua giúp." },
+        { "text": "Give her his toque because she is cold", "misconception": "wrong_speaker", "whyVi": "Ngược lại: Karen là người đưa toque cho Steve, vì anh không đội mũ." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Could you grab me a hot chocolate while you're there?",
+      "explanationVi": "“Grab me…” = mua/lấy giùm tôi; “while you're there” = tiện lúc bạn ở đó. Đây là cách nhờ thân mật rất phổ biến ở Canada.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls04-i3",
+      "type": "choice",
+      "stimulusId": "farewell-lunch",
+      "prompt": "Who will get the cake?",
+      "options": [
+        { "text": "Priya, when she places the pizza order", "misconception": "wrong_speaker", "whyVi": "Priya đặt pizza vào chiều thứ Năm; cô không đi lấy bánh." },
+        { "text": "Ashley, after she sends out the sign-up sheet", "misconception": "wrong_speaker", "whyVi": "Ashley chỉ phụ trách sign-up sheet." },
+        { "text": "Mike, on his way to the office", "misconception": null, "whyVi": "Đúng: “I can swing by the bakery on my way in and pick up the cake.”" },
+        { "text": "Daniel, since it's his farewell", "misconception": "wrong_speaker", "whyVi": "Daniel là người được tiễn, không tham gia hội thoại." }
+      ],
+      "answerIndex": 2,
+      "evidence": "I can swing by the bakery on my way in and pick up the cake.",
+      "explanationVi": "“Swing by” = ghé qua; “on my way in” = trên đường đến chỗ làm. Với hội thoại ba người, ghi chú theo tên: Mike → cake, Ashley → sign-up, Priya → order.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls04-i4",
+      "type": "choice",
+      "stimulusId": "farewell-lunch",
+      "prompt": "What does Ashley mean when she says \"I'd hold off on ordering until Thursday\"?",
+      "options": [
+        { "text": "They should order the food right away so it's ready by Thursday.", "misconception": "phrasal_verb", "whyVi": "Ngược nghĩa: “hold off on” là hoãn lại, không phải làm ngay." },
+        { "text": "They should cancel the pizza and order something else.", "misconception": "phrasal_verb", "whyVi": "Ashley không phản đối pizza; cô chỉ đề nghị chờ." },
+        { "text": "They should wait to order until they know how many people will be in the office.", "misconception": null, "whyVi": "Đúng: lý do cô đưa ra là “We still don't know who's working from home that day.”" },
+        { "text": "Priya should hold the order herself on Thursday.", "misconception": "literal_meaning", "whyVi": "Dịch từng chữ “hold” = cầm/giữ. Cụm phrasal verb có nghĩa riêng." }
+      ],
+      "answerIndex": 2,
+      "evidence": "We still don't know who's working from home that day.",
+      "explanationVi": "“Hold off on + V-ing” = tạm hoãn. Câu ngay sau cho lý do, giúp bạn xác nhận nghĩa. “I'd…” (= I would) là cách đưa ra lời khuyên mềm mỏng.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls04-i5",
+      "type": "choice",
+      "stimulusId": "runners-return",
+      "prompt": "What does Tom decide to do?",
+      "options": [
+        { "text": "Take store credit for the full amount", "misconception": "wrong_speaker", "whyVi": "Store credit là phương án nhân viên đưa ra, không phải quyết định của Tom; anh chọn đổi đôi mới." },
+        { "text": "Exchange the runners for a new pair in the same size", "misconception": null, "whyVi": "Đúng: “I'll go with the new pair, I guess. Same size, ten and a half.”" },
+        { "text": "Come back later with his receipt for a refund", "misconception": "phrasal_verb", "whyVi": "“I tossed it” = tôi đã vứt hoá đơn, nên anh không thể mang nó quay lại." },
+        { "text": "Ask for a refund on his debit card anyway", "misconception": "indirect_missed", "whyVi": "Nhân viên đã từ chối hoàn tiền vào thẻ, và Tom chấp nhận lựa chọn khác." }
+      ],
+      "answerIndex": 1,
+      "evidence": "I'll go with the new pair, I guess.",
+      "explanationVi": "“I'll go with…” = tôi chọn… “Swap them for a new pair” = đổi lấy đôi mới. Chữ “I guess” cho thấy anh chấp nhận dù không hoàn toàn hài lòng.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls04-i6",
+      "type": "choice",
+      "stimulusId": "hydro-call",
+      "prompt": "How does Mr. Kowalski respond to Linh's request?",
+      "options": [
+        { "text": "He promises an electrician will come this week.", "misconception": "literal_meaning", "whyVi": "Ngược lại: “I'm not sure I can get an electrician in this week” là cách nói lịch sự rằng tuần này không được." },
+        { "text": "He refuses to do anything until the new year.", "misconception": "indirect_missed", "whyVi": "Quá mạnh: ông đề nghị giảm tiền thuê ngay bây giờ." },
+        { "text": "He offers a temporary rent reduction and plans a proper fix later.", "misconception": null, "whyVi": "Đúng: “knock forty bucks off your rent for now, and we sort it out properly in the new year”." },
+        { "text": "He adds forty dollars to Linh's rent to cover the heater.", "misconception": "phrasal_verb", "whyVi": "Ngược nghĩa: “knock forty bucks off” = giảm 40 đô, không phải cộng thêm." }
+      ],
+      "answerIndex": 2,
+      "evidence": "What if I knock forty bucks off your rent for now, and we sort it out properly in the new year?",
+      "explanationVi": "Câu trả lời có cấu trúc “từ chối mềm + đề xuất khác”: “I'm not sure I can… though. What if I…?”. “Knock off” = giảm bớt, “for now” = tạm thời, “sort it out” = giải quyết.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls04-i7",
+      "type": "choice",
+      "stimulusId": "saturday-plans",
+      "prompt": "How does Sophie feel about the original plan to go to Granville Island on Saturday?",
+      "options": [
+        { "text": "She is excited and has no preference about the details.", "misconception": "literal_meaning", "whyVi": "Hiểu “I could go either way” theo nghĩa đen. Ngay sau đó cô nêu hai điều không thích (mưa và chỗ đỗ xe)." },
+        { "text": "She refuses to go under any conditions.", "misconception": "indirect_missed", "whyVi": "Quá mạnh: cuối cùng cô đồng ý với phương án đi xe buýt." },
+        { "text": "She is not keen, mainly because of the rain and the parking.", "misconception": null, "whyVi": "Đúng: “It's supposed to rain, though” và “fighting for parking… isn't really my idea of fun”." },
+        { "text": "She is worried about the cost of lunch at the market.", "misconception": "wrong_speaker", "whyVi": "Ý ăn trưa ở chợ là gợi ý của Alex, và không ai nhắc đến chi phí." }
+      ],
+      "answerIndex": 2,
+      "evidence": "fighting for parking down there isn't really my idea of fun",
+      "explanationVi": "“I could go either way… though…” là mở đầu trung lập, rồi “though” lật hướng. “Isn't really my idea of fun” = tôi không thích chút nào, nói giảm nhẹ kiểu Canada. Ý thật nằm sau “though”.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls04-i8",
+      "type": "choice",
+      "stimulusId": "saturday-plans",
+      "prompt": "What do Alex and Sophie finally agree on?",
+      "options": [
+        { "text": "To drive there, since Sophie said she could go either way", "misconception": "literal_meaning", "whyVi": "Hiểu “I could go either way” theo nghĩa đen. Sophie ngại tìm chỗ đỗ xe, nên Alex đề nghị đi xe buýt." },
+        { "text": "To cancel the trip because of the rain", "misconception": "indirect_missed", "whyVi": "Họ không huỷ; nếu mưa to thì chỉ ăn trưa rồi về." },
+        { "text": "To make a fixed plan for the whole day before they leave", "misconception": "phrasal_verb", "whyVi": "Ngược nghĩa: “play it by ear” = không lên kế hoạch cứng, tuỳ tình hình (nếu mưa to thì ăn trưa rồi về)." },
+        { "text": "To take the bus and decide what to do depending on the weather", "misconception": null, "whyVi": "Đúng: “take the bus and just play it by ear”, và Sophie đồng ý có điều kiện." }
+      ],
+      "answerIndex": 3,
+      "evidence": "What if we take the bus and just play it by ear?",
+      "explanationVi": "“Play it by ear” = tuỳ tình hình mà quyết định. “I suppose that could work. As long as…” là đồng ý miễn cưỡng kèm điều kiện. Kết quả hội thoại là phương án của Alex cộng điều kiện của Sophie.",
+      "competency": "vocabulary"
+    }
+  ],
+  "misconceptions": {
+    "unknown_canadianism": {
+      "label": "Chưa biết từ vựng đời sống Canada",
+      "explanationVi": "Bạn chưa gắn các từ như toque, runners, toonie, parkade, hydro bill với nghĩa của chúng, nên khi đáp án dùng cách diễn đạt chung (a warm hat, a two-dollar coin) bạn không nhận ra mối liên hệ.",
+      "fixVi": "Học mỗi từ Canada kèm một cách diễn đạt tương đương (toque = winter hat, hydro bill = electricity bill). Khi gặp từ lạ, dùng ngữ cảnh ngay trước và sau để đoán loại đồ vật hoặc dịch vụ."
+    },
+    "literal_meaning": {
+      "label": "Hiểu theo nghĩa đen",
+      "explanationVi": "Bạn dịch từng chữ: hydro = nước, runners = người chạy, hold = cầm, I could go either way = hoàn toàn thoải mái. Tiếng Anh hội thoại dùng nhiều cụm có nghĩa riêng và câu làm mềm mà nghĩa đen dẫn sai hướng.",
+      "fixVi": "Khi một cụm nghe lạ hoặc nghĩa đen không hợp lý, hãy kiểm tra câu tiếp theo: lý do, phản ứng của người kia, kết quả. Nghĩa thật phải khớp với những gì xảy ra sau đó."
+    },
+    "indirect_missed": {
+      "label": "Không nhận ra ý gián tiếp",
+      "explanationVi": "Bạn bỏ lỡ chức năng thật của câu: lời từ chối (might be a bit tricky), đồng ý miễn cưỡng (I guess / I suppose), đề nghị (Maybe skip…?). Hoặc bạn đẩy nó đi quá xa, thành từ chối hẳn hay huỷ hẳn.",
+      "fixVi": "Với mỗi câu trả lời, hỏi: đây là có, không, hay có điều kiện? Tìm ba dấu hiệu: câu làm mềm, lý do và phương án thay thế. Đừng chọn đáp án mạnh hơn lời người nói."
+    },
+    "phrasal_verb": {
+      "label": "Hiểu sai phrasal verb / thành ngữ",
+      "explanationVi": "Bạn đoán nghĩa của hold off on, swing by hay play it by ear từ động từ chính, nên ra nghĩa ngược hoặc sai. Phrasal verb là đơn vị từ vựng riêng, không cộng nghĩa từng phần được.",
+      "fixVi": "Học phrasal verb theo cụm kèm một câu ví dụ đời thường. Khi nghe, dựa vào lý do người nói đưa ra ngay sau đó để kiểm tra nghĩa bạn đoán."
+    },
+    "wrong_speaker": {
+      "label": "Nhầm người nói / người làm",
+      "explanationVi": "Bạn nghe đúng hành động nhưng gán cho sai người: ai hỏi, ai nhờ, ai sẽ làm. Lỗi này tăng mạnh khi có ba người nói hoặc khi hai người nhờ nhau qua lại.",
+      "fixVi": "Ghi chú theo tên: Mike → cake, Ashley → sign-up. Chú ý chủ ngữ của câu (I can…, Could you…?) để biết ai làm gì."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "double-double", "vi": "cà phê hai kem hai đường", "example": "I'll grab a large double-double on my way to the job site." },
+    { "term": "toque", "vi": "mũ len mùa đông (= winter hat)", "example": "Don't forget your toque, it's minus ten at the bus stop." },
+    { "term": "loonie / toonie", "vi": "đồng xu 1 đô / 2 đô của Canada", "example": "You need a loonie to unlock the shopping cart." },
+    { "term": "parkade", "vi": "bãi đỗ xe nhiều tầng (= parking garage)", "example": "The hospital parkade is full, so I parked on the street." },
+    { "term": "hydro bill", "vi": "hoá đơn tiền điện (= electricity bill)", "example": "Our hydro bill always goes up in January because of the baseboard heaters." },
+    { "term": "for sure", "vi": "chắc chắn rồi, được thôi (= yes, definitely)", "example": "Can you help me move on Saturday? For sure, what time?" },
+    { "term": "That might be a bit tricky.", "vi": "Cái đó hơi khó đấy (= từ chối lịch sự)", "example": "Friday at noon? That might be a bit tricky, I've got a dentist appointment." },
+    { "term": "chip in", "vi": "góp tiền", "example": "Let's all chip in ten bucks for Sara's birthday gift." },
+    { "term": "swing by", "vi": "ghé qua (một lúc)", "example": "I'll swing by your place after work to drop off the keys." },
+    { "term": "play it by ear", "vi": "tuỳ cơ ứng biến, quyết định sau", "example": "We don't know if the trail will be icy, so let's play it by ear." }
+  ],
+  "grammar": [],
+  "practice": [
+    { "label": "Listening Part 2: Daily Life Conversation", "route": "/listening?task=L2" },
+    { "label": "Listening Part 5: Discussion", "route": "/listening?task=L5" },
+    { "label": "Vocabulary notebook", "route": "/vocabulary" }
+  ],
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "author-agent+independent-review-agent", "notes": "Checked Canadian-English claims (toque, toonie, hydro, parkade, runners, double-double, eh) and all 12 keys. Tightened loose misconception mappings by rewriting distractors (g1, g4, i1, i2, i5, i6, i8 incl. option 3 now a true play-it-by-ear trap), reframed g4 so no option is a not-mentioned filler, dropped misspellings toony/tooney from g3 (kept attested twoonie)." }
+}

@@ -1,0 +1,336 @@
+{
+  "id": "sp-10",
+  "skill": "speaking",
+  "module": "speaking-tasks",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Task 5: Comparing and persuading",
+  "titleVi": "Task 5: So sánh và thuyết phục",
+  "estimatedMinutes": 35,
+  "prerequisites": ["sp-06"],
+  "competencies": ["task_fulfillment", "coherence"],
+  "tasks": ["S5"],
+  "objectives": [
+    "You will be able to choose an option quickly by checking which one gives you the most arguments against clear criteria (cost, time, convenience, suitability).",
+    "You will be able to compare the two options directly with accurate comparatives (much cheaper than, not as convenient as, the only one that…).",
+    "You will be able to acknowledge and answer the other person's preference instead of ignoring it.",
+    "You will be able to finish with a confident, friendly persuasive close."
+  ],
+  "objectiveVi": "Sau bài này, bạn chọn phương án nhanh dựa trên tiêu chí, so sánh trực tiếp hai phương án bằng cấu trúc so sánh chính xác, thừa nhận và phản biện lựa chọn của người kia một cách khéo léo, và kết thúc bằng một lời thuyết phục tự tin, thân thiện.",
+  "whyItMattersVi": "Task 5 là task “đóng” nhất: đề cho sẵn chi tiết của hai phương án, nên giám khảo nghe rất rõ bạn có dùng chi tiết để so sánh hay không. Ở Level 6, người học thường chỉ khen phương án của mình (“camping is good, it is cheap”) và bỏ qua người cần thuyết phục. Level 8 làm ba việc: so sánh trực tiếp bằng chi tiết của CẢ HAI phương án, trả lời đúng mối quan tâm của người kia, và giữ giọng thuyết phục mà vẫn thân thiện. Đây cũng là kỹ năng nền cho Writing Task 2 (chọn A hoặc B).",
+  "concept": [
+    {
+      "heading": "Task 5 yêu cầu gì",
+      "body": "Trong **Task 5: Comparing and Persuading**, bạn thấy **hai phương án** với các chi tiết cụ thể (giá, thời gian, địa điểm, tiện ích). Bạn có **60 giây để chọn** một phương án, rồi **60 giây chuẩn bị** và **60 giây nói** để thuyết phục một người (người thân, bạn bè, đồng nghiệp) **đang thích phương án khác**.\n\nVì vậy câu trả lời không phải là “mô tả phương án tôi chọn”, mà là **so sánh** hai phương án và **thuyết phục một người cụ thể**. Nói trực tiếp với người đó: *I know you like the hotel, but…*"
+    },
+    {
+      "heading": "Chọn nhanh: chọn phương án có nhiều lý lẽ hơn",
+      "body": "Đừng chọn theo sở thích thật của bạn. Hãy chọn phương án mà bạn **có nhiều điểm so sánh mạnh nhất** để nói. Trong khoảng 15–20 giây đầu, quét các chi tiết theo bốn tiêu chí:\n- **Cost** — giá, chi phí phát sinh (vé phà, nguyên liệu, xăng).\n- **Time / convenience** — đi lại bao lâu, lịch có linh hoạt không.\n- **Quality / features** — có gì mà phương án kia không có.\n- **Suitability** — hợp với những người liên quan thế nào (trẻ con, người lớn tuổi, đồng nghiệp).\n\nPhương án nào thắng 2–3 tiêu chí → chọn nó. Dùng thời gian còn lại để bắt đầu nghĩ lý lẽ."
+    },
+    {
+      "heading": "Khung 60 giây",
+      "body": "1. **Choice + acknowledge (≈10 giây):** nêu rõ lựa chọn và thừa nhận lựa chọn của người kia. *I know the hotel in Victoria sounds really comfortable, but I honestly think camping near Squamish is the better choice for us.*\n2. **2–3 comparison points (≈35 giây):** mỗi điểm dùng chi tiết của **cả hai** phương án. *At $35 a night, the campsite is a fraction of the price of a $240 hotel room.*\n3. **Answer their concern (≈10 giây):** *I get that you're worried about having no showers, but the lake is right there, and it's only two nights.*\n4. **Persuasive close (≈5 giây):** *So what do you say, should I book the site tonight?*\n\nKhoảng **130–150 từ**. Hai điểm so sánh phát triển tốt có sức thuyết phục hơn bốn điểm liệt kê."
+    },
+    {
+      "heading": "Ngôn ngữ so sánh chính xác",
+      "body": "- Hơn/kém: *cheaper than, more convenient than, not as expensive as, less crowded than*\n- Nhấn mạnh mức độ: ***much / far / a lot*** *cheaper*, *slightly longer*, *twice as long as*, *a fraction of the price*\n- Đối lập hai phương án: *whereas, while, on the other hand*\n- Điểm duy nhất: *the only one that…, unlike the hotel, …*\n\nLỗi hay gặp: ~~more cheaper~~ → *cheaper*; ~~more better~~ → *better*; ~~the most cheapest~~ → *the cheapest*; ~~very cheaper~~ → *much cheaper*; ~~cheaper then~~ → *cheaper **than***."
+    },
+    {
+      "heading": "Thuyết phục mà vẫn thân thiện",
+      "body": "- Mở lời: *The way I see it, … / Honestly, I think … makes a lot more sense.*\n- Kéo người nghe vào: *Think about it — … / You have to admit, … / Imagine …*\n- Thừa nhận rồi phản biện (**concede → counter**): *I get that …, but … / Even though …, … / Sure, …, but at the end of the day, …*\n- Kết: *So, what do you think? / Wouldn't you agree? / Let's give it a try.*\n\nTránh: chê thẳng (*Your idea is bad*), ra lệnh (*You must agree*), hoặc **đổi phe** giữa chừng (*Actually, the hotel is good too, so maybe…*). Luôn giữ một lập trường từ đầu đến cuối."
+    }
+  ],
+  "stimuli": {
+    "trip": {
+      "title": "Task 5 options: a summer long weekend",
+      "text": "Your family is planning a summer long weekend and has found two options. Choose the one you prefer. Then persuade your sister, who prefers the other option, that your choice is better.\n\n**Option A: Camping at a provincial park near Squamish**\n- $35 per night for a campsite\n- About a one-hour drive from Vancouver\n- Hiking trails and a lake for swimming\n- Toilets on site, but no showers\n\n**Option B: A hotel in downtown Victoria**\n- $240 per night, breakfast included\n- Ferry crossing of about 1 hour 35 minutes (fare extra)\n- Walking distance to museums, shops and restaurants\n- Indoor pool"
+    },
+    "team-party": {
+      "title": "Task 5 options: a team year-end celebration",
+      "text": "Your team at work is planning a year-end celebration. Choose the option you prefer. Then persuade your manager, who prefers the other option, that your choice is better.\n\n**Option A: Dinner at a restaurant in Richmond**\n- Friday evening, 6:30 to 9:30 p.m.\n- $55 per person; the company pays half\n- Private room and a set menu\n- About a 30-minute drive for most of the team\n\n**Option B: Potluck lunch in the office boardroom**\n- Thursday, 12:00 to 2:00 p.m., during work hours\n- Free; each person brings one dish\n- Games and a gift exchange\n- No travel needed"
+    },
+    "class": {
+      "title": "Task 5 options: a class to take together",
+      "text": "You and your friend want to take a class together this fall. Choose the option you prefer. Then persuade your friend, who prefers the other option, that your choice is better.\n\n**Option A: Pottery class at a community centre**\n- Tuesdays, 7:00 to 9:00 p.m., for 8 weeks\n- $220, including clay and firing\n- 10-minute drive from both of your homes\n- Maximum 10 students\n\n**Option B: Online cooking course**\n- $90 for 12 recorded video lessons\n- Watch any time, at your own pace\n- Ingredients not included (about $20–30 per lesson)\n- One live Q&A with the chef each month"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Three ways to persuade your sister",
+      "stimulusId": "trip",
+      "question": "You chose Option A (camping). Compare a weak, an acceptable and a Level 8 answer persuading your sister, who prefers the hotel.",
+      "steps": [
+        "Why camping? It wins on cost ($35 vs $240 a night, plus no ferry fare) and on travel time (one-hour drive vs a drive to the terminal plus 1 hour 35 minutes on the ferry). That is two strong criteria.",
+        "Predict the sister's reasons for the hotel: comfort (showers, breakfast, pool) and things to do in the city.",
+        "Plan concede → counter for her biggest worry: 'no showers' → it's only two nights, and there's a lake to swim in.",
+        "Plan comparatives: a fraction of the price, much quicker, unlike the hotel, whereas.",
+        "Plan the close: a friendly question that asks for agreement. Then compare the versions below."
+      ],
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "I choose camping. Camping is good. It is cheap, only 35 dollar. Hotel is very expensive. And camping have a lake, we can swim, and hiking. I like nature very much. Hotel is boring, we can stay hotel anytime. So camping is more better. You should agree with me. OK, thank you.",
+          "commentVi": "Chỉ khen phương án của mình, gần như không so sánh bằng chi tiết của khách sạn (không nhắc phà, bữa sáng, thời gian đi lại). Bỏ qua hoàn toàn lý do chị gái thích khách sạn, còn chê “hotel is boring” và ra lệnh “you should agree” → không thuyết phục. Lỗi: “more better”, “35 dollar”, “camping have”, “stay hotel”. Khoảng 55 từ → khoảng 25–30 giây."
+        },
+        {
+          "label": "acceptable",
+          "text": "I think we should go camping near Squamish. First, it is much cheaper than the hotel. The campsite is only $35 a night, but the hotel is $240. Second, it is closer. We only need to drive one hour, but to go to Victoria we need to take the ferry, and the ferry is expensive. Also, there is a lake and hiking trails, so we can enjoy nature. I know you like the hotel, but I think camping is better for our family. Let's go camping!",
+          "commentVi": "Có lựa chọn rõ, so sánh trực tiếp bằng chi tiết của cả hai phương án và có nhắc đến chị gái — mức Level 6–7. Nhưng “I know you like the hotel, but I think camping is better” chỉ thừa nhận mà không trả lời lý do cụ thể của chị (tiện nghi, không có vòi sen). “First… Second… Also” nghe như liệt kê; so sánh chỉ dùng “cheaper/closer”. Khoảng 90 từ → khoảng 40–45 giây."
+        },
+        {
+          "label": "level8",
+          "text": "I know the hotel in Victoria sounds really comfortable, but honestly, I think camping near Squamish makes a lot more sense for us. Think about the cost first. At thirty-five dollars a night, the campsite is a fraction of the price of a two-hundred-and-forty-dollar hotel room, and we wouldn't have to pay for the ferry on top of that. It's also far less travel. Squamish is just an hour up the highway, whereas getting to Victoria means driving to the terminal, waiting in line and then spending over an hour and a half on the boat. That's half a day gone. Now, I get that you're not thrilled about having no showers, but it's only two nights, and we can swim in the lake every afternoon. Unlike a hotel pool, it's actually a real adventure. So what do you say? Should I book the site tonight before they're all gone?",
+          "commentVi": "Mở đầu thừa nhận lựa chọn của chị rồi nêu lập trường rõ (makes a lot more sense). Hai điểm so sánh phát triển kỹ, mỗi điểm dùng chi tiết của CẢ HAI phương án (35 vs 240 đô + phí phà; 1 tiếng lái xe vs đến bến + chờ + hơn 1,5 tiếng trên phà) với so sánh đa dạng (a fraction of the price, far less, whereas, unlike). Có concede → counter đúng mối lo cụ thể (no showers → only two nights + lake). Kết bằng câu hỏi thân thiện, có tính cấp bách nhẹ. Khoảng 155 từ."
+        }
+      ],
+      "answer": "The Level 8 answer compares both options with concrete details, answers the sister's specific concern, keeps one position and closes with a friendly push.",
+      "takeawayVi": "Thuyết phục = so sánh bằng chi tiết của cả hai phương án + trả lời đúng mối lo của người kia + kết thân thiện. Khen phương án của mình thôi là chưa đủ."
+    },
+    {
+      "id": "ex2",
+      "title": "Choosing in 60 seconds with four criteria",
+      "stimulusId": "team-party",
+      "question": "Which option for the team celebration gives you more arguments, and how would you plan your answer to the manager?",
+      "steps": [
+        "Cost: the potluck is free; the dinner still costs each person $27.50 after the company pays half → Option B wins.",
+        "Time and convenience: the potluck is during work hours with no travel; the dinner is on a Friday evening plus a 30-minute drive, which is hard for people with kids → Option B wins.",
+        "Features: the dinner has a private room and a set menu (less work); the potluck has games and a gift exchange → roughly even.",
+        "Suitability: everyone on the team can attend a lunch during work hours → Option B wins. Result: choose Option B, the potluck (three criteria out of four).",
+        "Predict the manager's reason for the dinner: it feels more special and nobody has to cook. Plan concede → counter: 'I agree a restaurant feels more special, but what makes it special is having everyone there, and with the games and gift exchange, the potluck will feel festive too.'"
+      ],
+      "answer": "Choose Option B (potluck). Notes: free vs $27.50 each / work hours, no drive vs Friday night + 30 min / everyone can come / concede: 'more special' → whole team + games.",
+      "takeawayVi": "Chọn bằng tiêu chí, không bằng cảm tính. Phương án thắng nhiều tiêu chí hơn cho bạn nhiều điểm so sánh hơn khi nói — và bạn đoán trước được người kia sẽ phản đối điều gì."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "text",
+      "stimulusId": "team-party",
+      "prompt": "Complete the comparison with ONE word: \"The potluck is ______ more convenient than the dinner, because nobody has to drive to Richmond on a Friday night.\"",
+      "hint": "Which word goes before a comparative to make the difference sound big? (Not \"very\".)",
+      "answers": ["much", "far", "way", "a lot"],
+      "mode": "exact",
+      "misconception": "comparative-error",
+      "explanationVi": "Nhấn mạnh so sánh hơn bằng much / far / a lot (văn nói thân mật: way). Không dùng “very” trước so sánh hơn (✗ very more convenient).",
+      "competency": "grammar"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "team-party",
+      "prompt": "You chose the potluck. Which argument COMPARES the two options most effectively?",
+      "hint": "A strong comparison uses a detail from your option AND a detail from the other option.",
+      "options": [
+        { "text": "The potluck is great because there are games and a gift exchange.", "misconception": "describe-not-compare", "whyVi": "Chỉ mô tả phương án của mình; không có điểm so sánh với bữa tối." },
+        { "text": "The potluck is free, whereas the dinner would still cost each of us about $27.50, even after the company pays half.", "misconception": null, "whyVi": "So sánh trực tiếp bằng chi tiết của cả hai phương án (free vs $27.50), có tính toán từ đề, dùng “whereas”." },
+        { "text": "Restaurants in Richmond are usually very busy and noisy.", "misconception": "describe-not-compare", "whyVi": "Nhận xét chung, không dựa vào chi tiết của đề (đề nói có phòng riêng)." },
+        { "text": "The potluck is more cheaper and more better for everybody.", "misconception": "comparative-error", "whyVi": "Sai cấu trúc so sánh (more cheaper, more better) và không có chi tiết cụ thể." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Mỗi điểm so sánh nên có “X của tôi” vs “Y của phương án kia”, nối bằng than / whereas / while / unlike.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "team-party",
+      "prompt": "Your manager prefers the restaurant because \"it feels more special\". Which response handles this best?",
+      "hint": "Look for a response that first accepts the manager's point and then turns it toward your option.",
+      "options": [
+        { "text": "That's not true. A restaurant is not special.", "misconception": "ignore-other-view", "whyVi": "Phủ nhận thẳng thừng, thiếu lịch sự với quản lý và không có lý lẽ." },
+        { "text": "You're right, the restaurant is more special. Maybe we should do the dinner.", "misconception": "unclear-choice", "whyVi": "Đổi phe — bạn không còn thuyết phục cho lựa chọn của mình." },
+        { "text": "I totally agree that a restaurant feels more special, but I think what really makes a celebration special is having the whole team there, and a lunch during work hours means nobody has to miss it.", "misconception": null, "whyVi": "Concede → counter: đồng ý một phần, rồi định nghĩa lại “special” theo hướng có lợi cho phương án của mình, dựa vào chi tiết (during work hours)." },
+        { "text": "The potluck has games and a gift exchange.", "misconception": "ignore-other-view", "whyVi": "Không phản hồi gì đến lý do của quản lý; chỉ lặp lại ưu điểm phương án của mình." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Mẫu concede → counter: I totally agree that…, but… / I get that…, but at the end of the day… Thừa nhận giúp bạn nghe hợp lý; phản biện giữ vững lập trường.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g4",
+      "type": "order",
+      "stimulusId": "team-party",
+      "prompt": "Put these parts of a persuasive answer to the manager in the best order.",
+      "hint": "Choice + acknowledge → comparison points → answer the concern → friendly close.",
+      "items": [
+        "I know you'd love a nice dinner out, but I really think the potluck lunch is the better option for our team.",
+        "For one thing, it's free, whereas the dinner would still cost each of us almost thirty dollars.",
+        "On top of that, it's during work hours, so people with kids won't have to find a babysitter on a Friday night.",
+        "And I get that a restaurant feels more special, but with the games and the gift exchange, the boardroom will feel festive too.",
+        "So, what do you think? Should I send out a sign-up sheet for the dishes?"
+      ],
+      "misconception": "unclear-choice",
+      "explanationVi": "Lựa chọn + thừa nhận → hai điểm so sánh (For one thing, On top of that) → concede → counter → kết bằng câu hỏi hành động cụ thể.",
+      "competency": "coherence"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "text",
+      "stimulusId": "class",
+      "prompt": "Complete with the correct form of \"cheap\": \"At $90, the online course looks ______ than the pottery class at first, but the ingredients really add up.\"",
+      "answers": ["cheaper"],
+      "mode": "exact",
+      "misconception": "comparative-error",
+      "explanationVi": "Tính từ một âm tiết: thêm -er (cheap → cheaper). Không dùng “more cheaper”.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "class",
+      "prompt": "Which comparison sentence is grammatically correct?",
+      "options": [
+        { "text": "The pottery class is more better for us because we can meet people.", "misconception": "comparative-error", "whyVi": "“Better” đã là so sánh hơn; không thêm “more”." },
+        { "text": "The pottery class is the most cheapest option if you count the ingredients.", "misconception": "comparative-error", "whyVi": "Không ghép “most” với “-est”; và khi chỉ có hai phương án, dùng so sánh hơn (the cheaper of the two)." },
+        { "text": "Watching videos alone isn't nearly as motivating as having a teacher right there in the room.", "misconception": null, "whyVi": "Đúng: not (nearly) as + tính từ + as; so sánh rõ ràng giữa hai phương án." },
+        { "text": "The pottery class is very more social then the online course.", "misconception": "comparative-error", "whyVi": "Hai lỗi: “very more” (phải là much more) và “then” (phải là than)." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Kiểm tra ba lỗi khi nói: không “more + -er”, không “very + so sánh hơn”, và “than” chứ không phải “then”.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "class",
+      "prompt": "You chose pottery. Your friend prefers the online course because she can watch it any time. Which response is the most persuasive?",
+      "options": [
+        { "text": "Online courses are boring. Nobody finishes them.", "misconception": "ignore-other-view", "whyVi": "Chê thẳng và khái quát quá mức; không tôn trọng lý do của bạn mình." },
+        { "text": "I get that the flexibility sounds great, but let's be honest: if there's no fixed time, we'll keep putting it off. With a class every Tuesday, we'll actually show up, and we'll get to see each other every week.", "misconception": null, "whyVi": "Thừa nhận đúng lý do (flexibility), phản biện bằng điểm yếu thực tế của nó, rồi biến lịch cố định thành ưu điểm." },
+        { "text": "The pottery class includes clay and firing, and it has a maximum of ten students.", "misconception": "ignore-other-view", "whyVi": "Thông tin đúng nhưng không trả lời lý do “xem lúc nào cũng được” của bạn mình." },
+        { "text": "OK, flexibility is important. Both options are good, so it's up to you.", "misconception": "unclear-choice", "whyVi": "Bỏ lập trường — Task 5 yêu cầu thuyết phục, không phải trung lập." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Phản biện tốt nhất thường lấy chính ưu điểm của phương án kia (linh hoạt) và cho thấy mặt trái của nó (dễ trì hoãn).",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "class",
+      "prompt": "Which argument for the pottery class uses the details of BOTH options most effectively?",
+      "options": [
+        { "text": "The pottery class is $220, and it is on Tuesdays from 7 to 9 p.m. for 8 weeks.", "misconception": "describe-not-compare", "whyVi": "Chỉ đọc lại chi tiết của phương án A; không có so sánh." },
+        { "text": "Pottery is a really nice hobby and it's good for relaxing.", "misconception": "describe-not-compare", "whyVi": "Ý kiến chung, không dùng chi tiết nào trong đề." },
+        { "text": "The online course is $90, but if each lesson needs $20 to $30 of ingredients, twelve lessons could easily cost us more than $300, whereas the $220 pottery class already includes all the materials.", "misconception": null, "whyVi": "Tính toán từ chi tiết của cả hai phương án để lật ngược ấn tượng ban đầu ($90 rẻ hơn) — rất thuyết phục." },
+        { "text": "The online course is cheaper than the pottery class, so it's a good deal.", "misconception": "unclear-choice", "whyVi": "Câu này ủng hộ phương án của bạn mình, không phải lựa chọn của bạn." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Đọc kỹ chi tiết “phát sinh” trong đề (ingredients not included, fare extra). Đó thường là điểm so sánh mạnh nhất của bạn.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "prompt": "Which closing sentence is the best way to end a Task 5 answer?",
+      "options": [
+        { "text": "That's all. Thank you for listening.", "misconception": "unclear-choice", "whyVi": "Kết như bài thuyết trình, không nói với người cần thuyết phục và không nhắc lại lựa chọn." },
+        { "text": "You must agree with me, because I'm right.", "misconception": "ignore-other-view", "whyVi": "Ra lệnh, thiếu tôn trọng; không thuyết phục được ai." },
+        { "text": "Anyway, both options have good and bad points.", "misconception": "unclear-choice", "whyVi": "Câu trung lập làm yếu đi toàn bộ lập luận trước đó." },
+        { "text": "So, what do you say? Let's sign up for the Tuesday class before it fills up.", "misconception": null, "whyVi": "Kết bằng câu hỏi thân thiện + hành động cụ thể + chút cấp bách (before it fills up), giữ nguyên lập trường." }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Câu kết Task 5 nên kéo người nghe về phía bạn: một câu hỏi tìm sự đồng ý (What do you say? / Wouldn't you agree?) và một bước hành động cụ thể.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i6",
+      "type": "order",
+      "stimulusId": "class",
+      "prompt": "Put these parts of a persuasive answer about the pottery class in the best order.",
+      "items": [
+        "I know you love the idea of cooking at your own pace, but I really think the pottery class is the better choice for us.",
+        "For one thing, it's actually cheaper in the end, because the $220 covers everything, while the online course needs ingredients for every single lesson.",
+        "It's also a lot more social: there are only ten students, so we'll get real attention from the teacher instead of just watching videos.",
+        "And sure, a fixed Tuesday night is less flexible, but that's exactly what will stop us from putting it off.",
+        "So, what do you say? Should I register us both tonight?"
+      ],
+      "misconception": "unclear-choice",
+      "explanationVi": "Lựa chọn + thừa nhận → so sánh chi phí → so sánh chất lượng/trải nghiệm → concede → counter → kết.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i7",
+      "type": "produce",
+      "stimulusId": "class",
+      "medium": "speak",
+      "prepSec": 60,
+      "responseSec": 60,
+      "prompt": "Choose one option (take up to 60 seconds). Then prepare for 60 seconds and speak for 60 seconds to persuade your friend, who prefers the other option.",
+      "checklist": [
+        "States the choice clearly in the first sentence and acknowledges the friend's preference.",
+        "Makes at least two comparison points, each using a detail from BOTH options.",
+        "Uses at least three different comparison structures correctly (e.g. much cheaper than, not as … as, whereas, unlike).",
+        "Answers the friend's likely reason for the other option with concede → counter (I get that…, but…).",
+        "Keeps one position throughout and ends with a friendly persuasive close (a question or a concrete next step)."
+      ],
+      "modelAnswer": "I know the online cooking course sounds flexible, but I think the pottery class is a much better fit for us. First, it's not actually more expensive. The online course is ninety dollars, sure, but if every lesson needs twenty or thirty dollars' worth of ingredients, twelve lessons could easily come to over three hundred, whereas the pottery class is two hundred and twenty with the clay and firing included. On top of that, it's way more fun to do together. With a maximum of ten students, we'd get feedback from the teacher, unlike a recorded video where you can only ask questions once a month. And I get that you like being able to watch any time, but we'd probably keep putting it off. A Tuesday class ten minutes from home is what we need to stay on track. So what do you say? Should I sign us up this week?",
+      "misconception": "describe-not-compare",
+      "explanationVi": "Nghe lại và kiểm tra: mỗi điểm so sánh có nhắc chi tiết của cả hai phương án không? Bạn có trả lời lý do của người bạn không? Có lúc nào bạn nghe như đang đổi phe không?",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "misconceptions": {
+    "describe-not-compare": {
+      "label": "Chỉ mô tả phương án của mình, không so sánh",
+      "explanationVi": "Bạn đọc lại hoặc khen các chi tiết của phương án mình chọn mà không đặt chúng cạnh phương án kia. Người nghe không thấy vì sao lựa chọn của bạn tốt HƠN.",
+      "fixVi": "Mỗi lý lẽ phải có hai vế: chi tiết của phương án bạn + chi tiết của phương án kia, nối bằng than / whereas / while / unlike / not as … as. Tìm chi tiết “phát sinh” (fare extra, not included) để so sánh tổng chi phí."
+    },
+    "ignore-other-view": {
+      "label": "Bỏ qua hoặc chê lựa chọn của người kia",
+      "explanationVi": "Bạn quên rằng nhiệm vụ là thuyết phục một người cụ thể đang thích phương án khác. Bỏ qua lý do của họ, hoặc chê thẳng, khiến lập luận kém thuyết phục và giọng điệu thiếu khéo léo.",
+      "fixVi": "Khi chuẩn bị, đoán 1 lý do chính người kia thích phương án của họ. Trả lời bằng concede → counter: I get that…, but… / I totally agree that…, but at the end of the day…"
+    },
+    "unclear-choice": {
+      "label": "Lựa chọn không rõ hoặc đổi phe",
+      "explanationVi": "Bạn không nêu rõ lựa chọn ngay từ đầu, kết thúc bằng câu trung lập, hoặc đồng ý với người kia đến mức bỏ lập trường. Đây là lỗi hoàn thành nhiệm vụ và lỗi cấu trúc.",
+      "fixVi": "Câu đầu tiên nêu rõ lựa chọn. Khi thừa nhận ý của người kia, luôn có “but” và quay về phương án của bạn. Câu cuối nhắc lại lựa chọn bằng một câu hỏi hoặc hành động cụ thể."
+    },
+    "comparative-error": {
+      "label": "Sai cấu trúc so sánh",
+      "explanationVi": "Lỗi kiểu more cheaper, more better, the most cheapest, very cheaper, then/than. Khi nói nhanh, người học ghép hai cách so sánh vì không chắc tính từ nào thêm -er, tính từ nào dùng more.",
+      "fixVi": "Tính từ ngắn: -er (cheaper, closer, quicker); tính từ dài: more (more convenient, more expensive); bất quy tắc: better, worse, farther. Nhấn mạnh bằng much / far / a lot, không bằng very."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "… makes a lot more sense", "vi": "… hợp lý hơn nhiều", "example": "Taking the SkyTrain makes a lot more sense than driving downtown." },
+    { "term": "a fraction of the price", "vi": "chỉ bằng một phần nhỏ giá tiền", "example": "The used bike was a fraction of the price of a new one." },
+    { "term": "whereas / while", "vi": "trong khi đó (đối lập hai phương án)", "example": "The condo has a gym, whereas the townhouse has a backyard." },
+    { "term": "not nearly as … as", "vi": "kém xa… so với…", "example": "The bus isn't nearly as fast as the SkyTrain at rush hour." },
+    { "term": "Unlike …, …", "vi": "Không giống như…, …", "example": "Unlike the hotel, the campsite lets us bring the dog." },
+    { "term": "I get that …, but …", "vi": "Tôi hiểu là…, nhưng… (thừa nhận rồi phản biện)", "example": "I get that the ferry is relaxing, but it takes half a day." },
+    { "term": "at the end of the day", "vi": "suy cho cùng", "example": "At the end of the day, what matters is that everyone can come." },
+    { "term": "The way I see it, …", "vi": "Theo cách tôi nhìn nhận, …", "example": "The way I see it, a smaller class means more help from the teacher." },
+    { "term": "What do you say? / Wouldn't you agree?", "vi": "Bạn thấy sao? / Bạn đồng ý chứ? (câu kết thuyết phục)", "example": "It's cheaper and closer. Wouldn't you agree?" }
+  ],
+  "grammar": [
+    {
+      "point": "Comparatives: -er / more / not as … as, with much, far, a lot",
+      "explanationVi": "Tính từ một âm tiết (và hai âm tiết tận cùng -y) thêm -er; tính từ dài dùng more/less. Nhấn mạnh mức chênh lệch bằng much, far, a lot, slightly — không dùng very. Bằng nhau/kém: (not) as + tính từ + as.",
+      "examples": [
+        "The campsite is much cheaper than the hotel.",
+        "The potluck is far more convenient for parents.",
+        "Watching videos isn't as motivating as a real class."
+      ]
+    },
+    {
+      "point": "Contrast linkers for comparing: whereas / while / unlike",
+      "explanationVi": "Whereas và while nối hai mệnh đề đối lập (A thế này, trong khi B thế kia). Unlike + danh từ đứng đầu câu. Dùng chúng để đặt hai phương án cạnh nhau trong cùng một câu.",
+      "examples": [
+        "The pottery class includes materials, whereas the online course doesn't.",
+        "Unlike the restaurant, the boardroom costs nothing."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Speaking Task 5: Comparing and persuading", "route": "/speaking?task=S5" },
+    { "label": "Review your speaking mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all exercises and verified arithmetic ($27.50, $240–360 ingredients); keys correct, orders unique, S5 timing 60/60/60 stated. Added 'a lot' to g1 answers, trimmed the i7 model from 161 to ~150 words and changed 'Shall I' to the more Canadian 'Should I'."}
+}

@@ -1,0 +1,536 @@
+{
+  "id": "wr-01",
+  "skill": "writing",
+  "module": "writing-foundations",
+  "level": "foundation",
+  "difficulty": 7,
+  "title": "Sentence construction",
+  "titleVi": "Xây dựng câu hoàn chỉnh và đa dạng",
+  "estimatedMinutes": 30,
+  "prerequisites": [],
+  "competencies": [
+    "grammar"
+  ],
+  "tasks": [
+    "W1",
+    "W2"
+  ],
+  "objectives": [
+    "You will be able to tell a complete sentence from a fragment and a run-on.",
+    "You will be able to fix comma splices in four different ways.",
+    "You will be able to combine short, choppy sentences with subordinating conjunctions and relative clauses.",
+    "You will be able to vary sentence length and openings in a CELPIP email or survey response."
+  ],
+  "objectiveVi": "Sau bài này, bạn viết được câu hoàn chỉnh, không còn lỗi câu dính (run-on/comma splice) hay câu cụt (fragment), và biết ghép các câu ngắn rời rạc thành câu phức tự nhiên để bài viết đa dạng hơn.",
+  "whyItMattersVi": "Bạn đang ở Writing 7, nghĩa là ý tưởng đã ổn nhưng người chấm vẫn thấy lỗi cấu trúc câu lặp lại: hai câu nối bằng dấu phẩy, câu bắt đầu bằng \"Because\" mà không có mệnh đề chính, hoặc cả đoạn toàn câu ngắn \"I think… It is… It is…\". Để lên Level 8, bài cần vừa chính xác vừa có nhiều kiểu câu (đơn, ghép, phức) được dùng có kiểm soát. Sửa được ba lỗi này là cách nhanh nhất để phần ngữ pháp của bạn trông \"chắc\" hơn trong cả Task 1 lẫn Task 2.",
+  "concept": [
+    {
+      "heading": "1. Câu hoàn chỉnh: chủ ngữ + động từ chia + ý trọn vẹn",
+      "body": "Một **complete sentence** (câu hoàn chỉnh) cần ít nhất một **independent clause** (mệnh đề độc lập): có **subject** (chủ ngữ), có **finite verb** (động từ đã chia thì) và tự đứng được về nghĩa.\n\n- *The bus was late.* → hoàn chỉnh.\n- *Because the bus was late.* → **dependent clause** (mệnh đề phụ thuộc). Có chủ ngữ và động từ, nhưng chữ *Because* khiến người đọc chờ vế sau: \"vì xe buýt trễ… thì sao?\"\n\nCách kiểm tra nhanh: đọc riêng câu đó lên. Nếu nghe như đang nói dở thì đó là câu chưa hoàn chỉnh."
+    },
+    {
+      "heading": "2. Run-on và comma splice: hai câu dính vào nhau",
+      "body": "**Run-on sentence** là hai mệnh đề độc lập nối liền nhau không có dấu câu hay liên từ. **Comma splice** là khi chỉ dùng một dấu phẩy để nối chúng. Đây là lỗi rất hay gặp ở người Việt vì tiếng Việt thường nối các ý bằng dấu phẩy.\n\n- ✗ *The pool is closed for repairs, it will reopen in May.*\n\nCó bốn cách sửa:\n1. **Dấu chấm:** *…for repairs. It will reopen in May.*\n2. **Dấu chấm phẩy** (hai ý liên quan chặt): *…for repairs; it will reopen in May.*\n3. **Dấu phẩy + coordinating conjunction** (FANBOYS: for, and, nor, but, or, yet, so): *…for repairs, but it will reopen in May.*\n4. **Subordination** (biến một vế thành mệnh đề phụ): *Although the pool is closed for repairs, it will reopen in May.*\n\nLưu ý: *however, therefore, also* **không phải** liên từ nối câu. *It rained, however we went.* vẫn là comma splice. Viết đúng: *It rained; however, we went.* hoặc *It rained. However, we went.*"
+    },
+    {
+      "heading": "3. Fragment: câu cụt thiếu mệnh đề chính",
+      "body": "**Fragment** là một mảnh câu được viết như thể nó là câu hoàn chỉnh. Ba dạng phổ biến nhất trong bài CELPIP:\n\n- **Mệnh đề phụ đứng một mình:** *I want to move. Because my rent is too high.* → nối lại: *I want to move because my rent is too high.*\n- **Cụm ví dụ không có động từ:** *There are many problems. For example, the noise from the parkade.* → *For example, the noise from the parkade keeps us awake.*\n- **Cụm -ing hoặc which đứng riêng:** *Which is why I am writing.* / *Hoping to hear from you soon.* → *That is why I am writing.* / *I hope to hear from you soon.*"
+    },
+    {
+      "heading": "4. Ghép câu bằng subordination và relative clause",
+      "body": "Bài viết Level 7 thường có nhiều câu ngắn liên tiếp: *The library is near my home. It is quiet. I study there.* Câu nào cũng đúng nhưng nghe rời rạc (**choppy**). Hãy ghép lại theo quan hệ logic:\n\n- Nguyên nhân: **because, since, as**\n- Nhượng bộ: **although, even though, while**\n- Thời gian: **when, after, before, until, as soon as**\n- Điều kiện: **if, unless, as long as**\n- Mục đích: **so that**\n- Thêm thông tin về danh từ: **who, which, where** (relative clause)\n\n→ *I often study at the library, which is quiet and only five minutes from my home.*\n\n**Quy tắc dấu phẩy:** mệnh đề phụ đứng **trước** → có dấu phẩy (*When I arrived, the office was closed.*). Đứng **sau** → thường không cần (*The office was closed when I arrived.*).\n\n**Bẫy của người Việt:** \"Mặc dù… nhưng…\" → ✗ *Although it was expensive, but I bought it.* Tiếng Anh chỉ dùng **một** liên từ: *Although it was expensive, I bought it.* Tương tự, không viết *Because…, so…*."
+    },
+    {
+      "heading": "5. Sentence variety trong CELPIP",
+      "body": "Đa dạng câu không có nghĩa là câu nào cũng dài. Một đoạn tốt **xen kẽ** câu ngắn (để nhấn mạnh) với câu phức (để giải thích).\n\n- **Đổi cách mở đầu câu:** đừng để năm câu liền đều bắt đầu bằng *I* hoặc *It*. Mở bằng mệnh đề phụ (*Since I moved to Surrey,…*), trạng từ (*Unfortunately,…*) hoặc cụm giới từ (*On weekday mornings,…*).\n- **Một ý chính cho mỗi câu:** câu có ba bốn chữ *and* cũng khó đọc như câu dính.\n- **Dò lại dấu phẩy:** nếu hai bên dấu phẩy đều là câu hoàn chỉnh mà không có FANBOYS, đó là comma splice.\n\nTrong Task 1 và Task 2, mỗi đoạn chỉ cần một hai câu phức đúng và không có câu dính là phần ngữ pháp đã chắc hơn hẳn."
+    }
+  ],
+  "stimuli": {
+    "draft-noise-email": {
+      "title": "Draft email paragraph (Level 6–7)",
+      "text": "I am writing about the noise from the unit above mine, it has been very loud every night this month. Because my neighbour plays music after midnight. I work early shifts at the hospital. I need to sleep. I spoke to him once, however nothing changed."
+    },
+    "draft-survey-paragraph": {
+      "title": "Draft survey paragraph",
+      "text": "The city should build more bike lanes. Bike lanes are safer. Many people in Vancouver ride to work. Drivers do not always see cyclists. Accidents happen. A separated lane protects cyclists."
+    }
+  },
+  "examples": [
+    {
+      "id": "wr-01-ex1",
+      "title": "Fixing run-ons and fragments in a complaint email",
+      "stimulusId": "draft-noise-email",
+      "question": "Find every sentence-boundary error in this paragraph and rewrite it at Level 8.",
+      "steps": [
+        "Sentence 1: two independent clauses ('I am writing about the noise…' and 'it has been very loud…') are joined only by a comma → comma splice. 'It' can be replaced by 'which' to make a relative clause.",
+        "Sentence 2: 'Because my neighbour plays music after midnight.' has no main clause → fragment. Attach it to the previous idea.",
+        "Sentences 3–4: 'I work early shifts at the hospital. I need to sleep.' are correct but choppy. The logical link is cause → use 'because' or 'since'.",
+        "Sentence 5: 'however' is an adverb, not a conjunction → comma splice. Use a semicolon before 'however' or switch to 'but'.",
+        "Read the new version aloud: every sentence can stand alone and the logic (problem → cause → impact → action taken) is clear."
+      ],
+      "answer": "I am writing about the noise from the unit above mine, which has been very loud every night this month because my neighbour plays music after midnight. Since I work early shifts at the hospital, I need to be asleep by ten. I spoke to him once; however, nothing has changed.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "I am writing about the noise from the unit above mine, it has been very loud every night this month. Because my neighbour plays music after midnight. I work early shifts at the hospital. I need to sleep. I spoke to him once, however nothing changed.",
+          "commentVi": "Có ba lỗi ranh giới câu: (1) comma splice ở câu đầu; (2) câu cụt bắt đầu bằng \"Because\" không có mệnh đề chính; (3) \"however\" bị dùng như liên từ sau dấu phẩy. Ngoài ra hai câu \"I work… I need to sleep.\" đúng nhưng rời rạc, người đọc phải tự đoán mối quan hệ nguyên nhân."
+        },
+        {
+          "label": "after",
+          "text": "I am writing about the noise from the unit above mine, which has been very loud every night this month because my neighbour plays music after midnight. Since I work early shifts at the hospital, I need to be asleep by ten. I spoke to him once; however, nothing has changed.",
+          "commentVi": "Các thay đổi: \"it\" → \"which\" (mệnh đề quan hệ, hết comma splice); câu cụt \"Because…\" được gắn vào câu trước; hai câu ngắn ghép bằng \"Since…,\" (mệnh đề phụ đứng trước nên có dấu phẩy); \"need to sleep\" → \"need to be asleep by ten\" cụ thể hơn; \"; however,\" đúng dấu câu; \"nothing changed\" → \"nothing has changed\" (present perfect vì vấn đề vẫn còn)."
+        }
+      ],
+      "takeawayVi": "Dò từng dấu phẩy và từng câu bắt đầu bằng Because/Which/For example. Hầu hết lỗi câu của người viết Level 7 nằm đúng ở những chỗ này."
+    },
+    {
+      "id": "wr-01-ex2",
+      "title": "Combining choppy sentences in a survey response",
+      "stimulusId": "draft-survey-paragraph",
+      "question": "Combine these six short sentences into two or three varied sentences without losing any idea.",
+      "steps": [
+        "Group the ideas: (a) position: more bike lanes; (b) reason: safety; (c) context: many people ride to work; (d) problem: drivers miss cyclists → accidents; (e) solution: separated lanes protect.",
+        "Choose the logical link for each pair: (c) + (a) = reason → 'Since…'; (d) + accidents = cause/result → 'which leads to' or 'so'; (e) = answer to the problem → 'A separated lane… because…'.",
+        "Vary the openings: start one sentence with a subordinate clause, one with the subject, keep one short sentence for emphasis.",
+        "Check punctuation: the opening 'Since' clause needs a comma; 'which' after a whole idea needs a comma."
+      ],
+      "answer": "Since thousands of people in Vancouver already ride to work, the city should build more bike lanes. At the moment, drivers do not always see cyclists, which often leads to serious accidents. A separated lane solves this problem because it puts a physical barrier between bikes and cars.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "The city should build more bike lanes. Bike lanes are safer. Many people in Vancouver ride to work. Drivers do not always see cyclists. Accidents happen. A separated lane protects cyclists.",
+          "commentVi": "Sáu câu đơn, câu nào cũng đúng ngữ pháp nhưng không có câu phức nào. Người đọc phải tự nối ý: vì sao an toàn hơn? Tai nạn xảy ra do đâu? Nhịp đọc giật cục, cho thấy người viết chưa kiểm soát được câu phức."
+        },
+        {
+          "label": "after",
+          "text": "Since thousands of people in Vancouver already ride to work, the city should build more bike lanes. At the moment, drivers do not always see cyclists, which often leads to serious accidents. A separated lane solves this problem because it puts a physical barrier between bikes and cars.",
+          "commentVi": "Các thay đổi: ghép bối cảnh và quan điểm bằng \"Since…,\" (mệnh đề phụ đứng đầu); \"Accidents happen\" thành mệnh đề quan hệ \", which often leads to serious accidents\"; câu cuối dùng \"because\" để giải thích cách làn riêng bảo vệ người đi xe đạp; thêm \"At the moment,\" để đổi cách mở câu. Ba câu với ba kiểu mở đầu khác nhau, không mất ý nào."
+        }
+      ],
+      "takeawayVi": "Trước khi ghép câu, hãy gọi tên mối quan hệ giữa hai ý (nguyên nhân, nhượng bộ, thời gian, điều kiện, bổ sung thông tin) rồi mới chọn liên từ."
+    },
+    {
+      "id": "wr-01-ex3",
+      "title": "The 'Although… but' trap",
+      "question": "Correct this sentence from a Task 2 draft: 'Although the new community centre is far from my home, but I would still choose it.'",
+      "steps": [
+        "Spot the two connectors: 'Although' (concession) and 'but' (contrast). They do the same job.",
+        "English allows only one: either a subordinating conjunction (Although…) or a coordinating one (…, but…).",
+        "Option A: keep 'Although' and delete 'but': 'Although the new community centre is far from my home, I would still choose it.'",
+        "Option B: delete 'Although' and keep 'but': 'The new community centre is far from my home, but I would still choose it.'"
+      ],
+      "answer": "Although the new community centre is far from my home, I would still choose it.",
+      "takeawayVi": "Mặc dù… nhưng / Vì… nên là cặp đôi trong tiếng Việt, nhưng trong tiếng Anh chỉ giữ một: Although hoặc but, Because hoặc so."
+    }
+  ],
+  "guided": [
+    {
+      "id": "wr-01-g1",
+      "type": "choice",
+      "prompt": "Which sentence is a comma splice?",
+      "hint": "Cover each side of the comma with your hand. Can both sides stand alone as sentences, with no FANBOYS word after the comma?",
+      "options": [
+        {
+          "text": "When the ferry was cancelled, we stayed in Nanaimo for another night.",
+          "misconception": "fragment-as-sentence",
+          "whyVi": "Vế trước dấu phẩy là mệnh đề phụ (When…), không tự đứng được, nên đây là câu phức đúng."
+        },
+        {
+          "text": "The ferry was cancelled, so we stayed in Nanaimo for another night.",
+          "misconception": "comma-splice",
+          "whyVi": "Có \"so\" (một trong FANBOYS) sau dấu phẩy, nên nối hai mệnh đề là đúng."
+        },
+        {
+          "text": "The ferry was cancelled, we stayed in Nanaimo for another night.",
+          "misconception": null,
+          "whyVi": "Đúng. Hai bên dấu phẩy đều là câu hoàn chỉnh và không có liên từ nào → comma splice."
+        },
+        {
+          "text": "The ferry was cancelled because of high winds.",
+          "misconception": "comma-splice",
+          "whyVi": "Chỉ có một mệnh đề độc lập, không có dấu phẩy nối câu nào cả."
+        }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Comma splice = câu hoàn chỉnh + dấu phẩy + câu hoàn chỉnh, không có and/but/so… Hãy sửa bằng dấu chấm, dấu chấm phẩy, thêm FANBOYS, hoặc dùng mệnh đề phụ.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-01-g2",
+      "type": "choice",
+      "prompt": "Which is a correct way to fix this sentence? 'My landlord fixed the heater, however it broke again two days later.'",
+      "hint": "'However' is an adverb, not a joining word. A comma alone cannot join two sentences around it. For each option, check: is every part a complete sentence, and is each join legal?",
+      "options": [
+        {
+          "text": "My landlord fixed the heater, however, it broke again two days later.",
+          "misconception": "however-as-conjunction",
+          "whyVi": "Thêm dấu phẩy sau however vẫn chưa sửa được lỗi: hai câu vẫn chỉ nối bằng dấu phẩy."
+        },
+        {
+          "text": "My landlord fixed the heater, but it broke again two days later.",
+          "misconception": null,
+          "whyVi": "Đúng. \"but\" là liên từ FANBOYS nên dấu phẩy + but nối hai mệnh đề hợp lệ. (Cách khác cũng đúng: \"…heater; however, it broke…\".)"
+        },
+        {
+          "text": "Although my landlord fixed the heater, but it broke again two days later.",
+          "misconception": "double-connector",
+          "whyVi": "Dùng cả Although lẫn but là lỗi \"mặc dù… nhưng\"; tiếng Anh chỉ giữ một liên từ."
+        },
+        {
+          "text": "My landlord fixed the heater. Which broke again two days later.",
+          "misconception": "fragment-as-sentence",
+          "whyVi": "\"Which broke again two days later.\" là mệnh đề quan hệ đứng một mình, nên là câu cụt."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "However, therefore, also, moreover là trạng từ nối ý (conjunctive adverbs), không nối được hai câu bằng dấu phẩy. Có thể thay bằng \", but\", hoặc giữ however nhưng viết \"; however,\" hay tách câu \". However,\".",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-01-g3",
+      "type": "text",
+      "prompt": "Type ONE subordinating conjunction (one or two words) that shows concession to complete the sentence: '_____ the rent went up again, we decided to stay because we love the neighbourhood.'",
+      "hint": "The two ideas go against each other: the rent is higher, but they stay anyway. Which 'concession' words from the lesson start a clause?",
+      "answers": [
+        "although",
+        "even though",
+        "though",
+        "while"
+      ],
+      "mode": "exact",
+      "misconception": "wrong-logic-connector",
+      "explanationVi": "Hai vế trái ngược nhau (giá thuê tăng nhưng vẫn ở lại), nên cần liên từ nhượng bộ: Although / Even though / Though / While. \"Because\" hay \"When\" sai quan hệ logic; \"Despite\" phải đi với danh từ, không đi với mệnh đề.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-01-g4",
+      "type": "choice",
+      "prompt": "Which word group is a fragment, not a complete sentence?",
+      "hint": "Look for a group that starts with a word that makes the reader wait for a main clause, or one with no finite verb.",
+      "options": [
+        {
+          "text": "Please let me know by Friday.",
+          "misconception": "fragment-as-sentence",
+          "whyVi": "Câu mệnh lệnh có chủ ngữ ngầm \"you\", nên là câu hoàn chỉnh."
+        },
+        {
+          "text": "Which is why I am asking for a refund.",
+          "misconception": null,
+          "whyVi": "Đúng. \"Which…\" là mệnh đề quan hệ phải bám vào câu trước; đứng riêng thì thành câu cụt. Sửa: \"That is why I am asking for a refund.\""
+        },
+        {
+          "text": "The order arrived three weeks late.",
+          "misconception": "fragment-as-sentence",
+          "whyVi": "Có chủ ngữ (The order) và động từ chia (arrived), ý trọn vẹn."
+        },
+        {
+          "text": "I am asking for a refund.",
+          "misconception": "fragment-as-sentence",
+          "whyVi": "Câu đơn hoàn chỉnh."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Câu bắt đầu bằng Which/Because/Although/For example rất dễ thành câu cụt. Nếu đọc riêng mà nghe như nói dở, hãy gắn nó vào câu trước hoặc viết lại với That/This.",
+      "competency": "grammar"
+    }
+  ],
+  "independent": [
+    {
+      "id": "wr-01-i1",
+      "type": "choice",
+      "prompt": "Choose the sentence that is correctly punctuated.",
+      "options": [
+        {
+          "text": "The clinic opens at eight, you should arrive early to get a spot.",
+          "misconception": "comma-splice",
+          "whyVi": "Hai mệnh đề độc lập nối bằng dấu phẩy, nên là comma splice."
+        },
+        {
+          "text": "Because the clinic opens at eight. You should arrive early to get a spot.",
+          "misconception": "fragment-as-sentence",
+          "whyVi": "\"Because the clinic opens at eight.\" là câu cụt."
+        },
+        {
+          "text": "Since the clinic opens at eight, you should arrive early to get a spot.",
+          "misconception": null,
+          "whyVi": "Đúng. Mệnh đề phụ (Since…) đứng trước, có dấu phẩy, sau đó là mệnh đề chính."
+        },
+        {
+          "text": "Since the clinic opens at eight, so you should arrive early to get a spot.",
+          "misconception": "double-connector",
+          "whyVi": "Since và so cùng chỉ nguyên nhân–kết quả; chỉ được dùng một."
+        }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Mẫu chuẩn: Subordinate clause, + main clause. Không thêm \"so\" khi đã có \"since/because\".",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-01-i2",
+      "type": "text",
+      "prompt": "Type the coordinating conjunction (one word) that shows contrast and fixes this comma splice: 'I applied for the warehouse position last month, _____ I haven't heard back yet.'",
+      "answers": [
+        "but",
+        "yet"
+      ],
+      "mode": "exact",
+      "misconception": "wrong-logic-connector",
+      "explanationVi": "Người viết mong có phản hồi nhưng chưa có, nên đây là quan hệ tương phản → but hoặc yet (thuộc FANBOYS, đứng sau dấu phẩy). \"However\" không được vì nó không phải liên từ nối câu; \"so\" sai logic.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-01-i3",
+      "type": "choice",
+      "prompt": "Which version combines these sentences most effectively? 'My daughter's school is on Kingsway. It has a strong music program. She joined the band last fall.'",
+      "options": [
+        {
+          "text": "My daughter's school is on Kingsway, it has a strong music program, she joined the band last fall.",
+          "misconception": "comma-splice",
+          "whyVi": "Ba mệnh đề độc lập chỉ nối bằng dấu phẩy, nên là comma splice kép."
+        },
+        {
+          "text": "My daughter's school is on Kingsway and it has a strong music program and she joined the band last fall.",
+          "misconception": "choppy-sentences",
+          "whyVi": "Đúng ngữ pháp nhưng nối bằng \"and… and…\" không thể hiện quan hệ logic; câu lê thê."
+        },
+        {
+          "text": "My daughter's school on Kingsway has a strong music program, so she joined the band last fall.",
+          "misconception": null,
+          "whyVi": "Đúng. Gộp thông tin vị trí vào cụm danh từ và dùng \"so\" để chỉ kết quả, ngắn gọn và rõ logic."
+        },
+        {
+          "text": "Although my daughter's school is on Kingsway, it has a strong music program, she joined the band last fall.",
+          "misconception": "wrong-logic-connector",
+          "whyVi": "\"Although\" vô lý (nằm trên Kingsway không trái ngược với việc có chương trình nhạc tốt), và vế cuối vẫn là comma splice."
+        }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Ghép câu tốt nhất là ghép theo đúng quan hệ logic (ở đây là nguyên nhân → kết quả) và rút thông tin phụ vào cụm danh từ, không chỉ nối bằng and.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-01-i4",
+      "type": "text",
+      "prompt": "Type the ONE word that should replace 'it' to turn this comma splice into a relative clause: 'We took the kids to Stanley Park on Saturday, it was full of tourists from the cruise ships.'",
+      "answers": [
+        "which"
+      ],
+      "mode": "exact",
+      "misconception": "comma-splice",
+      "explanationVi": "Thay \"it\" bằng \"which\" thì vế sau trở thành mệnh đề quan hệ bổ sung thông tin cho Stanley Park, nên dấu phẩy là đúng. Giữ \"it\" thì vẫn là hai câu dính nhau. \"that\" không dùng được sau dấu phẩy trong mệnh đề quan hệ không xác định.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-01-i5",
+      "type": "choice",
+      "prompt": "A learner wrote: 'I would choose the weekend program, it fits my work schedule better.' Which revision is the strongest Level 8 sentence?",
+      "options": [
+        {
+          "text": "I would choose the weekend program, however it fits my work schedule better.",
+          "misconception": "however-as-conjunction",
+          "whyVi": "Vẫn là comma splice, và \"however\" còn sai logic vì không có tương phản."
+        },
+        {
+          "text": "I would choose the weekend program because it fits my work schedule better.",
+          "misconception": null,
+          "whyVi": "Đúng. \"because\" biến vế sau thành mệnh đề phụ chỉ lý do, đúng logic và đúng dấu câu."
+        },
+        {
+          "text": "I would choose the weekend program. Because of my work schedule.",
+          "misconception": "fragment-as-sentence",
+          "whyVi": "\"Because of my work schedule.\" không có chủ ngữ và động từ, nên là câu cụt."
+        },
+        {
+          "text": "Because I would choose the weekend program, it fits my work schedule better.",
+          "misconception": "wrong-logic-connector",
+          "whyVi": "Đảo ngược nguyên nhân–kết quả: việc chọn không làm lịch phù hợp hơn."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Khi vế thứ hai là lý do, cách tự nhiên nhất là dùng because/since. Kiểm tra cả dấu câu lẫn logic.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-01-i6",
+      "type": "order",
+      "prompt": "Put these sentences in order to make a varied, correctly built paragraph from an email to a building manager.",
+      "items": [
+        "I am writing to report a problem with the elevator in our building.",
+        "Since last Monday, it has stopped between floors at least three times.",
+        "Yesterday, my neighbour, who uses a wheelchair, was stuck inside for twenty minutes.",
+        "Although I reported that incident to the front desk the same evening, no one has contacted me.",
+        "Could you please arrange a full inspection before the end of this week?"
+      ],
+      "misconception": "choppy-sentences",
+      "explanationVi": "Đoạn đi từ mục đích → vấn đề (Since…; \"it\" chỉ cái thang máy ở câu 1) → ví dụ cụ thể (Yesterday…, who…) → việc đã làm (Although…; \"that incident\" chỉ lại sự việc hôm qua) → yêu cầu. Chú ý mỗi câu mở đầu khác nhau: chủ ngữ, mệnh đề thời gian, trạng từ thời gian, mệnh đề nhượng bộ, câu hỏi lịch sự. Đó chính là sentence variety.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-01-i7",
+      "type": "choice",
+      "prompt": "Which sentence is grammatically correct AND shows controlled complex structure (Level 8)?",
+      "options": [
+        {
+          "text": "Unless the city adds more buses to Route 49, which is already overcrowded at rush hour, many students will keep arriving late to class.",
+          "misconception": null,
+          "whyVi": "Đúng. Mệnh đề điều kiện (Unless…), mệnh đề quan hệ chen giữa có dấu phẩy hai bên (which…), rồi mới đến mệnh đề chính hoàn chỉnh."
+        },
+        {
+          "text": "Unless the city adds more buses to Route 49, which is already overcrowded at rush hour.",
+          "misconception": "fragment-as-sentence",
+          "whyVi": "Chỉ có mệnh đề phụ và mệnh đề quan hệ, thiếu mệnh đề chính, nên là câu cụt dài."
+        },
+        {
+          "text": "The city must add more buses to Route 49, it is already overcrowded at rush hour, many students arrive late.",
+          "misconception": "comma-splice",
+          "whyVi": "Ba câu dính nhau bằng dấu phẩy."
+        },
+        {
+          "text": "Unless the city adds more buses to Route 49, so students will keep arriving late to class.",
+          "misconception": "double-connector",
+          "whyVi": "\"Unless… so…\" là thừa liên từ."
+        }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Câu dài không phải là lỗi. Lỗi là khi câu dài thiếu mệnh đề chính (câu cụt) hoặc nối câu bằng dấu phẩy. Sau mỗi câu dài, hãy tự hỏi: mệnh đề chính của câu này ở đâu?",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-01-i8",
+      "type": "produce",
+      "medium": "write",
+      "minWords": 70,
+      "prompt": "Survey question: 'Your city is deciding whether to turn an empty lot into a dog park or a community garden. Which do you prefer and why?' Write ONE body paragraph (70–100 words) giving your main reason. Focus on sentence construction: no run-ons, no fragments, and varied sentence types.",
+      "checklist": [
+        "Contains no comma splices (check every comma between two clauses)",
+        "Contains no fragments starting with Because/Which/For example",
+        "Uses at least two different subordinating conjunctions or relative pronouns (e.g. since, although, which, when)",
+        "At least three sentences begin in different ways (not all with I/It/The)",
+        "Mixes at least one short sentence with longer complex sentences"
+      ],
+      "modelAnswer": "I would prefer a community garden because it would bring together neighbours who rarely talk to each other. In my area of Burnaby, many residents live in apartments, so they have no space to grow vegetables. If the city built shared garden plots, families could meet every weekend while they water their tomatoes or swap seeds. Children would also learn where food comes from. Although a dog park would be useful, it would mainly serve dog owners, whereas a garden would welcome everyone.",
+      "misconception": "choppy-sentences",
+      "explanationVi": "Đối chiếu bài với bài mẫu: bài mẫu dùng because, who, so, If…, while, Although…, whereas, có một câu ngắn để nhấn ý (\"Children would also learn…\") và không có dấu phẩy nào nối hai câu hoàn chỉnh.",
+      "competency": "grammar"
+    }
+  ],
+  "misconceptions": {
+    "comma-splice": {
+      "label": "Nối hai câu bằng dấu phẩy",
+      "explanationVi": "Bạn đang dùng dấu phẩy như trong tiếng Việt để nối hai ý trọn vẹn. Trong tiếng Anh, dấu phẩy không đủ \"sức\" để nối hai mệnh đề độc lập. Đây là lỗi nhận diện ranh giới câu (sentence boundary).",
+      "fixVi": "Sau mỗi dấu phẩy, kiểm tra: vế sau có chủ ngữ + động từ và tự đứng được không? Nếu có, hãy dùng dấu chấm, dấu chấm phẩy, thêm and/but/so, hoặc biến một vế thành mệnh đề phụ (because, although, which…)."
+    },
+    "fragment-as-sentence": {
+      "label": "Câu cụt / nhận nhầm câu hoàn chỉnh",
+      "explanationVi": "Bạn chưa phân biệt được mệnh đề độc lập và mệnh đề phụ thuộc. Một nhóm từ có Because/Which/When hay chỉ là cụm ví dụ không có động từ thì không phải là câu hoàn chỉnh, dù có dấu chấm ở cuối.",
+      "fixVi": "Đọc riêng câu đó lên. Nếu nghe như đang nói dở, gắn nó vào câu trước hoặc sau, hoặc thêm chủ ngữ và động từ chia thì."
+    },
+    "double-connector": {
+      "label": "Dùng hai liên từ (Although… but / Because… so)",
+      "explanationVi": "Đây là ảnh hưởng của cặp \"Mặc dù… nhưng\", \"Vì… nên\" trong tiếng Việt. Tiếng Anh chỉ cần một liên từ để nối hai mệnh đề.",
+      "fixVi": "Khi đã mở câu bằng Although/Because/Since/Unless, hãy xoá but/so ở vế sau và thay bằng dấu phẩy."
+    },
+    "however-as-conjunction": {
+      "label": "Dùng however như liên từ",
+      "explanationVi": "However, therefore, moreover chỉ là trạng từ nối ý. Chúng không nối được hai câu, nên \", however\" giữa hai mệnh đề vẫn là comma splice.",
+      "fixVi": "Viết \"; however,\" hoặc bắt đầu câu mới \"However,\". Nếu muốn nối bằng dấu phẩy, hãy dùng \"but\"."
+    },
+    "wrong-logic-connector": {
+      "label": "Chọn sai quan hệ logic của liên từ",
+      "explanationVi": "Bạn biết cần ghép câu nhưng chưa xác định rõ hai ý liên hệ với nhau thế nào (nguyên nhân, tương phản, điều kiện, thời gian), nên chọn liên từ làm thay đổi nghĩa.",
+      "fixVi": "Trước khi chọn liên từ, hãy gọi tên quan hệ bằng tiếng Việt (vì / mặc dù / nếu / khi), rồi mới chọn từ tiếng Anh tương ứng trong danh sách của bài."
+    },
+    "choppy-sentences": {
+      "label": "Câu ngắn rời rạc, thiếu đa dạng",
+      "explanationVi": "Câu của bạn đúng nhưng toàn câu đơn hoặc nối bằng and… and…, nên người chấm không thấy bạn kiểm soát được câu phức. Đây là điểm ngăn bài viết lên Level 8.",
+      "fixVi": "Mỗi đoạn hãy có ít nhất hai câu phức (mệnh đề phụ hoặc mệnh đề quan hệ) và đổi cách mở đầu câu. Giữ một câu ngắn để nhấn mạnh ý quan trọng."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "Although + clause, main clause",
+      "vi": "Mặc dù… (không thêm \"but\")",
+      "example": "Although the SkyTrain was packed, I made it to work on time."
+    },
+    {
+      "term": "Since + clause",
+      "vi": "Vì / bởi vì (lý do người đọc đã biết)",
+      "example": "Since the library closes at six on Sundays, I study at home that day."
+    },
+    {
+      "term": "Unless + clause",
+      "vi": "Trừ khi / nếu không",
+      "example": "Unless the city adds more buses, the morning commute will get worse."
+    },
+    {
+      "term": "…, which + verb",
+      "vi": "…, điều này / cái mà (bổ sung thông tin)",
+      "example": "The rink reopened in November, which made the hockey parents very happy."
+    },
+    {
+      "term": "…; however, …",
+      "vi": "…; tuy nhiên, … (dấu câu đúng)",
+      "example": "I reported the leak in March; however, nobody came to fix it."
+    },
+    {
+      "term": "so that + clause",
+      "vi": "để mà (chỉ mục đích)",
+      "example": "Please send the forms by Friday so that I can submit them on Monday."
+    },
+    {
+      "term": "as soon as + clause",
+      "vi": "ngay khi",
+      "example": "I will call you as soon as the delivery arrives."
+    },
+    {
+      "term": "whereas + clause",
+      "vi": "trong khi đó (so sánh đối lập)",
+      "example": "The dog park would serve pet owners, whereas a garden would welcome everyone."
+    }
+  ],
+  "grammar": [
+    {
+      "point": "Independent vs dependent clauses and comma rules",
+      "explanationVi": "Mệnh đề độc lập tự đứng được; mệnh đề phụ (bắt đầu bằng because, although, when, if, which…) phải đi kèm mệnh đề chính. Nếu mệnh đề phụ đứng trước thì đặt dấu phẩy sau nó; nếu đứng sau thì thường không cần dấu phẩy (trừ which và although/whereas mang nghĩa đối lập).",
+      "examples": [
+        "When the snow started, the school closed early.",
+        "The school closed early when the snow started.",
+        "We moved to Coquitlam, which is closer to my husband's work."
+      ]
+    },
+    {
+      "point": "Four ways to fix a comma splice",
+      "explanationVi": "Dấu chấm, dấu chấm phẩy, dấu phẩy + FANBOYS, hoặc biến một vế thành mệnh đề phụ. Chọn cách phù hợp với quan hệ logic và độ dài câu xung quanh.",
+      "examples": [
+        "The meeting ran late. I missed my bus.",
+        "The meeting ran late; I missed my bus.",
+        "The meeting ran late, so I missed my bus.",
+        "Because the meeting ran late, I missed my bus."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "label": "Write a Task 2 survey response and check every comma",
+      "route": "/writing?task=W2"
+    },
+    {
+      "label": "Write a Task 1 email with varied sentences",
+      "route": "/writing?task=W1"
+    },
+    {
+      "label": "Review your sentence-boundary mistakes",
+      "route": "/mistakes"
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "author-agent+independent-review-agent",
+    "notes": "Solved all 12 exercises independently; keys, variants (g3, i2) and the i6 order are sound and the model answer is 82 words. Fixed g2 hint (no longer steers toward an option) and i7 distractor D ('so many students' could be read as grammatical; now 'so students')."
+  }
+}

@@ -1,0 +1,617 @@
+{
+  "id": "rd-11",
+  "skill": "reading",
+  "module": "reading-parts",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Part 1 strategy: Correspondence",
+  "titleVi": "Chiến lược Part 1: Đọc thư từ",
+  "estimatedMinutes": 30,
+  "prerequisites": [
+    "rd-07",
+    "rd-08"
+  ],
+  "competencies": [
+    "detail",
+    "inference"
+  ],
+  "tasks": [
+    "R1"
+  ],
+  "objectives": [
+    "You will be able to map who wants what and why in the first message in under three minutes.",
+    "You will be able to fill the reply blanks (questions 7–11) by matching each blank to the point in the first message it answers.",
+    "You will be able to identify the writer's tone and the relationship between the writers and use them to eliminate options.",
+    "You will be able to spot when the reply changes or rejects a plan from the first message."
+  ],
+  "objectiveVi": "Sau bài này, bạn đọc thư đầu tiên của Part 1 theo khung \"ai – muốn gì – vì sao\", rồi điền 5 chỗ trống của thư trả lời bằng cách nối từng chỗ trống với đúng ý trong thư đầu, đồng thời dùng giọng điệu và quan hệ giữa hai người để loại đáp án sai.",
+  "whyItMattersVi": "Part 1 có 11 câu, nhiều nhất trong bài Reading. Với Reading 5, bạn thường hiểu từng câu nhưng mất điểm ở hai chỗ: câu hỏi suy luận về mục đích/thái độ, và câu 7–11 khi thư trả lời \"nói lại\" thư đầu bằng từ khác hoặc thay đổi kế hoạch. Nếu làm chắc 9–10/11 câu ở Part 1, bạn đã có một nền rất vững để lên Level 8.",
+  "concept": [
+    {
+      "heading": "Part 1 trông như thế nào",
+      "body": "Part 1 (**Reading Correspondence**) có một bức thư hoặc email, có thể là thư cá nhân (bạn bè, người thân, hàng xóm) hoặc thư công việc (chủ nhà, đồng nghiệp, tổ chức cộng đồng). Câu **1–6** là trắc nghiệm về thư đầu: mục đích, lý do, chi tiết, suy luận. Câu **7–11** là một **thư trả lời** có 5 chỗ trống; bạn chọn cụm từ phù hợp cho từng chỗ. Tổng thời gian khoảng 11 phút, tức khoảng 1 phút mỗi câu.\n\nĐiểm quan trọng: thư trả lời **không phải một bài đọc mới**. Nó phản hồi từng ý của thư đầu: đồng ý, từ chối, chọn một phương án, hỏi thêm, hoặc thay đổi kế hoạch. Vì vậy, hiểu thư đầu thật rõ là chìa khoá cho cả 11 câu."
+    },
+    {
+      "heading": "Bước 1: Lập bản đồ \"ai – muốn gì – vì sao\"",
+      "body": "Khi đọc thư đầu, đừng cố nhớ mọi chi tiết. Hãy ghi nhanh (trong đầu hoặc trên giấy nháp) ba dòng:\n\n- **WHO:** ai viết cho ai, quan hệ gì (anh chị em, người điều phối – thành viên, chủ nhà – người thuê).\n- **WANTS:** người viết muốn người nhận làm gì. Tìm ngôn ngữ yêu cầu: *Could you…?*, *I'd appreciate it if…*, *please reply by…*, *Can you send me…?*\n- **WHY:** lý do, vấn đề, hạn chót. Tìm *because, since, so, the only catch is, the problem is*.\n\nNếu thư đưa ra **nhiều phương án** (option 1, 2, 3), hãy đánh số chúng. Thư trả lời gần như chắc chắn sẽ chọn một phương án, và câu hỏi sẽ kiểm tra bạn có biết phương án nào được chọn không."
+    },
+    {
+      "heading": "Bước 2: Đọc thư trả lời như một cuộc đối thoại",
+      "body": "Với mỗi chỗ trống 7–11, làm theo ba bước:\n\n1. **Đọc cả câu chứa chỗ trống và câu ngay sau nó.** Câu sau thường giải thích hoặc chứng minh ý cần điền.\n2. **Tìm ý tương ứng trong thư đầu.** Ví dụ: thư đầu nói *Can you send me your half?* thì thư trả lời *I've just sent you [[9]]* chắc chắn liên quan đến số tiền \"một nửa\".\n3. **Kiểm tra ngữ pháp và nghĩa.** Sau *has* cần quá khứ phân từ, sau *can/to* cần động từ nguyên mẫu, sau *the* cần cụm danh từ.\n\nCẩn thận với **tín hiệu đổi hướng** trong thư trả lời: *though, actually, but, so you can keep…*. Người trả lời có thể không làm theo kế hoạch của thư đầu. Đáp án đúng phải khớp với **thư trả lời**, không chỉ với thư đầu."
+    },
+    {
+      "heading": "Bước 3: Giọng điệu và quan hệ",
+      "body": "Nhiều câu hỏi và chỗ trống phụ thuộc vào **tone** (giọng điệu). Tín hiệu cần để ý:\n\n- Lời chào và kết thư: *Dear… / Warm regards* (lịch sự, có khoảng cách) so với *Hey… / M.* (thân mật).\n- Từ chỉ gia đình (*Mom and Dad*, *Auntie*), viết tắt, câu đùa cho thấy quan hệ gần gũi.\n- **Lời khen trước tin khó**: khi người viết nhắc điểm tốt của bạn ngay trước một quy định nghiêm, đó thường là cách làm mềm thông điệp, không phải chủ đề chính.\n- **Cảnh báo lịch sự**: *I'd much rather not go down that road* nghĩa là \"tôi không muốn phải làm điều đó (nhưng có thể sẽ làm)\".\n\nNếu một đáp án đúng về thông tin nhưng **sai giọng** (ví dụ thư trả lời rất biết ơn mà đáp án lại nói \"strict\"), hãy loại nó."
+    },
+    {
+      "heading": "Những bẫy thường gặp ở Part 1",
+      "body": "- **Trùng từ (word match):** đáp án lặp lại một từ trong thư (*brunch*, *wedding party*) nhưng nói sai ý.\n- **Nhầm người:** gán việc của người này cho người kia (ai trả tiền, ai đi họp).\n- **Phương án không được chọn:** đáp án là một phương án có thật trong thư đầu nhưng người trả lời đã chọn phương án khác.\n- **Suy luận quá xa:** thư nói *can be offered to someone else* (có thể) nhưng đáp án nói *has been given away* (đã xảy ra).\n\nQuy tắc vàng: mỗi đáp án bạn chọn phải chỉ ra được **một câu cụ thể** trong thư làm bằng chứng."
+    }
+  ],
+  "stimuli": {
+    "garden-letters": {
+      "title": "Riverside Community Garden: email and reply",
+      "text": "**Email from the garden coordinator**\n\nHi Tuan,\n\nI hope your summer is going well. Several members have mentioned that Plot 14 hasn't been watered or weeded since early July, and the squash vines are now spreading into the paths and your neighbours' beds. I know you told us in the spring that your work schedule might get busier, so I'm not assuming anything. I just wanted to check in.\n\nAs you know, we have a waiting list of almost thirty households, and our rules say that a plot left untended for six weeks can be offered to someone else. I'd much rather not go down that road. You've been with us for four years, and your tomato workshop last year was one of our best-attended events.\n\nSo here are a few options. If you'd like to keep the plot on your own, could you tidy it up by Sunday, August 18? If you just need help for the rest of the season, I can pair you with a 'garden buddy' from the waiting list who would share the work and the harvest. And if you'd rather step away this year, let me know and we'll hold your spot for next spring without charging the renewal fee.\n\nEither way, please reply by Friday so I can update the board at our meeting on Monday.\n\nWarm regards,\nHannah Feldman\nVolunteer Coordinator, Riverside Community Garden\n\n---\n\n**Tuan's reply (blanks 7–11)**\n\nHi Hannah,\n\nThank you for your kind email, and I'm sorry that my plot has [[7]] for the other members. You're right about my schedule: since June I've been working weekend shifts at the hospital, so the Saturday mornings I used to spend at the garden are gone.\n\nI'd hate to give up the plot completely, but I don't think I can [[8]] by the 18th on my own. For that reason, the [[9]] sounds like the best solution for me. I'm happy to share the harvest, and I can still come by on Wednesday evenings.\n\nI'm working on Monday, so could you [[10]]? I'll also stop by this week to apologize to my neighbours about the squash.\n\nThanks again for being so [[11]] about this.\n\nBest,\nTuan"
+    },
+    "anniversary-letters": {
+      "title": "Anniversary dinner: email and reply",
+      "text": "**Email from Marcus to his sister**\n\nHey Leah,\n\nQuick update on Mom and Dad's 40th. I called the Harbourview in Victoria, and they can't give us the private room on Saturday the 12th after all. A wedding party booked the whole upstairs months ago. They offered Friday the 11th instead, or the main dining room on Saturday, but the main room is pretty loud, and you know Dad already struggles to hear in restaurants.\n\nHonestly, I'm leaning toward Friday. The only catch is that Auntie Rose flies in from Calgary on Saturday morning, and she'd be heartbroken to miss it. There's an earlier flight on Friday that lands at 2:15, but it's about $90 more. I'm happy to cover the difference if that's what it takes. Just don't tell her I said that, or she'll refuse on principle.\n\nThe other thing: the restaurant needs a $200 deposit by Wednesday to hold the room. Can you send me your half by e-transfer? I'll put the rest on my card.\n\nAlso, keep this quiet around Mom. She thinks we're just doing brunch.\n\nM.\n\n---\n\n**Leah's reply (blanks 7–11)**\n\nHi Marcus,\n\nThanks for sorting all this out. I agree the main dining room would be [[7]], so Friday gets my vote too.\n\nI phoned Auntie Rose last night (without mentioning money, don't worry), and she's actually glad to come a day early. She wants to [[8]] herself, though. She insisted, and you know there's no arguing with her, so you can keep your $90.\n\nI've just sent you [[9]] for the deposit. Let me know if it doesn't come through.\n\nAlso, since Mom still doesn't know, I'll make sure the cousins [[10]].\n\nI'm so glad we're doing this together. It's going to be [[11]].\n\nLeah"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Why does the writer mention something positive?",
+      "stimulusId": "garden-letters",
+      "question": "Why does Hannah mention Tuan's tomato workshop?",
+      "steps": [
+        "Lập bản đồ trước. WHO: Hannah là Volunteer Coordinator, viết cho thành viên Tuan, quan hệ lịch sự nhưng thân thiện (Hi Tuan / Warm regards). WANTS: Tuan chọn một trong ba phương án và trả lời trước thứ Sáu. WHY: mảnh đất 14 bị bỏ không từ đầu tháng 7.",
+        "Tìm vị trí của chi tiết được hỏi: câu về tomato workshop nằm ngay sau 'our rules say that a plot left untended for six weeks can be offered to someone else. I'd much rather not go down that road.'",
+        "Hỏi: chi tiết này có tác dụng gì ở vị trí đó? Hannah vừa nhắc một quy định nghiêm (có thể mất đất), rồi lập tức nói 'I'd much rather not go down that road' và khen Tuan đã gắn bó 4 năm, workshop rất đông người. Đây là cách làm mềm tin khó: cô ấy coi trọng Tuan và không muốn lấy lại đất.",
+        "Loại các cách hiểu sai: cô ấy không mời Tuan dạy workshop mới (không có câu yêu cầu nào), cũng không nói workshop là lý do được giữ đất (quy định vẫn áp dụng).",
+        "Kết luận và kiểm tra bằng chứng: 'I'd much rather not go down that road. You've been with us for four years, and your tomato workshop last year was one of our best-attended events.'"
+      ],
+      "answer": "To show that she values Tuan as a member and does not want to take his plot away.",
+      "takeawayVi": "Khi người viết khen ngay trước hoặc sau một tin khó, câu hỏi \"Why does the writer mention…?\" thường hỏi về mục đích làm mềm thông điệp. Luôn hỏi: chi tiết này đứng cạnh câu nào và giúp người viết đạt được điều gì?"
+    },
+    {
+      "id": "ex2",
+      "title": "Tracking which option the reply chooses",
+      "stimulusId": "garden-letters",
+      "question": "Blank [[9]]: 'For that reason, the [[9]] sounds like the best solution for me.' Options: (A) free spot next spring (B) garden-buddy idea (C) tomato workshop (D) waiting list",
+      "steps": [
+        "Đọc cả câu và câu trước, câu sau. Câu trước: 'I'd hate to give up the plot completely, but I don't think I can [[8]] by the 18th on my own.' Câu sau: 'I'm happy to share the harvest, and I can still come by on Wednesday evenings.'",
+        "Nối với các phương án đã đánh số trong thư đầu: (1) tự giữ đất và dọn trước 18/8, (2) ghép với 'garden buddy' để chia việc và chia thu hoạch, (3) nghỉ năm nay, giữ chỗ cho mùa xuân.",
+        "Loại (1): Tuan nói không làm được 'on my own'. Loại (3): Tuan nói 'I'd hate to give up the plot completely', nên không muốn nghỉ. Đáp án A (free spot next spring) là phương án có thật nhưng không được chọn.",
+        "Câu sau là bằng chứng quyết định: 'share the harvest' khớp với 'who would share the work and the harvest' ở phương án (2).",
+        "C và D là bẫy trùng từ: cả hai cụm đều có trong thư đầu nhưng không phải là một giải pháp. Ngữ pháp 'the ___ sounds like the best solution' cũng cần một danh từ chỉ một phương án."
+      ],
+      "answer": "(B) garden-buddy idea",
+      "takeawayVi": "Khi thư đầu đưa ra nhiều phương án, hãy đánh số chúng. Trong thư trả lời, dùng câu trước để loại phương án bị từ chối và câu sau để xác nhận phương án được chọn."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "garden-letters",
+      "competency": "inference",
+      "prompt": "What is the main purpose of Hannah's email?",
+      "hint": "Look at what Hannah asks Tuan to do at the end of the email, not only at the problem she describes at the start.",
+      "options": [
+        {
+          "text": "To tell Tuan that his plot has been given to another household.",
+          "misconception": "over-inference",
+          "whyVi": "Thư chỉ nói đất bỏ không 6 tuần 'can be offered' (có thể bị chuyển). Chưa có gì xảy ra, và Hannah còn nói không muốn làm vậy."
+        },
+        {
+          "text": "To ask Tuan to decide how he will deal with his neglected plot.",
+          "misconception": null,
+          "whyVi": "Đúng. Hannah nêu vấn đề, đưa ra ba phương án và yêu cầu Tuan trả lời trước thứ Sáu."
+        },
+        {
+          "text": "To invite Tuan to run another tomato workshop next year.",
+          "misconception": "word-match",
+          "whyVi": "Workshop chỉ được nhắc để khen Tuan; không có lời mời nào."
+        },
+        {
+          "text": "To complain that Tuan's neighbours are damaging the paths.",
+          "misconception": "wrong-person",
+          "whyVi": "Chính dây bí của Tuan lan ra lối đi và luống của hàng xóm, không phải hàng xóm gây hại."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "Either way, please reply by Friday so I can update the board at our meeting on Monday.",
+      "explanationVi": "Mục đích chính của thư nằm ở yêu cầu (WANTS): Hannah đưa ba lựa chọn và cần Tuan trả lời trước thứ Sáu. Đoạn đầu chỉ là bối cảnh (vấn đề), đoạn giữa là lý do và làm mềm thông điệp."
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "garden-letters",
+      "competency": "detail",
+      "prompt": "Choose the best option for blank [[7]]: 'I'm sorry that my plot has [[7]] for the other members.'",
+      "hint": "Ask what effect the plot has had on other members according to the first paragraph of Hannah's email.",
+      "options": [
+        {
+          "text": "been given away",
+          "misconception": "over-inference",
+          "whyVi": "Đất chưa bị chuyển cho ai; Hannah chỉ nói quy định cho phép làm vậy."
+        },
+        {
+          "text": "become a problem",
+          "misconception": null,
+          "whyVi": "Đúng. Đất không được tưới, cỏ mọc và dây bí lan sang lối đi và luống của người khác, tức là gây phiền cho các thành viên."
+        },
+        {
+          "text": "looked better than ever",
+          "misconception": "tone-relationship",
+          "whyVi": "Ngược nghĩa, và không hợp với lời xin lỗi 'I'm sorry that…'."
+        },
+        {
+          "text": "been registered with the board",
+          "misconception": "word-match",
+          "whyVi": "'board' có trong thư đầu, nhưng không ai nói đến việc đăng ký đất với ban điều hành."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "the squash vines are now spreading into the paths and your neighbours' beds",
+      "explanationVi": "Chỗ trống đi sau lời xin lỗi và 'for the other members', nên cần một tác động tiêu cực đến người khác. Thư đầu nói rõ dây bí lan ra lối đi và luống của hàng xóm: đó là 'a problem'."
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "garden-letters",
+      "competency": "detail",
+      "prompt": "Choose the best option for blank [[8]]: 'I don't think I can [[8]] by the 18th on my own.'",
+      "hint": "Find the option in Hannah's email that has a date and the idea of doing it alone.",
+      "options": [
+        {
+          "text": "pay the renewal fee",
+          "misconception": "reply-not-tracked",
+          "whyVi": "Phí gia hạn thuộc phương án nghỉ năm nay, và không gắn với hạn ngày 18."
+        },
+        {
+          "text": "attend the board meeting",
+          "misconception": "word-match",
+          "whyVi": "Cuộc họp là vào thứ Hai, không phải ngày 18, và người họp là Hannah."
+        },
+        {
+          "text": "get it back in shape",
+          "misconception": null,
+          "whyVi": "Đúng. 'get it back in shape' là cách nói lại 'tidy it up by Sunday, August 18' trong phương án tự giữ đất."
+        },
+        {
+          "text": "join the waiting list",
+          "misconception": "wrong-person",
+          "whyVi": "Danh sách chờ dành cho hộ khác muốn có đất, không phải việc Tuan cần làm."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "If you'd like to keep the plot on your own, could you tidy it up by Sunday, August 18?",
+      "explanationVi": "'by the 18th on my own' khớp với phương án 1 của Hannah: 'keep the plot on your own… tidy it up by Sunday, August 18'. Đáp án là một paraphrase của 'tidy it up'."
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "garden-letters",
+      "competency": "inference",
+      "prompt": "Choose the best option for blank [[10]]: 'I'm working on Monday, so could you [[10]]?'",
+      "hint": "What is happening on Monday according to Hannah, and why would Tuan's shift matter?",
+      "options": [
+        {
+          "text": "move the board meeting to Friday",
+          "misconception": "over-inference",
+          "whyVi": "Thứ Sáu là hạn trả lời, không phải ngày họp; Tuan cũng không có lý do để yêu cầu dời họp."
+        },
+        {
+          "text": "hold my spot for next spring",
+          "misconception": "reply-not-tracked",
+          "whyVi": "Đây là phương án 3, nhưng Tuan đã chọn garden buddy và không muốn bỏ đất năm nay."
+        },
+        {
+          "text": "tidy up the plot for me by Sunday",
+          "misconception": "wrong-person",
+          "whyVi": "Không ai đề nghị Hannah dọn đất giúp; người chia việc là garden buddy."
+        },
+        {
+          "text": "share my decision with the board",
+          "misconception": null,
+          "whyVi": "Đúng. Thứ Hai Hannah họp với ban điều hành; Tuan bận nên nhờ cô báo lại quyết định của mình."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "so I can update the board at our meeting on Monday",
+      "explanationVi": "Thư trả lời nhắc 'Monday', nên quay lại thư đầu tìm Monday: đó là buổi họp ban điều hành. Vì Tuan đi làm, anh nhờ Hannah thông báo quyết định của mình."
+    },
+    {
+      "id": "g5",
+      "type": "choice",
+      "stimulusId": "garden-letters",
+      "competency": "inference",
+      "prompt": "Choose the best option for blank [[11]]: 'Thanks again for being so [[11]] about this.'",
+      "hint": "Think about how Hannah treated Tuan in her email and what kind of word fits a thank-you.",
+      "options": [
+        {
+          "text": "strict",
+          "misconception": "tone-relationship",
+          "whyVi": "Hannah có nhắc quy định, nhưng cô chủ động tránh áp dụng nó; cảm ơn ai vì 'strict' cũng không hợp."
+        },
+        {
+          "text": "brief",
+          "misconception": "tone-relationship",
+          "whyVi": "Thư của Hannah khá dài và chi tiết; 'brief' không phải lý do để cảm ơn."
+        },
+        {
+          "text": "understanding",
+          "misconception": null,
+          "whyVi": "Đúng. Hannah không vội kết luận ('I'm not assuming anything') và đưa nhiều phương án hỗ trợ."
+        },
+        {
+          "text": "secretive",
+          "misconception": "word-match",
+          "whyVi": "Không có gì bí mật; đây là một từ tiêu cực, sai giọng hoàn toàn."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "I know you told us in the spring that your work schedule might get busier, so I'm not assuming anything.",
+      "explanationVi": "Câu cảm ơn cần một tính từ tích cực mô tả cách Hannah cư xử. Cô nhớ lịch làm việc của Tuan, không vội trách và đưa ra giải pháp: đó là 'understanding'."
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "anniversary-letters",
+      "competency": "detail",
+      "prompt": "Why is Marcus leaning toward Friday rather than Saturday?",
+      "options": [
+        {
+          "text": "A Friday dinner would be cheaper than a Saturday one.",
+          "misconception": "over-inference",
+          "whyVi": "Thư không so sánh giá giữa thứ Sáu và thứ Bảy."
+        },
+        {
+          "text": "Auntie Rose is already arriving on Friday.",
+          "misconception": "reply-not-tracked",
+          "whyVi": "Ngược lại: cô Rose bay đến sáng thứ Bảy, đó chính là vấn đề của phương án thứ Sáu."
+        },
+        {
+          "text": "Dad would have trouble hearing in the main dining room.",
+          "misconception": null,
+          "whyVi": "Đúng. Thứ Bảy chỉ còn phòng chính, mà phòng chính ồn và bố khó nghe trong nhà hàng."
+        },
+        {
+          "text": "The wedding party wants the main room on Saturday.",
+          "misconception": "word-match",
+          "whyVi": "Tiệc cưới đặt tầng trên (upstairs), không phải phòng chính; nhà hàng vẫn cho chọn phòng chính thứ Bảy."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "the main room is pretty loud, and you know Dad already struggles to hear in restaurants",
+      "explanationVi": "Hai lựa chọn còn lại là thứ Sáu (phòng riêng) hoặc phòng chính thứ Bảy. Marcus nghiêng về thứ Sáu vì phòng chính ồn, bố lại nghe kém."
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "anniversary-letters",
+      "competency": "inference",
+      "prompt": "What does Marcus suggest about Auntie Rose?",
+      "options": [
+        {
+          "text": "She would probably not accept money to help with her flight.",
+          "misconception": null,
+          "whyVi": "Đúng. 'she'll refuse on principle' nghĩa là cô ấy sẽ từ chối vì nguyên tắc nếu biết Marcus trả tiền."
+        },
+        {
+          "text": "She cannot afford to fly from Calgary.",
+          "misconception": "over-inference",
+          "whyVi": "Không có câu nào nói cô ấy thiếu tiền; Marcus đề nghị trả phần chênh lệch để cô đến sớm hơn."
+        },
+        {
+          "text": "She is not very interested in attending the dinner.",
+          "misconception": "tone-relationship",
+          "whyVi": "Ngược lại: 'she'd be heartbroken to miss it'."
+        },
+        {
+          "text": "She has already booked the earlier Friday flight.",
+          "misconception": "over-inference",
+          "whyVi": "Marcus chỉ nói có chuyến bay sớm hơn; chưa ai đặt vé."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "Just don't tell her I said that, or she'll refuse on principle.",
+      "explanationVi": "Câu hỏi 'What does Marcus suggest' là câu suy luận. Marcus dặn Leah đừng nói với cô Rose rằng anh trả tiền, vì cô sẽ từ chối 'on principle'."
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "anniversary-letters",
+      "competency": "inference",
+      "prompt": "What can be inferred about the anniversary dinner?",
+      "options": [
+        {
+          "text": "Mom organized it and asked Marcus to book the room.",
+          "misconception": "wrong-person",
+          "whyVi": "Marcus và Leah là người tổ chức; mẹ còn chưa biết."
+        },
+        {
+          "text": "It will be a brunch instead of a dinner.",
+          "misconception": "word-match",
+          "whyVi": "'brunch' là điều mẹ đang tưởng, không phải kế hoạch thật."
+        },
+        {
+          "text": "Mom has already invited Auntie Rose.",
+          "misconception": "over-inference",
+          "whyVi": "Không có thông tin này, và mẹ không biết về bữa tối."
+        },
+        {
+          "text": "It is meant to be a surprise for Mom.",
+          "misconception": null,
+          "whyVi": "Đúng. Marcus dặn giữ bí mật vì mẹ tưởng chỉ đi ăn brunch."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "Also, keep this quiet around Mom. She thinks we're just doing brunch.",
+      "explanationVi": "'keep this quiet around Mom' và 'She thinks we're just doing brunch' cho thấy mẹ không biết kế hoạch thật: đây là một bữa tối bất ngờ."
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "anniversary-letters",
+      "competency": "detail",
+      "prompt": "Choose the best option for blank [[7]]: 'I agree the main dining room would be [[7]], so Friday gets my vote too.'",
+      "options": [
+        {
+          "text": "too expensive for all of us",
+          "misconception": "over-inference",
+          "whyVi": "Thư đầu không nói phòng chính đắt."
+        },
+        {
+          "text": "booked by a wedding party",
+          "misconception": "word-match",
+          "whyVi": "Tiệc cưới đặt tầng trên; phòng chính vẫn trống vào thứ Bảy."
+        },
+        {
+          "text": "too far from the airport",
+          "misconception": "over-inference",
+          "whyVi": "Không có thông tin về khoảng cách đến sân bay."
+        },
+        {
+          "text": "too noisy for Dad",
+          "misconception": null,
+          "whyVi": "Đúng. 'I agree' cho thấy Leah lặp lại lý do của Marcus: phòng ồn và bố khó nghe."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "the main room is pretty loud, and you know Dad already struggles to hear in restaurants",
+      "explanationVi": "'I agree' là tín hiệu Leah đồng ý với một ý Marcus đã nêu. Lý do duy nhất Marcus đưa ra để không chọn phòng chính là tiếng ồn và việc bố nghe kém."
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "anniversary-letters",
+      "competency": "inference",
+      "prompt": "Choose the best option for blank [[8]]: 'She wants to [[8]] herself, though.'",
+      "options": [
+        {
+          "text": "pay for the earlier flight",
+          "misconception": null,
+          "whyVi": "Đúng. 'herself', 'She insisted' và 'so you can keep your $90' cho thấy cô Rose tự trả tiền vé chuyến sớm."
+        },
+        {
+          "text": "take the Saturday morning flight",
+          "misconception": "reply-not-tracked",
+          "whyVi": "Cô ấy vui vẻ đến sớm một ngày, tức là bay thứ Sáu, không phải sáng thứ Bảy."
+        },
+        {
+          "text": "let you cover the $90",
+          "misconception": "reply-not-tracked",
+          "whyVi": "Ngược nghĩa: Marcus được giữ lại $90, tức là anh không phải trả."
+        },
+        {
+          "text": "book the private room",
+          "misconception": "wrong-person",
+          "whyVi": "Việc đặt phòng do Marcus lo; cô Rose không liên quan."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "She insisted, and you know there's no arguing with her, so you can keep your $90.",
+      "explanationVi": "Đây là chỗ thư trả lời thay đổi kế hoạch của thư đầu. Marcus định trả $90, nhưng 'though' và 'so you can keep your $90' cho thấy cô Rose tự trả. Phải theo thư trả lời, không theo kế hoạch cũ."
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "anniversary-letters",
+      "competency": "detail",
+      "prompt": "Choose the best option for blank [[9]]: 'I've just sent you [[9]] for the deposit.'",
+      "options": [
+        {
+          "text": "$200",
+          "misconception": "reply-not-tracked",
+          "whyVi": "$200 là toàn bộ tiền đặt cọc; Marcus chỉ xin một nửa và tự trả phần còn lại."
+        },
+        {
+          "text": "$100",
+          "misconception": null,
+          "whyVi": "Đúng. Đặt cọc $200, Marcus xin 'your half', tức $100."
+        },
+        {
+          "text": "$90",
+          "misconception": "word-match",
+          "whyVi": "$90 là tiền chênh lệch vé máy bay, không liên quan đến đặt cọc."
+        },
+        {
+          "text": "$45",
+          "misconception": "word-match",
+          "whyVi": "Đây là một nửa của $90, tức là nhầm sang khoản tiền vé máy bay."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "the restaurant needs a $200 deposit by Wednesday to hold the room. Can you send me your half by e-transfer?",
+      "explanationVi": "Thư có hai con số tiền ($90 và $200). Chỗ trống gắn với 'deposit', nên dùng $200 và yêu cầu 'your half': $100."
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "anniversary-letters",
+      "competency": "inference",
+      "prompt": "Choose the best option for blank [[10]]: 'Also, since Mom still doesn't know, I'll make sure the cousins [[10]].'",
+      "options": [
+        {
+          "text": "send you their half of the deposit",
+          "misconception": "wrong-person",
+          "whyVi": "Một nửa tiền cọc là phần của Leah, không phải của các anh chị em họ."
+        },
+        {
+          "text": "book the main dining room",
+          "misconception": "reply-not-tracked",
+          "whyVi": "Cả hai đã chọn thứ Sáu, không chọn phòng chính."
+        },
+        {
+          "text": "don't mention the dinner in front of Mom",
+          "misconception": null,
+          "whyVi": "Đúng. 'since Mom still doesn't know' nối với lời dặn 'keep this quiet around Mom'."
+        },
+        {
+          "text": "call Auntie Rose about the money",
+          "misconception": "tone-relationship",
+          "whyVi": "Leah vừa nói cô cố ý không nhắc chuyện tiền với cô Rose; điều này đi ngược ý cô."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "Also, keep this quiet around Mom.",
+      "explanationVi": "Mệnh đề 'since Mom still doesn't know' là lý do, nên hành động phải giúp giữ bí mật. Nó trả lời trực tiếp lời dặn cuối thư của Marcus."
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "anniversary-letters",
+      "competency": "inference",
+      "prompt": "Choose the best option for blank [[11]]: 'I'm so glad we're doing this together. It's going to be [[11]].'",
+      "options": [
+        {
+          "text": "a quiet brunch",
+          "misconception": "word-match",
+          "whyVi": "'brunch' là câu chuyện che mắt mẹ; sự kiện thật là bữa tối."
+        },
+        {
+          "text": "too loud for Dad",
+          "misconception": "reply-not-tracked",
+          "whyVi": "Họ chọn thứ Sáu chính là để tránh phòng ồn; câu này cũng mâu thuẫn với giọng vui vẻ."
+        },
+        {
+          "text": "an expensive mistake",
+          "misconception": "tone-relationship",
+          "whyVi": "Sai giọng: Leah đang rất vui ('I'm so glad'), không lo ngại hay hối tiếc."
+        },
+        {
+          "text": "a lovely surprise for Mom",
+          "misconception": null,
+          "whyVi": "Đúng. Hợp với giọng vui vẻ và với việc giữ bí mật bữa tối kỷ niệm với mẹ ('keep this quiet around Mom')."
+        }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Câu kết thư thường tóm lại cảm xúc chung. 'I'm so glad' cần một kết luận tích cực, và vì mẹ không biết trước, bữa tối là 'a lovely surprise for Mom'. Cụm 'a quiet brunch' là bẫy trùng từ ở mức Level 8."
+    }
+  ],
+  "misconceptions": {
+    "reply-not-tracked": {
+      "label": "Không nối thư trả lời với thư đầu",
+      "explanationVi": "Bạn đọc thư trả lời như một bài riêng, hoặc chỉ dựa vào kế hoạch trong thư đầu mà không để ý người trả lời đã chọn phương án nào hay đã thay đổi kế hoạch (though, actually, so you can keep…).",
+      "fixVi": "Với mỗi chỗ trống: đọc câu trước và câu sau, tìm ý tương ứng trong thư đầu, rồi kiểm tra xem thư trả lời đồng ý, từ chối hay đổi kế hoạch. Đáp án phải khớp với thư trả lời."
+    },
+    "word-match": {
+      "label": "Bẫy trùng từ",
+      "explanationVi": "Bạn chọn đáp án vì nó chứa một từ hoặc con số xuất hiện trong thư (brunch, board, $90), mà không kiểm tra từ đó có đúng vai trò trong câu không.",
+      "fixVi": "Khi thấy một đáp án lặp nguyên từ trong thư, hãy cảnh giác. Hỏi: trong thư, từ này nói về việc gì, của ai? Nếu khác với câu hỏi, loại ngay."
+    },
+    "wrong-person": {
+      "label": "Nhầm người làm việc gì",
+      "explanationVi": "Bạn hiểu thông tin nhưng gán sai người: ai trả tiền, ai họp, ai gây ra vấn đề. Đây là lỗi thiếu bản đồ WHO – WANTS – WHY.",
+      "fixVi": "Khi đọc thư đầu, ghi nhanh: người viết muốn người nhận làm gì, người viết sẽ tự làm gì. Với mỗi đáp án, hỏi: ai là người làm hành động này trong thư?"
+    },
+    "tone-relationship": {
+      "label": "Đọc sai giọng điệu và quan hệ",
+      "explanationVi": "Đáp án có thể dùng từ trong bài nhưng sai thái độ: lời cảm ơn đi với tính từ tiêu cực, lời vui vẻ đi với kết luận lo lắng, hoặc mô tả sai cảm xúc của một người.",
+      "fixVi": "Xác định tone trước khi chọn: lời chào, lời kết, từ chỉ cảm xúc (glad, sorry, heartbroken). Loại mọi đáp án mâu thuẫn với cảm xúc của câu chứa chỗ trống."
+    },
+    "over-inference": {
+      "label": "Suy luận quá xa",
+      "explanationVi": "Bạn biến điều có thể xảy ra thành điều đã xảy ra, hoặc thêm thông tin mà thư không nói (giá rẻ hơn, thiếu tiền, đã đặt vé).",
+      "fixVi": "Một suy luận đúng phải có câu cụ thể làm chỗ dựa. Chú ý các từ can, might, could: chúng chỉ khả năng, không phải sự thật đã xảy ra."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "check in (with someone)",
+      "vi": "hỏi thăm, liên lạc để xem tình hình",
+      "example": "I just wanted to check in and see how the move to Kamloops went."
+    },
+    {
+      "term": "go down that road",
+      "vi": "đi theo hướng đó, làm điều đó (thường là điều không muốn)",
+      "example": "We could take the landlord to the Residential Tenancy Branch, but I'd rather not go down that road yet."
+    },
+    {
+      "term": "step away (from something)",
+      "vi": "tạm rời, tạm nghỉ (một hoạt động, vai trò)",
+      "example": "She's stepping away from the PAC this year to focus on her night classes."
+    },
+    {
+      "term": "lean toward",
+      "vi": "nghiêng về (một lựa chọn)",
+      "example": "I'm leaning toward the Saturday ferry, since the Friday sailings are always full."
+    },
+    {
+      "term": "the only catch is",
+      "vi": "vấn đề duy nhất là, điểm trừ duy nhất là",
+      "example": "The apartment is great. The only catch is that there's no in-suite laundry."
+    },
+    {
+      "term": "cover the difference",
+      "vi": "trả phần tiền chênh lệch",
+      "example": "If the bigger truck costs more, I'll cover the difference."
+    },
+    {
+      "term": "on principle",
+      "vi": "vì nguyên tắc",
+      "example": "He refuses to pay for parking at the hospital on principle."
+    },
+    {
+      "term": "sort (something) out",
+      "vi": "giải quyết, thu xếp ổn thoả",
+      "example": "Thanks for sorting out the strata paperwork while I was away."
+    }
+  ],
+  "grammar": [
+    {
+      "point": "Grammar fit in reply blanks",
+      "explanationVi": "Trước khi xét nghĩa, kiểm tra từ đứng ngay trước chỗ trống: sau has/have cần quá khứ phân từ (has become, has been given); sau can/could/to/wants to cần động từ nguyên mẫu (can get, wants to pay); sau the cần cụm danh từ (the garden-buddy idea). Bước này giúp loại nhanh đáp án sai cấu trúc, nhưng ở Part 1 thường cả bốn đáp án đều đúng ngữ pháp, nên nghĩa và bằng chứng vẫn là yếu tố quyết định.",
+      "examples": [
+        "I'm sorry that my plot has become a problem. (has + past participle)",
+        "I don't think I can get it back in shape by the 18th. (can + base verb)",
+        "The garden-buddy idea sounds like the best solution. (the + noun phrase)"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "label": "Practise a full Part 1 set",
+      "route": "/reading?task=R1"
+    },
+    {
+      "label": "Inference drill",
+      "route": "/reading?mode=drill&focus=inference"
+    },
+    {
+      "label": "Review your mistakes",
+      "route": "/mistakes"
+    }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 13 exercises (5 guided, 8 independent) before checking keys; all keys match, evidence verbatim, blank 9 used only as worked example so blank references are unambiguous. Fixed i8 correct option 'a lovely surprise for them' -> 'for Mom' (text only says Mom is kept in the dark, not Dad)."}
+}

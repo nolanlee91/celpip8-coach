@@ -1,0 +1,354 @@
+{
+  "id": "wr-02",
+  "skill": "writing",
+  "module": "writing-foundations",
+  "level": "foundation",
+  "difficulty": 7,
+  "title": "Common grammar errors",
+  "titleVi": "Lỗi ngữ pháp thường gặp của người Việt",
+  "estimatedMinutes": 32,
+  "prerequisites": ["wr-01"],
+  "competencies": ["grammar"],
+  "tasks": ["W1", "W2"],
+  "objectives": [
+    "You will be able to choose a, an, the or no article using a four-step check.",
+    "You will be able to use plurals and uncountable nouns (advice, information, equipment) correctly.",
+    "You will be able to choose between past simple and present perfect and keep subject–verb agreement in long sentences.",
+    "You will be able to use the right dependent prepositions in common email phrases."
+  ],
+  "objectiveVi": "Bạn sẽ nhận ra và tự sửa năm nhóm lỗi mà người Việt hay mắc nhất khi viết tiếng Anh: mạo từ, số nhiều, danh từ không đếm được, thì và sự hoà hợp chủ–vị, và giới từ.",
+  "whyItMattersVi": "Tiếng Việt không có mạo từ, không chia động từ theo ngôi, không thêm -s cho số nhiều và không đổi hình thức động từ theo thì. Vì vậy những lỗi nhỏ như thiếu \"the\", quên \"-s\", viết \"informations\" xuất hiện dày đặc trong bài Level 6–7. Từng lỗi thì nhỏ, nhưng mười lỗi trong 180 chữ làm người chấm đánh giá ngữ pháp của bạn là \"thiếu kiểm soát\". Bài này cho bạn một quy trình kiểm tra để giảm mạnh các lỗi lặp lại, một bước then chốt để lên Level 8.",
+  "concept": [
+    {
+      "heading": "1. Mạo từ: bốn câu hỏi kiểm tra",
+      "body": "Với mỗi danh từ, hãy tự hỏi theo thứ tự:\n\n1. **Đếm được, số ít?** Bắt buộc phải có từ hạn định (a/an/the/my/this…). ✗ *I need car.* → ✓ *I need a car.*\n2. **Người đọc đã biết là cái nào chưa?** Lần đầu nhắc → **a/an**; đã nhắc rồi, chỉ có một, hoặc được xác định bằng cụm phía sau → **the**. *I bought a heater. The heater stopped working.* / *the manager of our building*.\n3. **Nói chung chung?** Danh từ số nhiều hoặc không đếm được nói chung → **không mạo từ**. *Rent is expensive in Vancouver.* / *Children need outdoor space.*\n4. **Cụm cố định?** *go to work, at home, by bus, in the morning, the city (thành phố của tôi), the doctor (bác sĩ của tôi), the weekend*.\n\nTên riêng: *Vancouver, Canada, Stanley Park* không có \"the\"; nhưng *the Fraser River, the Lower Mainland, the United States* thì có."
+    },
+    {
+      "heading": "2. Số nhiều và danh từ không đếm được",
+      "body": "- Số đếm và *many, several, a few, one of the* → danh từ số nhiều: *three years, one of the biggest problems*.\n- *every, each* → danh từ số ít: *every resident, each unit*.\n- **Uncountable nouns** không bao giờ thêm -s và không đi với \"a\": **advice, information, equipment, furniture, feedback, homework, luggage, traffic, research, news, money, parking**. Muốn đếm thì dùng *a piece of advice*, *some information*.\n- *much* đi với không đếm được, *many* đi với đếm được: *much traffic, many cars*.\n\n✗ *Thank you for the informations and your advices.* → ✓ *Thank you for the information and your advice.*"
+    },
+    {
+      "heading": "3. Thì: past simple hay present perfect?",
+      "body": "- **Past simple** (*moved, happened*): hành động đã xong, có thời điểm cụ thể đã qua: *yesterday, last week, in 2019, two days ago*.\n- **Present perfect** (*have lived, has broken*): bắt đầu trong quá khứ và còn liên quan đến hiện tại, thường đi với *since, for, already, yet, so far, this month*.\n\n*I have lived in Surrey since 2020.* (vẫn đang sống) / *I lived in Calgary for two years.* (đã chuyển đi).\n\nTrong email phàn nàn, vấn đề **vẫn còn** → present perfect: *The heater has not worked for a week.* Sự việc cụ thể đã qua → past simple: *I called the office on Monday.* Ngoài ra, giữ thì nhất quán: kể chuyện đã qua thì đừng nhảy sang hiện tại giữa chừng."
+    },
+    {
+      "heading": "4. Hoà hợp chủ ngữ – động từ",
+      "body": "Ngôi thứ ba số ít ở thì hiện tại cần **-s**: *My son takes the bus.* Bẫy thường gặp:\n\n- **Chủ ngữ dài:** tìm danh từ chính. *The noise from the trucks **is** terrible.* (chủ ngữ là *noise*, không phải *trucks*).\n- **Each / Every / One of…** → động từ số ít: *Each of the units **has** a balcony.*\n- **There is / There are** theo danh từ phía sau: *There **are** many parks.*\n- *The number of* + số ít; *A number of* + số nhiều.\n- Danh từ không đếm được → động từ số ít: *The information **was** helpful.*"
+    },
+    {
+      "heading": "5. Giới từ đi kèm (dependent prepositions)",
+      "body": "Người Việt hay dịch thẳng từ tiếng Việt, nên thêm hoặc thiếu giới từ. Học theo cụm:\n\n- **apply for** a job, **interested in**, **responsible for**, **complain about**, **depend on**, **look forward to** + V-ing\n- Không có giới từ: **discuss** the issue (✗ discuss about), **contact** the office (✗ contact to), **attend** the meeting, **enter** the building\n- Thời gian: **at** 6 p.m., **on** Monday / **on** March 3, **in** May / **in** the morning\n- Nơi chốn: **in** Burnaby, **at** the community centre, **on** Main Street\n\nKhi sửa bài, đừng sửa cả năm nhóm cùng lúc. Hãy đọc lại **một lần cho mỗi nhóm lỗi**, bắt đầu từ nhóm bạn hay sai nhất."
+    }
+  ],
+  "stimuli": {
+    "draft-heater-email": {
+      "title": "Draft email to a property manager (Level 6–7)",
+      "text": "I am writing to complain about heater in my apartment. It is broken since last Monday and my children is cold every night. I already contacted to your office two times and I received many informations, but nobody come to fix it. The temperature in the bedrooms are only 15 degrees."
+    }
+  },
+  "examples": [
+    {
+      "id": "wr-02-ex1",
+      "title": "One pass per error type",
+      "stimulusId": "draft-heater-email",
+      "question": "Correct every grammar error in this draft by checking one error type at a time.",
+      "steps": [
+        "Articles pass: 'about heater' — singular countable noun, and the reader knows which heater (the one in my apartment) → 'about the heater'.",
+        "Plural / uncountable pass: 'many informations' — information is uncountable → 'a lot of information' or 'some information'.",
+        "Tense pass: 'It is broken since last Monday' — the problem started in the past and continues, and 'since' needs present perfect → 'It has been broken since last Monday'. 'nobody come' describes the past situation up to now → 'nobody has come'.",
+        "Agreement pass: 'my children is' → 'are' (children = plural). 'The temperature in the bedrooms are' — the head noun is temperature → 'is'.",
+        "Preposition pass: 'contacted to your office' — contact takes no preposition → 'contacted your office'. 'two times' is understood but 'twice' is more natural."
+      ],
+      "answer": "I am writing to complain about the heater in my apartment. It has been broken since last Monday, and my children are cold every night. I have already contacted your office twice and received a lot of information, but nobody has come to fix it. The temperature in the bedrooms is only 15 degrees.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "I am writing to complain about heater in my apartment. It is broken since last Monday and my children is cold every night. I already contacted to your office two times and I received many informations, but nobody come to fix it. The temperature in the bedrooms are only 15 degrees.",
+          "commentVi": "Chín chỗ cần sửa trong bốn câu: thiếu \"the\" trước heater; \"is broken since\" sai thì; \"children is\" sai hoà hợp; \"already contacted\" nên dùng present perfect; \"contacted to\" thừa giới từ; \"two times\" chưa tự nhiên; \"many informations\" sai danh từ không đếm được; \"nobody come\" sai thì và thiếu -s; \"temperature… are\" hoà hợp theo nhầm danh từ \"bedrooms\". Nội dung rõ ràng, nhưng mật độ lỗi khiến bài trông như Level 6."
+        },
+        {
+          "label": "after",
+          "text": "I am writing to complain about the heater in my apartment. It has been broken since last Monday, and my children are cold every night. I have already contacted your office twice and received a lot of information, but nobody has come to fix it. The temperature in the bedrooms is only 15 degrees.",
+          "commentVi": "Các thay đổi: thêm \"the\" (cái máy sưởi xác định); \"has been broken since\" (present perfect với since); \"children are\"; \"have already contacted your office\" (bỏ \"to\", dùng present perfect với already); \"twice\"; \"a lot of information\"; \"nobody has come\"; \"temperature… is\" (chủ ngữ chính là temperature). Thêm dấu phẩy trước \"and\" để tách hai mệnh đề cho dễ đọc."
+        }
+      ],
+      "takeawayVi": "Đọc lại năm lần ngắn, mỗi lần chỉ tìm một loại lỗi, hiệu quả hơn nhiều so với đọc một lần và cố bắt mọi lỗi."
+    },
+    {
+      "id": "wr-02-ex2",
+      "title": "Choosing articles step by step",
+      "question": "Fill in a / an / the / (no article): 'Last week I found ___ apartment in Richmond. ___ apartment is close to ___ Canada Line, and ___ rent is reasonable. I think ___ public transit is important for ___ families with young kids.'",
+      "steps": [
+        "'___ apartment' (first mention, singular countable, starts with a vowel sound) → an apartment.",
+        "'___ apartment is close' — now the reader knows which one → The apartment.",
+        "'___ Canada Line' — name of a specific transit line, like 'the SkyTrain' → the Canada Line.",
+        "'___ rent' — the rent of that apartment, specific → the rent.",
+        "'___ public transit is important' — talking about transit in general, uncountable → no article.",
+        "'___ families with young kids' — plural, general → no article."
+      ],
+      "answer": "an apartment / The apartment / the Canada Line / the rent / public transit (no article) / families (no article)",
+      "takeawayVi": "Cùng một danh từ có thể đổi mạo từ: lần đầu \"an apartment\", lần sau \"the apartment\". Nói chung chung thì bỏ mạo từ."
+    },
+    {
+      "id": "wr-02-ex3",
+      "title": "Past simple vs present perfect in a survey answer",
+      "question": "Which tense fits each blank? 'I ___ (live) in this neighbourhood for six years. When I first ___ (move) here, there ___ (be) no grocery store nearby, so the new market ___ (make) a huge difference since it opened.'",
+      "steps": [
+        "'for six years' and still living here → have lived.",
+        "'When I first ___ here' — a finished event at a past moment → moved.",
+        "'there ___ no grocery store' — the situation at that past moment → was.",
+        "'since it opened' — the effect continues until now → has made."
+      ],
+      "answer": "have lived / moved / was / has made",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "I live in this neighbourhood for six years. When I first move here, there is no grocery store nearby, so the new market makes a huge difference since it opened.",
+          "commentVi": "Toàn bộ động từ để ở hiện tại đơn, giống cách nói tiếng Việt không chia thì. Người đọc không biết việc nào đã xong, việc nào còn tiếp diễn; \"live… for six years\" và \"makes… since\" là lỗi thì rõ ràng."
+        },
+        {
+          "label": "after",
+          "text": "I have lived in this neighbourhood for six years. When I first moved here, there was no grocery store nearby, so the new market has made a huge difference since it opened.",
+          "commentVi": "Các thay đổi: \"have lived\" (for + đến hiện tại); \"moved\" và \"was\" (thời điểm đã qua); \"has made\" (since + ảnh hưởng còn đến nay). Mỗi thì cho người đọc biết chính xác mốc thời gian."
+        }
+      ],
+      "takeawayVi": "Thấy since/for/already/yet → nghĩ đến present perfect. Thấy mốc thời gian đã qua (ago, last, in 2019, when I first…) → past simple."
+    }
+  ],
+  "guided": [
+    {
+      "id": "wr-02-g1",
+      "type": "text",
+      "prompt": "Type the correct form of the noun in brackets: 'Thank you for all the helpful (advice) ______ you gave me about finding a family doctor.'",
+      "hint": "Is this noun on the lesson's list of uncountable nouns?",
+      "answers": ["advice"],
+      "mode": "exact",
+      "misconception": "uncountable-plural",
+      "explanationVi": "\"advice\" là danh từ không đếm được, không thêm -s dù có \"all\". Muốn đếm thì nói \"two pieces of advice\".",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-02-g2",
+      "type": "choice",
+      "prompt": "Choose the correct sentence.",
+      "hint": "Find the head noun of the subject. Ignore the 'of…' phrase that follows it.",
+      "options": [
+        { "text": "Each of the townhouses have a small backyard.", "misconception": "agreement-error", "whyVi": "Chủ ngữ thật là \"Each\" (số ít); \"townhouses\" chỉ là phần bổ nghĩa." },
+        { "text": "Each of the townhouses has a small backyard.", "misconception": null, "whyVi": "Đúng. Each + of + danh từ số nhiều → động từ vẫn chia số ít." },
+        { "text": "Each of the townhouse has a small backyard.", "misconception": "uncountable-plural", "whyVi": "Sau \"of the\" trong cấu trúc each of phải là danh từ số nhiều: townhouses." },
+        { "text": "Each townhouses has a small backyard.", "misconception": "uncountable-plural", "whyVi": "\"Each\" đứng ngay trước danh từ thì danh từ phải ở số ít: each townhouse." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Each of + the + danh từ số nhiều + động từ số ít. Each + danh từ số ít + động từ số ít.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-02-g3",
+      "type": "choice",
+      "prompt": "Choose the sentence with the correct tense.",
+      "hint": "Is there a finished time marker (last…, ago, in 2021), or a 'since/for' that reaches the present?",
+      "options": [
+        { "text": "I have joined the community choir two years ago.", "misconception": "tense-mismatch", "whyVi": "\"ago\" chỉ thời điểm đã qua, không đi với present perfect." },
+        { "text": "I am a member of the community choir since two years.", "misconception": "tense-mismatch", "whyVi": "Sai hai chỗ: \"since\" cần present perfect, và với khoảng thời gian phải dùng \"for\"." },
+        { "text": "I have been a member of the community choir for two years.", "misconception": null, "whyVi": "Đúng. Present perfect + for + khoảng thời gian, và việc vẫn còn tiếp diễn." },
+        { "text": "I am joining the community choir for two years.", "misconception": "tense-mismatch", "whyVi": "Hiện tại tiếp diễn không diễn tả được \"đã… được hai năm\"." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "\"for + khoảng thời gian\" và \"since + mốc thời gian\" đi với present perfect khi việc còn tiếp diễn. \"ago\" chỉ đi với past simple.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-02-g4",
+      "type": "text",
+      "prompt": "Type the missing preposition (one word): 'I am writing to apply ______ the part-time cashier position advertised at your Kelowna store.'",
+      "hint": "This verb is in the lesson's list of 'verb + preposition' pairs for jobs.",
+      "answers": ["for"],
+      "mode": "exact",
+      "misconception": "preposition-calque",
+      "explanationVi": "apply for + vị trí công việc / học bổng / giấy phép. (apply to + công ty hoặc trường: apply to UBC.)",
+      "competency": "grammar"
+    }
+  ],
+  "independent": [
+    {
+      "id": "wr-02-i1",
+      "type": "choice",
+      "prompt": "Choose the sentence that uses articles correctly.",
+      "options": [
+        { "text": "The children need safe place to play after the school.", "misconception": "article-error", "whyVi": "\"place\" đếm được, số ít nên cần \"a\"; \"after school\" là cụm cố định, không có \"the\"." },
+        { "text": "Children need a safe place to play after school.", "misconception": null, "whyVi": "Đúng. Children nói chung (không mạo từ); a safe place (lần đầu nhắc, số ít); after school (cụm cố định)." },
+        { "text": "A children need the safe place to play after school.", "misconception": "article-error", "whyVi": "\"children\" là số nhiều nên không đi với \"a\"; \"the safe place\" ngụ ý một nơi đã xác định, sai nghĩa." },
+        { "text": "Children need safe place to play after school.", "misconception": "article-error", "whyVi": "Thiếu \"a\" trước danh từ đếm được số ít \"place\"." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Danh từ đếm được số ít luôn cần từ hạn định. Danh từ số nhiều nói chung thì không dùng mạo từ.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-02-i2",
+      "type": "text",
+      "prompt": "Type the correct present-tense form of 'be': 'The noise from the construction trucks on our street ______ unbearable early in the morning.'",
+      "answers": ["is"],
+      "mode": "exact",
+      "misconception": "agreement-error",
+      "explanationVi": "Danh từ chính của chủ ngữ là \"noise\" (không đếm được, số ít), không phải \"trucks\". Hãy gạch bỏ cụm \"from the… on our street\" để tìm chủ ngữ thật.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-02-i3",
+      "type": "choice",
+      "prompt": "Which sentence has NO grammar errors?",
+      "options": [
+        { "text": "We would like to discuss about the parking problem at the next strata meeting.", "misconception": "preposition-calque", "whyVi": "\"discuss\" không đi với \"about\"." },
+        { "text": "We would like to discuss the parking problem at the next strata meeting.", "misconception": null, "whyVi": "Đúng. discuss + tân ngữ trực tiếp; at the meeting." },
+        { "text": "We would like to discuss the parking problems in the next strata meeting at Monday.", "misconception": "preposition-calque", "whyVi": "Thứ trong tuần dùng \"on\", không dùng \"at\": on Monday." },
+        { "text": "We would like to discuss the parkings problem at the next strata meeting.", "misconception": "uncountable-plural", "whyVi": "\"parking\" không đếm được và ở đây làm tính từ cho \"problem\", nên không thêm -s." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Những động từ discuss, contact, attend, enter, answer, reach đi thẳng với tân ngữ, không có giới từ.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-02-i4",
+      "type": "text",
+      "prompt": "Type the correct present perfect form of the verb in brackets: 'Since the new recreation centre opened, my kids (take) ______ swimming lessons every Saturday.'",
+      "answers": ["have taken", "have been taking", "'ve taken", "'ve been taking"],
+      "mode": "exact",
+      "misconception": "tense-mismatch",
+      "explanationVi": "\"Since + mốc quá khứ\" và hành động còn tiếp tục đến nay → present perfect (have taken) hoặc present perfect continuous (have been taking).",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-02-i5",
+      "type": "choice",
+      "prompt": "A learner's survey response contains this sentence. Which correction is right? 'One of the main reason is that the bus are always late.'",
+      "options": [
+        { "text": "One of the main reasons is that the bus is always late.", "misconception": null, "whyVi": "Đúng. one of the + danh từ số nhiều (reasons) + động từ số ít (is); the bus (số ít) + is." },
+        { "text": "One of the main reasons are that the bus is always late.", "misconception": "agreement-error", "whyVi": "Chủ ngữ là \"One\", nên động từ phải là \"is\"." },
+        { "text": "One of the main reason is that the buses is always late.", "misconception": "uncountable-plural", "whyVi": "Vẫn sai \"reason\" (phải là reasons) và \"buses is\" sai hoà hợp." },
+        { "text": "One of main reasons is that bus is always late.", "misconception": "article-error", "whyVi": "Bỏ mất \"the\" trong cụm cố định \"one of the\" và trước \"bus\"." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "\"One of the + plural noun + singular verb\" là cấu trúc rất hay dùng trong Task 2. Hãy học thuộc nguyên cụm: One of the main reasons is…",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-02-i6",
+      "type": "choice",
+      "prompt": "Choose the most accurate sentence for a Level 8 email to a moving company.",
+      "options": [
+        { "text": "Your movers damaged two furnitures and lost one of my luggages when they moved us on April 12.", "misconception": "uncountable-plural", "whyVi": "\"furniture\" và \"luggage\" là danh từ không đếm được." },
+        { "text": "Your movers have damaged two pieces of furniture and lost one of my suitcases when they moved us on April 12.", "misconception": "tense-mismatch", "whyVi": "Có mốc thời gian cụ thể đã qua (when… on April 12), nên phải dùng past simple: damaged." },
+        { "text": "Your movers damaged two pieces of furniture and lost one of my suitcases when they moved us on April 12.", "misconception": null, "whyVi": "Đúng. \"two pieces of furniture\" (đếm danh từ không đếm được); \"one of my suitcases\" (số nhiều); past simple với mốc thời gian cụ thể; on + ngày." },
+        { "text": "Your movers damaged two pieces of furniture and lost one of my suitcases when they moved us in April 12.", "misconception": "preposition-calque", "whyVi": "Ngày cụ thể dùng \"on\": on April 12." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Câu Level 8 phải đúng đồng thời nhiều nhóm: danh từ không đếm được, số nhiều, thì và giới từ. Kiểm tra từng nhóm một.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-02-i7",
+      "type": "text",
+      "prompt": "Type the ONE word that correctly completes this sentence: 'There ______ a number of reasons why I prefer the online course.'",
+      "answers": ["are"],
+      "mode": "exact",
+      "misconception": "agreement-error",
+      "explanationVi": "\"A number of + danh từ số nhiều\" mang nghĩa \"nhiều\" và đi với động từ số nhiều: There are a number of reasons. (So sánh: The number of students is growing.)",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-02-i8",
+      "type": "produce",
+      "medium": "write",
+      "minWords": 60,
+      "prompt": "Rewrite this paragraph from an email to a city recreation office, correcting ALL the grammar errors. Then add one sentence of your own asking for a specific action. Paragraph: 'I am writing about swimming pool at Riverside Community Centre. It is closed since three weeks and nobody give us any informations. My daughter attend lessons there and she miss many classes. I am interesting to know when it will reopen.'",
+      "checklist": [
+        "Added 'the' before 'swimming pool' (specific pool)",
+        "Changed 'is closed since three weeks' to present perfect with 'for' (has been closed for three weeks)",
+        "Fixed 'informations' and 'give' (any information / has given)",
+        "Added third-person -s or the correct tense for 'attend' and 'miss'",
+        "Fixed 'I am interesting to know' (e.g. 'I would like to know' or 'I am interested in knowing')",
+        "The added request sentence has no article, plural, tense or preposition errors"
+      ],
+      "modelAnswer": "I am writing about the swimming pool at Riverside Community Centre. It has been closed for three weeks, and nobody has given us any information. My daughter attends lessons there, and she has already missed several classes. I would like to know when the pool will reopen. Could you please post the expected reopening date on the centre's website or send an update to registered families by the end of this week?",
+      "misconception": "agreement-error",
+      "explanationVi": "So bài của bạn với bài mẫu theo từng nhóm lỗi trong checklist. Nhóm nào bạn bỏ sót nhiều nhất thì đó là nhóm cần đưa vào danh sách lỗi cá nhân (bài wr-14).",
+      "competency": "grammar"
+    }
+  ],
+  "misconceptions": {
+    "article-error": {
+      "label": "Thiếu hoặc dùng sai mạo từ",
+      "explanationVi": "Tiếng Việt không có mạo từ, nên bạn chưa có thói quen hỏi \"danh từ này đếm được không, số ít không, người đọc đã biết chưa\". Lỗi thường gặp nhất là bỏ \"a\" trước danh từ số ít và thêm \"the\" khi nói chung chung.",
+      "fixVi": "Khoanh tròn mọi danh từ số ít đếm được: phải có a/an/the/my… phía trước. Với danh từ số nhiều hoặc không đếm được nói chung chung, bỏ mạo từ."
+    },
+    "uncountable-plural": {
+      "label": "Sai số nhiều / danh từ không đếm được",
+      "explanationVi": "Bạn thêm -s cho danh từ không đếm được (informations, advices, furnitures) hoặc quên -s sau số đếm, many, one of the. Nguyên nhân là tiếng Việt không đánh dấu số nhiều trên danh từ.",
+      "fixVi": "Học thuộc danh sách danh từ không đếm được hay gặp trong email (information, advice, equipment, furniture, luggage, feedback, traffic, parking). Sau số đếm, many, several, one of the: luôn kiểm tra -s."
+    },
+    "tense-mismatch": {
+      "label": "Sai thì (quá khứ đơn / hiện tại hoàn thành)",
+      "explanationVi": "Bạn chưa gắn thì với mốc thời gian: dùng present perfect với \"ago/last week\", hoặc dùng hiện tại đơn với \"since/for\". Tiếng Việt chỉ dùng \"đã\", \"rồi\", \"được… năm\" nên hai thì này dễ lẫn.",
+      "fixVi": "Gạch chân từ chỉ thời gian trước: since/for/already/yet → present perfect; ago/last/yesterday/in + năm → past simple."
+    },
+    "agreement-error": {
+      "label": "Động từ không hoà hợp với chủ ngữ",
+      "explanationVi": "Bạn chia động từ theo danh từ đứng gần nhất thay vì danh từ chính của chủ ngữ, hoặc quên -s ở ngôi thứ ba số ít vì tiếng Việt không chia động từ.",
+      "fixVi": "Gạch bỏ các cụm of…, from…, in… sau chủ ngữ để tìm danh từ chính. Each/Every/One of → số ít. Danh từ không đếm được → số ít."
+    },
+    "preposition-calque": {
+      "label": "Giới từ dịch từ tiếng Việt",
+      "explanationVi": "Bạn dịch thẳng \"thảo luận về\", \"liên lạc với\", \"vào thứ Hai\" thành discuss about, contact to, at Monday. Giới từ tiếng Anh phải học theo cụm, không suy ra từ tiếng Việt.",
+      "fixVi": "Ghi vào sổ từ vựng theo cụm động từ + giới từ (apply for, complain about, interested in) và danh sách động từ không có giới từ (discuss, contact, attend)."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "a piece of advice / some information", "vi": "một lời khuyên / một số thông tin (đếm danh từ không đếm được)", "example": "The settlement worker gave me a useful piece of advice about renting." },
+    { "term": "one of the main reasons is", "vi": "một trong những lý do chính là", "example": "One of the main reasons is that the SkyTrain station is only a block away." },
+    { "term": "has been + adj/V3 + since/for", "vi": "đã… từ / được (vẫn còn đến nay)", "example": "The elevator has been out of order since Monday." },
+    { "term": "apply for (a position)", "vi": "ứng tuyển vào (vị trí)", "example": "I would like to apply for the summer camp leader position." },
+    { "term": "complain about", "vi": "phàn nàn về", "example": "Several residents have complained about the broken gate." },
+    { "term": "discuss (no preposition)", "vi": "thảo luận về (không có about)", "example": "Could we discuss the schedule change at Tuesday's meeting?" },
+    { "term": "contact (no preposition)", "vi": "liên hệ (không có to/with)", "example": "Please contact me at the number below." },
+    { "term": "interested in + noun / V-ing", "vi": "quan tâm đến", "example": "I am interested in volunteering at the food bank." },
+    { "term": "a number of + plural verb", "vi": "một số / nhiều (động từ số nhiều)", "example": "A number of parents have asked for a later start time." }
+  ],
+  "grammar": [
+    {
+      "point": "Articles: a / an / the / zero article",
+      "explanationVi": "Danh từ đếm được số ít luôn cần từ hạn định. Dùng a/an khi nhắc lần đầu hoặc không xác định; the khi người đọc biết là cái nào; không dùng mạo từ với danh từ số nhiều hoặc không đếm được nói chung.",
+      "examples": [
+        "I ordered a new desk. The desk arrived with a broken leg.",
+        "Public transit is cheaper than driving.",
+        "The library on Main Street has free Wi-Fi."
+      ]
+    },
+    {
+      "point": "Past simple vs present perfect",
+      "explanationVi": "Past simple cho việc đã xong tại thời điểm cụ thể; present perfect cho việc bắt đầu trong quá khứ và còn liên quan đến hiện tại (since, for, already, yet).",
+      "examples": [
+        "I called the office on Monday.",
+        "I have called the office three times this week.",
+        "We have lived in Langley since 2021."
+      ]
+    },
+    {
+      "point": "Subject–verb agreement with long subjects",
+      "explanationVi": "Động từ hoà hợp với danh từ chính của chủ ngữ, không phải danh từ gần nhất. Each/Every/One of → số ít.",
+      "examples": [
+        "The list of approved contractors is on the website.",
+        "One of my neighbours has a key.",
+        "There are three daycares near our home."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Write a Task 1 email, then do one check per error type", "route": "/writing?task=W1" },
+    { "label": "Review your recurring grammar mistakes", "route": "/mistakes" },
+    { "label": "Add uncountable nouns and preposition pairs to your notebook", "route": "/vocabulary" }
+  ],
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "author-agent+independent-review-agent", "notes": "Solved all 12 exercises independently; keys correct. Fixed i4 prompt ('two words' conflicted with the accepted 'have been taking'), aligned the i8 checklist with the model answer (which uses 'would like to know'), and made the ex1 'before' comment list all nine corrections it claims." }
+}

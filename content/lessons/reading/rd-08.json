@@ -1,0 +1,355 @@
+{
+  "id": "rd-08",
+  "skill": "reading",
+  "module": "reading-techniques",
+  "level": "core",
+  "difficulty": 8,
+  "title": "Making inferences",
+  "titleVi": "Suy luận (đọc hàm ý)",
+  "estimatedMinutes": 35,
+  "prerequisites": ["rd-07"],
+  "competencies": ["inference"],
+  "tasks": ["R1", "R4"],
+  "objectives": [
+    "You will be able to tell the difference between what a text states and what it implies.",
+    "You will be able to build an inference by combining two or more clues in the text.",
+    "You will be able to reject options that go further than the text allows (over-inference) or rely on outside knowledge."
+  ],
+  "objectiveVi": "Bạn sẽ hiểu được điều người viết muốn nói mà không nói thẳng — lời phàn nàn lịch sự, lời từ chối khéo, thái độ — và chỉ chọn suy luận mà bài đọc thật sự ủng hộ.",
+  "whyItMattersVi": "Câu hỏi suy luận (suggest, imply, most likely, can be inferred) là nhóm câu phân biệt Level 6 với Level 8, nhất là ở Part 1 (thư từ: người viết thật sự muốn gì, quan hệ ra sao) và Part 4 (quan điểm). Người học ở mức Reading 5 thường mắc một trong hai lỗi: chỉ đọc nghĩa đen nên bỏ lỡ hàm ý, hoặc suy luận quá xa bằng trí tưởng tượng. Bài này dạy bạn đứng đúng ở giữa.",
+  "concept": [
+    {
+      "heading": "Stated vs implied: suy luận là gì",
+      "body": "**Stated** (được nêu): bài viết nói thẳng. *'Our baby has been waking up with the first saw.'*\n**Implied** (hàm ý): bài không nói thẳng, nhưng các manh mối buộc người đọc phải hiểu như vậy. Từ câu trên cộng với *'the crew has been starting around 7 a.m.'* và *'the bylaw allows construction noise from 7:30'*, ta suy ra: **người viết cho rằng đội thợ đang làm ồn sớm hơn quy định**, dù cô ấy không dùng chữ *break the rule*.\n\nMột suy luận tốt có hai đặc điểm: (1) **dựa trên manh mối cụ thể trong bài**, (2) **gần như chắc chắn đúng** nếu bài là sự thật. Suy luận không phải là đoán, càng không phải là ý kiến của bạn."
+    },
+    {
+      "heading": "Cách suy luận từng bước",
+      "body": "1. **Nhận dạng câu hỏi suy luận:** *suggest, imply, infer, most likely, probably, What can be concluded…, Why does the writer mention…*\n2. **Tìm ít nhất hai manh mối.** Một suy luận mạnh thường ghép hai chi tiết: *7 a.m.* + *bylaw from 7:30*; *leaves for work at 6:45* + *heads-up the night before*.\n3. **Viết ra kết luận nhỏ nhất** mà các manh mối chứng minh. Ví dụ: 'Cô ấy cần biết trước để kịp đi làm' — chứ không phải 'Cô ấy sẽ kiện lên thành phố'.\n4. **Kiểm tra bằng câu hỏi: Người viết có thể phản đối kết luận này không?** Nếu người viết có thể nói 'Tôi không hề nói vậy', bạn đã suy luận quá xa.\n5. **Chọn đáp án khớp với kết luận nhỏ nhất**, thường là đáp án dùng từ mềm, vừa phải."
+    },
+    {
+      "heading": "Manh mối hàm ý thường gặp",
+      "body": "- **Lời nói lịch sự che giấu phàn nàn:** *I just wanted to mention…*, *Would you mind…*, *I'm sure it's just a small mix-up* → người viết đang góp ý nhưng muốn giữ quan hệ tốt.\n- **Từ đi kèm thời gian/lặp lại:** *again*, *still*, *lately*, *no longer* → cho biết điều đã xảy ra trước đó. *Park the trailer on our side again* → trước đây đã đỗ ở đó.\n- **Thông tin được nhắc đến nhưng không giải thích:** trong thư từ chối việc làm, *'we have offered the position to a candidate whose background includes…'* → bạn **không** được nhận, dù câu 'you were unsuccessful' không xuất hiện.\n- **Tín hiệu tương phản:** *still, however, that said, but* → người nói chuẩn bị thêm ý trái chiều; quan điểm thật thường đứng sau.\n- **Lựa chọn chi tiết để kết thư:** lời mời mượn đồ, lời khen → mục đích giữ thiện chí."
+    },
+    {
+      "heading": "Bẫy over-inference và bẫy kiến thức ngoài",
+      "body": "**Over-inference** (suy luận quá xa): đáp án đi xa hơn bằng chứng một bước. Bài nói *'a quick heads-up would really help'* → đáp án *'She has complained to the city before'* là quá xa. Dấu hiệu: từ tuyệt đối (*always, never, definitely, all*), nguyên nhân hoặc kết quả không được nhắc đến, dự đoán tương lai chắc chắn.\n\n**Outside knowledge** (kiến thức ngoài bài): đáp án đúng ngoài đời nhưng bài không cho manh mối. Ví dụ: 'Đội thợ sẽ bị phạt' — ngoài đời có thể đúng, nhưng bài không nói gì về phạt.\n\n**Literal only** (chỉ đọc nghĩa đen): ngược lại, có người không dám suy luận. Họ chọn đáp án lặp lại chi tiết bề mặt và bỏ qua mục đích. Ví dụ: hiểu *'let me know if you'd like to borrow our ladder'* chỉ là chuyện cái thang, mà không thấy mục đích là kết thư thân thiện.\n\nĐáp án suy luận đúng thường **vừa đủ**: mạnh hơn nghĩa đen, nhưng yếu hơn đáp án cực đoan."
+    }
+  ],
+  "stimuli": {
+    "neighbour-email": {
+      "title": "Email: A note from next door",
+      "text": "Hi Rosa,\n\nI hope the renovation is going well — I can see the new windows already, and they look great. I just wanted to mention that the crew has been starting around 7 a.m. lately. I know the city bylaw allows construction noise from 7:30 on weekdays, and I'm sure it's just a small mix-up about the times. Our baby has been waking up with the first saw each morning, so we've all been a little short on sleep!\n\nWould you mind passing that along to your contractor? Also, if they need to park the trailer on our side of the street again, a quick heads-up the night before would really help, since I leave for work at 6:45.\n\nThanks so much, and let me know if you'd like to borrow our ladder again.\n\nEllen"
+    },
+    "ebike-article": {
+      "title": "Article: Did the e-bike rebate work?",
+      "text": "When the Okanagan Regional Transportation Fund announced its rebate for electric bikes, many cyclists expected a rush of new riders. A year later, the picture is more complicated. Bike shops in Kelowna and Vernon report strong sales, but most buyers, according to one shop owner, 'already owned a regular bike and simply upgraded.'\n\nTransportation researcher Dr. Helen Cho points out that this is not necessarily a failure. 'Someone who replaces two car trips a week with an e-bike ride is still reducing traffic,' she says. Still, she notes that the rebate was meant to reach people who drive daily, and the program's own survey suggests few of them applied.\n\nCity councillor Mark Dubois is less patient. He argues that rebates are 'a reward for people who were going to cycle anyway' and that the money would do more good if it were spent on protected bike lanes. 'People don't buy bikes when they're afraid of the road,' he says.\n\nThe fund has said it will review the program in the spring."
+    },
+    "job-reply": {
+      "title": "Email: Warehouse Supervisor position",
+      "text": "Dear Mr. Tran,\n\nThank you for taking the time to interview for the Warehouse Supervisor position last Thursday. The panel enjoyed hearing about your experience running inventory audits, and your suggestion about cross-training forklift operators came up several times in our discussion afterward.\n\nAfter careful consideration, we have offered the position to a candidate whose background includes managing a unionized team, which is a key requirement for this site. This was a difficult decision.\n\nWe will be posting two shift lead positions at our Surrey location next month. Given the strengths you showed, I would encourage you to apply, and I would be happy to pass your file along to the hiring manager there if you let me know by May 15.\n\nKind regards,\nAnita Bose\nHuman Resources, Pacific Freight Logistics"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Combining two clues",
+      "stimulusId": "neighbour-email",
+      "question": "What can be inferred about the renovation crew? (A) They have been starting work earlier than the bylaw allows. (B) They damaged Ellen's windows. (C) They will be fined by the city. (D) They also work on weekends.",
+      "steps": [
+        "Question word 'inferred' → the answer is not written directly. I need clues.",
+        "Clue 1: 'the crew has been starting around 7 a.m. lately'. Clue 2: 'the city bylaw allows construction noise from 7:30 on weekdays'.",
+        "Combine: 7:00 is before 7:30 → the crew starts earlier than the bylaw allows. Ellen never says 'they are breaking the rule', but the two facts together prove it (from her point of view).",
+        "Smallest conclusion: (A). Test: could Ellen say 'I never meant that'? No — that is exactly why she mentions the bylaw.",
+        "(B) Outside the text: the windows 'look great'. (C) Over-inference: nothing about fines. (D) Not supported: the bylaw she mentions is about weekdays; weekends are never discussed."
+      ],
+      "answer": "(A) They have been starting work earlier than the bylaw allows.",
+      "takeawayVi": "Suy luận mạnh = hai chi tiết được nêu + một phép ghép logic. Không cần từ 'break the rule' xuất hiện trong bài."
+    },
+    {
+      "id": "ex2",
+      "title": "Why does the writer mention…?",
+      "stimulusId": "neighbour-email",
+      "question": "Why does Ellen offer to lend her ladder? (A) To ask Rosa to return it. (B) To end a complaint on a friendly note. (C) Because the crew has been using it. (D) To suggest the crew use it instead of the trailer.",
+      "steps": [
+        "'Why does the writer mention…' asks about PURPOSE, not about the ladder itself.",
+        "Look at the whole email: it opens with a compliment, raises two problems politely, then closes with 'Thanks so much' and the ladder offer.",
+        "The word 'again' tells me Rosa has borrowed it before — the neighbours have a friendly relationship.",
+        "Smallest conclusion: Ellen wants to keep the relationship warm after raising problems. That is (B).",
+        "(A) Literal misreading: she offers it, she does not ask for it back. (C) and (D) invent facts about the crew."
+      ],
+      "answer": "(B) To end a complaint on a friendly note.",
+      "takeawayVi": "Câu hỏi 'Why does the writer mention X?' hỏi về CHỨC NĂNG của chi tiết trong cả bức thư. Hãy nhìn vị trí của chi tiết (mở đầu, kết thư) và giọng điệu xung quanh."
+    },
+    {
+      "id": "ex3",
+      "title": "Reading a polite refusal",
+      "stimulusId": "job-reply",
+      "question": "Did Mr. Tran get the Warehouse Supervisor job?",
+      "steps": [
+        "The letter never says 'unfortunately' or 'you were not selected'.",
+        "Clue 1: 'we have offered the position to a candidate whose background includes managing a unionized team' — a candidate, described in the third person, is someone else.",
+        "Clue 2: 'This was a difficult decision' and the suggestion to apply for other jobs only make sense if he was not chosen.",
+        "Conclusion: No. This is a firm inference, not a guess — all clues point the same way and none points the other way."
+      ],
+      "answer": "No — the position was offered to another candidate.",
+      "takeawayVi": "Thư trang trọng ở Canada thường từ chối gián tiếp. Hãy tìm ai là người nhận được thứ được nhắc đến, và vì sao người viết lại đề xuất phương án khác."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "neighbour-email",
+      "prompt": "Why does Ellen ask for 'a quick heads-up the night before'?",
+      "hint": "Connect the request with the time she gives at the end of the same sentence.",
+      "options": [
+        { "text": "She needs to plan around the trailer because she leaves early.", "misconception": null, "whyVi": "Đúng: cô ấy đi làm lúc 6:45, nên cần biết trước buổi tối để sắp xếp." },
+        { "text": "She wants to park her own trailer on that side.", "misconception": "outside_knowledge", "whyVi": "Không có chi tiết nào cho thấy Ellen có xe moóc." },
+        { "text": "She wants the crew to stop working at night.", "misconception": "over_inference", "whyVi": "'The night before' là thời điểm báo trước, không phải giờ đội thợ làm việc." },
+        { "text": "She is going to report the crew to the city.", "misconception": "over_inference", "whyVi": "Quá xa: bức thư rất lịch sự và không hề nhắc đến việc báo cáo." }
+      ],
+      "answerIndex": 0,
+      "evidence": "a quick heads-up the night before would really help, since I leave for work at 6:45",
+      "explanationVi": "'Since' nối yêu cầu với lý do. Ghép hai mảnh: báo trước tối hôm trước + đi làm lúc 6:45 → cô ấy cần chuẩn bị (ví dụ dời xe) trước giờ đi làm.",
+      "competency": "inference"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "neighbour-email",
+      "prompt": "Ellen's attitude toward Rosa is best described as…",
+      "hint": "Weigh the compliments and offers in the email against the problems she raises. The answer must cover both.",
+      "options": [
+        { "text": "angry and threatening", "misconception": "over_inference", "whyVi": "Không có lời đe dọa nào; giọng thư nhẹ nhàng, có dấu chấm than vui vẻ." },
+        { "text": "friendly but concerned", "misconception": null, "whyVi": "Đúng: khen cửa sổ, cảm ơn, cho mượn thang (friendly) + nêu hai vấn đề (concerned)." },
+        { "text": "completely satisfied", "misconception": "literal_only", "whyVi": "Chỉ đọc lời khen ở câu đầu mà bỏ qua hai lời góp ý." },
+        { "text": "uninterested", "misconception": "outside_knowledge", "whyVi": "Cô ấy quan tâm rõ ràng — viết hẳn một email để nhờ chuyển lời." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Câu hỏi thái độ cần đáp án bao quát toàn bộ thư. 'Friendly but concerned' giữ được cả hai mặt; đáp án một chiều (chỉ giận / chỉ hài lòng) đều thiếu.",
+      "competency": "inference"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "ebike-article",
+      "prompt": "What does the shop owner's comment suggest about the rebate?",
+      "hint": "Look at 'already owned' and 'simply upgraded'. What kind of buyer do these words describe?",
+      "options": [
+        { "text": "It mostly attracted people who were already cyclists.", "misconception": null, "whyVi": "Đúng: đã có xe đạp thường và chỉ nâng cấp → vốn đã là người đi xe đạp." },
+        { "text": "It caused bike sales to drop.", "misconception": "ignored_contrast", "whyVi": "Bài nói 'strong sales' ngay trong câu đó." },
+        { "text": "It was too small to make a difference.", "misconception": "outside_knowledge", "whyVi": "Bài không nói gì về số tiền trợ giá." },
+        { "text": "It mainly reached people who drive every day.", "misconception": "ignored_contrast", "whyVi": "Ngược lại: người mua chủ yếu đã đi xe đạp; đoạn sau còn nói rất ít người lái xe hằng ngày nộp đơn." }
+      ],
+      "answerIndex": 0,
+      "evidence": "most buyers, according to one shop owner, 'already owned a regular bike and simply upgraded.'",
+      "explanationVi": "'Simply upgraded' hàm ý họ không phải người mới — họ chỉ đổi xe. Đây là suy luận ngắn từ một cụm từ, nhưng câu hỏi dùng 'suggest' nên đòi hỏi bạn hiểu hàm ý chứ không lặp lại câu.",
+      "competency": "inference"
+    },
+    {
+      "id": "g4",
+      "type": "text",
+      "stimulusId": "ebike-article",
+      "prompt": "In paragraph 2, Dr. Cho first defends the program and then adds a criticism. Type the ONE word that signals this change.",
+      "hint": "Look for a contrast word at the start of a sentence, after her quotation.",
+      "answers": ["still"],
+      "mode": "exact",
+      "misconception": "ignored_contrast",
+      "explanationVi": "'Still, she notes that the rebate was meant to reach people who drive daily…' — 'Still' ở đầu câu = 'dù vậy'. Ý phía sau tín hiệu tương phản thường là điểm quan trọng nhất về quan điểm của người nói.",
+      "competency": "inference"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "ebike-article",
+      "prompt": "Dr. Cho would most likely agree that the rebate…",
+      "options": [
+        { "text": "has had some benefit, even though it has not reached its main target group.", "misconception": null, "whyVi": "Đúng: 'still reducing traffic' (có lợi) + 'few of them applied' (chưa đến được người lái xe hằng ngày)." },
+        { "text": "has been a complete failure.", "misconception": "ignored_contrast", "whyVi": "Bà nói 'not necessarily a failure' — ngược lại." },
+        { "text": "should be replaced by spending on protected bike lanes.", "misconception": "wrong_source", "whyVi": "Đây là ý kiến của nghị viên Dubois, không phải Dr. Cho." },
+        { "text": "has convinced most daily drivers to switch to e-bikes.", "misconception": "ignored_contrast", "whyVi": "Khảo sát cho thấy rất ít người lái xe hằng ngày nộp đơn." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Still, she notes that the rebate was meant to reach people who drive daily, and the program's own survey suggests few of them applied.",
+      "explanationVi": "Quan điểm của Dr. Cho có hai nửa nối bằng 'Still'. Đáp án đúng phải chứa cả hai nửa; đáp án chỉ lấy một nửa hoặc lấy ý người khác đều sai.",
+      "competency": "inference"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "ebike-article",
+      "prompt": "Why does Councillor Dubois say 'People don't buy bikes when they're afraid of the road'?",
+      "options": [
+        { "text": "To support his view that bike lanes would be a better use of the money.", "misconception": null, "whyVi": "Đúng: câu này giải thích vì sao ông muốn tiền dành cho làn xe đạp được bảo vệ." },
+        { "text": "To argue that e-bikes are too dangerous to use.", "misconception": "over_inference", "whyVi": "Ông nói về nỗi sợ đường sá, không kết luận xe đạp điện nguy hiểm." },
+        { "text": "To show that the rebate attracted many nervous new riders.", "misconception": "ignored_contrast", "whyVi": "Ngược lại: ông cho rằng người sợ đường sá thì KHÔNG mua xe." },
+        { "text": "To agree with Dr. Cho that the program was not a failure.", "misconception": "wrong_source", "whyVi": "Ông 'less patient' — không đồng ý với giọng ôn hòa của Dr. Cho." }
+      ],
+      "answerIndex": 0,
+      "evidence": "the money would do more good if it were spent on protected bike lanes. 'People don't buy bikes when they're afraid of the road,' he says.",
+      "explanationVi": "Câu trích dẫn đứng ngay sau đề xuất làn xe đạp, nên chức năng của nó là lý do hỗ trợ đề xuất đó. Câu hỏi 'Why does X say…' = hỏi chức năng trong lập luận.",
+      "competency": "inference"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "ebike-article",
+      "prompt": "What can be inferred about the future of the rebate program?",
+      "options": [
+        { "text": "It will definitely be cancelled.", "misconception": "over_inference", "whyVi": "'Review' không có nghĩa là hủy; 'definitely' mạnh hơn bằng chứng." },
+        { "text": "No final decision about it has been made yet.", "misconception": null, "whyVi": "Đúng: chương trình sẽ được xem xét lại vào mùa xuân → chưa quyết định." },
+        { "text": "It will be expanded to pay for bike lanes.", "misconception": "over_inference", "whyVi": "Đó là mong muốn của Dubois, không có dấu hiệu quỹ sẽ làm vậy." },
+        { "text": "It has already been changed to target daily drivers.", "misconception": "outside_knowledge", "whyVi": "Bài không nói chương trình đã được thay đổi." }
+      ],
+      "answerIndex": 1,
+      "evidence": "The fund has said it will review the program in the spring.",
+      "explanationVi": "Một cuộc 'review' trong tương lai hàm ý mọi khả năng vẫn còn mở. Kết luận nhỏ nhất: chưa quyết định. Mọi đáp án dự đoán kết quả cụ thể đều suy luận quá xa.",
+      "competency": "inference"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "job-reply",
+      "prompt": "What can be inferred about Mr. Tran from the letter?",
+      "options": [
+        { "text": "He was not chosen for the supervisor job.", "misconception": null, "whyVi": "Đúng: vị trí được trao cho 'a candidate' khác, và thư đề xuất anh nộp đơn việc khác." },
+        { "text": "He was the panel's second choice.", "misconception": "over_inference", "whyVi": "Thư không xếp hạng ứng viên; 'difficult decision' không chứng minh anh đứng thứ hai." },
+        { "text": "He will be hired for a shift lead job in Surrey.", "misconception": "over_inference", "whyVi": "Anh chỉ được khuyến khích nộp đơn; không có gì bảo đảm." },
+        { "text": "He has already applied for a shift lead position.", "misconception": "over_inference", "whyVi": "Các vị trí đó chưa đăng ('will be posting… next month')." }
+      ],
+      "answerIndex": 0,
+      "evidence": "we have offered the position to a candidate whose background includes managing a unionized team",
+      "explanationVi": "Thư từ chối lịch sự không bao giờ nói 'you failed'. Manh mối: 'a candidate' (người khác) + lời khuyên nộp đơn vị trí khác.",
+      "competency": "inference"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "job-reply",
+      "prompt": "Why does Anita Bose mention Mr. Tran's suggestion about cross-training forklift operators?",
+      "options": [
+        { "text": "To show that the panel valued his ideas.", "misconception": null, "whyVi": "Đúng: ý tưởng 'came up several times' trong thảo luận → hội đồng đánh giá cao." },
+        { "text": "To ask him to train the forklift operators.", "misconception": "literal_only", "whyVi": "Đọc nghĩa đen chi tiết; thư không giao việc cho anh." },
+        { "text": "To explain why he did not get the job.", "misconception": "ignored_contrast", "whyVi": "Lý do được nêu ở đoạn sau là kinh nghiệm quản lý nhóm có công đoàn, không phải ý tưởng này." },
+        { "text": "To show that the panel disagreed with it.", "misconception": "outside_knowledge", "whyVi": "Không có dấu hiệu phản đối; câu đặt cạnh 'enjoyed hearing' — giọng tích cực." }
+      ],
+      "answerIndex": 0,
+      "evidence": "your suggestion about cross-training forklift operators came up several times in our discussion afterward",
+      "explanationVi": "Trong thư từ chối, đoạn đầu thường dành để ghi nhận điểm mạnh nhằm làm mềm tin xấu. Chi tiết này có chức năng khen, không phải giao việc hay giải thích lý do.",
+      "competency": "inference"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "job-reply",
+      "prompt": "Which statement is most strongly supported by the letter?",
+      "options": [
+        { "text": "The company would like to keep Mr. Tran in mind for future work.", "misconception": null, "whyVi": "Đúng: khuyến khích nộp đơn và sẵn sàng chuyển hồ sơ cho quản lý tuyển dụng ở Surrey." },
+        { "text": "Mr. Tran must apply by May 15 to be considered in Surrey.", "misconception": "over_inference", "whyVi": "Bẫy Level 8: 15/5 là hạn để BÁO cho Anita nếu muốn cô chuyển hồ sơ, không phải hạn nộp đơn." },
+        { "text": "The Surrey positions are more senior than the supervisor role.", "misconception": "outside_knowledge", "whyVi": "Không có so sánh cấp bậc trong thư." },
+        { "text": "The panel made its decision quickly.", "misconception": "ignored_contrast", "whyVi": "Ngược với 'After careful consideration' và 'difficult decision'." }
+      ],
+      "answerIndex": 0,
+      "evidence": "I would encourage you to apply, and I would be happy to pass your file along to the hiring manager there if you let me know by May 15.",
+      "explanationVi": "Level 8: đọc chính xác hạn chót gắn với hành động nào. 'If you let me know by May 15' điều kiện cho việc chuyển hồ sơ. Đáp án đúng là kết luận rộng nhưng an toàn từ hai hành động thiện chí.",
+      "competency": "inference"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "neighbour-email",
+      "prompt": "What is the main purpose of the sentence 'I'm sure it's just a small mix-up about the times'?",
+      "options": [
+        { "text": "To let Rosa fix the problem without feeling blamed.", "misconception": null, "whyVi": "Đúng: Ellen chủ động đưa ra lời giải thích vô hại để Rosa dễ xử lý mà không mất mặt." },
+        { "text": "To show that Ellen is unsure what the bylaw says.", "misconception": "literal_only", "whyVi": "Câu trước 'I know the city bylaw allows…' cho thấy cô ấy rất chắc." },
+        { "text": "To admit that Ellen made a mistake about the times.", "misconception": "wrong_source", "whyVi": "'Mix-up' được gán cho phía đội thợ, không phải Ellen." },
+        { "text": "To suggest that the bylaw is confusing and should change.", "misconception": "over_inference", "whyVi": "Không có ý kiến nào về việc sửa quy định." }
+      ],
+      "answerIndex": 0,
+      "evidence": "I know the city bylaw allows construction noise from 7:30 on weekdays, and I'm sure it's just a small mix-up about the times.",
+      "explanationVi": "Level 8: 'I'm sure it's just…' là cách nói giảm nhẹ rất phổ biến trong tiếng Anh Canada. Nghĩa đen là 'tôi chắc đó chỉ là nhầm lẫn', chức năng thật là cho người kia một lối thoát lịch sự.",
+      "competency": "inference"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "neighbour-email",
+      "prompt": "What can be inferred from the word 'again' in 'park the trailer on our side of the street again'?",
+      "options": [
+        { "text": "The crew's trailer has been parked on Ellen's side before.", "misconception": null, "whyVi": "Đúng: 'again' = lại lần nữa → đã từng xảy ra." },
+        { "text": "Ellen has already complained about the trailer.", "misconception": "over_inference", "whyVi": "'Again' gắn với việc đỗ xe, không với lời phàn nàn; không có bằng chứng cô từng phàn nàn." },
+        { "text": "The crew will park there every day from now on.", "misconception": "over_inference", "whyVi": "'If they need to' cho thấy chỉ là khả năng, không phải mỗi ngày." },
+        { "text": "Ellen wants to borrow the trailer.", "misconception": "literal_only", "whyVi": "Nhầm với chữ 'again' ở câu cuối về việc cho mượn thang." }
+      ],
+      "answerIndex": 0,
+      "evidence": "if they need to park the trailer on our side of the street again",
+      "explanationVi": "Level 8: một từ nhỏ như 'again', 'still', 'no longer' cho phép suy luận về quá khứ. Nhưng chỉ suy luận đúng điều mà từ đó bổ nghĩa — ở đây là hành động đỗ xe.",
+      "competency": "inference"
+    }
+  ],
+  "misconceptions": {
+    "over_inference": {
+      "label": "Suy luận quá xa",
+      "explanationVi": "Bạn đi thêm một hoặc nhiều bước mà bài không ủng hộ: thêm nguyên nhân, kết quả, dự đoán chắc chắn, hoặc dùng từ tuyệt đối (definitely, always, all). Suy luận hợp lệ phải gần như chắc chắn đúng dựa trên manh mối.",
+      "fixVi": "Viết ra kết luận NHỎ NHẤT mà manh mối chứng minh. Hỏi: 'Người viết có thể nói Tôi không hề nói vậy không?' Nếu có, loại đáp án đó."
+    },
+    "literal_only": {
+      "label": "Chỉ đọc nghĩa đen",
+      "explanationVi": "Bạn hiểu từng chữ nhưng bỏ qua chức năng của câu: lời từ chối khéo, lời góp ý lịch sự, chi tiết dùng để khen hoặc giữ quan hệ. Câu hỏi suy luận hỏi về ý định, không về mặt chữ.",
+      "fixVi": "Với câu hỏi 'Why does the writer mention…' hoặc 'purpose', hãy hỏi: 'Câu này giúp người viết đạt được điều gì trong toàn bức thư?'"
+    },
+    "outside_knowledge": {
+      "label": "Dùng kiến thức ngoài bài",
+      "explanationVi": "Bạn chọn đáp án đúng theo kinh nghiệm sống hoặc ý kiến cá nhân (thợ xây sẽ bị phạt, trợ giá quá ít…) nhưng bài không có manh mối nào.",
+      "fixVi": "Mọi suy luận phải chỉ được ít nhất một (tốt nhất là hai) chi tiết trong bài. Không chỉ được manh mối → loại."
+    },
+    "ignored_contrast": {
+      "label": "Bỏ qua tín hiệu tương phản",
+      "explanationVi": "Bạn dựa vào một manh mối mà bỏ qua manh mối ngược chiều (still, but, not necessarily, after careful consideration), nên kết luận một chiều hoặc ngược với bài.",
+      "fixVi": "Khoanh mọi từ tương phản trong đoạn liên quan. Kết luận phải phù hợp với CẢ HAI phía của từ tương phản."
+    },
+    "wrong_source": {
+      "label": "Nhầm người nói",
+      "explanationVi": "Bạn gán ý kiến hoặc hành động của người này cho người khác (Dubois ↔ Cho, Ellen ↔ đội thợ). Suy luận đúng nhưng sai chủ thể vẫn là sai.",
+      "fixVi": "Khi bài có nhiều người, ghi nhanh bên lề: tên → quan điểm. Trước khi chọn, kiểm tra câu bằng chứng thuộc về đúng người được hỏi."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "imply / suggest", "vi": "ngụ ý / gợi ý (không nói thẳng)", "example": "The landlord's email implies that the rent will go up next year." },
+    { "term": "infer / draw a conclusion", "vi": "suy ra / rút ra kết luận", "example": "From the empty shelves, we inferred that the store was closing." },
+    { "term": "I just wanted to mention …", "vi": "Tôi chỉ muốn nhắc nhẹ … (mở đầu góp ý lịch sự)", "example": "I just wanted to mention that the recycling bins were left out again." },
+    { "term": "Would you mind passing that along?", "vi": "Bạn có phiền chuyển lời giúp không?", "example": "The meeting moved to 3 p.m. — would you mind passing that along to the team?" },
+    { "term": "a heads-up", "vi": "lời báo trước", "example": "Thanks for the heads-up about the water shut-off on Tuesday." },
+    { "term": "not necessarily", "vi": "không hẳn là", "example": "A long waitlist is not necessarily a bad sign for a new program." },
+    { "term": "after careful consideration", "vi": "sau khi cân nhắc kỹ (thường báo tin không vui)", "example": "After careful consideration, the council has decided not to extend the market hours." },
+    { "term": "pass someone's file along", "vi": "chuyển hồ sơ của ai cho người khác", "example": "I'll pass your file along to the manager at our Coquitlam store." }
+  ],
+  "grammar": [
+    {
+      "point": "Softening language (indirect requests and complaints)",
+      "explanationVi": "Người Canada thường góp ý gián tiếp bằng just, a little, I'm sure, Would you mind…, would really help. Cấu trúc mềm không có nghĩa là vấn đề không quan trọng — nó cho biết người viết muốn giữ quan hệ.",
+      "examples": [
+        "I'm sure it's just a small mix-up. (= Please fix this, I'm not blaming you.)",
+        "A quick heads-up would really help. (= Please tell me in advance.)"
+      ]
+    },
+    {
+      "point": "Words that point to the past: again, still, no longer, lately",
+      "explanationVi": "Những từ này cho phép suy luận về điều đã xảy ra trước đó, nhưng chỉ cho hành động mà chúng bổ nghĩa.",
+      "examples": [
+        "Please don't block the driveway again. (It was blocked before.)",
+        "The café no longer opens on Mondays. (It used to.)"
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Drill: inference questions", "route": "/reading?mode=drill&focus=inference" },
+    { "label": "Part 1: Reading Correspondence", "route": "/reading?task=R1" },
+    { "label": "Part 4: Reading for Viewpoints", "route": "/reading?task=R4" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 items; keys, evidence and over-inference distractors confirmed. Only fix: remapped i4 option D misconception to over_inference."}
+}

@@ -1,0 +1,364 @@
+{
+  "id": "wr-08",
+  "skill": "writing",
+  "module": "writing-email",
+  "level": "core",
+  "difficulty": 8,
+  "title": "Informal and semi-formal emails",
+  "titleVi": "Email thân mật và bán trang trọng",
+  "estimatedMinutes": 30,
+  "prerequisites": ["wr-05", "wr-06"],
+  "competencies": ["tone_register"],
+  "tasks": ["W1"],
+  "objectives": [
+    "You will be able to choose informal or semi-formal register from the relationship described in the situation.",
+    "You will be able to write warm, natural emails to friends, neighbours and colleagues without slang or stiffness.",
+    "You will be able to apologize, invite and thank with specific, sincere details.",
+    "You will be able to open and close informal and semi-formal emails naturally."
+  ],
+  "objectiveVi": "Sau bài này, bạn sẽ chọn đúng mức thân mật hoặc bán trang trọng dựa vào mối quan hệ trong đề, viết email ấm áp, tự nhiên cho bạn bè, hàng xóm, đồng nghiệp mà không dùng slang và không cứng nhắc, và biết xin lỗi, mời, cảm ơn một cách chân thành, cụ thể.",
+  "whyItMattersVi": "Nhiều đề Task 1 yêu cầu viết cho bạn bè, hàng xóm hay đồng nghiệp. Người Việt học tiếng Anh theo sách thường mặc định viết trang trọng ('I am writing to express my sincere gratitude…') cho cả bạn thân, hoặc ngược lại bê nguyên văn nói/tin nhắn ('lol', 'gonna') vào bài. Cả hai đều là lỗi register. Level 8 cần giọng văn đúng với mối quan hệ: ấm áp, tự nhiên, nhưng vẫn là văn viết chuẩn.",
+  "concept": [
+    {
+      "heading": "Ba mức register và cách chọn",
+      "body": "Đọc câu **situation** để xác định bạn viết cho ai và quan hệ thế nào:\n\n- **Formal** — công ty, cơ quan, quản lý tòa nhà, người lạ có chức danh. (Xem bài wr-07.)\n- **Semi-formal** — đồng nghiệp, sếp trực tiếp mà bạn quen, hàng xóm lớn tuổi hoặc chưa thân, huấn luyện viên của con, giáo viên. Thân thiện nhưng tôn trọng.\n- **Informal** — bạn thân, người thân trong gia đình, bạn cùng lớp thân thiết.\n\nTừ khóa trong đề: *your friend*, *your cousin* → informal; *your neighbour*, *a coworker*, *your manager* → thường semi-formal; *the company*, *the city*, *the property manager* → formal. Nếu phân vân giữa hai mức, chọn **semi-formal** — an toàn hơn cả."
+    },
+    {
+      "heading": "Ấm áp nhưng không slang",
+      "body": "Email thân mật Level 8 vẫn là **văn viết chuẩn**: câu hoàn chỉnh, đúng ngữ pháp, chia đoạn theo bullet. Cái khác là giọng điệu:\n\n- **Nên dùng**: viết tắt (*I'm, can't, we'd*), cụm động từ (*look after, catch up, come over*), câu cảm thán vừa phải, câu hỏi thân thiện (*How's the new place?*), từ cảm xúc tự nhiên (*I'm so proud of you, I feel terrible*).\n- **Tránh**: slang và kiểu nhắn tin (*gonna, wanna, lol, OMG, u, bro, lit*), emoji, nhiều dấu chấm than liền (*!!!*), câu quá cụt (*Thanks. Bye.*).\n- **Cũng tránh**: cụm trang trọng cứng nhắc như *I am writing to inform you*, *at your earliest convenience*, *Yours faithfully* — viết cho bạn thân như vậy nghe lạnh lùng và kỳ lạ.\n\nCảm xúc cần **cụ thể**: thay *Thank you for your help* bằng điều cụ thể mà người đó đã làm và nó có ý nghĩa gì với bạn."
+    },
+    {
+      "heading": "Mở đầu và kết thư",
+      "body": "**Informal**: *Hi Minh, / Hey Sam,* (Hey chấp nhận được với bạn thân) → mở bằng câu thân thiện: *I hope you and the kids are doing well!*, *It was so good to see you at Lan's party.*, *Guess what?* Sau đó vào mục đích: *I'm writing because…*, *Just a quick email to…*. Kết: *Can't wait to see you!*, *Let me know what you think.* + *Take care, / Talk soon, / Cheers,* + tên.\n\n**Semi-formal**: *Hi Karen, / Dear Mrs. Kowalski,* → *I hope you're having a good week.* → mục đích rõ. Kết: *Thanks again for…*, *Please let me know if…* + *Best, / All the best, / Warm regards,* + tên.\n\nMột câu hỏi thăm ngắn là đủ — đừng để lời hỏi thăm chiếm cả đoạn."
+    },
+    {
+      "heading": "Ba chức năng hay gặp: xin lỗi, mời, cảm ơn",
+      "body": "**Xin lỗi** = nhận lỗi + giải thích + cảm xúc + bù đắp: *I'm so sorry I missed…* → *Just as I was leaving, …* → *I feel terrible that…* → *To make it up to you, how about…?*\n\n**Mời** = lời mời ấm áp + đầy đủ chi tiết (ngày, giờ, địa điểm, mang gì) + lối thoát lịch sự: *We'd love it if you could join us on Saturday, June 6, at 5 p.m. in the courtyard. No pressure if you're busy!*\n\n**Cảm ơn** = việc cụ thể + ý nghĩa với bạn + đáp lại: *I really appreciate you covering my shifts.* → *It meant I could focus on my son.* → *I owe you one.*\n\nLời mời thiếu ngày giờ, lời xin lỗi thiếu giải thích, lời cảm ơn thiếu chi tiết đều làm bullet bị xem là chưa phát triển."
+    },
+    {
+      "heading": "Semi-formal: điểm cân bằng",
+      "body": "Với đồng nghiệp hay hàng xóm chưa thân, dùng giọng **thân thiện + tôn trọng**:\n\n- Yêu cầu mềm: *I was wondering if you'd be able to…*, *Would you mind + -ing…?*, *Could you possibly…?*\n- Viết tắt được, nhưng vừa phải; không slang.\n- Giới thiệu bản thân nếu người nhận chưa biết rõ bạn: *I'm Thu from Unit 305.*\n- Cho người kia lựa chọn: *If that doesn't suit you, just let me know.*\n\nVí dụ: *Hi Mr. Dhillon, I'm Thu from Unit 305. I was wondering if you'd be able to sign for a parcel for me on Thursday.* — không lạnh như thư công ty, không suồng sã như tin nhắn bạn bè."
+    }
+  ],
+  "stimuli": {
+    "prompt-neighbour": {
+      "title": "Task 1 prompt — thanking a neighbour",
+      "text": "While you were visiting family in Vietnam for three weeks, your older neighbour, Mrs. Kowalski, watered your plants and collected your mail. Write an email to Mrs. Kowalski.\n\nIn your email:\n- Thank her and say what you especially appreciated.\n- Tell her about your trip.\n- Invite her to visit you.\n\nWrite 150–200 words."
+    },
+    "prompt-move": {
+      "title": "Task 1 prompt — apologizing to a friend",
+      "text": "You promised to help your close friend Jason move to a new apartment in Victoria last Saturday, but you could not go. Write an email to Jason.\n\nIn your email:\n- Apologize and explain what happened.\n- Say how you feel about it.\n- Suggest a way to make it up to him.\n\nWrite 150–200 words."
+    },
+    "prompt-farewell": {
+      "title": "Task 1 prompt — a friend's new job",
+      "text": "Your close friend Minh has just accepted a new job in Calgary and will leave BC next month. Write an email to Minh.\n\nIn your email:\n- Congratulate Minh and say how you feel about the news.\n- Share a favourite memory of your time together.\n- Invite Minh to a farewell dinner and give the details.\n\nWrite 150–200 words."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Reading the relationship to choose the register",
+      "question": "Choose the register, greeting, opening and closing for three different emails.",
+      "steps": [
+        "Situation A: you write to the property manager of your building about a broken elevator. A professional relationship with someone who works for a company → formal: 'Dear Mr. Lee,' / 'I am writing to report…' / 'Sincerely,'.",
+        "Situation B: you write to Mrs. Kowalski, an older neighbour who kindly helped you. You know her, but she is not a close friend, and she is older → semi-formal: 'Dear Mrs. Kowalski,' / 'I just wanted to say a huge thank you…' / 'Warm regards,'.",
+        "Situation C: you write to Jason, a close friend. → informal: 'Hi Jason,' / 'I'm so sorry I let you down…' / 'Talk soon,'.",
+        "Check consistency: once you choose a register, keep it from greeting to sign-off. A friendly 'Hi Jason' followed by 'I am writing to inform you' is a mismatch."
+      ],
+      "answer": "A = formal (Dear Mr. Lee → I am writing to report → Sincerely, full name); B = semi-formal (Dear Mrs. Kowalski → I just wanted to say… → Warm regards, first name); C = informal (Hi Jason → I'm so sorry… → Talk soon, first name).",
+      "takeawayVi": "Register được quyết định bởi mối quan hệ, không phải bởi chủ đề. Cùng một lời cảm ơn, viết cho công ty, cho hàng xóm lớn tuổi và cho bạn thân sẽ rất khác nhau — và phải nhất quán từ đầu đến cuối."
+    },
+    {
+      "id": "ex2",
+      "title": "Before and after: thanking a neighbour",
+      "stimulusId": "prompt-neighbour",
+      "question": "Compare a typical Level 6–7 thank-you email with a warm, natural Level 8+ version.",
+      "steps": [
+        "Notice the register clash in the before version: very formal phrases ('express my sincere gratitude', 'at your earliest convenience') next to flat, simple sentences ('It was very hot').",
+        "Check task fulfilment: bullet 1 asks what you ESPECIALLY appreciated — the before version gives no specific detail. Bullet 3 invites her but gives no day or time.",
+        "Rewrite bullet 1 with one specific, personal detail (the basil moved to the sunny window) and say why it mattered.",
+        "Make bullet 2 interesting: where you went, who you saw, one detail that links to bullet 3 (the coffee).",
+        "Make the invitation complete and gentle: day, time, what you will do, and an easy way to say no."
+      ],
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Dear Mrs. Kowalski,\n\nI am writing this email to express my sincere gratitude for your help. Thank you very much for water my plants and take my mail. I very appreciate. My trip to Vietnam was good, I visited my family and eat a lot of food. It was very hot. I would like to invite you to come to my house for tea. Please reply at your earliest convenience.\n\nBest regards,\nLan Pham",
+          "commentVi": "Vấn đề: (1) Lệch register: 'I am writing this email to express my sincere gratitude' và 'Please reply at your earliest convenience' nghe như thư công ty gửi khách hàng, lạnh lùng với một hàng xóm vừa giúp mình. (2) Lời cảm ơn chung chung — bullet 1 hỏi điều bạn ĐẶC BIỆT trân trọng nhưng không có chi tiết nào. (3) Bullet 2 khô khan ('was good', 'very hot'). (4) Lời mời thiếu ngày, giờ. (5) Một khối chữ. (6) Lỗi ngữ pháp: 'for water… and take' → 'for watering… and collecting'; 'I very appreciate' → 'I really appreciate it'; 'eat' → 'ate'. Chỉ khoảng 75 từ."
+        },
+        {
+          "label": "after",
+          "text": "Dear Mrs. Kowalski,\n\nI just wanted to say a huge thank you for looking after my apartment while I was away. Coming home to healthy plants and a neat pile of mail made the end of a long trip so much easier. I especially appreciated that you moved the basil to the sunny window when the weather turned cold. I would never have thought of that!\n\nThe trip itself was wonderful. I spent most of the three weeks with my parents in Da Nang, and it was the first time in four years that our whole family had been together. I also brought back far too much food, including some Vietnamese coffee I'd love for you to try.\n\nOn that note, would you like to come over for coffee next Sunday afternoon, around 2 p.m.? I'll show you some photos from the trip. If Sunday doesn't suit you, just let me know a day that works better.\n\nThank you again for being such a thoughtful neighbour.\n\nWarm regards,\nLan",
+          "commentVi": "Thay đổi: (1) Giọng bán trang trọng ấm áp: giữ 'Dear Mrs. Kowalski' vì bà lớn tuổi, nhưng mở bằng 'I just wanted to say a huge thank you for looking after…' thay cho câu cứng nhắc. (2) Lời cảm ơn có chi tiết riêng (chuyển chậu húng quế ra cửa sổ nắng) và ý nghĩa ('made the end of a long trip so much easier'). (3) Bullet 2 có địa điểm, người, một chi tiết cảm xúc (lần đầu cả nhà đoàn tụ sau bốn năm) và nối khéo sang lời mời bằng cà phê Việt Nam. (4) Lời mời đầy đủ: ngày, giờ, làm gì, và lối thoát lịch sự ('If Sunday doesn't suit you…'). (5) Viết tắt vừa phải (I'd, I'll, doesn't), không slang. (6) Kết 'Warm regards, Lan' — thân thiện hơn 'Best regards, Lan Pham'. Khoảng 170 từ."
+        }
+      ],
+      "takeawayVi": "Ấm áp không đến từ những từ to tát như 'sincere gratitude' mà đến từ chi tiết cụ thể và giọng tự nhiên. Một chi tiết riêng (chậu húng quế) đáng giá hơn mười lần 'thank you very much'."
+    },
+    {
+      "id": "ex3",
+      "title": "Making an apology sound sincere",
+      "stimulusId": "prompt-move",
+      "question": "Write the paragraph for Bullet 1: 'Apologize and explain what happened.'",
+      "steps": [
+        "Start with a real apology that names what went wrong: not just 'I am sorry' but 'I'm so sorry I let you down on Saturday'.",
+        "Show you understand the impact on your friend: he was counting on you for the heavy furniture.",
+        "Explain what happened with a concrete, believable detail (a sick child, a walk-in clinic).",
+        "Take responsibility for the part you could have done better (calling instead of texting). This makes the apology sound mature rather than like an excuse."
+      ],
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Hi Jason, I am very sorry. I could not come on Saturday because I was busy. Please forgive me. I will help you next time.",
+          "commentVi": "Câu đúng ngữ pháp nhưng khô khan và mơ hồ: (1) 'I am very sorry' không nói xin lỗi về điều gì. (2) 'because I was busy' là lý do yếu nhất — nghe như bạn không coi trọng lời hứa. (3) Không thể hiện bạn hiểu Jason đã vất vả thế nào. (4) 'Please forgive me' nghe nặng nề, giống văn dịch. Không có viết tắt nên giọng cứng với bạn thân."
+        },
+        {
+          "label": "after",
+          "text": "Hi Jason,\n\nI'm so sorry I let you down on Saturday. I know you were counting on me to help with the heavy furniture. Just as I was leaving the house, my daughter came down with a high fever, and I ended up spending the whole morning at the walk-in clinic. I should have called you right away instead of just sending a text, and I'm sorry about that too.",
+          "commentVi": "Thay đổi: (1) Lời xin lỗi gọi tên lỗi cụ thể: 'I let you down on Saturday'. (2) Thể hiện thấu hiểu: 'I know you were counting on me…'. (3) Lý do cụ thể, đáng tin: con bị sốt cao, ở phòng khám cả buổi sáng. (4) Nhận phần trách nhiệm ('I should have called…') — nghe trưởng thành, không như viện cớ. (5) Viết tắt tự nhiên (I'm), cụm động từ (let down, came down with, ended up) tạo giọng thân mật mà không slang."
+        }
+      ],
+      "takeawayVi": "Lời xin lỗi chân thành = gọi tên lỗi + hiểu ảnh hưởng tới người kia + lý do cụ thể + nhận trách nhiệm. Cụm động từ (let someone down, come down with, end up) giúp giọng văn tự nhiên ngay lập tức."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "prompt": "You want to ask Mr. Dhillon, a neighbour you have only chatted with a few times in the elevator, to sign for a parcel while you are at work. Which register fits best?",
+      "hint": "Think about how well you know him: he is friendly, but not a close friend.",
+      "options": [
+        { "text": "Formal, like a letter to a company: 'Dear Sir, I am writing to request your assistance…'", "misconception": "misread_relationship", "whyVi": "Quá xa cách với một người hàng xóm bạn đã quen mặt. Giọng này nghe lạnh và kỳ lạ cho một việc nhờ vả nhỏ." },
+        { "text": "Semi-formal: friendly and polite, e.g. 'Hi Mr. Dhillon, I'm Thu from Unit 305. I was wondering if…'", "misconception": null, "whyVi": "Đúng: thân thiện, giới thiệu bản thân vì hai người chưa thân, và yêu cầu nhẹ nhàng bằng 'I was wondering if…'." },
+        { "text": "Informal, like a text to a close friend: 'Hey! Can u grab my package Thursday?'", "misconception": "misread_relationship", "whyVi": "Quá suồng sã với người bạn chưa thân, và 'u' là kiểu nhắn tin không phù hợp ở bất kỳ mức nào trong bài thi." },
+        { "text": "It does not matter, because it is only a small favour.", "misconception": "misread_relationship", "whyVi": "Register luôn quan trọng. Việc nhỏ hay lớn không quyết định register — mối quan hệ mới quyết định." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Hàng xóm chưa thân, đồng nghiệp, sếp quen → semi-formal. Khi phân vân, semi-formal luôn là lựa chọn an toàn.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "prompt": "You are writing to a close friend you have not seen for several months. Which opening sentence is best?",
+      "hint": "Look for something warm and personal that still uses complete, standard sentences.",
+      "options": [
+        { "text": "I am writing to inform you about my recent news.", "misconception": "too_stiff", "whyVi": "'I am writing to inform you' là câu của thư công việc. Với bạn thân, nó nghe lạnh lùng." },
+        { "text": "Hey!!! OMG it's been forever lol", "misconception": "slang_overuse", "whyVi": "'OMG', 'lol' và '!!!' là kiểu nhắn tin. Trong bài thi, thân mật vẫn phải là văn viết chuẩn." },
+        { "text": "It's been ages since we last caught up, so I hope you and the kids are doing well!", "misconception": null, "whyVi": "Đúng: ấm áp, tự nhiên ('It's been ages', 'caught up'), có viết tắt, và vẫn là câu hoàn chỉnh." },
+        { "text": "Hello. I have news.", "misconception": "flat_feeling", "whyVi": "Đúng ngữ pháp nhưng cụt lủn, không có chút ấm áp nào — không giống người bạn lâu ngày mới viết thư." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Câu mở thân mật tốt: nhắc tới mối quan hệ hoặc khoảng thời gian xa cách + hỏi thăm ngắn, rồi vào việc chính ngay sau đó.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "g3",
+      "type": "text",
+      "stimulusId": "prompt-neighbour",
+      "prompt": "Complete the phrasal verb with one word: 'Thanks so much for looking ____ my plants while I was away.'",
+      "hint": "The phrasal verb means 'take care of'.",
+      "answers": ["after"],
+      "mode": "exact",
+      "misconception": "too_stiff",
+      "explanationVi": "'look after' = take care of. Cụm động từ như look after, come over, catch up làm email thân mật nghe tự nhiên hơn nhiều so với những cụm cứng như 'assist with' hay 'provide care for'.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "prompt": "Which invitation to a friend is warm, natural and complete?",
+      "hint": "A good invitation is friendly AND tells the reader exactly when and where.",
+      "options": [
+        { "text": "We're having a small barbecue at our place this Saturday at 5, and we'd love it if you could join us.", "misconception": null, "whyVi": "Đúng: ấm áp ('we'd love it if you could join us'), có thời gian, địa điểm, loại sự kiện." },
+        { "text": "U should totally come to our BBQ, it's gonna be lit.", "misconception": "slang_overuse", "whyVi": "'U', 'gonna', 'lit' là slang/tin nhắn. Thân mật nhưng không phải văn viết chuẩn." },
+        { "text": "You are hereby invited to attend a barbecue at our residence.", "misconception": "too_stiff", "whyVi": "'hereby', 'attend', 'residence' là văn bản hành chính — rất kỳ lạ khi mời bạn bè." },
+        { "text": "Come to barbecue sometime.", "misconception": "vague_details", "whyVi": "Không có ngày giờ, địa điểm, lại thiếu mạo từ ('a barbecue'). Lời mời không thể hành động được." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Lời mời = lời mời ấm áp + chi tiết đầy đủ. 'We'd love it if you could…' / 'Would you like to…?' là hai mẫu tự nhiên nhất.",
+      "competency": "tone_register"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "prompt": "Which is the best way to end an email to a close friend?",
+      "options": [
+        { "text": "Can't wait to catch up soon.\n\nTake care,\nHieu", "misconception": null, "whyVi": "Đúng: câu kết hướng tới lần gặp sau, sign-off thân mật, chỉ ký tên." },
+        { "text": "Yours faithfully,\nHieu Nguyen", "misconception": "too_stiff", "whyVi": "'Yours faithfully' là sign-off trang trọng nhất (thư gửi người không biết tên) — hoàn toàn sai với bạn thân." },
+        { "text": "ttyl xoxo", "misconception": "slang_overuse", "whyVi": "Viết tắt kiểu nhắn tin, không có tên — không phải cách kết email trong bài thi." },
+        { "text": "Please respond at your earliest convenience.\n\nHieu", "misconception": "too_stiff", "whyVi": "Cụm này dùng trong thư công việc, nghe như đang ra lệnh với bạn mình." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Kết thư thân mật: một câu ấm áp (Can't wait to see you / Let me know what you think) + Take care, / Talk soon, / Cheers, + tên.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "prompt": "In an email to a close friend, which sentence is a register mismatch and should be rewritten?",
+      "options": [
+        { "text": "Thanks so much for the lovely birthday card.", "misconception": "too_stiff", "whyVi": "Câu này phù hợp: 'Thanks so much' là cách cảm ơn tự nhiên với bạn bè. Viết tắt và giọng thân mật không phải là lỗi." },
+        { "text": "I am writing to inform you that I will be unable to attend your birthday celebration.", "misconception": null, "whyVi": "Đúng: 'I am writing to inform you', 'unable to attend', 'celebration' là văn thư công việc. Viết lại: 'I'm so sorry, but I can't make it to your birthday party.'" },
+        { "text": "I'm really sorry I can't make it, but I'll be in Kelowna for a work conference that weekend.", "misconception": "too_stiff", "whyVi": "Câu này tự nhiên và đúng register: viết tắt, 'make it', lý do cụ thể." },
+        { "text": "Let's grab lunch the week after so I can give you your present.", "misconception": "too_stiff", "whyVi": "'Let's grab lunch' là cách rủ rê thân mật chuẩn mực — không cần sửa." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Nhiều người học nghĩ viết tắt và cụm động từ là 'kém trang trọng nên kém điểm'. Thực ra, với bạn thân, chính câu trang trọng mới là lỗi register.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "i3",
+      "type": "text",
+      "stimulusId": "prompt-move",
+      "prompt": "Complete with one word: 'To make it ____ to you, let me take you out for dinner this weekend.'",
+      "answers": ["up"],
+      "mode": "exact",
+      "misconception": "flat_feeling",
+      "explanationVi": "'make it up to someone' = bù đắp cho ai đó sau khi làm họ thất vọng. Đây là cách tự nhiên để mở đoạn 'suggest a way to make it up'.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i4",
+      "type": "order",
+      "stimulusId": "prompt-move",
+      "prompt": "Put the parts of this apology email to Jason in the best order.",
+      "items": [
+        "Hi Jason,",
+        "I'm really sorry I wasn't there to help you move on Saturday.",
+        "Right before I left, my daughter suddenly got a high fever, so I took her to the walk-in clinic instead.",
+        "I still feel awful that you had to carry everything up three flights of stairs without me.",
+        "To make it up to you, how about I bring dinner over on Friday and help you unpack the rest of the boxes?",
+        "Talk soon,\nKhanh"
+      ],
+      "misconception": "vague_details",
+      "explanationVi": "Thứ tự theo bullet: lời xin lỗi + giải thích (bullet 1) → cảm xúc (bullet 2) → cách bù đắp (bullet 3) → ký tên. Lời giải thích đi ngay sau lời xin lỗi để Jason hiểu chuyện gì đã xảy ra.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i5",
+      "type": "text",
+      "prompt": "Make this request to a coworker semi-formal. 'Cover my shift on Friday.' → 'Would you ____ covering my shift on Friday?' (one word)",
+      "answers": ["mind"],
+      "mode": "exact",
+      "misconception": "misread_relationship",
+      "explanationVi": "'Would you mind + V-ing?' là cách nhờ vả lịch sự, thân thiện với đồng nghiệp. Lưu ý động từ sau 'mind' ở dạng -ing.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "A coworker covered your shifts while your son was sick. Which thank-you paragraph is the most natural and effective?",
+      "options": [
+        { "text": "Thank you for your help. You are very kind. I am very happy.", "misconception": "flat_feeling", "whyVi": "Ba câu đúng ngữ pháp nhưng chung chung và lặp 'very'. Không nói giúp việc gì, có ý nghĩa thế nào." },
+        { "text": "Thanks a ton, you're a lifesaver, seriously, love ya!!!", "misconception": "slang_overuse", "whyVi": "Quá suồng sã với đồng nghiệp ('love ya', '!!!'), và không có chi tiết cụ thể." },
+        { "text": "I really appreciate you covering my shifts last week while Bao was sick. Knowing the team was in good hands meant I could focus completely on him, and it took a lot of stress off my shoulders. I owe you one, so next time you need a day off, I'm happy to return the favour.", "misconception": null, "whyVi": "Đúng: việc cụ thể (trực thay ca khi Bao ốm) + ý nghĩa (tập trung chăm con, bớt căng thẳng) + đáp lại (I owe you one, return the favour). Thân thiện, tự nhiên, không slang." },
+        { "text": "Please accept my sincere gratitude for your assistance with my shifts during the period of my son's illness.", "misconception": "too_stiff", "whyVi": "Đúng ý nhưng nghe như thư hành chính — lạnh lùng với một đồng nghiệp vừa giúp mình." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Lời cảm ơn Level 8 = việc cụ thể + ý nghĩa với bạn + cách đáp lại. Collocation tự nhiên: in good hands, take stress off someone's shoulders, return the favour.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "prompt": "You are inviting Mr. Dhillon, a neighbour you barely know, to a building potluck. Which version strikes the best balance?",
+      "options": [
+        { "text": "Hi Mr. Dhillon, I'm Thu from Unit 305. A few of us on the third floor are organizing a potluck in the courtyard on Saturday, June 6, from 5 to 8 p.m., and we'd be delighted if you and your family could join us. Just bring a dish to share if you'd like, but there's no pressure at all.", "misconception": null, "whyVi": "Đúng: tự giới thiệu (vì chưa thân), đầy đủ chi tiết, giọng ấm áp nhưng tôn trọng, và cho người kia lối thoát ('no pressure')." },
+        { "text": "Hey buddy! Potluck Saturday, bring food, it'll be awesome!!!", "misconception": "slang_overuse", "whyVi": "'Hey buddy' quá suồng sã với người gần như không quen; thiếu giờ, địa điểm; câu cụt kiểu tin nhắn." },
+        { "text": "Dear Sir, I am writing to formally request your attendance at a resident gathering. Kindly confirm your participation.", "misconception": "too_stiff", "whyVi": "Nghe như thư mời họp của ban quản lý. 'Kindly confirm your participation' tạo cảm giác bắt buộc, trái với tinh thần một buổi tiệc hàng xóm." },
+        { "text": "Hi, there is a potluck sometime next month. Maybe you can come.", "misconception": "vague_details", "whyVi": "Giọng ổn nhưng thiếu ngày giờ, địa điểm, không giới thiệu bản thân — lời mời quá mơ hồ để trả lời." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Semi-formal = thân thiện + tôn trọng + rõ ràng. Với người chưa quen, giới thiệu bản thân trước và luôn cho họ một lối thoát lịch sự.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "stimulusId": "prompt-farewell",
+      "medium": "write",
+      "minWords": 150,
+      "prompt": "Write the full email to Minh (150–200 words). Keep it warm and natural, with no slang.",
+      "checklist": [
+        "Uses a friendly greeting (Hi + first name) and congratulates Minh in the first sentences.",
+        "Expresses a feeling about the news in natural, specific language (e.g. proud, a little sad), not just 'I am happy'.",
+        "Describes one memory with at least two concrete details (place, time, what happened).",
+        "Gives complete invitation details: day or date, time and place.",
+        "Uses contractions and warm phrasing but no slang, text-speak or emojis.",
+        "Ends with a friendly closing line and a first-name sign-off; 150–200 words."
+      ],
+      "modelAnswer": "Hi Minh,\n\nI just heard the news from Lan. Congratulations on the new job! I'm so proud of you. I know how hard you've worked for a position like this, and Calgary is lucky to be getting you. To be honest, I'm also a little sad, because I can't imagine our weekends without you.\n\nI keep thinking about our first winter here, when neither of us owned proper boots and we tried to walk up to Queen Elizabeth Park in the snow. We were soaked and freezing, but we laughed the whole way and ended up warming up with hot chocolate at that tiny café on Main Street. It's still one of my favourite days in Canada.\n\nBefore you go, a few of us would love to take you out for a farewell dinner. We're thinking Saturday, May 16, at 7 p.m. at Saigon Garden on Kingsway, your favourite. It's our treat, so just bring yourself! Let me know if that date works for you.\n\nCan't wait to see you!\n\nTalk soon,\nThao",
+      "misconception": "too_stiff",
+      "explanationVi": "Đọc lại bài và tự hỏi: Minh có cảm thấy đây là thư của một người bạn thật không? Có câu nào nghe như thư công ty (I am writing to inform…) hay như tin nhắn (lol, gonna) không? Lời mời có đủ ngày, giờ, địa điểm chưa?",
+      "competency": "tone_register"
+    }
+  ],
+  "misconceptions": {
+    "too_stiff": {
+      "label": "Quá cứng nhắc với người thân quen",
+      "explanationVi": "Bạn mặc định 'trang trọng = điểm cao', nên dùng 'I am writing to inform you', 'sincere gratitude', 'at your earliest convenience' cho bạn bè, hàng xóm. Đây là lỗi register: giọng văn không khớp với mối quan hệ, khiến email lạnh lùng và thiếu tự nhiên.",
+      "fixVi": "Với bạn bè và người quen, dùng viết tắt, cụm động từ và câu cảm xúc tự nhiên: Thanks so much for…, I'm so sorry…, We'd love it if… Giữ cụm trang trọng cho thư gửi công ty, cơ quan."
+    },
+    "slang_overuse": {
+      "label": "Suồng sã, dùng slang và văn tin nhắn",
+      "explanationVi": "Bạn hiểu 'thân mật' là được viết như nhắn tin: gonna, lol, u, OMG, !!!, emoji. Bài thi vẫn đánh giá văn viết, nên slang làm bài trông thiếu kiểm soát ngôn ngữ.",
+      "fixVi": "Thân mật = câu hoàn chỉnh + viết tắt chuẩn (I'm, can't) + cụm động từ phổ biến. Không dùng slang, viết tắt kiểu tin nhắn, emoji; tối đa một dấu chấm than mỗi lần."
+    },
+    "flat_feeling": {
+      "label": "Cảm xúc khô khan, chung chung",
+      "explanationVi": "Bạn cảm ơn, xin lỗi hay chúc mừng bằng những câu ngắn chung chung ('Thank you for your help', 'I am very sorry', 'I am very happy'). Người đọc không cảm nhận được sự chân thành, và bullet bị xem là chưa phát triển.",
+      "fixVi": "Gọi tên việc cụ thể và nói ý nghĩa của nó với bạn: 'I really appreciate you + V-ing… It meant I could…'. Dùng từ cảm xúc tự nhiên: proud, relieved, feel terrible, it meant a lot."
+    },
+    "vague_details": {
+      "label": "Lời mời / lời xin lỗi thiếu chi tiết",
+      "explanationVi": "Lời mời không có ngày giờ, địa điểm; lời xin lỗi chỉ nói 'I was busy'; đề xuất bù đắp chung chung. Bạn đã đúng giọng nhưng chưa hoàn thành nhiệm vụ của bullet.",
+      "fixVi": "Lời mời: ngày + giờ + địa điểm + (mang gì / ai đến). Lời xin lỗi: lý do cụ thể, đáng tin. Lời bù đắp: một hành động cụ thể với thời gian cụ thể."
+    },
+    "misread_relationship": {
+      "label": "Đọc sai mối quan hệ trong đề",
+      "explanationVi": "Bạn chọn register theo chủ đề hoặc thói quen thay vì theo người nhận. Một hàng xóm chưa thân hay một đồng nghiệp cần giọng bán trang trọng — không phải thư công ty, cũng không phải tin nhắn bạn thân.",
+      "fixVi": "Gạch dưới người nhận trong câu situation và hỏi: mình quen người này đến mức nào? Bạn thân → informal; đồng nghiệp, hàng xóm, sếp quen → semi-formal; công ty, cơ quan → formal."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "I hope you're doing well.", "vi": "Mong bạn vẫn khỏe. (hỏi thăm ngắn đầu thư)", "example": "Hi Karen, I hope you're doing well and enjoying the sunshine in Penticton." },
+    { "term": "Thanks so much for + V-ing", "vi": "Cảm ơn rất nhiều vì đã… (cảm ơn thân mật)", "example": "Thanks so much for driving me to the airport at five in the morning." },
+    { "term": "It meant a lot to me that…", "vi": "Việc… có ý nghĩa rất lớn với mình", "example": "It meant a lot to me that you came to my citizenship ceremony." },
+    { "term": "I owe you one.", "vi": "Mình nợ bạn một lần (sẽ đáp lại)", "example": "Thanks for covering my shift on Friday. I owe you one." },
+    { "term": "let someone down", "vi": "làm ai đó thất vọng", "example": "I'm so sorry I let you down on moving day." },
+    { "term": "I feel terrible that…", "vi": "Mình thấy áy náy vô cùng vì…", "example": "I feel terrible that you had to wait for me at the SkyTrain station." },
+    { "term": "To make it up to you,…", "vi": "Để bù đắp cho bạn,…", "example": "To make it up to you, let me treat you to brunch on Granville Island." },
+    { "term": "We'd love it if you could join us.", "vi": "Chúng mình rất mong bạn đến cùng.", "example": "We're having a small get-together on Saturday, and we'd love it if you could join us." },
+    { "term": "No pressure if you can't make it.", "vi": "Không sao nếu bạn không đến được. (lối thoát lịch sự)", "example": "The hike starts at 9 a.m. at Lynn Canyon, but no pressure if you can't make it." },
+    { "term": "I was wondering if you'd be able to…", "vi": "Không biết anh/chị có thể… không (nhờ vả bán trang trọng)", "example": "I was wondering if you'd be able to sign for a parcel for me on Thursday." }
+  ],
+  "grammar": [
+    {
+      "point": "Contractions and phrasal verbs for a natural informal voice",
+      "explanationVi": "Trong email thân mật và bán trang trọng, viết tắt (I'm, we'd, can't, it's) và cụm động từ (look after, come over, catch up, end up) là dấu hiệu của giọng tự nhiên. Lưu ý: viết tắt phải đúng — it's (it is) khác its (của nó); you're khác your.",
+      "examples": [
+        "I'm so sorry I couldn't come on Saturday.",
+        "Would you like to come over for coffee on Sunday?",
+        "We ended up warming up with hot chocolate on Main Street."
+      ]
+    },
+    {
+      "point": "Softened requests: I was wondering if… / Would you mind + -ing?",
+      "explanationVi": "Khi nhờ đồng nghiệp hay hàng xóm, dùng 'I was wondering if + quá khứ/would' hoặc 'Would you mind + V-ing'. Thì quá khứ trong 'I was wondering' không chỉ quá khứ mà làm lời nhờ mềm hơn. Không viết 'Would you mind to cover…'.",
+      "examples": [
+        "I was wondering if you could water my plants next week.",
+        "Would you mind keeping an eye on my mail while I'm away?",
+        "✗ Would you mind to sign for my parcel? → ✓ Would you mind signing for my parcel?"
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Luyện Task 1 – email thân mật", "route": "/writing?task=W1" },
+    { "label": "Ôn cụm từ email thân mật", "route": "/vocabulary" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises; keys sound, i2 has exactly one mismatch. Changed apologise/apologising to -ize, fixed weekday/date mismatches (June 6, May 16), replaced 'a work training', aligned g3 with its stimulus (plants), removed a claim that 'take care of' is stiff, and added a separate sign-off to the i8 model to match its checklist."}
+}

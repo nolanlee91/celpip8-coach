@@ -1,0 +1,540 @@
+{
+  "id": "ls-03",
+  "skill": "listening",
+  "module": "listening-foundations",
+  "level": "foundation",
+  "difficulty": 7,
+  "title": "Dictation: hearing every word",
+  "titleVi": "Chép chính tả: nghe rõ từng từ",
+  "estimatedMinutes": 35,
+  "prerequisites": [
+    "ls-01"
+  ],
+  "competencies": [
+    "vocabulary"
+  ],
+  "tasks": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6"
+  ],
+  "objectives": [
+    "You will be able to recognize common reductions in fast speech (gonna, wanna, gotta, hafta, didja, should've) and write their full forms.",
+    "You will be able to hear weak function words (to, of, for, and, have, a) that are almost swallowed in natural speech.",
+    "You will be able to separate words that are linked together (get off at, half an hour, a couple of).",
+    "You will be able to write a spoken sentence of 10–17 words accurately using a four-step dictation routine."
+  ],
+  "objectiveVi": "Sau bài này, bạn nhận ra các dạng rút gọn, từ chức năng đọc yếu và hiện tượng nối âm, nuốt âm trong tiếng Anh nói tự nhiên, và chép lại chính xác một câu nói dài 10–17 từ.",
+  "whyItMattersVi": "Ở Listening 6, bạn hiểu được người nói chậm và rõ, nhưng khi họ nói nhanh và tự nhiên thì cả cụm từ “biến mất”. Chép chính tả (dictation) cho bạn thấy chính xác mình đang hụt chỗ nào: thường là những từ nhỏ như to, have, of, hoặc ranh giới giữa các từ bị nối. Khi tai đã “giải mã” được tiếng nói nhanh, bạn sẽ không còn mất nguyên câu ở Part 5–6, nơi tốc độ và độ tự nhiên cao nhất, và đó là điều kiện để đạt Level 8.",
+  "concept": [
+    {
+      "heading": "Vì sao chép chính tả giúp bạn lên Level 8?",
+      "body": "Khi nghe bài CELPIP, bạn không cần chép lại từng từ. Nhưng **luyện chép chính tả** buộc tai phải xử lý mọi âm, nên nó lộ ra chính xác những âm bạn đang bỏ sót. Phần lớn lỗi không nằm ở từ khó, mà ở **ba hiện tượng của tiếng Anh nói**: dạng rút gọn (reductions), từ chức năng đọc yếu (weak forms) và nối âm, nuốt âm (linking & elision).\n\nTrong ứng dụng này, bài dictation được chấm theo từ: viết đúng ≥ 90% số từ, đúng thứ tự, là đạt. Hãy viết **chính tả chuẩn** (*going to*, không viết *gonna*), vì đó là cách bạn chứng minh mình hiểu cấu trúc câu."
+    },
+    {
+      "heading": "Dạng rút gọn (reductions)",
+      "body": "Người bản xứ nói nhanh sẽ gộp các cụm phổ biến thành một khối âm:\n- *going to* → **gonna**; *want to* → **wanna**; *got to* → **gotta**; *have to* → **hafta**; *has to* → **hasta**\n- *let me* → **lemme**; *did you* → **didja**; *what are you* → **whaddaya**; *don't know* → **dunno**; *kind of* → **kinda**\n- *should have / would have / could have* → **should've / would've / could've**, nghe như *shoulda, woulda*.\n\nQuy tắc viết: luôn viết lại **dạng đầy đủ**. Đặc biệt, *should've* phải viết là **should have**, không bao giờ viết *should of*, dù nghe rất giống. Đây là lỗi chính tả rất phổ biến kể cả với người bản xứ.\n\nLưu ý: giọng đọc máy (TTS) trong bài có thể nói rõ hơn người thật. Hãy tập nhận ra cả hai phiên bản."
+    },
+    {
+      "heading": "Từ chức năng đọc yếu (weak forms)",
+      "body": "Tiếng Anh nhấn vào **từ nội dung** (danh từ, động từ chính, tính từ) và đọc lướt **từ chức năng**. Những từ này co lại thành âm /ə/ (schwa) rất ngắn:\n- *to* → /tə/: *need to bring* nghe như *need-tə-bring*\n- *for* → /fər/; *of* → /ə/: *a list of* → *a list-ə*\n- *and* → /ən/ hoặc chỉ /n/: *card and a list* → *card-n-a list*\n- *have* → /əv/: *should have booked* → *should-əv booked*\n- *can* → /kən/; *them* → /əm/: *order them in* → *order-əm in*\n\nMẹo: nếu câu bạn chép **thiếu ngữ pháp** (*I need bring*, *a list your medications*), gần như chắc chắn bạn đã bỏ sót một weak form. Dùng ngữ pháp để khôi phục nó."
+    },
+    {
+      "heading": "Nối âm, nuốt âm và âm t “mềm”",
+      "body": "- **Nối phụ âm + nguyên âm (linking):** *get off at* → *ge-do-fat*; *half an hour* → *ha-fə-nour*; *pick it up* → *pi-ki-tup*. Bạn nghe như một từ dài, nên phải tự cắt ranh giới.\n- **Nuốt âm (elision):** âm /t/, /d/ giữa hai phụ âm thường mất: *next stop* → *nex stop*; *last night* → *las night*; *don't know* → *dunno*.\n- **Âm t mềm (flap t)** trong giọng Canada và Mỹ: /t/ giữa hai nguyên âm nghe như *d* nhẹ: *a lot of* → *a lodda*; *get a chance* → *geda chance*; *better* → *bedder*.\n\nNgười Việt hay gặp thêm một khó khăn: tiếng Việt không có phụ âm cuối nối sang nguyên âm đầu của từ sau, nên tai ta có xu hướng “nghe ra” những từ không tồn tại. Khi nghe một khối âm lạ, hãy thử tách nó thành các từ ngắn quen thuộc."
+    },
+    {
+      "heading": "Quy trình chép chính tả 4 bước",
+      "body": "1. **Nghe lần đầu để hiểu ý.** Đừng viết ngay. Hỏi: ai đang nói gì, câu này hỏi, đề nghị hay kể?\n2. **Viết từ nội dung trước:** các từ được nhấn (*ask, camping, weekend*). Đây là “khung xương” của câu.\n3. **Điền từ chức năng bằng ngữ pháp và âm:** giữa *ask* và *camping* phải có *if you wanted to come*. Nghe lại để xác nhận.\n4. **Đọc lại và sửa:** động từ chia đúng chưa (*wanted*, *sent*)? Có -s số nhiều, mạo từ *a/the* chưa? Viết dạng đầy đủ thay cho *gonna/wanna* chưa?\n\nKhi luyện ở nhà, bạn có thể nghe lại tối đa 3–4 lần. Mục tiêu dài hạn là chép được sau 2 lần nghe, vì trong bài thi thật bạn chỉ nghe **một lần**."
+    }
+  ],
+  "stimuli": {
+    "ex-coffee-chat": {
+      "title": "Two coworkers making plans",
+      "audio": [
+        {
+          "speaker": "Tara",
+          "voice": "female_a",
+          "text": "Hey, what are you going to do after work? I want to grab a coffee. Do you want to come?"
+        },
+        {
+          "speaker": "Ben",
+          "voice": "male_a",
+          "text": "I'd love to, but I've got to pick up my daughter at five. Let me check if my wife can get her instead."
+        },
+        {
+          "speaker": "Tara",
+          "voice": "female_a",
+          "text": "No worries. If it doesn't work out, we can do it tomorrow. There's a new place next to the library."
+        }
+      ]
+    },
+    "ex-plumber-voicemail": {
+      "title": "A voicemail from the landlord",
+      "audio": [
+        {
+          "speaker": "Frank",
+          "voice": "male_b",
+          "text": "Hi, it's Frank, from upstairs. Just letting you know the plumber's coming tomorrow between nine and twelve. He needs to get into your kitchen for about half an hour, and he might also take a quick look at the bathroom tap while he's here. If that's a problem, send me a text and we'll find another time. Sorry for the short notice."
+        }
+      ]
+    },
+    "dict-camping": {
+      "title": "Weekend plans",
+      "showTranscript": "never",
+      "audio": [
+        {
+          "speaker": "Kim",
+          "voice": "female_a",
+          "text": "Hey Jordan, I was going to ask if you wanted to come camping with us this weekend. We're heading up to a lake near Squamish."
+        },
+        {
+          "speaker": "Jordan",
+          "voice": "male_a",
+          "text": "Oh, nice. Did you manage to get a site? Everything's been booked up for weeks."
+        },
+        {
+          "speaker": "Kim",
+          "voice": "female_a",
+          "text": "Barely. We should have booked the site a lot earlier, to be honest. We only got a walk-in spot, so we'll have to carry our stuff about ten minutes from the parking lot."
+        },
+        {
+          "speaker": "Jordan",
+          "voice": "male_a",
+          "text": "That's not too bad. Count me in."
+        }
+      ]
+    },
+    "dict-office": {
+      "title": "At the office",
+      "showTranscript": "never",
+      "audio": [
+        {
+          "speaker": "Olivia",
+          "voice": "female_b",
+          "text": "Hey Marcus, did you get a chance to look at the schedule I sent you?"
+        },
+        {
+          "speaker": "Marcus",
+          "voice": "male_a",
+          "text": "Not yet, sorry. It's been one of those mornings. I'll have to check with my manager and get back to you."
+        },
+        {
+          "speaker": "Olivia",
+          "voice": "female_b",
+          "text": "No rush. Just let me know by the end of the day, because I want to send it out to the whole team tomorrow."
+        }
+      ]
+    },
+    "dict-skytrain": {
+      "title": "Transit announcement",
+      "showTranscript": "never",
+      "audio": [
+        {
+          "speaker": "Announcer",
+          "voice": "narrator",
+          "text": "Attention, passengers. Due to a track problem, trains are not running between Stadium-Chinatown and Commercial-Broadway stations. Passengers heading downtown should get off at the next stop and take the free shuttle bus. Shuttle buses are leaving every five to ten minutes from the bus loop outside the station. We apologize for the inconvenience and expect regular service to resume in about an hour."
+        }
+      ]
+    },
+    "dict-clinic-reminder": {
+      "title": "Clinic reminder",
+      "showTranscript": "never",
+      "audio": [
+        {
+          "speaker": "Sandra",
+          "voice": "female_a",
+          "text": "Hi, this is Sandra from Maple Ridge Family Clinic, calling to remind you about your appointment on Monday morning. You don't need to bring anything except your BC Services Card and a list of your medications. If you're running late, please let us know, because we may have to rebook you. It'll only take a couple of minutes to check in at the front desk. See you then."
+        }
+      ]
+    },
+    "dict-snow-day": {
+      "title": "Neighbours on a snowy morning",
+      "showTranscript": "never",
+      "audio": [
+        {
+          "speaker": "Hannah",
+          "voice": "female_a",
+          "text": "Morning! Wow, what a mess out here. If I'd known it was going to snow this much, I would have left the car at home."
+        },
+        {
+          "speaker": "Raj",
+          "voice": "male_a",
+          "text": "Tell me about it. I've been shovelling since six. What are you up to tonight, by the way? A bunch of us are getting together at my place to watch the hockey game."
+        },
+        {
+          "speaker": "Hannah",
+          "voice": "female_a",
+          "text": "Oh, I'd love to, but I promised my sister I'd help her move. Let me know if there's anything I can do to help out next weekend, though."
+        }
+      ]
+    },
+    "dict-boot-store": {
+      "title": "At a shoe store",
+      "showTranscript": "never",
+      "audio": [
+        {
+          "speaker": "Customer",
+          "voice": "female_a",
+          "text": "Hi, I'm looking for a pair of winter boots in size eight. The black ones in the window?"
+        },
+        {
+          "speaker": "Clerk",
+          "voice": "male_b",
+          "text": "Oh, sorry, those sold out last week. We don't have them in stock right now, but we can order them in for you. It usually takes about a week, and there's no extra charge."
+        },
+        {
+          "speaker": "Customer",
+          "voice": "female_a",
+          "text": "Okay, let's do that."
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "ls03-ex1",
+      "title": "Decoding reductions: \"I've gotta pick up…\"",
+      "stimulusId": "ex-coffee-chat",
+      "question": "Write Ben's first sentence exactly.",
+      "steps": [
+        "Listen once for meaning: Ben says yes, but he has a problem: his daughter needs picking up.",
+        "Content words you hear clearly: love … pick up … daughter … five.",
+        "Fill the gaps with sound and grammar: \"I'd love to\" (the to is a weak /tə/), \"but I've got to\" (heard as \"I've gotta\"), \"pick up my daughter\" (pick and up link: \"pi-kup\"), \"at five\" (at is very short).",
+        "Write full forms, not \"gotta\". Check grammar: \"I've got to + verb\" is correct; \"my daughter\" needs the possessive.",
+        "Final check against the sound: \"I'd love to, but I've got to pick up my daughter at five.\" Tara's line uses the same patterns: \"what are you going to\" (whaddaya gonna) and \"Do you want to\" (d'you wanna)."
+      ],
+      "answer": "I'd love to, but I've got to pick up my daughter at five.",
+      "takeawayVi": "Nghe ra “gotta, gonna, wanna” thì viết “got to, going to, want to”. Từ nội dung tạo khung câu; từ chức năng (to, at, my) được điền lại nhờ ngữ pháp và nghe lại."
+    },
+    {
+      "id": "ls03-ex2",
+      "title": "Recovering weak forms and linked words",
+      "stimulusId": "ex-plumber-voicemail",
+      "question": "Write the part of Frank's sentence about the plumber and the kitchen, from \"He needs…\" to \"…half an hour\".",
+      "steps": [
+        "First listen: the plumber needs access to the kitchen for a short time.",
+        "Content words: needs … get … kitchen … half … hour.",
+        "\"needs to get into\" is heard as \"needz-tə-ge-din-tə\": the t of get is soft and links to into. Split it: needs / to / get / into.",
+        "\"for about half an hour\" is heard as \"fər-ə-bout ha-fə-nour\". Grammar tells you \"half ___ hour\" needs an article; the sound /ə/ before a vowel is \"an\".",
+        "Check: subject \"He\" → \"needs\" with -s; \"your kitchen\" has the possessive. Final: \"He needs to get into your kitchen for about half an hour.\" (Frank then continues with \", and he might also take a quick look…\".)"
+      ],
+      "answer": "He needs to get into your kitchen for about half an hour.",
+      "takeawayVi": "Khi câu bạn chép bị thiếu ngữ pháp (“needs get”, “half hour”), đó là dấu hiệu bạn đã bỏ sót một weak form như to, an, for. Hãy dùng ngữ pháp để biết chỗ nào phải có từ, rồi nghe lại để xác nhận."
+    }
+  ],
+  "guided": [
+    {
+      "id": "ls03-g1",
+      "type": "text",
+      "mode": "dictation",
+      "stimulusId": "dict-camping",
+      "prompt": "Listen to Kim's first turn. Write the sentence that starts with \"I was…\" exactly as she says it (15 words).",
+      "hint": "The sentence contains two structures that are often reduced in fast speech: \"was going to\" (gonna) and \"wanted to\". The recording may say them more clearly than a real speaker, but write the full forms either way. The words \"with us this\" are short and linked.",
+      "answers": [
+        "I was going to ask if you wanted to come camping with us this weekend.",
+        "I was gonna ask if you wanted to come camping with us this weekend."
+      ],
+      "misconception": "reduced_form",
+      "explanationVi": "Câu đầy đủ: “I was going to ask if you wanted to come camping with us this weekend.” Khi người thật nói nhanh, “was going to” thường thành “wuz-gonna”, “wanted to” thành “wan-tə”; bản ghi có thể nói rõ hơn, nhưng cách viết vẫn là dạng đầy đủ. Nếu bạn thiếu “to” sau “wanted”, đó là lỗi weak form; câu “wanted come” sai ngữ pháp.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls03-g2",
+      "type": "text",
+      "mode": "exact",
+      "stimulusId": "dict-camping",
+      "prompt": "Fill in the missing word: \"We should ___ booked the site a lot earlier, to be honest.\"",
+      "hint": "After should, could or would, a past participle (booked) needs a helper verb. In fast speech it shrinks to a short /əv/ sound.",
+      "answers": [
+        "have",
+        "'ve"
+      ],
+      "misconception": "spelling_form",
+      "explanationVi": "“Should have booked” nghe như “shoulda booked” hoặc “should-əv booked”. Viết là “have”, không bao giờ là “of”. Cấu trúc should have + V3 diễn tả việc lẽ ra nên làm nhưng đã không làm.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls03-g3",
+      "type": "text",
+      "mode": "dictation",
+      "stimulusId": "dict-office",
+      "prompt": "Write Olivia's question to Marcus exactly, starting from \"Did you…\" (13 words).",
+      "hint": "In fast speech \"Did you\" often blends into \"didja\" and \"get a\" into \"geda\", so write the separate words. The question ends with a short clause describing the schedule; check the tense of its verb.",
+      "answers": [
+        "Did you get a chance to look at the schedule I sent you?",
+        "Did you get a chance to look at the schedule that I sent you?"
+      ],
+      "misconception": "linking_boundary",
+      "explanationVi": "Câu đúng: “Did you get a chance to look at the schedule I sent you?” Khi nói nhanh, câu này thường nghe như “Didja geda chance tə look ət the schedule I sent you?”: ranh giới từ bị xoá vì nối âm và âm t mềm. Lưu ý mệnh đề “I sent you” không có “that”, và “sent” là quá khứ, đừng viết “send”.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls03-g4",
+      "type": "text",
+      "mode": "dictation",
+      "stimulusId": "dict-office",
+      "prompt": "Write the sentence in which Marcus says what he needs to do (12 words).",
+      "hint": "It starts with a contraction of \"I will\". Listen for a verb of obligation (often reduced to \"hafta\" in fast speech) and for a common phrasal verb that means \"reply later\".",
+      "answers": [
+        "I'll have to check with my manager and get back to you.",
+        "I will have to check with my manager and get back to you."
+      ],
+      "misconception": "reduced_form",
+      "explanationVi": "Câu đúng: “I'll have to check with my manager and get back to you.” Khi nói nhanh, câu này thường thành “I'll hafta check with my manager n' get back tə you”: “have to” → “hafta”, “and” chỉ còn /n/, “to” còn /tə/. “Get back to you” = trả lời bạn sau.",
+      "competency": "vocabulary"
+    }
+  ],
+  "independent": [
+    {
+      "id": "ls03-i1",
+      "type": "text",
+      "mode": "dictation",
+      "stimulusId": "dict-skytrain",
+      "prompt": "Write the sentence that tells passengers going downtown what to do (16 words).",
+      "answers": [
+        "Passengers heading downtown should get off at the next stop and take the free shuttle bus."
+      ],
+      "misconception": "linking_boundary",
+      "explanationVi": "Khi nói tự nhiên, “get off at the next stop” nghe như “ge-do-fat the nex stop”: t mềm nối sang off, off nối sang at, và âm t của next bị nuốt. Bản ghi có thể rõ hơn, nhưng bạn vẫn phải tách đúng từng từ. Đừng bỏ “the” trước “next stop” và “free shuttle bus”.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls03-i2",
+      "type": "text",
+      "mode": "exact",
+      "stimulusId": "dict-skytrain",
+      "prompt": "Fill in the gap: \"Shuttle buses are leaving every ___ minutes from the bus loop outside the station.\" (three words)",
+      "answers": [
+        "five to ten",
+        "5 to 10",
+        "5-10",
+        "five-to-ten"
+      ],
+      "misconception": "weak_form_dropped",
+      "explanationVi": "“Five to ten” nghe như “five-tə-ten”; chữ “to” chỉ còn /tə/ rất ngắn. Nếu bạn viết “five ten” hay “fifteen”, bạn đã bỏ mất weak form và đổi cả nghĩa.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls03-i3",
+      "type": "text",
+      "mode": "dictation",
+      "stimulusId": "dict-clinic-reminder",
+      "prompt": "Write the sentence about what to bring to the appointment (17 words).",
+      "answers": [
+        "You don't need to bring anything except your BC Services Card and a list of your medications.",
+        "You do not need to bring anything except your BC Services Card and a list of your medications.",
+        "You don't need to bring anything except your B.C. Services Card and a list of your medications."
+      ],
+      "misconception": "weak_form_dropped",
+      "explanationVi": "Ba weak form dễ mất: “need tə bring”, “Card-n-a list” (and chỉ còn /n/) và “list-ə your” (of chỉ còn /ə/). Câu “a list your medications” sai ngữ pháp, nên phải có “of”.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls03-i4",
+      "type": "text",
+      "mode": "exact",
+      "stimulusId": "dict-clinic-reminder",
+      "prompt": "Fill in the gap: \"It'll only take ___ minutes to check in at the front desk.\" (three words)",
+      "answers": [
+        "a couple of"
+      ],
+      "misconception": "weak_form_dropped",
+      "explanationVi": "Đáp án là “a couple of” (ba từ). Trong lời nói nhanh, cụm này thường thành “a cupla”: “of” chỉ còn /ə/ và dính vào “couple”, nên người học hay bỏ mất nó. Viết “a couple minutes” là thiếu đúng weak form mà bài này luyện; khi chép chính tả hãy viết đủ “a couple of minutes”.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls03-i5",
+      "type": "text",
+      "mode": "dictation",
+      "stimulusId": "dict-boot-store",
+      "prompt": "Write the clerk's sentence about the boots not being available (16 words).",
+      "answers": [
+        "We don't have them in stock right now, but we can order them in for you.",
+        "We do not have them in stock right now, but we can order them in for you."
+      ],
+      "misconception": "weak_form_dropped",
+      "explanationVi": "“Them” trong lời nói nhanh chỉ còn /əm/: “have-əm in stock”, “order-əm in”. “Can” đọc yếu thành /kən/, “for” thành /fər/. “Order them in” = đặt hàng về cửa hàng.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls03-i6",
+      "type": "choice",
+      "stimulusId": "dict-snow-day",
+      "prompt": "Raj asks Hannah a quick question about her evening. Which transcript matches what he says?",
+      "options": [
+        {
+          "text": "\"Where are you off to tonight?\"",
+          "misconception": "meaning_not_words",
+          "whyVi": "Gần nghĩa nhưng không phải lời Raj. Bạn đã ghi lại ý thay vì từng từ."
+        },
+        {
+          "text": "\"What do you up to tonight?\"",
+          "misconception": "spelling_form",
+          "whyVi": "Sai ngữ pháp: “up to” đi với “be” (What are you up to?), không đi với “do”."
+        },
+        {
+          "text": "\"What are you up to tonight?\"",
+          "misconception": null,
+          "whyVi": "Đúng: đây là câu Raj nói. Khi người bản xứ nói nhanh, “What are you” thường rút gọn thành “whaddaya”, nghe như “Whaddaya up to tonight?”."
+        },
+        {
+          "text": "\"What did you get up to tonight?\"",
+          "misconception": "reduced_form",
+          "whyVi": "Bạn nghe “whaddaya” thành “what did you”, nhưng câu hỏi ở hiện tại về kế hoạch tối nay."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "What are you up to tonight, by the way?",
+      "explanationVi": "“Whaddaya” có thể là “what are you” hoặc “what do you”. Dùng ngữ pháp để chọn: sau nó là “up to”, mà cụm này đi với “be”, nên là “What are you up to?”, tức “Tối nay bạn định làm gì?”.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls03-i7",
+      "type": "text",
+      "mode": "dictation",
+      "stimulusId": "dict-snow-day",
+      "prompt": "Write Hannah's sentence about the snow and her car, starting from \"If…\" (18 words).",
+      "answers": [
+        "If I'd known it was going to snow this much, I would have left the car at home.",
+        "If I had known it was going to snow this much, I would have left the car at home.",
+        "If I'd known it was going to snow this much, I would've left the car at home.",
+        "If I'd known it was gonna snow this much, I would have left the car at home."
+      ],
+      "misconception": "spelling_form",
+      "explanationVi": "Câu điều kiện loại 3: “If I'd known… I would have left”. Trong lời nói nhanh, “would have” thành “woulda”, “going to” thành “gonna”. Viết “would have” (không viết “would of”), và nhớ “I'd known” là “I had known”.",
+      "competency": "vocabulary"
+    },
+    {
+      "id": "ls03-i8",
+      "type": "text",
+      "mode": "dictation",
+      "stimulusId": "dict-snow-day",
+      "prompt": "Write Hannah's last sentence, where she offers help (15 words).",
+      "answers": [
+        "Let me know if there's anything I can do to help out next weekend, though.",
+        "Let me know if there is anything I can do to help out next weekend, though."
+      ],
+      "misconception": "reduced_form",
+      "explanationVi": "“Lemme know if there's anything I kən do tə help out nex weekend, though.” Có rút gọn (let me → lemme), weak form (can, to), nối âm (help-out) và nuốt âm (next weekend → nex weekend). Đừng bỏ “though” ở cuối câu.",
+      "competency": "vocabulary"
+    }
+  ],
+  "misconceptions": {
+    "reduced_form": {
+      "label": "Không nhận ra dạng rút gọn",
+      "explanationVi": "Bạn chưa quen các khối âm như gonna, wanna, hafta, lemme, whaddaya, nên hoặc bỏ trống, hoặc đoán thành từ khác. Tai bạn vẫn chờ nghe phiên bản “sách giáo khoa” của từng từ.",
+      "fixVi": "Học thuộc bảng rút gọn phổ biến và cách viết đầy đủ của chúng. Khi nghe một khối âm lạ ở đầu câu hoặc trước động từ, thử khớp nó với bảng: gonna = going to, hafta = have to, lemme = let me."
+    },
+    "weak_form_dropped": {
+      "label": "Bỏ sót từ chức năng đọc yếu",
+      "explanationVi": "Bạn nghe được từ nội dung nhưng bỏ mất các từ nhỏ đọc lướt (to, of, and, for, them, can). Câu chép ra vì thế thiếu ngữ pháp. Đây là khoảng trống lớn nhất khi chuyển từ nghe chậm sang nghe nói tự nhiên.",
+      "fixVi": "Sau khi chép, đọc lại và hỏi: câu này có đúng ngữ pháp không? Chỗ nào thiếu giới từ, mạo từ hay “to”? Rồi nghe lại đúng chỗ đó để tìm âm /ə/ ngắn."
+    },
+    "linking_boundary": {
+      "label": "Cắt sai ranh giới từ khi nối âm",
+      "explanationVi": "Khi phụ âm cuối nối sang nguyên âm đầu (get off at, a couple of, did you get a), bạn nghe thành một từ dài và cắt sai chỗ, hoặc ghép thành từ không tồn tại. Tiếng Việt không nối âm kiểu này, nên đây là thói quen tai cần luyện.",
+      "fixVi": "Khi gặp khối âm khó, viết ra các âm tiết bạn nghe được (ge-do-fat), rồi thử tách thành từ ngắn quen thuộc (get / off / at) và kiểm tra bằng nghĩa của câu."
+    },
+    "spelling_form": {
+      "label": "Nghe đúng âm nhưng viết sai dạng",
+      "explanationVi": "Bạn nghe được âm nhưng viết sai dạng ngữ pháp: should of thay vì should have, would of, do you up to. Đây là lỗi hiểu cấu trúc câu, không phải lỗi tai.",
+      "fixVi": "Học các cấu trúc hay bị rút gọn: modal + have + V3, be + up to, be going to + V. Khi nghe /əv/ sau should, could hay would, luôn viết “have”."
+    },
+    "meaning_not_words": {
+      "label": "Ghi lại ý thay vì từng từ",
+      "explanationVi": "Bạn hiểu ý câu nói nhưng tái tạo nó bằng từ của mình (Where are you off to?). Trong bài thi điều này có thể vẫn ổn, nhưng khi luyện chép chính tả nó che mất những âm bạn thật sự chưa nghe được.",
+      "fixVi": "Khi luyện chép chính tả, chỉ viết những gì bạn thực sự nghe. Nếu không chắc, nghe lại đúng đoạn đó thay vì đoán theo nghĩa."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "get a chance to (geda chance tə)",
+      "vi": "có dịp, có thời gian để làm gì",
+      "example": "Did you get a chance to read the strata meeting minutes?"
+    },
+    {
+      "term": "get back to you",
+      "vi": "trả lời bạn sau",
+      "example": "Let me check my shift schedule and get back to you tonight."
+    },
+    {
+      "term": "have to (hafta) / got to (gotta)",
+      "vi": "phải (dạng rút gọn khi nói nhanh)",
+      "example": "I've got to leave by four to beat the traffic on the Port Mann Bridge."
+    },
+    {
+      "term": "should have + V3 (shoulda)",
+      "vi": "lẽ ra nên… (nhưng đã không làm)",
+      "example": "We should have left earlier, the ferry lineup is huge."
+    },
+    {
+      "term": "What are you up to? (whaddaya up to)",
+      "vi": "Bạn đang/định làm gì?",
+      "example": "What are you up to this weekend? Want to go to the farmers' market?"
+    },
+    {
+      "term": "Count me in.",
+      "vi": "Cho mình tham gia với.",
+      "example": "A hike to Lynn Canyon on Sunday? Count me in."
+    },
+    {
+      "term": "Tell me about it.",
+      "vi": "Đúng vậy, tôi cũng thấy thế (đồng cảm với lời phàn nàn)",
+      "example": "The rain hasn't stopped all week. Tell me about it."
+    },
+    {
+      "term": "order (them) in",
+      "vi": "đặt hàng về cửa hàng",
+      "example": "We don't carry that size, but we can order it in by Friday."
+    },
+    {
+      "term": "It's been one of those mornings/days.",
+      "vi": "Hôm nay đúng là một buổi sáng/ngày rối ren.",
+      "example": "Sorry I'm late. It's been one of those mornings."
+    },
+    {
+      "term": "No rush.",
+      "vi": "Không vội đâu.",
+      "example": "No rush, just send me the photos whenever you have time."
+    }
+  ],
+  "grammar": [
+    {
+      "point": "Modal + have + past participle (should have, would have, could have)",
+      "explanationVi": "Dùng để nói về quá khứ: điều lẽ ra nên làm (should have), điều sẽ xảy ra nếu… (would have), điều đã có thể làm (could have). Khi nói nhanh, “have” chỉ còn /əv/ hoặc /ə/, nghe như “shoulda, woulda, coulda”. Khi viết luôn dùng “have”.",
+      "examples": [
+        "We should have booked the site a lot earlier.",
+        "If I'd known it was going to snow, I would have taken the bus.",
+        "You could have told me the meeting was cancelled."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "label": "Drill: vocabulary in listening",
+      "route": "/listening?mode=drill&focus=vocabulary"
+    },
+    {
+      "label": "Listening Part 5: Discussion",
+      "route": "/listening?task=L5"
+    },
+    {
+      "label": "Review your mistakes",
+      "route": "/mistakes"
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "author-agent+independent-review-agent",
+    "notes": "Verified every dictation answer is verbatim and word counts match prompts; added B.C. spelling variant. Reworded hints/explanations so they no longer claim the TTS clip itself says gonna/didja/hafta (framed as natural fast speech), removed the lenient 'a couple' answer (it drops the very weak form taught) and remapped it to weak_form_dropped; station name corrected to Stadium-Chinatown."
+  }
+}

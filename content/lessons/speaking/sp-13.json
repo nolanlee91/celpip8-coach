@@ -1,0 +1,371 @@
+{
+  "id": "sp-13",
+  "skill": "speaking",
+  "module": "speaking-level8",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Task 8: Unusual situations",
+  "titleVi": "Task 8: Mô tả tình huống / đồ vật lạ",
+  "estimatedMinutes": 35,
+  "prerequisites": ["sp-08"],
+  "competencies": ["vocabulary_range", "task_fulfillment"],
+  "tasks": ["S8"],
+  "objectives": [
+    "You will be able to describe an unfamiliar object to someone who cannot see it, starting with an overall impression.",
+    "You will be able to describe shape, size, material, colour and position with precise words (dome-shaped, attached to, sticking out of, three times the size of).",
+    "You will be able to talk around a word you don't know (circumlocution) instead of stopping.",
+    "You will be able to finish the call by doing what the prompt asks: guessing the purpose, recommending, or asking the listener's opinion."
+  ],
+  "objectiveVi": "Sau bài này, bạn mô tả được một đồ vật lạ cho người không nhìn thấy nó: bắt đầu bằng ấn tượng tổng thể, đi theo một hướng cố định, dùng từ chính xác về hình dạng, kích thước, chất liệu, vị trí, biết nói vòng khi quên từ, và kết thúc đúng yêu cầu của đề.",
+  "whyItMattersVi": "Task 8 kiểm tra trực tiếp độ phong phú từ vựng: bạn không thể nói \"this thing here\" vì người nghe không nhìn thấy. Ở Speaking 6, câu trả lời thường chỉ là danh sách màu sắc (\"It is red. It has a green thing.\"), lộn xộn và quên yêu cầu cuối của đề. Level 8 nghe như một cuộc gọi thật: người nghe có thể hình dung ra đồ vật, và bạn vẫn hoàn thành nhiệm vụ (khuyên mua, đề nghị thuê, hỏi ý kiến).",
+  "concept": [
+    {
+      "heading": "Task 8 kiểm tra điều gì",
+      "body": "Trong **Task 8 (Describing an Unusual Situation)** bạn xem một bức tranh có đồ vật hoặc cảnh lạ, có **30 giây chuẩn bị** và **60 giây nói**. Đề thường đặt bạn vào vai đang **gọi điện** cho một người **không nhìn thấy** bức tranh, và yêu cầu thêm một việc: đoán công dụng, khuyên nên mua/thuê hay không, hoặc hỏi ý kiến.\n\nVì người nghe không nhìn thấy, các từ như *this*, *here*, *that thing* gần như vô nghĩa. Người chấm nghe xem bạn có giúp người kia **hình dung** được đồ vật không, và có **hoàn thành phần yêu cầu cuối** của đề không."
+    },
+    {
+      "heading": "Thứ tự mô tả: tổng thể → hướng cố định → điểm lạ → mục đích",
+      "body": "1. **Overall impression (1–2 câu):** đồ vật trông giống cái gì quen thuộc? *\"It looks like a blender crossed with a robot.\"* / *\"It's basically a bike, but with a giant front wheel.\"*\n2. **Một hướng cố định:** dưới lên trên, trái sang phải, hoặc **thân chính → các bộ phận gắn thêm**. Đừng nhảy qua lại.\n3. **The unusual part:** báo hiệu chi tiết lạ nhất: *\"Here's the strange part…\"*, *\"What's really unusual is…\"*.\n4. **Purpose + task:** đoán công dụng (*I'm guessing it's for…*) và làm đúng yêu cầu của đề (*I think we should get it because…*, *What do you think?*).\n\nTrong 30 giây chuẩn bị, chọn hướng mô tả và ghi 4–5 từ khóa theo thứ tự đó."
+    },
+    {
+      "heading": "Bộ từ vựng mô tả",
+      "body": "- **Shape:** *round, oval, square, rectangular, cylinder-shaped, dome-shaped, cone-shaped, curved, zigzag, heart-shaped*.\n- **Size (so sánh, không chỉ \"big/small\"):** *tiny, chunky, huge, about three times the size of…, twice as tall as…, the same size as…*\n- **Material:** *made of metal / clear plastic / glass / wicker*, *covered in tiny holes*, *with ridges*.\n- **Position:** *on top of, at the bottom, attached to, sticking out of, mounted on, just below, side by side, on either side*.\n- **Purpose:** *It's probably for + V-ing*, *You'd use it to…*, *I'm guessing it's meant to…*\n\nĐặc biệt hữu ích: **cụm phân từ rút gọn**: *a pole attached to the backrest*, *two metal arms sticking out of the base*. Chúng giúp câu ngắn gọn mà vẫn nhiều thông tin."
+    },
+    {
+      "heading": "Khi quên từ: nói vòng (circumlocution)",
+      "body": "Gặp bộ phận không biết tên là chuyện bình thường; im lặng mới là vấn đề. Ba cách nói vòng:\n- **Công dụng:** *\"a kitchen tool you use to beat eggs\"* (= whisk).\n- **So sánh:** *\"it's like a cheese grater, but shaped like a tube\"*.\n- **Hình dạng + chất liệu:** *\"a round metal thing made of thin curved wires\"*.\n\nNói vòng tốt còn **tăng** điểm từ vựng, vì nó cho thấy bạn linh hoạt với ngôn ngữ."
+    },
+    {
+      "heading": "Bẫy thường gặp",
+      "body": "- **Chỉ liệt kê màu:** *\"It is red. There is green. There is yellow.\"* Màu sắc chỉ là một phần; người nghe cần hình dạng, vị trí, chất liệu.\n- **Lặp \"thing\" và \"very big\":** thay bằng danh từ cụ thể hoặc so sánh.\n- **Mô tả sai tranh:** chỉ nói những gì bạn thật sự nhìn thấy; đoán thì dùng *probably*, *I'm guessing*.\n- **Quên phần cuối của đề:** nếu đề hỏi *should we rent it?*, câu trả lời không có ý kiến sẽ mất điểm Task Fulfillment dù mô tả hay đến đâu."
+    }
+  ],
+  "stimuli": {
+    "kitchen-gadget": {
+      "title": "Task 8 scene: A kitchen gadget",
+      "imageRef": "s8-practice-01",
+      "text": "You are at a kitchen store on Main Street looking for a birthday gift for your aunt, who loves to cook. You see this unusual object. Call your cousin, describe it in as much detail as you can so she can picture it, and say whether you think you should buy it together. Your cousin cannot see it."
+    },
+    "odd-bike": {
+      "title": "Task 8 scene: A strange rental bike",
+      "imageRef": "s8-practice-02",
+      "text": "You are at a bike rental shop near the Seawall in Vancouver. Your friend Mai is on her way. Her mother wants an easy, comfortable ride today. You notice this unusual bike. Call Mai, describe the bike in detail, and say whether you think it would suit her mother."
+    },
+    "odd-bike-team": {
+      "title": "Task 8 scene: Bikes for a team day",
+      "imageRef": "s8-practice-02",
+      "text": "Your coworker Sandra is organizing a fun team-building afternoon in Stanley Park and has asked you to look for interesting bikes to rent. At the rental shop, you see this unusual bike. Call Sandra, describe it in as much detail as you can, and tell her whether the team should rent a few. Sandra cannot see it."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Same picture, three levels: the kitchen gadget",
+      "stimulusId": "kitchen-gadget",
+      "question": "Compare three 60-second phone calls describing the gadget.",
+      "steps": [
+        "Overall impression first: it's mainly a blender, with extra tools attached. One comparison sets up the whole picture: 'a blender crossed with a robot'.",
+        "Choose a direction: bottom to top for the main body (red base → screen and buttons → clear jar → green lid → yellow dome), then the two side arms as 'the strange part'.",
+        "Use precise words: chunky, digital display, measurement marks, ridges, curve out of, cylinder covered in tiny holes. If you forget 'whisk', say 'the wire thing you use to beat eggs'.",
+        "Finish the task: guess the purpose, mention the price ($89.99) and make a suggestion to your cousin."
+      ],
+      "answer": "The Level 8 version gives an overall picture first, moves from bottom to top, flags the unusual arms, uses precise shape, material and position words, and ends with a recommendation and a question.",
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "Hello. I see one machine. It is red. It have a screen and three button. Have a glass on top, and green thing and yellow thing. Also have two thing at the side, I don't know what is that. Maybe for cooking. It is eighty-nine dollar. I think it is good gift. OK, bye.",
+          "commentVi": "Người nghe không thể hình dung đồ vật: chỉ có màu và từ \"thing\" lặp ba lần. Không có ấn tượng tổng thể, không nói hình dạng hay chất liệu, bỏ qua chi tiết lạ nhất (cây đánh trứng, đồ bào). Lỗi điển hình: \"It have\", thiếu chủ ngữ (\"Have a glass…\"), thiếu số nhiều (\"three button\", \"two thing\", \"dollar\"), thiếu mạo từ (\"good gift\"). Chỉ khoảng 25 giây."
+        },
+        {
+          "label": "acceptable",
+          "text": "Hi, it's me. I'm at the kitchen store and I see a strange machine. At the bottom there is a red part with a blue screen and three buttons, green, yellow and white. On top of it, there is a glass jar with a green lid. On the lid there is a yellow thing, maybe for lemons. On the left side there is a metal arm with a whisk, and on the right side there is another arm with something with many holes. I think you can cook many things with it. It costs $89.99. I think it's a good gift for Auntie. What do you think?",
+          "commentVi": "Có thứ tự (dưới lên trên, trái phải) và có kết thúc đúng yêu cầu. Nhưng không có câu tổng thể ở đầu, từ vựng chung chung (\"a red part\", \"a yellow thing\", \"something with many holes\"), lặp \"there is\" năm lần. Thiếu hình dạng và so sánh (dome, cylinder, like a cheese grater) nên người nghe vẫn khó hình dung. Lý do khuyên mua còn mơ hồ. Khoảng 45 giây."
+        },
+        {
+          "label": "level8",
+          "text": "Hi Jenny, it's me. I'm at the kitchen store, and I've just found the weirdest gift for Auntie Linh. Picture a blender crossed with a robot. At the bottom, there's a chunky red base with a blue digital display and three round buttons. On top of the base sits a clear jar that gets wider toward the top, with measurement marks up one side and a blade at the bottom. The lid is bright green, and on top of it there's a yellow dome with ridges, which I'm guessing is a lemon juicer. Now here's the funny part: two metal arms curve out from either end of the base. The left one ends in a whisk, and the right one holds a little cylinder covered in tiny holes, kind of like a cheese grater. It's eighty-nine ninety-nine. Honestly, she'd have so much fun with it. Want to split it?",
+          "commentVi": "Câu tổng thể tạo hình ảnh ngay (\"a blender crossed with a robot\"). Đi theo hướng dưới lên trên rồi mới đến hai cánh tay lạ, có câu báo hiệu \"Now here's the funny part\". Từ vựng chính xác về hình dạng, chất liệu, vị trí: chunky, clear jar, gets wider toward the top, dome with ridges, curve out from either end, cylinder covered in tiny holes. Có đảo ngữ vị trí (\"On top of the base sits…\"). Đoán công dụng bằng \"I'm guessing\", nêu giá và kết thúc bằng đề nghị cụ thể. Khoảng 145 từ — vừa 60 giây ở tốc độ tự nhiên; nếu bạn nói chậm hơn, có thể bỏ chi tiết vạch đo và lưỡi dao."
+        }
+      ],
+      "takeawayVi": "Người nghe chỉ có lời của bạn. Câu tổng thể + một hướng cố định + từ chính xác về hình dạng/vị trí + hoàn thành yêu cầu cuối = Level 8."
+    },
+    {
+      "id": "ex2",
+      "title": "Planning in 30 seconds: the strange bike",
+      "stimulusId": "odd-bike",
+      "question": "Plan a 60-second call to Mai. What do you describe, in what order, and what do you recommend?",
+      "steps": [
+        "Overall: 'It's basically a tricycle with a giant front wheel and an umbrella.' This sentence alone lets Mai imagine the bike.",
+        "Direction: front to back. Front: the huge wheel, roughly three times the size of the back ones, black tire, yellow spokes; heart-shaped handlebars with a little red bell just below.",
+        "Middle: a purple frame that goes up and down in a zigzag instead of a straight line, with a pedal underneath.",
+        "Back: two small wheels side by side, a seat with a tall black backrest, an orange-and-white umbrella on a pole attached to the backrest, and a wicker basket over the back wheels.",
+        "Task: connect details to the mother's needs. Three wheels = stable; backrest = comfortable; umbrella = shade. One concern: the handlebars look quite far forward from the seat. Recommendation: 'It might be perfect for her, but she should try it in the parking lot first.'"
+      ],
+      "answer": "Prep notes: 'tricycle + giant front wheel + umbrella' → front (wheel 3×, heart handlebars, bell) → middle (zigzag purple frame, pedal) → back (2 small wheels, backrest seat, umbrella, wicker basket) → stable + comfy + shade, but handlebars far → try first.",
+      "takeawayVi": "Đừng chỉ mô tả rồi dừng. Hãy nối các chi tiết với yêu cầu của đề (mẹ của Mai cần đi nhẹ nhàng, thoải mái) — đó là phần Task Fulfillment."
+    },
+    {
+      "id": "ex3",
+      "title": "Talking around words you don't know",
+      "question": "You forget the words 'whisk', 'spokes' and 'wicker'. How do you keep going?",
+      "steps": [
+        "Describe the purpose: 'the wire tool you use to beat eggs or whip cream' (whisk).",
+        "Describe shape and position: 'the thin yellow lines that go from the centre of the wheel to the tire' (spokes).",
+        "Compare with a familiar object: 'a basket made of that woven, light-brown material, like a picnic basket' (wicker).",
+        "Keep the sentence moving: say the circumlocution with confidence, then continue. Do not apologize or say 'I don't know the word'."
+      ],
+      "answer": "Purpose, shape/position or comparison can replace any missing noun, and the listener still pictures the object.",
+      "takeawayVi": "Quên từ không làm mất điểm; dừng lại hoặc nói \"I don't know\" mới làm mất điểm. Mô tả công dụng, hình dạng hoặc so sánh với vật quen thuộc."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "kitchen-gadget",
+      "prompt": "Which sentence is the best way to START describing this object to your cousin?",
+      "hint": "Your first description sentence should give the listener one big picture before any detail.",
+      "options": [
+        { "text": "It's red and green and yellow and blue and white.", "misconception": "no_overview", "whyVi": "Liệt kê màu không giúp người nghe biết đồ vật có hình dạng hay công dụng gì." },
+        { "text": "There's a button. The button is green.", "misconception": "no_overview", "whyVi": "Bắt đầu bằng một chi tiết rất nhỏ; người nghe chưa biết nó thuộc về cái gì." },
+        { "text": "It's basically a blender, but it has a whisk and a grater sticking out of the sides.", "misconception": null, "whyVi": "Một câu cho cả hình ảnh tổng thể: vật quen thuộc (blender) + điểm khác lạ. Sau đó mới đi vào chi tiết." },
+        { "text": "This thing here is very strange, you have to see it.", "misconception": "vague_vocabulary", "whyVi": "\"This thing here\" vô nghĩa với người không nhìn thấy, và người nghe không thể \"see it\"." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Mở đầu bằng so sánh với một vật quen thuộc rồi nêu điểm khác: \"It's basically a…, but…\". Cách này giúp người nghe có \"khung\" để gắn các chi tiết sau.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g2",
+      "type": "order",
+      "stimulusId": "odd-bike",
+      "prompt": "Put these parts of the call to Mai in the most effective order.",
+      "hint": "Overall picture first, then move in one direction through the bike, then finish with what the prompt asks.",
+      "items": [
+        "It's basically a tricycle with a giant front wheel and an umbrella on top.",
+        "Starting at the front, the wheel is huge, with bright yellow spokes, and the handlebars are bent into the shape of a heart.",
+        "Then, in the middle, the purple frame goes up and down in a zigzag instead of a straight line.",
+        "Finally, at the back, there are two small wheels side by side, and the seat has a tall backrest with the umbrella attached to it.",
+        "With three wheels and a backrest, I think your mom would feel really stable and comfortable on it."
+      ],
+      "misconception": "random_order",
+      "explanationVi": "Tổng thể → trước → giữa → sau → kết nối với yêu cầu của đề. Đi theo một hướng giúp người nghe \"xây\" hình ảnh từng phần mà không bị lạc.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g3",
+      "type": "text",
+      "stimulusId": "odd-bike",
+      "prompt": "Fill in ONE word: \"The front wheel is about three ___ the size of the back wheels.\"",
+      "hint": "This is the word used with numbers to compare size: 'twice', then 'three ___', 'four ___'.",
+      "answers": ["times"],
+      "mode": "exact",
+      "misconception": "vague_vocabulary",
+      "explanationVi": "\"three times the size of…\" / \"three times as big as…\" cụ thể hơn nhiều so với \"very big\". So sánh có con số giúp người nghe hình dung tỉ lệ.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "kitchen-gadget",
+      "prompt": "You forget the word 'whisk' while describing the left arm. What should you say?",
+      "hint": "Describe what the tool is used for or what it looks like, then keep going.",
+      "options": [
+        { "text": "On the left there's a… um… I don't know the word, sorry. Next one.", "misconception": "vague_vocabulary", "whyVi": "Bỏ dở và xin lỗi; người nghe không biết bộ phận đó trông thế nào." },
+        { "text": "On the left, the arm ends in that wire tool you use to beat eggs, made of thin curved metal loops.", "misconception": null, "whyVi": "Nói vòng bằng công dụng (beat eggs) và hình dạng (thin curved metal loops) — người nghe hình dung được ngay." },
+        { "text": "On the left there's a thing for the kitchen.", "misconception": "vague_vocabulary", "whyVi": "\"A thing for the kitchen\" quá chung; mọi bộ phận đều là \"thing for the kitchen\"." },
+        { "text": "On the left there's a spoon.", "misconception": "inaccurate_detail", "whyVi": "Dùng một từ quen nhưng sai; mô tả sai còn tệ hơn nói vòng." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Nói vòng = công dụng + hình dạng/chất liệu. Đừng thay bằng một từ sai chỉ vì nó quen.",
+      "competency": "vocabulary_range"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "kitchen-gadget",
+      "prompt": "Look at the picture. Which description is ACCURATE?",
+      "options": [
+        { "text": "The clear jar is wider at the bottom and narrower at the top, and the measuring marks are on the left.", "misconception": "inaccurate_detail", "whyVi": "Ngược lại: chiếc bình rộng hơn ở phía trên, và vạch đo nằm ở phía bên phải." },
+        { "text": "Two metal arms curve out from the ends of the red base: the left one ends in a whisk, and the right one holds a small cylinder covered in tiny holes.", "misconception": null, "whyVi": "Đúng với tranh: hai cánh tay kim loại cong ra từ hai đầu đế đỏ, bên trái là cây đánh trứng, bên phải là ống trụ nhỏ đầy lỗ." },
+        { "text": "The blue screen on the base shows the price, $89.99.", "misconception": "inaccurate_detail", "whyVi": "Màn hình xanh hiển thị 12:30. Giá $89.99 nằm trên một tấm thẻ trắng riêng ở góc dưới bên trái." },
+        { "text": "The lid is yellow, and there's a green dome on top of it.", "misconception": "inaccurate_detail", "whyVi": "Đảo màu: nắp màu xanh lá, mái vòm có gờ ở trên màu vàng." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Chỉ mô tả những gì thật sự có trong tranh. Kiểm tra kỹ vị trí (trái/phải, trên/dưới) và màu của từng bộ phận trong 30 giây chuẩn bị.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "stimulusId": "odd-bike",
+      "prompt": "Fill in ONE word: \"Over the back wheels, there's a light-brown basket made ___ wicker.\"",
+      "answers": ["of", "from"],
+      "mode": "exact",
+      "misconception": "vague_vocabulary",
+      "explanationVi": "\"made of + chất liệu\" (made of metal, made of wicker, made of clear plastic); \"made from\" cũng được chấp nhận. Nêu chất liệu giúp người nghe hình dung bề mặt và trọng lượng của đồ vật.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "odd-bike",
+      "prompt": "Which sentence best helps a listener picture the bike's FRAME?",
+      "options": [
+        { "text": "The frame is purple and very strange.", "misconception": "vague_vocabulary", "whyVi": "\"Very strange\" không nói lạ ở điểm nào." },
+        { "text": "Instead of a straight bar, the purple frame goes up and down in a zigzag, a bit like a lightning bolt lying on its side.", "misconception": null, "whyVi": "So với khung bình thường (instead of a straight bar), mô tả hình dạng (zigzag) và so sánh với hình ảnh quen thuộc." },
+        { "text": "The frame has many lines in it, going everywhere.", "misconception": "vague_vocabulary", "whyVi": "Mơ hồ và không chính xác; khung là một đường zigzag liên tục, không phải \"lines going everywhere\"." },
+        { "text": "The frame is straight and black, like a normal bike.", "misconception": "inaccurate_detail", "whyVi": "Sai với tranh: khung màu tím và có hình zigzag." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Kỹ thuật \"Instead of + dạng bình thường, it + dạng lạ\" rất hiệu quả ở Task 8 vì người nghe biết xe đạp bình thường trông thế nào.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i4",
+      "type": "text",
+      "stimulusId": "kitchen-gadget",
+      "prompt": "Fill in ONE word to describe the shape of the yellow part on top of the green lid: \"On top of the lid, there's a yellow, ___-shaped part with ridges, probably for squeezing lemons.\"",
+      "answers": ["dome", "cone", "dome-shaped", "cone-shaped"],
+      "mode": "exact",
+      "misconception": "vague_vocabulary",
+      "explanationVi": "Tính từ ghép \"noun + -shaped\" (dome-shaped, heart-shaped, cylinder-shaped) là cách nhanh nhất để nói hình dạng chính xác. Phần màu vàng có dạng mái vòm (dome) với các gờ chụm lại ở đỉnh, giống đầu vắt chanh; vì vậy \"cone\" (hình nón) cũng được chấp nhận.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "odd-bike",
+      "prompt": "Which ENDING best completes the task in the prompt (whether the bike would suit Mai's mother)?",
+      "options": [
+        { "text": "So yeah, that's the bike. See you soon.", "misconception": "missing_task_goal", "whyVi": "Không trả lời câu hỏi của đề: chiếc xe có hợp với mẹ Mai không." },
+        { "text": "The umbrella is orange and white, and the bell is red.", "misconception": "missing_task_goal", "whyVi": "Vẫn đang mô tả; câu trả lời kết thúc mà không có nhận xét hay đề xuất." },
+        { "text": "Honestly, I think it could be perfect for her. Three wheels make it really stable, and the backrest and umbrella would keep her comfortable. My only worry is that the handlebars look quite far from the seat, so maybe she should try it in the parking lot first. What do you think?", "misconception": null, "whyVi": "Nối chi tiết với nhu cầu (stable, comfortable), nêu một lo ngại có căn cứ trong tranh, đưa đề xuất cụ thể và hỏi ý kiến." },
+        { "text": "Your mother is old, so she cannot ride a bike.", "misconception": "missing_task_goal", "whyVi": "Không dựa trên đặc điểm của chiếc xe, và giọng thiếu tế nhị." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Phần cuối phải dùng chính các chi tiết đã mô tả làm lý do cho ý kiến của bạn. Đây là cầu nối giữa mô tả và Task Fulfillment.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i6",
+      "type": "order",
+      "stimulusId": "kitchen-gadget",
+      "prompt": "Put these sentences in a bottom-to-top, then 'unusual part', then 'task' order.",
+      "items": [
+        "Picture a blender crossed with a robot.",
+        "At the bottom, there's a wide red base with a blue digital display and three round buttons.",
+        "On top of the base sits a clear jar with measurement marks and a bright green lid.",
+        "Right on top of the lid, there's a yellow dome with ridges, probably a lemon juicer.",
+        "The strange part is the two metal arms on either side: one with a whisk and one with a little grater.",
+        "It's $89.99, and I think Auntie would love it. Should we go halves?"
+      ],
+      "misconception": "random_order",
+      "explanationVi": "Tổng thể → đế → bình và nắp → mái vòm → hai cánh tay lạ → giá và đề xuất. Hướng cố định giúp người nghe theo kịp; chi tiết lạ để sau cùng tạo điểm nhấn.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "odd-bike",
+      "prompt": "Which sentence uses the most PRECISE position language for the umbrella and backrest?",
+      "options": [
+        { "text": "There is an umbrella and there is a chair and they are near.", "misconception": "vague_vocabulary", "whyVi": "\"Near\" không cho biết cái gì gắn vào cái gì, và \"chair\" không chính xác." },
+        { "text": "Behind the seat there's a tall black backrest, and attached to it is a pole holding up an orange-and-white umbrella.", "misconception": null, "whyVi": "Vị trí rõ ràng (behind the seat, attached to it), có cụm phân từ (holding up) và màu sắc cụ thể." },
+        { "text": "The umbrella is under the seat, and the backrest is in front.", "misconception": "inaccurate_detail", "whyVi": "Sai với tranh: ô ở phía trên, gắn vào tựa lưng phía sau ghế." },
+        { "text": "The umbrella is somewhere on the bike, I think at the top part.", "misconception": "vague_vocabulary", "whyVi": "\"Somewhere\" và \"the top part\" quá mơ hồ để người nghe hình dung." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Giới từ và cụm vị trí chính xác (attached to, behind, just below, on either side) là điểm cộng từ vựng lớn ở Task 8.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "stimulusId": "odd-bike-team",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 60,
+      "prompt": "Respond to the Task 8 prompt. Call Sandra, describe the bike so she can picture it, and say whether the team should rent a few. Speak for 60 seconds.",
+      "checklist": [
+        "Opens with one overall-impression sentence that compares the bike to something familiar.",
+        "Describes the bike in one consistent direction (e.g. front to back) without jumping around.",
+        "Uses at least four precise shape, size, material or position expressions (e.g. three times the size of, zigzag, attached to, made of wicker, heart-shaped).",
+        "Mentions only details that are really in the picture, and uses 'probably' or 'I'm guessing' for guesses.",
+        "Ends by answering the prompt (rent a few or not) with a reason linked to the details."
+      ],
+      "modelAnswer": "Hi Sandra, it's me. I think I've found the perfect bike for our team day. Picture a tricycle with a giant front wheel and its own umbrella. Starting at the front, the wheel is huge, maybe three times the size of the back ones, with bright yellow spokes. The handlebars are bent into the shape of a heart, with a little red bell just below them. The frame is purple, and instead of going straight, it zigzags up and down. At the back, there are two small wheels side by side, and the seat has a tall black backrest with a pole attached to it holding an orange-and-white umbrella. There's even a wicker basket over the back wheels. Honestly, I think we should rent three or four. They'd make for hilarious team photos, and with three wheels, even people who don't bike much would feel safe. What do you think?",
+      "explanationVi": "So sánh với checklist. Kiểm tra xem bạn có câu tổng thể ở đầu không, có đi theo một hướng không, và câu kết có trả lời đúng câu hỏi của Sandra không.",
+      "misconception": "missing_task_goal",
+      "competency": "vocabulary_range"
+    }
+  ],
+  "misconceptions": {
+    "no_overview": {
+      "label": "Thiếu hình ảnh tổng thể",
+      "explanationVi": "Bạn đi thẳng vào chi tiết nhỏ (một nút bấm, một màu) mà chưa cho người nghe biết đồ vật nhìn chung giống cái gì. Người nghe không có \"khung\" để gắn các chi tiết, nên dù bạn nói nhiều họ vẫn không hình dung được.",
+      "fixVi": "Câu mô tả đầu tiên luôn là: \"It's basically a…, but…\" hoặc \"Picture a… crossed with a…\"."
+    },
+    "random_order": {
+      "label": "Mô tả lộn xộn",
+      "explanationVi": "Bạn nhảy từ trên xuống dưới rồi lại lên trên, từ trái sang phải rồi quay lại. Người nghe mất phương hướng. Đây là vấn đề mạch lạc: thiếu một nguyên tắc sắp xếp không gian.",
+      "fixVi": "Trong 30 giây chuẩn bị, chọn MỘT hướng (dưới → trên, trước → sau, thân chính → bộ phận gắn thêm) và ghi từ khóa theo đúng thứ tự đó."
+    },
+    "vague_vocabulary": {
+      "label": "Từ vựng mơ hồ",
+      "explanationVi": "Bạn dùng \"thing\", \"part\", \"very big\", \"strange\" thay cho từ chỉ hình dạng, kích thước, chất liệu, vị trí. Ở Task 8, người nghe chỉ có lời của bạn, nên từ mơ hồ = không truyền đạt được gì. Đây là lỗi độ phong phú từ vựng cốt lõi.",
+      "fixVi": "Mỗi bộ phận nói ít nhất hai trong bốn yếu tố: shape, size (so sánh), material, position. Quên từ thì nói vòng bằng công dụng hoặc so sánh."
+    },
+    "inaccurate_detail": {
+      "label": "Mô tả sai tranh",
+      "explanationVi": "Bạn đảo màu, nhầm trái/phải, hoặc thêm chi tiết không có. Thường do nhìn lướt trong lúc chuẩn bị hoặc dùng một từ quen thay cho từ đúng. Mô tả sai làm giảm độ tin cậy của cả câu trả lời.",
+      "fixVi": "Dùng 30 giây chuẩn bị để kiểm tra vị trí và màu của từng bộ phận. Điều gì chỉ là đoán thì nói \"probably\" hoặc \"I'm guessing\"."
+    },
+    "missing_task_goal": {
+      "label": "Quên yêu cầu cuối của đề",
+      "explanationVi": "Bạn mô tả rất kỹ nhưng không làm việc đề yêu cầu (khuyên mua, có nên thuê, hỏi ý kiến). Đây là lỗi Task Fulfillment: Task 8 là một cuộc gọi có mục đích, không chỉ là bài tả đồ vật.",
+      "fixVi": "Dành 10–15 giây cuối cho yêu cầu của đề, và dùng chính các chi tiết đã mô tả làm lý do (three wheels → stable)."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "It looks like a cross between… and…", "vi": "Nó trông như sự kết hợp giữa… và…", "example": "It looks like a cross between a backpack and a camping chair." },
+    { "term": "It's basically a…, but…", "vi": "Về cơ bản nó là một…, nhưng…", "example": "It's basically a regular umbrella, but it has a light inside." },
+    { "term": "about three times the size of…", "vi": "to gấp khoảng ba lần…", "example": "The pumpkin at the farm in Abbotsford was about three times the size of a basketball." },
+    { "term": "… is sticking out of …", "vi": "… thò ra / nhô ra từ …", "example": "There's a small antenna sticking out of the top of the box." },
+    { "term": "… is attached to …", "vi": "… được gắn vào …", "example": "A little light is attached to the front of the stroller." },
+    { "term": "made of (wicker / clear plastic / metal)", "vi": "làm bằng (mây đan / nhựa trong / kim loại)", "example": "The lamp is made of clear plastic, so you can see the wires inside." },
+    { "term": "covered in…", "vi": "phủ đầy…", "example": "The ball is covered in tiny rubber spikes." },
+    { "term": "dome-shaped / heart-shaped / cylinder-shaped", "vi": "hình mái vòm / hình trái tim / hình trụ", "example": "The bird feeder has a dome-shaped roof to keep the rain off." },
+    { "term": "Here's the strange part: …", "vi": "Điều kỳ lạ là… (báo hiệu chi tiết lạ nhất)", "example": "Here's the strange part: the chair has wheels on the top as well." },
+    { "term": "I'm guessing it's for + V-ing", "vi": "Tôi đoán nó dùng để…", "example": "I'm guessing it's for drying boots after a hike." }
+  ],
+  "grammar": [
+    {
+      "point": "Reduced relative clauses with participles (attached to, sticking out of, holding)",
+      "explanationVi": "Thay vì \"a pole which is attached to the backrest\", hãy rút gọn thành \"a pole attached to the backrest\" (phân từ II, nghĩa bị động) hoặc \"two arms sticking out of the base\" (phân từ I, nghĩa chủ động/đang ở trạng thái). Câu ngắn hơn nhưng thông tin dày hơn, rất hợp với văn nói mô tả.",
+      "examples": [
+        "There's a pole attached to the backrest.",
+        "I can see two metal arms sticking out of the base.",
+        "It has a little cylinder covered in tiny holes."
+      ]
+    },
+    {
+      "point": "Comparisons of size and shape",
+      "explanationVi": "Dùng \"number + times the size of\" hoặc \"twice / three times as + adj + as\" để nói tỉ lệ, và \"a bit like / kind of like + noun\" để so với vật quen thuộc. Tránh nói \"more bigger\" (lỗi so sánh kép).",
+      "examples": [
+        "The front wheel is about three times the size of the back wheels.",
+        "The base is twice as wide as the jar.",
+        "It's kind of like a cheese grater, but shaped like a tube."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Task 8: Unusual situations", "route": "/speaking?task=S8" },
+    { "label": "Save description phrases to your notebook", "route": "/vocabulary" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises; verified every described detail against the s8-practice-01/02 SVG markup (jar wider at top, marks on right, 12:30 display, price card, arms, bike parts). Fixed: g2 items given sequence markers so only front-to-back order is defensible, level8 comparison trimmed to ~149 words and i8 model to 150, 'there is' count corrected, i4 keeps dome/cone (ridges converge to an apex) plus hyphenated variants, i2 notes 'made from'."}
+}

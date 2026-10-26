@@ -1,0 +1,631 @@
+{
+  "id": "rd-14",
+  "skill": "reading",
+  "module": "reading-parts",
+  "level": "target8",
+  "difficulty": 9,
+  "title": "Part 4 strategy: Viewpoints",
+  "titleVi": "Chiến lược Part 4: Đọc quan điểm",
+  "estimatedMinutes": 35,
+  "prerequisites": [
+    "rd-09"
+  ],
+  "competencies": [
+    "inference",
+    "main_idea"
+  ],
+  "tasks": [
+    "R4"
+  ],
+  "objectives": [
+    "You will be able to build a viewpoint map of an article: each person's position, reason and any condition attached to it.",
+    "You will be able to answer main-idea and author's-purpose questions by asking what job a paragraph does in the whole article.",
+    "You will be able to complete a reader comment by linking each blank to the person it mentions and to the commenter's own stance.",
+    "You will be able to use agreement, disagreement and concession signals to avoid wrong-voice and extreme-position traps."
+  ],
+  "objectiveVi": "Sau bài này, bạn lập được \"bản đồ quan điểm\" cho bài báo Part 4 (ai nghĩ gì, vì sao, với điều kiện gì), trả lời câu hỏi ý chính và mục đích của tác giả, và điền chỗ trống trong bình luận của độc giả bằng cách nối với đúng người được nhắc và với lập trường của chính người bình luận.",
+  "whyItMattersVi": "Part 4 thường được xem là Part khó nhất của Reading và có 10 câu. Bài báo đưa ra nhiều quan điểm, thường có điều kiện hoặc nhượng bộ (\"I'm not against change, but…\"). Người đạt Reading 5 hay gán quan điểm nhầm người hoặc biến một quan điểm có điều kiện thành tuyệt đối. Nắm được tín hiệu quan điểm là bước then chốt để chuyển từ Level 6–7 lên 8 ở Reading.",
+  "concept": [
+    {
+      "heading": "Part 4 trông như thế nào",
+      "body": "Part 4 (**Reading for Viewpoints**) có một **bài báo** trình bày một vấn đề và nhiều quan điểm khác nhau, thường kèm trích dẫn của từng người. Phần đầu là các câu trắc nghiệm về bài báo (ý chính, quan điểm của từng người, vì sao tác giả nhắc đến ai đó). Phần sau là **bình luận của một độc giả** (reader comment) có chỗ trống. Tổng cộng 10 câu trong khoảng 13 phút.\n\nNgười viết bài báo thường đóng vai **người đưa tin trung lập**: họ giới thiệu ý kiến của người khác. Vì vậy câu hỏi \"What does X think?\" phải được trả lời bằng lời của X, không phải bằng ý của tác giả hay của người khác trong bài."
+    },
+    {
+      "heading": "Bước 1: Lập bản đồ quan điểm",
+      "body": "Khi đọc, với mỗi người được nêu tên, ghi nhanh bốn thứ:\n\n- **Ai** (vai trò: councillor, business owner, expert, resident)\n- **Lập trường**: ủng hộ, phản đối, **có điều kiện**, hoặc **đặt lại vấn đề** (cho rằng cả cuộc tranh luận đang hỏi sai câu hỏi)\n- **Lý do chính**\n- **Điều kiện** nếu có: *if…, as long as…, until…*\n\nVí dụ: *Rivera: có điều kiện → chấp nhận chuyển đổi NẾU thành phố hỗ trợ chi phí.* Bản đồ này giúp bạn trả lời hầu hết các câu ở cả hai phần của Part 4."
+    },
+    {
+      "heading": "Tín hiệu đồng ý, phản đối và nhượng bộ",
+      "body": "- **Chuyển sang phe khác:** *Not everyone is persuaded*, *Critics say*, *Supporters point to*, *On the other hand*.\n- **Đặt lại vấn đề:** *Others think the debate misses the point*, *the choice is not as stark as it looks*.\n- **Nhượng bộ rồi phản bác:** *I'm not against change. But…*, *I'm not saying X. I'm saying Y*, *Still,…*, *I like it in theory, but…*. Ý chính của người nói nằm **sau** từ *but/still*.\n- **Đồng ý một phần:** *X has a point*, *I share X's concern*, *Like X, I think…*.\n- **Điều kiện:** *Until they do, I can't support this* = hiện tại chưa ủng hộ, nhưng có thể ủng hộ nếu điều kiện được đáp ứng. Đây **không** phải phản đối tuyệt đối.\n\nTrạng từ như *cautiously* cũng là tín hiệu: ủng hộ nhưng dè dặt, không phải \"enthusiastic\"."
+    },
+    {
+      "heading": "Câu hỏi ý chính và mục đích tác giả",
+      "body": "**Main idea**: đáp án đúng phải bao quát **cả bài**: thường là \"một đề xuất + các phản ứng khác nhau\". Đáp án chỉ nói về một đoạn là **quá hẹp** (detail as main idea).\n\n**Author's purpose** (*Why does the writer include/mention X?*): hỏi **chức năng** của đoạn đó trong bài, không hỏi nội dung. Các chức năng thường gặp:\n\n- giới thiệu một quan điểm đối lập\n- đưa ra một **cách nhìn thứ ba** hoặc **giải pháp dung hoà**\n- đưa ví dụ minh hoạ cho một lập luận\n- cung cấp bối cảnh\n\nHãy nhìn câu mở đầu đoạn: *Others think the debate misses the point* cho biết ngay chức năng của đoạn."
+    },
+    {
+      "heading": "Điền bình luận của độc giả",
+      "body": "Người bình luận thường nhắc tên các nhân vật trong bài: *Like Councillor Liu…*, *Mr. Rivera has a point…*, *As for Dr. Sharma's idea…*. Với mỗi chỗ trống:\n\n1. Xác định người được nhắc, quay lại đoạn của người đó trong bản đồ quan điểm.\n2. Xác định thái độ của người bình luận với người đó (đồng ý, đồng ý một phần, không đồng ý) qua *like, has a point, still, but, weakest*.\n3. Chỗ trống cuối thường **tóm tắt lập trường tổng thể** của người bình luận. Đáp án phải nhất quán với **mọi câu trước đó**, kể cả điều kiện.\n\nBẫy thường gặp: **nhầm người**, **cực đoan hoá** (biến \"ủng hộ có điều kiện\" thành \"ủng hộ ngay lập tức, không ngoại lệ\"), **bỏ qua nhượng bộ**, và **trùng từ** (đáp án lặp lại cụm từ của một nhân vật nhưng sai ý)."
+    }
+  ],
+  "stimuli": {
+    "leafblower": {
+      "title": "Leaf blower debate: article and reader comment",
+      "text": "**Should Port Alder Ban Gas Leaf Blowers?**\n\nThis fall, Port Alder council will vote on a proposal to ban gas-powered leaf blowers on residential streets by 2028. The idea came from a petition signed by 1,200 residents, many of whom work from home and say the noise has become impossible to ignore.\n\nCouncillor Grace Liu, who brought the motion forward, argues that the issue is about health as much as comfort. 'Two-stroke engines release a surprising amount of exhaust for their size,' she said. 'The people breathing it most are the workers holding the machines.'\n\nNot everyone is persuaded. Tomás Rivera, who runs a five-person landscaping company, says battery models cost about three times as much and last only forty minutes on a charge. 'I'm not against change,' he said. 'But if the city wants us to switch, it should help small businesses pay for it, not just pass a rule.'\n\nOthers think the debate misses the point. Ecologist Dr. Anita Sharma notes that many leaves do not need to be removed at all. 'Leaving them on garden beds feeds the soil and shelters insects over winter,' she said. 'The quietest blower is the one you never turn on.'\n\nCouncil has asked staff to report on a possible rebate program before the vote.\n\n---\n\n**Reader comment**\n\nI've lived on Birch Crescent for twenty years, and I'm glad council is finally taking this seriously. Like Councillor Liu, I think the [[6]] matter more than the noise. Still, Mr. Rivera has a point: it seems unfair to [[7]] without any support. A rebate is the obvious answer. As for Dr. Sharma's idea, I [[8]], but our strata bylaws require tidy lawns, so leaving the leaves isn't really an option for us. Overall, I'd vote [[9]].\n\n— Gwen T., Port Alder"
+    },
+    "golf-course": {
+      "title": "Golf course debate: article and reader comment",
+      "text": "**Fairway or Homes? Ridgeview Weighs the Future of Its Golf Course**\n\nThe Ridgeview Municipal Golf Course has lost money in six of the past eight years, and city staff have now proposed closing it and rezoning half the land for about 900 homes. The other half would become a public park with trails and a playground.\n\nMayor Helen Okafor supports the plan, though cautiously. 'We have young families leaving town because they can't find anything they can afford,' she said. 'I'm not saying golf doesn't matter. I'm saying housing matters more right now.'\n\nThe Ridgeview Golfers' Association calls the proposal short-sighted. Its president, Barry Chen, points out that the course hosts free junior lessons every summer and is one of the few places where seniors exercise together. 'Once you pave a green space, you never get it back,' he said.\n\nSome residents near the course have a different worry. Priyanka Desai, who lives on Fairway Drive, says she would welcome new neighbours but doubts the roads can handle 900 more households. 'Nobody has shown us a traffic plan,' she said. 'Until they do, I can't support this.'\n\nUrban planner Marc Gagnon, who has studied similar projects in Alberta, argues that the choice is not as stark as it looks. In his view, a smaller nine-hole course could stay alongside the homes and the park. 'Cities often frame these debates as all or nothing,' he said, 'when the best answer is somewhere in between.'\n\nA public hearing is scheduled for January 22.\n\n---\n\n**Reader comment**\n\nAs a Ridgeview parent, I understand why the mayor [[6]]. My own sister moved to Alberta because rent here was out of reach. But I share Ms. Desai's concern: before any vote, the city [[7]]. Mr. Chen's argument is the one I find weakest. The junior lessons could easily move to another course, and the new park would give seniors trails to walk on. To me, Mr. Gagnon's idea [[8]], since it keeps some golf while still creating homes. I'll be at the hearing in January to [[9]].\n\n— Daniel R., Ridgeview"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Reading a conditional position",
+      "stimulusId": "leafblower",
+      "question": "Which best describes Tomás Rivera's position? (A) He opposes any limits on gas leaf blowers. (B) He would accept the change if the city helped with the cost. (C) He believes battery blowers are better for his business. (D) He agrees that the noise is the main problem.",
+      "steps": [
+        "Tìm đoạn của Rivera và câu mở đầu: 'Not everyone is persuaded.' Đây là tín hiệu chuyển sang phía chưa đồng ý, nhưng chưa cho biết mức độ.",
+        "Đọc lý do: máy chạy pin 'cost about three times as much and last only forty minutes on a charge'. Đây là lý do thực tế về chi phí và hiệu quả, không phải phản đối nguyên tắc.",
+        "Gặp mẫu nhượng bộ – phản bác: 'I'm not against change… But if the city wants us to switch, it should help small businesses pay for it'. Ý chính nằm sau 'But' và là một câu điều kiện 'if…'.",
+        "Ghi vào bản đồ quan điểm: Rivera = có điều kiện, chấp nhận chuyển đổi nếu có hỗ trợ tài chính.",
+        "Loại đáp án: A cực đoan hoá (anh ấy nói rõ 'I'm not against change'). C ngược nghĩa (máy pin đắt và chạy ngắn). D nhầm người (người ký kiến nghị mới quan tâm tiếng ồn). Còn lại B."
+      ],
+      "answer": "(B) He would accept the change if the city helped with the cost.",
+      "takeawayVi": "Khi thấy mẫu \"I'm not against X. But if…\", lập trường thật là \"ủng hộ có điều kiện\". Đáp án đúng giữ lại điều kiện; đáp án sai thường xoá điều kiện đi và biến nó thành phản đối hoặc ủng hộ tuyệt đối."
+    },
+    {
+      "id": "ex2",
+      "title": "Completing the commenter's overall position",
+      "stimulusId": "leafblower",
+      "question": "Blank [[9]]: 'Overall, I'd vote [[9]].' Options: (A) against any change to the current rules (B) for an immediate ban with no exceptions (C) for the ban, as long as it comes with a rebate (D) to ban all leaf blowers, electric ones included",
+      "steps": [
+        "'Overall' báo hiệu đây là câu tóm tắt lập trường của người bình luận. Đáp án phải nhất quán với mọi câu trước đó.",
+        "Liệt kê các câu trước: 'I'm glad council is finally taking this seriously' (ủng hộ việc xem xét lệnh cấm), 'Like Councillor Liu…' (đồng ý với lý do sức khoẻ), 'Mr. Rivera has a point… A rebate is the obvious answer' (cần hỗ trợ tài chính).",
+        "Tổng hợp: người bình luận ủng hộ lệnh cấm, nhưng gắn với điều kiện có chương trình hoàn tiền (rebate).",
+        "Loại: A mâu thuẫn với 'glad council is finally taking this seriously'. B cực đoan hoá: 'immediate… no exceptions' bỏ mất điều kiện rebate. D thêm một ý không ai nêu (cấm cả máy chạy điện).",
+        "C giữ đủ cả hai phần: ủng hộ lệnh cấm + điều kiện rebate."
+      ],
+      "answer": "(C) for the ban, as long as it comes with a rebate",
+      "takeawayVi": "Chỗ trống cuối của bình luận thường là phép tổng hợp. Hãy liệt kê lập trường của người bình luận qua từng câu, rồi chọn đáp án giữ được tất cả, đặc biệt là điều kiện."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "leafblower",
+      "competency": "main_idea",
+      "prompt": "What is the article mainly about?",
+      "hint": "The right answer must cover the first paragraph and the people who respond in the later paragraphs, not just one of them.",
+      "options": [
+        {
+          "text": "The health risks of two-stroke engines",
+          "misconception": "detail-as-main",
+          "whyVi": "Đây chỉ là lý do của Councillor Liu trong một đoạn, quá hẹp để là ý chính."
+        },
+        {
+          "text": "A proposed ban and the different reactions to it",
+          "misconception": null,
+          "whyVi": "Đúng. Đoạn đầu giới thiệu đề xuất, các đoạn sau đưa ra ý kiến ủng hộ, có điều kiện và đặt lại vấn đề."
+        },
+        {
+          "text": "Why landscapers refuse to follow city rules",
+          "misconception": "extreme-position",
+          "whyVi": "Rivera không từ chối luật; anh nói 'I'm not against change'. Đáp án này cũng chỉ về một đoạn."
+        },
+        {
+          "text": "How residents organized a petition",
+          "misconception": "detail-as-main",
+          "whyVi": "Kiến nghị chỉ là bối cảnh trong một câu; bài không mô tả cách tổ chức."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "This fall, Port Alder council will vote on a proposal to ban gas-powered leaf blowers on residential streets by 2028.",
+      "explanationVi": "Bài báo có cấu trúc: đề xuất → người ủng hộ (Liu) → người chưa bị thuyết phục (Rivera) → người đặt lại vấn đề (Sharma) → bước tiếp theo của hội đồng. Ý chính phải bao quát cấu trúc đó."
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "leafblower",
+      "competency": "inference",
+      "prompt": "Why does the writer include Dr. Anita Sharma's comments?",
+      "hint": "Look at the sentence that introduces her paragraph. What does it say about the debate?",
+      "options": [
+        {
+          "text": "To support Councillor Liu's argument about health",
+          "misconception": "wrong-voice",
+          "whyVi": "Sharma không nói về sức khoẻ hay khí thải; cô nói về lá cây, đất và côn trùng."
+        },
+        {
+          "text": "To explain why battery blowers are a better choice",
+          "misconception": "word-match",
+          "whyVi": "Sharma không so sánh loại máy; ý cô là không cần bật máy nào cả."
+        },
+        {
+          "text": "To prove that the ban will not work",
+          "misconception": "extreme-position",
+          "whyVi": "Cô không nói lệnh cấm thất bại; cô chỉ cho rằng câu hỏi đặt ra chưa đúng trọng tâm."
+        },
+        {
+          "text": "To present a view that questions whether removing leaves is necessary",
+          "misconception": null,
+          "whyVi": "Đúng. 'misses the point' và 'many leaves do not need to be removed at all' là một cách nhìn thứ ba."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "Others think the debate misses the point.",
+      "explanationVi": "Câu hỏi mục đích hỏi chức năng của đoạn. Câu mở đầu 'Others think the debate misses the point' cho biết đoạn này đưa ra quan điểm thứ ba, đặt lại vấn đề thay vì đứng về phía ủng hộ hay phản đối."
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "leafblower",
+      "competency": "inference",
+      "prompt": "Choose the best option for blank [[6]]: 'Like Councillor Liu, I think the [[6]] matter more than the noise.'",
+      "hint": "The commenter is agreeing with one named person. Go back to that person's paragraph and find her main argument.",
+      "options": [
+        {
+          "text": "health effects",
+          "misconception": null,
+          "whyVi": "Đúng. Liu nói vấn đề là 'about health as much as comfort' và nhắc đến khí thải người lao động hít phải."
+        },
+        {
+          "text": "battery costs",
+          "misconception": "wrong-voice",
+          "whyVi": "Chi phí pin là lập luận của Rivera, không phải của Liu."
+        },
+        {
+          "text": "insects in garden beds",
+          "misconception": "wrong-voice",
+          "whyVi": "Côn trùng là ý của Dr. Sharma."
+        },
+        {
+          "text": "petition signatures",
+          "misconception": "word-match",
+          "whyVi": "Kiến nghị có trong bài, nhưng không phải lập luận của Liu và không thể 'matter more than the noise'."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "argues that the issue is about health as much as comfort",
+      "explanationVi": "'Like Councillor Liu' bắt buộc bạn quay lại đoạn của Liu. Lập luận của cô là sức khoẻ ('health… exhaust'), và đó là thứ người bình luận cho là quan trọng hơn tiếng ồn."
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "leafblower",
+      "competency": "inference",
+      "prompt": "Choose the best option for blank [[7]]: 'Still, Mr. Rivera has a point: it seems unfair to [[7]] without any support.'",
+      "hint": "'Has a point' means the commenter partly agrees. What did Rivera say the city should do for businesses?",
+      "options": [
+        {
+          "text": "ask residents to sign a petition",
+          "misconception": "word-match",
+          "whyVi": "Kiến nghị đã có; Rivera không nói gì về nó."
+        },
+        {
+          "text": "make homeowners leave their leaves on the beds",
+          "misconception": "wrong-voice",
+          "whyVi": "Đây là ý của Dr. Sharma, và Sharma không đề nghị bắt buộc ai cả."
+        },
+        {
+          "text": "make small companies pay for new equipment",
+          "misconception": null,
+          "whyVi": "Đúng. Rivera nói thành phố 'should help small businesses pay for it, not just pass a rule'."
+        },
+        {
+          "text": "ban electric models as well",
+          "misconception": "extreme-position",
+          "whyVi": "Không ai đề xuất cấm máy chạy điện."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "But if the city wants us to switch, it should help small businesses pay for it, not just pass a rule.",
+      "explanationVi": "'Still' báo hiệu người bình luận chuyển sang công nhận một ý của phía bên kia. 'without any support' khớp với việc Rivera muốn thành phố hỗ trợ chi phí."
+    },
+    {
+      "id": "g5",
+      "type": "choice",
+      "stimulusId": "leafblower",
+      "competency": "inference",
+      "prompt": "Choose the best option for blank [[8]]: 'As for Dr. Sharma's idea, I [[8]], but our strata bylaws require tidy lawns, so leaving the leaves isn't really an option for us.'",
+      "hint": "Notice the word 'but' right after the blank. The blank and the part after 'but' must point in opposite directions.",
+      "options": [
+        {
+          "text": "completely reject it",
+          "misconception": "missed-concession",
+          "whyVi": "Nếu đã bác bỏ hoàn toàn thì 'but… isn't really an option' không còn là ý đối lập; cấu trúc câu không hợp lý."
+        },
+        {
+          "text": "like it in theory",
+          "misconception": null,
+          "whyVi": "Đúng. Mẫu nhượng bộ: thích về nguyên tắc, nhưng không áp dụng được vì quy định strata."
+        },
+        {
+          "text": "plan to try it this weekend",
+          "misconception": "missed-concession",
+          "whyVi": "Mâu thuẫn với 'leaving the leaves isn't really an option for us'."
+        },
+        {
+          "text": "think it would hurt Mr. Rivera's business",
+          "misconception": "wrong-voice",
+          "whyVi": "Không ai nói ý của Sharma ảnh hưởng đến công ty của Rivera; đây là ghép nhầm hai người."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "but our strata bylaws require tidy lawns, so leaving the leaves isn't really an option for us",
+      "explanationVi": "'but' tạo cấu trúc nhượng bộ: vế trước tích cực, vế sau là giới hạn thực tế. Chỉ 'like it in theory' tạo được sự đối lập đó."
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "golf-course",
+      "competency": "main_idea",
+      "prompt": "What is the article mainly about?",
+      "options": [
+        {
+          "text": "Why the golf course has been losing money",
+          "misconception": "detail-as-main",
+          "whyVi": "Việc thua lỗ chỉ là bối cảnh trong câu đầu; bài không giải thích lý do."
+        },
+        {
+          "text": "The housing shortage in Alberta",
+          "misconception": "word-match",
+          "whyVi": "Alberta chỉ được nhắc khi giới thiệu Gagnon."
+        },
+        {
+          "text": "A plan to replace a golf course and the range of views on it",
+          "misconception": null,
+          "whyVi": "Đúng. Bài giới thiệu đề xuất và ý kiến của thị trưởng, hội golf, cư dân và chuyên gia quy hoạch."
+        },
+        {
+          "text": "Traffic problems on Fairway Drive",
+          "misconception": "detail-as-main",
+          "whyVi": "Đây là mối lo của một người (Desai), quá hẹp để là ý chính."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "city staff have now proposed closing it and rezoning half the land for about 900 homes",
+      "explanationVi": "Ý chính phải bao quát đề xuất (đoạn 1) và bốn quan điểm (đoạn 2–5). Các đáp án sai chỉ lấy một chi tiết của một đoạn."
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "golf-course",
+      "competency": "inference",
+      "prompt": "Which best describes Mayor Okafor's attitude toward the plan?",
+      "options": [
+        {
+          "text": "Enthusiastic, and dismissive of golfers' concerns",
+          "misconception": "extreme-position",
+          "whyVi": "'cautiously' và 'I'm not saying golf doesn't matter' cho thấy bà không xem nhẹ người chơi golf."
+        },
+        {
+          "text": "Undecided until she sees a traffic plan",
+          "misconception": "wrong-voice",
+          "whyVi": "Điều kiện về kế hoạch giao thông là của Priyanka Desai."
+        },
+        {
+          "text": "Supportive, while admitting that golf has value",
+          "misconception": null,
+          "whyVi": "Đúng. Bà ủng hộ một cách dè dặt và thừa nhận golf có giá trị, nhưng nhà ở quan trọng hơn lúc này."
+        },
+        {
+          "text": "Opposed, because families are leaving town",
+          "misconception": "missed-concession",
+          "whyVi": "Việc các gia đình rời đi chính là lý do bà ủng hộ kế hoạch, không phải phản đối."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "I'm not saying golf doesn't matter. I'm saying housing matters more right now.",
+      "explanationVi": "Mẫu 'I'm not saying X. I'm saying Y' là nhượng bộ – khẳng định: thừa nhận X, nhưng chọn Y. Kết hợp với 'supports the plan, though cautiously', thái độ là ủng hộ có cân nhắc."
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "golf-course",
+      "competency": "inference",
+      "prompt": "What is Priyanka Desai's position on the plan?",
+      "options": [
+        {
+          "text": "She will not support it unless the city deals with traffic.",
+          "misconception": null,
+          "whyVi": "Đúng. 'Until they do, I can't support this' = chưa ủng hộ cho đến khi có kế hoạch giao thông."
+        },
+        {
+          "text": "She does not want new people moving into her area.",
+          "misconception": "missed-concession",
+          "whyVi": "Ngược lại, cô nói 'she would welcome new neighbours'."
+        },
+        {
+          "text": "She supports it without any reservations.",
+          "misconception": "extreme-position",
+          "whyVi": "Cô nói rõ hiện tại cô 'can't support this'."
+        },
+        {
+          "text": "She wants the course kept for seniors' exercise.",
+          "misconception": "wrong-voice",
+          "whyVi": "Việc người cao tuổi tập thể dục là lập luận của Barry Chen."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "'Nobody has shown us a traffic plan,' she said. 'Until they do, I can't support this.'",
+      "explanationVi": "Đây là lập trường có điều kiện: Desai không phản đối người mới đến, cũng không phản đối tuyệt đối. 'Until' cho biết sự ủng hộ phụ thuộc vào một điều kiện."
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "golf-course",
+      "competency": "inference",
+      "prompt": "Why does the writer include Marc Gagnon's comments?",
+      "options": [
+        {
+          "text": "To show that Alberta plans its cities better than BC",
+          "misconception": "word-match",
+          "whyVi": "Alberta chỉ là nơi Gagnon nghiên cứu; bài không so sánh hai tỉnh."
+        },
+        {
+          "text": "To present a possible compromise between the two sides",
+          "misconception": null,
+          "whyVi": "Đúng. Gagnon đề xuất giữ một sân 9 lỗ bên cạnh nhà ở và công viên: 'somewhere in between'."
+        },
+        {
+          "text": "To support the Golfers' Association's position",
+          "misconception": "wrong-voice",
+          "whyVi": "Hội golf muốn giữ sân; Gagnon đề xuất thu nhỏ sân và vẫn xây nhà, tức là không đứng về phía họ."
+        },
+        {
+          "text": "To explain why the course lost money",
+          "misconception": "detail-as-main",
+          "whyVi": "Gagnon không nói gì về tài chính của sân golf."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "argues that the choice is not as stark as it looks",
+      "explanationVi": "Câu giới thiệu 'the choice is not as stark as it looks' và câu trích 'the best answer is somewhere in between' cho biết chức năng của đoạn: đưa ra giải pháp dung hoà."
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "golf-course",
+      "competency": "inference",
+      "prompt": "Choose the best option for blank [[6]]: 'As a Ridgeview parent, I understand why the mayor [[6]]. My own sister moved to Alberta because rent here was out of reach.'",
+      "options": [
+        {
+          "text": "wants to keep the course as it is",
+          "misconception": "missed-concession",
+          "whyVi": "Thị trưởng ủng hộ kế hoạch thay sân golf, không muốn giữ nguyên."
+        },
+        {
+          "text": "has refused to comment",
+          "misconception": "word-match",
+          "whyVi": "Thị trưởng có phát biểu và được trích dẫn trong bài."
+        },
+        {
+          "text": "is worried about traffic on Fairway Drive",
+          "misconception": "wrong-voice",
+          "whyVi": "Đó là mối lo của Desai."
+        },
+        {
+          "text": "has come down on the side of housing",
+          "misconception": null,
+          "whyVi": "Đúng. Câu sau (chị gái chuyển đi vì giá thuê) khớp với lý do của thị trưởng về nhà ở."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "I'm saying housing matters more right now.",
+      "explanationVi": "Câu sau chỗ trống là bằng chứng: người bình luận đưa ví dụ cá nhân về giá thuê nhà, giống lý do 'young families leaving town' của thị trưởng."
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "golf-course",
+      "competency": "inference",
+      "prompt": "Choose the best option for blank [[7]]: 'But I share Ms. Desai's concern: before any vote, the city [[7]].'",
+      "options": [
+        {
+          "text": "should cancel the junior lessons",
+          "misconception": "wrong-voice",
+          "whyVi": "Lớp golf thiếu niên là ý của Chen, và không ai đề nghị huỷ."
+        },
+        {
+          "text": "should explain how the roads will handle more households",
+          "misconception": null,
+          "whyVi": "Đúng. Mối lo của Desai là đường sá không chịu nổi 900 hộ mới và chưa có kế hoạch giao thông."
+        },
+        {
+          "text": "should make the new park larger",
+          "misconception": "word-match",
+          "whyVi": "Công viên có trong đề xuất, nhưng Desai không nói gì về nó."
+        },
+        {
+          "text": "should move the hearing to February",
+          "misconception": "extreme-position",
+          "whyVi": "Không ai đề nghị dời buổi điều trần."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "doubts the roads can handle 900 more households",
+      "explanationVi": "'I share Ms. Desai's concern' nghĩa là chỗ trống phải là mối lo của Desai: giao thông. 'before any vote' tương ứng với 'Until they do'."
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "golf-course",
+      "competency": "inference",
+      "prompt": "Choose the best option for blank [[8]]: 'To me, Mr. Gagnon's idea [[8]], since it keeps some golf while still creating homes.'",
+      "options": [
+        {
+          "text": "deserves serious consideration",
+          "misconception": null,
+          "whyVi": "Đúng. Mệnh đề 'since…' nêu ưu điểm, nên người bình luận đánh giá tích cực ý tưởng này."
+        },
+        {
+          "text": "is all or nothing",
+          "misconception": "word-match",
+          "whyVi": "'all or nothing' là cách Gagnon mô tả lối nghĩ ông phản đối; ý của ông thì ngược lại."
+        },
+        {
+          "text": "ignores the housing shortage",
+          "misconception": "missed-concession",
+          "whyVi": "Mâu thuẫn với 'while still creating homes'."
+        },
+        {
+          "text": "would mean losing all the golf",
+          "misconception": "missed-concession",
+          "whyVi": "Mâu thuẫn với 'keeps some golf'."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "a smaller nine-hole course could stay alongside the homes and the park",
+      "explanationVi": "Mệnh đề lý do 'since it keeps some golf while still creating homes' mô tả hai ưu điểm, nên chỗ trống phải là một đánh giá tích cực. 'all or nothing' là bẫy trùng từ ở mức Level 9."
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "golf-course",
+      "competency": "main_idea",
+      "prompt": "Choose the best option for blank [[9]]: 'I'll be at the hearing in January to [[9]].'",
+      "options": [
+        {
+          "text": "argue for keeping the whole course as it is",
+          "misconception": "wrong-voice",
+          "whyVi": "Đây là lập trường của hội golf; người bình luận thấy lập luận của Chen 'weakest'."
+        },
+        {
+          "text": "speak against any new housing",
+          "misconception": "extreme-position",
+          "whyVi": "Người bình luận hiểu nhu cầu nhà ở và thích ý tưởng 'still creating homes'."
+        },
+        {
+          "text": "ask for a traffic plan and for a smaller course to be considered",
+          "misconception": null,
+          "whyVi": "Đúng. Tổng hợp hai ý người bình luận ủng hộ: mối lo giao thông của Desai và giải pháp sân nhỏ của Gagnon."
+        },
+        {
+          "text": "thank the Golfers' Association for its proposal",
+          "misconception": "wrong-voice",
+          "whyVi": "Đề xuất là của nhân viên thành phố, không phải của hội golf, và người bình luận không đồng tình với hội."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "In his view, a smaller nine-hole course could stay alongside the homes and the park.",
+      "explanationVi": "Câu cuối tổng hợp lập trường: hiểu thị trưởng (nhà ở), đồng ý với Desai (giao thông trước khi bỏ phiếu), bác Chen, ủng hộ Gagnon (giữ một phần sân golf). Chỉ đáp án về kế hoạch giao thông và sân golf nhỏ hơn giữ được tất cả mà không thêm ý mới."
+    }
+  ],
+  "misconceptions": {
+    "wrong-voice": {
+      "label": "Gán quan điểm nhầm người",
+      "explanationVi": "Bạn nhớ đúng một ý trong bài nhưng gán nó cho sai người (ví dụ điều kiện giao thông của Desai thành của thị trưởng). Đây là dấu hiệu chưa lập bản đồ quan điểm khi đọc.",
+      "fixVi": "Khi đọc, ghi cho mỗi người: lập trường + lý do + điều kiện. Khi câu hỏi hoặc bình luận nhắc tên ai, quay lại đúng đoạn của người đó trước khi chọn."
+    },
+    "missed-concession": {
+      "label": "Bỏ qua nhượng bộ và đổi hướng",
+      "explanationVi": "Bạn đọc vế trước của câu nhượng bộ (I'm not against change, I'm not saying golf doesn't matter, I like it in theory) và tưởng đó là ý chính, hoặc không nhận ra 'but/still' đổi hướng câu.",
+      "fixVi": "Khi thấy but, still, though, I'm not saying…, hãy coi vế sau là lập trường thật. Với chỗ trống đứng trước 'but', chọn đáp án ngược chiều với vế sau."
+    },
+    "extreme-position": {
+      "label": "Cực đoan hoá quan điểm",
+      "explanationVi": "Bạn biến một lập trường có điều kiện hoặc dè dặt thành tuyệt đối (ủng hộ ngay không ngoại lệ, phản đối hoàn toàn), hoặc thêm một đề xuất không ai nêu. Đây là lỗi thiếu chú ý đến if, until, as long as, cautiously.",
+      "fixVi": "Gạch dưới mọi từ điều kiện và từ chỉ mức độ. Đáp án đúng ở Part 4 thường giữ nguyên điều kiện; cảnh giác với always, any, completely, no exceptions."
+    },
+    "detail-as-main": {
+      "label": "Lấy chi tiết làm ý chính / mục đích",
+      "explanationVi": "Bạn chọn một chi tiết đúng của một đoạn cho câu hỏi về ý chính của cả bài, hoặc trả lời câu 'Why does the writer include…' bằng nội dung thay vì chức năng của đoạn.",
+      "fixVi": "Với câu ý chính, kiểm tra đáp án có bao quát đoạn đầu và các quan điểm phía sau không. Với câu mục đích, hỏi: đoạn này làm nhiệm vụ gì trong bài (phản bác, dung hoà, ví dụ, bối cảnh)?"
+    },
+    "word-match": {
+      "label": "Bẫy trùng từ",
+      "explanationVi": "Bạn chọn đáp án vì nó dùng lại cụm từ trong bài (all or nothing, Alberta, petition), nhưng trong bài cụm đó có vai trò khác hoặc nghĩa ngược lại.",
+      "fixVi": "Khi thấy cụm từ y hệt bài báo, kiểm tra ai nói nó và để làm gì. Nhiều khi nhân vật dùng cụm đó để mô tả quan điểm mà họ phản đối."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "not everyone is persuaded",
+      "vi": "không phải ai cũng bị thuyết phục (tín hiệu chuyển sang ý kiến khác)",
+      "example": "The new bike lane on Commercial Drive is popular with cyclists, but not everyone is persuaded."
+    },
+    {
+      "term": "(someone) has a point",
+      "vi": "(ai đó) nói cũng có lý (đồng ý một phần)",
+      "example": "I want the pool to stay open late, but the lifeguards have a point about safety."
+    },
+    {
+      "term": "miss the point",
+      "vi": "hiểu sai trọng tâm, bỏ qua điều quan trọng nhất",
+      "example": "Arguing about the paint colour misses the point; the building needs a new roof."
+    },
+    {
+      "term": "short-sighted",
+      "vi": "thiển cận, không nghĩ đến lâu dài",
+      "example": "Cutting the bus route to save money seems short-sighted to many Kelowna commuters."
+    },
+    {
+      "term": "come down on the side of",
+      "vi": "đứng về phía, quyết định ủng hộ",
+      "example": "The school board came down on the side of later start times."
+    },
+    {
+      "term": "all or nothing",
+      "vi": "được ăn cả, ngã về không; không có lựa chọn ở giữa",
+      "example": "It doesn't have to be all or nothing; we could renovate one floor at a time."
+    },
+    {
+      "term": "in theory",
+      "vi": "về lý thuyết, về nguyên tắc (thường đi với but)",
+      "example": "In theory, I'd love to bike to work, but the hill on 4th Avenue is brutal."
+    },
+    {
+      "term": "out of reach",
+      "vi": "ngoài tầm với (thường là quá đắt)",
+      "example": "For many young families, a detached house in Vancouver is out of reach."
+    },
+    {
+      "term": "make one's case",
+      "vi": "trình bày lập luận của mình",
+      "example": "Both candidates will make their case at the all-candidates meeting on Thursday."
+    }
+  ],
+  "grammar": [
+    {
+      "point": "Concession structures that hide the real position",
+      "explanationVi": "Trong các mẫu nhượng bộ, vế đầu thừa nhận một ý, vế sau mới là lập trường thật. Hãy đọc tiếp đến hết câu (và câu sau) trước khi kết luận ai nghĩ gì.",
+      "examples": [
+        "I'm not against change. But if the city wants us to switch, it should help us pay for it. (real position: conditional support)",
+        "I'm not saying golf doesn't matter. I'm saying housing matters more right now. (real position: housing first)",
+        "I like the idea in theory, but it isn't an option for us. (real position: not practical for me)"
+      ]
+    },
+    {
+      "point": "Conditional stance: if, until, as long as",
+      "explanationVi": "Các liên từ điều kiện cho biết lập trường có thể thay đổi. 'Until they do, I can't support this' = hiện chưa ủng hộ, sẽ ủng hộ nếu điều kiện được đáp ứng. Một đáp án bỏ mất điều kiện thường là sai.",
+      "examples": [
+        "Until they show us a traffic plan, I can't support this.",
+        "I'd vote for the ban as long as it comes with a rebate.",
+        "If the city helps small businesses, we'll switch."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "label": "Practise a full Part 4 set",
+      "route": "/reading?task=R4"
+    },
+    {
+      "label": "Inference drill",
+      "route": "/reading?mode=drill&focus=inference"
+    },
+    {
+      "label": "Main idea drill",
+      "route": "/reading?mode=drill&focus=main_idea"
+    }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 13 exercises (article questions and comment blanks 6-9); keys match, distractors map to wrong-voice/extreme/concession traps. Replaced i8 evidence with the Gagnon sentence describing the smaller course, and hedged 'Part 4 is the hardest part' as a common view."}
+}

@@ -1,0 +1,707 @@
+{
+  "id": "ls-01",
+  "skill": "listening",
+  "module": "listening-foundations",
+  "level": "foundation",
+  "difficulty": 6,
+  "title": "Listening for the main idea",
+  "titleVi": "Nghe để nắm ý chính",
+  "estimatedMinutes": 30,
+  "prerequisites": [],
+  "competencies": [
+    "missed_info"
+  ],
+  "tasks": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6"
+  ],
+  "objectives": [
+    "You will be able to identify the topic and purpose of a conversation or talk from its first 15–20 seconds.",
+    "You will be able to recognize signal phrases that introduce a speaker's main point, such as \"The reason I'm calling…\" and \"So my position is this…\".",
+    "You will be able to keep following the gist when you hear words you do not know.",
+    "You will be able to reject answer options that are too narrow, too broad or only match a word you heard."
+  ],
+  "objectiveVi": "Sau bài này, bạn nghe được người nói đang nói về chuyện gì và nói để làm gì (thông báo, nhờ vả, phàn nàn, thuyết phục…) ngay từ phần mở đầu, nhận ra câu chứa ý chính nhờ các cụm tín hiệu, và không bị “đứng hình” khi gặp từ lạ.",
+  "whyItMattersVi": "Ở Listening 6, bạn thường hiểu được nhiều chi tiết nhưng lại chọn sai câu hỏi tổng quát (“What is the conversation mainly about?”, “Why is the man calling?”) vì bị cuốn vào một chi tiết nghe rõ nhất. Bài nghe CELPIP chỉ phát một lần, nên nếu bạn nắm được khung ý chính ngay từ đầu, mọi chi tiết sau đó sẽ có chỗ để “treo” vào và bạn ít bỏ sót thông tin hơn. Đây là nền móng để lên Level 8 ở mọi Part, từ Part 1 (Problem Solving) đến Part 6 (Viewpoints).",
+  "concept": [
+    {
+      "heading": "Ý chính (main idea) là gì trong bài nghe CELPIP?",
+      "body": "**Main idea** là câu trả lời cho hai câu hỏi: *Người nói đang nói về chuyện gì?* (topic) và *Họ nói để làm gì?* (purpose). Chi tiết (detail) chỉ là những mảnh hỗ trợ: giờ giấc, tên địa điểm, ví dụ.\n\nTrong CELPIP, câu hỏi ý chính xuất hiện ở hầu hết các Part, thường có dạng:\n- *What is the conversation mainly about?*\n- *Why is the woman calling?*\n- *What is the main purpose of the announcement?*\n- *What is the speaker's main point?*\n\nĐáp án đúng thường **bao quát cả đoạn**, không chỉ một câu. Một mẹo kiểm tra: nếu bạn bỏ đáp án đó đi, phần lớn bài nghe có còn ý nghĩa không? Nếu đáp án chỉ đúng với 1–2 câu, đó là chi tiết, không phải ý chính."
+    },
+    {
+      "heading": "15–20 giây đầu: nơi ý chính thường xuất hiện",
+      "body": "Người bản xứ thường nói mục đích rất sớm, nhất là trong cuộc gọi, tin nhắn thoại, thông báo và bản tin. Hãy nghe kỹ các **cụm tín hiệu** sau:\n- Cuộc gọi / voicemail: *I'm calling about…*, *The reason I'm calling is…*, *This message is for…*\n- Hội thoại đời thường: *Got a sec?*, *The thing is…*, *I wanted to ask you about…*, *Anyway, I'm glad I caught you.*\n- Thông báo: *Just a quick announcement about…*, *Just a heads-up…*, *Starting this Saturday…*\n- Bản tin (Part 4): **câu đầu tiên** gần như luôn là tóm tắt cả tin (headline).\n\nLưu ý: hội thoại thường mở đầu bằng **small talk** (thời tiết, hỏi thăm). Từ *Anyway*, *So*, *The thing is* là dấu hiệu người nói chuyển sang việc chính."
+    },
+    {
+      "heading": "Xác định mục đích của người nói",
+      "body": "Hãy gắn cho mỗi đoạn nghe một **động từ mục đích**: *inform* (thông báo), *request* (nhờ, yêu cầu), *complain* (phàn nàn), *invite* (mời), *apologize* (xin lỗi), *suggest* (đề xuất), *persuade* (thuyết phục).\n\nCác dấu hiệu ngôn ngữ:\n- **Request:** *Could you…?*, *Would you be willing to…?*, *Would you mind…?*\n- **Complain + request:** *I've been having a problem with…*, *So what I'm asking is…*\n- **Inform:** *Just wanted to let you know…*, *Please note that…*\n- **Persuade / state a view:** *My position is this…*, *What I'd suggest is…*, *I keep coming back to…*\n\nỞ Part 6 (Viewpoints), người nói hay **nhượng bộ trước** (*I understand the appeal…*, *And look, …*) rồi mới nói quan điểm thật sau *But* hoặc *So*. Ý chính nằm sau từ chuyển hướng, không nằm ở phần nhượng bộ."
+    },
+    {
+      "heading": "Gặp từ lạ: đừng dừng lại",
+      "body": "Lỗi lớn nhất của người học ở Level 6 là nghe một từ lạ rồi **dừng lại để đoán nghĩa**, trong khi bài nghe vẫn chạy tiếp. Khi đó bạn mất luôn 2–3 câu sau, mà đó có thể là câu chứa ý chính.\n\nCách làm đúng:\n1. Ghi nhận “có một từ lạ” rồi **nghe tiếp ngay**.\n2. Đoán nghĩa từ ngữ cảnh: từ đó là thứ tốt hay xấu? Là đồ vật, hành động hay cảm xúc? Ví dụ: *crews spent hours cleaning up discarded items*: không biết *discarded*, nhưng “dọn dẹp” cho thấy đó là đồ bị vứt bỏ.\n3. Nhớ rằng ý chính thường được **nhắc lại hoặc diễn đạt lại** (paraphrase) ở chỗ khác trong bài. Một từ lạ hiếm khi quyết định câu hỏi ý chính."
+    },
+    {
+      "heading": "Bẫy thường gặp và quy trình 4 bước",
+      "body": "**Bẫy:**\n- **Too narrow:** đáp án là một chi tiết có thật trong bài nhưng không phải trọng tâm.\n- **Too broad:** đáp án chung chung hơn nội dung bài.\n- **Word match:** đáp án lặp lại một từ bạn nghe thấy nhưng sai ý.\n- **Opening trap:** chọn chủ đề small talk hoặc phần nhượng bộ ở đầu bài.\n- **Over-inference:** đáp án nghe hợp lý nhưng người nói không hề nói.\n\n**Quy trình 4 bước:**\n1. **Trước khi nghe:** đọc câu giới thiệu, đoán bối cảnh: ai nói với ai, ở đâu.\n2. **15–20 giây đầu:** trả lời *Who? About what? Why?*\n3. **Phần giữa:** kiểm tra xem các chi tiết có ủng hộ giả thuyết của bạn không; nếu nghe *But / Actually / The thing is*, sẵn sàng điều chỉnh.\n4. **Phần cuối:** nghe kết luận hoặc bước tiếp theo (*So…*, *I'll let her know…*). Kết quả cuối thường xác nhận ý chính."
+    }
+  ],
+  "stimuli": {
+    "ex-dentist-voicemail": {
+      "title": "Voicemail from a dental office",
+      "audio": [
+        {
+          "speaker": "Carla",
+          "voice": "female_a",
+          "text": "Hi, this message is for Minh Tran. This is Carla calling from Lakeview Dental in Coquitlam. I'm calling about your cleaning appointment on Thursday. Unfortunately, Dr. Hughes has to be away that day, so we need to move you to another time. We have openings next Monday at ten or Tuesday afternoon at two-thirty. Could you give us a call back at your earliest convenience to let us know which one works for you? Thanks so much, and sorry for the inconvenience."
+        }
+      ]
+    },
+    "ex-parkade-chat": {
+      "title": "Two neighbours in the lobby",
+      "audio": [
+        {
+          "speaker": "Dan",
+          "voice": "male_a",
+          "text": "Hey, Priya! Wow, it's pouring again, eh? Typical November."
+        },
+        {
+          "speaker": "Priya",
+          "voice": "female_a",
+          "text": "I know, my umbrella's already broken. Anyway, I'm glad I caught you. You're on the strata council, right? Someone's been parking in my spot in the parkade almost every night this week, and I end up circling the block for twenty minutes."
+        },
+        {
+          "speaker": "Dan",
+          "voice": "male_a",
+          "text": "Oh, that's frustrating. Did you leave a note?"
+        },
+        {
+          "speaker": "Priya",
+          "voice": "female_a",
+          "text": "Twice. Nothing changed. Is there anything the council can do?"
+        },
+        {
+          "speaker": "Dan",
+          "voice": "male_a",
+          "text": "Yeah, we can put up a warning sign and, if it keeps happening, call the towing company. Send me your unit and spot number and I'll bring it up at Tuesday's meeting."
+        }
+      ]
+    },
+    "pool-announcement": {
+      "title": "Community centre announcement",
+      "audio": [
+        {
+          "speaker": "Announcer",
+          "voice": "narrator",
+          "text": "Good morning, everyone, and thanks for visiting Riverside Community Centre. Just a quick announcement about the pool. Starting this Saturday, the main pool will be closed for about three weeks while crews replace the heating system and repaint the deck. We know a lot of you swim here every morning, so we've arranged for all Riverside pass holders to use the pool at Cedar Park Recreation Centre at no extra charge. Just show your Riverside pass at the front desk. The hot tub and sauna here will stay open as usual, and aquafit classes will move to Cedar Park at the same times. Thanks for your patience while we make these improvements."
+        }
+      ]
+    },
+    "shift-swap": {
+      "title": "Two coworkers at a store",
+      "audio": [
+        {
+          "speaker": "Jenna",
+          "voice": "female_a",
+          "text": "Hey, Marco, got a sec? So, you know how my sister's getting married in Kelowna next month?"
+        },
+        {
+          "speaker": "Marco",
+          "voice": "male_a",
+          "text": "Right, the big wedding by the lake. That's coming up fast."
+        },
+        {
+          "speaker": "Jenna",
+          "voice": "female_a",
+          "text": "Yeah, on the eighteenth. The thing is, I'm scheduled to close the store that Saturday, and Lisa says I can only get the day off if I find someone to cover. Would you be willing to take my shift? I'd take your Sunday morning in return, or any shift you want the week after."
+        },
+        {
+          "speaker": "Marco",
+          "voice": "male_a",
+          "text": "Hmm, let me think. My kid has a hockey tournament that weekend, but I'm pretty sure the games are on Sunday. Saturday evening should be fine. Yeah, okay, I'll do it."
+        },
+        {
+          "speaker": "Jenna",
+          "voice": "female_a",
+          "text": "Oh, you're a lifesaver. I'll let Lisa know right away."
+        }
+      ]
+    },
+    "pickup-news": {
+      "title": "Local news item",
+      "audio": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Residents of the City of Pine Ridge will soon have a new way to get rid of old furniture. Starting in March, the city will run a pilot program that lets households book a free curbside pickup for large items like couches, mattresses and appliances, up to twice a year. City officials say the goal is to reduce illegal dumping, which has become a growing problem along rural roads and in back lanes. Last year, crews spent more than two hundred hours cleaning up discarded items. Residents can book a pickup online or by phone, and items must be at the curb by seven a.m. on the scheduled day. If the pilot is successful, the city says the service could become permanent next year."
+        }
+      ]
+    },
+    "internet-call": {
+      "title": "A call to an internet provider",
+      "audio": [
+        {
+          "speaker": "Rachel",
+          "voice": "female_b",
+          "text": "Thanks for calling Northwave Internet, this is Rachel. How can I help you today?"
+        },
+        {
+          "speaker": "Daniel",
+          "voice": "male_a",
+          "text": "Hi, Rachel. So, I've been a customer for about six years, and honestly I've been pretty happy until now. But for the last two weeks my internet has been cutting out every evening, usually right around eight. I work from home a couple of days a week, and I've missed two video meetings because of it."
+        },
+        {
+          "speaker": "Rachel",
+          "voice": "female_b",
+          "text": "I'm really sorry to hear that. Have you tried restarting the modem?"
+        },
+        {
+          "speaker": "Daniel",
+          "voice": "male_a",
+          "text": "Several times. A technician even came by last Friday and said everything looked fine. So what I'm asking is, can someone figure out what's actually going on, and can I get some kind of credit for the days it hasn't worked?"
+        },
+        {
+          "speaker": "Rachel",
+          "voice": "female_b",
+          "text": "Absolutely. Let me open a ticket with our network team, and I'll apply a credit to this month's bill."
+        }
+      ]
+    },
+    "main-street-view": {
+      "title": "A neighbourhood podcast",
+      "audio": [
+        {
+          "speaker": "Host",
+          "voice": "male_a",
+          "text": "A lot of people in my neighbourhood have been asking whether the city should turn our main street into a pedestrian-only zone on weekends. And look, I understand the appeal. Picture it: patios spilling onto the road, buskers, kids on scooters, no honking. Other cities have done it, and it looks fantastic in the photos. But I keep coming back to the businesses that rely on drivers. The hardware store, the bakery that does big catering orders, the clinic with elderly patients who can't walk three blocks from a parkade. For them, losing street access every Saturday and Sunday isn't a minor inconvenience. So my position is this: let's try it, but only on a handful of summer weekends first, and let's actually ask those owners how it goes before we make it permanent."
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "ls01-ex1",
+      "title": "Finding the purpose of a voicemail in the first 15 seconds",
+      "stimulusId": "ex-dentist-voicemail",
+      "question": "Why is Carla calling Minh?",
+      "steps": [
+        "Before listening: it is a voicemail from a dental office, so the purpose is probably to confirm, change or remind about an appointment.",
+        "First 15 seconds: \"I'm calling about your cleaning appointment on Thursday\" gives the topic: the appointment. The purpose is still open: confirm, cancel or change?",
+        "The word \"Unfortunately\" signals a problem: \"Dr. Hughes has to be away that day, so we need to move you to another time.\" Purpose verb: reschedule.",
+        "Middle: the two new times (Monday at ten, Tuesday at two-thirty) are details that support the purpose; they are not the main idea.",
+        "End: \"Could you give us a call back… to let us know which one works for you?\" confirms it: she wants Minh to choose a new time. A choice like \"to remind Minh about Thursday\" would be an opening trap."
+      ],
+      "answer": "To reschedule Minh's cleaning appointment and ask Minh to call back and choose a new time.",
+      "takeawayVi": "Trong voicemail, chủ đề nằm ở “I'm calling about…”, còn mục đích thật thường nằm ngay sau từ báo vấn đề như “Unfortunately”. Các mốc giờ chỉ là chi tiết hỗ trợ."
+    },
+    {
+      "id": "ls01-ex2",
+      "title": "Skipping small talk to reach the real topic",
+      "stimulusId": "ex-parkade-chat",
+      "question": "What is the conversation mainly about?",
+      "steps": [
+        "The conversation opens with the weather (\"it's pouring again, eh?\") and a broken umbrella. This is small talk; do not lock in an answer yet.",
+        "\"Anyway, I'm glad I caught you\" is the pivot signal. Whatever comes next is probably the real reason Priya is talking to Dan.",
+        "Next sentence: \"Someone's been parking in my spot in the parkade almost every night this week.\" Topic: a parking problem. Her question, \"Is there anything the council can do?\", shows the purpose: she wants help.",
+        "End: Dan offers a warning sign, possible towing, and to \"bring it up at Tuesday's meeting\". The outcome supports the same topic.",
+        "Check the traps: \"rainy weather\" is an opening trap; \"towing companies\" is too narrow (only one possible step); \"strata council elections\" matches the word \"council\" but is never discussed."
+      ],
+      "answer": "Priya asks Dan, as a strata council member, for help with someone who keeps parking in her spot.",
+      "takeawayVi": "Đừng chọn chủ đề của câu đầu tiên trong hội thoại đời thường. Hãy chờ từ chuyển ý “Anyway / So / The thing is”, vì việc chính thường nằm ngay sau đó."
+    }
+  ],
+  "guided": [
+    {
+      "id": "ls01-g1",
+      "type": "choice",
+      "stimulusId": "pool-announcement",
+      "prompt": "What is the main purpose of the announcement?",
+      "hint": "Listen to the sentence right after \"Just a quick announcement about…\" and ask: what is changing, and what should listeners do about it?",
+      "options": [
+        {
+          "text": "To tell pool users about a temporary closure and where they can swim in the meantime",
+          "misconception": null,
+          "whyVi": "Đúng: bài nói hồ bơi đóng khoảng ba tuần và sắp xếp cho người có thẻ bơi miễn phí ở Cedar Park. Đáp án bao quát cả bài."
+        },
+        {
+          "text": "To promote the new aquafit classes at Cedar Park",
+          "misconception": "word_match",
+          "whyVi": "“Aquafit” có được nhắc, nhưng lớp học chỉ chuyển địa điểm, không phải lớp mới và không phải trọng tâm."
+        },
+        {
+          "text": "To announce that Riverside Community Centre is closing",
+          "misconception": "over_inference",
+          "whyVi": "Chỉ hồ bơi chính đóng tạm thời; hot tub và sauna vẫn mở. Cả trung tâm không đóng cửa."
+        },
+        {
+          "text": "To explain how the new heating system works",
+          "misconception": "detail_as_main",
+          "whyVi": "Việc thay hệ thống sưởi chỉ là lý do đóng cửa, một chi tiết. Bài không giải thích cách hệ thống hoạt động."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "the main pool will be closed for about three weeks",
+      "explanationVi": "Thông báo có cấu trúc: chủ đề (the pool), thay đổi (closed for about three weeks), giải pháp (use the pool at Cedar Park). Đáp án đúng phải bao gồm cả thay đổi lẫn giải pháp.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls01-g2",
+      "type": "choice",
+      "stimulusId": "shift-swap",
+      "prompt": "Why does Jenna start the conversation with Marco?",
+      "hint": "The wedding is background. Listen for the phrase \"The thing is…\" and the question that follows it.",
+      "options": [
+        {
+          "text": "To invite Marco to her sister's wedding",
+          "misconception": "word_match",
+          "whyVi": "“Wedding” được nhắc nhiều nhưng chỉ là lý do Jenna cần nghỉ. Cô không mời Marco."
+        },
+        {
+          "text": "To ask Marco to work her Saturday shift",
+          "misconception": null,
+          "whyVi": "Đúng: sau “The thing is…”, Jenna hỏi “Would you be willing to take my shift?”. Đây là mục đích chính (request)."
+        },
+        {
+          "text": "To complain that Lisa won't give her the day off",
+          "misconception": "over_inference",
+          "whyVi": "Jenna chỉ thuật lại điều kiện của Lisa, không phàn nàn. Lisa cho nghỉ nếu có người làm thay."
+        },
+        {
+          "text": "To find out when Marco's hockey games are",
+          "misconception": "detail_as_main",
+          "whyVi": "Hockey là chi tiết do Marco tự nhắc khi kiểm tra lịch, không phải lý do Jenna bắt chuyện."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "Would you be willing to take my shift?",
+      "explanationVi": "Mẫu quen thuộc: câu mở đầu nhắc bối cảnh (đám cưới), rồi “The thing is…” giới thiệu vấn đề, sau đó là lời nhờ. Mục đích nằm ở lời nhờ “Would you be willing to…?”.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls01-g3",
+      "type": "choice",
+      "stimulusId": "pickup-news",
+      "prompt": "What is the news item mainly about?",
+      "hint": "In a news item, the first sentence works like a headline. Then check whether the rest of the report supports it.",
+      "options": [
+        {
+          "text": "A new fine for people who dump garbage on rural roads",
+          "misconception": "over_inference",
+          "whyVi": "Bản tin nói về việc giảm vứt rác trái phép nhưng không hề nhắc đến tiền phạt."
+        },
+        {
+          "text": "A city crew that spent hundreds of hours cleaning back lanes",
+          "misconception": "detail_as_main",
+          "whyVi": "Con số hai trăm giờ chỉ là chi tiết minh hoạ cho vấn đề, không phải chủ đề."
+        },
+        {
+          "text": "A trial service that picks up large household items for free",
+          "misconception": null,
+          "whyVi": "Đúng: câu đầu và câu thứ hai nói về chương trình thử nghiệm thu gom đồ cồng kềnh miễn phí, các câu sau đều bổ sung cho nó."
+        },
+        {
+          "text": "Changes to garbage collection across British Columbia",
+          "misconception": "too_broad",
+          "whyVi": "Quá rộng: tin chỉ nói về một thành phố và một dịch vụ cụ thể."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "the city will run a pilot program that lets households book a free curbside pickup for large items",
+      "explanationVi": "“Pilot program” = chương trình thử nghiệm, tương đương “trial service”. Đây là ví dụ cho thấy đáp án đúng thường dùng từ khác (paraphrase) với bài nghe.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls01-g4",
+      "type": "choice",
+      "stimulusId": "pickup-news",
+      "prompt": "The news reader says crews spent hours \"cleaning up discarded items\". If you don't know the word \"discarded\", which meaning fits the context best?",
+      "hint": "Ask what kind of things crews would need to clean up along roads and in back lanes in a story about illegal dumping.",
+      "options": [
+        {
+          "text": "Items that people have thrown away",
+          "misconception": null,
+          "whyVi": "Đúng: bối cảnh “illegal dumping” và “cleaning up” cho thấy đó là đồ bị vứt bỏ."
+        },
+        {
+          "text": "Items that are sold at a discount",
+          "misconception": "word_match",
+          "whyVi": "“Discarded” nghe hơi giống “discount”, nhưng không liên quan đến việc dọn rác."
+        },
+        {
+          "text": "Items that residents booked for pickup",
+          "misconception": "over_inference",
+          "whyVi": "Đồ được đặt lịch thu gom thì không cần “dọn dẹp” trên đường. Câu này nói về vấn đề của năm ngoái, trước khi có chương trình."
+        },
+        {
+          "text": "Items that were damaged in a storm",
+          "misconception": "over_inference",
+          "whyVi": "Bản tin không nhắc đến bão. Đây là đoán theo kiến thức bên ngoài, không theo ngữ cảnh."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "Last year, crews spent more than two hundred hours cleaning up discarded items.",
+      "explanationVi": "Bạn không cần biết mọi từ. Câu trước nói về “illegal dumping”, câu này nói “cleaning up”, nên “discarded items” chắc chắn là đồ bị vứt bỏ. Hãy đoán nhanh rồi nghe tiếp.",
+      "competency": "missed_info"
+    }
+  ],
+  "independent": [
+    {
+      "id": "ls01-i1",
+      "type": "choice",
+      "stimulusId": "pool-announcement",
+      "prompt": "Which title best summarizes the announcement?",
+      "options": [
+        {
+          "text": "Hot tub and sauna open as usual",
+          "misconception": "detail_as_main",
+          "whyVi": "Đây chỉ là một chi tiết phụ ở gần cuối thông báo."
+        },
+        {
+          "text": "Riverside pool closed for repairs: swim at Cedar Park for free",
+          "misconception": null,
+          "whyVi": "Đúng: tiêu đề gói được cả thay đổi (đóng để sửa) lẫn giải pháp (bơi miễn phí ở Cedar Park)."
+        },
+        {
+          "text": "New recreation pass prices this Saturday",
+          "misconception": "over_inference",
+          "whyVi": "Không có giá mới; bài nói rõ là “at no extra charge”."
+        },
+        {
+          "text": "City recreation centres to share all their facilities",
+          "misconception": "too_broad",
+          "whyVi": "Quá rộng: chỉ có thoả thuận tạm thời về hồ bơi trong khoảng ba tuần."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "we've arranged for all Riverside pass holders to use the pool at Cedar Park Recreation Centre at no extra charge",
+      "explanationVi": "Tiêu đề tốt = chủ đề + điểm chính. Một tiêu đề chỉ nói về hot tub hay sauna bỏ sót phần lớn thông báo.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls01-i2",
+      "type": "choice",
+      "stimulusId": "shift-swap",
+      "prompt": "How does the conversation end?",
+      "options": [
+        {
+          "text": "Marco agrees to cover Jenna's Saturday shift.",
+          "misconception": null,
+          "whyVi": "Đúng: “Saturday evening should be fine. Yeah, okay, I'll do it.”"
+        },
+        {
+          "text": "Jenna agrees to work Marco's Sunday morning shift.",
+          "misconception": "over_inference",
+          "whyVi": "Jenna chỉ đề nghị đổi lại; Marco không nhận lời đề nghị này. Đây là lời đề xuất, không phải kết quả."
+        },
+        {
+          "text": "Marco says he needs to check with Lisa first.",
+          "misconception": "word_match",
+          "whyVi": "Chính Jenna mới là người sẽ báo cho Lisa. Marco chỉ nói “let me think”."
+        },
+        {
+          "text": "Marco refuses because of his kid's hockey tournament.",
+          "misconception": "opening_trap",
+          "whyVi": "Marco nhắc hockey trước, nhưng rồi nhận ra các trận đấu vào Chủ nhật nên đồng ý. Bạn đã dừng ở ý đầu tiên."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "Saturday evening should be fine. Yeah, okay, I'll do it.",
+      "explanationVi": "Câu hỏi về kết quả cần nghe đến hết lượt nói. Marco do dự (“Hmm, let me think”, nhắc đến hockey) rồi mới đồng ý. Kết luận nằm ở cuối.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls01-i3",
+      "type": "choice",
+      "stimulusId": "pickup-news",
+      "prompt": "According to the news item, why is the city starting the program?",
+      "options": [
+        {
+          "text": "To earn money from pickup fees",
+          "misconception": "over_inference",
+          "whyVi": "Dịch vụ miễn phí (“free curbside pickup”), nên không thể nhằm thu phí."
+        },
+        {
+          "text": "To cut down on illegal dumping",
+          "misconception": null,
+          "whyVi": "Đúng: “the goal is to reduce illegal dumping”. “Cut down on” là cách diễn đạt khác của “reduce”."
+        },
+        {
+          "text": "To help people buy new appliances",
+          "misconception": "word_match",
+          "whyVi": "“Appliances” xuất hiện trong danh sách đồ được thu gom, không phải mục đích."
+        },
+        {
+          "text": "To keep the service running permanently",
+          "misconception": "detail_as_main",
+          "whyVi": "Việc trở thành dịch vụ lâu dài chỉ là khả năng ở tương lai (“could become permanent”), không phải lý do bắt đầu."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "City officials say the goal is to reduce illegal dumping",
+      "explanationVi": "Cụm “the goal is…” là tín hiệu mục đích rất rõ trong bản tin. Hãy nghe các cụm như “the goal is”, “the aim is”, “in order to”.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls01-i4",
+      "type": "choice",
+      "stimulusId": "internet-call",
+      "prompt": "What is the main reason Daniel is calling?",
+      "options": [
+        {
+          "text": "To say he is happy with the company after six years",
+          "misconception": "opening_trap",
+          "whyVi": "Đây là câu mở đầu lịch sự trước khi vào vấn đề (“…until now. But…”)."
+        },
+        {
+          "text": "To cancel his internet service",
+          "misconception": "over_inference",
+          "whyVi": "Daniel không hề nói muốn huỷ dịch vụ; anh muốn sửa lỗi và được giảm tiền."
+        },
+        {
+          "text": "To report a repeated outage and ask for a fix and a credit",
+          "misconception": null,
+          "whyVi": "Đúng: anh báo mạng rớt mỗi tối và yêu cầu tìm nguyên nhân cùng một khoản credit."
+        },
+        {
+          "text": "To book a technician to visit his home",
+          "misconception": "detail_as_main",
+          "whyVi": "Kỹ thuật viên đã đến thứ Sáu tuần trước. Đó là chi tiết trong quá khứ, không phải yêu cầu mới."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "So what I'm asking is, can someone figure out what's actually going on, and can I get some kind of credit",
+      "explanationVi": "Daniel dùng mẫu “khen trước, But…, rồi yêu cầu”. Từ “But” chuyển sang vấn đề, còn “So what I'm asking is…” nói thẳng mục đích.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls01-i5",
+      "type": "choice",
+      "stimulusId": "internet-call",
+      "prompt": "Which of Daniel's sentences signals his main point most clearly?",
+      "options": [
+        {
+          "text": "\"I've been a customer for about six years.\"",
+          "misconception": "opening_trap",
+          "whyVi": "Câu này chỉ là bối cảnh, giúp lời yêu cầu nghe hợp lý hơn."
+        },
+        {
+          "text": "\"I work from home a couple of days a week.\"",
+          "misconception": "detail_as_main",
+          "whyVi": "Đây là lý do vấn đề quan trọng với anh, không phải điểm chính."
+        },
+        {
+          "text": "\"A technician even came by last Friday.\"",
+          "misconception": "detail_as_main",
+          "whyVi": "Chi tiết cho thấy anh đã thử giải quyết, không phải điều anh muốn bây giờ."
+        },
+        {
+          "text": "\"So what I'm asking is…\"",
+          "misconception": null,
+          "whyVi": "Đúng: “So what I'm asking is…” là cụm tín hiệu giới thiệu trực tiếp yêu cầu chính."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "So what I'm asking is",
+      "explanationVi": "Người nói thường “dán nhãn” cho ý chính: “What I'm asking is…”, “The point is…”, “My position is this…”. Nghe thấy những cụm này, hãy dồn hết sự chú ý vào câu ngay sau.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls01-i6",
+      "type": "choice",
+      "stimulusId": "pickup-news",
+      "prompt": "Which statement best describes the program overall?",
+      "options": [
+        {
+          "text": "It is a test that may continue if it works well.",
+          "misconception": null,
+          "whyVi": "Đúng: đây là “pilot program” và “could become permanent next year” nếu thành công."
+        },
+        {
+          "text": "It is a permanent service starting next year.",
+          "misconception": "over_inference",
+          "whyVi": "Bắt đầu từ tháng Ba, và chỉ “could” trở thành lâu dài. “Permanent” chưa chắc chắn."
+        },
+        {
+          "text": "It lets households put out large items any day they like.",
+          "misconception": "over_inference",
+          "whyVi": "Phải đặt lịch, tối đa hai lần một năm và để đồ ra lề đường trước 7 giờ sáng ngày đã hẹn."
+        },
+        {
+          "text": "It is only available to residents who book online.",
+          "misconception": "word_match",
+          "whyVi": "Có thể đặt “online or by phone”. Đáp án bám vào từ “online” mà bỏ phần còn lại."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "If the pilot is successful, the city says the service could become permanent next year.",
+      "explanationVi": "Câu kết của bản tin thường nói bước tiếp theo. Kết hợp câu đầu (“pilot program”) và câu cuối (“could become permanent”) sẽ cho bạn bức tranh tổng thể.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls01-i7",
+      "type": "choice",
+      "stimulusId": "main-street-view",
+      "prompt": "What is the speaker's main point?",
+      "options": [
+        {
+          "text": "The main street should become pedestrian-only every weekend, as in other cities.",
+          "misconception": "opening_trap",
+          "whyVi": "Đây là phần nhượng bộ (“I understand the appeal…”), sau đó anh chuyển hướng bằng “But”."
+        },
+        {
+          "text": "The city should drop the idea because it would hurt local businesses.",
+          "misconception": "over_inference",
+          "whyVi": "Quá mạnh: anh vẫn muốn thử (“let's try it”), chỉ là thử có giới hạn."
+        },
+        {
+          "text": "Elderly patients need more parking near the clinic.",
+          "misconception": "detail_as_main",
+          "whyVi": "Bệnh nhân lớn tuổi chỉ là một ví dụ về người bị ảnh hưởng."
+        },
+        {
+          "text": "The idea should be tested on a few weekends, with input from business owners, before any permanent decision.",
+          "misconception": null,
+          "whyVi": "Đúng: “let's try it, but only on a handful of summer weekends first, and let's actually ask those owners…”."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "So my position is this: let's try it, but only on a handful of summer weekends first",
+      "explanationVi": "Ở bài nói nêu quan điểm, cấu trúc thường là: nhượng bộ (And look, I understand…), chuyển hướng (But I keep coming back to…), quan điểm (So my position is this…). Ý chính nằm ở phần cuối, không phải phần đầu.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls01-i8",
+      "type": "choice",
+      "stimulusId": "main-street-view",
+      "prompt": "Why does the speaker mention the hardware store, the bakery and the clinic?",
+      "options": [
+        {
+          "text": "To recommend some of his favourite local businesses",
+          "misconception": "over_inference",
+          "whyVi": "Anh không khen hay giới thiệu các cửa hàng; anh nêu chúng như những nơi bị ảnh hưởng."
+        },
+        {
+          "text": "To give examples of businesses that depend on customers arriving by car",
+          "misconception": null,
+          "whyVi": "Đúng: chúng minh hoạ cho câu “the businesses that rely on drivers”."
+        },
+        {
+          "text": "To show that these businesses already support the plan",
+          "misconception": "over_inference",
+          "whyVi": "Anh chưa hỏi ý kiến chủ cửa hàng; anh đề nghị “let's actually ask those owners”."
+        },
+        {
+          "text": "To explain why the street looks fantastic in photos",
+          "misconception": "word_match",
+          "whyVi": "“Looks fantastic in the photos” nói về các thành phố khác, ở phần nhượng bộ, không liên quan đến ba cơ sở này."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "But I keep coming back to the businesses that rely on drivers.",
+      "explanationVi": "Câu hỏi “Why does the speaker mention X?” hỏi về chức năng của chi tiết trong lập luận. Hãy tìm câu tổng quát đứng ngay trước danh sách ví dụ. Ở đây là “the businesses that rely on drivers”.",
+      "competency": "missed_info"
+    }
+  ],
+  "misconceptions": {
+    "detail_as_main": {
+      "label": "Nhầm chi tiết là ý chính",
+      "explanationVi": "Bạn chọn một thông tin có thật trong bài nhưng chỉ đúng với 1–2 câu. Đây là dấu hiệu bạn nghe theo từng mảnh và nhớ mảnh rõ nhất, thay vì xây khung “ai, nói về gì, để làm gì” từ đầu.",
+      "fixVi": "Trước khi chọn, hỏi: “Nếu bỏ ý này đi, phần lớn bài nghe có còn ý nghĩa không?” Ý chính phải bao quát cả bài; chi tiết chỉ hỗ trợ cho nó."
+    },
+    "too_broad": {
+      "label": "Chọn đáp án quá rộng",
+      "explanationVi": "Đáp án chung chung hơn nội dung bài (cả tỉnh BC thay vì một thành phố, mọi tiện ích thay vì hồ bơi). Bạn đã nắm được chủ đề nhưng chưa kiểm tra phạm vi.",
+      "fixVi": "So phạm vi đáp án với bài nghe: bao nhiêu người, địa điểm nào, trong bao lâu. Đáp án đúng khớp đúng phạm vi, không rộng hơn."
+    },
+    "word_match": {
+      "label": "Bẫy trùng từ",
+      "explanationVi": "Bạn chọn đáp án vì nó chứa một từ bạn nghe rõ (wedding, aquafit, online), chứ không vì ý nghĩa khớp. Đây là phản xạ nghe từ khoá mà không xử lý cả câu.",
+      "fixVi": "Khi một đáp án lặp lại đúng từ trong bài, hãy nghi ngờ và kiểm tra lại ý nghĩa. Đáp án đúng thường dùng từ khác (paraphrase) để diễn đạt cùng ý."
+    },
+    "opening_trap": {
+      "label": "Dừng ở phần mở đầu hoặc ý đầu tiên",
+      "explanationVi": "Bạn quyết định ngay khi nghe phần small talk, lời khen mở đầu, phần nhượng bộ hoặc phản ứng đầu tiên của người nói, rồi bỏ qua từ chuyển hướng như But, Anyway, The thing is. Người nói tiếng Anh thường dẫn dắt trước khi vào ý chính.",
+      "fixVi": "Coi ý đầu tiên là giả thuyết, chưa phải đáp án. Mỗi khi nghe But / Anyway / So / The thing is / Actually, hãy sẵn sàng thay đổi giả thuyết."
+    },
+    "over_inference": {
+      "label": "Suy diễn vượt quá lời nói",
+      "explanationVi": "Đáp án nghe hợp lý theo kinh nghiệm đời thường hoặc kiến thức bên ngoài (huỷ dịch vụ, có tiền phạt, có bão, đóng cả trung tâm) nhưng người nói không hề nói vậy, hoặc nói ở mức nhẹ hơn (could, a handful of weekends). Khi gặp chỗ mơ hồ hay từ lạ, bạn lấp chỗ trống bằng phỏng đoán thay vì manh mối trong bài.",
+      "fixVi": "Chỉ chọn điều bạn có thể chỉ ra bằng một câu cụ thể trong bài. Chú ý từ chỉ mức độ (could, might, only, first) và đoán nghĩa từ lạ bằng câu ngay trước và ngay sau. Không có manh mối trong bài thì không chọn."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "I'm calling about…",
+      "vi": "Tôi gọi về việc… (cụm mở đầu nêu chủ đề cuộc gọi)",
+      "example": "Hi, I'm calling about the two-bedroom suite you posted on Craigslist."
+    },
+    {
+      "term": "The thing is…",
+      "vi": "Vấn đề là… (dẫn vào việc chính hoặc khó khăn)",
+      "example": "I'd love to come to the potluck. The thing is, I'm working until nine that night."
+    },
+    {
+      "term": "Anyway, …",
+      "vi": "Thôi, vào việc chính nhé… (chuyển từ chuyện phiếm sang chủ đề chính)",
+      "example": "Anyway, I wanted to ask if you could feed my cat this weekend."
+    },
+    {
+      "term": "Just a heads-up",
+      "vi": "Báo trước một chút (thông báo nhanh, thân mật)",
+      "example": "Just a heads-up: the elevator in our building will be out of service on Monday."
+    },
+    {
+      "term": "So what I'm asking is…",
+      "vi": "Vậy điều tôi muốn đề nghị là… (nêu thẳng yêu cầu chính)",
+      "example": "So what I'm asking is, could you waive the late fee this one time?"
+    },
+    {
+      "term": "Would you be willing to…?",
+      "vi": "Bạn có sẵn lòng… không? (lời nhờ lịch sự)",
+      "example": "Would you be willing to drive the kids to soccer practice on Thursday?"
+    },
+    {
+      "term": "cover a shift",
+      "vi": "làm thay ca cho ai",
+      "example": "Can anyone cover my shift at the coffee shop on Sunday morning?"
+    },
+    {
+      "term": "My position is this: …",
+      "vi": "Quan điểm của tôi là thế này: … (giới thiệu ý chính trong bài nêu quan điểm)",
+      "example": "My position is this: the city should add more bike lanes before raising parking fees."
+    },
+    {
+      "term": "pilot program = trial (paraphrase)",
+      "vi": "chương trình thử nghiệm (cặp diễn đạt tương đương)",
+      "example": "The school district is running a pilot program, a one-year trial, for later start times."
+    }
+  ],
+  "grammar": [],
+  "practice": [
+    {
+      "label": "Listening Part 2: Daily Life Conversation",
+      "route": "/listening?task=L2"
+    },
+    {
+      "label": "Listening Part 4: News Item",
+      "route": "/listening?task=L4"
+    },
+    {
+      "label": "Drill: missed information",
+      "route": "/listening?mode=drill&focus=missed_info"
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "author-agent+independent-review-agent",
+    "notes": "Solved all 12 exercises from the transcripts: keys, distractors and verbatim evidence hold. Renamed the city in the furniture-pickup news item (Prince George -> fictional Pine Ridge) so it cannot read as a real announced program; no other changes needed."
+  }
+}

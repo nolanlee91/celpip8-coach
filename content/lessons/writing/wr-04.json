@@ -1,0 +1,356 @@
+{
+  "id": "wr-04",
+  "skill": "writing",
+  "module": "writing-foundations",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Cohesion: linking and reference",
+  "titleVi": "Liên kết câu: từ nối và từ thay thế",
+  "estimatedMinutes": 32,
+  "prerequisites": ["wr-03"],
+  "competencies": ["coherence"],
+  "tasks": ["W1", "W2"],
+  "objectives": [
+    "You will be able to choose linking words by their function (adding, contrasting, cause and effect, example, sequence).",
+    "You will be able to use reference words (it, they, this + noun, the former / the latter) without ambiguity.",
+    "You will be able to avoid repetition with synonyms and substitution.",
+    "You will be able to replace mechanical 'Firstly, Secondly, Thirdly' with more natural signposting."
+  ],
+  "objectiveVi": "Bạn sẽ nối các câu và các đoạn một cách tự nhiên: chọn từ nối đúng chức năng, dùng đại từ và \"this + danh từ\" rõ ràng, tránh lặp từ, và bỏ thói quen \"Firstly, Secondly, Thirdly\" máy móc.",
+  "whyItMattersVi": "Sau bài wr-03, đoạn của bạn đã có khung. Nhưng bài Level 7 thường vẫn đọc \"giật cục\": hoặc thiếu từ nối, hoặc câu nào cũng mở bằng Moreover/Furthermore, danh từ bị lặp ba bốn lần, \"it\" không rõ chỉ cái gì. Người chấm Level 8 tìm kiếm sự liên kết \"vô hình\": người đọc đi từ câu này sang câu kia mà không phải dừng lại suy đoán. Bài này cho bạn bộ công cụ để làm điều đó.",
+  "concept": [
+    {
+      "heading": "1. Cohesion là gì?",
+      "body": "**Cohesion** (tính liên kết) là \"keo dính\" nhìn thấy được giữa các câu. Có bốn công cụ chính:\n\n- **Linking words** (từ nối): *however, as a result, for example…*\n- **Reference** (từ quy chiếu): *it, they, this, these, the former…*\n- **Synonyms / lexical chains** (từ đồng nghĩa, chuỗi từ vựng): *the pool → the facility → the centre*\n- **Substitution** (thay thế): *one, ones, do so*\n\nBài viết tốt dùng cả bốn, không chỉ dựa vào từ nối."
+    },
+    {
+      "heading": "2. Chọn từ nối theo chức năng",
+      "body": "Trước khi viết từ nối, hãy gọi tên quan hệ giữa hai câu:\n\n- **Thêm ý:** *In addition, Also, What is more, On top of that*\n- **Tương phản:** *However, On the other hand, By contrast*; trong câu: *while, whereas, although*\n- **Nguyên nhân → kết quả:** *As a result, Therefore, This means that…*; trong câu: *so, because*\n- **Ví dụ:** *For example, / For instance,* + mệnh đề; *such as* + danh từ (✗ *such as I go hiking*)\n- **Trình tự (kể việc, hướng dẫn):** *First, Then, After that, Finally*\n- **Tóm lại:** *Overall, All things considered*\n\nBẫy hay gặp: *On the other hand* dùng để **đối lập**, không phải để thêm ý. *On the contrary* nghĩa là \"hoàn toàn ngược lại, điều vừa nói là sai\", không dùng thay cho *However*. *Despite* + danh từ/V-ing, không + mệnh đề."
+    },
+    {
+      "heading": "3. Từ quy chiếu: it, they, this + danh từ",
+      "body": "Đại từ giúp tránh lặp lại, nhưng phải chỉ rõ **một** thứ duy nhất.\n\n- ✗ *The manager spoke to the tenant, and he was angry.* (ai giận?)\n- ✗ *The buses are late and the stations are dirty. This is unacceptable.* (\"This\" là cái nào?)\n\nGiải pháp Level 8: **this/these + danh từ tóm tắt**: *this delay, this problem, these changes, such complaints*. Ví dụ: *The 99 B-Line was cancelled twice last week. **This disruption** made me late for work.*\n\n**The former / the latter** chỉ dùng khi vừa nhắc đúng hai thứ: *I considered the gym and the pool; the latter was closer to home.*\n\nNhớ hoà hợp số: *the residents → they*, *the committee → it*."
+    },
+    {
+      "heading": "4. Tránh lặp từ",
+      "body": "Lặp một danh từ ba lần trong ba câu liên tiếp làm bài trông thiếu vốn từ. Hãy luân phiên:\n\n- **Đại từ:** *the new library → it*\n- **Từ đồng nghĩa/khái quát:** *the library → the branch → the facility*\n- **Thay thế:** *I need a new laptop because my old **one** keeps crashing.* / *If the city wants to reduce traffic, it should **do so** by improving transit.*\n\nKhông cần tránh lặp từ khoá đến mức phải dùng từ lạ. Lặp lại từ khoá chính một hai lần vẫn bình thường và giúp bài rõ ràng."
+    },
+    {
+      "heading": "5. Bỏ thói quen Firstly / Secondly / Thirdly",
+      "body": "Người Việt hay viết theo khuôn \"Thứ nhất, thứ hai, thứ ba\". Viết như vậy không sai, nhưng trong bài 180 chữ nó nghe máy móc, nhất là khi kèm *Moreover, Furthermore* ở mọi câu (**connector stuffing**).\n\nThay vào đó, để **câu chủ đề tự báo hiệu**:\n\n- *The main reason I prefer… is that…*\n- *Another advantage of option A is…*\n- *Beyond the cost, there is also the question of safety.*\n- *Just as importantly,…*\n\nQuy tắc thực tế: mỗi đoạn chỉ cần **một đến hai** từ nối đặt ở đầu câu; các liên kết còn lại nên nằm trong câu (*because, which, while*) hoặc nhờ đại từ và \"this + danh từ\"."
+    }
+  ],
+  "stimuli": {
+    "repetitive-survey-draft": {
+      "title": "Draft Task 2 response (Level 6–7)",
+      "text": "Firstly, I prefer the farmers' market. The farmers' market sells fresh food. Moreover, the farmers' market supports local farmers. Furthermore, the farmers' market is near my home. Secondly, the supermarket is expensive. On the other hand, the supermarket has many products. Thirdly, the farmers' market is fun for my kids."
+    },
+    "ambiguous-email": {
+      "title": "Email paragraph to a strata council",
+      "text": "Last month, a contractor replaced the lobby door and painted the hallway. It now makes a loud banging noise every time someone enters, and the paint smell has not gone away. They told me it would be fixed soon, but this has not happened."
+    }
+  },
+  "examples": [
+    {
+      "id": "wr-04-ex1",
+      "title": "From mechanical connectors to natural cohesion",
+      "stimulusId": "repetitive-survey-draft",
+      "question": "The survey asks whether you prefer to shop at a farmers' market or a supermarket. Revise the draft for cohesion.",
+      "steps": [
+        "Count repetitions: 'the farmers' market' appears five times. Plan alternatives: it, the market, there, local vendors.",
+        "Check each connector's function: 'Moreover' and 'Furthermore' both add, so one is enough. 'On the other hand' introduces a point FOR the supermarket, which the writer has not addressed, so it confuses the argument.",
+        "Replace 'Firstly' with a topic sentence that signals the main point: 'I would much rather shop at a farmers' market, mainly because…'.",
+        "Group related ideas: fresh food + local farmers = one reason (quality and community); kids enjoying it = second reason. Price of the supermarket can be a concession inside the paragraph.",
+        "Use 'this + noun' and 'while' to connect ideas inside sentences instead of starting every sentence with a connector."
+      ],
+      "answer": "I would much rather shop at a farmers' market, mainly because the food there is fresher and the money goes directly to local growers. Most vendors at the Trout Lake market, for instance, pick their produce the day before, and this freshness is obvious in the taste. Just as importantly, the market is a weekend outing for my kids, who love talking to the farmers. While a supermarket offers more choice, it cannot match this kind of experience.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Firstly, I prefer the farmers' market. The farmers' market sells fresh food. Moreover, the farmers' market supports local farmers. Furthermore, the farmers' market is near my home. Secondly, the supermarket is expensive. On the other hand, the supermarket has many products. Thirdly, the farmers' market is fun for my kids.",
+          "commentVi": "\"the farmers' market\" lặp năm lần; sáu trên bảy câu mở bằng từ nối; Moreover và Furthermore chồng nhau; \"On the other hand\" đưa ra một ưu điểm của siêu thị mà không xử lý, làm người đọc tưởng người viết đổi ý; Firstly/Secondly/Thirdly chia ý theo kiểu liệt kê, không phát triển ý nào."
+        },
+        {
+          "label": "after",
+          "text": "I would much rather shop at a farmers' market, mainly because the food there is fresher and the money goes directly to local growers. Most vendors at the Trout Lake market, for instance, pick their produce the day before, and this freshness is obvious in the taste. Just as importantly, the market is a weekend outing for my kids, who love talking to the farmers. While a supermarket offers more choice, it cannot match this kind of experience.",
+          "commentVi": "Các thay đổi: bỏ Firstly/Secondly/Thirdly, câu đầu tự báo hiệu lý do chính (\"mainly because\"); thay lặp từ bằng \"there\", \"the market\", \"vendors\", \"local growers\"; \"this freshness\" và \"this kind of experience\" (this + danh từ tóm tắt); \"for instance\" đặt giữa câu; \"Just as importantly\" thay cho Moreover/Furthermore; \"While…\" xử lý ưu điểm của siêu thị thay vì \"On the other hand\" bỏ lửng; \"who\" nối thông tin về các con."
+        }
+      ],
+      "takeawayVi": "Ít từ nối đầu câu hơn, nhưng mỗi từ đúng chức năng, cộng với đại từ, \"this + danh từ\" và mệnh đề quan hệ: đó là liên kết Level 8."
+    },
+    {
+      "id": "wr-04-ex2",
+      "title": "Fixing ambiguous reference",
+      "stimulusId": "ambiguous-email",
+      "question": "Find every reference word whose meaning is unclear and fix it.",
+      "steps": [
+        "'It now makes a loud banging noise' — 'It' could mean the door or the hallway. The noise comes from the door → 'The new door'.",
+        "'They told me' — 'They' has no plural noun before it (only 'a contractor', singular). Name the people → 'The contractor's staff' or 'The building manager'.",
+        "'it would be fixed' — fixed what? The door, the smell, or both? → 'both problems would be fixed'.",
+        "'but this has not happened' — 'this' alone is vague → 'but no one has returned to deal with them'."
+      ],
+      "answer": "Last month, a contractor replaced the lobby door and painted the hallway. The new door now bangs loudly every time someone enters, and the paint smell has not gone away. The building manager told me that both problems would be fixed within a week, but no one has returned to deal with them.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Last month, a contractor replaced the lobby door and painted the hallway. It now makes a loud banging noise every time someone enters, and the paint smell has not gone away. They told me it would be fixed soon, but this has not happened.",
+          "commentVi": "Bốn từ quy chiếu không rõ: \"It\" (cửa hay hành lang?), \"They\" (không có danh từ số nhiều nào trước đó), \"it would be fixed\" (sửa cái gì?), \"this\" (điều gì chưa xảy ra?). Người đọc là ban quản trị phải đoán, nên email kém thuyết phục."
+        },
+        {
+          "label": "after",
+          "text": "Last month, a contractor replaced the lobby door and painted the hallway. The new door now bangs loudly every time someone enters, and the paint smell has not gone away. The building manager told me that both problems would be fixed within a week, but no one has returned to deal with them.",
+          "commentVi": "Các thay đổi: \"It\" → \"The new door\" (gọi tên rõ); \"They\" → \"The building manager\"; \"it\" → \"both problems\" (danh từ tóm tắt cho cả hai vấn đề); \"soon\" → \"within a week\" (cụ thể hơn); \"this has not happened\" → \"no one has returned to deal with them\" (\"them\" giờ chỉ rõ both problems)."
+        }
+      ],
+      "takeawayVi": "Khi vừa nhắc hai thứ trở lên, đừng dùng \"it/this\" trần trụi. Hãy gọi lại tên hoặc dùng danh từ tóm tắt: this problem, both issues, these delays."
+    },
+    {
+      "id": "wr-04-ex3",
+      "title": "Matching the linker to the relationship",
+      "question": "Choose the linker for each gap: 'The new bike lane on Commercial Drive removed thirty parking spots. ___, some shop owners say they have lost customers. ___, a recent survey of local shoppers found that cyclists actually spend more per month in local shops than drivers do. ___, the lane may help businesses in the long run.'",
+      "steps": [
+        "Gap 1: losing parking → owners lose customers = cause → result → 'As a result'.",
+        "Gap 2: the survey contradicts the owners' claim = contrast → 'However'.",
+        "Gap 3: drawing a conclusion from the survey = result/inference → 'This suggests that' or 'Therefore'.",
+        "Check that no two linkers do the same job and that each one sits at the start of a full clause."
+      ],
+      "answer": "As a result / However / This suggests that (or Therefore)",
+      "takeawayVi": "Gọi tên quan hệ trước (kết quả, tương phản, suy luận), rồi mới chọn từ. Đừng chọn từ nối chỉ vì nó nghe \"học thuật\"."
+    }
+  ],
+  "guided": [
+    {
+      "id": "wr-04-g1",
+      "type": "choice",
+      "prompt": "Choose the linker that fits: 'The ferry is cheaper than flying to Victoria. ______, it takes almost four hours from downtown to downtown.'",
+      "hint": "Is the second sentence adding another advantage, giving a result, or showing a disadvantage that goes against the first?",
+      "options": [
+        { "text": "In addition", "misconception": "wrong-function-linker", "whyVi": "\"In addition\" thêm một ý cùng chiều; nhưng mất bốn giờ là một bất lợi, ngược chiều với \"rẻ hơn\"." },
+        { "text": "As a result", "misconception": "wrong-function-linker", "whyVi": "Đi lâu không phải là kết quả của việc rẻ hơn." },
+        { "text": "On the other hand", "misconception": null, "whyVi": "Đúng. Câu sau nêu mặt trái (tốn thời gian), đối lập với ưu điểm ở câu trước." },
+        { "text": "For example", "misconception": "wrong-function-linker", "whyVi": "Câu sau không phải ví dụ cho việc phà rẻ hơn." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "\"On the other hand\" giới thiệu mặt đối lập. Người Việt hay dùng nó như \"mặt khác\" để thêm ý, nhưng trong tiếng Anh nó luôn mang nghĩa tương phản.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-04-g2",
+      "type": "text",
+      "prompt": "Type the ONE pronoun that should replace the repeated noun phrase in bold: 'I have attached a copy of the receipt. Please let me know if you need **the receipt** in a different format.'",
+      "hint": "The noun is singular and refers to a thing. Which object pronoun fits?",
+      "answers": ["it"],
+      "mode": "exact",
+      "misconception": "repetition",
+      "explanationVi": "\"the receipt\" vừa được nhắc ở câu trước và là thứ duy nhất có thể được chỉ, nên \"it\" rõ ràng và tự nhiên.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-04-g3",
+      "type": "choice",
+      "prompt": "Which sentence uses 'such as' or 'for example' correctly?",
+      "hint": "One of these linkers must be followed by a noun phrase; the other can start a full sentence.",
+      "options": [
+        { "text": "There are many free activities in Vancouver, such as you can hike the Grouse Grind.", "misconception": "linker-grammar", "whyVi": "\"such as\" phải đi với danh từ/cụm danh từ, không đi với mệnh đề." },
+        { "text": "There are many free activities in Vancouver, such as hiking the Grouse Grind or walking the seawall.", "misconception": null, "whyVi": "Đúng. such as + cụm danh động từ (hiking…, walking…)." },
+        { "text": "There are many free activities in Vancouver, for example hiking the Grouse Grind is free.", "misconception": "linker-grammar", "whyVi": "Câu dính: \"for example\" mở một mệnh đề độc lập mới sau dấu phẩy, nên là comma splice." },
+        { "text": "There are many free activities in Vancouver. Such as hiking the Grouse Grind.", "misconception": "linker-grammar", "whyVi": "\"Such as hiking…\" đứng riêng là câu cụt." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "such as / like / including + danh từ, nằm trong cùng câu. For example, + mệnh đề hoàn chỉnh, thường mở câu mới.",
+      "competency": "grammar"
+    },
+    {
+      "id": "wr-04-g4",
+      "type": "choice",
+      "stimulusId": "ambiguous-email",
+      "prompt": "In the email paragraph, what is the main problem with the word 'They' in the third sentence?",
+      "hint": "Look backwards for a plural noun that 'They' could refer to.",
+      "options": [
+        { "text": "It should be 'Them' because it is the object of the sentence.", "misconception": "linker-grammar", "whyVi": "\"They\" là chủ ngữ của \"told\", nên dạng chủ ngữ là đúng về ngữ pháp." },
+        { "text": "There is no plural noun before it, so the reader cannot tell who 'They' is.", "misconception": null, "whyVi": "Đúng. Trước đó chỉ có \"a contractor\" (số ít), nên \"They\" không có danh từ để quy chiếu." },
+        { "text": "It is too informal for an email to a strata council.", "misconception": "repetition", "whyVi": "\"They\" không có vấn đề về giọng văn; vấn đề là quy chiếu." },
+        { "text": "It repeats a word that already appears in the paragraph.", "misconception": "repetition", "whyVi": "\"They\" chưa xuất hiện trước đó; lỗi không phải là lặp từ." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Mỗi đại từ phải có một danh từ \"gốc\" (antecedent) rõ ràng, đúng số ít/số nhiều. Nếu không có, hãy gọi tên trực tiếp.",
+      "competency": "coherence"
+    }
+  ],
+  "independent": [
+    {
+      "id": "wr-04-i1",
+      "type": "choice",
+      "prompt": "Choose the best linker: 'Our strata fees went up by fifteen percent this year. ______, several owners on my floor are now struggling to pay them.'",
+      "options": [
+        { "text": "On the contrary", "misconception": "wrong-function-linker", "whyVi": "\"On the contrary\" dùng để bác bỏ điều vừa nói; ở đây không có gì bị bác bỏ." },
+        { "text": "As a result", "misconception": null, "whyVi": "Đúng. Phí tăng (nguyên nhân) → khó trả (kết quả)." },
+        { "text": "However", "misconception": "wrong-function-linker", "whyVi": "Không có quan hệ tương phản; câu sau là hệ quả trực tiếp của câu trước." },
+        { "text": "In addition", "misconception": "wrong-function-linker", "whyVi": "\"In addition\" chỉ thêm một sự kiện độc lập, làm mất quan hệ nguyên nhân–kết quả." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Quan hệ nguyên nhân → kết quả: As a result, Consequently, This means that… Câu sau có \"them\" quy chiếu về \"strata fees\".",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-04-i2",
+      "type": "text",
+      "prompt": "Type the ONE word that replaces the repeated noun: 'My old car seat is too small for my son, so I am looking for a bigger ______.' (Do not repeat 'car seat'.)",
+      "answers": ["one"],
+      "mode": "exact",
+      "misconception": "repetition",
+      "explanationVi": "\"one\" thay cho danh từ đếm được số ít đã nhắc (a bigger one = a bigger car seat). Số nhiều thì dùng \"ones\".",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-04-i3",
+      "type": "choice",
+      "prompt": "Which revision fixes the vague 'This' most effectively? 'The library cut its weekend hours and removed the children's reading program. This is very disappointing for our family.'",
+      "options": [
+        { "text": "It is very disappointing for our family.", "misconception": "ambiguous-reference", "whyVi": "\"It\" còn mơ hồ hơn \"This\": có thể hiểu là thư viện." },
+        { "text": "These changes are very disappointing for our family.", "misconception": null, "whyVi": "Đúng. \"These changes\" tóm gọn cả hai việc (cắt giờ và bỏ chương trình) trong một danh từ rõ ràng." },
+        { "text": "The latter is very disappointing for our family.", "misconception": "ambiguous-reference", "whyVi": "\"The latter\" chỉ việc thứ hai (bỏ chương trình), làm mất ý về giờ mở cửa." },
+        { "text": "The library cut its weekend hours and removed the children's reading program is very disappointing for our family.", "misconception": "linker-grammar", "whyVi": "Lặp cả câu làm chủ ngữ, sai ngữ pháp và rất nặng nề." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "\"this/these + danh từ tóm tắt\" (these changes, this decision, such delays) là cách quy chiếu rõ ràng nhất khi câu trước có nhiều ý.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-04-i4",
+      "type": "choice",
+      "prompt": "Which opening for the SECOND body paragraph of a survey response sounds most natural and cohesive?",
+      "options": [
+        { "text": "Secondly, the second reason is that the program is cheaper.", "misconception": "connector-overuse", "whyVi": "\"Secondly\" và \"the second reason\" lặp nhau; nghe máy móc." },
+        { "text": "Moreover, furthermore, the program is cheaper.", "misconception": "connector-overuse", "whyVi": "Hai từ nối cùng chức năng đặt liền nhau là lỗi chồng từ nối." },
+        { "text": "Beyond convenience, the online program is also considerably cheaper.", "misconception": null, "whyVi": "Đúng. \"Beyond convenience\" nhắc lại ý của đoạn trước và báo hiệu ý mới trong cùng một cụm, tự nhiên hơn Firstly/Secondly." },
+        { "text": "On the other hand, the online program is cheaper.", "misconception": "wrong-function-linker", "whyVi": "\"On the other hand\" báo hiệu đối lập, nhưng đây là một lý do cùng chiều." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Câu mở đoạn tốt vừa nhìn lại đoạn trước (Beyond X / Apart from X / Just as importantly) vừa nêu ý mới. Cách này liên kết cả hai đoạn.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-04-i5",
+      "type": "text",
+      "prompt": "Type the two-word phrase that correctly refers to the SECOND of two things just mentioned: 'We looked at a condo in Burnaby and a townhouse in Port Moody; ______ ______ had a much bigger yard.' Type both words.",
+      "answers": ["the latter"],
+      "mode": "exact",
+      "misconception": "ambiguous-reference",
+      "explanationVi": "\"the latter\" = cái được nhắc sau (townhouse in Port Moody); \"the former\" = cái được nhắc trước. Chỉ dùng khi vừa nhắc đúng hai thứ.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-04-i6",
+      "type": "order",
+      "prompt": "Order these sentences so that every reference word (it, this, these, they) has a clear antecedent.",
+      "items": [
+        "Our city recently installed smart parking meters along Lonsdale Avenue.",
+        "They accept only app payments, not coins or cards.",
+        "This change has caused problems for many seniors who do not own smartphones.",
+        "Some of these residents have stopped shopping on Lonsdale altogether."
+      ],
+      "misconception": "ambiguous-reference",
+      "explanationVi": "\"They\" cần \"smart parking meters\" đứng trước; \"This change\" tóm tắt việc chỉ nhận thanh toán qua app; \"these residents\" quy chiếu về \"many seniors\". Chuỗi quy chiếu chỉ có một thứ tự hợp lý.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-04-i7",
+      "type": "choice",
+      "prompt": "Which paragraph shows the strongest cohesion (Level 8)?",
+      "options": [
+        { "text": "I support the new recycling rules. Firstly, the rules reduce waste. Secondly, the rules are easy. Moreover, the rules save money. In conclusion, I support the rules.", "misconception": "connector-overuse", "whyVi": "\"the rules\" lặp năm lần, từ nối đầu câu dày đặc; liên kết máy móc, không có phát triển ý." },
+        { "text": "I support the new recycling rules because they will keep a large amount of waste out of the landfill. Sorting food scraps alone could reduce our household garbage by half, and this reduction would lower the city's disposal costs. Such savings could then fund other services, such as longer library hours.", "misconception": null, "whyVi": "Đúng. Liên kết bằng \"because\", đại từ \"they\", \"this reduction\", \"Such savings\" (danh từ tóm tắt), \"then\" và \"such as\" đúng ngữ pháp; mỗi câu nối tự nhiên vào câu trước." },
+        { "text": "I support the new recycling rules. It will reduce waste. This is good. They will also save money, on the contrary some people disagree.", "misconception": "ambiguous-reference", "whyVi": "\"It\" không hoà hợp với \"rules\" (số nhiều); \"This\" mơ hồ; \"on the contrary\" sai chức năng và tạo comma splice." },
+        { "text": "I support the new recycling rules. On the other hand, they reduce waste. As a result, they are easy to follow. For example, they save money.", "misconception": "wrong-function-linker", "whyVi": "Mọi từ nối đều sai chức năng: không có đối lập, không có quan hệ kết quả, và \"save money\" không phải ví dụ cho \"easy to follow\"." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Liên kết Level 8 không phải là nhiều từ nối, mà là mỗi câu bám vào câu trước bằng đúng công cụ: liên từ, đại từ, danh từ tóm tắt.",
+      "competency": "coherence"
+    },
+    {
+      "id": "wr-04-i8",
+      "type": "produce",
+      "medium": "write",
+      "minWords": 70,
+      "prompt": "Survey: 'Should your city replace a downtown parking lot with a public plaza (open space with seating, trees and food trucks)?' Write ONE paragraph (70–100 words) giving your opinion and reasons. Do NOT use Firstly, Secondly, Moreover or Furthermore.",
+      "checklist": [
+        "Does not use Firstly / Secondly / Thirdly / Moreover / Furthermore",
+        "Uses linkers from at least three different functions (e.g. contrast, result, example)",
+        "Uses at least one 'this/these/such + noun' reference",
+        "Every pronoun (it, they, this) has one clear antecedent",
+        "The key noun (plaza / parking lot) is not repeated more than twice; synonyms or pronouns are used instead"
+      ],
+      "modelAnswer": "I would strongly support turning the lot into a public plaza, since downtown currently has very few places where people can simply sit and relax. On sunny days, office workers eat lunch on the steps of buildings because there is nowhere else to go. A green space with benches and food trucks would give them a better option, and this kind of activity would also bring more customers to nearby shops. Admittedly, some drivers would lose convenient parking; however, the transit hub two blocks away makes such a loss easy to manage.",
+      "misconception": "connector-overuse",
+      "explanationVi": "Gạch chân mọi từ nối và từ quy chiếu trong bài của bạn. Nếu một chức năng xuất hiện quá nhiều (ví dụ ba từ \"thêm ý\") hoặc có đại từ không rõ, đó là chỗ cần sửa.",
+      "competency": "coherence"
+    }
+  ],
+  "misconceptions": {
+    "wrong-function-linker": {
+      "label": "Từ nối sai chức năng",
+      "explanationVi": "Bạn chọn từ nối theo cảm giác \"nghe hay\" thay vì theo quan hệ giữa hai câu. Lỗi hay gặp nhất: On the other hand dùng để thêm ý, On the contrary thay cho However, As a result khi không có quan hệ nhân quả.",
+      "fixVi": "Trước mỗi từ nối, gọi tên quan hệ bằng tiếng Việt: thêm ý, tương phản, kết quả, ví dụ, trình tự. Sau đó chọn từ trong đúng nhóm."
+    },
+    "connector-overuse": {
+      "label": "Lạm dụng từ nối máy móc",
+      "explanationVi": "Bạn mở hầu hết các câu bằng Firstly, Moreover, Furthermore… như một khuôn. Bài trông như danh sách, và người chấm thấy liên kết chỉ nằm trên bề mặt.",
+      "fixVi": "Mỗi đoạn chỉ một đến hai từ nối đầu câu. Để câu chủ đề tự báo hiệu (Another advantage…, Beyond cost…) và dùng because, which, this + danh từ bên trong câu."
+    },
+    "ambiguous-reference": {
+      "label": "Đại từ / this không rõ chỉ cái gì",
+      "explanationVi": "Bạn dùng it, they, this khi trước đó có nhiều danh từ, hoặc không có danh từ nào phù hợp về số. Người đọc phải đoán, nên mạch văn bị đứt.",
+      "fixVi": "Với mỗi it/they/this, chỉ tay vào danh từ gốc. Nếu có hai lựa chọn hoặc không có, hãy gọi lại tên hoặc dùng this/these + danh từ tóm tắt."
+    },
+    "repetition": {
+      "label": "Lặp từ thay vì thay thế",
+      "explanationVi": "Bạn lặp nguyên cụm danh từ nhiều lần vì sợ đại từ gây hiểu lầm hoặc chưa quen dùng one/do so và từ đồng nghĩa. Bài trở nên nặng nề và có vẻ vốn từ hẹp.",
+      "fixVi": "Sau lần nhắc đầu tiên, luân phiên: đại từ → từ đồng nghĩa/khái quát → one/ones. Chỉ lặp từ khoá chính khi cần nhấn mạnh hoặc để tránh mơ hồ."
+    },
+    "linker-grammar": {
+      "label": "Từ nối đúng nghĩa nhưng sai cấu trúc",
+      "explanationVi": "Bạn biết nghĩa của từ nối nhưng không biết nó đi với loại cấu trúc nào: such as + mệnh đề, despite + mệnh đề, \"Such as…\" đứng riêng thành câu cụt, hoặc for example nối hai câu bằng dấu phẩy.",
+      "fixVi": "Học từ nối kèm khuôn: such as + danh từ; for example, + mệnh đề (thường mở câu mới); despite + danh từ/V-ing; although + mệnh đề."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "Just as importantly,…", "vi": "Quan trọng không kém,…", "example": "Just as importantly, the new clinic would stay open on weekends." },
+    { "term": "Beyond (the cost),…", "vi": "Ngoài (chi phí) ra,…", "example": "Beyond the cost, there is also the question of safety on the Sea-to-Sky Highway." },
+    { "term": "this + summary noun (this change / this delay)", "vi": "việc / sự… này (danh từ tóm tắt)", "example": "The 25 bus was cancelled again. This delay made me miss my shift." },
+    { "term": "such + noun", "vi": "những… như vậy", "example": "Such complaints are common in older buildings." },
+    { "term": "the former / the latter", "vi": "cái trước / cái sau (trong hai thứ)", "example": "I compared the YMCA and the community pool; the latter was cheaper." },
+    { "term": "By contrast,…", "vi": "Ngược lại,…", "example": "By contrast, the suburban campus has free parking." },
+    { "term": "This means that…", "vi": "Điều này có nghĩa là…", "example": "The ferry leaves at six. This means that we need to be at Horseshoe Bay by 5:30." },
+    { "term": "do so", "vi": "làm như vậy (thay cho cụm động từ)", "example": "If the city wants to reduce traffic, it should do so by improving transit." },
+    { "term": "Admittedly,…", "vi": "Phải thừa nhận rằng,…", "example": "Admittedly, a plaza would remove some parking spaces." }
+  ],
+  "grammar": [
+    {
+      "point": "Pronoun–antecedent agreement and clarity",
+      "explanationVi": "Đại từ phải hoà hợp với danh từ gốc về số (rules → they, committee → it) và chỉ có một danh từ gốc khả dĩ. Nếu mơ hồ, gọi lại tên hoặc dùng this/these + danh từ.",
+      "examples": [
+        "The new rules start in May, and they apply to every household.",
+        "The committee has made its decision.",
+        "The landlord raised the rent and cut the heating budget. These decisions upset many tenants."
+      ]
+    },
+    {
+      "point": "Sentence linkers vs clause linkers (punctuation)",
+      "explanationVi": "However, Therefore, As a result, For example đứng đầu câu và có dấu phẩy theo sau; chúng không nối hai mệnh đề bằng dấu phẩy. Because, although, while, whereas, so nối hai mệnh đề trong cùng một câu.",
+      "examples": [
+        "The trail was closed. However, the lookout was still open.",
+        "The trail was closed, but the lookout was still open.",
+        "While the trail was closed, the lookout was still open."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Write a Task 2 response without Firstly/Secondly", "route": "/writing?task=W2" },
+    { "label": "Write a Task 1 email and check every pronoun", "route": "/writing?task=W1" },
+    { "label": "Save linking phrases to your notebook", "route": "/vocabulary" }
+  ],
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "author-agent+independent-review-agent", "notes": "Solved all 12 exercises independently; keys, reference chains and the i6 order are unambiguous, model answer 92 words within 70–100. Only fix: tense in the ex1 model ('picked' → 'pick' for a habitual fact)." }
+}

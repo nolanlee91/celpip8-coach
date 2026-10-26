@@ -1,0 +1,361 @@
+{
+  "id": "rd-10",
+  "skill": "reading",
+  "module": "reading-techniques",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Eliminating distractors",
+  "titleVi": "Loại đáp án nhiễu",
+  "estimatedMinutes": 35,
+  "prerequisites": ["rd-07"],
+  "competencies": ["distractor"],
+  "tasks": ["R1", "R2", "R3", "R4"],
+  "objectives": [
+    "You will be able to name the seven common distractor types: word match, opposite, not mentioned, partially true, too broad or too narrow, wrong speaker and wrong detail.",
+    "You will be able to eliminate options in a fixed order so that you check fewer of them closely.",
+    "You will be able to decide between two 'almost right' options by checking every word for scope, conditions and qualifiers."
+  ],
+  "objectiveVi": "Bạn sẽ gọi tên được 7 loại bẫy thường gặp, loại đáp án theo một thứ tự cố định, và biết cách chọn giữa hai đáp án 'gần đúng' — kỹ năng quyết định ở những câu khó nhất của Level 8.",
+  "whyItMattersVi": "Ở Level 8, bạn thường loại được hai đáp án dễ dàng nhưng còn phân vân giữa hai. Nếu chọn bằng cảm giác, bạn chỉ đúng khoảng một nửa số câu đó. Khi biết mỗi đáp án sai thuộc loại bẫy nào, bạn có lý do cụ thể để loại nó. Điều này cũng giúp tiết kiệm thời gian trong 55 phút Reading.",
+  "concept": [
+    {
+      "heading": "Vì sao cần biết tên của từng loại bẫy",
+      "body": "Mỗi đáp án sai trong CELPIP được viết để **có vẻ đúng** vì một lý do cụ thể. Khi bạn gọi được tên lý do đó ('đây là bẫy sai người nói'), bạn loại đáp án một cách chắc chắn và không phải quay lại nghĩ lại. Người đọc ở mức 5–6 thường loại theo cảm giác ('nghe không ổn'); người đọc ở mức 8 loại theo **lý do có bằng chứng**. Bảy loại bẫy dưới đây được minh họa chủ yếu bằng bức thư của chủ nhà Gordon trong bài này."
+    },
+    {
+      "heading": "Bảy loại bẫy, mỗi loại một ví dụ",
+      "body": "1. **Word match (trùng từ):** lặp lại từ trong bài nhưng sai ý. *'The laundry room will be moved to the basement suite'* — có *laundry* và *basement suite*, nhưng bài không nói chuyển phòng giặt.\n2. **Opposite (ngược nghĩa):** bài nói *'there's no need to sign anything new'* → bẫy: *'They must sign a new lease.'*\n3. **Not mentioned (không có trong bài):** *'The laundry room will be closed for repairs.'* Nghe hợp lý nhưng bài không nhắc.\n4. **Partially true (đúng một nửa):** *'Gordon will raise the rent within the legal limit on June 30.'* Nửa đầu đúng, ngày sai (August 1).\n5. **Too broad / too narrow (sai phạm vi):** *'The tenants will lose access to the laundry room.'* Thật ra chỉ mất vào cuối tuần.\n6. **Wrong speaker / wrong person (sai người):** gán hành động của con gái Gordon cho người thuê nhà, hay ý kiến của người dân cho thành phố.\n7. **Wrong detail (sai chi tiết):** con số, ngày, địa điểm có trong bài nhưng thuộc về việc khác: *May 1* là hạn báo chuyển đi, không phải hạn ký hợp đồng."
+    },
+    {
+      "heading": "Thứ tự loại đáp án",
+      "body": "Sau khi đã tìm được câu bằng chứng (bài 7), loại theo thứ tự **từ dễ đến khó**:\n\n1. **Loại not mentioned và opposite trước.** Đây là bẫy dễ thấy nhất: so với câu bằng chứng, nếu bài không nói gì hoặc nói ngược lại → gạch ngay.\n2. **Kiểm tra word match và wrong detail / wrong speaker.** Với mỗi đáp án còn lại, hỏi: từ hoặc con số này có trong bài, nhưng nó **thuộc về ai, việc gì**?\n3. **So hai đáp án cuối từng chữ một** về phạm vi và điều kiện (xem phần sau).\n4. **Xác nhận lại:** đọc lại câu bằng chứng với đáp án đã chọn. Nếu bạn không chỉ ra được câu chứng minh **từng phần** của đáp án, hãy xem lại.\n\nNếu cả bốn đáp án đều bị loại, bạn đã tìm sai câu bằng chứng — hãy quay về bước tìm vị trí, đừng chọn đáp án 'ít sai nhất'."
+    },
+    {
+      "heading": "Khi còn hai đáp án 'gần đúng'",
+      "body": "Đây là chỗ Level 8 khác Level 6. Hai đáp án cuối thường khác nhau ở **một từ nhỏ**. Hãy kiểm tra:\n\n- **Từ phạm vi:** *all / some, always / usually, every / only, the only, completely / partly*.\n- **Điều kiện:** *if, unless, only for, as long as, or equivalent experience* — điều kiện bị bỏ sót biến một đáp án đúng thành sai.\n- **Thời gian và người:** đáp án có gắn đúng ngày với đúng việc, đúng người không?\n- **Mức độ chắc chắn:** *will* vs *may*, *must* vs *can*.\n\nNguyên tắc: **đáp án được chứng minh hoàn toàn thắng đáp án nghe hay hơn.** Đáp án đúng thường khiêm tốn, dùng từ vừa phải; đáp án sai thường thêm một từ mạnh (*all, never, must, immediately*) hoặc bỏ đi một điều kiện.\n\nTrong Part 2 (sơ đồ/bảng), bẫy 'gần đúng' thường là lựa chọn thỏa **hầu hết** điều kiện (giờ phù hợp, giá phù hợp) nhưng trượt **một** điều kiện (yêu cầu đầu vào). Hãy liệt kê mọi điều kiện của câu hỏi và đánh dấu từng cái."
+    }
+  ],
+  "stimuli": {
+    "rental-email": {
+      "title": "Email: About your lease",
+      "text": "Hi Arjun and Mei,\n\nI'm writing about your lease, which ends on June 30. I'd be glad to have you stay — you've been great tenants, and I appreciate how quickly you reported the leak last winter.\n\nAs you may know, BC limits how much rent can go up each year, and I'm planning to apply only the allowed increase, starting August 1. I'll send the official notice form separately, at least three full months ahead, as required.\n\nThere is one change I need to mention. My daughter will be moving back to Victoria in the fall, and she'll be using the basement suite, so the shared laundry room will become hers on weekends. You'll still have full access Monday to Friday.\n\nIf you'd rather move out, I'd need to know by May 1 so I can advertise the unit. Otherwise, there's no need to sign anything new; the lease will simply continue month to month.\n\nBest,\nGordon"
+    },
+    "night-market-article": {
+      "title": "Article: Night market on the move",
+      "text": "After eight summers in a parking lot near the SkyTrain, the Harbour Night Market will move to Centennial Park next year. Organizers say the new site has room for 300 vendors, up from 220, and will finally allow live music, which the old lot's owner had banned.\n\nNot everyone is pleased. Food vendor Marisol Vega says the park is a fifteen-minute walk from the nearest station, and she worries that families without cars will stop coming. 'Half my customers arrive by train,' she says.\n\nThe city's events manager, Tom Becker, says a free shuttle will run from the station every ten minutes on market nights. He admits, however, that the shuttle has been funded for only the first season, and that its future will depend on ridership.\n\nNearby residents are divided. Some welcome the activity; others have asked the city to end amplified music by 10 p.m. The city has agreed to review noise complaints after the first month but has made no promises."
+    },
+    "course-list": {
+      "title": "Continuing Studies: Fall courses",
+      "text": "Westside Community College — Continuing Studies, Fall term (all courses run for 8 weeks)\n\n- Intro to Bookkeeping — Tue & Thu, 6:30–8:30 p.m. — $340 — in person — prerequisite: none\n- Bookkeeping II — Sat, 9 a.m.–1 p.m. — $360 — in person — prerequisite: Intro to Bookkeeping or equivalent experience\n- Spreadsheets for Small Business — Mon, 7–9 p.m. — $210 — online (live) — prerequisite: none\n- Payroll Basics — no set class time — $295 — online (recorded; work at your own pace) — prerequisite: none\n\nNote: Students who register by August 15 receive 10% off. Recorded online courses are not eligible for the early-registration discount."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Naming each trap",
+      "stimulusId": "rental-email",
+      "question": "What is true about the laundry room? (A) Arjun and Mei will no longer be able to use it. (B) Gordon's daughter will use it on weekends. (C) It will be moved to the basement suite. (D) It will be closed for repairs in the fall.",
+      "steps": [
+        "Evidence first: 'the shared laundry room will become hers on weekends. You'll still have full access Monday to Friday.'",
+        "Step 1 — not mentioned / opposite: (D) repairs are never mentioned → cross out.",
+        "Step 2 — word match / wrong detail: (C) copies 'basement suite' from the same sentence, but the daughter is using the suite; nothing says the laundry room is moving → cross out.",
+        "Step 3 — compare the last two: (A) 'no longer able to use it' is too broad — they lose it only on weekends; 'still have full access Monday to Friday' proves they keep using it. (B) matches 'become hers on weekends' exactly.",
+        "Step 4 — confirm: every part of (B) — 'daughter', 'use it', 'weekends' — is in the evidence."
+      ],
+      "answer": "(B) Gordon's daughter will use it on weekends.",
+      "takeawayVi": "Mỗi đáp án sai có một tên: (A) quá rộng, (C) trùng từ, (D) không có trong bài. Gọi được tên thì loại được chắc chắn."
+    },
+    {
+      "id": "ex2",
+      "title": "Two 'almost right' options",
+      "stimulusId": "rental-email",
+      "question": "What does Gordon say about the rent? (A) He intends to raise it, but not above the legal limit. (B) He will raise it within the legal limit when the lease ends on June 30. (C) He has already sent the official notice. (D) It will stay the same because they are good tenants.",
+      "steps": [
+        "Evidence: 'I'm planning to apply only the allowed increase, starting August 1. I'll send the official notice form separately'.",
+        "(C) is the opposite: 'I'll send' = not yet sent. (D) is a word-match trap built on 'you've been great tenants' — but the rent IS going up.",
+        "(A) and (B) both say 'raise it within the limit'. Compare word by word.",
+        "(B) adds 'when the lease ends on June 30'. June 30 is in the email, but it is the lease end date; the increase starts August 1. Partially true / wrong detail.",
+        "(A) has nothing extra: 'intends' = 'planning', 'not above the legal limit' = 'only the allowed increase'. Fully supported → (A)."
+      ],
+      "answer": "(A) He intends to raise it, but not above the legal limit.",
+      "takeawayVi": "Khi hai đáp án cùng ý chính, đáp án có thêm chi tiết (ngày, điều kiện) thường là bẫy đúng một nửa. Kiểm tra từng chi tiết được thêm vào."
+    },
+    {
+      "id": "ex3",
+      "title": "Constraints in a table (Part 2 style)",
+      "stimulusId": "course-list",
+      "question": "Linh works every evening Monday to Thursday and has never studied bookkeeping. Which course can she take?",
+      "steps": [
+        "List the constraints: (1) not Mon–Thu evenings, (2) no prerequisite needed.",
+        "Intro to Bookkeeping: Tue & Thu evenings → fails (1).",
+        "Spreadsheets: Mon 7–9 p.m. → fails (1). It is online, but 'live' means a fixed time — a word-match trap on 'online'.",
+        "Bookkeeping II: Saturday passes (1), but the prerequisite is 'Intro to Bookkeeping or equivalent experience' → fails (2). This is the 'almost right' option.",
+        "Payroll Basics: 'no set class time', recorded, prerequisite none → passes both. Answer: Payroll Basics."
+      ],
+      "answer": "Payroll Basics.",
+      "takeawayVi": "Với bảng/sơ đồ, viết ra mọi điều kiện rồi đánh dấu ✓/✗ cho từng lựa chọn. Bẫy gần đúng là lựa chọn đạt hầu hết điều kiện nhưng trượt một."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "rental-email",
+      "prompt": "Why does Gordon mention the leak?",
+      "hint": "Read the whole sentence the leak belongs to. What is Gordon doing in that sentence: praising, warning or asking?",
+      "options": [
+        { "text": "To explain why the laundry room is changing.", "misconception": "wrong_target", "whyVi": "Lý do của thay đổi phòng giặt là con gái ông chuyển về — ở đoạn khác." },
+        { "text": "To show that he values them as tenants.", "misconception": null, "whyVi": "Đúng: 'you've been great tenants, and I appreciate how quickly you reported the leak'." },
+        { "text": "To ask them to pay for the repair.", "misconception": "unsupported", "whyVi": "Không có chuyện trả tiền sửa chữa trong bài." },
+        { "text": "To warn them about water damage in the basement suite.", "misconception": "surface_match", "whyVi": "Ghép 'leak' với 'basement suite' ở đoạn sau — hai chi tiết không liên quan." }
+      ],
+      "answerIndex": 1,
+      "evidence": "you've been great tenants, and I appreciate how quickly you reported the leak last winter",
+      "explanationVi": "Chi tiết 'leak' nằm trong câu khen ('great tenants', 'appreciate'). Đáp án (D) là bẫy trùng từ ghép hai phần khác nhau của bức thư.",
+      "competency": "distractor"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "rental-email",
+      "prompt": "If Arjun and Mei do nothing, what will happen?",
+      "hint": "Find 'Otherwise'. It refers back to a condition in the sentence before it.",
+      "options": [
+        { "text": "They must sign a new lease by May 1.", "misconception": "reversed_meaning", "whyVi": "Bài nói 'there's no need to sign anything new'." },
+        { "text": "Their tenancy will continue month to month.", "misconception": null, "whyVi": "Đúng: 'Otherwise… the lease will simply continue month to month'." },
+        { "text": "They will have to move out on June 30.", "misconception": "reversed_meaning", "whyVi": "Ngược lại: không làm gì thì họ được ở tiếp." },
+        { "text": "Gordon will advertise their unit.", "misconception": "half_right", "whyVi": "Việc đăng quảng cáo chỉ xảy ra NẾU họ muốn chuyển đi — điều kiện bị bỏ sót." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Otherwise, there's no need to sign anything new; the lease will simply continue month to month.",
+      "explanationVi": "'Otherwise' = nếu KHÔNG xảy ra điều kiện trước (muốn chuyển đi). Đáp án (D) đúng với một điều kiện khác — bẫy bỏ sót điều kiện.",
+      "competency": "distractor"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "night-market-article",
+      "prompt": "What worries Marisol Vega about the new location?",
+      "hint": "Check that each option's idea belongs to Vega and not to another person in the article.",
+      "options": [
+        { "text": "The park has fewer spaces for vendors.", "misconception": "reversed_meaning", "whyVi": "Địa điểm mới có 300 chỗ, nhiều hơn 220." },
+        { "text": "Customers who rely on transit may stop coming.", "misconception": null, "whyVi": "Đúng: 'families without cars will stop coming' + 'Half my customers arrive by train'." },
+        { "text": "The shuttle will be funded for only one season.", "misconception": "wrong_target", "whyVi": "Đây là điều ông Becker thừa nhận, không phải mối lo Vega nêu ra." },
+        { "text": "Live music will be too loud for nearby homes.", "misconception": "wrong_target", "whyVi": "Đây là mối lo của một số cư dân, không phải của Vega." }
+      ],
+      "answerIndex": 1,
+      "evidence": "she worries that families without cars will stop coming",
+      "explanationVi": "Hai bẫy 'sai người' đều là thông tin THẬT trong bài. Câu hỏi có tên người → chỉ dùng câu gắn với người đó.",
+      "competency": "distractor"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "night-market-article",
+      "prompt": "Which statement about the shuttle is accurate?",
+      "hint": "One option is true for its first half only. Read the 'however' sentence carefully.",
+      "options": [
+        { "text": "It will run every ten minutes for as long as the market operates.", "misconception": "half_right", "whyVi": "'Every ten minutes' đúng, nhưng 'for as long as the market operates' sai: chỉ có kinh phí mùa đầu." },
+        { "text": "It has funding for the first season only.", "misconception": null, "whyVi": "Đúng: 'the shuttle has been funded for only the first season'." },
+        { "text": "It will replace the SkyTrain on market nights.", "misconception": "unsupported", "whyVi": "Xe đưa đón chạy TỪ ga, không thay thế SkyTrain." },
+        { "text": "Residents asked the city to provide it.", "misconception": "unsupported", "whyVi": "Cư dân yêu cầu về tiếng nhạc, không phải xe đưa đón." }
+      ],
+      "answerIndex": 1,
+      "evidence": "the shuttle has been funded for only the first season",
+      "explanationVi": "Đáp án (A) là ví dụ điển hình của bẫy đúng một nửa: nửa đầu chép đúng từ bài, nửa sau thêm một phạm vi mà 'however… only' phủ nhận.",
+      "competency": "distractor"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "rental-email",
+      "prompt": "What will Gordon's daughter do?",
+      "options": [
+        { "text": "Live in the basement suite.", "misconception": null, "whyVi": "Đúng: 'she'll be using the basement suite'." },
+        { "text": "Move into Arjun and Mei's unit.", "misconception": "unsupported", "whyVi": "Không có gì nói cô ấy dọn vào căn của người thuê." },
+        { "text": "Use the laundry room every day.", "misconception": "half_right", "whyVi": "Quá rộng: chỉ cuối tuần; ngày thường người thuê vẫn dùng đầy đủ." },
+        { "text": "Move away from Victoria.", "misconception": "reversed_meaning", "whyVi": "'Moving back to Victoria' = chuyển VỀ Victoria." }
+      ],
+      "answerIndex": 0,
+      "evidence": "she'll be using the basement suite",
+      "explanationVi": "Ba loại bẫy trong một câu: không có trong bài, quá rộng, ngược nghĩa. Loại theo thứ tự và chỉ còn đáp án có bằng chứng.",
+      "competency": "distractor"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "rental-email",
+      "prompt": "What does Gordon need from Arjun and Mei by May 1?",
+      "options": [
+        { "text": "A signed lease renewal.", "misconception": "reversed_meaning", "whyVi": "Không cần ký gì mới." },
+        { "text": "To know whether they plan to leave.", "misconception": null, "whyVi": "Đúng: 'If you'd rather move out, I'd need to know by May 1'." },
+        { "text": "The first payment at the new rent.", "misconception": "wrong_target", "whyVi": "Tiền thuê mới bắt đầu từ 1/8, không liên quan đến 1/5." },
+        { "text": "The official notice form.", "misconception": "wrong_target", "whyVi": "Chính Gordon là người gửi mẫu thông báo, không phải người thuê." }
+      ],
+      "answerIndex": 1,
+      "evidence": "If you'd rather move out, I'd need to know by May 1 so I can advertise the unit.",
+      "explanationVi": "Bức thư có ba mốc thời gian (May 1, June 30, August 1). Bẫy sai chi tiết ghép sai mốc với sai việc. Luôn đọc câu chứa ngày cụ thể.",
+      "competency": "distractor"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "night-market-article",
+      "prompt": "According to the article, why was there no live music at the old site?",
+      "options": [
+        { "text": "The city did not allow music near the SkyTrain.", "misconception": "wrong_target", "whyVi": "Người cấm là chủ bãi đỗ xe, không phải thành phố." },
+        { "text": "The owner of the parking lot did not permit it.", "misconception": null, "whyVi": "Đúng: 'which the old lot's owner had banned'." },
+        { "text": "Residents complained about the noise.", "misconception": "wrong_target", "whyVi": "Phàn nàn của cư dân nói về địa điểm MỚI, không phải lý do ở bãi cũ." },
+        { "text": "Vendors could not afford to pay musicians.", "misconception": "unsupported", "whyVi": "Không có thông tin về chi phí nhạc công." }
+      ],
+      "answerIndex": 1,
+      "evidence": "will finally allow live music, which the old lot's owner had banned",
+      "explanationVi": "Mệnh đề 'which the old lot's owner had banned' bổ nghĩa cho 'live music'. 'Banned' → 'did not permit' là paraphrase; người làm hành động là chủ bãi.",
+      "competency": "distractor"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "night-market-article",
+      "prompt": "What has the city agreed to do about noise?",
+      "options": [
+        { "text": "End amplified music by 10 p.m.", "misconception": "wrong_target", "whyVi": "Đây là yêu cầu của một số cư dân; thành phố chưa đồng ý." },
+        { "text": "Look at complaints once the market has run for a month.", "misconception": null, "whyVi": "Đúng: 'review noise complaints after the first month'." },
+        { "text": "Ban music near homes.", "misconception": "unsupported", "whyVi": "Không có lệnh cấm nào được nhắc đến." },
+        { "text": "Guarantee that the market will be quieter.", "misconception": "reversed_meaning", "whyVi": "'Has made no promises' — ngược lại." }
+      ],
+      "answerIndex": 1,
+      "evidence": "The city has agreed to review noise complaints after the first month but has made no promises.",
+      "explanationVi": "Phân biệt điều được YÊU CẦU (residents have asked) với điều được ĐỒNG Ý (the city has agreed). Đáp án (A) là bẫy sai người rất phổ biến.",
+      "competency": "distractor"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "night-market-article",
+      "prompt": "Which statement about nearby residents is accurate?",
+      "options": [
+        { "text": "They are all against the move.", "misconception": "half_right", "whyVi": "Quá rộng: 'divided' — một số hoan nghênh." },
+        { "text": "Some of them want limits on amplified music.", "misconception": null, "whyVi": "Đúng: 'others have asked the city to end amplified music by 10 p.m.'" },
+        { "text": "They asked for the free shuttle.", "misconception": "unsupported", "whyVi": "Không ai nói cư dân yêu cầu xe đưa đón." },
+        { "text": "They will vote on the new noise rules.", "misconception": "unsupported", "whyVi": "Không có cuộc bỏ phiếu nào trong bài." }
+      ],
+      "answerIndex": 1,
+      "evidence": "others have asked the city to end amplified music by 10 p.m.",
+      "explanationVi": "'Divided' + 'Some… others…' là tín hiệu phạm vi. Đáp án dùng 'all' bị loại ngay; đáp án đúng giữ 'some'.",
+      "competency": "distractor"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "course-list",
+      "prompt": "A student registers on August 10. For which course will she pay exactly the listed price?",
+      "options": [
+        { "text": "Intro to Bookkeeping", "misconception": "half_right", "whyVi": "Đăng ký trước 15/8 → được giảm 10%, nên không trả đúng giá niêm yết." },
+        { "text": "Spreadsheets for Small Business", "misconception": "surface_match", "whyVi": "Bẫy trùng từ 'online': khóa này online TRỰC TIẾP (live), không phải ghi hình, nên vẫn được giảm giá." },
+        { "text": "Payroll Basics", "misconception": null, "whyVi": "Đúng: khóa ghi hình không được giảm giá đăng ký sớm → trả đúng $295." },
+        { "text": "Bookkeeping II", "misconception": "half_right", "whyVi": "Học trực tiếp, đủ điều kiện giảm 10%." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Recorded online courses are not eligible for the early-registration discount.",
+      "explanationVi": "Hai điều kiện: đăng ký trước 15/8 (có) và loại khóa có được giảm không. Chỉ khóa 'recorded' bị loại trừ. Phân biệt 'online (live)' với 'online (recorded)' là điểm mấu chốt.",
+      "competency": "distractor"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "course-list",
+      "prompt": "Tomas has done the bookkeeping for his family's store for five years but has never taken a course. He is free only on Saturdays. Which statement is correct?",
+      "options": [
+        { "text": "Bookkeeping II is not open to him because he has no course credit.", "misconception": "half_right", "whyVi": "Bỏ sót điều kiện 'or equivalent experience' — năm năm làm sổ sách là kinh nghiệm tương đương." },
+        { "text": "He meets the requirement for Bookkeeping II, and its schedule suits him.", "misconception": null, "whyVi": "Đúng: kinh nghiệm tương đương thỏa yêu cầu đầu vào; lớp học vào thứ Bảy (9 giờ sáng – 1 giờ chiều), đúng ngày anh rảnh." },
+        { "text": "Bookkeeping II is online, so the day does not matter.", "misconception": "wrong_target", "whyVi": "Bookkeeping II học trực tiếp ('in person'); 'online' thuộc về hai khóa khác." },
+        { "text": "Intro to Bookkeeping is the only course that meets on Saturdays.", "misconception": "wrong_target", "whyVi": "Intro học thứ Ba và thứ Năm; khóa thứ Bảy là Bookkeeping II." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Bookkeeping II — Sat, 9 a.m.–1 p.m. — $360 — in person — prerequisite: Intro to Bookkeeping or equivalent experience",
+      "explanationVi": "Level 8: đáp án (A) nghe rất hợp lý nếu bạn dừng đọc ở 'Intro to Bookkeeping'. Ba chữ 'or equivalent experience' thay đổi kết quả. Luôn đọc hết điều kiện.",
+      "competency": "distractor"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "night-market-article",
+      "prompt": "Which statement best reflects what the article says about the move as a whole?",
+      "options": [
+        { "text": "The move brings clear benefits, but some issues remain unresolved.", "misconception": null, "whyVi": "Đúng: nhiều chỗ hơn và có nhạc sống (lợi ích); xe đưa đón chỉ có kinh phí một mùa, chuyện tiếng ồn chưa có cam kết (chưa giải quyết)." },
+        { "text": "The move has been welcomed by everyone involved.", "misconception": "half_right", "whyVi": "Quá rộng: 'Not everyone is pleased', cư dân 'divided'." },
+        { "text": "The move will reduce the number of customers.", "misconception": "wrong_target", "whyVi": "Đây chỉ là mối lo của Vega, được bài trình bày như một ý kiến, không phải kết luận." },
+        { "text": "The city has solved transport and noise problems.", "misconception": "reversed_meaning", "whyVi": "Ngược lại: xe đưa đón chưa chắc tồn tại sau mùa đầu, tiếng ồn 'no promises'." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Level 8: câu hỏi tổng quát cần đáp án bao quát cả bài. (B) quá rộng, (C) là ý của một người được nâng lên thành kết luận, (D) ngược nghĩa. Đáp án đúng dùng từ cân bằng, phù hợp với cấu trúc 'lợi ích → lo ngại → giải pháp tạm thời → chưa có cam kết'.",
+      "competency": "distractor"
+    }
+  ],
+  "misconceptions": {
+    "surface_match": {
+      "label": "Bẫy trùng từ",
+      "explanationVi": "Bạn bị thu hút bởi đáp án lặp lại từ trong bài (basement suite, leak, online) mà không kiểm tra các từ đó có đang nói về cùng một ý không.",
+      "fixVi": "Khi thấy từ quen trong đáp án, hỏi ngay: 'Trong bài, từ này gắn với ai, việc gì?' Nếu khác với đáp án → loại."
+    },
+    "reversed_meaning": {
+      "label": "Ngược nghĩa",
+      "explanationVi": "Bạn bỏ sót phủ định hoặc hiểu ngược động từ (no need to sign, moving back to, has made no promises, I'll send = chưa gửi).",
+      "fixVi": "Khoanh mọi từ phủ định và giới hạn trong câu bằng chứng; đọc to trong đầu 'bài nói CÓ hay KHÔNG' trước khi so đáp án."
+    },
+    "unsupported": {
+      "label": "Không có trong bài",
+      "explanationVi": "Đáp án nghe hợp lý theo kinh nghiệm thực tế (sửa chữa, bỏ phiếu, chi phí nhạc công) nhưng bài không nói. Bạn đang điền vào chỗ trống bằng suy đoán.",
+      "fixVi": "Loại nhóm này ĐẦU TIÊN trong thứ tự loại đáp án: không chỉ được câu chứng minh → gạch ngay, không cần cân nhắc thêm."
+    },
+    "half_right": {
+      "label": "Đúng một nửa / sai phạm vi",
+      "explanationVi": "Đáp án có một phần đúng nhưng thêm hoặc bỏ một chi tiết: thêm ngày sai, mở rộng 'some' thành 'all', hoặc bỏ sót điều kiện ('or equivalent experience', 'only the first season').",
+      "fixVi": "Chia đáp án thành từng mảnh và tìm bằng chứng cho TỪNG mảnh. Đặc biệt kiểm tra từ phạm vi (all, every, only) và điều kiện (if, unless, or)."
+    },
+    "wrong_target": {
+      "label": "Sai người / sai chi tiết",
+      "explanationVi": "Thông tin có thật trong bài nhưng thuộc về người khác (cư dân vs thành phố, Vega vs Becker), hoặc mốc thời gian, con số thuộc về việc khác (May 1 vs August 1).",
+      "fixVi": "Ghi chú nhanh 'ai — làm/nghĩ gì — khi nào'. Trước khi chọn, đối chiếu chủ ngữ và mốc thời gian của câu bằng chứng với câu hỏi."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "distractor", "vi": "đáp án nhiễu (được viết để đánh lừa)", "example": "Option C is a distractor: it repeats 'basement suite' but changes the meaning." },
+    { "term": "eliminate / rule out", "vi": "loại bỏ", "example": "I ruled out two options because the text never mentions repairs or fees." },
+    { "term": "otherwise", "vi": "nếu không thì", "example": "Please confirm by Friday; otherwise, your spot will go to the next person on the waitlist." },
+    { "term": "or equivalent experience", "vi": "hoặc kinh nghiệm tương đương", "example": "Applicants need a forklift certificate or equivalent experience." },
+    { "term": "be eligible for", "vi": "đủ điều kiện để được", "example": "Seniors are eligible for a 20% discount on weekday rounds of golf." },
+    { "term": "be divided (on an issue)", "vi": "có ý kiến chia rẽ", "example": "Parents are divided on the new school start time." },
+    { "term": "make no promises", "vi": "không hứa hẹn gì", "example": "The landlord will look at the heater but has made no promises about replacing it." },
+    { "term": "funded for only …", "vi": "chỉ được cấp kinh phí cho …", "example": "The after-school program is funded for only one more year." }
+  ],
+  "grammar": [
+    {
+      "point": "Scope words: all / some / only / every",
+      "explanationVi": "Từ chỉ phạm vi quyết định đáp án đúng hay sai. Một đáp án đổi 'some' thành 'all' hoặc bỏ 'only' là bẫy sai phạm vi.",
+      "examples": [
+        "Some residents welcome the market; others want limits. (≠ All residents oppose it.)",
+        "The shuttle has been funded for only the first season. (≠ The shuttle will run as long as the market operates.)"
+      ]
+    },
+    {
+      "point": "Conditions with if / otherwise / or",
+      "explanationVi": "Mệnh đề điều kiện giới hạn khi nào một việc xảy ra. 'Otherwise' quy chiếu ngược lại điều kiện trước. 'Or' trong yêu cầu đầu vào nghĩa là chỉ cần MỘT trong hai.",
+      "examples": [
+        "If you'd rather move out, I'd need to know by May 1. Otherwise, the lease will continue.",
+        "Prerequisite: Intro to Bookkeeping or equivalent experience. (Either one is enough.)"
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Drill: distractors", "route": "/reading?mode=drill&focus=distractor" },
+    { "label": "Part 2: Applying a Diagram", "route": "/reading?task=R2" },
+    { "label": "Review your mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 items. BC tenancy details checked (one increase per 12 months up to the allowable amount, three full months’ notice on the approved form, fixed term continuing month to month) and accurate without over-claiming. Fixed i7 ambiguity: \"free only on Saturday mornings\" clashed with a 9 a.m.–1 p.m. class, changed to \"Saturdays\"."}
+}

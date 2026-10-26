@@ -13,6 +13,10 @@ import {
 import { library, reloadLibrary } from "./library";
 import { candidates, mockPackages, selectNext } from "./selection";
 import { AUDIO_PROVIDER, audioFilePath, audioJob, audioProviderReady, audioStatus, generateAudioBatch, manifestEntry, stopAudioJob } from "./audio";
+import { learnRouter, learningSummary, lessonTutorContext, curView } from "./learn-routes";
+import { buildLearningPlan } from "./coach";
+import { curriculum, reloadCurriculum } from "./lessons";
+import { lessonAudioSet } from "./audio";
 import { createJob, decide, getJob, importApproved, listJobs, readDraft, runJob, type JobSkill } from "./pipeline";
 import { CATEGORIES, SKILLS, TRAPS, type Skill } from "../shared/spec";
 import { TOPIC_LABEL, type VocabEntry } from "../shared/content";
@@ -344,13 +348,13 @@ app.get("/api/dashboard", h((req, res) => {
   const minutes = Number(req.query.minutes) || undefined;
   const db = load();
   const d = dashboard(db, minutes);
-  annotatePlan(db, d.plan);
-  res.json(d);
+  d.plan = annotatePlan(db, buildLearningPlan(db, curView(), minutes ?? db.settings.dailyMinutes));
+  res.json({ ...d, learning: learningSummary(db) });
 }));
 
 app.get("/api/plan", h((req, res) => {
   const db = load();
-  res.json(annotatePlan(db, buildPlan(db, Number(req.query.minutes) || db.settings.dailyMinutes)));
+  res.json(annotatePlan(db, buildLearningPlan(db, curView(), Number(req.query.minutes) || db.settings.dailyMinutes)));
 }));
 
 app.post("/api/plan/complete", h(async (req, res) => {
@@ -508,6 +512,20 @@ app.get("/api/mistakes", h((req, res) => {
   res.json(list.map((m) => {
     const c = getContent(db, m.contentId);
     const q = c && (c.kind === "reading" || c.kind === "listening") ? questionsOf(c).find((x) => x.id === m.questionId) ?? null : null;
+    if (!c) {
+      // Mistakes from Learn Mode lessons: rebuild a re-answerable question from the lesson exercise.
+      const lesson = curriculum().lessons.get(m.contentId);
+      const ex = lesson && [...lesson.guided, ...lesson.independent].find((e) => `${lesson.id}:${e.id}` === m.questionId);
+      const stim = ex?.stimulusId ? lesson!.stimuli[ex.stimulusId] : undefined;
+      const original: McqQuestion | null = ex && ex.type === "choice" ? {
+        id: m.questionId, number: 0, prompt: [stim?.text ? `${stim.text}
+
+` : "", ex.prompt].join(""), category: ex.competency, evidence: ex.evidence ?? "",
+        explanationVi: ex.explanationVi, answerIndex: ex.answerIndex, options: ex.options.map((o) => ({ text: o.text, trap: o.misconception ? "partially_true" : "none", whyVi: o.whyVi })),
+      } : null;
+      // Audio-based lesson questions are reviewed inside the lesson (they need the clip), not as text cards.
+      return { ...m, original: stim?.audio?.length || stim?.audioRef ? null : original, contentTitle: lesson ? `Bài học: ${lesson.titleVi}` : "" };
+    }
     return { ...m, original: q, contentTitle: c?.title ?? "" };
   }));
 }));
@@ -826,13 +844,19 @@ async function evaluateMockSubmissions(db: Db, m: MockExam) {
   return { evaluated: ok, failed };
 }
 
+// ---------------- routes: Learn Mode (no AI) ----------------
+
+app.use(learnRouter({ upsertVocab }));
+
 // ---------------- routes: tutor (AI) ----------------
 
 app.post("/api/tutor", h(async (req, res) => {
   const db = load();
   const { context, messages } = req.body as { context: unknown; messages: { role: "user" | "assistant"; content: string }[] };
   if (!messages?.length || messages[0].role !== "user") throw new AiError("Tin nhắn không hợp lệ.", 400);
-  const ctx = `<context>\nCurrent exercise:\n${JSON.stringify(context ?? { page: "general" }, null, 1)}\n\nWeakness profile:\n${weaknessProfileText(db)}\n</context>\n\n`;
+  const c = (context ?? {}) as Record<string, unknown>;
+  const lessonCtx = typeof c.lessonId === "string" ? lessonTutorContext(db, c.lessonId, typeof c.exerciseId === "string" ? c.exerciseId : null) : null;
+  const ctx = `<context>\n${lessonCtx ? `Learn Mode lesson (teach within this lesson):\n${lessonCtx}\n\nPage state:\n` : "Current exercise:\n"}${JSON.stringify(context ?? { page: "general" }, null, 1)}\n\nWeakness profile:\n${weaknessProfileText(db)}\n</context>\n\n`;
   const msgs = messages.map((m, i) => ({ role: m.role, content: i === 0 ? ctx + m.content : m.content }));
   await streamChat(res, TUTOR_SYSTEM, msgs);
 }));
@@ -897,7 +921,8 @@ app.get("/api/admin/library", h((_req, res) => {
 
 app.post("/api/admin/library/reload", h((_req, res) => {
   const lib = reloadLibrary();
-  res.json({ items: lib.items.size, issues: lib.issues.length });
+  const cur = reloadCurriculum(); // lessons validate against the library (audioRef / imageRef)
+  res.json({ items: lib.items.size, issues: lib.issues.length, lessons: cur.lessons.size });
 }));
 
 app.get("/api/admin/audio", (_req, res) => res.json({ ...audioJob, provider: AUDIO_PROVIDER, providerReady: audioProviderReady() }));
@@ -905,7 +930,8 @@ app.get("/api/admin/audio", (_req, res) => res.json({ ...audioJob, provider: AUD
 app.post("/api/admin/audio/generate", h((req, res) => {
   if (!audioProviderReady()) throw new AiError("AUDIO_PROVIDER=gemini cần GEMINI_API_KEY (hoặc dùng AUDIO_PROVIDER=edge, không cần key).", 503);
   const ids = (req.body?.setIds as string[] | undefined) ?? null;
-  const sets = [...library().items.values()].filter((i): i is ListeningSet => i.kind === "listening" && (!ids || ids.includes(i.id)));
+  const sets = [...library().items.values(), ...[...curriculum().lessons.values()].map(lessonAudioSet).filter((x) => x.chunks.length)]
+    .filter((i): i is ListeningSet => i.kind === "listening" && (!ids || ids.includes(i.id)));
   void generateAudioBatch(sets, { limit: Number(req.body?.limit) || undefined, log: (s) => console.log(s) }).catch((e) => console.error(e));
   res.json({ started: true });
 }));
@@ -987,6 +1013,8 @@ app.listen(port, () => {
   const lib = library();
   console.log(`CELPIP 8 Coach API on http://localhost:${port}`);
   console.log(`  Library: ${lib.items.size} active items, ${lib.vocab.length} vocabulary, ${lib.mocks.filter((m) => m.valid).length} valid mock packages, ${lib.issues.filter((i) => i.severity === "error").length} validation errors`);
+  const cur = curriculum();
+  console.log(`  Curriculum: ${cur.lessons.size} active lessons (${cur.all.size} files), ${cur.issues.filter((i) => i.severity === "error").length} validation errors`);
   console.log(`  AI: ${aiConfigured() ? `configured (${MODEL}, TTS ${TTS_MODEL})` : "not configured — practice still works; evaluation/tutor/generation need GEMINI_API_KEY"}`);
 });
 

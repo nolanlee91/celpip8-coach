@@ -1,0 +1,508 @@
+{
+  "id": "wr-14",
+  "skill": "writing",
+  "module": "writing-polish",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Editing and proofreading",
+  "titleVi": "Soát lỗi và chỉnh sửa bài viết",
+  "estimatedMinutes": 35,
+  "prerequisites": [
+    "wr-02"
+  ],
+  "competencies": [
+    "grammar",
+    "vocabulary_range"
+  ],
+  "tasks": [
+    "W1",
+    "W2"
+  ],
+  "objectives": [
+    "You will be able to proofread a 150–200-word response in about 3 minutes using three focused passes (task, verbs and nouns, sentences and words).",
+    "You will be able to spot and fix the errors most typical of Vietnamese writers: articles, plurals and countability, tense and agreement, prepositions, and run-on sentences.",
+    "You will be able to build and use a personal error checklist of your five most frequent mistakes."
+  ],
+  "objectiveVi": "Sau bài này, bạn có một quy trình soát lỗi 3 phút cố định cho cả Task 1 và Task 2, biết vì sao người Việt hay mắc những lỗi nhất định, và có một danh sách lỗi cá nhân để kiểm tra trước tiên.",
+  "whyItMattersVi": "Writing 7 nghĩa là bạn viết được bài đủ ý và khá rõ ràng, nhưng các lỗi nhỏ lặp đi lặp lại – thiếu 'a/the', quên '-s', sai thì, câu nối bằng dấu phẩy – kéo độ chính xác ngữ pháp xuống. Phần lớn những lỗi này bạn *biết* cách sửa; bạn chỉ không *nhìn thấy* chúng khi đọc lại. Một quy trình soát lỗi có mục tiêu thường tìm được 4–8 lỗi trong mỗi bài – đây là cách nhanh nhất để nâng phần grammar lên Level 8 mà không cần học thêm ngữ pháp mới.",
+  "concept": [
+    {
+      "heading": "Vì sao mắt bạn 'tự sửa' lỗi khi đọc lại",
+      "body": "Khi đọc lại bài của mình, não bạn đọc **điều bạn định viết**, không phải điều bạn đã viết. Với người Việt, điều này càng mạnh vì tiếng Việt không đánh dấu ngữ pháp trên từ:\n- Không có số nhiều trên danh từ (*hai cái xe* – không có '-s') → *two car, many parent*.\n- Không có mạo từ kiểu a/the → *I live in apartment*.\n- Động từ không đổi theo thì hay ngôi → *Yesterday she miss…, he say…*.\n- Giới từ khác cách dùng → *since three years, in Monday, discuss about*.\n- Có thể nối nhiều mệnh đề bằng dấu phẩy → *The bus was late, I missed my shift.* (comma splice)\n- Cặp 'vì… nên', 'mặc dù… nhưng' → *Because…, so…; Although…, but…*.\n\nVì vậy 'đọc lại một lượt cho chắc' gần như không hiệu quả. Bạn cần đọc **có mục tiêu**: mỗi lượt chỉ tìm một loại lỗi."
+    },
+    {
+      "heading": "Quy trình soát lỗi 3 phút (three passes)",
+      "body": "**Lượt 1 – Task (30 giây):** đủ 3 gạch đầu dòng (Task 1) hoặc lựa chọn rõ ở câu đầu (Task 2)? Lời chào/kết đúng register? Số từ 150–200?\n\n**Lượt 2 – Động từ rồi danh từ (90 giây):**\n- Đặt con trỏ lên **từng động từ**: thì có khớp mốc thời gian (*last week, since, now*)? Có '-s' sau *he/she/it/the company/one of…*? Task 2 có giữ *would*?\n- Đặt con trỏ lên **từng danh từ**: số ít đếm được có *a/an/the/my*? Sau *many, several, two, these* có '-s'? Danh từ không đếm được (*advice, information, equipment, furniture, traffic, feedback*) không có '-s'.\n\n**Lượt 3 – Câu và từ (60 giây):** câu nào có hai cặp chủ ngữ + động từ mà chỉ nối bằng dấu phẩy? Giới từ (*for/since, on/in/at*)? Dạng từ (*safety/safe, convenience/convenient*)? Chính tả Canada (*centre, neighbour, colour*)? Một từ lặp quá 3 lần (*good, problem*)?\n\nMẹo: đọc chậm, chỉ con trỏ vào từng từ; với lượt 2 có thể đọc từ câu cuối lên câu đầu để não không chạy theo nội dung."
+    },
+    {
+      "heading": "Sửa tối thiểu, không viết lại",
+      "body": "Khi soát lỗi trong 3–4 phút cuối, **đừng viết lại cả câu** – bạn dễ tạo ra lỗi mới và có thể hết giờ giữa chừng. Sửa bằng thay đổi nhỏ nhất:\n- Comma splice → thêm *so/but/and*, đổi dấu phẩy thành dấu chấm, hoặc thêm *because/when* ở đầu một mệnh đề.\n- *Because…, so…* → xoá *so*. *Although…, but…* → xoá *but*.\n- Thiếu mạo từ → thêm một từ.\nNếu một câu quá rối, tách nó thành hai câu ngắn đúng ngữ pháp."
+    },
+    {
+      "heading": "Danh sách lỗi cá nhân (personal error checklist)",
+      "body": "Mỗi người có 4–6 lỗi 'ruột' lặp lại ở hầu hết bài viết. Cách lập danh sách:\n1. Lấy 3–5 bài luyện gần nhất (hoặc trang **Mistakes** trong app).\n2. Gạch chân mọi lỗi và xếp theo loại: danh từ, động từ, câu, từ.\n3. Đếm; chọn **5 loại xuất hiện nhiều nhất**.\n4. Viết mỗi loại thành **câu hỏi có/không** kèm một ví dụ lỗi *của chính bạn*: *Did I add -s after he/she/it? (My manager reply → replies)*.\n5. Trong lượt 2 và 3, kiểm tra các câu hỏi này **trước tiên**. Cập nhật danh sách mỗi tháng: lỗi nào đã hết thì thay bằng lỗi mới."
+    },
+    {
+      "heading": "Kiểm tra từ vựng khi soát bài",
+      "body": "Soát lỗi cũng là lúc nâng vocabulary range ở mức nhỏ:\n- **Kết hợp từ (collocations)**: *make a mistake* (không phải *do*), *take a course*, *pay attention to*, *look forward to hearing*.\n- **Dạng từ**: tính từ sau *be/would be* (*It would be convenient*, không phải *convenience*); danh từ sau mạo từ (*for my safety*).\n- **Lặp từ**: nếu *good* hoặc *problem* xuất hiện 3–4 lần, đổi một hai lần thành *useful, practical / issue, difficulty*.\nChỉ đổi từ khi bạn chắc chắn về nghĩa; một từ 'cao cấp' dùng sai còn tệ hơn một từ đơn giản dùng đúng."
+    }
+  ],
+  "stimuli": {
+    "draft-elevator": {
+      "title": "Draft email paragraph: broken elevator",
+      "text": "Dear Mr. Clarke,\n\nI am writing to complain about elevator in our building. Since two weeks, it is out of order and nobody fix it. My mother is 78 years old, she cannot walk up to the sixth floor. Yesterday she miss her doctor appointment at Royal Columbian Hospital because of this problem. I hope you can repair it as soon as possible, I also want to know when the technician come."
+    },
+    "feedback-notes": {
+      "title": "Errors collected from three practice responses",
+      "text": "Response 1 (email): I live in apartment • My manager never reply • Since 2022 I work here • The bus was late, I missed my shift • I look forward to hear from you\n\nResponse 2 (survey): many resident • it is very convenience • he say that • Because it is cheap, so I choose it • some informations\n\nResponse 3 (email): in Monday • I bought new sofa • the store do not answer • We discussed about the problem • two week ago"
+    },
+    "draft-washrooms": {
+      "title": "Draft survey response with errors",
+      "text": "Survey: Your city can fund one improvement in five neighbourhood parks. Option A: Install public washrooms. Option B: Add new playground equipment.\n\n---\n\nI prefer option A because public washroom in park are very important for families.\n\nLast summer I take my two kids to the park on 88th Avenue, there was no washroom near the playground. My daughter need to go so we have to walk fifteen minutes to the parking lot. Many parent have same problem, they leave the park early.\n\nAlso, washrooms help seniors and people with medical conditions. My neighbour has diabetes and he say he avoid long walks because he worry about finding toilet. If there is a washroom in every park, he will go out more and stay healthy. Many seniors in my building feel same way.\n\nI understand that new playground equipments is fun for children. However, children cannot enjoy the playground if their family must leave after twenty minutes.\n\nFor these reason, I strongly believe option A is the best choice for our city, and I hope the council will choose it soon."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "The three-pass routine on an email paragraph",
+      "stimulusId": "draft-elevator",
+      "question": "Use the three passes to find and fix every error in this paragraph without rewriting it.",
+      "steps": [
+        "Pass 1 – Task: the purpose (complain about the elevator), the effect (mother missed an appointment) and the request (repair, timing) are all present. Tone is polite. No task problem.",
+        "Pass 2 – Verbs: 'Since two weeks, it is' → the situation started in the past and continues, so present perfect: 'has been'. 'nobody fix' → 'nobody has fixed'. 'Yesterday she miss' → past: 'missed'. 'when the technician come' → future: 'will come'.",
+        "Pass 2 – Nouns: 'about elevator' → a specific elevator both people know: 'the elevator'. 'doctor appointment' → 'doctor's appointment'.",
+        "Pass 3 – Sentences: '…78 years old, she cannot…' is two full sentences joined by a comma → add 'so'. '…as soon as possible, I also want…' → full stop, new sentence.",
+        "Pass 3 – Words: 'Since two weeks' → a period of time takes 'for'. 'I also want to know' is a little direct → 'I would also like to know'."
+      ],
+      "answer": "Nine error fixes plus one politeness upgrade: the elevator / For two weeks / has been / has fixed / , so she / missed / doctor's appointment / a full stop before the last sentence / will come; and 'I also want' → 'I would also like'.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "I am writing to complain about elevator in our building. Since two weeks, it is out of order and nobody fix it. My mother is 78 years old, she cannot walk up to the sixth floor. Yesterday she miss her doctor appointment at Royal Columbian Hospital because of this problem. I hope you can repair it as soon as possible, I also want to know when the technician come.",
+          "commentVi": "Nội dung đủ ý (Level 7), nhưng có 9 lỗi điển hình: thiếu mạo từ ('about elevator'), giới từ sai ('Since two weeks'), sai thì ('it is', 'nobody fix', 'she miss', 'the technician come'), hai câu nối bằng dấu phẩy (comma splice), thiếu sở hữu cách ('doctor appointment'). Một câu yêu cầu hơi thẳng ('I also want')."
+        },
+        {
+          "label": "after",
+          "text": "I am writing to complain about the elevator in our building. For two weeks, it has been out of order, and nobody has fixed it. My mother is 78 years old, so she cannot walk up to the sixth floor. Yesterday she missed her doctor's appointment at Royal Columbian Hospital because of this problem. I hope you can repair it as soon as possible. I would also like to know when the technician will come.",
+          "commentVi": "Các thay đổi (sửa tối thiểu): (1) 'about elevator' → 'about the elevator' (danh từ xác định, cả hai bên đều biết). (2) 'Since two weeks' → 'For two weeks' (khoảng thời gian dùng 'for'). (3) 'it is' → 'it has been' và 'nobody fix' → 'nobody has fixed' (hiện tại hoàn thành cho tình trạng kéo dài đến nay). (4) Comma splice → ', so she' (thêm liên từ chỉ kết quả). (5) 'miss' → 'missed' (có 'Yesterday'). (6) 'doctor appointment' → 'doctor's appointment'. (7) Comma splice → tách thành hai câu. (8) 'I also want' → 'I would also like' (lịch sự hơn). (9) 'come' → 'will come' (sự việc tương lai). Không câu nào bị viết lại toàn bộ."
+        }
+      ],
+      "takeawayVi": "Mỗi lượt chỉ tìm một loại lỗi. Lượt động từ và lượt danh từ thường tìm được nhiều lỗi nhất với người Việt."
+    },
+    {
+      "id": "ex2",
+      "title": "Building a personal error checklist from your own mistakes",
+      "stimulusId": "feedback-notes",
+      "question": "These are the errors collected from three of one learner's practice responses. What should her personal checklist look like?",
+      "steps": [
+        "Group the 15 errors by type. Nouns (articles/plurals/countability): apartment, many resident, some informations, new sofa, two week → 5. Verbs (tense/agreement): never reply, Since 2022 I work, he say, the store do not → 4. Sentences: comma splice, Because… so → 2. Words (prepositions, word form, collocations): look forward to hear, very convenience, in Monday, discussed about → 4.",
+        "Split the biggest group (nouns) into two checkable questions: articles are one check, plurals and countability are another.",
+        "Rank by frequency (nouns 5, verbs 4, words 4, sentences 2) and make each a yes/no question with her own examples, so she recognizes the pattern instantly.",
+        "Put the checklist where she will see it before every practice response, and check these five questions first during passes 2 and 3."
+      ],
+      "answer": "1. Does every singular countable noun have a/an/the/my? (in apartment → in an apartment; new sofa → a new sofa)\n2. Do nouns after many/two/several have -s, and do uncountable nouns have none? (many resident → many residents; some informations → some information)\n3. Does each verb agree with its subject and match its time marker? (he say → he says; Since 2022 I work → I have worked)\n4. Did I check prepositions and word forms? (in Monday → on Monday; discussed about → discussed; very convenience → very convenient; look forward to hear → hearing)\n5. Did I join two sentences with only a comma, or use Because… so? (…late, I missed → …late, so I missed)",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "My checklist: check grammar, check spelling, check everything carefully.",
+          "commentVi": "Danh sách quá chung chung: 'check grammar' không cho mắt bạn biết phải tìm gì, nên khi soát bài bạn lại đọc 'cho chắc' và bỏ sót lỗi."
+        },
+        {
+          "label": "after",
+          "text": "1. Does every singular countable noun have a/an/the/my? (in apartment → in an apartment; new sofa → a new sofa)\n2. Do nouns after many/two/several have -s, and do uncountable nouns have none? (many resident → many residents; some informations → some information)\n3. Does each verb agree with its subject and match its time marker? (he say → he says; Since 2022 I work → I have worked)\n4. Did I check prepositions and word forms? (in Monday → on Monday; discussed about → discussed; very convenience → very convenient; look forward to hear → hearing)\n5. Did I join two sentences with only a comma, or use Because… so? (…late, I missed → …late, so I missed)",
+          "commentVi": "Các thay đổi: (1) Mỗi mục là một câu hỏi có/không – kiểm tra được ngay. (2) Mỗi mục nhắm một loại lỗi cụ thể thay vì 'grammar'. (3) Có ví dụ lỗi của chính người học – dễ nhận ra khi gặp lại. (4) Sắp theo tần suất: danh từ (5 lỗi, tách thành 2 câu hỏi) → động từ (4) → giới từ/dạng từ (4) → ranh giới câu (2); cả 15 lỗi đều có một câu hỏi bao quát. (5) Giới hạn 5 mục để dùng được trong 3 phút."
+        }
+      ],
+      "takeawayVi": "Danh sách lỗi tốt được làm từ lỗi thật của bạn, viết thành câu hỏi có/không, và chỉ có khoảng 5 mục."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "text",
+      "prompt": "Correct the error. Type the one word that should replace the wrong word: 'I have lived in Surrey since three years.'",
+      "answers": [
+        "for"
+      ],
+      "mode": "exact",
+      "misconception": "word_choice",
+      "hint": "Is 'three years' a starting point or a length of time?",
+      "explanationVi": "'for' + khoảng thời gian (for three years, for two weeks); 'since' + mốc thời gian (since 2022, since September). Người Việt hay dịch 'từ ba năm nay' thành 'since three years'.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "prompt": "Which sentence is a comma splice (two full sentences joined only by a comma)?",
+      "options": [
+        {
+          "text": "Because the bus was late, I missed the start of my shift.",
+          "misconception": "run_on",
+          "whyVi": "Câu đúng: 'Because' biến mệnh đề đầu thành mệnh đề phụ, dấu phẩy là hợp lệ."
+        },
+        {
+          "text": "The bus was late, so I missed the start of my shift.",
+          "misconception": "run_on",
+          "whyVi": "Câu đúng: có liên từ 'so' sau dấu phẩy."
+        },
+        {
+          "text": "The bus was late again, I missed the start of my shift.",
+          "misconception": null,
+          "whyVi": "Đúng: hai mệnh đề độc lập (The bus was late / I missed…) chỉ nối bằng dấu phẩy – comma splice."
+        },
+        {
+          "text": "The bus was late again; as a result, I missed the start of my shift.",
+          "misconception": "run_on",
+          "whyVi": "Câu đúng: dấu chấm phẩy ngăn hai mệnh đề, 'as a result' là trạng từ nối."
+        }
+      ],
+      "answerIndex": 2,
+      "hint": "Find the subject + verb pairs in each sentence. Then check what joins them: a connector, a semicolon, or only a comma?",
+      "explanationVi": "Comma splice = hai câu đầy đủ chỉ có dấu phẩy ở giữa. Sửa bằng: dấu chấm, dấu chấm phẩy, liên từ (and, but, so), hoặc một từ phụ thuộc (because, when, although).",
+      "competency": "grammar"
+    },
+    {
+      "id": "g3",
+      "type": "text",
+      "prompt": "Type the missing article (a, an or the): 'I am writing to complain about ___ noise that has been coming from the unit above mine every night this week.'",
+      "answers": [
+        "the"
+      ],
+      "mode": "exact",
+      "misconception": "noun_marking",
+      "hint": "Is this any noise, or one specific noise that the rest of the sentence identifies?",
+      "explanationVi": "'the noise that has been coming from the unit above mine' – danh từ đã được xác định bằng mệnh đề phía sau, nên dùng 'the'. Thiếu mạo từ là lỗi phổ biến nhất của người Việt vì tiếng Việt không có từ tương đương bắt buộc.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "prompt": "You have finished writing your Task 2 response and have 3 minutes left. Which plan is most effective?",
+      "options": [
+        {
+          "text": "Read the whole response once from beginning to end, fixing anything that looks wrong.",
+          "misconception": "unfocused_rereading",
+          "whyVi": "Đọc chung chung theo nội dung – mắt sẽ 'tự sửa' và bỏ qua phần lớn lỗi nhỏ."
+        },
+        {
+          "text": "Check that the choice is clear and the word count is fine, then check every verb and noun, then check sentence boundaries and prepositions.",
+          "misconception": null,
+          "whyVi": "Đúng: ba lượt, mỗi lượt một mục tiêu – task, động từ/danh từ, câu/từ."
+        },
+        {
+          "text": "Rewrite your weakest paragraph with more advanced vocabulary.",
+          "misconception": "unfocused_rereading",
+          "whyVi": "Viết lại trong 3 phút cuối dễ tạo lỗi mới và có thể không kịp hoàn thành."
+        },
+        {
+          "text": "Add another reason so the response is longer.",
+          "misconception": "unfocused_rereading",
+          "whyVi": "Thêm ý mới vào phút cuối thường để lại câu chưa soát và có thể làm đứt mạch bài."
+        }
+      ],
+      "answerIndex": 1,
+      "hint": "Which option gives your eyes a specific target each time you read?",
+      "explanationVi": "Thời gian cuối dành cho soát lỗi có mục tiêu, không phải viết thêm hay viết lại. Mỗi lượt chỉ tìm một nhóm lỗi.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g5",
+      "type": "produce",
+      "medium": "write",
+      "stimulusId": "feedback-notes",
+      "prompt": "Write YOUR personal error checklist. Look back at two or three of your recent practice responses (or your Mistakes page). Write 5 yes/no questions, most frequent error first, each with one example of your own mistake and its correction. (If you have no feedback yet, use the errors in the notes above.)",
+      "minWords": 40,
+      "checklist": [
+        "Has exactly 5 questions, each answerable with yes or no",
+        "Ordered from your most frequent error to your least frequent",
+        "Each question includes one real example of your own error and its correction",
+        "Covers at least three different error types (nouns, verbs, sentences, words)"
+      ],
+      "modelAnswer": "1. Does every singular countable noun have a/an/the/my? (I bought new sofa → I bought a new sofa)\n2. Do verbs after he/she/it, the company or one of my coworkers have -s? (The store do not answer → The store does not answer)\n3. Does each verb match its time marker? (two weeks ago I call → two weeks ago I called; since May I work → I have worked)\n4. Did I join two full sentences with only a comma, or write Because… so / Although… but? (Because it is cheap, so I choose it → Because it is cheap, I choose it)\n5. Did I check for/since, on/in/at and verbs that take no preposition? (in Monday → on Monday; discussed about → discussed)",
+      "misconception": "unfocused_rereading",
+      "hint": "Turn each group of repeated errors into a question your eyes can check in a few seconds, and copy one of your own wrong sentences as the example.",
+      "explanationVi": "Danh sách này là công cụ dùng trong lượt 2 và 3. Hãy lưu nó và dùng ngay ở bài luyện tiếp theo; sau 3–4 bài, xem mục nào không còn lỗi để thay bằng lỗi mới.",
+      "competency": "grammar"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "text",
+      "prompt": "Type the corrected verb (one to three words): 'Since last month, the elevator in our building break down three times.'",
+      "answers": [
+        "has broken down",
+        "has broken"
+      ],
+      "mode": "exact",
+      "misconception": "verb_marking",
+      "explanationVi": "'Since last month' + một chuỗi sự việc kéo dài đến hiện tại → hiện tại hoàn thành, chủ ngữ số ít 'the elevator' → 'has broken down'.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "prompt": "This sentence has ONE error in a noun. Type the corrected word: 'Could you send me some informations about the new parking permit?'",
+      "answers": [
+        "information"
+      ],
+      "mode": "exact",
+      "misconception": "noun_marking",
+      "explanationVi": "'information' là danh từ không đếm được: some information, a piece of information – không có 'informations'. Tương tự: advice, equipment, furniture, luggage, feedback.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        {
+          "text": "One of my coworkers lives in Langley and drives to Richmond every day.",
+          "misconception": null,
+          "whyVi": "Đúng: 'One of…' là số ít, cả hai động từ đều có '-s'."
+        },
+        {
+          "text": "One of my coworkers live in Langley and drive to Richmond every day.",
+          "misconception": "verb_marking",
+          "whyVi": "Chủ ngữ thật là 'One' (số ít), không phải 'coworkers' → cần 'lives', 'drives'."
+        },
+        {
+          "text": "One of my coworker lives in Langley and drives to Richmond every day.",
+          "misconception": "noun_marking",
+          "whyVi": "'One of my…' phải theo sau bởi danh từ số nhiều: 'coworkers'."
+        },
+        {
+          "text": "One of my coworkers are living in Langley and drives to Richmond every day.",
+          "misconception": "verb_marking",
+          "whyVi": "'are' không hoà hợp với 'One'; trộn 'are living' với 'drives' cũng không nhất quán."
+        }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Với 'One of + danh từ số nhiều', động từ chia theo 'One' (số ít). Đây là chỗ cả người bản ngữ cũng hay sai – nên đưa vào lượt kiểm tra động từ.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "prompt": "Which correction of this sentence is grammatical and keeps the meaning? 'The bus was cancelled again, I had to take a taxi to work.'",
+      "options": [
+        {
+          "text": "The bus was cancelled again, therefore I had to take a taxi to work.",
+          "misconception": "run_on",
+          "whyVi": "'therefore' là trạng từ, không phải liên từ – vẫn là comma splice. Cần '; therefore,' hoặc '. Therefore,'."
+        },
+        {
+          "text": "Because the bus was cancelled again, so I had to take a taxi to work.",
+          "misconception": "run_on",
+          "whyVi": "Lỗi 'Because… so' (dịch từ 'Vì… nên') – chỉ dùng một trong hai."
+        },
+        {
+          "text": "The bus was cancelled again I had to take a taxi to work.",
+          "misconception": "run_on",
+          "whyVi": "Bỏ dấu phẩy làm câu thành run-on hoàn toàn (fused sentence)."
+        },
+        {
+          "text": "The bus was cancelled again, so I had to take a taxi to work.",
+          "misconception": null,
+          "whyVi": "Đúng: thêm liên từ 'so' – sửa tối thiểu, giữ nguyên nghĩa nguyên nhân – kết quả."
+        }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Cách sửa comma splice nhanh nhất là thêm and/but/so sau dấu phẩy, hoặc thêm 'because/when' vào một mệnh đề (không thêm 'so' nữa).",
+      "competency": "grammar"
+    },
+    {
+      "id": "i5",
+      "type": "text",
+      "prompt": "Correct the preposition. Type the one correct word: 'The strata meeting is in Monday at 7 p.m. in the lobby.'",
+      "answers": [
+        "on"
+      ],
+      "mode": "exact",
+      "misconception": "word_choice",
+      "explanationVi": "Thứ trong tuần và ngày cụ thể dùng 'on' (on Monday, on May 3); giờ dùng 'at' (at 7 p.m.); tháng, năm, buổi dùng 'in' (in June, in the evening).",
+      "competency": "grammar"
+    },
+    {
+      "id": "i6",
+      "type": "text",
+      "prompt": "Type the correct form of the word in brackets: 'A free weekend shuttle would be very (convenience) for seniors in our neighbourhood.'",
+      "answers": [
+        "convenient"
+      ],
+      "mode": "exact",
+      "misconception": "word_choice",
+      "explanationVi": "Sau 'would be very' cần tính từ: 'convenient'. 'convenience' là danh từ (for your convenience). Lỗi dạng từ thường gặp: safety/safe, success/successful, comfort/comfortable.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "prompt": "Only ONE of these sentences contains an error. Which one?",
+      "options": [
+        {
+          "text": "Most residents in our building commute to work by SkyTrain.",
+          "misconception": "noun_marking",
+          "whyVi": "Câu đúng: 'residents' số nhiều nghĩa chung, không cần 'the'; 'by SkyTrain' đúng."
+        },
+        {
+          "text": "The strata council has already spent a lot of money on new furniture for the lobby.",
+          "misconception": "noun_marking",
+          "whyVi": "Câu đúng: 'furniture' không đếm được, không có '-s'; 'council has' hoà hợp số ít."
+        },
+        {
+          "text": "Our community centre needs more equipments for the seniors' fitness class.",
+          "misconception": null,
+          "whyVi": "Đúng – đây là câu sai: 'equipment' không đếm được, không có dạng 'equipments'."
+        },
+        {
+          "text": "I would appreciate any information you could provide about the new rules.",
+          "misconception": "verb_marking",
+          "whyVi": "Câu đúng: 'would appreciate' và 'could provide' nhất quán; 'information' không có '-s'."
+        }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Bài tập Level 8: khi các câu đều 'trông ổn', hãy kiểm tra danh từ không đếm được – equipment, furniture, information, advice, traffic – vì đây là lỗi dễ lọt nhất.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "medium": "write",
+      "stimulusId": "draft-washrooms",
+      "prompt": "Proofread the draft survey response using the three passes. Write the corrected version of the whole response. Fix every error with the smallest possible change; do not add new ideas.",
+      "minWords": 150,
+      "checklist": [
+        "Every singular countable noun has a/an/the or another determiner (e.g., a toilet, the same problem)",
+        "Plural nouns have -s after many/two/these, and uncountable nouns such as 'equipment' have no -s",
+        "Every verb matches its time (last summer → took, had) and its subject (he says, he avoids), and the 'If…' sentence is consistent",
+        "Each comma splice is fixed with a full stop, a connector (but, so) or a subordinator (when, because)",
+        "The original meaning and structure are kept, with no new errors introduced"
+      ],
+      "modelAnswer": "I prefer Option A because public washrooms in parks are very important for families.\n\nLast summer, I took my two kids to the park on 88th Avenue, but there was no washroom near the playground. My daughter needed to go, so we had to walk fifteen minutes to the parking lot. Many parents have the same problem, so they leave the park early.\n\nAlso, washrooms help seniors and people with medical conditions. My neighbour has diabetes, and he says he avoids long walks because he worries about finding a toilet. If there were a washroom in every park, he would go out more and stay healthy. Many seniors in my building feel the same way.\n\nI understand that new playground equipment is fun for children. However, children cannot enjoy the playground if their family must leave after twenty minutes.\n\nFor these reasons, I strongly believe Option A is the best choice for our city, and I hope the council will choose it soon.",
+      "misconception": "unfocused_rereading",
+      "explanationVi": "Bài nháp có 18 lỗi và một chỗ nên nâng cấp. Lượt động từ (6): take → took, need → needed, have → had, say → says, avoid → avoids, worry → worries. Lượt danh từ (10): washroom → washrooms, park → parks, parent → parents, same → the same (hai lần), toilet → a toilet, equipments → equipment, reason → reasons, option A → Option A (hai lần). Lượt câu (2): hai comma splice → ', but there was', ', so they leave' (thêm dấu phẩy trước 'so' trong 'needed to go, so we had' chỉ là sửa dấu câu nhỏ). Nâng cấp tuỳ chọn: 'If there is…, he will…' không sai ngữ pháp; bài mẫu đổi thành 'If there were…, he would…' để giữ khung giả định 'would' của Task 2 – cả hai cách đều nhất quán. Bạn tìm được bao nhiêu? Lỗi bạn bỏ sót thuộc loại nào – hãy thêm loại đó vào danh sách lỗi cá nhân.",
+      "competency": "grammar"
+    }
+  ],
+  "misconceptions": {
+    "noun_marking": {
+      "label": "Quên đánh dấu danh từ: mạo từ, số nhiều, đếm được",
+      "explanationVi": "Tiếng Việt không bắt buộc đánh dấu số nhiều hay mạo từ trên danh từ, nên khi đọc lại bạn không 'nghe thấy' chỗ thiếu a/the hay '-s', và dễ thêm '-s' vào danh từ không đếm được (advices, equipments). Đây là lỗi nhận diện khi soát bài, không phải vì bạn không biết quy tắc.",
+      "fixVi": "Trong lượt danh từ, dừng ở từng danh từ và hỏi: số ít đếm được → có a/an/the/my chưa? Sau many/two/these → có '-s' chưa? Có thuộc nhóm không đếm được (advice, information, equipment, furniture, traffic) không?"
+    },
+    "verb_marking": {
+      "label": "Quên đánh dấu động từ: thì và hoà hợp",
+      "explanationVi": "Động từ tiếng Việt không đổi theo thì hay ngôi, nên bạn dễ để nguyên dạng (he say, yesterday she miss) hoặc dùng sai thì với 'since/for'. Chủ ngữ dài ('One of my coworkers') làm bạn hoà hợp động từ với danh từ gần nhất thay vì chủ ngữ thật.",
+      "fixVi": "Trong lượt động từ, đặt con trỏ vào từng động từ: tìm mốc thời gian (yesterday, since, now, next month) để kiểm tra thì; tìm chủ ngữ thật để kiểm tra '-s'. Task 2: kiểm tra 'would' nhất quán."
+    },
+    "run_on": {
+      "label": "Câu nối bằng dấu phẩy, Because… so, Although… but",
+      "explanationVi": "Tiếng Việt cho phép nối nhiều mệnh đề bằng dấu phẩy và dùng cặp 'vì… nên', 'mặc dù… nhưng'. Trong tiếng Anh, hai câu độc lập cần dấu chấm, dấu chấm phẩy hoặc liên từ, và chỉ dùng một từ nối cho mỗi quan hệ. 'Therefore/however' không phải liên từ.",
+      "fixVi": "Trong lượt câu, với mỗi dấu phẩy, hỏi: hai bên có phải là hai câu đầy đủ (chủ ngữ + động từ) không? Nếu có, thêm and/but/so, đổi thành dấu chấm, hoặc thêm because/when. Thấy 'Because' thì xoá 'so'; thấy 'Although' thì xoá 'but'."
+    },
+    "word_choice": {
+      "label": "Sai giới từ, dạng từ hoặc kết hợp từ",
+      "explanationVi": "Bạn dịch giới từ hoặc cụm từ từ tiếng Việt (since three years, in Monday, discuss about, do a mistake) hoặc dùng sai dạng từ (very convenience). Đây là lỗi ở cấp độ từ, ảnh hưởng cả grammar và vocabulary range.",
+      "fixVi": "Trong lượt từ, kiểm tra riêng: for/since, on/in/at, động từ không cần giới từ (discuss, contact, attend), và từ sau 'be/would be' có phải tính từ không. Ghi các cặp hay nhầm vào danh sách lỗi cá nhân."
+    },
+    "unfocused_rereading": {
+      "label": "Đọc lại chung chung, không có mục tiêu",
+      "explanationVi": "Bạn đọc lại bài một lượt theo nội dung, hoặc dùng thời gian cuối để viết lại/thêm ý. Khi đọc theo nghĩa, não tự điền chỗ thiếu nên bỏ sót lỗi; còn viết lại phút cuối thì tạo lỗi mới.",
+      "fixVi": "Luôn dành 3–4 phút cuối cho ba lượt có mục tiêu (task → động từ/danh từ → câu/từ), bắt đầu bằng 5 câu hỏi trong danh sách lỗi cá nhân, và chỉ sửa tối thiểu."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "proofread",
+      "vi": "soát lỗi (đọc lại để sửa lỗi nhỏ)",
+      "example": "I always save four minutes at the end to proofread my email."
+    },
+    {
+      "term": "comma splice",
+      "vi": "lỗi nối hai câu độc lập chỉ bằng dấu phẩy",
+      "example": "'The ferry was full, we waited two hours' is a comma splice; add 'so' after the comma."
+    },
+    {
+      "term": "for + a period / since + a starting point",
+      "vi": "for + khoảng thời gian / since + mốc thời gian",
+      "example": "I have lived in Nanaimo for six years, since I moved from Ho Chi Minh City in 2019."
+    },
+    {
+      "term": "discuss something (no 'about')",
+      "vi": "thảo luận điều gì (không dùng 'about')",
+      "example": "I would like to discuss the new parking rules at the next strata meeting."
+    },
+    {
+      "term": "look forward to + -ing",
+      "vi": "mong chờ (sau 'to' là V-ing)",
+      "example": "I look forward to hearing from you before the end of the month."
+    },
+    {
+      "term": "make a mistake",
+      "vi": "mắc lỗi (không dùng 'do a mistake')",
+      "example": "The pharmacy made a mistake with my prescription refill."
+    },
+    {
+      "term": "a piece of advice / some advice",
+      "vi": "một lời khuyên / vài lời khuyên (advice không đếm được)",
+      "example": "My neighbour gave me some useful advice about winter tires."
+    },
+    {
+      "term": "be out of order",
+      "vi": "bị hỏng, không hoạt động (máy móc công cộng)",
+      "example": "The laundry machines on the second floor have been out of order since Friday."
+    }
+  ],
+  "grammar": [
+    {
+      "point": "The noun check: articles, plurals and uncountable nouns",
+      "explanationVi": "Danh từ số ít đếm được luôn cần một từ hạn định (a/an/the/my/this…). 'a/an' khi nhắc lần đầu hoặc một trong nhiều cái; 'the' khi cả người viết và người đọc biết cái nào (the elevator in our building, the noise from upstairs). Danh từ số nhiều hoặc không đếm được mang nghĩa chung thì không cần mạo từ (Parents need parks.). Danh từ không đếm được không có '-s' và đi với động từ số ít: advice, information, equipment, furniture, luggage, traffic, homework, feedback.",
+      "examples": [
+        "I live in an apartment near the SkyTrain station.",
+        "Many parents have the same problem.",
+        "The new equipment is fun for children.",
+        "Could you send me more information about the program?"
+      ]
+    },
+    {
+      "point": "Sentence boundaries: comma splices, Because… so, Although… but",
+      "explanationVi": "Hai mệnh đề độc lập không thể nối chỉ bằng dấu phẩy. Bốn cách sửa: dấu chấm; dấu chấm phẩy; dấu phẩy + and/but/so/or; hoặc biến một mệnh đề thành mệnh đề phụ bằng because/when/although/if. Mỗi quan hệ chỉ dùng một từ nối: 'Because… so' và 'Although… but' là lỗi chuyển ngữ từ tiếng Việt. 'However/therefore' là trạng từ nối: dùng sau dấu chấm hoặc dấu chấm phẩy.",
+      "examples": [
+        "The bus was late, so I missed my shift.",
+        "Because the bus was late, I missed my shift.",
+        "The bus was late; therefore, I missed my shift.",
+        "Although the store is far, I still shop there."
+      ]
+    },
+    {
+      "point": "Present perfect with for / since",
+      "explanationVi": "Tình trạng hoặc chuỗi sự việc bắt đầu trong quá khứ và kéo dài đến hiện tại dùng hiện tại hoàn thành (has/have + V3), không dùng hiện tại đơn. 'for' + khoảng thời gian, 'since' + mốc. Dấu hiệu khác: so far, already, three times this month.",
+      "examples": [
+        "The elevator has been out of order for two weeks.",
+        "I have worked at the warehouse since 2022.",
+        "The heater has broken down three times this winter."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "label": "Luyện Writing Task 1 và dành 4 phút cuối để soát lỗi",
+      "route": "/writing?task=W1"
+    },
+    {
+      "label": "Mở trang Mistakes để cập nhật danh sách lỗi cá nhân",
+      "route": "/mistakes"
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "author-agent+independent-review-agent",
+    "notes": "Verified both drafts error by error: elevator = 9 errors + 1 politeness upgrade; washroom draft = 18 errors + 1 optional conditional upgrade (If there is…will is not an error); the model now matches the error list exactly (reverted the unlisted 'families' change and the When-restructure). Rebuilt the ex2 checklist so the 5 questions cover all 15 listed errors in true frequency order; made g3 unambiguous (article + defining clause); replaced i2 'advices' (duplicated wr-02-g1) with 'informations'."
+  }
+}

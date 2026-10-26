@@ -1,0 +1,353 @@
+{
+  "id": "rd-04",
+  "skill": "reading",
+  "module": "reading-foundations",
+  "level": "foundation",
+  "difficulty": 7,
+  "title": "Reading complex sentences",
+  "titleVi": "Đọc hiểu câu phức",
+  "estimatedMinutes": 30,
+  "prerequisites": ["rd-03"],
+  "competencies": ["grammar"],
+  "tasks": ["R1", "R2", "R3", "R4"],
+  "objectives": [
+    "You will be able to find the main clause (subject + main verb) of a long sentence by setting aside relative clauses, reduced clauses and opening phrases.",
+    "You will be able to identify what reference words (this, which, none of which, the former, the latter) point back to.",
+    "You will be able to separate the conceded idea from the main point in sentences with although, while and even though.",
+    "You will be able to identify who does the action in passive sentences, including reduced passives such as 'approved by council'."
+  ],
+  "objectiveVi": "Sau bài này, bạn tách được mệnh đề chính của câu dài, hiểu từ quy chiếu chỉ về đâu, phân biệt ý nhượng bộ với ý chính trong câu có although/while, và xác định ai thực hiện hành động trong câu bị động.",
+  "whyItMattersVi": "Bài đọc Level 7–8 có nhiều câu 30–40 từ với mệnh đề chen giữa. Ở Reading 5, bạn có thể hiểu hết từng từ nhưng vẫn hiểu sai câu: nhầm ai làm gì, lấy ý nhượng bộ làm ý chính, hoặc nối 'this' với danh từ sai. Đề thi thường đặt đáp án nhiễu đúng vào những chỗ đó. Đọc đúng cấu trúc câu là bước cần thiết để lên Level 8.",
+  "concept": [
+    {
+      "heading": "Bước 1: Tìm mệnh đề chính (main clause)",
+      "body": "Mỗi câu dài đều có một **xương sống**: chủ ngữ + động từ chính. Mọi thứ khác là thông tin thêm. Cách tìm:\n1. Tạm 'che' phần nằm giữa hai dấu phẩy, phần bắt đầu bằng *who/which/whose*, cụm mở đầu như *Built in 1962*, và cụm giới từ (*after two years of consultation*).\n2. Tìm động từ chia theo chủ ngữ (*will be replaced, was, suggests*).\n3. Đọc lại xương sống: *The Eastview Arena … will be replaced by a new recreation centre.*\n\nĐề thi thường lấy thông tin từ phần phụ (*which hosts minor hockey*) làm đáp án nhiễu cho câu hỏi về ý chính của câu."
+    },
+    {
+      "heading": "Bước 2: Mệnh đề quan hệ và mệnh đề rút gọn",
+      "body": "- **Relative clause**: *who, which, that, whose* bổ nghĩa cho danh từ ngay trước nó. *Tenants **whose leases end before August 31** must notify the office.* → chủ ngữ là *Tenants*, động từ là *must notify*.\n- **Reduced clause** (rút gọn, không có who/which): \n  - *-ed*: *Requests **received after June 1** will be considered…* = Requests that are received…\n  - *-ing*: *Residents **living on the top floor** reported…* = Residents who live…\n  - Đầu câu: *Having compared them, I think…* = After I compared them…\n\nMẹo: nếu thấy hai động từ liền nhau mà câu vẫn đúng ngữ pháp (*Requests received … will be considered*), động từ đầu thường là mệnh đề rút gọn, động từ sau mới là động từ chính."
+    },
+    {
+      "heading": "Bước 3: Từ quy chiếu (reference words)",
+      "body": "*This, that, these, it, they, which, such, doing so, none of which, the former* (cái thứ nhất), *the latter* (cái thứ hai) luôn chỉ về một ý đã nhắc. Ý đó **không phải lúc nào cũng là danh từ gần nhất** — có thể là cả một ý tưởng.\n\n*Two councillors argued that the plan should have included a second sheet of ice. **This**, they said, would have reduced waiting lists.* → *This* = việc thêm một sân băng thứ hai, không phải *the plan*.\n\nCách kiểm tra: thay từ quy chiếu bằng ý bạn nghĩ nó chỉ đến, rồi đọc lại câu. Nếu câu hợp lý và đúng với lập luận, bạn đã đúng."
+    },
+    {
+      "heading": "Bước 4: Câu nhượng bộ (concession)",
+      "body": "*Although, though, even though, while, despite, admittedly … but* giới thiệu một ý **được thừa nhận** nhưng **không phải** ý chính. Ý chính nằm ở mệnh đề còn lại.\n\n*While Ridgeline can start sooner, a two-week wait doesn't bother me.* → Ý chính: người viết không ngại chờ. Nếu câu hỏi hỏi 'Why does he choose Coastal?', đáp án 'It can start sooner' là bẫy — đó là ưu điểm của bên kia.\n\nLưu ý *while* có hai nghĩa: 'trong khi' (thời gian) và 'mặc dù' (nhượng bộ). Nếu hai vế đối lập nhau, đó là nhượng bộ."
+    },
+    {
+      "heading": "Bước 5: Câu bị động (passive voice)",
+      "body": "Trong câu bị động, chủ ngữ **nhận** hành động; người làm (agent) đứng sau *by*, hoặc bị lược bỏ.\n- *The arena will be replaced **by** a new recreation centre.* → trung tâm mới thay thế sân cũ, không phải ngược lại.\n- *The decision, approved **by council** last Tuesday, …* → hội đồng thông qua.\n- *Any vehicle … may be towed without notice.* → không nói ai kéo xe.\n\nCâu hỏi kiểu *Who approved…? Who conducted…?* kiểm tra đúng kỹ năng này. Hãy tìm *by + danh từ* và đừng nhầm chủ ngữ ngữ pháp với người thực hiện."
+    }
+  ],
+  "stimuli": {
+    "sentence-shuttle": {
+      "title": "One long sentence",
+      "text": "Even though the Sea-to-Sky Highway was closed for most of the morning, the shuttle company, which had warned passengers the night before, managed to get everyone to Whistler by noon."
+    },
+    "article-arena": {
+      "title": "Local news",
+      "text": "Built in 1962 and repaired several times since, the Eastview Arena, which hosts minor hockey and public skating, will be replaced by a new recreation centre. The decision, approved by council last Tuesday after two years of public consultation, was not unanimous. Although most councillors agreed that the old building had become too costly to maintain, two argued that the $48-million plan should have included a second sheet of ice. This, they said, would have reduced the long waiting lists that families currently face."
+    },
+    "email-fence": {
+      "title": "Email between neighbours",
+      "text": "Hi Ji-woo,\n\nThanks for sending the two quotes for the shared fence. Having compared them, I think we should go with Coastal Fencing rather than Ridgeline. The former is about $400 more expensive, but it includes removal of the old fence, which the latter would charge extra for. While Ridgeline can start sooner, a two-week wait doesn't bother me, given that we're not planning the barbecue until July.\n\nThe only thing that worries me is the colour samples Coastal sent, none of which really matches the house. Could you ask them whether they offer a darker stain?\n\nBest,\nSam"
+    },
+    "notice-lease": {
+      "title": "Building management notice",
+      "text": "Lease Renewals and Parking — Harbour View Apartments\n\nTenants whose leases end before August 31 and who wish to renew must notify the office in writing. Requests received after June 1 will be considered only if a unit remains available.\n\nParking spaces, which are assigned on a first-come, first-served basis, cannot be transferred between tenants, even when both parties agree. Any vehicle parked in a space not assigned to it may be towed without notice."
+    },
+    "article-downtown": {
+      "title": "News article",
+      "text": "While remote work is often blamed for emptying downtown cores, a survey of 1,200 Vancouver workers, conducted by a local university and released this week, suggests the picture is more complicated. Respondents who had switched to a hybrid schedule reported visiting downtown shops and restaurants almost as often as before the pandemic, mainly on the days they were required to be in the office. What has changed, the researchers argue, is not how often people come downtown but when: Mondays and Fridays, once among the busiest days for lunch spots, are now the quietest, a shift that small businesses have been slower to adapt to than large chains."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Stripping a sentence down to its main clause",
+      "stimulusId": "sentence-shuttle",
+      "question": "What is the main point of this sentence?",
+      "steps": [
+        "Spot the concession: 'Even though the Sea-to-Sky Highway was closed for most of the morning' — this is the conceded background, not the main point. Set it aside.",
+        "Spot the relative clause between commas: 'which had warned passengers the night before' — extra information about the company. Set it aside.",
+        "What remains: 'the shuttle company … managed to get everyone to Whistler by noon.' Subject = the shuttle company; main verb = managed.",
+        "Put it back together in my own words: despite the highway closure, the company still got everyone there by noon. The concession makes the result more impressive, but the main point is the result."
+      ],
+      "answer": "The shuttle company got all its passengers to Whistler by noon, despite the highway closure.",
+      "takeawayVi": "Che mệnh đề nhượng bộ và mệnh đề quan hệ, đọc phần còn lại: đó là ý chính. Phần bị che vẫn quan trọng cho chi tiết, nhưng đừng lấy nó làm câu trả lời cho câu hỏi ý chính."
+    },
+    {
+      "id": "ex2",
+      "title": "Passive voice and an opening reduced clause",
+      "stimulusId": "article-arena",
+      "question": "In the first sentence, what was built in 1962, and what will replace what?",
+      "steps": [
+        "The sentence opens with a reduced clause: 'Built in 1962 and repaired several times since,' — it has no subject of its own, so it describes the subject of the main clause that follows.",
+        "Find that subject: after the comma comes 'the Eastview Arena'. So the arena was built in 1962. (The clause 'which hosts minor hockey and public skating' is extra information about the arena.)",
+        "Main verb: 'will be replaced by a new recreation centre' — passive. The subject (the arena) receives the action; the agent after 'by' (the new centre) does the replacing.",
+        "Check against a trap: 'The arena will replace the recreation centre' would reverse the roles. The new centre takes the place of the old arena."
+      ],
+      "answer": "The Eastview Arena was built in 1962, and a new recreation centre will replace it.",
+      "takeawayVi": "Cụm rút gọn ở đầu câu (Built in…, Having compared…) luôn mô tả chủ ngữ của mệnh đề chính ngay sau dấu phẩy. Trong câu bị động, ai đứng sau 'by' mới là người/vật thực hiện hành động."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "article-arena",
+      "prompt": "According to the first sentence, what will happen to the Eastview Arena?",
+      "hint": "Cover the opening phrase and the 'which…' clause. Read only the subject and the main verb that follows it.",
+      "options": [
+        { "text": "It will continue to host minor hockey", "misconception": "lost-main-clause", "whyVi": "Đây là thông tin trong mệnh đề quan hệ 'which hosts…' — mô tả hiện tại, không phải điều sẽ xảy ra." },
+        { "text": "It will be repaired once again", "misconception": "lost-main-clause", "whyVi": "'Repaired several times since' nằm trong cụm rút gọn mô tả quá khứ, không phải kế hoạch." },
+        { "text": "It will replace a new recreation centre", "misconception": "passive-agent", "whyVi": "Đảo vai trò: câu bị động nói sân băng bị thay thế bởi trung tâm mới." },
+        { "text": "A new recreation centre will take its place", "misconception": null, "whyVi": "Đúng. 'The Eastview Arena … will be replaced by a new recreation centre'." }
+      ],
+      "answerIndex": 3,
+      "evidence": "will be replaced by a new recreation centre",
+      "explanationVi": "Câu này có ba lớp: cụm rút gọn mở đầu, mệnh đề quan hệ, rồi động từ chính bị động. Động từ chính 'will be replaced' mới trả lời câu hỏi 'what will happen'.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g2",
+      "type": "text",
+      "stimulusId": "article-arena",
+      "prompt": "Who approved the decision to replace the arena? Type one or two words from the text.",
+      "hint": "The second sentence contains a reduced passive between commas. Look for the word 'by'.",
+      "answers": ["council", "the council", "city council", "by council", "by the council"],
+      "mode": "exact",
+      "misconception": "passive-agent",
+      "explanationVi": "'The decision, approved by council last Tuesday, …' = The decision, which was approved by council. Người thực hiện hành động đứng sau 'by'.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "email-fence",
+      "prompt": "In Sam's email, what does 'The former' refer to?",
+      "hint": "'The former' means the first of two things just mentioned. Find the sentence where two options are named, and check their order.",
+      "options": [
+        { "text": "Coastal Fencing", "misconception": null, "whyVi": "Đúng. Câu trước nêu 'Coastal Fencing rather than Ridgeline' — Coastal được nhắc trước." },
+        { "text": "Ridgeline", "misconception": "reference-error", "whyVi": "Ridgeline là cái thứ hai, tức 'the latter'. Nó cũng là danh từ gần nhất — đó là bẫy." },
+        { "text": "The old fence", "misconception": "reference-error", "whyVi": "'The old fence' xuất hiện sau 'The former', không thể là ý được nhắc trước." },
+        { "text": "The two quotes", "misconception": "reference-error", "whyVi": "'The former' chỉ một trong hai thứ, không chỉ cả hai." }
+      ],
+      "answerIndex": 0,
+      "evidence": "I think we should go with Coastal Fencing rather than Ridgeline. The former is about $400 more expensive",
+      "explanationVi": "'The former' = cái được nhắc trước, 'the latter' = cái được nhắc sau trong một cặp. Luôn quay lại câu có cặp đó để kiểm tra thứ tự, không chọn danh từ gần nhất.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "article-arena",
+      "prompt": "What did most councillors agree on?",
+      "hint": "Find the 'Although' clause. Who is the subject of that clause, and who is the subject of the other half of the sentence?",
+      "options": [
+        { "text": "The plan should have included a second sheet of ice", "misconception": "concession-flip", "whyVi": "Đây là ý kiến của 'two' councillors trong mệnh đề chính, không phải của đa số." },
+        { "text": "The old arena had become too expensive to keep running", "misconception": null, "whyVi": "Đúng. 'most councillors agreed that the old building had become too costly to maintain' — 'too costly to maintain' được diễn đạt lại." },
+        { "text": "The $48-million plan was too expensive", "misconception": "lost-main-clause", "whyVi": "Bài không nói ai cho rằng kế hoạch quá đắt; con số $48 triệu chỉ cho biết chi phí của kế hoạch, không ai nói nó quá đắt." },
+        { "text": "The public consultation took too long", "misconception": "lost-main-clause", "whyVi": "'Two years of public consultation' chỉ là thông tin về thời gian, không ai phàn nàn về nó." }
+      ],
+      "answerIndex": 1,
+      "evidence": "most councillors agreed that the old building had become too costly to maintain",
+      "explanationVi": "Câu nhượng bộ có hai vế với hai chủ ngữ khác nhau: 'most councillors' (vế although) và 'two' (vế chính). Gắn đúng ý kiến với đúng nhóm người.",
+      "competency": "grammar"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "article-arena",
+      "prompt": "In the last sentence, what does 'This' refer to?",
+      "options": [
+        { "text": "The $48-million plan as it was approved", "misconception": "reference-error", "whyVi": "Kế hoạch đã duyệt không có sân thứ hai, nên không thể giảm danh sách chờ theo lập luận này." },
+        { "text": "Including a second sheet of ice", "misconception": null, "whyVi": "Đúng. Hai ủy viên nói việc có thêm sân băng thứ hai sẽ giúp giảm danh sách chờ." },
+        { "text": "The cost of maintaining the old building", "misconception": "reference-error", "whyVi": "Chi phí bảo trì không thể 'reduce the long waiting lists'." },
+        { "text": "The two years of public consultation", "misconception": "reference-error", "whyVi": "Ý này nằm ở câu trước nữa và không liên quan đến danh sách chờ." }
+      ],
+      "answerIndex": 1,
+      "evidence": "two argued that the $48-million plan should have included a second sheet of ice. This, they said, would have reduced the long waiting lists",
+      "explanationVi": "'This' có thể chỉ cả một ý, không chỉ một danh từ. Thay thử: 'Including a second sheet of ice would have reduced the long waiting lists' — hợp lý và khớp với lập luận của hai ủy viên.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "email-fence",
+      "prompt": "In 'it includes removal of the old fence, which the latter would charge extra for', what would Ridgeline charge extra for?",
+      "options": [
+        { "text": "The $400 price difference", "misconception": "reference-error", "whyVi": "$400 là chênh lệch giá giữa hai công ty, không phải dịch vụ bị tính thêm." },
+        { "text": "A darker stain", "misconception": "reference-error", "whyVi": "Màu sơn tối hơn là câu hỏi cho Coastal, ở đoạn sau." },
+        { "text": "Removing the old fence", "misconception": null, "whyVi": "Đúng. 'Which' chỉ 'removal of the old fence'; 'the latter' là Ridgeline." },
+        { "text": "Starting the work sooner", "misconception": "concession-flip", "whyVi": "Bắt đầu sớm là ưu điểm của Ridgeline trong câu nhượng bộ, không phải khoản tính thêm." }
+      ],
+      "answerIndex": 2,
+      "evidence": "it includes removal of the old fence, which the latter would charge extra for",
+      "explanationVi": "Câu có hai từ quy chiếu: 'which' (chỉ danh từ ngay trước dấu phẩy: removal of the old fence) và 'the latter' (cái thứ hai trong cặp: Ridgeline). Giải từng từ một.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "email-fence",
+      "prompt": "Why does Sam prefer Coastal Fencing?",
+      "options": [
+        { "text": "It can start the work sooner", "misconception": "concession-flip", "whyVi": "Đây là ưu điểm của Ridgeline, nêu trong vế 'While…' mà Sam chấp nhận bỏ qua." },
+        { "text": "It is the cheaper option", "misconception": "lost-main-clause", "whyVi": "Ngược lại: Coastal đắt hơn khoảng $400." },
+        { "text": "Its price includes taking away the old fence", "misconception": null, "whyVi": "Đúng. Vế sau 'but' trong câu về giá cho thấy lý do chính." },
+        { "text": "Its colour samples match the house", "misconception": "lost-main-clause", "whyVi": "Ngược lại: 'none of which really matches the house'." }
+      ],
+      "answerIndex": 2,
+      "evidence": "The former is about $400 more expensive, but it includes removal of the old fence",
+      "explanationVi": "Trong câu 'X, but Y' và 'While X, Y', ý của người viết nằm ở Y. Sam thừa nhận Coastal đắt hơn và Ridgeline làm sớm hơn, nhưng lý do quyết định là dịch vụ tháo hàng rào cũ.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "notice-lease",
+      "prompt": "Two tenants want to trade parking spaces and both agree to it. What does the notice say?",
+      "options": [
+        { "text": "They may trade if they notify the office in writing", "misconception": "lost-main-clause", "whyVi": "'Notify the office in writing' thuộc câu về gia hạn hợp đồng, không phải đỗ xe." },
+        { "text": "They cannot trade, even with both tenants' agreement", "misconception": null, "whyVi": "Đúng. 'cannot be transferred between tenants, even when both parties agree'." },
+        { "text": "They may trade because both parties agree", "misconception": "concession-flip", "whyVi": "'Even when both parties agree' là nhượng bộ: dù đồng ý vẫn không được." },
+        { "text": "They may trade on a first-come, first-served basis", "misconception": "lost-main-clause", "whyVi": "Cụm này nằm trong mệnh đề quan hệ, mô tả cách chỗ đỗ được phân, không cho phép đổi." }
+      ],
+      "answerIndex": 1,
+      "evidence": "cannot be transferred between tenants, even when both parties agree",
+      "explanationVi": "Che mệnh đề 'which are assigned…' để thấy xương sống: 'Parking spaces … cannot be transferred'. 'Even when' giới thiệu trường hợp có vẻ được phép nhưng thực ra vẫn không được.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "notice-lease",
+      "prompt": "Ravi's lease ends on July 31. He sends a written renewal request on June 10. According to the notice, what will happen?",
+      "options": [
+        { "text": "His request will be rejected because it arrived after June 1", "misconception": "lost-main-clause", "whyVi": "Thông báo không nói sẽ từ chối; động từ chính là 'will be considered only if…'." },
+        { "text": "His lease will be renewed automatically", "misconception": "lost-main-clause", "whyVi": "Không có gì tự động; yêu cầu sau June 1 có điều kiện." },
+        { "text": "His request will be considered only if a unit is still available", "misconception": null, "whyVi": "Đúng. 'Requests received after June 1' là chủ ngữ (rút gọn), động từ chính là 'will be considered only if a unit remains available'." },
+        { "text": "His car may be towed without notice", "misconception": "lost-main-clause", "whyVi": "Việc kéo xe áp dụng cho xe đỗ sai chỗ, không liên quan đến gia hạn." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Requests received after June 1 will be considered only if a unit remains available.",
+      "explanationVi": "Hai động từ liền nhau 'received … will be considered': cái đầu là mệnh đề rút gọn bị động (requests that are received), cái sau là động từ chính. Đọc hết đến 'only if' để thấy điều kiện.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i6",
+      "type": "text",
+      "stimulusId": "article-downtown",
+      "prompt": "Who carried out the survey? Type the answer using words from the article (2–3 words).",
+      "answers": ["a local university", "local university", "the local university", "a university", "university", "by a local university"],
+      "mode": "exact",
+      "misconception": "passive-agent",
+      "explanationVi": "'a survey …, conducted by a local university and released this week, …' — mệnh đề rút gọn bị động. Người thực hiện đứng sau 'by'. Đừng nhầm với 'the researchers' (người phân tích) hay '1,200 Vancouver workers' (người trả lời khảo sát).",
+      "competency": "grammar"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "article-downtown",
+      "prompt": "According to the researchers, what has changed about downtown visits?",
+      "options": [
+        { "text": "Hybrid workers visit downtown far less often than before", "misconception": "concession-flip", "whyVi": "Đây là quan điểm phổ biến trong vế 'While remote work is often blamed…'. Khảo sát cho thấy họ đến 'almost as often as before'." },
+        { "text": "The days on which people go downtown have shifted", "misconception": null, "whyVi": "Đúng. 'not how often people come downtown but when' — thay đổi là thời điểm, không phải tần suất." },
+        { "text": "Hybrid workers have stopped going to restaurants", "misconception": "lost-main-clause", "whyVi": "Trái với kết quả: họ vẫn đến cửa hàng và nhà hàng gần như thường xuyên như trước." },
+        { "text": "Large chains are now struggling more than small businesses", "misconception": "reference-error", "whyVi": "Câu cuối nói doanh nghiệp nhỏ thích ứng chậm hơn chuỗi lớn — tức là ngược lại." }
+      ],
+      "answerIndex": 1,
+      "evidence": "What has changed, the researchers argue, is not how often people come downtown but when",
+      "explanationVi": "Câu dạng 'What has changed … is not X but Y' đặt ý chính ở Y. Cụm 'the researchers argue' chen giữa chỉ cho biết ai nói, có thể tạm che khi đọc.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "article-downtown",
+      "prompt": "What does the final part of the article — 'a shift that small businesses have been slower to adapt to than large chains' — tell us?",
+      "options": [
+        { "text": "Large chains have adjusted to the new pattern more quickly than small businesses", "misconception": null, "whyVi": "Đúng. 'Small businesses have been slower … than large chains' = chuỗi lớn thích ứng nhanh hơn." },
+        { "text": "Small businesses have adjusted faster than large chains", "misconception": "lost-main-clause", "whyVi": "Đảo ngược phép so sánh 'slower … than'." },
+        { "text": "Mondays and Fridays have become the busiest lunch days", "misconception": "reference-error", "whyVi": "'A shift' chỉ việc thứ Hai và thứ Sáu từ bận nhất trở thành vắng nhất — không phải bận hơn." },
+        { "text": "Large chains caused the change in lunch traffic", "misconception": "passive-agent", "whyVi": "Câu nói chuỗi lớn thích ứng với sự thay đổi, không nói họ gây ra nó." }
+      ],
+      "answerIndex": 0,
+      "evidence": "a shift that small businesses have been slower to adapt to than large chains",
+      "explanationVi": "Cụm cuối là một danh từ (a shift) được giải thích bằng mệnh đề quan hệ 'that…'. 'A shift' quy chiếu cả ý trước dấu phẩy (thứ Hai, thứ Sáu giờ vắng nhất). Trong phép so sánh 'slower … than', chủ ngữ (small businesses) là bên chậm hơn.",
+      "competency": "grammar"
+    }
+  ],
+  "misconceptions": {
+    "lost-main-clause": {
+      "label": "Lạc mất mệnh đề chính",
+      "explanationVi": "Bạn lấy thông tin từ phần phụ (mệnh đề quan hệ, cụm rút gọn, cụm giới từ) hoặc từ một câu khác làm câu trả lời, vì chưa tìm được chủ ngữ và động từ chính của câu.",
+      "fixVi": "Che các phần giữa dấu phẩy, phần bắt đầu bằng who/which/whose và cụm mở đầu. Đọc chủ ngữ + động từ chính, rồi mới thêm từng phần phụ trở lại."
+    },
+    "reference-error": {
+      "label": "Hiểu sai từ quy chiếu",
+      "explanationVi": "Bạn nối this, which, the former, the latter, a shift… với danh từ gần nhất hoặc một ý sai, thay vì ý mà lập luận thật sự chỉ đến.",
+      "fixVi": "Thay từ quy chiếu bằng ý bạn nghĩ nó chỉ, đọc lại cả câu. Với the former/the latter, quay lại câu nêu cặp đối tượng và kiểm tra thứ tự."
+    },
+    "concession-flip": {
+      "label": "Lấy ý nhượng bộ làm ý chính",
+      "explanationVi": "Bạn chọn thông tin nằm trong vế although/while/even though/even when — ý được thừa nhận nhưng bị gạt sang bên — như thể đó là quan điểm hoặc kết luận của câu.",
+      "fixVi": "Khoanh từ nhượng bộ, chia câu thành hai vế. Ý chính và quan điểm của người viết nằm ở vế còn lại (thường sau dấu phẩy hoặc sau 'but')."
+    },
+    "passive-agent": {
+      "label": "Nhầm người thực hiện trong câu bị động",
+      "explanationVi": "Bạn coi chủ ngữ ngữ pháp là người làm hành động, hoặc đảo vai trò trong câu bị động (the arena will replace…), hoặc chọn người được nhắc gần đó thay vì danh từ sau 'by'.",
+      "fixVi": "Thấy be + V3 hoặc V3 + by, hỏi: ai làm hành động này? Tìm danh từ sau 'by'. Nếu không có 'by', câu không nói ai làm — đừng tự thêm."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "the former / the latter", "vi": "cái thứ nhất / cái thứ hai (trong hai thứ vừa nhắc)", "example": "We looked at Squamish and Whistler; the former is cheaper, the latter has more jobs." },
+    { "term": "given that", "vi": "xét thấy rằng, vì", "example": "Given that the ferry is often full, book your sailing early." },
+    { "term": "none of which", "vi": "không cái nào trong số đó", "example": "She sent three paint samples, none of which matched the trim." },
+    { "term": "not unanimous", "vi": "không được nhất trí hoàn toàn", "example": "The vote on the new bike lane was not unanimous." },
+    { "term": "first-come, first-served", "vi": "ai đến trước được phục vụ trước", "example": "Campsites at the park are first-come, first-served on weekdays." },
+    { "term": "even when", "vi": "ngay cả khi", "example": "The pool stays closed on Mondays, even when there is a holiday." },
+    { "term": "too costly to maintain", "vi": "quá tốn kém để bảo trì", "example": "The old pier had become too costly to maintain." },
+    { "term": "adapt to (a shift)", "vi": "thích ứng với (một sự thay đổi)", "example": "Many cafés have adapted to the shift toward takeout orders." }
+  ],
+  "grammar": [
+    {
+      "point": "Relative and reduced clauses",
+      "explanationVi": "Mệnh đề quan hệ (who, which, that, whose) và dạng rút gọn (-ed, -ing, cụm đầu câu) bổ nghĩa cho danh từ, không phải động từ chính. Khi đọc, tạm bỏ chúng để thấy xương sống câu.",
+      "examples": [
+        "Tenants whose leases end before August 31 must notify the office.",
+        "Requests received after June 1 will be considered only if a unit remains available.",
+        "Built in 1962, the arena will be replaced next year."
+      ]
+    },
+    {
+      "point": "Concession: although, while, even though, even when",
+      "explanationVi": "Vế nhượng bộ nêu điều được thừa nhận; vế còn lại chứa ý chính. 'While' mang nghĩa 'mặc dù' khi hai vế đối lập nhau.",
+      "examples": [
+        "Although most councillors agreed the building was too costly, two wanted a second rink.",
+        "While Ridgeline can start sooner, a two-week wait doesn't bother me.",
+        "Spaces cannot be transferred, even when both parties agree."
+      ]
+    },
+    {
+      "point": "Passive voice and the agent after 'by'",
+      "explanationVi": "Câu bị động: chủ ngữ nhận hành động; người làm đứng sau 'by' hoặc bị lược bỏ. Dạng rút gọn (approved by council, conducted by a university) rất thường gặp trong bài báo.",
+      "examples": [
+        "The arena will be replaced by a new recreation centre.",
+        "The decision, approved by council last Tuesday, was not unanimous.",
+        "Any vehicle parked in the wrong space may be towed without notice."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Drill: grammar and sentence structure", "route": "/reading?mode=drill&focus=grammar" },
+    { "label": "Reading Part 3 — Reading for information", "route": "/reading?task=R3" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises; keys and grammar explanations correct. Added 'by council'/'by a local university' answer variants, fixed the g4 '$48-million' rationale wording and an ill-fitting misconception tag on i5 option D."}
+}

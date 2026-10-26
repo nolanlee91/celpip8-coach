@@ -1,0 +1,21 @@
+{
+ "version": 1,
+ "modules": [
+  { "id": "reading-foundations", "skill": "reading", "order": 1, "title": "Reading foundations", "titleVi": "Nền tảng đọc hiểu", "goalVi": "Đọc nhanh mà vẫn nắm được bố cục, chi tiết và nghĩa của từ trong ngữ cảnh.", "lessons": ["rd-01", "rd-02", "rd-03", "rd-04", "rd-05"] },
+  { "id": "reading-techniques", "skill": "reading", "order": 2, "title": "Answering techniques", "titleVi": "Kỹ thuật trả lời câu hỏi", "goalVi": "Nhận ra paraphrase, tìm bằng chứng, suy luận và loại đáp án nhiễu một cách có hệ thống.", "lessons": ["rd-06", "rd-07", "rd-08", "rd-09", "rd-10"] },
+  { "id": "reading-parts", "skill": "reading", "order": 3, "title": "Part strategies for Level 8", "titleVi": "Chiến lược từng Part — hướng Level 8", "goalVi": "Áp dụng kỹ thuật vào đúng định dạng Reading Part 1–4 và quản lý 55 phút.", "lessons": ["rd-11", "rd-12", "rd-13", "rd-14", "rd-15"] },
+
+  { "id": "listening-foundations", "skill": "listening", "order": 1, "title": "Listening foundations", "titleVi": "Nền tảng nghe", "goalVi": "Nghe ý chính, bắt chi tiết số liệu, nghe rõ từng từ và quen giọng Canada.", "lessons": ["ls-01", "ls-02", "ls-03", "ls-04", "ls-05"] },
+  { "id": "listening-comprehension", "skill": "listening", "order": 2, "title": "Deeper comprehension", "titleVi": "Kỹ năng hiểu sâu", "goalVi": "Nhận ra paraphrase, thái độ người nói, theo dõi hội thoại dài, đoán trước và ghi chú.", "lessons": ["ls-06", "ls-07", "ls-08", "ls-09", "ls-10"] },
+  { "id": "listening-parts", "skill": "listening", "order": 3, "title": "Part strategies for Level 8", "titleVi": "Chiến lược từng Part — hướng Level 8", "goalVi": "Áp dụng kỹ năng vào Listening Part 1–6.", "lessons": ["ls-11", "ls-12", "ls-13", "ls-14", "ls-15"] },
+
+  { "id": "speaking-foundations", "skill": "speaking", "order": 1, "title": "Speaking foundations", "titleVi": "Nền tảng nói", "goalVi": "Có khung trả lời, nghĩ ý nhanh, nói mạch lạc và dùng đủ thời gian.", "lessons": ["sp-01", "sp-02", "sp-03", "sp-04", "sp-05"] },
+  { "id": "speaking-tasks", "skill": "speaking", "order": 2, "title": "Task skills 1–5", "titleVi": "Kỹ năng theo Task 1–5", "goalVi": "Khuyên, kể chuyện, tả tranh, dự đoán và thuyết phục đúng yêu cầu từng task.", "lessons": ["sp-06", "sp-07", "sp-08", "sp-09", "sp-10"] },
+  { "id": "speaking-level8", "skill": "speaking", "order": 3, "title": "Level 8 performance", "titleVi": "Nâng lên Level 8", "goalVi": "Task 6–8, từ vựng phong phú hơn và câu phức chính xác khi nói.", "lessons": ["sp-11", "sp-12", "sp-13", "sp-14", "sp-15"] },
+
+  { "id": "writing-foundations", "skill": "writing", "order": 1, "title": "Writing foundations", "titleVi": "Nền tảng viết", "goalVi": "Câu đúng và đa dạng, đoạn văn rõ ràng, liên kết tốt, đúng giọng văn.", "lessons": ["wr-01", "wr-02", "wr-03", "wr-04", "wr-05"] },
+  { "id": "writing-email", "skill": "writing", "order": 2, "title": "Task 1: Emails", "titleVi": "Task 1: Viết email", "goalVi": "Viết email đủ ý, đúng mức trang trọng, từ vựng tự nhiên.", "lessons": ["wr-06", "wr-07", "wr-08", "wr-09"] },
+  { "id": "writing-survey", "skill": "writing", "order": 3, "title": "Task 2: Survey responses", "titleVi": "Task 2: Trả lời khảo sát", "goalVi": "Chọn phương án, lập luận có lý do và ví dụ, xử lý phương án còn lại.", "lessons": ["wr-10", "wr-11", "wr-12"] },
+  { "id": "writing-polish", "skill": "writing", "order": 4, "title": "Polish for Level 8", "titleVi": "Hoàn thiện Level 8", "goalVi": "Mạch lạc cả bài, tự sửa lỗi và chiến lược thời gian.", "lessons": ["wr-13", "wr-14", "wr-15"] }
+ ]
+}

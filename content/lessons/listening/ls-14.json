@@ -1,0 +1,727 @@
+{
+  "id": "ls-14",
+  "skill": "listening",
+  "module": "listening-parts",
+  "level": "target8",
+  "difficulty": 9,
+  "title": "Part 5: Discussion",
+  "titleVi": "Part 5: Nghe thảo luận nhiều người",
+  "estimatedMinutes": 35,
+  "prerequisites": [
+    "ls-08",
+    "ls-07"
+  ],
+  "competencies": [
+    "long_conversation",
+    "speaker_attitude"
+  ],
+  "tasks": [
+    "L5"
+  ],
+  "objectives": [
+    "You will be able to track three or four speakers' positions, reasons and changes of mind in a position grid.",
+    "You will be able to tell full agreement, partial agreement, reluctant acceptance and disagreement apart from the words speakers use.",
+    "You will be able to separate what was finally decided from what was proposed, postponed or left unresolved.",
+    "You will be able to interpret idiomatic comments in a meeting (\"cross that bridge when we get there\") in context."
+  ],
+  "objectiveVi": "Sau bài này, bạn theo dõi được 3–4 người trong một cuộc thảo luận: ai giữ quan điểm gì, vì sao, ai đổi ý, mức độ đồng ý của từng người, và cuối cùng nhóm quyết định gì, hoãn gì, còn bỏ ngỏ gì.",
+  "whyItMattersVi": "Part 5 có 8 câu — cùng Part 1 là nhiều câu nhất trong bài Listening — và là phần khó nhất để giữ tập trung: nhiều giọng, nhiều ý kiến, nhiều lần đổi ý. Ở Listening 6, bạn thường nhớ được nội dung nhưng gán nhầm người, hoặc chọn quan điểm BAN ĐẦU của một người thay vì quan điểm CUỐI. Một bảng theo dõi vị trí (position grid) đơn giản có thể biến Part 5 từ phần mất điểm nhiều nhất thành phần ổn định — điều kiện cần cho Level 8–9.",
+  "concept": [
+    {
+      "heading": "Part 5 trông như thế nào",
+      "body": "**Part 5 – Listening to a Discussion** (8 câu): trong bài thi thật, đây là một **video** khoảng 2–3 phút, thường có ba người (đôi khi nhiều hơn) bàn về một quyết định: một cuộc họp ở nơi làm việc, hội đồng strata, nhóm phụ huynh. Mỗi người có **vai trò** và **lợi ích** riêng, nên quan điểm khác nhau. Video và audio chỉ phát **một lần**, câu hỏi hiện ra sau.\n\nTrong app này, bạn chỉ nghe audio, nên phải nhận ra người nói qua **tên** (người ta gọi nhau bằng tên: \"Gord, how would you feel…?\"), **giọng** và **vai trò**. Câu hỏi Part 5 thường thuộc 4 nhóm: *quan điểm của một người*, *lý do*, *thái độ/mức độ đồng ý*, và *kết quả cuối cùng hoặc vấn đề còn bỏ ngỏ*."
+    },
+    {
+      "heading": "Bảng theo dõi vị trí (position grid)",
+      "body": "Kẻ một bảng nhỏ trước khi nghe, mỗi người một dòng:\n\n| Tên / vai trò | Muốn gì | Vì sao | Đổi ý? | Cuối cùng |\n|---|---|---|---|---|\n\n- Ghi cực ngắn: `Gord: keep court | plays Sun | → ? | …`.\n- Khi ai đó **đổi ý**, đừng xoá — viết mũi tên `→` và vị trí mới. Câu hỏi \"How does X's position change?\" cần cả hai đầu mũi tên.\n- Thêm một dòng **DECIDED / OPEN** ở dưới cùng cho kết luận của người chủ trì."
+    },
+    {
+      "heading": "Thang đồng ý: từ đồng ý hoàn toàn đến phản đối",
+      "body": "Câu hỏi thái độ trong Part 5 kiểm tra **mức độ**, nên hãy xếp mỗi câu nói vào một bậc:\n\n- **Đồng ý hoàn toàn:** *Exactly. / That's exactly my point. / I'm with you on that. / I couldn't agree more.*\n- **Đồng ý một phần:** *I see your point, but… / That's fair, but… / I'm not against X, but… / Up to a point.*\n- **Chấp nhận miễn cưỡng / nhượng bộ:** *I'm not thrilled, but… / I won't stand in the way. / I suppose that could work. / Fair enough.*\n- **Phản đối lịch sự:** *I'm not so sure about that. / I'd push back on that a little. / With respect, …*\n- **Bị thuyết phục:** *Okay, you've convinced me. / That changes things.*\n\nGiọng đọc máy khá đều, nên **chữ** mới là bằng chứng: \"not thrilled\" ≠ \"angry\"; \"I'm not against\" ≠ \"I support\"."
+    },
+    {
+      "heading": "Kết quả cuối: decided, postponed hay open?",
+      "body": "Gần cuối, người chủ trì thường **tóm tắt**: *So, here's what I suggest… / Let's go with… / To recap…*. Phân loại từng ý thành:\n\n- **Decided** – đã chốt: *Let's do that. / Agreed. / Starting in February.*\n- **Postponed** – hoãn để người khác quyết: *Let's table this for now. / Let's put it to the whole membership. / Let's revisit this next month.*\n- **Open / unresolved** – chưa có câu trả lời: *I'll look into it. / I don't have an answer yet. / We'll figure that part out later.*\n\nBẫy kinh điển: đáp án mô tả một ý được **ủng hộ nhiều** như thể nó **đã được quyết định**."
+    },
+    {
+      "heading": "Chiến lược từng bước",
+      "body": "1. **Phần hướng dẫn và hình ảnh/câu giới thiệu mở đầu (nếu có):** ai họp, về việc gì? Đoán các lựa chọn và lợi ích của từng vai trò.\n2. **Mở bảng position grid**; mỗi khi một người được gọi tên hoặc tự giới thiệu, thêm dòng.\n3. **Nghe tín hiệu thang đồng ý** và ghi ký hiệu: `✓✓` (hoàn toàn), `✓~` (một phần), `~` (miễn cưỡng), `✗` (phản đối).\n4. **Đánh dấu thay đổi** bằng `→`; người nói thường đổi ý ngay sau khi nghe một thông tin mới (\"Okay, that's a fair point about…\").\n5. **Ghi kết luận** thành DECIDED / LATER / OPEN.\n6. **Khi trả lời:** xác định câu hỏi hỏi về AI và về THỜI ĐIỂM nào (ban đầu hay cuối cùng), rồi mới tra bảng."
+    }
+  ],
+  "stimuli": {
+    "warehouse-meeting": {
+      "title": "Library clip: Moving the warehouse to scheduling software",
+      "audioRef": {
+        "setId": "l5-full-01",
+        "chunk": 0
+      }
+    },
+    "agreement-lines": {
+      "title": "Five reactions from different meetings",
+      "text": "A. \"I couldn't agree more. Let's do it.\"\nB. \"That's fair, but I still think the cost is too high.\"\nC. \"Honestly, I'm not thrilled. But I won't stand in the way.\"\nD. \"With respect, I'd push back on that.\"\nE. \"Okay, you've convinced me. I'll support it.\""
+    },
+    "tennis-court-meeting": {
+      "title": "Part 5 style: A strata council discusses the old tennis court",
+      "audio": [
+        {
+          "speaker": "Helen, council chair",
+          "voice": "female_a",
+          "text": "Alright, last item: the old tennis court. The resurfacing quote came in at thirty-eight thousand dollars, and honestly, I almost never see anyone using it. So before we spend that, should we keep it at all?"
+        },
+        {
+          "speaker": "Gord, owner",
+          "voice": "male_a",
+          "text": "Well, I play on it. Me and two neighbours, every Sunday morning, May to September. I know that's not many people, but if it's gone, it's gone for good."
+        },
+        {
+          "speaker": "Raj, owner",
+          "voice": "male_b",
+          "text": "I hear you, Gord, but thirty-eight thousand for three players is hard to justify. What I've been pushing for is EV chargers. Some owners are running extension cords out of their windows, which is a fire hazard, frankly."
+        },
+        {
+          "speaker": "Wei, owner",
+          "voice": "female_b",
+          "text": "Can I add something? I'm not against chargers, but they don't need the tennis court. They'd go in the parkade, next to the electrical room. The court is our only flat open space. My idea is a community garden. My kids would actually use that."
+        },
+        {
+          "speaker": "Raj, owner",
+          "voice": "male_b",
+          "text": "Okay, that's a fair point about the parkade. I just assumed the court was the cheapest spot. If the electrician says the parkade works, I'm fine either way."
+        },
+        {
+          "speaker": "Helen, council chair",
+          "voice": "female_a",
+          "text": "Good. So the chargers are really a separate project. Gord, how would you feel about a garden?"
+        },
+        {
+          "speaker": "Gord, owner",
+          "voice": "male_a",
+          "text": "Honestly? Not thrilled. But I'm realistic. If most people want a garden, I'm not going to stand in the way. Could we at least keep a section for pickleball? It needs a much smaller court."
+        },
+        {
+          "speaker": "Wei, owner",
+          "voice": "female_b",
+          "text": "I'd be open to that, as long as the garden gets most of the space. Pickleball can get pretty noisy, though, and my unit's right beside the court."
+        },
+        {
+          "speaker": "Gord, owner",
+          "voice": "male_a",
+          "text": "We could limit play to after nine a.m. That's what the community centre does."
+        },
+        {
+          "speaker": "Wei, owner",
+          "voice": "female_b",
+          "text": "Okay. I can live with that."
+        },
+        {
+          "speaker": "Helen, council chair",
+          "voice": "female_a",
+          "text": "Okay. Here's what I suggest. We don't vote tonight. I'll get a quote for raised beds plus a half-size pickleball court and bring it to the AGM in March, so all the owners can decide. Raj, can you ask the electrician about the parkade?"
+        },
+        {
+          "speaker": "Raj, owner",
+          "voice": "male_b",
+          "text": "Sure. But I'll warn everyone now, the chargers won't be cheap either. We might need a special levy."
+        },
+        {
+          "speaker": "Helen, council chair",
+          "voice": "female_a",
+          "text": "Let's cross that bridge when we get there."
+        }
+      ]
+    },
+    "clinic-saturdays": {
+      "title": "Part 5 style: A dental clinic team discusses Saturday hours",
+      "audio": [
+        {
+          "speaker": "Dr. Amina Yusuf, clinic owner",
+          "voice": "female_a",
+          "text": "So, the idea is to open on Saturdays, eight to two, starting in the new year. Our waitlist for evening appointments is over three weeks long. I'd like your honest reactions."
+        },
+        {
+          "speaker": "Brent, hygienist",
+          "voice": "male_a",
+          "text": "Honest reaction? I've got two kids in soccer on Saturdays. I'm not saying no, but I can't do every week."
+        },
+        {
+          "speaker": "Carla, receptionist",
+          "voice": "female_b",
+          "text": "Same, sort of. But I think we're mixing two things up. The waitlist isn't really about the days we're open. It's that people book evening slots and then just don't show up. Last month we had eighteen no-shows."
+        },
+        {
+          "speaker": "Dr. Amina Yusuf, clinic owner",
+          "voice": "female_a",
+          "text": "Eighteen? I thought it was closer to ten."
+        },
+        {
+          "speaker": "Carla, receptionist",
+          "voice": "female_b",
+          "text": "It was eighteen. I counted. If we started charging a no-show fee, a lot of those slots would free up."
+        },
+        {
+          "speaker": "Brent, hygienist",
+          "voice": "male_a",
+          "text": "I'm with Carla on that. A fee would fix half the problem without anyone working weekends."
+        },
+        {
+          "speaker": "Dr. Amina Yusuf, clinic owner",
+          "voice": "female_a",
+          "text": "I'm a bit wary of fees. Some of our patients are seniors on fixed incomes. But okay, what about a reminder text two days before, and a fee only after a second missed appointment?"
+        },
+        {
+          "speaker": "Carla, receptionist",
+          "voice": "female_b",
+          "text": "That's fair. I can set up the reminders this week."
+        },
+        {
+          "speaker": "Dr. Amina Yusuf, clinic owner",
+          "voice": "female_a",
+          "text": "And Saturdays?"
+        },
+        {
+          "speaker": "Brent, hygienist",
+          "voice": "male_a",
+          "text": "Try it once a month for three months. If it's busy, then we talk about more."
+        },
+        {
+          "speaker": "Dr. Amina Yusuf, clinic owner",
+          "voice": "female_a",
+          "text": "All right. One Saturday a month as a trial, reminders right away, and the fee policy starting in February."
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "ex-1",
+      "title": "Tracking one speaker's change of position",
+      "stimulusId": "warehouse-meeting",
+      "question": "How does Marco's position on the start date change during the meeting?",
+      "steps": [
+        "Mở dòng cho Marco (shift supervisor). Câu đầu: \"I'm not against the software itself. What worries me is the timing.\" → `Marco: software ✓~ | Jan ✗ (post-holiday returns, busy)`.",
+        "Marco nhắc lại: \"That's exactly my point. Training takes time, and I can't pull people off the floor in January.\" — \"That's exactly my point\" là đồng ý hoàn toàn với Tanvir về chuyện đào tạo.",
+        "Grace đưa ra kế hoạch hai giai đoạn: day crew tháng Hai, night crew tháng Ba.",
+        "Phản ứng của Marco: \"Okay, a February start for days, I can live with that.\" → ghi `→ Feb (days) ~` — chấp nhận, mức độ \"can live with\" (được, dù không hào hứng).",
+        "Kết luận: đầu cuộc họp Marco phản đối thời điểm tháng Một; cuối cùng anh chấp nhận bắt đầu tháng Hai với ca ngày, kèm thêm một yêu cầu (supervisor duyệt mọi lần đổi ca)."
+      ],
+      "answer": "He first objects to a January start because it is a busy period, then accepts a February start for the day crew.",
+      "takeawayVi": "Câu hỏi \"position change\" cần CẢ điểm đầu và điểm cuối. Dùng mũi tên trong bảng ghi chú, và ghi kèm mức độ (\"I can live with that\" = chấp nhận, không phải hào hứng)."
+    },
+    {
+      "id": "ex-2",
+      "title": "Who proposed it, who supported it, what was left open",
+      "stimulusId": "warehouse-meeting",
+      "question": "Who proposes the two-phase plan, how do the others react, and what is still open at the end?",
+      "steps": [
+        "Tín hiệu đề xuất: Grace nói \"What if we did it in two phases?\" → người đề xuất là Grace, không phải Marco dù kế hoạch giải quyết đúng lo ngại của Marco.",
+        "Phản ứng: Lena \"I like that\" (✓✓, kèm lý do riêng: có thời gian xử lý kết nối payroll); Marco \"I can live with that\" (~); Tanvir không phản đối và cuối cùng đồng ý làm go-to person \"as long as I get trained properly first\" (✓ có điều kiện).",
+        "Phần OPEN: Tanvir hỏi về seniority, Grace nói \"I don't have an answer yet\", Lena \"I'll ask the vendor this week\" → ghi `OPEN: seniority ranking?`.",
+        "Phần DECIDED trong lời tóm tắt của Grace: \"day crew in February, night crew in March, a tablet in the break room, and Lena gets back to us on seniority.\" — chú ý ý cuối là việc cần tìm hiểu, không phải quyết định."
+      ],
+      "answer": "Grace proposes it; Lena supports it enthusiastically, Marco accepts it, and Tanvir goes along on condition of training. Whether the app can rank shifts by seniority is still open.",
+      "takeawayVi": "Lời tóm tắt cuối của người chủ trì là \"bản đồ\" cho câu hỏi kết quả, nhưng phải tách các mục đã chốt khỏi các mục chỉ là \"sẽ tìm hiểu\" (I'll ask, gets back to us)."
+    },
+    {
+      "id": "ex-3",
+      "title": "Placing reactions on the agreement scale",
+      "stimulusId": "agreement-lines",
+      "question": "Which reaction shows reluctant acceptance, and which shows partial agreement?",
+      "steps": [
+        "A: \"I couldn't agree more\" → đồng ý hoàn toàn (✓✓).",
+        "B: \"That's fair, but I still think…\" → công nhận một điểm nhưng giữ phản đối → đồng ý một phần (✓~).",
+        "C: \"I'm not thrilled. But I won't stand in the way.\" → không thích nhưng không ngăn cản → chấp nhận miễn cưỡng (~).",
+        "D: \"With respect, I'd push back on that.\" → phản đối lịch sự (✗). E: \"You've convinced me\" → đổi ý sang ủng hộ (→ ✓).",
+        "Kiểm tra bẫy: C và B dễ bị nhầm. Khác biệt: B vẫn giữ quan điểm riêng (\"I still think\"), C từ bỏ việc phản đối (\"won't stand in the way\")."
+      ],
+      "answer": "C shows reluctant acceptance; B shows partial agreement.",
+      "takeawayVi": "Hỏi hai câu: (1) Người này có công nhận ý kia không? (2) Họ có còn phản đối không? Công nhận + còn phản đối = đồng ý một phần; không thích + thôi phản đối = chấp nhận miễn cưỡng."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "tennis-court-meeting",
+      "prompt": "Why does Helen bring up the tennis court?",
+      "hint": "Lý do của người chủ trì thường nằm ngay trong câu mở đầu. Helen nêu hai sự thật rồi nối bằng \"So…\".",
+      "options": [
+        {
+          "text": "Several owners have complained that the court is noisy.",
+          "misconception": "wrong_speaker",
+          "whyVi": "Tiếng ồn là lo ngại của Wei về pickleball, xuất hiện muộn hơn, và không phải lý do Helen mở vấn đề."
+        },
+        {
+          "text": "Repairing it would be expensive, and it seems to be rarely used.",
+          "misconception": null,
+          "whyVi": "Đúng: \"thirty-eight thousand dollars\" + \"I almost never see anyone using it\"."
+        },
+        {
+          "text": "The council has already decided to replace it with chargers.",
+          "misconception": "outcome_confusion",
+          "whyVi": "Chưa có gì được quyết định; Helen muốn nghe ý kiến trước."
+        },
+        {
+          "text": "The court is a fire hazard because of extension cords.",
+          "misconception": "wrong_speaker",
+          "whyVi": "\"Fire hazard\" là lời Raj nói về dây điện nối ra từ cửa sổ, không liên quan đến sân tennis."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "The resurfacing quote came in at thirty-eight thousand dollars, and honestly, I almost never see anyone using it.",
+      "explanationVi": "Helen nêu hai lý do: chi phí làm lại mặt sân (38.000 đô) và gần như không ai dùng. \"So before we spend that…\" nối lý do với mục đích: hỏi có nên giữ sân hay không.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "tennis-court-meeting",
+      "prompt": "How does Raj's position change after Wei speaks?",
+      "hint": "Ghi dòng của Raj với mũi tên: ban đầu anh muốn gì cho sân tennis, và câu \"Okay, that's a fair point about…\" cho thấy anh nhận thêm thông tin gì?",
+      "options": [
+        {
+          "text": "He drops the idea of EV chargers completely.",
+          "misconception": "agreement_level",
+          "whyVi": "Raj không bỏ chuyện sạc xe; anh vẫn sẽ hỏi thợ điện và cảnh báo về chi phí."
+        },
+        {
+          "text": "He decides to support keeping the tennis court for Gord.",
+          "misconception": "initial_position",
+          "whyVi": "Raj không chuyển sang ủng hộ giữ sân; anh chỉ không còn cần sân cho trạm sạc."
+        },
+        {
+          "text": "He accepts that the chargers may not need to go on the court.",
+          "misconception": null,
+          "whyVi": "Đúng: \"that's a fair point about the parkade… If the electrician says the parkade works, I'm fine either way.\""
+        },
+        {
+          "text": "He insists the court is still the cheapest place for chargers.",
+          "misconception": "initial_position",
+          "whyVi": "Đó là giả định ban đầu (\"I just assumed\"), và anh đã thừa nhận có thể sai."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "Okay, that's a fair point about the parkade. I just assumed the court was the cheapest spot.",
+      "explanationVi": "Raj bắt đầu với ý dùng sân cho trạm sạc. Sau khi Wei nói có thể đặt ở parkade, anh nói \"fair point\" và \"I'm fine either way\" — có điều kiện (nếu thợ điện xác nhận). \"I just assumed\" cho thấy anh từ bỏ giả định cũ.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "tennis-court-meeting",
+      "prompt": "What is Wei's view of the EV chargers?",
+      "hint": "Câu đầu tiên của Wei có mẫu \"I'm not against X, but…\". Đặt nó lên thang đồng ý: cô công nhận điều gì và phản đối điều gì?",
+      "options": [
+        {
+          "text": "She has no objection to them, but thinks they belong somewhere other than the court.",
+          "misconception": null,
+          "whyVi": "Đúng: \"I'm not against chargers, but they don't need the tennis court. They'd go in the parkade.\""
+        },
+        {
+          "text": "She opposes them because they would be too expensive.",
+          "misconception": "wrong_speaker",
+          "whyVi": "Chi phí trạm sạc là cảnh báo của Raj ở cuối; Wei không phản đối trạm sạc."
+        },
+        {
+          "text": "She thinks they are more important than a garden.",
+          "misconception": "unsupported",
+          "whyVi": "Wei không so sánh mức độ quan trọng; cô muốn cả hai, ở hai chỗ khác nhau."
+        },
+        {
+          "text": "She agrees with Raj that the court is the best spot for them.",
+          "misconception": "agreement_level",
+          "whyVi": "Ngược lại: cô nói chúng \"don't need the tennis court\"."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "I'm not against chargers, but they don't need the tennis court.",
+      "explanationVi": "\"Not against X, but…\" = đồng ý một phần: Wei không phản đối trạm sạc, nhưng phản đối việc dùng sân tennis cho chúng. Đáp án đúng giữ cả hai nửa.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "tennis-court-meeting",
+      "prompt": "How does Gord feel about turning the court into a garden?",
+      "hint": "Gord dùng hai câu ngắn liên tiếp: một câu nói cảm xúc, một câu nói hành động. Đặt cả hai lên thang đồng ý.",
+      "options": [
+        {
+          "text": "He is strongly opposed and plans to vote against it.",
+          "misconception": "agreement_level",
+          "whyVi": "Quá mạnh: anh nói \"I'm not going to stand in the way\"."
+        },
+        {
+          "text": "He likes the idea because his neighbours would use it.",
+          "misconception": "wrong_speaker",
+          "whyVi": "Người nói \"my kids would actually use that\" là Wei. Gord \"not thrilled\"."
+        },
+        {
+          "text": "He is unhappy about it but will not try to block it.",
+          "misconception": null,
+          "whyVi": "Đúng: \"Not thrilled. But I'm realistic. If most people want a garden, I'm not going to stand in the way.\""
+        },
+        {
+          "text": "He has no opinion because he rarely uses the court.",
+          "misconception": "unsupported",
+          "whyVi": "Ngược lại: anh chơi mỗi sáng Chủ nhật từ tháng Năm đến tháng Chín."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "If most people want a garden, I'm not going to stand in the way.",
+      "explanationVi": "\"Not thrilled\" (không vui) + \"not going to stand in the way\" (không ngăn cản) = chấp nhận miễn cưỡng. Đây là bậc \"~\" trên thang đồng ý — không phải phản đối, cũng không phải ủng hộ.",
+      "competency": "speaker_attitude"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "tennis-court-meeting",
+      "prompt": "What compromise does Gord suggest?",
+      "options": [
+        {
+          "text": "Resurfacing the tennis court for a lower price.",
+          "misconception": "initial_position",
+          "whyVi": "Đó gần với quan điểm ban đầu (giữ sân), nhưng Gord không đề xuất làm lại sân rẻ hơn."
+        },
+        {
+          "text": "Setting aside part of the space for a smaller sport.",
+          "misconception": null,
+          "whyVi": "Đúng: \"Could we at least keep a section for pickleball? It needs a much smaller court.\""
+        },
+        {
+          "text": "Building the garden in the parkade instead.",
+          "misconception": "wrong_speaker",
+          "whyVi": "Parkade là nơi Wei đề xuất cho trạm sạc, không phải cho vườn."
+        },
+        {
+          "text": "Letting tennis players use the community centre courts.",
+          "misconception": "unsupported",
+          "whyVi": "Community centre chỉ được nhắc để nói về giờ chơi sau 9 giờ sáng."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "Could we at least keep a section for pickleball? It needs a much smaller court.",
+      "explanationVi": "\"Could we at least…\" là tín hiệu của một đề xuất thoả hiệp: chấp nhận khu vườn nhưng giữ lại một phần cho pickleball. \"A section\" → \"part of the space\"; \"pickleball… much smaller court\" → \"a smaller sport\".",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "tennis-court-meeting",
+      "prompt": "Why is Wei hesitant about the pickleball idea?",
+      "options": [
+        {
+          "text": "She worries it will be loud, since she lives right next to the court.",
+          "misconception": null,
+          "whyVi": "Đúng: \"Pickleball can get pretty noisy, though, and my unit's right beside the court.\""
+        },
+        {
+          "text": "She thinks it would take up most of the garden space.",
+          "misconception": "agreement_level",
+          "whyVi": "Cô đặt điều kiện \"as long as the garden gets most of the space\" — đây là điều kiện, không phải nỗi lo chính."
+        },
+        {
+          "text": "She believes too few people play pickleball.",
+          "misconception": "wrong_speaker",
+          "whyVi": "Ý \"quá ít người chơi\" là lập luận của Raj về tennis."
+        },
+        {
+          "text": "She wants the space for a picnic area instead.",
+          "misconception": "unsupported",
+          "whyVi": "Wei không hề nhắc đến khu picnic; cô muốn khu vườn, và băn khoăn duy nhất về pickleball là tiếng ồn."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "Pickleball can get pretty noisy, though, and my unit's right beside the court.",
+      "explanationVi": "\"Though\" ở cuối câu báo hiệu một băn khoăn. Lý do là tiếng ồn + căn hộ của cô ngay cạnh sân. Gord đáp lại đúng băn khoăn đó bằng đề xuất giới hạn giờ chơi.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "tennis-court-meeting",
+      "prompt": "What is decided at the end of the discussion?",
+      "options": [
+        {
+          "text": "The council votes to build a garden and a pickleball court.",
+          "misconception": "outcome_confusion",
+          "whyVi": "Helen nói rõ \"We don't vote tonight\"."
+        },
+        {
+          "text": "The tennis court will be resurfaced for Gord and his neighbours.",
+          "misconception": "initial_position",
+          "whyVi": "Đây là mong muốn ban đầu của Gord, đã bị bỏ khi anh chấp nhận khu vườn."
+        },
+        {
+          "text": "Owners will be charged a special levy for EV chargers.",
+          "misconception": "outcome_confusion",
+          "whyVi": "Raj chỉ cảnh báo \"might need\"; Helen gác lại vấn đề này."
+        },
+        {
+          "text": "Helen will price a plan and let all owners decide in March.",
+          "misconception": null,
+          "whyVi": "Đúng: \"I'll get a quote… and bring it to the AGM in March, so all the owners can decide.\""
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "I'll get a quote for raised beds plus a half-size pickleball court and bring it to the AGM in March, so all the owners can decide.",
+      "explanationVi": "Kết quả là HOÃN (postponed): không bỏ phiếu tối nay, Helen lấy báo giá và đưa ra đại hội thường niên. Đáp án \"council votes to build\" mô tả ý được ủng hộ nhiều như thể đã quyết — bẫy kinh điển.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "tennis-court-meeting",
+      "prompt": "When Helen says \"Let's cross that bridge when we get there,\" what does she mean?",
+      "options": [
+        {
+          "text": "The chargers should be installed near the bridge to the parkade.",
+          "misconception": "unsupported",
+          "whyVi": "Hiểu theo nghĩa đen; không có cây cầu nào trong cuộc họp."
+        },
+        {
+          "text": "She agrees that a special levy is necessary.",
+          "misconception": "agreement_level",
+          "whyVi": "Cô không đồng ý hay phản đối; cô hoãn việc bàn đến nó."
+        },
+        {
+          "text": "They will deal with the cost question later, if it actually comes up.",
+          "misconception": null,
+          "whyVi": "Đúng: thành ngữ này nghĩa là chỉ giải quyết vấn đề khi nó thực sự xảy ra."
+        },
+        {
+          "text": "Raj should stop raising problems with the plan.",
+          "misconception": "agreement_level",
+          "whyVi": "Quá mạnh: Helen không phê bình Raj; cô vừa giao cho anh việc hỏi thợ điện."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "Let's cross that bridge when we get there.",
+      "explanationVi": "\"Cross that bridge when we get there\" = đừng lo trước; khi vấn đề xảy ra thì mới xử lý. Đặt trong ngữ cảnh: Raj cảnh báo có thể cần special levy → Helen để vấn đề chi phí sang sau. Đây là mục OPEN, không phải DECIDED.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "clinic-saturdays",
+      "prompt": "According to Carla, what is the main cause of the long waitlist?",
+      "options": [
+        {
+          "text": "The clinic is not open on enough days.",
+          "misconception": "wrong_speaker",
+          "whyVi": "Đây là cách nhìn của Dr. Yusuf; Carla nói \"The waitlist isn't really about the days we're open\"."
+        },
+        {
+          "text": "Patients book appointments and then fail to come.",
+          "misconception": null,
+          "whyVi": "Đúng: \"people book evening slots and then just don't show up\"."
+        },
+        {
+          "text": "Staff can't work on Saturdays because of family commitments.",
+          "misconception": "wrong_speaker",
+          "whyVi": "Lý do gia đình là của Brent, và nó không liên quan đến nguyên nhân danh sách chờ."
+        },
+        {
+          "text": "Too many seniors need evening appointments.",
+          "misconception": "unsupported",
+          "whyVi": "Người cao tuổi được nhắc đến trong lo ngại về phí, không phải nguyên nhân danh sách chờ."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "It's that people book evening slots and then just don't show up.",
+      "explanationVi": "Carla dùng mẫu \"isn't really about X. It's that Y\" — Y là nguyên nhân cô cho là đúng. \"Don't show up\" → \"fail to come\". Câu hỏi \"According to Carla\" loại ngay quan điểm của Dr. Yusuf.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "clinic-saturdays",
+      "prompt": "How does Dr. Yusuf react to the no-show fee idea?",
+      "options": [
+        {
+          "text": "She rejects it completely to protect older patients.",
+          "misconception": "agreement_level",
+          "whyVi": "Quá mạnh: cô \"a bit wary\" rồi đưa ra phiên bản nhẹ hơn, không bác bỏ."
+        },
+        {
+          "text": "She accepts it immediately, as Brent does.",
+          "misconception": "agreement_level",
+          "whyVi": "Brent đồng ý ngay (\"I'm with Carla\"), còn cô thì dè dặt."
+        },
+        {
+          "text": "She is surprised that no-shows are so expensive.",
+          "misconception": "unsupported",
+          "whyVi": "Cô ngạc nhiên về SỐ LƯỢNG no-show (18 thay vì khoảng 10), không phải chi phí."
+        },
+        {
+          "text": "She has doubts, so she suggests a softer version of it.",
+          "misconception": null,
+          "whyVi": "Đúng: \"I'm a bit wary of fees… what about a reminder text… and a fee only after a second missed appointment?\""
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "I'm a bit wary of fees. Some of our patients are seniors on fixed incomes.",
+      "explanationVi": "\"A bit wary\" = hơi dè dặt (đồng ý một phần). Cô giữ ý tưởng nhưng làm mềm: nhắc lịch trước, chỉ phạt từ lần vắng thứ hai. Đáp án đúng phải giữ cả \"có nghi ngại\" lẫn \"vẫn đề xuất phiên bản khác\".",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "clinic-saturdays",
+      "prompt": "What can be inferred from Carla's reply, \"It was eighteen. I counted\"?",
+      "options": [
+        {
+          "text": "She is confident in her figure and corrects Dr. Yusuf's estimate.",
+          "misconception": null,
+          "whyVi": "Đúng: cô khẳng định lại con số và đưa ra bằng chứng (\"I counted\") sau khi Dr. Yusuf đoán \"closer to ten\"."
+        },
+        {
+          "text": "She is unsure and asks Dr. Yusuf to check the records.",
+          "misconception": "agreement_level",
+          "whyVi": "Ngược lại: \"I counted\" cho thấy cô chắc chắn."
+        },
+        {
+          "text": "She agrees with Dr. Yusuf that the number was about ten.",
+          "misconception": "agreement_level",
+          "whyVi": "Cô sửa lại con số, không đồng ý."
+        },
+        {
+          "text": "She is angry that Dr. Yusuf doesn't trust her.",
+          "misconception": "agreement_level",
+          "whyVi": "Quá mạnh: không có từ ngữ nào thể hiện sự tức giận; cô chỉ đưa ra sự thật."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "It was eighteen. I counted.",
+      "explanationVi": "Câu ngắn, khẳng định, kèm bằng chứng = tự tin, sửa lại thông tin của người khác. Với giọng đọc đều, ta suy thái độ từ chữ: không có từ giảm nhẹ (maybe, I think), không có từ cảm xúc mạnh → \"confident\", không phải \"angry\".",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "clinic-saturdays",
+      "prompt": "What is the final decision about Saturday hours?",
+      "options": [
+        {
+          "text": "The clinic will open every Saturday from eight to two in the new year.",
+          "misconception": "initial_position",
+          "whyVi": "Đây là đề xuất ban đầu của Dr. Yusuf, đã được điều chỉnh."
+        },
+        {
+          "text": "Saturday hours are cancelled because the fee will solve the problem.",
+          "misconception": "outcome_confusion",
+          "whyVi": "Brent nói phí giải quyết \"half the problem\"; Saturday vẫn được thử."
+        },
+        {
+          "text": "The clinic will try opening one Saturday a month for a trial period.",
+          "misconception": null,
+          "whyVi": "Đúng: \"One Saturday a month as a trial\", theo đề xuất \"once a month for three months\" của Brent."
+        },
+        {
+          "text": "Brent will work Saturdays only when the clinic is busy.",
+          "misconception": "wrong_speaker",
+          "whyVi": "\"If it's busy, then we talk about more\" nói về việc mở thêm ngày, không phải lịch riêng của Brent."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "One Saturday a month as a trial, reminders right away, and the fee policy starting in February.",
+      "explanationVi": "Lời tóm tắt cuối của Dr. Yusuf chốt ba việc. Với Saturday, đề xuất ban đầu (mọi thứ Bảy) đã được thay bằng đề xuất của Brent (một lần mỗi tháng, thử ba tháng). Câu hỏi \"final decision\" luôn lấy từ lời chốt cuối cùng.",
+      "competency": "long_conversation"
+    }
+  ],
+  "misconceptions": {
+    "wrong_speaker": {
+      "label": "Gán ý cho sai người",
+      "explanationVi": "Ý trong đáp án có thật trong cuộc thảo luận nhưng là của người khác. Với 3–4 giọng nói liên tục, nếu không ghi tên cạnh từng ý, trí nhớ sẽ \"trộn\" các ý kiến lại. Đây là lỗ hổng theo dõi người nói, không phải lỗi nghe từ.",
+      "fixVi": "Dùng bảng position grid, mỗi người một dòng. Khi câu hỏi có tên (\"According to Carla…\"), chỉ tìm trong dòng của người đó."
+    },
+    "initial_position": {
+      "label": "Chọn quan điểm ban đầu thay vì quan điểm cuối",
+      "explanationVi": "Bạn chọn điều người nói muốn LÚC ĐẦU (giữ sân tennis, mở mọi thứ Bảy, dùng sân cho trạm sạc), trong khi họ đã đổi ý hoặc thoả hiệp. Trí nhớ thường giữ ấn tượng đầu tiên mạnh nhất, nên đây là bẫy rất phổ biến trong Part 5.",
+      "fixVi": "Ghi mũi tên `→` mỗi khi ai đó nói \"Okay, that's a fair point\", \"I can live with that\", \"you've convinced me\". Trước khi trả lời, xác định câu hỏi hỏi về thời điểm nào."
+    },
+    "agreement_level": {
+      "label": "Sai mức độ đồng ý / thái độ",
+      "explanationVi": "Bạn chọn mức đồng ý hoặc cảm xúc quá mạnh hoặc quá yếu: \"strongly opposed\" khi người nói chỉ \"not thrilled\"; \"accepts immediately\" khi họ \"a bit wary\"; hiểu một thành ngữ theo nghĩa đen. Kỹ năng bị thiếu là xếp câu nói lên thang đồng ý dựa vào chữ.",
+      "fixVi": "Ghi ký hiệu ✓✓ / ✓~ / ~ / ✗ cho mỗi phản ứng. Chọn đáp án cùng bậc. Với thành ngữ, đặt nó vào ngữ cảnh: câu ngay trước đó là vấn đề gì?"
+    },
+    "outcome_confusion": {
+      "label": "Nhầm ý được ủng hộ với điều đã quyết",
+      "explanationVi": "Bạn chọn một ý được nhiều người thích hoặc được nhắc đến như một khả năng (vote tonight, special levy, cancel Saturdays) như thể đó là quyết định cuối. Bạn bỏ qua tín hiệu hoãn (We don't vote tonight) hoặc bỏ ngỏ (cross that bridge, I'll look into it).",
+      "fixVi": "Ghi lời tóm tắt cuối thành ba nhóm: DECIDED / LATER / OPEN. Câu hỏi \"What is decided?\" chỉ lấy từ nhóm DECIDED."
+    },
+    "unsupported": {
+      "label": "Thông tin không có trong cuộc thảo luận",
+      "explanationVi": "Đáp án nghe hợp lý với tình huống nhưng không ai nói ra, hoặc hiểu một từ quá xa so với ngữ cảnh. Bạn đang suy đoán thay vì dựa vào lời người nói.",
+      "fixVi": "Mỗi đáp án phải chỉ về được một câu cụ thể của một người cụ thể. Không tìm được thì loại."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "I hear you, but…",
+      "vi": "Tôi hiểu ý bạn, nhưng… (công nhận rồi phản bác)",
+      "example": "I hear you, but a second parking spot would cost us another hundred a month."
+    },
+    {
+      "term": "That's a fair point",
+      "vi": "Ý đó hợp lý (thường báo hiệu đổi ý một phần)",
+      "example": "That's a fair point. The SkyTrain probably is faster at rush hour."
+    },
+    {
+      "term": "I'm fine either way",
+      "vi": "Kiểu nào tôi cũng được",
+      "example": "Pizza or sushi? I'm fine either way."
+    },
+    {
+      "term": "not thrilled",
+      "vi": "không vui lắm, không hào hứng",
+      "example": "I'm not thrilled about working the Boxing Day shift, but someone has to."
+    },
+    {
+      "term": "stand in the way (of something)",
+      "vi": "cản trở, ngăn cản",
+      "example": "If the kids really want to join the hockey team, I won't stand in the way."
+    },
+    {
+      "term": "I'm with X on that",
+      "vi": "Tôi đồng ý với X về chuyện đó",
+      "example": "I'm with Priya on that. We should book the campsite now."
+    },
+    {
+      "term": "wary of",
+      "vi": "dè dặt, e ngại về",
+      "example": "Some residents are wary of the new development because of traffic."
+    },
+    {
+      "term": "cross that bridge when we get there",
+      "vi": "chuyện đó tính sau, khi nó thật sự xảy ra",
+      "example": "What if it snows on moving day? Let's cross that bridge when we get there."
+    },
+    {
+      "term": "special levy",
+      "vi": "khoản thu đặc biệt (strata thu thêm của chủ nhà cho một dự án)",
+      "example": "The strata approved a special levy to replace the building's roof."
+    }
+  ],
+  "grammar": [],
+  "practice": [
+    {
+      "label": "Luyện Part 5 – Discussion",
+      "route": "/listening?task=L5"
+    },
+    {
+      "label": "Drill hội thoại dài",
+      "route": "/listening?mode=drill&focus=long_conversation"
+    },
+    {
+      "label": "Drill thái độ người nói",
+      "route": "/listening?mode=drill&focus=speaker_attitude"
+    }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Re-solved 4 guided + 8 independent items against l5-full-01 ch0 and both meeting clips (distinct voices per speaker confirmed). Fixed: g3 key no longer says Wei \"supports\" the chargers (she only says she is not against them, which the concept itself warns is different); i2 distractor explanation referred to a picnic table that is not in the script; i7 key dropped the unrecoverable \"gently\"; Part 5 is now described as tied with Part 1 for most questions."}
+}

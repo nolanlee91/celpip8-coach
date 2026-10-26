@@ -1,0 +1,691 @@
+{
+  "id": "ls-12",
+  "skill": "listening",
+  "module": "listening-parts",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Part 3: Listening for information",
+  "titleVi": "Part 3: Nghe lấy thông tin",
+  "estimatedMinutes": 30,
+  "prerequisites": [
+    "ls-10"
+  ],
+  "competencies": [
+    "missed_info",
+    "paraphrase"
+  ],
+  "tasks": [
+    "L3"
+  ],
+  "objectives": [
+    "You will be able to note the steps of an explained process in the correct order, including \"before\" and \"once\" links.",
+    "You will be able to catch conditions and exceptions (if, unless, only if, the only exception is) and apply them to a new situation.",
+    "You will be able to match a stated reason to its paraphrase in the answer options.",
+    "You will be able to reject options that are true in general but drop the condition the speaker attached."
+  ],
+  "objectiveVi": "Sau bài này, bạn nghe một đoạn giải thích dày thông tin trong Part 3 và ghi lại được trình tự các bước, lý do và điều kiện/ngoại lệ — rồi dùng chúng để chọn đáp án đã được diễn đạt lại.",
+  "whyItMattersVi": "Part 3 có 6 câu và là phần nhiều thông tin nhất: một người giải thích quy trình, quy định hay dịch vụ cho người khác. Ở Listening 6, bạn thường hiểu chủ đề nhưng mất điểm vì quên điều kiện (\"only if…\", \"unless…\") hoặc đảo thứ tự các bước. Lên Level 8 nghĩa là nghe được chính xác những \"chữ nhỏ\" này và nhận ra chúng khi đáp án dùng từ khác.",
+  "concept": [
+    {
+      "heading": "Part 3 trông như thế nào",
+      "body": "**Part 3 – Listening for Information** (6 câu): bạn nghe một đoạn khá dài, thường là một người có chuyên môn (nhân viên, điều phối viên, chuyên gia) **giải thích** cho một người khác: cách đăng ký một dịch vụ, quy định nơi làm việc, cách một chương trình hoạt động. Người hỏi chỉ nói ngắn; phần lớn thông tin nằm ở người giải thích.\n\nAudio phát **một lần**, câu hỏi hiện ra **sau khi** nghe xong. Vì vậy bạn không thể chờ câu hỏi để biết cần nghe gì — bạn phải biết trước rằng Part 3 gần như luôn hỏi về ba loại thông tin: **trình tự (sequence)**, **lý do (reasons)** và **điều kiện/ngoại lệ (conditions & exceptions)**, cộng thêm vài con số và thời hạn."
+    },
+    {
+      "heading": "Ba loại thông tin và tín hiệu của chúng",
+      "body": "**1. Sequence – trình tự các bước**\n- Tín hiệu: *first, the first thing is, then, once that's done, after that, before you…, the next step*.\n- Cẩn thận với *before*: \"Before your first visit, you'll need to…\" nghĩa là việc kia phải làm **trước**, dù được nói **sau**.\n\n**2. Reasons – lý do**\n- Tín hiệu: *because, so that, that's why, the reason is, it's not because…, it's because…*.\n- Mẫu *It's not because X. It's because Y.* rất được CELPIP ưa chuộng: X là đáp án nhiễu, Y là đáp án đúng.\n\n**3. Conditions & exceptions – điều kiện và ngoại lệ**\n- Tín hiệu: *if, only if, unless, as long as, otherwise, except, the only exception is, that's the one rule we never bend*.\n- Đây là nơi mất điểm nhiều nhất: đáp án sai thường nói đúng hành động nhưng **bỏ mất điều kiện** (\"You need a parking permit\" thay vì \"You need one *only if* you park overnight\")."
+    },
+    {
+      "heading": "Ghi chú cho Part 3: dòng thời gian + mũi tên điều kiện",
+      "body": "Đừng cố ghi câu. Ghi theo bốn ký hiệu:\n\n- **Bước:** đánh số `1 card → 2 PIN → 3 app`.\n- **Điều kiện:** `if lost → $5 new card`, `only kids → free`.\n- **Lý do:** `bc` (because): `no food inside bc pests`.\n- **Số và hạn chót:** luôn ghi kèm danh từ: `3 wks loan`, `2 renewals`, `24 h = online`.\n\nKhi một quy định có **ngoại lệ**, viết ngoại lệ ngay dưới quy định, bắt đầu bằng `EXC:` (ví dụ `EXC: holds → no renewal`). Câu hỏi khó nhất thường hỏi chính chỗ này."
+    },
+    {
+      "heading": "Paraphrase trong đáp án Part 3",
+      "body": "Đáp án đúng hầu như không bao giờ lặp nguyên văn. Một số cặp tiêu biểu:\n\n- *a hydro bill or a bank statement* → \"a document showing her address\"\n- *the spots are usually gone by noon* → \"they fill up quickly\"\n- *you'll get store credit, not your money back* → \"she can only spend it at the store\"\n- *there's no wiggle room on that* → \"the rule is strictly applied\"\n- *it's not that we don't trust you* → (bẫy) đáp án nói về sự tin tưởng\n\nKhi đọc đáp án, hãy chuyển nó ngược lại thành câu chữ trong ghi chú của bạn. Nếu không chuyển được → nghi ngờ đáp án đó."
+    },
+    {
+      "heading": "Chiến lược từng bước",
+      "body": "1. **Dùng phần hướng dẫn và hình ảnh/câu giới thiệu mở đầu (nếu có):** ai giải thích cho ai, về chủ đề gì? Dự đoán các bước và quy định có thể có.\n2. **Nghe và ghi** theo dòng thời gian; mỗi lần nghe *if / unless / only / except*, viết mũi tên điều kiện.\n3. **Đọc câu hỏi, xác định loại:** \"What must she do first?\" (sequence), \"Why…?\" (reason), \"What happens if…?\" (condition).\n4. **Áp dụng quy định vào tình huống mới:** câu hỏi Level 8 thường đưa ra một trường hợp cụ thể (\"She returns the book two days late…\") — tra quy định + ngoại lệ trong ghi chú, rồi suy ra kết quả.\n5. **Loại đáp án** đảo thứ tự, bỏ điều kiện, hoặc dùng đúng từ nhưng sai ý."
+    }
+  ],
+  "stimuli": {
+    "payroll-orientation": {
+      "title": "Library clip: Payroll orientation for a new employee",
+      "audioRef": {
+        "setId": "l3-full-01",
+        "chunk": 0
+      }
+    },
+    "swim-registration": {
+      "title": "Part 3 style: Registering for swimming lessons at a community centre",
+      "audio": [
+        {
+          "speaker": "Jasmine",
+          "voice": "female_b",
+          "text": "Hi, I'm trying to sign my son up for swimming lessons, but the website's a bit confusing. Could you walk me through it?"
+        },
+        {
+          "speaker": "Omar",
+          "voice": "male_a",
+          "text": "Sure, happy to. So the first thing is an online account. If you've ever registered for anything here, like a drop-in fitness pass, you already have one, so please don't make a second account. That causes all kinds of problems."
+        },
+        {
+          "speaker": "Jasmine",
+          "voice": "female_b",
+          "text": "I don't think I have one. We just moved here from Ontario in the summer."
+        },
+        {
+          "speaker": "Omar",
+          "voice": "male_a",
+          "text": "Okay, then you'll create one, and once that's done, you add your son as a family member. You'll need his date of birth, because the levels are partly based on age."
+        },
+        {
+          "speaker": "Jasmine",
+          "voice": "female_b",
+          "text": "Got it. And then I just pick a class?"
+        },
+        {
+          "speaker": "Omar",
+          "voice": "male_a",
+          "text": "Almost. Once he's on your account, the next step is proof that you live in the city. A utility bill or a lease works. You can upload it or bring it in, but it has to be done before registration opens. Residents can register on Tuesday at nine a.m., and everyone else on Thursday."
+        },
+        {
+          "speaker": "Jasmine",
+          "voice": "female_b",
+          "text": "Does it fill up fast?"
+        },
+        {
+          "speaker": "Omar",
+          "voice": "male_a",
+          "text": "The Saturday morning classes are usually gone in about ten minutes. Weekday evenings are easier. If the class you want is full, put your name on the waitlist. Don't just grab a random class instead, because if a spot opens up, the system offers it to the waitlist first, not to people who are already registered somewhere else."
+        },
+        {
+          "speaker": "Jasmine",
+          "voice": "female_b",
+          "text": "Okay. And what if he gets sick and can't go? Can I get my money back?"
+        },
+        {
+          "speaker": "Omar",
+          "voice": "male_a",
+          "text": "Up to seven days before the first class, you get a full refund, minus a five-dollar admin fee. After that, it's a credit on your account, not cash. The only exception is if you've got a doctor's note. Then we can refund the lessons he hasn't taken yet."
+        },
+        {
+          "speaker": "Jasmine",
+          "voice": "female_b",
+          "text": "That sounds fair. Thanks, this is way clearer than the website."
+        }
+      ]
+    },
+    "food-bank-volunteers": {
+      "title": "Part 3 style: Starting as a food bank volunteer",
+      "audio": [
+        {
+          "speaker": "Daniela",
+          "voice": "female_a",
+          "text": "So, Arjun, thanks for signing up. Let me explain how things work, because it's a bit different from what most people expect."
+        },
+        {
+          "speaker": "Arjun",
+          "voice": "male_b",
+          "text": "Sure. Honestly, I was just planning to show up on Saturday."
+        },
+        {
+          "speaker": "Daniela",
+          "voice": "female_a",
+          "text": "Ha, a lot of people say that. But we can't put anyone on the floor until they've done the online orientation. It's about forty-five minutes, mostly food safety, and you can do it at home. Once you pass the short quiz at the end, you'll get access to the shift calendar."
+        },
+        {
+          "speaker": "Arjun",
+          "voice": "male_b",
+          "text": "Okay. Do I need a criminal record check? I've heard some places ask for one."
+        },
+        {
+          "speaker": "Daniela",
+          "voice": "female_a",
+          "text": "Only if you work with our youth programs, like the after-school snack program. For the warehouse, you don't. Now, about shifts. We ask for at least two shifts a month for the first three months. It's not because we're strict. It's because training someone new takes a lot of staff time, and if people come once and disappear, we lose that time."
+        },
+        {
+          "speaker": "Arjun",
+          "voice": "male_b",
+          "text": "That's fair. What should I wear?"
+        },
+        {
+          "speaker": "Daniela",
+          "voice": "female_a",
+          "text": "Closed-toe shoes. That's the one rule we never bend, because of the pallet jacks. If you show up in sandals, we'll have to send you home, even if we're short-staffed that day."
+        },
+        {
+          "speaker": "Arjun",
+          "voice": "male_b",
+          "text": "Got it. And if I need to cancel a shift?"
+        },
+        {
+          "speaker": "Daniela",
+          "voice": "female_a",
+          "text": "Cancel in the app at least forty-eight hours ahead, so someone on the waitlist can take it. If it's last minute, like you wake up sick that morning, call the front desk instead. The app doesn't notify anyone that close to the shift."
+        },
+        {
+          "speaker": "Arjun",
+          "voice": "male_b",
+          "text": "Makes sense. I'll do the orientation tonight."
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "ex-1",
+      "title": "Applying a condition: what happens if a timesheet is late?",
+      "stimulusId": "payroll-orientation",
+      "question": "Marcus submits his hours on Monday afternoon instead of Monday morning. What happens to his pay for those hours?",
+      "steps": [
+        "Loại câu hỏi: \"What happens if…?\" → câu hỏi điều kiện. Mình tra phần ghi chú về timesheet.",
+        "Quy định: \"the deadline is Monday at ten a.m. for the previous week\" → ghi `TimeTrack: Mon 10am`. Monday afternoon là trễ hạn.",
+        "Hệ quả (Marcus hỏi \"What happens if I'm late with a timesheet?\"): \"You still get paid for those hours, but on the next pay date, not this one. So, two weeks later.\"",
+        "Chuyển sang đáp án: đúng = \"He will be paid for the hours, but two weeks later.\" Bẫy 1: \"He will not be paid for those hours\" (bỏ mất \"You still get paid\"). Bẫy 2: \"He needs his supervisor's approval\" — đó là quy định của overtime, gắn với chi tiết khác.",
+        "Kiểm tra: đáp án đúng giữ được CẢ hai nửa của quy định: vẫn được trả + bị chậm một kỳ lương."
+      ],
+      "answer": "He will still be paid for those hours, but on the following pay date, two weeks later.",
+      "takeawayVi": "Với câu hỏi điều kiện, tìm đúng quy định rồi đọc phần hệ quả đến hết câu. Đáp án nhiễu thường giữ một nửa (\"không được trả\") hoặc mượn quy định của một mục khác (overtime)."
+    },
+    {
+      "id": "ex-2",
+      "title": "Turning an explanation into a timeline",
+      "stimulusId": "payroll-orientation",
+      "question": "A pay period ends on Saturday the 7th. On which day are employees paid for it?",
+      "steps": [
+        "Nghe phần giải thích chu kỳ lương và ghi dạng dòng thời gian: `period: Sun → Sat (2 wks)` → `paid: Fri AFTER it ends` → `≈ 1 week delay`.",
+        "Tín hiệu trình tự quan trọng là \"the Friday after it ends\" — không phải Friday cuối cùng TRONG kỳ lương.",
+        "Áp dụng: kỳ kết thúc thứ Bảy ngày 7 → thứ Sáu tiếp theo là ngày 13.",
+        "Kiểm tra bằng câu tóm tắt của chính người nói: \"So there's always about a week's delay.\" Từ thứ Bảy 7 đến thứ Sáu 13 là sáu ngày — khớp \"about a week\".",
+        "Bẫy: chọn thứ Sáu ngày 6 (Friday trong kỳ) vì nghe \"every two weeks, on Fridays\" mà không nghe \"after\"."
+      ],
+      "answer": "Friday the 13th — the Friday after the period ends.",
+      "takeawayVi": "Một từ trình tự nhỏ (after, before, once) có thể đổi hẳn đáp án. Ghi chú bằng mũi tên thời gian và dùng câu tóm tắt của người nói (\"about a week's delay\") để tự kiểm tra."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "swim-registration",
+      "prompt": "What does Omar warn Jasmine not to do?",
+      "hint": "Cảnh báo đầu tiên đi kèm một điều kiện bắt đầu bằng \"If you've ever…\". Để ý câu bắt đầu bằng \"please don't\".",
+      "options": [
+        {
+          "text": "Register for a drop-in fitness pass before swimming lessons.",
+          "misconception": "unsupported",
+          "whyVi": "\"Drop-in fitness pass\" chỉ là ví dụ về việc đã từng đăng ký, không phải điều bị cấm."
+        },
+        {
+          "text": "Open a new account if she already has one.",
+          "misconception": null,
+          "whyVi": "Đúng: \"you already have one, so please don't make a second account\"."
+        },
+        {
+          "text": "Use the website to register.",
+          "misconception": "opposite",
+          "whyVi": "Ngược lại: việc đăng ký vẫn làm online; Omar chỉ hướng dẫn cho rõ."
+        },
+        {
+          "text": "Register her son before he is old enough.",
+          "misconception": "unsupported",
+          "whyVi": "Omar nói levels dựa một phần vào tuổi, nhưng không cảnh báo về việc đăng ký khi chưa đủ tuổi."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "If you've ever registered for anything here, like a drop-in fitness pass, you already have one, so please don't make a second account.",
+      "explanationVi": "\"Don't make a second account\" được paraphrase thành \"open a new account if she already has one\" — đáp án giữ được cả điều kiện (\"if she already has one\"). Chi tiết \"drop-in fitness pass\" là bẫy trùng từ.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "swim-registration",
+      "prompt": "Why does Jasmine need to give her son's date of birth?",
+      "hint": "Tìm từ \"because\" ngay sau câu nói về date of birth.",
+      "options": [
+        {
+          "text": "To prove that he lives in the city.",
+          "misconception": "wrong_detail",
+          "whyVi": "Bằng chứng cư trú là hoá đơn tiện ích hoặc hợp đồng thuê nhà, không phải ngày sinh."
+        },
+        {
+          "text": "Because children under a certain age must swim with a parent.",
+          "misconception": "unsupported",
+          "whyVi": "Không có quy định nào như vậy trong bài."
+        },
+        {
+          "text": "Because the class levels depend partly on how old he is.",
+          "misconception": null,
+          "whyVi": "Đúng: \"because the levels are partly based on age\"."
+        },
+        {
+          "text": "So that the system can give him priority on the waitlist.",
+          "misconception": "wrong_detail",
+          "whyVi": "Waitlist được nhắc tới nhưng không liên quan đến tuổi."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "You'll need his date of birth, because the levels are partly based on age.",
+      "explanationVi": "Lý do nằm ngay sau \"because\". \"Partly based on age\" = \"depend partly on how old he is\". Hai đáp án nhiễu mượn chi tiết từ phần khác của bài (proof of residency, waitlist).",
+      "competency": "missed_info"
+    },
+    {
+      "id": "g3",
+      "type": "order",
+      "stimulusId": "swim-registration",
+      "prompt": "Put the steps Jasmine needs to follow in the correct order.",
+      "hint": "Ghi chú dòng thời gian bằng các tín hiệu trình tự (the first thing is, once that's done, the next step). Với bước có \"if\", tự hỏi: nó chỉ có thể xảy ra sau việc gì?",
+      "items": [
+        "Create an online account",
+        "Add her son as a family member",
+        "Provide proof that she lives in the city",
+        "Register on Tuesday at 9 a.m.",
+        "Join the waitlist if the class she wants is full"
+      ],
+      "misconception": "sequence_reversal",
+      "explanationVi": "Trình tự được đánh dấu rõ: \"the first thing is an online account\" → \"once that's done, you add your son\" → \"once he's on your account, the next step is proof\" (và phải xong \"before registration opens\") → cư dân đăng ký thứ Ba 9 giờ → nếu lớp đầy thì vào waitlist.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "swim-registration",
+      "prompt": "Jasmine has uploaded her lease. When can she first register her son?",
+      "hint": "Quy định có hai nhóm người và hai ngày khác nhau. Việc Jasmine đã nộp gì quyết định cô thuộc nhóm nào — đừng để chuyện cô mới chuyển đến làm bạn phân tâm.",
+      "options": [
+        {
+          "text": "On Tuesday morning, as a resident.",
+          "misconception": null,
+          "whyVi": "Đúng: hợp đồng thuê nhà là bằng chứng cư trú hợp lệ, và \"Residents can register on Tuesday at nine a.m.\""
+        },
+        {
+          "text": "On Thursday, because she only moved recently.",
+          "misconception": "dropped_condition",
+          "whyVi": "Điều kiện là có bằng chứng cư trú, không phải đã sống ở đó bao lâu. Thursday dành cho người không phải cư dân."
+        },
+        {
+          "text": "On Saturday morning, when the classes are held.",
+          "misconception": "unsupported",
+          "whyVi": "Saturday morning là thời gian lớp học, không phải ngày đăng ký."
+        },
+        {
+          "text": "Any time, because proof of residency is optional.",
+          "misconception": "opposite",
+          "whyVi": "Bằng chứng cư trú là bắt buộc và phải nộp trước khi đăng ký mở."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "Residents can register on Tuesday at nine a.m., and everyone else on Thursday.",
+      "explanationVi": "Đây là câu áp dụng điều kiện: lease = \"proof that you live in the city\" → Jasmine là resident → thứ Ba 9 giờ sáng. Chi tiết \"moved here from Ontario\" là thông tin gây nhiễu, không phải điều kiện.",
+      "competency": "missed_info"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "swim-registration",
+      "prompt": "What does Omar advise Jasmine to do if the class she wants is full?",
+      "options": [
+        {
+          "text": "Register for any open class and switch later.",
+          "misconception": "opposite",
+          "whyVi": "Omar nói rõ \"Don't just grab a random class instead\"."
+        },
+        {
+          "text": "Choose a weekday evening class, since those are never full.",
+          "misconception": "wrong_detail",
+          "whyVi": "Omar chỉ nói weekday evenings \"easier\", không nói không bao giờ đầy, và không khuyên chuyển lớp."
+        },
+        {
+          "text": "Call the centre on Thursday to ask about cancellations.",
+          "misconception": "unsupported",
+          "whyVi": "Không có lời khuyên gọi điện vào thứ Năm."
+        },
+        {
+          "text": "Put his name on the waitlist, because open spots go to the waitlist first.",
+          "misconception": null,
+          "whyVi": "Đúng: \"put your name on the waitlist… the system offers it to the waitlist first\"."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "If the class you want is full, put your name on the waitlist.",
+      "explanationVi": "Lời khuyên gồm hành động (waitlist) + lý do (\"the system offers it to the waitlist first, not to people who are already registered somewhere else\"). Đáp án \"register for any open class\" chính là điều Omar bảo đừng làm.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "swim-registration",
+      "prompt": "Jasmine's son catches a cold three days before his first class, and she doesn't get a doctor's note. What will she receive if she withdraws him?",
+      "options": [
+        {
+          "text": "A full refund minus five dollars.",
+          "misconception": "dropped_condition",
+          "whyVi": "Hoàn tiền trừ 5 đô chỉ áp dụng khi rút TRƯỚC 7 ngày. Ba ngày trước là đã quá hạn."
+        },
+        {
+          "text": "A credit she can use on her account.",
+          "misconception": null,
+          "whyVi": "Đúng: sau mốc 7 ngày \"it's a credit on your account, not cash\", và cô không có giấy bác sĩ nên không thuộc ngoại lệ."
+        },
+        {
+          "text": "A refund for the lessons he hasn't taken.",
+          "misconception": "dropped_condition",
+          "whyVi": "Đây là ngoại lệ chỉ áp dụng khi có giấy bác sĩ."
+        },
+        {
+          "text": "Nothing, because the five-dollar fee cancels the refund.",
+          "misconception": "unsupported",
+          "whyVi": "Phí 5 đô chỉ trừ vào tiền hoàn, không làm mất toàn bộ quyền lợi."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "After that, it's a credit on your account, not cash.",
+      "explanationVi": "Áp dụng quy định theo ba bước: (1) 3 ngày trước < 7 ngày → không được hoàn tiền mặt; (2) quy định sau mốc 7 ngày = credit; (3) ngoại lệ cần doctor's note → không có → giữ nguyên credit. Hai đáp án nhiễu đều là quy định thật nhưng điều kiện không khớp.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "food-bank-volunteers",
+      "prompt": "What must Arjun do before he can choose his shifts?",
+      "options": [
+        {
+          "text": "Get a criminal record check.",
+          "misconception": "dropped_condition",
+          "whyVi": "Chỉ cần nếu làm với chương trình thanh thiếu niên; Arjun hỏi về warehouse."
+        },
+        {
+          "text": "Come in on Saturday for training.",
+          "misconception": "opposite",
+          "whyVi": "Đây là điều Arjun định làm, và Daniela giải thích rằng như vậy là chưa được."
+        },
+        {
+          "text": "Complete an online course and pass a quiz.",
+          "misconception": null,
+          "whyVi": "Đúng: \"Once you pass the short quiz at the end, you'll get access to the shift calendar.\""
+        },
+        {
+          "text": "Buy safety boots from the food bank.",
+          "misconception": "unsupported",
+          "whyVi": "Cần giày kín mũi, nhưng không có chuyện mua từ food bank, và đó không phải điều kiện để chọn ca."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "Once you pass the short quiz at the end, you'll get access to the shift calendar.",
+      "explanationVi": "\"Once…\" là tín hiệu trình tự: chỉ sau khi làm xong orientation online và qua bài quiz mới vào được lịch ca. \"Online orientation… quiz\" được paraphrase thành \"online course and pass a quiz\".",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "food-bank-volunteers",
+      "prompt": "Who needs a criminal record check?",
+      "options": [
+        {
+          "text": "Every new volunteer, as a standard rule.",
+          "misconception": "dropped_condition",
+          "whyVi": "Daniela nói \"Only if…\" — không phải tất cả."
+        },
+        {
+          "text": "Volunteers who work with young people.",
+          "misconception": null,
+          "whyVi": "Đúng: \"Only if you work with our youth programs\"."
+        },
+        {
+          "text": "Volunteers in the warehouse who use pallet jacks.",
+          "misconception": "opposite",
+          "whyVi": "Ngược lại: \"For the warehouse, you don't.\" Pallet jack liên quan đến quy định giày."
+        },
+        {
+          "text": "Anyone who volunteers more than two shifts a month.",
+          "misconception": "wrong_detail",
+          "whyVi": "\"Two shifts a month\" là yêu cầu tối thiểu về ca, không liên quan đến kiểm tra lý lịch."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "Only if you work with our youth programs, like the after-school snack program.",
+      "explanationVi": "\"Only if\" giới hạn quy định vào một nhóm. \"Youth programs, like the after-school snack program\" → \"work with young people\". Đáp án \"every new volunteer\" là lỗi bỏ điều kiện kinh điển.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "food-bank-volunteers",
+      "prompt": "Why does the food bank ask new volunteers for at least two shifts a month?",
+      "options": [
+        {
+          "text": "The organization has very strict rules for everyone.",
+          "misconception": "opposite",
+          "whyVi": "Daniela phủ nhận trực tiếp: \"It's not because we're strict.\""
+        },
+        {
+          "text": "There are not enough volunteers on weekends.",
+          "misconception": "unsupported",
+          "whyVi": "Không có thông tin thiếu người cuối tuần."
+        },
+        {
+          "text": "Volunteers need two shifts to finish their food safety training.",
+          "misconception": "wrong_detail",
+          "whyVi": "Đào tạo an toàn thực phẩm là orientation online, không phải hai ca làm."
+        },
+        {
+          "text": "Training newcomers costs staff a lot of time that is wasted if they leave.",
+          "misconception": null,
+          "whyVi": "Đúng: \"training someone new takes a lot of staff time, and if people come once and disappear, we lose that time.\""
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "It's because training someone new takes a lot of staff time, and if people come once and disappear, we lose that time.",
+      "explanationVi": "Mẫu \"It's not because X. It's because Y.\" → X (strict) là bẫy, Y là đáp án. \"We lose that time\" được paraphrase thành \"wasted if they leave\".",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "food-bank-volunteers",
+      "prompt": "What does Daniela say about the footwear rule?",
+      "options": [
+        {
+          "text": "It applies even on days when the food bank needs more help.",
+          "misconception": null,
+          "whyVi": "Đúng: \"we'll have to send you home, even if we're short-staffed that day\"."
+        },
+        {
+          "text": "Volunteers in sandals can do office work instead.",
+          "misconception": "unsupported",
+          "whyVi": "Không có lựa chọn làm việc văn phòng; người đi sandal bị cho về."
+        },
+        {
+          "text": "It is relaxed when there are not enough volunteers.",
+          "misconception": "opposite",
+          "whyVi": "Ngược lại: \"the one rule we never bend\"."
+        },
+        {
+          "text": "It only applies to volunteers in the youth programs.",
+          "misconception": "wrong_detail",
+          "whyVi": "Điều kiện \"youth programs\" thuộc về quy định kiểm tra lý lịch, không phải giày."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "If you show up in sandals, we'll have to send you home, even if we're short-staffed that day.",
+      "explanationVi": "\"The one rule we never bend\" = không có ngoại lệ; \"even if we're short-staffed\" = kể cả khi thiếu người. Đáp án đúng paraphrase \"short-staffed\" thành \"needs more help\".",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "food-bank-volunteers",
+      "prompt": "Arjun wakes up with a fever on the morning of his shift. What should he do?",
+      "options": [
+        {
+          "text": "Cancel the shift in the app so someone on the waitlist can take it.",
+          "misconception": "dropped_condition",
+          "whyVi": "App chỉ dùng khi huỷ trước ít nhất 48 giờ; sát giờ thì app không báo cho ai."
+        },
+        {
+          "text": "Phone the front desk, because the app won't alert anyone at such short notice.",
+          "misconception": null,
+          "whyVi": "Đúng: \"If it's last minute… call the front desk instead. The app doesn't notify anyone that close to the shift.\""
+        },
+        {
+          "text": "Come in anyway, since the food bank is often short-staffed.",
+          "misconception": "unsupported",
+          "whyVi": "\"Short-staffed\" xuất hiện trong phần nói về giày, không phải lời khuyên đi làm khi ốm."
+        },
+        {
+          "text": "Find another volunteer to replace him through the shift calendar.",
+          "misconception": "unsupported",
+          "whyVi": "Không có hướng dẫn tự tìm người thay."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "If it's last minute, like you wake up sick that morning, call the front desk instead.",
+      "explanationVi": "Có hai quy định huỷ ca, phân biệt bằng thời gian: ≥ 48 giờ → app; sát giờ → gọi front desk. Tình huống \"morning of his shift\" thuộc trường hợp thứ hai. Đáp án nhiễu đầu tiên là quy định thật nhưng sai điều kiện.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "food-bank-volunteers",
+      "prompt": "What can be inferred about Arjun's expectations before this conversation?",
+      "options": [
+        {
+          "text": "He expected to be given a youth program position.",
+          "misconception": "unsupported",
+          "whyVi": "Arjun chỉ hỏi về kiểm tra lý lịch vì nghe nói nơi khác yêu cầu, không nói muốn làm với thanh thiếu niên."
+        },
+        {
+          "text": "He assumed he would have to commit to several months.",
+          "misconception": "opposite",
+          "whyVi": "Không có dấu hiệu này: Arjun chỉ định cứ thế đến vào thứ Bảy; chính Daniela mới là người nêu yêu cầu tối thiểu hai ca mỗi tháng trong ba tháng đầu."
+        },
+        {
+          "text": "He was worried that the food bank would reject him.",
+          "misconception": "unsupported",
+          "whyVi": "Không có dấu hiệu lo lắng bị từ chối."
+        },
+        {
+          "text": "He thought he could start helping without any preparation.",
+          "misconception": null,
+          "whyVi": "Đúng: \"I was just planning to show up on Saturday\", và Daniela nói quy trình \"different from what most people expect\"."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "Honestly, I was just planning to show up on Saturday.",
+      "explanationVi": "Câu suy luận: Arjun định \"just show up\" — tức là đến làm luôn mà không cần đào tạo hay đăng ký ca. Daniela đáp \"a lot of people say that. But we can't put anyone on the floor until…\" xác nhận suy luận này.",
+      "competency": "paraphrase"
+    }
+  ],
+  "misconceptions": {
+    "dropped_condition": {
+      "label": "Bỏ mất điều kiện hoặc ngoại lệ",
+      "explanationVi": "Bạn chọn một quy định có thật trong bài nhưng không để ý nó chỉ áp dụng khi có điều kiện (only if, unless, up to seven days before, at least 48 hours ahead) — hoặc áp dụng quy định cho sai trường hợp. Đây là lỗ hổng xử lý thông tin \"hai tầng\": bạn nghe được hành động nhưng không lưu được giới hạn đi kèm.",
+      "fixVi": "Mỗi lần nghe if / only / unless / except / the only exception, ghi mũi tên điều kiện (`if X → Y`, `EXC:`). Khi câu hỏi đưa ra tình huống cụ thể, kiểm tra từng điều kiện trước khi chọn."
+    },
+    "sequence_reversal": {
+      "label": "Đảo trình tự các bước",
+      "explanationVi": "Bạn sắp các bước theo thứ tự chúng được NÓI ra chứ không phải thứ tự chúng phải được LÀM, hoặc bỏ qua từ nối trình tự (once, before, the next step). \"Before registration opens, you'll need…\" có thể được nói sau nhưng làm trước.",
+      "fixVi": "Ghi các bước bằng số và mũi tên thời gian. Gặp \"before\" hoặc \"after\", dừng lại và đặt bước đó đúng vị trí trên dòng thời gian, không phải theo thứ tự nghe."
+    },
+    "wrong_detail": {
+      "label": "Mượn chi tiết của mục khác",
+      "explanationVi": "Đáp án dùng một chi tiết có trong bài (waitlist, two shifts, youth programs) nhưng gắn nó vào một quy định hay lý do khác. Part 3 có nhiều mục thông tin liên tiếp nên rất dễ \"râu ông nọ cắm cằm bà kia\".",
+      "fixVi": "Ghi chú theo từng mục (account / proof / refund; orientation / check / shifts / shoes / cancel). Trước khi chọn, hỏi: chi tiết này thuộc mục nào?"
+    },
+    "opposite": {
+      "label": "Hiểu ngược ý",
+      "explanationVi": "Đáp án nói đúng điều người giải thích phủ nhận hoặc cảnh báo (\"Don't just grab a random class\", \"It's not because we're strict\"). Thường do nghe được từ khoá nhưng bỏ lỡ chữ phủ định đứng trước nó.",
+      "fixVi": "Chú ý don't / not / never / not because. Ghi dấu ✗ cạnh những gì người nói phủ nhận để không chọn nhầm."
+    },
+    "unsupported": {
+      "label": "Chọn vì trùng từ hoặc thông tin ngoài bài",
+      "explanationVi": "Bạn chọn đáp án vì nó chứa một từ bạn nhớ (drop-in fitness pass, Saturday, short-staffed) hoặc vì nó nghe hợp lý với hiểu biết chung, trong khi người nói không hề nói như vậy.",
+      "fixVi": "Mỗi đáp án phải chỉ được về một câu cụ thể với cùng ý nghĩa. Từ trùng chỉ là gợi ý vị trí, không phải bằng chứng."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "walk someone through something",
+      "vi": "hướng dẫn ai từng bước",
+      "example": "Could you walk me through how to set up my MSP account online?"
+    },
+    {
+      "term": "once that's done",
+      "vi": "sau khi xong việc đó (tín hiệu trình tự)",
+      "example": "Fill out the form first. Once that's done, you'll get a confirmation email."
+    },
+    {
+      "term": "only if",
+      "vi": "chỉ khi",
+      "example": "You need a parking permit only if you park on the street overnight."
+    },
+    {
+      "term": "as long as",
+      "vi": "miễn là",
+      "example": "You can return the jacket as long as the tags are still on."
+    },
+    {
+      "term": "minus",
+      "vi": "trừ đi",
+      "example": "You'll get your deposit back, minus a twenty-dollar cleaning fee."
+    },
+    {
+      "term": "the only exception is…",
+      "vi": "ngoại lệ duy nhất là…",
+      "example": "The pool is closed on holidays. The only exception is Canada Day."
+    },
+    {
+      "term": "a rule we never bend",
+      "vi": "quy định không bao giờ có ngoại lệ",
+      "example": "Helmets on the bike trail are a rule we never bend."
+    },
+    {
+      "term": "short-staffed",
+      "vi": "thiếu người, thiếu nhân viên",
+      "example": "Sorry for the wait. We're a bit short-staffed today."
+    },
+    {
+      "term": "at short notice / last minute",
+      "vi": "sát giờ, báo gấp",
+      "example": "If you have to cancel at short notice, please call the clinic directly."
+    }
+  ],
+  "grammar": [
+    {
+      "point": "Condition words: if, only if, unless, as long as",
+      "explanationVi": "\"If\" nêu một trường hợp; \"only if\" giới hạn quy định vào DUY NHẤT trường hợp đó; \"unless\" = trừ khi (nếu không); \"as long as\" = miễn là. Trong Part 3, đáp án sai thường bỏ mất những từ này và biến một quy định có điều kiện thành quy định chung.",
+      "examples": [
+        "You need a parking pass only if you park overnight.",
+        "You'll pay a late fee, unless you call ahead.",
+        "You can return it as long as you have the receipt."
+      ]
+    },
+    {
+      "point": "Sequence with once / before / after",
+      "explanationVi": "\"Once X, Y\" = ngay sau khi X xong thì Y. \"Before X, do Y\" = Y làm trước X dù được nói sau. Đọc mệnh đề thời gian để đặt các bước đúng vị trí.",
+      "examples": [
+        "Once you activate the card, you can book a study room.",
+        "Before your first visit, you have to fill out the health form."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "label": "Luyện Part 3 – Listening for Information",
+      "route": "/listening?task=L3"
+    },
+    {
+      "label": "Drill nhận diện paraphrase",
+      "route": "/listening?mode=drill&focus=paraphrase"
+    }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Re-solved 4 guided + 8 independent items (including the order task) against l3-full-01 ch0 and both lesson clips; one defensible key each. Fixed: g3 hint no longer reveals the position of the conditional step; i8 distractor explanation corrected (Arjun never said he would come only once); \"context line\" wording generalised."}
+}

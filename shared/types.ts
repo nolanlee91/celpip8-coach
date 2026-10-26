@@ -1,5 +1,6 @@
 import type { Skill } from "./spec";
 import type { ContentSource, ObjectiveSetType, PromptSetType, ReviewInfo } from "./content";
+import type { LessonProgress } from "./curriculum";
 
 export type Mode = "learn" | "drill" | "exam" | "weekly";
 
@@ -326,6 +327,7 @@ export interface Db {
   mockExams: MockExam[];
   weekly: WeeklyAssessment[];
   planCompletions: Record<string, string[]>; // date -> completed block ids
+  lessons: Record<string, LessonProgress>; // Learn Mode progress, keyed by lesson id
   // Stored in ai.json (Layer C), separate from progress.json:
   submissions: Submission[];
   aiUsage: AiUsageEntry[];
@@ -356,6 +358,9 @@ export interface SkillSummary {
 export interface PlanBlock {
   id: string;
   skill: Skill | "review";
+  kind?: "learn" | "guided" | "lesson-review" | "vocab" | "mistakes" | "practice" | "exam" | "weekly";
+  reason?: string; // why the coach picked this block (Vietnamese)
+  lessonId?: string;
   title: string;
   detail: string;
   minutes: number;
@@ -372,6 +377,7 @@ export interface DailyPlan {
 }
 
 export interface Dashboard {
+  learning?: unknown; // Learn Mode summary (server/learn-routes.ts learningSummary)
   settings: Settings;
   skills: SkillSummary[];
   categoryStats: CategoryStat[];

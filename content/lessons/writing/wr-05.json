@@ -1,0 +1,360 @@
+{
+  "id": "wr-05",
+  "skill": "writing",
+  "module": "writing-foundations",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Tone and register",
+  "titleVi": "Giọng văn và mức độ trang trọng",
+  "estimatedMinutes": 30,
+  "prerequisites": ["wr-01"],
+  "competencies": ["tone_register"],
+  "tasks": ["W1", "W2"],
+  "objectives": [
+    "You will be able to decide whether a CELPIP task needs a formal, semi-formal or informal register.",
+    "You will be able to match greetings, closings, contractions and vocabulary to that register.",
+    "You will be able to soften direct requests and complaints so they sound polite but firm.",
+    "You will be able to spot and fix register mismatches inside one email."
+  ],
+  "objectiveVi": "Bạn sẽ chọn đúng mức độ trang trọng cho từng người nhận (công ty, hàng xóm, bạn thân), dùng lời chào, lời kết, từ vựng và cách yêu cầu phù hợp, và giữ giọng văn nhất quán từ đầu đến cuối bài.",
+  "whyItMattersVi": "Trong Task 1, đề luôn cho biết bạn viết cho ai, và giọng văn là một phần của việc hoàn thành đề. Người Việt hay gặp hai vấn đề ngược nhau: viết cho công ty thì quá thẳng (\"Please fix it now\", \"I want a refund\"), còn viết cho bạn bè lại quá cứng (\"I am writing to inform you…\"). Ở Level 7, giọng văn thường \"tạm ổn\" nhưng có chỗ lệch; Level 8 đòi hỏi giọng văn phù hợp và nhất quán trong toàn bài, lịch sự nhưng vẫn rõ ràng và chắc chắn.",
+  "concept": [
+    {
+      "heading": "1. Ba mức độ trang trọng và cách chọn",
+      "body": "Hãy hỏi hai câu: **Tôi quan hệ thế nào với người này?** và **Mục đích của email là gì?**\n\n- **Formal:** người lạ hoặc tổ chức: công ty, chủ nhà mà bạn chưa quen, văn phòng thành phố, quản lý toà nhà. Ví dụ: khiếu nại, xin hoàn tiền, xin thông tin.\n- **Semi-formal:** người bạn biết nhưng không thân: đồng nghiệp, hàng xóm, giáo viên của con, huấn luyện viên. Thân thiện nhưng vẫn lịch sự.\n- **Informal:** bạn thân, người thân. Ấm áp, tự nhiên, nhưng vẫn là văn viết chuẩn (không dùng *lol, u, gonna*).\n\n**Task 2 (survey):** viết cho một tổ chức mà bạn không quen, nên dùng giọng **trung tính, hơi trang trọng**: rõ ràng, không tiếng lóng, hạn chế viết tắt."
+    },
+    {
+      "heading": "2. Dấu hiệu của từng mức độ",
+      "body": "| | Formal | Semi-formal | Informal |\n|---|---|---|---|\n| Chào | Dear Ms. Patel, / Dear Sir or Madam, | Hi Daniel, / Dear Daniel, | Hi Linh! / Hey Mark, |\n| Kết | Sincerely, / Yours truly, | Best regards, / Thanks again, | Take care, / See you soon, |\n| Viết tắt | Tránh (I am, cannot) | Một ít (I'm, don't) | Tự nhiên |\n| Từ vựng | receive, request, inform, resolve, children | get, ask, let you know, sort out, kids | grab, catch up, super |\n\nPhrasal verb không bị cấm trong văn trang trọng (*look into, follow up*), nhưng những cụm suồng sã (*mess up, hang out*) thì nên thay. Ngoài ra, không dùng **chữ in hoa toàn bộ, nhiều dấu chấm than** hay emoji trong email trang trọng."
+    },
+    {
+      "heading": "3. Thẳng thắn hay lịch sự: làm mềm yêu cầu",
+      "body": "Dịch thẳng từ tiếng Việt thường tạo câu mệnh lệnh nghe khá gắt: *Please fix it now. / I want a refund. / You must call me.* Tiếng Anh trang trọng dùng **softeners**:\n\n- *Could you please…?* / *Would it be possible to…?*\n- *I would appreciate it if you could…*\n- *I was wondering whether…* (rất lịch sự, hợp với semi-formal)\n- *I would like to request…* thay cho *I want…*\n\n**Lịch sự không có nghĩa là yếu.** Trong thư khiếu nại, bạn vẫn có thể cứng rắn: *I expect this to be resolved by Friday, March 14.* / *If the problem continues, I will have to contact the Residential Tenancy Branch.* Câu cứng rắn mà bình tĩnh hiệu quả hơn câu giận dữ (*This is ridiculous! You are so irresponsible!*)."
+    },
+    {
+      "heading": "4. Lỗi lệch giọng (register mismatch)",
+      "body": "- **Quá suồng sã với người lạ:** *Hey, the heater's busted again, can u send someone ASAP?*\n- **Quá cứng với bạn thân:** *Dear Tom, I am writing to inform you that I will be unable to attend your celebration.* Bạn thân sẽ thấy lạ. Tự nhiên hơn: *Hi Tom, I'm so sorry, but I can't make it to your party on Saturday.*\n- **Trộn giọng trong một bài:** mở bằng *Dear Sir or Madam* mà kết bằng *Cheers!*, hoặc câu trang trọng xen câu *Anyway, no biggie.*\n\nCách kiểm tra: đọc lời chào, rồi đọc lời kết, rồi đọc câu yêu cầu chính. Cả ba phải cùng một mức độ."
+    },
+    {
+      "heading": "5. Quy trình 30 giây trước khi viết",
+      "body": "1. Gạch chân người nhận trong đề (*your manager, a friend, the city council*).\n2. Chọn mức độ: formal / semi-formal / informal.\n3. Viết sẵn lời chào và lời kết tương ứng.\n4. Chọn một câu yêu cầu mềm (*Could you…, I would appreciate…, Would you mind…*).\n5. Khi đọc lại, tìm từ lạc giọng: *kids, get, ASAP, gonna* trong email trang trọng; *inform, unable, request* trong email cho bạn thân."
+    }
+  ],
+  "stimuli": {
+    "blunt-manager-email": {
+      "title": "Draft email to a property management company (Level 6–7)",
+      "text": "Hi,\n\nThe washing machine in the laundry room is broken AGAIN!!! This is the third time this month. I want you to fix it now. My kids need clean clothes for school and I can't keep going to the laundromat. You guys need to do your job.\n\nThanks,\nMinh"
+    },
+    "stiff-friend-email": {
+      "title": "Draft email to a close friend",
+      "text": "Dear Jenny,\n\nI am writing to inform you that I will be unable to attend your housewarming party on Saturday due to a work obligation. I sincerely apologize for any inconvenience this may cause. I would be grateful if we could arrange an alternative meeting at your earliest convenience.\n\nYours sincerely,\nHoa"
+    }
+  },
+  "examples": [
+    {
+      "id": "wr-05-ex1",
+      "title": "Polite but firm: rewriting a blunt complaint",
+      "stimulusId": "blunt-manager-email",
+      "question": "Rewrite this email to the property management company in a formal, polite but firm register.",
+      "steps": [
+        "Identify the reader: a company you have no personal relationship with → formal.",
+        "Greeting and closing: 'Hi,' → 'Dear Property Manager,' ; 'Thanks,' → 'Sincerely,' with full name and unit number.",
+        "Remove emotional markers: capital letters, '!!!', 'You guys need to do your job.' Replace anger with facts (dates, number of breakdowns).",
+        "Turn the demand 'I want you to fix it now' into a firm, polite request with a deadline: 'I would appreciate it if a technician could repair it by Friday.'",
+        "Upgrade informal words: 'kids' → 'children', 'I can't keep going to the laundromat' → 'I have had to use a laundromat several times', 'broken AGAIN' → 'has broken down for the third time'.",
+        "Add a reasonable next step to keep it firm: suggest replacing the machine if repairs keep failing."
+      ],
+      "answer": "Dear Property Manager,\n\nI am writing to report that the washing machine in the laundry room at 1450 Pine Street has broken down for the third time this month. Since my children need clean clothes for school, I have had to use a laundromat several times, which is both costly and time-consuming. I would appreciate it if a technician could repair the machine by this Friday. If it continues to break down, would you consider replacing it?\n\nSincerely,\nMinh Tran, Unit 304",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Hi,\n\nThe washing machine in the laundry room is broken AGAIN!!! This is the third time this month. I want you to fix it now. My kids need clean clothes for school and I can't keep going to the laundromat. You guys need to do your job.\n\nThanks,\nMinh",
+          "commentVi": "Giọng quá suồng sã và gay gắt với một công ty: \"Hi,\" không có tên; chữ in hoa và \"!!!\" thể hiện giận dữ; \"I want you to fix it now\" là mệnh lệnh; \"You guys need to do your job\" mang tính công kích; \"kids\", \"can't\", \"Thanks,\" thuộc giọng thân mật. Thông tin cần thiết (địa chỉ, số căn hộ) bị thiếu."
+        },
+        {
+          "label": "after",
+          "text": "Dear Property Manager,\n\nI am writing to report that the washing machine in the laundry room at 1450 Pine Street has broken down for the third time this month. Since my children need clean clothes for school, I have had to use a laundromat several times, which is both costly and time-consuming. I would appreciate it if a technician could repair the machine by this Friday. If it continues to break down, would you consider replacing it?\n\nSincerely,\nMinh Tran, Unit 304",
+          "commentVi": "Các thay đổi: lời chào/kết trang trọng (Dear Property Manager / Sincerely + họ tên + số căn); câu mục đích \"I am writing to report…\"; cảm xúc được thay bằng dữ kiện (third time this month, costly and time-consuming); mệnh lệnh → \"I would appreciate it if… by this Friday\" (lịch sự nhưng có hạn chót); câu công kích được thay bằng đề xuất \"would you consider replacing it?\"; \"kids\" → \"children\", không còn viết tắt."
+        }
+      ],
+      "takeawayVi": "Cứng rắn = dữ kiện cụ thể + hạn chót rõ ràng + bước tiếp theo hợp lý. Không cần chữ in hoa hay lời công kích."
+    },
+    {
+      "id": "wr-05-ex2",
+      "title": "Warming up a stiff email to a friend",
+      "stimulusId": "stiff-friend-email",
+      "question": "Rewrite this email so it sounds like it comes from a close friend.",
+      "steps": [
+        "Identify the reader: a close friend → informal, warm.",
+        "Greeting and closing: 'Dear Jenny,' → 'Hi Jenny,' ; 'Yours sincerely,' → 'Hugs,' or 'Talk soon,'.",
+        "Replace business phrases: 'I am writing to inform you' → 'I'm so sorry, but…'; 'unable to attend' → 'can't make it'; 'due to a work obligation' → 'I have to work that day'.",
+        "Replace 'any inconvenience this may cause' with a personal reaction: 'I was really looking forward to seeing your new place.'",
+        "Turn the formal request into a friendly suggestion: 'Can I come by next weekend instead? I'll bring dessert!'",
+        "Use contractions naturally (I'm, can't, I'll) but keep standard spelling, with no 'u' or 'gonna'."
+      ],
+      "answer": "Hi Jenny,\n\nI'm so sorry, but I can't make it to your housewarming on Saturday. My manager just asked me to cover a shift, and I couldn't say no. I was really looking forward to seeing your new place in Coquitlam! Can I come by next weekend instead? I'll bring that lemon cake you love.\n\nTalk soon,\nHoa",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Dear Jenny,\n\nI am writing to inform you that I will be unable to attend your housewarming party on Saturday due to a work obligation. I sincerely apologize for any inconvenience this may cause. I would be grateful if we could arrange an alternative meeting at your earliest convenience.\n\nYours sincerely,\nHoa",
+          "commentVi": "Ngữ pháp hoàn hảo nhưng giọng văn của thư công việc: \"I am writing to inform you\", \"unable to attend\", \"any inconvenience this may cause\", \"at your earliest convenience\", \"Yours sincerely\". Với bạn thân, giọng này nghe lạnh lùng, thậm chí như đang giận."
+        },
+        {
+          "label": "after",
+          "text": "Hi Jenny,\n\nI'm so sorry, but I can't make it to your housewarming on Saturday. My manager just asked me to cover a shift, and I couldn't say no. I was really looking forward to seeing your new place in Coquitlam! Can I come by next weekend instead? I'll bring that lemon cake you love.\n\nTalk soon,\nHoa",
+          "commentVi": "Các thay đổi: \"Hi Jenny,\" và \"Talk soon,\"; viết tắt tự nhiên (I'm, can't, I'll); lời xin lỗi cảm xúc thay cho câu hành chính; lý do cụ thể, đời thường (cover a shift); thêm câu thể hiện tình cảm (really looking forward…); đề xuất thân mật (Can I come by…?) và chi tiết riêng (lemon cake you love). Vẫn là văn viết chuẩn, không tiếng lóng."
+        }
+      ],
+      "takeawayVi": "Viết thân mật không có nghĩa là viết cẩu thả. Ấm áp đến từ cảm xúc cụ thể và chi tiết cá nhân, không phải từ tiếng lóng."
+    },
+    {
+      "id": "wr-05-ex3",
+      "title": "Reading register signals",
+      "question": "Decide the register for each task: (1) Email your child's soccer coach, whom you have met a few times, to say your son will miss practice. (2) Email the City of Richmond to ask about a permit for a backyard deck. (3) Email your cousin to thank her for helping you move.",
+      "steps": [
+        "(1) Known but not close, friendly purpose → semi-formal: 'Hi Coach Ryan,' … 'I'm afraid Leo won't be able to make it…' … 'Thanks so much,'.",
+        "(2) An organization, an information request → formal: 'Dear Sir or Madam,' … 'I would like to request information about…' … 'Sincerely,'.",
+        "(3) Family, thanks → informal: 'Hi Mai,' … 'I can't thank you enough for…' … 'Love,'.",
+        "For each, check that greeting, key sentence and closing all match the same level."
+      ],
+      "answer": "(1) semi-formal; (2) formal; (3) informal",
+      "takeawayVi": "Người nhận quyết định giọng văn. Đọc kỹ dòng mô tả người nhận trong đề trước khi viết bất kỳ chữ nào."
+    }
+  ],
+  "guided": [
+    {
+      "id": "wr-05-g1",
+      "type": "choice",
+      "prompt": "Task: 'Write an email to the manager of a furniture store about a damaged sofa that was delivered yesterday.' Which opening line has the right register?",
+      "hint": "Who is the reader, and do you know them personally? Choose the greeting and first sentence that fit that relationship.",
+      "options": [
+        { "text": "Hey there! Just wanted to let you know the sofa you guys sent is wrecked.", "misconception": "too-informal", "whyVi": "\"Hey there\", \"you guys\", \"wrecked\" là giọng nói chuyện với bạn, không phù hợp với quản lý cửa hàng." },
+        { "text": "Dear Manager, I am writing about the sofa that was delivered to my home yesterday, which arrived with a large tear in the fabric.", "misconception": null, "whyVi": "Đúng. Lời chào trang trọng, câu mục đích rõ ràng, mô tả vấn đề bằng dữ kiện." },
+        { "text": "Dear Manager, Your delivery people are careless and I demand that you replace my sofa immediately.", "misconception": "aggressive-tone", "whyVi": "Trang trọng về hình thức nhưng công kích (careless, I demand… immediately) ngay từ câu đầu." },
+        { "text": "Hi buddy, hope you're doing well! So, about the sofa…", "misconception": "too-informal", "whyVi": "Quá thân mật với người lạ, và chưa nêu được vấn đề." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Người lạ ở một doanh nghiệp → formal. Câu mở đầu nên nêu mục đích và vấn đề một cách bình tĩnh, có dữ kiện.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "wr-05-g2",
+      "type": "text",
+      "prompt": "Type the formal ONE-word verb that replaces 'tell' in this sentence: 'I am writing to ______ you that I will be moving out of Unit 12 at the end of June.'",
+      "hint": "You need a formal verb that takes the pattern 'verb + you + that…'. Think of the formal vocabulary in the table in section 2.",
+      "answers": ["inform", "notify", "advise"],
+      "mode": "exact",
+      "misconception": "too-informal",
+      "explanationVi": "\"inform someone that…\", \"notify someone that…\" hoặc \"advise someone that…\" là cách trang trọng để báo tin, phù hợp khi viết cho chủ nhà hoặc công ty.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "wr-05-g3",
+      "type": "choice",
+      "prompt": "Which request is polite but still firm, for an email to an internet provider that has overcharged you twice?",
+      "hint": "Look for a sentence that is calm, uses a softener, and still gives a clear action and a time.",
+      "options": [
+        { "text": "Give me my money back now.", "misconception": "too-direct", "whyVi": "Mệnh lệnh trần, không có từ làm mềm; nghe thô lỗ." },
+        { "text": "If it's not too much trouble, maybe you could possibly look at my bill sometime?", "misconception": "too-formal-stiff", "whyVi": "Quá rụt rè: nhiều từ làm mềm chồng chất, không có hành động hay thời hạn cụ thể, nên yêu cầu mất sức nặng." },
+        { "text": "I would appreciate it if you could refund the extra $45 to my account by the end of this billing cycle.", "misconception": null, "whyVi": "Đúng. Lịch sự (I would appreciate it if you could), cụ thể (the extra $45) và có thời hạn rõ ràng." },
+        { "text": "This is the second time!!! I can't believe how bad your service is.", "misconception": "aggressive-tone", "whyVi": "Cảm xúc thay cho yêu cầu; dấu chấm than và lời chê bai làm người đọc phòng thủ." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Yêu cầu Level 8 = từ làm mềm + hành động cụ thể + thời hạn. Quá thẳng nghe thô lỗ; quá rụt rè thì không ai hành động.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "wr-05-g4",
+      "type": "choice",
+      "stimulusId": "stiff-friend-email",
+      "prompt": "What is the main register problem in Hoa's email to her close friend Jenny?",
+      "hint": "Compare the phrases Hoa uses with the 'Formal' and 'Informal' columns in section 2.",
+      "options": [
+        { "text": "It uses too many contractions for a written email.", "misconception": "too-informal", "whyVi": "Email của Hoa không có từ viết tắt nào; vấn đề là ngược lại." },
+        { "text": "It is far too formal for a close friend: it sounds like a business letter.", "misconception": null, "whyVi": "Đúng. \"I am writing to inform you\", \"unable to attend\", \"at your earliest convenience\", \"Yours sincerely\" là giọng thư công việc." },
+        { "text": "It is rude because it does not include an apology.", "misconception": "aggressive-tone", "whyVi": "Email có lời xin lỗi (\"I sincerely apologize\"), chỉ là lời xin lỗi kiểu hành chính." },
+        { "text": "It mixes formal and informal language in the same email.", "misconception": "mixed-register", "whyVi": "Email nhất quán, chỉ là nhất quán ở mức quá trang trọng." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Đúng ngữ pháp không có nghĩa là đúng giọng. Với bạn thân, giọng hành chính tạo khoảng cách và nghe lạnh lùng.",
+      "competency": "tone_register"
+    }
+  ],
+  "independent": [
+    {
+      "id": "wr-05-i1",
+      "type": "choice",
+      "prompt": "You are writing to your new neighbour, whom you met once in the elevator, to invite her to a building potluck. Which closing fits best?",
+      "options": [
+        { "text": "Yours faithfully,", "misconception": "too-formal-stiff", "whyVi": "Đây là lời kết rất trang trọng kiểu Anh, dùng cho thư gửi người không rõ tên; quá cứng cho lời mời hàng xóm." },
+        { "text": "Hope to see you there,", "misconception": null, "whyVi": "Đúng. Thân thiện, lịch sự, gắn với nội dung lời mời; hợp với giọng semi-formal." },
+        { "text": "Luv ya, xoxo", "misconception": "too-informal", "whyVi": "Quá thân mật và có lối viết tắt kiểu tin nhắn; không phù hợp với người mới gặp một lần." },
+        { "text": "Awaiting your prompt response,", "misconception": "too-direct", "whyVi": "Nghe như đang thúc giục một đối tác kinh doanh, không phải mời hàng xóm." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Semi-formal: thân thiện nhưng không quá thân. Lời kết gắn với nội dung (Hope to see you there, Thanks again, Best wishes) thường là lựa chọn tự nhiên nhất.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "wr-05-i2",
+      "type": "text",
+      "prompt": "Type the more formal verb (one word) that replaces 'get' in this email to a government office: 'I have not yet ______ my renewed BC Services Card, although I applied in January.'",
+      "answers": ["received", "obtained"],
+      "mode": "exact",
+      "misconception": "too-informal",
+      "explanationVi": "Trong văn trang trọng, \"get\" (nhận được) thường được thay bằng \"receive\"; \"obtain\" cũng được chấp nhận. Chia ở dạng V3 vì đi sau \"have not yet\".",
+      "competency": "tone_register"
+    },
+    {
+      "id": "wr-05-i3",
+      "type": "choice",
+      "prompt": "Which sentence contains a register mismatch for a formal email to a college admissions office?",
+      "options": [
+        { "text": "I would like to request information about the part-time evening program.", "misconception": "mixed-register", "whyVi": "Câu này trang trọng và phù hợp." },
+        { "text": "Could you please tell me whether the deadline can be extended?", "misconception": "mixed-register", "whyVi": "Lịch sự và phù hợp; \"tell me\" trong câu hỏi lịch sự vẫn chấp nhận được." },
+        { "text": "Anyway, no worries if it's a hassle, just let me know whenever.", "misconception": null, "whyVi": "Đúng. \"Anyway\", \"no worries\", \"hassle\", \"whenever\" là giọng nói chuyện thân mật, lệch hẳn với email trang trọng." },
+        { "text": "I have attached a copy of my transcript for your reference.", "misconception": "mixed-register", "whyVi": "Cụm \"for your reference\" là cách nói trang trọng chuẩn." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Lỗi lệch giọng thường nằm ở câu cuối, khi người viết \"thả lỏng\". Hãy đọc kỹ câu kết như đọc câu mở đầu.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "wr-05-i4",
+      "type": "text",
+      "prompt": "Type the full (uncontracted) form of the contraction for a formal letter: 'We won't be able to attend the hearing on May 6.' Type the two words that replace 'won't'.",
+      "answers": ["will not"],
+      "mode": "exact",
+      "misconception": "too-informal",
+      "explanationVi": "won't = will not. Trong thư trang trọng, nên viết đầy đủ: will not, cannot, do not, I am.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "wr-05-i5",
+      "type": "choice",
+      "prompt": "You are writing to a coworker you get along with, asking her to switch shifts with you next Thursday. Which request has the best register?",
+      "options": [
+        { "text": "I hereby request that you exchange shifts with me on Thursday.", "misconception": "too-formal-stiff", "whyVi": "\"I hereby request\" là giọng văn bản pháp lý; quá cứng với đồng nghiệp thân thiện." },
+        { "text": "Switch shifts with me Thursday.", "misconception": "too-direct", "whyVi": "Câu mệnh lệnh trần, nghe như ra lệnh dù hai người ngang hàng." },
+        { "text": "I was wondering if you'd be able to switch shifts with me next Thursday. I'd be happy to cover one of yours in return.", "misconception": null, "whyVi": "Đúng. \"I was wondering if…\" lịch sự mà thân thiện, viết tắt tự nhiên, và đề nghị đổi lại làm yêu cầu dễ chấp nhận hơn." },
+        { "text": "Yo, can u take my Thursday shift? Thx!!", "misconception": "too-informal", "whyVi": "\"Yo\", \"u\", \"Thx!!\" là ngôn ngữ tin nhắn, không phải email." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Semi-formal với đồng nghiệp: dùng softener nhẹ (I was wondering if…, Would you mind…), có thể viết tắt, và tôn trọng thời gian của người kia.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "wr-05-i6",
+      "type": "choice",
+      "prompt": "Which sentence is the best Level 8 replacement for 'You must fix the streetlight because it is dangerous and you are ignoring us.' in an email to the City of Surrey?",
+      "options": [
+        { "text": "I kindly ask you to perhaps think about fixing the streetlight if possible.", "misconception": "too-formal-stiff", "whyVi": "Quá nhiều từ làm mềm (kindly, perhaps, if possible) khiến yêu cầu yếu và không rõ ràng." },
+        { "text": "The streetlight outside 8820 King George Boulevard has been out for three weeks, and residents have reported two near-misses with pedestrians. I would ask that a crew repair it as soon as possible.", "misconception": null, "whyVi": "Đúng. Cứng rắn nhờ dữ kiện (địa chỉ, ba tuần, hai vụ suýt va chạm), yêu cầu rõ ràng, không công kích." },
+        { "text": "Why does the city never listen to residents? Fix the streetlight already!", "misconception": "aggressive-tone", "whyVi": "Câu hỏi tu từ mang tính buộc tội và mệnh lệnh; làm người đọc phòng thủ." },
+        { "text": "Hey, the streetlight's been out forever, can you guys sort it out?", "misconception": "too-informal", "whyVi": "\"Hey\", \"forever\", \"you guys\", \"sort it out\" là giọng thân mật, không phù hợp với chính quyền thành phố." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Đối với tổ chức, sức thuyết phục đến từ dữ kiện cụ thể và yêu cầu rõ ràng, không đến từ cảm xúc hay lời buộc tội.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "wr-05-i7",
+      "type": "choice",
+      "prompt": "Task 2 survey: 'Should the province make the last week of February a school holiday?' Which sentence has the most appropriate register for a survey response?",
+      "options": [
+        { "text": "Honestly, I think that's a totally awesome idea, lol.", "misconception": "too-informal", "whyVi": "\"totally awesome\", \"lol\" là tiếng lóng, không phù hợp với bài khảo sát gửi cơ quan." },
+        { "text": "I firmly believe that a February break would give families a much-needed chance to rest during the grey, rainy months of winter.", "misconception": null, "whyVi": "Đúng. Giọng trung tính, hơi trang trọng; quan điểm rõ ràng (firmly believe), có lý do cụ thể." },
+        { "text": "It is hereby asserted by the undersigned that a February holiday shall be beneficial.", "misconception": "too-formal-stiff", "whyVi": "Giọng văn bản pháp lý, câu bị động nặng nề; quá cứng và khó đọc." },
+        { "text": "You people at the ministry should have done this years ago.", "misconception": "aggressive-tone", "whyVi": "\"You people\" mang tính công kích và đổ lỗi." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Task 2 cần giọng trung tính, rõ ràng, tự tin: I strongly believe…, In my view…, I would prefer… Tránh cả tiếng lóng lẫn văn phong pháp lý.",
+      "competency": "tone_register"
+    },
+    {
+      "id": "wr-05-i8",
+      "type": "produce",
+      "medium": "write",
+      "minWords": 80,
+      "prompt": "Task 1-style: Your upstairs neighbour, whom you know only to say hello to, often moves furniture late at night, and the noise wakes your baby. Write a short email (80–120 words) to the neighbour: describe the problem, explain how it affects you, and suggest a solution. Use a semi-formal, friendly but clear register.",
+      "checklist": [
+        "Greeting and closing are semi-formal (e.g. Hi + name / Thanks so much, Best regards) and match each other",
+        "Describes the problem with facts (times, how often) without blaming or angry language",
+        "Uses at least one softener for the request (I was wondering if…, Would you mind…, I would really appreciate it if…)",
+        "Contains no slang, text-message spelling, capital-letter shouting or multiple exclamation marks",
+        "Suggests a specific, reasonable solution (e.g. a time limit or felt pads)",
+        "Ends on a friendly, cooperative note"
+      ],
+      "modelAnswer": "Hi Daniel,\n\nThis is Lan from Unit 304, just below you. I hope you don't mind me reaching out. Over the past couple of weeks, I've noticed what sounds like furniture being moved after 11 p.m., usually three or four nights a week. Our baby is only six months old, and the noise has been waking her up, which makes for very long nights.\n\nI was wondering if it would be possible to keep any moving or rearranging to before ten. Felt pads under chair legs also make a big difference, and I'd be happy to drop some off.\n\nThanks so much for understanding, and please let me know if our baby's crying ever bothers you, too!\n\nBest,\nLan",
+      "misconception": "too-direct",
+      "explanationVi": "Đối chiếu với bài mẫu: dữ kiện cụ thể (after 11 p.m., three or four nights a week), lời yêu cầu mềm (I was wondering if…), đề nghị giúp (drop some off), và kết thúc hợp tác (let me know if our baby's crying ever bothers you). Đó là giọng semi-formal: thân thiện nhưng vẫn rõ ràng.",
+      "competency": "tone_register"
+    }
+  ],
+  "misconceptions": {
+    "too-informal": {
+      "label": "Quá suồng sã với người nhận",
+      "explanationVi": "Bạn viết cho công ty, cơ quan hoặc người lạ bằng giọng nói chuyện hằng ngày (Hey, you guys, kids, get, ASAP, viết tắt nhiều). Người đọc thấy thiếu tôn trọng, và bài không đáp ứng yêu cầu về giọng văn của đề.",
+      "fixVi": "Gạch chân người nhận trong đề. Với người lạ hoặc tổ chức: Dear…, Sincerely, không viết tắt, thay get/tell/fix bằng receive/inform/repair."
+    },
+    "too-formal-stiff": {
+      "label": "Quá cứng / quá rụt rè",
+      "explanationVi": "Bạn dùng mẫu câu thư hành chính (I am writing to inform you, at your earliest convenience, hereby) cho bạn bè hoặc đồng nghiệp, hoặc chồng quá nhiều từ làm mềm đến mức yêu cầu không còn rõ. Đây là dấu hiệu học thuộc mẫu câu mà chưa gắn với người nhận.",
+      "fixVi": "Với bạn thân: viết như đang nói chuyện, nhưng bằng văn chuẩn (I'm so sorry, I can't make it). Mỗi yêu cầu chỉ cần một từ làm mềm cộng với hành động cụ thể."
+    },
+    "too-direct": {
+      "label": "Quá thẳng: câu mệnh lệnh, I want",
+      "explanationVi": "Bạn dịch thẳng câu yêu cầu từ tiếng Việt (Sửa giúp tôi ngay, Tôi muốn…) thành câu mệnh lệnh tiếng Anh. Trong tiếng Anh, câu mệnh lệnh trần với người lạ hoặc người ngang hàng nghe thiếu lịch sự.",
+      "fixVi": "Chuyển mệnh lệnh thành câu hỏi hoặc câu có softener: Could you please…?, I would appreciate it if…, I was wondering if…, I would like to request…"
+    },
+    "aggressive-tone": {
+      "label": "Giọng giận dữ, công kích",
+      "explanationVi": "Bạn thể hiện sự bực bội bằng chữ in hoa, nhiều dấu chấm than, lời buộc tội (you are irresponsible, you people). Điều này làm người đọc phòng thủ và làm yếu lập luận của bạn.",
+      "fixVi": "Thay cảm xúc bằng dữ kiện (bao nhiêu lần, từ ngày nào, ảnh hưởng gì) và một yêu cầu có thời hạn. Cứng rắn nhưng bình tĩnh: I expect this to be resolved by…"
+    },
+    "mixed-register": {
+      "label": "Trộn lẫn các mức giọng",
+      "explanationVi": "Bài của bạn có phần trang trọng và phần thân mật xen nhau (Dear Sir… Cheers!, hoặc câu kết kiểu \"no worries\"). Người đọc không biết bạn đang đứng ở vị trí nào, và bài mất tính nhất quán.",
+      "fixVi": "Sau khi viết, đọc riêng lời chào, câu yêu cầu chính và lời kết. Cả ba phải cùng một mức. Sửa câu nào lệch."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "I am writing to report / request / inform you that…", "vi": "Tôi viết thư này để báo cáo / đề nghị / thông báo rằng… (trang trọng)", "example": "I am writing to report a leak in the parkade ceiling." },
+    { "term": "I would appreciate it if you could…", "vi": "Tôi rất cảm kích nếu anh/chị có thể… (yêu cầu lịch sự)", "example": "I would appreciate it if you could send a technician by Friday." },
+    { "term": "Would it be possible to…?", "vi": "Liệu có thể… không?", "example": "Would it be possible to move my appointment to the afternoon?" },
+    { "term": "I was wondering if…", "vi": "Không biết liệu… (rất lịch sự, thân thiện)", "example": "I was wondering if you could water my plants while I'm in Kelowna." },
+    { "term": "I expect this to be resolved by…", "vi": "Tôi mong vấn đề này được giải quyết trước… (cứng rắn, lịch sự)", "example": "I expect this to be resolved by the end of the month." },
+    { "term": "I can't make it to…", "vi": "Mình không đến được… (thân mật)", "example": "Sorry, I can't make it to the barbecue this Sunday." },
+    { "term": "Would you mind + V-ing…?", "vi": "Bạn có phiền… không?", "example": "Would you mind keeping the music down after ten?" },
+    { "term": "for your reference", "vi": "để anh/chị tham khảo", "example": "I have attached the original receipt for your reference." },
+    { "term": "Thanks so much for understanding", "vi": "Cảm ơn bạn rất nhiều vì đã thông cảm (semi-formal)", "example": "Thanks so much for understanding, and see you at the strata meeting." }
+  ],
+  "grammar": [
+    {
+      "point": "Modal verbs and past forms for politeness",
+      "explanationVi": "Tiếng Anh làm mềm yêu cầu bằng modal (could, would, might) và bằng thì quá khứ/tiếp diễn (I was wondering, I wanted to ask). Càng gián tiếp thì càng lịch sự, nhưng nhớ vẫn phải nêu hành động cụ thể.",
+      "examples": [
+        "Can you call me? → Could you please call me?",
+        "I want a refund. → I would like to request a refund.",
+        "Do you have time? → I was wondering if you might have a few minutes this week."
+      ]
+    },
+    {
+      "point": "Contractions by register",
+      "explanationVi": "Formal: viết đầy đủ (I am, cannot, will not). Semi-formal: có thể viết tắt vừa phải. Informal: viết tắt tự nhiên. Tuyệt đối tránh lối viết tin nhắn (u, thx, gonna) trong mọi mức độ của bài thi.",
+      "examples": [
+        "Formal: I cannot attend the meeting on Tuesday.",
+        "Semi-formal: I'm afraid I won't be able to make Tuesday's meeting.",
+        "Informal: Sorry, I can't make it Tuesday!"
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Write a Task 1 email and check greeting, request and closing", "route": "/writing?task=W1" },
+    { "label": "Write a Task 2 survey response in a neutral register", "route": "/writing?task=W2" },
+    { "label": "Save polite request phrases to your notebook", "route": "/vocabulary" }
+  ],
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "author-agent+independent-review-agent", "notes": "Solved all 12 exercises independently. Added 'advise' as an accepted variant in g2 and rewrote its hint (it pointed straight at the answer), fixed the 'underlined word' wording in i4, replaced the inaccurate 'darkest part of the school year' for late February in i7, trimmed the i8 model to the 120-word limit, and aligned an ex1 step with the model answer." }
+}

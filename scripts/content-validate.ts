@@ -4,6 +4,8 @@
 
 import { CONTENT_DIR, LIBRARY_DIR, scanLibrary } from "../server/library";
 import { audioStatus } from "../server/audio";
+import { LESSONS_DIR, scanCurriculum } from "../server/lessons";
+import { lessonAudioStatus } from "../server/audio";
 
 const args = process.argv.slice(2);
 const opt = (name: string) => { const i = args.indexOf(`--${name}`); return i >= 0 ? args[i + 1] : undefined; };
@@ -12,7 +14,8 @@ const dir = opt("dir");
 const quiet = args.includes("--quiet");
 
 const lib = scanLibrary(dir ? [dir] : [CONTENT_DIR, LIBRARY_DIR]);
-const issues = lib.issues.filter((i) => !filter || i.file.includes(filter) || i.id.includes(filter));
+const cur = scanCurriculum(dir ? `${dir}/lessons` : LESSONS_DIR);
+const issues = [...lib.issues, ...cur.issues].filter((i) => !filter || i.file.includes(filter) || i.id.includes(filter));
 const errors = issues.filter((i) => i.severity === "error");
 const warnings = issues.filter((i) => i.severity === "warning");
 
@@ -44,5 +47,15 @@ for (const t of [...rows.keys()].sort()) console.log(`  ${t.padEnd(4)} ${Object.
 console.log(`  vocabulary entries (valid): ${lib.vocab.length}`);
 console.log(`  mock packages: ${lib.mocks.length} (${lib.mocks.filter((m) => m.valid).length} valid)`);
 console.log(`  listening audio ready: ${audioReady}/${listeningTotal}`);
+console.log("\n=== Learn Mode curriculum ===");
+for (const skill of ["reading", "listening", "speaking", "writing"]) {
+  const planned = cur.order[skill].length;
+  const files = [...cur.all.values()].filter((x) => x.lesson.skill === skill);
+  const active = files.filter((x) => x.active);
+  const ex = active.reduce((n, x) => n + x.lesson.guided.length + x.lesson.independent.length, 0);
+  console.log(`  ${skill.padEnd(10)} planned ${planned}, files ${files.length}, active (approved + valid) ${active.length}, exercises ${ex}`);
+}
+const withAudio = [...cur.lessons.values()].map((l) => lessonAudioStatus(l)).filter((s) => s.chunks.length);
+console.log(`  lessons with audio clips: ${withAudio.length} (${withAudio.filter((s) => s.ready).length} fully generated, ${withAudio.reduce((n, s) => n + s.chunks.filter((c) => c.file).length, 0)}/${withAudio.reduce((n, s) => n + s.chunks.length, 0)} clips)`);
 console.log(`\n${errors.length} error(s), ${warnings.length} warning(s)${filter ? ` matching "${filter}"` : ""}.`);
 process.exit(errors.length ? 1 : 0);

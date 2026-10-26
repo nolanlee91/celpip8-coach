@@ -1,0 +1,359 @@
+{
+  "id": "sp-01",
+  "skill": "speaking",
+  "module": "speaking-foundations",
+  "level": "foundation",
+  "difficulty": 6,
+  "title": "Building a structured answer",
+  "titleVi": "Xây dựng câu trả lời có cấu trúc",
+  "estimatedMinutes": 30,
+  "prerequisites": [],
+  "competencies": ["coherence", "task_fulfillment"],
+  "tasks": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"],
+  "objectives": [
+    "You will be able to open any CELPIP speaking response with a sentence that answers the task and previews your points.",
+    "You will be able to develop 2–3 main points, each with a reason and a specific example (Point → Reason → Example).",
+    "You will be able to guide the listener with signposting phrases and close with a clear wrap-up.",
+    "You will be able to adapt the same framework to advice, stories, opinions and difficult-situation tasks."
+  ],
+  "objectiveVi": "Sau bài này, bạn có một khung trả lời dùng được cho cả 8 task: câu mở trả lời thẳng yêu cầu → 2–3 ý chính có lý do và ví dụ → câu kết gọn. Bạn biết dùng signposting để người chấm luôn biết bạn đang ở ý nào.",
+  "whyItMattersVi": "Ở Speaking 6, vấn đề thường không phải là thiếu từ, mà là câu trả lời “trôi”: nhảy vào chi tiết, liệt kê nhiều ý ngắn, rồi dừng đột ngột. Người chấm đánh giá câu trả lời như một người nghe thật — không có bản viết để đọc lại — nên một câu trả lời có khung rõ ràng sẽ dễ theo dõi hơn hẳn — đó là nền của coherence và task fulfilment. Có khung sẵn, bạn cũng giảm ngập ngừng vì luôn biết câu tiếp theo cần nói gì. Đây là bước đầu tiên để đi từ 6 lên 8.",
+  "concept": [
+    {
+      "heading": "Vì sao câu trả lời cần một cái khung",
+      "body": "Trong CELPIP Speaking, người chấm nghe bản ghi âm của bạn và đánh giá xem một người nghe bình thường có **theo kịp ý bạn ngay khi nghe** không — không có bản viết hay tiêu đề để dựa vào. Một câu trả lời có cấu trúc giúp họ biết: bạn đang trả lời câu hỏi nào, bạn có mấy ý, và bạn đã nói xong chưa.\n\nNgười học Việt Nam ở Level 5–6 thường gặp ba kiểu lỗi: (1) **nhảy thẳng vào chi tiết** mà không nói mình định làm gì; (2) **liệt kê** 5–6 ý, mỗi ý một câu ngắn (“And… and… and also…”); (3) **dừng đột ngột** với “That's all” hoặc im lặng khi hết ý. Cả ba đều làm câu trả lời nghe rời rạc dù ngữ pháp không quá tệ."
+    },
+    {
+      "heading": "Khung 3 phần: Opening → Main points → Wrap-up",
+      "body": "**1. Opening (1–2 câu, khoảng 10 giây).** Trả lời thẳng yêu cầu của đề và báo trước nội dung. Ví dụ Task 1: “Hey Linh, I'm sorry you're feeling lonely. I've got a few ideas that might help.” Task 7: “I strongly believe schools should start later, mainly for two reasons.”\n\n**2. Main points (2–3 ý).** Đây là thân bài, chiếm phần lớn thời gian. Với 60 giây, 2 ý phát triển tốt thường hiệu quả hơn 3 ý sơ sài; với 90 giây, 2–3 ý là vừa.\n\n**3. Wrap-up (1–2 câu, khoảng 5–10 giây).** Tóm lại lập trường, đưa ra bước tiếp theo, hoặc một lời chúc. Ví dụ: “So, if I were you, I'd try one of these this week.” Câu kết cho người chấm biết bạn kết thúc **có chủ ý**, không phải vì hết giờ."
+    },
+    {
+      "heading": "Phát triển mỗi ý: Point → Reason → Example",
+      "body": "Một ý chính chỉ có một câu (“You should volunteer.”) là chưa đủ. Hãy dùng công thức **PRE**:\n\n- **Point:** nêu ý — “Another option is volunteering.”\n- **Reason:** vì sao — “Working side by side with people is an easy way to start a conversation.”\n- **Example / Result:** ví dụ cụ thể hoặc kết quả — “The food bank always needs help on Saturdays, and you'd get to know the community a lot faster.”\n\nVí dụ cụ thể (tên địa điểm, con số, một tình huống nhỏ) là thứ phân biệt Level 6 với Level 8. Lưu ý: phần support phải **giải thích chính ý đó**, không thêm một ý mới."
+    },
+    {
+      "heading": "Signposting: báo hiệu cho người nghe",
+      "body": "**Signposting** là những cụm từ ngắn đánh dấu “tôi đang chuyển sang ý mới” hoặc “tôi sắp kết thúc”. Trong văn nói, chúng thay cho việc xuống dòng và đánh số trong văn viết.\n\n- Mở ý đầu: *First of all, … / The main reason is that … / The first thing I'd suggest is …*\n- Chuyển ý: *Another option is … / On top of that, … / The second reason is that …*\n- Ý cuối: *Last but not least, … / Finally, …*\n- Kết: *So, all in all, … / That's why I think … / So, if I were you, …*\n\nĐừng lặp “First, Second, Third” một cách máy móc ở mọi task; hãy thay đổi để nghe tự nhiên. Lỗi ngữ pháp hay gặp: “The reason is **because**…” — tiếng Anh tự nhiên là “The reason is **that**…”."
+    },
+    {
+      "heading": "Một khung, tám task",
+      "body": "- **Task 1 (Advice, 90 s):** đồng cảm + báo trước → 2–3 lời khuyên có lý do → bước tiếp theo + lời chúc.\n- **Task 2 (Experience, 60 s):** giới thiệu sự việc (khi nào, ở đâu) → diễn biến → kết quả → cảm xúc/bài học.\n- **Task 3 & 8 (Scene / Unusual, 60 s):** tổng quan → từng khu vực hoặc đặc điểm → ấn tượng chung.\n- **Task 5 & 7 (Persuading / Opinion):** lập trường → 2 lý do có ví dụ → (tuỳ chọn) nhắc ý kiến bên kia → khẳng định lại.\n- **Task 6 (Difficult situation, 60 s):** mở lời → thừa nhận tình huống → giải thích → giải pháp → câu chốt.\n\nKhung giống nhau ở chỗ: **mở rõ, thân có 2–3 khối, kết có chủ ý**."
+    }
+  ],
+  "stimuli": {
+    "linh-prompt": {
+      "title": "Task 1 prompt: a lonely friend in Kamloops",
+      "text": "Your friend Linh moved to Kamloops three months ago for a new job. She says she feels lonely because she doesn't know anyone outside work.\n\nGive Linh some advice about how to meet people and feel more at home. (Preparation: 30 seconds. Speaking: 90 seconds.)"
+    },
+    "linh-model-audio": {
+      "title": "Listen: a Level 8 answer to Linh",
+      "audio": [
+        {
+          "speaker": "Ava",
+          "voice": "female_a",
+          "text": "Hey Linh, I'm really sorry you're feeling this way. Moving to a new city is tough, especially when all your friends are back in Vancouver. I've got a few ideas that might help. First of all, I'd recommend joining a group built around something you already enjoy. You love hiking, right? There are hiking groups in Kamloops that go out every weekend. The nice thing about that is you see the same faces every week, so friendships build naturally. Another option is volunteering. The food bank always needs help, and working side by side with people is a great way to start a conversation. Last but not least, don't forget about your coworkers. Why not invite one or two of them for coffee after a shift? Sometimes people are just waiting for someone to make the first move. So, if I were you, I'd pick one of these and try it this week. Give it a couple of months, and I'm sure Kamloops will start to feel like home."
+        }
+      ]
+    },
+    "late-start-prompt": {
+      "title": "Task 7 prompt: later school start times",
+      "text": "Some people say that high schools in BC should start classes at 9:30 a.m. instead of 8:30 a.m. so that teenagers can get more sleep.\n\nDo you agree or disagree? Explain your reasons. (Preparation: 30 seconds. Speaking: 90 seconds.)"
+    },
+    "raj-response": {
+      "title": "A learner's Task 1 response",
+      "text": "Prompt: Your coworker Raj wants to save money for a down payment on a condo. Give him some advice.\n\nResponse: “Hi Raj, that's a great goal, and I have some advice for you. First, you should make a budget. Second, you should cook at home. Third, you should cancel your subscriptions. Fourth, you can get a second job. Fifth, you can open a savings account. Sixth, you can move to a cheaper apartment. So those are my tips. Good luck, Raj!”"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Task 1: three versions of the same advice",
+      "stimulusId": "linh-prompt",
+      "question": "How do you build a 90-second structured answer for Linh, and what makes the Level 8 version stronger?",
+      "steps": [
+        "Đọc đề và xác định: Task 1, 90 giây, người nghe là Linh (bạn thân → giọng thân mật), mục tiêu là giúp cô ấy gặp người mới và thấy “như ở nhà”.",
+        "Chọn khung: Opening (đồng cảm + báo trước) → 3 lời khuyên → Wrap-up (bước tiếp theo + động viên). 90 giây đủ cho 3 ý nếu mỗi ý khoảng 20–25 giây.",
+        "Trong 30 giây chuẩn bị, ghi keyword cho mỗi ý theo PRE: “hiking group – same faces – friends”, “volunteer – food bank – conversation”, “coworkers – coffee – first move”.",
+        "Gắn signpost cho từng khối: First of all → Another option → Last but not least → So, if I were you.",
+        "So sánh ba bản dưới đây: cùng ý tưởng, nhưng khác nhau ở khung, độ phát triển, signposting và cách kết."
+      ],
+      "answer": "Outline: Opening (sorry + new city is tough + a few ideas) → ① join a hiking group (same faces each week → friendships) → ② volunteer at the food bank (side by side → easy conversation) → ③ invite coworkers for coffee (people wait for someone to make the first move) → Wrap-up (try one this week; Kamloops will feel like home).",
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "Hi Linh. Um, I think you can join some club. Because in Kamloops have many club, like hiking club. And you can go to the gym, gym is good for health also. And volunteer, volunteer is good too, you can meet many people. Um… and the weather in Kamloops is very hot in summer so you can go to the lake. Um… I think that's all. Okay.",
+          "commentVi": "Không có câu mở thể hiện hiểu tình huống của Linh. Bốn ý được liệt kê bằng “and… and…”, không ý nào có lý do hay ví dụ cụ thể; ý về thời tiết lạc khỏi mục tiêu “gặp người”. Lỗi điển hình: “Because…” đứng một mình như một câu; “in Kamloops have many club” (dịch từ “ở Kamloops có”) → “there are many clubs in Kamloops”; thiếu số nhiều (club → clubs). Kết bằng “I think that's all” và chỉ nói khoảng 35 giây, bỏ phí gần một phút."
+        },
+        {
+          "label": "acceptable",
+          "text": "Hi Linh, I'm sorry to hear you feel lonely. I have two suggestions for you. First, you should join a club. For example, there is a hiking club in Kamloops, and you can meet people who like the outdoors. Second, you can volunteer. Many organizations need volunteers, and it is a good way to meet people. Also, you will feel useful. So, I think you should try these two things. Good luck.",
+          "commentVi": "Đã có khung rõ: câu mở, báo trước “two suggestions”, signpost First/Second, câu kết. Ngữ pháp khá chính xác. Nhưng mỗi ý chỉ có một câu support chung chung (“it is a good way to meet people”), từ vựng đơn giản và lặp (“you should/you can”, “meet people” hai lần). Câu kết “try these two things” không có bước cụ thể. Chỉ khoảng 35–40 giây trên 90 giây — người chấm nghe thấy cấu trúc nhưng thiếu phát triển."
+        },
+        {
+          "label": "level8",
+          "text": "Hey Linh, I'm really sorry you're feeling this way. Moving to a new city is tough, especially when all your friends are back in Vancouver. I've got a few ideas that might help. First of all, I'd recommend joining a group built around something you already enjoy. You love hiking, right? There are hiking groups in Kamloops that go out every weekend. The nice thing about that is you see the same faces every week, so friendships build naturally. Another option is volunteering. The food bank always needs help, and working side by side with people is a great way to start a conversation. Last but not least, don't forget about your coworkers. Why not invite one or two of them for coffee after a shift? Sometimes people are just waiting for someone to make the first move. So, if I were you, I'd pick one of these and try it this week. Give it a couple of months, and I'm sure Kamloops will start to feel like home.",
+          "commentVi": "Câu mở vừa đồng cảm vừa báo trước (“I've got a few ideas”). Ba ý, mỗi ý theo PRE: lời khuyên → lý do (“you see the same faces every week”) → kết quả (“friendships build naturally”). Signpost đa dạng và tự nhiên (First of all / Another option / Last but not least / So, if I were you). Từ vựng chính xác hơn: “side by side”, “make the first move”, “feel like home”. Có câu hỏi tu từ (“You love hiking, right?”) làm giọng nói tự nhiên như đang nói với bạn. Câu kết đưa bước cụ thể và lời động viên, lấp vừa khoảng 80–90 giây."
+        }
+      ],
+      "takeawayVi": "Khác biệt giữa 6 và 8 không nằm ở số ý, mà ở việc mỗi ý được phát triển (PRE) và được đánh dấu rõ bằng signpost. Ba ý phát triển tốt > bốn, năm ý liệt kê."
+    },
+    {
+      "id": "ex2",
+      "title": "Task 7: the same frame for an opinion",
+      "stimulusId": "late-start-prompt",
+      "question": "How do you turn the framework into a 90-second opinion answer?",
+      "steps": [
+        "Task 7 yêu cầu **ý kiến** — câu mở phải nêu lập trường ngay, không “There are many opinions…”. Chọn phía bạn có nhiều ý hơn (ở đây: agree).",
+        "Chọn 2 lý do (90 giây đủ cho 2 lý do phát triển sâu): ① sức khoẻ — teenagers' body clocks; ② kết quả học tập — more alert in first class.",
+        "Mỗi lý do thêm ví dụ cụ thể: con của hàng xóm dậy 6:45 để bắt xe buýt; học sinh ngủ gục tiết đầu.",
+        "Thêm một câu nhắc phía bên kia (“Some parents worry about…”) rồi trả lời ngắn — đây là điểm cộng ở Level 8, không bắt buộc.",
+        "Kết: khẳng định lại lập trường bằng từ khác, không lặp nguyên câu mở."
+      ],
+      "answer": "Model: “I strongly agree that high schools should start later, mainly for two reasons: students' health and their learning. The main reason is that teenagers' body clocks are different. Most of them can't fall asleep before eleven, so when class starts at 8:30, they're getting maybe seven hours of sleep, when they really need closer to nine. My neighbour's son, for example, has to catch the bus at 7:15, and he's exhausted every single morning. The second reason is that tired students simply don't learn well. Teachers often say the first period is the hardest, because half the class is half-asleep. If school started an hour later, students would be more alert and probably get better grades. Now, some parents worry that a later start would clash with their work schedules. That's a fair point, but schools could open early for supervised study, so kids would still have somewhere to go. So, all in all, I think a 9:30 start would make teenagers healthier and help them do better at school.”",
+      "takeawayVi": "Task 7 dùng đúng khung của Task 1: lập trường + báo trước → 2 lý do theo PRE → (tuỳ chọn) nhượng bộ ngắn → khẳng định lại. Chỉ cần thay signpost cho phù hợp với ý kiến (The main reason is that… / The second reason is that… / All in all…)."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "linh-model-audio",
+      "prompt": "Listen to the Level 8 answer to Linh. Which phrase does the speaker use to introduce her THIRD piece of advice?",
+      "hint": "Đếm các lời khuyên theo thứ tự. Lời khuyên thứ ba là về đồng nghiệp — nghe cụm từ đứng ngay trước nó.",
+      "options": [
+        { "text": "Last but not least", "misconception": null, "whyVi": "Đúng. “Last but not least” báo hiệu ý cuối cùng trong danh sách — ở đây là lời khuyên mời đồng nghiệp đi cà phê." },
+        { "text": "Another option is", "misconception": "no-signpost", "whyVi": "Cụm này giới thiệu ý thứ hai (volunteering), không phải ý thứ ba. Mỗi signpost đánh dấu một vị trí khác nhau trong khung." },
+        { "text": "First of all", "misconception": "no-signpost", "whyVi": "“First of all” mở ý đầu tiên (hiking group)." },
+        { "text": "So, if I were you", "misconception": "no-signpost", "whyVi": "Đây là signpost của phần kết (wrap-up), không phải một lời khuyên mới. Nhầm signpost chuyển ý với signpost kết nghĩa là chưa nắm vị trí của từng cụm trong khung." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Last but not least, don't forget about your coworkers.",
+      "explanationVi": "Bản Level 8 dùng bốn signpost khác nhau: First of all → Another option → Last but not least → So, if I were you. Người nghe biết chính xác mình đang ở ý nào mà không cần đếm.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "late-start-prompt",
+      "prompt": "Which opening sentence is best for this Task 7 prompt?",
+      "hint": "Câu mở của Task 7 phải làm hai việc: nêu lập trường và báo trước người nghe sẽ nghe gì.",
+      "options": [
+        { "text": "Well, there are many different opinions about this topic, and it is a very interesting question.", "misconception": "no-opening", "whyVi": "Câu này kéo dài thời gian nhưng không nêu lập trường. Người chấm vẫn chưa biết bạn đồng ý hay không." },
+        { "text": "I strongly believe schools should start later, mainly for two reasons: students' health and their grades.", "misconception": null, "whyVi": "Đúng. Nêu rõ lập trường (strongly believe… start later) và báo trước hai lý do — người nghe có “bản đồ” cho cả câu trả lời." },
+        { "text": "Teenagers need about nine hours of sleep, and most of them only get six or seven on school nights.", "misconception": "no-opening", "whyVi": "Đây là một chi tiết support tốt, nhưng đặt ở đầu thì người nghe không biết nó ủng hộ lập trường nào. Chi tiết phải đứng sau Point." },
+        { "text": "When I was in high school in Vietnam, we started at seven in the morning, so I was always tired.", "misconception": "off-task", "whyVi": "Bắt đầu bằng một câu chuyện cá nhân khiến câu trả lời giống Task 2. Ví dụ cá nhân có thể dùng làm support, nhưng không thay được câu nêu ý kiến." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Câu mở tốt = lập trường + preview. Chỉ mất khoảng 5–8 giây nhưng định hướng cho toàn bộ 90 giây.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g3",
+      "type": "order",
+      "prompt": "Task 2 prompt: “Talk about a time you got lost.” Put the parts of this 60-second answer in the best order.",
+      "hint": "Một câu chuyện Task 2 có khung: giới thiệu (khi nào, ở đâu) → bối cảnh → sự việc chính → kết quả → bài học hoặc cảm xúc.",
+      "items": [
+        "I'd like to talk about the time I got lost on my way to a job interview in Surrey, about two years ago.",
+        "I'd just bought a used car, and my phone had died, so I was driving without a GPS.",
+        "After about twenty minutes, I realized I was going in completely the wrong direction, so I pulled into a gas station to ask for help.",
+        "The attendant drew me a little map on the back of a receipt, and I made it to the interview with five minutes to spare.",
+        "Looking back, it taught me to always keep a charger in the car and never be too shy to ask for directions."
+      ],
+      "misconception": "no-opening",
+      "explanationVi": "Câu giới thiệu cho người nghe biết câu chuyện về cái gì; bối cảnh (car, phone died) phải đến trước sự việc; kết quả đến trước bài học. Thứ tự thời gian chính là cấu trúc của Task 2.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "prompt": "A learner says: “Another option is taking the bus to work instead of driving.” Which sentence is the best SUPPORT for this point?",
+      "hint": "Phần support trả lời câu hỏi “why?” hoặc “for example?” cho chính ý vừa nêu — không thêm một ý mới.",
+      "options": [
+        { "text": "The bus is good and also it is cheap.", "misconception": "list-no-support", "whyVi": "Quá chung chung: “good” và “cheap” không cho người nghe hình ảnh cụ thể nào." },
+        { "text": "The 99 B-Line comes every few minutes, so you'd save on parking and could even read on the way.", "misconception": null, "whyVi": "Đúng. Có ví dụ cụ thể (tuyến 99 B-Line) và kết quả rõ (save on parking, read on the way) — đúng công thức Reason + Example." },
+        { "text": "Also, you can ride a bike, or walk, or carpool with your coworkers.", "misconception": "list-no-support", "whyVi": "Câu này thêm ba ý mới thay vì phát triển ý “bus”. Đây chính là lỗi liệt kê." },
+        { "text": "Vancouver gets a lot of rain in the winter.", "misconception": "off-task", "whyVi": "Thông tin đúng nhưng không giải thích vì sao nên đi xe buýt — người nghe phải tự đoán mối liên hệ." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Support tốt bám vào đúng ý vừa nêu và làm nó cụ thể hơn: tên, con số, kết quả. Thêm ý mới không phải là support.",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "prompt": "Task 3: you have 60 seconds to describe a picture of a busy community swimming pool. Which plan is best organized?",
+      "options": [
+        { "text": "Overall scene (where, how busy) → left side: the kids' pool → centre: the lap lanes → right side: the lifeguard and snack bar → one sentence of overall impression.", "misconception": null, "whyVi": "Đúng. Đi từ tổng quan đến từng khu vực theo một hướng cố định, rồi kết bằng ấn tượng chung — người nghe hình dung được bức tranh." },
+        { "text": "Describe each person you notice, in the order your eyes find them, until the time runs out.", "misconception": "no-signpost", "whyVi": "Không có cách tổ chức theo khu vực nên người nghe bị nhảy qua lại trong tranh; cũng không có câu kết." },
+        { "text": "Start with the lifeguard's face, clothes and whistle in great detail, then mention the rest if there is time.", "misconception": "no-opening", "whyVi": "Thiếu câu tổng quan; dồn quá nhiều thời gian vào một chi tiết khiến phần lớn bức tranh không được mô tả." },
+        { "text": "Explain why you enjoy swimming and how often you go to your local pool.", "misconception": "off-task", "whyVi": "Task 3 yêu cầu mô tả tranh, không phải kể về sở thích của bạn." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Với Task 3, khung là: tổng quan → khu vực 1 → khu vực 2 → khu vực 3 → ấn tượng. Các cụm như “On the left…”, “In the middle…” chính là signpost không gian.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i2",
+      "type": "order",
+      "prompt": "Task 7 prompt: “Should cities close some downtown streets to cars on Sundays?” Put this answer in the best order.",
+      "items": [
+        "Personally, I think closing a few downtown streets to cars on Sundays is a great idea, for two main reasons.",
+        "The first reason is that it would make downtown much more enjoyable for families.",
+        "For instance, when my neighbourhood closed its main street for a summer festival, it filled up with people walking, eating and listening to street musicians.",
+        "The second reason is that local businesses would actually benefit.",
+        "People who are strolling tend to stop and shop more than people who drive straight through looking for parking.",
+        "So, all things considered, a car-free Sunday would be good for both residents and businesses."
+      ],
+      "misconception": "list-no-support",
+      "explanationVi": "Lập trường + preview → Lý do 1 → ví dụ của lý do 1 → Lý do 2 → giải thích của lý do 2 → kết. Mỗi câu support phải đứng ngay sau đúng ý mà nó hỗ trợ.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i3",
+      "type": "text",
+      "prompt": "This signpost has a grammar error: “The first reason is because buses are cheaper than parking downtown.” Type the ONE word that should replace “because”.",
+      "answers": ["that"],
+      "mode": "exact",
+      "misconception": "no-signpost",
+      "explanationVi": "Sau “The reason is…” dùng “that + mệnh đề”: “The first reason is that buses are cheaper…”. “Reason” đã mang nghĩa “vì”, nên thêm “because” là lặp ý. Đây là lỗi rất phổ biến với người Việt (dịch từ “lý do là vì”).",
+      "competency": "coherence"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "raj-response",
+      "prompt": "What is the MAIN weakness of this response?",
+      "options": [
+        { "text": "It has no opening sentence.", "misconception": "no-opening", "whyVi": "Bài có câu mở (“that's a great goal, and I have some advice”), dù khá đơn giản." },
+        { "text": "It lists six tips without any reasons or examples, so none of them is developed.", "misconception": null, "whyVi": "Đúng. Sáu lời khuyên, mỗi lời một câu, không lý do, không ví dụ (bao nhiêu tiền? nấu gì?). Người chấm nghe một danh sách, không phải lời khuyên được giải thích." },
+        { "text": "It has no wrap-up at all.", "misconception": "no-wrap-up", "whyVi": "Có câu kết (“So those are my tips. Good luck”). Câu kết yếu, nhưng không phải vấn đề chính." },
+        { "text": "The advice has nothing to do with saving money.", "misconception": "off-task", "whyVi": "Các lời khuyên đều liên quan đến tiết kiệm — vấn đề là chúng không được phát triển." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Một bản sửa tốt sẽ chọn 2–3 lời khuyên (ví dụ: budget, cook at home, cheaper apartment) và phát triển mỗi cái theo PRE: “If you cook at home four nights a week instead of ordering in, you could easily save three hundred dollars a month.”",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "prompt": "Task 5: you are persuading your friend Mark to take the ferry to Victoria instead of flying. Which is the best wrap-up?",
+      "options": [
+        { "text": "So, Mark, even though flying is faster, the ferry is cheaper, more relaxing and lets you bring your car — I really think it's the better choice.", "misconception": null, "whyVi": "Đúng. Gọi tên người nghe, nhắc lại ngắn các lý do chính, thừa nhận ưu điểm của bên kia và khẳng định lại lựa chọn." },
+        { "text": "Okay, that's it. I think my time is almost finished.", "misconception": "no-wrap-up", "whyVi": "Nói về thời gian thay vì kết luận nội dung. Người nghe không được nhắc lại vì sao nên chọn phà." },
+        { "text": "Also, the ferry has a cafeteria and a gift shop, and sometimes you can see whales.", "misconception": "no-wrap-up", "whyVi": "Đây là một ý mới chứ không phải câu kết. Đưa ý mới ở cuối khiến câu trả lời có vẻ bị cắt ngang." },
+        { "text": "Anyway, flying is also good, so you can choose whatever you like.", "misconception": "off-task", "whyVi": "Task 5 yêu cầu thuyết phục. Kết bằng “chọn gì cũng được” làm mất lập trường đã xây dựng." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Câu kết tốt = tóm tắt + khẳng định lại, không thêm ý mới, không nói về đồng hồ.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "Task 7: “Should employers let staff work from home two days a week?” Which plan would best fill 90 seconds at Level 8?",
+      "options": [
+        { "text": "Clear position → two reasons, each with an explanation and a specific example → one sentence acknowledging the other side, with a short reply → wrap-up restating the position.", "misconception": null, "whyVi": "Đúng. Đủ khung, mỗi lý do có không gian phát triển (~25–30 giây), có nhượng bộ ngắn — rất hợp với 90 giây." },
+        { "text": "Clear position → six different reasons, one sentence each → wrap-up.", "misconception": "list-no-support", "whyVi": "Sáu lý do một câu là một danh sách. Mỗi lý do chỉ vài giây nên không lý do nào thuyết phục." },
+        { "text": "Explain the advantages and disadvantages equally, then say “it depends on the person.”", "misconception": "off-task", "whyVi": "Task 7 yêu cầu bạn nêu ý kiến. Trả lời “it depends” mà không chọn phía là chưa hoàn thành yêu cầu." },
+        { "text": "Clear position → one reason → a 70-second story about a coworker who works from home.", "misconception": "list-no-support", "whyVi": "Phát triển không cân đối: một câu chuyện dài chiếm gần hết thời gian, chỉ có một lý do và không có câu kết." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Ở Level 8, cấu trúc cân đối quan trọng như nội dung: 2 lý do sâu + nhượng bộ ngắn + kết rõ.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i7",
+      "type": "order",
+      "prompt": "Task 6: your manager Karen asks you to work this Saturday, but you promised to drive your mother to a medical appointment. You decide to talk to Karen. Put your answer in the best order.",
+      "items": [
+        "Hi Karen, do you have a minute? I wanted to talk to you about this Saturday's shift.",
+        "I really appreciate that you thought of me, and I know the team is short-staffed right now.",
+        "Unfortunately, I've already promised to drive my mom to a specialist appointment that morning, and it took her three months to get it.",
+        "What I could do instead is stay two extra hours on Thursday and Friday, or I could ask Daniel if he'd be willing to swap shifts with me.",
+        "Would either of those work for you? I just don't want to leave the team in a tough spot."
+      ],
+      "misconception": "no-opening",
+      "explanationVi": "Khung Task 6: mở lời và nêu chủ đề → thừa nhận vấn đề của người kia → giải thích lý do của bạn → đề xuất giải pháp → câu chốt mời phản hồi. Thừa nhận trước khi từ chối giúp câu trả lời lịch sự và mạch lạc.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 90,
+      "prompt": "Task 1: Your neighbour Gord has just retired after 35 years as a mail carrier. He tells you he feels bored and a bit lost at home. Give Gord some advice about how to stay active and enjoy his retirement.",
+      "checklist": [
+        "Opens with 1–2 sentences that respond to Gord's situation and preview the advice",
+        "Gives 2–3 clear pieces of advice (not a list of five or more)",
+        "Introduces each piece of advice with a different signpost (e.g. First of all / Another idea / Last but not least)",
+        "Supports each piece of advice with a reason and a specific example or result",
+        "Ends with a wrap-up (next step or encouragement) instead of stopping suddenly"
+      ],
+      "modelAnswer": "Hi Gord, congratulations on your retirement! Thirty-five years of walking routes is a huge achievement, so it makes sense that sitting at home feels strange. I've got a few ideas that might help. First of all, since you're used to walking every day, why not join a walking group? The community centre runs one every Tuesday and Thursday morning. You'd keep your fitness up, and you'd meet people who live right here in the neighbourhood. Another idea is to try something you never had time for while you were working. You always talk about woodworking, right? The community centre also offers beginner woodworking classes, and you could make something for your grandkids. Last but not least, you might want to think about volunteering. You know this neighbourhood better than anyone, so a group like the seniors' centre would love your help delivering meals. That way, you'd still have a reason to get out the door in the morning. So, if I were you, I'd pick just one of these and start next week. Give it a month, and I bet retirement will feel a lot more exciting.",
+      "misconception": "list-no-support",
+      "explanationVi": "Nghe lại bản ghi của bạn: bạn có câu mở không? Có đúng 2–3 khối ý với signpost khác nhau không? Mỗi khối có lý do và ví dụ cụ thể không? Có câu kết trước khi hết giờ không? Bài mẫu dùng thông tin trong đề (mail carrier → thích đi bộ, biết rõ khu phố) để làm ví dụ cụ thể — một mẹo rất hiệu quả.",
+      "competency": "coherence"
+    }
+  ],
+  "misconceptions": {
+    "no-opening": {
+      "label": "Thiếu câu mở / nhảy vào chi tiết",
+      "explanationVi": "Bạn bắt đầu bằng chi tiết, câu chuyện hoặc câu rào đón chung chung, nên người nghe không biết bạn đang trả lời gì và sẽ nói về mấy ý. Kỹ năng thiếu ở đây là định hướng người nghe ngay từ đầu.",
+      "fixVi": "Câu đầu tiên luôn trả lời thẳng yêu cầu của đề: lời khuyên / lập trường / sự việc / tổng quan bức tranh — rồi báo trước (“for two reasons”, “I've got a few ideas”)."
+    },
+    "list-no-support": {
+      "label": "Liệt kê ý, không phát triển",
+      "explanationVi": "Bạn đưa ra nhiều ý nhưng mỗi ý chỉ một câu, hoặc phát triển không cân đối (một ý rất dài, các ý khác không có). Người chấm nghe một danh sách thay vì lập luận — đây là khoảng cách lớn nhất giữa Level 6 và Level 8.",
+      "fixVi": "Giới hạn 2–3 ý. Với mỗi ý, tự hỏi “why?” và “for example?”: Point → Reason → Example/Result. Support phải giải thích chính ý đó, không thêm ý mới."
+    },
+    "no-signpost": {
+      "label": "Thiếu hoặc dùng sai từ báo hiệu",
+      "explanationVi": "Bạn chuyển ý mà không báo hiệu, hoặc dùng signpost sai chỗ/sai ngữ pháp (“The reason is because…”). Người nghe khó biết đâu là ý mới, đâu là chi tiết.",
+      "fixVi": "Học thuộc một bộ signpost cho mỗi vị trí: mở ý đầu, chuyển ý, ý cuối, kết. Dùng “The reason is that…”, không dùng “is because”."
+    },
+    "no-wrap-up": {
+      "label": "Kết thúc đột ngột / thêm ý mới ở cuối",
+      "explanationVi": "Bạn dừng khi hết ý (“That's all”, “My time is finished”) hoặc tung ra ý mới ở giây cuối. Câu trả lời nghe như bị cắt ngang thay vì kết thúc có chủ ý.",
+      "fixVi": "Chuẩn bị sẵn một câu kết trong lúc prep. Khi còn khoảng 10 giây, dừng ý đang nói và chuyển sang “So, all in all…” / “So, if I were you…”."
+    },
+    "off-task": {
+      "label": "Không đúng yêu cầu task",
+      "explanationVi": "Nội dung hoặc khung không khớp với task: kể chuyện khi đề hỏi ý kiến, nói “it depends” khi phải chọn phía, nói về bản thân khi phải tả tranh, hoặc thông tin không liên quan đến mục tiêu trong đề.",
+      "fixVi": "Trong 5 giây đầu của phần chuẩn bị, gạch chân động từ yêu cầu (give advice / describe / persuade / explain your opinion) và người nghe. Mọi ý phải phục vụ đúng yêu cầu đó."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "I've got a few ideas that might help.", "vi": "Mình có vài ý có thể giúp được (câu báo trước thân mật cho Task 1).", "example": "I'm sorry the move to Prince George has been so stressful. I've got a few ideas that might help." },
+    { "term": "First of all, …", "vi": "Trước hết, … (mở ý đầu, tự nhiên hơn “Firstly”).", "example": "First of all, I'd recommend checking the community centre's program guide." },
+    { "term": "The main reason is that …", "vi": "Lý do chính là … (dùng “that”, không dùng “because”).", "example": "The main reason is that SkyTrain is faster than driving at rush hour." },
+    { "term": "Another option is …", "vi": "Một lựa chọn khác là … (chuyển sang ý thứ hai).", "example": "Another option is taking a night class at Langara." },
+    { "term": "On top of that, …", "vi": "Thêm vào đó, … (thêm lý do, giọng nói tự nhiên).", "example": "The rent is lower in Abbotsford. On top of that, you'd have a bigger yard." },
+    { "term": "Last but not least, …", "vi": "Cuối cùng nhưng không kém phần quan trọng, … (giới thiệu ý cuối).", "example": "Last but not least, don't forget to ask your landlord about parking." },
+    { "term": "So, all in all, …", "vi": "Tóm lại, … (mở câu kết).", "example": "So, all in all, I think a later start time would help most students." },
+    { "term": "So, if I were you, I'd …", "vi": "Vậy nếu mình là bạn, mình sẽ … (kết Task 1 bằng bước cụ thể).", "example": "So, if I were you, I'd call the clinic first thing Monday morning." },
+    { "term": "Looking back, …", "vi": "Nhìn lại thì, … (mở câu bài học ở cuối Task 2).", "example": "Looking back, that rainy camping trip taught me to always check the forecast." }
+  ],
+  "grammar": [
+    {
+      "point": "Signpost frames: “The reason is that + clause” and “Another option is + noun / V-ing”",
+      "explanationVi": "Signpost là khung câu cố định — dùng đúng ngữ pháp thì nghe rất tự nhiên. Sau “The (main/first) reason is” dùng “that + mệnh đề”, không dùng “because” (vì “reason” đã có nghĩa “lý do”). Sau “Another option/idea is” và “One thing to consider is” dùng danh từ hoặc V-ing, không dùng động từ nguyên mẫu trần (“Another option is volunteer” ✗ → “Another option is volunteering” ✓).",
+      "examples": [
+        "✗ The main reason is because rent is cheaper. → ✓ The main reason is that rent is cheaper.",
+        "✗ Another option is join a club. → ✓ Another option is joining a club.",
+        "✓ One thing to consider is the commute.",
+        "✓ The second reason is that tired students don't learn well."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Task 1: Giving advice", "route": "/speaking?task=S1" },
+    { "label": "Practise Task 7: Expressing opinions", "route": "/speaking?task=S7" },
+    { "label": "Practise Task 2: Personal experience", "route": "/speaking?task=S2" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises independently; keys confirmed. Fixed g1 option mapping (wrap-up signpost -> no-signpost), i5 ferry claim (\"closer to where you are going\" -> \"lets you bring your car\"), unrealistic sleep figure in ex2, acceptable-version timing estimate, and softened the unofficial \"raters listen once\" claim. Audio clip (169 words) reads well aloud and g1 is answerable from it."}
+}

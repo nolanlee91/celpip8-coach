@@ -1,0 +1,359 @@
+{
+  "id": "sp-11",
+  "skill": "speaking",
+  "module": "speaking-level8",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Task 6: Difficult situations",
+  "titleVi": "Task 6: Xử lý tình huống khó",
+  "estimatedMinutes": 35,
+  "prerequisites": ["sp-06"],
+  "competencies": ["task_fulfillment", "vocabulary_range"],
+  "tasks": ["S6"],
+  "objectives": [
+    "You will be able to choose one option in Task 6 quickly and speak directly to that person from the first sentence.",
+    "You will be able to soften a refusal or a complaint with diplomatic language (I was wondering if…, I'm afraid…, I've noticed that…).",
+    "You will be able to explain your situation with a specific reason and propose two concrete solutions in 60 seconds.",
+    "You will be able to close the conversation positively without over-apologizing."
+  ],
+  "objectiveVi": "Sau bài này, bạn chọn được một phương án trong vài giây, nói chuyện trực tiếp với đúng người, dùng ngôn ngữ làm mềm để từ chối hoặc góp ý một cách khéo léo, và đưa ra hai giải pháp cụ thể trong 60 giây.",
+  "whyItMattersVi": "Task 6 là task mà điểm Speaking 6 và 8 khác nhau rõ nhất. Người ở Level 6 thường nói đúng ý nhưng quá thẳng (\"You must come on time\") hoặc giải pháp mơ hồ (\"I will try\"). Level 8 nghe như một người lớn khéo léo ở nơi làm việc Canada: thừa nhận cảm xúc của người kia, giải thích có lý do cụ thể, đề xuất phương án rõ ràng. Đây là kỹ năng dùng hằng ngày ở BC — nói với quản lý, hàng xóm, chủ nhà — nên học một lần dùng được cả trong thi lẫn đời thật.",
+  "concept": [
+    {
+      "heading": "Task 6 thực sự kiểm tra điều gì",
+      "body": "Trong **Task 6 (Dealing with a Difficult Situation)** bạn có **60 giây chuẩn bị** và **60 giây nói**. Đề mô tả một tình huống khó và cho hai lựa chọn: **Option A** nói với người này, **Option B** nói với người kia. Bạn chỉ chọn **một** và nói **trực tiếp với người đó**, như đang gọi điện hoặc đứng trước mặt họ.\n\nNgười chấm không quan tâm bạn chọn A hay B. Họ nghe xem bạn có: (1) xưng hô đúng người ngay câu đầu, (2) giải thích tình huống rõ ràng, (3) đưa ra giải pháp hợp lý, và (4) giữ giọng **tactful** (khéo léo) và **diplomatic** (ngoại giao) suốt câu trả lời. Một câu trả lời đúng ngữ pháp nhưng nghe như ra lệnh vẫn khó lên Level 8."
+    },
+    {
+      "heading": "Chọn phe trong 10 giây đầu",
+      "body": "Đừng mất 30 giây phân vân. Quy tắc: **chọn phương án mà bạn nghĩ ra được giải pháp cụ thể nhanh nhất.** Nếu nói với quản lý bạn nghĩ ngay được \"I could come in early on Friday\", hãy chọn quản lý.\n\nHai lỗi phổ biến:\n- **Nói với giám khảo**: \"I would choose Option A because…\" — sai. Hãy mở đầu bằng \"Hi Daniel, do you have a minute?\"\n- **Nói với cả hai người** hoặc đổi người giữa chừng. Một câu trả lời = một người nghe."
+    },
+    {
+      "heading": "Khung 4 bước cho 60 giây",
+      "body": "1. **Open + empathy (≈10 s):** chào, xin phép nói chuyện, thể hiện bạn hiểu người kia. *\"Hi Daniel, have you got a sec? First, I really appreciate the rides.\"*\n2. **Explain (≈15 s):** nêu vấn đề bằng sự việc cụ thể, không buộc tội. *\"Last Tuesday we got in at 9:10, and I missed the start of a client meeting.\"*\n3. **Propose 2 solutions (≈25 s):** cụ thể về thời gian, việc làm. *\"Could we leave at 7:45 instead? Or, on days you're running late, just text me and I'll take the SkyTrain.\"*\n4. **Close (≈10 s):** kiểm tra sự đồng ý, kết thúc tích cực. *\"Would that work for you? I'd really like to keep carpooling.\"*\n\nKhoảng 130–150 từ là vừa 60 giây."
+    },
+    {
+      "heading": "Ngôn ngữ làm mềm (softening)",
+      "body": "Đây là trọng tâm từ vựng của Task 6:\n- **Mở lời gián tiếp:** *I was wondering if…*, *Would you mind + V-ing…?*, *Is there any chance we could…?*\n- **Từ chối nhẹ nhàng:** *I'm afraid I can't…*, *I really wish I could, but…*, *Unfortunately, …*\n- **Góp ý không buộc tội:** dùng câu bắt đầu bằng **I** thay vì **You**. Thay *\"You are always late\"* bằng *\"I've noticed that we've been running a bit late lately.\"*\n- **Từ giảm mức độ:** *a bit*, *a little*, *slightly*, *kind of*.\n- **Đề xuất bằng modal:** *We could…*, *Maybe we might…*, *What if we…?*\n\nLưu ý: làm mềm **không** có nghĩa là xin lỗi liên tục. Một lời xin lỗi ngắn (*\"I'm sorry about this\"*) là đủ; xin lỗi năm lần nghe thiếu tự tin và lãng phí thời gian."
+    },
+    {
+      "heading": "Những bẫy làm mất điểm",
+      "body": "- **Quá thẳng hoặc đe dọa:** *\"If you are late again, I will tell the manager.\"* Nghe gây hấn.\n- **Giải pháp mơ hồ:** *\"I will try my best\"*, *\"We can find a way.\"* Người chấm cần **ai làm gì, khi nào**.\n- **Thiếu empathy:** nhảy thẳng vào vấn đề mà không ghi nhận mối quan hệ hay khó khăn của người kia.\n- **Hết giờ trước khi đưa giải pháp:** kể lể quá lâu ở bước 2. Giải pháp là phần quan trọng nhất — hãy đến đó trước giây thứ 30."
+    }
+  ],
+  "stimuli": {
+    "s6-carpool": {
+      "title": "Task 6 prompt: The late carpool",
+      "text": "You and your coworker Daniel have carpooled to your office in Surrey for almost a year. Daniel drives, and you pay half the gas. Lately, he has been 10 to 15 minutes late picking you up, and last Tuesday you missed the start of an important client meeting. Your manager noticed.\n\nChoose ONE of the following options:\n\n**Option A:** Talk to Daniel. Explain the problem and suggest a solution.\n\n**Option B:** Talk to your manager. Explain why you were late and how you will make sure it doesn't happen again."
+    },
+    "s6-food-bank": {
+      "title": "Task 6 prompt: Two volunteers, one shift",
+      "text": "You coordinate volunteers at a community food bank in Richmond. Only one spot is left on the Saturday morning sorting shift. Grace, who has volunteered every Saturday for five years, wants it. Kevin, a new volunteer and university student, also wants it because it is the only time he is free this month.\n\nChoose ONE of the following options:\n\n**Option A:** Talk to Grace. Explain why you are giving the spot to Kevin this month.\n\n**Option B:** Talk to Kevin. Explain why you are giving the spot to Grace, and suggest other ways he can help."
+    },
+    "s6-bakery": {
+      "title": "Task 6 prompt: Helping at a friend's bakery",
+      "text": "Your close friend Olivia is opening a small bakery in New Westminster. She has asked you to work there every Sunday, without pay, for the first two months. However, you have just started a weekend course to upgrade your accounting certificate, and the classes are on Sunday mornings.\n\nChoose ONE of the following options:\n\n**Option A:** Talk to Olivia. Explain why you can't work every Sunday, and suggest other ways you could help.\n\n**Option B:** Talk to your course instructor. Explain why you need to miss some classes, and ask how you can keep up."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Same prompt, three levels: talking to Daniel",
+      "stimulusId": "s6-carpool",
+      "question": "Choose Option A and talk to Daniel. Compare three responses to the same task.",
+      "steps": [
+        "Choose quickly: talking to Daniel lets you suggest concrete fixes (an earlier time, a text message, a backup plan). That is easier to develop than defending yourself to the manager.",
+        "Plan four notes only: 'thanks for rides' → 'Tues 9:10, missed meeting, manager noticed' → '7:45 / text me → SkyTrain' → 'work for you?'.",
+        "Turn every 'you' accusation into an 'I' or 'we' sentence: 'You are always late' becomes 'we've been running a bit late lately'.",
+        "Check timing: empathy (10 s), explanation (15 s), two solutions (25 s), close (10 s)."
+      ],
+      "answer": "The Level 8 version opens with appreciation, states the facts without blame, offers two specific solutions with times, and ends by checking agreement.",
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "Daniel, I want talk to you. You always late, every day you late. Last week I late for meeting because you. My manager is not happy. You need come on time. If you late again, I will go by bus. Sorry. OK, thank you.",
+          "commentVi": "Đúng người nghe nhưng giọng buộc tội (\"because you\", \"You need come\") và hơi đe dọa. Không có lời cảm ơn hay empathy. Giải pháp duy nhất là lời dọa đi xe buýt. Lỗi ngữ pháp dày: thiếu động từ \"be\" (\"You always late\"), thiếu \"to\" (\"want talk\", \"need come\"). Chỉ khoảng 20 giây — bỏ phí 40 giây."
+        },
+        {
+          "label": "acceptable",
+          "text": "Hi Daniel, can I talk to you for a minute? I want to say thank you for driving me every day. But there is a problem. Recently you are late about ten or fifteen minutes, and last Tuesday I was late for an important meeting. My manager saw it. So I think maybe you can leave your house earlier. I hope we can continue to carpool. Thank you.",
+          "commentVi": "Cấu trúc đã có: mở lời, cảm ơn, nêu vấn đề, giải pháp, kết. Tuy nhiên vẫn dùng \"you are late\" (buộc tội nhẹ), sai thì (\"Recently you are late\" thay vì \"you've been\"), và chỉ có một giải pháp chung chung (\"leave earlier\" — mấy giờ?). Từ vựng an toàn nhưng đơn giản. Khoảng 40 giây."
+        },
+        {
+          "label": "level8",
+          "text": "Hey Daniel, have you got a sec? First of all, I really appreciate you driving us every day. It's saved me so much time. I did want to mention something, though. I've noticed we've been running a bit late lately, and last Tuesday we got in around 9:10, so I missed the start of the client meeting. My manager actually noticed, which was a little awkward. I was wondering if we could leave at 7:45 instead of 8:00, just to give ourselves a buffer for bridge traffic. And on mornings when something comes up, could you just text me by 7:30? That way I can hop on the SkyTrain and no one has to rush. Would that work for you? I'd honestly love to keep carpooling. It's the best part of my commute.",
+          "commentVi": "Mở đầu thân thiện và ghi nhận (\"I really appreciate…\"). Nêu vấn đề bằng sự việc cụ thể, dùng \"we\" và \"I've noticed\" nên không buộc tội. Có hai giải pháp cụ thể (7:45; nhắn tin trước 7:30 → đi SkyTrain). Ngôn ngữ làm mềm đa dạng: \"a bit\", \"a little awkward\", \"I was wondering if\", \"could you just\". Kết thúc bằng câu hỏi kiểm tra đồng ý và lời tích cực. Khoảng 140 từ — vừa 60 giây."
+        }
+      ],
+      "takeawayVi": "Level 8 ở Task 6 = cùng nội dung nhưng thêm ghi nhận người kia, dùng câu \"I/we\" thay cho \"you\", và giải pháp có thời gian cụ thể."
+    },
+    {
+      "id": "ex2",
+      "title": "Choosing a side and planning in 60 seconds",
+      "stimulusId": "s6-food-bank",
+      "question": "Which option should you choose, and what do your prep notes look like?",
+      "steps": [
+        "Ask: which person can I offer a concrete alternative to? Kevin is new and flexible, so I can offer him other shifts or tasks. Grace has a five-year routine, so taking it away needs a stronger reason.",
+        "Choose Option B (talk to Kevin). Do not mention Option A at all in the answer.",
+        "Write keywords, not sentences: 'great you joined' → 'Grace 5 yrs, every Sat, promised' → '1) Wed evening delivery 2) Sat next month, put you first' → 'thanks, text me'.",
+        "Prepare one softening opener and one refusal phrase in advance: 'Thanks so much for offering' and 'I'm afraid I've already given…'.",
+        "Start speaking directly to Kevin: 'Hi Kevin, thanks so much for offering to take the Saturday shift.'"
+      ],
+      "answer": "Option B is easier to develop because Kevin can be offered two specific alternatives (a weekday shift and priority next month). Prep notes are four lines of keywords that follow the 4-step frame.",
+      "takeawayVi": "Chọn phương án mà bạn có giải pháp cụ thể nhanh nhất, không phải phương án \"đúng về mặt đạo đức\". Ghi chú bằng từ khóa theo 4 bước, chuẩn bị sẵn câu mở đầu."
+    },
+    {
+      "id": "ex3",
+      "title": "Turning blunt sentences into tactful ones",
+      "question": "Rewrite three blunt sentences so they sound diplomatic but still clear.",
+      "steps": [
+        "'You must pay me back this week.' → add an indirect opener and a modal: 'Would you mind paying me back by Friday? I'm a bit tight this month.'",
+        "'I can't do it. Find someone else.' → refuse with regret, then offer help: 'I'm afraid I can't take it on this time, but I could ask Minh if he's free.'",
+        "'Your music is too loud every night.' → describe the effect on you, not their fault: 'I've noticed the music carries into my bedroom after eleven, and I've been having trouble sleeping.'",
+        "Check that the message is still clear: the request, the refusal and the problem are all still there. Softening changes the tone, not the content."
+      ],
+      "answer": "Each rewrite keeps the same message but adds an indirect opener, an 'I' statement or a regret phrase, and a reason.",
+      "takeawayVi": "Làm mềm = đổi giọng, không đổi nội dung. Người nghe vẫn phải hiểu rõ bạn muốn gì."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "s6-carpool",
+      "prompt": "You chose Option A. Which is the best FIRST sentence?",
+      "hint": "The first sentence should be spoken to the person, not to the examiner, and should be friendly before any problem is mentioned.",
+      "options": [
+        { "text": "I would choose Option A because talking to Daniel is easier.", "misconception": "wrong_audience", "whyVi": "Đây là nói với giám khảo về lựa chọn của bạn. Task 6 yêu cầu nói trực tiếp với người trong tình huống." },
+        { "text": "Daniel, you made me late last Tuesday and my manager saw it.", "misconception": "too_direct", "whyVi": "Đúng người nhưng mở đầu bằng lời buộc tội, không có lời chào hay ghi nhận." },
+        { "text": "Hey Daniel, have you got a minute? First, thanks again for all the rides.", "misconception": null, "whyVi": "Đúng người, xin phép nói chuyện, ghi nhận lòng tốt của Daniel trước khi nêu vấn đề." },
+        { "text": "Hello Daniel and hello to my manager, I want to talk about the carpool.", "misconception": "wrong_audience", "whyVi": "Nói với cả hai người cùng lúc. Chỉ chọn một người nghe." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Câu mở đầu tốt = đúng một người nghe + lời chào/xin phép + empathy. Vấn đề để sang câu thứ hai hoặc thứ ba.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g2",
+      "type": "order",
+      "stimulusId": "s6-food-bank",
+      "prompt": "Put the parts of this Option B answer (talking to Kevin) in the best order.",
+      "hint": "Follow the 4-step frame: open with empathy, explain, offer solutions, close.",
+      "items": [
+        "Hi Kevin, thanks so much for offering to take the Saturday sorting shift. It means a lot.",
+        "I'm afraid I've already given that spot to Grace. She's been coming every Saturday for five years, and the team really relies on her.",
+        "That said, I'd love to have you. We need drivers for Wednesday evening deliveries, and I'll put you first on the list for Saturdays next month.",
+        "Would either of those work for you? Just text me and I'll set it up."
+      ],
+      "misconception": "weak_structure",
+      "explanationVi": "Thứ tự hợp lý: cảm ơn → từ chối có lý do → hai phương án thay thế → câu hỏi kết thúc. Nếu đưa lời từ chối lên đầu, Kevin nghe như bị gạt đi; nếu kết bằng giải pháp mà không hỏi lại, cuộc trò chuyện bị cụt.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g3",
+      "type": "text",
+      "prompt": "Complete the softened request with ONE word: \"I was ___ if we could leave at 7:45 instead.\"",
+      "hint": "This is the past continuous form of a verb that means 'asking yourself'. It makes a request sound indirect.",
+      "answers": ["wondering"],
+      "mode": "exact",
+      "misconception": "too_direct",
+      "explanationVi": "\"I was wondering if…\" là cụm làm mềm phổ biến nhất trong tiếng Anh Canada. Thì quá khứ tiếp diễn làm lời đề nghị nghe gián tiếp và lịch sự hơn \"I want…\" hay \"You should…\".",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "s6-carpool",
+      "prompt": "Which sentence gives the most useful SOLUTION for the Daniel conversation?",
+      "hint": "A strong solution tells the listener who does what and when.",
+      "options": [
+        { "text": "I hope you can try harder to be on time from now on.", "misconception": "vague_solution", "whyVi": "\"Try harder\" không phải hành động cụ thể; không có thời gian hay kế hoạch." },
+        { "text": "Could we leave at 7:45, and if you're running late, text me by 7:30 so I can take the SkyTrain?", "misconception": null, "whyVi": "Hai hành động cụ thể, có giờ rõ ràng, và có phương án dự phòng không làm ai khó xử." },
+        { "text": "We can find a good solution together, I'm sure.", "misconception": "vague_solution", "whyVi": "Nghe tích cực nhưng không có giải pháp nào được nêu." },
+        { "text": "If this happens again, I'll have to tell our manager it's your fault.", "misconception": "too_direct", "whyVi": "Đây là lời đe dọa, không phải giải pháp. Giọng gây hấn làm mất điểm Task 6." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Người chấm tìm giải pháp cụ thể: ai, làm gì, khi nào. Câu B có giờ cụ thể và phương án B nếu có trục trặc.",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "prompt": "Your neighbour asks to borrow your car for a weekend trip to Whistler. You don't feel comfortable lending it. Which response is the most tactful?",
+      "options": [
+        { "text": "No, I never lend my car to anyone. Sorry.", "misconception": "too_direct", "whyVi": "Rõ ràng nhưng cụt và lạnh; không có lý do hay đề xuất thay thế." },
+        { "text": "Oh, I really wish I could help, but I'm afraid I'm the only driver listed on my insurance. Would it help if I sent you the link to the car-share I use?", "misconception": null, "whyVi": "Có lời tiếc nuối, lý do khách quan (bảo hiểm), và một đề xuất cụ thể. Từ chối mà không làm tổn thương mối quan hệ." },
+        { "text": "Sorry, sorry, I'm so sorry, I feel really bad, but maybe no, sorry.", "misconception": "over_apologizing", "whyVi": "Xin lỗi quá nhiều và câu trả lời không rõ ràng (\"maybe no\"). Nghe thiếu tự tin." },
+        { "text": "You should rent a car like a normal person.", "misconception": "too_direct", "whyVi": "Có gợi ý nhưng giọng mỉa mai, thiếu tôn trọng." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Mẫu từ chối Level 8: tiếc nuối (I really wish I could) + lý do (insurance) + đề xuất thay thế cụ thể.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "prompt": "Make this complaint less accusing. Fill in ONE word: \"You're always late.\" → \"I've ___ that we've been running a bit late lately.\"",
+      "answers": ["noticed", "observed", "realized", "realised"],
+      "mode": "exact",
+      "misconception": "too_direct",
+      "explanationVi": "\"I've noticed that…\" biến lời buộc tội thành một quan sát của bạn. Kết hợp với \"we\" và \"a bit\", câu nói vẫn nêu vấn đề nhưng không làm người nghe phải phòng thủ.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "s6-food-bank",
+      "prompt": "You chose Option A (talk to Grace). Which sentence explains your decision most diplomatically?",
+      "options": [
+        { "text": "Kevin is young and you have done it for five years, so it's his turn now.", "misconception": "too_direct", "whyVi": "Có lý do nhưng nghe như Grace bị gạt đi vì \"đủ rồi\"; không ghi nhận đóng góp của cô." },
+        { "text": "Grace, you've been the backbone of Saturdays for five years, and I'm so grateful. This month is the only time Kevin can come, so I was hoping you might be okay with letting him have it, just this once.", "misconception": null, "whyVi": "Ghi nhận cụ thể (\"backbone… five years\"), lý do khách quan, giới hạn thời gian (\"just this once\"), và lời đề nghị mềm (\"I was hoping you might…\")." },
+        { "text": "I decided to give the shift to Kevin. That's my decision as coordinator.", "misconception": "too_direct", "whyVi": "Dùng quyền lực thay vì giải thích; nghe cứng nhắc." },
+        { "text": "Maybe we can talk about the shift some time later and see.", "misconception": "vague_solution", "whyVi": "Né tránh vấn đề, không nói rõ quyết định." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Khi phải nói tin không vui với người đã đóng góp nhiều, hãy ghi nhận cụ thể trước, nêu lý do khách quan, và giới hạn phạm vi của tin xấu (\"just this once\").",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i4",
+      "type": "text",
+      "prompt": "Fill in ONE word to soften this request to a roommate: \"Would you ___ keeping the volume down after eleven?\"",
+      "answers": ["mind"],
+      "mode": "exact",
+      "misconception": "too_direct",
+      "explanationVi": "\"Would you mind + V-ing\" là cấu trúc đề nghị lịch sự. Lưu ý động từ sau \"mind\" ở dạng -ing (keeping), không phải \"to keep\".",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "prompt": "Which closing line is best for a Task 6 answer to your manager after refusing an extra shift?",
+      "options": [
+        { "text": "So that's all. Bye.", "misconception": "weak_structure", "whyVi": "Kết thúc cụt, không kiểm tra người nghe có đồng ý với giải pháp không." },
+        { "text": "Again, I'm really sorry. I'm sorry. Sorry about all this.", "misconception": "over_apologizing", "whyVi": "Lặp xin lỗi làm mất thời gian và nghe thiếu tự tin; không có nội dung mới." },
+        { "text": "In conclusion, I chose to talk to my manager because it is more polite.", "misconception": "wrong_audience", "whyVi": "Quay sang nói với giám khảo và giải thích lựa chọn. Phá vỡ vai trò hội thoại." },
+        { "text": "Would either of those options work for you? I really want to make sure the team's covered.", "misconception": null, "whyVi": "Kiểm tra sự đồng ý và thể hiện bạn vẫn quan tâm đến đội. Kết thúc tích cực, tự nhiên." }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Câu kết Level 8 trả lại lượt nói cho người kia (Would that work for you?) và nhắc lại thiện chí.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i6",
+      "type": "order",
+      "stimulusId": "s6-bakery",
+      "prompt": "Option A (talk to Olivia): put these sentences in the most effective order.",
+      "items": [
+        "Olivia, I'm so excited about the bakery. You've been talking about this for years.",
+        "I really wish I could be there every Sunday, but I've just started an accounting course, and the classes are on Sunday mornings.",
+        "What I can do is come in on Saturday afternoons to help with prep, and I could also set up your bookkeeping spreadsheet for free.",
+        "Would that be helpful? I really want this to go well for you."
+      ],
+      "misconception": "weak_structure",
+      "explanationVi": "Empathy (vui cho Olivia) → từ chối có lý do → hai giải pháp cụ thể → câu hỏi kết thúc. Giải pháp thứ hai (sổ sách) còn tận dụng chính lý do từ chối — rất thuyết phục.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "s6-bakery",
+      "prompt": "Which sentence would score highest for VOCABULARY RANGE in the explanation step (Option A)?",
+      "options": [
+        { "text": "I can't because I have class. Class is Sunday. Sorry.", "misconception": "too_direct", "whyVi": "Câu ngắn, lặp từ \"class\", không có từ làm mềm." },
+        { "text": "Unfortunately, it clashes with a course I've just signed up for to upgrade my accounting certificate, and I'd hate to fall behind right at the start.", "misconception": null, "whyVi": "Từ vựng chính xác và tự nhiên: \"clashes with\", \"signed up for\", \"upgrade my certificate\", \"fall behind\"; có từ làm mềm \"Unfortunately\", \"I'd hate to\"." },
+        { "text": "I have a very very important class and it is very busy for me.", "misconception": "vague_solution", "whyVi": "Lặp \"very\", không nói rõ lớp gì, lúc nào; lý do mơ hồ nên khó thuyết phục." },
+        { "text": "Sorry, I'm so sorry, I really can't, I'm sorry, I have class, sorry.", "misconception": "over_apologizing", "whyVi": "Lặp \"sorry\" năm lần thay cho từ vựng thật sự; không có cụm từ chính xác nào để giải thích tình huống." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Từ vựng Level 8 là chính xác và tự nhiên trong văn nói, không phải dài hay trang trọng. Collocation như \"clashes with\", \"fall behind\" giúp nghe như người bản xứ.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "stimulusId": "s6-bakery",
+      "medium": "speak",
+      "prepSec": 60,
+      "responseSec": 60,
+      "prompt": "Respond to the Task 6 prompt. Choose ONE option and speak directly to that person for 60 seconds.",
+      "checklist": [
+        "The first sentence addresses one person by name (Olivia or the instructor), not the examiner.",
+        "Includes at least one sentence of empathy or appreciation before the problem.",
+        "Explains the situation with a specific reason (course, Sunday mornings, certificate).",
+        "Offers at least two concrete solutions with a time or an action.",
+        "Uses at least three softening phrases (e.g. I'm afraid, I was wondering if, I really wish I could, a bit).",
+        "Ends by checking agreement or with a positive closing line, apologizing no more than once."
+      ],
+      "modelAnswer": "Hi Olivia, do you have a minute? First of all, congratulations again. I can't believe the bakery's actually happening, and I really want to be part of it. The thing is, I've just signed up for a weekend course to upgrade my accounting certificate, and unfortunately the classes are on Sunday mornings, so I'm afraid I can't commit to every Sunday. I really wish I could. But here's what I was thinking. I could come in on Saturday afternoons and help you with prep for the next day. And since I'm learning accounting anyway, I'd be happy to set up a simple spreadsheet to track your sales and expenses. That way you'd have one less thing to worry about. Also, my course finishes in March, so after that I could do Sundays too. Would that work for you? I'm honestly so proud of you.",
+      "explanationVi": "So sánh câu trả lời của bạn với từng mục trong checklist. Chú ý: bạn có nói với đúng một người ngay từ câu đầu không, và giải pháp có thời gian hoặc hành động cụ thể không.",
+      "misconception": "vague_solution",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "misconceptions": {
+    "too_direct": {
+      "label": "Quá thẳng, thiếu khéo léo",
+      "explanationVi": "Bạn truyền đạt đúng nội dung nhưng dùng câu mệnh lệnh, câu buộc tội bắt đầu bằng \"You…\" hoặc lời đe dọa. Trong văn hóa giao tiếp Canada, cách này nghe gây hấn, và ở Task 6 người chấm đặc biệt chú ý đến giọng điệu. Gốc rễ thường là dịch thẳng từ tiếng Việt hoặc chưa có sẵn cụm làm mềm trong đầu.",
+      "fixVi": "Thuộc lòng 5 cụm: I was wondering if…, Would you mind + V-ing, I'm afraid…, I've noticed that…, I really wish I could, but… Đổi câu \"You\" thành câu \"I/we\" và thêm \"a bit\"."
+    },
+    "vague_solution": {
+      "label": "Giải pháp mơ hồ",
+      "explanationVi": "Bạn nói \"I will try\", \"We can find a way\" hoặc lý do chung chung. Người nghe không biết sẽ có gì thay đổi. Đây là lỗi Task Fulfillment: đề yêu cầu đề xuất giải pháp, mà một giải pháp không có hành động cụ thể thì coi như chưa đề xuất.",
+      "fixVi": "Mỗi giải pháp trả lời: ai làm gì, khi nào? Ví dụ: \"I could come in at 7 on Friday\". Chuẩn bị hai giải pháp trong lúc 60 giây prep."
+    },
+    "wrong_audience": {
+      "label": "Nói sai người nghe",
+      "explanationVi": "Bạn nói với giám khảo (\"I choose Option A because…\") hoặc với cả hai người trong đề. Task 6 là một cuộc hội thoại đóng vai; phá vai làm câu trả lời nghe như bài thuyết trình và lãng phí thời gian.",
+      "fixVi": "Câu đầu tiên luôn là: \"Hi [tên], do you have a minute?\" Không bao giờ nhắc đến \"Option A/B\" khi nói."
+    },
+    "weak_structure": {
+      "label": "Thiếu khung 4 bước",
+      "explanationVi": "Các ý bị đảo lộn: từ chối trước khi chào, đưa giải pháp rồi dừng đột ngột, hoặc kết thúc cụt. Người nghe khó theo dõi và câu trả lời thiếu tính hội thoại tự nhiên.",
+      "fixVi": "Luôn đi theo: Open + empathy → Explain → 2 solutions → Close bằng câu hỏi (Would that work for you?)."
+    },
+    "over_apologizing": {
+      "label": "Xin lỗi quá nhiều",
+      "explanationVi": "Bạn nhầm lịch sự với xin lỗi liên tục. Lặp \"sorry\" làm mất 5–10 giây quý giá, nghe thiếu tự tin, và không thay thế được giải pháp.",
+      "fixVi": "Một lời tiếc nuối là đủ (I really wish I could / I'm sorry about this). Dành thời gian đó cho giải pháp cụ thể."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "I was wondering if we could…", "vi": "Không biết liệu chúng ta có thể… (đề nghị gián tiếp, lịch sự)", "example": "I was wondering if we could move the meeting to Thursday afternoon." },
+    { "term": "Would you mind + V-ing…?", "vi": "Phiền bạn… được không?", "example": "Would you mind keeping the hallway clear on recycling day?" },
+    { "term": "I'm afraid I can't…", "vi": "Tôi e là tôi không thể… (từ chối nhẹ nhàng)", "example": "I'm afraid I can't cover the Saturday shift this week." },
+    { "term": "I really wish I could, but…", "vi": "Tôi thật sự rất muốn, nhưng…", "example": "I really wish I could help you move, but I'm working at YVR that day." },
+    { "term": "I've noticed that…", "vi": "Tôi để ý thấy rằng… (góp ý không buộc tội)", "example": "I've noticed that the bins have been left out a few extra days." },
+    { "term": "It clashes with…", "vi": "Bị trùng lịch với…", "example": "Unfortunately, the potluck clashes with my daughter's soccer game." },
+    { "term": "What I can do is…", "vi": "Điều tôi có thể làm là… (chuyển từ từ chối sang giải pháp)", "example": "What I can do is finish the report on Monday morning before the team meeting." },
+    { "term": "That way, …", "vi": "Như vậy thì… (nêu lợi ích của giải pháp)", "example": "Text me by 7:30. That way, I can still catch the SkyTrain." },
+    { "term": "Would that work for you?", "vi": "Như vậy có được không? (kiểm tra sự đồng ý)", "example": "I could drop the keys off on Sunday evening. Would that work for you?" }
+  ],
+  "grammar": [
+    {
+      "point": "Softening with past continuous and modals",
+      "explanationVi": "Tiếng Anh dùng thì quá khứ tiếp diễn (I was wondering, I was hoping) và modal (could, might, would) để làm lời đề nghị nghe gián tiếp, dù ý nghĩa vẫn ở hiện tại. \"I want you to…\" → \"I was hoping you might…\". \"Can you…?\" → \"Could you…?\" / \"Would you mind + V-ing?\". Người Việt thường dùng hiện tại đơn và \"must/should\", khiến câu nghe như ra lệnh.",
+      "examples": [
+        "I was hoping you might be able to cover for me on Friday.",
+        "Could we maybe split the cost of the new fence?",
+        "Would you mind turning the music down a little after eleven?"
+      ]
+    },
+    {
+      "point": "\"I\" statements instead of \"you\" accusations",
+      "explanationVi": "Khi phàn nàn, hãy mô tả tác động lên bạn (I) hoặc vấn đề chung (we) thay vì lỗi của người kia (you). Dùng hiện tại hoàn thành tiếp diễn để nói về tình huống gần đây: \"we've been running late\".",
+      "examples": [
+        "You're too loud. → I've been having trouble sleeping since the music carries into my room.",
+        "You never clean the kitchen. → I've noticed the kitchen's been getting a bit messy lately."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Task 6: Difficult situations", "route": "/speaking?task=S6" },
+    { "label": "Review your speaking mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises independently (keys correct, orders unique); checked 60/60 timing, tone and Vietnamese. Fixed: i1 insurance reason made BC-accurate (only listed driver), i2 now also accepts observed/realized, Pattullo reference made non-specific, i8 model trimmed to ~145 words, concept word range set to 130–150."}
+}

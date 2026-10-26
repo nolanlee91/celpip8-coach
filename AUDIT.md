@@ -1,5 +1,7 @@
 # CELPIP 8 Coach — Audit Report (offline-first content refactor)
 
+> Phase 3 (Learn Mode, curriculum, coaching) is audited in [AUDIT(3).md](AUDIT(3).md).
+
 This report describes the current state of the repository after the **content-first / AI-optional refactor**, with exact counts and an honest list of what was and was not verified. It is written so an independent reviewer (e.g. Codex) can audit the code and the content library against the requirements.
 
 - Repository: https://github.com/nolanlee91/celpip8-coach

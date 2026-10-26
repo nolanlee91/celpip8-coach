@@ -1,0 +1,357 @@
+{
+  "id": "sp-15",
+  "skill": "speaking",
+  "module": "speaking-level8",
+  "level": "target8",
+  "difficulty": 9,
+  "title": "Accurate complex sentences in speech",
+  "titleVi": "Câu phức chính xác khi nói",
+  "estimatedMinutes": 35,
+  "prerequisites": ["sp-07"],
+  "competencies": ["grammar"],
+  "tasks": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"],
+  "objectives": [
+    "You will be able to use first, second and third conditionals accurately in the speaking tasks where they fit.",
+    "You will be able to add information with relative clauses (who, which, that, where) without extra pronouns.",
+    "You will be able to use modals and past modals (should, could, might, should have + past participle) in the correct form.",
+    "You will be able to notice and fix the five errors most common for Vietnamese speakers: articles, plurals, tense consistency, third-person -s and missing subjects."
+  ],
+  "objectiveVi": "Sau bài này, bạn dùng được câu điều kiện, mệnh đề quan hệ và động từ khuyết thiếu một cách chính xác khi nói, đồng thời nhận ra và tự sửa năm lỗi phổ biến nhất của người Việt: mạo từ, số nhiều, nhất quán thì, -s ngôi thứ ba và thiếu chủ ngữ.",
+  "whyItMattersVi": "Ở Speaking 6, bạn thường nói được câu phức nhưng sai hình thức (\"If I will…\", \"should to go\"), hoặc nói đúng nhưng chỉ dùng câu đơn. Người chấm ở Level 8 mong đợi một hỗn hợp câu đơn và câu phức mà phần lớn chính xác. Tin tốt: lỗi của người Việt khá dễ đoán vì tiếng Việt không biến đổi hình thức từ (không có -s, -ed, mạo từ). Biết trước lỗi của mình là bạn đã sửa được một nửa.",
+  "concept": [
+    {
+      "heading": "Chính xác + phức tạp: cần cả hai",
+      "body": "Điểm ngữ pháp trong Speaking phụ thuộc vào hai yếu tố: **range** (bạn có dùng được cấu trúc đa dạng không) và **accuracy** (cấu trúc đó có đúng không). Câu đơn đúng hoàn toàn nhưng chỉ toàn câu đơn sẽ khó lên Level 8; câu phức nhiều nhưng sai liên tục cũng vậy.\n\nChiến lược: nắm chắc **3 nhóm cấu trúc** dưới đây, dùng mỗi nhóm 1–2 lần mỗi câu trả lời, và theo dõi **năm lỗi cá nhân**. Tự sửa nhanh khi nói (*\"My sister work— works at…\"*) là hoàn toàn bình thường và cho thấy bạn kiểm soát được ngôn ngữ."
+    },
+    {
+      "heading": "Câu điều kiện theo từng task",
+      "body": "- **Loại 1 (có thể xảy ra), Task 1, 4, 6:** *If + hiện tại đơn, will/can + V.* → *\"If you sign up before Friday, you'll get the early-bird price.\"* Lỗi thường gặp: *\"If you **will** sign up…\"* (sai — không dùng will sau if).\n- **Loại 2 (giả định), Task 1, 5, 7:** *If + quá khứ đơn, would + V.* → *\"If I were you, I'd take the earlier ferry.\"* / *\"If transit were free, more people would use it.\"*\n- **Loại 3 (tiếc nuối về quá khứ), Task 2:** *If + had + V3, would have + V3.* → *\"If I had checked the schedule, I wouldn't have missed the ferry.\"* Lỗi: *\"If I **would have** checked…\"* (sai — không dùng would ở vế if)."
+    },
+    {
+      "heading": "Mệnh đề quan hệ: thêm thông tin trong một câu",
+      "body": "Dùng **who** (người), **which/that** (vật), **where** (nơi chốn), **whose** (sở hữu):\n- *\"My neighbour, **who** works at the hospital, gave me a ride.\"*\n- *\"The café **where** we usually meet has closed.\"*\n\nHai lỗi điển hình của người Việt:\n1. **Lặp đại từ:** *\"the man who I met **him**\"* → *\"the man (who) I met\"*.\n2. **Bỏ đại từ quan hệ khi nó là chủ ngữ:** *\"I have a friend lives in Surrey\"* → *\"I have a friend **who** lives in Surrey.\"* (Chỉ được bỏ who/that khi nó là tân ngữ: *the book I bought*.)"
+    },
+    {
+      "heading": "Động từ khuyết thiếu (modals)",
+      "body": "Sau **can, could, should, might, must, will, would** luôn là **động từ nguyên mẫu không \"to\"**: *should go*, không phải *should to go* hay *should going*. Không thêm -s: *she can drive*, không phải *she cans drives*.\n\n**Modal quá khứ** rất mạnh cho Task 2 và Task 6: *should have + V3* (lẽ ra nên), *could have + V3* (lẽ ra có thể), *might have + V3* (có lẽ đã). → *\"I should have asked for help earlier.\"* Khi nói nhanh, người Canada phát âm *should've* /ʃʊdəv/."
+    },
+    {
+      "heading": "Năm lỗi phổ biến của người Việt",
+      "body": "Tiếng Việt không biến đổi hình thức từ, nên các \"đuôi\" và từ nhỏ trong tiếng Anh dễ bị bỏ qua:\n1. **Mạo từ:** *\"She is nurse\"* → *She is **a** nurse.* Danh từ đếm được số ít cần a/an/the; nói chung chung về số nhiều thì không cần: *Kids love parks.*\n2. **Số nhiều:** *\"two friend\", \"many problem\"* → *two friend**s**, many problem**s***. Chú ý danh từ bất quy tắc: *children, people, women*.\n3. **Nhất quán thì:** khi kể chuyện quá khứ (Task 2), người Việt hay trượt về hiện tại: *\"Yesterday I go… and she say…\"* → *went, said*.\n4. **-s ngôi thứ ba:** *\"My sister work\"* → *My sister work**s**.* Áp dụng cho he/she/it và mọi danh từ số ít.\n5. **Thiếu chủ ngữ:** *\"Is very busy.\" \"Have many people.\"* → *It's very busy. There are a lot of people.*\n\nMẹo luyện: mỗi lần ghi âm, chọn **một** lỗi để nghe lại và đếm. Khi số lần giảm, chuyển sang lỗi tiếp theo."
+    }
+  ],
+  "stimuli": {
+    "s2-mistake": {
+      "title": "Task 2 prompt: A mistake at work",
+      "text": "Talk about a time you made a mistake at work or at school. What happened, and what did you learn from it?"
+    },
+    "s1-error-hunt": {
+      "title": "Transcript: a Task 1 answer with errors",
+      "text": "My cousin want to move to Victoria. I told him, if he will find a job first, it will be easier. Is very expensive to rent there, so he should to share apartment with roommate. I have a friend lives in Saanich, and she can help him."
+    },
+    "s2-plan": {
+      "title": "Task 2 prompt: A plan that went wrong",
+      "text": "Talk about a time when a plan you made did not go the way you expected. What happened, and what would you do differently now?"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Same story, three levels of grammar",
+      "stimulusId": "s2-mistake",
+      "question": "Compare three answers about a mistake at a warehouse job.",
+      "steps": [
+        "Listen for the five Vietnamese-speaker errors in the weak version: present tense for past events (work, ask, send, call, tell), missing articles (in warehouse, wrong box, to customer), missing subject (Is my mistake), missing 'be' (my supervisor not angry) and wrong modal form (should to be).",
+        "Notice that the acceptable version fixes the errors but uses almost only simple sentences.",
+        "In the Level 8 version, find the complex structures: a time clause (when I'd just started…), relative clauses (that I still think about, who was really busy), a third conditional (If I had taken…, I would have caught…) and present perfect for the result (Since then, I've never skipped…).",
+        "Check that the tenses stay in the past for the story and only move to the present for 'now'."
+      ],
+      "answer": "The Level 8 version is not longer because of extra ideas. It combines the same events into accurate complex sentences and keeps tenses consistent.",
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "Last year I work in warehouse in Delta. One day my supervisor ask me check the order. I don't check carefully, and I send wrong box to customer. Customer is very angry and call to company. Is my mistake. But my supervisor not angry, she tell me next time must check two time. I learn that I should to be careful. Now I always check.",
+          "commentVi": "Ý rõ, nhưng lỗi ngữ pháp dày đến mức người nghe phải cố gắng: thì hiện tại cho chuyện quá khứ (work, ask, don't check, send, call, tell, learn), thiếu mạo từ (in warehouse, wrong box, customer), thừa giới từ (\"call to company\"), thiếu chủ ngữ (\"Is my mistake\"), thiếu động từ \"be\" (\"supervisor not angry\"), \"should to be\", \"two time\". Toàn câu đơn."
+        },
+        {
+          "label": "acceptable",
+          "text": "Last year, I worked in a warehouse in Delta. One day, my supervisor asked me to check an order. I didn't check it carefully, and I sent the wrong boxes to the customer. The customer was very angry and called the company. It was my mistake. My supervisor wasn't angry. She told me to check everything twice next time. I learned that I should be careful. Now I always check every order.",
+          "commentVi": "Gần như không còn lỗi: thì quá khứ nhất quán, mạo từ và số nhiều đúng, modal đúng. Nhưng hầu hết là câu đơn ngắn nối bằng \"and\", nên nghe đều đều và chưa thể hiện được độ đa dạng ngữ pháp. Đây là mức chính xác của Level 7."
+        },
+        {
+          "label": "level8",
+          "text": "About two years ago, when I'd just started at a warehouse in Delta, I made a mistake that I still think about. My supervisor, who was really busy that day, asked me to double-check a large order before it went out. I was rushing because my shift was almost over, so I only looked at the labels, not the boxes inside. The next morning, the customer called to say they'd received the wrong items, and honestly, I felt terrible. If I had taken five more minutes, I would have caught the problem. My supervisor was really understanding, though. She explained that everyone makes mistakes in their first month, but that the checklist exists for a reason. Since then, I've never skipped a step, and now I'm actually the person who trains new staff on order checks.",
+          "commentVi": "Cùng câu chuyện nhưng đa dạng cấu trúc và chính xác: mệnh đề thời gian với quá khứ hoàn thành (when I'd just started), ba mệnh đề quan hệ (that I still think about, who was really busy, who trains new staff), câu điều kiện loại 3 đúng hình thức, câu gián tiếp (called to say they'd received), hiện tại hoàn thành cho kết quả (Since then, I've never skipped). Thì chuyển về hiện tại đúng lúc (\"now I'm…\"). Mạo từ, số nhiều, -s (makes, exists, trains) đều đúng."
+        }
+      ],
+      "takeawayVi": "Level 8 không phải là nói nhiều ý hơn. Đó là gộp các sự việc vào câu phức đúng hình thức và giữ thì nhất quán."
+    },
+    {
+      "id": "ex2",
+      "title": "Combining simple sentences into accurate complex ones",
+      "question": "Combine: 'I have a coworker. She is from Manila. She helped me a lot. I didn't know the bus routes.'",
+      "steps": [
+        "Find the person you want to add information to: 'a coworker'. Add a relative clause with 'who' for a person: 'a coworker who's from Manila'.",
+        "Do not repeat the pronoun: not 'a coworker who she is from Manila'.",
+        "Find the reason: 'I didn't know the bus routes' explains why her help mattered. Join it with 'when' or 'because': 'when I didn't know the bus routes yet'.",
+        "Say the full sentence and check the verb forms: 'A coworker of mine who's from Manila helped me a lot when I didn't know the bus routes yet.'",
+        "Optional upgrade with a conditional: 'If she hadn't shown me the 49 bus, I would have been late every day for a month.'"
+      ],
+      "answer": "A coworker of mine who's from Manila helped me a lot when I didn't know the bus routes yet. If she hadn't shown me the 49 bus, I would have been late every day for a month.",
+      "takeawayVi": "Câu phức được tạo bằng cách gắn thông tin vào một danh từ (who/which/where) hoặc gắn lý do/thời gian (because/when), rồi kiểm tra hình thức động từ."
+    },
+    {
+      "id": "ex3",
+      "title": "Error hunt in a Task 1 transcript",
+      "stimulusId": "s1-error-hunt",
+      "question": "Find and fix every grammar error in this short Task 1 answer.",
+      "steps": [
+        "'My cousin want' → third-person -s: 'My cousin wants'.",
+        "'if he will find a job first' → first conditional, no 'will' after if: 'if he finds a job first'.",
+        "'Is very expensive to rent there' → missing subject: 'It's very expensive to rent there'.",
+        "'he should to share apartment with roommate' → modal + bare verb and articles: 'he should share an apartment with a roommate'.",
+        "'I have a friend lives in Saanich' → missing subject relative pronoun: 'I have a friend who lives in Saanich'."
+      ],
+      "answer": "My cousin wants to move to Victoria. I told him that if he finds a job first, it'll be easier. It's very expensive to rent there, so he should share an apartment with a roommate. I have a friend who lives in Saanich, and she can help him.",
+      "takeawayVi": "Bốn câu, bảy lỗi, và tất cả đều thuộc danh sách lỗi phổ biến của người Việt. Khi nghe lại bản ghi âm của mình, hãy dò theo đúng danh sách này."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "text",
+      "prompt": "Type the correct form of 'work': \"My sister ___ at Vancouver General Hospital, so she knows the area well.\"",
+      "hint": "The subject is one person (she), and the sentence is about the present.",
+      "answers": ["works"],
+      "mode": "exact",
+      "misconception": "missing_endings",
+      "explanationVi": "Chủ ngữ số ít ngôi thứ ba (my sister = she) ở hiện tại đơn cần -s: works. Câu sau \"she knows\" cũng vậy.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "prompt": "Choose the correct sentence to talk about a past regret (Task 2).",
+      "hint": "For an imagined past, the if-part uses 'had + past participle' and the result part uses 'would have + past participle'.",
+      "options": [
+        { "text": "If I would have checked the schedule, I wouldn't miss the ferry.", "misconception": "conditional_modal_form", "whyVi": "Không dùng \"would\" ở vế if; vế kết quả cũng phải là \"wouldn't have missed\"." },
+        { "text": "If I checked the schedule, I won't miss the ferry.", "misconception": "conditional_modal_form", "whyVi": "Trộn lẫn loại 2 và loại 1; không diễn tả được sự tiếc nuối về quá khứ." },
+        { "text": "If I had checked the schedule, I wouldn't have missed the ferry.", "misconception": null, "whyVi": "Câu điều kiện loại 3 đúng: had checked → wouldn't have missed." },
+        { "text": "If I have checked the schedule, I didn't miss the ferry.", "misconception": "tense_shift", "whyVi": "Thì hiện tại hoàn thành và quá khứ đơn không tạo thành câu điều kiện có nghĩa." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Loại 3: If + had + V3, would have + V3. Đây là cấu trúc mạnh nhất cho phần \"what I learned\" ở Task 2.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g3",
+      "type": "text",
+      "prompt": "Fill in the missing article: \"My neighbour is ___ nurse, and the clinic where she works is near Metrotown.\"",
+      "hint": "A job title after 'is' is a singular countable noun mentioned for the first time.",
+      "answers": ["a"],
+      "mode": "exact",
+      "misconception": "article_error",
+      "explanationVi": "Nghề nghiệp dùng a/an: She is a nurse, He's an engineer. Người Việt hay bỏ mạo từ vì tiếng Việt nói \"Cô ấy là y tá\".",
+      "competency": "grammar"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "prompt": "Which sentence uses a relative clause correctly?",
+      "hint": "Check two things: the relative pronoun is there when it is the subject, and no extra pronoun is repeated inside the clause.",
+      "options": [
+        { "text": "I have a friend lives in Saanich who can help him.", "misconception": "clause_structure", "whyVi": "Thiếu \"who\" trước \"lives\" (who là chủ ngữ của mệnh đề nên không được bỏ)." },
+        { "text": "The landlord who I talked to him yesterday was very helpful.", "misconception": "clause_structure", "whyVi": "Lặp đại từ \"him\" — \"who\" đã thay cho landlord rồi." },
+        { "text": "The landlord I talked to yesterday was very helpful.", "misconception": null, "whyVi": "Đúng: \"who\" là tân ngữ nên có thể lược bỏ, và không lặp đại từ." },
+        { "text": "The landlord which I talked to yesterday was very helpful.", "misconception": "clause_structure", "whyVi": "Dùng \"which\" cho người; phải là who/that hoặc lược bỏ." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Who cho người, which cho vật. Được lược đại từ quan hệ khi nó là tân ngữ (the landlord I talked to), không được lược khi nó là chủ ngữ (a friend who lives…). Không lặp đại từ trong mệnh đề.",
+      "competency": "grammar"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "text",
+      "prompt": "Type the correct form of 'child': \"Both of my ___ go to an elementary school in Burnaby.\"",
+      "answers": ["children"],
+      "mode": "exact",
+      "misconception": "missing_endings",
+      "explanationVi": "\"Both of my\" cần danh từ số nhiều; \"child\" là danh từ bất quy tắc → children (không phải childs). Tương tự: person → people, woman → women.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "prompt": "Which version keeps the tenses consistent in a Task 2 story?",
+      "options": [
+        { "text": "Last winter, I drive to Whistler, and the road is icy, so I decided to turn back.", "misconception": "tense_shift", "whyVi": "Trộn hiện tại (drive, is) với quá khứ (decided) trong cùng một câu chuyện quá khứ." },
+        { "text": "Last winter, I drove to Whistler, but the road was so icy that I decided to turn back.", "misconception": null, "whyVi": "Thì quá khứ nhất quán (drove, was, decided) và có cấu trúc \"so… that\"." },
+        { "text": "Last winter, I have driven to Whistler, but the road was icy and I decide to turn back.", "misconception": "tense_shift", "whyVi": "Không dùng hiện tại hoàn thành với \"last winter\"; \"decide\" sai thì." },
+        { "text": "Last winter, I was drive to Whistler, but the road is icy, so I turn back.", "misconception": "tense_shift", "whyVi": "\"was drive\" sai hình thức, và câu trượt về hiện tại (is, turn)." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Khi kể chuyện quá khứ, giữ quá khứ đơn cho các sự việc chính. Từ chỉ thời gian quá khứ (last winter, yesterday, two years ago) là tín hiệu để kiểm tra.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i3",
+      "type": "text",
+      "prompt": "Fill in ONE word (second conditional advice): \"If I ___ you, I would book the campsite in Golden Ears before May.\"",
+      "answers": ["were"],
+      "mode": "exact",
+      "misconception": "conditional_modal_form",
+      "explanationVi": "\"If I were you, I'd…\" là cách khuyên tự nhiên nhất ở Task 1. Trong cụm cố định này hãy luôn dùng \"were\" cho mọi ngôi. \"If I was you\" đôi khi nghe trong văn nói thân mật, nhưng nhiều người vẫn coi là lỗi, nên khi thi hãy dùng \"were\" cho an toàn.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        { "text": "Is very crowded at Granville Island on weekends.", "misconception": "clause_structure", "whyVi": "Thiếu chủ ngữ. Tiếng Anh cần chủ ngữ giả \"It\"." },
+        { "text": "Have many tourists at Granville Island on weekends.", "misconception": "clause_structure", "whyVi": "Dịch thẳng \"Có nhiều khách\"; tiếng Anh dùng \"There are\" để nói sự tồn tại." },
+        { "text": "There is very crowded at Granville Island on weekends.", "misconception": "clause_structure", "whyVi": "\"There is\" đi với danh từ, không đi với tính từ \"crowded\"." },
+        { "text": "It gets really crowded at Granville Island on weekends, because there are so many tourists.", "misconception": null, "whyVi": "Có chủ ngữ giả \"It\" cho tính từ và \"there are\" cho danh từ số nhiều. Đúng cả hai cấu trúc." }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Tiếng Anh luôn cần chủ ngữ: It + be/get + tính từ (It's crowded) và There + be + danh từ (There are many tourists). Đây là lỗi điển hình khi dịch từ \"Đông lắm\", \"Có nhiều…\".",
+      "competency": "grammar"
+    },
+    {
+      "id": "i5",
+      "type": "text",
+      "prompt": "Use 'should' + 'check' to express a past regret (3 words, or 2 with a contraction): \"We got caught in the storm. I ___ the forecast before we left.\"",
+      "answers": ["should have checked", "should've checked"],
+      "mode": "exact",
+      "misconception": "conditional_modal_form",
+      "explanationVi": "Should have + V3 = lẽ ra nên làm (nhưng đã không làm). Lỗi phổ biến: \"should checked\", \"should to check\", \"should have check\".",
+      "competency": "grammar"
+    },
+    {
+      "id": "i6",
+      "type": "order",
+      "prompt": "Put these chunks in order to make one accurate complex sentence.",
+      "items": [
+        "If I had known",
+        "that the bus",
+        "I usually take",
+        "had been cancelled,",
+        "I would have left home earlier."
+      ],
+      "misconception": "clause_structure",
+      "explanationVi": "Vế if loại 3 (If I had known) + mệnh đề danh từ (that the bus… had been cancelled) chứa một mệnh đề quan hệ đã lược đại từ tân ngữ (I usually take = that I usually take) + vế kết quả (would have left). Câu này dài nhưng mỗi phần đều theo quy tắc đã học.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "prompt": "Which sentence is the most accurate AND the most complex (Level 9)?",
+      "options": [
+        { "text": "My manager, who has worked here for twenty years, says that if we finish the inventory early, we can leave at four.", "misconception": null, "whyVi": "Mệnh đề quan hệ không xác định (who has worked…), -s ngôi ba (says), mệnh đề danh từ (that…) chứa câu điều kiện loại 1 đúng hình thức (finish → can leave)." },
+        { "text": "My manager, who have worked here for twenty years, say that if we will finish the inventory early, we can leave at four.", "misconception": "missing_endings", "whyVi": "Thiếu -s (has, says) và dùng \"will\" sai sau if." },
+        { "text": "My manager work here twenty years. He say we finish early, we leave at four.", "misconception": "missing_endings", "whyVi": "Câu đơn, thiếu -s, thiếu thì hoàn thành, và không có từ nối điều kiện \"if\"." },
+        { "text": "My manager who he has worked here for twenty years says that if we finished the inventory early, we can leave at four.", "misconception": "clause_structure", "whyVi": "Lặp đại từ \"he\" trong mệnh đề quan hệ và trộn thì trong câu điều kiện (finished… can)." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Level 9 = nhiều lớp cấu trúc trong một câu nhưng từng lớp đều đúng hình thức. Hãy kiểm tra từng phần: chủ ngữ – động từ (-s), mệnh đề quan hệ, và câu điều kiện.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "stimulusId": "s2-plan",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 60,
+      "prompt": "Respond to this Task 2 prompt for 60 seconds. Focus on accurate complex sentences. Record yourself and listen back once for your personal error.",
+      "checklist": [
+        "Keeps the main events of the story in the past tense from start to finish.",
+        "Uses at least one third conditional or 'should have / could have + past participle' correctly.",
+        "Uses at least two relative clauses (who, which, that, where) without repeating a pronoun.",
+        "Every singular countable noun has an article (a/an/the), and plural nouns have -s.",
+        "Every sentence has a subject (It's…, There was…), and he/she/it verbs in the present have -s."
+      ],
+      "modelAnswer": "Last August, my husband and I planned a camping trip to a lake near Kamloops that a friend had recommended. I booked a site online, packed the car the night before, and we left early on Saturday morning. Unfortunately, when we got there, the ranger told us that the whole area had been closed because of a wildfire nearby. I hadn't checked the BC Wildfire map, which was a big mistake, because the closure had been announced two days earlier. We ended up driving four hours back home with a car full of camping gear. Honestly, we laughed about it later, but at the time I was really frustrated. If I had checked the updates before we left, we could have picked a different campground. Now, whenever we plan a trip in the summer, I always look at the fire map and the road reports the night before.",
+      "explanationVi": "Nghe lại bản ghi âm và kiểm tra từng mục. Đếm số lỗi của bạn trong nhóm lỗi cá nhân (ví dụ: thiếu -s) và ghi lại để so sánh ở lần luyện sau.",
+      "misconception": "tense_shift",
+      "competency": "grammar"
+    }
+  ],
+  "misconceptions": {
+    "missing_endings": {
+      "label": "Thiếu đuôi -s (số nhiều, ngôi thứ ba)",
+      "explanationVi": "Tiếng Việt không biến đổi danh từ hay động từ, nên bạn quen bỏ -s ở danh từ số nhiều (two friend) và động từ ngôi thứ ba (she work). Khi nói nhanh, lỗi này lặp lại nhiều lần và làm người nghe thấy câu trả lời kém chính xác, dù ý vẫn rõ.",
+      "fixVi": "Khi nghe lại bản ghi âm, chỉ tập trung vào -s trong một lần nghe. Luyện nói chậm những câu có he/she/my + danh từ số ít, nhấn rõ âm cuối /s/ /z/."
+    },
+    "article_error": {
+      "label": "Thiếu hoặc sai mạo từ",
+      "explanationVi": "Tiếng Việt không có a/an/the, nên bạn bỏ mạo từ trước danh từ đếm được số ít (She is nurse, in warehouse) hoặc thêm \"the\" khi nói chung chung. Lỗi này rất phổ biến và dễ nhận ra.",
+      "fixVi": "Quy tắc nhanh: danh từ đếm được số ít luôn cần một từ đứng trước (a/an/the/my/this). Nói chung về số nhiều thì không cần (Kids love parks)."
+    },
+    "tense_shift": {
+      "label": "Trượt thì khi kể chuyện",
+      "explanationVi": "Tiếng Việt dùng từ chỉ thời gian (hôm qua, năm ngoái) thay vì đổi động từ, nên khi kể chuyện quá khứ bạn hay trượt về hiện tại. Người nghe khó biết sự việc xảy ra lúc nào, và điểm ngữ pháp bị ảnh hưởng nặng ở Task 2.",
+      "fixVi": "Khi đã nói \"Last year / Two years ago\", tự nhắc: mọi động từ chính đều ở quá khứ cho đến khi nói \"Now…\". Chuẩn bị sẵn quá khứ của các động từ bất quy tắc hay dùng (went, told, felt, left, got)."
+    },
+    "conditional_modal_form": {
+      "label": "Sai hình thức câu điều kiện / modal",
+      "explanationVi": "Bạn biết ý nghĩa nhưng ghép sai hình thức: \"If I will…\", \"If I would have…\", \"should to go\", \"should checked\". Gốc rễ là chưa thuộc khuôn cố định của từng loại câu điều kiện và modal.",
+      "fixVi": "Thuộc ba khuôn: If + hiện tại → will; If + quá khứ → would; If + had V3 → would have V3. Modal + động từ nguyên mẫu không \"to\"; modal quá khứ = modal + have + V3."
+    },
+    "clause_structure": {
+      "label": "Sai cấu trúc mệnh đề / thiếu chủ ngữ",
+      "explanationVi": "Bạn lặp đại từ trong mệnh đề quan hệ (the man who I met him), bỏ \"who\" khi nó là chủ ngữ (a friend lives in…), hoặc bỏ chủ ngữ của câu (Is very busy, Have many people). Đây là lỗi dịch cấu trúc câu tiếng Việt sang tiếng Anh.",
+      "fixVi": "Mỗi mệnh đề cần đúng một chủ ngữ. Dùng \"It\" cho tính từ (It's busy), \"There is/are\" cho sự tồn tại, và \"who\" thay hẳn cho người, không thêm him/her."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "If I were you, I'd…", "vi": "Nếu tôi là bạn, tôi sẽ… (lời khuyên, câu điều kiện loại 2)", "example": "If I were you, I'd apply for the BC Services Card right away." },
+    { "term": "If I had…, I would have…", "vi": "Nếu tôi đã…, thì tôi đã… (tiếc nuối về quá khứ)", "example": "If I had left ten minutes earlier, I would have caught the SeaBus." },
+    { "term": "should have + past participle", "vi": "lẽ ra nên…", "example": "I should have brought a rain jacket to Lynn Canyon." },
+    { "term": "could have + past participle", "vi": "lẽ ra đã có thể…", "example": "We could have taken the ferry, but we decided to drive around." },
+    { "term": "…, who…, …", "vi": "mệnh đề quan hệ bổ sung thông tin về người", "example": "My landlord, who lives upstairs, fixed the heater the same day." },
+    { "term": "the place where…", "vi": "nơi mà…", "example": "That's the community centre where my son takes swimming lessons." },
+    { "term": "There are / There were…", "vi": "Có… (diễn tả sự tồn tại; thay cho \"Have…\")", "example": "There were hundreds of people at the Canada Day fireworks." },
+    { "term": "It's / It gets + adjective", "vi": "Trời/nơi đó thì… (chủ ngữ giả)", "example": "It gets really dark by 4:30 in December." },
+    { "term": "Since then, I've…", "vi": "Kể từ đó, tôi đã… (nối câu chuyện quá khứ với hiện tại)", "example": "Since then, I've always double-checked my shift schedule." }
+  ],
+  "grammar": [
+    {
+      "point": "Conditionals: first, second and third",
+      "explanationVi": "Loại 1 (có thể xảy ra): If + hiện tại đơn, will/can + V. Loại 2 (giả định hiện tại/tương lai): If + quá khứ đơn, would/could + V. Loại 3 (giả định quá khứ, tiếc nuối): If + had + V3, would/could have + V3. Không bao giờ dùng will hoặc would trong vế if.",
+      "examples": [
+        "If you call the clinic before nine, you'll usually get a same-day appointment.",
+        "If I lived closer to work, I'd cycle every day.",
+        "If I had saved the receipt, I could have returned the jacket."
+      ]
+    },
+    {
+      "point": "Relative clauses: who, which, that, where",
+      "explanationVi": "Who cho người, which cho vật, that cho cả hai (trong mệnh đề xác định), where cho nơi chốn. Đại từ quan hệ thay thế danh từ, nên không lặp lại him/her/it. Có thể lược bỏ khi nó là tân ngữ, không được lược khi nó là chủ ngữ. Mệnh đề bổ sung thông tin (có dấu phẩy) dùng who/which, không dùng that.",
+      "examples": [
+        "I have a friend who teaches at a high school in Richmond.",
+        "The jacket I bought at MEC kept me dry the whole hike.",
+        "Stanley Park, which is right next to downtown, is perfect for a quick bike ride."
+      ]
+    },
+    {
+      "point": "Modals and past modals",
+      "explanationVi": "Modal (can, could, should, might, must, will, would) + động từ nguyên mẫu không \"to\", không thêm -s. Modal quá khứ: should/could/might/would + have + V3 để nói về điều lẽ ra nên/có thể đã xảy ra.",
+      "examples": [
+        "She should call the landlord first. (not: should to call / should calls)",
+        "I should've asked my supervisor for help.",
+        "They might have missed the last SkyTrain."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Task 2 with accurate past tenses", "route": "/speaking?task=S2" },
+    { "label": "Practise Task 1 with conditionals", "route": "/speaking?task=S1" },
+    { "label": "Review your grammar mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises independently; checked grammar explanations and 30/60 timing. Fixed: i1 no longer accepts 'kids' (exercise asks for the form of 'child'), i3 accepts only 'were' (lesson teaches the fixed 'If I were you'), weak-version error analysis corrected (no real -s error; 'tell/call' are tense errors), i6 explanation now says omitted object relative pronoun."}
+}

@@ -1,0 +1,341 @@
+{
+  "id": "rd-05",
+  "skill": "reading",
+  "module": "reading-foundations",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Main idea vs supporting detail",
+  "titleVi": "Phân biệt ý chính và chi tiết bổ trợ",
+  "estimatedMinutes": 30,
+  "prerequisites": ["rd-01"],
+  "competencies": ["main_idea"],
+  "tasks": ["R1", "R4"],
+  "objectives": [
+    "You will be able to separate a paragraph's topic, its main claim and the details that support it.",
+    "You will be able to reject answer options that are too broad, too narrow or only name the topic.",
+    "You will be able to explain why a writer mentions a specific detail (paragraph and sentence purpose).",
+    "You will be able to find the main idea even when it comes at the end of a paragraph or after a concession."
+  ],
+  "objectiveVi": "Sau bài này, bạn tách được chủ đề – luận điểm – chi tiết bổ trợ trong một đoạn, loại đáp án quá rộng, quá hẹp hoặc chỉ nêu chủ đề, và trả lời được câu hỏi 'Tại sao người viết nhắc đến chi tiết X?'.",
+  "whyItMattersVi": "Ở Part 1 và Part 4, nhiều câu hỏi không hỏi 'bài nói gì' mà hỏi 'ý chính của đoạn là gì' hoặc 'vì sao người viết nhắc chi tiết này'. Ở Reading 5, bạn thường chọn một chi tiết đúng nhưng nhỏ, vì nó dễ tìm thấy trong bài. Level 8 đòi hỏi bạn nhìn thấy cấp độ cao hơn: chi tiết đó chứng minh cho luận điểm nào.",
+  "concept": [
+    {
+      "heading": "Ba tầng của một đoạn văn: topic → claim → support",
+      "body": "- **Topic** (chủ đề): đoạn văn nói *về cái gì* — thường chỉ 2–5 từ: *the tree bylaw*, *Saturday shifts*.\n- **Main idea / claim** (luận điểm): người viết nói *gì về* chủ đề đó — một câu hoàn chỉnh có quan điểm hoặc thông điệp: *Supporters say losing big trees costs the city money in flood control.*\n- **Supporting details**: lý do, ví dụ, số liệu, trích dẫn, câu chuyện giúp chứng minh luận điểm: *a mature cedar absorbs hundreds of litres of rainwater.*\n\nPhép thử nhanh: sau mỗi chi tiết, hỏi **'So what?'** — chi tiết này chứng minh điều gì? Câu trả lời cho 'So what?' chính là ý chính."
+    },
+    {
+      "heading": "Ý chính nằm ở đâu?",
+      "body": "- **Đầu đoạn** (thường gặp nhất): câu chủ đề, sau đó là chi tiết.\n- **Cuối đoạn**: người viết kể chi tiết trước, rồi kết luận — nhất là trong bình luận và bài ý kiến: *The owners call this success. I'd call it a warning: …*\n- **Sau từ đổi hướng**: *But, However, The real problem is, My only concern is* — ý trước đó chỉ là nền.\n- **Sau nhượng bộ**: *I'll admit I was skeptical… But the numbers speak for themselves.* → ý chính là quan điểm hiện tại, không phải quan điểm cũ.\n\nTrong email (Part 1), ý chính của email thường là **mục đích + lời đề nghị**; ý chính của từng đoạn là việc đoạn đó làm (thông báo thay đổi, giải thích lý do, yêu cầu hành động)."
+    },
+    {
+      "heading": "Phép thử 'quá rộng – quá hẹp – vừa đúng'",
+      "body": "Hầu hết đáp án sai của câu hỏi ý chính rơi vào một trong ba loại:\n- **Too narrow** (quá hẹp): đúng với bài nhưng chỉ là một chi tiết, ví dụ, con số. *Roots cracked Bill's driveway twice.*\n- **Too broad** (quá rộng): vượt ra ngoài đoạn văn, thường có *all, most, across Canada, always, should everywhere*. *Most BC homeowners oppose environmental rules.*\n- **Topic only** (chỉ nêu chủ đề): một cụm danh từ không có luận điểm. *Homeowners and trees.*\n\nĐáp án **vừa đúng** bao được mọi chi tiết trong đoạn mà không nói thêm điều đoạn không nói."
+    },
+    {
+      "heading": "Mục đích của đoạn và của chi tiết",
+      "body": "Câu hỏi *Why does the writer mention X?* hay *What is the purpose of paragraph 4?* hỏi về **chức năng**, không phải nội dung. Các chức năng thường gặp:\n- *to introduce the issue* (giới thiệu vấn đề)\n- *to give an example of…* (đưa ví dụ cho…)\n- *to support the claim that…* (chứng minh cho…)\n- *to present an opposing view* (nêu quan điểm đối lập)\n- *to describe a compromise / solution* (mô tả giải pháp)\n- *to explain the reason for a change*\n\nMẹo: chi tiết X luôn phục vụ một luận điểm gần nó. Tìm luận điểm của đoạn chứa X, rồi chọn đáp án nối X với luận điểm đó. Đáp án chỉ nhắc lại X (*to say that roots crack driveways*) thường là bẫy."
+    },
+    {
+      "heading": "Quy trình 4 bước khi gặp câu hỏi ý chính",
+      "body": "1. Đọc câu đầu và câu cuối của đoạn, tìm từ đổi hướng.\n2. Gạch chân câu nào là **claim**, câu nào là **support** (số liệu, tên người, trích dẫn, *for example*).\n3. Tự viết ý chính trong 8–12 từ trước khi đọc đáp án.\n4. So sánh với từng đáp án: loại quá hẹp, quá rộng, chỉ nêu chủ đề, và quan điểm của *người khác* mà người viết không đồng ý."
+    }
+  ],
+  "stimuli": {
+    "para-bus": {
+      "title": "One paragraph from an article",
+      "text": "Free transit for teenagers has done more than save families money. Since Cedar Bay began the program two years ago, bus ridership among 13- to 18-year-olds has doubled, and two high schools report fewer late arrivals. One parent says her son now takes the bus to his part-time job instead of asking for rides. Even the local swimming pool has noticed more teenagers arriving on their own after school."
+    },
+    "article-trees": {
+      "title": "Article with several viewpoints",
+      "text": "Paragraph 1\nWhen Cedar Bay council proposed a bylaw requiring homeowners to get a permit before cutting down any tree wider than 30 centimetres, it expected some debate. It did not expect 600 emails in a week.\n\nParagraph 2\nSupporters argue that the district's tree cover is shrinking faster than new planting can replace it, and that the loss is costly. Urban forester Dana Liu points out that a mature cedar can absorb hundreds of litres of rainwater during a storm, easing the load on old drains. 'Every big tree we lose is a small flood-control system we have to pay for some other way,' she says.\n\nParagraph 3\nMany homeowners, however, see the bylaw as an expensive intrusion. The proposed $250 permit fee, they say, would punish people who simply want to remove a tree that shades their solar panels or threatens their foundation. Retired contractor Bill Okafor notes that roots from his neighbour's maple have already cracked his driveway twice.\n\nParagraph 4\nCouncil now appears ready to compromise. A revised draft would waive the fee for trees that are dead or damaging property, while requiring owners who remove healthy trees to plant two replacements."
+    },
+    "email-foodbank": {
+      "title": "Email to volunteers",
+      "text": "Subject: Changes to the Saturday shift\n\nHi volunteers,\n\nI want to start by thanking all of you for an incredible winter. Last month we served 1,400 families, a record for us.\n\nBecause of that growth, we're changing how Saturdays work. Starting March 1, we'll split the single 8-to-2 shift into two shorter ones: 8 to 11 and 11 to 2. Many of you told us that six hours on your feet was exhausting, and two of our longest-serving volunteers mentioned they were thinking of stopping altogether. Shorter shifts should also make it easier for students to fit volunteering around weekend jobs.\n\nThe new sign-up sheet is online now. Please choose your slot by February 20 so we can see where the gaps are.\n\nThanks again,\nLucia\nVolunteer Coordinator, Eastside Community Food Bank"
+    },
+    "para-ski": {
+      "title": "Reader's opinion paragraph",
+      "text": "Last winter, the small ski hill outside Kamloops where I volunteer sold out its season passes in two days. Parking lots were full by 8:30 every Saturday. Lift lines regularly stretched past twenty minutes, and the lodge ran out of seating by lunch. The hill's owners call this a success. I'd call it a warning: unless the hill limits pass sales or adds a shuttle from town, the relaxed experience that made people buy passes in the first place will disappear."
+    },
+    "comment-fines": {
+      "title": "Reader comment on an article",
+      "text": "Comment from Gurpreet S.\n\nI'll admit I was skeptical when the library dropped overdue fines. It seemed like an invitation to keep books forever. But the numbers in this article speak for themselves: more returns, not fewer, and 2,000 cards reactivated by people who had stayed away because of old fines. My only concern is one the article barely mentions — the holds list. If popular new releases still take months to come back, the library may need a firmer return deadline for those titles."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Topic, claim and support in one paragraph",
+      "stimulusId": "para-bus",
+      "question": "What is the main idea of this paragraph?",
+      "steps": [
+        "Topic (2–5 words): free transit for teenagers.",
+        "Look at the first sentence: 'Free transit for teenagers has done more than save families money.' This is a claim — it says something about the topic (the benefits go beyond money).",
+        "Label the rest: 'ridership … has doubled' (number), 'two high schools report fewer late arrivals' (evidence), 'One parent says…' (example), 'the local swimming pool has noticed…' (example). All are support. Ask 'So what?' after each: they all show benefits other than saving money.",
+        "Write my own main idea in about 10 words: Free teen transit has brought benefits beyond saving families money.",
+        "Test wrong versions: 'Teen ridership has doubled' = too narrow (one number). 'Free transit should be offered in every Canadian city' = too broad and not stated. 'Teenagers and buses' = topic only."
+      ],
+      "answer": "Free transit for teenagers has had benefits beyond saving families money, such as more independence and fewer late arrivals at school.",
+      "takeawayVi": "Luận điểm là câu có quan điểm về chủ đề; chi tiết là bằng chứng cho nó. Viết ý chính của bạn trước khi đọc đáp án giúp bạn không bị lôi kéo bởi các chi tiết dễ thấy."
+    },
+    {
+      "id": "ex2",
+      "title": "Why does the writer mention a detail?",
+      "stimulusId": "article-trees",
+      "question": "Why does the writer mention that a mature cedar can absorb hundreds of litres of rainwater?",
+      "steps": [
+        "Find the paragraph: the cedar detail is in paragraph 2.",
+        "Find that paragraph's claim: 'Supporters argue that the district's tree cover is shrinking … and that the loss is costly.'",
+        "Ask 'So what?' about the cedar: if big trees absorb rainwater, losing them puts more pressure on drains — which costs money. So the cedar detail supports the claim that tree loss is costly.",
+        "Check the quote that follows: 'Every big tree we lose is a small flood-control system we have to pay for some other way.' It confirms the link.",
+        "Reject function-free answers like 'to explain how cedars absorb water' — that just repeats the detail and misses why it is there."
+      ],
+      "answer": "To support the supporters' claim that losing large trees is costly because trees help control stormwater.",
+      "takeawayVi": "Câu hỏi 'Why does the writer mention X?' cần đáp án nối X với luận điểm của đoạn. Đáp án chỉ diễn đạt lại X mà không nói nó chứng minh điều gì thường là bẫy."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "order",
+      "prompt": "Put these sentences in order to make a well-organized paragraph: claim → support → example → link back to the claim.",
+      "hint": "Find the sentence that makes a general claim, then use the signal words 'For example' and 'therefore' to place the others.",
+      "items": [
+        "Shorter evening hours at the library would hurt the people who rely on it most.",
+        "Many newcomers use the evening conversation circles to practise English after work.",
+        "For example, more than half of the Northside circle's members arrive straight from their jobs.",
+        "Cutting evening hours would therefore remove one of the few free options they have."
+      ],
+      "misconception": "purpose-confusion",
+      "explanationVi": "Câu 1 là luận điểm (claim). Câu 2 nêu lý do chung, câu 3 'For example' minh họa cho câu 2, câu 4 'therefore' quay lại khẳng định luận điểm. Nhận ra chức năng của từng câu là nền tảng để trả lời câu hỏi ý chính và mục đích.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "article-trees",
+      "prompt": "What is the main idea of paragraph 2?",
+      "hint": "The first sentence makes a claim; the cedar fact and the quote are support. Choose the option that covers the claim, not just one supporting fact.",
+      "options": [
+        { "text": "A mature cedar can absorb hundreds of litres of rainwater", "misconception": "too-narrow", "whyVi": "Đây là chi tiết bổ trợ (số liệu), không phải luận điểm của đoạn." },
+        { "text": "Supporters believe losing large trees is costly for the district", "misconception": null, "whyVi": "Đúng. Câu đầu nêu luận điểm, chi tiết về cây tuyết tùng và lời trích dẫn chứng minh cho nó." },
+        { "text": "Trees in Cedar Bay", "misconception": "topic-only", "whyVi": "Chỉ là chủ đề, không có luận điểm nào." },
+        { "text": "All cities in BC should ban the cutting of large trees", "misconception": "too-broad", "whyVi": "Vượt quá phạm vi đoạn văn; không ai trong bài đề xuất cấm ở mọi thành phố." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Supporters argue that the district's tree cover is shrinking faster than new planting can replace it, and that the loss is costly.",
+      "explanationVi": "Đoạn 2 theo cấu trúc claim (câu 1) → số liệu (câu 2) → trích dẫn (câu 3). Đáp án đúng nằm ở tầng claim.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "email-foodbank",
+      "prompt": "Why does Lucia mention that two long-serving volunteers were thinking of stopping?",
+      "hint": "Find the claim this detail supports: what change is paragraph 2 about, and what reasons does Lucia give for it?",
+      "options": [
+        { "text": "To thank them for their years of service", "misconception": "purpose-confusion", "whyVi": "Lời cảm ơn nằm ở đoạn 1 và dành cho tất cả tình nguyện viên; chi tiết này dùng làm lý do." },
+        { "text": "To announce that they are leaving the food bank", "misconception": "too-narrow", "whyVi": "Họ chỉ 'thinking of stopping' — chưa nghỉ. Và đáp án này chỉ nhắc lại chi tiết mà không nói nó phục vụ ý gì." },
+        { "text": "To show that the long shift was making volunteers want to quit", "misconception": null, "whyVi": "Đúng. Chi tiết này là bằng chứng cho lý do chia ca: ca sáu tiếng quá mệt, có nguy cơ mất tình nguyện viên." },
+        { "text": "To suggest that the food bank has too many volunteers", "misconception": "wrong-voice", "whyVi": "Ngược với bài: Lucia muốn giữ chân tình nguyện viên và tìm người lấp chỗ trống." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Many of you told us that six hours on your feet was exhausting, and two of our longest-serving volunteers mentioned they were thinking of stopping altogether.",
+      "explanationVi": "Luận điểm của đoạn 2: ca thứ Bảy sẽ được chia đôi. Các chi tiết (mệt mỏi, hai người muốn nghỉ, sinh viên có việc làm cuối tuần) là lý do. Hỏi 'So what?' → vì vậy cần ca ngắn hơn.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "article-trees",
+      "prompt": "What is the purpose of paragraph 4?",
+      "hint": "Think about function, not content. The first sentence of paragraph 4 names what council is now doing — how does that relate to paragraphs 2 and 3?",
+      "options": [
+        { "text": "To present a further argument against the bylaw", "misconception": "purpose-confusion", "whyVi": "Lập luận phản đối nằm ở đoạn 3; đoạn 4 không phản đối mà dung hòa." },
+        { "text": "To describe a compromise that responds to both sides", "misconception": null, "whyVi": "Đúng. Miễn phí cho cây chết hoặc gây hại (đáp ứng chủ nhà) và trồng bù hai cây (đáp ứng người ủng hộ)." },
+        { "text": "To explain that dead trees are dangerous", "misconception": "too-narrow", "whyVi": "Cây chết chỉ là một phần của bản dự thảo mới; bài không nói chúng nguy hiểm." },
+        { "text": "To show that council has rejected the bylaw", "misconception": "wrong-voice", "whyVi": "Hội đồng đang sửa đổi, không bác bỏ dự luật." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Council now appears ready to compromise.",
+      "explanationVi": "Bố cục cả bài: vấn đề (1) → ủng hộ (2) → phản đối (3) → giải pháp dung hòa (4). Mục đích của đoạn được xác định bằng vị trí của nó trong bố cục này.",
+      "competency": "main_idea"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "email-foodbank",
+      "prompt": "What is the main idea of the second paragraph of Lucia's email?",
+      "options": [
+        { "text": "Six hours on your feet is exhausting", "misconception": "too-narrow", "whyVi": "Đây là một lý do bổ trợ, không phải ý chính của đoạn." },
+        { "text": "Saturday shifts are being split into two shorter shifts, for several practical reasons", "misconception": null, "whyVi": "Đúng. Đoạn 2 thông báo thay đổi và đưa ra các lý do (mệt mỏi, giữ chân tình nguyện viên, phù hợp với sinh viên)." },
+        { "text": "The food bank's Saturday shift", "misconception": "topic-only", "whyVi": "Chỉ là chủ đề, không nói điều gì về nó." },
+        { "text": "Volunteering is becoming harder for everyone in Canada", "misconception": "too-broad", "whyVi": "Quá rộng; email chỉ nói về một ngân hàng thực phẩm." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Starting March 1, we'll split the single 8-to-2 shift into two shorter ones",
+      "explanationVi": "Trong email, ý chính của một đoạn thường là việc đoạn đó làm: ở đây là thông báo thay đổi và giải thích lý do. Đáp án đúng bao được cả thay đổi lẫn lý do.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "email-foodbank",
+      "prompt": "Which statement best expresses the main idea of the whole email?",
+      "options": [
+        { "text": "The food bank served a record 1,400 families last month", "misconception": "too-narrow", "whyVi": "Một số liệu ở đoạn mở đầu, chỉ là bối cảnh." },
+        { "text": "Students find it hard to volunteer on weekends", "misconception": "too-narrow", "whyVi": "Một lý do phụ trong đoạn 2." },
+        { "text": "Saturday shifts are changing, and volunteers should sign up for a new time slot", "misconception": null, "whyVi": "Đúng. Bao được thông báo chính (đoạn 2) và lời đề nghị hành động (đoạn 3)." },
+        { "text": "Lucia is thanking volunteers for a successful winter", "misconception": "too-narrow", "whyVi": "Lời cảm ơn là câu mở đầu xã giao, không phải mục đích chính của email." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Please choose your slot by February 20 so we can see where the gaps are.",
+      "explanationVi": "Ý chính của cả email (Part 1) = mục đích + hành động người nhận cần làm. Lời cảm ơn và số liệu chỉ dẫn dắt.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "article-trees",
+      "prompt": "What is the main idea of paragraph 3?",
+      "options": [
+        { "text": "Many homeowners see the bylaw as costly and an unfair limit on their own property", "misconception": null, "whyVi": "Đúng. Câu đầu nêu luận điểm ('an expensive intrusion'); phí $250 và ví dụ của Bill Okafor là chi tiết bổ trợ." },
+        { "text": "Roots from a neighbour's maple cracked Bill Okafor's driveway twice", "misconception": "too-narrow", "whyVi": "Đây là một ví dụ minh họa cho luận điểm, không phải luận điểm." },
+        { "text": "Most Canadians are against environmental rules", "misconception": "too-broad", "whyVi": "Vượt xa phạm vi đoạn văn, vốn chỉ nói về một số chủ nhà ở Cedar Bay." },
+        { "text": "Trees can damage solar panels", "misconception": "too-narrow", "whyVi": "Đoạn văn nói cây che bóng tấm pin, không nói làm hỏng — và đây chỉ là một ví dụ." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Many homeowners, however, see the bylaw as an expensive intrusion.",
+      "explanationVi": "'However' ở câu đầu đoạn 3 báo hiệu quan điểm đối lập và chính câu đó là luận điểm. Mọi chi tiết sau (phí, tấm pin, móng nhà, đường lái xe) chứng minh cho 'expensive intrusion'.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "article-trees",
+      "prompt": "Why does the writer mention Bill Okafor's driveway?",
+      "options": [
+        { "text": "To show that the bylaw would protect driveways from tree roots", "misconception": "wrong-voice", "whyVi": "Ngược lại: chi tiết này được chủ nhà dùng để phản đối dự luật." },
+        { "text": "To give a real example of the property damage that makes some owners want to remove trees", "misconception": null, "whyVi": "Đúng. Nó minh họa luận điểm của đoạn 3: chủ nhà có lý do chính đáng để chặt cây và không muốn trả phí." },
+        { "text": "To suggest that maples are more dangerous than cedars", "misconception": "too-broad", "whyVi": "Bài không so sánh hai loại cây; đây là suy diễn vượt quá văn bản." },
+        { "text": "To report that Bill Okafor's driveway has cracked twice", "misconception": "purpose-confusion", "whyVi": "Chỉ nhắc lại nội dung chi tiết, không nói chi tiết đó để làm gì." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Retired contractor Bill Okafor notes that roots from his neighbour's maple have already cracked his driveway twice.",
+      "explanationVi": "Câu hỏi về mục đích cần một động từ chức năng (to give an example of…, to support…) và phải nối với luận điểm của đoạn chứa chi tiết.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "article-trees",
+      "prompt": "Which statement best summarizes the whole article?",
+      "options": [
+        { "text": "A proposed tree bylaw has divided Cedar Bay, and council is now revising it to address both sides", "misconception": null, "whyVi": "Đúng. Bao được cả bốn đoạn: phản ứng mạnh (1), ủng hộ (2), phản đối (3), dung hòa (4)." },
+        { "text": "Urban forester Dana Liu supports protecting large trees", "misconception": "too-narrow", "whyVi": "Chỉ là quan điểm của một người trong đoạn 2." },
+        { "text": "Homeowners should not have to pay for permits", "misconception": "wrong-voice", "whyVi": "Đây là quan điểm của một nhóm trong bài, không phải ý của cả bài báo, vốn trình bày nhiều phía." },
+        { "text": "Council received 600 emails in one week", "misconception": "too-narrow", "whyVi": "Chi tiết ở đoạn 1, dùng để cho thấy mức độ tranh cãi." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Council now appears ready to compromise.",
+      "explanationVi": "Bài báo kiểu Part 4 trình bày nhiều quan điểm. Ý chính của cả bài thường là 'cuộc tranh luận + hướng giải quyết', không phải quan điểm của một bên.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "para-ski",
+      "prompt": "What is the main idea of the paragraph?",
+      "options": [
+        { "text": "The ski hill sold all its season passes in two days", "misconception": "too-narrow", "whyVi": "Đây là chi tiết mở đầu, không phải luận điểm." },
+        { "text": "The hill's owners consider last winter a success", "misconception": "wrong-voice", "whyVi": "Đây là quan điểm của chủ khu trượt tuyết, mà người viết phản bác ('I'd call it a warning')." },
+        { "text": "Without limits on passes or a shuttle, overcrowding will ruin what made the hill appealing", "misconception": null, "whyVi": "Đúng. Ý chính nằm ở câu cuối, sau 'I'd call it a warning'; các chi tiết trước là bằng chứng về tình trạng quá tải." },
+        { "text": "Ski hills across BC are too crowded", "misconception": "too-broad", "whyVi": "Đoạn văn chỉ nói về một khu trượt tuyết nhỏ gần Kamloops." }
+      ],
+      "answerIndex": 2,
+      "evidence": "unless the hill limits pass sales or adds a shuttle from town, the relaxed experience that made people buy passes in the first place will disappear",
+      "explanationVi": "Đoạn ý kiến thường để luận điểm ở cuối: chi tiết trước, kết luận sau. Mẫu 'They call this X. I'd call it Y:' cho biết luận điểm của người viết nằm sau dấu hai chấm.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "para-ski",
+      "prompt": "Why does the writer mention that lift lines stretched past twenty minutes?",
+      "options": [
+        { "text": "To prove that the season was a success for the owners", "misconception": "wrong-voice", "whyVi": "Người viết dùng chi tiết này để phản bác cách nhìn 'success' của chủ khu." },
+        { "text": "To complain that the lift staff work too slowly", "misconception": "too-broad", "whyVi": "Không có chi tiết nào về nhân viên; đây là suy diễn ngoài văn bản." },
+        { "text": "To support the claim that the hill is becoming overcrowded", "misconception": null, "whyVi": "Đúng. Hàng chờ dài, bãi xe kín, nhà nghỉ hết chỗ đều là bằng chứng cho lời cảnh báo về quá tải." },
+        { "text": "To tell readers how long the lift lines were", "misconception": "purpose-confusion", "whyVi": "Chỉ nhắc lại chi tiết, không nói chi tiết đó phục vụ luận điểm nào." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Lift lines regularly stretched past twenty minutes, and the lodge ran out of seating by lunch.",
+      "explanationVi": "Chi tiết luôn phục vụ luận điểm của người viết. Khi luận điểm ở cuối đoạn, hãy đọc nó trước, rồi quay lại xem mỗi chi tiết chứng minh điều gì.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "comment-fines",
+      "prompt": "What is Gurpreet's main point?",
+      "options": [
+        { "text": "Dropping fines encourages people to keep library books forever", "misconception": "wrong-voice", "whyVi": "Đây là suy nghĩ ban đầu của anh ('I'll admit I was skeptical'), đã bị chính anh phủ nhận sau 'But'." },
+        { "text": "The fine-free policy is working, but new releases may need a firmer return deadline", "misconception": null, "whyVi": "Đúng. Anh ủng hộ chính sách nhờ số liệu, đồng thời nêu một mối lo duy nhất về sách mới." },
+        { "text": "2,000 library cards have been reactivated", "misconception": "too-narrow", "whyVi": "Đây là bằng chứng anh dùng, không phải luận điểm." },
+        { "text": "Libraries should base all their policies on statistics", "misconception": "too-broad", "whyVi": "Anh không đưa ra nguyên tắc chung như vậy." }
+      ],
+      "answerIndex": 1,
+      "evidence": "But the numbers in this article speak for themselves",
+      "explanationVi": "Bình luận này có hai lớp đổi hướng: 'I'll admit… But…' (từ hoài nghi sang ủng hộ) và 'My only concern is…' (một giới hạn). Ý chính ở Level 8 phải bao được cả quan điểm chính lẫn điều kiện đi kèm.",
+      "competency": "main_idea"
+    }
+  ],
+  "misconceptions": {
+    "too-narrow": {
+      "label": "Quá hẹp: lấy chi tiết làm ý chính",
+      "explanationVi": "Bạn chọn một con số, ví dụ hoặc trích dẫn đúng với bài nhưng chỉ là bằng chứng. Bạn chưa phân biệt tầng 'support' với tầng 'claim'.",
+      "fixVi": "Sau mỗi chi tiết, hỏi 'So what?'. Nếu đáp án là một chi tiết mà bạn có thể hỏi 'So what?' tiếp, nó chưa phải ý chính."
+    },
+    "too-broad": {
+      "label": "Quá rộng: khái quát vượt bài",
+      "explanationVi": "Bạn chọn đáp án nói về 'all', 'most', 'across BC/Canada' hoặc đưa ra kết luận mà bài không nói. Bạn đang dùng hiểu biết chung thay cho phạm vi của văn bản.",
+      "fixVi": "Kiểm tra phạm vi: đáp án có nói về đúng người, đúng nơi, đúng mức độ như đoạn văn không? Cảnh giác với từ tuyệt đối và lời khuyên chung chung."
+    },
+    "topic-only": {
+      "label": "Chỉ nêu chủ đề, không nêu luận điểm",
+      "explanationVi": "Bạn chọn một cụm danh từ (Trees in Cedar Bay) vì nó 'bao' được cả đoạn, nhưng nó không nói gì về chủ đề. Ý chính phải là một nhận định.",
+      "fixVi": "Ý chính luôn trả lời câu hỏi 'người viết nói GÌ về chủ đề?'. Loại các đáp án không có động từ hoặc không có quan điểm."
+    },
+    "purpose-confusion": {
+      "label": "Nhầm nội dung với chức năng",
+      "explanationVi": "Với câu hỏi 'Why does the writer mention…?' hoặc 'purpose of paragraph', bạn chọn đáp án chỉ nhắc lại nội dung chi tiết, hoặc gán sai chức năng cho đoạn.",
+      "fixVi": "Trả lời bằng một động từ chức năng (to give an example of, to support the claim that, to present an opposing view, to describe a compromise) và nối nó với luận điểm của đoạn."
+    },
+    "wrong-voice": {
+      "label": "Lấy quan điểm của người khác / quan điểm bị bác bỏ",
+      "explanationVi": "Bạn chọn quan điểm mà người viết nhắc đến để phản bác (The owners call this a success; I was skeptical), hoặc quan điểm của một nhóm thay cho ý của cả bài.",
+      "fixVi": "Xác định 'giọng' của từng câu: người viết, người khác, hay quan điểm cũ? Chú ý I'd call it…, But…, I'll admit… — ý chính thường ở vế sau."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "main idea / claim", "vi": "ý chính / luận điểm", "example": "The main idea of the paragraph is that free teen transit has wider benefits." },
+    { "term": "supporting detail", "vi": "chi tiết bổ trợ", "example": "The 600 emails are a supporting detail that shows how heated the debate is." },
+    { "term": "to give an example of", "vi": "để đưa ra ví dụ cho", "example": "The writer mentions the cracked driveway to give an example of root damage." },
+    { "term": "to support the claim that", "vi": "để chứng minh cho luận điểm rằng", "example": "The lift-line detail supports the claim that the hill is overcrowded." },
+    { "term": "an opposing view", "vi": "quan điểm đối lập", "example": "Paragraph 3 presents an opposing view from homeowners." },
+    { "term": "an intrusion", "vi": "sự xâm phạm, can thiệp quá mức", "example": "Some owners see the permit rule as an intrusion on their property rights." },
+    { "term": "speak for themselves", "vi": "(số liệu) tự nói lên tất cả", "example": "The ridership numbers speak for themselves: the new route is a hit." },
+    { "term": "I'd call it…", "vi": "Tôi thì gọi đó là… (đưa ra quan điểm khác)", "example": "The city calls it a pilot project. I'd call it a done deal." }
+  ],
+  "grammar": [],
+  "practice": [
+    { "label": "Reading Part 4 — Viewpoints", "route": "/reading?task=R4" },
+    { "label": "Drill: main idea", "route": "/reading?mode=drill&focus=main_idea" },
+    { "label": "Review my mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises including the 4-item order (only one defensible order); keys and evidence correct, difficulty rises to Level 8 in i6-i8. Only change: retagged i2 option D (opening thanks) as too-narrow instead of wrong-voice."}
+}

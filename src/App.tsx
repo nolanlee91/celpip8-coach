@@ -14,10 +14,15 @@ import { AnalyticsPage } from "./pages/Analytics";
 import { SettingsPage } from "./pages/Settings";
 import { EvaluationPage, ReviewPage, SubmissionPage } from "./pages/Review";
 import { AdminPage } from "./pages/Admin";
+import { LearnPage } from "./pages/Learn";
+import { LessonPage } from "./pages/Lesson";
 
-const NAV = [
-  { to: "/", label: "Dashboard", icon: "🏠" },
+const NAV: ({ section: string; to?: undefined } | { to: string; label: string; icon: string; section?: undefined })[] = [
+  { section: "Học — Learn" },
+  { to: "/", label: "Hôm nay", icon: "🏠" },
+  { to: "/learn", label: "Lộ trình học", icon: "🎓" },
   { to: "/planner", label: "Kế hoạch", icon: "🗓" },
+  { section: "Luyện thi — Practice" },
   { to: "/reading", label: "Reading", icon: "📖" },
   { to: "/listening", label: "Listening", icon: "🎧" },
   { to: "/speaking", label: "Speaking", icon: "🎙" },
@@ -25,6 +30,7 @@ const NAV = [
   { to: "/mistakes", label: "Sổ lỗi", icon: "🧠" },
   { to: "/vocabulary", label: "Từ vựng", icon: "📚" },
   { to: "/mock", label: "Thi thử", icon: "📝" },
+  { section: "Khác" },
   { to: "/analytics", label: "Thống kê", icon: "📈" },
   { to: "/settings", label: "Cài đặt", icon: "⚙️" },
   { to: "/admin", label: "Quản trị", icon: "🛠" },
@@ -38,7 +44,7 @@ export function App() {
         <div className="app">
           <nav className="sidebar">
             <div className="brand">CELPIP <span>8</span> Coach</div>
-            {NAV.map((n) => (
+            {NAV.map((n) => n.to === undefined ? <div key={n.section} className="nav-section">{n.section}</div> : (
               <NavLink key={n.to} to={n.to} end={n.to === "/"} className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
                 <span className="nav-icon">{n.icon}</span><span className="nav-label">{n.label}</span>
               </NavLink>
@@ -52,6 +58,8 @@ export function App() {
             <Routes>
               <Route path="/" element={<DashboardPage />} />
               <Route path="/planner" element={<PlannerPage />} />
+              <Route path="/learn" element={<LearnPage />} />
+              <Route path="/learn/:id" element={<LessonPage />} />
               <Route path="/reading" element={<ReadingPage />} />
               <Route path="/listening" element={<ListeningPage />} />
               <Route path="/speaking" element={<SpeakingPage />} />

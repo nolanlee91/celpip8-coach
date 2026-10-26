@@ -1,0 +1,359 @@
+{
+  "id": "rd-01",
+  "skill": "reading",
+  "module": "reading-foundations",
+  "level": "foundation",
+  "difficulty": 6,
+  "title": "Skimming for gist and structure",
+  "titleVi": "Đọc lướt để nắm ý chung và bố cục",
+  "estimatedMinutes": 25,
+  "prerequisites": [],
+  "competencies": ["main_idea", "time_management"],
+  "tasks": ["R1", "R2", "R3", "R4"],
+  "objectives": [
+    "You will be able to skim a 150–250-word text in 30–60 seconds by reading the title, the opening and closing lines, and each topic sentence.",
+    "You will be able to identify the text type (email, notice, article, comment thread) and the writer's main purpose before reading the questions.",
+    "You will be able to use structure signals such as So, However, Still and In response to map how a text is organized.",
+    "You will be able to avoid the opening-pleasantry trap when answering 'Why is the writer writing?' questions."
+  ],
+  "objectiveVi": "Sau bài này, bạn đọc lướt một bài 150–250 từ trong 30–60 giây, đoán đúng loại văn bản, mục đích chính của người viết và bố cục từng đoạn trước khi đọc câu hỏi.",
+  "whyItMattersVi": "Reading 5 thường không phải vì bạn thiếu từ vựng, mà vì bạn đọc từng chữ từ đầu đến cuối, hết giờ ở Part 3–4 và bị lạc giữa các chi tiết. Từ 5 lên 8, bước đầu tiên là có 'bản đồ' của bài trong một phút: biết bài nói về gì, mỗi đoạn làm nhiệm vụ gì. Khi có bản đồ, bạn tìm đáp án nhanh hơn và ít bị bẫy hơn ở các câu hỏi về mục đích và ý chính.",
+  "concept": [
+    {
+      "heading": "Skimming là gì và khác đọc kỹ thế nào",
+      "body": "**Skimming** (đọc lướt) là đọc có chọn lọc để nắm **gist** — ý chung của cả bài — chứ không phải để hiểu từng câu. Bạn không cố hiểu mọi từ; bạn chỉ trả lời ba câu hỏi: **Ai viết cho ai? Viết để làm gì? Bài được chia thành những phần nào?**\n\nTrong CELPIP Reading, gần như mọi Part đều có câu hỏi về ý chung: Part 1 hỏi *Why is the writer writing?*, Part 3 bắt bạn ghép câu với đoạn A–D (hoặc E nếu không đoạn nào chứa thông tin đó), Part 4 hỏi quan điểm chính của bài báo. Nếu bạn đã skim trước, bạn biết ngay phải quay lại đoạn nào thay vì đọc lại từ đầu."
+    },
+    {
+      "heading": "Quy trình skim 4 bước trong 30–60 giây",
+      "body": "1. **Title / subject line / heading** — tiêu đề thường nói luôn chủ đề: *Parkade resurfacing — please read*.\n2. **Hai dòng đầu** — xác định người viết, người nhận và hoàn cảnh. Cẩn thận: câu đầu của email thường chỉ là lời chào hỏi (*I hope you had a relaxing weekend*).\n3. **Câu đầu của mỗi đoạn (topic sentence)** — trong văn bản tiếng Anh, câu đầu đoạn thường cho biết đoạn đó nói gì. Đọc xong 3–4 câu này, bạn có bộ khung của bài.\n4. **Hai dòng cuối** — email thường kết thúc bằng lời đề nghị hoặc hạn chót (*just let me know by Friday*); bài báo thường kết thúc bằng kết quả hoặc bước tiếp theo.\n\nSau 4 bước, hãy **tự nói một câu tóm tắt**: *This is an email from a strata council to residents asking them to move their cars.* Nếu chưa nói được, đọc thêm câu thứ hai của đoạn chính — không đọc lại toàn bài."
+    },
+    {
+      "heading": "Đoán loại văn bản và mục đích",
+      "body": "Mỗi loại văn bản có dấu hiệu riêng:\n- **Email/letter**: Subject, Hi/Dear, Cheers/Kind regards. Mục đích thường là *request, inform, complain, thank, invite, apologize*.\n- **Notice**: NOTICE, Starting Monday…, Thank you for your understanding. Mục đích: thông báo thay đổi.\n- **Article**: tiêu đề kiểu báo, số liệu, trích lời (*she says*). Mục đích: báo cáo một sự việc và các quan điểm.\n- **Comment thread**: tên người dùng, nhiều ý kiến ngắn. Mục đích: tranh luận.\n\nCâu chứa mục đích thật thường có dấu hiệu: *I'm writing to…, I was wondering if you could…, I would be grateful if you could…, Please note that…, All vehicles must…*."
+    },
+    {
+      "heading": "Từ tín hiệu bố cục (structure signals)",
+      "body": "Khi skim, mắt bạn nên dừng ở các từ chuyển ý vì chúng cho biết bài đổi hướng:\n- **So, Anyway** (trong email thân mật): chuyển từ chào hỏi sang việc chính.\n- **However, Still, But**: chuyển sang ý ngược lại — vấn đề, lời phê bình, giới hạn.\n- **In response, As a result**: phản ứng hoặc kết quả.\n- **In the meantime, Since then**: hậu quả đang diễn ra.\n\nVí dụ: một bài báo có đoạn 1–2 khen chương trình, đoạn 3 bắt đầu bằng *However*. Bạn biết ngay đoạn 3 là phần chỉ trích, không cần đọc hết đoạn 1–2."
+    },
+    {
+      "heading": "Bẫy thường gặp",
+      "body": "- **Bẫy lời mở đầu**: chọn 'to thank him' chỉ vì câu đầu là *Thanks again for…*. Mục đích thật thường nằm sau *So,* hoặc *but*.\n- **Bẫy chi tiết**: một đáp án đúng với một câu trong bài nhưng chỉ là chi tiết nhỏ, không phải ý chung.\n- **Bẫy trùng từ**: đáp án lặp lại một từ trong bài (*complain, January*) nhưng sai nghĩa.\n- **Bẫy thời gian**: đọc từng chữ ngay từ đầu, mất 4–5 phút cho một bài 200 từ. Skim trước một phút sẽ tiết kiệm thời gian ở mọi câu hỏi sau."
+    }
+  ],
+  "stimuli": {
+    "email-strata": {
+      "title": "Email from a strata council",
+      "text": "Subject: Parkade resurfacing — please read\n\nHi everyone,\n\nI hope you all had a relaxing long weekend. The council finally received the contractor's schedule this morning, so I wanted to share it right away.\n\nThe underground parkade will be closed for resurfacing from Monday, June 9 to Friday, June 13. All vehicles must be moved out by 7 a.m. on June 9. Any car still inside will be towed at the owner's expense, and unfortunately the council cannot make exceptions.\n\nThe city has agreed to let residents park on both sides of Laurel Street during the closure. You will need a temporary permit, which you can pick up from the lobby mailbox labelled 'Council' starting this Thursday.\n\nThanks in advance for your patience. A smoother, safer parkade will be worth it.\n\nPriya Malhotra\nStrata Council, Maple Court"
+    },
+    "article-ebike": {
+      "title": "News article",
+      "text": "Cedar Bay's E-Bike Rebate: Popular, but Not for Everyone\n\nWhen the District of Cedar Bay launched its e-bike rebate in March, staff expected about 300 applications in the first year. They received more than 900 in six weeks.\n\nThe program offers up to $800 toward a new electric bike for residents who agree to log their trips for one year. Staff say the trip data will help them decide where to build new protected bike lanes.\n\nHowever, some residents argue that the rebate mainly helps people who could already afford a $3,000 bike. Seniors' groups have also pointed out that many hillside neighbourhoods still lack safe routes, so an e-bike is of little use there.\n\nIn response, council will vote next month on a second phase that would raise the rebate for low-income households and fund two new routes in the hillside areas."
+    },
+    "notice-library": {
+      "title": "Library notice",
+      "text": "NOTICE TO PATRONS\nCedar Bay Public Library — Main Branch\n\nStarting Monday, October 6, the main branch will close at 6 p.m. on weekdays instead of 9 p.m. while the second floor is renovated. Weekend hours will not change.\n\nDuring the renovation, the study rooms and the computer lab will be unavailable. Laptops can still be borrowed at the front desk with a valid library card.\n\nEvening programs, including the Tuesday conversation circle for newcomers, will move to the Northside Community Centre, a ten-minute walk from the library.\n\nWe expect the work to be finished by mid-January. Thank you for your understanding."
+    },
+    "email-neighbour": {
+      "title": "Email to a neighbour",
+      "text": "Subject: Quick favour?\n\nHey Daniel,\n\nThanks again for helping me jump-start my car last week — you saved my morning! The battery's been fine ever since.\n\nSo, I'm heading to Kelowna to see my sister from the 14th to the 21st, and I was wondering if you could water my tomato plants on the balcony every second day. It's been so hot that they won't survive a week on their own. I'll leave the spare key with you on Sunday, and there's a watering can by the door.\n\nIf it doesn't work for you, no worries at all — just let me know by Friday so I can ask someone else.\n\nCheers,\nMei"
+    },
+    "comment-garden": {
+      "title": "Community board comments",
+      "text": "Community board: Should the Elm Park garden plots cost more?\n\nRosa_K: The fee is going from $40 to $95 a year. I understand water isn't free, but that's a huge jump for seniors on fixed incomes.\n\nDevSingh: Honestly, $95 is still cheaper than buying vegetables all summer. The waiting list has 70 names on it — if anything, the plots are underpriced.\n\nMarta.L: I'd accept a higher fee if the money stayed in the garden. Last year the tool shed was broken into twice and nothing was fixed.\n\nTom_B: Why not keep $40 for people who volunteer four hours a season and charge $95 to everyone else? That seems fair to me."
+    },
+    "article-fourday": {
+      "title": "Article in four paragraphs",
+      "text": "A Shorter Week at Harbourline\n\nA. Last September, Harbourline Software, a 60-person company in Victoria, moved its staff to a four-day week without cutting pay. Employees now work Monday to Thursday, nine hours a day.\n\nB. Managers were worried that customers would complain about slower service on Fridays. To prevent this, the company set up a small rotating team that answers urgent support calls on Fridays and takes a different weekday off instead.\n\nC. Six months later, the results are mostly positive. Sick days have dropped by a third, and two engineers who had planned to leave for jobs in Vancouver decided to stay. Customer satisfaction scores have not changed.\n\nD. Still, the founder, Lena Ortiz, admits the model will not suit every business. 'If you run a restaurant or a clinic, you can't simply close on Fridays,' she says. 'We were lucky that most of our work can be scheduled.'"
+    },
+    "email-repair": {
+      "title": "Email to a property manager",
+      "text": "Subject: Follow-up on unit 304 kitchen\n\nDear Mr. Fraser,\n\nThank you for arranging for the plumber to visit on Tuesday. He was friendly and explained the problem clearly, which I appreciated.\n\nAs he mentioned, the leak under the sink comes from a cracked pipe that will need to be replaced, not just tightened. He said he would order the part and return 'within a few days.' That was nearly three weeks ago, and I haven't heard from him or your office since. In the meantime, I've had to keep a bucket under the sink and empty it twice a day, and the cabinet floor has started to swell.\n\nI understand that suppliers can be slow, but I would be grateful if you could confirm a repair date by the end of this week. If the part is not available, could you let me know what other options there are?\n\nKind regards,\nAnika Bose\nUnit 304"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Finding the real purpose of an email in 40 seconds",
+      "stimulusId": "email-strata",
+      "question": "What is the main purpose of Priya's email?",
+      "steps": [
+        "Subject line: 'Parkade resurfacing — please read'. The topic is repairs to the parkade, and 'please read' tells me there is something residents must do.",
+        "First two lines: 'Hi everyone' + 'I hope you all had a relaxing long weekend.' This is only a greeting and a pleasantry — not the purpose. The next sentence says she is sharing the contractor's schedule.",
+        "First sentence of each body paragraph: paragraph 2 'The underground parkade will be closed…', paragraph 3 'The city has agreed to let residents park on … Laurel Street'. So the structure is: closure → alternative parking.",
+        "Last lines: 'Thanks in advance for your patience.' A polite closing, no new request. The key action sentence is in paragraph 2: 'All vehicles must be moved out by 7 a.m. on June 9.'",
+        "One-sentence summary: A strata council member is telling residents the parkade will close for repairs and that they must move their cars (and can park on Laurel Street with a permit)."
+      ],
+      "answer": "To inform residents that the parkade will close for resurfacing and that they must move their vehicles out before 7 a.m. on June 9.",
+      "takeawayVi": "Lời chào và câu hỏi thăm ở đầu email không phải mục đích. Hãy tìm câu có động từ bắt buộc hoặc đề nghị (must, please, I was wondering if) — thường nằm ở đoạn thân thứ nhất."
+    },
+    {
+      "id": "ex2",
+      "title": "Mapping the structure of an article with topic sentences and signals",
+      "stimulusId": "article-ebike",
+      "question": "Without reading every word, describe how the article is organized, paragraph by paragraph.",
+      "steps": [
+        "Title: 'Popular, but Not for Everyone'. The word 'but' already predicts two sides: success and a problem.",
+        "Paragraph 1 topic sentence: the district expected 300 applications and got 900 → the program is popular.",
+        "Paragraph 2 topic sentence: 'The program offers up to $800…' → how the program works.",
+        "Paragraph 3 starts with 'However' → a change of direction: criticism (it helps people who are already well-off; hillside areas lack safe routes).",
+        "Paragraph 4 starts with 'In response' → what council plans to do about the criticism (a second phase).",
+        "Map: popularity → how it works → criticism → planned response. Now, if a question asks about seniors' concerns, I go straight to paragraph 3."
+      ],
+      "answer": "Paragraph 1: the program is more popular than expected. Paragraph 2: how the rebate works. Paragraph 3: criticism of the program. Paragraph 4: council's planned response.",
+      "takeawayVi": "Tiêu đề + câu đầu mỗi đoạn + từ tín hiệu (However, In response) đủ để vẽ bản đồ bài trong chưa đến một phút. Bản đồ này giúp bạn biết quay lại đoạn nào khi trả lời từng câu hỏi."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "notice-library",
+      "prompt": "Skim the notice. What is its main purpose?",
+      "hint": "Read the heading and the first sentence of each paragraph. Ask: what one change connects all four paragraphs?",
+      "options": [
+        { "text": "To explain temporary changes to the library's hours and services during a renovation", "misconception": null, "whyVi": "Đúng. Mỗi đoạn đều nói về một thay đổi tạm thời do sửa chữa: giờ đóng cửa, phòng học, chương trình buổi tối, thời gian hoàn thành." },
+        { "text": "To invite newcomers to join the Tuesday conversation circle", "misconception": "wrong-scope", "whyVi": "Conversation circle chỉ là một ví dụ trong đoạn 3, không phải mục đích của cả thông báo." },
+        { "text": "To announce that the library will close permanently in January", "misconception": "word-match", "whyVi": "Bài có từ 'close' và 'January', nhưng nói công việc sẽ xong vào giữa tháng Một — không phải đóng cửa vĩnh viễn." },
+        { "text": "To advertise that laptops can be borrowed at the front desk", "misconception": "wrong-scope", "whyVi": "Việc mượn laptop chỉ là một chi tiết nhỏ trong đoạn 2." }
+      ],
+      "answerIndex": 0,
+      "evidence": "the main branch will close at 6 p.m. on weekdays instead of 9 p.m. while the second floor is renovated",
+      "explanationVi": "Một thông báo (NOTICE) thường có một thay đổi chính, các đoạn sau chỉ giải thích hệ quả. Đáp án đúng phải bao được cả bốn đoạn, không chỉ một chi tiết.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "email-neighbour",
+      "prompt": "Why is Mei writing to Daniel?",
+      "hint": "The first line is a pleasantry. In informal emails, look for the word that moves the writer to the main business, then find the request phrase.",
+      "options": [
+        { "text": "To thank him for helping her start her car", "misconception": "opening-trap", "whyVi": "Đây chỉ là câu mở đầu thân thiện. Mục đích chính xuất hiện sau 'So,'." },
+        { "text": "To ask him to look after her plants while she is away", "misconception": null, "whyVi": "Đúng. 'I was wondering if you could water my tomato plants' là lời nhờ vả — mục đích thật của email." },
+        { "text": "To tell him that she is visiting her sister in Kelowna", "misconception": "wrong-scope", "whyVi": "Chuyến đi Kelowna là lý do cho lời nhờ, không phải mục đích chính." },
+        { "text": "To complain about the hot weather", "misconception": "word-match", "whyVi": "'It's been so hot' chỉ giải thích vì sao cây cần tưới, không phải lời phàn nàn." }
+      ],
+      "answerIndex": 1,
+      "evidence": "I was wondering if you could water my tomato plants on the balcony every second day",
+      "explanationVi": "Trong email thân mật, 'So,' hoặc 'Anyway,' thường đánh dấu chỗ chuyển từ chào hỏi sang việc chính. 'I was wondering if you could…' là dấu hiệu rõ nhất của lời đề nghị.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "g3",
+      "type": "order",
+      "prompt": "Put the steps of a 45-second skim in the order taught in this lesson.",
+      "hint": "Move from the outside of the text (title) to its opening, then through the paragraphs, then to the end — and only then make your prediction.",
+      "items": [
+        "Read the title or subject line",
+        "Read the first two lines to identify the writer, reader and situation",
+        "Read the first sentence of each paragraph",
+        "Read the last two lines for the request or conclusion",
+        "Say a one-sentence summary of the text type and purpose"
+      ],
+      "misconception": "time-misuse",
+      "explanationVi": "Thứ tự này đi từ thông tin khái quát nhất (tiêu đề) đến bộ khung (câu chủ đề) và kết thúc (lời đề nghị). Tóm tắt một câu là bước cuối để kiểm tra bạn đã thật sự nắm gist chưa.",
+      "competency": "time_management"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "article-ebike",
+      "prompt": "A question asks: 'What concern do seniors' groups have?' Using your skim map, which paragraph should you read carefully first?",
+      "hint": "Concerns and criticism usually come after a contrast signal. Which paragraph begins with one?",
+      "options": [
+        { "text": "Paragraph 1", "misconception": "structure-blind", "whyVi": "Đoạn 1 nói chương trình được ưa chuộng hơn dự kiến — không có lo ngại nào." },
+        { "text": "Paragraph 2", "misconception": "structure-blind", "whyVi": "Đoạn 2 giải thích cách chương trình hoạt động (tiền hỗ trợ, ghi lại chuyến đi)." },
+        { "text": "Paragraph 3", "misconception": null, "whyVi": "Đúng. Đoạn 3 mở đầu bằng 'However' và nêu lời phê bình, trong đó có ý kiến của các nhóm người cao tuổi." },
+        { "text": "Paragraph 4", "misconception": "word-match", "whyVi": "Đoạn 4 nhắc 'hillside areas' giống đoạn 3, nhưng đây là phản ứng của hội đồng, không phải mối lo ngại của người cao tuổi." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Seniors' groups have also pointed out that many hillside neighbourhoods still lack safe routes",
+      "explanationVi": "Từ tín hiệu 'However' báo hiệu đoạn chuyển sang ý ngược lại. Khi câu hỏi hỏi về lo ngại, phê bình hay vấn đề, hãy nhảy thẳng đến đoạn có tín hiệu đối lập.",
+      "competency": "main_idea"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "comment-garden",
+      "prompt": "In one sentence, what is this comment thread about?",
+      "options": [
+        { "text": "Residents are discussing a planned increase in the fee for garden plots", "misconception": null, "whyVi": "Đúng. Tiêu đề và cả bốn bình luận đều xoay quanh mức phí mới $95." },
+        { "text": "Residents are complaining that the tool shed was broken into", "misconception": "wrong-scope", "whyVi": "Chuyện kho dụng cụ chỉ là một chi tiết trong bình luận của Marta." },
+        { "text": "Seniors are asking the city to provide free vegetables", "misconception": "word-match", "whyVi": "'Seniors' và 'vegetables' có trong bài nhưng không ai yêu cầu rau miễn phí." },
+        { "text": "Residents are adding their names to the garden waiting list", "misconception": "word-match", "whyVi": "Danh sách chờ chỉ được nhắc để chứng minh phí đang thấp." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Should the Elm Park garden plots cost more?",
+      "explanationVi": "Với comment thread, tiêu đề thường là câu hỏi tranh luận. Gist là chính câu hỏi đó, không phải chi tiết của một người.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "article-fourday",
+      "prompt": "Which statement best summarizes the whole article?",
+      "options": [
+        { "text": "Harbourline set up a rotating team to answer support calls on Fridays", "misconception": "wrong-scope", "whyVi": "Đây chỉ là nội dung đoạn B." },
+        { "text": "A Victoria software firm's four-day week has mostly worked, though its founder says it will not suit every business", "misconception": null, "whyVi": "Đúng. Câu này bao được cả bốn đoạn: thay đổi (A), cách giải quyết (B), kết quả (C) và giới hạn (D)." },
+        { "text": "Four-day weeks improve workers' health, so all Canadian employers should adopt them", "misconception": "wrong-scope", "whyVi": "Quá rộng và trái với đoạn D — bà Ortiz nói mô hình này không hợp với mọi doanh nghiệp." },
+        { "text": "Restaurants and clinics cannot close on Fridays", "misconception": "word-match", "whyVi": "Câu này lấy từ lời trích dẫn ở đoạn D, nhưng chỉ là ví dụ minh họa, không phải ý của cả bài." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Six months later, the results are mostly positive.",
+      "explanationVi": "Câu tóm tắt tốt phải bao được mọi đoạn. Đọc câu đầu của A, B, C, D rồi kiểm tra: đáp án có bỏ sót đoạn nào không, có nói quá điều bài viết không?",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "article-fourday",
+      "prompt": "What is the main purpose of paragraph B?",
+      "options": [
+        { "text": "To describe the results of the change after six months", "misconception": "structure-blind", "whyVi": "Kết quả nằm ở đoạn C ('Six months later')." },
+        { "text": "To show that customers complained about the new schedule", "misconception": "word-match", "whyVi": "Đoạn B nói quản lý lo khách sẽ phàn nàn, không nói khách đã phàn nàn. Đoạn C còn cho biết mức hài lòng không đổi." },
+        { "text": "To explain how the company kept serving customers on Fridays", "misconception": null, "whyVi": "Đúng. Đoạn B nêu lo ngại rồi giới thiệu nhóm luân phiên trực vào thứ Sáu." },
+        { "text": "To list the days and hours employees now work", "misconception": "wrong-scope", "whyVi": "Lịch làm việc được nêu ở đoạn A." }
+      ],
+      "answerIndex": 2,
+      "evidence": "To prevent this, the company set up a small rotating team that answers urgent support calls on Fridays",
+      "explanationVi": "Câu đầu đoạn B nêu một lo ngại, câu thứ hai ('To prevent this') nêu cách giải quyết. Mục đích của đoạn là giải pháp, không phải lo ngại.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "article-fourday",
+      "prompt": "A question asks whether the change helped the company keep its staff. Which paragraph should you go to first?",
+      "options": [
+        { "text": "Paragraph A", "misconception": "structure-blind", "whyVi": "Đoạn A chỉ mô tả thay đổi, chưa có kết quả." },
+        { "text": "Paragraph B", "misconception": "structure-blind", "whyVi": "Đoạn B nói về dịch vụ khách hàng vào thứ Sáu." },
+        { "text": "Paragraph C", "misconception": null, "whyVi": "Đúng. Đoạn C là đoạn kết quả, có chi tiết hai kỹ sư quyết định ở lại." },
+        { "text": "Paragraph D", "misconception": "structure-blind", "whyVi": "Đoạn D mở đầu bằng 'Still' và nói về giới hạn của mô hình (không hợp với mọi doanh nghiệp), không nói về việc giữ nhân viên." }
+      ],
+      "answerIndex": 2,
+      "evidence": "two engineers who had planned to leave for jobs in Vancouver decided to stay",
+      "explanationVi": "Giữ nhân viên là một kết quả. Bản đồ skim cho biết đoạn C ('the results are mostly positive') là đoạn kết quả, nên đọc kỹ đoạn đó trước.",
+      "competency": "time_management"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "comment-garden",
+      "prompt": "Which description of the discussion is most accurate?",
+      "options": [
+        { "text": "All four commenters oppose the higher fee", "misconception": "wrong-scope", "whyVi": "DevSingh ủng hộ — anh nói phí còn quá thấp. Khái quát 'all' là quá rộng." },
+        { "text": "Most commenters think the plots are underpriced", "misconception": "word-match", "whyVi": "Chỉ DevSingh dùng từ 'underpriced'. Rosa thấy phí quá cao." },
+        { "text": "The commenters agree that the fee should pay for a new tool shed", "misconception": "word-match", "whyVi": "Chỉ Marta nhắc kho dụng cụ, và không ai đồng ý về việc này." },
+        { "text": "The commenters hold different views, and one suggests a compromise", "misconception": null, "whyVi": "Đúng. Có người phản đối, người ủng hộ, người đặt điều kiện, và Tom đề xuất giải pháp dung hòa (giữ $40 cho người tình nguyện)." }
+      ],
+      "answerIndex": 3,
+      "evidence": "Why not keep $40 for people who volunteer four hours a season and charge $95 to everyone else?",
+      "explanationVi": "Khi skim comment thread, ghi nhanh lập trường của từng người (against / for / conditional / compromise). Gist của cả thread là mối quan hệ giữa các lập trường, không phải ý của một người.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "You start Reading Part 3: a four-paragraph text (A–D) and 9 statements, with roughly 10 minutes. What is the best first step?",
+      "options": [
+        { "text": "Read every paragraph slowly and make sure you understand each unknown word before looking at the statements", "misconception": "time-misuse", "whyVi": "Đọc từng chữ tốn quá nhiều thời gian và bạn vẫn phải quay lại tìm đáp án." },
+        { "text": "Spend about a minute skimming the title and the first sentence of each paragraph, then use that map to locate each statement", "misconception": null, "whyVi": "Đúng. Một phút skim cho bạn bản đồ A–D, giúp mỗi câu hỏi sau đó nhanh hơn." },
+        { "text": "Skip the text and match the statements using general knowledge", "misconception": "time-misuse", "whyVi": "Đáp án phải dựa vào bài đọc; kiến thức chung thường dẫn tới bẫy." },
+        { "text": "Read only paragraph D first, because most answers are in the last paragraph", "misconception": "structure-blind", "whyVi": "Không có quy tắc đáp án nằm ở đoạn cuối; mỗi câu có thể ứng với bất kỳ đoạn nào." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Skim không phải mất thời gian — nó là khoản đầu tư. Một phút đầu giúp bạn tiết kiệm nhiều phút khi tìm đáp án cho 9 câu.",
+      "competency": "time_management"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "email-repair",
+      "prompt": "What is the main purpose of Anika's email?",
+      "options": [
+        { "text": "To thank the property manager for sending a friendly plumber", "misconception": "opening-trap", "whyVi": "Lời cảm ơn ở đầu chỉ để mở lời lịch sự trước khi nêu vấn đề." },
+        { "text": "To complain that the plumber did not explain the problem", "misconception": "word-match", "whyVi": "Ngược lại — cô nói thợ đã giải thích rõ ('explained the problem clearly')." },
+        { "text": "To describe how a cracked pipe should be repaired", "misconception": "wrong-scope", "whyVi": "Ống nứt là bối cảnh, không phải mục đích. Cô không hướng dẫn cách sửa." },
+        { "text": "To ask the property manager to confirm when the delayed repair will happen", "misconception": null, "whyVi": "Đúng. Sau phần cảm ơn và kể sự chậm trễ, câu đề nghị chính là xác nhận ngày sửa trước cuối tuần." }
+      ],
+      "answerIndex": 3,
+      "evidence": "I would be grateful if you could confirm a repair date by the end of this week",
+      "explanationVi": "Email trang trọng ở mức Level 8 thường mở bằng lời cảm ơn rồi mới đến vấn đề. Tìm cụm 'I would be grateful if you could…' hoặc 'could you let me know…' — đó là mục đích thật. Từ 'but' trong 'I understand… but' cũng báo hiệu ý chính.",
+      "competency": "main_idea"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "email-repair",
+      "prompt": "Which outline best matches the structure of Anika's email?",
+      "options": [
+        { "text": "Thanks for a visit → the problem and how long it has been delayed → a polite request with a deadline", "misconception": null, "whyVi": "Đúng. Đoạn 1 cảm ơn, đoạn 2 kể vấn đề và sự chậm trễ ('nearly three weeks', 'In the meantime'), đoạn 3 đề nghị xác nhận trước cuối tuần." },
+        { "text": "Complaint about the plumber → threat of legal action → thanks", "misconception": "structure-blind", "whyVi": "Không có lời đe dọa nào; cô không phàn nàn về thái độ của thợ." },
+        { "text": "Request for a new plumber → description of the plumber → thanks", "misconception": "structure-blind", "whyVi": "Thứ tự sai và cô không đòi thợ mới; lời đề nghị nằm ở cuối." },
+        { "text": "Background on suppliers → apology for the delay → invitation to visit", "misconception": "word-match", "whyVi": "'suppliers' có trong bài nhưng chỉ là lời thông cảm; người viết không xin lỗi hay mời ai." }
+      ],
+      "answerIndex": 0,
+      "evidence": "That was nearly three weeks ago, and I haven't heard from him or your office since.",
+      "explanationVi": "Đọc câu đầu của mỗi đoạn: 'Thank you for arranging…' → 'As he mentioned, the leak…' → 'I understand that suppliers can be slow, but I would be grateful…'. Ba câu này đủ để dựng lại bố cục mà không đọc hết từng chữ.",
+      "competency": "main_idea"
+    }
+  ],
+  "misconceptions": {
+    "opening-trap": {
+      "label": "Bẫy lời mở đầu",
+      "explanationVi": "Bạn lấy câu đầu tiên (lời chào, cảm ơn, hỏi thăm) làm mục đích của cả bài. Đây là thói quen đọc 'câu đầu = ý chính' mà không kiểm tra phần thân email.",
+      "fixVi": "Coi câu đầu của email là lời xã giao. Tìm câu có So, but, I'm writing to, I was wondering if, I would be grateful if, must, please — mục đích thật nằm ở đó."
+    },
+    "wrong-scope": {
+      "label": "Sai phạm vi: quá hẹp hoặc quá rộng",
+      "explanationVi": "Bạn chọn một chi tiết đúng nhưng chỉ thuộc một đoạn (quá hẹp), hoặc một khái quát vượt xa nội dung bài (quá rộng, thường có all, every, should). Bạn chưa kiểm tra đáp án có bao được cả bài hay không.",
+      "fixVi": "Với câu hỏi về ý chung, đối chiếu đáp án với câu chủ đề của từng đoạn. Đáp án đúng phải bao được mọi đoạn mà không nói nhiều hơn bài."
+    },
+    "word-match": {
+      "label": "Chọn vì trùng từ",
+      "explanationVi": "Bạn thấy một từ trong đáp án giống hệt từ trong bài nên chọn ngay, mà không kiểm tra nghĩa của cả câu. Người ra đề cố tình lặp từ để tạo bẫy.",
+      "fixVi": "Khi thấy đáp án trùng từ, hãy cảnh giác: đọc lại câu chứa từ đó và hỏi 'bài có thật sự nói điều này không, hay chỉ nhắc đến từ này?'."
+    },
+    "structure-blind": {
+      "label": "Không nhìn ra bố cục bài",
+      "explanationVi": "Bạn chưa dùng câu chủ đề và từ tín hiệu (However, Still, In response) để biết mỗi đoạn làm nhiệm vụ gì, nên tìm sai đoạn hoặc nhầm chức năng của đoạn.",
+      "fixVi": "Khi skim, ghi một nhãn ngắn cho mỗi đoạn (change / solution / results / limits). Dừng mắt ở các từ chuyển ý vì chúng báo hiệu đoạn đổi hướng."
+    },
+    "time-misuse": {
+      "label": "Phân bổ thời gian sai",
+      "explanationVi": "Bạn đọc từng chữ ngay từ đầu, hoặc ngược lại bỏ qua bài đọc. Cả hai đều do chưa có thói quen skim một phút để tạo bản đồ trước khi trả lời.",
+      "fixVi": "Luôn dành 30–60 giây skim theo 4 bước (tiêu đề → dòng đầu → câu chủ đề → dòng cuối), rồi mới đọc kỹ đúng đoạn mà câu hỏi cần."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "gist", "vi": "ý chung, ý chính của cả bài", "example": "I didn't catch every word, but I got the gist: the parkade is closing next week." },
+    { "term": "skim (a text)", "vi": "đọc lướt để nắm ý chung", "example": "Skim the strata notice first, then read the parking section carefully." },
+    { "term": "topic sentence", "vi": "câu chủ đề (thường là câu đầu đoạn)", "example": "The topic sentence of paragraph C tells you it is about the results." },
+    { "term": "I was wondering if you could…", "vi": "Không biết bạn có thể… không (lời nhờ lịch sự)", "example": "I was wondering if you could feed my cat while I'm in Kelowna." },
+    { "term": "I would be grateful if you could…", "vi": "Tôi rất biết ơn nếu anh/chị có thể… (trang trọng)", "example": "I would be grateful if you could confirm the repair date by Friday." },
+    { "term": "Please note that…", "vi": "Xin lưu ý rằng… (dấu hiệu thông tin quan trọng)", "example": "Please note that the community centre will be closed on Family Day." },
+    { "term": "in the meantime", "vi": "trong lúc chờ đợi, trong khoảng thời gian đó", "example": "The part is on order; in the meantime, please keep a bucket under the sink." },
+    { "term": "in response", "vi": "để đáp lại, để phản ứng", "example": "In response to the complaints, council added two new bus stops." },
+    { "term": "at the owner's expense", "vi": "chủ sở hữu tự chịu chi phí", "example": "Cars left in the parkade will be towed at the owner's expense." }
+  ],
+  "grammar": [
+    {
+      "point": "Indirect requests signal the purpose",
+      "explanationVi": "Người bản xứ hiếm khi nhờ trực tiếp ('Water my plants'). Họ dùng câu gián tiếp: I was wondering if…, Could you let me know…, I would be grateful if… Khi skim, các mẫu câu này cho biết mục đích chính của email.",
+      "examples": [
+        "I was wondering if you could water my plants every second day.",
+        "Could you let me know what other options there are?",
+        "I would be grateful if you could confirm a date by the end of the week."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Reading Part 1 — Correspondence", "route": "/reading?task=R1" },
+    { "label": "Drill: main idea", "route": "/reading?mode=drill&focus=main_idea" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises independently; keys, evidence and the skim order are sound. Fixed the i4 option-D rationale/misconception (it cited Vancouver irrelevantly) and added the Part 3 'E = not given' option to the concept."}
+}

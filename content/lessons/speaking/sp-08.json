@@ -1,0 +1,514 @@
+{
+  "id": "sp-08",
+  "skill": "speaking",
+  "module": "speaking-tasks",
+  "level": "core",
+  "difficulty": 8,
+  "title": "Task 3: Describing a scene",
+  "titleVi": "Task 3: Miêu tả một bức tranh",
+  "estimatedMinutes": 35,
+  "prerequisites": [
+    "sp-03"
+  ],
+  "competencies": [
+    "vocabulary_range",
+    "coherence"
+  ],
+  "tasks": [
+    "S3"
+  ],
+  "objectives": [
+    "You will be able to open with a one-sentence overview of the whole scene, then describe it area by area.",
+    "You will be able to place things precisely with spatial language (in the foreground, on the left-hand side, in the top-right corner, right behind…).",
+    "You will be able to describe people by clothing and position and say what they are doing with the present continuous.",
+    "You will be able to choose 5–7 important details that fill 60 seconds and finish with a comment on the overall mood."
+  ],
+  "objectiveVi": "Sau bài này, bạn tả tranh theo khung “tổng quan → từng khu vực → nhận xét chung”, dùng chính xác từ chỉ vị trí, tả người qua quần áo + vị trí + hành động (thì hiện tại tiếp diễn), và biết chọn chi tiết để vừa 60 giây.",
+  "whyItMattersVi": "Ở Task 3, người nghe “không nhìn thấy tranh”, nên điểm phụ thuộc vào việc bạn giúp họ hình dung được bức tranh. Người học ở Level 6 thường nhảy lung tung giữa các chi tiết và dùng câu rất đơn giản (“There is a man. He has a guitar.”). Level 8 nghe khác hẳn: có câu tổng quan, đi theo khu vực, người được tả rõ ràng (“a man in an orange shirt is playing the guitar”) và từ vựng chỉ vị trí đa dạng. Đây là kỹ năng luyện được nhanh nhất vì có khung cố định — và nó cũng là nền cho Task 4 và Task 8.",
+  "concept": [
+    {
+      "heading": "Task 3 yêu cầu gì",
+      "body": "Trong **Task 3: Describing a Scene**, bạn thấy một bức tranh (chợ, công viên, phòng tập, văn phòng…) và phải *describe some things that are happening* cho một người **không nhìn thấy tranh**. Bạn có **30 giây chuẩn bị** và **60 giây nói**.\n\nĐiều này có nghĩa là: (1) **vị trí** quan trọng như nội dung — người nghe cần biết mỗi thứ nằm ở đâu; (2) bạn tả **những gì đang diễn ra**, không kể chuyện tưởng tượng hay dự đoán (đó là Task 4); (3) bạn **không thể** tả hết mọi thứ — 60 giây chỉ đủ cho khoảng **5–7 chi tiết được tả kỹ**."
+    },
+    {
+      "heading": "Khung: tổng quan → từng khu vực → nhận xét chung",
+      "body": "1. **Overview (1 câu):** đây là đâu, lúc nào, không khí ra sao. *This picture shows a busy outdoor farmers' market on what looks like a sunny weekend morning.*\n2. **Area by area:** chọn **một** cách chia và giữ nguyên:\n   - **Trái → giữa → phải** (hợp với tranh có nhiều quầy/khu vực ngang hàng), hoặc\n   - **Background → foreground** (phía sau → phía trước), rồi trái → phải trong mỗi lớp.\n3. **Closing (1 câu):** nhận xét chung. *Overall, it looks like a lively, relaxed place to spend a Saturday.*\n\nDùng connector chuyển khu vực: *Moving to the middle… / Over on the right… / Closer to us, in the foreground… / In the background…*"
+    },
+    {
+      "heading": "Ngôn ngữ chỉ vị trí",
+      "body": "- Khu vực lớn: *in the foreground / in the background / in the middle of the picture / on the left-hand side / on the far right*\n- Góc: *in the top-left corner / in the bottom-right corner*\n- Quan hệ giữa hai vật: *next to, beside, right behind, in front of, between X and Y, just below, above, under, across from*\n- Mẫu câu: *Just in front of the bread stall, there's…* / *Under the bench, you can see…*\n\nLỗi hay gặp: ~~in the left~~ → **on the left**; ~~on the corner of the picture~~ → **in the corner**; ~~in front of the picture~~ (nghĩa là “trước mặt bức tranh”, bên ngoài tranh) → **at the front of the picture / in the foreground**."
+    },
+    {
+      "heading": "Tả người: ai + ở đâu + đang làm gì",
+      "body": "Đừng nói *There is a man. He is wearing orange. He has a guitar.* (3 câu, ít thông tin). Hãy gộp lại:\n\n**[vị trí] + [người + đặc điểm] + [is/are + V-ing] + [chi tiết thêm]**\n*In the foreground, a man in an orange shirt and a black hat is playing the guitar, and there are a few coins in his open case.*\n\n- Đặc điểm: *a woman in a purple top*, *an older man with grey hair*, *a teenager wearing a red jersey*.\n- Hành động: dùng **present continuous** (*is waving, is holding, are walking*). Với trạng thái: *is lying, is hanging, are lined up*.\n- Khi không chắc: *It looks like…* / *He seems to be…* / *judging by the clock, …*\n\nNhớ: **is/are** không được bỏ (~~a man playing the guitar.~~ như một câu hoàn chỉnh)."
+    },
+    {
+      "heading": "30 giây chuẩn bị và nhịp 60 giây",
+      "body": "1. **(5 giây)** Nhìn tổng thể: nơi nào? thời gian? không khí?\n2. **(15 giây)** Quyết định cách chia khu vực và chọn **5–7 chi tiết** đáng tả nhất: người đang làm gì đó, biển hiệu có chữ, vật nổi bật (bóng bay, đồng hồ).\n3. **(10 giây)** Nghĩ trước từ vựng khó: *awning, stall, leash, clipboard, yoga mat*. Nếu không biết từ, **mô tả vòng**: *a kind of striped roof over the stall*.\n\nNhịp gợi ý: tổng quan 5 giây → mỗi khu vực 15–20 giây → kết 5 giây. Khoảng **130–150 từ**. Nếu còn thời gian, quay lại thêm một chi tiết nhỏ (màu sắc, biển giá); nếu sắp hết giờ, nói ngay câu kết."
+    }
+  ],
+  "stimuli": {
+    "market": {
+      "title": "Task 3 scene: a farmers' market",
+      "imageRef": "s3-practice-01",
+      "text": "Describe some things that are happening in the picture as well as you can. The person with whom you are speaking cannot see the picture."
+    },
+    "gym": {
+      "title": "Task 3 scene: a community centre gym",
+      "imageRef": "s3-practice-02",
+      "text": "Describe some things that are happening in the picture as well as you can. The person with whom you are speaking cannot see the picture."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Three descriptions of the farmers' market",
+      "stimulusId": "market",
+      "question": "Compare a weak, an acceptable and a Level 8 description of the market picture.",
+      "steps": [
+        "Overview first: an outdoor farmers' market, sunny day, banner at the top reading \"Riverside Farmers' Market\".",
+        "Choose the organization: background (three stalls with striped awnings, left → right: apples, flowers, bread), then foreground (four groups of people, left → right).",
+        "Pick the details worth describing: the vendor at each stall; the woman in purple who is waving and carrying a basket; the man in the orange shirt and black hat playing the guitar, with coins in his case; the parent in grey holding hands with a child who has a red balloon; the person in blue walking a brown dog.",
+        "Prepare tricky words: awning (or 'a striped roof'), stall, loaves, guitar case, leash.",
+        "Compare the three versions below."
+      ],
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "In this picture I see many people. There is a man, he play guitar. There is apple and flower and bread. One woman is purple. She is happy. There is a dog. Also there is a balloon, red balloon. The sun is very nice. Many people go to market. It is very good market.",
+          "commentVi": "Không có câu tổng quan rõ ràng, nhảy lung tung (người → quầy → người → chó → mặt trời), không có một từ chỉ vị trí nào nên người nghe không thể hình dung. Lỗi ngữ pháp: “he play” (thiếu thì tiếp diễn và -s), “there is apple” (thiếu số nhiều), “one woman is purple” (ý muốn nói áo tím). Từ vựng lặp “very”, “there is”. Khoảng 55 từ → chỉ khoảng 25 giây."
+        },
+        {
+          "label": "acceptable",
+          "text": "This is a picture of a farmers' market on a sunny day. At the top, there is a sign that says Riverside Farmers' Market. There are three stalls. The first stall sells apples, the second stall sells flowers and the third stall sells bread. In front of the stalls, there are some people. A woman in a purple shirt is waving. A man is playing the guitar. A father and his daughter are walking, and the girl has a red balloon. On the left, a man is walking his dog.",
+          "commentVi": "Có câu tổng quan, có chia khu vực (trên cùng → quầy → phía trước), thì hiện tại tiếp diễn đúng — mức Level 6–7. Nhưng vị trí còn chung chung (“the first stall”, “in front of the stalls”), người tả thiếu đặc điểm (“a man is playing the guitar” — người nào?), câu cùng một khuôn “there is/are”, không có câu kết. Khoảng 90 từ → khoảng 40–45 giây."
+        },
+        {
+          "label": "level8",
+          "text": "This picture shows a lively outdoor farmers' market on a sunny day. Across the top, there's a green banner that reads \"Riverside Farmers' Market\". Underneath it, there are three stalls with striped awnings. On the far left, a vendor in a green shirt is selling apples and what look like oranges. The middle stall is full of buckets of colourful flowers, and on the right, a baker in a white chef's hat is standing behind a row of loaves. Closer to us, in the foreground, a woman in a purple top is waving at someone while she's carrying a basket of apples. Next to her, a man in an orange shirt and a black hat is playing the guitar, and there are a few coins in his open case. Over on the right, a parent is holding hands with a little kid who's got a red balloon. Overall, it feels like a relaxed weekend morning.",
+          "commentVi": "Câu tổng quan nêu nơi chốn + thời tiết + không khí. Chia khu vực rõ ràng: trên cùng → quầy hàng trái-giữa-phải → foreground. Từ chỉ vị trí đa dạng (Across the top, Underneath it, On the far left, Closer to us, Next to her, Over on the right). Mỗi người được tả theo khuôn vị trí + đặc điểm + đang làm gì + chi tiết thêm. Từ vựng chính xác (awnings, vendor, loaves, open case), có cách nói khi không chắc (what look like oranges). Có câu kết. Khoảng 155 từ — vừa 60 giây với tốc độ nói tự nhiên; nếu bạn nói chậm hơn, bỏ bớt một chi tiết."
+        }
+      ],
+      "answer": "The Level 8 description gives the listener a mental map: an overview, a fixed route through the picture, precise positions, and people described by clothing plus a present continuous action.",
+      "takeawayVi": "Người nghe không nhìn thấy tranh, nên vị trí và trật tự quan trọng không kém nội dung. Tổng quan → đi theo một lộ trình cố định → mỗi người: vị trí + đặc điểm + V-ing → kết."
+    },
+    {
+      "id": "ex2",
+      "title": "Upgrading one detail: from vague to precise",
+      "stimulusId": "market",
+      "question": "How do you turn \"There is a man. He has a guitar.\" into a Level 8 sentence?",
+      "steps": [
+        "Add the position: where is he? → in the foreground, roughly in the middle, in front of the flower stall.",
+        "Add a feature the listener can picture: → a man in an orange shirt and a black hat.",
+        "Add the action with the present continuous: → is playing the guitar.",
+        "Add one supporting detail connected to the action: → his guitar case is lying open on the ground next to him, with a few coins in it.",
+        "Join it into one or two sentences: \"In the foreground, roughly in front of the flower stall, a man in an orange shirt and a black hat is playing the guitar. His case is lying open on the ground next to him, with a few coins in it, so he's probably busking.\""
+      ],
+      "answer": "Position + person with a feature + present continuous action + one extra detail = one rich, easy-to-picture description.",
+      "takeawayVi": "Mỗi chi tiết Level 8 trả lời bốn câu hỏi: ở đâu? ai (đặc điểm gì)? đang làm gì? có gì thêm? Gộp thành 1–2 câu thay vì 3–4 câu ngắn “There is…”."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "gym",
+      "prompt": "Look at the gym picture. Which sentence is the best way to begin your description?",
+      "hint": "The first sentence should tell the listener what kind of place this is and give a general impression before any small detail.",
+      "options": [
+        {
+          "text": "In the bottom-left corner, there are three orange cones.",
+          "misconception": "no-overview",
+          "whyVi": "Bắt đầu bằng một chi tiết nhỏ ở góc tranh; người nghe chưa biết đây là nơi nào."
+        },
+        {
+          "text": "This picture shows a busy gym at the Cedar Park Community Centre, and judging by the clock on the wall, it's around ten o'clock.",
+          "misconception": null,
+          "whyVi": "Đúng: nêu nơi chốn (đọc từ biển hiệu), thời gian (dựa vào đồng hồ) và không khí (busy) trong một câu."
+        },
+        {
+          "text": "There is a man, a woman, a girl, a teenager, a coach and an old man.",
+          "misconception": "no-plan",
+          "whyVi": "Liệt kê người mà không có bối cảnh hay vị trí; đây không phải câu tổng quan."
+        },
+        {
+          "text": "This is a school classroom where students are studying.",
+          "misconception": "inaccurate-detail",
+          "whyVi": "Sai nơi chốn: tranh là phòng tập thể thao (rổ bóng, thảm yoga, sàn gỗ), không phải lớp học."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Câu tổng quan cho người nghe “khung” để đặt mọi chi tiết sau vào đúng chỗ. Dùng chữ trên biển hiệu và manh mối như đồng hồ.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g2",
+      "type": "text",
+      "stimulusId": "gym",
+      "prompt": "Complete the sentence about the gym picture with ONE verb in the -ing form: \"Against the back wall, a man in a green T-shirt is ______ on a wooden bench, taking a break.\"",
+      "hint": "Look at his position on the bench. Use the present continuous form of a verb that describes his position.",
+      "answers": [
+        "sitting",
+        "resting",
+        "relaxing"
+      ],
+      "mode": "exact",
+      "misconception": "continuous-error",
+      "explanationVi": "Tả tư thế/hành động trong tranh bằng thì hiện tại tiếp diễn: is sitting (hoặc is resting). Không dùng “is sit” hay “sits”.",
+      "competency": "grammar"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "gym",
+      "prompt": "Where is the purple gym bag in the gym picture?",
+      "hint": "Look closely at the bench in the middle: what is on it, and what is below it?",
+      "options": [
+        {
+          "text": "It's on the bench, next to the water bottles.",
+          "misconception": "inaccurate-detail",
+          "whyVi": "Trên ghế là hai chai nước (xanh dương và xanh lá), không phải túi."
+        },
+        {
+          "text": "It's under the bench.",
+          "misconception": null,
+          "whyVi": "Đúng: chiếc túi tím nằm dưới ghế gỗ."
+        },
+        {
+          "text": "It's next to the yoga mat on the right.",
+          "misconception": "inaccurate-detail",
+          "whyVi": "Bên cạnh thảm yoga không có túi; đây là đoán chứ không nhìn kỹ tranh."
+        },
+        {
+          "text": "The coach is holding it.",
+          "misconception": "inaccurate-detail",
+          "whyVi": "Huấn luyện viên đang cầm bảng kẹp giấy (clipboard), không phải túi."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Giới từ chỉ vị trí phải chính xác: on the bench (trên ghế) ≠ under the bench (dưới ghế). Người nghe chỉ có lời của bạn để hình dung.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "g4",
+      "type": "order",
+      "stimulusId": "gym",
+      "prompt": "Put these parts of a gym description into a clear left-to-right order.",
+      "hint": "Start with the overview, move across the picture in one direction, and finish with a general comment.",
+      "items": [
+        "This is the gym at the Cedar Park Community Centre, and it's quite busy.",
+        "On the left-hand side, a teenager in a red jersey has just shot a basketball, and a coach with a clipboard is watching him.",
+        "In the middle, a man is sitting on a bench by the back wall, while a girl in a yellow top is skipping rope in front of him.",
+        "Over on the right, a woman is sitting on a purple yoga mat and stretching.",
+        "All in all, it looks like a typical morning at a rec centre."
+      ],
+      "misconception": "no-plan",
+      "explanationVi": "Tổng quan → trái → giữa → phải → kết. Giữ một hướng di chuyển giúp người nghe “đi theo” bạn qua bức tranh.",
+      "competency": "coherence"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "gym",
+      "prompt": "Which sentence describes the older man in the gym picture most clearly for a listener who can't see it?",
+      "options": [
+        {
+          "text": "There is old man.",
+          "misconception": "vague-language",
+          "whyVi": "Thiếu mạo từ (an old man), không vị trí, không hành động, không đặc điểm."
+        },
+        {
+          "text": "A man is walking.",
+          "misconception": "vague-language",
+          "whyVi": "Đúng ngữ pháp nhưng quá mơ hồ: trong tranh có nhiều người, người nghe không biết là ai, ở đâu."
+        },
+        {
+          "text": "In the middle of the floor, an older man with grey hair and a light-blue top is walking along with a white towel around his neck.",
+          "misconception": null,
+          "whyVi": "Đủ vị trí + đặc điểm (tóc bạc, áo xanh nhạt) + hành động + chi tiết thêm (khăn trên cổ)."
+        },
+        {
+          "text": "An old guy he is wearing towel and walking, he is old.",
+          "misconception": "continuous-error",
+          "whyVi": "Lặp chủ ngữ (guy he), thiếu mạo từ (a towel), lặp ý “old”; cấu trúc câu rối."
+        }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Khuôn Level 8: [vị trí] + [người + đặc điểm] + [is + V-ing] + [chi tiết thêm].",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "stimulusId": "gym",
+      "prompt": "Complete with ONE word: \"In the ______-left corner of the picture, three orange cones are lined up on the floor.\"",
+      "answers": [
+        "bottom",
+        "lower"
+      ],
+      "mode": "exact",
+      "misconception": "vague-language",
+      "explanationVi": "Các góc tranh: top-left, top-right, bottom-left (lower-left), bottom-right. Ba cái nón cam nằm ở góc dưới bên trái.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "gym",
+      "prompt": "Which sentence about the gym picture is grammatically correct?",
+      "options": [
+        {
+          "text": "On the right, a woman is stretch on a purple yoga mat.",
+          "misconception": "continuous-error",
+          "whyVi": "Thì tiếp diễn cần V-ing: is stretching."
+        },
+        {
+          "text": "On the right, a woman stretching on a purple yoga mat.",
+          "misconception": "continuous-error",
+          "whyVi": "Thiếu “is” — đây chưa phải là một câu hoàn chỉnh."
+        },
+        {
+          "text": "On the right, a woman is stretching toward her toes on a purple yoga mat.",
+          "misconception": null,
+          "whyVi": "Đúng: is + V-ing, có vị trí và chi tiết hành động."
+        },
+        {
+          "text": "On the right, a woman are stretching on a purple yoga mat.",
+          "misconception": "continuous-error",
+          "whyVi": "Sai hoà hợp chủ ngữ – động từ: a woman → is."
+        }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Thì hiện tại tiếp diễn = am/is/are + V-ing. Hai lỗi hay gặp: bỏ “is” và quên “-ing”.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "gym",
+      "prompt": "Which statement about the gym picture is accurate?",
+      "options": [
+        {
+          "text": "The coach is holding a clipboard, and he has a whistle around his neck.",
+          "misconception": null,
+          "whyVi": "Đúng với tranh: huấn luyện viên mặc đồ tối màu, cầm clipboard, đeo còi."
+        },
+        {
+          "text": "Two water bottles are lying on the floor under the basketball hoop.",
+          "misconception": "inaccurate-detail",
+          "whyVi": "Hai chai nước ở trên ghế gỗ, không phải dưới rổ bóng."
+        },
+        {
+          "text": "The girl in the yellow top is sitting on the bench and drinking water.",
+          "misconception": "inaccurate-detail",
+          "whyVi": "Cô bé áo vàng đang nhảy dây ở giữa sàn; người ngồi trên ghế là người đàn ông áo xanh lá."
+        },
+        {
+          "text": "The woman on the yoga mat is lifting weights.",
+          "misconception": "inaccurate-detail",
+          "whyVi": "Người phụ nữ đang ngồi giãn cơ, với tay về phía chân; trong tranh không có tạ."
+        }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Chỉ tả những gì thật sự có trong tranh. Khi đặt người hoặc vật sai chỗ, bạn làm người nghe hình dung sai — đó là lỗi hoàn thành nhiệm vụ.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "market",
+      "prompt": "In the market description, you have finished the three stalls. Which phrase best moves the listener to the people at the front of the picture?",
+      "options": [
+        {
+          "text": "In conclusion, …",
+          "misconception": "no-plan",
+          "whyVi": "Dùng để kết thúc, không phải để chuyển sang khu vực mới."
+        },
+        {
+          "text": "Secondly, …",
+          "misconception": "no-plan",
+          "whyVi": "Connector liệt kê ý của bài nghị luận; không cho người nghe biết bạn đang chuyển đến vị trí nào."
+        },
+        {
+          "text": "Closer to us, in the foreground, …",
+          "misconception": null,
+          "whyVi": "Báo rõ sự chuyển khu vực: từ phía sau (quầy hàng) ra phía trước (foreground)."
+        },
+        {
+          "text": "Because of that, …",
+          "misconception": "no-plan",
+          "whyVi": "Chỉ quan hệ nguyên nhân – kết quả; không phù hợp để chuyển vị trí trong tranh."
+        }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Trong Task 3, connector chuyển ý là connector chỉ vị trí: Moving to the middle…, Over on the right…, Closer to us…, In the background…",
+      "competency": "coherence"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "You have 60 seconds for Task 3, and the picture is full of people and objects. Which plan is the most effective?",
+      "options": [
+        {
+          "text": "Mention every single person and object quickly so you don't miss anything.",
+          "misconception": "no-plan",
+          "whyVi": "Nói lướt mọi thứ khiến mỗi chi tiết chỉ là một từ; câu ngắn, nhanh và khó nghe."
+        },
+        {
+          "text": "Give a one-sentence overview, describe 5–7 key details area by area with positions and actions, then add a short closing comment.",
+          "misconception": null,
+          "whyVi": "Đúng: tổng quan → 5–7 chi tiết theo khu vực → kết. Vừa 60 giây và dễ theo dõi."
+        },
+        {
+          "text": "Describe the most interesting person in detail for the full 60 seconds.",
+          "misconception": "no-plan",
+          "whyVi": "Đề yêu cầu “some things that are happening”; chỉ tả một người là bỏ qua phần lớn bức tranh."
+        },
+        {
+          "text": "Explain what happened before the picture and what will happen next.",
+          "misconception": "inaccurate-detail",
+          "whyVi": "Đó là kể chuyện/dự đoán (gần với Task 4); Task 3 tả những gì đang diễn ra."
+        }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Chọn lọc là kỹ năng Level 8: ít chi tiết hơn nhưng mỗi chi tiết được định vị và tả rõ.",
+      "competency": "timing"
+    },
+    {
+      "id": "i7",
+      "type": "produce",
+      "stimulusId": "gym",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 60,
+      "prompt": "Describe the gym picture to someone who cannot see it. You have 30 seconds to prepare and 60 seconds to speak.",
+      "checklist": [
+        "Starts with a one-sentence overview (place, time or general atmosphere).",
+        "Follows one clear route through the picture (e.g. left → middle → right) without jumping back and forth.",
+        "Uses at least five different spatial expressions (e.g. on the left-hand side, against the back wall, under, next to, in the bottom-left corner).",
+        "Describes at least four people with a feature (clothing, hair, age) and a present continuous action.",
+        "Finishes with a short comment on the overall mood before the time runs out."
+      ],
+      "modelAnswer": "This is the gym at the Cedar Park Community Centre, and judging by the clock, it's about ten in the morning. Starting on the left-hand side, there's a basketball hoop, and a teenager in a red jersey has both arms up because he's just taken a shot. Right beside him, a coach in a dark tracksuit is holding a clipboard, with a whistle hanging around his neck. Moving to the middle, a man in a green T-shirt is sitting on a long wooden bench against the back wall. There are two water bottles next to him and a purple bag underneath. In front of the bench, a little girl with a ponytail is skipping rope, and an older man with grey hair is walking past with a towel around his neck. Over on the right, a woman is stretching on a yoga mat. All in all, it feels energetic but friendly.",
+      "misconception": "no-plan",
+      "explanationVi": "Nghe lại bản ghi và kiểm tra: bạn có đi theo một hướng không? Đếm số cụm từ chỉ vị trí. Mỗi người có đủ đặc điểm + hành động chưa?",
+      "competency": "coherence"
+    }
+  ],
+  "misconceptions": {
+    "no-overview": {
+      "label": "Thiếu câu tổng quan",
+      "explanationVi": "Bạn đi thẳng vào chi tiết nhỏ nên người nghe không có “khung” để đặt các chi tiết vào. Đây là lỗi tổ chức: thiếu bước nhìn toàn cảnh trước khi nhìn chi tiết.",
+      "fixVi": "Câu đầu tiên luôn trả lời: đây là đâu + lúc nào/thời tiết + không khí chung. Ví dụ: This picture shows a busy… on what looks like a… morning."
+    },
+    "no-plan": {
+      "label": "Không có lộ trình, nhảy lung tung hoặc cố tả hết",
+      "explanationVi": "Bạn tả theo thứ tự mắt nhìn thấy, nhảy từ trái sang phải rồi quay lại, hoặc cố nhắc mọi thứ. Người nghe không theo kịp, và các chi tiết không được phát triển.",
+      "fixVi": "Trong lúc chuẩn bị, chọn một cách chia (trái → giữa → phải, hoặc phía sau → phía trước) và 5–7 chi tiết. Chuyển khu vực bằng connector vị trí: Moving to the middle…, Over on the right…, Closer to us…"
+    },
+    "vague-language": {
+      "label": "Tả mơ hồ: thiếu vị trí và đặc điểm",
+      "explanationVi": "Bạn nói “a man”, “there is a dog” mà không có vị trí hoặc đặc điểm, nên người nghe không phân biệt được ai với ai. Đây là thiếu vốn từ chỉ vị trí và cách tả người.",
+      "fixVi": "Mỗi người/vật: [vị trí] + [đặc điểm: in a red jersey, with grey hair] + [hành động]. Học thuộc bộ từ: foreground, background, on the left-hand side, in the bottom-left corner, right behind, under, next to."
+    },
+    "continuous-error": {
+      "label": "Sai thì hiện tại tiếp diễn",
+      "explanationVi": "Bạn bỏ “is/are”, quên “-ing”, hoặc dùng hiện tại đơn (he play). Khi nói nhanh, những từ nhỏ này dễ bị nuốt mất và làm giảm điểm ngữ pháp.",
+      "fixVi": "Nhắc mình: chủ ngữ + is/are + V-ing. Luyện nói chậm 3–4 câu mẫu (A woman is waving…, Two kids are playing…) cho đến khi “is + -ing” tự động."
+    },
+    "inaccurate-detail": {
+      "label": "Tả sai hoặc bịa chi tiết không có trong tranh",
+      "explanationVi": "Bạn đặt vật sai chỗ, gán hành động sai người, hoặc kể chuyện/dự đoán thay vì tả. Người nghe sẽ hình dung sai bức tranh — lỗi hoàn thành nhiệm vụ.",
+      "fixVi": "Chỉ tả những gì nhìn thấy. Khi không chắc, rào đón: It looks like…, He seems to be…, what look like oranges. Để dành dự đoán cho Task 4."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "in the foreground / in the background",
+      "vi": "ở phía trước / ở phía sau (của bức tranh)",
+      "example": "In the foreground, two kids are feeding the ducks; in the background, you can see the North Shore mountains."
+    },
+    {
+      "term": "on the left-hand side / on the far right",
+      "vi": "ở phía bên trái / ở tận cùng bên phải",
+      "example": "On the left-hand side, there's a food truck selling poutine."
+    },
+    {
+      "term": "in the top-right / bottom-left corner",
+      "vi": "ở góc trên bên phải / góc dưới bên trái",
+      "example": "In the top-right corner, there's a clock that says ten o'clock."
+    },
+    {
+      "term": "right behind / just in front of",
+      "vi": "ngay phía sau / ngay phía trước",
+      "example": "Just in front of the bakery stall, a woman is choosing a loaf of sourdough."
+    },
+    {
+      "term": "a man in an orange shirt",
+      "vi": "một người đàn ông mặc áo cam (tả người qua quần áo)",
+      "example": "A woman in a yellow raincoat is waiting at the bus stop."
+    },
+    {
+      "term": "is holding / is carrying",
+      "vi": "đang cầm / đang mang, xách",
+      "example": "The coach is holding a clipboard, and a boy is carrying a ball."
+    },
+    {
+      "term": "are lined up",
+      "vi": "được xếp thành hàng",
+      "example": "A few shopping carts are lined up outside the store."
+    },
+    {
+      "term": "It looks like … / judging by …",
+      "vi": "Có vẻ như… / dựa vào… (khi suy đoán từ tranh)",
+      "example": "Judging by the umbrellas, it looks like it's just started to rain."
+    },
+    {
+      "term": "Moving to the middle, … / Over on the right, …",
+      "vi": "Chuyển sang phần giữa… / Ở phía bên phải…",
+      "example": "Over on the right, a cyclist is locking up his bike."
+    },
+    {
+      "term": "Overall, it feels like …",
+      "vi": "Nhìn chung, có cảm giác như… (câu kết)",
+      "example": "Overall, it feels like a relaxed Saturday at the park."
+    }
+  ],
+  "grammar": [
+    {
+      "point": "Present continuous for actions in a picture",
+      "explanationVi": "Tả những gì đang diễn ra trong tranh bằng am/is/are + V-ing. Với tư thế và trạng thái, dùng is lying, is hanging, is standing; với nhiều vật: are lined up (bị động).",
+      "examples": [
+        "A teenager is reaching up toward the hoop.",
+        "Two water bottles are standing on the bench.",
+        "Three cones are lined up in the corner."
+      ]
+    },
+    {
+      "point": "There is / There are + noun + -ing or place phrase",
+      "explanationVi": "Gộp “There is a man. He is playing guitar.” thành một câu: There's a man playing the guitar. Chú ý số nhiều: There are three stalls (không phải there is three stall).",
+      "examples": [
+        "There's a man playing the guitar in the middle of the picture.",
+        "There are a few coins in his open case."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "label": "Practise Speaking Task 3: Describing a scene",
+      "route": "/speaking?task=S3"
+    },
+    {
+      "label": "Review new spatial vocabulary",
+      "route": "/vocabulary"
+    }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Checked every described detail against the s3-practice-01/02 SVGs (bag under bench, coach's whistle/clipboard, cones bottom-left, guitar case with coins, etc.); all keys correct. Trimmed the Level 8 market description from 165 to ~155 words and replaced the questionable 'at the front of the picture' error example with the real error 'in front of the picture'."}
+}

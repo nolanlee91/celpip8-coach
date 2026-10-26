@@ -1,0 +1,356 @@
+{
+  "id": "wr-09",
+  "skill": "writing",
+  "module": "writing-email",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Vocabulary upgrade for emails",
+  "titleVi": "Nâng cấp từ vựng cho email",
+  "estimatedMinutes": 32,
+  "prerequisites": ["wr-07"],
+  "competencies": ["vocabulary_range"],
+  "tasks": ["W1"],
+  "objectives": [
+    "You will be able to replace basic words (get, make, good, bad, very, problem, help) with precise, natural alternatives.",
+    "You will be able to use common email collocations correctly (raise a concern, resolve an issue, cause inconvenience).",
+    "You will be able to avoid repetition with synonyms, reference words and sentence combining.",
+    "You will be able to use function phrases for requesting, explaining, apologizing and suggesting."
+  ],
+  "objectiveVi": "Sau bài này, bạn sẽ thay những từ cơ bản (get, make, good, bad, very, problem, help) bằng từ chính xác và tự nhiên hơn, dùng đúng các collocation thường gặp trong email, tránh lặp từ, và có sẵn bộ cụm từ cho các chức năng đề nghị, giải thích, xin lỗi, gợi ý.",
+  "whyItMattersVi": "Ở Writing 7, bạn đã viết đúng và đủ ý; điều khiến bài chưa lên 8 thường là vốn từ 'an toàn': cùng một từ 'problem' lặp năm lần, 'very' đứng trước mọi tính từ, 'get' thay cho mọi động từ. Giám khảo đánh giá cao từ vựng **chính xác và tự nhiên** — không phải từ hiếm. Bài này dạy bạn nâng cấp đúng cách, tránh cả từ quá đơn giản lẫn từ 'tra từ điển đồng nghĩa' nghe gượng gạo.",
+  "concept": [
+    {
+      "heading": "Từ 'an toàn' giữ bạn ở Level 7",
+      "body": "Những từ sau không sai, nhưng khi xuất hiện liên tục, chúng cho thấy vốn từ hẹp:\n\n- **get** (get an email, get there, get worse) → *receive, reach, worsen*\n- **make / do** → *cause, create, complete, carry out*\n- **good / bad / very / a lot** → *convenient, serious, considerable, significantly*\n- **problem** (lặp nhiều lần) → *issue, situation, delay, this*\n- **help** → *assist, support, allow, make it easier to*\n- **want** → *would like, hope to, I would appreciate*\n\nNguyên tắc: Level 8 không cần từ \"cao siêu\"; cần **từ đúng nghĩa nhất cho ngữ cảnh**. *The traffic is very bad* → *rush-hour traffic is heavy*. *I got your notice* → *I received your notice*. Một động từ chính xác thường thay được cả cụm \"very + tính từ\"."
+    },
+    {
+      "heading": "Động từ chính xác",
+      "body": "Động từ mang nhiều nghĩa nhất trong câu, nên nâng cấp động từ có hiệu quả cao nhất:\n\n- *tell* → **inform** (someone of/that), **notify** (someone of), **remind** (someone to)\n- *ask* → **request** (something), **inquire** (about)\n- *fix* → **repair** (đồ vật), **resolve** (vấn đề, tranh chấp)\n- *give* → **provide** (information, support), **offer** (help, a discount)\n- *say sorry* → **apologize** (for)\n- *become worse* → **worsen**; *become better* → **improve**\n- *be good for* → **suit** (*The new time suits me well.*)\n\nChú ý **mẫu đi kèm**: *notify me* (không phải *announce me*), *explain to me* (không phải *explain me*), *suggest + V-ing* hoặc *suggest that we + V*."
+    },
+    {
+      "heading": "Collocation: những cặp từ người bản ngữ hay dùng",
+      "body": "Collocation là các từ \"hay đi cùng nhau\". Dịch từng từ từ tiếng Việt thường tạo ra kết hợp sai:\n\n- **make / file / submit a complaint** (✗ *do a complaint*)\n- **raise / express a concern** (✗ *say a concern*)\n- **resolve an issue** (✗ *solve an inconvenience*)\n- **cause damage / inconvenience / delays** (✗ *make a big damage*)\n- **make a decision** (✗ *do a decision*)\n- **place an order**, **request a refund**, **meet a deadline**\n- **on short notice**, **heavy traffic**, **a serious issue**, **significantly reduce**\n\nMẹo: khi học một danh từ, học luôn **động từ** và **tính từ** đi cùng. Ghi vào sổ từ vựng theo cụm, không theo từ đơn."
+    },
+    {
+      "heading": "Tránh lặp từ một cách tự nhiên",
+      "body": "Có ba cách, dùng kết hợp:\n\n1. **Từ đồng nghĩa theo ngữ cảnh**: *problem* → *issue*, *situation*, hoặc tên cụ thể của vấn đề (*the delay*, *the leak*, *the noise*).\n2. **Từ quy chiếu**: *this*, *it*, *these changes*, *the latter*. Nhưng đảm bảo người đọc biết *it* chỉ cái gì.\n3. **Gộp câu**: *The lot is full. Because the lot is full, visitors park on our street.* → *The lot is always full, so visitors park on our street.*\n\nĐừng thay từ máy móc: dùng ba từ đồng nghĩa khác nhau cho ba câu liên tiếp vẫn nghe gượng. Mục tiêu là **câu tự nhiên**, không phải đếm từ khác nhau."
+    },
+    {
+      "heading": "Bộ cụm từ theo chức năng",
+      "body": "- **Requesting**: *I would appreciate it if you could…*, *Would it be possible to…?*, *I would be grateful for clarification on…*\n- **Explaining**: *The main reason is that…*, *This is largely due to…*, *As a result,…*\n- **Apologizing**: *Please accept my apologies for…* (formal), *I'm sorry for any inconvenience this may have caused.*, *I'm so sorry I…* (informal)\n- **Suggesting**: *One option might be to…*, *Would you consider + V-ing…?*, *I would suggest + V-ing…*, *It might help to…*\n\nCảnh giác với **từ đồng nghĩa lệch ngữ cảnh** lấy từ thesaurus: *commence, utilize, endeavour, offspring, forthwith*. Chúng không sai hoàn toàn, nhưng trong email đời thường chúng nghe kỳ lạ. Từ tốt là từ người bản ngữ thật sự viết trong tình huống đó."
+    }
+  ],
+  "stimuli": {
+    "draft-daycare": {
+      "title": "Level 7 draft — daycare pick-up time",
+      "text": "Prompt: You are a parent in Surrey. Your child's daycare has moved its pick-up time from 6 p.m. to 5:30 p.m. with only two days' notice. Write an email to the daycare director, Ms. Romano.\n- Explain the difficulty this change causes for you.\n- Ask about the reason for the change.\n- Suggest a solution.\n\nDraft:\nDear Ms. Romano,\n\nI am writing about the new pick-up time. I got your notice on Monday and it is a big problem for me. I finish work at 5 p.m. in Richmond and the traffic on the bridge is very bad, so it is very hard to get to the daycare before 5:30. This problem is very stressful for me and my husband because he also works late.\n\nI want to know why you made this change. Is there a problem with staff? I think many parents have the same problem.\n\nI want to suggest that you keep the old time for parents who need it, maybe for a small extra fee. This would help us a lot. Thank you very much for your help.\n\nSincerely,\nThu Ha Nguyen"
+    },
+    "prompt-breakroom": {
+      "title": "Task 1 prompt — improving the break room",
+      "text": "Your manager at a warehouse in Delta, Mr. Okafor, has asked employees for ideas to improve the staff break room. Write an email to Mr. Okafor.\n\nIn your email:\n- Describe the current problems with the break room.\n- Explain how these problems affect staff.\n- Suggest two improvements.\n\nWrite 150–200 words."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Diagnosing a vocabulary-limited draft",
+      "stimulusId": "draft-daycare",
+      "question": "Before rewriting, find the words that keep this draft at Level 7.",
+      "steps": [
+        "Count repeated words: 'problem' appears 4 times, 'very' 4 times, 'want' twice, 'help' twice, 'get/got' twice. That is the first sign of a narrow range.",
+        "Mark vague verbs: 'got your notice' (→ received), 'get to the daycare' (→ reach), 'made this change' (fine, but 'want to know why you made' sounds blunt).",
+        "Mark 'very + adjective' pairs: 'very bad traffic' → the precise collocation is 'heavy traffic'; 'very hard' → 'difficult to manage'; 'very stressful' → 'considerable stress'.",
+        "Mark function sentences that use basic words: 'I want to know why' (request) → 'I would appreciate it if you could explain…'; 'I want to suggest' (suggestion) → 'Would you consider…?'.",
+        "Decide what each 'problem' really means: the change (a difficulty), staffing (a staffing issue), other parents (the same issue). Naming it precisely removes the repetition."
+      ],
+      "answer": "Upgrade targets: problem ×4 → difficulty / staffing issue / the same issue / the situation; very bad traffic → heavy rush-hour traffic; get to → reach; got → received; I want to know → I would appreciate it if you could explain; I want to suggest → Would you consider + V-ing; help us a lot → allow us to; Thank you very much for your help → Thank you for considering this request.",
+      "takeawayVi": "Trước khi nâng cấp, hãy chẩn đoán: đếm từ lặp, đánh dấu động từ mơ hồ, cặp 'very + tính từ' và câu chức năng dùng 'want'. Bốn nhóm này chiếm phần lớn khoảng cách giữa Level 7 và 8."
+    },
+    {
+      "id": "ex2",
+      "title": "Before and after: the daycare email",
+      "stimulusId": "draft-daycare",
+      "question": "Rewrite the draft with precise, natural vocabulary while keeping the same ideas.",
+      "steps": [
+        "Keep the structure and the ideas; change only words and sentence combining. The goal is range and precision, not new content.",
+        "Replace each repeated 'problem' with what it actually refers to.",
+        "Swap basic verbs for precise ones and fix 'very + adjective' with natural collocations.",
+        "Turn 'I want…' sentences into the function phrases for requesting and suggesting.",
+        "Read the result aloud: every word should sound like something a Canadian parent would really write."
+      ],
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "I am writing about the new pick-up time. I got your notice on Monday and it is a big problem for me. I finish work at 5 p.m. in Richmond and the traffic on the bridge is very bad, so it is very hard to get to the daycare before 5:30. This problem is very stressful for me and my husband because he also works late.\n\nI want to know why you made this change. Is there a problem with staff? I think many parents have the same problem.\n\nI want to suggest that you keep the old time for parents who need it, maybe for a small extra fee. This would help us a lot. Thank you very much for your help.",
+          "commentVi": "Bản nháp đúng ngữ pháp và đủ ý, nhưng vốn từ hẹp: 'problem' lặp 4 lần, 'very' 4 lần, 'want' 2 lần, 'help' 2 lần, 'get/got' 2 lần. 'very bad traffic' không phải collocation tự nhiên. 'I want to know why you made this change' nghe thẳng và hơi chất vấn. 'Thank you very much for your help' chung chung vì người nhận chưa giúp gì."
+        },
+        {
+          "label": "after",
+          "text": "I am writing regarding the new pick-up time that was announced on Monday. Unfortunately, the change will be difficult for my family to manage, especially with only two days' notice.\n\nI finish work at 5 p.m. in Richmond, and with heavy rush-hour traffic on the Alex Fraser Bridge, I rarely reach the daycare before 5:45. My husband's shifts end even later, so neither of us can realistically arrive by 5:30. The situation has already caused us considerable stress this week.\n\nI would also appreciate it if you could explain the reason for the change. If it is related to staffing, I would understand, but knowing this would help parents plan ahead. I suspect several other families are facing the same issue.\n\nAs a possible solution, would you consider offering an extended pick-up option until 6 p.m., perhaps for a small additional fee? This would allow working parents to manage their schedules without rushing.\n\nThank you for considering this request.",
+          "commentVi": "Thay đổi: (1) 'about' → 'regarding'; 'I got your notice' → 'that was announced' (bị động, chính xác). (2) 'a big problem' → 'difficult for my family to manage'; thêm 'with only two days' notice' — collocation về thời gian báo trước. (3) 'traffic is very bad' → 'heavy rush-hour traffic'; 'get to' → 'reach'; thêm 'realistically arrive'. (4) 'This problem is very stressful' → 'The situation has already caused us considerable stress' (collocation cause stress + tính từ chính xác). (5) 'I want to know why you made…' → 'I would appreciate it if you could explain the reason for…'. (6) 'a problem with staff' → 'related to staffing'; 'the same problem' → 'facing the same issue'. (7) 'I want to suggest that you keep' → 'As a possible solution, would you consider offering…'. (8) 'help us a lot' → 'allow working parents to manage their schedules'. (9) 'Thank you very much for your help' → 'Thank you for considering this request' — đúng với tình huống. 'problem' không còn xuất hiện lần nào."
+        }
+      ],
+      "takeawayVi": "Nội dung không đổi, nhưng bản 'after' nghe như của người viết Level 8–9: mỗi 'problem' được gọi đúng tên, mỗi 'very' được thay bằng collocation, mỗi 'I want' được thay bằng cụm chức năng."
+    },
+    {
+      "id": "ex3",
+      "title": "Fixing translated collocations",
+      "question": "Correct the collocations in a short paragraph to a building manager about a water leak.",
+      "steps": [
+        "Read each verb + noun pair and ask: would a native speaker say this? 'do a complaint', 'made a big damage', 'solve this inconvenience' all sound translated.",
+        "Check countability: 'damage' (meaning harm to property) is uncountable, so 'a big damage' is wrong → 'significant damage'.",
+        "Choose the North American collocation: 'make a decision' (not 'do a decision'; 'take a decision' is mainly British).",
+        "Match the verb to the noun: you 'resolve an issue' or 'repair a leak'; you do not 'solve an inconvenience'."
+      ],
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "I want to do a complaint about the water leak. The leak made a big damage to my ceiling and I had to do a decision to move my bed. Please solve this inconvenience fast.",
+          "commentVi": "Bốn collocation dịch từng chữ: 'do a complaint', 'made a big damage' (damage không đếm được), 'do a decision', 'solve this inconvenience'. 'I want' và 'Please… fast' quá thẳng cho thư gửi quản lý."
+        },
+        {
+          "label": "after",
+          "text": "I would like to make a complaint about the water leak in my unit. The leak has caused significant damage to my bedroom ceiling, and I had to make the decision to move my bed into the living room. I would appreciate it if you could resolve the issue as soon as possible.",
+          "commentVi": "Thay đổi: 'do a complaint' → 'make a complaint'; 'made a big damage' → 'has caused significant damage' (cause damage + tính từ chính xác, bỏ mạo từ 'a'); 'do a decision' → 'make the decision'; 'solve this inconvenience fast' → 'resolve the issue as soon as possible'; 'I want' → 'I would like'; 'Please… fast' → 'I would appreciate it if you could…'. Thêm chi tiết 'in my unit', 'bedroom ceiling', 'into the living room' làm câu chính xác hơn."
+        }
+      ],
+      "takeawayVi": "Collocation sai là dấu hiệu rõ nhất của văn dịch. Học danh từ cùng động từ của nó: make a complaint, cause damage, make a decision, resolve an issue."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "prompt": "In a formal email, which word best replaces 'got'? 'I got your email about the schedule change yesterday.'",
+      "hint": "Choose the verb that is precise for emails and letters, not just any synonym of 'get'.",
+      "options": [
+        { "text": "received", "misconception": null, "whyVi": "Đúng: 'receive an email / a letter / a notice' là collocation chuẩn, trang trọng và chính xác." },
+        { "text": "obtained", "misconception": "thesaurus_misfit", "whyVi": "'obtain' nghĩa là cố gắng để có được (obtain a permit). Dùng cho email nghe như bạn phải xin mới có." },
+        { "text": "took", "misconception": "wrong_collocation", "whyVi": "Không nói 'take an email'. Đây là kết hợp sai." },
+        { "text": "achieved", "misconception": "thesaurus_misfit", "whyVi": "'achieve' = đạt được (mục tiêu, thành tích). Hoàn toàn lệch nghĩa." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "'get' có nhiều nghĩa; nâng cấp nghĩa là chọn đúng nghĩa trong ngữ cảnh: get an email → receive; get to a place → reach/arrive at; get worse → worsen.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "g2",
+      "type": "text",
+      "prompt": "Complete the collocation with one verb: 'I would like to ____ a complaint about the noise from the parkade.'",
+      "hint": "Vietnamese learners often say 'do' here, but that is not the natural verb.",
+      "answers": ["make", "file", "lodge", "submit", "register"],
+      "mode": "exact",
+      "misconception": "wrong_collocation",
+      "explanationVi": "make / file / submit / lodge a complaint đều đúng. 'do a complaint' là lỗi dịch từ 'làm đơn khiếu nại'.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "prompt": "Which rewrite avoids repetition most naturally? 'The problem started in May. The problem got worse in June. Now the problem affects every unit on our floor.'",
+      "hint": "Name the problem once, then refer back to it and use a precise verb for 'got worse'.",
+      "options": [
+        { "text": "The leak started in May and worsened in June. It now affects every unit on our floor.", "misconception": null, "whyVi": "Đúng: gọi đúng tên vấn đề (the leak), gộp hai câu đầu, 'got worse' → 'worsened', và 'It' quy chiếu rõ ràng." },
+        { "text": "The problem started in May. The issue got worse in June. Now the matter affects every unit on our floor.", "misconception": "repetition", "whyVi": "Thay từ đồng nghĩa một cách máy móc (problem / issue / matter) nhưng câu vẫn rời rạc và người đọc vẫn không biết vấn đề là gì." },
+        { "text": "The predicament commenced in May and deteriorated in June, now impacting every dwelling on our floor.", "misconception": "thesaurus_misfit", "whyVi": "'predicament', 'commenced', 'dwelling' là từ thesaurus nghe gượng trong email gửi quản lý tòa nhà." },
+        { "text": "It started in May. It got worse in June. Now it affects every unit on our floor.", "misconception": "repetition", "whyVi": "Thay 'problem' bằng 'it' ở mọi câu, nên 'it' không chỉ rõ thứ gì, và cấu trúc vẫn lặp lại y hệt." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Tránh lặp hiệu quả nhất = gọi đúng tên cụ thể + gộp câu + từ quy chiếu rõ ràng. Thay từ đồng nghĩa liên tục không làm câu tự nhiên hơn.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "prompt": "Which is the best upgrade of 'We had a very big problem with the order'?",
+      "hint": "Look for a natural adjective + noun collocation, with correct countability.",
+      "options": [
+        { "text": "We had a serious issue with the order.", "misconception": null, "whyVi": "Đúng: 'a serious issue' là collocation tự nhiên, thay được cả 'very big problem'." },
+        { "text": "We had a gigantic problem with the order.", "misconception": "thesaurus_misfit", "whyVi": "'gigantic' dùng cho kích thước vật lý; với vấn đề, nó nghe phóng đại và không tự nhiên." },
+        { "text": "We had a very big trouble with the order.", "misconception": "wrong_collocation", "whyVi": "'trouble' thường không đếm được ('have trouble with'), nên 'a very big trouble' sai, và vẫn còn 'very big'." },
+        { "text": "We had a really very big problem with the order.", "misconception": "basic_words", "whyVi": "Thêm từ nhấn mạnh cơ bản không nâng cấp từ vựng — chỉ làm câu dài hơn." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "'very + adjective' thường có thể thay bằng một tính từ chính xác: very big problem → serious issue; very bad traffic → heavy traffic; very important → essential.",
+      "competency": "vocabulary_range"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "text",
+      "prompt": "Complete with one precise verb (past tense): 'The heavy rain ____ significant damage to our basement storage room.'",
+      "answers": ["caused"],
+      "mode": "exact",
+      "misconception": "wrong_collocation",
+      "explanationVi": "cause damage / cause delays / cause inconvenience. Tránh 'made damage' — đây là lỗi dịch từ 'gây thiệt hại'.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "prompt": "You are a store employee replying to a customer whose order was delayed. Which apology is the most appropriate?",
+      "options": [
+        { "text": "Please accept our apologies for the delay and any inconvenience it may have caused.", "misconception": null, "whyVi": "Đúng: cụm xin lỗi trang trọng chuẩn, gọi tên vấn đề (the delay) và collocation 'cause inconvenience'." },
+        { "text": "We are sorry for the inconveniences we made you.", "misconception": "wrong_collocation", "whyVi": "'inconvenience' thường không đếm được trong cụm này, và 'make someone inconvenience' sai. Đúng: 'any inconvenience this may have caused'." },
+        { "text": "We are deeply regretful of our grievous wrongdoing.", "misconception": "thesaurus_misfit", "whyVi": "Phóng đại và gượng — một đơn hàng trễ không phải 'grievous wrongdoing'." },
+        { "text": "Sorry about that.", "misconception": "basic_words", "whyVi": "Quá ngắn và quá thân mật cho thư của cửa hàng gửi khách hàng; không nói xin lỗi về điều gì." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Cụm xin lỗi theo register: formal → Please accept our apologies for…; semi-formal → I'm sorry for any inconvenience…; informal → I'm so sorry I…",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "prompt": "Choose the verb that fits: 'Could you please ____ me when the repair is complete?'",
+      "options": [
+        { "text": "notify", "misconception": null, "whyVi": "Đúng: 'notify someone (when / of / that…)' — chính xác và phù hợp email." },
+        { "text": "announce", "misconception": "wrong_collocation", "whyVi": "'announce' không đi với tân ngữ chỉ người: không nói 'announce me'. Đúng: 'announce something (to someone)'." },
+        { "text": "explain", "misconception": "wrong_collocation", "whyVi": "'explain me' là lỗi rất phổ biến. Đúng: 'explain something to me' — và nghĩa cũng không phù hợp ở đây." },
+        { "text": "advertise", "misconception": "thesaurus_misfit", "whyVi": "'advertise' = quảng cáo. Có thể thấy trong thesaurus gần 'announce' nhưng sai nghĩa hoàn toàn." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Khi nâng cấp động từ, học cả mẫu câu đi kèm: notify someone of something; inform someone that…; remind someone to…; explain something to someone.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i4",
+      "type": "text",
+      "prompt": "Complete with one verb: 'I would like to ____ a concern about the lack of lighting in the parkade.'",
+      "answers": ["raise", "express", "voice", "share"],
+      "mode": "exact",
+      "misconception": "wrong_collocation",
+      "explanationVi": "raise / express / voice a concern là các collocation chuẩn ('share a concern' cũng được chấp nhận). Tránh 'say a concern' hay 'make a concern'.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "prompt": "Your manager has asked staff for ideas about the weekend schedule. Which sentence makes a suggestion most appropriately?",
+      "options": [
+        { "text": "One option might be to rotate weekend shifts so that no one works more than two Saturdays a month.", "misconception": null, "whyVi": "Đúng: cụm gợi ý 'One option might be to…' lịch sự, kèm đề xuất cụ thể và kết quả rõ ràng." },
+        { "text": "You should change the schedule because it is not fair.", "misconception": "vague_function", "whyVi": "'You should' với sếp nghe như chỉ đạo; 'not fair' mơ hồ và không có đề xuất cụ thể." },
+        { "text": "I want the schedule to change.", "misconception": "vague_function", "whyVi": "'I want' là động từ cơ bản, thẳng; không phải một gợi ý mà là một mong muốn chung chung." },
+        { "text": "It is imperative that the schedule be overhauled forthwith.", "misconception": "thesaurus_misfit", "whyVi": "'imperative', 'overhauled', 'forthwith' quá nặng và cứng — nghe như văn bản pháp lý, không hợp với email gửi quản lý trực tiếp." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Cụm gợi ý tự nhiên: One option might be to…, I would suggest + V-ing, Would you consider + V-ing…?, It might help to… Đi kèm một đề xuất cụ thể.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "Which version avoids repetition most effectively? Original: 'The parking lot is always full. Because the parking lot is full, visitors park on our street. The parking on our street then blocks our driveways.'",
+      "options": [
+        { "text": "The parking lot is always full, so visitors often park on our street, where their cars block residents' driveways.", "misconception": null, "whyVi": "Đúng: gộp ba câu thành một chuỗi nguyên nhân – kết quả, dùng 'where' để quy chiếu, gọi đúng thứ gây cản trở (their cars)." },
+        { "text": "The parking lot is always full. Because the parking area is full, visitors park on our street. The parking spaces on our street then block our driveways.", "misconception": "repetition", "whyVi": "Chỉ đổi từ đồng nghĩa (lot / area / spaces) mà giữ nguyên cấu trúc lặp; câu cuối còn sai nghĩa (chỗ đỗ xe không chặn lối vào, xe mới chặn)." },
+        { "text": "The vehicular storage facility is perpetually saturated; hence, guests station their automobiles upon our thoroughfare.", "misconception": "thesaurus_misfit", "whyVi": "Từ thesaurus gượng ép: 'vehicular storage facility', 'saturated', 'thoroughfare'. Không ai viết như vậy trong email hàng xóm." },
+        { "text": "It is always full. Because of it, they park on our street. It then blocks our driveways.", "misconception": "repetition", "whyVi": "Lạm dụng 'it' và 'they' nên không rõ cái gì chặn lối vào; cấu trúc ba câu vẫn lặp lại." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Ở Level 8, tránh lặp chủ yếu bằng gộp câu và quy chiếu rõ ràng (so, where, which, this), không phải bằng thay từ đồng nghĩa liên tục.",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "prompt": "Which is the most precise and natural rewrite of 'The new schedule is good for me because it helps me a lot with my kids'?",
+      "options": [
+        { "text": "The new schedule suits me well because it allows me to drop my children off at school before work.", "misconception": null, "whyVi": "Đúng: 'suits me well' thay 'is good for me'; 'allows me to + V' thay 'helps me a lot'; chi tiết cụ thể (đưa con đến trường) thay 'with my kids'." },
+        { "text": "The new schedule is extremely magnificent for me, as it facilitates my offspring.", "misconception": "thesaurus_misfit", "whyVi": "'magnificent' không dùng cho lịch làm việc; 'facilitates my offspring' vô nghĩa. Đây là nâng cấp bằng thesaurus." },
+        { "text": "The new schedule is very very good, and it helps me so much with the kids.", "misconception": "basic_words", "whyVi": "Vẫn là 'good', 'helps', thêm 'very very', 'so much' — không có gì được nâng cấp." },
+        { "text": "The new schedule makes good for me and helps a lot of my kids.", "misconception": "wrong_collocation", "whyVi": "'makes good for me' không phải cụm đúng; 'helps a lot of my kids' đổi nghĩa thành 'giúp nhiều đứa con của tôi'." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Nâng cấp tốt nhất thường là: động từ chính xác (suit, allow) + chi tiết cụ thể thay cho từ chung chung (kids → drop my children off at school).",
+      "competency": "vocabulary_range"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "stimulusId": "prompt-breakroom",
+      "medium": "write",
+      "minWords": 150,
+      "prompt": "Write the full email to Mr. Okafor (150–200 words). Focus on precise verbs, natural collocations and function phrases. Do not use the word 'problem' more than twice.",
+      "checklist": [
+        "Uses the word 'problem' (and 'help', 'thing') no more than twice in total.",
+        "Uses at least three precise verbs instead of get / make / do (e.g. share, reduce, install, ease).",
+        "Uses at least two natural verb + noun or adverb + verb collocations (e.g. significantly reduce waiting times, ease the crowding, raise a concern, cause delays).",
+        "Introduces the two improvements with function phrases (I would suggest…, One option might be…, Would you consider…).",
+        "Keeps a consistent semi-formal tone with no unnatural thesaurus words.",
+        "Covers all three bullets in separate paragraphs; 150–200 words."
+      ],
+      "modelAnswer": "Hi Mr. Okafor,\n\nThank you for asking for our input on the break room. I am glad to share a few observations.\n\nAt the moment, the room is too small for the number of people on each shift. During the noon break, around twenty-five of us share six tables, and the single microwave usually has a line of five or six people. The fridge is also overcrowded, so lunches are often pushed to the back and forgotten.\n\nAs a result, many employees spend half of their thirty-minute break waiting to heat their food, and some have started eating in their cars, even in winter. This makes it harder to rest properly before returning to the floor, and it reduces the chance to connect with coworkers from other departments.\n\nI would suggest two improvements. First, installing a second microwave and a larger fridge would significantly reduce waiting times at a relatively low cost. Second, staggering breaks by fifteen minutes between the shipping and receiving teams would ease the crowding without affecting productivity.\n\nPlease let me know if I can assist with any of these changes.\n\nBest regards,\nTuan Ly",
+      "misconception": "basic_words",
+      "explanationVi": "Dùng bút đánh dấu các động từ trong bài: bao nhiêu là get/make/do/have? Bài mẫu dùng share, push, heat, rest, reduce, install, stagger, ease, assist — và không lặp 'problem' lần nào.",
+      "competency": "vocabulary_range"
+    }
+  ],
+  "misconceptions": {
+    "basic_words": {
+      "label": "Dùng từ cơ bản, chung chung",
+      "explanationVi": "Bạn dựa vào nhóm từ an toàn (good, bad, very, a lot, get, help, thing) vì chúng không bao giờ sai. Nhưng khi chúng lặp khắp bài, giám khảo thấy vốn từ hẹp và ý chưa chính xác.",
+      "fixVi": "Sau khi viết, khoanh tròn mọi 'very', 'good/bad', 'get', 'a lot'. Với mỗi từ, hỏi: ý cụ thể là gì? Thay 'very + tính từ' bằng một tính từ hoặc collocation chính xác (heavy traffic, a serious issue)."
+    },
+    "wrong_collocation": {
+      "label": "Kết hợp từ sai (dịch từng chữ)",
+      "explanationVi": "Bạn ghép động từ và danh từ theo tiếng Việt ('làm đơn khiếu nại' → do a complaint; 'gây thiệt hại lớn' → make a big damage). Từng từ đều đúng, nhưng sự kết hợp không tự nhiên — đây là lỗi collocation và mẫu câu.",
+      "fixVi": "Học danh từ theo cụm: make a complaint, cause damage, raise a concern, resolve an issue, make a decision. Học động từ kèm mẫu: notify someone of, explain something to someone."
+    },
+    "repetition": {
+      "label": "Lặp từ hoặc tránh lặp vụng",
+      "explanationVi": "Bạn lặp lại cùng một danh từ (problem, help) ở nhiều câu, hoặc tránh lặp bằng cách thay từ đồng nghĩa máy móc hay dùng 'it' khắp nơi khiến người đọc không biết bạn đang nói về cái gì.",
+      "fixVi": "Gọi vấn đề bằng tên cụ thể (the leak, the delay), gộp các câu liên quan bằng so/which/where, và chỉ dùng 'it/this' khi rõ ràng nó chỉ cái gì."
+    },
+    "thesaurus_misfit": {
+      "label": "Từ 'cao siêu' lệch ngữ cảnh",
+      "explanationVi": "Bạn nghĩ từ càng hiếm càng được điểm cao, nên chọn từ trong thesaurus (commence, utilize, offspring, gigantic, forthwith). Những từ này lệch nghĩa hoặc lệch register, làm câu nghe gượng và đôi khi sai nghĩa.",
+      "fixVi": "Chọn từ mà người bản ngữ thật sự dùng trong tình huống đó. Kiểm tra bằng câu ví dụ trong từ điển (Cambridge, Oxford Learner's) trước khi dùng một từ mới trong bài thi."
+    },
+    "vague_function": {
+      "label": "Thiếu cụm từ chức năng",
+      "explanationVi": "Bạn thực hiện các chức năng như đề nghị, gợi ý, xin lỗi bằng từ cơ bản ('I want…', 'You should…', 'Sorry'). Ý đúng, nhưng giọng thẳng và vốn từ chức năng hạn chế.",
+      "fixVi": "Thuộc 2–3 cụm cho mỗi chức năng: Requesting — I would appreciate it if you could…; Suggesting — One option might be to…, Would you consider + V-ing; Apologizing — Please accept my apologies for…"
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "resolve an issue", "vi": "giải quyết một vấn đề", "example": "I would appreciate it if you could resolve the billing issue before my next statement." },
+    { "term": "raise a concern", "vi": "nêu lên một mối lo ngại", "example": "I would like to raise a concern about the lack of lighting in the parkade." },
+    { "term": "cause inconvenience / delays / damage", "vi": "gây bất tiện / chậm trễ / thiệt hại", "example": "The road closure on Highway 1 caused long delays for commuters." },
+    { "term": "on short notice", "vi": "báo trước rất gấp", "example": "The class was cancelled on short notice, so several students arrived for nothing." },
+    { "term": "notify someone of something", "vi": "thông báo cho ai về điều gì", "example": "Please notify residents of any planned water shutoffs at least 48 hours in advance." },
+    { "term": "Please accept my apologies for…", "vi": "Xin vui lòng nhận lời xin lỗi của tôi về… (trang trọng)", "example": "Please accept my apologies for the late payment of my strata fees." },
+    { "term": "Would you consider + V-ing…?", "vi": "Anh/chị có thể cân nhắc việc… không? (gợi ý lịch sự)", "example": "Would you consider offering an extended pick-up option until 6 p.m.?" },
+    { "term": "One option might be to…", "vi": "Một phương án có thể là… (gợi ý nhẹ nhàng)", "example": "One option might be to rotate weekend shifts among all team members." },
+    { "term": "significantly reduce", "vi": "giảm đáng kể", "example": "A second microwave would significantly reduce waiting times in the break room." },
+    { "term": "suit (someone)", "vi": "phù hợp, tiện cho ai", "example": "The new 8:30 start time suits me well, since I take my son to school first." }
+  ],
+  "grammar": [
+    {
+      "point": "Verb patterns after precise verbs",
+      "explanationVi": "Động từ chính xác thường có mẫu đi kèm cố định. Dùng sai mẫu sẽ triệt tiêu lợi ích của việc nâng cấp. Ghi nhớ: suggest + V-ing / suggest that + S + V nguyên mẫu (không 'suggest you to'); consider + V-ing; notify someone of something; explain something to someone; allow someone to + V.",
+      "examples": [
+        "I would suggest installing a second microwave. / I suggest that the council install more lights.",
+        "Would you consider offering a later pick-up time?",
+        "✗ Could you explain me the reason? → ✓ Could you explain the reason to me?"
+      ]
+    },
+    {
+      "point": "Countable and uncountable nouns in email collocations",
+      "explanationVi": "Nhiều danh từ hay dùng trong email là không đếm được trong nghĩa thông thường: damage, information, advice, equipment, feedback, trouble. Không dùng 'a' và không thêm -s.",
+      "examples": [
+        "✗ a big damage → ✓ significant damage",
+        "✗ some informations → ✓ some information",
+        "✗ I have a trouble with my account. → ✓ I am having trouble with my account."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Luyện Task 1 – áp dụng từ vựng mới", "route": "/writing?task=W1" },
+    { "label": "Ôn collocation trong sổ từ vựng", "route": "/vocabulary" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises; repetition counts in the daycare draft verified, 'take a decision' note accurate. Added 'share' to i4 answers and reworded the i8 collocation checklist item so the model answer actually meets it."}
+}

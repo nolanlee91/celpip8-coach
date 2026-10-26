@@ -1,0 +1,385 @@
+{
+  "id": "ls-13",
+  "skill": "listening",
+  "module": "listening-parts",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Part 4: News items",
+  "titleVi": "Part 4: Nghe bản tin",
+  "estimatedMinutes": 28,
+  "prerequisites": ["ls-10"],
+  "competencies": ["missed_info", "paraphrase"],
+  "tasks": ["L4"],
+  "objectives": [
+    "You will be able to map a news report onto its usual structure: lead, cause, details, quotes and next steps.",
+    "You will be able to attribute each opinion or claim in a report to the right person.",
+    "You will be able to keep the reporter's level of certainty (will, is expected to, could, will consider) when choosing an answer.",
+    "You will be able to separate totals from changes and limits in the numbers of a report."
+  ],
+  "objectiveVi": "Sau bài này, bạn nghe một bản tin địa phương theo đúng bố cục (tin chính → nguyên nhân → chi tiết → trích lời → bước tiếp theo), gán đúng ý kiến cho đúng người, và giữ đúng mức độ chắc chắn của thông tin khi chọn đáp án.",
+  "whyItMattersVi": "Part 4 chỉ có 5 câu nhưng dùng ngôn ngữ trang trọng, nhiều tên người, con số và động từ tường thuật. Ở Listening 6, bạn thường hiểu tin nói về chuyện gì nhưng chọn nhầm ý kiến của người A cho người B, hoặc chọn \"will definitely\" trong khi bản tin chỉ nói \"is expected to\". Sửa hai lỗi này là cách nhanh nhất để giữ điểm chắc ở Part 4.",
+  "concept": [
+    {
+      "heading": "Part 4 trông như thế nào",
+      "body": "**Part 4 – Listening to a News Item** (5 câu): một người đọc tin (news reader) trình bày một bản tin địa phương, thường khoảng 1,5–2 phút: một dự án của thành phố bị trễ, một quy định mới, một chương trình thử nghiệm. Chỉ có một giọng đọc, nhưng bản tin **thuật lại lời của nhiều người**: quan chức, chủ doanh nghiệp, cư dân, người phản đối.\n\nAudio phát **một lần**; câu hỏi xuất hiện sau. Câu hỏi thường đi **theo thứ tự** của bản tin, nên bố cục là chiếc bản đồ giúp bạn nhớ thông tin nằm ở đâu."
+    },
+    {
+      "heading": "Bố cục chuẩn của một bản tin",
+      "body": "1. **Lead – tin chính:** câu đầu tiên trả lời *What happened? Where? When?* Câu hỏi \"What is the report mainly about?\" lấy từ đây.\n2. **Cause / background – nguyên nhân:** *The problem is…, the delay is not about X, it's about Y*. Mẫu \"not X but Y\" là nguồn đáp án nhiễu quen thuộc.\n3. **Details & numbers – chi tiết:** ngày tháng, chi phí, số người. Phân biệt **tổng** (*the total cost is now…*) với **phần thay đổi** (*about three hundred thousand more than planned*) và **giới hạn** (*up to half, to a maximum of…*).\n4. **Quotes / reported views – ý kiến:** mỗi người có một vai trò và một quan điểm. Thường có ít nhất một người ủng hộ và một người lo ngại.\n5. **Response & next steps – phản hồi và bước tiếp theo:** *The city says it has listened…*, *a meeting on…*, *will consider…*. Câu hỏi cuối thường lấy ở đây."
+    },
+    {
+      "heading": "Ai nói gì: động từ tường thuật",
+      "body": "Bản tin gắn mỗi ý vào một người bằng **reporting verbs**: *says, told us, explained, pointed to, argued, warned, admitted, welcomed, raised concerns, responded that*, và cụm *according to X*.\n\n- Ghi chú dạng `Tên (vai trò): ý chính (+/−)`. Ví dụ: `Okafor (cyclist): detour +20 min, no bike lane (−)`.\n- Động từ cho biết **thái độ**: *welcomed* (+), *raised concerns / warned* (−), *admitted* (thừa nhận điều bất lợi).\n- Câu hỏi \"According to X…\" chỉ chấp nhận ý của **chính X**. Một đáp án đúng về nội dung nhưng là lời của người khác vẫn là đáp án sai."
+    },
+    {
+      "heading": "Mức độ chắc chắn và paraphrase trang trọng",
+      "body": "Tin tức rất cẩn trọng về độ chắc chắn. Đáp án đúng phải giữ **cùng mức độ**:\n\n- *will open* (chắc chắn) ≠ *is expected to open* (dự kiến) ≠ *could open* (có thể).\n- *plans to review the policy* = \"might change it later\", **không phải** \"has changed it\".\n- *at the earliest* = \"no sooner than\"; *slightly higher than last year* ≠ \"much higher\".\n\nParaphrase trang trọng thường gặp: *scrap the fee* → \"stop charging\"; *has gone up* → \"increased\"; *has reservations about the plan* → \"is not fully convinced\"; *residents can sign up for alerts* → \"people can get updates by text\"."
+    },
+    {
+      "heading": "Chiến lược từng bước",
+      "body": "1. **Câu đầu tiên:** nghe thật kỹ lead — ghi `WHAT / WHERE / WHEN` trong 5–6 từ.\n2. **Chia trang ghi chú** thành các dòng: `WHY`, `NUM`, `PEOPLE`, `NEXT`.\n3. **Mỗi khi nghe một cái tên**, ghi tên + vai trò + ý chính + dấu (+/−).\n4. **Con số:** ghi kèm nhãn `total / +change / max / per`.\n5. **Khi trả lời:** xác định câu hỏi hỏi về phần nào của bố cục, kiểm tra người nói (attribution) và mức độ chắc chắn trước khi chọn."
+    }
+  ],
+  "stimuli": {
+    "bridge-news": {
+      "title": "Library clip: Alder Creek bridge opening delayed",
+      "audioRef": { "setId": "l4-full-01", "chunk": 0 }
+    },
+    "certainty-lines": {
+      "title": "Three sentences from news reports",
+      "text": "1. \"The new library branch **is expected to** open in the spring.\"\n2. \"The province **will consider** extending the program if demand stays high.\"\n3. \"The road **will** be closed from Monday to Friday next week.\"\n\nOption to check for sentence 2: *The province will extend the program.*"
+    },
+    "leaf-blower-news": {
+      "title": "Part 4 style (fictional report): Nanaimo votes to phase out gas leaf blowers",
+      "audio": [
+        { "speaker": "News reader", "voice": "narrator", "text": "Good afternoon. Nanaimo city council has voted to phase out gas-powered leaf blowers. Under the plan, the blowers will be banned on residential streets starting next April, and in parks and commercial areas a year after that." },
+        { "speaker": "News reader", "voice": "narrator", "text": "Councillor Teresa Bianchi, who introduced the motion, says noise was the main complaint from residents, but not the only one. She also pointed to air quality, arguing that small gas engines produce a surprising amount of pollution for their size." },
+        { "speaker": "News reader", "voice": "narrator", "text": "Not everyone is pleased. Jordan Whitfield, who owns a landscaping company with twelve employees, told us that switching to battery equipment will cost his business around forty thousand dollars. He says he isn't against the change itself, but he believes the timeline is far too short for small operators." },
+        { "speaker": "News reader", "voice": "narrator", "text": "The city says it has listened. Businesses with fewer than twenty employees will be able to apply for a rebate covering up to half the cost of new battery-powered equipment, to a maximum of five thousand dollars per business. Applications open in January." },
+        { "speaker": "News reader", "voice": "narrator", "text": "Resident Amira Haddad, who lives beside a park in the Harewood neighbourhood, welcomed the decision. She said that on some Saturday mornings, she had to close all her windows before eight a.m." },
+        { "speaker": "News reader", "voice": "narrator", "text": "The bylaw still needs final approval at a council meeting on December twelfth, where the public will have one more chance to comment. Fines for breaking the ban would start at two hundred dollars." }
+      ]
+    },
+    "on-demand-transit-news": {
+      "title": "Part 4 style (fictional report): Kelowna tests on-demand transit",
+      "audio": [
+        { "speaker": "News reader", "voice": "narrator", "text": "In Kelowna, a new on-demand transit service will replace two of the city's least-used bus routes this fall. Instead of waiting at a stop for a bus that comes once an hour, riders in the Glenmore and Clifton areas will book a ride through an app or by phone, and a small van will pick them up within about twenty minutes." },
+        { "speaker": "News reader", "voice": "narrator", "text": "Transit planner Hugo Lefebvre says the two routes were carrying an average of fewer than six passengers per trip, which made them expensive to run. He expects the new service to cost roughly the same, but to reach far more people. The fare will stay the same as a regular bus ticket, and transfers to other routes will still be included." },
+        { "speaker": "News reader", "voice": "narrator", "text": "Some seniors' groups have raised concerns. Margaret Olsen, who chairs a local seniors' association, says many of her members don't use smartphones and worry they'll be left behind. Lefebvre responded that the phone booking line will be staffed seven days a week, and that drivers will help riders with walkers and other mobility aids." },
+        { "speaker": "News reader", "voice": "narrator", "text": "The pilot will run for eighteen months. If ridership doesn't grow by at least a quarter, the city says it will consider bringing back the fixed routes. A public information session is planned for September ninth at the Glenmore community hall." }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "ex-1",
+      "title": "Mapping a report and attributing a claim",
+      "stimulusId": "bridge-news",
+      "question": "According to the city engineer, what is NOT the reason for the delay, and what is?",
+      "steps": [
+        "Lead: \"the pedestrian and cyclist bridge… will now open in early March at the earliest\" → ghi `WHAT: bridge delay → early Mar (at earliest)`.",
+        "Nguyên nhân + người nói: \"City engineer Priya Nandakumar says the delay is not about the bridge itself.\" → ghi `Nandakumar (engineer): NOT bridge/deck`. Mẫu \"not X… The problem is Y\" báo hiệu X sẽ là đáp án nhiễu.",
+        "Y: \"The problem is the lighting… did not meet the city's standard for wind resistance\" → `WHY: light posts fail wind std → sent back`.",
+        "Người thứ hai: \"Daniel Okafor, who cycles to his job\" → `Okafor (commuter): detour +20 min, no bike lane (−)`. Nếu câu hỏi hỏi \"According to the engineer…\", ý kiến của Okafor bị loại ngay.",
+        "Kết luận: đáp án đúng là phần Y, được paraphrase kiểu \"Some lighting equipment did not meet requirements\" — không phải \"the bridge deck failed its inspection\" (ngược lại hoàn toàn)."
+      ],
+      "answer": "Not the bridge structure (the deck passed inspection) — the light posts failed the city's wind-resistance standard.",
+      "takeawayVi": "Ghi `Tên (vai trò): ý chính` cho từng người. Mẫu \"not X, the problem is Y\" rất hay gặp trong tin tức: X gần như luôn xuất hiện trong đáp án sai."
+    },
+    {
+      "id": "ex-2",
+      "title": "Total vs change in a number",
+      "stimulusId": "bridge-news",
+      "question": "By how much has the cost of the project gone up?",
+      "steps": [
+        "Câu hỏi hỏi **phần tăng**, không phải tổng → mình cần nhãn `+change`.",
+        "Nghe: \"The total cost is now estimated at four point two million dollars\" → ghi `total ≈ $4.2M (est.)`.",
+        "Nghe tiếp: \"about three hundred thousand more than planned\" → ghi `+$300K`.",
+        "Bẫy: chọn $4.2 million vì đó là con số to và nghe trước. Bẫy thứ hai: \"The supplier will pay the full increase\" — bản tin chỉ nói \"cover part of that extra cost\".",
+        "Đáp án: khoảng 300.000 đô; và nếu có đáp án nói về nhà cung cấp, chỉ chọn câu giữ chữ \"part\"."
+      ],
+      "answer": "About $300,000 more than planned (the new total is about $4.2 million).",
+      "takeawayVi": "Luôn ghi nhãn cho con số: total, +change, max, per. Câu hỏi \"how much more / how much has it increased\" hỏi phần chênh lệch, không phải tổng."
+    },
+    {
+      "id": "ex-3",
+      "title": "Keeping the level of certainty",
+      "stimulusId": "certainty-lines",
+      "question": "Does the option \"The province will extend the program\" match sentence 2?",
+      "steps": [
+        "Xác định động từ chính trong câu 2: \"will consider extending\" — chắc chắn là sẽ XEM XÉT, không chắc là sẽ GIA HẠN.",
+        "Còn có điều kiện: \"if demand stays high\". Đáp án bỏ cả điều kiện lẫn mức độ.",
+        "So với câu 1: \"is expected to open\" = dự kiến, phù hợp với đáp án kiểu \"is likely to open\" hoặc \"is scheduled to open\", không phải \"has opened\".",
+        "Câu 3 dùng \"will be closed\" — đây mới là thông tin chắc chắn, đáp án có thể dùng \"will\".",
+        "Kết luận: đáp án \"will extend\" mạnh hơn bản tin → sai. Một đáp án đúng sẽ là \"The province may extend the program if demand remains strong.\""
+      ],
+      "answer": "No. The report only says the province will consider it, and only if demand stays high.",
+      "takeawayVi": "Bản tin phân biệt rất rõ chắc chắn / dự kiến / có thể. Một đáp án mạnh hơn hoặc yếu hơn bản tin là đáp án sai, dù chủ đề đúng."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "leaf-blower-news",
+      "prompt": "What is the report mainly about?",
+      "hint": "Câu hỏi ý chính lấy từ lead. Để ý động từ \"phase out\" và lịch trình được nêu ngay sau đó — đáp án phải đúng cả hành động lẫn mức độ.",
+      "options": [
+        { "text": "Nanaimo has immediately banned all gas-powered garden tools.", "misconception": "certainty_shift", "whyVi": "Không phải \"immediately\" và không phải \"all garden tools\" — chỉ leaf blowers, theo từng giai đoạn." },
+        { "text": "A city has decided to gradually stop the use of gas leaf blowers.", "misconception": null, "whyVi": "Đúng: \"phase out\" = loại bỏ dần, với lịch trình từ tháng Tư năm sau." },
+        { "text": "Landscaping companies are protesting a new noise bylaw.", "misconception": "partial_truth", "whyVi": "Chỉ có một chủ doanh nghiệp bày tỏ lo ngại; đó là chi tiết, không phải ý chính." },
+        { "text": "Residents are asking the city to reduce noise in parks.", "misconception": "partial_truth", "whyVi": "Tiếng ồn là một lý do, và chỉ một cư dân được trích lời; đây không phải nội dung chính." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Nanaimo city council has voted to phase out gas-powered leaf blowers",
+      "explanationVi": "Lead trả lời \"What happened?\": hội đồng thành phố bỏ phiếu loại bỏ dần máy thổi lá chạy xăng. \"Phase out\" → \"gradually stop\". Các đáp án khác hoặc quá mạnh (immediately, all tools) hoặc chỉ là một chi tiết.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "leaf-blower-news",
+      "prompt": "What is true about when the ban takes effect?",
+      "hint": "Ghi chú lead có hai khu vực và hai mốc thời gian. Mốc thứ hai được nói theo kiểu tương đối (\"a year after that\").",
+      "options": [
+        { "text": "It starts in parks next April and on residential streets later.", "misconception": "number_confusion", "whyVi": "Đảo thứ tự: residential streets mới là khu vực bắt đầu từ tháng Tư." },
+        { "text": "It begins everywhere in January, when applications open.", "misconception": "number_confusion", "whyVi": "January là lúc mở đơn xin rebate, không phải lúc bắt đầu cấm." },
+        { "text": "Residential streets are first, and parks and commercial areas follow a year later.", "misconception": null, "whyVi": "Đúng: \"banned on residential streets starting next April, and in parks and commercial areas a year after that\"." },
+        { "text": "It begins on December twelfth after the final vote.", "misconception": "number_confusion", "whyVi": "Ngày 12/12 là buổi họp phê duyệt cuối cùng, không phải ngày có hiệu lực." }
+      ],
+      "answerIndex": 2,
+      "evidence": "the blowers will be banned on residential streets starting next April, and in parks and commercial areas a year after that",
+      "explanationVi": "Bản tin có bốn mốc thời gian: April (khu dân cư), một năm sau (công viên, khu thương mại), January (đơn rebate), December 12 (phê duyệt cuối). Ghi nhãn cho từng mốc để không nhầm.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "leaf-blower-news",
+      "prompt": "What does Jordan Whitfield object to?",
+      "hint": "Whitfield nói hai câu. Câu thứ hai có cấu trúc \"he isn't against X, but he believes Y\" — ý phản đối thật nằm sau \"but\".",
+      "options": [
+        { "text": "The idea of moving away from gas equipment.", "misconception": "certainty_shift", "whyVi": "Ông nói rõ \"he isn't against the change itself\"." },
+        { "text": "How little time small businesses have to make the change.", "misconception": null, "whyVi": "Đúng: \"he believes the timeline is far too short for small operators\"." },
+        { "text": "The noise that battery equipment makes in parks.", "misconception": "wrong_attribution", "whyVi": "Tiếng ồn là lý do của Councillor Bianchi và cư dân, không phải điều Whitfield nói, và không liên quan đến thiết bị pin." },
+        { "text": "The size of the fines for breaking the ban.", "misconception": "wrong_attribution", "whyVi": "Mức phạt là thông tin của bản tin ở cuối, không phải ý kiến của Whitfield." }
+      ],
+      "answerIndex": 1,
+      "evidence": "He says he isn't against the change itself, but he believes the timeline is far too short for small operators.",
+      "explanationVi": "Mẫu \"isn't against X, but Y\": X không phải điều ông phản đối. \"The timeline is far too short\" → \"how little time small businesses have\". Con số 40.000 đô là bằng chứng ông đưa ra, không phải điều ông phản đối.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "leaf-blower-news",
+      "prompt": "What does the report say about the rebate?",
+      "hint": "Phần này có ba giới hạn: ai được xin, được bao nhiêu phần trăm, và tối đa bao nhiêu. Ghi nhãn `who / up to / max` rồi so với từng đáp án.",
+      "options": [
+        { "text": "It covers the full cost of battery equipment for any business.", "misconception": "partial_truth", "whyVi": "Sai hai chỗ: chỉ \"up to half\", và chỉ cho doanh nghiệp dưới 20 nhân viên." },
+        { "text": "It will give Whitfield's company forty thousand dollars.", "misconception": "number_confusion", "whyVi": "40.000 đô là chi phí ông ước tính; mức tối đa của rebate là 5.000 đô." },
+        { "text": "It is only available to residents who live near parks.", "misconception": "wrong_attribution", "whyVi": "Rebate dành cho doanh nghiệp, không phải cư dân." },
+        { "text": "Small businesses can get back up to half their costs, with a limit per business.", "misconception": null, "whyVi": "Đúng: \"fewer than twenty employees… up to half the cost… to a maximum of five thousand dollars per business\"." }
+      ],
+      "answerIndex": 3,
+      "evidence": "Businesses with fewer than twenty employees will be able to apply for a rebate covering up to half the cost of new battery-powered equipment, to a maximum of five thousand dollars per business.",
+      "explanationVi": "Đáp án đúng giữ đủ ba giới hạn: doanh nghiệp nhỏ (fewer than twenty employees), tối đa một nửa (up to half), có trần (maximum per business). Các đáp án nhiễu bỏ giới hạn hoặc lấy nhầm con số.",
+      "competency": "missed_info"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "leaf-blower-news",
+      "prompt": "According to the report, who described having to shut her windows early on weekends?",
+      "options": [
+        { "text": "Councillor Teresa Bianchi", "misconception": "wrong_attribution", "whyVi": "Bianchi nói về khiếu nại của cư dân nói chung và chất lượng không khí, không kể trải nghiệm của bản thân." },
+        { "text": "A city staff member responsible for parks", "misconception": "unsupported", "whyVi": "Bản tin không trích lời nhân viên công viên nào." },
+        { "text": "A woman who lives next to a park", "misconception": null, "whyVi": "Đúng: \"Resident Amira Haddad, who lives beside a park… she had to close all her windows before eight a.m.\"" },
+        { "text": "An employee of a landscaping company", "misconception": "wrong_attribution", "whyVi": "Người duy nhất liên quan đến landscaping là chủ doanh nghiệp Whitfield, và ông nói về chi phí." }
+      ],
+      "answerIndex": 2,
+      "evidence": "She said that on some Saturday mornings, she had to close all her windows before eight a.m.",
+      "explanationVi": "Câu hỏi attribution: tìm người + vai trò trong ghi chú. \"Resident… who lives beside a park\" được paraphrase thành \"a woman who lives next to a park\"; \"Saturday mornings\" → \"on weekends\".",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "leaf-blower-news",
+      "prompt": "What will happen at the council meeting on December twelfth?",
+      "options": [
+        { "text": "The ban will start to be enforced with fines.", "misconception": "number_confusion", "whyVi": "Ngày 12/12 chưa có hiệu lực; lệnh cấm bắt đầu từ tháng Tư." },
+        { "text": "Councillors will make a final decision, and the public can comment.", "misconception": null, "whyVi": "Đúng: \"still needs final approval… the public will have one more chance to comment\"." },
+        { "text": "Businesses will begin applying for the rebate.", "misconception": "number_confusion", "whyVi": "Đơn rebate mở vào tháng Một." },
+        { "text": "Council will vote on whether to raise the fines.", "misconception": "unsupported", "whyVi": "Không có thông tin về việc tăng mức phạt." }
+      ],
+      "answerIndex": 1,
+      "evidence": "The bylaw still needs final approval at a council meeting on December twelfth, where the public will have one more chance to comment.",
+      "explanationVi": "Đây là phần \"next steps\" ở cuối bản tin. \"Final approval\" → \"make a final decision\"; \"one more chance to comment\" → \"the public can comment\".",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "leaf-blower-news",
+      "prompt": "Based on the report, what can Jordan Whitfield's company expect from the rebate program?",
+      "options": [
+        { "text": "Nothing, because the program is only for companies without employees.", "misconception": "partial_truth", "whyVi": "Điều kiện là \"fewer than twenty employees\", không phải không có nhân viên." },
+        { "text": "Up to twenty thousand dollars, which is half of its costs.", "misconception": "number_confusion", "whyVi": "Một nửa của 40.000 là 20.000, nhưng có mức trần 5.000 đô mỗi doanh nghiệp." },
+        { "text": "It can apply, but it will receive no more than five thousand dollars.", "misconception": null, "whyVi": "Đúng: 12 nhân viên < 20 → đủ điều kiện; nhưng tối đa 5.000 đô." },
+        { "text": "The full forty thousand dollars, paid in January.", "misconception": "number_confusion", "whyVi": "Không có khoản hỗ trợ toàn bộ; January chỉ là lúc mở đơn." }
+      ],
+      "answerIndex": 2,
+      "evidence": "to a maximum of five thousand dollars per business",
+      "explanationVi": "Câu Level 8 yêu cầu kết hợp hai chỗ trong bản tin: Whitfield có \"twelve employees\" (đủ điều kiện < 20) và rebate có \"maximum of five thousand dollars per business\". Mức \"half the cost\" (20.000) bị giới hạn bởi trần 5.000.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "leaf-blower-news",
+      "prompt": "What does Councillor Bianchi say about residents' complaints?",
+      "options": [
+        { "text": "Noise was the biggest issue, though not the only one.", "misconception": null, "whyVi": "Đúng: \"noise was the main complaint from residents, but not the only one\"." },
+        { "text": "Air quality was the main complaint from residents.", "misconception": "partial_truth", "whyVi": "Chất lượng không khí là điểm Bianchi tự bổ sung, không phải khiếu nại chính của cư dân." },
+        { "text": "Most residents complained about the cost of the ban.", "misconception": "wrong_attribution", "whyVi": "Chi phí là mối lo của Whitfield, không phải khiếu nại của cư dân." },
+        { "text": "Very few residents had complained before the vote.", "misconception": "unsupported", "whyVi": "Không có thông tin về số lượng khiếu nại." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Councillor Teresa Bianchi, who introduced the motion, says noise was the main complaint from residents, but not the only one.",
+      "explanationVi": "\"The main complaint… but not the only one\" → \"the biggest issue, though not the only one\". Đáp án về air quality lẫn giữa \"điều cư dân phàn nàn nhiều nhất\" và \"lập luận bổ sung của Bianchi\".",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "on-demand-transit-news",
+      "prompt": "Why are the two bus routes being replaced?",
+      "options": [
+        { "text": "Seniors' groups asked for a more flexible service.", "misconception": "wrong_attribution", "whyVi": "Nhóm người cao tuổi lại là bên lo ngại về dịch vụ mới." },
+        { "text": "The buses only came once an hour, so drivers complained.", "misconception": "unsupported", "whyVi": "\"Once an hour\" là mô tả dịch vụ cũ; không có tài xế nào phàn nàn." },
+        { "text": "The city wants to reduce the transit budget.", "misconception": "certainty_shift", "whyVi": "Lefebvre dự kiến chi phí \"roughly the same\", không phải giảm ngân sách." },
+        { "text": "They carried too few passengers for what they cost to operate.", "misconception": null, "whyVi": "Đúng: \"fewer than six passengers per trip, which made them expensive to run\"." }
+      ],
+      "answerIndex": 3,
+      "evidence": "the two routes were carrying an average of fewer than six passengers per trip, which made them expensive to run",
+      "explanationVi": "Phần WHY của bản tin: ít khách (dưới 6 người/chuyến) → chi phí cao so với số người dùng. \"Least-used\" ở lead cũng là manh mối.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "on-demand-transit-news",
+      "prompt": "What does Hugo Lefebvre expect from the new service?",
+      "options": [
+        { "text": "It will cost much less and carry the same number of people.", "misconception": "certainty_shift", "whyVi": "Ngược lại: chi phí \"roughly the same\", số người tiếp cận \"far more\"." },
+        { "text": "It will cost about the same but serve many more riders.", "misconception": null, "whyVi": "Đúng: \"cost roughly the same, but to reach far more people\"." },
+        { "text": "It will be more expensive for riders than a regular ticket.", "misconception": "partial_truth", "whyVi": "Giá vé \"will stay the same as a regular bus ticket\"." },
+        { "text": "Its ridership will definitely grow by a quarter.", "misconception": "certainty_shift", "whyVi": "\"At least a quarter\" là ngưỡng đánh giá thử nghiệm, không phải dự đoán chắc chắn của Lefebvre." }
+      ],
+      "answerIndex": 1,
+      "evidence": "He expects the new service to cost roughly the same, but to reach far more people.",
+      "explanationVi": "\"Expects\" là dự đoán của Lefebvre; đáp án đúng giữ nguyên hai ý: \"roughly the same\" (chi phí) và \"far more people\" (người dùng).",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "on-demand-transit-news",
+      "prompt": "How does the transit planner respond to the seniors' concern?",
+      "options": [
+        { "text": "He says riders will be able to reserve a trip by phone every day of the week.", "misconception": null, "whyVi": "Đúng: \"the phone booking line will be staffed seven days a week\"." },
+        { "text": "He promises that the city will keep the old routes for seniors.", "misconception": "certainty_shift", "whyVi": "Không có lời hứa giữ tuyến cũ; chỉ \"will consider\" nếu lượng khách không tăng." },
+        { "text": "He admits that seniors may be left behind by the change.", "misconception": "wrong_attribution", "whyVi": "\"Left behind\" là nỗi lo của Margaret Olsen, không phải điều Lefebvre thừa nhận." },
+        { "text": "He offers seniors free smartphones to use the app.", "misconception": "unsupported", "whyVi": "Không có chương trình phát điện thoại." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Lefebvre responded that the phone booking line will be staffed seven days a week",
+      "explanationVi": "Động từ \"responded\" mở ra phần phản hồi của Lefebvre. Ông đưa ra hai giải pháp: đường dây đặt chuyến qua điện thoại có người trực 7 ngày, và tài xế hỗ trợ người dùng xe tập đi. \"Staffed seven days a week\" → \"every day of the week\".",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "on-demand-transit-news",
+      "prompt": "According to the report, what could happen if the pilot does not attract enough new riders?",
+      "options": [
+        { "text": "The city will definitely restore the old bus routes.", "misconception": "certainty_shift", "whyVi": "Quá chắc chắn: bản tin nói \"will consider bringing back\", không phải \"will bring back\"." },
+        { "text": "The pilot will be extended for another eighteen months.", "misconception": "number_confusion", "whyVi": "Mười tám tháng là thời gian của chính đợt thử nghiệm, không phải phần gia hạn." },
+        { "text": "The city may return to fixed routes.", "misconception": null, "whyVi": "Đúng: \"the city says it will consider bringing back the fixed routes\" — có thể, không chắc chắn." },
+        { "text": "Fares will be raised to cover the cost of the vans.", "misconception": "unsupported", "whyVi": "Không có thông tin về tăng giá vé." }
+      ],
+      "answerIndex": 2,
+      "evidence": "If ridership doesn't grow by at least a quarter, the city says it will consider bringing back the fixed routes.",
+      "explanationVi": "Câu Level 8 kiểm tra mức độ chắc chắn: \"will consider\" = sẽ cân nhắc → \"may\". Đáp án \"definitely restore\" đúng chủ đề nhưng sai mức độ, nên sai.",
+      "competency": "paraphrase"
+    }
+  ],
+  "misconceptions": {
+    "wrong_attribution": {
+      "label": "Gán ý kiến cho sai người",
+      "explanationVi": "Ý trong đáp án có xuất hiện trong bản tin, nhưng là lời của người khác (cư dân thay vì hội đồng, người phản đối thay vì quan chức). Bản tin chỉ có một giọng đọc nên rất dễ \"hoà\" tất cả ý kiến làm một — đây là lỗ hổng theo dõi nguồn thông tin.",
+      "fixVi": "Mỗi lần nghe một cái tên, ghi `Tên (vai trò): ý chính (+/−)`. Với câu hỏi \"According to X\" hoặc \"What does X say\", chỉ tìm trong dòng ghi chú của X."
+    },
+    "certainty_shift": {
+      "label": "Sai mức độ chắc chắn",
+      "explanationVi": "Đáp án mạnh hơn hoặc yếu hơn bản tin: biến \"will consider\" thành \"will\", \"is not against\" thành \"opposes\", \"roughly the same\" thành \"much less\". Bạn nắm đúng chủ đề nhưng bỏ qua từ chỉ mức độ — trong khi tin tức luôn chọn chữ rất cẩn thận.",
+      "fixVi": "Ghi lại động từ chỉ mức độ cùng thông tin (`expects ≈ same`, `will consider`, `at the earliest`). Trước khi chọn, so mức độ của đáp án với ghi chú: bằng nhau mới chọn."
+    },
+    "number_confusion": {
+      "label": "Nhầm con số hoặc mốc thời gian",
+      "explanationVi": "Bản tin có nhiều con số và ngày tháng; bạn chọn đúng con số có trong bài nhưng sai vai trò: tổng thay vì phần tăng, chi phí thay vì mức hỗ trợ, ngày họp thay vì ngày có hiệu lực, hoặc quên mức trần.",
+      "fixVi": "Ghi nhãn cho mọi con số: `total`, `+change`, `max`, `start`, `meeting`. Đọc câu hỏi xem nó hỏi nhãn nào, rồi mới tra ghi chú."
+    },
+    "partial_truth": {
+      "label": "Đúng một phần / bỏ giới hạn",
+      "explanationVi": "Đáp án chứa một phần thông tin đúng nhưng bỏ mất điều kiện, giới hạn, hoặc thổi một chi tiết lên thành ý chính (\"full cost\" thay vì \"up to half\"; một người phản đối thành \"companies are protesting\").",
+      "fixVi": "Kiểm tra từng phần của đáp án. Chỉ cần một phần sai (who, how much, how many) là cả đáp án sai. Với câu hỏi ý chính, đối chiếu với lead chứ không phải với một trích dẫn."
+    },
+    "unsupported": {
+      "label": "Thông tin không có trong bản tin",
+      "explanationVi": "Đáp án nghe hợp lý với chủ đề (tăng phạt, phát điện thoại, tài xế phàn nàn) nhưng bản tin không hề nói. Bạn đang lấp chỗ trống bằng suy đoán thay vì bằng bằng chứng.",
+      "fixVi": "Mỗi đáp án phải chỉ về được một câu cụ thể. Nếu không tìm được câu nào trong ghi chú hay trí nhớ, loại nó trước tiên."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "phase out", "vi": "loại bỏ dần", "example": "The province plans to phase out single-use plastic bags at grocery stores." },
+    { "term": "at the earliest", "vi": "sớm nhất là", "example": "The new SkyTrain station will open in 2028 at the earliest." },
+    { "term": "according to", "vi": "theo (lời ai / nguồn nào)", "example": "According to the fire chief, the blaze started in a parked truck." },
+    { "term": "raise concerns", "vi": "bày tỏ lo ngại", "example": "Parents raised concerns about the new school bus schedule." },
+    { "term": "welcome the decision", "vi": "hoan nghênh quyết định", "example": "Local cyclists welcomed the decision to add a protected bike lane." },
+    { "term": "is not against X itself, but…", "vi": "không phản đối X, nhưng…", "example": "She isn't against the new park itself, but she worries about parking." },
+    { "term": "rebate", "vi": "khoản hoàn tiền / trợ cấp hoàn lại", "example": "You can get a rebate when you replace your old furnace with a heat pump." },
+    { "term": "bylaw", "vi": "quy định của thành phố (luật địa phương)", "example": "The city's noise bylaw bans construction before 7 a.m." },
+    { "term": "pilot (project)", "vi": "chương trình thử nghiệm", "example": "The pilot will run for one year before the city decides whether to keep it." },
+    { "term": "will consider", "vi": "sẽ xem xét (chưa chắc sẽ làm)", "example": "The school board will consider adding a second French immersion class." }
+  ],
+  "grammar": [
+    {
+      "point": "Reported speech in news: says / told us / responded that",
+      "explanationVi": "Tin tức dùng động từ tường thuật để gán thông tin cho người nói. Chủ ngữ của động từ tường thuật cho biết đó là ý của ai; mệnh đề sau \"that\" là nội dung. Thì có thể lùi (said that it was…), nhưng người nghe chỉ cần xác định ai – nói gì – thái độ ra sao.",
+      "examples": [
+        "The mayor responded that the pool will reopen once repairs are finished.",
+        "A bakery owner told us that the road closure has cut her sales in half."
+      ]
+    },
+    {
+      "point": "Degrees of certainty: will / is expected to / could / will consider",
+      "explanationVi": "Mức độ chắc chắn giảm dần: will → is expected to / is likely to → could / may → will consider. Đáp án đúng phải cùng mức với bản tin.",
+      "examples": [
+        "The bridge will open in March. (chắc chắn)",
+        "The bridge is expected to open in March. (dự kiến)",
+        "The city will consider adding more benches. (chỉ xem xét)"
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Luyện Part 4 – News Item", "route": "/listening?task=L4" },
+    { "label": "Drill bắt thông tin bị bỏ sót", "route": "/listening?mode=drill&focus=missed_info" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Re-solved 4 guided + 8 independent items against l4-full-01 ch0 and both news clips; attribution, certainty and number keys are correct. Fixed: removed the factual-sounding \"one of the first cities on Vancouver Island\" claim, marked both Nanaimo and Kelowna clips as fictional reports in their titles, softened the \"4–5/5\" promise."}
+}

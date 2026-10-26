@@ -1,0 +1,341 @@
+{
+  "id": "rd-07",
+  "skill": "reading",
+  "module": "reading-techniques",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Locating evidence before you choose",
+  "titleVi": "Tìm bằng chứng trước khi chọn đáp án",
+  "estimatedMinutes": 30,
+  "prerequisites": ["rd-02", "rd-06"],
+  "competencies": ["detail", "paraphrase"],
+  "tasks": ["R1", "R2", "R3", "R4"],
+  "objectives": [
+    "You will be able to turn a question into keywords and locate the exact sentence that answers it before looking at the options.",
+    "You will be able to read the sentence before and after the keyword to catch corrections, contrasts and conditions.",
+    "You will be able to label every option True, False or Not stated and choose only the one you can prove."
+  ],
+  "objectiveVi": "Bạn sẽ có một quy trình cố định: câu hỏi → tìm vị trí → đọc câu trước và sau → khớp nghĩa → chứng minh từng đáp án Đúng / Sai / Không có. Chọn đáp án bằng bằng chứng, không bằng cảm giác.",
+  "whyItMattersVi": "Nhiều lỗi ở mức Reading 5 không phải do không hiểu tiếng Anh, mà do chọn quá sớm: đọc đáp án trước, thấy một đáp án 'nghe đúng' rồi chọn luôn, hoặc dừng ở câu đầu tiên có keyword trong khi câu tiếp theo sửa lại thông tin. Thói quen 'chứng minh trước, chọn sau' giúp bạn giữ điểm ở những câu dễ và là nền tảng để làm được câu khó ở Level 8.",
+  "concept": [
+    {
+      "heading": "Vì sao phải tìm bằng chứng TRƯỚC",
+      "body": "Nếu bạn đọc bốn đáp án trước khi đọc bài, đầu bạn sẽ chứa bốn ý — ba trong số đó là sai nhưng được viết rất thuyết phục. Khi quay lại bài, bạn có xu hướng 'thấy' bằng chứng cho đáp án mình đã thích. Đó là lý do người đọc ở mức 5–6 hay chọn đáp án hợp lý nhưng không có trong bài.\n\nCách làm đúng: **đọc câu hỏi (chưa đọc đáp án) → tìm câu trả lời trong bài → tự trả lời bằng lời của mình → rồi mới so với đáp án**. Đáp án đúng là đáp án khớp với bằng chứng, không phải đáp án nghe hay nhất."
+    },
+    {
+      "heading": "Quy trình 5 bước",
+      "body": "1. **Question → keywords.** Gạch từ dễ tìm: tên người, số, ngày, danh từ riêng (*Jas*, *May 1*, *laundry room*), và từ hỏi (*why*, *when*, *what must*).\n2. **Locate.** Lướt (scan) tìm keyword hoặc paraphrase của nó (bài 6). Trong Part 1 và Part 4, câu hỏi thường đi theo thứ tự của bài, nên câu trả lời trước giúp bạn đoán vị trí câu sau.\n3. **Read before and after.** Đọc trọn câu chứa keyword **và** câu ngay trước, ngay sau. Thông tin quan trọng hay nằm ở câu kế tiếp.\n4. **Answer in your own words.** Ví dụ: 'Gặp lúc 10:15 ở nhà cũ.'\n5. **Prove each option.** Gắn nhãn từng đáp án: **T** (True — có câu chứng minh), **F** (False — bài nói ngược lại), **NS** (Not stated — bài không nói). Chỉ chọn đáp án **T**."
+    },
+    {
+      "heading": "Tín hiệu ở câu trước và câu sau",
+      "body": "Những từ sau báo hiệu thông tin ở câu đầu **bị sửa, giới hạn hoặc đảo ngược**:\n\n- **Sửa lại:** *originally… but*, *actually*, *instead*, *now*, *update*, *make that*.\n- **Tương phản:** *however*, *but*, *still*, *that said*, *although*.\n- **Điều kiện / ngoại lệ:** *only*, *except*, *unless*, *if*, *as long as*, *outside (rush hours)*.\n- **Quy chiếu ngược:** *That's why*, *This means*, *For this reason* — câu trả lời nằm ở câu **trước**.\n\nVí dụ: 'I originally booked the truck for 9 a.m., but… let's meet… around 10:15 instead.' Nếu dừng ở '9 a.m.' bạn sẽ chọn sai. Đây là bẫy 'first match' — gặp keyword lần đầu là chọn."
+    },
+    {
+      "heading": "Bảng T / F / NS và cách xử lý đáp án 'một nửa đúng'",
+      "body": "Khi gắn nhãn, hãy kiểm tra **mọi phần** của đáp án. Một đáp án có hai ý mà chỉ một ý được chứng minh vẫn là **F hoặc NS**. Ví dụ: 'The elevator can be used any time on weekends' — có *elevator*, có *weekends*, nhưng 'any time' sai vì phải đặt trước và chỉ từ 12 giờ đến 5 giờ chiều.\n\n**NS khác F:** F là bài nói ngược lại; NS là bài không đề cập. Cả hai đều phải loại, nhưng phân biệt chúng giúp bạn làm Part 3, nơi lựa chọn E ('not given') là một đáp án thật.\n\n**Bẫy sai vị trí:** keyword có thể xuất hiện hai lần cho hai người hoặc hai tình huống khác nhau (nhà cũ / nhà mới; ngày thường / thứ Bảy). Luôn kiểm tra câu bằng chứng nói về **đúng đối tượng** trong câu hỏi."
+    }
+  ],
+  "stimuli": {
+    "moving-email": {
+      "title": "Email: Moving day",
+      "text": "Hi Minh,\n\nThanks again for offering to help with the move on Saturday. I originally booked the truck for 9 a.m., but the rental place called this morning and the earliest they can do now is 10:30, so let's meet at my old place around 10:15 instead.\n\nThe new apartment is in Burnaby, about twenty minutes from my current place in East Vancouver. The building has an elevator, but residents have to reserve it, and the strata only allows moves between noon and 5 p.m. on weekends. That's why timing matters so much.\n\nJas said she might come too, but she's working until 2, so she'll probably only make it for the unloading. Don't worry about lunch — my sister is bringing pizza. If you can, though, bring work gloves; the old couch has a few sharp staples underneath.\n\nTalk soon,\nKevin"
+    },
+    "clinic-notice": {
+      "title": "Notice: Updated walk-in hours",
+      "text": "Lonsdale Family Clinic — Updated walk-in hours\n\nBeginning November 3, walk-in appointments will be available Monday to Friday from 8 a.m. to noon only. Afternoons will be reserved for booked appointments, which can be made online or by phone.\n\nPatients who need a prescription renewal do not have to see a doctor in person if their medication has not changed in the past year; they can request a renewal through the patient portal, and it will usually be ready within three business days. However, renewals for controlled medications still require a visit.\n\nPlease note that the clinic no longer accepts walk-in patients on Saturdays. The nearest Saturday option is the Harbourside Urgent Care Centre, which is open until 8 p.m. Bring your BC Services Card to every visit; patients without it may be asked to reschedule."
+    },
+    "food-bank": {
+      "title": "Article: A new way to volunteer",
+      "text": "A. The Valley Food Bank in Abbotsford has changed how it schedules volunteers. Until last year, anyone could show up on a weekday morning and be given a task. Now, volunteers must book a two-hour shift online at least 48 hours ahead.\n\nB. Coordinator Luis Ortega says the change was not about controlling people. Walk-in volunteers sometimes outnumbered the available tasks, and on other days the warehouse had almost nobody. With bookings, staff can plan how many pallets to sort and how many hampers to pack.\n\nC. Some long-time volunteers were unhappy at first. Several seniors told the food bank they did not use computers, so the food bank now lets them book by phone. Ortega admits the phone line was added only after complaints.\n\nD. The results have been encouraging. In the first six months, the number of hampers packed per shift rose by about a third. The food bank is now planning a similar system for its holiday toy drive, though details have not been decided."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "The first match is not the answer",
+      "stimulusId": "moving-email",
+      "question": "What time should Minh arrive at Kevin's old place? (A) 9 a.m. (B) 10:15 a.m. (C) 10:30 a.m. (D) Noon.",
+      "steps": [
+        "Question first, options later. Keywords: 'what time', 'arrive', 'old place'.",
+        "Locate: the first time in the email is '9 a.m.' — but this is the first match, so I keep reading the whole sentence.",
+        "The same sentence continues: 'but the rental place called… the earliest they can do now is 10:30, so let's meet at my old place around 10:15 instead.' Two correction signals: 'originally… but' and 'instead'.",
+        "My own answer: meet at 10:15 at the old place (the truck comes at 10:30).",
+        "Label options: (A) F — the original plan, cancelled. (B) T — proved by 'meet at my old place around 10:15'. (C) F for this question — 10:30 is the truck time, a wrong detail. (D) F — noon is when the strata allows moves at the new building, a different place."
+      ],
+      "answer": "(B) 10:15 a.m.",
+      "takeawayVi": "Ba trong bốn đáp án là những con số CÓ trong bài. Chỉ đọc trọn câu và theo tín hiệu 'but… instead' mới thấy con số đúng."
+    },
+    {
+      "id": "ex2",
+      "title": "Labelling T / F / NS",
+      "stimulusId": "moving-email",
+      "question": "Which statement about the new building is true? (A) Residents can use the elevator whenever they like. (B) Moves are permitted on weekend afternoons. (C) It is in East Vancouver. (D) The elevator was recently repaired.",
+      "steps": [
+        "Keywords: 'new building' → paragraph 2 ('The new apartment…', 'The building has an elevator…').",
+        "Read the paragraph and the sentence after it: elevator must be reserved; moves only between noon and 5 p.m. on weekends; 'That's why timing matters'.",
+        "(A) F — 'residents have to reserve it' contradicts 'whenever they like'.",
+        "(B) T — 'between noon and 5 p.m. on weekends' = 'weekend afternoons' (paraphrase).",
+        "(C) F — East Vancouver is the CURRENT place; the new one is in Burnaby. Wrong location trap.",
+        "(D) NS — nothing about repairs. It sounds possible, but it cannot be proved."
+      ],
+      "answer": "(B) Moves are permitted on weekend afternoons.",
+      "takeawayVi": "Gắn nhãn T/F/NS cho TỪNG đáp án giúp bạn chắc chắn. Đáp án (C) là bẫy sai vị trí: tên địa danh có trong bài nhưng thuộc về nhà cũ."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "moving-email",
+      "prompt": "Why does Kevin say that timing matters so much?",
+      "hint": "'That's why' points backwards. The reason is in the sentence just before it.",
+      "options": [
+        { "text": "The truck rental office closes early on Saturdays.", "misconception": "not_stated_as_true", "whyVi": "Bài không nói giờ đóng cửa của tiệm cho thuê xe." },
+        { "text": "The new building only allows moves during certain hours.", "misconception": null, "whyVi": "Đúng: câu ngay trước 'That's why' nói strata chỉ cho chuyển nhà từ 12 giờ đến 5 giờ chiều cuối tuần." },
+        { "text": "Jas has to work until 2 p.m.", "misconception": "wrong_location", "whyVi": "Đây là thông tin ở đoạn sau, không phải lý do mà 'That's why' quy chiếu tới." },
+        { "text": "The drive between the two places is long.", "misconception": "memory_answer", "whyVi": "Bài nói khoảng 20 phút — không phải lý do được nêu, và không được mô tả là xa." }
+      ],
+      "answerIndex": 1,
+      "evidence": "the strata only allows moves between noon and 5 p.m. on weekends. That's why timing matters so much.",
+      "explanationVi": "Từ quy chiếu ngược 'That's why' bắt bạn đọc câu TRƯỚC. Nếu chỉ đọc câu chứa keyword 'timing', bạn sẽ không thấy lý do.",
+      "competency": "detail"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "moving-email",
+      "prompt": "What will Jas most likely help with?",
+      "hint": "Do not stop at 'she might come too'. Read the rest of the sentence after 'but'.",
+      "options": [
+        { "text": "Loading the truck at the old place.", "misconception": "first_match", "whyVi": "Bạn dừng ở 'might come too'. Phần sau cho biết cô ấy làm đến 2 giờ nên không kịp chất đồ lên xe." },
+        { "text": "Unloading at the new apartment.", "misconception": null, "whyVi": "Đúng: 'she'll probably only make it for the unloading'." },
+        { "text": "Bringing lunch for everyone.", "misconception": "wrong_location", "whyVi": "Người mang pizza là chị/em gái của Kevin, không phải Jas." },
+        { "text": "Driving the rental truck.", "misconception": "not_stated_as_true", "whyVi": "Không có ai được nói là lái xe tải." }
+      ],
+      "answerIndex": 1,
+      "evidence": "she's working until 2, so she'll probably only make it for the unloading",
+      "explanationVi": "Câu có 'might… but… so… only' — mỗi từ thu hẹp thông tin thêm một bước. Đáp án đúng nằm ở cuối câu, sau tín hiệu tương phản.",
+      "competency": "detail"
+    },
+    {
+      "id": "g3",
+      "type": "text",
+      "stimulusId": "moving-email",
+      "prompt": "What does Kevin ask Minh to bring? Type the item (1–2 words).",
+      "hint": "Lunch is mentioned first, but it is not Minh's job. Look for the sentence with the contrast word 'though'.",
+      "answers": ["work gloves", "gloves", "a pair of work gloves", "some work gloves"],
+      "mode": "exact",
+      "misconception": "wrong_location",
+      "explanationVi": "'If you can, though, bring work gloves' — 'though' báo hiệu yêu cầu thật sự sau câu 'Don't worry about lunch'. Lý do nằm ngay sau dấu chấm phẩy: ghim nhọn dưới ghế sofa.",
+      "competency": "detail"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "clinic-notice",
+      "prompt": "A patient wants to see a doctor without an appointment on a Tuesday at 2 p.m. What does the notice indicate?",
+      "hint": "Find the walk-in hours, then read the very next sentence about afternoons.",
+      "options": [
+        { "text": "They can be seen as a walk-in patient until 4 p.m.", "misconception": "not_stated_as_true", "whyVi": "Không có mốc 4 giờ chiều; walk-in chỉ đến 12 giờ trưa." },
+        { "text": "They will need to book an appointment for that time.", "misconception": null, "whyVi": "Đúng: buổi chiều chỉ dành cho lịch hẹn đã đặt." },
+        { "text": "They should go to the Harbourside Urgent Care Centre.", "misconception": "wrong_location", "whyVi": "Trung tâm này được giới thiệu cho thứ Bảy, không phải chiều thứ Ba." },
+        { "text": "They can request a visit through the patient portal.", "misconception": "wrong_location", "whyVi": "Patient portal dùng để xin gia hạn đơn thuốc, không phải để khám walk-in." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Afternoons will be reserved for booked appointments",
+      "explanationVi": "Câu đầu cho biết walk-in chỉ buổi sáng ('only'); câu ngay sau cho biết buổi chiều dành cho lịch hẹn. Hai câu cạnh nhau tạo thành câu trả lời đầy đủ.",
+      "competency": "detail"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "clinic-notice",
+      "prompt": "A patient has taken the same blood pressure medication (not a controlled medication) for three years and needs a renewal. What can the patient do?",
+      "options": [
+        { "text": "Request the renewal online without seeing a doctor.", "misconception": null, "whyVi": "Đúng: thuốc không đổi trong năm qua → 'request a renewal through the patient portal', không cần gặp bác sĩ." },
+        { "text": "Book a visit, because all renewals require one.", "misconception": "wrong_location", "whyVi": "Câu 'still require a visit' chỉ áp dụng cho thuốc kiểm soát (controlled), không phải mọi loại thuốc." },
+        { "text": "Pick up the renewed prescription the same day.", "misconception": "memory_answer", "whyVi": "Bài nói thường mất 'within three business days', không phải trong ngày." },
+        { "text": "Get it renewed as a walk-in patient on Saturday.", "misconception": "wrong_location", "whyVi": "Phòng khám không còn nhận walk-in vào thứ Bảy." }
+      ],
+      "answerIndex": 0,
+      "evidence": "they can request a renewal through the patient portal",
+      "explanationVi": "Câu 'However…' ngay sau là ngoại lệ cho thuốc kiểm soát. Đề bài đã cho biết thuốc không thuộc loại đó, nên ngoại lệ không áp dụng. Luôn kiểm tra điều kiện của câu bằng chứng.",
+      "competency": "detail"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "clinic-notice",
+      "prompt": "What may happen to a patient who arrives without a BC Services Card?",
+      "options": [
+        { "text": "They will be refused any care at the clinic.", "misconception": "memory_answer", "whyVi": "Quá mạnh: bài chỉ nói 'may be asked to reschedule', không phải bị từ chối mọi dịch vụ." },
+        { "text": "They might have to come back another time.", "misconception": null, "whyVi": "Đúng: 'may be asked to reschedule' = có thể phải hẹn lại lần khác." },
+        { "text": "They will have to pay a fee for the visit.", "misconception": "not_stated_as_true", "whyVi": "Không có thông tin về phí." },
+        { "text": "They will be sent to the urgent care centre.", "misconception": "wrong_location", "whyVi": "Trung tâm khẩn cấp được nhắc trong câu về thứ Bảy, không liên quan đến thẻ." }
+      ],
+      "answerIndex": 1,
+      "evidence": "patients without it may be asked to reschedule",
+      "explanationVi": "Từ 'may' giữ mức độ 'có thể'. Đáp án đúng giữ đúng mức đó bằng 'might'. Đáp án nói 'will be refused' mạnh hơn bằng chứng nên phải loại.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "clinic-notice",
+      "prompt": "Which statement is NOT stated in the notice?",
+      "options": [
+        { "text": "Booked appointments can be made by phone.", "misconception": "not_stated_as_true", "whyVi": "Có trong bài: 'which can be made online or by phone'. Câu hỏi tìm điều KHÔNG có." },
+        { "text": "Walk-in hours on weekdays end at noon.", "misconception": "not_stated_as_true", "whyVi": "Có trong bài: 'Monday to Friday from 8 a.m. to noon only'." },
+        { "text": "The urgent care centre accepts patients without a BC Services Card.", "misconception": null, "whyVi": "Đúng (là điều không được nêu): bài chỉ nói về thẻ khi đến phòng khám này, không nói gì về chính sách của trung tâm khẩn cấp." },
+        { "text": "A renewal requested through the portal is normally processed within a few working days.", "misconception": "not_stated_as_true", "whyVi": "Có trong bài dưới dạng paraphrase: 'it will usually be ready within three business days' (usually = normally, business days = working days)." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Với câu hỏi NOT stated, quy trình đảo lại: tìm bằng chứng cho từng đáp án và loại những đáp án chứng minh được — kể cả khi bằng chứng đã được paraphrase ('usually ready within three business days' = 'normally processed within a few working days'). Đáp án còn lại, không có câu nào chứng minh, mới là đáp án đúng.",
+      "competency": "detail"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "food-bank",
+      "prompt": "Which paragraph contains this information? 'Volunteers are now required to reserve a shift at least two days in advance.'",
+      "options": [
+        { "text": "Paragraph A", "misconception": null, "whyVi": "Đúng: 'must book a two-hour shift online at least 48 hours ahead' — 48 hours = two days." },
+        { "text": "Paragraph B", "misconception": "wrong_location", "whyVi": "Đoạn B nói đến 'bookings' nhưng là lý do của thay đổi, không nêu hạn đặt trước." },
+        { "text": "Paragraph C", "misconception": "wrong_location", "whyVi": "Đoạn C nói về đặt qua điện thoại, không nói thời hạn hai ngày." },
+        { "text": "Paragraph D", "misconception": "wrong_location", "whyVi": "Đoạn D nói về kết quả và kế hoạch tương lai." },
+        { "text": "E — Not given", "misconception": "not_stated_as_true", "whyVi": "Thông tin có trong đoạn A, chỉ được diễn đạt bằng số giờ." }
+      ],
+      "answerIndex": 0,
+      "evidence": "volunteers must book a two-hour shift online at least 48 hours ahead",
+      "explanationVi": "Từ khóa 'book/booking' xuất hiện ở B, C và A. Chỉ chi tiết 'two days in advance' = '48 hours ahead' mới xác định đúng đoạn.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "food-bank",
+      "prompt": "Which paragraph contains this information? 'The food bank adjusted its system in response to concerns from older volunteers.'",
+      "options": [
+        { "text": "Paragraph A", "misconception": "wrong_location", "whyVi": "Đoạn A mô tả hệ thống mới, không nói về phản hồi của người lớn tuổi." },
+        { "text": "Paragraph B", "misconception": "wrong_location", "whyVi": "Đoạn B giải thích lý do ban đầu của thay đổi." },
+        { "text": "Paragraph C", "misconception": null, "whyVi": "Đúng: 'Several seniors told the food bank they did not use computers, so the food bank now lets them book by phone.'" },
+        { "text": "Paragraph D", "misconception": "wrong_location", "whyVi": "Đoạn D nói về kết quả, không nói về người cao tuổi." },
+        { "text": "E — Not given", "misconception": "not_stated_as_true", "whyVi": "Có trong đoạn C dưới dạng paraphrase: seniors = older volunteers." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Several seniors told the food bank they did not use computers, so the food bank now lets them book by phone.",
+      "explanationVi": "'Seniors' = 'older volunteers'; 'lets them book by phone' = 'adjusted its system'; 'added only after complaints' xác nhận 'in response to concerns'.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "food-bank",
+      "prompt": "Which paragraph contains this information? 'The new system has made volunteer time more productive.'",
+      "options": [
+        { "text": "Paragraph A", "misconception": "wrong_location", "whyVi": "Đoạn A chỉ mô tả cách đặt ca." },
+        { "text": "Paragraph B", "misconception": "first_match", "whyVi": "Đoạn B nói nhân viên CÓ THỂ lên kế hoạch tốt hơn — đó là mục tiêu, chưa phải kết quả đã chứng minh." },
+        { "text": "Paragraph C", "misconception": "wrong_location", "whyVi": "Đoạn C nói về phản ứng của tình nguyện viên lâu năm." },
+        { "text": "Paragraph D", "misconception": null, "whyVi": "Đúng: số giỏ hàng đóng được mỗi ca tăng khoảng một phần ba." },
+        { "text": "E — Not given", "misconception": "not_stated_as_true", "whyVi": "Có bằng chứng bằng số liệu ở đoạn D." }
+      ],
+      "answerIndex": 3,
+      "evidence": "the number of hampers packed per shift rose by about a third",
+      "explanationVi": "'More productive' là paraphrase chung cho một con số cụ thể. Đoạn B có ý gần giống nhưng chỉ là kế hoạch ('can plan'); câu phát biểu nói về kết quả đã xảy ra ('has made').",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "food-bank",
+      "prompt": "Which paragraph contains this information? 'Volunteers must complete a training session before their first shift.'",
+      "options": [
+        { "text": "Paragraph A", "misconception": "first_match", "whyVi": "Đoạn A có 'shift' và 'must', nhưng yêu cầu là đặt ca, không phải đào tạo." },
+        { "text": "Paragraph B", "misconception": "not_stated_as_true", "whyVi": "Đoạn B không đề cập việc huấn luyện." },
+        { "text": "Paragraph C", "misconception": "not_stated_as_true", "whyVi": "Đoạn C nói về đặt ca qua điện thoại." },
+        { "text": "Paragraph D", "misconception": "first_match", "whyVi": "Đoạn D có 'per shift' nhưng nói về năng suất." },
+        { "text": "E — Not given", "misconception": null, "whyVi": "Đúng: không đoạn nào nói về đào tạo. Trùng từ 'must' và 'shift' không đủ làm bằng chứng." }
+      ],
+      "answerIndex": 4,
+      "explanationVi": "Level 8: các từ 'must' và 'shift' xuất hiện ở A và D, khiến bạn muốn chọn ngay. Nhưng ý chính của câu là 'training' — không đoạn nào chứng minh được, nên đáp án là E.",
+      "competency": "detail"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "food-bank",
+      "prompt": "Which paragraph contains this information? 'The scheduling change was meant to avoid having too many or too few helpers on a given day.'",
+      "options": [
+        { "text": "Paragraph A", "misconception": "first_match", "whyVi": "Đoạn A cho biết thay đổi là GÌ, không giải thích VÌ SAO." },
+        { "text": "Paragraph B", "misconception": null, "whyVi": "Đúng: 'Walk-in volunteers sometimes outnumbered the available tasks, and on other days the warehouse had almost nobody.'" },
+        { "text": "Paragraph C", "misconception": "wrong_location", "whyVi": "Đoạn C nói về phản ứng sau thay đổi, không phải mục đích." },
+        { "text": "Paragraph D", "misconception": "wrong_location", "whyVi": "Đoạn D nói về kết quả và kế hoạch cho đợt quyên góp đồ chơi." },
+        { "text": "E — Not given", "misconception": "not_stated_as_true", "whyVi": "Lý do được nêu rõ ở đoạn B." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Walk-in volunteers sometimes outnumbered the available tasks, and on other days the warehouse had almost nobody.",
+      "explanationVi": "Level 8: 'too many' = 'outnumbered the available tasks'; 'too few' = 'had almost nobody'. Câu hỏi về MỤC ĐÍCH nên phải tìm đoạn chứa lý do, không phải đoạn mô tả thay đổi.",
+      "competency": "paraphrase"
+    }
+  ],
+  "misconceptions": {
+    "first_match": {
+      "label": "Chọn theo lần gặp keyword đầu tiên",
+      "explanationVi": "Bạn dừng đọc ngay khi thấy keyword (hoặc một từ trùng) mà không đọc hết câu và câu kế tiếp, nơi thông tin bị sửa, giới hạn hoặc thay đổi (originally… but, instead, only, however).",
+      "fixVi": "Mỗi khi tìm thấy keyword, bắt buộc đọc trọn câu đó và câu ngay sau. Khoanh các từ but, instead, however, only, still trước khi kết luận."
+    },
+    "memory_answer": {
+      "label": "Trả lời theo trí nhớ / ấn tượng",
+      "explanationVi": "Bạn chọn theo ấn tượng chung sau khi đọc (ví dụ 'chắc là bị từ chối', 'chắc là trong ngày') thay vì quay lại câu bằng chứng. Ấn tượng thường mạnh hơn hoặc sai lệch so với bài.",
+      "fixVi": "Không trả lời khi chưa chỉ được câu bằng chứng. Quay lại bài, đặt ngón tay (hoặc con trỏ) lên câu đó, rồi so mức độ: may/will, usually/always."
+    },
+    "not_stated_as_true": {
+      "label": "Coi điều 'hợp lý' là có trong bài",
+      "explanationVi": "Bạn chấp nhận một đáp án vì nó nghe hợp lý hoặc đúng ngoài đời, dù bài không nói — hoặc ngược lại, chọn 'not given' khi thông tin có nhưng được paraphrase. Bạn chưa phân biệt được True / False / Not stated.",
+      "fixVi": "Gắn nhãn T / F / NS cho từng đáp án. Chỉ T mới được chọn; NS luôn bị loại (trừ khi đáp án chính là 'not given'). Trước khi chọn E, thử tìm paraphrase của keyword trong cả bốn đoạn."
+    },
+    "wrong_location": {
+      "label": "Tìm sai chỗ / sai đối tượng",
+      "explanationVi": "Thông tin bạn dùng có trong bài nhưng thuộc về người khác, nơi khác hoặc tình huống khác (nhà cũ vs nhà mới, thứ Bảy vs ngày thường, thuốc thường vs thuốc kiểm soát).",
+      "fixVi": "Sau khi tìm được câu bằng chứng, kiểm tra chủ ngữ và điều kiện của câu đó có trùng với người/tình huống trong câu hỏi không."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "originally … but … instead", "vi": "ban đầu … nhưng … thay vào đó (báo hiệu thông tin bị sửa)", "example": "We originally planned a picnic at Stanley Park, but it rained, so we went to the aquarium instead." },
+    { "term": "That's why …", "vi": "Đó là lý do … (lý do nằm ở câu trước)", "example": "The ferry was full. That's why we got home so late." },
+    { "term": "still (contrast)", "vi": "dù vậy vẫn …", "example": "The gym is busy in January. Still, mornings are usually quiet." },
+    { "term": "no longer", "vi": "không còn … nữa (hàm ý trước đây có)", "example": "The library no longer charges late fees for children's books." },
+    { "term": "be reserved for", "vi": "được dành riêng cho", "example": "The front parking spots are reserved for customers with accessible permits." },
+    { "term": "at least 48 hours ahead / in advance", "vi": "trước ít nhất 48 giờ", "example": "Please cancel your swim lesson at least 48 hours ahead to get a credit." },
+    { "term": "make it (for something)", "vi": "đến kịp / tham dự được", "example": "I'm working late, so I'll only make it for dessert." },
+    { "term": "however / except / unless", "vi": "tuy nhiên / ngoại trừ / trừ khi (báo hiệu ngoại lệ)", "example": "Parking is free on Sundays, except during the Christmas market." }
+  ],
+  "grammar": [
+    {
+      "point": "Reference words that point back",
+      "explanationVi": "That's why, This means, For this reason, which… luôn nối với ý ở câu trước. Khi câu hỏi hỏi 'why' và bạn tìm thấy 'That's why', câu trả lời nằm ở câu đứng TRƯỚC.",
+      "examples": [
+        "The bridge is closed for repairs. That's why traffic on Main Street is so heavy.",
+        "Walk-in volunteers sometimes outnumbered the tasks. This is why bookings were introduced."
+      ]
+    },
+    {
+      "point": "Correction and limiting signals",
+      "explanationVi": "Originally … but, instead, only, however, still đổi hoặc giới hạn thông tin vừa nêu. Thông tin đúng cuối cùng thường đứng SAU tín hiệu này.",
+      "examples": [
+        "The meeting was originally on Monday, but it has moved to Wednesday instead.",
+        "Walk-ins are welcome from 8 a.m. to noon only."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Drill: detail questions", "route": "/reading?mode=drill&focus=detail" },
+    { "label": "Part 1: Reading Correspondence", "route": "/reading?task=R1" },
+    { "label": "Part 3: Reading for Information", "route": "/reading?task=R3" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 items; A-D/E matching i4-i8 checked paragraph by paragraph (E correct only for i7, no paragraph mentions training). Fixed i3 (NOT stated): option D was itself only implied (\"no longer\"), making two options defensible; replaced it with a paraphrased stated fact and remapped misconceptions."}
+}

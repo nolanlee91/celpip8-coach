@@ -1,0 +1,677 @@
+{
+  "id": "ls-02",
+  "skill": "listening",
+  "module": "listening-foundations",
+  "level": "foundation",
+  "difficulty": 6,
+  "title": "Numbers, dates, times and instructions",
+  "titleVi": "Nghe số, ngày, giờ và hướng dẫn",
+  "estimatedMinutes": 30,
+  "prerequisites": [],
+  "competencies": [
+    "missed_info",
+    "similar_choices"
+  ],
+  "tasks": [
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "objectives": [
+    "You will be able to tell -teen and -ty numbers apart (thirteen vs thirty) and understand prices, phone and reference numbers as they are spoken.",
+    "You will be able to understand times and dates said in different ways (quarter to eight, the twenty-first, 48 hours' notice).",
+    "You will be able to catch corrections such as \"Actually, make that…\" and keep only the final information.",
+    "You will be able to follow multi-step instructions in the order the actions happen."
+  ],
+  "objectiveVi": "Sau bài này, bạn nghe chính xác số, giá tiền, giờ, ngày và mã số; nhận ra khi người nói sửa lại thông tin; và theo dõi được một chuỗi hướng dẫn nhiều bước theo đúng thứ tự thực hiện.",
+  "whyItMattersVi": "Ở Part 1–3, nhiều câu hỏi hỏi đúng một con số, một mốc giờ hay một bước làm, và các đáp án thường gần giống nhau ($13 / $30, thứ Năm / thứ Sáu). Ở Listening 6, lỗi phổ biến không phải là không hiểu bài, mà là ghi nhầm số, giữ thông tin đầu tiên thay vì thông tin đã sửa, hoặc gắn số với sai đối tượng. Sửa được các lỗi này giúp bạn lấy lại những câu “dễ” bị mất, một bước quan trọng để từ 6 lên 8.",
+  "concept": [
+    {
+      "heading": "Vì sao số liệu dễ nghe sai?",
+      "body": "Số được nói nhanh, chỉ một lần, và thường nằm giữa nhiều số khác: giá dịch vụ, giá phụ tùng, tổng tiền, giờ mở cửa ngày thường và cuối tuần. Câu hỏi CELPIP về số hầu như luôn có **đáp án nhiễu là những số khác cũng xuất hiện trong bài** (similar choices). Vì vậy, nghe được số thôi chưa đủ, bạn phải biết **số đó thuộc về cái gì**.\n\nThói quen cần có: mỗi khi nghe số, ghi kèm một từ khoá: *pads 30*, *tune-up 79*, *Sat → 6*. Một con số không có “nhãn” gần như vô dụng khi đọc câu hỏi."
+    },
+    {
+      "heading": "-teen hay -ty? Và cách nói giá tiền, mã số",
+      "body": "**13–19 vs 30–90** là cặp nhầm kinh điển:\n- *thirTEEN*: trọng âm ở cuối, âm *-teen* dài và kết thúc bằng **/n/** rõ.\n- *THIRty*: trọng âm ở đầu; trong giọng Canada, *t* đứng sau nguyên âm hoặc âm *r* và trước nguyên âm không nhấn thường nghe như một âm *d* nhẹ (*thirdy, fordy*), và **không có /n/ ở cuối**.\n- Trong câu, trọng âm có thể dịch chuyển (*THIRteen DOLlars*), nên hãy dựa vào âm **/n/ cuối** là chắc nhất.\n\n**Giá tiền:** *a hundred and nine* = 109; *nineteen ninety-nine* = $19.99; *a buck fifty* = $1.50; *you're looking at…* = tổng sẽ khoảng…; *plus tax* = chưa gồm thuế.\n\n**Mã số và số điện thoại** thường đọc từng chữ số: *oh* = 0, *double seven* = 77. Số phòng hay hộp thư có thể đọc theo cặp: *four-fifty* = 450, *two-thirty* = 230."
+    },
+    {
+      "heading": "Giờ và ngày: nhiều cách nói cho cùng một thông tin",
+      "body": "- **Giờ:** *quarter to eight* = 7:45; *quarter past* = :15; *half past five* = 5:30; *ten-fifteen* = 10:15; *noon* = 12 giờ trưa. *By two* = muộn nhất lúc 2 giờ; *after four* = sau 4 giờ.\n- **Ngày:** *the twenty-first*, *March third*, *Tuesday the fourteenth*. Chú ý *this Saturday* (thứ Bảy tuần này) vs *next Saturday* (thường là thứ Bảy tuần sau), *the week after next* (hai tuần nữa).\n- **Khoảng thời gian:** *Monday to Saturday* (không có Chủ nhật), *between nine and four*, *at least forty-eight hours' notice* (phải báo trước ít nhất 48 giờ): bạn phải **tính ngược** từ ngày sự kiện.\n\nCâu hỏi khó thường bắt bạn **kết hợp** hai thông tin: giờ mở cửa + ngày trong tuần, giá đơn vị + mức tối thiểu."
+    },
+    {
+      "heading": "Lời sửa: chỉ thông tin cuối cùng mới tính",
+      "body": "Người nói tự nhiên hay sửa lại: *Actually, make that Friday.* / *Sorry, no, two-thirty.* / *Oh, hang on…* / *Let's make that Wednesday instead.* / *I mean…* / *Scratch that.*\n\nCELPIP rất thích đưa **thông tin trước khi sửa** vào đáp án nhiễu, vì người nghe ghi nó trước tiên. Cách xử lý:\n1. Nghe thấy tín hiệu sửa, lập tức **gạch** thông tin cũ trong ghi chú.\n2. Ghi thông tin mới bên cạnh, kèm dấu ✓.\n3. Chú ý cái gì **không đổi**: *same time*, *same place*. Nhiều khi chỉ ngày thay đổi còn giờ giữ nguyên."
+    },
+    {
+      "heading": "Hướng dẫn nhiều bước",
+      "body": "Ở Part 3 (Information) và Part 1, bạn hay nghe một người hướng dẫn cách làm việc gì đó. Hãy bám vào **từ chỉ trình tự**: *First, Next, Then, After that, Once you…, Before you…, Finally*.\n\nBẫy quan trọng: **thứ tự được nhắc ≠ thứ tự thực hiện**. *Pay at the kiosk after your bins are weighed* nhắc việc trả tiền **trước** nhưng nó lại xảy ra **sau** việc cân. Tương tự, *Before you come in, text me*: việc nhắn tin được nói sau nhưng phải làm trước khi vào nhà.\n\nGhi chú hướng dẫn bằng mũi tên: *park → bin → sort → scale → kiosk → return bin*. Những thông tin song song (ví dụ: lon chai đổi tiền ở quầy bên trái) ghi riêng một dòng để không làm rối chuỗi chính."
+    }
+  ],
+  "stimuli": {
+    "ex-clinic-booking": {
+      "title": "Booking a clinic appointment",
+      "audio": [
+        {
+          "speaker": "Receptionist",
+          "voice": "female_a",
+          "text": "Okay, Mr. Nguyen, I've got you down with Dr. Patel on Tuesday the fourteenth at two-fifteen. Oh, actually, hang on. She's at our other clinic on Tuesdays. Let's make that Wednesday the fifteenth, same time. When you get here, take the elevator to the fourth floor, suite four-fifty, and check in at the kiosk."
+        },
+        {
+          "speaker": "Mr. Nguyen",
+          "voice": "male_a",
+          "text": "Sorry, was that four-fifteen or four-fifty?"
+        },
+        {
+          "speaker": "Receptionist",
+          "voice": "female_a",
+          "text": "Four-five-zero. Fifty. And since the appointment's at two-fifteen, try to be here by two."
+        }
+      ]
+    },
+    "ex-directions": {
+      "title": "A friend's directions",
+      "audio": [
+        {
+          "speaker": "Kevin",
+          "voice": "male_a",
+          "text": "Hey, it's Kevin. So, directions for Saturday. Take the SkyTrain to Lougheed Town Centre, then transfer to the bus. Not the first bus you see, you want the one heading north up the hill. Get off at the third stop, right after the gas station. Once you're off, cross the street and walk about two blocks until you see a blue townhouse complex. Before you come in, text me, because the buzzer's broken and I'll come down and let you in."
+        }
+      ]
+    },
+    "bike-shop-call": {
+      "title": "A call to a bike shop",
+      "audio": [
+        {
+          "speaker": "Sam",
+          "voice": "male_a",
+          "text": "Spoke and Gear, this is Sam."
+        },
+        {
+          "speaker": "Aisha",
+          "voice": "female_a",
+          "text": "Hi, I dropped off my bike this morning, the green commuter bike? I'm just wondering what the damage is going to be."
+        },
+        {
+          "speaker": "Sam",
+          "voice": "male_a",
+          "text": "Right, the green one. So a basic tune-up is seventy-nine dollars. Your brake pads are pretty worn down too, and new ones are thirty dollars for the pair. So you're looking at a hundred and nine, plus tax."
+        },
+        {
+          "speaker": "Aisha",
+          "voice": "female_a",
+          "text": "Okay, that's fine. Go ahead with both. When can I pick it up?"
+        },
+        {
+          "speaker": "Sam",
+          "voice": "male_a",
+          "text": "It should be ready Thursday after four. Oh, actually, make that Friday morning. Our other mechanic is off on Thursday, so it'll just be me. We open at nine-thirty."
+        }
+      ]
+    },
+    "pharmacy-voicemail": {
+      "title": "Voicemail from a pharmacy",
+      "audio": [
+        {
+          "speaker": "Pharmacy assistant",
+          "voice": "female_b",
+          "text": "Hi, this is a message for Thomas Leclerc from Harbourview Pharmacy. Your prescription is ready for pickup. Just a reminder that our hours changed this month. We're now open until nine on weekdays, but only until six on Saturdays, and we're closed on Sundays. When you come in, please give the pharmacist your reference number, which is four, one, double seven. Again, that's four-one-seven-seven. If you have any questions, just give us a call. Have a great day."
+        }
+      ]
+    },
+    "potluck-plan": {
+      "title": "Planning a potluck",
+      "audio": [
+        {
+          "speaker": "Mei",
+          "voice": "female_a",
+          "text": "So, are we still doing the potluck this Saturday?"
+        },
+        {
+          "speaker": "Ryan",
+          "voice": "male_b",
+          "text": "Actually, a few people can't make it this weekend. What about next Saturday instead?"
+        },
+        {
+          "speaker": "Mei",
+          "voice": "female_a",
+          "text": "Next Saturday is the twenty-second, right?"
+        },
+        {
+          "speaker": "Ryan",
+          "voice": "male_b",
+          "text": "No, the twenty-second is a Sunday. Saturday's the twenty-first."
+        },
+        {
+          "speaker": "Mei",
+          "voice": "female_a",
+          "text": "Oh, right. The twenty-first works for me. What time were you thinking?"
+        },
+        {
+          "speaker": "Ryan",
+          "voice": "male_b",
+          "text": "People could start showing up around five-thirty, and we'll eat at six. Oh, and could you bring something vegetarian? We already have way too many desserts."
+        },
+        {
+          "speaker": "Mei",
+          "voice": "female_a",
+          "text": "Sure, I'll make a big pot of vegetable curry."
+        }
+      ]
+    },
+    "depot-instructions": {
+      "title": "Recycling depot instructions",
+      "audio": [
+        {
+          "speaker": "Announcer",
+          "voice": "narrator",
+          "text": "Welcome to the Eastside Recycling Depot. Here's how drop-off works. First, park in the yellow lane and take a sorting bin from the rack. Sort your items before you go inside: glass in one bin, soft plastics like bags and wrap in another. Next, bring your bins to the scale by the main door, where staff will weigh them. Refundable containers like cans and bottles go to the counter on the left, and you'll get your deposit back in cash. After that, pay for any non-refundable items at the kiosk. It's fifty cents per kilogram, with a two-dollar minimum. Finally, return your empty bins to the rack before you leave."
+        }
+      ]
+    },
+    "move-in-chat": {
+      "title": "Moving into a new apartment",
+      "audio": [
+        {
+          "speaker": "Gloria",
+          "voice": "female_a",
+          "text": "Okay, Hassan, welcome to the building. Here are your two fobs. They open the front door, the parkade and the gym. Your mailbox is number two-thirteen. Sorry, no, two-thirty. I always mix those up. Thirty."
+        },
+        {
+          "speaker": "Hassan",
+          "voice": "male_a",
+          "text": "Two-thirty, got it. And where do I park?"
+        },
+        {
+          "speaker": "Gloria",
+          "voice": "female_a",
+          "text": "You're on P2, stall eighty-four. Visitors can use the spots by the entrance, but only for up to three hours. Now, for your move on Saturday, you'll need to book the freight elevator. Bookings are between nine and four, Monday to Saturday, and we need at least forty-eight hours' notice. So for Saturday, that means booking by Thursday morning at the latest."
+        },
+        {
+          "speaker": "Hassan",
+          "voice": "male_a",
+          "text": "Okay. Is there a deposit?"
+        },
+        {
+          "speaker": "Gloria",
+          "voice": "female_a",
+          "text": "Yes, a two-hundred-dollar damage deposit for the elevator. You'll get it back once I've checked the elevator after your move."
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "ls02-ex1",
+      "title": "Keeping only the corrected date and decoding a room number",
+      "stimulusId": "ex-clinic-booking",
+      "question": "When and where is Mr. Nguyen's appointment, and when should he arrive?",
+      "steps": [
+        "First note: \"Tue 14, 2:15\". Then the receptionist says \"Oh, actually, hang on\": a correction signal. Cross out \"Tue 14\".",
+        "\"Let's make that Wednesday the fifteenth, same time.\" New note: \"Wed 15 ✓\". \"Same time\" means 2:15 does not change.",
+        "\"Suite four-fifty\" could be heard as 415. Mr. Nguyen asks, and she answers digit by digit: \"Four-five-zero. Fifty.\" Note: suite 450, fourth floor.",
+        "Last line: \"try to be here by two.\" \"By two\" means no later than 2:00. That is the arrival time, which is different from the appointment time (2:15).",
+        "Likely distractors: Tuesday the 14th (before the correction), suite 415 (teen/ty confusion), arrive at 2:15 (wrong reference)."
+      ],
+      "answer": "Wednesday the 15th at 2:15, suite 450 on the fourth floor; he should arrive by 2:00.",
+      "takeawayVi": "Tín hiệu sửa (“actually, hang on… let's make that…”) báo bạn phải gạch thông tin cũ. Cụm “same time” cho biết phần nào giữ nguyên. Luôn ghi nhãn cho từng con số: giờ hẹn khác với giờ nên đến."
+    },
+    {
+      "id": "ls02-ex2",
+      "title": "Turning spoken directions into an ordered list",
+      "stimulusId": "ex-directions",
+      "question": "List Kevin's directions in the order the listener should do them.",
+      "steps": [
+        "Listen for sequence words: \"then\", \"Once you're off\", \"until\", \"Before you come in\". Each one starts a new step.",
+        "Write arrows as you listen: SkyTrain → Lougheed → bus heading north (not the first one) → 3rd stop after gas station → cross street → 2 blocks → blue townhouses.",
+        "\"Before you come in, text me\" is mentioned last, but it happens before he enters. It also explains why: the buzzer is broken.",
+        "Check the detail traps: \"Not the first bus you see\" is a negative instruction, so the right bus is the one heading north, not simply the first to arrive. \"Third stop\" is an ordinal number, not \"three blocks\"."
+      ],
+      "answer": "SkyTrain to Lougheed Town Centre → northbound bus up the hill → get off at the third stop after the gas station → cross the street and walk two blocks to the blue townhouses → text Kevin before going in.",
+      "takeawayVi": "Ghi hướng dẫn bằng mũi tên, mỗi từ trình tự là một bước mới. Cụm “Before you…” có thể làm thứ tự được nhắc khác với thứ tự thực hiện. Câu phủ định (“Not the first bus”) cũng là một chi tiết hay bị hỏi."
+    }
+  ],
+  "guided": [
+    {
+      "id": "ls02-g1",
+      "type": "choice",
+      "stimulusId": "bike-shop-call",
+      "prompt": "How much do the new brake pads cost?",
+      "hint": "Listen to the end of the number: does it finish with a clear /n/ sound (-teen) or not (-ty)? Also check that the price belongs to the brake pads, not the tune-up.",
+      "options": [
+        {
+          "text": "$13",
+          "misconception": "teen_ty_confusion",
+          "whyVi": "Sam nói “thirty”, trọng âm ở đầu và không có âm /n/ cuối, không phải “thirteen”."
+        },
+        {
+          "text": "$30",
+          "misconception": null,
+          "whyVi": "Đúng: “new ones are thirty dollars for the pair”."
+        },
+        {
+          "text": "$79",
+          "misconception": "wrong_reference",
+          "whyVi": "$79 là giá tune-up, không phải giá má phanh."
+        },
+        {
+          "text": "$109",
+          "misconception": "wrong_reference",
+          "whyVi": "$109 là tổng tiền (tune-up + má phanh), không phải riêng má phanh."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "new ones are thirty dollars for the pair",
+      "explanationVi": "Có ba con số tiền trong một lượt nói. Ghi kèm nhãn (tune-up 79 / pads 30 / total 109) giúp bạn không chọn nhầm số thuộc đối tượng khác.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "ls02-g2",
+      "type": "choice",
+      "stimulusId": "bike-shop-call",
+      "prompt": "When will Aisha's bike be ready?",
+      "hint": "Sam gives one answer and then changes it. Listen for \"Oh, actually, make that…\".",
+      "options": [
+        {
+          "text": "Thursday after four",
+          "misconception": "missed_correction",
+          "whyVi": "Đây là thông tin trước khi sửa. Sam nói ngay sau đó: “Oh, actually, make that Friday morning.”"
+        },
+        {
+          "text": "Thursday morning",
+          "misconception": "missed_correction",
+          "whyVi": "Trộn ngày cũ (Thursday) với buổi mới (morning). Cả hai thông tin phải lấy từ phần đã sửa."
+        },
+        {
+          "text": "Friday morning",
+          "misconception": null,
+          "whyVi": "Đúng: Sam sửa lại thành sáng thứ Sáu vì thợ còn lại nghỉ vào thứ Năm."
+        },
+        {
+          "text": "Friday after four",
+          "misconception": "missed_correction",
+          "whyVi": "“After four” thuộc câu cũ, đã bị thay bằng “Friday morning”."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "Oh, actually, make that Friday morning.",
+      "explanationVi": "“Make that X” = đổi thành X. Khi nghe tín hiệu sửa, hãy thay toàn bộ cụm thông tin (ngày + buổi), không chỉ một phần.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls02-g3",
+      "type": "text",
+      "mode": "exact",
+      "stimulusId": "pharmacy-voicemail",
+      "prompt": "Type Thomas's reference number (digits only).",
+      "hint": "\"Double\" before a digit means that digit is said twice. The assistant also repeats the number a second time.",
+      "answers": [
+        "4177",
+        "4 1 7 7",
+        "41 77",
+        "four one seven seven",
+        "4-1-7-7",
+        "four-one-seven-seven"
+      ],
+      "misconception": "sequence_error",
+      "explanationVi": "“Four, one, double seven” = 4-1-7-7. Mã số và số điện thoại thường được đọc từng chữ số; “double” = lặp lại, “oh” = 0.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls02-g4",
+      "type": "order",
+      "stimulusId": "depot-instructions",
+      "prompt": "Put the drop-off steps in the order a visitor should do them.",
+      "hint": "Follow the sequence words: First, before you go inside, Next, After that, Finally. Leave out the side information about refundable cans.",
+      "items": [
+        "Park in the yellow lane and take a sorting bin",
+        "Sort glass and soft plastics into separate bins",
+        "Bring the bins to the scale to be weighed",
+        "Pay for non-refundable items at the kiosk",
+        "Return the empty bins to the rack"
+      ],
+      "misconception": "sequence_error",
+      "explanationVi": "First → (sort) before you go inside → Next (scale) → After that (kiosk) → Finally (return bins). Thông tin về lon chai đổi tiền là một nhánh song song, không phải một bước trong chuỗi chính.",
+      "competency": "missed_info"
+    }
+  ],
+  "independent": [
+    {
+      "id": "ls02-i1",
+      "type": "choice",
+      "stimulusId": "bike-shop-call",
+      "prompt": "How much will Aisha pay before tax?",
+      "options": [
+        {
+          "text": "$79",
+          "misconception": "combine_info",
+          "whyVi": "Chỉ là giá tune-up. Aisha đồng ý làm cả hai (“Go ahead with both”)."
+        },
+        {
+          "text": "$109",
+          "misconception": null,
+          "whyVi": "Đúng: “you're looking at a hundred and nine, plus tax”, tức là $109 chưa gồm thuế."
+        },
+        {
+          "text": "$190",
+          "misconception": "teen_ty_confusion",
+          "whyVi": "“A hundred and nine” = 109, không phải “a hundred and ninety”."
+        },
+        {
+          "text": "$30",
+          "misconception": "wrong_reference",
+          "whyVi": "$30 là giá má phanh."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "So you're looking at a hundred and nine, plus tax.",
+      "explanationVi": "“You're looking at…” = tổng sẽ là… “Plus tax” xác nhận đây là giá trước thuế. Tự kiểm tra bằng phép cộng: 79 + 30 = 109.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "ls02-i2",
+      "type": "choice",
+      "stimulusId": "pharmacy-voicemail",
+      "prompt": "Thomas can only go to the pharmacy on the weekend. What is the latest time he can pick up his prescription?",
+      "options": [
+        {
+          "text": "9 p.m. on Saturday",
+          "misconception": "wrong_reference",
+          "whyVi": "9 giờ là giờ đóng cửa ngày thường (weekdays), không phải thứ Bảy."
+        },
+        {
+          "text": "6 p.m. on Sunday",
+          "misconception": "combine_info",
+          "whyVi": "Hiệu thuốc đóng cửa vào Chủ nhật (“closed on Sundays”)."
+        },
+        {
+          "text": "6 p.m. on Saturday",
+          "misconception": null,
+          "whyVi": "Đúng: cuối tuần chỉ còn thứ Bảy, mở “only until six”."
+        },
+        {
+          "text": "9 p.m. on Sunday",
+          "misconception": "combine_info",
+          "whyVi": "Sai cả ngày lẫn giờ: Chủ nhật đóng cửa, còn 9 giờ là giờ ngày thường."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "but only until six on Saturdays, and we're closed on Sundays",
+      "explanationVi": "Câu hỏi bắt bạn kết hợp hai thông tin: Chủ nhật đóng cửa và thứ Bảy mở đến 6 giờ. Ghi giờ theo từng loại ngày (wkdy 9 / Sat 6 / Sun ✗) giúp bạn trả lời ngay.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "ls02-i3",
+      "type": "choice",
+      "stimulusId": "potluck-plan",
+      "prompt": "When will the potluck take place?",
+      "options": [
+        {
+          "text": "This Saturday",
+          "misconception": "missed_correction",
+          "whyVi": "Ryan đề nghị đổi vì nhiều người không đến được cuối tuần này."
+        },
+        {
+          "text": "Sunday the twenty-second",
+          "misconception": "missed_correction",
+          "whyVi": "Mei nhầm ngày 22; Ryan sửa lại: ngày 22 là Chủ nhật."
+        },
+        {
+          "text": "Saturday the twenty-first",
+          "misconception": null,
+          "whyVi": "Đúng: Ryan sửa “Saturday's the twenty-first” và Mei đồng ý “The twenty-first works for me”."
+        },
+        {
+          "text": "Saturday the twenty-second",
+          "misconception": "missed_correction",
+          "whyVi": "Ngày 22 là Chủ nhật. Ryan đã sửa lại: “Saturday's the twenty-first.” Bạn giữ con số Mei nói ban đầu."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "The twenty-first works for me.",
+      "explanationVi": "Có hai lần thay đổi: “this Saturday” → “next Saturday”, rồi ngày 22 → ngày 21. Đáp án là thông tin cuối cùng mà cả hai người cùng xác nhận.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "ls02-i4",
+      "type": "text",
+      "mode": "exact",
+      "stimulusId": "potluck-plan",
+      "prompt": "What time can guests start arriving? Type the time (for example 7:15).",
+      "answers": [
+        "5:30",
+        "5.30",
+        "530",
+        "5:30 pm",
+        "5:30 p.m.",
+        "five thirty",
+        "five-thirty",
+        "half past five",
+        "17:30",
+        "5:30pm",
+        "around 5:30",
+        "around five-thirty"
+      ],
+      "misconception": "wrong_reference",
+      "explanationVi": "“People could start showing up around five-thirty, and we'll eat at six.” Có hai mốc giờ: 5:30 là giờ khách bắt đầu đến, 6:00 là giờ ăn. Câu hỏi hỏi giờ đến.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "ls02-i5",
+      "type": "choice",
+      "stimulusId": "depot-instructions",
+      "prompt": "A visitor brings 1.5 kilograms of non-refundable plastic. How much will they pay at the kiosk?",
+      "options": [
+        {
+          "text": "$0.75",
+          "misconception": "combine_info",
+          "whyVi": "1,5 kg × 50 xu = 75 xu, nhưng bạn đã bỏ qua mức tối thiểu hai đô."
+        },
+        {
+          "text": "$1.50",
+          "misconception": "teen_ty_confusion",
+          "whyVi": "Nghe nhầm giá thành 1 đô/kg (1,5 × $1). Giá là “fifty cents per kilogram”, tức 50 xu."
+        },
+        {
+          "text": "$2.00",
+          "misconception": null,
+          "whyVi": "Đúng: 1,5 kg × $0,50 = $0,75, thấp hơn “a two-dollar minimum”, nên phải trả $2."
+        },
+        {
+          "text": "$7.50",
+          "misconception": "teen_ty_confusion",
+          "whyVi": "Nhầm “fifty cents” thành năm đô một kg."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "It's fifty cents per kilogram, with a two-dollar minimum.",
+      "explanationVi": "Câu hỏi Level 8 thường yêu cầu áp dụng hai điều kiện cùng lúc: giá đơn vị và mức tối thiểu. Ghi cả hai (0.50/kg, min $2) rồi mới tính.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "ls02-i6",
+      "type": "text",
+      "mode": "exact",
+      "stimulusId": "move-in-chat",
+      "prompt": "What is Hassan's mailbox number? Type the number.",
+      "answers": [
+        "230",
+        "two thirty",
+        "two-thirty",
+        "two hundred thirty",
+        "two hundred and thirty",
+        "2 30"
+      ],
+      "misconception": "missed_correction",
+      "explanationVi": "Gloria nói “two-thirteen” rồi sửa ngay “Sorry, no, two-thirty… Thirty.” Đây vừa là lời sửa vừa là cặp -teen/-ty: số đúng là 230.",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "ls02-i7",
+      "type": "choice",
+      "stimulusId": "move-in-chat",
+      "prompt": "Where should Hassan park his own car?",
+      "options": [
+        {
+          "text": "P2, stall 48",
+          "misconception": "wrong_reference",
+          "whyVi": "48 là số giờ báo trước khi đặt thang máy (forty-eight hours' notice), không phải số chỗ đỗ."
+        },
+        {
+          "text": "P2, stall 84",
+          "misconception": null,
+          "whyVi": "Đúng: “You're on P2, stall eighty-four.”"
+        },
+        {
+          "text": "In a visitor spot by the entrance",
+          "misconception": "wrong_reference",
+          "whyVi": "Chỗ gần lối vào dành cho khách, tối đa ba tiếng."
+        },
+        {
+          "text": "P2, stall 230",
+          "misconception": "wrong_reference",
+          "whyVi": "230 là số hộp thư (mailbox), không phải số chỗ đỗ xe."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "You're on P2, stall eighty-four.",
+      "explanationVi": "Đoạn hội thoại có nhiều con số (230, 84, 3 giờ, 48 giờ, 200 đô). Đáp án nhiễu mượn số từ thông tin khác. Gắn nhãn cho từng số khi ghi chú (stall 84 / notice 48h).",
+      "competency": "similar_choices"
+    },
+    {
+      "id": "ls02-i8",
+      "type": "choice",
+      "stimulusId": "move-in-chat",
+      "prompt": "Which statement about Hassan's move is correct?",
+      "options": [
+        {
+          "text": "He can book the freight elevator any day of the week between nine and four.",
+          "misconception": "combine_info",
+          "whyVi": "Chỉ từ thứ Hai đến thứ Bảy (“Monday to Saturday”), không có Chủ nhật."
+        },
+        {
+          "text": "He must book the freight elevator by Thursday morning for his Saturday move.",
+          "misconception": null,
+          "whyVi": "Đúng: cần báo trước ít nhất 48 giờ, nên “booking by Thursday morning at the latest”."
+        },
+        {
+          "text": "He will get his $200 deposit back before he moves in.",
+          "misconception": "sequence_error",
+          "whyVi": "Tiền cọc được trả lại sau khi Gloria kiểm tra thang máy sau buổi chuyển nhà."
+        },
+        {
+          "text": "His visitors can park by the entrance for the whole day.",
+          "misconception": "wrong_reference",
+          "whyVi": "Khách chỉ được đỗ “for up to three hours”."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "So for Saturday, that means booking by Thursday morning at the latest.",
+      "explanationVi": "Mỗi đáp án sai đổi một chi tiết nhỏ: ngày trong tuần, thứ tự trước/sau, thời lượng. Hãy kiểm tra từng phần của câu với ghi chú, đừng chọn vì “nghe quen”.",
+      "competency": "similar_choices"
+    }
+  ],
+  "misconceptions": {
+    "teen_ty_confusion": {
+      "label": "Nhầm -teen / -ty và nghe sai số",
+      "explanationVi": "Bạn nghe sai hình dạng âm của con số: thirteen/thirty, nine/ninety, fifty cents/five dollars. Tai bạn chưa quen dựa vào trọng âm và âm /n/ cuối của -teen, và chưa quen âm t đọc như d nhẹ trong “thirty”, “forty” của giọng Canada.",
+      "fixVi": "Khi nghe số 13–19 hay 30–90, chú ý âm cuối: có /n/ rõ thì là -teen. Luyện nghe các cặp đối lập và tự kiểm tra bằng ngữ cảnh: giá đó có hợp lý không, tổng có cộng ra đúng không."
+    },
+    "missed_correction": {
+      "label": "Bỏ lỡ lời sửa",
+      "explanationVi": "Bạn giữ thông tin đầu tiên nghe được và bỏ qua tín hiệu sửa (actually, make that, sorry, no, hang on). Thông tin đầu tiên “in” vào trí nhớ mạnh hơn, nên bạn cần một phản xạ chủ động để thay nó.",
+      "fixVi": "Mỗi khi nghe tín hiệu sửa, gạch ngay thông tin cũ trong ghi chú và viết thông tin mới kèm dấu ✓. Kiểm tra xem phần nào thay đổi và phần nào giữ nguyên (same time)."
+    },
+    "wrong_reference": {
+      "label": "Gắn số với sai đối tượng",
+      "explanationVi": "Bạn nghe đúng con số nhưng gán nó cho sai thứ: giá tune-up thay vì giá má phanh, giờ ngày thường thay vì thứ Bảy, giờ ăn thay vì giờ đến. Lỗi này xảy ra khi bạn chỉ ghi số mà không ghi nhãn.",
+      "fixVi": "Luôn ghi số kèm một từ khoá (pads 30, Sat 6, arrive 5:30). Đọc kỹ câu hỏi đang hỏi số của cái gì trước khi nhìn các đáp án."
+    },
+    "combine_info": {
+      "label": "Không kết hợp các điều kiện",
+      "explanationVi": "Câu hỏi cần hai thông tin cùng lúc (giá đơn vị + mức tối thiểu, giờ mở cửa + ngày đóng cửa, dịch vụ + phụ tùng) nhưng bạn chỉ dùng một. Bạn hiểu từng câu riêng lẻ nhưng chưa ghép chúng lại.",
+      "fixVi": "Với câu hỏi về tổng tiền, hạn chót hay lịch, hãy liệt kê mọi điều kiện liên quan rồi kiểm tra đáp án với từng điều kiện. Chú ý các từ minimum, only, closed, Monday to Saturday."
+    },
+    "sequence_error": {
+      "label": "Sai thứ tự (hướng dẫn, trước/sau)",
+      "explanationVi": "Bạn xếp các bước theo thứ tự được nhắc thay vì thứ tự thực hiện, hoặc bỏ qua ý nghĩa của before/after/once. Với các chữ số đọc từng chữ một, bạn cũng dễ đảo hay bỏ sót chữ số (ví dụ không hiểu “double seven” = 77).",
+      "fixVi": "Nghe từ trình tự (First, Next, After that, Before you, Once you, Finally) và ghi bằng mũi tên. Với mã số, viết từng chữ số ngay khi nghe, “double” thì viết hai lần, rồi so lại khi người nói nhắc lại."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "Actually, make that…",
+      "vi": "À, đổi thành… (sửa lại thông tin vừa nói)",
+      "example": "Your table is booked for seven. Actually, make that seven-thirty, the patio isn't ready yet."
+    },
+    {
+      "term": "Sorry, no, …",
+      "vi": "Xin lỗi, không phải, … (tự sửa sai ngay)",
+      "example": "The meeting's in room fourteen. Sorry, no, forty. On the fourth floor."
+    },
+    {
+      "term": "you're looking at (+ amount)",
+      "vi": "tổng chi phí sẽ khoảng… (thường dùng khi báo giá)",
+      "example": "With the winter tires and installation, you're looking at about nine hundred dollars."
+    },
+    {
+      "term": "plus tax",
+      "vi": "chưa bao gồm thuế (cộng thêm thuế)",
+      "example": "The oil change is sixty-nine ninety-nine plus tax."
+    },
+    {
+      "term": "what the damage is",
+      "vi": "(thân mật) hết bao nhiêu tiền",
+      "example": "Okay, we're done with dinner. What's the damage?"
+    },
+    {
+      "term": "by (+ time) / at the latest",
+      "vi": "muộn nhất là lúc…",
+      "example": "Please return the keys by noon on Sunday at the latest."
+    },
+    {
+      "term": "48 hours' notice",
+      "vi": "báo trước 48 giờ",
+      "example": "To cancel a fitness class without a fee, you need to give 48 hours' notice."
+    },
+    {
+      "term": "double (+ digit)",
+      "vi": "hai chữ số giống nhau liền nhau (double seven = 77)",
+      "example": "My unit number is three-oh-double-four, so 3044."
+    },
+    {
+      "term": "quarter to / half past",
+      "vi": "kém mười lăm / rưỡi (quarter to eight = 7:45, half past five = 5:30)",
+      "example": "The last ferry leaves at quarter to ten, so we should be at the terminal by half past nine."
+    },
+    {
+      "term": "I've got you down for…",
+      "vi": "Tôi đã ghi tên/đặt lịch cho bạn vào…",
+      "example": "I've got you down for a haircut on Friday at three."
+    }
+  ],
+  "grammar": [],
+  "practice": [
+    {
+      "label": "Listening Part 1: Problem Solving",
+      "route": "/listening?task=L1"
+    },
+    {
+      "label": "Listening Part 3: Information",
+      "route": "/listening?task=L3"
+    },
+    {
+      "label": "Drill: similar choices",
+      "route": "/listening?mode=drill&focus=similar_choices"
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "author-agent+independent-review-agent",
+    "notes": "Checked all 12 items against the scripts (prices, corrected dates/times, digit codes, sequence). Added hyphenated/alternate variants to text answers (4-1-7-7, 5:30pm), fixed a concept example that misstated mention-order vs action-order, corrected the flap-t description, remapped the $1.50 distractor and replaced the unmotivated 'P3' option with a wrong-reference 230 distractor."
+  }
+}

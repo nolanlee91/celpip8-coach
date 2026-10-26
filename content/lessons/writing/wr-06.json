@@ -1,0 +1,366 @@
+{
+  "id": "wr-06",
+  "skill": "writing",
+  "module": "writing-email",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Email structure and covering every point",
+  "titleVi": "Bố cục email và trả lời đủ mọi ý",
+  "estimatedMinutes": 30,
+  "prerequisites": ["wr-03"],
+  "competencies": ["task_fulfillment", "coherence"],
+  "tasks": ["W1"],
+  "objectives": [
+    "You will be able to break each of the three bullet points into every separate sub-question it contains.",
+    "You will be able to organize a Task 1 email as greeting → purpose → one paragraph per bullet → closing.",
+    "You will be able to develop each bullet with an answer, a concrete detail and a reason or effect.",
+    "You will be able to plan a 150–200-word email with a balanced word budget across the three bullets."
+  ],
+  "objectiveVi": "Sau bài này, bạn sẽ đọc đề Task 1 và tách được từng ý nhỏ trong mỗi bullet, viết email theo khung cố định (chào → mục đích → mỗi bullet một đoạn → kết thư), phát triển mỗi bullet bằng câu trả lời + chi tiết cụ thể + lý do/ảnh hưởng, và phân bổ 150–200 từ một cách cân đối.",
+  "whyItMattersVi": "Writing của bạn đang ở Level 7, nghĩa là ngữ pháp và từ vựng đã khá ổn. Khoảng cách lên Level 8 ở Task 1 thường không nằm ở câu chữ mà ở việc hoàn thành nhiệm vụ: bỏ sót một nửa của một bullet, trả lời một bullet chỉ bằng một câu, hoặc mở bài dài dòng rồi hết từ ở bullet cuối. Một email trả lời đủ, rõ và cân đối cả ba bullet là nền móng để các bài sau (giọng văn trang trọng, thân mật, nâng cấp từ vựng) phát huy tác dụng.",
+  "concept": [
+    {
+      "heading": "Bộ khung 5 phần của một email Task 1",
+      "body": "Mọi email Task 1 (27 phút, 150–200 từ, 3 bullet) đều có thể viết theo cùng một khung:\n\n1. **Greeting** — *Dear Ms. Chen,* / *Hi Sam,* tùy người nhận.\n2. **Purpose** — 1–2 câu nói ngay lý do viết thư: *I am writing to ask whether…*, *I'm writing to let you know that…*. Người đọc phải biết mục đích trước khi đọc chi tiết.\n3. **Body** — **mỗi bullet một đoạn**, theo đúng thứ tự trong đề. Thứ tự này giúp giám khảo \"tick\" từng ý dễ dàng.\n4. **Closing line** — một câu kết hướng tới hành động: *I look forward to hearing from you.* / *Thank you for your help.*\n5. **Sign-off + name** — *Sincerely, / Best regards, / Cheers,* rồi tên của bạn.\n\nKhung này giúp bạn dồn sức cho nội dung thay vì loay hoay sắp xếp."
+    },
+    {
+      "heading": "Đọc đề: biến mỗi bullet thành các câu hỏi nhỏ",
+      "body": "Lỗi phổ biến nhất ở Level 7 là trả lời **một nửa** bullet. Nhiều bullet chứa hai yêu cầu nối bằng *and*, *or*, hoặc có từ chỉ số lượng:\n\n- *Explain why you need to change the booking **and** how long you will need the room.* → 2 câu hỏi: **why?** + **how long?**\n- *Suggest **two** alternative dates.* → phải có đúng hai ngày, không phải một.\n- *Describe the problem **and** what you have already done.* → mô tả + việc đã làm.\n\nKỹ thuật: khi đọc đề, gạch dưới **mọi động từ** (describe, explain, suggest, ask, tell) và **mọi từ and/or/two**. Mỗi gạch dưới là một mục phải có trong email. Viết nhanh dàn ý ra giấy nháp: B1a, B1b, B2, B3a, B3b… rồi đánh dấu khi đã viết xong. Đừng quên câu **situation** phía trên: nó cho biết bạn là ai, viết cho ai — thông tin quyết định giọng văn."
+    },
+    {
+      "heading": "Phát triển mỗi bullet: Answer → Detail → Reason/Effect",
+      "body": "Một bullet trả lời bằng một câu (*The problem is the noise.*) chỉ chứng minh bạn \"có nhắc tới\" ý đó. Để đạt Level 8, mỗi đoạn nên có 2–4 câu theo mẫu:\n\n- **Answer** — trả lời trực tiếp câu hỏi: *The main problem is that the battery drains far too quickly.*\n- **Detail** — chi tiết cụ thể: con số, thời gian, địa điểm, tên: *It drops to about 30 per cent by noon.*\n- **Reason / Effect** — vì sao điều đó quan trọng hoặc nó ảnh hưởng thế nào: *This is a serious issue because I rely on GPS all day.*\n\nChi tiết cụ thể (Saturday, March 14; fifteen students; booking number RL-2047) làm email đáng tin và \"thật\" hơn hẳn những câu chung chung như *I have a problem*. Bạn được phép **bịa** chi tiết hợp lý — giám khảo chấm cách bạn dùng ngôn ngữ, không kiểm tra sự thật."
+    },
+    {
+      "heading": "Ngân sách 150–200 từ và 27 phút",
+      "body": "Hãy nghĩ về số từ như ngân sách:\n\n- Greeting + purpose: **20–30 từ**\n- Mỗi bullet: **40–55 từ** (× 3 ≈ 120–165)\n- Closing + sign-off: **10–20 từ**\n\nTổng ≈ 160–200 từ. Nếu đoạn mở bài đã 70 từ, gần như chắc chắn bullet 3 sẽ bị viết vội. Viết **dưới 150 từ** thường có nghĩa là các bullet chưa được phát triển; viết **quá 200 từ nhiều** không được thêm điểm và tăng nguy cơ lỗi.\n\nPhân bổ 27 phút gợi ý: **3–4 phút** đọc đề và gạch dàn ý → **17–18 phút** viết → **4–5 phút** kiểm tra lại từng bullet, đếm từ, sửa lỗi ngữ pháp."
+    },
+    {
+      "heading": "Những bẫy bố cục cần tránh",
+      "body": "- **Kể nền quá dài**: giới thiệu bản thân hoặc kể chuyện 5–6 câu trước khi vào bullet 1. Chỉ giữ thông tin giúp người đọc hiểu yêu cầu.\n- **Trộn bullet**: viết lẫn ý của bullet 2 vào đoạn bullet 1, khiến giám khảo phải đi tìm. Mỗi đoạn một bullet; có thể mở đoạn bằng cụm chuyển ý như *As for…*, *Regarding your question about…*, *Unfortunately,…*.\n- **Một khối chữ duy nhất**: không xuống dòng làm bài trông thiếu tổ chức dù nội dung đủ.\n- **Quên phần kết**: thiếu câu kết và tên người gửi làm email trông như bị cắt ngang.\n- **Trả lời câu không được hỏi**: viết rất hay về một điều đề không yêu cầu nhưng bỏ qua điều đề yêu cầu."
+    }
+  ],
+  "stimuli": {
+    "prompt-library": {
+      "title": "Task 1 prompt — changing a library room booking",
+      "text": "You booked the community meeting room at your local public library in Richmond for a volunteer tutoring group next Saturday. Now you need to change the booking. Write an email to the library's program coordinator.\n\nIn your email:\n- Explain who you are and give the details of your current booking.\n- Explain why you need to change the booking.\n- Suggest two alternative dates and ask about any extra requirements.\n\nWrite 150–200 words."
+    },
+    "prompt-carpool": {
+      "title": "Task 1 prompt — joining a workplace carpool",
+      "text": "Your workplace in Burnaby is starting a carpool program for employees. Write an email to Ms. Chen, the HR coordinator who is organizing it.\n\nIn your email:\n- Explain why you are interested in joining the program.\n- Describe your work schedule and where you live.\n- Ask two questions about how the program will work.\n\nWrite 150–200 words."
+    },
+    "draft-furniture": {
+      "title": "Draft email — selling furniture to a coworker",
+      "text": "Prompt: You are moving out of your apartment in Nanaimo and want to sell some furniture to a coworker who has just moved to the city. Write an email to your coworker.\n- Describe the furniture you are selling.\n- Explain why you are selling it.\n- Suggest when and how your coworker could see it.\n\nDraft:\nHi Priya,\n\nI heard you just moved into a new place, so I wanted to let you know that I have some furniture you might be interested in.\n\nI'm selling a grey three-seat sofa, a wooden dining table with four chairs and a tall bookshelf. Everything is about three years old and in very good condition. I'd be happy to let the whole set go for $400, or you could just take the pieces you need.\n\nIf you'd like to have a look, you're welcome to drop by after work any evening this week, or on Saturday morning. My place is only ten minutes from the office, and I can send you some photos tonight if that's easier.\n\nLet me know what you think!\n\nCheers,\nMai"
+    },
+    "draft-foodbank": {
+      "title": "Draft email — feedback for a food bank coordinator",
+      "text": "Prompt: You have volunteered at a food bank in Abbotsford for a year. The volunteer coordinator has asked for feedback. Write an email to the coordinator.\n- Describe the tasks you usually do.\n- Explain what you enjoy most and what you find challenging.\n- Suggest one change that would help volunteers.\n\nDraft:\nDear Mr. Gill,\n\nThank you for asking volunteers for feedback. I am happy to share my thoughts after a year at the food bank.\n\nOn most Tuesday evenings, I sort donated food, check expiry dates and pack hampers for families. Once a month I also help at the front desk, where I greet clients and record their visits.\n\nWhat I enjoy most is working at the front desk. Many clients are newcomers like me, and I can sometimes help them in Vietnamese, which makes them feel more comfortable on their first visit.\n\nOne change that would help is a short training session for new volunteers. When I started, I learned the sorting rules by asking others, and I made several mistakes in my first month.\n\nThank you for all your work.\n\nSincerely,\nHoa Tran"
+    },
+    "prompt-firstaid": {
+      "title": "Task 1 prompt — feedback on a first-aid workshop",
+      "text": "Last weekend you attended a free first-aid workshop at your community centre in Kamloops. The organizer, Ms. Bergeron, has asked participants for feedback. Write an email to Ms. Bergeron.\n\nIn your email:\n- Say which part of the workshop was most useful to you and why.\n- Describe a problem you had during the workshop.\n- Suggest how future workshops could be improved.\n\nWrite 150–200 words."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Turning three bullets into a checklist of sub-questions",
+      "stimulusId": "prompt-library",
+      "question": "Before writing, list every separate thing this email must contain.",
+      "steps": [
+        "Read the situation first: I am a volunteer (the person who made the booking), writing to a library program coordinator I do not know → formal or semi-formal register.",
+        "Bullet 1 has two verbs: 'Explain who you are' (B1a) and 'give the details of your current booking' (B1b). Details mean concrete facts: room name, date, time, maybe a booking number.",
+        "Bullet 2 has one question: 'why you need to change' (B2). I need a real-sounding reason, not just 'I have a problem'.",
+        "Bullet 3 has two parts joined by 'and': 'Suggest two alternative dates' (B3a — exactly two dates) and 'ask about any extra requirements' (B3b — a question, e.g. a new form or a fee).",
+        "Add the frame: greeting, purpose sentence before B1, closing line and name at the end. Now I have a checklist of 5 content points plus the frame."
+      ],
+      "answer": "Greeting → Purpose (change a booking) → B1a who I am + B1b booking details (room, date, time, number) → B2 reason for the change → B3a two alternative dates + B3b question about forms/fees → closing line → sign-off + name.",
+      "takeawayVi": "Đếm động từ và từ 'and/two' trong mỗi bullet. Đề này trông như 3 ý nhưng thực ra có 5 mục nội dung. Nếu bạn chỉ viết 3 mục, email sẽ bị xem là hoàn thành nhiệm vụ chưa đầy đủ."
+    },
+    {
+      "id": "ex2",
+      "title": "Before and after: the library booking email",
+      "stimulusId": "prompt-library",
+      "question": "Compare a typical Level 6–7 draft with a Level 8+ version of the same email.",
+      "steps": [
+        "Check the before version against the checklist from Example 1: B1a yes, B1b no (no room, date or time), B2 yes but buried, B3a no (no dates), B3b no.",
+        "Notice the shape: one long block, half of it about how good the tutoring group is — background the coordinator did not ask for.",
+        "Rebuild with the frame: a one-sentence purpose, then one paragraph per bullet in the prompt's order.",
+        "Add concrete details to every bullet (booking number, date, time, number of students) and cut the unrequested praise of the group.",
+        "Finish with a closing line and a full name, then count: about 160 words, inside the 150–200 range."
+      ],
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Hi,\n\nMy name is Linh. I booked the room for next Saturday but I have a problem so I need to change it. Our group is volunteer tutoring group, we help high school students with math and English every week and the students really like it, many of them get better marks and their parents are very happy, I think it is very important for community. Last month we had 15 students. Next Saturday many volunteers cannot come because there is a big exam at university. Can I change to other day? Thank you.\n\nLinh",
+          "commentVi": "Bản này điển hình của người viết Level 6–7: (1) Không có câu mục đích rõ ràng — 'I have a problem' quá mơ hồ. (2) Bullet 1 chỉ có tên, thiếu chi tiết đặt phòng (phòng nào, ngày, giờ, mã số). (3) Bullet 2 có lý do nhưng bị chôn giữa đoạn. (4) Bullet 3 gần như bỏ trống: không đưa ra hai ngày thay thế, không hỏi về yêu cầu bổ sung — đây là lỗi hoàn thành nhiệm vụ nặng nhất. (5) Một nửa đoạn văn khen nhóm gia sư — thông tin đề không hỏi. (6) Một khối chữ duy nhất, câu nối bằng dấu phẩy (run-on). (7) Lỗi mạo từ: 'is volunteer tutoring group', 'for community', 'other day'. (8) Chào 'Hi,' không tên và kết chỉ có 'Linh' — quá thân mật với người lạ. Chỉ khoảng 100 từ."
+        },
+        {
+          "label": "after",
+          "text": "Dear Program Coordinator,\n\nI am writing to ask whether I could change a room booking I made for next Saturday.\n\nMy name is Linh Nguyen, and I coordinate a volunteer tutoring group that helps high school students with math and English. I reserved the Community Meeting Room for Saturday, March 14, from 10 a.m. to 12 p.m., under booking number RL-2047.\n\nUnfortunately, most of our volunteers are university students, and they have just learned that a major exam has been scheduled for that morning. Without them, we would not have enough tutors for the fifteen students who usually attend.\n\nWould it be possible to move our session to either Saturday, March 21, or Sunday, March 22, at the same time? I would also be grateful if you could let me know whether we need to fill out a new booking form or pay a change fee.\n\nThank you for your help. I look forward to hearing from you.\n\nSincerely,\nLinh Nguyen",
+          "commentVi": "Những thay đổi: (1) Lời chào trang trọng 'Dear Program Coordinator,' phù hợp khi không biết tên. (2) Thêm câu mục đích riêng ngay đầu: 'I am writing to ask whether…'. (3) Bullet 1 có đủ cả hai phần: ai (người điều phối nhóm gia sư) và chi tiết đặt phòng (tên phòng, ngày, giờ, mã số). (4) Bullet 2 thành một đoạn riêng, mở bằng 'Unfortunately,' và có lý do + hậu quả (không đủ gia sư cho 15 học sinh). (5) Bullet 3 có đúng hai ngày cụ thể (B3a) và một câu hỏi lịch sự về mẫu đơn/phí (B3b). (6) Bỏ phần khen nhóm không cần thiết. (7) Sửa mạo từ và tách câu run-on. (8) Có câu kết, sign-off và họ tên đầy đủ. Khoảng 160 từ, các bullet dài tương đương nhau."
+        }
+      ],
+      "takeawayVi": "Bản 'after' không dùng từ vựng quá cao siêu — nó tốt hơn chủ yếu vì đủ ý, đúng thứ tự, mỗi bullet một đoạn, và có chi tiết cụ thể. Đó chính là phần 'task fulfillment' giúp bạn từ 7 lên 8."
+    },
+    {
+      "id": "ex3",
+      "title": "Developing one bullet: Answer → Detail → Reason/Effect",
+      "stimulusId": "prompt-carpool",
+      "question": "Develop Bullet 1 ('Explain why you are interested in joining the program') into a full paragraph.",
+      "steps": [
+        "Answer the question directly in the first sentence: give the main reason for joining.",
+        "Add a concrete detail that proves it: how long the commute takes, which bus or SkyTrain line, how much it costs.",
+        "Add the reason or effect: why this matters to you or what would change if you joined.",
+        "Check the length: 3 sentences, about 45 words — right inside the 40–55-word budget for one bullet."
+      ],
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "I want to join because it is good. Driving alone is expensive.",
+          "commentVi": "Chỉ 12 từ. 'because it is good' không nói được gì — đây là câu trả lời có mặt nhưng không được phát triển. Thiếu chi tiết cụ thể (đi lại mất bao lâu, bằng gì) và thiếu ảnh hưởng tới bản thân người viết."
+        },
+        {
+          "label": "after",
+          "text": "I am interested in joining mainly because my current commute is long and tiring. I take two buses and the SkyTrain from New Westminster, which takes over an hour each way. Sharing a ride with a colleague would save me more than an hour a day and reduce my transit costs.",
+          "commentVi": "Thay đổi: (1) Câu đầu trả lời thẳng câu hỏi bằng 'mainly because…' (Answer). (2) Thêm chi tiết cụ thể: hai chuyến xe buýt + SkyTrain, hơn một tiếng mỗi chiều (Detail). (3) Kết bằng lợi ích cụ thể: tiết kiệm hơn một tiếng mỗi ngày và chi phí đi lại (Effect). (4) Từ 'good' mơ hồ được thay bằng 'long and tiring'. Khoảng 50 từ — vừa ngân sách một bullet."
+        }
+      ],
+      "takeawayVi": "Mỗi bullet cần ít nhất ba 'lớp': trả lời, chi tiết, lý do/ảnh hưởng. Nếu đoạn của bạn chỉ có một câu, hãy tự hỏi: 'Cụ thể là gì? Vậy thì sao?'"
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "prompt-carpool",
+      "prompt": "Bullet 3 says: 'Ask two questions about how the program will work.' Which plan covers this bullet completely?",
+      "hint": "Count exactly what the bullet asks for: what kind of sentence, and how many?",
+      "options": [
+        { "text": "Ask whether employees in the program get a parking discount.", "misconception": "missed_sub_point", "whyVi": "Đây là một câu hỏi hợp lý nhưng đề yêu cầu HAI câu hỏi. Thiếu một câu là bỏ sót một nửa bullet." },
+        { "text": "Ask how drivers and passengers will be matched, and whether passengers will share the cost of gas.", "misconception": null, "whyVi": "Đúng: có đúng hai câu hỏi, và cả hai đều về cách chương trình vận hành." },
+        { "text": "Explain that you have never carpooled before and feel a little nervous about it.", "misconception": "missed_sub_point", "whyVi": "Đây là thông tin về bản thân, không phải câu hỏi. Bạn đã viết một điều đề không yêu cầu và bỏ qua điều đề yêu cầu." },
+        { "text": "Say that you have some questions and hope she can answer them.", "misconception": "thin_development", "whyVi": "Câu này chỉ 'nhắc tới' việc có câu hỏi nhưng không đặt câu hỏi cụ thể nào — trả lời có mặt nhưng rỗng nội dung." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Từ 'two' là một yêu cầu cụ thể. Khi đọc đề, hãy gạch dưới các con số và chữ 'and': chúng cho biết chính xác cần bao nhiêu mục.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "prompt-carpool",
+      "prompt": "Which is the best sentence to come right after 'Dear Ms. Chen,'?",
+      "hint": "The first sentence should tell Ms. Chen why you are writing before any details.",
+      "options": [
+        { "text": "Hi, how are you? I hope you are doing well and having a nice week at work.", "misconception": "no_purpose", "whyVi": "Lời hỏi thăm chung chung, không cho biết mục đích thư. Người đọc chưa biết thư này về việc gì." },
+        { "text": "I am writing to express my interest in the new carpool program and to ask a few questions about it.", "misconception": null, "whyVi": "Đúng: câu mục đích nêu rõ cả hai việc của email (bày tỏ quan tâm + đặt câu hỏi) và dẫn tự nhiên vào bullet 1." },
+        { "text": "I live in New Westminster and I start work at 7:30 every morning.", "misconception": "no_purpose", "whyVi": "Câu này nhảy thẳng vào nội dung bullet 2 mà chưa nêu mục đích. Thông tin đúng nhưng sai vị trí." },
+        { "text": "This email is about carpool.", "misconception": "thin_development", "whyVi": "Có chủ đề nhưng quá cụt và thiếu mạo từ ('the carpool program'). Không nói bạn muốn gì." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Câu mục đích là 'bản đồ' của email. Mẫu an toàn: I am writing to + động từ (ask / express / let you know / request) + nội dung chính.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g3",
+      "type": "order",
+      "stimulusId": "prompt-carpool",
+      "prompt": "Put the parts of this short carpool email in the correct order.",
+      "hint": "Use the five-part frame, and follow the bullet order of the prompt for the body.",
+      "items": [
+        "Dear Ms. Chen,",
+        "I am writing to express my interest in joining the new carpool program.",
+        "I would like to join mainly because my commute by bus takes over an hour each way.",
+        "I work Monday to Friday from 7:30 a.m. to 4 p.m., and I live near Sapperton Station in New Westminster.",
+        "I also have two questions: how will drivers and passengers be matched, and will passengers share the cost of gas?",
+        "Thank you for organizing this program. I look forward to hearing from you.",
+        "Best regards,\nThanh Vo"
+      ],
+      "misconception": "merged_paragraphs",
+      "explanationVi": "Thứ tự: chào → mục đích → bullet 1 (lý do muốn tham gia) → bullet 2 (lịch làm việc + nơi ở) → bullet 3 (hai câu hỏi) → câu kết → ký tên. Theo đúng thứ tự bullet của đề giúp giám khảo kiểm tra từng ý dễ dàng.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g4",
+      "type": "text",
+      "stimulusId": "draft-furniture",
+      "prompt": "Read Mai's draft. Which bullet (1, 2 or 3) is NOT covered at all? Type the number.",
+      "hint": "Make a checklist from the three verbs in the prompt, then find each one in the draft.",
+      "answers": ["2", "two", "bullet 2", "bullet two", "the second", "second", "b2", "the second bullet", "second bullet"],
+      "mode": "exact",
+      "misconception": "missed_sub_point",
+      "explanationVi": "Mai mô tả đồ đạc (bullet 1) rất tốt và gợi ý thời gian, cách xem (bullet 3), nhưng không hề giải thích VÌ SAO bán (bullet 2) — ví dụ 'I'm moving to Victoria for a new job and my new place is already furnished.' Một email viết rất trôi chảy vẫn bị đánh giá thấp về hoàn thành nhiệm vụ nếu thiếu một bullet.",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "draft-foodbank",
+      "prompt": "Hoa's draft is well written, but one part of the prompt is missing. Which part?",
+      "options": [
+        { "text": "The tasks she usually does", "misconception": "missed_sub_point", "whyVi": "Đoạn thứ hai mô tả rõ các việc: phân loại thực phẩm, kiểm tra hạn dùng, đóng gói, làm quầy tiếp đón." },
+        { "text": "What she enjoys most", "misconception": "missed_sub_point", "whyVi": "Đoạn thứ ba nói rõ cô thích nhất là làm ở quầy tiếp đón và giải thích vì sao." },
+        { "text": "What she finds challenging", "misconception": null, "whyVi": "Đúng: bullet 2 có hai phần (enjoy most AND challenging). Hoa chỉ viết phần 'enjoy', hoàn toàn bỏ qua phần 'challenging'. Câu 'I made several mistakes in my first month' nằm trong đoạn đề xuất và kể chuyện lúc mới bắt đầu để làm lý do cho đề xuất — không trả lời điều cô thấy khó trong công việc hiện nay." },
+        { "text": "A suggestion to help volunteers", "misconception": "missed_sub_point", "whyVi": "Đoạn thứ tư đề xuất buổi đào tạo ngắn cho tình nguyện viên mới, kèm lý do." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Đây là dạng bỏ sót khó nhận ra nhất: bullet có hai phần nối bằng 'and', người viết làm phần đầu rất tốt rồi quên phần sau. Sửa: thêm 1–2 câu như 'The most challenging part is the Friday rush, when we sometimes have only three volunteers for over a hundred clients.'",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "prompt": "Bullet: 'Suggest what the city could do to make the park safer at night.' Which paragraph answers this bullet best?",
+      "options": [
+        { "text": "The city should really do something about this problem soon, because it is not safe.", "misconception": "thin_development", "whyVi": "Không có đề xuất cụ thể nào — 'do something' quá mơ hồ. Câu chỉ lặp lại vấn đề." },
+        { "text": "There are no lights on the path near the playground, and last month a neighbour tripped and broke her wrist there after dark.", "misconception": "merged_paragraphs", "whyVi": "Đây là mô tả vấn đề (thuộc bullet khác), không phải đề xuất giải pháp. Trộn nội dung bullet làm giám khảo khó tìm câu trả lời." },
+        { "text": "I would suggest installing lights along the main path, especially near the playground. It would also help if the park were included in the evening patrol route, since most incidents seem to happen after 9 p.m.", "misconception": null, "whyVi": "Đúng: có hai đề xuất cụ thể (đèn ở lối đi chính, tuần tra buổi tối) và một lý do (sự cố thường xảy ra sau 9 giờ tối)." },
+        { "text": "I suggest lights.", "misconception": "thin_development", "whyVi": "Có đề xuất nhưng chỉ ba từ, không chi tiết (ở đâu?) và không lý do. Bullet được nhắc tới nhưng không được phát triển." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Một đoạn đề xuất tốt: Answer (đề xuất cụ thể) → Detail (ở đâu, khi nào) → Reason (vì sao giúp ích). Động từ 'suggest' trong đề đòi hỏi giải pháp, không phải mô tả lại vấn đề.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i3",
+      "type": "order",
+      "prompt": "Bullet: 'Describe the problem with your new phone.' Put the sentences of this paragraph in the most logical order.",
+      "items": [
+        "The main problem is that the battery drains far too quickly.",
+        "Even when I am not using any apps, it drops from 100 per cent to about 30 per cent by noon.",
+        "This is a serious issue because I work as a delivery driver and rely on the phone's GPS all day.",
+        "As a result, I have had to buy a portable charger just to keep the GPS running until the end of my shifts."
+      ],
+      "misconception": "merged_paragraphs",
+      "explanationVi": "Mẫu Answer → Detail → Reason/Effect: câu đầu nêu thẳng vấn đề, câu hai cho số liệu cụ thể, câu ba giải thích vì sao vấn đề nghiêm trọng ('This' chỉ lại vấn đề pin), câu bốn là hậu quả ('As a result').",
+      "competency": "coherence"
+    },
+    {
+      "id": "i4",
+      "type": "text",
+      "prompt": "Bullet: 'Explain when the problem started and what you have already done to fix it.' How many separate things must this paragraph answer? Type a number.",
+      "answers": ["2", "two"],
+      "mode": "exact",
+      "misconception": "missed_sub_point",
+      "explanationVi": "Có hai yêu cầu nối bằng 'and': (1) when the problem started — thời điểm bắt đầu; (2) what you have already done — những việc bạn đã làm. Mỗi phần nên có ít nhất một câu cụ thể.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "prompt": "Which word plan is best for a Task 1 email (150–200 words, three bullets)?",
+      "options": [
+        { "text": "Opening and background 80 words; bullet 1: 30; bullet 2: 30; bullet 3: 20; closing 10", "misconception": "word_budget", "whyVi": "Mở bài chiếm gần một nửa bài, trong khi các bullet — phần được chấm nhiều nhất — chỉ có 20–30 từ mỗi ý." },
+        { "text": "Opening 25 words; bullet 1: 45; bullet 2: 50; bullet 3: 45; closing 15", "misconception": null, "whyVi": "Đúng: tổng 180 từ, ba bullet cân đối 45–50 từ, mở và kết ngắn gọn." },
+        { "text": "Opening 20 words; bullet 1: 90; bullet 2: 40; bullet 3: 10; closing 10", "misconception": "word_budget", "whyVi": "Tổng 170 từ nhưng mất cân đối nặng: bullet 3 chỉ 10 từ, gần như không được phát triển." },
+        { "text": "Opening 20 words; bullet 1: 70; bullet 2: 70; bullet 3: 70; closing 20", "misconception": "word_budget", "whyVi": "Cân đối nhưng tổng 250 từ — vượt xa 200. Viết dài hơn không được thêm điểm, lại tốn thời gian kiểm tra và tăng nguy cơ lỗi." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Ngân sách gợi ý: mở 20–30 từ, mỗi bullet 40–55 từ, kết 10–20 từ. Ba bullet cân đối cho thấy bạn hoàn thành đầy đủ mọi phần của nhiệm vụ.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "prompt-carpool",
+      "prompt": "Which paragraph is the strongest answer to Bullet 2 ('Describe your work schedule and where you live')?",
+      "options": [
+        { "text": "I work Monday to Friday from 7:30 a.m. to 4 p.m. in the shipping department. On Thursdays I sometimes stay until 5 p.m. when we have large orders, so I would need a ride that is a little flexible that day.", "misconception": "missed_sub_point", "whyVi": "Phần lịch làm việc rất chi tiết, nhưng đoạn văn hoàn toàn không nói bạn sống ở đâu — thiếu một nửa bullet." },
+        { "text": "I work normal office hours from Monday to Friday, and I live not very far from the office.", "misconception": "thin_development", "whyVi": "Có nhắc đủ hai phần nhưng quá chung chung: 'normal hours' là mấy giờ? 'not very far' là ở đâu? Ban điều phối không thể ghép xe với thông tin này." },
+        { "text": "I work Monday to Friday from 7:30 a.m. to 4 p.m., although I occasionally stay until 5 p.m. on Thursdays. I live near Sapperton Station in New Westminster, about fifteen minutes' drive from the office, so I could easily share a ride with anyone coming from that direction.", "misconception": null, "whyVi": "Đúng: đủ cả hai phần (lịch + nơi ở), mỗi phần có chi tiết cụ thể, và câu cuối liên kết thông tin với mục đích của chương trình ghép xe." },
+        { "text": "I work Monday to Friday from 7:30 a.m. to 4 p.m. I live in New Westminster. I moved there two years ago after renting a basement suite in Surrey, where the rent kept going up and the landlord did not fix the heating, so I finally decided to find a new place closer to my sister's family.", "misconception": "word_budget", "whyVi": "Đủ hai phần, nhưng phần lớn số từ dành cho câu chuyện chuyển nhà không liên quan. Ngân sách từ bị lãng phí cho thông tin đề không hỏi." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Ở Level 8, phương án tốt nhất không chỉ 'đủ ý' mà còn cụ thể và liên quan tới mục đích. Các phương án nhiễu ở đây đều trông hợp lý: một cái thiếu nửa bullet, một cái chung chung, một cái lan man.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i7",
+      "type": "produce",
+      "stimulusId": "prompt-firstaid",
+      "medium": "write",
+      "minWords": 150,
+      "prompt": "Write the full email to Ms. Bergeron (150–200 words). Before you start, list the sub-questions in each bullet and give yourself a word budget.",
+      "checklist": [
+        "Opens with an appropriate greeting and states the purpose (thanks and feedback) in the first one or two sentences.",
+        "Has a separate paragraph for each of the three bullets, in the same order as the prompt.",
+        "Bullet 1 names one specific part of the workshop AND explains why it was useful.",
+        "Bullet 2 describes the problem with at least one concrete detail (a number, time or place).",
+        "Bullet 3 gives at least one realistic suggestion with a reason.",
+        "Ends with a closing line, a sign-off and a full name; total length is 150–200 words."
+      ],
+      "modelAnswer": "Dear Ms. Bergeron,\n\nI am writing to thank you for organizing the free first-aid workshop at the community centre last Saturday and to share some feedback.\n\nThe most useful part for me was the hands-on CPR practice. As the parent of a two-year-old, I had always worried about what I would do in an emergency. Practising on the mannequins while an instructor watched gave me real confidence, and I now feel I could act quickly if something happened at home.\n\nHowever, I did have one difficulty. The room was quite crowded, with about forty participants and only two instructors, so I waited nearly twenty minutes for my turn and could not hear some of the explanations from the back of the room.\n\nFor future workshops, I would suggest limiting each session to around twenty people or adding a third instructor. It would also help to send participants a short handout beforehand so that we could review the basic steps in advance.\n\nThank you again for this valuable program.\n\nBest regards,\nDaniel Pham",
+      "misconception": "missed_sub_point",
+      "explanationVi": "Hãy tự kiểm tra bằng cách dùng bút đánh dấu: mỗi mục trong dàn ý (B1 phần nào + vì sao, B2 vấn đề + chi tiết, B3 đề xuất) phải tìm thấy được trong một đoạn riêng. Bài mẫu khoảng 170 từ, ba bullet dài gần bằng nhau.",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "misconceptions": {
+    "missed_sub_point": {
+      "label": "Bỏ sót ý phụ trong bullet",
+      "explanationVi": "Bạn đọc bullet như một ý duy nhất, nên khi trả lời xong phần đầu thì chuyển sang bullet tiếp theo, bỏ quên phần sau 'and' hoặc số lượng ('two questions'). Đây là kỹ năng đọc đề, không phải kỹ năng viết.",
+      "fixVi": "Khi đọc đề, gạch dưới mọi động từ và mọi từ 'and/or/two'. Viết dàn ý B1a, B1b, B2, B3a, B3b… và đánh dấu từng mục sau khi viết. Dành 1 phút cuối để đối chiếu email với dàn ý."
+    },
+    "thin_development": {
+      "label": "Trả lời bullet quá sơ sài",
+      "explanationVi": "Bạn có nhắc tới ý nhưng chỉ bằng một câu chung chung ('it is good', 'I have a problem'). Giám khảo thấy ý có mặt nhưng không thấy bạn hoàn thành nhiệm vụ một cách đầy đủ, rõ ràng.",
+      "fixVi": "Áp dụng mẫu Answer → Detail → Reason/Effect cho mọi bullet. Tự hỏi 'Cụ thể là gì?' (thêm con số, thời gian, địa điểm) và 'Vậy thì sao?' (thêm ảnh hưởng hoặc lý do)."
+    },
+    "no_purpose": {
+      "label": "Không nêu mục đích ở đầu thư",
+      "explanationVi": "Bạn mở thư bằng lời hỏi thăm chung chung hoặc nhảy thẳng vào chi tiết, nên người đọc không biết thư viết để làm gì. Thiếu câu mục đích làm email kém mạch lạc ngay từ đầu.",
+      "fixVi": "Sau lời chào, luôn viết 1–2 câu mục đích: 'I am writing to ask / let you know / request / thank you for…'. Với thư thân mật: 'I'm writing to tell you about…' hoặc 'Just a quick email to…'."
+    },
+    "merged_paragraphs": {
+      "label": "Trộn bullet, bố cục rối",
+      "explanationVi": "Bạn viết theo dòng suy nghĩ thay vì theo khung: ý của các bullet lẫn vào nhau, sắp xếp sai thứ tự hoặc cả email là một khối chữ. Nội dung có thể đủ nhưng người đọc phải tự đi tìm.",
+      "fixVi": "Mỗi bullet một đoạn, theo đúng thứ tự trong đề, cách nhau một dòng trống. Trong mỗi đoạn, sắp câu theo thứ tự: trả lời → chi tiết → lý do/ảnh hưởng."
+    },
+    "word_budget": {
+      "label": "Phân bổ số từ sai",
+      "explanationVi": "Bạn dành quá nhiều từ cho phần mở hoặc cho một câu chuyện không được hỏi, nên các bullet sau bị viết vội; hoặc bạn viết vượt xa 200 từ. Đây là vấn đề lập kế hoạch trước khi viết.",
+      "fixVi": "Trước khi viết, ghi ngân sách: mở 20–30, mỗi bullet 40–55, kết 10–20. Cắt mọi câu không trả lời trực tiếp một mục trong dàn ý."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "I am writing to…", "vi": "Tôi viết thư này để… (câu nêu mục đích ngay đầu thư)", "example": "I am writing to ask whether I could change my room booking at the Richmond Public Library." },
+    { "term": "I'm writing to let you know that…", "vi": "Mình viết để báo cho bạn biết rằng… (bán trang trọng/thân mật)", "example": "I'm writing to let you know that our soccer practice has moved to the Burnaby Lake field." },
+    { "term": "To give you some background,", "vi": "Để bạn nắm bối cảnh, … (dẫn vào thông tin nền ngắn gọn)", "example": "To give you some background, I have been a member of the community centre since 2022." },
+    { "term": "The main reason is that…", "vi": "Lý do chính là… (trả lời trực tiếp bullet 'explain why')", "example": "The main reason is that my shifts at the hospital now start at 6 a.m." },
+    { "term": "As for…", "vi": "Còn về… (chuyển sang bullet tiếp theo)", "example": "As for my schedule, I work Monday to Friday from 7:30 a.m. to 4 p.m." },
+    { "term": "Regarding your question about…", "vi": "Về câu hỏi của bạn liên quan đến…", "example": "Regarding your question about parking, there is a visitor lot behind the building." },
+    { "term": "I would also be grateful if you could let me know…", "vi": "Tôi cũng rất cảm ơn nếu anh/chị cho tôi biết… (đặt câu hỏi lịch sự)", "example": "I would also be grateful if you could let me know whether there is a change fee." },
+    { "term": "I look forward to hearing from you.", "vi": "Tôi mong sớm nhận được phản hồi. (câu kết trang trọng)", "example": "Thank you for your help. I look forward to hearing from you." }
+  ],
+  "grammar": [
+    {
+      "point": "Infinitive of purpose: I am writing to + verb",
+      "explanationVi": "Sau 'I am writing' dùng 'to + động từ nguyên mẫu' để nêu mục đích. Người Việt hay viết 'I write this email for asking…' hoặc 'I am writing for ask…' — đều sai. Có thể nối hai mục đích bằng 'and to…'.",
+      "examples": [
+        "I am writing to request a change to my booking.",
+        "I am writing to thank you for the workshop and to share some feedback.",
+        "✗ I write this email for asking about the program. → ✓ I am writing to ask about the program."
+      ]
+    },
+    {
+      "point": "Present perfect for background that continues to now",
+      "explanationVi": "Khi giới thiệu bối cảnh còn kéo dài tới hiện tại (đã làm thành viên, đã tình nguyện bao lâu), dùng thì hiện tại hoàn thành với 'for' (khoảng thời gian) hoặc 'since' (mốc thời gian). Tránh 'I am a volunteer since one year'.",
+      "examples": [
+        "I have volunteered at the food bank for a year.",
+        "I have been a member of the centre since 2022.",
+        "✗ I am working here since three years. → ✓ I have worked here for three years."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Luyện Task 1 – viết email đầy đủ", "route": "/writing?task=W1" },
+    { "label": "Ôn lại lỗi đã mắc", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 11 exercises independently; keys match. Fixed ex3 word count (12, not 11) and an overstated time saving, made i3's order airtight (last sentence now refers to GPS), added text variants to g4, and clarified in i1 why the 'mistakes in my first month' line does not cover 'challenging'."}
+}

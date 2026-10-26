@@ -1,0 +1,352 @@
+{
+  "id": "wr-13",
+  "skill": "writing",
+  "module": "writing-polish",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Coherence across the whole response",
+  "titleVi": "Mạch lạc xuyên suốt cả bài",
+  "estimatedMinutes": 30,
+  "prerequisites": ["wr-04", "wr-10"],
+  "competencies": ["coherence"],
+  "tasks": ["W1", "W2"],
+  "objectives": [
+    "You will be able to make the opening, body paragraphs and closing follow one plan, so the response progresses without repeating or drifting.",
+    "You will be able to link paragraphs with bridge topic sentences instead of 'Firstly, Secondly, Thirdly'.",
+    "You will be able to keep one consistent viewpoint (choice, role, pronouns, tense) and refer back clearly with 'this + noun', 'the former / the latter' and key-word chains."
+  ],
+  "objectiveVi": "Sau bài này, bạn kiểm tra được 'sợi chỉ' của cả bài: mở bài hứa gì thì thân bài làm đúng thứ tự đó, các đoạn nối với nhau bằng câu chủ đề có tham chiếu, góc nhìn không đổi, và kết bài quay về đúng ý chính.",
+  "whyItMattersVi": "Ở Level 7, từng câu và từng đoạn của bạn thường đã mạch lạc (wr-03, wr-04). Nhưng bài Level 8 còn phải mạch lạc ở cấp độ *toàn bài*: người đọc lướt các câu đầu đoạn vẫn thấy một lập luận (Task 2) hay một thông điệp (Task 1) tiến triển rõ ràng. Lỗi toàn bài – mở bài hứa hai ý mà chỉ viết một, đổi từ 'I' sang 'you', kết luận thêm ý mới – khiến bài nghe như ghép từ nhiều mảnh, dù ngữ pháp từng câu đúng.",
+  "concept": [
+    {
+      "heading": "Mạch lạc cục bộ và mạch lạc toàn bài",
+      "body": "**Local coherence**: các câu trong một đoạn nối với nhau (từ nối, đại từ). **Global coherence**: cả bài là *một* lập luận hoặc *một* thông điệp, từ câu mở đầu đến câu kết.\n\n**Bài kiểm tra câu chủ đề** (topic-sentence test): chỉ đọc câu đầu mỗi đoạn và câu kết. Nếu năm câu đó ghép lại thành một bản tóm tắt hợp lý của bài, bài của bạn mạch lạc toàn cục. Nếu có câu lạc đề, có ý được hứa mà không xuất hiện, hoặc có ý xuất hiện mà không được hứa – đó là chỗ cần sửa."
+    },
+    {
+      "heading": "Progression: mở bài là lời hứa",
+      "body": "Câu mở bài (Task 2) hoặc câu nêu mục đích (Task 1) là **lời hứa** với người đọc.\n- Task 2: *I would choose Option B because it would cost less and reach more neighbourhoods.* → đoạn 1 nói về **chi phí**, đoạn 2 về **phạm vi**, đúng thứ tự đó.\n- Task 1: *I am writing about the new 5:15 p.m. closing time.* → các đoạn theo thứ tự các gạch đầu dòng: tình hình → ảnh hưởng → đề xuất.\n\nMỗi đoạn phải **đưa bài tiến lên**: không nhắc lại ý đoạn trước, không chen ý chưa hứa. Kết bài nhắc lại lựa chọn/yêu cầu và hai ý chính bằng từ khác – **không thêm ý mới** (ví dụ thêm 'it will also bring tourists' ở câu cuối)."
+    },
+    {
+      "heading": "Nối đoạn bằng câu chủ đề có cầu nối",
+      "body": "*Firstly, Secondly, Thirdly* cho biết thứ tự nhưng không cho biết **quan hệ** giữa các ý. Câu chủ đề Level 8 thường có hai nửa: nửa đầu nhìn lại đoạn trước, nửa sau giới thiệu ý mới.\n- *Beyond the lower cost, monthly events would also reach…*\n- *Apart from safety, wider sidewalks would…*\n- *This saving would also encourage more of us to…*\n- *Because of this commute, the earlier closing time would…*\n- *To solve this problem, I would like to suggest…*\n\nBạn vẫn có thể dùng *First,* một lần, nhưng đừng để cả bài chỉ dựa vào chuỗi số thứ tự."
+    },
+    {
+      "heading": "Giữ một góc nhìn nhất quán",
+      "body": "Bốn thứ không được thay đổi giữa bài:\n- **Lựa chọn**: không ủng hộ phương án kia ở đoạn cuối.\n- **Vai**: nếu mở bài viết *as a parent* hay *as a tenant*, các ví dụ nên từ vai đó.\n- **Đại từ**: giữ *I / we / residents*; đừng đột ngột chuyển sang *you* chung chung (*you can relax on the train*) – đó là giọng nói chuyện.\n- **Khung thì**: Task 2 nói về phương án giả định → giữ *would/could*; đừng nhảy sang *will*. Task 1: quá khứ cho sự việc đã xảy ra, *would* cho đề xuất."
+    },
+    {
+      "heading": "Tham chiếu ngược (referencing back)",
+      "body": "- **this/these + danh từ tóm tắt**: *The daycare will close at 5:15. **This change** would…* – rõ hơn *This would…* hay *It will…* đứng một mình.\n- **the former / the latter**: chỉ phương án nhắc trước / sau.\n- **chuỗi từ khoá** (lexical chain): *the fee → this charge → the extra $75* – lặp ý nhưng đổi từ.\n- **Kết bài nhắc lại mở bài**: dùng lại từ khoá của hai lý do (*savings, every neighbourhood*) để người đọc thấy bài đã đi trọn vòng.\n\nCẩn thận với *it* và *they* khi trước đó có hai danh từ: *The festival and the markets are popular, but it is expensive* – 'it' là cái nào?"
+    }
+  ],
+  "stimuli": {
+    "survey-transit": {
+      "title": "Survey: Commuting benefit",
+      "text": "Your employer, an insurance company with an office in downtown Vancouver, will offer one new commuting benefit to all staff.\n\n**Option A:** A free monthly transit pass for every employee.\n\n**Option B:** Free parking in the company's underground lot (currently $15 a day).\n\nChoose the option you prefer. Explain the reasons for your choice. Write about 150–200 words."
+    },
+    "survey-festival": {
+      "title": "Survey: Community events",
+      "text": "The City of Kelowna is planning next year's community events and has asked residents to complete an online survey.\n\n**Option A:** Hold one large three-day summer festival downtown, with concerts, food trucks and fireworks.\n\n**Option B:** Hold smaller monthly events, such as outdoor concerts and craft fairs, in parks in different neighbourhoods.\n\nChoose the option you prefer. Explain the reasons for your choice. Write about 150–200 words."
+    },
+    "draft-festival": {
+      "title": "A draft response (Option B)",
+      "text": "I think Option B is better because it is cheaper and good for community.\n\nFirstly, community. Small events in neighbourhoods let you meet your neighbours. You can talk to them and make new friends.\n\nSecondly, downtown traffic is terrible in summer. When I went to a concert downtown last year, we waited one hour for parking.\n\nIn conclusion, Option B is better and it will also bring more tourists to Kelowna."
+    },
+    "email-parking": {
+      "title": "Email task: New parking fee",
+      "text": "You rent an apartment in a building in Victoria. The property management company has announced that, starting next month, each underground parking spot will cost $75 a month. Until now, parking was included in your rent.\n\nWrite an email to the property manager. In your email:\n- describe your current situation;\n- explain why this change is a problem for you;\n- suggest an alternative.\n\nWrite about 150–200 words."
+    },
+    "email-daycare": {
+      "title": "Email task: Daycare closing time",
+      "text": "Your four-year-old son attends a licensed daycare in Coquitlam. The daycare has announced that, starting next month, it will close at 5:15 p.m. instead of 6:00 p.m.\n\nWrite an email to the daycare director. In your email:\n- explain your current situation;\n- describe how this change would affect your family;\n- suggest a solution.\n\nWrite about 150–200 words."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Rebuilding the thread of a whole survey response",
+      "stimulusId": "survey-transit",
+      "question": "The before version has acceptable sentences, but the whole response does not hold together. What changes make it coherent from start to finish?",
+      "steps": [
+        "Topic-sentence test on the before version: 'save money and environment' → 'Firstly, environment' → 'Secondly, my coworker' → 'Thirdly, parking is expensive' → 'healthy'. Money is promised but never developed, the coworker paragraph has no clear point, and the conclusion adds a new idea (health).",
+        "Fix the promise: the opening names two reasons in a fixed order — money, then fewer cars.",
+        "Make the body follow that order: paragraph 1 = money (with a number); paragraph 2 = fewer cars, with the coworker as the example that proves it.",
+        "Replace 'Firstly / Secondly / Thirdly' with bridge sentences: 'The first advantage is financial.' and 'This saving would also encourage…', which looks back at paragraph 1.",
+        "Fix the viewpoint: remove the general 'you', keep 'employees / we / I', and keep the hypothetical frame with 'would'.",
+        "Close the loop: the conclusion repeats the two key ideas (reward employees, cleaner commute) in new words and adds nothing new."
+      ],
+      "answer": "See the 'after' version: one promise, two body paragraphs in the promised order, a bridge between them, one viewpoint, and a conclusion that closes the loop.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "I prefer option A, free transit pass, because it save money and it is better for environment.\n\nFirstly, environment. If more people take SkyTrain, there are less cars on the road. You don't need to sit in traffic and you can relax on the train.\n\nSecondly, I want to talk about my coworker. She drives every day from Maple Ridge and she always complain about traffic on Lougheed Highway. Last month she was late three times.\n\nThirdly, parking is very expensive in downtown.\n\nIn conclusion, option A is good choice and it will also make employees more healthy because they walk to the station.",
+          "commentVi": "Từng câu tạm hiểu được, nhưng toàn bài không mạch lạc: (1) Mở bài hứa 'save money' trước, thân bài lại nói môi trường trước, và tiền không bao giờ được phát triển. (2) Đoạn 'my coworker' không nói rõ chứng minh điều gì. (3) 'Firstly, environment.' là câu cụt; 'Firstly / Secondly / Thirdly' chỉ đánh số, không nối ý. (4) Chuyển sang 'you' chung chung ở đoạn 1. (5) Kết luận thêm ý mới (sức khoẻ). Thêm lỗi kiểu người Việt: 'it save', 'she always complain', 'less cars', 'in downtown', thiếu mạo từ 'a free transit pass', 'the environment', 'a good choice'."
+        },
+        {
+          "label": "after",
+          "text": "I would prefer Option A, a free monthly transit pass, because it would save employees money and reduce the number of cars on the road.\n\nThe first advantage is financial. A monthly transit pass in Metro Vancouver costs over $100, so a free one would be worth more than $1,200 a year to every employee who already takes the bus or SkyTrain. Free parking, by contrast, would only help those who drive.\n\nThis saving would also encourage more of us to leave our cars at home. My coworker Diane, for example, drives in from Maple Ridge and often spends over an hour on the Lougheed Highway. She has told me that with a free pass, she would take transit instead. If even ten employees made the same change, our office would take ten cars off the road every rush hour.\n\nFor these reasons, a free transit pass would both reward employees and support a cleaner commute, so I hope management will choose Option A.",
+          "commentVi": "Các thay đổi: (1) Mở bài hứa hai ý theo thứ tự rõ: tiền → ít xe hơn. (2) Đoạn 1 đúng ý thứ nhất, có con số (over $100, $1,200 a year) và một câu đối chiếu ngắn với Option B. (3) 'This saving would also encourage…' là câu cầu nối: nhìn lại đoạn 1 ('this saving') và mở ý 2 – thay cho 'Secondly'. (4) Ví dụ Diane giờ chứng minh đúng ý 2 (bỏ xe, đi transit). (5) Bỏ 'you' chung chung, giữ 'employees / us / our office'; giữ khung giả định 'would'. (6) Kết bài nhắc lại hai từ khoá (reward employees = tiết kiệm, cleaner commute = ít xe) và không thêm ý mới. (7) Sửa lỗi ngữ pháp: 'would save', 'fewer/the number of cars', bỏ 'in' trước 'downtown', thêm mạo từ."
+        }
+      ],
+      "takeawayVi": "Viết xong, đọc riêng câu mở bài, các câu đầu đoạn và câu kết: chúng phải kể cùng một câu chuyện, theo cùng một thứ tự."
+    },
+    {
+      "id": "ex2",
+      "title": "Building the spine of an email with reference links",
+      "stimulusId": "email-parking",
+      "question": "How can the opening, the first sentence of each paragraph and the closing of this email connect to one another?",
+      "steps": [
+        "Make the purpose line name the exact change: 'the new $75 monthly parking fee'. Every later paragraph can now refer back to it.",
+        "Paragraph 1 (situation) starts with a fact about you that makes the fee matter: four years in Unit 304, parking always included.",
+        "Paragraph 2 (problem) opens with 'This new fee', a this + noun reference that links to the purpose line, and adds a new point (the yearly cost).",
+        "Paragraph 3 (alternative) opens with 'Instead of charging every tenant', which looks back at the problem and moves to the solution.",
+        "The closing refers to 'this alternative', the request in paragraph 3, instead of a generic 'Thank you'."
+      ],
+      "answer": "Purpose: 'the new $75 monthly parking fee' → 'This new fee would add $900 a year…' → 'Instead of charging every tenant…' → 'I hope you will consider this alternative…'",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Dear Sir, I am writing this email to you. Firstly, I live in unit 304 and I have a car. Secondly, it is a problem. You know, $75 is a lot of money. Thirdly, I suggest something. Thank you.",
+          "commentVi": "Câu mục đích không nói viết về việc gì ('this email to you'). 'it is a problem' – 'it' không rõ chỉ cái gì. Các đoạn chỉ nối bằng Firstly/Secondly/Thirdly. 'You know' là khẩu ngữ, sai register. Câu kết không nhắc lại yêu cầu."
+        },
+        {
+          "label": "after",
+          "text": "Dear Mr. Leblanc,\n\nI am writing about the new $75 monthly parking fee announced in your letter of October 3.\n\nI have rented Unit 304 for four years, and my lease has always included one underground parking spot. …\n\nThis new fee would add $900 a year to my housing costs at a time when my rent has already gone up. …\n\nInstead of charging every tenant, I would like to suggest that the fee apply only to second vehicles or to new leases. …\n\nI hope you will consider this alternative, and I would be glad to discuss it.",
+          "commentVi": "Các thay đổi: (1) Câu mục đích nêu đích danh sự thay đổi – tạo 'mỏ neo' cho cả email. (2) Đoạn 1 cho thông tin nền liên quan trực tiếp (bãi đậu xe vốn đã bao gồm). (3) 'This new fee' thay cho 'it' mơ hồ, nối ngược về câu mục đích. (4) 'Instead of charging every tenant' nhìn lại vấn đề và chuyển sang đề xuất. (5) Câu kết 'this alternative' nhắc lại đề xuất ở đoạn 3. (6) Bỏ 'You know', bỏ chuỗi Firstly/Secondly/Thirdly, dùng lời chào có tên người nhận."
+        }
+      ],
+      "takeawayVi": "Trong email, câu mục đích là 'mỏ neo': mỗi đoạn sau mở đầu bằng một tham chiếu ngược (this fee, this problem, this alternative) rồi đưa thông tin mới."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "survey-festival",
+      "prompt": "A writer chose Option B. The opening says: 'I would choose Option B because it would cost the city less and reach residents in every neighbourhood.' Paragraph 1 is about cost. Which sentence should open paragraph 2?",
+      "options": [
+        { "text": "Secondly, small events are fun.", "misconception": "mechanical_linking", "whyVi": "Chỉ đánh số; 'fun' cũng không phải ý đã hứa ở mở bài (reach every neighbourhood)." },
+        { "text": "Beyond the lower cost, monthly events would bring the celebration to residents in every part of the city.", "misconception": null, "whyVi": "Đúng: nửa đầu nhìn lại đoạn 1 (lower cost), nửa sau mở đúng ý thứ hai đã hứa (every part of the city)." },
+        { "text": "Another thing is that parking downtown is terrible during big festivals.", "misconception": "broken_thread", "whyVi": "Ý mới chưa được hứa (bãi đậu xe), và nó chê Option A thay vì phát triển lý do 2 của Option B." },
+        { "text": "You will also meet more of your neighbours at small events.", "misconception": "viewpoint_shift", "whyVi": "Chuyển sang 'you' chung chung và 'will' thay cho khung giả định 'would' – lệch góc nhìn so với mở bài." }
+      ],
+      "answerIndex": 1,
+      "hint": "Re-read the opening: which second idea did the writer promise? The best topic sentence also glances back at paragraph 1.",
+      "explanationVi": "Câu chủ đề tốt của đoạn 2 vừa nối với đoạn 1 ('Beyond the lower cost') vừa thực hiện lời hứa thứ hai của mở bài ('every neighbourhood' → 'every part of the city'), và giữ khung 'would'.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g2",
+      "type": "text",
+      "stimulusId": "email-daycare",
+      "prompt": "Fill the gap with a noun (one or two words) that sums up the previous sentence: 'The daycare will soon close at 5:15 p.m. instead of 6:00 p.m. This ____ would make it impossible for me to pick up my son on time.'",
+      "answers": ["change", "decision", "new schedule", "schedule change", "new closing time", "earlier closing time", "new policy", "policy", "policy change", "new rule", "rule", "adjustment", "new hours", "new time", "earlier closing", "early closing", "early closing time", "earlier closure", "closing time", "closing-time change", "time change", "earlier time", "earlier hours", "schedule"],
+      "mode": "exact",
+      "misconception": "vague_reference",
+      "hint": "'This' alone is vague. What one noun names the whole thing described in the first sentence?",
+      "explanationVi": "'This change / This new closing time' là tham chiếu tóm tắt: người đọc biết ngay 'this' chỉ cái gì. Viết 'This would make…' hay 'It would make…' cũng hiểu được nhưng mờ hơn, nhất là khi câu trước có nhiều danh từ.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g3",
+      "type": "order",
+      "stimulusId": "email-daycare",
+      "prompt": "These are the first sentences of each paragraph of an email to the daycare director. Put them in order.",
+      "items": [
+        "I am writing about the new 5:15 p.m. closing time announced in last week's newsletter.",
+        "My son has attended the Maple Room since September, and I work full-time at a clinic in Burnaby, about forty minutes away by bus.",
+        "Because of this commute, the new closing time would leave me arriving at least twenty minutes late every day.",
+        "To solve this problem, I would like to suggest a paid late-pickup option for families who need it.",
+        "Thank you for considering this request, and I look forward to hearing from you."
+      ],
+      "misconception": "broken_thread",
+      "hint": "Follow the reference words: 'this commute' needs a sentence that mentions the trip; 'this problem' needs a sentence that describes one; 'this request' needs a suggestion before it.",
+      "explanationVi": "Mục đích → tình hình (công việc ở Burnaby, 40 phút đi xe) → ảnh hưởng ('this commute' chỉ ngược về 40 phút) → đề xuất ('this problem' = đến muộn) → kết ('this request' = đề xuất late-pickup). Mỗi câu đầu đoạn tham chiếu đúng đoạn trước nó.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "survey-festival",
+      "prompt": "This paragraph is from a response that chose Option B. Which sentence breaks the consistency of the viewpoint?\n\n(1) Small neighbourhood events would also suit families like mine. (2) My two children are too young to stay up for fireworks at 10 p.m. downtown. (3) A Saturday afternoon concert in our local park would be much easier for us to attend. (4) You will just grab a blanket and walk over whenever you want.",
+      "options": [
+        { "text": "Sentence 1", "misconception": "viewpoint_shift", "whyVi": "'families like mine' giữ đúng vai phụ huynh và khung 'would' – nhất quán." },
+        { "text": "Sentence 2", "misconception": "broken_thread", "whyVi": "Câu này là ví dụ trực tiếp cho câu 1 (con nhỏ không thức được đến 10 giờ tối) – đúng mạch." },
+        { "text": "Sentence 3", "misconception": "viewpoint_shift", "whyVi": "'our local park', 'for us', 'would' – vẫn là góc nhìn gia đình người viết, khung giả định." },
+        { "text": "Sentence 4", "misconception": null, "whyVi": "Đúng: chuyển sang 'you' chung chung và 'will' – vừa đổi đại từ vừa đổi khung thì, nghe như nói chuyện." }
+      ],
+      "answerIndex": 3,
+      "hint": "Check the pronouns and the verb forms (would / will) in each sentence. Which one suddenly sounds like a conversation?",
+      "explanationVi": "Sửa câu 4: 'We could simply bring a blanket and walk over.' – giữ 'we' và 'could/would' như các câu trước.",
+      "competency": "coherence"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "draft-festival",
+      "prompt": "Apply the topic-sentence test to this draft. What is its main coherence problem?",
+      "options": [
+        { "text": "The body does not deliver the opening's promise: cost is never discussed, the second body paragraph is about downtown traffic, and the conclusion adds a new idea (tourists).", "misconception": null, "whyVi": "Đúng: mở bài hứa 'cheaper' + 'community', thân bài chỉ làm một ý, chen ý chưa hứa, và kết luận thêm ý mới." },
+        { "text": "The only problem is the use of 'Firstly' and 'Secondly'.", "misconception": "mechanical_linking", "whyVi": "Đúng một phần – nhưng thay từ nối không sửa được việc thân bài không khớp với mở bài." },
+        { "text": "The paragraphs are short, so the writer simply needs to add a third and fourth reason.", "misconception": "broken_thread", "whyVi": "Thêm lý do sẽ làm sợi chỉ rối hơn; cần phát triển đúng hai ý đã hứa." },
+        { "text": "The writer supports Option A in the middle of the response.", "misconception": "viewpoint_shift", "whyVi": "Người viết không đổi phe; đoạn về giao thông chỉ là ý lạc chưa được hứa." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Đọc riêng các câu chủ đề: 'cheaper and good for community' → 'community' → 'downtown traffic' → 'tourists'. Ý 'cheaper' biến mất, hai ý khác xuất hiện không báo trước. Đây là lỗi mạch lạc toàn bài, không phải lỗi câu.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "stimulusId": "survey-festival",
+      "prompt": "Fill the gap with ONE reference word (former or latter): 'Option A offers one large summer festival, while Option B offers smaller monthly events. Although the ____ would probably attract more tourists, I believe Option B would suit our city better because it spreads the events across the year.'",
+      "answers": ["former"],
+      "mode": "exact",
+      "misconception": "vague_reference",
+      "explanationVi": "'The former' chỉ phương án được nhắc trước (Option A – lễ hội lớn ba ngày), khớp với ý nhượng bộ 'attract more tourists'; mệnh đề chính sau đó quay về Option B. 'The latter' sẽ chỉ Option B, làm câu tự mâu thuẫn.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "email-daycare",
+      "prompt": "Paragraph 1 of the email explains that you work in Burnaby until 5 p.m. Which sentence best opens paragraph 2 (how the change would affect your family)?",
+      "options": [
+        { "text": "Secondly, I have a problem.", "misconception": "mechanical_linking", "whyVi": "Đánh số và quá chung chung; không nối với thông tin ở đoạn 1." },
+        { "text": "Given my work hours, this earlier closing time would affect our whole family's routine.", "misconception": null, "whyVi": "Đúng: 'Given my work hours' nhìn lại đoạn 1; 'this earlier closing time' tham chiếu sự thay đổi; nêu ý chính của đoạn 2." },
+        { "text": "Also, daycare in BC is really expensive these days.", "misconception": "broken_thread", "whyVi": "Ý mới không thuộc gạch đầu dòng nào và không liên quan tới giờ đóng cửa." },
+        { "text": "It will be very hard for them.", "misconception": "vague_reference", "whyVi": "'It' và 'them' không rõ chỉ ai/cái gì; người đọc phải đoán." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Câu mở đoạn Level 8 có cầu nối ngược (Given my work hours) + tham chiếu rõ (this earlier closing time) + ý chính của đoạn mới (affect our whole family's routine).",
+      "competency": "coherence"
+    },
+    {
+      "id": "i4",
+      "type": "order",
+      "stimulusId": "survey-festival",
+      "prompt": "Put the parts of this survey response in order.",
+      "items": [
+        "I would choose Option B, a series of smaller monthly events, because they would be easier on the city budget and would reach every neighbourhood.",
+        "To begin with, small events cost far less to run. A concert in a local park needs a stage and a few volunteers, not the fencing, security and road closures that a three-day festival requires.",
+        "Beyond the savings, monthly events would bring the celebration to people who rarely go downtown. Seniors in Rutland or young families in the Mission, for example, could simply walk to an event in their own area.",
+        "Admittedly, one large festival would attract more tourists. However, a steady series of local events would support neighbourhood businesses all year rather than for a single weekend.",
+        "For these reasons, I believe monthly events would give Kelowna better value for its money and a stronger sense of community."
+      ],
+      "misconception": "broken_thread",
+      "explanationVi": "Mở bài hứa: ngân sách → mọi khu phố. 'To begin with' = ngân sách; 'Beyond the savings' nhìn lại ngân sách và mở ý mọi khu phố; nhượng bộ – phản bác đứng trước kết luận; kết luận nhắc lại 'value for its money' (ngân sách) và 'community' (khu phố).",
+      "competency": "coherence"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "survey-festival",
+      "prompt": "The response in the previous exercise argued that monthly events would save money and reach every neighbourhood. Which alternative conclusion would also be coherent?",
+      "options": [
+        { "text": "I would choose Option B, a series of smaller monthly events, because they would be easier on the city budget and would reach every neighbourhood.", "misconception": "mechanical_linking", "whyVi": "Chép nguyên câu mở bài – người đọc thấy lặp, không thấy bài đã 'đi trọn vòng' bằng cách diễn đạt mới." },
+        { "text": "In conclusion, Option B is better, and small events are also safer for children.", "misconception": "broken_thread", "whyVi": "Thêm ý mới (an toàn cho trẻ em) chưa từng được phát triển." },
+        { "text": "So that is why it is good for them.", "misconception": "vague_reference", "whyVi": "'that', 'it', 'them' đều mơ hồ; câu không nhắc lại lựa chọn hay lý do nào." },
+        { "text": "Overall, spreading smaller events across the year and across the city would stretch the budget further and let every resident join in, so Option B is my clear choice.", "misconception": null, "whyVi": "Đúng: nhắc lại hai ý chính bằng từ mới (stretch the budget, every resident join in), không thêm ý mới, khẳng định lựa chọn." }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Kết luận mạch lạc quay về đúng hai ý của mở bài nhưng diễn đạt lại (paraphrase), không chép nguyên văn và không mở ý mới.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "survey-festival",
+      "prompt": "Read these two sentences from a response that chose Option B: 'If the city chose Option B, residents would attend events close to home. Small events will also be cheaper, and you can just walk there.' Which revision of the second sentence fixes ALL the coherence problems?",
+      "options": [
+        { "text": "Small events will also be cheaper, and residents can simply walk there.", "misconception": "viewpoint_shift", "whyVi": "Sửa được đại từ ('residents') nhưng vẫn giữ 'will/can' – lệch khung giả định 'would' của câu trước." },
+        { "text": "Small events would also be cheaper, and residents could simply walk there.", "misconception": null, "whyVi": "Đúng: khung 'would/could' khớp câu trước, đại từ 'residents' khớp góc nhìn." },
+        { "text": "Secondly, small events would also be cheaper, and you could walk there.", "misconception": "mechanical_linking", "whyVi": "Thêm 'Secondly' không cần thiết và vẫn giữ 'you' chung chung." },
+        { "text": "Small events would also be cheaper, and it is within walking distance.", "misconception": "vague_reference", "whyVi": "'it' không rõ chỉ cái gì (events là số nhiều), lại chuyển sang 'is' hiện tại." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Một câu có thể có nhiều lỗi mạch lạc cùng lúc: đại từ và khung thì. Kiểm tra cả hai trước khi chọn bản sửa.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i7",
+      "type": "produce",
+      "medium": "write",
+      "stimulusId": "email-daycare",
+      "prompt": "Write the complete email to the daycare director (150–200 words). Focus on coherence across the whole email: a clear purpose line, paragraphs that follow the three bullet points and link to each other, one consistent viewpoint, and a closing that refers back to your suggestion.",
+      "minWords": 150,
+      "checklist": [
+        "The opening sentence states the purpose and names the specific change (the 5:15 p.m. closing time)",
+        "The paragraphs follow the order of the three bullet points, and the 'effect' and 'solution' paragraphs each open with a sentence that links back to the previous paragraph",
+        "Uses at least two 'this/these + noun' references (e.g., this change, this commute, this request)",
+        "Keeps one consistent viewpoint: you as a parent, polite semi-formal tone, no switch to a general 'you'",
+        "The closing refers back to your suggestion and adds no new topic",
+        "Stays within 150–200 words"
+      ],
+      "modelAnswer": "Dear Ms. Patel,\n\nI am writing about the new 5:15 p.m. closing time announced in last week's newsletter. While I understand that the daycare must have good reasons for this change, it would create a serious problem for my family.\n\nMy son, Minh, has been in the Maple Room since September, and I work full-time as a medical office assistant at a clinic in Burnaby until 5 p.m. Even when the buses are on schedule, my trip back to Coquitlam takes about forty minutes.\n\nBecause of this commute, the earlier closing time would leave me arriving at least twenty minutes late every day. My husband works evening shifts, so he cannot pick Minh up either, and changing jobs is not a realistic option for us.\n\nTo solve this problem, I would like to suggest a paid late-pickup option until 6 p.m. for families who need it. Several parents in our group have told me they would gladly pay a small fee for this extra time.\n\nThank you for considering this request. I would be happy to discuss it at your convenience.\n\nSincerely,\nLan Nguyen",
+      "misconception": "broken_thread",
+      "explanationVi": "Trong bài mẫu, hãy gạch chân các tham chiếu: 'this change' → 'this commute' → 'this problem' → 'this extra time' → 'this request'. Đoạn ảnh hưởng ('Because of this commute') và đoạn đề xuất ('To solve this problem') mở đầu bằng cầu nối về đoạn trước. Bài của bạn có ít nhất hai cầu nối như vậy chưa?",
+      "competency": "coherence"
+    }
+  ],
+  "misconceptions": {
+    "mechanical_linking": {
+      "label": "Chỉ nối đoạn bằng Firstly/Secondly hoặc chép lại mở bài",
+      "explanationVi": "Bạn dựa vào từ đánh số (Firstly, Secondly, Thirdly) hoặc lặp nguyên câu để tạo liên kết. Chúng cho biết thứ tự nhưng không cho biết quan hệ giữa các ý, nên bài nghe máy móc và người đọc không thấy lập luận tiến lên.",
+      "fixVi": "Viết câu chủ đề có hai nửa: nửa đầu nhìn lại đoạn trước (Beyond the savings, Because of this commute), nửa sau giới thiệu ý mới. Ở kết bài, diễn đạt lại ý chính bằng từ mới thay vì chép."
+    },
+    "viewpoint_shift": {
+      "label": "Đổi góc nhìn: đại từ, thì, vai hoặc lập trường",
+      "explanationVi": "Giữa bài, bạn chuyển từ 'I/residents' sang 'you' chung chung, từ 'would' sang 'will', hoặc từ vai phụ huynh sang vai khác. Từng câu vẫn đúng ngữ pháp, nhưng người đọc cảm thấy bài bị ghép từ nhiều giọng khác nhau.",
+      "fixVi": "Trước khi viết, quyết định: tôi viết với vai gì, dùng đại từ nào, khung thì nào (Task 2: would/could). Khi soát bài, khoanh tất cả 'you' và 'will' để kiểm tra."
+    },
+    "broken_thread": {
+      "label": "Mất sợi chỉ xuyên suốt",
+      "explanationVi": "Mở bài hứa một điều, thân bài làm điều khác: ý được hứa bị bỏ, ý chưa hứa xuất hiện, thứ tự đoạn không khớp gạch đầu dòng, hoặc kết luận thêm ý mới. Đây là lỗi lập kế hoạch toàn bài, không phải lỗi câu.",
+      "fixVi": "Dùng bài kiểm tra câu chủ đề: chỉ đọc câu mở bài, câu đầu mỗi đoạn và câu kết. Nếu chúng không tạo thành một bản tóm tắt khớp nhau, sửa dàn ý trước khi sửa câu."
+    },
+    "vague_reference": {
+      "label": "Tham chiếu mơ hồ (it, this, they, them)",
+      "explanationVi": "Bạn dùng 'it', 'this', 'they' khi phía trước có nhiều danh từ, hoặc khi điều được chỉ nằm ở đoạn khác. Người đọc phải đoán, nên mối nối giữa các câu và các đoạn bị yếu.",
+      "fixVi": "Dùng 'this/these + danh từ tóm tắt' (this change, these delays), 'the former/the latter', hoặc nhắc lại từ khoá. Khi soát bài, với mỗi 'it/this/they', hỏi: nó chỉ chính xác danh từ nào?"
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "Beyond …,", "vi": "Ngoài … ra, (nhìn lại ý trước, mở ý mới)", "example": "Beyond the savings, a transit pass would cut the number of cars on the Lions Gate Bridge." },
+    { "term": "Apart from …,", "vi": "Bên cạnh …, ngoài …", "example": "Apart from safety, wider sidewalks would make the street easier for strollers." },
+    { "term": "Equally important, …", "vi": "Quan trọng không kém, …", "example": "Equally important, monthly events would give local food trucks steady business." },
+    { "term": "this change / these delays", "vi": "sự thay đổi này / những sự chậm trễ này (danh từ tóm tắt)", "example": "These delays have made me late for my shift at the warehouse three times this month." },
+    { "term": "the former / the latter", "vi": "cái trước / cái sau (khi so sánh hai phương án)", "example": "Between a festival and monthly fairs, I prefer the latter." },
+    { "term": "Given …,", "vi": "Xét đến …, Với …", "example": "Given my work hours, a 5:15 p.m. pickup is impossible for me." },
+    { "term": "Because of this …,", "vi": "Vì … này, (nối nguyên nhân ở đoạn trước)", "example": "Because of this commute, I rarely get home before 6 p.m." },
+    { "term": "For these reasons, …", "vi": "Vì những lý do này, … (mở kết luận, chỉ ngược về các lý do)", "example": "For these reasons, I hope the council will choose the monthly events." }
+  ],
+  "grammar": [
+    {
+      "point": "Referencing back: this/these + summary noun, the former / the latter, such + noun",
+      "explanationVi": "'This/These' đứng một mình dễ mơ hồ; thêm một danh từ tóm tắt (change, problem, decision, fee, delay) để người đọc biết chính xác bạn chỉ điều gì. 'This' đi với danh từ số ít, 'these' với số nhiều – lỗi hay gặp: 'this problems'. 'The former / the latter' chỉ dùng khi vừa nhắc đúng hai thứ. 'Such + danh từ' = 'kiểu … như vậy'.",
+      "examples": [
+        "The fee will start in November. This change would add $900 a year to my costs.",
+        "The bus was cancelled twice last week. These cancellations made me late for work.",
+        "Option A is cheaper, but Option B reaches more people; the latter matters more to me.",
+        "Such a policy would treat every employee fairly."
+      ]
+    },
+    {
+      "point": "Keeping a consistent tense frame across the response",
+      "explanationVi": "Task 2: bạn bàn về phương án chưa xảy ra → giữ 'would/could' xuyên suốt; chỉ dùng hiện tại cho sự thật hiện có ('the centre opens at 6 a.m.') và quá khứ cho ví dụ đã xảy ra ('last year, I waited…'). Task 1: quá khứ cho sự việc đã xảy ra, hiện tại hoàn thành cho tình trạng kéo dài ('has attended since September'), 'would' cho ảnh hưởng và đề xuất. Đừng nhảy giữa 'will' và 'would' cho cùng một ý.",
+      "examples": [
+        "If the city chose Option B, residents would attend events close to home, and they could walk there.",
+        "My son has attended the daycare since September. Last month, I arrived late twice. The new time would make this a daily problem."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Luyện Writing Task 1 – kiểm tra mạch lạc toàn bài", "route": "/writing?task=W1" },
+    { "label": "Luyện Writing Task 2 – bài kiểm tra câu chủ đề", "route": "/writing?task=W2" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 11 exercises. Changed i2 to test 'former' (the 'latter' gap duplicated wr-04-i5), widened g2 summary-noun answers, clarified 'second body paragraph' in i1, and aligned the i7 checklist/explanation with the model (the situation paragraph does not need a back-link). Models 164/184 words."}
+}

@@ -1,0 +1,390 @@
+{
+  "id": "ls-07",
+  "skill": "listening",
+  "module": "listening-comprehension",
+  "level": "core",
+  "difficulty": 8,
+  "title": "Speaker attitude and intention",
+  "titleVi": "Thái độ và ý định của người nói",
+  "estimatedMinutes": 30,
+  "prerequisites": ["ls-06"],
+  "competencies": ["speaker_attitude"],
+  "tasks": ["L2", "L5", "L6"],
+  "objectives": [
+    "You will be able to identify a speaker's real attitude from verbal cues such as hedges, contrast words and understatement.",
+    "You will be able to recognize polite refusals, reluctant agreement and sarcasm even when the words sound positive.",
+    "You will be able to tell what a speaker is trying to do (suggest, refuse, persuade, complain) as well as what they say."
+  ],
+  "objectiveVi": "Sau bài này, bạn nhận ra người nói thật sự nghĩ gì và muốn gì — từ chối khéo, đồng ý miễn cưỡng, mỉa mai, nghi ngờ — dựa vào chính những từ họ dùng.",
+  "whyItMattersVi": "Các câu hỏi về thái độ (How does she feel about…? Why does he say…?) xuất hiện nhiều ở Part 2, Part 5 và Part 6, và đây là nơi người học Level 6 hay mất điểm nhất: nghe được hết từ nhưng hiểu theo nghĩa đen. Người Canada thường nói gián tiếp và lịch sự, nên lời chê hay lời từ chối thường được bọc trong từ ngữ tích cực. Đọc được “lớp lịch sự” này là bước quan trọng để lên Level 8.",
+  "concept": [
+    {
+      "heading": "Thái độ nằm trong từ ngữ, không chỉ trong giọng",
+      "body": "Trong đời thực, ngữ điệu giúp ta đoán thái độ. Nhưng trong bài thi, và đặc biệt trong các đoạn audio của ứng dụng này (giọng đọc tổng hợp, ngữ điệu khá trung tính), bạn **không thể dựa vào giọng**. May mắn là người bản xứ hầu như luôn để lại **dấu hiệu bằng lời**: một từ rào đón (*I guess, I suppose*), một từ đối lập (*but, though, still*), một câu nói giảm (*it's… fine*), hoặc một câu theo sau làm rõ thái độ (*I'm done being patient*).\n\nVì vậy, câu hỏi cần đặt ra luôn là: **“Từ nào trong câu cho tôi biết người này thật sự nghĩ gì?”**. Đáp án đúng về thái độ trong đề tốt luôn có bằng chứng bằng lời, không phải chỉ là cảm giác."
+    },
+    {
+      "heading": "Năm tín hiệu thái độ quan trọng",
+      "body": "1. **Hedging (rào đón, nói giảm):** *I guess, I suppose, kind of, it's okay I guess, I wonder if…, you might want to…* → người nói không hoàn toàn đồng ý, hoặc đang chê một cách nhẹ nhàng.\n2. **Polite refusal (từ chối lịch sự):** *I'd love to, but…; It's just that…; Maybe another time; I could maybe…* → phần trước *but* là lời khen xã giao, phần sau mới là câu trả lời thật: **không**.\n3. **Reluctant agreement (đồng ý miễn cưỡng):** *Fine. Okay, if you insist. I can live with that. Let's try it and see.* → đồng ý nhưng không vui, thường kèm điều kiện.\n4. **Sarcasm (mỉa mai):** *Oh, wonderful. Great, just what I needed. I'm sure the next one will be the real one.* → từ tích cực trong một tình huống rõ ràng là tiêu cực. Bằng chứng là **ngữ cảnh**: “third time he's pushed it back”.\n5. **Ironic understatement:** *That's one way to put it. It's certainly… ambitious. Interesting choice.* → người nói không đồng ý với cách mô tả hoặc quyết định đó."
+    },
+    {
+      "heading": "Quy tắc “sau chữ BUT”",
+      "body": "Người Canada thường mở đầu bằng điểm tích cực, rồi mới nói điều thật sự muốn nói: *'I'm all for the new recycling rules… But having pickup only once a month is, honestly, a real problem.'* Thái độ chính nằm **sau** *but, though, still, the thing is, the only problem is*.\n\nTuy nhiên, đừng bỏ hẳn phần trước. Ở Level 8, đáp án đúng thường là **thái độ hỗn hợp**: *supports the idea but criticizes the process; understands the reasons but has reservations*. Đáp án quá mạnh (*strongly opposes*, *completely satisfied*) thường sai vì bỏ mất một nửa."
+    },
+    {
+      "heading": "Thái độ (attitude) khác ý định (intention)",
+      "body": "- **Attitude:** người nói cảm thấy thế nào? (doubtful, reluctant, enthusiastic, frustrated, lukewarm)\n- **Intention:** người nói nói câu đó **để làm gì**? (to suggest an alternative, to decline an invitation, to persuade, to complain, to concede a point)\n\nVí dụ: *'Have you thought about asking your landlord for a payment plan?'* — đây không phải là câu hỏi lấy thông tin, mà là **một lời gợi ý cách giải quyết**. Khi câu hỏi có dạng *Why does the man mention…?* hoặc *What does she mean when she says…?*, hãy nghĩ về **chức năng** của câu, không chỉ nội dung."
+    },
+    {
+      "heading": "Cách làm câu hỏi thái độ",
+      "body": "1. Xác định **thái độ về cái gì**: về kế hoạch, về người khác, hay về một chi tiết?\n2. Khi nghe, ghi lại **dấu hiệu bằng lời**: *I guess ↓, but →, Not a chance ✗*.\n3. Xếp thái độ lên một thang: rất tích cực → tích cực có điều kiện → trung lập/lưỡng lự → tiêu cực nhẹ → rất tiêu cực.\n4. Loại đáp án **hiểu theo nghĩa đen**, đáp án **quá mạnh**, và đáp án **bỏ mất phần sau but**.\n5. Với câu hỏi ý định, hỏi: “Nếu người nói không nói câu này, cuộc hội thoại sẽ mất đi điều gì?”."
+    }
+  ],
+  "stimuli": {
+    "block-party": {
+      "title": "A neighbour asks for help",
+      "audio": [
+        { "speaker": "Sandra", "voice": "female_a", "text": "Hey, Leo! So, we're organizing the block party for the end of August, and I was wondering if you'd like to be on the planning committee. It's just a couple of meetings." },
+        { "speaker": "Leo", "voice": "male_b", "text": "Oh, that sounds like a lot of fun, and I'd love to help out, I really would. It's just that work's been absolutely crazy lately, and I've already got something on most weekends this month. Maybe I could drop off some folding chairs on the day, or something like that?" },
+        { "speaker": "Sandra", "voice": "female_a", "text": "Oh, sure, that'd still be a big help. Thanks, Leo." }
+      ]
+    },
+    "kitchen-reno": {
+      "title": "A couple talks about their renovation",
+      "audio": [
+        { "speaker": "Chris", "voice": "male_a", "text": "The contractor called. He says the kitchen won't be done until mid-November now." },
+        { "speaker": "Nadia", "voice": "female_b", "text": "Oh, wonderful. That's the third time he's pushed it back. I'm sure the fourth date will be the real one." },
+        { "speaker": "Chris", "voice": "male_a", "text": "I know, I know. He said the cabinets were delayed again." },
+        { "speaker": "Nadia", "voice": "female_b", "text": "Honestly, I'm done being patient. If he can't give us a firm date by Friday, we're finding someone else." }
+      ]
+    },
+    "carpool": {
+      "title": "Two co-workers plan a carpool",
+      "audio": [
+        { "speaker": "Ben", "voice": "male_a", "text": "So if we carpool, I'd want to leave Surrey at six forty-five. That way we beat the worst of the bridge traffic." },
+        { "speaker": "Aisha", "voice": "female_a", "text": "Six forty-five? Wow, that's early. I mean, I suppose it does make sense with the traffic on the Port Mann. Okay, fine, let's try it for a week and see how it goes. But if I'm a zombie by Wednesday, we're revisiting this." },
+        { "speaker": "Ben", "voice": "male_a", "text": "Deal. I'll bring the coffee." }
+      ]
+    },
+    "presentation-feedback": {
+      "title": "A manager gives feedback on a draft",
+      "audio": [
+        { "speaker": "Grace", "voice": "female_b", "text": "Overall, it was a solid first draft, Omar. The data section was really clear. I wonder, though, if the opening might be a bit long. You spend almost five minutes on background before you get to the actual proposal. You might want to think about trimming that down. And the budget slide is an interesting approach, I guess, but I'm not sure the board will follow it." },
+        { "speaker": "Omar", "voice": "male_a", "text": "So you think I should redo the budget slide?" },
+        { "speaker": "Grace", "voice": "female_b", "text": "I'd at least simplify it. The board likes to see the totals first." }
+      ]
+    },
+    "bike-lane-caller": {
+      "title": "A caller on a local radio show",
+      "audio": [
+        { "speaker": "Gordon", "voice": "male_b", "text": "Look, I'm not against bike lanes. My daughter cycles to school, and I want her to be safe. But the way the city handled this one was, frankly, ridiculous. They removed thirty parking spots on my block without a single public meeting. The folks at the bakery on the corner say their sales are already down. I suppose the lane will be great once people get used to it. I just wish someone had asked us first." }
+      ]
+    },
+    "gym-membership": {
+      "title": "Two friends talk about a gym",
+      "audio": [
+        { "speaker": "Jess", "voice": "female_a", "text": "So, how's the new gym? You were so excited when you signed up." },
+        { "speaker": "Kai", "voice": "male_b", "text": "Yeah, it's fine. I mean, the equipment's okay, I guess. I'm just not sure it's worth eighty bucks a month when I only go twice a week." },
+        { "speaker": "Jess", "voice": "female_a", "text": "You know the rec centre near you has a drop-in pass for, like, six dollars?" },
+        { "speaker": "Kai", "voice": "male_b", "text": "Wait, seriously? Okay, now you're talking." }
+      ]
+    },
+    "office-policy": {
+      "title": "Two co-workers discuss a new policy",
+      "audio": [
+        { "speaker": "Derek", "voice": "male_a", "text": "So, what did you think of the new hybrid policy?" },
+        { "speaker": "Linh", "voice": "female_b", "text": "Well, it's certainly ambitious. Four days a week in the office, starting next month. I can see why they want people back, you know, collaboration and all that. Still, for those of us commuting from Langley, that's an extra six hours a week on the road. I'm not saying I'll quit over it. But I'll definitely be asking whether there's any flexibility." },
+        { "speaker": "Derek", "voice": "male_a", "text": "You think they'll budge?" },
+        { "speaker": "Linh", "voice": "female_b", "text": "Not a chance, if I'm honest. But it doesn't hurt to ask." }
+      ]
+    },
+    "restaurant-review": {
+      "title": "Friends talk about a new restaurant",
+      "audio": [
+        { "speaker": "Sam", "voice": "male_b", "text": "So, how was that new place on Commercial Drive? The reviews all call it cozy." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Cozy. That's one way to put it. We were basically sitting in the next table's lap." },
+        { "speaker": "Sam", "voice": "male_b", "text": "Ouch. But the food?" },
+        { "speaker": "Mei", "voice": "female_a", "text": "Oh, the food was honestly incredible. The halibut alone was worth it. I'd go back, just maybe not on a Friday night." }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "e1",
+      "title": "Recognizing a polite refusal",
+      "stimulusId": "block-party",
+      "question": "How does Leo respond to Sandra's request? (A) He agrees to join the planning committee. (B) He declines the committee role but offers a smaller kind of help. (C) He says he is not interested in the block party. (D) He asks Sandra to call him next month.",
+      "steps": [
+        "Sandra's request: join the planning committee. So the question is really 'yes or no, and how?'.",
+        "Leo starts positively: 'that sounds like a lot of fun, and I'd love to help out, I really would.' On its own, this sounds like yes, but 'I'd love to…, I really would' is the classic start of a polite refusal.",
+        "The real answer comes after 'It's just that…': work is 'absolutely crazy' and he has 'something on most weekends'. That means he can't go to the meetings.",
+        "Then he offers something smaller: 'Maybe I could drop off some folding chairs on the day'. His intention is to soften the refusal.",
+        "A takes the polite opening literally. C is too strong: he says it 'sounds like a lot of fun'. D is not mentioned. Answer: B."
+      ],
+      "answer": "(B) He declines the committee role but offers a smaller kind of help.",
+      "takeawayVi": "“I'd love to…, it's just that…” gần như luôn là lời từ chối. Câu trả lời thật nằm sau “It's just that”, và lời đề nghị nhỏ (“Maybe I could…”) là cách làm mềm lời từ chối."
+    },
+    {
+      "id": "e2",
+      "title": "Proving sarcasm with words, not tone",
+      "stimulusId": "kitchen-reno",
+      "question": "How does Nadia feel about the contractor? (A) Pleased that the work is nearly finished. (B) Frustrated and doubtful that he will keep the new date. (C) Sympathetic about the delayed cabinets. (D) Unsure whether the kitchen needs more work.",
+      "steps": [
+        "'Oh, wonderful' is a positive word. If I only hear the word, I might choose A. So I check the situation: the kitchen is delayed again.",
+        "Evidence 1: 'That's the third time he's pushed it back.' A third delay is bad news, so 'wonderful' cannot be literal. It is sarcasm.",
+        "Evidence 2: 'I'm sure the fourth date will be the real one.' She expects another delay. That is doubt.",
+        "Evidence 3: 'I'm done being patient… we're finding someone else.' This shows frustration and a threat to change contractors.",
+        "C is wrong because Chris, not Nadia, mentions the cabinets, and Nadia shows no sympathy. Answer: B."
+      ],
+      "answer": "(B) Frustrated and doubtful that he will keep the new date.",
+      "takeawayVi": "Mỉa mai luôn được chứng minh bằng ngữ cảnh: một từ tích cực (“wonderful”) đứng trong tình huống tiêu cực (“third time he's pushed it back”). Nếu bạn tìm được hai câu như vậy, bạn không cần nghe ngữ điệu."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "carpool",
+      "prompt": "How does Aisha feel about leaving at six forty-five?",
+      "hint": "Notice the words 'I suppose' and 'Okay, fine'. Do they sound like happy agreement, or something else? Also check the condition she adds at the end.",
+      "options": [
+        { "text": "She is excited to start early.", "misconception": "literal_positive", "whyVi": "Không có từ nào thể hiện sự hào hứng; “Wow, that's early” là than phiền." },
+        { "text": "She accepts it reluctantly, for a trial period.", "misconception": null, "whyVi": "Đúng: “I suppose… Okay, fine, let's try it for a week” = đồng ý miễn cưỡng, thử một tuần." },
+        { "text": "She refuses because it is too early.", "misconception": "overstated", "whyVi": "Quá mạnh: cô ấy có đồng ý (“let's try it”)." },
+        { "text": "She does not care what time they leave.", "misconception": "not_stated_attitude", "whyVi": "Cô ấy có quan tâm: thêm điều kiện “we're revisiting this”." }
+      ],
+      "answerIndex": 1,
+      "evidence": "I suppose it does make sense with the traffic on the Port Mann. Okay, fine, let's try it for a week and see how it goes.",
+      "explanationVi": "“I suppose” + “Okay, fine” + “let's try it for a week” là ba dấu hiệu đồng ý miễn cưỡng, có điều kiện. Thái độ không phải phản đối, cũng không phải vui vẻ.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "carpool",
+      "prompt": "What does Aisha mean when she says, 'If I'm a zombie by Wednesday, we're revisiting this'?",
+      "hint": "Think about the function of the sentence. 'Revisit' a plan = look at it again. Under what condition?",
+      "options": [
+        { "text": "She will drive on Wednesday instead of Ben.", "misconception": "missed_intention", "whyVi": "Không nói gì về việc đổi người lái." },
+        { "text": "She wants to stop carpooling after Wednesday.", "misconception": "overstated", "whyVi": "Quá mạnh: chỉ khi cô ấy quá mệt mới xem lại, không phải chắc chắn dừng." },
+        { "text": "She may ask to change the plan if she is too tired.", "misconception": null, "whyVi": "Đúng: “a zombie” = cực kỳ mệt; “revisiting this” = bàn lại kế hoạch." },
+        { "text": "She is joking that the carpool is a great idea.", "misconception": "literal_positive", "whyVi": "Câu này là một điều kiện cảnh báo, không phải lời khen." }
+      ],
+      "answerIndex": 2,
+      "evidence": "But if I'm a zombie by Wednesday, we're revisiting this.",
+      "explanationVi": "Đây là câu hỏi về ý định: Aisha đặt điều kiện để có thể xem lại giờ đi. “Zombie” là cách nói đùa cho “rất mệt”, “revisit” = bàn lại.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "presentation-feedback",
+      "prompt": "What is Grace's opinion of the opening of Omar's presentation?",
+      "hint": "Grace never says 'bad'. Look for the softening phrases 'I wonder, though, if…' and 'You might want to…'. What is she gently telling him?",
+      "options": [
+        { "text": "It is the strongest part of the presentation.", "misconception": "literal_positive", "whyVi": "Phần được khen là “the data section”, không phải phần mở đầu." },
+        { "text": "It should be removed completely.", "misconception": "overstated", "whyVi": "Quá mạnh: cô ấy chỉ nói “trimming that down” (rút gọn)." },
+        { "text": "It needs more background information.", "misconception": "missed_but", "whyVi": "Ngược lại: đã có quá nhiều background (gần năm phút)." },
+        { "text": "It is too long and should be shortened.", "misconception": null, "whyVi": "Đúng: “might be a bit long… You might want to think about trimming that down”." }
+      ],
+      "answerIndex": 3,
+      "evidence": "I wonder, though, if the opening might be a bit long.",
+      "explanationVi": "“I wonder if… might be a bit…” và “You might want to…” là cách phê bình rất lịch sự. Bỏ lớp rào đón đi, ý thật là: phần mở đầu quá dài, hãy cắt bớt.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "presentation-feedback",
+      "prompt": "How does Grace feel about the budget slide?",
+      "hint": "'An interesting approach, I guess' sounds positive. What comes after 'but'?",
+      "options": [
+        { "text": "She doubts that the board will understand it.", "misconception": null, "whyVi": "Đúng: “I'm not sure the board will follow it” = nghi ngờ hội đồng sẽ hiểu." },
+        { "text": "She thinks it is creative and should stay as it is.", "misconception": "literal_positive", "whyVi": "Hiểu “interesting approach” theo nghĩa đen; sau đó cô ấy khuyên “simplify it”." },
+        { "text": "She thinks the budget numbers are wrong.", "misconception": "missed_intention", "whyVi": "Cô ấy lo về cách trình bày, không nói số liệu sai." },
+        { "text": "She insists that Omar rebuild it from the beginning.", "misconception": "overstated", "whyVi": "Quá mạnh: “I'd at least simplify it”, không phải bắt làm lại từ đầu." }
+      ],
+      "answerIndex": 0,
+      "evidence": "the budget slide is an interesting approach, I guess, but I'm not sure the board will follow it",
+      "explanationVi": "“Interesting approach, I guess” là kiểu nói giảm đầy dè dặt; phần sau “but” mới là thái độ thật: nghi ngờ. “Follow” ở đây = understand.",
+      "competency": "speaker_attitude"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "bike-lane-caller",
+      "prompt": "Which statement best describes Gordon's attitude?",
+      "options": [
+        { "text": "He opposes bike lanes because they hurt local businesses.", "misconception": "missed_but", "whyVi": "Anh ấy nói rõ “I'm not against bike lanes”; chuyện tiệm bánh chỉ là ví dụ về hậu quả." },
+        { "text": "He supports the idea but is unhappy with how the city made the decision.", "misconception": null, "whyVi": "Đúng: ủng hộ (“not against”, muốn con an toàn) nhưng phê phán cách làm (“ridiculous… without a single public meeting”)." },
+        { "text": "He is fully satisfied now that his daughter can cycle safely.", "misconception": "literal_positive", "whyVi": "Bỏ qua toàn bộ phần phê phán sau “But”." },
+        { "text": "He has no strong opinion about the new lane.", "misconception": "not_stated_attitude", "whyVi": "Ngược lại: anh ấy dùng từ mạnh “frankly, ridiculous”." }
+      ],
+      "answerIndex": 1,
+      "evidence": "But the way the city handled this one was, frankly, ridiculous.",
+      "explanationVi": "Thái độ hỗn hợp: trước “But” là ủng hộ ý tưởng, sau “But” là phê phán quy trình. Đáp án đúng giữ cả hai nửa.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "bike-lane-caller",
+      "prompt": "Why does Gordon say, 'I suppose the lane will be great once people get used to it'?",
+      "options": [
+        { "text": "To admit that the lane may work out, even though he is still annoyed", "misconception": null, "whyVi": "Đúng: “I suppose” = nhượng bộ miễn cưỡng; câu tiếp theo “I just wish someone had asked us first” cho thấy anh ấy vẫn bực." },
+        { "text": "To show that he has changed his mind and now likes the process", "misconception": "literal_positive", "whyVi": "Anh ấy không đổi ý về cách làm; câu cuối vẫn là lời phàn nàn." },
+        { "text": "To predict that the bakery's sales will recover quickly", "misconception": "missed_intention", "whyVi": "Không nói gì về việc doanh thu phục hồi." },
+        { "text": "To complain that cyclists are not used to the lane yet", "misconception": "missed_intention", "whyVi": "Đây là một lời nhượng bộ, không phải lời phàn nàn về người đi xe đạp." }
+      ],
+      "answerIndex": 0,
+      "evidence": "I suppose the lane will be great once people get used to it. I just wish someone had asked us first.",
+      "explanationVi": "“I suppose” mở đầu một sự nhượng bộ (concession). Ý định: thừa nhận mặt tốt để lời phê phán nghe công bằng hơn — rồi quay lại ngay với lời phàn nàn bằng “I just wish…”.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "gym-membership",
+      "prompt": "How does Kai feel about his gym?",
+      "options": [
+        { "text": "He is enthusiastic about the equipment.", "misconception": "literal_positive", "whyVi": "“The equipment's okay, I guess” là khen rất nhạt, không phải hào hứng." },
+        { "text": "He is angry about the poor service.", "misconception": "overstated", "whyVi": "Quá mạnh và không được nhắc: không có lời nào về dịch vụ." },
+        { "text": "He is lukewarm and doubts it is good value.", "misconception": null, "whyVi": "Đúng: “it's fine… okay, I guess… not sure it's worth eighty bucks a month”." },
+        { "text": "He plans to go more often to get his money's worth.", "misconception": "missed_intention", "whyVi": "Không hề nói sẽ đi nhiều hơn." }
+      ],
+      "answerIndex": 2,
+      "evidence": "I'm just not sure it's worth eighty bucks a month when I only go twice a week.",
+      "explanationVi": "“It's fine”, “okay, I guess” là những từ khen “nhạt” (lukewarm). Câu “not sure it's worth…” cho biết lý do: không đáng tiền. Lưu ý Jess nhắc rằng lúc đầu Kai “so excited” — thái độ đã thay đổi.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "gym-membership",
+      "prompt": "Why does Jess mention the rec centre?",
+      "options": [
+        { "text": "To ask Kai whether he has visited the rec centre", "misconception": "missed_intention", "whyVi": "Câu có dạng câu hỏi nhưng chức năng là gợi ý, không phải hỏi thông tin." },
+        { "text": "To suggest a cheaper option that fits how often he goes", "misconception": null, "whyVi": "Đúng: Kai đi hai lần/tuần, thẻ drop-in khoảng sáu đô — Jess đang gợi ý lựa chọn rẻ hơn." },
+        { "text": "To criticize Kai for signing up too quickly", "misconception": "overstated", "whyVi": "Không có lời chê trách nào." },
+        { "text": "To persuade Kai to go to the gym more often", "misconception": "missed_intention", "whyVi": "Jess không bàn về tần suất tập." }
+      ],
+      "answerIndex": 1,
+      "evidence": "You know the rec centre near you has a drop-in pass for, like, six dollars?",
+      "explanationVi": "Câu hỏi về ý định: “You know…?” ở đây là một lời gợi ý. Phản ứng của Kai (“now you're talking”) xác nhận anh ấy hiểu đó là một gợi ý hay.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "office-policy",
+      "prompt": "What is Linh's attitude toward the new policy?",
+      "options": [
+        { "text": "She thinks it is an ambitious plan that will improve teamwork.", "misconception": "literal_positive", "whyVi": "“Certainly ambitious” là nói giảm mang tính mỉa nhẹ, không phải lời khen." },
+        { "text": "She is so upset that she plans to resign.", "misconception": "overstated", "whyVi": "Cô ấy nói rõ “I'm not saying I'll quit over it”." },
+        { "text": "She supports it because collaboration is important.", "misconception": "missed_but", "whyVi": "Cô ấy chỉ hiểu lý do; sau “Still” là phản đối về thời gian đi lại." },
+        { "text": "She understands the reasons for it but has serious reservations.", "misconception": null, "whyVi": "Đúng: “I can see why they want people back” + “Still… an extra six hours a week on the road”." }
+      ],
+      "answerIndex": 3,
+      "evidence": "I can see why they want people back, you know, collaboration and all that. Still, for those of us commuting from Langley, that's an extra six hours a week on the road.",
+      "explanationVi": "“Still” đóng vai trò như “but”. “Collaboration and all that” còn cho thấy cô ấy không mấy tin vào lý do này. Thái độ: hiểu nhưng không đồng tình.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "office-policy",
+      "prompt": "What does Linh intend to do?",
+      "options": [
+        { "text": "Look for a job closer to Langley", "misconception": "overstated", "whyVi": "Cô ấy không nói sẽ đổi việc." },
+        { "text": "Ask whether the policy can be adjusted for her", "misconception": null, "whyVi": "Đúng: “I'll definitely be asking whether there's any flexibility” và “it doesn't hurt to ask”." },
+        { "text": "Accept the policy without saying anything", "misconception": "missed_intention", "whyVi": "Ngược lại: cô ấy chắc chắn sẽ hỏi (“definitely”)." },
+        { "text": "Convince Derek to complain with her", "misconception": "not_stated_attitude", "whyVi": "Không hề rủ Derek." }
+      ],
+      "answerIndex": 1,
+      "evidence": "But I'll definitely be asking whether there's any flexibility.",
+      "explanationVi": "Ý định được nói thẳng bằng “I'll definitely be asking…”. “Flexibility” = khả năng điều chỉnh. Chú ý “I'm not saying I'll quit” loại bỏ đáp án nghỉ việc/đổi việc.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "office-policy",
+      "prompt": "How does Linh feel about her chances of getting what she wants?",
+      "options": [
+        { "text": "Hopeful, because her manager is usually flexible", "misconception": "not_stated_attitude", "whyVi": "Không nhắc tới người quản lý; và “Not a chance” là bi quan." },
+        { "text": "Pessimistic, but she will try anyway", "misconception": null, "whyVi": "Đúng: “Not a chance, if I'm honest. But it doesn't hurt to ask.”" },
+        { "text": "Confident, because many co-workers agree with her", "misconception": "not_stated_attitude", "whyVi": "Không nói gì về đồng nghiệp khác đồng tình." },
+        { "text": "Uninterested, since she has decided not to ask", "misconception": "missed_but", "whyVi": "Bỏ qua phần sau “But”: cô ấy vẫn sẽ hỏi." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Not a chance, if I'm honest. But it doesn't hurt to ask.",
+      "explanationVi": "“Not a chance” = gần như chắc chắn không được. “It doesn't hurt to ask” = hỏi thì cũng chẳng mất gì. Hai câu này cho thái độ bi quan nhưng vẫn hành động — đáp án Level 8 thường kết hợp như vậy.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "restaurant-review",
+      "prompt": "Which statement best reflects Mei's view of the restaurant?",
+      "options": [
+        { "text": "She agrees with the reviews that it is cozy and comfortable.", "misconception": "literal_positive", "whyVi": "“That's one way to put it” cho thấy cô ấy không đồng ý với chữ “cozy”: chỗ ngồi quá chật." },
+        { "text": "She would not go back because the tables are too close together.", "misconception": "overstated", "whyVi": "Ngược lại: “I'd go back”, chỉ tránh tối thứ Sáu." },
+        { "text": "She found it too crowded, but the food makes it worth returning.", "misconception": null, "whyVi": "Đúng: chê chỗ chật (“sitting in the next table's lap”) nhưng khen món ăn (“honestly incredible… I'd go back”)." },
+        { "text": "She thinks the halibut was the only dish worth ordering.", "misconception": "missed_intention", "whyVi": "“The halibut alone was worth it” = riêng món cá cũng đáng tiền, không có nghĩa các món khác dở." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Cozy. That's one way to put it. We were basically sitting in the next table's lap.",
+      "explanationVi": "“That's one way to put it” = “bạn có thể gọi như vậy, nhưng tôi thì không” — câu sau (“sitting in the next table's lap”) chứng minh ý đó. Sau đó thái độ đổi chiều với món ăn. Đáp án đúng giữ cả hai mặt và điều kiện “not on a Friday night”.",
+      "competency": "speaker_attitude"
+    }
+  ],
+  "misconceptions": {
+    "literal_positive": {
+      "label": "Hiểu lời lịch sự/mỉa mai theo nghĩa đen",
+      "explanationVi": "Bạn nghe thấy từ tích cực (wonderful, interesting, cozy, I'd love to) và cho rằng thái độ là tích cực, mà không kiểm tra tình huống và câu đi kèm. Đây là lỗi nghe từ đơn lẻ thay vì nghe chức năng của câu.",
+      "fixVi": "Mỗi khi nghe một lời khen, hỏi ngay: “Tình huống có tốt không? Câu tiếp theo nói gì?”. Nếu tình huống tiêu cực hoặc theo sau là but/that's one way to put it, thái độ thật là ngược lại."
+    },
+    "missed_but": {
+      "label": "Bỏ qua phần sau “but/still/though”",
+      "explanationVi": "Bạn dừng lại ở phần mở đầu lịch sự và không theo dõi phần đối lập phía sau — nơi người nói đặt ý chính. Hoặc ngược lại, bạn chỉ giữ một nửa của thái độ hỗn hợp.",
+      "fixVi": "Ghi chú dấu → mỗi khi nghe but, still, though, the thing is. Ý sau dấu → thường là thái độ chính; đáp án tốt nhất thường nhắc cả hai vế."
+    },
+    "overstated": {
+      "label": "Phóng đại thái độ",
+      "explanationVi": "Bạn chọn đáp án quá mạnh (refuses, resigns, angry, removed completely) trong khi người nói dùng từ rào đón (I wonder, a bit, I'm not saying…). Bạn nhận ra hướng thái độ nhưng không đo được mức độ.",
+      "fixVi": "Đặt thái độ lên thang mức độ. Các từ như a bit, I guess, I'm not sure, might cho thấy mức nhẹ. Loại đáp án dùng từ tuyệt đối khi người nói đang rào đón."
+    },
+    "missed_intention": {
+      "label": "Nhầm nội dung với ý định",
+      "explanationVi": "Bạn trả lời người nói nói về cái gì, trong khi câu hỏi hỏi người nói nói câu đó để làm gì (gợi ý, nhượng bộ, cảnh báo, từ chối). Ví dụ coi câu “You know…?” là câu hỏi lấy thông tin.",
+      "fixVi": "Với câu hỏi Why does she say…? / What does he mean…?, hãy gọi tên chức năng của câu bằng một động từ: suggest, warn, concede, refuse, complain. Sau đó chọn đáp án có động từ đó."
+    },
+    "not_stated_attitude": {
+      "label": "Gán thái độ không có bằng chứng",
+      "explanationVi": "Đáp án đưa ra cảm xúc hoặc lý do nghe hợp lý (hopeful vì sếp dễ tính, rủ đồng nghiệp) nhưng không có câu nào trong bài chứng minh. Bạn đang đoán thái độ từ kinh nghiệm cá nhân.",
+      "fixVi": "Thái độ phải có bằng chứng bằng lời. Trước khi chọn, hãy tự nhắc lại câu cụ thể trong bài chứng minh thái độ đó. Không tìm được câu → loại."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "I'd love to, but… / It's just that…", "vi": "rất muốn, nhưng… (mở đầu lời từ chối lịch sự)", "example": "I'd love to come to the potluck, it's just that I'm working a double shift that day." },
+    { "term": "I suppose…", "vi": "chắc là vậy (đồng ý/nhượng bộ miễn cưỡng)", "example": "I suppose we could take the bus, since parking downtown is so expensive." },
+    { "term": "Okay, fine. Let's try it and see.", "vi": "thôi được, thử xem sao (đồng ý không hào hứng)", "example": "Okay, fine, let's try the new schedule for a month and see." },
+    { "term": "That's one way to put it.", "vi": "nói vậy cũng được (nhưng tôi không đồng ý với cách mô tả đó)", "example": "'The hike was a bit challenging?' 'That's one way to put it. I could barely walk the next day.'" },
+    { "term": "It's certainly… ambitious / interesting", "vi": "cách nói giảm, ngầm chê hoặc nghi ngờ", "example": "Painting the whole house in one weekend? That's certainly ambitious." },
+    { "term": "It's fine, I guess.", "vi": "cũng được thôi (khen nhạt, thiếu hài lòng)", "example": "The new coffee place is fine, I guess, but I still prefer the one by the SkyTrain." },
+    { "term": "I wonder if… might be a bit…", "vi": "không biết liệu… có hơi… không (phê bình rất lịch sự)", "example": "I wonder if the deadline might be a bit tight for the team." },
+    { "term": "Not a chance.", "vi": "không đời nào, chắc chắn không", "example": "Will the landlord lower the rent? Not a chance." },
+    { "term": "It doesn't hurt to ask.", "vi": "cứ hỏi thử, chẳng mất gì", "example": "They probably won't waive the fee, but it doesn't hurt to ask." },
+    { "term": "Now you're talking.", "vi": "thế mới được chứ (rất đồng tình với gợi ý)", "example": "'What if we get poutine after the game?' 'Now you're talking.'" }
+  ],
+  "grammar": [],
+  "practice": [
+    { "label": "Speaker attitude drill", "route": "/listening?mode=drill&focus=speaker_attitude" },
+    { "label": "Listening Part 6: Viewpoints", "route": "/listening?task=L6" },
+    { "label": "Listening Part 2: Daily life conversation", "route": "/listening?task=L2" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 items; attitude is signalled verbally in every clip, keys and evidence hold. Replaced two concept examples that pre-explained independent answers (Gordon bike-lane line, Jess rec-centre line) and corrected two distractor misconception labels."}
+}

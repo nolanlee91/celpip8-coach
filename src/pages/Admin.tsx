@@ -34,15 +34,16 @@ const TASKS: Record<Skill, string[]> = {
 };
 
 export function AdminPage() {
-  const [tab, setTab] = useState<"library" | "audio" | "generate" | "ai">("library");
+  const [tab, setTab] = useState<"library" | "lessons" | "audio" | "generate" | "ai">("library");
   return (
     <div className="page">
       <h1>🛠 Quản trị nội dung</h1>
       <p className="muted">Khu vực dành cho quản trị — không thuộc luồng học. Mọi thao tác dùng AI ở đây đều phải bấm chủ động.</p>
       <Segmented value={tab} onChange={setTab} options={[
-        { value: "library", label: "Thư viện" }, { value: "audio", label: "Audio Listening" }, { value: "generate", label: "Sinh nội dung" }, { value: "ai", label: "Sử dụng AI" },
+        { value: "library", label: "Thư viện" }, { value: "lessons", label: "Bài học (Learn)" }, { value: "audio", label: "Audio Listening" }, { value: "generate", label: "Sinh nội dung" }, { value: "ai", label: "Sử dụng AI" },
       ]} />
       {tab === "library" && <LibraryTab />}
+      {tab === "lessons" && <LessonsTab />}
       {tab === "audio" && <AudioTab />}
       {tab === "generate" && <GenerateTab />}
       {tab === "ai" && <UsageTab />}
@@ -299,6 +300,47 @@ function UsageTab() {
         )}
         <p className="muted tiny">Số token lấy từ usageMetadata mà Gemini trả về; một số lỗi không có số token.</p>
       </Card>
+    </>
+  );
+}
+
+interface CurriculumAdmin {
+  lessons: { id: string; skill: string; title: string; file: string; active: boolean; review: { status: string; reviewedBy: string; notes: string }; exercises: number; audio: { ready: boolean; chunks: { file: string | null }[] } }[];
+  issues: ValidationIssue[];
+  planned: number;
+}
+
+function LessonsTab() {
+  const [d, setD] = useState<CurriculumAdmin | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const load = useCallback(() => api<CurriculumAdmin>("/api/admin/curriculum").then(setD).catch((e) => setError(e.message)), []);
+  useEffect(() => { void load(); }, [load]);
+  if (error) return <ErrorBox error={error} />;
+  if (!d) return <Loading />;
+  const active = d.lessons.filter((l) => l.active).length;
+  const errors = d.issues.filter((i) => i.severity === "error");
+  return (
+    <>
+      <Card title="Lộ trình Learn Mode" actions={<button className="btn small" onClick={() => void post("/api/admin/curriculum/reload").then(load)}>↻ Nạp lại</button>}>
+        <p>Kế hoạch <strong>{d.planned}</strong> bài · có file <strong>{d.lessons.length}</strong> · đang dùng (đã duyệt + hợp lệ) <strong>{active}</strong> · lỗi kiểm tra <strong>{errors.length}</strong></p>
+        <p className="muted small">Bài học soạn sẵn trong <code>content/lessons/</code>, kiểm tra bằng <code>npm run content:validate</code>. Audio của bài nghe tạo bằng <code>npm run audio:generate -- --lessons</code> (hoặc tab Audio).</p>
+        <table className="table small">
+          <thead><tr><th>Bài</th><th>Tên</th><th>Bài tập</th><th>Audio</th><th>Duyệt</th><th>Trạng thái</th></tr></thead>
+          <tbody>{d.lessons.map((l) => (
+            <tr key={l.id}>
+              <td>{l.id}</td><td>{l.title}</td><td>{l.exercises}</td>
+              <td>{l.audio.chunks.length ? `${l.audio.chunks.filter((c) => c.file).length}/${l.audio.chunks.length}` : "–"}</td>
+              <td title={l.review.notes}>{l.review.status} · {l.review.reviewedBy}</td>
+              <td>{l.active ? <Badge tone="good">đang dùng</Badge> : <Badge tone="warn">chưa dùng</Badge>}</td>
+            </tr>
+          ))}</tbody>
+        </table>
+      </Card>
+      {d.issues.length > 0 && (
+        <Card title={`Vấn đề (${d.issues.length})`}>
+          <ul className="small">{d.issues.slice(0, 200).map((i, k) => <li key={k}><Badge tone={i.severity === "error" ? "bad" : "warn"}>{i.severity}</Badge> <code>{i.id}</code> {i.message}</li>)}</ul>
+        </Card>
+      )}
     </>
   );
 }

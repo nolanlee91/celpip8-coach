@@ -1,0 +1,333 @@
+{
+  "id": "rd-15",
+  "skill": "reading",
+  "module": "reading-parts",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Reading time management",
+  "titleVi": "Quản lý thời gian bài Reading",
+  "estimatedMinutes": 25,
+  "prerequisites": ["rd-10"],
+  "competencies": ["time_management"],
+  "tasks": ["R1", "R2", "R3", "R4"],
+  "objectives": [
+    "You will be able to split the time for each Reading part into a reading phase, an answering phase and a short check.",
+    "You will be able to apply a 90-second rule: choose your best answer, note the question and move on.",
+    "You will be able to decide which questions to do first and which to leave for later in each part.",
+    "You will be able to make sure no question is ever left blank when time runs out."
+  ],
+  "objectiveVi": "Sau bài này, bạn có ngân sách thời gian cụ thể cho từng Part, biết khi nào bỏ qua một câu và quay lại, biết làm câu nào trước, và không bao giờ để trống câu nào khi hết giờ.",
+  "whyItMattersVi": "Nhiều người đạt Reading 5 không thiếu kỹ năng mà thiếu thời gian: họ đọc từng chữ, cố chắc chắn 100% ở một câu khó, rồi phải đoán vội 3–4 câu cuối của Part 3 hoặc Part 4. Chỉ cần lấy lại 3–4 câu bị mất vì hết giờ là đủ khác biệt giữa Level 6–7 và Level 8.",
+  "concept": [
+    {
+      "heading": "55 phút được chia như thế nào",
+      "body": "Cả phần Reading kéo dài khoảng 55 phút (tính cả hướng dẫn và các phần phụ), và trong bài thi trên máy **mỗi Part thường có đồng hồ riêng**. Thời gian làm bài của các Part trong bài luyện của app (gần với format thi thật):\n\n- **Part 1** (Correspondence): 11 câu, khoảng 11 phút\n- **Part 2** (Diagram): 8 câu, khoảng 9 phút\n- **Part 3** (Information): 9 câu, khoảng 10 phút\n- **Part 4** (Viewpoints): 10 câu, khoảng 13 phút\n\nCộng lại khoảng 43 phút cho 38 câu, tức trung bình khoảng **1 phút cho mỗi câu, bao gồm cả thời gian đọc bài**. Vì mỗi Part tính giờ riêng, thời gian dư ở Part này không được cộng sang Part sau, nên làm xong sớm không giúp gì cho Part tiếp theo. Hãy dùng thời gian còn lại để kiểm tra các câu đã đánh dấu."
+    },
+    {
+      "heading": "Ngân sách thời gian cho từng Part",
+      "body": "Chia mỗi Part thành ba giai đoạn: **đọc – trả lời – kiểm tra**.\n\n- **Part 1 (11'):** ~3' đọc thư đầu và lập bản đồ ai – muốn gì – vì sao; ~3' cho câu 1–6; ~4' cho thư trả lời và câu 7–11; ~1' kiểm tra.\n- **Part 2 (9'):** ~1,5' lướt tiêu đề, nhãn và chú thích của diagram; ~5' cho 5 chỗ trống trong email; ~2' cho 3 câu hỏi cuối; ~0,5' kiểm tra.\n- **Part 3 (10'):** ~2' gắn nhãn 4 đoạn; ~7' cho 9 câu (khoảng 45 giây mỗi câu); ~1' quay lại các câu nghi là E.\n- **Part 4 (13'):** ~4' đọc bài và lập bản đồ quan điểm; ~4' cho các câu trắc nghiệm; ~4' cho bình luận; ~1' kiểm tra.\n\nĐặt **một mốc giữa Part**: ví dụ ở Part 4, đến phút thứ 5 bạn phải đọc xong bài báo. Nếu chậm hơn, tăng tốc ngay, đừng đợi đến cuối."
+    },
+    {
+      "heading": "Quy tắc 90 giây: chọn, ghi lại, đi tiếp",
+      "body": "Khi một câu đã chiếm khoảng **90 giây** mà bạn vẫn phân vân:\n\n1. Loại những đáp án chắc chắn sai.\n2. Chọn đáp án tốt nhất trong số còn lại (**best guess**).\n3. Ghi số câu lên giấy nháp.\n4. Đi tiếp. Trong cùng một Part bạn có thể quay lại câu trước nếu còn thời gian.\n\nLý do: câu khó và câu dễ có giá trị như nhau. Dành 3 phút để chắc chắn một câu khó có thể khiến bạn mất 2–3 câu dễ ở cuối. Khi quay lại, bạn thường thấy đáp án nhanh hơn vì đã hiểu bài rõ hơn."
+    },
+    {
+      "heading": "Làm câu nào trước?",
+      "body": "- **Part 1 và Part 4:** câu hỏi đi theo thứ tự bài đọc, nên làm theo thứ tự. Riêng chỗ trống cuối của thư trả lời hoặc bình luận thường là câu tổng hợp; nếu nó khó, để lại sau.\n- **Part 2:** làm các chỗ trống trong email trước, vì 3 câu hỏi cuối thường dùng lại các điều kiện bạn vừa xử lý.\n- **Part 3:** câu có tên riêng, con số hoặc địa điểm tìm rất nhanh; câu nghi là E tốn thời gian nhất vì phải kiểm tra cả 4 đoạn. Hãy tạm chọn E, ghi lại và kiểm tra kỹ hơn ở cuối nếu còn giờ.\n\nTriage không có nghĩa là bỏ câu: bạn vẫn chọn một đáp án cho mọi câu, chỉ thay đổi **thứ tự đầu tư thời gian**."
+    },
+    {
+      "heading": "Không bao giờ để trống, nhưng cũng đừng ẩu",
+      "body": "Điểm Reading dựa trên số câu đúng; CELPIP không trừ điểm cho câu sai. Vì vậy câu để trống chắc chắn bằng 0, còn một câu đoán sau khi loại được 2 đáp án có khoảng 50% cơ hội đúng. **30 giây cuối mỗi Part**: kiểm tra không còn câu nào trống.\n\nNhưng nhanh không có nghĩa là ẩu. Đọc nhanh nghĩa là **không đọc những phần không cần**, chứ không phải bỏ qua bước tìm bằng chứng. Với câu chi tiết: từ khoá → scan → đọc kỹ đúng một câu chứa đáp án → chọn. Bỏ bước \"đọc kỹ đúng một câu\" là cách nhanh nhất để mất điểm vì bẫy trùng từ."
+    }
+  ],
+  "stimuli": {
+    "pool-notice": {
+      "title": "Pool schedule notice",
+      "text": "**Westside Aquatic Centre — Winter Schedule Changes**\n\nFrom January 6 to February 28, the leisure pool will close at 7 p.m. on weekdays while the hot tub is repaired. Lane swimming continues as usual: 6–9 a.m. and 5–9 p.m. Monday to Friday, and 8 a.m.–4 p.m. on weekends. Aquafit classes move from the leisure pool to Lanes 1 and 2 on Tuesday and Thursday evenings, starting at 6:30 p.m. Monthly pass holders will receive one free guest visit for each month of the repair period. Drop-in rates are unchanged. Questions? Call the front desk at 604-555-0142."
+    },
+    "market-schedule": {
+      "title": "Farmers' market schedule",
+      "text": "**Riverbend Farmers' Market — Summer Season**\n\n- Saturdays, May 4 to October 26: 9 a.m.–2 p.m., Riverbend Park\n- Wednesdays, June 5 to September 25: 3–7 p.m., City Hall Plaza\n- Statutory holidays (Victoria Day, Canada Day, BC Day, Labour Day): 10 a.m.–2 p.m., Riverbend Park\n- Dogs on leashes are welcome at City Hall Plaza only.\n- Applications for the fall craft fair close August 15."
+    },
+    "commute-email": {
+      "title": "Email from a co-worker",
+      "text": "Hi Jordan,\n\nJust a heads-up before Monday. Our usual bus is on a detour all week because of the water main work on Broadway, so the stop outside the office won't be served. Most of us are planning to get off two stops early and walk the extra ten minutes. Priya's going to drive, and she's offered to pick up anyone near the SkyTrain station, but she only has room for three and she leaves at 7:15 sharp.\n\nAnyway, don't stress if you're a bit late on Monday. Martin knows about the detour and said the team meeting will start at 9:30 instead of 9.\n\nCheers,\nAli"
+    },
+    "oak-street-letter": {
+      "title": "Letter to the editor",
+      "text": "**Letters: Re: 'City considers four-way stop on Oak Street'**\n\nLike many parents on Oak Street, I was relieved to hear the city is finally looking at the intersection by Lakeview Elementary. That said, I'm not convinced a four-way stop is the answer. Drivers already roll through the stop sign on Elm, and nobody enforces it. What has actually worked in other neighbourhoods is narrowing the road with curb extensions, which slows cars down without relying on drivers' good behaviour. If the city goes ahead with stop signs alone, I suspect we'll be writing these letters again next year.\n\n— R. Bains"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Planning the 13 minutes of Part 4",
+      "question": "You start Part 4 with about 13 minutes. How should you plan your time, and what checkpoint will you use?",
+      "steps": [
+        "Chia ba giai đoạn: đọc (bài báo dài nhất bài thi), trả lời (câu trắc nghiệm và bình luận), kiểm tra.",
+        "Đọc ~4 phút: đọc bài một lần, ghi bản đồ quan điểm (tên – lập trường – điều kiện). Không đọc lại từng đoạn để \"cho chắc\"; bản đồ sẽ giúp bạn tra lại nhanh.",
+        "Câu trắc nghiệm ~4 phút: khoảng 45–50 giây mỗi câu. Câu ý chính có thể làm nhanh vì bạn vừa đọc xong cả bài.",
+        "Bình luận ~4 phút: đọc toàn bộ bình luận một lần trước, rồi điền từng chỗ trống bằng cách quay lại đoạn của người được nhắc tên. Nếu chỗ trống cuối (tổng hợp) khó, chọn tạm và để lại sau.",
+        "Kiểm tra ~1 phút: quay lại các câu đã ghi số, và chắc chắn không còn câu nào trống.",
+        "Mốc kiểm tra: ở phút thứ 5, bạn phải đọc xong bài báo. Nếu đến phút thứ 6 mà vẫn đang đọc, chuyển sang trả lời ngay và tra lại bài khi cần."
+      ],
+      "answer": "About 4 minutes reading and mapping viewpoints, about 4 minutes for the article questions, about 4 minutes for the reader comment, and 1 minute to check. Checkpoint: finish the article by minute 5.",
+      "takeawayVi": "Một kế hoạch có mốc giữa Part giúp bạn phát hiện mình chậm khi vẫn còn kịp sửa. Đọc bài một lần và ghi bản đồ nhanh hơn đọc hai lần mà không ghi gì."
+    },
+    {
+      "id": "ex2",
+      "title": "Triage in Part 3: a possible E statement",
+      "question": "In Part 3, 6 minutes have passed. You have answered statements 1–5. Statement 6 seems to be E, but after 80 seconds you are still not sure. Statements 7–9 are left. What should you do?",
+      "steps": [
+        "Tính nhanh: còn khoảng 4 phút cho 4 câu (6–9), tức khoảng 1 phút mỗi câu. Không còn chỗ cho việc dành thêm 2 phút cho câu 6.",
+        "Áp dụng quy tắc 90 giây: bạn đã dùng 80 giây. Đã kiểm tra đoạn có nhãn liên quan nhất mà không thấy chi tiết quyết định, nên E là best guess hợp lý.",
+        "Chọn E, ghi số 6 lên giấy nháp, chuyển sang câu 7.",
+        "Làm câu 7–9 trước. Câu nào có tên riêng hoặc con số thì scan rất nhanh.",
+        "Nếu còn thời gian, quay lại câu 6 và lướt nhanh hai đoạn bạn chưa kiểm tra kỹ. Nếu không, E vẫn là đáp án đã chọn, không để trống."
+      ],
+      "answer": "Choose E as a best guess, note statement 6, finish statements 7–9, then return to 6 if time allows.",
+      "takeawayVi": "Câu nghi là E luôn tốn thời gian nhất. Tạm chọn E, ghi lại và làm các câu còn lại trước; quay lại sau khi đã chắc chắn mọi câu đều có đáp án."
+    },
+    {
+      "id": "ex3",
+      "title": "A 20-second scan for a detail",
+      "stimulusId": "pool-notice",
+      "question": "Time limit: 30 seconds. What time does lane swimming end on Saturdays?",
+      "steps": [
+        "Từ khoá của câu hỏi: 'lane swimming' và 'Saturdays'. Đoán paraphrase trước: Saturday có thể được gộp trong 'weekends'.",
+        "Scan tìm 'Lane swimming': thấy ngay ở câu thứ hai. Không đọc câu về leisure pool hay hot tub.",
+        "Đọc kỹ đúng câu đó: '6–9 a.m. and 5–9 p.m. Monday to Friday, and 8 a.m.–4 p.m. on weekends.' Saturday thuộc 'weekends'.",
+        "Cẩn thận bẫy: '7 p.m.' là giờ đóng cửa của leisure pool vào ngày thường, '9 p.m.' là giờ kết thúc bơi lane ngày thường.",
+        "Đáp án: 4 p.m. Tổng thời gian khoảng 20 giây vì chỉ đọc kỹ một câu."
+      ],
+      "answer": "4 p.m.",
+      "takeawayVi": "Nhanh không phải là đọc lướt cả bài, mà là bỏ qua những câu không chứa từ khoá và đọc kỹ đúng một câu chứa đáp án."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "competency": "time_management",
+      "prompt": "In Part 1, you have used 7 of your 11 minutes and finished questions 1–6. You have not started the reply email (questions 7–11). What is the best plan?",
+      "hint": "Divide the remaining minutes by the remaining questions, and remember the reply answers points from the first email.",
+      "options": [
+        { "text": "Re-read the first email carefully to make sure questions 1–6 are correct, then start the reply.", "misconception": "perfectionism", "whyVi": "Đọc lại thư đầu sẽ dùng hết phần lớn 4 phút còn lại; câu 7–11 sẽ phải đoán vội." },
+        { "text": "Read the reply once, fill blanks 7–11 in order by linking each one to the first email, and use any time left to check.", "misconception": null, "whyVi": "Đúng. Còn 4 phút cho 5 chỗ trống: đủ nếu bạn đọc thư trả lời một lần và nối từng chỗ trống với ý tương ứng." },
+        { "text": "Skip the reply and use the time to double-check your hardest answer from questions 1–6.", "misconception": "blank-left", "whyVi": "Bỏ 5 câu để kiểm tra 1 câu là đổi rất lỗ; các câu bỏ trống chắc chắn bằng 0." },
+        { "text": "Guess all five blanks immediately without reading the reply, then check questions 1–6.", "misconception": "rush-careless", "whyVi": "Không đọc thư trả lời thì chỉ là đoán mò; 4 phút là đủ để làm thật." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "4 phút cho 5 câu (khoảng 48 giây mỗi câu) là vừa đủ, vì bạn đã hiểu thư đầu và thư trả lời ngắn. Kiểm tra câu 1–6 chỉ nên làm nếu còn dư thời gian."
+    },
+    {
+      "id": "g2",
+      "type": "order",
+      "competency": "time_management",
+      "prompt": "Put the steps of a timed Part 3 routine in the best order.",
+      "hint": "Start with what gives you a map of the text, and end with what protects you from losing points when time runs out.",
+      "items": [
+        "Skim all four paragraphs and give each one a short topic label.",
+        "Go through the statements in order, matching each one to a paragraph using your labels.",
+        "When a statement takes about 90 seconds, choose your best answer and note its number.",
+        "Return to the noted statements and check the possible E answers with the time left.",
+        "In the last 30 seconds, make sure no statement is left without an answer."
+      ],
+      "misconception": "no-budget",
+      "explanationVi": "Trình tự đi từ bản đồ (gắn nhãn) → trả lời (dùng nhãn) → quy tắc 90 giây → quay lại câu đã ghi số → kiểm tra không để trống. Bỏ bước đầu khiến mỗi câu phải tìm lại từ đầu; bỏ bước cuối có thể làm mất điểm miễn phí."
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "pool-notice",
+      "competency": "time_management",
+      "prompt": "Time limit: 30 seconds. Where will Aquafit classes take place during the repairs?",
+      "hint": "Scan for the class name, then read only that one sentence carefully. Watch the words 'from' and 'to'.",
+      "options": [
+        { "text": "In the leisure pool", "misconception": "rush-careless", "whyVi": "Leisure pool là nơi lớp chuyển đi ('move from'), không phải nơi lớp chuyển đến." },
+        { "text": "In Lanes 1 and 2", "misconception": null, "whyVi": "Đúng. Lớp chuyển 'to Lanes 1 and 2'." },
+        { "text": "In the hot tub area", "misconception": "rush-careless", "whyVi": "Hot tub đang được sửa; không lớp nào học ở đó." },
+        { "text": "At a different aquatic centre", "misconception": "rush-careless", "whyVi": "Thông báo không nói lớp chuyển sang trung tâm khác." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Aquafit classes move from the leisure pool to Lanes 1 and 2 on Tuesday and Thursday evenings",
+      "explanationVi": "Scan 'Aquafit' → một câu duy nhất. Đọc nhanh mà vẫn đọc kỹ đúng câu đó thì sẽ thấy cấu trúc 'move from A to B'. Chọn 'leisure pool' là lỗi đọc vội, chỉ nhìn danh từ đầu tiên."
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "competency": "time_management",
+      "prompt": "There are 30 seconds left in Part 2. Two questions have no answer yet. For one of them, you have already eliminated two options. What should you do?",
+      "hint": "Think about what a blank answer is worth compared with a guess.",
+      "options": [
+        { "text": "Leave both blank, because a wrong answer could lower your score.", "misconception": "blank-left", "whyVi": "Câu sai không bị trừ thêm điểm; câu trống chắc chắn bằng 0." },
+        { "text": "Spend the 30 seconds trying to solve one of them properly.", "misconception": "perfectionism", "whyVi": "30 giây có thể không đủ, và câu còn lại sẽ bị bỏ trống." },
+        { "text": "Choose between the two remaining options for the first question, and pick your best guess for the second.", "misconception": null, "whyVi": "Đúng. Câu đầu có khoảng 50% cơ hội đúng, câu sau ít nhất 25%. Không câu nào bị bỏ trống." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Trong 30 giây cuối, ưu tiên số một là không để trống câu nào. Dùng các đáp án đã loại để đoán có cơ sở, rồi đoán nhanh câu còn lại."
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "competency": "time_management",
+      "prompt": "In Part 2 (about 9 minutes), you spend the first 4 minutes reading every row of the table carefully before you look at the email. What is the main problem with this approach?",
+      "options": [
+        { "text": "There is no problem; reading every row first saves time later.", "misconception": "read-everything", "whyVi": "Bạn chưa biết điều kiện nào quan trọng nên phần lớn chi tiết vừa đọc sẽ không dùng đến hoặc bị quên." },
+        { "text": "You have used almost half the time before knowing which details matter.", "misconception": null, "whyVi": "Đúng. Chỉ nên lướt tiêu đề, nhãn và chú thích (~1,5 phút), rồi đọc email và quay lại bảng với điều kiện cụ thể." },
+        { "text": "You should skip the table completely and answer from the email.", "misconception": "rush-careless", "whyVi": "Không thể làm Part 2 mà không tra bảng; vấn đề là thời điểm và cách đọc bảng." },
+        { "text": "You should have started with the last three questions instead.", "misconception": "no-budget", "whyVi": "Ba câu cuối thường dùng lại điều kiện trong email, nên làm email trước hợp lý hơn." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Diagram chỉ cần được lướt để biết thông tin nằm ở đâu. Chi tiết nên được đọc khi email cho bạn biết cần tìm gì."
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "competency": "time_management",
+      "prompt": "Which of these shows that you are on track in Part 4 (about 13 minutes)?",
+      "options": [
+        { "text": "About 5 minutes in, you have finished the article and noted each person's position.", "misconception": null, "whyVi": "Đúng. Đây là mốc giữa Part hợp lý: còn khoảng 8 phút cho tất cả câu hỏi." },
+        { "text": "After 1 minute, you have already answered the first question from the title alone.", "misconception": "rush-careless", "whyVi": "Trả lời từ tiêu đề là đoán; câu ý chính cần biết cấu trúc cả bài." },
+        { "text": "At 8 minutes, you are still re-reading paragraph 2 to be completely sure about it.", "misconception": "perfectionism", "whyVi": "Đến phút 8 mà chưa trả lời câu nào là chậm nghiêm trọng." },
+        { "text": "At 10 minutes, you are just starting to read the reader comment.", "misconception": "no-budget", "whyVi": "Chỉ còn khoảng 3 phút cho cả bình luận và kiểm tra; quá chậm." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Theo kế hoạch 4' đọc – 4' câu hỏi – 4' bình luận – 1' kiểm tra, mốc phút thứ 5 là đã đọc xong bài và có bản đồ quan điểm."
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "market-schedule",
+      "competency": "time_management",
+      "prompt": "Time limit: 45 seconds. A shopper wants to bring her dog to the market on a weekday after work in July. Where and when should she go?",
+      "options": [
+        { "text": "Riverbend Park on a Saturday morning", "misconception": "rush-careless", "whyVi": "Thứ Bảy không phải ngày thường, và chó chỉ được vào City Hall Plaza." },
+        { "text": "Riverbend Park on BC Day", "misconception": "rush-careless", "whyVi": "BC Day rơi vào tháng 8, không phải tháng 7; chợ ngày lễ họp ở Riverbend Park, nơi không cho chó vào, và đóng lúc 2 p.m." },
+        { "text": "City Hall Plaza on a Saturday", "misconception": "rush-careless", "whyVi": "Chợ ở City Hall Plaza chỉ họp vào thứ Tư." },
+        { "text": "City Hall Plaza on a Wednesday between 3 and 7 p.m.", "misconception": null, "whyVi": "Đúng. Ngày thường, sau giờ làm, trong tháng 7, và là nơi duy nhất cho chó vào." }
+      ],
+      "answerIndex": 3,
+      "evidence": "Dogs on leashes are welcome at City Hall Plaza only.",
+      "explanationVi": "Có ba điều kiện (ngày thường, sau giờ làm, có chó). Bắt đầu với điều kiện loại nhiều nhất: chó → chỉ City Hall Plaza → chỉ thứ Tư 3–7 p.m., trong khoảng June 5 – September 25 nên tháng 7 hợp lệ. Cả bài chỉ cần đọc kỹ hai dòng."
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "competency": "time_management",
+      "prompt": "You have 2 minutes left in Part 3 and three statements unanswered. Two of them contain a name or number that you can scan for quickly. The third looks like it might be E. What is the best plan?",
+      "options": [
+        { "text": "Start with the possible E statement, because it is the hardest.", "misconception": "perfectionism", "whyVi": "Câu E cần kiểm tra cả 4 đoạn; làm nó trước có thể làm bạn hết giờ cho hai câu dễ." },
+        { "text": "Do the two quick statements first, then choose an answer for the third with the time left.", "misconception": null, "whyVi": "Đúng. Lấy chắc hai câu nhanh trước, rồi dành thời gian còn lại cho câu khó, và vẫn chọn một đáp án." },
+        { "text": "Mark all three as E to save time.", "misconception": "rush-careless", "whyVi": "Hai câu có tên riêng hoặc con số rất có thể nằm trong một đoạn cụ thể; chọn E cho chúng là bỏ điểm dễ." },
+        { "text": "Leave the possible E statement blank and do only the other two.", "misconception": "blank-left", "whyVi": "Câu trống chắc chắn bằng 0; ít nhất hãy chọn E làm best guess." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Triage: câu nhanh và chắc trước, câu tốn thời gian sau, và không câu nào để trống."
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "commute-email",
+      "competency": "time_management",
+      "prompt": "Time limit: 60 seconds. What does Ali suggest about arriving late on Monday?",
+      "options": [
+        { "text": "Jordan should ask Priya for a ride to avoid being late.", "misconception": "rush-careless", "whyVi": "Ali nhắc Priya, nhưng không khuyên Jordan đi nhờ xe; Priya chỉ có ba chỗ." },
+        { "text": "Being a little late will probably not be a problem.", "misconception": null, "whyVi": "Đúng. Ali bảo đừng lo nếu trễ một chút vì Martin đã biết và họp lùi lại 30 phút." },
+        { "text": "Everyone must arrive before 7:15.", "misconception": "rush-careless", "whyVi": "7:15 là giờ Priya xuất phát, không phải giờ phải có mặt." },
+        { "text": "The team meeting has been cancelled.", "misconception": "rush-careless", "whyVi": "Cuộc họp chỉ lùi sang 9:30, không bị huỷ." }
+      ],
+      "answerIndex": 1,
+      "evidence": "don't stress if you're a bit late on Monday. Martin knows about the detour and said the team meeting will start at 9:30 instead of 9.",
+      "explanationVi": "Từ khoá 'late' dẫn thẳng đến đoạn cuối. Đọc kỹ hai câu cuối: 'don't stress' + họp lùi giờ → trễ một chút không sao. Các con số 7:15 và 9 là bẫy cho người đọc vội."
+    },
+    {
+      "id": "i6",
+      "type": "text",
+      "competency": "time_management",
+      "prompt": "Part 1 has 11 questions in about 11 minutes. If you spend 2 minutes on every question, how many questions will you have answered when time runs out? (Type a number.)",
+      "answers": ["5", "five", "5 questions", "five questions"],
+      "mode": "exact",
+      "misconception": "no-budget",
+      "explanationVi": "11 phút ÷ 2 phút = 5,5, tức là bạn chỉ làm xong 5 câu và 6 câu còn lại phải đoán vội hoặc bỏ trống. Đây là lý do cần quy tắc 90 giây và ngân sách khoảng 1 phút mỗi câu."
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "competency": "time_management",
+      "prompt": "In a Part 4 question, two options both seem almost right. You have spent 2 minutes comparing them. What is the best decision?",
+      "options": [
+        { "text": "Keep comparing them until you are completely sure.", "misconception": "perfectionism", "whyVi": "Đã quá quy tắc 90 giây; thêm thời gian ở đây sẽ lấy mất thời gian của các câu khác." },
+        { "text": "Leave the question blank and come back to it at the end.", "misconception": "blank-left", "whyVi": "Nếu cuối Part hết giờ, câu này sẽ bằng 0. Hãy chọn tạm một đáp án trước khi đi tiếp." },
+        { "text": "Pick any of the four options so you can move on faster.", "misconception": "rush-careless", "whyVi": "Bạn đã loại được hai đáp án; chọn ngẫu nhiên trong cả bốn là vứt bỏ công sức loại trừ." },
+        { "text": "Choose the option closer to a specific sentence in the text, note the number and move on.", "misconception": null, "whyVi": "Đúng. Dùng tiêu chí bằng chứng để chọn nhanh, ghi lại và quay lại nếu còn giờ." }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Khi kẹt giữa hai đáp án, đáp án gần với một câu cụ thể trong bài hơn thường đúng hơn. Chọn nó, ghi số câu và đi tiếp, đừng để trống."
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "oak-street-letter",
+      "competency": "time_management",
+      "prompt": "Time limit: 90 seconds. What is the writer's position?",
+      "options": [
+        { "text": "The writer thinks a four-way stop will solve the problem.", "misconception": "rush-careless", "whyVi": "Người đọc vội chỉ thấy câu đầu ('relieved'), nhưng 'That said, I'm not convinced a four-way stop is the answer' đổi hướng." },
+        { "text": "The writer is against any changes on Oak Street.", "misconception": "rush-careless", "whyVi": "Người viết vui vì thành phố xem xét giao lộ và còn đề xuất một giải pháp khác." },
+        { "text": "The writer wants the city to act but prefers a different solution.", "misconception": null, "whyVi": "Đúng. Người viết ủng hộ việc xử lý giao lộ nhưng cho rằng thu hẹp đường bằng curb extensions hiệu quả hơn." },
+        { "text": "The writer mainly wants police to enforce the stop sign on Elm.", "misconception": "rush-careless", "whyVi": "Biển dừng ở Elm chỉ là ví dụ cho thấy biển báo không hiệu quả; người viết không yêu cầu tăng cường kiểm soát." }
+      ],
+      "answerIndex": 2,
+      "evidence": "That said, I'm not convinced a four-way stop is the answer.",
+      "explanationVi": "Trong 90 giây, cách nhanh nhất để tìm lập trường là đọc câu đầu, tìm tín hiệu đổi hướng ('That said') và câu đề xuất ('What has actually worked…'). Đọc nhanh nhưng không bỏ qua tín hiệu đổi hướng."
+    }
+  ],
+  "misconceptions": {
+    "perfectionism": {
+      "label": "Cầu toàn ở một câu",
+      "explanationVi": "Bạn muốn chắc chắn 100% trước khi đi tiếp, nên dành 2–3 phút cho một câu khó. Mỗi câu có giá trị như nhau, vì vậy cái giá thật là các câu dễ ở cuối Part bị bỏ hoặc làm vội.",
+      "fixVi": "Áp dụng quy tắc 90 giây: loại đáp án sai, chọn best guess, ghi số câu và đi tiếp. Chỉ quay lại khi các câu khác đã có đáp án."
+    },
+    "read-everything": {
+      "label": "Đọc hết mọi chi tiết trước",
+      "explanationVi": "Bạn đọc từng chữ, từng ô của bài hoặc bảng trước khi biết câu hỏi cần gì. Phần lớn chi tiết không được dùng đến và thời gian trả lời bị thu hẹp.",
+      "fixVi": "Lướt để lấy bố cục (tiêu đề, câu đầu, nhãn, chú thích), rồi để câu hỏi dẫn bạn đến chi tiết cần đọc kỹ."
+    },
+    "blank-left": {
+      "label": "Để trống câu trả lời",
+      "explanationVi": "Bạn nghĩ đoán sai sẽ bị trừ điểm, hoặc định quay lại rồi hết giờ. Câu sai không bị trừ thêm điểm, nhưng câu để trống chắc chắn bằng 0.",
+      "fixVi": "Luôn chọn một đáp án trước khi rời một câu, kể cả khi định quay lại. Dành 30 giây cuối mỗi Part để kiểm tra không còn câu trống."
+    },
+    "no-budget": {
+      "label": "Không có ngân sách thời gian",
+      "explanationVi": "Bạn làm bài mà không chia thời gian theo giai đoạn và không có mốc kiểm tra giữa Part, nên chỉ phát hiện mình chậm khi đã quá muộn.",
+      "fixVi": "Nhớ ngân sách cho từng Part (đọc – trả lời – kiểm tra) và một mốc giữa Part, ví dụ đọc xong bài báo Part 4 trước phút thứ 5."
+    },
+    "rush-careless": {
+      "label": "Nhanh nhưng ẩu",
+      "explanationVi": "Để tiết kiệm thời gian, bạn bỏ qua bước đọc kỹ câu chứa đáp án, nên dính bẫy trùng từ, nhầm 'from/to', bỏ qua 'That said', hoặc đoán mò dù đã loại được đáp án.",
+      "fixVi": "Nhanh ở bước tìm (scan), chậm lại ở bước xác nhận: đọc kỹ đúng một câu chứa từ khoá và câu tín hiệu đổi hướng trước khi chọn."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "best guess", "vi": "dự đoán tốt nhất (khi chưa chắc chắn)", "example": "I'm not sure when the ferry arrives, but my best guess is around noon." },
+    { "term": "on track", "vi": "đúng tiến độ", "example": "The community centre renovation is still on track to finish in March." },
+    { "term": "run out of time", "vi": "hết thời gian", "example": "We ran out of time at the strata meeting, so the parking issue was moved to next month." },
+    { "term": "(just) a heads-up", "vi": "báo trước một chút", "example": "Just a heads-up: the elevator will be out of service on Thursday." },
+    { "term": "sharp (7:15 sharp)", "vi": "đúng giờ, không trễ một phút", "example": "The school bus leaves at 8:05 sharp, so don't be late." },
+    { "term": "that said", "vi": "dù vậy, tuy nhiên (tín hiệu đổi hướng)", "example": "The new café is a bit pricey. That said, the coffee is excellent." },
+    { "term": "as usual / unchanged", "vi": "như thường lệ / không thay đổi", "example": "Garbage pickup continues as usual over the long weekend, and recycling days are unchanged." },
+    { "term": "roll through (a stop sign)", "vi": "chạy chậm qua biển dừng mà không dừng hẳn", "example": "Police remind drivers that rolling through a stop sign can still get you a ticket." }
+  ],
+  "grammar": [],
+  "practice": [
+    { "label": "Timed Part 3 practice", "route": "/reading?task=R3" },
+    { "label": "Timed Part 4 practice", "route": "/reading?task=R4" },
+    { "label": "Review your mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Checked all 12 exercises (strategy choices, order item, timed scans, text answer); keys sound, text answer variants extended. Hedged CELPIP timing claims (per-part timers, 43 min of part time within ~55 min total, no negative marking), made i8 options gender-neutral (writer 'R. Bains'), and noted BC Day is in August in i3."}
+}

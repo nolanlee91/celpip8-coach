@@ -1,0 +1,353 @@
+{
+  "id": "sp-03",
+  "skill": "speaking",
+  "module": "speaking-foundations",
+  "level": "foundation",
+  "difficulty": 7,
+  "title": "Connectors for coherence",
+  "titleVi": "Từ nối giúp câu trả lời mạch lạc",
+  "estimatedMinutes": 30,
+  "prerequisites": ["sp-01"],
+  "competencies": ["coherence"],
+  "tasks": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"],
+  "objectives": [
+    "You will be able to choose a connector that matches the relationship between two ideas: adding, contrasting, cause and effect, sequencing or giving an example.",
+    "You will be able to replace stiff written connectors (Moreover, Furthermore, In conclusion) with natural spoken ones (On top of that, Having said that, So, all in all).",
+    "You will be able to avoid double connectors such as “Although…, but…” and use because / because of correctly.",
+    "You will be able to use a wider range of connectors so your answer doesn't rely only on and, but, so and because."
+  ],
+  "objectiveVi": "Bạn sẽ biết chọn từ nối đúng chức năng (thêm ý, đối lập, nguyên nhân – kết quả, trình tự, ví dụ), dùng dạng tự nhiên của văn nói thay vì văn viết, và tránh các lỗi kép quen thuộc của người Việt như “Although…, but…”.",
+  "whyItMattersVi": "Coherence không chỉ là có khung (sp-01) mà còn là mối nối giữa từng câu. Ở Level 6, người nói thường chỉ dùng and / but / so / because, hoặc ngược lại dùng Moreover, Furthermore như đang đọc bài luận. Một dải từ nối tự nhiên, đúng chức năng giúp người chấm theo kịp lập luận của bạn và nghe bạn như một người nói tiếng Anh thành thạo — một dấu hiệu rõ của Level 8.",
+  "concept": [
+    {
+      "heading": "Từ nối làm gì cho người nghe",
+      "body": "Từ nối (connectors / linking words) cho người nghe biết **quan hệ** giữa hai ý trước khi họ nghe hết ý thứ hai. Nghe “Having said that…”, người chấm biết ngay một ý đối lập sắp đến; nghe “That's why…”, họ biết bạn đang nêu kết quả. Vì người nghe không thể quay lại đọc câu trước như khi đọc bài viết, tín hiệu này rất quý.\n\nHai vấn đề thường gặp ở người học Việt Nam: (1) **dải từ hẹp** — câu nào cũng “and”, “so”, “because”; (2) **sai chức năng** — dùng “On the other hand” để thêm ý cùng chiều, hoặc “so” khi giữa hai ý không có quan hệ nhân quả."
+    },
+    {
+      "heading": "Năm nhóm chức năng",
+      "body": "- **Adding (thêm ý):** also, plus, on top of that, what's more, not only… but also.\n- **Contrasting (đối lập, nhượng bộ):** but, even though, while/whereas, on the other hand, having said that, that said, … though (cuối câu: “It's pricey, though.”).\n- **Cause & effect (nguyên nhân – kết quả):** because, since, so, that's why, as a result, which means.\n- **Sequencing (trình tự, nhất là Task 2):** first, at first, then, after that, by the time, eventually, in the end.\n- **Giving examples:** for example, for instance, like, take … for example, say (“Say you get a flat tire on the Coquihalla…”).\n\nTrước khi nối, hãy tự hỏi: ý thứ hai **thêm vào**, **ngược lại**, là **kết quả**, **xảy ra sau**, hay **minh hoạ** cho ý thứ nhất?"
+    },
+    {
+      "heading": "Văn nói khác văn viết",
+      "body": "Nhiều từ nối đúng ngữ pháp nhưng nghe như đọc bài luận khi nói. Hãy “đổi” sang dạng nói:\n\n- *Moreover / Furthermore* → **On top of that, / Plus, / Also,**\n- *However / Nevertheless* → **But / Having said that, / That said,**\n- *Therefore / Thus* → **So / That's why**\n- *Firstly, Secondly* → **First of all, … The other thing is …**\n- *In conclusion* → **So, all in all, … / So, overall, …**\n\nĐừng chồng nhiều từ nối (“Furthermore, secondly, also…”). Một từ nối đúng chỗ tốt hơn ba từ liền nhau. Và đừng dùng từ nối ở **mọi** câu — câu ví dụ ngay sau ý chính thường không cần."
+    },
+    {
+      "heading": "Lỗi ngữ pháp với từ nối",
+      "body": "- **Lỗi kép:** tiếng Việt nói “Mặc dù… nhưng…”, “Vì… nên…”. Tiếng Anh chỉ dùng **một**: “Although it was raining, we went.” hoặc “It was raining, but we went.” — **không** “Although…, but…”, **không** “Because…, so…”.\n- **because + mệnh đề, because of + danh từ:** “because the road was closed” / “because of the road closure”. Tương tự **although + mệnh đề**, **despite + danh từ/V-ing**.\n- **“Because…” đứng một mình** là câu cụt. Khi nói vẫn nên gắn vào câu chính: “I'd take the bus, because parking downtown is a nightmare.”\n- **On the other hand** cần “bàn tay thứ nhất”: dùng khi so sánh hai mặt, không dùng để thêm ý cùng chiều."
+    },
+    {
+      "heading": "Từ nối theo task",
+      "body": "- **Task 1 (Advice):** adding + cause/effect — *On top of that…, That way you'd…*\n- **Task 2 (Experience):** sequencing — *At first… Then… By the time… In the end…*\n- **Task 3 & 8 (Scene/Object):** dùng thêm cụm vị trí (*on the left, next to*) và *while* để nối hai hành động đồng thời.\n- **Task 4 (Predictions):** cause/effect — *because…, so…, as a result…*\n- **Task 5 & 7 (Persuade/Opinion):** contrast để nhượng bộ — *Admittedly…, that said…; I know… but…*\n- **Task 6 (Difficult situation):** contrast nhẹ nhàng — *I understand…, but…; Even though…*"
+    }
+  ],
+  "stimuli": {
+    "vote-prompt": {
+      "title": "Task 7 prompt: voting at 16",
+      "text": "Some people think that 16- and 17-year-olds should be allowed to vote in municipal (city) elections.\n\nDo you agree or disagree? Explain your reasons. (Preparation: 30 seconds. Speaking: 90 seconds.)"
+    },
+    "flood-prompt": {
+      "title": "Task 2 prompt: something broke at home",
+      "text": "Talk about a time when something broke or stopped working in your home and you had to deal with it. What happened, and what did you do? (Preparation: 30 seconds. Speaking: 60 seconds.)"
+    },
+    "written-advice": {
+      "title": "An advice answer that sounds like an essay",
+      "text": "“Firstly, you should join the community garden. Moreover, it is cheap. Furthermore, you can meet neighbours. However, there is a waiting list. Nevertheless, you should apply. In conclusion, the community garden is a good idea.”"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Task 7: same ideas, three levels of connecting",
+      "stimulusId": "vote-prompt",
+      "question": "How do connectors change the way the same ideas sound?",
+      "steps": [
+        "Lập ý (sp-02): AGREE · ① city decisions affect teens – buses ② part-time jobs – pay taxes · nhượng bộ: “not mature” → many adults too · result: lifelong voters.",
+        "Gắn chức năng cho từng mối nối: ý ① → ví dụ (Take transit, for instance) → kết quả (which means); thêm ý ② (On top of that); nhượng bộ (I know… That's a fair concern. Having said that…); kết (So, all in all).",
+        "Kiểm tra lỗi kép: không “Although…, but…”, không “Because…, so…”.",
+        "So sánh ba bản dưới đây — cùng ý tưởng, khác nhau chủ yếu ở cách nối."
+      ],
+      "answer": "Connector map: First of all (point 1) → Take…, for instance (example) → so / which means (effect) → On top of that (point 2) → Now, I know… / Having said that (concession + reply) → And if… (extra result) → So, all in all (wrap-up).",
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "I agree. Because teenager is smart now. They use internet and they know many thing. And they pay tax also when they work part-time. And they can drive at 16 so they can vote. But some people say teenager is not mature. Although some teenager is not mature, but many adult is not mature too. So I think they can vote. So that's my opinion.",
+          "commentVi": "Dải từ nối rất hẹp: chỉ “because, and, so, but” (“so” xuất hiện ba lần). “Because teenager is smart now” là câu cụt. Lỗi kép điển hình “Although…, but…” (dịch “mặc dù… nhưng”). “so they can vote” nối hai ý không có quan hệ nhân quả rõ (lái xe → bầu cử?). Thêm lỗi ngữ pháp hay gặp: “teenager is” (thiếu số nhiều), “many thing”, “many adult is”, “use internet” (thiếu “the”). Người nghe phải tự đoán mối quan hệ giữa các ý."
+        },
+        {
+          "label": "acceptable",
+          "text": "I agree that 16-year-olds should be allowed to vote in city elections. Firstly, many teenagers work part-time jobs and pay taxes. Moreover, they use city services such as buses and parks. Furthermore, voting early can create a good habit. However, some people think teenagers are not mature enough. Nevertheless, I believe they can learn. In conclusion, I think 16-year-olds should vote.",
+          "commentVi": "Ngữ pháp chính xác, có nhiều từ nối hơn và đúng chức năng. Nhưng toàn bộ là từ nối văn viết (Firstly, Moreover, Furthermore, Nevertheless, In conclusion), mỗi câu một từ, nghe như đọc thuộc bài luận. Các từ nối đang thay cho việc phát triển ý: mỗi ý chỉ một câu, không có ví dụ, không có “which means / so” để nêu kết quả. Phần nhượng bộ quá ngắn (“Nevertheless, I believe they can learn”). Chỉ khoảng 30 giây trên 90."
+        },
+        {
+          "label": "level8",
+          "text": "I actually think letting 16-year-olds vote in city elections is a good idea, and here's why. First of all, municipal decisions affect teenagers directly. Take transit, for instance. Most high school students don't drive, so they rely on buses every day, which means a cut to a bus route hits them harder than almost anyone. On top of that, a lot of sixteen-year-olds already have part-time jobs, so they're paying taxes on their paycheques. It seems fair that they should have a say in how that money is spent. Now, I know some people worry that teenagers aren't mature enough to vote, and that's a fair concern. Having said that, plenty of adults vote without really following the issues, and nobody suggests taking their vote away. And if students start voting while they're still learning about government in school, they're more likely to keep voting for the rest of their lives. So, all in all, I'd say giving sixteen-year-olds a vote at the local level would make them more engaged citizens.",
+          "commentVi": "Từ nối đa dạng, tự nhiên và mỗi cái đúng một chức năng: ví dụ (Take transit, for instance), kết quả (so, which means), thêm ý (On top of that), nhượng bộ và phản biện (Now, I know… that's a fair concern. Having said that…), kết (So, all in all). Từ nối được dùng để **phát triển** ý (lý do → ví dụ → hệ quả), không chỉ để đánh số. Không có lỗi kép. Từ vựng chính xác (municipal decisions, have a say, engaged citizens). Khoảng 85–90 giây."
+        }
+      ],
+      "takeawayVi": "Level 8 không phải là dùng nhiều từ nối hơn, mà là dùng đúng chức năng, đúng giọng văn nói, và dùng chúng để nối lý do với ví dụ và kết quả."
+    },
+    {
+      "id": "ex2",
+      "title": "Task 2: sequencing a story",
+      "stimulusId": "flood-prompt",
+      "question": "Which connectors carry a 60-second story from start to finish?",
+      "steps": [
+        "Lập ý theo thời gian: last winter – pipe burst under sink → towels, water everywhere → shut-off valve → plumber next morning → insurance, lesson.",
+        "Gắn từ nối trình tự cho từng mốc: Last winter (mở) → At first (phản ứng đầu tiên) → Then (bước tiếp) → By the time (hai sự việc chồng lên nhau) → In the end (kết quả).",
+        "Thêm một từ nối nguyên nhân – kết quả để câu chuyện có logic: “because I'd seen my dad do it”.",
+        "Kết bằng bài học với “Since then, …” — cũng là một từ nối thời gian."
+      ],
+      "answer": "Model: “Last winter, a pipe burst under our kitchen sink in the middle of the night. At first, I tried to stop the water with towels, but it was coming out way too fast. Then I remembered the main shut-off valve in the basement, because I'd seen my dad use one years ago, so I ran down and turned it off. By the time the plumber arrived the next morning, the kitchen floor was soaked and the cabinet under the sink was ruined. In the end, our home insurance covered most of the repair, but it still took two weeks to fix everything. Since then, I've shown everyone in my family where the shut-off valve is, just in case.”",
+      "takeawayVi": "Trong Task 2, từ nối trình tự chính là xương sống của câu chuyện. “At first… Then… By the time… In the end… Since then…” giúp người nghe theo dõi mà không bị lạc mốc thời gian."
+    },
+    {
+      "id": "ex3",
+      "title": "From essay connectors to spoken connectors",
+      "stimulusId": "written-advice",
+      "question": "How do you make this Task 1 answer sound spoken instead of written?",
+      "steps": [
+        "Xác định chức năng của từng từ nối: Firstly (ý 1), Moreover (thêm), Furthermore (thêm), However (đối lập), Nevertheless (vẫn khuyên), In conclusion (kết).",
+        "Đổi sang dạng nói: Firstly → First of all; Moreover → Plus; Furthermore → On top of that; However/Nevertheless → The only catch is… / so…; In conclusion → So, all in all.",
+        "Bỏ bớt từ nối không cần thiết và gộp câu ngắn: “It's cheap, plus you'd meet your neighbours.”",
+        "Thêm từ nối kết quả để ý được phát triển: “so it's worth signing up early”."
+      ],
+      "answer": "Spoken version: “First of all, I'd really recommend joining the community garden. It's only about thirty dollars a year, plus you'd get to know your neighbours while you're working on your plot. The only catch is that there's usually a waiting list, so it's worth signing up as early as you can. So, all in all, I think it's a great way to feel more connected to the neighbourhood.”",
+      "takeawayVi": "Cùng chức năng, khác giọng văn. Khi nói, từ nối ngắn và gọn (Plus, So, The only catch is…) nghe tự nhiên hơn nhiều so với Moreover hay Nevertheless."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "prompt": "Choose the best connector: “The apartment in Burnaby is a lot cheaper. ___, it's almost an hour from your work.”",
+      "hint": "Ý thứ hai là điểm cộng hay điểm trừ so với ý thứ nhất?",
+      "options": [
+        { "text": "Having said that", "misconception": null, "whyVi": "Đúng. Ý thứ nhất là ưu điểm (rẻ), ý thứ hai là nhược điểm (xa) → cần từ nối đối lập/nhượng bộ." },
+        { "text": "On top of that", "misconception": "wrong-function", "whyVi": "“On top of that” thêm một ý cùng chiều (một ưu điểm nữa), nhưng “xa chỗ làm” là nhược điểm." },
+        { "text": "As a result", "misconception": "wrong-function", "whyVi": "Căn hộ rẻ không phải là nguyên nhân khiến nó xa chỗ làm — không có quan hệ nhân quả." },
+        { "text": "For example", "misconception": "wrong-function", "whyVi": "Ý thứ hai không minh hoạ cho ý thứ nhất." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Trước khi chọn từ nối, xác định quan hệ: cùng chiều → adding; ngược chiều → contrasting; nguyên nhân → effect; minh hoạ → example.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "prompt": "A learner says: “Although the rent is high, but the location is perfect.” Which correction is right?",
+      "hint": "Tiếng Việt có cặp “mặc dù… nhưng”. Tiếng Anh thì sao — cần một hay hai từ nối?",
+      "options": [
+        { "text": "Although the rent is high, the location is perfect.", "misconception": null, "whyVi": "Đúng. Chỉ dùng một từ nối đối lập: “Although…,” rồi đến mệnh đề chính, không thêm “but”." },
+        { "text": "Although the rent is high, so the location is perfect.", "misconception": "double-connector", "whyVi": "Vẫn là lỗi kép, và “so” còn sai chức năng (không phải kết quả)." },
+        { "text": "Despite the rent is high, but the location is perfect.", "misconception": "connector-grammar", "whyVi": "“Despite” phải đi với danh từ (despite the high rent), và vẫn còn “but” thừa." },
+        { "text": "Although the rent is high, however the location is perfect.", "misconception": "double-connector", "whyVi": "Thay “but” bằng “however” vẫn là hai từ nối đối lập cho một quan hệ." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Một quan hệ = một từ nối. Hoặc “Although the rent is high, the location is perfect.” hoặc “The rent is high, but the location is perfect.”",
+      "competency": "grammar"
+    },
+    {
+      "id": "g3",
+      "type": "text",
+      "prompt": "Fill in the gap with TWO words: “We had to cancel the hike ___ ___ the wildfire smoke.”",
+      "hint": "Sau chỗ trống là một cụm danh từ (the wildfire smoke), không phải một mệnh đề có động từ.",
+      "answers": ["because of", "due to", "owing to"],
+      "mode": "exact",
+      "misconception": "connector-grammar",
+      "explanationVi": "“because + mệnh đề” (because the smoke was terrible), “because of / due to + danh từ” (because of the wildfire smoke).",
+      "competency": "grammar"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "prompt": "In a friendly Task 1 answer, which is the most natural way to add a second benefit of taking the bus?",
+      "hint": "Bạn đang nói chuyện với bạn bè, không đọc bài luận. Chọn câu nghe như người bản xứ nói.",
+      "options": [
+        { "text": "Moreover, it is also pertinent to note that you would save on parking fees.", "misconception": "written-register", "whyVi": "Đúng ngữ pháp nhưng là văn viết trang trọng — nghe cứng khi nói với bạn." },
+        { "text": "On top of that, you'd save a ton on parking.", "misconception": null, "whyVi": "Đúng. “On top of that” là từ nối thêm ý tự nhiên trong văn nói; “you'd save a ton” cũng thân mật, phù hợp." },
+        { "text": "And and also you save parking.", "misconception": "and-overuse", "whyVi": "Lặp “and”, chồng “also”, và thiếu “on” (save on parking)." },
+        { "text": "Furthermore, secondly, you would also save on parking.", "misconception": "written-register", "whyVi": "Chồng ba từ nối (Furthermore, secondly, also) cho cùng một chức năng." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Văn nói: On top of that / Plus / Also. Văn viết: Moreover / Furthermore. Một từ nối là đủ.",
+      "competency": "coherence"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "prompt": "Choose the best connector: “My flight from Kelowna was delayed by three hours. ___, I missed my connection in Calgary.”",
+      "options": [
+        { "text": "As a result", "misconception": null, "whyVi": "Đúng. Chuyến bay trễ là nguyên nhân, lỡ chuyến nối là kết quả." },
+        { "text": "Even though", "misconception": "wrong-function", "whyVi": "“Even though” chỉ sự nhượng bộ (trái với mong đợi), và còn cần một mệnh đề chính đi kèm." },
+        { "text": "For instance", "misconception": "wrong-function", "whyVi": "Lỡ chuyến nối không phải là ví dụ của việc bị trễ, mà là hệ quả." },
+        { "text": "Besides", "misconception": "wrong-function", "whyVi": "“Besides” thêm một ý/lý do khác, không chỉ kết quả." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Cause → effect: so, that's why, as a result, which means.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "prompt": "Fill in ONE word: “___ though it was pouring rain, the farmers' market was packed.”",
+      "answers": ["even"],
+      "mode": "exact",
+      "misconception": "connector-grammar",
+      "explanationVi": "“Even though + mệnh đề” = “mặc dù” (nhấn mạnh hơn “although”). Chú ý: không thêm “but” ở mệnh đề sau.",
+      "competency": "grammar"
+    },
+    {
+      "id": "i3",
+      "type": "order",
+      "stimulusId": "flood-prompt",
+      "prompt": "Put this Task 2 answer in order. Use the sequencing connectors to help you.",
+      "items": [
+        "Last spring, our fridge suddenly stopped working on a Friday night, right before a long weekend.",
+        "At first, I thought it was just the plug, so I checked the outlet, but everything looked fine.",
+        "Then I called three repair companies, and the only one that answered couldn't come until Tuesday.",
+        "By the time the technician finally showed up, we'd already thrown out most of our food.",
+        "In the end, he replaced a small part in about twenty minutes, and since then I've always kept a cooler in the garage."
+      ],
+      "misconception": "wrong-function",
+      "explanationVi": "Last spring (mở bối cảnh) → At first (phản ứng đầu) → Then (bước tiếp) → By the time (sự việc chồng thời gian) → In the end / since then (kết quả và bài học). Mỗi từ nối thời gian có vị trí riêng trong câu chuyện.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "written-advice",
+      "prompt": "What is the main problem with the connectors in this answer?",
+      "options": [
+        { "text": "They are the wrong function — for example, “However” should be an adding connector.", "misconception": "wrong-function", "whyVi": "Chức năng của các từ nối thực ra đúng (However đúng là đối lập: cheap/meet people vs waiting list)." },
+        { "text": "They are written, essay-style connectors used in every sentence, so the answer sounds stiff and the ideas are not developed.", "misconception": null, "whyVi": "Đúng. Firstly/Moreover/Furthermore/Nevertheless/In conclusion là văn viết; mỗi câu một từ nối mà không có ví dụ hay kết quả, nghe như danh sách được đánh số." },
+        { "text": "There are not enough connectors.", "misconception": "written-register", "whyVi": "Ngược lại — có quá nhiều, mỗi câu một cái. Thêm từ nối văn viết chỉ làm câu trả lời càng giống bài luận đọc thuộc." },
+        { "text": "“Although…, but…” is used.", "misconception": "double-connector", "whyVi": "Đoạn này không có lỗi kép." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Từ nối không thay được phát triển ý. Ở văn nói, hãy dùng ít hơn, tự nhiên hơn, và để chúng nối lý do với ví dụ và kết quả.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "prompt": "Task 5: you are persuading your partner to buy a home exercise bike instead of a gym membership. Which sentence best acknowledges the other option and then returns to yours?",
+      "options": [
+        { "text": "Admittedly, the gym has a lot more equipment. That said, with a bike at home you could work out at six in the morning without driving anywhere.", "misconception": null, "whyVi": "Đúng. “Admittedly” thừa nhận ưu điểm của bên kia, “That said” quay lại lựa chọn của bạn với một lý do cụ thể." },
+        { "text": "The gym has a lot more equipment, so the home bike is better.", "misconception": "wrong-function", "whyVi": "“so” sai logic: nhiều thiết bị hơn không dẫn đến kết luận xe đạp tốt hơn." },
+        { "text": "Although the gym has a lot more equipment, but the bike is more convenient.", "misconception": "double-connector", "whyVi": "Lỗi kép “Although…, but…”." },
+        { "text": "On the other hand, the gym has a lot more equipment, and also the classes are really fun.", "misconception": "wrong-function", "whyVi": "Câu này đổi sang ủng hộ phòng gym và không quay lại lựa chọn của bạn — sai mục đích của Task 5." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Công thức nhượng bộ trong Task 5 và 7: Admittedly / I know / Sure, + điểm mạnh của bên kia → That said / But / Having said that, + lý do của bạn.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "Choose the best connector: “Downtown condos are close to everything, ___ townhouses in Langley give you a lot more space for the money.”",
+      "options": [
+        { "text": "whereas", "misconception": null, "whyVi": "Đúng. “whereas” (hoặc “while”) đặt hai đặc điểm đối lập cạnh nhau trong cùng một câu: gần trung tâm ↔ rộng hơn." },
+        { "text": "so", "misconception": "wrong-function", "whyVi": "Không có quan hệ nhân quả giữa condo gần trung tâm và townhouse rộng." },
+        { "text": "because", "misconception": "wrong-function", "whyVi": "Ý thứ hai không giải thích nguyên nhân cho ý thứ nhất." },
+        { "text": "despite", "misconception": "connector-grammar", "whyVi": "“despite” cần danh từ hoặc V-ing theo sau, không đi với một mệnh đề đầy đủ." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "whereas / while dùng để so sánh hai thứ khác nhau trong một câu — rất hữu ích cho Task 5 khi so sánh hai lựa chọn.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "prompt": "Which excerpt uses connectors at the highest level for a spoken answer?",
+      "options": [
+        { "text": "“I think the library is good. And it has many books. And it is free. And also you can use computer. So it is good.”", "misconception": "and-overuse", "whyVi": "Dải từ nối rất hẹp (and, and, and also, so) — các ý được xếp thành danh sách, không có quan hệ rõ ràng." },
+        { "text": "“Firstly, the library is beneficial. Moreover, it is free. Furthermore, it provides computers. Therefore, it is beneficial.”", "misconception": "written-register", "whyVi": "Từ nối đúng chức năng nhưng là văn viết, câu nào cũng có, và kết luận lặp lại câu mở." },
+        { "text": "“The library's honestly one of the best deals in town. It's free, plus you can borrow laptops, which means students without a computer at home can still do their homework. The only downside is the hours, though.”", "misconception": null, "whyVi": "Đúng. Từ nối tự nhiên và đa dạng (plus, which means, though), dùng để nối lý do với kết quả; có cả nhượng bộ cuối câu kiểu văn nói." },
+        { "text": "“Although the library is free, but it is not open late. Because of it is popular, so it is busy.”", "misconception": "double-connector", "whyVi": "Hai lỗi kép (Although… but; Because… so) và “because of + mệnh đề” sai ngữ pháp." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Từ nối Level 8 trong văn nói: ngắn, tự nhiên, đúng chức năng, và tạo ra chuỗi ý → kết quả, không chỉ đánh số.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 90,
+      "prompt": "Task 7: Some people think public libraries should stop buying printed books and spend their money on e-books and online resources instead. Do you agree or disagree? Explain your reasons.",
+      "checklist": [
+        "I used at least one natural adding connector (also / plus / on top of that)",
+        "I used at least one contrast connector to acknowledge the other side (having said that / that said / I know… but)",
+        "I used at least one cause-and-effect connector to show a result (so / that's why / which means)",
+        "I introduced at least one example with a connector (for instance / take… for example)",
+        "I avoided essay-style connectors (moreover / furthermore / in conclusion) and double connectors (although… but)"
+      ],
+      "modelAnswer": "Honestly, I disagree. I think libraries should keep buying printed books, mainly because not everyone can use e-books easily. First of all, a lot of people still don't have a good device at home. Take seniors, for example. My neighbour is eighty and she reads three or four novels a month, but she finds tablets really frustrating, so if the library went digital-only, she'd basically stop reading. On top of that, printed books are better for young kids. When parents read picture books with their children, they're not staring at another screen, which means kids actually spend less time on devices. Now, I know e-books are cheaper to store and you can borrow them from home at midnight, and that's a real advantage. Having said that, libraries can offer both. They could buy more e-books for people who want them while still keeping the shelves full for everyone else. So, all in all, I think cutting printed books would leave out the people who need the library the most.",
+      "misconception": "and-overuse",
+      "explanationVi": "Nghe lại bản ghi và đánh dấu từng từ nối: mỗi cái thuộc nhóm nào? Có nhóm nào bạn chưa dùng? Bạn có chỗ nào nói “and… and… and” hoặc “Although… but” không? Bài mẫu dùng: First of all, Take… for example, so, On top of that, which means, Now, I know…, Having said that, while, So, all in all.",
+      "competency": "coherence"
+    }
+  ],
+  "misconceptions": {
+    "wrong-function": {
+      "label": "Từ nối sai chức năng",
+      "explanationVi": "Bạn chọn từ nối theo cảm giác “nghe hay” mà chưa xác định quan hệ giữa hai ý: dùng “On the other hand” để thêm ý cùng chiều, “so” khi không có nhân quả, “for example” cho một ý mới. Người nghe nhận tín hiệu sai và bị lạc.",
+      "fixVi": "Trước khi nối, hỏi: ý thứ hai thêm vào, ngược lại, là kết quả, xảy ra sau, hay minh hoạ? Rồi mới chọn từ trong đúng nhóm đó."
+    },
+    "double-connector": {
+      "label": "Lỗi từ nối kép (Although… but)",
+      "explanationVi": "Đây là lỗi chuyển từ tiếng Việt: “Mặc dù… nhưng…”, “Vì… nên…”. Trong tiếng Anh, một quan hệ chỉ dùng một từ nối.",
+      "fixVi": "Chọn một: “Although X, Y.” hoặc “X, but Y.”; “Because X, Y.” hoặc “X, so Y.” Luyện nói chậm các cặp này cho đến khi phản xạ đúng."
+    },
+    "written-register": {
+      "label": "Từ nối văn viết khi nói",
+      "explanationVi": "Bạn dùng Moreover, Furthermore, Nevertheless, In conclusion hoặc chồng nhiều từ nối. Đúng ngữ pháp nhưng nghe như đọc bài luận thuộc lòng, làm câu trả lời kém tự nhiên.",
+      "fixVi": "Đổi sang dạng nói: On top of that / Plus; Having said that / That said; So / That's why; So, all in all. Mỗi chỗ nối chỉ một từ."
+    },
+    "and-overuse": {
+      "label": "Dải từ nối hẹp (and, so, because)",
+      "explanationVi": "Bạn chỉ dùng vài từ nối cơ bản, nên các ý nghe như một danh sách và quan hệ giữa chúng không rõ. Đây là đặc điểm điển hình của Level 5–6.",
+      "fixVi": "Mỗi tuần học thuộc 2–3 từ nối mới (mỗi nhóm một từ) và cố ý dùng chúng khi luyện. Bắt đầu với: plus, having said that, which means, take… for example."
+    },
+    "connector-grammar": {
+      "label": "Sai ngữ pháp đi kèm từ nối",
+      "explanationVi": "Bạn biết đúng chức năng nhưng dùng sai cấu trúc theo sau: “because of + mệnh đề”, “despite + mệnh đề”, “even” thiếu “though”, “Because…” đứng một mình.",
+      "fixVi": "Nhớ cặp: because / although / even though + mệnh đề; because of / due to / despite + danh từ hoặc V-ing."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "On top of that, …", "vi": "Thêm vào đó, … (thêm ý, văn nói).", "example": "The townhouse has a bigger yard. On top of that, it's right next to an elementary school." },
+    { "term": "Plus, …", "vi": "Thêm nữa, … (thêm ý, rất thân mật).", "example": "Biking to work is free. Plus, you skip the traffic on the Lions Gate Bridge." },
+    { "term": "Having said that, …", "vi": "Dù vậy, … / Nói vậy chứ … (đối lập, nhượng bộ).", "example": "Tofino is beautiful. Having said that, it's a long drive with two kids." },
+    { "term": "That said, …", "vi": "Tuy vậy, … (ngắn hơn “having said that”).", "example": "The gym is expensive. That said, the classes are excellent." },
+    { "term": "That's why …", "vi": "Đó là lý do vì sao … (kết quả, văn nói thay cho “therefore”).", "example": "Parking downtown costs a fortune. That's why I take the SkyTrain." },
+    { "term": "…, which means …", "vi": "…, điều đó có nghĩa là … (nối hệ quả vào cả câu trước).", "example": "The ferry leaves every two hours, which means you'd have to book ahead." },
+    { "term": "Take …, for instance.", "vi": "Lấy … làm ví dụ.", "example": "Take my sister, for instance. She saved two thousand dollars by cooking at home." },
+    { "term": "By the time …", "vi": "Đến lúc … thì … (hai sự việc chồng thời gian trong Task 2).", "example": "By the time the tow truck arrived, it was already dark." },
+    { "term": "In the end, …", "vi": "Cuối cùng thì, … (kết quả của câu chuyện).", "example": "In the end, we had our picnic in the car." },
+    { "term": "whereas / while", "vi": "trong khi (đối chiếu hai thứ khác nhau trong một câu).", "example": "The Civic is better on gas, whereas the SUV has more room for hockey gear." }
+  ],
+  "grammar": [
+    {
+      "point": "One connector per relationship; clause vs noun after connectors",
+      "explanationVi": "Một quan hệ chỉ cần một từ nối: không dùng “Although… but…” hay “Because… so…” (lỗi dịch từ “Mặc dù… nhưng…”, “Vì… nên…”). Ngoài ra, chú ý loại từ theo sau: because / although / even though / while + mệnh đề (có chủ ngữ + động từ); because of / due to / despite / in spite of + danh từ hoặc V-ing.",
+      "examples": [
+        "✗ Although it was expensive, but we bought it. → ✓ Although it was expensive, we bought it. / ✓ It was expensive, but we bought it.",
+        "✗ Because the bus was late, so I missed the meeting. → ✓ Because the bus was late, I missed the meeting.",
+        "✓ We stayed home because of the snow. / ✓ We stayed home because it was snowing.",
+        "✓ Despite the rain, the parade went ahead. / ✓ Even though it was raining, the parade went ahead."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Task 7: Expressing opinions", "route": "/speaking?task=S7" },
+    { "label": "Practise Task 2: Personal experience", "route": "/speaking?task=S2" },
+    { "label": "Practise Task 5: Comparing and persuading", "route": "/speaking?task=S5" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises; keys confirmed (g3 variants because of/due to/owing to). Fixed i3 item to present perfect after \"since then\" (consistent with sp-05 grammar), remapped i4 \"not enough connectors\" distractor to written-register, corrected acceptable-version timing, and softened the \"CELPIP listens once\" claim."}
+}

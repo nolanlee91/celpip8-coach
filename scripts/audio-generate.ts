@@ -5,18 +5,23 @@
 //   npm run audio:generate -- --limit 10   # at most 10 chunks this run (free-tier friendly)
 //   npm run audio:generate -- --set l2-full-01
 //   npm run audio:generate -- --status     # show readiness only
+//   npm run audio:generate -- --lessons    # only Learn Mode lesson clips
 //
 // On Railway, run it from the Admin page instead so files land on the persistent volume.
 
 import "dotenv/config";
 import { library } from "../server/library";
-import { audioStatus, generateAudioBatch, AUDIO_ASSETS_DIR, AUDIO_PROVIDER, audioProviderReady, VOICE_MAP } from "../server/audio";
+import { audioStatus, generateAudioBatch, AUDIO_ASSETS_DIR, AUDIO_PROVIDER, audioProviderReady, VOICE_MAP, lessonAudioSet } from "../server/audio";
+import { curriculum } from "../server/lessons";
 import type { ListeningSet } from "../shared/types";
 
 const args = process.argv.slice(2);
 const opt = (n: string) => { const i = args.indexOf(`--${n}`); return i >= 0 ? args[i + 1] : undefined; };
 
-const sets = [...library().items.values()].filter((i): i is ListeningSet => i.kind === "listening" && (!opt("set") || i.id === opt("set")));
+// Library listening sets + Learn Mode lesson clips (one synthetic set per lesson; --lessons for lessons only).
+const lessonSets = [...curriculum().lessons.values()].map(lessonAudioSet).filter((s) => s.chunks.length);
+const sets = [...(args.includes("--lessons") ? [] : [...library().items.values()]), ...lessonSets]
+  .filter((i): i is ListeningSet => i.kind === "listening" && (!opt("set") || i.id === opt("set")));
 
 if (args.includes("--status")) {
   for (const s of sets) {

@@ -13,6 +13,7 @@ import path from "node:path";
 import { MsEdgeTTS, OUTPUT_FORMAT } from "msedge-tts";
 import type { AudioStatus } from "../shared/content";
 import type { ListeningChunk, ListeningSet } from "../shared/types";
+import type { Lesson } from "../shared/curriculum";
 import { DATA_DIR } from "./db";
 import { AiError, describeError, getClient, recordUsage, TTS_MODEL } from "./ai";
 
@@ -338,4 +339,25 @@ export async function generateAudioBatch(sets: ListeningSet[], opts: { limit?: n
     audioJob.finishedAt = new Date().toISOString();
   }
   return audioJob;
+}
+
+// ---------- Learn Mode lesson clips ----------
+// Each lesson stimulus with an `audio` script becomes one chunk of a synthetic set named after the
+// lesson (files: <lessonId>-c<i>-<hash>.mp3), so the same generator, manifest and hashing apply.
+
+/** Stimulus keys of a lesson that carry their own audio script, in declaration order. */
+export const lessonAudioKeys = (l: Lesson) => Object.entries(l.stimuli ?? {}).filter(([, s]) => s.audio?.length).map(([k]) => k);
+
+export function lessonAudioSet(l: Lesson): ListeningSet {
+  return {
+    id: l.id, kind: "listening", taskType: "LX", difficulty: l.difficulty, title: l.title, context: "",
+    chunks: lessonAudioKeys(l).map((k) => ({ segments: l.stimuli[k].audio!, questions: [] })),
+    vocabulary: [], createdAt: "", focus: [],
+  };
+}
+
+export function lessonAudioStatus(l: Lesson): { ready: boolean; chunks: { key: string; file: string | null; durationSec: number | null; hash: string }[] } {
+  const keys = lessonAudioKeys(l);
+  const st = audioStatus(lessonAudioSet(l));
+  return { ready: st.ready, chunks: st.chunks.map((c, i) => ({ ...c, key: keys[i] })) };
 }

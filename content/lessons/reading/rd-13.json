@@ -1,0 +1,344 @@
+{
+  "id": "rd-13",
+  "skill": "reading",
+  "module": "reading-parts",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Part 3 strategy: Reading for information",
+  "titleVi": "Chiến lược Part 3: Đọc lấy thông tin",
+  "estimatedMinutes": 30,
+  "prerequisites": ["rd-06", "rd-07"],
+  "competencies": ["paraphrase", "detail"],
+  "tasks": ["R3"],
+  "objectives": [
+    "You will be able to label each paragraph A–D with its topic in about two minutes so you know where to look.",
+    "You will be able to break a statement into its core parts and find the paragraph that paraphrases all of them.",
+    "You will be able to decide confidently when E (not given) is correct and avoid choosing a paragraph that only partly matches."
+  ],
+  "objectiveVi": "Sau bài này, bạn gắn nhãn chủ đề cho 4 đoạn A–D, tách mỗi câu phát biểu thành các phần cốt lõi, tìm đoạn diễn đạt lại đầy đủ các phần đó, và biết khi nào E (not given) là đáp án đúng.",
+  "whyItMattersVi": "Part 3 kiểm tra trực tiếp khả năng nhận ra paraphrase, điểm yếu chính của người đạt Reading 5. Câu phát biểu gần như không bao giờ dùng lại từ của đoạn văn, còn đáp án E đòi hỏi bạn chứng minh rằng thông tin không có ở đâu cả. Người học thường mất 3–4 câu ở Part này vì chọn theo từ trùng hoặc vì ngại chọn E. Có phương pháp rõ ràng, bạn có thể đạt 7–8/9 câu.",
+  "concept": [
+    {
+      "heading": "Part 3 trông như thế nào",
+      "body": "Part 3 (**Reading for Information**) có một bài thông tin chia thành **4 đoạn A, B, C, D** và **9 câu phát biểu**. Với mỗi câu, bạn chọn đoạn chứa thông tin đó, hoặc **E** nếu thông tin **không có trong đoạn nào** (not given). Thời gian khoảng 10 phút.\n\nHai điều cần nhớ:\n\n- Một đoạn có thể là đáp án của **nhiều** câu phát biểu.\n- Câu phát biểu là **paraphrase**: nó nói lại ý của đoạn văn bằng từ khác, thường chung hơn hoặc cụ thể hơn. Ví dụ: đoạn văn viết *a local hardware store*, câu phát biểu viết *a business*."
+    },
+    {
+      "heading": "Bước 1: Gắn nhãn chủ đề cho từng đoạn",
+      "body": "Đọc lướt cả bài một lần (khoảng 2 phút), tập trung vào câu đầu và vài từ khoá của mỗi đoạn. Đặt cho mỗi đoạn một nhãn ngắn:\n\n- A = câu chuyện người sáng lập, con số thành viên\n- B = nguồn đồ quyên góp, kiểm tra an toàn\n- C = đồ trả trễ, hư hỏng, ai trả tiền sửa\n- D = kế hoạch mở chi nhánh, gây quỹ\n\nNhãn giúp bạn biết **nên tìm ở đâu trước**, nhưng không phải là đáp án. Một đoạn về \"vấn đề\" vẫn có thể chứa một chi tiết về \"tiền\". Luôn xác nhận bằng một câu cụ thể."
+    },
+    {
+      "heading": "Bước 2: Tách câu phát biểu và săn paraphrase",
+      "body": "Mỗi câu phát biểu có các **phần cốt lõi**: *ai/cái gì* + *làm gì* + *chi tiết quyết định*. Ví dụ: *Members who damage an item by careless use | help pay | for the repair.*\n\nTìm đoạn chứa **cả ba phần**, dù bằng từ khác:\n\n- *careless use* ↔ *misuse*\n- *help pay* ↔ *pay half the repair cost*\n- *nowhere to store tools* ↔ *apartments with no storage space*\n- *a business* ↔ *a local hardware store*\n\nCác kiểu paraphrase hay gặp: đồng nghĩa, chung ↔ cụ thể, đổi từ loại (*donate* ↔ *donations*), chủ động ↔ bị động. Từ trùng hoàn toàn với đoạn văn **không** phải dấu hiệu đáng tin; nhiều khi đó là bẫy."
+    },
+    {
+      "heading": "Khi nào E (not given) là đúng",
+      "body": "Chọn E khi **không đoạn nào hỗ trợ đầy đủ** câu phát biểu. Câu E thường rất \"hợp lý\": nó nói về đúng chủ đề của bài, thậm chí dùng từ có trong một đoạn, nhưng **chi tiết quyết định** thì không ai nói đến.\n\nVí dụ: đoạn B nói *Volunteers test every donated tool*. Câu phát biểu *Volunteers are trained before they test tools* có \"volunteers\" và \"test tools\", nhưng phần *are trained* không có ở đâu cả. Đây là **partial match**, nên đáp án là E.\n\nQuy trình kiểm tra E:\n\n1. Xác định chi tiết quyết định của câu phát biểu.\n2. Kiểm tra đoạn có nhãn liên quan nhất, rồi lướt nhanh các đoạn còn lại.\n3. Nếu không có câu nào nói chi tiết đó (kể cả bằng từ khác), chọn E. Đừng tự suy ra thông tin để \"cứu\" một đoạn."
+    },
+    {
+      "heading": "Những bẫy thường gặp ở Part 3",
+      "body": "- **Từ khoá ở đoạn sai:** một từ trong câu phát biểu xuất hiện ở đoạn A, nhưng ý thật lại nằm ở đoạn C.\n- **Khớp một phần:** đoạn văn có chủ đề và vài từ giống, nhưng thiếu chi tiết quyết định. Đáp án thường là E.\n- **Chọn E quá sớm:** bạn không thấy từ trùng nên kết luận \"không có\", trong khi ý đó được paraphrase.\n- **Đoán theo nhãn đoạn:** chọn đoạn vì chủ đề chung có vẻ hợp mà không tìm câu bằng chứng.\n\nQuy tắc vàng: với mỗi đáp án A–D, bạn phải chỉ ra được **một câu cụ thể**; với E, bạn phải biết **phần nào** của câu phát biểu không được nói đến."
+    }
+  ],
+  "stimuli": {
+    "tool-library": {
+      "title": "Nanaimo's Tool Library",
+      "text": "**A.** When Sofia Reyes moved into a Nanaimo townhouse in 2019, she bought a cordless drill to hang three pictures. She used it for about ten minutes and then kept it in a closet for two years. That experience led her to found the Harewood Tool Library, which now lends more than 900 items, from ladders and pressure washers to bread makers and camping stoves. Members pay $40 a year and can borrow up to three items at a time.\n\n**B.** The library runs almost entirely on donations. Most tools come from residents who are downsizing or moving, and a local hardware store gives the library its returned or slightly damaged stock instead of sending it to the landfill. Volunteers test every donated tool before it goes on the shelf, and anything electrical is checked by a retired electrician who gives two afternoons a week.\n\n**C.** Not every item comes back in good shape. Reyes estimates that about one in twenty loans is returned late, and a smaller number come back broken. Members are not charged for normal wear and tear, but the library does ask them to pay half the repair cost when damage is clearly caused by misuse. 'We'd rather fix the relationship than lose the member,' she says.\n\n**D.** This year the library hopes to open a second location in the south end, where many renters live in apartments with no storage space. The city has offered a free room in a community centre for two years, but the group still needs to raise about $15,000 for shelving and a lending software system. A fundraising dinner is planned for March."
+    },
+    "digital-neighbours": {
+      "title": "Teens Teaching Tech in Prince George",
+      "text": "**A.** Every Tuesday morning, the meeting room at a branch library in Prince George fills with retirees holding phones, tablets and, occasionally, a printed email they cannot open. The Digital Neighbours program, started in 2022 by a group of high-school students, pairs each senior with a teen volunteer for a one-hour session. The idea came from Grade 11 student Arjun Mehta, who had spent much of the pandemic setting up video calls for his grandparents.\n\n**B.** Most requests are practical. Participants want to book medical appointments online, read lab results, pay bills or make a video call to grandchildren in another province. Volunteers keep a shared notebook of the questions they hear most often, and the most common one, Mehta says, is how to tell whether a text message from a 'bank' is genuine. The library now prints a one-page guide on that topic in English, Punjabi and Chinese.\n\n**C.** Organizers admit the format does not suit everyone. Some seniors find the room noisy and are embarrassed to ask basic questions while others are listening. For them, the program offers home visits, but only within city limits and only when two volunteers are available to go together, which means the wait for a visit can stretch to a month.\n\n**D.** The students say they gain as much as they give. Several volunteers have mentioned the program in scholarship applications, and a phone repair shop that heard about it has hired two of them part-time. Teachers have noticed something else: students who are quiet in class often become confident, patient explainers on Tuesday mornings."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Finding a general-to-specific paraphrase",
+      "stimulusId": "tool-library",
+      "question": "Which paragraph contains this information? 'Some of the library's stock is donated by a business.'",
+      "steps": [
+        "Tách câu phát biểu: chủ thể 'a business' + hành động 'donated' + đối tượng 'some of the library's stock'. Chi tiết quyết định là 'a business': không phải cư dân, mà là một doanh nghiệp.",
+        "Dùng nhãn đoạn: B là đoạn về nguồn đồ quyên góp ('The library runs almost entirely on donations'), nên kiểm tra B trước.",
+        "Trong B, 'residents who are downsizing or moving' là cá nhân, chưa khớp với 'a business'. Câu tiếp theo: 'a local hardware store gives the library its returned or slightly damaged stock'. Hardware store là một business (paraphrase chung ↔ cụ thể), 'gives' ↔ 'donated', và 'stock' xuất hiện ở cả hai.",
+        "Kiểm tra nhanh các đoạn khác: A nói Sofia mua một chiếc khoan (không phải quyên góp), D nói thành phố cho mượn phòng (không phải đồ trong thư viện, và thành phố không phải business). Không đoạn nào khác khớp đủ.",
+        "Kết luận: B."
+      ],
+      "answer": "B",
+      "takeawayVi": "Câu phát biểu thường dùng từ chung hơn (a business) cho một chi tiết cụ thể trong đoạn văn (a local hardware store). Hãy hỏi: từ cụ thể nào trong bài là một ví dụ của từ chung này?"
+    },
+    {
+      "id": "ex2",
+      "title": "Recognizing a partial match: the answer is E",
+      "stimulusId": "tool-library",
+      "question": "Which paragraph contains this information? 'Volunteers are trained before they are allowed to test tools.'",
+      "steps": [
+        "Tách câu phát biểu: 'volunteers' + 'are trained' + 'before they test tools'. Chi tiết quyết định là việc tình nguyện viên được đào tạo.",
+        "Đoạn B có 'Volunteers test every donated tool before it goes on the shelf'. Rất nhiều từ trùng: volunteers, test, tool, before. Đây chính là lúc phải cẩn thận.",
+        "So sánh từng phần: B nói tình nguyện viên kiểm tra đồ trước khi đưa lên kệ. B không nói họ được đào tạo. Thợ điện về hưu kiểm tra đồ điện, nhưng đó cũng không phải là đào tạo tình nguyện viên.",
+        "Lướt các đoạn khác tìm ý 'training' bằng bất kỳ từ nào (taught, course, learn, workshop). A, C, D đều không nhắc đến.",
+        "Phần 'are trained' không được hỗ trợ ở đâu cả, nên đây là partial match. Đáp án: E."
+      ],
+      "answer": "E (not given)",
+      "takeawayVi": "Nhiều từ trùng không có nghĩa là đúng đoạn. Nếu chi tiết quyết định của câu phát biểu không có trong đoạn nào, chọn E dù có một đoạn trông rất giống."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "tool-library",
+      "competency": "paraphrase",
+      "prompt": "Which paragraph contains this information? 'The founder got the idea after buying something she hardly used.'",
+      "hint": "Find the paragraph about how the library started, then look for a purchase and how long it was actually used.",
+      "options": [
+        { "text": "A", "misconception": null, "whyVi": "Đúng. Sofia mua máy khoan, dùng khoảng 10 phút rồi cất hai năm; 'That experience led her to found' = có ý tưởng." },
+        { "text": "B", "misconception": "keyword-paragraph", "whyVi": "B nói về đồ được quyên góp và kiểm tra, không nói về món đồ người sáng lập mua." },
+        { "text": "C", "misconception": "topic-guess", "whyVi": "C có trích lời Reyes, nhưng nói về đồ trả trễ và hư hỏng." },
+        { "text": "D", "misconception": "topic-guess", "whyVi": "D nói về kế hoạch tương lai, không phải nguồn gốc ý tưởng." },
+        { "text": "E (not given)", "misconception": "e-too-early", "whyVi": "Thông tin có trong A, chỉ được diễn đạt bằng từ khác (hardly used ↔ used it for about ten minutes)." }
+      ],
+      "answerIndex": 0,
+      "evidence": "She used it for about ten minutes and then kept it in a closet for two years. That experience led her to found the Harewood Tool Library",
+      "explanationVi": "'something she hardly used' là paraphrase của việc dùng 10 phút rồi cất hai năm; 'got the idea' tương ứng với 'That experience led her to found'."
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "tool-library",
+      "competency": "paraphrase",
+      "prompt": "Which paragraph contains this information? 'Members who damage an item by using it carelessly help pay for the repair.'",
+      "hint": "Look for a word in the text that means 'using something the wrong way' and a phrase about sharing a cost.",
+      "options": [
+        { "text": "A", "misconception": "keyword-paragraph", "whyVi": "A có 'Members pay $40 a year' (trùng 'members' và 'pay'), nhưng đó là phí thành viên, không phải tiền sửa chữa." },
+        { "text": "B", "misconception": "topic-guess", "whyVi": "B nói về kiểm tra đồ trước khi cho mượn, không nói về hư hỏng do người mượn." },
+        { "text": "C", "misconception": null, "whyVi": "Đúng. 'pay half the repair cost when damage is clearly caused by misuse' = carelessly + help pay." },
+        { "text": "D", "misconception": "topic-guess", "whyVi": "D nói về gây quỹ cho chi nhánh mới." },
+        { "text": "E (not given)", "misconception": "e-too-early", "whyVi": "Ý này có trong C, dùng từ 'misuse' thay cho 'carelessly'." }
+      ],
+      "answerIndex": 2,
+      "evidence": "the library does ask them to pay half the repair cost when damage is clearly caused by misuse",
+      "explanationVi": "Ba phần cốt lõi đều có trong C: members (them), carelessly (misuse), help pay for the repair (pay half the repair cost). 'help pay' khớp với 'half', không phải toàn bộ."
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "tool-library",
+      "competency": "paraphrase",
+      "prompt": "Which paragraph contains this information? 'The library wants to reach people who have nowhere to keep tools of their own.'",
+      "hint": "Before you scan, think of other ways to say 'nowhere to keep tools' (no room, no space to store things), then look for that idea in the text.",
+      "options": [
+        { "text": "A", "misconception": "keyword-paragraph", "whyVi": "A có chi tiết Sofia cất máy khoan trong tủ, nhưng cô ấy có chỗ cất; ý chính là cô hiếm khi dùng nó." },
+        { "text": "B", "misconception": "topic-guess", "whyVi": "B nói về người quyên góp đồ, không phải nhóm người thư viện muốn phục vụ." },
+        { "text": "C", "misconception": "topic-guess", "whyVi": "C nói về người mượn trả trễ hoặc làm hỏng đồ." },
+        { "text": "D", "misconception": null, "whyVi": "Đúng. Chi nhánh mới ở khu nhiều người thuê nhà sống trong 'apartments with no storage space'." },
+        { "text": "E (not given)", "misconception": "e-too-early", "whyVi": "Thông tin có trong D: 'no storage space' ↔ 'nowhere to keep tools'." }
+      ],
+      "answerIndex": 3,
+      "evidence": "This year the library hopes to open a second location in the south end, where many renters live in apartments with no storage space.",
+      "explanationVi": "'wants to reach' ↔ 'hopes to open a second location' ở nơi có những người này; 'nowhere to keep' ↔ 'no storage space'. Đây là paraphrase đồng nghĩa kết hợp với suy luận rất ngắn, có câu bằng chứng rõ ràng."
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "tool-library",
+      "competency": "detail",
+      "prompt": "Which paragraph contains this information? 'The yearly membership fee has gone up since the library opened.'",
+      "hint": "One paragraph mentions the fee. Check whether it says anything about the fee changing over time.",
+      "options": [
+        { "text": "A", "misconception": "partial-match", "whyVi": "A có phí $40 mỗi năm, nhưng không nói phí đã tăng. Thiếu chi tiết quyết định 'has gone up'." },
+        { "text": "B", "misconception": "topic-guess", "whyVi": "B nói thư viện sống nhờ quyên góp, không nhắc phí thành viên." },
+        { "text": "C", "misconception": "keyword-paragraph", "whyVi": "C nói về tiền sửa chữa, không phải phí thành viên." },
+        { "text": "D", "misconception": "keyword-paragraph", "whyVi": "D nói về số tiền cần gây quỹ, không liên quan đến phí hằng năm." },
+        { "text": "E (not given)", "misconception": null, "whyVi": "Đúng. Không đoạn nào nói phí thay đổi; A chỉ nêu mức phí hiện tại." }
+      ],
+      "answerIndex": 4,
+      "explanationVi": "Đây là partial match kinh điển: A có 'Members pay $40 a year' nên trông rất giống, nhưng phần 'has gone up' không có ở đâu. Không được tự suy ra rằng phí đã tăng."
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "digital-neighbours",
+      "competency": "paraphrase",
+      "prompt": "Which paragraph contains this information? 'The program grew out of one student's experience helping relatives.'",
+      "options": [
+        { "text": "A", "misconception": null, "whyVi": "Đúng. Ý tưởng đến từ Arjun Mehta, người đã giúp ông bà gọi video trong thời kỳ đại dịch." },
+        { "text": "B", "misconception": "keyword-paragraph", "whyVi": "B có 'video call to grandchildren' và tên Mehta, nhưng đó là nhu cầu của người cao tuổi, không phải nguồn gốc chương trình." },
+        { "text": "C", "misconception": "topic-guess", "whyVi": "C nói về hạn chế của chương trình." },
+        { "text": "D", "misconception": "topic-guess", "whyVi": "D nói về lợi ích học sinh nhận được." },
+        { "text": "E (not given)", "misconception": "e-too-early", "whyVi": "Thông tin có trong A: relatives ↔ grandparents, grew out of ↔ The idea came from." }
+      ],
+      "answerIndex": 0,
+      "evidence": "The idea came from Grade 11 student Arjun Mehta, who had spent much of the pandemic setting up video calls for his grandparents.",
+      "explanationVi": "'relatives' là từ chung cho 'grandparents'; 'grew out of' là paraphrase của 'The idea came from'. B là bẫy vì cũng có video call và grandchildren."
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "digital-neighbours",
+      "competency": "paraphrase",
+      "prompt": "Which paragraph contains this information? 'Written material is available in more than one language.'",
+      "options": [
+        { "text": "A", "misconception": "keyword-paragraph", "whyVi": "A nhắc 'a printed email', nhưng đó là thứ người cao tuổi mang đến, không phải tài liệu của chương trình." },
+        { "text": "B", "misconception": null, "whyVi": "Đúng. Thư viện in hướng dẫn một trang bằng tiếng Anh, Punjabi và tiếng Trung." },
+        { "text": "C", "misconception": "topic-guess", "whyVi": "C không nói về tài liệu hay ngôn ngữ." },
+        { "text": "D", "misconception": "topic-guess", "whyVi": "D nói về học bổng, việc làm và sự tự tin của học sinh." },
+        { "text": "E (not given)", "misconception": "e-too-early", "whyVi": "Thông tin có trong B; 'written material' là paraphrase của 'prints a one-page guide'." }
+      ],
+      "answerIndex": 1,
+      "evidence": "The library now prints a one-page guide on that topic in English, Punjabi and Chinese.",
+      "explanationVi": "'Written material' ↔ 'a one-page guide' (được in); 'more than one language' ↔ English, Punjabi and Chinese (cụ thể → chung)."
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "digital-neighbours",
+      "competency": "paraphrase",
+      "prompt": "Which paragraph contains this information? 'Some participants feel self-conscious learning in a group setting.'",
+      "options": [
+        { "text": "A", "misconception": "keyword-paragraph", "whyVi": "A mô tả phòng họp đầy người, nhưng không nói ai cảm thấy ngại." },
+        { "text": "B", "misconception": "topic-guess", "whyVi": "B nói về loại câu hỏi người tham gia đặt ra." },
+        { "text": "C", "misconception": null, "whyVi": "Đúng. Một số người cao tuổi 'are embarrassed to ask basic questions while others are listening'." },
+        { "text": "D", "misconception": "keyword-paragraph", "whyVi": "D nói học sinh vốn ít nói trong lớp trở nên tự tin; đó là học sinh, không phải người tham gia." },
+        { "text": "E (not given)", "misconception": "e-too-early", "whyVi": "Thông tin có trong C; 'self-conscious' ↔ 'embarrassed', 'in a group setting' ↔ 'while others are listening'." }
+      ],
+      "answerIndex": 2,
+      "evidence": "Some seniors find the room noisy and are embarrassed to ask basic questions while others are listening.",
+      "explanationVi": "'participants' ở đây là người cao tuổi. D là bẫy khó vì nói về sự rụt rè (quiet in class), nhưng chủ thể là học sinh tình nguyện viên."
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "digital-neighbours",
+      "competency": "detail",
+      "prompt": "Which paragraph contains this information? 'Seniors pay a small fee for each session.'",
+      "options": [
+        { "text": "A", "misconception": "partial-match", "whyVi": "A mô tả buổi học một giờ, nhưng không nói gì về phí." },
+        { "text": "B", "misconception": "keyword-paragraph", "whyVi": "B có 'pay bills', đó là việc người cao tuổi muốn học làm online, không phải phí chương trình." },
+        { "text": "C", "misconception": "topic-guess", "whyVi": "C nói về thăm tại nhà và thời gian chờ, không có phí." },
+        { "text": "D", "misconception": "keyword-paragraph", "whyVi": "D nhắc việc làm bán thời gian có lương của học sinh, không phải phí người cao tuổi trả." },
+        { "text": "E (not given)", "misconception": null, "whyVi": "Đúng. Không đoạn nào nói về phí tham gia." }
+      ],
+      "answerIndex": 4,
+      "explanationVi": "Chi tiết quyết định là 'a small fee'. Từ 'pay' trong B ('pay bills') là bẫy trùng từ. Khi không có câu nào nói về phí, đáp án là E."
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "digital-neighbours",
+      "competency": "paraphrase",
+      "prompt": "Which paragraph contains this information? 'Volunteering has led to paid work for some of the students.'",
+      "options": [
+        { "text": "A", "misconception": "topic-guess", "whyVi": "A giới thiệu chương trình, không nói về việc làm." },
+        { "text": "B", "misconception": "keyword-paragraph", "whyVi": "B nhắc 'pay bills', không phải công việc có lương của học sinh." },
+        { "text": "C", "misconception": "topic-guess", "whyVi": "C nói về hạn chế của chương trình." },
+        { "text": "D", "misconception": null, "whyVi": "Đúng. Một tiệm sửa điện thoại biết đến chương trình và đã thuê hai học sinh làm bán thời gian." },
+        { "text": "E (not given)", "misconception": "e-too-early", "whyVi": "Thông tin có trong D, dùng 'hired… part-time' thay cho 'paid work'." }
+      ],
+      "answerIndex": 3,
+      "evidence": "a phone repair shop that heard about it has hired two of them part-time",
+      "explanationVi": "'led to paid work' ↔ 'has hired two of them part-time'; 'some of the students' ↔ 'two of them'. Câu phát biểu dùng cách nói chung cho một chi tiết cụ thể."
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "digital-neighbours",
+      "competency": "paraphrase",
+      "prompt": "Which paragraph contains this information? 'Volunteers keep track of the questions that come up most often.'",
+      "options": [
+        { "text": "A", "misconception": "topic-guess", "whyVi": "A mô tả cách ghép cặp, không nói về việc ghi lại câu hỏi." },
+        { "text": "B", "misconception": null, "whyVi": "Đúng. Tình nguyện viên giữ 'a shared notebook of the questions they hear most often'." },
+        { "text": "C", "misconception": "keyword-paragraph", "whyVi": "C có 'ask basic questions', nhưng nói về sự ngại ngùng khi hỏi, không phải việc ghi chép." },
+        { "text": "D", "misconception": "topic-guess", "whyVi": "D nói về lợi ích cho học sinh." },
+        { "text": "E (not given)", "misconception": "e-too-early", "whyVi": "Ý này có trong B; 'keep track of' ↔ 'keep a shared notebook of'." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Volunteers keep a shared notebook of the questions they hear most often",
+      "explanationVi": "'keep track of' là paraphrase của việc ghi vào sổ chung; 'come up most often' ↔ 'hear most often'. C là bẫy trùng từ 'questions'."
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "digital-neighbours",
+      "competency": "paraphrase",
+      "prompt": "Which paragraph contains this information? 'How quickly a senior can get help at home depends partly on how many volunteers are free.'",
+      "options": [
+        { "text": "A", "misconception": "keyword-paragraph", "whyVi": "A nói mỗi người cao tuổi được ghép với một tình nguyện viên tại thư viện, không phải giúp tại nhà." },
+        { "text": "B", "misconception": "topic-guess", "whyVi": "B nói về nội dung câu hỏi, không về thời gian chờ." },
+        { "text": "C", "misconception": null, "whyVi": "Đúng. Thăm tại nhà chỉ diễn ra 'when two volunteers are available', nên thời gian chờ có thể kéo dài đến một tháng." },
+        { "text": "D", "misconception": "topic-guess", "whyVi": "D không nói về thăm tại nhà." },
+        { "text": "E (not given)", "misconception": "e-too-early", "whyVi": "Ý này có trong C, dưới dạng điều kiện và hệ quả ('which means the wait… can stretch to a month')." }
+      ],
+      "answerIndex": 2,
+      "evidence": "only when two volunteers are available to go together, which means the wait for a visit can stretch to a month",
+      "explanationVi": "Đây là paraphrase ở mức Level 8: 'How quickly' ↔ 'the wait… can stretch to a month'; 'depends partly on how many volunteers are free' ↔ 'only when two volunteers are available'. 'partly' phù hợp vì còn điều kiện khác (within city limits)."
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "digital-neighbours",
+      "competency": "detail",
+      "prompt": "Which paragraph contains this information? 'Teen volunteers receive school credit for the hours they spend helping.'",
+      "options": [
+        { "text": "A", "misconception": "keyword-paragraph", "whyVi": "A có 'high-school students' và 'Grade 11', nhưng không nói về tín chỉ." },
+        { "text": "B", "misconception": "topic-guess", "whyVi": "B không nhắc gì đến trường học." },
+        { "text": "C", "misconception": "topic-guess", "whyVi": "C nói về hạn chế của chương trình." },
+        { "text": "D", "misconception": "partial-match", "whyVi": "D có học bổng (scholarship applications) và giáo viên, nhưng không nói học sinh được tính tín chỉ. Thiếu chi tiết quyết định." },
+        { "text": "E (not given)", "misconception": null, "whyVi": "Đúng. Không đoạn nào nói tình nguyện viên được tính tín chỉ ở trường." }
+      ],
+      "answerIndex": 4,
+      "explanationVi": "D rất gần: học sinh nhắc chương trình trong hồ sơ học bổng, giáo viên nhận thấy thay đổi. Nhưng 'school credit for the hours' là một ý khác hẳn và không có ở đâu. Không được biến 'scholarship applications' thành 'school credit'."
+    }
+  ],
+  "misconceptions": {
+    "keyword-paragraph": {
+      "label": "Chọn đoạn có từ trùng",
+      "explanationVi": "Bạn chọn đoạn vì nó chứa một từ của câu phát biểu (members, pay, questions), nhưng trong đoạn đó từ ấy nói về một việc khác. Đây là thói quen so khớp chữ thay vì so khớp ý.",
+      "fixVi": "Tách câu phát biểu thành ai/cái gì + làm gì + chi tiết quyết định. Chỉ chọn đoạn khi cả ba phần đều có, dù bằng từ khác."
+    },
+    "partial-match": {
+      "label": "Đoạn chỉ khớp một phần",
+      "explanationVi": "Đoạn bạn chọn có cùng chủ đề và vài ý giống, nhưng thiếu đúng chi tiết quyết định (đã tăng, được đào tạo, tín chỉ). Bạn đã tự lấp phần còn thiếu bằng suy đoán.",
+      "fixVi": "Xác định chi tiết quyết định trước khi đọc. Nếu đoạn văn không nói chi tiết đó, kể cả bằng từ khác, đáp án là E hoặc một đoạn khác."
+    },
+    "e-too-early": {
+      "label": "Chọn E quá sớm",
+      "explanationVi": "Bạn không tìm thấy từ trùng nên kết luận thông tin không có, trong khi ý đó được paraphrase (misuse ↔ carelessly, hired part-time ↔ paid work). Đây là lỗ hổng nhận diện paraphrase.",
+      "fixVi": "Trước khi chọn E, nghĩ ra 2–3 cách nói khác của chi tiết quyết định, rồi kiểm tra đoạn có nhãn liên quan nhất một lần nữa."
+    },
+    "topic-guess": {
+      "label": "Đoán theo chủ đề đoạn",
+      "explanationVi": "Bạn chọn đoạn vì chủ đề chung của nó có vẻ phù hợp, mà không tìm câu bằng chứng cụ thể. Nhãn đoạn chỉ là bản đồ, không phải đáp án.",
+      "fixVi": "Dùng nhãn để biết nên đọc đoạn nào trước, nhưng chỉ chọn khi chỉ ra được một câu cụ thể làm bằng chứng."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "downsize", "vi": "chuyển sang nhà nhỏ hơn, thu gọn đồ đạc", "example": "After the kids moved out, they downsized from a house in Surrey to a condo in White Rock." },
+    { "term": "normal wear and tear", "vi": "hao mòn thông thường do sử dụng", "example": "Your damage deposit can't be used for normal wear and tear, like faded paint." },
+    { "term": "misuse", "vi": "dùng sai cách (paraphrase: careless use)", "example": "The warranty doesn't cover damage caused by misuse." },
+    { "term": "grow out of", "vi": "bắt nguồn từ, phát triển từ", "example": "The food bank grew out of a small church potluck." },
+    { "term": "self-conscious (= embarrassed)", "vi": "ngại ngùng, sợ bị người khác để ý", "example": "He felt self-conscious about his accent at his first team meeting." },
+    { "term": "keep track of", "vi": "theo dõi, ghi lại", "example": "I use an app to keep track of my BC Hydro bills." },
+    { "term": "stretch to", "vi": "kéo dài đến (thời gian)", "example": "In winter, the wait for a family doctor can stretch to several months." },
+    { "term": "within city limits", "vi": "trong phạm vi ranh giới thành phố", "example": "The bylaw only applies to homes within city limits." }
+  ],
+  "grammar": [
+    {
+      "point": "Reference words that link sentences",
+      "explanationVi": "Trong đoạn văn Part 3, bằng chứng thường nằm ở hai câu liền nhau, nối bằng từ quy chiếu: 'That experience', 'For them', 'it', 'two of them'. Bạn phải biết từ đó chỉ ai/cái gì thì mới ghép đúng ý. Ví dụ: 'For them' ở đoạn C chỉ những người cao tuổi ngại hỏi trong phòng đông, nên dịch vụ thăm tại nhà là dành cho nhóm này.",
+      "examples": [
+        "She used it for about ten minutes. That experience led her to found the library. (That experience = buying a drill and hardly using it)",
+        "Some seniors are embarrassed to ask basic questions. For them, the program offers home visits. (them = those seniors)",
+        "A phone repair shop that heard about it has hired two of them. (it = the program; them = the volunteers)"
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise a full Part 3 set", "route": "/reading?task=R3" },
+    { "label": "Paraphrase drill", "route": "/reading?mode=drill&focus=paraphrase" },
+    { "label": "Review your mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 A-D/E items independently; keys match, each paragraph answer has one clear evidence sentence and each E item (g4, i4, i8) has no supporting paragraph. Rewrote g3 hint, which effectively pointed to paragraph D, into a paraphrase-first hint."}
+}

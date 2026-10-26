@@ -74,6 +74,7 @@ function emptyDb(): Db {
     mockExams: [],
     weekly: [],
     planCompletions: {},
+    lessons: {},
     submissions: [],
     aiUsage: [],
     aiCache: {},

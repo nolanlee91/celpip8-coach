@@ -1,0 +1,349 @@
+{
+  "id": "ls-10",
+  "skill": "listening",
+  "module": "listening-comprehension",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Note-taking for CELPIP",
+  "titleVi": "Ghi chú hiệu quả khi nghe CELPIP",
+  "estimatedMinutes": 35,
+  "prerequisites": ["ls-08"],
+  "competencies": ["long_conversation", "missed_info"],
+  "tasks": ["L3", "L4", "L5", "L6"],
+  "objectives": [
+    "You will be able to decide what is worth writing down: who, decisions, numbers, conditions and reasons.",
+    "You will be able to use symbols and abbreviations to take notes fast without losing the meaning.",
+    "You will be able to organize notes in two columns so that you can answer questions about details, speakers and viewpoints after the audio ends."
+  ],
+  "objectiveVi": "Sau bài này, bạn biết nên ghi gì, ghi bằng ký hiệu nào cho nhanh, và sắp xếp ghi chú hai cột để trả lời được câu hỏi về chi tiết, người nói và quan điểm sau khi audio kết thúc.",
+  "whyItMattersVi": "Ở Part 3–6, câu hỏi thường chỉ xuất hiện sau khi đoạn audio dài 1,5–2 phút kết thúc, và audio chỉ phát một lần. Người học Level 6 thường nhớ được “cảm giác chung” nhưng quên con số, điều kiện hoặc ai nói gì. Ghi chú đúng cách là cầu nối giữa “tôi đã hiểu khi nghe” và “tôi vẫn nhớ khi trả lời” — đó chính là khoảng cách giữa Level 6 và Level 8.",
+  "concept": [
+    {
+      "heading": "Ghi chú để nhớ, không phải để chép",
+      "body": "Sai lầm lớn nhất khi ghi chú là cố **chép lại câu**. Trong lúc bạn viết nửa câu đầu, người nói đã sang ý tiếp theo, và bạn mất cả hai. Ghi chú tốt chỉ gồm **từ khóa + ký hiệu**, đủ để khi nhìn lại bạn nhớ ra ý.\n\nQuy tắc **80/20**: dành khoảng 80% sự chú ý cho việc nghe, chỉ 20% cho việc viết. Viết trong những khoảng ngừng tự nhiên (giữa các lượt nói, sau một câu tóm tắt). Nếu bị chậm, **bỏ qua và nghe tiếp**, đừng cố viết cho xong.\n\nTrong bài thi CELPIP, bạn được ghi chú trên giấy nháp. Hãy luyện ngay từ bây giờ để quen với tốc độ ghi khi audio chỉ phát một lần."
+    },
+    {
+      "heading": "Nên ghi gì: năm loại thông tin “đắt giá”",
+      "body": "1. **Who:** ai nói, ai làm, ai đề xuất, ai phản đối. Dùng chữ cái đầu tên: *S, J, M*.\n2. **Decision:** điều được chốt, điều còn để ngỏ (*maybe, will vote, will confirm*).\n3. **Numbers:** giá tiền, phần trăm, ngày, giờ, số lượng, giới hạn (*≤ 10 L, up to $500*).\n4. **Conditions:** *if, as long as, only if, must, before* — điều kiện rất hay bị hỏi ở Part 3.\n5. **Reasons and views:** *because, so, the trouble is*; và với Part 6, quan điểm chính, nhượng bộ (*I take that seriously*), đề xuất.\n\nKhông cần ghi: lời chào, câu chuyện phụ, ví dụ minh họa dài, từ bạn đã biết chắc sẽ nhớ."
+    },
+    {
+      "heading": "Ký hiệu và viết tắt",
+      "body": "- **→** dẫn tới, chuyển sang, giao cho (*S → book hall*)\n- **✓ / ✗** đồng ý, có / bác bỏ, không\n- **↑ / ↓** tăng / giảm (*demand ↑, sales ↓*)\n- **≤ / ≥** tối đa / tối thiểu (*≤ 10 L*)\n- **= / ≠** giống / khác\n- **?** chưa chắc, chưa chốt\n- **+ / −** ưu điểm / nhược điểm, ủng hộ / phản đối\n- **b/c** because, **w/** with, **w/o** without, **ppl** people, **mtg** meeting, **approx** approximately, **govt** government, **info** information, **min** minutes\n\nHãy chọn một bộ ký hiệu và dùng nhất quán. Ký hiệu chỉ có ích khi bạn đọc lại được ngay, không phải mất thời gian giải mã."
+    },
+    {
+      "heading": "Ghi chú hai cột",
+      "body": "Chia giấy làm hai cột. **Cột trái** là “chủ đề” hoặc “người nói”; **cột phải** là chi tiết.\n\n| Topic / Who | Detail |\n|---|---|\n| Hours | Apr 1 → Tue–Sat 8–5 (Sun/Mon ✗ b/c quiet) |\n| Foam | ✓ clean + sorted |\n| Soft plastic | ✗ → grocery stores |\n\n- **Part 3 (Information):** cột trái = chủ đề (hours, cost, rules); cột phải = số, điều kiện.\n- **Part 4 (News):** cột trái = người được trích dẫn; cột phải = quan điểm (+/−) và con số.\n- **Part 5 (Discussion):** cột trái = chữ cái đầu người nói; cột phải = đề xuất ✓/✗ và lý do.\n- **Part 6 (Viewpoints):** cột trái = Main view / Reason / Concession / Proposal; cột phải = từ khóa."
+    },
+    {
+      "heading": "Sau khi nghe: dùng ghi chú để trả lời",
+      "body": "1. **Đọc câu hỏi, tìm đúng dòng** trong ghi chú (theo chủ đề hoặc theo người).\n2. **So đáp án với ghi chú**, không dựa vào cảm giác chung.\n3. Nếu ghi chú có dấu **?**, cân nhắc đáp án có ý “chưa chốt / còn để ngỏ”.\n4. Nếu ghi chú trống ở chỗ cần, dùng kỹ năng loại trừ từ các bài trước: loại đáp án trùng từ, đáp án trộn chi tiết, đáp án đã bị bác.\n\nGhi chú tốt giúp bạn trả lời cả câu hỏi chi tiết (*How much…?*) lẫn câu hỏi tổng quát (*What is the speaker's main position?*)."
+    }
+  ],
+  "stimuli": {
+    "depot-info": {
+      "title": "Changes at a recycling depot",
+      "audio": [
+        { "speaker": "Paul", "voice": "male_b", "text": "Hi, I heard the recycling depot on Riverside Road is changing its hours?" },
+        { "speaker": "Amanda", "voice": "female_a", "text": "That's right. Starting April first, we'll be open Tuesday to Saturday, eight to five. We're closing Sundays and Mondays because, honestly, those were our quietest days." },
+        { "speaker": "Paul", "voice": "male_b", "text": "Okay. And can I still bring Styrofoam?" },
+        { "speaker": "Amanda", "voice": "female_a", "text": "Yes, but it has to be clean and sorted by type. White foam blocks go in one bin, and foam food containers go in another. We'll no longer accept soft plastics like bags and wrap, though. A few grocery stores in town have collection bins for those now." },
+        { "speaker": "Paul", "voice": "male_b", "text": "Got it. What about old paint?" },
+        { "speaker": "Amanda", "voice": "female_a", "text": "Paint's fine, up to ten litres per visit, and it has to be in the original container with the label on." }
+      ]
+    },
+    "bridge-news": {
+      "title": "Local news: a new bridge",
+      "audio": [
+        { "speaker": "News reader", "voice": "narrator", "text": "Cedarview city council has approved a plan for a new pedestrian and cycling bridge across the river. The bridge, which would connect the north side of the river to downtown, is expected to cost around twenty-two million dollars, with the province covering about half. Councillor Dev Sandhu, who chairs the transportation committee, said the bridge would cut the walking time between the two areas from forty minutes to about fifteen. However, not everyone is convinced. Local business owner Carla Mendes said she supports the idea, but she worries that construction could block access to shops along the river for up to two years. Construction is scheduled to begin next spring, and the city will hold an open house on the design next month." }
+      ]
+    },
+    "foodbank-meeting": {
+      "title": "Food bank volunteers plan a fundraiser",
+      "audio": [
+        { "speaker": "Nicole", "voice": "female_a", "text": "Okay, we need to pick a fundraiser for November. Our goal this year is eight thousand dollars. That's up from five last year, because demand has gone up so much." },
+        { "speaker": "Ahmed", "voice": "male_a", "text": "What about a pancake breakfast? We did one a few years ago and it was a hit." },
+        { "speaker": "Wes", "voice": "male_b", "text": "It was fun, but we only cleared about twelve hundred after costs. That's nowhere near eight thousand." },
+        { "speaker": "Nicole", "voice": "female_a", "text": "True. What about an online auction? Local businesses could donate items, and there's almost no overhead." },
+        { "speaker": "Wes", "voice": "male_b", "text": "I like that. My cousin runs a bike shop in Abbotsford. He'd definitely donate something." },
+        { "speaker": "Ahmed", "voice": "male_a", "text": "Okay, I'm on board with the auction. But can we still do a small pancake breakfast in the spring? People really loved it." },
+        { "speaker": "Nicole", "voice": "female_a", "text": "Let's keep that as a maybe for now. So, the auction it is. Wes, can you reach out to businesses by the fifteenth? I'll set up the website." }
+      ]
+    },
+    "leaf-blower-view": {
+      "title": "A viewpoint on gas-powered leaf blowers",
+      "audio": [
+        { "speaker": "Dr. Elaine Park", "voice": "female_b", "text": "Every autumn, my street sounds like a construction site. Gas-powered leaf blowers are loud, but honestly, the noise is the least of my concerns. Air quality regulators in California have estimated that running a commercial gas blower for one hour creates as much smog-forming pollution as driving a new car well over a thousand kilometres. Now, some people argue that a ban would hurt small landscaping companies, and I take that seriously. Electric equipment costs more upfront, and many of these businesses have thin margins. That's why I don't support an immediate ban. Instead, I'd propose a three-year phase-out, combined with rebates of up to fifty percent for businesses that switch to battery-powered equipment. Several California cities have already restricted gas blowers, and landscapers I've spoken to there say the switch was easier than they expected. In the meantime, homeowners can do their part. A rake costs twenty dollars, and frankly, it's good exercise." }
+      ]
+    },
+    "charger-rebate": {
+      "title": "Calling about a city charger rebate",
+      "audio": [
+        { "speaker": "Jason", "voice": "male_a", "text": "Hi, I'm calling about the city's rebate for home EV chargers." },
+        { "speaker": "Rosa", "voice": "female_b", "text": "Sure. So, under our program, for a single-family home, the rebate covers half the cost of the charger and installation, up to a maximum of three hundred and fifty dollars. If you live in a condo or an apartment, it's higher, up to two thousand, because those installations are more complicated." },
+        { "speaker": "Jason", "voice": "male_a", "text": "I'm in a townhouse. Which one is that?" },
+        { "speaker": "Rosa", "voice": "female_b", "text": "If your townhouse is part of a strata, it counts as multi-unit, so you'd qualify for the higher amount. But you'll need written approval from your strata council before you apply." },
+        { "speaker": "Jason", "voice": "male_a", "text": "Okay. And can I buy the charger first and apply after?" },
+        { "speaker": "Rosa", "voice": "female_b", "text": "No, that's the most common mistake. You have to apply and get pre-approval first. Anything you buy before you're approved isn't eligible. Also, the installation has to be done by a licensed electrician, and you'll need to send us a copy of the electrical permit." }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "e1",
+      "title": "Two-column notes for an information conversation (Part 3 style)",
+      "stimulusId": "depot-info",
+      "question": "What does the employee say about bringing old paint to the depot? (A) Any amount is accepted if it is labelled. (B) Up to ten litres per visit, in the original labelled container. (C) Paint is no longer accepted; take it to a grocery store. (D) Up to ten containers per visit, in any container.",
+      "steps": [
+        "I set up two columns: left = topic, right = detail. The context is a depot, so I expect topics like hours, items accepted, and limits.",
+        "Hours: 'Apr 1 → Tue–Sat 8–5; Sun/Mon ✗ b/c quiet'. I write the reason in two words only.",
+        "Foam: '✓ clean + sorted (blocks / food containers)'. Soft plastic: '✗ → grocery stores'. The arrow shows where those items go now.",
+        "Paint: '✓ ≤ 10 L / visit, orig. container + label'. The ≤ symbol records the limit and the + shows that both conditions are required.",
+        "Now I answer from the notes: the paint line says 10 L, per visit, original container with label = B. A ignores the limit, C mixes in the soft-plastic line, and D changes litres to containers."
+      ],
+      "answer": "(B) Up to ten litres per visit, in the original labelled container.",
+      "takeawayVi": "Ghi chú hai cột giữ mỗi chủ đề trên một dòng riêng. Khi trả lời, bạn chỉ cần tìm dòng “Paint” và không bị lẫn với dòng “Soft plastic” ngay phía trên."
+    },
+    {
+      "id": "e2",
+      "title": "Who said what in a news report (Part 4 style)",
+      "stimulusId": "bridge-news",
+      "question": "What concern is raised about the bridge, and by whom? (A) Councillor Sandhu, about the cost to the city. (B) Carla Mendes, about shops being hard to reach during construction. (C) Carla Mendes, about the walking time being too long. (D) The province, about paying half the cost.",
+      "steps": [
+        "For news, my left column lists people and sources; my right column lists their point with + or −.",
+        "Facts: 'Bridge (walk + bike), N side ↔ downtown, ≈ $22M, prov ½'.",
+        "'Sandhu (transport cttee) +: walk 40 → 15 min'. The plus sign shows he supports it.",
+        "'However, not everyone is convinced' is a signal for a second view. 'Mendes (biz owner) + idea / − construction blocks shops ≤ 2 yrs'.",
+        "'Next: build next spring; open house next month'. Answer from the notes: the concern is on the Mendes line = B. C takes the walking time from Sandhu's line, and D turns a fact into an opinion nobody gave."
+      ],
+      "answer": "(B) Carla Mendes, about shops being hard to reach during construction.",
+      "takeawayVi": "Trong bản tin, ghi mỗi người được trích dẫn trên một dòng với dấu + / −. Câu chuyển “However, not everyone is convinced” báo hiệu bạn phải mở một dòng mới cho quan điểm khác."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "text",
+      "mode": "exact",
+      "stimulusId": "foodbank-meeting",
+      "prompt": "Complete the note with a number. Fundraising goal this year: $______",
+      "hint": "Numbers come early in this discussion. Write them down as digits the moment you hear them, and don't confuse this year's goal with last year's.",
+      "answers": ["8000", "8,000", "$8000", "$8,000", "8 000", "8k", "$8k", "eight thousand", "eight thousand dollars", "8000 dollars", "8,000 dollars"],
+      "misconception": "number_missed",
+      "explanationVi": "“Our goal this year is eight thousand dollars. That's up from five last year.” Ghi nhanh: Goal 8k (↑ from 5k b/c demand ↑). Con số 5 là bẫy vì nó thuộc về năm ngoái.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "foodbank-meeting",
+      "prompt": "Why does Wes object to the pancake breakfast?",
+      "hint": "In your notes, the reason should sit on the same line as Wes's initial and the pancake idea. Look for the number he gives.",
+      "options": [
+        { "text": "It would raise far too little money compared with the goal.", "misconception": null, "whyVi": "Đúng: “we only cleared about twelve hundred after costs. That's nowhere near eight thousand.”" },
+        { "text": "People did not enjoy the last one.", "misconception": "wrong_line", "whyVi": "Ngược lại: Ahmed nói “it was a hit”, và Wes cũng nói “It was fun”." },
+        { "text": "Businesses would not donate food for it.", "misconception": "not_noted", "whyVi": "Không ai nói vậy; việc doanh nghiệp tặng đồ liên quan tới đấu giá online." },
+        { "text": "It cannot be held in November.", "misconception": "not_noted", "whyVi": "Không có thông tin này; Ahmed chỉ đề nghị làm vào mùa xuân." }
+      ],
+      "answerIndex": 0,
+      "evidence": "It was fun, but we only cleared about twelve hundred after costs. That's nowhere near eight thousand.",
+      "explanationVi": "Ghi chú mẫu: “A: pancake bkfst → W ✗ only $1.2k after costs”. Lý do được ghi cùng dòng với đề xuất, nên khi trả lời không bị lẫn.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "foodbank-meeting",
+      "prompt": "Which set of notes records the outcome of the meeting correctly?",
+      "hint": "Check three things in each set: the decision, who does each task, and the status of the spring idea.",
+      "options": [
+        { "text": "DECISION: online auction ✓ | W → contact businesses by 15th | N → website | spring pancake bkfst = ?", "misconception": null, "whyVi": "Đúng mọi phần: đấu giá được chốt, Wes liên hệ doanh nghiệp, Nicole làm website, bữa sáng mùa xuân còn “maybe”." },
+        { "text": "DECISION: online auction ✓ + spring pancake bkfst ✓ | W → contact businesses by 15th | N → website", "misconception": "status_wrong", "whyVi": "Bữa sáng mùa xuân chỉ là “a maybe”, chưa được chốt." },
+        { "text": "DECISION: online auction ✓ | A → contact businesses by 15th | N → website | spring pancake bkfst = ?", "misconception": "wrong_line", "whyVi": "Người được giao liên hệ doanh nghiệp là Wes, không phải Ahmed." },
+        { "text": "DECISION: online auction ✓ | W → website by 15th | N → contact businesses | spring pancake bkfst = ?", "misconception": "wrong_line", "whyVi": "Đảo nhiệm vụ: Nicole làm website, Wes liên hệ doanh nghiệp." }
+      ],
+      "answerIndex": 0,
+      "evidence": "So, the auction it is. Wes, can you reach out to businesses by the fifteenth? I'll set up the website.",
+      "explanationVi": "Ghi chú tốt cho Part 5 cần: quyết định (✓), phân công (tên → việc), và trạng thái chưa chốt (?). Ba đáp án sai mỗi cái sai đúng một trong ba yếu tố này.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "g4",
+      "type": "text",
+      "mode": "exact",
+      "stimulusId": "foodbank-meeting",
+      "prompt": "Complete the note with one name. Website → ______",
+      "hint": "The task list is at the very end. Listen for 'I'll…' and remember who is speaking at that moment.",
+      "answers": ["Nicole", "N"],
+      "misconception": "wrong_line",
+      "explanationVi": "Nicole nói “I'll set up the website.” Vì đó là lượt nói của Nicole, “I” = Nicole. Khi ghi chú, chuyển ngay “I'll” thành chữ cái đầu của người nói: N → website.",
+      "competency": "long_conversation"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "leaf-blower-view",
+      "prompt": "What is the speaker's main position?",
+      "options": [
+        { "text": "Gas leaf blowers should be banned immediately.", "misconception": "status_wrong", "whyVi": "Cô ấy nói rõ “I don't support an immediate ban”." },
+        { "text": "Gas leaf blowers should be phased out gradually, with financial help for businesses.", "misconception": null, "whyVi": "Đúng: “a three-year phase-out, combined with rebates of up to fifty percent”." },
+        { "text": "Only homeowners, not businesses, should stop using gas blowers.", "misconception": "wrong_line", "whyVi": "Lời khuyên cho chủ nhà là việc “in the meantime”, không phải quan điểm chính." },
+        { "text": "Leaf blowers are mainly a noise problem that cities should ignore.", "misconception": "wrong_line", "whyVi": "Ngược lại: tiếng ồn là “the least of my concerns”; mối lo chính là ô nhiễm." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Instead, I'd propose a three-year phase-out, combined with rebates of up to fifty percent for businesses that switch to battery-powered equipment.",
+      "explanationVi": "Ghi chú Part 6: Main view = 3-yr phase-out + rebate (✗ immediate ban). “Instead, I'd propose…” là tín hiệu của quan điểm chính, đứng ngay sau phần nhượng bộ.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "leaf-blower-view",
+      "prompt": "Which opposing argument does the speaker accept as reasonable?",
+      "options": [
+        { "text": "That rakes are too slow for large properties", "misconception": "not_noted", "whyVi": "Không ai đưa ra lập luận này." },
+        { "text": "That the pollution estimates are exaggerated", "misconception": "not_noted", "whyVi": "Cô ấy dùng con số ô nhiễm để ủng hộ quan điểm của mình, không nghi ngờ nó." },
+        { "text": "That a ban could be hard on small landscaping businesses", "misconception": null, "whyVi": "Đúng: “some people argue that a ban would hurt small landscaping companies, and I take that seriously”." },
+        { "text": "That battery-powered equipment is not powerful enough", "misconception": "not_noted", "whyVi": "Cô ấy chỉ nói thiết bị điện “costs more upfront”, không nói yếu hơn." }
+      ],
+      "answerIndex": 2,
+      "evidence": "some people argue that a ban would hurt small landscaping companies, and I take that seriously",
+      "explanationVi": "Dòng “Concession” trong ghi chú: small biz hurt (cost ↑, thin margins) – “I take that seriously”. Nhượng bộ thường bắt đầu bằng “Some people argue…” và kết thúc bằng lời thừa nhận.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i3",
+      "type": "text",
+      "mode": "exact",
+      "stimulusId": "leaf-blower-view",
+      "prompt": "Complete the note with a number. Proposed rebate for businesses: up to ______ %",
+      "answers": ["50", "fifty", "50%", "50 %", "fifty percent", "50 percent", "fifty per cent", "50 per cent"],
+      "misconception": "number_missed",
+      "explanationVi": "“Rebates of up to fifty percent”. Bài có nhiều con số (một giờ, hơn một nghìn km, ba năm, 20 đô); chỉ ghi con số kèm nhãn ngắn (rebate ≤ 50%) bạn mới tìm lại được đúng số.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "leaf-blower-view",
+      "prompt": "Why does the speaker mention landscapers in California cities?",
+      "options": [
+        { "text": "To show that changing to new equipment is more manageable than people fear", "misconception": null, "whyVi": "Đúng: “landscapers I've spoken to there say the switch was easier than they expected”." },
+        { "text": "To show that California has stricter pollution laws than BC", "misconception": "not_noted", "whyVi": "Không so sánh luật của California với BC." },
+        { "text": "To prove that the noise from leaf blowers is a serious problem", "misconception": "wrong_line", "whyVi": "Ví dụ California liên quan tới việc chuyển đổi, không phải tiếng ồn." },
+        { "text": "To argue that landscapers should not receive rebates", "misconception": "status_wrong", "whyVi": "Ngược với đề xuất của cô ấy: hoàn tiền cho doanh nghiệp." }
+      ],
+      "answerIndex": 0,
+      "evidence": "landscapers I've spoken to there say the switch was easier than they expected",
+      "explanationVi": "Ghi chú: Support = Calif. landscapers: switch easier than expected. Câu hỏi “Why does she mention…?” hỏi về chức năng: ví dụ này củng cố đề xuất bằng cách cho thấy việc chuyển đổi khả thi.",
+      "competency": "long_conversation"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "charger-rebate",
+      "prompt": "Which rebate can Jason get?",
+      "options": [
+        { "text": "Up to $350, because a townhouse counts as a single-family home", "misconception": "status_wrong", "whyVi": "Rosa nói townhouse trong strata “counts as multi-unit”." },
+        { "text": "Up to $2,000, without needing anyone else's approval", "misconception": "condition_missed", "whyVi": "Thiếu điều kiện: cần “written approval from your strata council”." },
+        { "text": "Up to $2,000, if his townhouse is in a strata and the strata council approves in writing", "misconception": null, "whyVi": "Đúng: “it counts as multi-unit… But you'll need written approval from your strata council before you apply”." },
+        { "text": "Half of $2,000, which is $1,000", "misconception": "number_missed", "whyVi": "Trộn “half the cost” (của nhà riêng) với mức tối đa 2.000 đô." }
+      ],
+      "answerIndex": 2,
+      "evidence": "If your townhouse is part of a strata, it counts as multi-unit, so you'd qualify for the higher amount. But you'll need written approval from your strata council before you apply.",
+      "explanationVi": "Câu Part 3 điển hình: con số + điều kiện. Ghi chú nên là: Townhouse (strata) = multi → ≤ $2k IF strata OK (writing). Thiếu phần “IF” là mất điểm.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "charger-rebate",
+      "prompt": "According to Rosa, what is the most common mistake people make?",
+      "options": [
+        { "text": "Hiring an electrician who is not licensed", "misconception": "wrong_line", "whyVi": "Thợ điện có giấy phép là một yêu cầu khác (“Also…”), không phải lỗi phổ biến nhất." },
+        { "text": "Forgetting to send a copy of the electrical permit", "misconception": "wrong_line", "whyVi": "Đây cũng là một yêu cầu, không được gọi là “the most common mistake”." },
+        { "text": "Applying for the wrong type of home", "misconception": "not_noted", "whyVi": "Không được nhắc tới như một lỗi." },
+        { "text": "Buying the charger before getting pre-approval", "misconception": null, "whyVi": "Đúng: Jason hỏi mua trước được không — “No, that's the most common mistake.”" }
+      ],
+      "answerIndex": 3,
+      "evidence": "No, that's the most common mistake. You have to apply and get pre-approval first.",
+      "explanationVi": "“That” trong câu của Rosa chỉ lại câu hỏi của Jason: mua trước rồi mới đăng ký. Khi ghi chú, viết luôn ý được chỉ tới: buy before approval = #1 mistake ✗.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "charger-rebate",
+      "prompt": "Which set of notes is complete and correct?",
+      "options": [
+        { "text": "Single fam: 50%, ≤ $350 | Strata/multi: ≤ $2k, needs strata OK in writing | Pre-approval BEFORE buying | Licensed elec. + permit copy", "misconception": null, "whyVi": "Đúng tất cả: mức hỗ trợ, điều kiện strata, thứ tự (duyệt trước khi mua), và hai yêu cầu lắp đặt." },
+        { "text": "Single fam: 50%, ≤ $350 | Strata/multi: ≤ $2k, strata OK after install | Pre-approval BEFORE buying | Licensed elec. + permit copy", "misconception": "condition_missed", "whyVi": "Sai thời điểm: cần strata đồng ý “before you apply”, không phải sau khi lắp." },
+        { "text": "Single fam: ≤ $2k | Strata/multi: 50%, ≤ $350, needs strata OK in writing | Pre-approval BEFORE buying | Licensed elec. + permit copy", "misconception": "number_missed", "whyVi": "Đảo hai mức hỗ trợ giữa nhà riêng và nhà nhiều căn." },
+        { "text": "Single fam: 50%, ≤ $350 | Strata/multi: ≤ $2k, needs strata OK in writing | Buy first, apply within 30 days | Licensed elec. + permit copy", "misconception": "status_wrong", "whyVi": "Ngược với quy định: phải được duyệt trước, mua trước thì “isn't eligible”." }
+      ],
+      "answerIndex": 0,
+      "evidence": "Anything you buy before you're approved isn't eligible.",
+      "explanationVi": "Đây là bài kiểm tra ghi chú Level 8: mỗi bộ ghi chú sai chỉ khác một chi tiết (thời điểm, con số, thứ tự). Ghi chú của bạn phải giữ đúng số, đúng điều kiện và đúng trình tự.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i8",
+      "type": "text",
+      "mode": "exact",
+      "stimulusId": "charger-rebate",
+      "prompt": "Complete the note with one word. Installation must be done by a licensed ______.",
+      "answers": ["electrician", "electricians"],
+      "misconception": "condition_missed",
+      "explanationVi": "“The installation has to be done by a licensed electrician.” Yêu cầu này đến ở câu cuối, sau từ “Also” — người nghe thường dừng ghi chú sau ý chính và bỏ lỡ những điều kiện được thêm vào cuối.",
+      "competency": "missed_info"
+    }
+  ],
+  "misconceptions": {
+    "number_missed": {
+      "label": "Không ghi/nhầm con số",
+      "explanationVi": "Bạn nghe được con số nhưng không ghi lại kèm nhãn, nên khi trả lời không biết số nào thuộc về cái gì (năm nay hay năm ngoái, nhà riêng hay căn hộ). Trí nhớ ngắn hạn không giữ được nhiều con số cùng lúc.",
+      "fixVi": "Ghi mọi con số bằng chữ số ngay khi nghe, luôn kèm một nhãn 1–2 từ: Goal 8k, last yr 5k, rebate ≤ 50%. Không bao giờ ghi một con số “trần” không có nhãn."
+    },
+    "wrong_line": {
+      "label": "Lấy thông tin từ sai dòng/sai người",
+      "explanationVi": "Ghi chú của bạn có thông tin đúng, nhưng bạn lấy nhầm dòng: lý do của người khác, nhiệm vụ của người khác, hoặc chi tiết phụ thay cho ý chính. Thường do ghi chú không tách theo người hoặc chủ đề.",
+      "fixVi": "Dùng ghi chú hai cột với chữ cái đầu tên hoặc nhãn chủ đề ở cột trái. Khi trả lời, tìm đúng dòng trước rồi mới đọc chi tiết."
+    },
+    "status_wrong": {
+      "label": "Sai trạng thái của ý (chốt, bác, đề xuất)",
+      "explanationVi": "Bạn ghi lại ý nhưng không ghi trạng thái: được chốt, bị bác, chỉ là “maybe”, hay là điều người nói phản đối. Vì vậy một ý bị bác (immediate ban) hoặc chưa chốt (spring breakfast) lại được coi là quyết định.",
+      "fixVi": "Gắn ký hiệu trạng thái cho mỗi ý: ✓ (chốt/ủng hộ), ✗ (bác/phản đối), ? (chưa chốt). Đọc ký hiệu trước khi chọn đáp án."
+    },
+    "condition_missed": {
+      "label": "Bỏ sót điều kiện",
+      "explanationVi": "Bạn ghi được thông tin chính (có được hoàn tiền, ai được nhận) nhưng bỏ lỡ điều kiện đi kèm (if, but you'll need, before, also, must). Câu hỏi Part 3 rất hay kiểm tra đúng phần điều kiện này.",
+      "fixVi": "Khi nghe if, as long as, but you'll need, before, has to, also, ghi ngay chữ IF hoặc MUST kèm từ khóa. Nghe tới hết đoạn, vì điều kiện thường được bổ sung ở cuối."
+    },
+    "not_noted": {
+      "label": "Chọn ý không có trong ghi chú/bài nghe",
+      "explanationVi": "Đáp án nghe hợp lý nên bạn chọn dựa trên cảm giác hoặc kiến thức nền, dù ghi chú của bạn không có dòng nào chứa ý đó và người nói cũng không nói.",
+      "fixVi": "Trước khi chọn, chỉ vào dòng ghi chú chứng minh đáp án. Nếu không có dòng nào và bạn không nhớ câu cụ thể, hãy loại đáp án đó."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "up to (a maximum of)…", "vi": "tối đa…", "example": "The rebate covers up to a maximum of $350." },
+    { "term": "per visit / per household", "vi": "mỗi lần đến / mỗi hộ", "example": "You can drop off up to three mattresses per visit." },
+    { "term": "no longer accept…", "vi": "không còn nhận… nữa", "example": "The depot no longer accepts glass jars with lids." },
+    { "term": "cleared … after costs", "vi": "lãi ròng … sau khi trừ chi phí", "example": "The bake sale cleared about four hundred dollars after costs." },
+    { "term": "overhead", "vi": "chi phí vận hành, chi phí chung", "example": "An online raffle has almost no overhead." },
+    { "term": "phase-out", "vi": "loại bỏ dần theo lộ trình", "example": "The city announced a five-year phase-out of single-use cups." },
+    { "term": "pre-approval", "vi": "phê duyệt trước", "example": "You need pre-approval before you start the renovation." },
+    { "term": "I take that seriously (concession)", "vi": "tôi coi trọng ý kiến đó (nhượng bộ)", "example": "Some parents worry about the cost, and I take that seriously." },
+    { "term": "be eligible / qualify for…", "vi": "đủ điều kiện nhận…", "example": "Townhouses in a strata qualify for the higher amount." }
+  ],
+  "grammar": [],
+  "practice": [
+    { "label": "Listening Part 3: Information", "route": "/listening?task=L3" },
+    { "label": "Listening Part 6: Viewpoints", "route": "/listening?task=L6" },
+    { "label": "Missed information drill", "route": "/listening?mode=drill&focus=missed_info" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 items; keys hold. Moved bridge news to a fictional city (Cedarview), made the charger rebate a city example program, removed concept examples that revealed g3/g4 task assignments, added answer variants (8k, per cent). Kept N for g4 (initials are the taught note format and unambiguous); CARB leaf-blower figure is loosely attributed and understated (well over 1,000 km), acceptable."}
+}

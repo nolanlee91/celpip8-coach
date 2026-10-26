@@ -1,0 +1,516 @@
+{
+  "id": "wr-15",
+  "skill": "writing",
+  "module": "writing-polish",
+  "level": "target8",
+  "difficulty": 9,
+  "title": "Timed strategy for Tasks 1–2",
+  "titleVi": "Chiến lược thời gian cho Task 1–2",
+  "estimatedMinutes": 40,
+  "prerequisites": [
+    "wr-06",
+    "wr-10"
+  ],
+  "competencies": [
+    "task_fulfillment",
+    "coherence"
+  ],
+  "tasks": [
+    "W1",
+    "W2"
+  ],
+  "objectives": [
+    "You will be able to follow a fixed minute-by-minute plan: read → plan → write → check for Task 1 (27 minutes) and Task 2 (26 minutes).",
+    "You will be able to plan in 4 minutes with keyword notes and a word budget of 170–190 words.",
+    "You will be able to make good triage decisions when you are behind time, over the word count or stuck for ideas.",
+    "You will be able to check a finished response against a Level 8 checklist before time runs out."
+  ],
+  "objectiveVi": "Sau bài này, bạn có một kế hoạch thời gian cố định cho cả hai task, biết lập dàn ý bằng từ khoá trong 4 phút, phân bổ số từ, xử lý khi bị chậm giờ, và luôn còn thời gian soát bài theo checklist Level 8.",
+  "whyItMattersVi": "Bạn đã có đủ kỹ năng từ các bài trước: cấu trúc email, phát triển lý do, nhượng bộ, mạch lạc, soát lỗi. Nhưng trong phòng thi, nhiều bài Level 7 mất điểm vì *thời gian*: viết quá lâu cho ý đầu rồi vội vàng ở gạch đầu dòng thứ ba, không kịp kết thư, hoặc không còn phút nào để sửa lỗi. Một kế hoạch 27/26 phút cố định biến những kỹ năng bạn đã có thành điểm số ổn định ở Level 8.",
+  "concept": [
+    {
+      "heading": "Kế hoạch 27 phút cho Task 1 (email)",
+      "body": "- **0–2 phút – Đọc:** tình huống, người nhận (quyết định register), ba gạch đầu dòng. Gạch chân **động từ** của mỗi gạch đầu dòng (*describe, explain, suggest, ask*) – đó là việc bạn phải làm.\n- **2–6 phút – Lập dàn ý:** mỗi đoạn một dòng từ khoá: Mục đích / Ý 1 / Ý 2 / Ý 3 / Kết. Mỗi ý có **một chi tiết cụ thể** (ngày, số tiền, địa điểm).\n- **6–22 phút – Viết (16 phút):** theo đúng thứ tự dàn ý, mỗi gạch đầu dòng một đoạn. Mốc kiểm tra: phút **11** xong mục đích + ý 1; phút **16** xong ý 2; phút **21–22** xong ý 3 + lời kết.\n- **22–27 phút – Soát (5 phút):** 1 phút kiểm tra đủ ba ý và số từ; 3–4 phút cho ba lượt soát lỗi (wr-14)."
+    },
+    {
+      "heading": "Kế hoạch 26 phút cho Task 2 (survey)",
+      "body": "- **0–2 phút – Đọc và chọn:** chọn phương án mà bạn **có ví dụ cụ thể** cho hai lý do – không phải phương án 'đúng' hay 'hay hơn'. Người chấm không chấm lựa chọn, chỉ chấm cách bạn lập luận. Sau phút 6, **không đổi lựa chọn**.\n- **2–6 phút – Lập dàn ý:** hai dòng R / E / Ex / C (wr-11) + một dòng nhượng bộ (wr-12, tuỳ chọn).\n- **6–21 phút – Viết (15 phút):** mốc phút **13–14** xong mở bài + lý do 1; phút **20–21** xong lý do 2, nhượng bộ, kết luận.\n- **21–26 phút – Soát (5 phút):** lựa chọn có rõ ở câu đầu không, số từ, ba lượt soát lỗi."
+    },
+    {
+      "heading": "Số từ: mục tiêu 170–190",
+      "body": "Đề yêu cầu khoảng 150–200 từ. Hãy nhắm **170–190**: đủ chỗ để phát triển ý, còn khoảng an toàn ở cả hai phía. Theo dõi bộ đếm số từ trên màn hình ở mỗi mốc thời gian.\n\n**Ngân sách gợi ý:**\n- Task 1: mở đầu 20–25 · mỗi gạch đầu dòng 40–50 · kết 10–15.\n- Task 2: mở bài 20–25 · mỗi lý do 55–65 · nhượng bộ 25–35 · kết luận 15–20.\n\nViết dưới 150 thường nghĩa là ý chưa được phát triển. Viết quá dài (230–250) không mang lại lợi ích: bạn mất thời gian soát bài, thêm cơ hội mắc lỗi và dễ lặp ý. **Biết tốc độ của mình**: nếu bạn gõ khoảng 12 từ/phút khi vừa nghĩ vừa viết, 180 từ cần 15 phút – đúng bằng khung viết ở trên. Đo tốc độ này trong các bài luyện."
+    },
+    {
+      "heading": "Khi có sự cố: quyết định nhanh (triage)",
+      "body": "- **Chậm giờ** (phút 18 mà chưa bắt đầu ý 3): viết ngay 2–3 câu cho ý 3 rồi kết thư. Một gạch đầu dòng bị bỏ sót gây thiệt hại nặng hơn nhiều so với một đoạn ngắn.\n- **Bí ý:** dùng một ví dụ cá nhân đơn giản (đồng nghiệp, hàng xóm, chuyến xe buýt hôm qua). Không mất quá 30 giây cho một ví dụ.\n- **Quá dài:** cắt câu lặp, câu nhượng bộ hoặc ví dụ yếu nhất – không cắt một gạch đầu dòng hay một lý do.\n- **Viết xong sớm:** đừng thêm đoạn mới; kiểm tra chỗ nào còn chung chung và thêm *một* chi tiết cụ thể, rồi soát lỗi.\n- **Không viết lại** cả đoạn trong 5 phút cuối."
+    },
+    {
+      "heading": "Checklist Level 8 trước khi nộp",
+      "body": "**Task 1:** mục đích rõ trong 1–2 câu đầu · đủ 3 gạch đầu dòng, mỗi ý một đoạn có chi tiết · register nhất quán (formal/semi-formal/informal) · lời kết có yêu cầu hoặc lời cảm ơn phù hợp.\n\n**Task 2:** lựa chọn ở câu đầu tiên · hai lý do có giải thích + ví dụ + kết quả · phương án kia được xử lý ngắn gọn (nếu có) · kết luận không thêm ý mới.\n\n**Cả hai:** chia đoạn rõ · không comma splice · 5 câu hỏi trong danh sách lỗi cá nhân · 150–200 từ."
+    }
+  ],
+  "stimuli": {
+    "email-tree": {
+      "title": "Email task: Neighbour's tree",
+      "text": "A large tree in your neighbour's backyard hangs over the fence into your yard. Recently it has been causing problems for your family. You have decided to email your neighbour, Mr. Wong.\n\nIn your email:\n- describe the problem;\n- explain how it is affecting your family;\n- suggest a solution.\n\nWrite about 150–200 words. (27 minutes)"
+    },
+    "survey-wfh": {
+      "title": "Survey: Hybrid work",
+      "text": "Your employer, a company with offices in downtown Vancouver, is changing its work policy and has asked staff to choose.\n\n**Option A:** Employees may work from home two days a week.\n\n**Option B:** Employees work in the office five days a week but receive a $150 monthly allowance for commuting and meals.\n\nChoose the option you prefer. Explain the reasons for your choice. Write about 150–200 words. (26 minutes)"
+    },
+    "email-course": {
+      "title": "Email task: Course schedule change",
+      "text": "You registered and paid $120 for a ten-week evening first-aid course at a community centre in Kamloops. After two classes, the centre has moved the course from Tuesday to Thursday evenings. You work on Thursday evenings.\n\nWrite an email to the program coordinator, Ms. Bergeron. In your email:\n- explain who you are and which course you registered for;\n- describe why the new schedule is a problem for you;\n- say what you would like the coordinator to do.\n\nWrite about 150–200 words. (27 minutes)"
+    },
+    "draft-course-check": {
+      "title": "A finished email at minute 23",
+      "text": "Dear Ms. Bergeron,\n\nMy name is Daniel Pham, and I registered for the ten-week evening first-aid course that started on September 9. I am writing about the recent schedule change.\n\nI have really enjoyed the first two classes. The instructor explains everything clearly, and I have already learned how to help someone who is choking. The other students are friendly, and the room is comfortable and well equipped.\n\nFor this reason, I would be grateful if you could transfer me to another first-aid course on a Tuesday or a weekend, or give me a full refund of the $120 fee.\n\nThank you for your help. I look forward to hearing from you.\n\nSincerely,\nDaniel Pham\n\n(Word count: 115)"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "The same writer, with and without the 27-minute plan",
+      "stimulusId": "email-tree",
+      "question": "What changes when the writer spends 4 minutes planning and follows the time checkpoints?",
+      "steps": [
+        "Minutes 0–2: underline the three bullet verbs: DESCRIBE the problem, EXPLAIN how it affects the family, SUGGEST a solution. Recipient = a neighbour, so polite semi-formal.",
+        "Minutes 2–6, plan one keyword line per paragraph: Purpose – maple tree, fence / B1 – branches fall in wind; last Tue, 2 fence panels, car scratched / B2 – kids can't play on windy days; leaves block gutters, basement leak / B3 – arborist trims overhanging branches; share cost / Close – time to talk, thanks.",
+        "Minutes 6–22, write in plan order and check the clock: purpose + bullet 1 by minute 11, bullet 2 by minute 16, bullet 3 + closing by minute 21.",
+        "Minutes 22–27, check: three bullets present? 150–200 words? Then the verb, noun and sentence passes.",
+        "Compare: without a plan, bullet 1 and bullet 2 blended into one long paragraph, bullet 3 was never reached, and the email ended mid-sentence."
+      ],
+      "answer": "With the plan, each bullet gets its own paragraph with a specific detail, the email has a closing, and there are five minutes left to proofread.",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Hi Mr. Wong,\n\nI am your neighbour at 4521. I want to tell you about your tree. Your tree is very big and very old, I think it is maybe 30 years old. Every time when there is wind, the branches fall in my yard. Last week a big branch fall on my fence and on my car, and the fence is broken now and my car has scratch. Also the leaves block my gutter in fall and the water go to my basement. My wife is very worry because our kids play in the yard. I think the tree is dangerous and\n\nThanks,\nMinh",
+          "commentVi": "Bài viết không có dàn ý, hết giờ giữa chừng: (1) Gạch đầu dòng 1 và 2 trộn vào một đoạn dài; câu về tuổi của cây tốn chữ mà không giúp gì. (2) Gạch đầu dòng 3 (đề xuất giải pháp) hoàn toàn không có – lỗi task fulfillment nặng nhất. (3) Câu cuối bị bỏ dở ('dangerous and'). (4) Không còn thời gian soát lỗi: 'fall' (cần 'fell'), 'has scratch', 'the water go', 'very worry', comma splice ở câu 3. (5) 'Hi' và 'I want to tell you' hơi suồng sã với hàng xóm chưa thân."
+        },
+        {
+          "label": "after",
+          "text": "Dear Mr. Wong,\n\nI hope you are doing well. I am writing about the large maple tree near the fence between our backyards.\n\nOver the past month, several branches from the tree have fallen into our yard during windy weather. Last Tuesday, a heavy branch landed on our fence, breaking two panels and scratching my car.\n\nThis has become a real concern for our family. Our two children play in the backyard after school, and we now keep them inside on windy days. The leaves have also blocked our gutters, and rainwater leaked into our basement last week.\n\nI wonder if we could deal with this together. Would you be willing to have an arborist look at the tree and trim the branches that hang over the fence? I would be happy to share the cost, since the work would benefit both of our properties.\n\nPlease let me know a convenient time to talk. Thank you for your understanding.\n\nBest regards,\nMinh Tran",
+          "commentVi": "Các thay đổi nhờ kế hoạch thời gian: (1) Câu mục đích rõ ở đầu thư (dòng 'Purpose' trong dàn ý). (2) Mỗi gạch đầu dòng một đoạn riêng: vấn đề → ảnh hưởng → giải pháp, đúng thứ tự dàn ý. (3) Mỗi đoạn có chi tiết cụ thể đã chọn lúc lập dàn ý (last Tuesday, two panels, after school, arborist). (4) Bỏ chi tiết thừa (tuổi của cây) để giữ ngân sách chữ. (5) Có lời kết lịch sự. (6) Còn 5 phút soát lỗi: thì quá khứ và hiện tại hoàn thành đúng, không comma splice. (7) Register semi-formal phù hợp với hàng xóm: 'Dear', 'Would you be willing to…'. Khoảng 165 từ – trong vùng 150–200."
+        }
+      ],
+      "takeawayVi": "Bốn phút lập dàn ý không làm bạn chậm đi – chúng đảm bảo bạn có đủ ba gạch đầu dòng, có lời kết và còn thời gian soát lỗi."
+    },
+    {
+      "id": "ex2",
+      "title": "Choosing quickly and planning Task 2 in four minutes",
+      "stimulusId": "survey-wfh",
+      "question": "How should the writer use minutes 0–6 of Task 2?",
+      "steps": [
+        "Minutes 0–1: read both options. Ask: for which option can I think of two real examples from my own life in 30 seconds each? Option A: my 75-minute commute from Surrey; the quiet day I finished a report at home. Option B: only 'more money', with no concrete example. Choose A.",
+        "Minutes 1–2: decide the role and the frame: I am an employee, writing in the first person, with 'would' for the hypothetical policy.",
+        "Minutes 2–5: write keyword notes, not sentences, for R / E / Ex / C for two reasons.",
+        "Minutes 5–6: add one concession line and one conclusion line. Stop planning at minute 6 even if the notes are not perfect.",
+        "Budget check: opening 20 + reason 1 60 + reason 2 60 + concession 30 + conclusion 15 = about 185 words."
+      ],
+      "answer": "Choice: A – WFH 2 days\nR1 time | E: 75 min each way, Surrey → downtown | Ex: last winter, snow, 3-hour trip | C: 5 h/week back → kids' swim lessons\nR2 focus | E: open office, noise, interruptions | Ex: finished month-end report in one quiet day at home | C: better work for the company\nConcession: $150 helps with costs, BUT money ≠ time\nConclusion: time + productivity → A",
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "I choose option A because I think working from home is very good for me and for many people because nowadays technology is very good and we can work everywhere and it is also good for environment because there are less cars and I can save time also...",
+          "commentVi": "Ghi chú kiểu 'viết nháp cả câu': tốn 6–8 phút, nhiều ý lẫn lộn (công nghệ, môi trường, thời gian) nhưng không có ví dụ cụ thể nào, và không thấy rõ hai lý do chính. Khi viết bài thật, người viết sẽ phải nghĩ lại từ đầu."
+        },
+        {
+          "label": "after",
+          "text": "Choice: A – WFH 2 days\nR1 time | E: 75 min each way, Surrey → downtown | Ex: last winter, snow, 3-hour trip | C: 5 h/week back → kids' swim lessons\nR2 focus | E: open office, noise, interruptions | Ex: finished month-end report in one quiet day at home | C: better work for the company\nConcession: $150 helps with costs, BUT money ≠ time\nConclusion: time + productivity → A",
+          "commentVi": "Các thay đổi: (1) Chỉ dùng từ khoá – lập xong trong khoảng 4 phút. (2) Đúng hai lý do, mỗi lý do đủ bốn ô R / E / Ex / C. (3) Mỗi ví dụ là trải nghiệm thật, cụ thể (75 phút, tuyết, báo cáo cuối tháng). (4) Có sẵn một dòng nhượng bộ và một dòng kết luận, nên phần cuối bài không bị vội. (5) Bỏ các ý chung chung (technology, environment) vì không có ví dụ."
+        }
+      ],
+      "takeawayVi": "Chọn phương án bạn có ví dụ, không phải phương án 'đúng'. Ghi chú bằng từ khoá theo ô R / E / Ex / C, và dừng lập dàn ý ở phút thứ 6."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "order",
+      "stimulusId": "email-course",
+      "prompt": "Put the stages of the 27-minute Task 1 plan in order.",
+      "items": [
+        "Read the situation and underline the verb in each bullet point (minutes 0–2)",
+        "Write one keyword line for each paragraph, with one specific detail per bullet (minutes 2–6)",
+        "Write the email paragraph by paragraph, checking the clock at minutes 11, 16 and 21 (minutes 6–22)",
+        "Check that all three bullets are covered and the word count is 150–200 (minute 22–23)",
+        "Do the verb, noun and sentence proofreading passes (minutes 23–27)"
+      ],
+      "misconception": "skip_planning",
+      "hint": "Think about what you need to know before you can plan, and what has to exist before you can check it.",
+      "explanationVi": "Đọc → lập dàn ý → viết → kiểm tra nội dung → soát lỗi. Kiểm tra nội dung (đủ ba ý, số từ) trước soát lỗi, vì nếu thiếu một gạch đầu dòng, bạn cần thời gian để viết thêm.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "email-course",
+      "prompt": "It is minute 18 of Task 1. You have written the opening and bullets 1 and 2 (about 130 words). You have not started bullet 3. What is the best action?",
+      "options": [
+        {
+          "text": "Write two or three focused sentences for bullet 3 and a short closing by about minute 22, then check.",
+          "misconception": null,
+          "whyVi": "Đúng: hoàn thành đủ ba ý trước, giữ lại thời gian soát lỗi."
+        },
+        {
+          "text": "Go back and improve the vocabulary in bullet 1 first, because it is the most important paragraph.",
+          "misconception": "uneven_coverage",
+          "whyVi": "Gạch đầu dòng 3 vẫn trống – sửa từ vựng ở đoạn đã xong không bù được một ý bị thiếu."
+        },
+        {
+          "text": "Write a long, detailed paragraph for bullet 3 and skip checking if necessary.",
+          "misconception": "no_checking_time",
+          "whyVi": "Bỏ soát lỗi để viết dài sẽ để lại lỗi ở cả bài; 2–3 câu tập trung là đủ cho ý 3."
+        },
+        {
+          "text": "Skip bullet 3 and write a polite closing instead, since the email is already long enough.",
+          "misconception": "uneven_coverage",
+          "whyVi": "Bỏ một gạch đầu dòng là lỗi task fulfillment nặng nhất, dù số từ đã đủ."
+        }
+      ],
+      "answerIndex": 0,
+      "hint": "Which problem would cost you more: a slightly short paragraph, or a missing bullet point?",
+      "explanationVi": "Thứ tự ưu tiên khi chậm giờ: (1) đủ ba gạch đầu dòng, (2) có lời kết, (3) soát lỗi, (4) nâng cấp từ vựng. Đừng hy sinh ưu tiên cao cho ưu tiên thấp.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g3",
+      "type": "text",
+      "prompt": "In your practice tests, you write about 12 words per minute while thinking and typing. How many minutes of writing do you need for a 180-word response? Type a number.",
+      "answers": [
+        "15",
+        "fifteen",
+        "15 minutes",
+        "15 min",
+        "fifteen minutes"
+      ],
+      "mode": "exact",
+      "misconception": "word_count_myth",
+      "hint": "Divide the target word count by your words per minute.",
+      "explanationVi": "180 ÷ 12 = 15 phút. Khung viết trong kế hoạch là 15–16 phút, nên tốc độ này vừa đủ. Nếu bạn viết chậm hơn (khoảng 9–10 từ/phút), hãy rút ngắn phần lập dàn ý xuống 3 phút và nhắm khoảng 165–170 từ.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "survey-wfh",
+      "prompt": "You read the survey. You slightly prefer Option B, but you can think of two concrete personal examples only for Option A. What should you do?",
+      "options": [
+        {
+          "text": "Spend five minutes deciding which option is truly better for the company.",
+          "misconception": "skip_planning",
+          "whyVi": "Năm phút suy nghĩ 'cái nào đúng' ăn vào thời gian lập dàn ý; người chấm không chấm lựa chọn."
+        },
+        {
+          "text": "Choose Option A, because you can develop it with real examples.",
+          "misconception": null,
+          "whyVi": "Đúng: chọn phương án bạn phát triển được tốt nhất – có ví dụ cụ thể cho hai lý do."
+        },
+        {
+          "text": "Choose Option B, start writing, and switch to Option A if you run out of ideas.",
+          "misconception": "late_switch",
+          "whyVi": "Đổi lựa chọn giữa chừng buộc bạn viết lại và thường làm bài mất mạch lạc."
+        },
+        {
+          "text": "Write about both options equally so the reader can see both sides.",
+          "misconception": "uneven_coverage",
+          "whyVi": "Đề yêu cầu chọn một phương án; viết đều cả hai làm lập trường không rõ."
+        }
+      ],
+      "answerIndex": 1,
+      "hint": "The survey task scores how well you support your choice, not which choice you make.",
+      "explanationVi": "Trong Task 2, quyết định nhanh (dưới 2 phút) dựa trên câu hỏi: 'Phương án nào tôi có ví dụ thật?'. Sau đó giữ nguyên lựa chọn đến hết bài.",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "email-course",
+      "prompt": "Which set of planning notes is the best use of the 4-minute planning stage for this email?",
+      "options": [
+        {
+          "text": "A full first draft of the opening and bullet 1, written in complete sentences.",
+          "misconception": "skip_planning",
+          "whyVi": "Viết nháp cả câu không phải là lập dàn ý: mất quá nhiều thời gian, chưa có bản đồ cho các đoạn còn lại, và bạn sẽ khó còn phút nào để soát lỗi cuối bài."
+        },
+        {
+          "text": "No notes; keep the ideas in your head so you can start typing immediately.",
+          "misconception": "skip_planning",
+          "whyVi": "Không dàn ý dễ dẫn đến trộn ý, sót gạch đầu dòng và hết giờ giữa chừng."
+        },
+        {
+          "text": "Purpose – Tue → Thu change / B1 – first-aid, 10 wks, Sept 9 / B2 – cashier, Thu 4–10 p.m. shifts; need cert by Dec / B3 – transfer to Tue/weekend OR refund $120 / Close – thanks",
+          "misconception": null,
+          "whyVi": "Đúng: mỗi đoạn một dòng từ khoá, mỗi gạch đầu dòng có chi tiết cụ thể, có cả mục đích và lời kết."
+        },
+        {
+          "text": "Detailed notes for bullet 1 only, since the other bullets are easy to think of later.",
+          "misconception": "uneven_coverage",
+          "whyVi": "Gạch đầu dòng 2 và 3 không có chi tiết sẵn, nên khi viết bạn sẽ dễ viết chung chung hoặc thiếu thời gian."
+        }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Dàn ý 4 phút tốt là 'bản đồ': đủ mọi đoạn, mỗi đoạn có từ khoá và một chi tiết cụ thể, không có câu hoàn chỉnh.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i2",
+      "type": "text",
+      "prompt": "You are aiming for a 190-word Task 1 email. Your opening will be about 25 words and your closing about 15 words. About how many words should each of the three bullet paragraphs have? Type a number.",
+      "answers": [
+        "50",
+        "fifty",
+        "50 words"
+      ],
+      "mode": "exact",
+      "misconception": "word_count_myth",
+      "explanationVi": "190 − 25 − 15 = 150 từ cho ba đoạn → khoảng 50 từ mỗi đoạn. Chia đều giúp không gạch đầu dòng nào bị viết quá sơ sài.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i3",
+      "type": "order",
+      "stimulusId": "survey-wfh",
+      "prompt": "Put the stages of the 26-minute Task 2 plan in order.",
+      "items": [
+        "Read both options and choose the one you can support with real examples (minutes 0–2)",
+        "Note R / E / Ex / C keywords for two reasons and one concession line (minutes 2–6)",
+        "Write the opening sentence with your choice, then reason 1 (minutes 6–14)",
+        "Write reason 2, the short concession and the conclusion (minutes 14–21)",
+        "Check the choice and word count, then do the three proofreading passes (minutes 21–26)"
+      ],
+      "misconception": "skip_planning",
+      "explanationVi": "Chọn → dàn ý → viết mở bài + lý do 1 → lý do 2 + nhượng bộ + kết luận → soát. Mốc phút 14 giúp bạn biết mình có đang chậm ở lý do 1 hay không.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "draft-course-check",
+      "prompt": "This email was finished at minute 23 of Task 1. Using the Level 8 checklist, what is the most important thing to do in the remaining 4 minutes?",
+      "options": [
+        {
+          "text": "Replace simple words throughout the email with more advanced vocabulary.",
+          "misconception": "uneven_coverage",
+          "whyVi": "Nâng cấp từ vựng không sửa được vấn đề lớn nhất: gạch đầu dòng 2 chưa được trả lời."
+        },
+        {
+          "text": "Add a sentence about how useful first-aid skills are for everyone.",
+          "misconception": "word_count_myth",
+          "whyVi": "Thêm chữ cho đủ số từ nhưng vẫn không trả lời gạch đầu dòng 2; ý chung chung."
+        },
+        {
+          "text": "Rewrite the whole email in a more formal style.",
+          "misconception": "late_switch",
+          "whyVi": "Register đã phù hợp; viết lại toàn bộ trong 4 phút gần như chắc chắn không kịp."
+        },
+        {
+          "text": "Replace the paragraph about enjoying the classes with two or three sentences explaining why Thursday evenings are impossible for you.",
+          "misconception": null,
+          "whyVi": "Đúng: đoạn 2 nói về việc thích lớp học, nhưng gạch đầu dòng 2 hỏi vì sao lịch mới là vấn đề – nội dung đó hoàn toàn chưa có. Đoạn mới cũng làm tăng số từ; sau đó kiểm tra lại bộ đếm – nếu vẫn dưới 150, thêm một chi tiết cụ thể (ca làm, hạn cần chứng chỉ) vào chính đoạn này."
+        }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Bước đầu của phần soát là kiểm tra ba gạch đầu dòng. Email này trả lời ý 1 và ý 3, nhưng ý 2 (vì sao lịch mới là vấn đề) bị thay bằng nội dung không được hỏi – và chỉ có 115 từ. Đây là lỗi lớn nhất, nên sửa trước tiên.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "survey-wfh",
+      "prompt": "It is minute 21 of Task 2. Your response is complete, but the word counter shows 248 words. What is the best action?",
+      "options": [
+        {
+          "text": "Add a third reason, since a longer response shows a stronger argument.",
+          "misconception": "word_count_myth",
+          "whyVi": "Bài đã dài hơn nhiều so với yêu cầu; thêm lý do chỉ tăng lỗi và lấy mất thời gian soát."
+        },
+        {
+          "text": "Delete reason 2 completely to get under 200 words quickly.",
+          "misconception": "uneven_coverage",
+          "whyVi": "Cắt cả một lý do làm lập luận mất cân bằng; nên cắt câu lặp và chi tiết thừa."
+        },
+        {
+          "text": "Skip proofreading and use the time to write a more impressive conclusion.",
+          "misconception": "no_checking_time",
+          "whyVi": "Bài dài hơn có nhiều lỗi hơn – đây là lúc cần soát nhất, không phải viết thêm."
+        },
+        {
+          "text": "Spend about 2 minutes cutting repeated sentences and the weakest example detail, then use the last 3 minutes to proofread.",
+          "misconception": null,
+          "whyVi": "Đúng: đưa bài về gần vùng 150–200 bằng cách cắt chỗ lặp, giữ nguyên hai lý do, và vẫn còn thời gian soát lỗi."
+        }
+      ],
+      "answerIndex": 3,
+      "explanationVi": "Khi quá dài: cắt câu lặp, câu chung chung, chi tiết phụ – không cắt lý do. Sau đó vẫn giữ thời gian soát lỗi.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "email-tree",
+      "prompt": "You finish writing your Task 1 email at minute 19 with 160 words and all three bullets covered. What is the best use of the remaining 8 minutes?",
+      "options": [
+        {
+          "text": "Check the three bullets, add one specific detail where a paragraph is still general, then do the three proofreading passes.",
+          "misconception": null,
+          "whyVi": "Đúng: dùng thời gian thừa để làm sâu một chỗ còn mỏng (một chi tiết) và soát lỗi kỹ hơn."
+        },
+        {
+          "text": "Write a new paragraph about another problem with the tree to reach 220 words.",
+          "misconception": "word_count_myth",
+          "whyVi": "Thêm đoạn mới không được hỏi làm bài dài, lệch trọng tâm và lấy mất thời gian soát."
+        },
+        {
+          "text": "Submit early, since the email already meets the minimum word count.",
+          "misconception": "no_checking_time",
+          "whyVi": "Nộp sớm bỏ phí 8 phút có thể dùng để tìm 4–8 lỗi."
+        },
+        {
+          "text": "Rewrite the whole email in a more formal register, just in case.",
+          "misconception": "late_switch",
+          "whyVi": "Viết lại toàn bộ là rủi ro lớn; nếu register đã hợp với hàng xóm thì không cần đổi."
+        }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Viết xong sớm là lợi thế: ưu tiên làm cụ thể một ý còn chung chung, rồi soát lỗi theo danh sách cá nhân. Không thêm đoạn mới, không viết lại.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i7",
+      "type": "produce",
+      "medium": "write",
+      "stimulusId": "email-course",
+      "prompt": "Timed practice: set a 27-minute timer and write the email to Ms. Bergeron (150–200 words). Follow the plan: 2 minutes reading, 4 minutes keyword notes, about 16 minutes writing with checkpoints at minutes 11, 16 and 21, and the last 4–5 minutes for checking.",
+      "minWords": 150,
+      "checklist": [
+        "Planned for no more than 4 minutes, with one keyword line per paragraph",
+        "The first two sentences say who you are, which course you registered for and why you are writing",
+        "All three bullet points are covered, each in its own paragraph with at least one specific detail",
+        "Finished writing with at least 4 minutes left and used them for the task check and proofreading passes",
+        "The final word count is between 150 and 200",
+        "Polite semi-formal register throughout, with a clear request in the final paragraph"
+      ],
+      "modelAnswer": "Dear Ms. Bergeron,\n\nMy name is Thanh Le, and I registered for the ten-week evening first-aid course that began on September 9 at your community centre. I am writing because the class has been moved from Tuesday to Thursday evenings, and unfortunately, I am unable to attend on the new day.\n\nI work as a cashier at a grocery store, and my manager schedules me from 4 p.m. to 10 p.m. every Thursday. In fact, I chose this course specifically because Tuesday is my regular day off. I also need the certificate by December, as my employer has asked me to become one of the store's first-aid attendants.\n\nFor these reasons, I would be grateful if you could help me in one of two ways. Ideally, I would like to transfer to another first-aid course that runs on Tuesdays or weekends this fall. If that is not possible, I would appreciate a full refund of the $120 fee so that I can register elsewhere.\n\nThank you for your understanding. I look forward to hearing from you.\n\nSincerely,\nThanh Le",
+      "misconception": "skip_planning",
+      "explanationVi": "Bài mẫu khoảng 180 từ: mở đầu 2 câu (ai, khoá nào, vì sao viết), gạch đầu dòng 2 có chi tiết cụ thể (ca làm thứ Năm 4–10 p.m., cần chứng chỉ trước tháng 12), gạch đầu dòng 3 có hai phương án theo thứ tự ưu tiên (Ideally… / If that is not possible…). Ghi lại thời gian thực tế bạn hoàn thành từng phần để điều chỉnh kế hoạch cho tốc độ của riêng mình.",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "misconceptions": {
+    "skip_planning": {
+      "label": "Bỏ qua hoặc làm sai bước lập dàn ý",
+      "explanationVi": "Bạn nghĩ lập dàn ý làm mất thời gian, nên bắt đầu gõ ngay, viết nháp cả câu thay vì ghi từ khoá, dành thời gian đầu để phân vân, hoặc chưa nắm chắc trình tự đọc → lập dàn ý → viết → soát. Kết quả thường là các ý bị trộn, một gạch đầu dòng bị sót, hoặc hết giờ khi chưa kết bài. Kỹ năng còn thiếu là chuyển suy nghĩ thành một 'bản đồ' ngắn trước khi viết.",
+      "fixVi": "Luôn dành phút 2–6 cho một dòng từ khoá mỗi đoạn, mỗi ý một chi tiết cụ thể. Dừng lập dàn ý ở phút 6, dù chưa hoàn hảo."
+    },
+    "uneven_coverage": {
+      "label": "Dồn thời gian vào một ý, bỏ sót hoặc làm mỏng ý khác",
+      "explanationVi": "Bạn viết quá kỹ phần đầu (hoặc trau chuốt từ vựng) rồi thiếu thời gian cho gạch đầu dòng hay lý do cuối, hoặc viết đều cả hai phương án ở Task 2. Người chấm đánh giá việc hoàn thành *toàn bộ* yêu cầu, nên một ý bị thiếu ảnh hưởng nặng hơn một đoạn ngắn.",
+      "fixVi": "Dùng ngân sách chữ (khoảng 50 từ mỗi gạch đầu dòng, 60 từ mỗi lý do) và các mốc thời gian (phút 11, 16, 21). Thiếu giờ thì viết 2–3 câu cho ý còn lại trước khi sửa bất cứ điều gì khác."
+    },
+    "word_count_myth": {
+      "label": "Hiểu sai về số từ",
+      "explanationVi": "Bạn nghĩ càng dài càng tốt (viết 230–250 từ, thêm lý do thứ ba) hoặc thêm câu chung chung chỉ để đủ số từ. Độ dài không thay thế được phát triển ý; viết quá dài còn lấy mất thời gian soát và tăng lỗi.",
+      "fixVi": "Nhắm 170–190 từ. Biết tốc độ viết của bạn (từ/phút) và tính trước. Nếu quá dài, cắt câu lặp; nếu quá ngắn, thêm một chi tiết cụ thể vào đoạn mỏng nhất."
+    },
+    "no_checking_time": {
+      "label": "Không chừa thời gian soát bài",
+      "explanationVi": "Bạn viết đến phút cuối, nộp sớm hoặc dùng thời gian còn lại để viết thêm. Những lỗi bạn hoàn toàn có thể tự sửa (thì, '-s', mạo từ, comma splice) vì thế vẫn nằm trong bài.",
+      "fixVi": "Coi 4–5 phút cuối là bắt buộc: 1 phút kiểm tra nội dung và số từ, 3–4 phút cho ba lượt soát lỗi và danh sách lỗi cá nhân."
+    },
+    "late_switch": {
+      "label": "Đổi hướng hoặc viết lại giữa chừng",
+      "explanationVi": "Bạn đổi lựa chọn ở Task 2 khi đang viết, hoặc viết lại cả email trong những phút cuối 'cho chắc'. Việc này lãng phí thời gian và thường để lại một bài lẫn lộn, chưa được soát.",
+      "fixVi": "Ở Task 2, chọn phương án bạn có ví dụ thật và giữ nguyên sau phút 6. Trong phần soát, chỉ sửa tối thiểu; nếu một câu quá rối, tách nó thành hai câu ngắn."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "I am writing regarding…",
+      "vi": "Tôi viết thư này liên quan đến… (câu mục đích nhanh, trang trọng)",
+      "example": "I am writing regarding the recent change to the Saturday swimming schedule."
+    },
+    {
+      "term": "I would be grateful if you could…",
+      "vi": "Tôi sẽ rất biết ơn nếu ông/bà có thể…",
+      "example": "I would be grateful if you could move my appointment to the following week."
+    },
+    {
+      "term": "Ideally, …",
+      "vi": "Lý tưởng nhất là… (nêu giải pháp ưu tiên)",
+      "example": "Ideally, I would like to transfer to the Tuesday class."
+    },
+    {
+      "term": "If that is not possible, …",
+      "vi": "Nếu điều đó không thể, … (giải pháp dự phòng)",
+      "example": "If that is not possible, I would appreciate a full refund."
+    },
+    {
+      "term": "Would you be willing to…?",
+      "vi": "Ông/bà có sẵn lòng… không? (đề nghị lịch sự)",
+      "example": "Would you be willing to have an arborist look at the tree?"
+    },
+    {
+      "term": "I would prefer Option A for two main reasons.",
+      "vi": "Tôi chọn phương án A vì hai lý do chính. (mở bài Task 2 nhanh, rõ)",
+      "example": "I would prefer Option A for two main reasons: time and focus."
+    },
+    {
+      "term": "Thank you for your understanding.",
+      "vi": "Cảm ơn ông/bà đã thông cảm.",
+      "example": "Thank you for your understanding, and I look forward to your reply."
+    },
+    {
+      "term": "at your earliest convenience",
+      "vi": "sớm nhất khi ông/bà thuận tiện",
+      "example": "Please let me know at your earliest convenience which option is available."
+    }
+  ],
+  "grammar": [
+    {
+      "point": "Polite request structures for the final bullet",
+      "explanationVi": "Gạch đầu dòng cuối của Task 1 thường yêu cầu bạn đề nghị, xin hoặc gợi ý. Chuẩn bị sẵn các khung câu giúp bạn viết nhanh mà vẫn lịch sự: 'I would be grateful if you could + V', 'I would appreciate it if you could + V', 'Would it be possible to + V?', 'Would you be willing to + V?'. Lưu ý: sau 'appreciate' cần 'it if' (I would appreciate it if…) hoặc một danh từ (I would appreciate a refund); và sau 'could' là động từ nguyên mẫu.",
+      "examples": [
+        "I would be grateful if you could transfer me to the Tuesday group.",
+        "I would appreciate it if you could reply by Friday.",
+        "Would it be possible to receive a partial refund?",
+        "Would you be willing to share the cost of the repair?"
+      ]
+    },
+    {
+      "point": "Present perfect (active and passive) for a recent change",
+      "explanationVi": "Câu mục đích của email thường nói về một thay đổi vừa xảy ra và còn ảnh hưởng đến hiện tại: dùng hiện tại hoàn thành. Khi không cần nói ai làm, dùng bị động: 'has been moved / has been cancelled / have been raised'. Đây là cách viết câu mở đầu nhanh và chính xác.",
+      "examples": [
+        "The course has been moved from Tuesday to Thursday evenings.",
+        "Several branches have fallen into our yard this month.",
+        "My parking fee has been increased without notice."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "label": "Bài thi thử Writing Task 1 có bấm giờ 27 phút",
+      "route": "/writing?task=W1"
+    },
+    {
+      "label": "Bài thi thử Writing Task 2 có bấm giờ 26 phút",
+      "route": "/writing?task=W2"
+    },
+    {
+      "label": "Xem lại lỗi để cập nhật danh sách lỗi cá nhân",
+      "route": "/mistakes"
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "author-agent+independent-review-agent",
+    "notes": "Solved all 11 exercises; keys correct. Corrected the draft word count (115, not 118) and removed the false claim that replacing one paragraph would lift it above 150; remapped the 'full-sentence draft' distractor and the i3 ordering error to skip_planning (broadened its explanation). Word counter mentioned without penalty claims; models 163/179 words."
+  }
+}

@@ -1,0 +1,874 @@
+{
+  "id": "ls-11",
+  "skill": "listening",
+  "module": "listening-parts",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Parts 1–2: Problem solving & daily life",
+  "titleVi": "Part 1–2: Giải quyết vấn đề & hội thoại đời thường",
+  "estimatedMinutes": 32,
+  "prerequisites": [
+    "ls-08",
+    "ls-09"
+  ],
+  "competencies": [
+    "missed_info",
+    "speaker_attitude"
+  ],
+  "tasks": [
+    "L1",
+    "L2"
+  ],
+  "objectives": [
+    "You will be able to follow a Part 1 conversation as problem → options → decision and note who rejects what and why.",
+    "You will be able to tell a final decision apart from a suggestion that was later dropped or changed.",
+    "You will be able to identify a speaker's attitude in a daily-life conversation from the words they choose, not from their tone of voice.",
+    "You will be able to catch self-corrections and conditions (\"no, wait…\", \"if he can't…\") that change the answer."
+  ],
+  "objectiveVi": "Sau bài này, bạn nghe Part 1 theo khung Vấn đề → Phương án → Quyết định, phân biệt được đề xuất với quyết định cuối cùng, và đọc được thái độ người nói trong Part 2 qua cách họ chọn từ.",
+  "whyItMattersVi": "Part 1 (8 câu) và Part 2 (5 câu) là 13 câu đầu tiên của bài Listening. Với Listening 6, lỗi phổ biến nhất ở đây không phải là không hiểu từ, mà là chọn phương án người nói NHẮC ĐẾN thay vì phương án họ CHỌN, hoặc đoán thái độ quá mạnh (\"angry\" trong khi họ chỉ hơi thất vọng). Nắm chắc khung Problem → Options → Decision giúp bạn giữ điểm chắc ở hai Part này — đó là nền móng an toàn để đạt Level 8.",
+  "concept": [
+    {
+      "heading": "Part 1 và Part 2 trông như thế nào",
+      "body": "**Part 1 – Listening to Problem Solving** (8 câu): một cuộc hội thoại giữa hai người đang gặp một vấn đề cụ thể (xe hỏng, nhà bị dột, kế hoạch bị đổ bể). Bài nghe được chia thành **3 đoạn (sections)**; sau mỗi đoạn, câu hỏi mới hiện ra, thường là 3 + 3 + 2 câu. Audio chỉ phát **một lần**, và bạn không thấy câu hỏi trước khi nghe — nên bạn phải tự biết mình cần nghe gì.\n\n**Part 2 – Listening to a Daily Life Conversation** (5 câu): một đoạn hội thoại liền mạch trong tình huống thường ngày: khách hàng với dược sĩ, người thuê nhà với quản lý toà nhà, hàng xóm với nhau. Câu hỏi xoay quanh *mục đích* của người nói, *chi tiết* được thoả thuận và đặc biệt là *thái độ* (\"How does Linh feel about…?\")."
+    },
+    {
+      "heading": "Khung Problem → Options → Decision",
+      "body": "Gần như mọi đoạn Part 1 đi theo cùng một mạch:\n\n- **Problem** – chuyện gì xảy ra và *vì sao* nó là vấn đề (\"the basement's flooding\", \"the last bus already left\").\n- **Options** – từng phương án, *ai* đưa ra, và *ai* phản đối vì lý do gì. Tín hiệu đề xuất: *What if we…?*, *How about…?*, *Could we just…?*, *We could…*. Tín hiệu bác bỏ: *No way*, *That won't work*, *I'd feel bad*, *We'd never make it*.\n- **Decision** – phương án được chốt, thường có tín hiệu: *Okay, let's do that*, *So here's what I'm thinking*, *Deal*, *I'll call them tonight*. Quyết định có thể kèm **điều kiện**: *If the shop's closed, we'll try the one in Burnaby.*\n\nNguyên tắc vàng: **phương án nhắc đến đầu tiên hiếm khi là quyết định cuối**. CELPIP thích dùng phương án bị bác bỏ làm đáp án nhiễu."
+    },
+    {
+      "heading": "Thái độ trong hội thoại đời thường",
+      "body": "Ở Part 2, người Canada thường nói **gián tiếp và lịch sự**. Họ ít khi nói thẳng \"I'm angry\" mà dùng những cụm như:\n\n- **Thất vọng nhẹ:** *Oh. That's a bit of a shame*, *I was hoping for something earlier*.\n- **Chấp nhận miễn cưỡng:** *I suppose that works*, *Fine, I'll make it work*.\n- **Từ chối lịch sự:** *I'd love to say yes, but…*, *The thing is…*\n- **Biết ơn / hài lòng:** *I appreciate you being upfront*, *That's a relief*.\n\nVì giọng đọc thường khá đều, bạn phải đọc thái độ **từ chữ**: từ giảm nhẹ (*kind of, a bit, I guess*), cấu trúc so sánh (*I'd rather X than Y*), và việc người nói *chấp nhận* hay *phản đối* đề xuất. Chọn đáp án có **mức độ** khớp với lời nói: \"disappointed\" khác xa \"furious\"."
+    },
+    {
+      "heading": "Chiến lược từng bước",
+      "body": "1. **Trước khi nghe:** dùng phần hướng dẫn và hình ảnh/câu giới thiệu mở đầu (nếu có). Đoán hai người là ai, vấn đề có thể là gì, và các con số có thể xuất hiện (giờ, giá, ngày).\n2. **Trong khi nghe — ghi chú 3 cột:** `P` (problem + lý do) | `O` (phương án – người nêu – ✗/✓ + lý do) | `D` (quyết định + điều kiện). Ghi số kèm danh từ: `$40 fee`, `$20 late`.\n3. **Bắt lời tự sửa:** *Actually, no…*, *no wait*, *sorry, I mean…* — thông tin SAU lời sửa mới là thông tin đúng.\n4. **Khi trả lời:** với câu hỏi \"What do they decide?\", tìm dòng `D`, không phải dòng `O`. Với câu hỏi \"Why…?\", tìm lý do đi kèm dấu ✗. Với câu hỏi thái độ, nhớ lại *đúng câu chữ* người đó dùng rồi chọn đáp án cùng mức độ.\n5. **Loại trừ:** gạch đáp án nói đúng ý nhưng **sai người**, đáp án chỉ **lặp từ** nghe thấy, và đáp án là **đề xuất đã bị bỏ**."
+    },
+    {
+      "heading": "Bẫy thường gặp",
+      "body": "- **Suggestion ≠ decision:** \"Could we just take the bus?\" chỉ là câu hỏi, chưa phải kế hoạch.\n- **Wrong speaker:** người A đề xuất, người B quyết định — câu hỏi hỏi về ai thì phải đúng người đó.\n- **Word match / wrong detail:** đáp án chứa đúng con số bạn nghe chưa chắc đúng; kiểm tra con số đó gắn với cái gì.\n- **Đảo ngược ở câu cuối:** câu cuối của một đoạn (\"Actually, hold on…\") hay thay đổi đáp án, nên đừng ngừng nghe sớm."
+    }
+  ],
+  "stimuli": {
+    "ferry-decision": {
+      "title": "Library clip: Car trouble on the way to the ferry (section 3)",
+      "audioRef": {
+        "setId": "l1-full-01",
+        "chunk": 2
+      }
+    },
+    "pharmacy-transfer": {
+      "title": "Library clip: Transferring prescriptions (daily life)",
+      "audioRef": {
+        "setId": "l2-full-01",
+        "chunk": 0
+      }
+    },
+    "sink-leak": {
+      "title": "Part 1 style – Section 1: A leak on a Friday night",
+      "audio": [
+        {
+          "speaker": "Sara",
+          "voice": "female_a",
+          "text": "Kevin, there's water all over the kitchen floor. It's coming from under the sink."
+        },
+        {
+          "speaker": "Kevin",
+          "voice": "male_b",
+          "text": "Oh, great. On a Friday night, of course. Okay, I'm turning off the valve. Done. So what now? Should we text the landlord?"
+        },
+        {
+          "speaker": "Sara",
+          "voice": "female_a",
+          "text": "I already did, like twenty minutes ago. No answer. She said she'd be at her cabin on Bowen Island all weekend."
+        },
+        {
+          "speaker": "Kevin",
+          "voice": "male_b",
+          "text": "Then what about an emergency plumber? There's that company on the fridge magnet."
+        },
+        {
+          "speaker": "Sara",
+          "voice": "female_a",
+          "text": "I looked them up. It's a hundred and eighty dollars just for the call-out, before they even touch anything. I'm not paying that if it's just a loose pipe."
+        },
+        {
+          "speaker": "Kevin",
+          "voice": "male_b",
+          "text": "Fair enough. I could try fixing it myself. There are a million videos online."
+        },
+        {
+          "speaker": "Sara",
+          "voice": "female_a",
+          "text": "You? The last time you fixed something, we needed a new dishwasher."
+        },
+        {
+          "speaker": "Kevin",
+          "voice": "male_b",
+          "text": "Okay, okay. But with the valve off, it's not getting any worse. We could just wait till she calls back."
+        }
+      ]
+    },
+    "party-section-1": {
+      "title": "Part 1 style – Section 1: A rainy birthday party",
+      "audio": [
+        {
+          "speaker": "Anika",
+          "voice": "female_a",
+          "text": "Tom, did you see the forecast? Saturday's looking like rain all day. Like, eighty percent."
+        },
+        {
+          "speaker": "Tom",
+          "voice": "male_a",
+          "text": "Seriously? We've already invited fourteen kids to the picnic shelter at Central Park."
+        },
+        {
+          "speaker": "Anika",
+          "voice": "female_a",
+          "text": "I know. And the shelter's tiny. It fits maybe ten people if nobody moves. With fourteen kids plus parents, half of them would be standing in the rain."
+        },
+        {
+          "speaker": "Tom",
+          "voice": "male_a",
+          "text": "Okay, so what are our options? Could we just push it to Sunday?"
+        },
+        {
+          "speaker": "Anika",
+          "voice": "female_a",
+          "text": "I thought about that, but Sunday's supposed to be even worse. And the Parks website says you can't change a shelter booking less than a week ahead anyway."
+        },
+        {
+          "speaker": "Tom",
+          "voice": "male_a",
+          "text": "Right. What about the community centre? Don't they rent out the multipurpose room?"
+        },
+        {
+          "speaker": "Anika",
+          "voice": "female_a",
+          "text": "They do, but I called this morning and it's booked all weekend. There's a swim meet or something."
+        },
+        {
+          "speaker": "Tom",
+          "voice": "male_a",
+          "text": "Hmm. Then what about our building's party room? It's free for residents, isn't it?"
+        },
+        {
+          "speaker": "Anika",
+          "voice": "female_a",
+          "text": "Not anymore. The strata started charging seventy-five dollars in September. And it's capped at twenty people."
+        },
+        {
+          "speaker": "Tom",
+          "voice": "male_a",
+          "text": "Twenty people. Fourteen kids, the two of us, and a few parents who stay. That's tight, but it might work."
+        }
+      ]
+    },
+    "party-section-2": {
+      "title": "Part 1 style – Section 2: Making the call",
+      "audio": [
+        {
+          "speaker": "Anika",
+          "voice": "female_a",
+          "text": "Okay, so if we take the party room, we'd have to cut the guest list."
+        },
+        {
+          "speaker": "Tom",
+          "voice": "male_a",
+          "text": "Or, what if we ask parents to just drop off? Then it's fourteen kids and the two of us. Plus my sister said she'd help."
+        },
+        {
+          "speaker": "Anika",
+          "voice": "female_a",
+          "text": "Drop-off for seven-year-olds? Some parents won't love that. But, honestly, it's pretty normal at that age. Okay. Let's do that."
+        },
+        {
+          "speaker": "Tom",
+          "voice": "male_a",
+          "text": "And the seventy-five dollars?"
+        },
+        {
+          "speaker": "Anika",
+          "voice": "female_a",
+          "text": "I'd rather pay seventy-five bucks than have fourteen kids soaking wet. I'll book it tonight. Can you message the parents? Tell them it's drop-off, and pick-up's at four, not four-thirty."
+        },
+        {
+          "speaker": "Tom",
+          "voice": "male_a",
+          "text": "Why earlier?"
+        },
+        {
+          "speaker": "Anika",
+          "voice": "female_a",
+          "text": "The room has to be cleaned and empty by four-thirty, or they keep our deposit. Oh, and there's a hundred-dollar deposit on top of the fee."
+        },
+        {
+          "speaker": "Tom",
+          "voice": "male_a",
+          "text": "Great. Okay, I'll send the message. And I'll cancel the shelter so somebody else can use it."
+        },
+        {
+          "speaker": "Anika",
+          "voice": "female_a",
+          "text": "Actually, don't cancel yet. If the forecast changes by Thursday, we might still want it."
+        }
+      ]
+    },
+    "parkade-charger": {
+      "title": "Part 2 style: Asking the building manager about an EV stall",
+      "audio": [
+        {
+          "speaker": "Linh",
+          "voice": "female_b",
+          "text": "Hi, Mr. Petrov, sorry to bother you. Do you have a minute? It's about my parking stall."
+        },
+        {
+          "speaker": "Mr. Petrov",
+          "voice": "male_a",
+          "text": "Sure, come in. Is someone parking in your spot again?"
+        },
+        {
+          "speaker": "Linh",
+          "voice": "female_b",
+          "text": "No, no, it's not that. I just bought an electric car, and I was wondering if I could switch to one of the stalls with a charger, down on P2."
+        },
+        {
+          "speaker": "Mr. Petrov",
+          "voice": "male_a",
+          "text": "Ah. Well, congratulations on the car. The thing is, all six charging stalls are taken, and there's a waiting list. I think you'd be number four."
+        },
+        {
+          "speaker": "Linh",
+          "voice": "female_b",
+          "text": "Number four. Okay. How long does that usually take?"
+        },
+        {
+          "speaker": "Mr. Petrov",
+          "voice": "male_a",
+          "text": "Hard to say. People don't move out that often. Could be six months, could be more than a year."
+        },
+        {
+          "speaker": "Linh",
+          "voice": "female_b",
+          "text": "Oh. I was kind of hoping it'd be sooner. Is there any way I could plug in at my current spot? There's an outlet on the wall right beside it."
+        },
+        {
+          "speaker": "Mr. Petrov",
+          "voice": "male_a",
+          "text": "I'd love to say yes, but that outlet's for the cleaning equipment. If tenants start charging cars on it, the strata ends up paying for everyone's electricity. They'd never approve it."
+        },
+        {
+          "speaker": "Linh",
+          "voice": "female_b",
+          "text": "Right, that makes sense. I don't want to cause any trouble."
+        },
+        {
+          "speaker": "Mr. Petrov",
+          "voice": "male_a",
+          "text": "Here's what I can do. I'll put you on the list today. And there's a public fast charger at the community centre on Austin, two blocks away. A lot of our residents use it."
+        },
+        {
+          "speaker": "Linh",
+          "voice": "female_b",
+          "text": "Two blocks isn't bad. I guess I can live with that for now. Can you email me when my name moves up?"
+        },
+        {
+          "speaker": "Mr. Petrov",
+          "voice": "male_a",
+          "text": "Will do. And honestly, the strata's talking about adding more chargers next year. No promises, but it's on the agenda."
+        },
+        {
+          "speaker": "Linh",
+          "voice": "female_b",
+          "text": "That'd be great. Thanks for being straight with me."
+        }
+      ]
+    },
+    "couch-pickup": {
+      "title": "Part 1 style – A final-section decision: Picking up a used couch",
+      "audio": [
+        {
+          "speaker": "Priya",
+          "voice": "female_b",
+          "text": "Joel, the seller just texted. If we don't pick up the couch by Sunday, she's giving it to someone else."
+        },
+        {
+          "speaker": "Joel",
+          "voice": "male_a",
+          "text": "Sunday? I thought we had till next weekend. Okay, how do we get it here? It won't fit in my Civic, that's for sure."
+        },
+        {
+          "speaker": "Priya",
+          "voice": "female_b",
+          "text": "We could rent a pickup from the hardware store. It's twenty-nine dollars for the first ninety minutes."
+        },
+        {
+          "speaker": "Joel",
+          "voice": "male_a",
+          "text": "Ninety minutes to drive to Langley and back? We'd never make it. And every extra fifteen minutes is like ten bucks."
+        },
+        {
+          "speaker": "Priya",
+          "voice": "female_b",
+          "text": "Fair. What about your brother? He's got the van."
+        },
+        {
+          "speaker": "Joel",
+          "voice": "male_a",
+          "text": "He does, but he's coaching hockey all weekend. I could ask, but I'd feel bad."
+        },
+        {
+          "speaker": "Priya",
+          "voice": "female_b",
+          "text": "Then there's that delivery app, the one where you pay a driver with a truck. I checked, it's about eighty dollars."
+        },
+        {
+          "speaker": "Joel",
+          "voice": "male_a",
+          "text": "Eighty? That's more than we paid for the couch. Actually, you know what, my brother owes me one. I helped him move in July. I'll text him, and if he can't do it Saturday morning, we'll book the app."
+        },
+        {
+          "speaker": "Priya",
+          "voice": "female_b",
+          "text": "Okay, but book it before Friday night, because the prices go up on weekends."
+        },
+        {
+          "speaker": "Joel",
+          "voice": "male_a",
+          "text": "Deal."
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "id": "ex-1",
+      "title": "Finding the decision at the end of a Part 1 section",
+      "stimulusId": "ferry-decision",
+      "question": "What is the couple's final plan for getting to Nanaimo?",
+      "steps": [
+        "Mở khung ghi chú: P = xe hỏng, lỡ chuyến phà 3:10. O = (1) chờ xe kéo, (2) đi bộ lên phà. Mình biết đây là đoạn cuối (section 3), nên quyết định sẽ xuất hiện ở đây.",
+        "Nghe tín hiệu quyết định: Daniel nói \"So here's what I'm thinking.\" — mọi thứ sau câu này là ứng viên cho dòng D.",
+        "Ghi D: \"foot passengers on the 5:45\" + \"dinner w/ sister\" + \"I come back alone on Monday to pick up the car\".",
+        "Kiểm tra xem có ai đảo ngược không: Mei hỏi \"You'd do the round trip by yourself?\" — đây là lo ngại, không phải phản đối. Daniel trả lời \"It's fine\", và Mei kết thúc bằng \"I'm not going to argue with that\" → kế hoạch giữ nguyên.",
+        "Bẫy cần loại: \"take the 3:10 as walk-ons\" (bị loại vì xe kéo 45 phút mới tới) và \"the car will be taken to Squamish\" (Daniel tự sửa: \"no, sorry, in West Vancouver\")."
+      ],
+      "answer": "They will travel as foot passengers on the 5:45 sailing, and Daniel will return alone on Monday to collect the car.",
+      "takeawayVi": "Quyết định thường đến sau tín hiệu như \"So here's what I'm thinking\". Sau đó vẫn phải nghe tiếp để chắc rằng không ai lật lại kế hoạch, và luôn để ý lời tự sửa (\"no, sorry…\")."
+    },
+    {
+      "id": "ex-2",
+      "title": "Option vs choice in a daily-life conversation",
+      "stimulusId": "pharmacy-transfer",
+      "question": "The pharmacist offers two ways to get the blood pressure pill. Which one does Minh choose, and why?",
+      "steps": [
+        "Bối cảnh Part 2: khách (Minh) và dược sĩ (Ms. Kaur). Mình đoán câu hỏi sẽ xoay quanh: anh ấy muốn gì, có trở ngại gì, và anh ấy phản ứng ra sao.",
+        "Trở ngại: \"we ran out of the ten-milligram strength yesterday\". Phương án 1: \"it'll be here tomorrow after eleven\". Phương án 2: \"our Lougheed location fill it, so you can pick it up there today\".",
+        "Lựa chọn của Minh: \"Tomorrow's fine.\" Lý do: \"I've got enough until then.\" — lý do này nối với chi tiết trước đó: \"maybe four or five\" viên còn lại.",
+        "Thái độ: không phàn nàn, không lo lắng. Câu \"Tomorrow's fine\" cho thấy anh ấy thoải mái — đáp án kiểu \"He is upset about the delay\" sẽ sai về mức độ."
+      ],
+      "answer": "He chooses to wait until tomorrow at the same pharmacy, because he still has enough pills.",
+      "takeawayVi": "Trong Part 2, nhân viên thường đưa ra hai lựa chọn; câu hỏi kiểm tra bạn có nghe được người khách CHỌN cái nào và lý do của họ hay không. Lý do thường nằm ngay sau lựa chọn."
+    },
+    {
+      "id": "ex-3",
+      "title": "Three-column notes for a whole section",
+      "stimulusId": "sink-leak",
+      "question": "Which options are ruled out in this section, and which one is still open at the end?",
+      "steps": [
+        "P: nước tràn từ dưới bồn rửa, tối thứ Sáu → ghi `P: leak under sink, Fri night`. Kevin khoá van nước ngay — chi tiết này sẽ quan trọng ở cuối đoạn.",
+        "O1 (Kevin): text landlord → ✗ tạm thời: Sara đã nhắn, \"No answer\", chủ nhà ở Bowen Island cả cuối tuần.",
+        "O2 (Kevin): emergency plumber → ✗: \"a hundred and eighty dollars just for the call-out\" — ghi `$180 call-out` (phí đến nhà, chưa tính sửa). Lý do bác bỏ: không đáng nếu chỉ là ống lỏng.",
+        "O3 (Kevin): tự sửa theo video → ✗: Sara mỉa mai \"The last time you fixed something, we needed a new dishwasher.\" Đây là bác bỏ gián tiếp — không có chữ \"no\", nhưng ý rất rõ.",
+        "O4 (Kevin): chờ chủ nhà gọi lại → `?`: lý do là \"with the valve off, it's not getting any worse\". Chưa ai chốt, nên quyết định sẽ nằm ở section sau."
+      ],
+      "answer": "The emergency plumber and Kevin fixing it himself are ruled out; waiting for the landlord to call back is still open.",
+      "takeawayVi": "Ghi chú ba cột giúp bạn trả lời cả câu \"Why don't they…?\" (lý do ✗) lẫn câu \"What do they decide?\" (dòng D). Lời bác bỏ có thể gián tiếp (một câu đùa, một câu mỉa) — hãy hỏi: người nghe có đồng ý không? Dấu \"?\" nhắc bạn rằng phương án mới chỉ được cân nhắc, chưa được chốt."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "party-section-1",
+      "prompt": "Why is the picnic shelter a problem for the party?",
+      "hint": "Ghi chú cột P: nghe xem Anika mô tả cái shelter như thế nào ngay sau khi nhắc đến mưa.",
+      "options": [
+        {
+          "text": "It has already been booked by another group.",
+          "misconception": "word_match",
+          "whyVi": "Chữ \"booked\" xuất hiện, nhưng là nói về phòng của community centre, không phải shelter."
+        },
+        {
+          "text": "It is too small to keep all the guests out of the rain.",
+          "misconception": null,
+          "whyVi": "Đúng: \"the shelter's tiny… half of them would be standing in the rain\"."
+        },
+        {
+          "text": "It costs seventy-five dollars to reserve.",
+          "misconception": "wrong_detail",
+          "whyVi": "Phí 75 đô là của party room trong toà nhà, không phải shelter."
+        },
+        {
+          "text": "The park closes it when the weather is bad.",
+          "misconception": "not_mentioned",
+          "whyVi": "Bài không nói công viên đóng shelter khi trời xấu."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "And the shelter's tiny. It fits maybe ten people if nobody moves.",
+      "explanationVi": "Vấn đề không phải là shelter bị đặt hay bị đóng, mà là nó quá nhỏ (khoảng 10 người) so với 14 đứa trẻ cộng phụ huynh. \"Too small to keep all the guests out of the rain\" là cách diễn đạt lại.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "party-section-1",
+      "prompt": "Why do they rule out moving the party to Sunday?",
+      "hint": "Anika đưa ra HAI lý do liên tiếp, nối bằng \"And\". Kiểm tra từng vế của mỗi đáp án với cả hai lý do đó.",
+      "options": [
+        {
+          "text": "Many of the children already have plans on Sunday.",
+          "misconception": "not_mentioned",
+          "whyVi": "Không ai nói gì về lịch của bọn trẻ vào Chủ nhật."
+        },
+        {
+          "text": "Sunday's weather looks better, but the shelter is full that day.",
+          "misconception": "wrong_detail",
+          "whyVi": "Ngược lại: Chủ nhật được dự báo còn tệ hơn."
+        },
+        {
+          "text": "The weather is expected to be worse, and the booking can no longer be changed.",
+          "misconception": null,
+          "whyVi": "Đúng: \"Sunday's supposed to be even worse\" và \"you can't change a shelter booking less than a week ahead\"."
+        },
+        {
+          "text": "Tom suggests it, but Anika has to work that day.",
+          "misconception": "not_mentioned",
+          "whyVi": "Tom có đề xuất, nhưng lý do Anika đưa ra không liên quan gì đến việc đi làm."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "Sunday's supposed to be even worse. And the Parks website says you can't change a shelter booking less than a week ahead anyway.",
+      "explanationVi": "Lý do bác bỏ một phương án thường được nêu ngay sau phương án đó. Ở đây có hai lý do: thời tiết xấu hơn và quy định không cho đổi lịch dưới một tuần. \"Can no longer be changed\" là paraphrase của \"can't change… less than a week ahead\".",
+      "competency": "missed_info"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "party-section-2",
+      "prompt": "How do they solve the problem of the room's twenty-person limit?",
+      "hint": "Có hai ý được nêu: một của Anika, một của Tom. Chỉ một ý được theo sau bằng \"Let's do that.\"",
+      "options": [
+        {
+          "text": "They will invite fewer children.",
+          "misconception": "suggestion_as_decision",
+          "whyVi": "Anika chỉ nói nếu dùng phòng thì \"we'd have to cut the guest list\" — Tom đưa ra cách khác và họ chọn cách đó."
+        },
+        {
+          "text": "Tom's sister will host some of the children at her place.",
+          "misconception": "word_match",
+          "whyVi": "Em gái Tom chỉ đến phụ giúp (\"she'd help\"), không tổ chức ở nhà cô ấy."
+        },
+        {
+          "text": "They will split the party between the room and the shelter.",
+          "misconception": "not_mentioned",
+          "whyVi": "Không ai đề xuất chia đôi bữa tiệc."
+        },
+        {
+          "text": "Parents will leave their children at the party and come back later.",
+          "misconception": null,
+          "whyVi": "Đúng: Tom đề xuất \"drop off\", Anika chốt \"Okay. Let's do that.\""
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "Or, what if we ask parents to just drop off?",
+      "explanationVi": "\"What if we…\" là tín hiệu đề xuất; \"Okay. Let's do that.\" là tín hiệu chốt. Ý \"cut the guest list\" xuất hiện trước nhưng bị thay bằng ý drop-off. \"Leave their children… and come back later\" là cách diễn giải \"drop off\".",
+      "competency": "missed_info"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "parkade-charger",
+      "prompt": "How does Linh feel when she hears how long the waiting list might take?",
+      "hint": "Đừng đoán theo cảm giác chung. Nhớ lại đúng câu Linh nói ngay sau khi nghe \"more than a year\", và để ý từ giảm nhẹ trong câu đó.",
+      "options": [
+        {
+          "text": "She is a little disappointed that it will not be quicker.",
+          "misconception": null,
+          "whyVi": "Đúng: \"I was kind of hoping it'd be sooner\" — \"kind of\" cho thấy mức độ thất vọng nhẹ."
+        },
+        {
+          "text": "She is angry and threatens to complain to the strata.",
+          "misconception": "tone_misread",
+          "whyVi": "Quá mạnh: Linh không hề giận hay doạ khiếu nại; cô còn nói \"I don't want to cause any trouble\"."
+        },
+        {
+          "text": "She is relieved because she is only number four.",
+          "misconception": "word_match",
+          "whyVi": "Cô có lặp lại \"Number four\", nhưng sau đó hỏi thời gian chờ và tỏ ra thất vọng, không phải nhẹ nhõm."
+        },
+        {
+          "text": "She doesn't care, because she rarely drives.",
+          "misconception": "not_mentioned",
+          "whyVi": "Bài không nói Linh ít lái xe."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "Oh. I was kind of hoping it'd be sooner.",
+      "explanationVi": "Câu hỏi thái độ cần khớp cả hướng (tích cực/tiêu cực) lẫn mức độ. \"Oh.\" + \"kind of hoping it'd be sooner\" = thất vọng nhẹ, lịch sự. \"Angry\" sai mức độ.",
+      "competency": "speaker_attitude"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "text",
+      "stimulusId": "party-section-2",
+      "prompt": "How much is the deposit for the party room, in dollars? Type the number only.",
+      "answers": [
+        "100",
+        "one hundred",
+        "a hundred",
+        "hundred",
+        "$100",
+        "100 dollars",
+        "one hundred dollars",
+        "a hundred dollars",
+        "100$"
+      ],
+      "mode": "exact",
+      "misconception": "wrong_detail",
+      "explanationVi": "Có hai con số tiền: phí thuê phòng là 75 đô, và tiền đặt cọc là 100 đô \"on top of the fee\" (cộng thêm vào phí). Ghi số kèm danh từ (`$75 fee`, `$100 dep`) giúp bạn không lẫn.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "party-section-2",
+      "prompt": "Why does Anika want the children picked up at four o'clock?",
+      "options": [
+        {
+          "text": "Tom's sister can only help until four.",
+          "misconception": "not_mentioned",
+          "whyVi": "Không có thông tin em gái Tom phải về lúc mấy giờ."
+        },
+        {
+          "text": "The room must be cleaned and returned by four-thirty to get their money back.",
+          "misconception": null,
+          "whyVi": "Đúng: \"cleaned and empty by four-thirty, or they keep our deposit\"."
+        },
+        {
+          "text": "Some parents are unhappy about leaving their children for too long.",
+          "misconception": "wrong_detail",
+          "whyVi": "Anika có nói \"some parents won't love\" chuyện drop-off, nhưng đó không phải lý do đón sớm."
+        },
+        {
+          "text": "The strata charges extra for every half hour after four.",
+          "misconception": "word_match",
+          "whyVi": "Không có phí theo nửa giờ; điều bị đe doạ là tiền cọc, không phải phí thêm."
+        }
+      ],
+      "answerIndex": 1,
+      "evidence": "The room has to be cleaned and empty by four-thirty, or they keep our deposit.",
+      "explanationVi": "Lý do được nêu ngay sau câu hỏi \"Why earlier?\". \"Or they keep our deposit\" = nếu không kịp sẽ mất tiền cọc → \"to get their money back\" là paraphrase.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "party-section-2",
+      "prompt": "What will happen to the picnic shelter booking for now?",
+      "options": [
+        {
+          "text": "Tom will cancel it so another family can use it.",
+          "misconception": "suggestion_as_decision",
+          "whyVi": "Đây là ý định của Tom, nhưng Anika ngăn lại ngay sau đó."
+        },
+        {
+          "text": "Anika will move it to the following weekend.",
+          "misconception": "not_mentioned",
+          "whyVi": "Không ai nhắc đến việc dời sang cuối tuần sau."
+        },
+        {
+          "text": "They will keep it in case the weather improves.",
+          "misconception": null,
+          "whyVi": "Đúng: \"don't cancel yet. If the forecast changes by Thursday, we might still want it.\""
+        },
+        {
+          "text": "They will cancel it on Thursday no matter what.",
+          "misconception": "wrong_detail",
+          "whyVi": "Thursday là mốc để xem lại dự báo, không phải hạn chắc chắn huỷ."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "Actually, don't cancel yet. If the forecast changes by Thursday, we might still want it.",
+      "explanationVi": "Câu cuối của đoạn lật lại kế hoạch: \"Actually, don't cancel yet\". Đây là ví dụ điển hình cho việc phải nghe đến hết đoạn — đáp án nhiễu chính là kế hoạch Tom vừa nói.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i4",
+      "type": "choice",
+      "stimulusId": "parkade-charger",
+      "prompt": "Why won't Mr. Petrov let Linh charge her car at her current stall?",
+      "options": [
+        {
+          "text": "The building would end up covering the cost of residents' charging.",
+          "misconception": null,
+          "whyVi": "Đúng: \"the strata ends up paying for everyone's electricity. They'd never approve it.\""
+        },
+        {
+          "text": "The outlet is not powerful enough for an electric car.",
+          "misconception": "not_mentioned",
+          "whyVi": "Ông không nói gì về công suất ổ điện."
+        },
+        {
+          "text": "Another tenant already uses that outlet for cleaning.",
+          "misconception": "word_match",
+          "whyVi": "Ổ điện dành cho thiết bị vệ sinh của toà nhà, không phải do một người thuê khác dùng."
+        },
+        {
+          "text": "Linh is still number four on the waiting list.",
+          "misconception": "wrong_detail",
+          "whyVi": "Danh sách chờ liên quan đến stall có sạc, không phải lý do từ chối ổ điện."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "If tenants start charging cars on it, the strata ends up paying for everyone's electricity.",
+      "explanationVi": "\"I'd love to say yes, but…\" là mẫu từ chối lịch sự; lý do thật nằm sau \"but\". \"The strata… paying for everyone's electricity\" được paraphrase thành \"the building would end up covering the cost\".",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "parkade-charger",
+      "prompt": "How does Linh respond to the idea of using the public fast charger?",
+      "options": [
+        {
+          "text": "She rejects it because it is too far from the building.",
+          "misconception": "tone_misread",
+          "whyVi": "Ngược lại: \"Two blocks isn't bad.\""
+        },
+        {
+          "text": "She is excited because it is faster than a stall charger.",
+          "misconception": "tone_misread",
+          "whyVi": "Không có dấu hiệu hào hứng; \"I guess\" cho thấy cô chỉ tạm chấp nhận."
+        },
+        {
+          "text": "She accepts it as a temporary solution while she waits.",
+          "misconception": null,
+          "whyVi": "Đúng: \"I guess I can live with that for now.\""
+        },
+        {
+          "text": "She asks Mr. Petrov to email her the charger's location.",
+          "misconception": "wrong_detail",
+          "whyVi": "Cô nhờ email khi tên cô được lên thứ tự trong danh sách, không phải địa chỉ trạm sạc."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "Two blocks isn't bad. I guess I can live with that for now.",
+      "explanationVi": "\"I can live with that\" = chấp nhận được dù không lý tưởng; \"for now\" = tạm thời. Đây là thái độ chấp nhận miễn cưỡng, rất hay gặp trong Part 2.",
+      "competency": "speaker_attitude"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "couch-pickup",
+      "prompt": "Why does Joel reject renting a pickup truck?",
+      "options": [
+        {
+          "text": "The basic rental time is too short for the trip, and extra time adds up.",
+          "misconception": null,
+          "whyVi": "Đúng: \"Ninety minutes… We'd never make it. And every extra fifteen minutes is like ten bucks.\""
+        },
+        {
+          "text": "The hardware store has no trucks available until Sunday.",
+          "misconception": "not_mentioned",
+          "whyVi": "Không ai nói cửa hàng hết xe."
+        },
+        {
+          "text": "The couch would not fit in the back of a pickup.",
+          "misconception": "wrong_detail",
+          "whyVi": "Cái không vừa là chiếc Civic của Joel, không phải xe bán tải."
+        },
+        {
+          "text": "It costs eighty dollars, which is more than the couch.",
+          "misconception": "wrong_detail",
+          "whyVi": "Tám mươi đô là giá ứng dụng giao hàng; xe thuê là 29 đô cho 90 phút đầu."
+        }
+      ],
+      "answerIndex": 0,
+      "evidence": "Ninety minutes to drive to Langley and back? We'd never make it.",
+      "explanationVi": "Joel bác bỏ vì thời gian: 90 phút không đủ cho chuyến đi Langley khứ hồi, và mỗi 15 phút thêm tốn khoảng 10 đô. Hai con số 29 và 80 gắn với hai phương án khác nhau — ghi rõ số đi với phương án nào.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "couch-pickup",
+      "prompt": "What does Joel finally decide to do?",
+      "options": [
+        {
+          "text": "Book the delivery app right away to be safe.",
+          "misconception": "suggestion_as_decision",
+          "whyVi": "Ứng dụng chỉ là phương án dự phòng, dùng khi anh trai không giúp được."
+        },
+        {
+          "text": "Not bother his brother, since he is busy coaching hockey.",
+          "misconception": "suggestion_as_decision",
+          "whyVi": "Lúc đầu Joel ngại, nhưng sau đó đổi ý: \"Actually, you know what, my brother owes me one.\""
+        },
+        {
+          "text": "Ask his brother first, and use the app only if his brother can't help on Saturday morning.",
+          "misconception": null,
+          "whyVi": "Đúng: \"I'll text him, and if he can't do it Saturday morning, we'll book the app.\""
+        },
+        {
+          "text": "Ask the seller to deliver the couch next weekend.",
+          "misconception": "not_mentioned",
+          "whyVi": "Không ai đề nghị người bán giao hàng; hạn chót là Chủ nhật."
+        }
+      ],
+      "answerIndex": 2,
+      "evidence": "I'll text him, and if he can't do it Saturday morning, we'll book the app.",
+      "explanationVi": "Quyết định có điều kiện: phương án chính (anh trai) + phương án dự phòng (app) nếu điều kiện không đạt. \"Actually, you know what…\" là tín hiệu Joel đổi ý so với câu \"I'd feel bad\" trước đó.",
+      "competency": "missed_info"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "parkade-charger",
+      "prompt": "What can be inferred about Linh's opinion of Mr. Petrov by the end of the conversation?",
+      "options": [
+        {
+          "text": "She suspects he is hiding an available charging stall.",
+          "misconception": "tone_misread",
+          "whyVi": "Không có dấu hiệu nghi ngờ; cô cảm ơn ông vì đã thẳng thắn."
+        },
+        {
+          "text": "She thinks he has promised her a charger next year.",
+          "misconception": "wrong_detail",
+          "whyVi": "Ông nói rõ \"No promises, but it's on the agenda\" — chỉ là có thể."
+        },
+        {
+          "text": "She is annoyed that he will not approve the wall outlet.",
+          "misconception": "tone_misread",
+          "whyVi": "Cô đã đồng ý \"Right, that makes sense\" khi nghe lý do."
+        },
+        {
+          "text": "She appreciates that he was honest, even without good news.",
+          "misconception": null,
+          "whyVi": "Đúng: \"Thanks for being straight with me\" sau khi ông nói \"No promises\"."
+        }
+      ],
+      "answerIndex": 3,
+      "evidence": "That'd be great. Thanks for being straight with me.",
+      "explanationVi": "\"Be straight with someone\" = nói thật, thẳng thắn. Linh không nhận được tin tốt (chờ lâu, không được dùng ổ điện, không có hứa hẹn), nhưng câu cảm ơn cuối cho thấy cô đánh giá cao sự trung thực của ông. Đáp án \"promised a charger\" sai vì bỏ qua \"No promises\".",
+      "competency": "speaker_attitude"
+    }
+  ],
+  "misconceptions": {
+    "suggestion_as_decision": {
+      "label": "Nhầm đề xuất hoặc ý cũ với quyết định cuối",
+      "explanationVi": "Bạn chọn một phương án đã được NHẮC ĐẾN nhưng sau đó bị bác bỏ, bị người nói tự sửa (Actually…, you know what…, no, sorry…), hoặc chỉ là phương án dự phòng. Đây là lỗ hổng theo dõi diễn biến: bạn nhớ nội dung nhưng không nhớ trạng thái (✓ / ✗ / ?) của từng phương án, và ngừng xử lý sau ý đầu tiên.",
+      "fixVi": "Ghi chú cột O với dấu ✓/✗/? và tên người đề xuất. Khi nghe Actually / no wait / you know what, gạch ý cũ và ghi ý mới. Với câu hỏi decide/plan/finally, chỉ tìm câu có tín hiệu chốt (Let's do that, I'll…, Deal) và nghe đến hết đoạn."
+    },
+    "wrong_detail": {
+      "label": "Gán chi tiết cho sai đối tượng",
+      "explanationVi": "Thông tin trong đáp án có thật trong bài nghe nhưng gắn với một phương án, con số hoặc sự việc khác (ví dụ: 75 đô là phí, 100 đô là tiền cọc; 80 đô là app, 29 đô là xe thuê). Bạn nghe được chi tiết nhưng không gắn nó với đúng \"chủ nhân\".",
+      "fixVi": "Luôn ghi số kèm danh từ (`$29 truck`, `$80 app`). Trước khi chọn, tự hỏi: chi tiết này thuộc về cái gì, ai nói, và có trả lời đúng câu hỏi không?"
+    },
+    "word_match": {
+      "label": "Chọn vì trùng từ",
+      "explanationVi": "Bạn chọn đáp án vì nó chứa một từ bạn vừa nghe (booked, cleaning, number four), trong khi ý nghĩa của đáp án khác với điều người nói muốn diễn đạt. CELPIP cố tình đặt từ trong bài vào đáp án sai.",
+      "fixVi": "Coi từ trùng là tín hiệu cảnh báo, không phải bằng chứng. Đáp án đúng thường là paraphrase; hãy so ý, không so chữ."
+    },
+    "tone_misread": {
+      "label": "Đọc sai thái độ hoặc hướng đánh giá",
+      "explanationVi": "Bạn chọn thái độ quá mạnh (angry, excited, suspicious) hoặc trái hướng với lời người nói (\"too far\" khi họ nói \"isn't bad\"). Nguyên nhân thường là đoán theo tình huống (\"bị từ chối thì chắc tức giận\") thay vì theo câu chữ thật.",
+      "fixVi": "Nhớ lại đúng câu người đó nói, để ý từ giảm nhẹ (kind of, I guess, a bit), từ phủ định và đánh giá ngắn (isn't bad, makes sense). Chọn đáp án cùng hướng và cùng mức độ."
+    },
+    "not_mentioned": {
+      "label": "Chọn thông tin không có trong bài",
+      "explanationVi": "Đáp án nghe hợp lý với tình huống (trẻ con có lịch bận, cửa hàng hết xe) nhưng không ai nói ra. Bạn đang dùng hiểu biết chung để lấp chỗ trống thay vì dựa vào bài nghe.",
+      "fixVi": "Mỗi đáp án phải chỉ ra được một câu cụ thể trong bài. Nếu không nhớ được câu nào, loại nó trước."
+    }
+  },
+  "mastery": {
+    "advance": 0.8,
+    "review": 0.6
+  },
+  "vocabulary": [
+    {
+      "term": "What if we…?",
+      "vi": "Hay là mình… nhé? (mẫu đưa ra đề xuất)",
+      "example": "What if we take the SkyTrain instead of driving downtown?"
+    },
+    {
+      "term": "That's tight, but it might work",
+      "vi": "Hơi sát/chật, nhưng có thể được",
+      "example": "Twenty minutes to get from Metrotown to the airport? That's tight, but it might work."
+    },
+    {
+      "term": "I'd rather X than Y",
+      "vi": "Tôi thà X còn hơn Y",
+      "example": "I'd rather pay for parking than circle the block for half an hour."
+    },
+    {
+      "term": "on top of",
+      "vi": "cộng thêm vào, ngoài ra còn",
+      "example": "There's a fifty-dollar cleaning fee on top of the rent."
+    },
+    {
+      "term": "I'd love to say yes, but…",
+      "vi": "Tôi rất muốn đồng ý, nhưng… (từ chối lịch sự)",
+      "example": "I'd love to say yes, but the community garden plots are all taken this year."
+    },
+    {
+      "term": "I can live with that",
+      "vi": "Tôi chấp nhận được (dù không lý tưởng)",
+      "example": "The appointment's at seven a.m.? Okay, I can live with that."
+    },
+    {
+      "term": "owe someone one",
+      "vi": "nợ ai một lần giúp đỡ",
+      "example": "Thanks for shovelling my driveway. I owe you one."
+    },
+    {
+      "term": "No promises, but…",
+      "vi": "Không hứa chắc được, nhưng…",
+      "example": "No promises, but I'll ask if they can squeeze you in this afternoon."
+    },
+    {
+      "term": "be straight with someone",
+      "vi": "nói thật, thẳng thắn với ai",
+      "example": "Just be straight with me: is the repair going to cost more than the car is worth?"
+    }
+  ],
+  "grammar": [
+    {
+      "point": "Conditional decisions: if + present, will/'ll",
+      "explanationVi": "Quyết định trong Part 1 thường có điều kiện. Phần sau \"if\" là điều kiện, phần còn lại là hành động sẽ làm nếu điều kiện xảy ra. Câu hỏi \"What will they do?\" thường kiểm tra bạn có hiểu đây là phương án dự phòng hay không.",
+      "examples": [
+        "If the shop is closed, we'll try the one in Burnaby.",
+        "If the price goes up again, we might just take the bus."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "label": "Luyện Part 1 – Problem Solving",
+      "route": "/listening?task=L1"
+    },
+    {
+      "label": "Luyện Part 2 – Daily Life Conversation",
+      "route": "/listening?task=L2"
+    },
+    {
+      "label": "Drill thái độ người nói",
+      "route": "/listening?mode=drill&focus=speaker_attitude"
+    }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Re-solved all 4 guided + 8 independent items against the l1-full-01 ch2 / l2-full-01 ch0 transcripts and the 5 lesson clips; keys, evidence and distractors hold. Fixed: guided g2 hint no longer gives away the two-part answer; added the \"100$\" variant to i1; softened an overpromise in whyItMattersVi and the \"context line\" wording (the real test uses instructions/pictures); retitled the couch clip so it does not read as section 3 of the party story."}
+}

@@ -1,0 +1,372 @@
+{
+  "id": "sp-12",
+  "skill": "speaking",
+  "module": "speaking-level8",
+  "level": "target8",
+  "difficulty": 8,
+  "title": "Task 7: Opinions with reasons",
+  "titleVi": "Task 7: Nêu quan điểm có lập luận",
+  "estimatedMinutes": 35,
+  "prerequisites": ["sp-03", "sp-05"],
+  "competencies": ["coherence", "task_fulfillment"],
+  "tasks": ["S7"],
+  "objectives": [
+    "You will be able to state a clear position in your first sentence and keep it to the end.",
+    "You will be able to develop each reason with an explanation and a specific example (Reason → Explanation → Example).",
+    "You will be able to add a short concession and rebut it without changing sides.",
+    "You will be able to fill 90 seconds with two well-developed reasons instead of a list of short ones."
+  ],
+  "objectiveVi": "Sau bài này, bạn nêu quan điểm rõ ràng ngay câu đầu, phát triển mỗi lý do theo chuỗi Lý do → Giải thích → Ví dụ, thừa nhận ý kiến trái chiều rồi phản bác, và dùng trọn 90 giây một cách có tổ chức.",
+  "whyItMattersVi": "Task 7 có thời gian nói dài nhất (90 giây), nên đây là nơi lộ rõ nhất sự khác biệt giữa \"liệt kê ý\" (Level 6) và \"phát triển lập luận\" (Level 8). Với Speaking 6, bạn thường có ý nhưng nói 3–4 lý do ngắn rồi hết ý ở giây 50, hoặc lặp lại cùng một ý. Học cách phát triển sâu hai lý do và thêm một nhượng bộ – phản bác sẽ giúp bạn nói đủ thời gian, mạch lạc và thuyết phục — đúng những gì người chấm tìm ở Level 8.",
+  "concept": [
+    {
+      "heading": "Task 7 kiểm tra điều gì",
+      "body": "Trong **Task 7 (Expressing Opinions)** bạn đọc một câu hỏi về vấn đề xã hội, có **30 giây chuẩn bị** và **90 giây nói**. Không có đáp án đúng; người chấm nghe xem bạn có (1) **trả lời đúng câu hỏi** bằng một quan điểm rõ ràng, (2) đưa ra **lý do có phát triển**, (3) **tổ chức mạch lạc** với từ nối, và (4) **giữ nhất quán** từ đầu đến cuối.\n\n90 giây tương đương khoảng **180–210 từ** ở tốc độ nói tự nhiên. Nếu bạn chỉ có ba câu ngắn cho mỗi lý do, bạn sẽ hết ý trước giây 60. Giải pháp không phải là thêm lý do, mà là **đào sâu** từng lý do."
+    },
+    {
+      "heading": "Câu đầu tiên = quan điểm của bạn",
+      "body": "Trả lời thẳng câu hỏi trong câu đầu. Có thể thêm một điều kiện để nghe chín chắn:\n- *\"Yes, I strongly believe restaurants should get rid of tipping.\"*\n- *\"I'd say no, at least not right now.\"*\n- *\"I agree, as long as the change is introduced gradually.\"*\n\nTránh mở đầu bằng *\"It depends\"* rồi không bao giờ chọn bên, hoặc đọc lại cả đề bài. Và **không đổi phe giữa chừng**: nếu bạn nói \"I agree\" ở đầu, câu kết cũng phải \"I agree\". Mẹo khi chuẩn bị: chọn bên mà bạn nghĩ ra **ví dụ thật** nhanh nhất, không nhất thiết là bên bạn thật sự ủng hộ."
+    },
+    {
+      "heading": "Chuỗi R → E → E: Reason, Explanation, Example",
+      "body": "Mỗi lý do gồm ba lớp:\n1. **Reason** (lý do, một câu ngắn): *\"My main reason is fairness.\"*\n2. **Explanation** (giải thích vì sao/như thế nào): *\"Right now, a server's income depends on luck: a busy Friday night or a generous table. That means two people doing the same job can earn very different amounts.\"*\n3. **Example** (ví dụ cụ thể, tốt nhất là ở BC hoặc trải nghiệm của bạn): *\"My cousin works at a café in Kitsilano, and her tips drop by half in the rainy months.\"*\n\nCó thể thêm một câu **link back** nối về quan điểm: *\"So a proper wage would be much fairer.\"* Từ nối giúp người nghe theo dõi: *My main reason is…, What I mean by that is…, Take … for example, On top of that…, Which means…*."
+    },
+    {
+      "heading": "Nhượng bộ và phản bác (concession & rebuttal)",
+      "body": "Level 8 cho thấy bạn hiểu phía bên kia, nhưng vẫn giữ quan điểm. Công thức hai câu:\n- **Concession:** *\"Of course, some people worry that menu prices would go up.\"* / *\"Admittedly, …\"* / *\"I can see why some people think…\"*\n- **Rebuttal:** *\"But in reality, we'd be paying the same amount; it would just be included in the price.\"* / *\"Even so, …\"* / *\"That said, …\"*\n\nĐặt phần này **sau** hai lý do, dài khoảng 15 giây. Bẫy lớn nhất: nêu ý kiến trái chiều rồi **không phản bác**, nghe như bạn đã đổi ý."
+    },
+    {
+      "heading": "Phân bổ 90 giây",
+      "body": "- **0–10 s:** quan điểm + (tuỳ chọn) điều kiện.\n- **10–40 s:** lý do 1 với R → E → E.\n- **40–70 s:** lý do 2 với R → E → E.\n- **70–85 s:** concession + rebuttal.\n- **85–90 s:** kết luận nhắc lại quan điểm bằng từ khác: *\"So overall, …\"*, *\"That's why I'm convinced that…\"*.\n\nTrong 30 giây chuẩn bị, chỉ ghi: quan điểm, 2 từ khóa lý do, 2 từ khóa ví dụ, 1 từ khóa phản biện. Không viết câu hoàn chỉnh."
+    }
+  ],
+  "stimuli": {
+    "s7-tipping": {
+      "title": "Task 7 prompt: Tipping in restaurants",
+      "text": "Some people think restaurants in Canada should stop expecting customers to tip. Instead, menu prices would be higher, and servers would be paid a fair wage by the restaurant.\n\nDo you agree or disagree with this idea? Explain your reasons."
+    },
+    "s7-free-transit": {
+      "title": "Task 7 prompt: Free public transit",
+      "text": "Some people believe that buses and SkyTrain in Metro Vancouver should be free for everyone, with the cost covered by higher local taxes.\n\nDo you agree or disagree? Explain your reasons."
+    },
+    "s7-car-free": {
+      "title": "Task 7 prompt: Car-free downtown weekends",
+      "text": "Some cities are considering closing their main downtown streets to cars every Saturday and Sunday during the summer, so that people can walk, cycle and visit shops and restaurants.\n\nShould your city do this? Explain your reasons."
+    },
+    "s7-volunteer-hours": {
+      "title": "Task 7 prompt: Volunteer hours for graduation",
+      "text": "Some people think high school students should have to complete 40 hours of volunteer work in their community before they can graduate.\n\nDo you agree or disagree? Explain your reasons."
+    },
+    "s7-four-day": {
+      "title": "Task 7 prompt: A four-day work week",
+      "text": "Some people think employers should move to a four-day work week, with the same pay as a five-day week, as long as the work still gets done.\n\nDo you agree or disagree with this idea? Explain your reasons."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Same prompt, three levels: tipping",
+      "stimulusId": "s7-tipping",
+      "question": "Compare three 90-second answers to the tipping question.",
+      "steps": [
+        "Prep (30 s): choose the side with real examples. Notes: 'AGREE — 1) fair: income = luck, cousin Kits café rainy months; 2) simpler for customers: tip screen 18-20-25%, newcomers; counter: prices up → same total, just honest'.",
+        "Open with the position in one sentence: 'Yes, I'd fully support getting rid of tipping.'",
+        "Develop reason 1 with R → E → E, then reason 2 with R → E → E. Each reason gets about 30 seconds.",
+        "Add a two-sentence concession and rebuttal, then close by restating the position in different words."
+      ],
+      "answer": "The Level 8 answer develops two reasons deeply, uses specific BC examples, includes a concession with a rebuttal and keeps the same position from start to finish.",
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "I agree. Because tipping is not good. Tipping is very expensive for customer. In Vietnam we don't have tipping, so I don't like. Also it is not fair for server. Some server get many tip, some server get a little. And restaurant owner should pay. So I agree no tipping. Yes. That's all.",
+          "commentVi": "Có quan điểm nhưng các lý do chỉ được liệt kê, không giải thích hay có ví dụ cụ thể ở Canada. \"In Vietnam we don't have tipping\" không phải lý do cho Canada. Lỗi ngữ pháp: \"Because…\" đứng một mình như câu hoàn chỉnh, thiếu số nhiều (\"customer\", \"server\", \"tip\"), thiếu tân ngữ (\"I don't like\"). Chỉ khoảng 25 giây — bỏ phí hơn một phút."
+        },
+        {
+          "label": "acceptable",
+          "text": "I agree that restaurants should stop tipping. First, it is fairer for servers. Some servers get a lot of tips and some servers get less, even though they work the same. Second, it is easier for customers. When you pay, the machine asks you 18, 20 or 25 percent, and many people feel stressed. Third, the restaurant owner should be responsible for paying the workers, not the customers. Some people say prices will be higher, and this is true. But I still think it's a good idea. So in conclusion, I agree with no tipping.",
+          "commentVi": "Cấu trúc rõ, có First/Second/Third và kết luận. Nhưng ba lý do đều mỏng, chỉ một câu giải thích, không có ví dụ cá nhân. Phần nhượng bộ \"this is true. But I still think…\" không thực sự phản bác nên nghe như đồng ý với phía kia. Từ vựng an toàn, lặp \"some servers\". Khoảng 95 từ, tức chưa đến 50 giây — hụt gần một nửa thời gian."
+        },
+        {
+          "label": "level8",
+          "text": "Yes, I'd fully support getting rid of tipping, as long as servers really do get a fair wage. My main reason is fairness. Right now, a server's income depends partly on luck: whether it's a busy night, or whether they get a generous table. Take my cousin, for example. She works at a café in Kitsilano, and in the rainy months her tips drop by almost half, even though she's working the same hours. A proper wage would give her a stable income she can actually plan around. On top of that, it would make things simpler for customers. These days, the card machine asks you to choose 18, 20 or 25 percent, sometimes even at a takeout counter, and a lot of people, especially newcomers, feel awkward and unsure what's expected. If the price on the menu were the real price, there'd be no guessing. Of course, some people worry that menus would become more expensive. But in reality, we'd be paying roughly the same total; it would just be included up front, and honestly. So overall, I think a no-tipping system would be fairer for workers and less stressful for everyone else.",
+          "commentVi": "Câu đầu nêu quan điểm kèm điều kiện. Hai lý do được phát triển đầy đủ theo R → E → E với ví dụ cụ thể ở BC (café Kitsilano, máy quẹt thẻ 18–20–25%). Từ nối tự nhiên của văn nói: \"My main reason is\", \"Take… for example\", \"On top of that\". Có câu điều kiện loại 2 (\"If the price… were…, there'd be…\"). Nhượng bộ được phản bác rõ ràng. Kết luận nhắc lại quan điểm bằng từ khác. Khoảng 200 từ — vừa 90 giây."
+        }
+      ],
+      "takeawayVi": "Ít lý do nhưng phát triển sâu luôn mạnh hơn nhiều lý do mỏng. Nhượng bộ chỉ có giá trị khi đi kèm phản bác."
+    },
+    {
+      "id": "ex2",
+      "title": "Building one reason with R → E → E",
+      "stimulusId": "s7-free-transit",
+      "question": "You disagree with free transit. Build ONE fully developed reason.",
+      "steps": [
+        "Reason (short): 'My main concern is that free transit wouldn't fix the real problem, which is service.'",
+        "Explanation (why/how): 'What I mean by that is, most people don't avoid the bus because of the fare. They avoid it because it's crowded or doesn't come often enough.'",
+        "Example (specific, local): 'Take the 99 B-Line to UBC. At rush hour, buses are already so full that they sometimes pass people waiting at the stop.'",
+        "Link back to the position: 'So if we made it free, it would get even more crowded. I'd rather see that tax money spent on more buses.'"
+      ],
+      "answer": "One reason, four sentences, about 30 seconds: a short reason, an explanation with 'What I mean by that is', a specific local example and a link back to the position.",
+      "takeawayVi": "Một lý do phát triển đầy đủ chiếm khoảng 30 giây. Hai lý do như vậy cộng nhượng bộ và kết luận là vừa 90 giây."
+    },
+    {
+      "id": "ex3",
+      "title": "Concession that keeps your side",
+      "stimulusId": "s7-car-free",
+      "question": "You support car-free weekends. Add a concession and a rebuttal.",
+      "steps": [
+        "Name the strongest objection fairly: 'Admittedly, some shop owners worry that they'd lose customers who drive in.'",
+        "Rebut with a reason or evidence, not just 'but I disagree': 'But people on foot tend to stay longer and stop at more places, so a busy pedestrian street could actually bring in more business.'",
+        "Optionally reduce the objection with a practical idea: 'And the city could keep nearby parkades open, so drivers can still come.'",
+        "Check: the concession is two or three sentences, and your position has not changed."
+      ],
+      "answer": "Admittedly + objection → But + reason → practical fix. Your position stays the same.",
+      "takeawayVi": "Phản bác phải có lý do (\"people on foot tend to stay longer…\"), không chỉ nói \"but I still think…\"."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "s7-tipping",
+      "prompt": "Which is the best FIRST sentence for this Task 7 answer?",
+      "hint": "The first sentence should answer the question directly, so the listener knows your side within five seconds.",
+      "options": [
+        { "text": "Tipping is a very interesting topic, and there are many different opinions about it.", "misconception": "unclear_position", "whyVi": "Câu mở đầu chung chung, không trả lời câu hỏi. Người nghe vẫn chưa biết bạn đồng ý hay không." },
+        { "text": "Yes, I agree that restaurants should stop expecting tips, as long as servers are paid fairly.", "misconception": null, "whyVi": "Trả lời thẳng (Yes, I agree) kèm điều kiện ngắn — rõ ràng và chín chắn." },
+        { "text": "Some people think restaurants in Canada should stop expecting customers to tip.", "misconception": "unclear_position", "whyVi": "Chỉ đọc lại đề bài, chưa nêu quan điểm của bạn." },
+        { "text": "It depends on the restaurant and the customer and the situation.", "misconception": "unclear_position", "whyVi": "\"It depends\" mà không chọn bên khiến cả câu trả lời thiếu trọng tâm." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Quan điểm phải nằm trong câu đầu tiên. Thêm một điều kiện ngắn (as long as…) cho thấy suy nghĩ chín chắn mà không làm mờ quan điểm.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g2",
+      "type": "order",
+      "stimulusId": "s7-free-transit",
+      "prompt": "Put this developed reason (agreeing with free transit) in R → E → E → link order.",
+      "hint": "Start with the short reason, then explain how it works, then give a real example, then connect back to the position.",
+      "items": [
+        "My main reason is that it would take a lot of cars off the road.",
+        "What I mean by that is, if the bus cost nothing, many people who drive short trips would simply leave the car at home.",
+        "Take my neighbour, for example. She drives to Metrotown every day just because a return fare feels expensive for a ten-minute ride.",
+        "So free transit would mean less traffic and cleaner air for everyone."
+      ],
+      "misconception": "listing_not_developing",
+      "explanationVi": "Reason (ngắn) → Explanation (What I mean by that is…) → Example (Take… for example) → Link back (So…). Thứ tự này giúp người nghe hiểu ý trước rồi mới nghe ví dụ.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g3",
+      "type": "choice",
+      "stimulusId": "s7-car-free",
+      "prompt": "You SUPPORT car-free weekends. Which concession + rebuttal works best?",
+      "hint": "A complete concession names the other side's point and then answers it with a reason, while your position stays the same.",
+      "options": [
+        { "text": "Some people say it's bad for drivers. That's true, so maybe it's not a good idea.", "misconception": "inconsistent_position", "whyVi": "Nêu ý kiến trái chiều rồi đồng ý với nó — bạn vừa đổi phe ngay trong câu trả lời." },
+        { "text": "Some people may disagree, but I don't care.", "misconception": "unanswered_counter", "whyVi": "Không nêu rõ ý kiến trái chiều là gì và không có lý do phản bác; giọng thiếu tôn trọng." },
+        { "text": "Admittedly, drivers would need to find other routes. But it's only two days a week in summer, and the parkades nearby would stay open.", "misconception": null, "whyVi": "Thừa nhận khó khăn cụ thể, rồi phản bác bằng hai lý do (chỉ hai ngày, bãi đỗ vẫn mở). Quan điểm không đổi." },
+        { "text": "Drivers would be unhappy. Also shops might lose money. Also buses must change routes.", "misconception": "unanswered_counter", "whyVi": "Liệt kê ba ý kiến trái chiều mà không phản bác ý nào — nghe như lập luận cho phía bên kia." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Concession + rebuttal = \"Admittedly/Of course + ý trái chiều\" + \"But + lý do\". Nếu thiếu vế phản bác, người nghe sẽ nghĩ bạn đã đổi ý.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g4",
+      "type": "text",
+      "prompt": "Fill in ONE connector: \"___ some people worry about higher taxes, I think the benefits for commuters would be worth it.\"",
+      "hint": "You need a word that introduces a concession clause at the start of a sentence, followed by a full clause (subject + verb).",
+      "answers": ["while", "although", "though", "even though", "whilst"],
+      "mode": "exact",
+      "misconception": "unanswered_counter",
+      "explanationVi": "\"While/Although/Even though + mệnh đề\" giúp gói cả nhượng bộ và phản bác vào một câu. Lưu ý không dùng \"Despite\" ở đây vì sau \"despite\" phải là danh từ hoặc V-ing (Despite the higher taxes…).",
+      "competency": "coherence"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "s7-car-free",
+      "prompt": "Which opening states a position most clearly AND sounds natural in speech?",
+      "options": [
+        { "text": "Definitely yes. I think my city should close the main downtown streets on summer weekends, at least as a trial.", "misconception": null, "whyVi": "Trả lời thẳng, cụ thể và có điều kiện hợp lý (as a trial). Giọng văn nói tự nhiên." },
+        { "text": "Well, there are good points and bad points, so I will talk about both.", "misconception": "unclear_position", "whyVi": "Không chọn bên. Task 7 hỏi ý kiến của bạn, không phải bài phân tích hai mặt." },
+        { "text": "Cars are a big problem in many cities around the world nowadays.", "misconception": "unclear_position", "whyVi": "Câu dẫn chung chung, không trả lời câu hỏi \"Should your city do this?\"." },
+        { "text": "Yes and no. Yes for Saturday, but maybe no, or maybe yes for Sunday.", "misconception": "inconsistent_position", "whyVi": "Quan điểm dao động ngay trong câu đầu, khiến người nghe không biết bạn đứng ở đâu." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Câu mở đầu tốt nhất trả lời trực tiếp câu hỏi của đề, có thể kèm điều kiện, và không vòng vo.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "s7-volunteer-hours",
+      "prompt": "You AGREE with required volunteer hours. Your reason: 'It helps students discover possible careers.' Which follow-up develops this reason best?",
+      "options": [
+        { "text": "Also, volunteering is good for the community.", "misconception": "listing_not_developing", "whyVi": "Chuyển sang lý do mới thay vì giải thích lý do vừa nêu." },
+        { "text": "Careers are very important for students, and students need careers.", "misconception": "listing_not_developing", "whyVi": "Lặp lại lý do bằng từ khác, không thêm thông tin hay ví dụ." },
+        { "text": "For example, when I was in high school, I volunteered at a seniors' home in Coquitlam, and that's honestly when I realized I wanted to work in healthcare. Without that requirement, I probably would never have tried it.", "misconception": null, "whyVi": "Ví dụ cá nhân cụ thể (nơi chốn, kết quả) và một câu nối về lý do (\"Without that requirement…\")." },
+        { "text": "But some students are too busy with homework and part-time jobs.", "misconception": "inconsistent_position", "whyVi": "Đây là ý của phía phản đối, đặt ngay sau lý do của bạn mà không phản bác — làm yếu chính lập luận của bạn." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Sau Reason phải là Explanation/Example cho chính lý do đó. Ví dụ cá nhân có chi tiết cụ thể là cách phát triển hiệu quả nhất trong 90 giây.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i3",
+      "type": "text",
+      "prompt": "Fill in a connector (1–3 words) to start the rebuttal: \"Admittedly, closing the streets would cost the city some money. ___, the boost to local restaurants would more than make up for it.\"",
+      "answers": ["however", "but", "that said", "even so", "still", "having said that", "having said this", "that being said", "nevertheless", "nonetheless", "on the other hand", "then again", "yet", "but still", "all the same"],
+      "mode": "exact",
+      "misconception": "unanswered_counter",
+      "explanationVi": "Sau \"Admittedly, …\" cần một từ báo hiệu phản bác: However, That said, Even so, Still… Trong văn nói, \"That said\" và \"Even so\" nghe rất tự nhiên ở Level 8.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i4",
+      "type": "order",
+      "stimulusId": "s7-volunteer-hours",
+      "prompt": "Put these parts of a 90-second answer (DISAGREEING) in the most effective order.",
+      "items": [
+        "Personally, I don't think volunteer hours should be a graduation requirement.",
+        "My main reason is that forced volunteering misses the point. When students are just counting hours, they pick the easiest option and don't really care about the cause.",
+        "On top of that, it's unfair to students who already work part-time to help their families. My friend's son works twenty hours a week at a grocery store in Surrey, so finding extra free time would be really tough for him.",
+        "Of course, volunteering can teach young people a lot.",
+        "But I think schools could get the same benefit by offering it as an option, with credit or recognition, instead of a requirement.",
+        "So overall, I'd encourage volunteering, but I wouldn't force it."
+      ],
+      "misconception": "listing_not_developing",
+      "explanationVi": "Quan điểm → lý do 1 → lý do 2 (có ví dụ) → nhượng bộ → phản bác → kết luận. Nhượng bộ đứng sau hai lý do để không làm yếu phần mở đầu, và phải được phản bác ngay.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "s7-free-transit",
+      "prompt": "A test-taker starts with 'I agree that transit should be free' and ends with: 'So, because taxes would go up, I think it's better to keep the fares.' What is the main problem?",
+      "options": [
+        { "text": "The conclusion is too short.", "misconception": "listing_not_developing", "whyVi": "Độ dài không phải vấn đề chính; câu kết có thể ngắn." },
+        { "text": "The speaker changed sides, so the answer is no longer consistent.", "misconception": null, "whyVi": "Mở đầu đồng ý, kết thúc phản đối. Đây là lỗi mạch lạc nghiêm trọng ở Task 7." },
+        { "text": "The speaker used the word 'because' in the conclusion.", "misconception": "listing_not_developing", "whyVi": "Dùng \"because\" trong câu kết hoàn toàn được phép." },
+        { "text": "The speaker should not mention taxes at all.", "misconception": "unanswered_counter", "whyVi": "Nhắc đến thuế là hợp lý; vấn đề là người nói đã để ý trái chiều thắng thay vì phản bác nó." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Thường xảy ra khi người nói nêu ý kiến trái chiều mà không phản bác, rồi bị chính ý đó kéo sang phía bên kia. Quy tắc: câu kết luận phải nhắc lại đúng quan điểm ở câu đầu.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "s7-tipping",
+      "prompt": "You DISAGREE with ending tipping. Which sentence develops a reason at Level 8 (explanation + consequence), rather than just stating it?",
+      "options": [
+        { "text": "Tipping is good because servers like it.", "misconception": "listing_not_developing", "whyVi": "Chỉ nêu lý do, không giải thích vì sao hay điều gì xảy ra." },
+        { "text": "Tipping gives servers a reason to go the extra mile, which means customers usually get friendlier, faster service. If that reward disappeared, I suspect a lot of restaurants would feel much more rushed and impersonal.", "misconception": null, "whyVi": "Có cơ chế (reason to go the extra mile), hệ quả (which means…), và câu điều kiện loại 2 dự đoán kết quả. Từ vựng chính xác: go the extra mile, impersonal." },
+        { "text": "Tipping is good. Tipping is normal. Everybody tips in Canada.", "misconception": "listing_not_developing", "whyVi": "Ba câu ngắn lặp ý, không phát triển." },
+        { "text": "On the other hand, menu prices would also go up.", "misconception": "unanswered_counter", "whyVi": "Mở đầu bằng \"On the other hand\" khi chưa có ý nào trước đó để đối lập; ý về giá cũng chưa được giải thích hay phát triển." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Phát triển = giải thích cơ chế + hệ quả. Các cụm \"which means…\", \"If… disappeared, … would…\" giúp biến một ý ngắn thành 15–20 giây nội dung có chất lượng.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "s7-car-free",
+      "prompt": "Which CONCLUSION is best for an answer that supports car-free weekends?",
+      "options": [
+        { "text": "That's all I want to say. Thank you for listening.", "misconception": "unclear_position", "whyVi": "Không nhắc lại quan điểm; câu kết kiểu bài thuyết trình, lãng phí thời gian." },
+        { "text": "So all in all, I think car-free weekends would make downtown livelier and better for local businesses, and it's definitely worth trying for one summer.", "misconception": null, "whyVi": "Nhắc lại quan điểm bằng từ mới, tóm hai lý do và kết thúc với một đề xuất cụ thể." },
+        { "text": "In conclusion, some people like it and some people don't like it.", "misconception": "inconsistent_position", "whyVi": "Câu kết trung lập, xóa bỏ quan điểm đã nêu." },
+        { "text": "So I agree, I agree, yes, closing streets, yes.", "misconception": "listing_not_developing", "whyVi": "Lặp từ, không tóm tắt lý do; nghe như đang lấp chỗ trống." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Câu kết Level 8: từ báo hiệu (So all in all / Overall) + quan điểm diễn đạt lại + (tuỳ chọn) tóm tắt lý do hoặc đề xuất.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "stimulusId": "s7-four-day",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 90,
+      "prompt": "Respond to the Task 7 prompt. Give your opinion and explain your reasons for 90 seconds.",
+      "checklist": [
+        "States a clear position (agree or disagree) in the first sentence.",
+        "Develops two reasons, each with an explanation AND a specific example.",
+        "Uses at least three signposting connectors (e.g. My main reason is, Take… for example, On top of that, So overall).",
+        "Includes a concession followed by a rebuttal, without changing sides.",
+        "Ends with a conclusion that restates the same position in different words.",
+        "Keeps speaking for at least 80 of the 90 seconds."
+      ],
+      "modelAnswer": "I agree with this idea, as long as companies set clear goals so the work really does get done. My main reason is that people would come to work more focused. What I mean by that is, with a three-day weekend, you actually have time to rest, run errands and see your family, so you're not exhausted on Monday. Take my friend who works at an engineering firm in Burnaby, for example. Her company tried four longer days last year, and she said meetings got shorter because everyone knew they had less time. On top of that, a four-day week would help with the cost of living here. If people commuted one day less, they'd save on gas or transit, and parents could cut a day of daycare, which is a big deal in the Lower Mainland. Of course, I understand that it wouldn't work for every job. Hospitals and grocery stores need staff every day. But those employers could still use rotating schedules, so each person works four days while the business stays open. So overall, I'm convinced a four-day week would make employees healthier and more productive, and I'd love to see more BC companies give it a try.",
+      "explanationVi": "So sánh với checklist. Quan trọng nhất: mỗi lý do có ví dụ cụ thể chưa, và phần nhượng bộ có được phản bác bằng lý do không.",
+      "misconception": "listing_not_developing",
+      "competency": "coherence"
+    }
+  ],
+  "misconceptions": {
+    "unclear_position": {
+      "label": "Quan điểm không rõ",
+      "explanationVi": "Bạn mở đầu bằng câu chung chung, đọc lại đề hoặc nói \"it depends\" mà không chọn bên. Người nghe phải đoán bạn đứng ở đâu, nên mọi lý do phía sau đều yếu đi. Đây là lỗi Task Fulfillment: đề hỏi ý kiến của bạn.",
+      "fixVi": "Câu đầu tiên luôn bắt đầu bằng Yes/No/I agree/I disagree. Nếu cần, thêm một điều kiện ngắn: as long as…, at least…"
+    },
+    "listing_not_developing": {
+      "label": "Liệt kê thay vì phát triển",
+      "explanationVi": "Bạn đưa ra nhiều lý do, mỗi lý do một câu, hoặc lặp lại cùng ý bằng từ khác. Kết quả: hết ý trước 60 giây và lập luận thiếu sức thuyết phục. Gốc rễ là chưa có thói quen hỏi \"tại sao/như thế nào/ví dụ nào?\" sau mỗi lý do.",
+      "fixVi": "Chỉ chọn 2 lý do. Với mỗi lý do: Reason → What I mean by that is… → Take… for example → So… Mỗi chuỗi khoảng 30 giây."
+    },
+    "unanswered_counter": {
+      "label": "Nhượng bộ không phản bác",
+      "explanationVi": "Bạn nhắc đến ý kiến của phía bên kia nhưng không trả lời nó, hoặc chỉ nói \"but I still think…\" mà không có lý do. Người nghe có cảm giác phía bên kia đã thắng.",
+      "fixVi": "Dùng công thức hai câu: Admittedly/Of course + ý trái chiều → But/That said + lý do cụ thể. Đặt sau hai lý do chính."
+    },
+    "inconsistent_position": {
+      "label": "Đổi phe giữa chừng",
+      "explanationVi": "Quan điểm ở câu kết khác câu mở đầu, hoặc bạn dao động \"yes and no\". Điều này phá vỡ tính mạch lạc của cả bài, thường xảy ra khi bạn nghĩ ra ý cho phía kia trong lúc nói và bị nó cuốn đi.",
+      "fixVi": "Trước khi kết luận, nhắc lại đúng từ khóa quan điểm trong ghi chú. Nếu nghĩ ra ý cho phía kia, biến nó thành phần nhượng bộ rồi phản bác."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "My main reason is that…", "vi": "Lý do chính của tôi là…", "example": "My main reason is that the bike lanes would make Commercial Drive much safer." },
+    { "term": "What I mean by that is…", "vi": "Ý tôi là… (mở phần giải thích)", "example": "Transit isn't reliable enough. What I mean by that is, the bus I take is late almost every morning." },
+    { "term": "Take… for example.", "vi": "Lấy… làm ví dụ.", "example": "Take the farmers' market in Trout Lake, for example. It's packed every Saturday." },
+    { "term": "On top of that, …", "vi": "Thêm vào đó… (văn nói tự nhiên, thay cho Moreover)", "example": "Rent is high. On top of that, groceries have gone up a lot this year." },
+    { "term": "which means…", "vi": "điều đó có nghĩa là… (nêu hệ quả)", "example": "The library closes at six, which means people who work full-time can't use it." },
+    { "term": "Admittedly, …", "vi": "Phải thừa nhận rằng…", "example": "Admittedly, a new pool would be expensive to build." },
+    { "term": "I can see why some people…, but…", "vi": "Tôi hiểu vì sao một số người…, nhưng…", "example": "I can see why some people want more parking, but more parking usually just brings more cars." },
+    { "term": "That said, …", "vi": "Dù vậy… (bắt đầu phản bác)", "example": "It would take time to get used to. That said, most people adjusted to the plastic bag ban quickly." },
+    { "term": "So overall, …", "vi": "Vậy nhìn chung… (mở câu kết luận)", "example": "So overall, I think the change would be good for families in the Lower Mainland." },
+    { "term": "as long as…", "vi": "miễn là… (thêm điều kiện cho quan điểm)", "example": "I support the new rule, as long as there's enough time to prepare." }
+  ],
+  "grammar": [
+    {
+      "point": "Concession: although / while / even though + clause vs despite + noun or V-ing",
+      "explanationVi": "Although, while, even though đi với một mệnh đề đầy đủ (chủ ngữ + động từ). Despite và in spite of đi với danh từ hoặc V-ing. Người Việt hay nói \"Despite it is expensive…\" — sai. Lưu ý: không dùng \"although… but…\" trong cùng một câu (lỗi dịch từ \"tuy… nhưng…\").",
+      "examples": [
+        "Although it would cost more at first, it would save money in the long run.",
+        "Despite the higher cost, I think it's worth it.",
+        "While some people prefer driving, many would happily switch to transit."
+      ]
+    },
+    {
+      "point": "Second conditional for imagined results",
+      "explanationVi": "Task 7 thường bàn về một thay đổi chưa xảy ra, nên dùng câu điều kiện loại 2: If + quá khứ đơn, would + V. Nó làm lập luận nghe như dự đoán có cơ sở. Với \"be\", dùng \"were\" cho mọi ngôi trong văn trang trọng (If the price were…), nhưng \"was\" cũng chấp nhận trong văn nói.",
+      "examples": [
+        "If transit were free, more people would leave their cars at home.",
+        "If restaurants paid a proper wage, servers wouldn't depend on tips."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Task 7: Expressing opinions", "route": "/speaking?task=S7" },
+    { "label": "Review your speaking mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises independently (keys correct, orders unique); checked 30/90 timing and BC details. Fixed: 90-s word range corrected to 180–210, acceptable-version timing comment corrected (~95 words < 50 s), i3 accepts more valid rebuttal connectors (yet, but still, all the same)."}
+}

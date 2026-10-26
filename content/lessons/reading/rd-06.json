@@ -1,0 +1,356 @@
+{
+  "id": "rd-06",
+  "skill": "reading",
+  "module": "reading-techniques",
+  "level": "core",
+  "difficulty": 7,
+  "title": "Recognizing paraphrase",
+  "titleVi": "Nhận ra paraphrase (diễn đạt lại)",
+  "estimatedMinutes": 30,
+  "prerequisites": ["rd-03"],
+  "competencies": ["paraphrase"],
+  "tasks": ["R1", "R2", "R3", "R4"],
+  "objectives": [
+    "You will be able to recognize the five most common paraphrase types: synonyms, word-form changes, active ↔ passive, negation flips and general ↔ specific.",
+    "You will be able to match an answer option to the sentence in the text that says the same thing in different words.",
+    "You will be able to reject options that copy words from the text but change the meaning."
+  ],
+  "objectiveVi": "Sau bài này, bạn nhận ra được một ý trong bài đọc khi nó được viết lại bằng từ khác trong đáp án, và không còn bị lừa bởi đáp án 'trùng từ nhưng sai nghĩa'.",
+  "whyItMattersVi": "Ở Reading 5, bạn thường tìm đúng đoạn nhưng chọn sai vì đáp án đúng gần như không bao giờ lặp lại nguyên văn từ trong bài. CELPIP kiểm tra xem bạn hiểu NGHĨA hay chỉ nhận ra MẶT CHỮ. Lên Level 8 phần lớn phụ thuộc vào việc nhận ra paraphrase nhanh và chắc chắn ở cả bốn Part — đặc biệt Part 3 (ghép câu với đoạn) và Part 4 (quan điểm), nơi gần như mọi câu hỏi đều được diễn đạt lại.",
+  "concept": [
+    {
+      "heading": "Paraphrase là gì và vì sao đáp án đúng 'không giống' bài đọc",
+      "body": "**Paraphrase** là nói cùng một ý bằng từ ngữ hoặc cấu trúc khác. Người ra đề CELPIP cố ý viết đáp án đúng bằng từ khác với bài đọc, để kiểm tra bạn có hiểu nghĩa không. Ngược lại, đáp án sai thường **chép lại đúng vài từ** trong bài (word match) để thu hút người chỉ dò mặt chữ.\n\nQuy tắc vàng: **trùng từ không phải là bằng chứng**. Một đáp án lặp lại 'leisure pool' hay 'front desk' chưa chắc đúng; một đáp án không có từ nào giống bài lại có thể đúng hoàn toàn. Điều bạn cần so sánh là **ý nghĩa của cả câu**: ai làm gì, khi nào, có hay không, tất cả hay một phần."
+    },
+    {
+      "heading": "Năm kiểu paraphrase hay gặp",
+      "body": "1. **Synonym (từ đồng nghĩa):** *cancelled* → *not offered*; *relocated* → *moved*; *donation* → *gift*.\n2. **Đổi dạng từ (word form):** *a donation from a carpenter* (danh từ) → *was given by a carpenter* (động từ); *to apply* → *an application*; *will be extended* → *an extension*.\n3. **Chủ động ↔ bị động:** *A contractor will replace the system* → *The system will be replaced by a contractor*. Hãy luôn hỏi: **ai** là người thực hiện hành động? Đây là chỗ hay nhầm nhất.\n4. **Lật phủ định (negation flip):** *have not been cancelled* → *will still go ahead*; *do not block the bike lane* → *keep the bike lane clear*. Một chữ *not*, *no longer*, *unless*, *only until* có thể đảo ngược toàn bộ nghĩa.\n5. **Chung ↔ cụ thể (general ↔ specific):** *the leisure pool* → *a different pool*; *a retired carpenter* → *a former tradesperson*. Đáp án đúng thường dùng từ **chung hơn** bài đọc."
+    },
+    {
+      "heading": "Cách làm từng bước",
+      "body": "**Bước 1 — Đọc câu hỏi, gạch keyword.** Chọn từ mang nội dung: tên, số, động từ chính (ví dụ: *children's lessons*, *refund*).\n\n**Bước 2 — Dự đoán paraphrase.** Trước khi đọc đáp án, tự hỏi: từ này có thể được viết lại thế nào? *refund* → *money back*; *cancelled* → *will not take place*.\n\n**Bước 3 — Tìm câu trong bài và đọc trọn câu.** Đặc biệt chú ý từ phủ định, từ giới hạn (*only*, *outside*, *until*), và ai là chủ ngữ.\n\n**Bước 4 — Diễn đạt lại bằng lời của bạn** (tiếng Việt cũng được): 'Lớp trẻ em không bị hủy, chỉ chuyển sang hồ khác.'\n\n**Bước 5 — So từng đáp án với câu của bạn**, không so với mặt chữ trong bài. Đáp án nào nói **đúng cùng một ý, không thêm, không bớt** là đáp án đúng."
+    },
+    {
+      "heading": "Bốn bẫy paraphrase trong CELPIP",
+      "body": "- **Bẫy trùng từ:** đáp án dùng đúng từ trong bài nhưng gắn vào ý khác. Ví dụ bài nói *children's lessons will be moved to the leisure pool*, đáp án sai: *Adult lane swimming will move to the leisure pool*.\n- **Bẫy đảo nghĩa:** bỏ sót *not*, *no longer*, *unlike*, *instead of*. *Late fees still apply to tools* khác hẳn *late fees were dropped for tools*.\n- **Bẫy nhầm chủ thể:** câu bị động che giấu ai làm. *The expiry date will be extended automatically* nghĩa là bạn **không** cần làm gì.\n- **Bẫy lệch phạm vi:** bài nói *some*, đáp án nói *all*; bài nói *on weekdays during rush hour*, đáp án nói *always*. Đáp án quá rộng hoặc quá hẹp so với bài đều sai.\n\nMẹo: nếu một đáp án 'nghe quen tai' vì có nhiều từ giống bài, hãy kiểm tra nó **kỹ hơn**, không phải chọn nhanh hơn."
+    }
+  ],
+  "stimuli": {
+    "pool-email": {
+      "title": "Email: Change to the spring swim schedule",
+      "text": "From: Dana Whitfield, Aquatics Coordinator, Riverside Community Centre\nTo: Registered swim program members\nSubject: Change to the spring swim schedule\n\nHello everyone,\n\nThe main pool will be closed from March 10 to March 24 while a contractor replaces the filtration system. The leisure pool will stay open, but it is too shallow for lane swimming, so all adult lane swim sessions are cancelled during this period.\n\nChildren's lessons have not been cancelled. They will be moved to the leisure pool, and instructors will keep groups smaller than usual. Parents do not need to re-register.\n\nIf you have a ten-visit pass, its expiry date will be extended by two weeks automatically. Monthly members who would prefer a partial refund instead can request one at the front desk, but only until March 31.\n\nThank you for your patience,\nDana"
+    },
+    "bus-notice": {
+      "title": "Service notice: Route 14",
+      "text": "Coastline Transit — Service notice for Route 14\n\nStarting Monday, September 8, Route 14 will no longer stop at Elm Street during weekday rush hours (6:30–9:00 a.m. and 3:30–6:30 p.m.). The stop is being relocated one block north to Birch Avenue so that buses do not block the new bike lane. Outside rush hours, buses will continue to use the Elm Street stop.\n\nRiders who use mobility aids can still request a stop at Elm Street at any time by telling the driver when they board. Real-time arrival information for the Birch Avenue stop will be available in the Coastline app starting the same day. Questions can be sent to our customer care team, which replies within two business days."
+    },
+    "tool-library": {
+      "title": "Article: Borrowing instead of buying",
+      "text": "Borrowing Instead of Buying\n\nSince January, the Northshore Public Library has been lending more than books — it now lends almost everything a first-time homeowner might need for a weekend project. The tool collection began with a donation of 120 items from a retired carpenter, and staff say demand has exceeded every forecast. On Saturdays, the waitlist for the pressure washer is often longer than the waitlist for the newest bestseller.\n\nUnlike books, tools must be picked up in person, and borrowers have to be at least 19. Each item can be kept for seven days, and late fees, which the library dropped for books in 2021, still apply to tools because a missing saw affects many people waiting for it.\n\nBranch manager Priya Sandhu admits the program was not designed to save money for the library. 'The real goal,' she says, 'is to keep people from buying something they'll use once and store forever.' Staff now plan to add a repair workshop where volunteers will show borrowers how to sharpen blades and replace worn parts."
+    },
+    "bike-room-notice": {
+      "title": "Strata notice: Bike room rules",
+      "text": "Notice from the Strata Council — Harbourview Towers\n\nOver the past three months, the number of bicycles stored in the parkade bike room has nearly doubled, and residents have reported that they can no longer reach their own bikes without moving others. To address this, the council has approved the following changes, effective April 1.\n\n1. Each unit may store a maximum of two bicycles in the bike room. Additional bikes must be kept inside the unit or on a balcony.\n2. Every bike must display a numbered tag, which can be picked up from the building manager free of charge.\n3. Untagged bikes will be removed after April 15 and held for 30 days before being donated to a local charity.\n\nThe council recognizes that some families own more than two bikes. Owners who believe they have a special reason, such as a medical need for an adapted bicycle, may apply for an exemption in writing. Applications will not be considered after March 25."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Negation flip + general ↔ specific",
+      "stimulusId": "pool-email",
+      "question": "What will happen to children's swimming lessons? (A) They are cancelled until March 24. (B) They will take place in a different pool. (C) Parents must register again. (D) They will be taught in larger groups.",
+      "steps": [
+        "Keyword: 'children's lessons'. Predicted paraphrase of possible answers: cancelled / moved / changed.",
+        "Locate: paragraph 3 — 'Children's lessons have not been cancelled. They will be moved to the leisure pool.'",
+        "Say it in my own words: the lessons still happen, just in another pool.",
+        "(B) 'a different pool' is a general version of the specific 'the leisure pool', and 'take place' paraphrases 'will be moved… (and still run)'. Same meaning → keep.",
+        "(A) ignores 'not' — a negation flip trap. (C) reverses 'do not need to re-register'. (D) is the opposite of 'smaller than usual'.",
+        "Notice that the wrong options (A) and (C) re-use words from the text ('cancelled', 'register'), while the right one shares almost no words with it."
+      ],
+      "answer": "(B) They will take place in a different pool.",
+      "takeawayVi": "Đáp án đúng dùng từ chung hơn ('a different pool') và không có từ nào trùng nhiều với bài. Hai đáp án có từ 'cancelled' và 'register' giống bài lại là bẫy đảo nghĩa."
+    },
+    {
+      "id": "ex2",
+      "title": "Synonyms + negative → positive",
+      "stimulusId": "bus-notice",
+      "question": "According to the notice, why is the stop being moved? (A) To reduce delays for riders. (B) To keep a cycling route clear. (C) Because Elm Street is under construction. (D) Because riders asked for the change.",
+      "steps": [
+        "Keyword: 'why… moved'. I expect a reason phrase: 'so that', 'because', 'to'.",
+        "Locate: 'The stop is being relocated one block north to Birch Avenue so that buses do not block the new bike lane.' — 'relocated' = 'moved', and 'so that' gives the reason.",
+        "Own words: buses must not stop on top of the new bike lane.",
+        "(B) 'keep a cycling route clear' = 'do not block the new bike lane': synonym (bike lane → cycling route) plus a negative turned positive (do not block → keep clear). Match.",
+        "(A), (C) and (D) all sound like believable reasons for moving a bus stop, but none is in the text. Background knowledge is not evidence."
+      ],
+      "answer": "(B) To keep a cycling route clear.",
+      "takeawayVi": "Khi bài dùng câu phủ định ('do not block'), đáp án đúng hay chuyển sang khẳng định ('keep clear'). Hãy dịch cả câu ra ý nghĩa rồi mới so."
+    },
+    {
+      "id": "ex3",
+      "title": "Passive voice: who has to act?",
+      "stimulusId": "pool-email",
+      "question": "What must a ten-visit pass holder do to get more time on the pass?",
+      "steps": [
+        "Locate: 'its expiry date will be extended by two weeks automatically.' The sentence is passive — no person is named as the one who extends it.",
+        "The adverb 'automatically' tells me the system does it; the pass holder is not the doer.",
+        "So a correct paraphrase is: 'Nothing — the extra two weeks are added without any request.'",
+        "A trap option would move the front-desk action from the next sentence ('can request one at the front desk') onto the pass holder. That action belongs to monthly members who want a refund."
+      ],
+      "answer": "Nothing — the two-week extension is added automatically.",
+      "takeawayVi": "Với câu bị động, luôn hỏi 'ai làm?'. Nếu không có người làm và có 'automatically', người đọc không cần làm gì."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "pool-email",
+      "prompt": "Which statement is true about adult lane swimming?",
+      "hint": "Find 'lane swim' in the email and look at the verb that goes with it. Then find the option that says the same thing in different words.",
+      "options": [
+        { "text": "It will move to the leisure pool.", "misconception": "word_match", "whyVi": "'Leisure pool' có trong bài, nhưng hồ này quá nông để bơi làn; thứ được chuyển sang đó là lớp trẻ em." },
+        { "text": "It will not be offered from March 10 to March 24.", "misconception": null, "whyVi": "Đúng: 'cancelled during this period' = 'will not be offered' trong khoảng 10–24/3." },
+        { "text": "It will run with smaller groups than usual.", "misconception": "word_match", "whyVi": "'Smaller than usual' nói về lớp trẻ em, không phải bơi làn người lớn." },
+        { "text": "It will continue at reduced hours.", "misconception": "meaning_reversed", "whyVi": "Bài nói bị hủy hoàn toàn, không phải tiếp tục với giờ ít hơn." }
+      ],
+      "answerIndex": 1,
+      "evidence": "all adult lane swim sessions are cancelled during this period",
+      "explanationVi": "'Cancelled' được paraphrase thành 'will not be offered', và 'this period' được cụ thể hóa thành 'from March 10 to March 24'. Hai đáp án sai đều mượn từ của câu nói về trẻ em.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "pool-email",
+      "prompt": "What does the email say about people with a ten-visit pass?",
+      "hint": "The sentence about the pass is passive. Ask who does the action, and notice the last word of the sentence.",
+      "options": [
+        { "text": "They must ask at the front desk for more time.", "misconception": "wrong_agent", "whyVi": "Front desk là nơi thành viên tháng xin hoàn tiền; người có thẻ 10 lượt không cần hỏi." },
+        { "text": "They will get extra time without having to do anything.", "misconception": null, "whyVi": "Đúng: 'extended by two weeks automatically' = được thêm thời gian mà không cần làm gì." },
+        { "text": "They can receive a partial refund until March 31.", "misconception": "wrong_agent", "whyVi": "Hoàn tiền một phần dành cho 'monthly members', không phải người có thẻ 10 lượt." },
+        { "text": "Their passes will expire two weeks earlier.", "misconception": "meaning_reversed", "whyVi": "'Extended' là kéo dài, không phải rút ngắn." }
+      ],
+      "answerIndex": 1,
+      "evidence": "its expiry date will be extended by two weeks automatically",
+      "explanationVi": "Câu bị động không nêu người làm, và 'automatically' cho biết hệ thống tự cộng thêm. Đáp án đúng paraphrase 'automatically' thành 'without having to do anything'.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "g3",
+      "type": "text",
+      "stimulusId": "bus-notice",
+      "prompt": "Type the ONE word from the notice that the phrase 'moved to a new location' paraphrases.",
+      "hint": "Look in the sentence that explains where the stop is going. The word is a verb used in the passive.",
+      "answers": ["relocated", "relocate", "being relocated"],
+      "mode": "exact",
+      "misconception": "word_match",
+      "explanationVi": "'The stop is being relocated' — 'relocate' nghĩa là 'move to a new location'. Đây là kiểu paraphrase bằng từ đồng nghĩa, rất hay gặp trong thông báo.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "stimulusId": "bus-notice",
+      "prompt": "At 11 a.m. on a Wednesday, where will a Route 14 bus stop?",
+      "hint": "Check whether 11 a.m. falls inside the times in brackets, then find the sentence about the other times of day.",
+      "options": [
+        { "text": "At Birch Avenue only.", "misconception": "scope_shift", "whyVi": "Birch Avenue chỉ áp dụng trong giờ cao điểm ngày thường; 11 giờ sáng không phải giờ cao điểm." },
+        { "text": "At Elm Street, as before.", "misconception": null, "whyVi": "Đúng: 'Outside rush hours, buses will continue to use the Elm Street stop.'" },
+        { "text": "Nowhere near Elm Street.", "misconception": "meaning_reversed", "whyVi": "'No longer stop at Elm Street' chỉ đúng trong giờ cao điểm, không phải cả ngày." },
+        { "text": "At Elm Street only if a rider asks the driver.", "misconception": "wrong_agent", "whyVi": "Việc báo tài xế dành cho người dùng thiết bị hỗ trợ đi lại trong giờ cao điểm; ngoài giờ đó xe vẫn dừng bình thường." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Outside rush hours, buses will continue to use the Elm Street stop.",
+      "explanationVi": "'Continue to use' được paraphrase thành 'as before'. Bẫy chính là áp dụng thay đổi của giờ cao điểm cho cả ngày (lệch phạm vi).",
+      "competency": "paraphrase"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "tool-library",
+      "prompt": "Where did the library's tool collection originally come from?",
+      "options": [
+        { "text": "It was bought with library funds.", "misconception": "unsupported_detail", "whyVi": "Bài không nói thư viện mua; ngược lại bộ sưu tập bắt đầu từ đồ quyên góp." },
+        { "text": "It was given by a former tradesperson.", "misconception": null, "whyVi": "Đúng: 'donation' = 'was given'; 'a retired carpenter' = 'a former tradesperson' (cụ thể → chung)." },
+        { "text": "It was borrowed from a hardware store.", "misconception": "unsupported_detail", "whyVi": "Không có cửa hàng dụng cụ nào trong bài." },
+        { "text": "It was built by volunteers.", "misconception": "word_match", "whyVi": "'Volunteers' xuất hiện ở cuối bài, nói về xưởng sửa chữa sẽ mở trong tương lai." }
+      ],
+      "answerIndex": 1,
+      "evidence": "The tool collection began with a donation of 120 items from a retired carpenter",
+      "explanationVi": "Hai lớp paraphrase cùng lúc: danh từ 'donation' → động từ bị động 'was given', và nghề cụ thể 'retired carpenter' → nhóm chung 'former tradesperson'.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "tool-library",
+      "prompt": "What does the article say about demand for tools?",
+      "options": [
+        { "text": "It has been higher than staff expected.", "misconception": null, "whyVi": "Đúng: 'demand has exceeded every forecast' = nhu cầu cao hơn mọi dự đoán." },
+        { "text": "It has matched what staff predicted.", "misconception": "meaning_reversed", "whyVi": "'Exceeded' là vượt quá, không phải bằng với dự đoán." },
+        { "text": "It is lower than demand for the newest bestseller.", "misconception": "meaning_reversed", "whyVi": "Danh sách chờ máy rửa áp lực thường DÀI hơn sách bán chạy — ngược lại hoàn toàn." },
+        { "text": "It is highest on weekday evenings.", "misconception": "unsupported_detail", "whyVi": "Bài chỉ nhắc thứ Bảy; không có thông tin về buổi tối ngày thường." }
+      ],
+      "answerIndex": 0,
+      "evidence": "staff say demand has exceeded every forecast",
+      "explanationVi": "'Exceed a forecast' → 'be higher than expected' là cặp paraphrase đổi dạng từ (forecast → expected). Hãy ghi nhớ cặp này, nó xuất hiện rất thường xuyên.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i3",
+      "type": "choice",
+      "stimulusId": "tool-library",
+      "prompt": "Which statement about late fees is correct?",
+      "options": [
+        { "text": "The library dropped them for all items in 2021.", "misconception": "scope_shift", "whyVi": "Năm 2021 chỉ bỏ phí trễ cho sách, không phải mọi thứ — quá rộng." },
+        { "text": "They are charged for overdue tools but not for overdue books.", "misconception": null, "whyVi": "Đúng: 'dropped for books' + 'still apply to tools'." },
+        { "text": "Books and tools have the same late fees.", "misconception": "meaning_reversed", "whyVi": "Bài nói rõ sách đã bỏ phí, công cụ vẫn còn — không giống nhau." },
+        { "text": "Late fees for tools were introduced in 2021.", "misconception": "word_match", "whyVi": "Mượn con số '2021' nhưng gắn sai sự kiện: 2021 là năm bỏ phí cho sách." }
+      ],
+      "answerIndex": 1,
+      "evidence": "late fees, which the library dropped for books in 2021, still apply to tools",
+      "explanationVi": "Câu này có mệnh đề quan hệ chen giữa ('which the library dropped for books in 2021'). Tách ra hai ý: sách — đã bỏ phí; công cụ — vẫn áp dụng. Đáp án đúng gộp hai ý đó bằng từ khác.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i4",
+      "type": "text",
+      "stimulusId": "tool-library",
+      "prompt": "Borrowers 'cannot have a tool delivered or mailed; they have to collect it themselves at the branch.' Type the two-word phrase in paragraph 2 that this paraphrases.",
+      "answers": ["in person", "picked up in person"],
+      "mode": "exact",
+      "misconception": "word_match",
+      "explanationVi": "'Must be picked up in person' = phải tự đến lấy. Đề bài diễn giải dài hơn bài đọc — đây là paraphrase cụ thể hóa (specific).",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "tool-library",
+      "prompt": "According to the branch manager, what is the main purpose of the tool program?",
+      "options": [
+        { "text": "To reduce the library's costs.", "misconception": "meaning_reversed", "whyVi": "Bà Sandhu nói rõ chương trình 'was not designed to save money for the library'." },
+        { "text": "To discourage people from buying things they will rarely use.", "misconception": null, "whyVi": "Đúng: 'keep people from buying something they'll use once' = discourage buying rarely used things." },
+        { "text": "To teach residents how to repair their own tools.", "misconception": "scope_shift", "whyVi": "Xưởng sửa chữa chỉ là kế hoạch bổ sung sau này, không phải mục đích chính." },
+        { "text": "To give homeowners more storage space.", "misconception": "word_match", "whyVi": "Mượn từ 'store', nhưng bà ấy nói người ta mua về rồi cất mãi — không nói về tạo thêm chỗ chứa." }
+      ],
+      "answerIndex": 1,
+      "evidence": "'The real goal,' she says, 'is to keep people from buying something they'll use once and store forever.'",
+      "explanationVi": "'Keep someone from doing' = ngăn ai làm gì → 'discourage'. 'Use once and store forever' → 'rarely use'. Đáp án đúng không trùng một từ nội dung nào với câu trích.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "bike-room-notice",
+      "prompt": "Under the new rules, what must a unit with three bicycles do?",
+      "options": [
+        { "text": "Keep all three bikes inside the unit.", "misconception": "scope_shift", "whyVi": "Chỉ chiếc thứ ba (vượt mức tối đa) phải để ngoài phòng xe; hai chiếc vẫn được để trong phòng xe." },
+        { "text": "Store one of the bikes somewhere other than the bike room.", "misconception": null, "whyVi": "Đúng: tối đa hai chiếc trong phòng xe; xe thêm phải để trong căn hộ hoặc ban công." },
+        { "text": "Donate one bike to a local charity.", "misconception": "word_match", "whyVi": "'Donated to a local charity' là chuyện xảy ra với xe KHÔNG gắn thẻ sau khi bị giữ 30 ngày." },
+        { "text": "Pay the building manager for an extra tag.", "misconception": "meaning_reversed", "whyVi": "Thẻ được phát 'free of charge' — miễn phí." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Additional bikes must be kept inside the unit or on a balcony.",
+      "explanationVi": "'Inside the unit or on a balcony' được gộp thành cách nói chung 'somewhere other than the bike room' (cụ thể → chung). 'Additional bikes' với 3 xe nghĩa là 1 xe.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "bike-room-notice",
+      "prompt": "An untagged bike is found in the bike room on April 20. According to the notice, what will happen to it?",
+      "options": [
+        { "text": "It will be given to a charity right away.", "misconception": "scope_shift", "whyVi": "Xe bị giữ 30 ngày TRƯỚC khi quyên góp, không phải ngay lập tức." },
+        { "text": "It will be taken away and kept for a period of time.", "misconception": null, "whyVi": "Đúng: 'removed' = 'taken away'; 'held for 30 days' = 'kept for a period of time'." },
+        { "text": "The building manager will attach a tag to it.", "misconception": "wrong_agent", "whyVi": "Quản lý tòa nhà chỉ phát thẻ cho cư dân đến lấy; không tự gắn thẻ cho xe." },
+        { "text": "It will stay where it is until the owner returns.", "misconception": "meaning_reversed", "whyVi": "Sau 15/4, xe không thẻ sẽ bị dời đi — ngược lại với 'stay where it is'." }
+      ],
+      "answerIndex": 1,
+      "evidence": "Untagged bikes will be removed after April 15 and held for 30 days before being donated to a local charity.",
+      "explanationVi": "Câu bị động có ba hành động theo thứ tự: removed → held 30 days → donated. Đáp án đúng paraphrase hai bước đầu; bẫy 'right away' bỏ qua bước giữ xe.",
+      "competency": "paraphrase"
+    },
+    {
+      "id": "i8",
+      "type": "choice",
+      "stimulusId": "bike-room-notice",
+      "prompt": "Which statement best paraphrases the council's position on owners who need more than two bikes in the bike room?",
+      "options": [
+        { "text": "They will automatically be given extra space.", "misconception": "unsupported_detail", "whyVi": "Không có gì 'automatic' — phải nộp đơn và có lý do đặc biệt." },
+        { "text": "Those with a special reason can ask in writing to be excused, but only before a set date.", "misconception": null, "whyVi": "Đúng: 'special reason' + 'may apply for an exemption in writing' (= ask in writing to be excused) + 'will not be considered after March 25' (= only before a set date)." },
+        { "text": "They have until April 15 to apply for an exception.", "misconception": "word_match", "whyVi": "Mượn ngày 15/4 của quy định gắn thẻ; hạn nộp đơn là 25/3." },
+        { "text": "The council has refused to make any exceptions.", "misconception": "meaning_reversed", "whyVi": "Hội đồng cho phép xin miễn trừ — ngược với 'refused'." }
+      ],
+      "answerIndex": 1,
+      "evidence": "may apply for an exemption in writing. Applications will not be considered after March 25.",
+      "explanationVi": "Level 8: đáp án đúng gộp ba ý từ hai câu (điều kiện, hình thức, hạn chót) và đổi 'apply for an exemption' → 'ask to be excused', 'will not be considered after March 25' → 'only before a set date' (lật phủ định + cụ thể → chung).",
+      "competency": "paraphrase"
+    }
+  ],
+  "misconceptions": {
+    "word_match": {
+      "label": "Bẫy trùng từ",
+      "explanationVi": "Bạn chọn (hoặc tìm) theo mặt chữ: thấy đáp án có từ giống trong bài nên nghĩ là đúng. Kỹ năng còn thiếu là so sánh NGHĨA của cả câu, không phải so từ đơn lẻ.",
+      "fixVi": "Khi một đáp án lặp lại nhiều từ của bài, hãy kiểm tra xem các từ đó có đang nói về cùng người, cùng sự việc, cùng thời điểm không. Diễn đạt lại câu trong bài bằng lời mình trước khi so."
+    },
+    "meaning_reversed": {
+      "label": "Bỏ sót phủ định / đảo nghĩa",
+      "explanationVi": "Bạn bỏ qua từ đảo nghĩa như not, no longer, unlike, instead, only until, hoặc hiểu ngược động từ (extend ↔ shorten, exceed ↔ match).",
+      "fixVi": "Khoanh mọi từ phủ định và từ giới hạn trong câu bằng chứng. Tự hỏi: 'Câu này nói CÓ hay KHÔNG?' rồi mới đọc đáp án."
+    },
+    "wrong_agent": {
+      "label": "Nhầm người thực hiện",
+      "explanationVi": "Bạn không xác định được AI làm hành động, nhất là trong câu bị động, hoặc gán hành động của nhóm này (monthly members) cho nhóm khác (pass holders).",
+      "fixVi": "Với mỗi câu bằng chứng, viết nhanh 'ai — làm gì — cho ai'. Câu bị động: tìm 'by…' hoặc từ như 'automatically' để biết người đọc có phải làm gì không."
+    },
+    "scope_shift": {
+      "label": "Lệch phạm vi (quá rộng / quá hẹp)",
+      "explanationVi": "Đáp án nói đúng chủ đề nhưng mở rộng hoặc thu hẹp phạm vi: some → all, rush hours → all day, a later plan → the main goal. Bạn chưa kiểm tra các từ giới hạn.",
+      "fixVi": "So các từ phạm vi giữa bài và đáp án: all/some, always/sometimes, only, during, outside, main/additional. Phạm vi phải khớp chính xác."
+    },
+    "unsupported_detail": {
+      "label": "Thông tin không có trong bài",
+      "explanationVi": "Đáp án nghe hợp lý theo kiến thức đời thường nhưng bài không hề nói. Bạn đang dùng suy đoán của mình thay cho bằng chứng.",
+      "fixVi": "Chỉ chọn đáp án mà bạn chỉ được câu chứng minh trong bài. Nếu không chỉ được, loại nó, dù nó nghe hợp lý đến đâu."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "be cancelled → will not be offered / will not take place", "vi": "bị hủy → sẽ không được tổ chức", "example": "All Sunday yoga classes are cancelled in August. = Sunday yoga will not be offered in August." },
+    { "term": "relocate → move to a new location", "vi": "di dời → chuyển sang chỗ mới", "example": "The farmers' market is being relocated to the community centre parking lot." },
+    { "term": "exceed expectations / forecasts → be higher than expected", "vi": "vượt dự đoán → cao hơn mong đợi", "example": "Ticket sales for the Canada Day concert exceeded every forecast." },
+    { "term": "free of charge → at no cost", "vi": "miễn phí", "example": "Recycling bins can be picked up at City Hall free of charge." },
+    { "term": "no longer → not any more", "vi": "không còn nữa", "example": "The 99 bus no longer stops at this corner after 9 p.m." },
+    { "term": "in person → face to face, not online", "vi": "trực tiếp (đến tận nơi)", "example": "You must renew your parking permit in person at the front counter." },
+    { "term": "exemption → an exception to a rule", "vi": "sự miễn trừ (khỏi một quy định)", "example": "Residents with a medical need can apply for an exemption from the two-bike limit." },
+    { "term": "keep someone from doing something → discourage / prevent", "vi": "ngăn ai làm gì", "example": "Better signs would keep drivers from parking in the fire lane." }
+  ],
+  "grammar": [
+    {
+      "point": "Active ↔ passive paraphrase",
+      "explanationVi": "Câu bị động (be + V3) đặt đối tượng lên đầu và thường giấu người làm. Khi đáp án đổi chủ động ↔ bị động, nghĩa vẫn giữ nguyên nếu người làm và đối tượng không đổi vai. Luôn xác định ai là người làm.",
+      "examples": [
+        "A contractor will replace the filtration system. = The filtration system will be replaced by a contractor.",
+        "The expiry date will be extended automatically. (No action needed from you.)"
+      ]
+    },
+    {
+      "point": "Negation and limiting words",
+      "explanationVi": "Not, no longer, only until, outside, unlike, unless làm thay đổi hoặc giới hạn nghĩa. Đáp án đúng thường lật phủ định thành khẳng định (do not block → keep clear) mà vẫn giữ nghĩa.",
+      "examples": [
+        "Buses do not block the bike lane. = Buses keep the bike lane clear.",
+        "Refunds are available only until March 31. = After March 31, you cannot get a refund."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Drill: paraphrase questions", "route": "/reading?mode=drill&focus=paraphrase" },
+    { "label": "Part 3: Reading for Information", "route": "/reading?task=R3" },
+    { "label": "Review your mistakes", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 4 guided + 8 independent items; keys and verbatim evidence confirmed. Fixed the word-form example in the concept (was not a word-form change) and shortened i8 correct option, which was a length giveaway, re-paraphrasing it more abstractly."}
+}

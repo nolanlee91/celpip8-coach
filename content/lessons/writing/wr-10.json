@@ -1,0 +1,387 @@
+{
+  "id": "wr-10",
+  "skill": "writing",
+  "module": "writing-survey",
+  "level": "core",
+  "difficulty": 8,
+  "title": "Survey response structure",
+  "titleVi": "Bố cục bài trả lời khảo sát",
+  "estimatedMinutes": 30,
+  "prerequisites": ["wr-03"],
+  "competencies": ["task_fulfillment", "coherence"],
+  "tasks": ["W2"],
+  "objectives": [
+    "You will be able to state one clear choice in the first sentence of a Task 2 response.",
+    "You will be able to choose two distinct reasons and develop each with an explanation and an example.",
+    "You will be able to mention the other option briefly without changing sides.",
+    "You will be able to write a short conclusion and plan a 150–200-word response in 26 minutes."
+  ],
+  "objectiveVi": "Sau bài này, bạn sẽ nêu rõ một lựa chọn ngay câu đầu, chọn hai lý do khác nhau và phát triển mỗi lý do bằng giải thích + ví dụ, nhắc tới phương án còn lại mà không đổi phe, và viết kết luận ngắn gọn trong 150–200 từ.",
+  "whyItMattersVi": "Task 2 chấm cách bạn bảo vệ một lựa chọn. Người viết Level 7 thường 'đứng giữa' (Both options are good…), đưa hai lý do thực chất là một, không có ví dụ, hoặc kết bài lại nghiêng về phương án kia. Một khung rõ ràng — chọn → hai lý do phát triển → (phương án kia) → kết luận — giúp bài mạch lạc ngay lập tức và là nền cho các bài wr-11, wr-12 về lập luận sâu hơn.",
+  "concept": [
+    {
+      "heading": "Task 2 yêu cầu gì",
+      "body": "Task 2 (26 phút, 150–200 từ) đưa ra một tình huống khảo sát với **hai phương án A và B**. Bạn phải **chọn một** và giải thích lý do. Không có đáp án đúng hay sai — giám khảo chấm việc bạn chọn rõ, lập luận thuyết phục, bố cục mạch lạc và ngôn ngữ chính xác.\n\nĐây là bài trả lời khảo sát, không phải email: không cần lời chào hay ký tên; mở thẳng bằng lựa chọn. Giọng văn trung tính, lịch sự (semi-formal).\n\nMẹo chọn phương án: chọn bên mà bạn **nghĩ ra được hai lý do và ví dụ nhanh nhất**, không nhất thiết là bên bạn thật sự thích. Bạn có 26 phút, không phải 26 ngày."
+    },
+    {
+      "heading": "Khung 5 đoạn và ngân sách từ",
+      "body": "1. **Opening** (20–30 từ): lựa chọn + lý do tổng quát. *I would prefer Option A, mainly because…*\n2. **Reason 1** (45–55 từ): câu chủ đề → giải thích → ví dụ.\n3. **Reason 2** (45–55 từ): một lý do **khác hẳn** lý do 1.\n4. **The other option** (25–35 từ, không bắt buộc nhưng nên có): thừa nhận ngắn → phản bác. *Admittedly, … However, …*\n5. **Conclusion** (15–25 từ): nhắc lại lựa chọn bằng lời khác, không thêm lý do mới.\n\nTổng ≈ 160–200 từ. Thời gian gợi ý: **3–4 phút** chọn và lập dàn ý (ghi từ khóa cho hai lý do + ví dụ), **17–18 phút** viết, **4–5 phút** kiểm tra."
+    },
+    {
+      "heading": "Chọn rõ ràng ngay câu đầu",
+      "body": "Câu đầu tiên phải trả lời câu hỏi khảo sát. Mẫu câu:\n\n- *I would prefer Option B, mainly because…*\n- *In my view, the city should build the market space, since…*\n- *I strongly support Option A, as it would…*\n\nNhững lỗi cần tránh:\n\n- **Đứng giữa**: *Both options are good, so it is hard to choose.* → bài chưa hoàn thành nhiệm vụ.\n- **Mở bài chung chung**: *There are many opinions about this topic.* → giám khảo phải đọc tiếp mới biết bạn chọn gì.\n- **Đổi phe**: mở bài chọn A nhưng kết luận lại nghiêng về B. Hãy đọc lại câu đầu và câu cuối trước khi nộp: chúng phải cùng một lựa chọn."
+    },
+    {
+      "heading": "Hai lý do khác nhau, mỗi lý do được phát triển",
+      "body": "**Khác nhau** nghĩa là hai lý do thuộc hai khía cạnh khác nhau. *It is cheaper* và *It saves money* là **một** lý do. Các khía cạnh hay dùng: cost, number of people who benefit, health, safety, environment, convenience, long-term value, community.\n\n**Phát triển** mỗi lý do theo chuỗi **Point → Explanation → Example → (Result)**:\n\n- Point: *The main reason is that Sunday is the only day many families can visit together.*\n- Explanation: *Parents who commute often get home after 6 p.m.*\n- Example: *When I first moved to Surrey, a weekend class was the only one I could join.*\n- Result: *Sunday hours would therefore reach people who are currently left out.*\n\nVí dụ cá nhân hoặc ví dụ địa phương cụ thể (khu phố, thành phố BC) làm lý do thuyết phục hơn nhiều so với câu chung chung."
+    },
+    {
+      "heading": "Phương án còn lại và kết luận",
+      "body": "Nhắc tới phương án kia cho thấy bạn suy nghĩ cân bằng — nhưng chỉ **1–2 câu**, và luôn kết thúc bằng phản bác:\n\n*Admittedly, a pool would encourage exercise. **However**, there are already two public pools nearby.*\n\nĐừng chỉ khen phương án kia mà không phản bác (làm yếu lựa chọn của bạn), cũng đừng chê bai thô lỗ (*Option B is stupid*).\n\n**Kết luận**: một câu bắt đầu bằng *For these reasons,* / *Overall,* + lựa chọn được diễn đạt lại (*the more practical and inclusive choice*). Không đưa lý do mới, không chép nguyên văn câu mở bài."
+    }
+  ],
+  "stimuli": {
+    "survey-library": {
+      "title": "Task 2 survey — library hours",
+      "text": "Your city's public library in Surrey has funding for one change to its opening hours next year. The library is asking residents which change they would prefer.\n\nOption A: Open every Sunday year-round, from 10 a.m. to 5 p.m.\n\nOption B: Extend weekday hours until 10 p.m., Monday to Thursday.\n\nChoose the option you prefer. Explain the reasons for your choice. Write 150–200 words."
+    },
+    "survey-transit": {
+      "title": "Task 2 survey — regional transit spending",
+      "text": "Your regional transit authority has extra money in next year's budget and is asking riders how it should be used.\n\nOption A: Add more late-night bus service, with buses running every 30 minutes until 3 a.m. on major routes.\n\nOption B: Reduce fares for students and seniors by 25 per cent.\n\nChoose the option you prefer. Explain the reasons for your choice. Write 150–200 words."
+    },
+    "survey-workplace": {
+      "title": "Task 2 survey — new employee benefit",
+      "text": "Your employer, an office-based company in Burnaby, is adding one new benefit for staff.\n\nOption A: An on-site fitness room with exercise machines and showers.\n\nOption B: A monthly subsidy that covers half the cost of a transit pass.\n\nChoose the option you prefer. Explain the reasons for your choice. Write 150–200 words."
+    },
+    "survey-school": {
+      "title": "Task 2 survey — school spending",
+      "text": "Your child's elementary school in Kelowna has received a donation and is asking parents how to spend it.\n\nOption A: Create a school vegetable garden with outdoor learning areas.\n\nOption B: Buy new laptops for the computer lab.\n\nChoose the option you prefer. Explain the reasons for your choice. Write 150–200 words."
+    },
+    "draft-nanaimo": {
+      "title": "Draft response — skate park or seniors' centre",
+      "text": "Survey: The City of Nanaimo can fund one project. Option A: Build a new skate park. Option B: Expand the seniors' centre.\n\nResponse:\nI would prefer that the city expand the seniors' centre. Nanaimo has a large number of retired residents, and the current centre has a waiting list for most of its programs. My neighbour, for example, has been waiting six months to join a chair yoga class.\n\nIn addition, the centre is a place where isolated seniors can meet others, which is important for their mental health. Many older people live alone after losing a partner, and a weekly lunch program can be their main social contact.\n\nOn the other hand, young people also need places to go, and a skate park would keep teenagers active and out of trouble.\n\nIn conclusion, I think the skate park is probably the better choice for the future of our city."
+    },
+    "survey-squamish": {
+      "title": "Task 2 survey — using an empty downtown lot",
+      "text": "Your town council in Squamish is deciding how to use an empty lot downtown and has asked residents for their opinion.\n\nOption A: Create a community garden where residents can rent small plots to grow vegetables.\n\nOption B: Build a covered outdoor space for a weekly farmers' market and community events.\n\nChoose the option you prefer. Explain the reasons for your choice. Write 150–200 words."
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "A 3-minute plan for a survey response",
+      "stimulusId": "survey-library",
+      "question": "Plan a response before writing.",
+      "steps": [
+        "Pick the side with the easiest reasons and examples. For Sunday opening I can think of families and weekend programs immediately; for late weekday hours I can think only of students. → Choose Option A.",
+        "Check that the two reasons are different aspects: Reason 1 = who can visit (working families); Reason 2 = what the library can offer (weekend programs). Not the same idea twice.",
+        "Find one concrete example for each: commuters getting home after 6 p.m.; my own experience joining a weekend conversation circle as a newcomer.",
+        "Plan the other option in one line: students would benefit from late hours → but they already have school and college study spaces.",
+        "Plan the conclusion phrase: 'the more inclusive and practical choice'. Write the word budget next to each part: 25 / 50 / 50 / 30 / 20."
+      ],
+      "answer": "Opening: Option A (Sunday) – serves more residents. R1: working families → commute, home after 6 p.m. → Sunday family visit. R2: weekend programs → conversation circles, tax clinics, coding → my experience as a newcomer. Other: students → already have study spaces. Conclusion: more inclusive and practical choice.",
+      "takeawayVi": "Ba phút lập dàn ý giúp bạn tránh ba lỗi lớn: chọn mơ hồ, hai lý do trùng nhau, và lý do không có ví dụ. Chỉ ghi từ khóa, không viết câu hoàn chỉnh trong dàn ý."
+    },
+    {
+      "id": "ex2",
+      "title": "Before and after: the library hours response",
+      "stimulusId": "survey-library",
+      "question": "Compare a typical Level 6–7 response with a Level 8+ response.",
+      "steps": [
+        "Check the first sentence of the before version: 'Both options are good' — no choice. The choice appears only at the end of paragraph 1, with 'maybe'.",
+        "Compare the reasons: 'Sunday is a free day' and 'people work Monday to Friday so they are free on Sunday' are the same idea twice.",
+        "Look for examples: none. Every sentence is general ('Library is a good place for everyone').",
+        "Check the ending: it praises Option B and concludes 'both options have advantages' — the writer has abandoned the choice.",
+        "Rebuild with the five-part frame and the plan from Example 1."
+      ],
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "Both options are good for people in Surrey. Opening on Sunday is good because many people are free on Sunday. Opening late is also good because students can study. I think maybe option A is better.\n\nFirst, Sunday is free day for many people. Families can go to library together. Second, many people work from Monday to Friday so they are free on Sunday. Library is a good place for everyone.\n\nBut students need quiet place to study at night, so option B is also very useful. In conclusion, both options have advantages, the library should think carefully.",
+          "commentVi": "Vấn đề: (1) Câu đầu không chọn ('Both options are good'); lựa chọn xuất hiện muộn và yếu ('I think maybe'). (2) Hai lý do thực chất là một: 'Sunday is free day' và 'they are free on Sunday'. (3) Không có ví dụ cụ thể nào; 'Library is a good place for everyone' quá chung. (4) Đoạn về phương án B chỉ khen mà không phản bác, rồi kết luận 'both options have advantages' — bài đã bỏ lựa chọn của mình. (5) Thiếu mạo từ: 'free day', 'to library', 'quiet place', 'Library is'. (6) Lặp 'good' bốn lần. Khoảng 100 từ — dưới mức 150."
+        },
+        {
+          "label": "after",
+          "text": "I would prefer that the library open on Sundays year-round, mainly because this would serve far more residents than longer weekday evenings.\n\nThe main reason is that Sunday is the only day many working families can visit together. Parents who commute to Vancouver often get home after 6 p.m., and by then their children are tired or busy with homework. On a Sunday afternoon, however, a family could borrow books, attend a story time and use the computers without rushing.\n\nAnother advantage is that Sunday hours would support weekend programs. The library could run English conversation circles, free tax clinics or coding workshops for teens, which are difficult to schedule on weeknights. When I first moved to Surrey, a weekend conversation circle was the only one I could join because of my shift work.\n\nAdmittedly, students would benefit from studying until 10 p.m. However, most of them already have access to study spaces at their schools or at the nearby college.\n\nFor these reasons, Sunday opening is the more inclusive and practical choice for our community.",
+          "commentVi": "Thay đổi: (1) Câu đầu chọn rõ ràng ('I would prefer that the library open on Sundays') + lý do tổng quát ('serve far more residents'). (2) Hai lý do khác khía cạnh: ai có thể đến (gia đình đi làm) và thư viện có thể cung cấp gì (chương trình cuối tuần). (3) Mỗi lý do có giải thích + ví dụ: phụ huynh về nhà sau 6 giờ; trải nghiệm cá nhân khi mới đến Surrey. (4) Phương án B được thừa nhận một câu rồi phản bác ngay ('Admittedly… However…'). (5) Kết luận nhắc lại lựa chọn bằng lời khác ('the more inclusive and practical choice'), không thêm ý mới. (6) Câu chủ đề rõ ràng ('The main reason is that…', 'Another advantage is that…') thay cho 'First/Second' máy móc. (7) Sửa mạo từ, bỏ lặp 'good'. Khoảng 175 từ."
+        }
+      ],
+      "takeawayVi": "Hai bản có cùng ý tưởng cơ bản (gia đình, sinh viên), nhưng bản 'after' chọn rõ ngay câu đầu, có hai lý do thật sự khác nhau, có ví dụ, và giữ vững lựa chọn đến câu cuối."
+    },
+    {
+      "id": "ex3",
+      "title": "Developing one reason: Point → Explanation → Example → Result",
+      "stimulusId": "survey-transit",
+      "question": "The writer chooses Option A (late-night buses). Develop Reason 1.",
+      "steps": [
+        "Point: state the reason as a clear topic sentence, linked to the choice — shift workers have no way home after regular service ends.",
+        "Explanation: why this matters — the alternatives are expensive (taxi) or unsafe (walking in the dark).",
+        "Example: a specific group and a specific number — hospital cleaners and restaurant staff finishing at midnight, $30 a night for a taxi.",
+        "Result: link back to the option — more late-night buses would give them a safe, affordable way home."
+      ],
+      "comparisons": [
+        {
+          "label": "before",
+          "text": "First, late bus is important. Many people need it. It is very useful for them.",
+          "commentVi": "Ba câu đều nhắc lại cùng một ý chung chung ('important', 'need it', 'very useful') mà không nói ai cần, vì sao, ví dụ nào. Thiếu mạo từ ('late bus' → 'late-night buses are'). Lý do có mặt nhưng không được phát triển."
+        },
+        {
+          "label": "after",
+          "text": "The main reason is that many residents work shifts that end long after regular service stops. For example, hospital cleaners and restaurant staff who finish at midnight often have to pay about $30 for a taxi or walk home in the dark. More late-night buses would give these workers a safe and affordable way to get home.",
+          "commentVi": "Thay đổi: (1) Câu chủ đề nêu lý do cụ thể ('shifts that end long after regular service stops'). (2) Ví dụ có nhóm người cụ thể (nhân viên vệ sinh bệnh viện, nhân viên nhà hàng) và con số ($30 tiền taxi). (3) Giải thích hai hậu quả hiện tại: tốn tiền hoặc không an toàn. (4) Câu kết quả nối lại với Option A ('safe and affordable way to get home'). Khoảng 55 từ."
+        }
+      ],
+      "takeawayVi": "Mỗi lý do cần trả lời được ba câu hỏi: Ai/cái gì cụ thể? Vì sao điều đó quan trọng? Phương án của bạn giải quyết nó thế nào?"
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "survey-transit",
+      "prompt": "Which is the best opening sentence for this survey response?",
+      "hint": "The first sentence should answer the survey question and give a reason in one line.",
+      "options": [
+        { "text": "There are many different opinions about public transit in our region.", "misconception": "unclear_choice", "whyVi": "Câu mở chung chung, không chọn phương án nào. Giám khảo chưa biết bạn ủng hộ gì." },
+        { "text": "Both options would help a lot of people, so it is hard to choose.", "misconception": "unclear_choice", "whyVi": "Đứng giữa hai phương án — đúng lỗi mà Task 2 không chấp nhận." },
+        { "text": "I believe the transit authority should add more late-night bus service, mainly because many shift workers currently have no safe way home after midnight.", "misconception": null, "whyVi": "Đúng: chọn rõ phương án A và nêu lý do tổng quát trong cùng một câu." },
+        { "text": "I will now explain my opinion about the two options in this survey.", "misconception": "unclear_choice", "whyVi": "Câu 'thông báo' không có nội dung — chỉ nói sẽ nêu ý kiến mà không nêu." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Mẫu mở bài: I would prefer / I believe… should + lựa chọn + mainly because / since + lý do tổng quát.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "stimulusId": "survey-workplace",
+      "prompt": "A writer chooses Option B (the transit subsidy). Which pair of reasons is the strongest plan?",
+      "hint": "Check whether the two reasons are about two different aspects, such as cost, environment, health or convenience.",
+      "options": [
+        { "text": "1) It saves employees money. 2) It is cheaper for employees.", "misconception": "overlapping_reasons", "whyVi": "'saves money' và 'is cheaper' là cùng một ý. Đoạn thứ hai sẽ lặp lại đoạn thứ nhất." },
+        { "text": "1) It saves employees money. 2) It reduces traffic and the parking shortage around the office.", "misconception": null, "whyVi": "Đúng: hai khía cạnh khác nhau — tài chính cá nhân và giao thông / bãi đỗ xe quanh văn phòng." },
+        { "text": "1) It saves money. 2) Many employees like saving money.", "misconception": "overlapping_reasons", "whyVi": "Lý do 2 chỉ là cách nói khác của lý do 1." },
+        { "text": "1) It saves money. 2) A fitness room would also be a good idea.", "misconception": "mishandled_other_option", "whyVi": "Ý 2 không phải lý do ủng hộ phương án B; nó lại khen phương án A, làm yếu lựa chọn của bạn." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Trước khi viết, gán cho mỗi lý do một nhãn khía cạnh (cost / environment / health / convenience…). Nếu hai nhãn giống nhau, hãy tìm lý do khác.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g3",
+      "type": "order",
+      "stimulusId": "survey-workplace",
+      "prompt": "Put the parts of this survey response in the correct order.",
+      "hint": "Use the five-part frame: choice → reason → reason → other option → conclusion.",
+      "items": [
+        "I would prefer the monthly transit pass subsidy, as it would benefit almost every employee in a practical way.",
+        "The main reason is that it would save staff a significant amount of money. A monthly pass in our area costs more than $100, so even a partial subsidy would make a real difference for lower-paid employees.",
+        "Another advantage is that it would ease the parking shortage around our office. If more people took the bus or SkyTrain, those who must drive would no longer circle the block every morning.",
+        "Admittedly, a fitness room would encourage healthier habits. However, there are already several affordable gyms within walking distance of the building.",
+        "For these reasons, a transit subsidy is the more useful and inclusive option for our workplace."
+      ],
+      "misconception": "unclear_choice",
+      "explanationVi": "Lựa chọn luôn đứng đầu, hai lý do ở giữa ('The main reason is that…' mở lý do 1, 'Another advantage is that…' mở lý do 2 — tự nhiên hơn 'First/Second' máy móc), phần thừa nhận phương án kia đứng sau các lý do (để không làm loãng lập luận chính), kết luận ở cuối.",
+      "competency": "coherence"
+    },
+    {
+      "id": "g4",
+      "type": "text",
+      "stimulusId": "survey-workplace",
+      "prompt": "Complete the concession with one word: '____, a fitness room would encourage exercise; however, many employees would rarely have time to use it.'",
+      "hint": "You need a word that means 'I accept that this is true' at the start of the sentence.",
+      "answers": ["admittedly", "granted", "certainly", "undoubtedly", "naturally", "true"],
+      "mode": "exact",
+      "misconception": "mishandled_other_option",
+      "explanationVi": "'Admittedly' / 'Granted' mở đầu phần thừa nhận; 'however' quay lại lập trường của bạn. Cặp này giúp bạn nhắc phương án kia mà không đổi phe.",
+      "competency": "coherence"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "survey-school",
+      "prompt": "Which is the best opening sentence for this survey response?",
+      "options": [
+        { "text": "I would like to choose Option A and Option B because both are useful for students.", "misconception": "unclear_choice", "whyVi": "Chọn cả hai là không hoàn thành yêu cầu 'Choose the option you prefer'." },
+        { "text": "Gardens are nice, and laptops are also nice.", "misconception": "unclear_choice", "whyVi": "Không có lựa chọn, không có lý do — chỉ mô tả chung chung cả hai phương án." },
+        { "text": "In my view, the school should spend the donation on new laptops, since up-to-date technology would support learning in almost every subject.", "misconception": null, "whyVi": "Đúng: lựa chọn rõ ràng (Option B) + lý do tổng quát trong một câu hoàn chỉnh." },
+        { "text": "Laptops. Because technology.", "misconception": "undeveloped_reason", "whyVi": "Có lựa chọn nhưng là câu rời (fragment), lý do không được diễn đạt thành ý." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Câu đầu = lựa chọn + lý do tổng quát, viết thành một câu hoàn chỉnh. Đây là câu giám khảo đọc đầu tiên.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "draft-nanaimo",
+      "prompt": "What is the most serious problem with this response?",
+      "options": [
+        { "text": "It never states a clear choice.", "misconception": "unclear_choice", "whyVi": "Không đúng: câu đầu chọn rõ ràng 'expand the seniors' centre'." },
+        { "text": "Its reasons have no examples.", "misconception": "undeveloped_reason", "whyVi": "Không đúng: có ví dụ người hàng xóm chờ sáu tháng và chương trình ăn trưa hằng tuần." },
+        { "text": "The conclusion chooses the other option, so the response contradicts itself.", "misconception": null, "whyVi": "Đúng: mở bài chọn trung tâm người cao tuổi nhưng kết luận lại nói công viên trượt ván là lựa chọn tốt hơn — bài tự mâu thuẫn." },
+        { "text": "It mentions the skate park, which is not allowed in a survey response.", "misconception": "mishandled_other_option", "whyVi": "Nhắc tới phương án kia là được phép, thậm chí nên làm. Vấn đề là đoạn đó chỉ khen mà không phản bác, rồi kết luận đổi phe." }
+      ],
+      "answerIndex": 2,
+      "explanationVi": "Luôn đọc lại câu đầu và câu cuối cùng lúc: chúng phải cùng một lựa chọn. Đoạn về phương án kia cần 'However…' để quay về lập trường của bạn.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i3",
+      "type": "text",
+      "prompt": "Complete the conclusion opener with one word: 'For these ____, I believe the covered market is the better choice.'",
+      "answers": ["reasons"],
+      "mode": "exact",
+      "misconception": "weak_conclusion",
+      "explanationVi": "'For these reasons,' báo hiệu kết luận và nối với các lý do đã trình bày. Các cách khác: Overall, / All things considered, / In short,",
+      "competency": "coherence"
+    },
+    {
+      "id": "i4",
+      "type": "order",
+      "stimulusId": "survey-school",
+      "prompt": "A parent chooses Option B (laptops). Put the sentences of this reason paragraph in the most logical order.",
+      "items": [
+        "The main reason is that new laptops would support learning in almost every subject.",
+        "At the moment, the computer lab has only fifteen working machines for classes of nearly thirty students, so children often have to share or wait.",
+        "Last term, for example, my daughter's class could not finish a research project on local wildlife because there were not enough computers.",
+        "With new laptops, every student could complete assignments during class time instead of falling behind."
+      ],
+      "misconception": "undeveloped_reason",
+      "explanationVi": "Point (lý do) → Explanation (tình hình hiện tại) → Example ('for example', dự án của con gái) → Result ('With new laptops…' nối về phương án được chọn).",
+      "competency": "coherence"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "stimulusId": "survey-school",
+      "prompt": "The response opened with: 'In my view, the school should spend the donation on new laptops, since up-to-date technology would support learning in almost every subject.' Which conclusion is best?",
+      "options": [
+        { "text": "Overall, new laptops are the better investment, because they would give every student fair access to the tools they need.", "misconception": null, "whyVi": "Đúng: nhắc lại lựa chọn bằng lời mới, tóm ý chính, không thêm lý do mới." },
+        { "text": "In conclusion, both a garden and laptops would be wonderful for our school.", "misconception": "unclear_choice", "whyVi": "Kết luận quay về 'cả hai' — xóa bỏ lựa chọn của toàn bài." },
+        { "text": "In conclusion, I choose laptops. Also, laptops can help students learn to type faster, which is useful for future jobs.", "misconception": "weak_conclusion", "whyVi": "Đưa lý do mới vào kết luận. Lý do này nên nằm trong thân bài, nếu cần." },
+        { "text": "In conclusion, the school should spend the donation on new laptops, since up-to-date technology would support learning in almost every subject.", "misconception": "weak_conclusion", "whyVi": "Chép nguyên văn câu mở bài. Kết luận cần diễn đạt lại, không lặp lại từng chữ." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Kết luận tốt: một câu, cùng lựa chọn với mở bài, diễn đạt khác đi, không có ý mới.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "stimulusId": "survey-transit",
+      "prompt": "A writer chooses Option A. Reason 1 was about shift workers getting home safely. Which paragraph is the best Reason 2?",
+      "options": [
+        { "text": "Another benefit is that better late-night service would make our roads safer. When the last bus leaves before 1 a.m., some people who have been drinking decide to drive rather than pay for an expensive taxi. If buses ran every thirty minutes until 3 a.m., these people would have a cheap and safe alternative, which could reduce impaired driving.", "misconception": null, "whyVi": "Đúng: khía cạnh mới (an toàn giao thông), có giải thích, tình huống cụ thể và kết quả nối về phương án A." },
+        { "text": "Another benefit is safety. Safety is very important for everyone in our city, and late buses are safe. Everybody wants to be safe at night.", "misconception": "undeveloped_reason", "whyVi": "Lập luận vòng tròn: lặp 'safe/safety' bốn lần mà không giải thích an toàn theo nghĩa nào, cho ai." },
+        { "text": "Another benefit is that late-night buses are good for shift workers who finish late and cannot get home.", "misconception": "overlapping_reasons", "whyVi": "Đây chính là lý do 1 (người làm ca) được nói lại — không phải lý do thứ hai." },
+        { "text": "Another benefit is that lower fares would help students and seniors save money for food and rent.", "misconception": "mishandled_other_option", "whyVi": "Đoạn này ủng hộ phương án B (giảm giá vé) — trái với lựa chọn của bài." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Ở Level 8, các phương án nhiễu đều trông giống một đoạn văn hợp lý. Kiểm tra ba điều: khía cạnh mới không? có phát triển không? có ủng hộ đúng phương án mình chọn không?",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "survey-transit",
+      "prompt": "Which sentence handles Option B best in a response that supports Option A?",
+      "options": [
+        { "text": "Admittedly, lower fares would ease the financial pressure on students and seniors. However, many of them already qualify for discounted passes, whereas late-night workers currently have no service at all.", "misconception": null, "whyVi": "Đúng: thừa nhận ưu điểm của B một cách công bằng, rồi phản bác bằng dữ kiện và đối chiếu ('whereas') để quay về A." },
+        { "text": "Lower fares are also great, and many people want them.", "misconception": "mishandled_other_option", "whyVi": "Chỉ khen B mà không phản bác — đoạn này làm yếu lựa chọn của bạn." },
+        { "text": "Option B is a waste of money, and only people who do not care about workers would choose it.", "misconception": "mishandled_other_option", "whyVi": "Chê bai và quy chụp người khác. Giọng văn thiếu tôn trọng làm bài kém thuyết phục." },
+        { "text": "Actually, after thinking about it more, lower fares might help even more people.", "misconception": "mishandled_other_option", "whyVi": "Đổi phe giữa bài — người đọc không còn biết bạn ủng hộ gì." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Mẫu chuẩn: Admittedly / Granted + ưu điểm của phương án kia → However + lý do phương án của bạn vẫn tốt hơn. Chỉ 1–2 câu.",
+      "competency": "coherence"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "stimulusId": "survey-squamish",
+      "medium": "write",
+      "minWords": 150,
+      "prompt": "Write your full survey response (150–200 words). Spend 3 minutes on a plan first: choice, two different reasons with examples, one line for the other option, conclusion.",
+      "checklist": [
+        "States one clear choice in the first sentence, with a one-line overall reason.",
+        "Develops two different (non-overlapping) reasons in separate paragraphs.",
+        "Each reason has an explanation and a specific example or consequence.",
+        "If the other option is mentioned, it is acknowledged briefly and then rebutted, without changing sides.",
+        "Ends with a short conclusion that restates the choice in different words and adds no new reason.",
+        "Is 150–200 words long, with clear paragraph breaks."
+      ],
+      "modelAnswer": "I would prefer that the council build a covered market space, mainly because it would benefit the whole town all year round rather than a small group of gardeners.\n\nThe main reason is that a covered space would bring people downtown in every season. Squamish gets a great deal of rain, especially from October to April, and our current summer market is often half empty on wet Saturdays. With a roof, vendors and shoppers could keep coming throughout the year, which would also mean more customers for nearby cafés and shops.\n\nAnother advantage is that the space could be used for much more than a market. It could host winter craft fairs, outdoor movie nights or cultural festivals, so residents of all ages would have a reason to use it.\n\nAdmittedly, a community garden would let families grow their own food. However, it would serve only the thirty or forty people who could rent a plot, and many residents already have gardens at home.\n\nFor these reasons, a covered market space is the more inclusive and practical choice for downtown Squamish.",
+      "misconception": "undeveloped_reason",
+      "explanationVi": "Tự kiểm tra: gạch chân câu đầu và câu cuối — cùng một lựa chọn chưa? Đặt nhãn khía cạnh cho hai lý do (ví dụ: all-season use / multi-purpose) — có khác nhau không? Mỗi lý do có ít nhất một chi tiết cụ thể chưa?",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "misconceptions": {
+    "unclear_choice": {
+      "label": "Không chọn rõ hoặc chọn cả hai",
+      "explanationVi": "Bạn sợ chọn 'sai' nên đứng giữa ('Both are good'), mở bài chung chung, hoặc nêu lựa chọn muộn và yếu ('I think maybe'). Task 2 yêu cầu chọn một phương án và bảo vệ nó — không chọn rõ là không hoàn thành nhiệm vụ.",
+      "fixVi": "Viết lựa chọn ngay câu đầu bằng mẫu 'I would prefer… mainly because…'. Không có đáp án đúng sai — chọn bên mà bạn có lý do và ví dụ dễ nhất."
+    },
+    "overlapping_reasons": {
+      "label": "Hai lý do trùng nhau",
+      "explanationVi": "Hai lý do của bạn thực chất là một ý nói theo hai cách (cheaper / saves money), nên đoạn thứ hai lặp lại đoạn thứ nhất. Đây là lỗi lập dàn ý, khiến bài có vẻ dài nhưng nghèo ý.",
+      "fixVi": "Khi lập dàn ý, gán cho mỗi lý do một nhãn khía cạnh: cost, people who benefit, health, safety, environment, convenience, long-term value. Hai nhãn phải khác nhau."
+    },
+    "undeveloped_reason": {
+      "label": "Lý do không được phát triển",
+      "explanationVi": "Bạn nêu lý do bằng một câu chung chung rồi lặp lại bằng lời khác ('It is important. Many people need it.'). Không có giải thích, ví dụ hay kết quả cụ thể, nên lý do không thuyết phục.",
+      "fixVi": "Phát triển mỗi lý do theo chuỗi Point → Explanation → Example → Result. Ví dụ nên cụ thể: một nhóm người, một con số, một trải nghiệm của bạn ở BC."
+    },
+    "mishandled_other_option": {
+      "label": "Xử lý phương án còn lại sai cách",
+      "explanationVi": "Khi nhắc tới phương án kia, bạn chỉ khen mà không phản bác, chê bai thô lỗ, đổi phe giữa bài, hoặc dùng nó làm 'lý do' cho lựa chọn của mình. Điều này làm lập luận mâu thuẫn hoặc thiếu cân bằng.",
+      "fixVi": "Chỉ dành 1–2 câu: Admittedly / Granted + một ưu điểm công bằng của phương án kia → However + vì sao phương án của bạn vẫn tốt hơn. Đặt đoạn này sau hai lý do chính."
+    },
+    "weak_conclusion": {
+      "label": "Kết luận yếu",
+      "explanationVi": "Kết luận của bạn chép nguyên văn câu mở bài, thêm một lý do mới chưa được phát triển, hoặc bị bỏ qua. Người đọc mất cảm giác bài được khép lại chặt chẽ.",
+      "fixVi": "Một câu: For these reasons, / Overall, + lựa chọn được diễn đạt lại (the more practical and inclusive choice). Không thêm ý mới, không chép lại câu mở bài."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "I would prefer… , mainly because…", "vi": "Tôi chọn… chủ yếu vì… (nêu lựa chọn + lý do tổng quát)", "example": "I would prefer Option B, mainly because a transit subsidy would benefit almost every employee." },
+    { "term": "In my view, … should…", "vi": "Theo tôi, … nên…", "example": "In my view, the city should extend the library's weekday hours." },
+    { "term": "The main reason is that…", "vi": "Lý do chính là… (câu chủ đề cho lý do 1)", "example": "The main reason is that Sunday is the only day many families in Surrey can visit together." },
+    { "term": "Another advantage is that…", "vi": "Một ưu điểm khác là… (câu chủ đề cho lý do 2)", "example": "Another advantage is that the space could host winter craft fairs." },
+    { "term": "For example, / For instance,", "vi": "Ví dụ, … (dẫn vào ví dụ cụ thể)", "example": "For example, hospital cleaners who finish at midnight often have to take a taxi home." },
+    { "term": "Admittedly, … However, …", "vi": "Phải thừa nhận rằng… Tuy nhiên… (thừa nhận rồi phản bác)", "example": "Admittedly, a pool would encourage exercise. However, there are already two public pools nearby." },
+    { "term": "whereas", "vi": "trong khi đó (đối chiếu hai phương án)", "example": "Many seniors already have discounted passes, whereas night workers have no service at all." },
+    { "term": "For these reasons, I believe…", "vi": "Vì những lý do này, tôi tin rằng… (mở đầu kết luận)", "example": "For these reasons, I believe the covered market is the better use of the lot." },
+    { "term": "the more practical and inclusive choice", "vi": "lựa chọn thiết thực và bao quát hơn (diễn đạt lại lựa chọn ở kết luận)", "example": "Sunday opening is the more practical and inclusive choice for our community." }
+  ],
+  "grammar": [
+    {
+      "point": "Stating a preference: prefer + noun / prefer that + subject + base verb",
+      "explanationVi": "Có hai mẫu: 'I would prefer Option A' (prefer + danh từ) và 'I would prefer that the library open on Sundays' (prefer that + chủ ngữ + động từ nguyên mẫu, không thêm -s). Mẫu thứ hai trang trọng và rất hợp với câu mở bài Task 2. Tránh 'I prefer to choose Option A' (thừa) và 'I would prefer that the library opens' (khi trang trọng, dùng động từ nguyên mẫu).",
+      "examples": [
+        "I would prefer Option B, mainly because it would reduce traffic.",
+        "I would prefer that the council build a covered market space.",
+        "In my view, the school should buy new laptops."
+      ]
+    },
+    {
+      "point": "Using would / could for the benefits of a hypothetical choice",
+      "explanationVi": "Phương án trong khảo sát chưa xảy ra, nên khi nói về lợi ích của nó, dùng 'would / could' (và câu điều kiện loại 2: If + quá khứ, … would…). Người viết Level 7 hay dùng 'will' hoặc hiện tại đơn ('A garden is good because families grow food'), làm câu nghe như sự việc đã có.",
+      "examples": [
+        "A covered space would bring people downtown in every season.",
+        "If buses ran until 3 a.m., night workers could get home safely.",
+        "With new laptops, every student could finish assignments in class."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Luyện Task 2 – trả lời khảo sát", "route": "/writing?task=W2" },
+    { "label": "Ôn lại lỗi đã mắc", "route": "/mistakes" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises; keys sound. Replaced First/Second in g3 with the topic-sentence signals the lesson teaches, made the transit-pass figure 'more than $100' (clearly approximate), and added 'true' as a g4 concession variant."}
+}

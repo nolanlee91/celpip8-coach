@@ -1,0 +1,365 @@
+{
+  "id": "sp-02",
+  "skill": "speaking",
+  "module": "speaking-foundations",
+  "level": "foundation",
+  "difficulty": 6,
+  "title": "Generating ideas quickly",
+  "titleVi": "Nghĩ ý nhanh trong 30 giây chuẩn bị",
+  "estimatedMinutes": 30,
+  "prerequisites": ["sp-01"],
+  "competencies": ["task_fulfillment"],
+  "tasks": ["S1", "S2", "S7"],
+  "objectives": [
+    "You will be able to use a 30-second prep routine: read the task, brainstorm with WH-questions, then choose 2–3 ideas.",
+    "You will be able to develop each idea with a reason, a specific example and a result (Reason → Example → Result).",
+    "You will be able to write keyword-only notes in English instead of full sentences.",
+    "You will be able to pick the side of an opinion question that you can develop best, not just the one you feel strongly about."
+  ],
+  "objectiveVi": "Bạn sẽ có một quy trình 30 giây cố định: đọc đề và gạch yêu cầu → hỏi WHO/WHAT/WHERE/WHY/HOW để bật ý → chọn 2–3 ý và ghi keyword theo Reason → Example → Result. Khi đồng hồ bắt đầu đếm giờ nói, bạn đã có “bản đồ” trong tay.",
+  "whyItMattersVi": "Nhiều người ở Level 6 nói được câu khá đúng nhưng nội dung mỏng: một hai ý chung chung (“it is good”, “money is important”) rồi lặp lại. Nguyên nhân thường nằm ở 30 giây chuẩn bị: thời gian bị dùng để dịch câu từ tiếng Việt hoặc viết câu hoàn chỉnh. Khi bạn biết cách bật ý nhanh và có ví dụ cụ thể, phần task fulfilment tăng rõ rệt — và bạn cũng nói trôi hơn vì không phải vừa nói vừa nghĩ ý.",
+  "concept": [
+    {
+      "heading": "30 giây chuẩn bị dùng để làm gì",
+      "body": "30 giây (Task 1, 2, 3, 4, 7, 8) là rất ít. Đừng dùng nó để **viết câu** hay **dịch từ tiếng Việt** — bạn sẽ chỉ kịp viết một câu mở rồi hết giờ. Mục tiêu duy nhất của phần prep là: **chọn ý và ghi keyword**. Câu chữ sẽ đến khi bạn nói, nhờ khung bạn đã học ở sp-01 (Opening → Points → Wrap-up).\n\nNgười chấm đánh giá xem bạn có làm đúng yêu cầu và có phát triển ý không. Ý cụ thể, gắn với người và hoàn cảnh trong đề, luôn được đánh giá cao hơn ý chung chung."
+    },
+    {
+      "heading": "Quy trình 30 giây: 5 – 15 – 10",
+      "body": "- **0–5 giây: Đọc và gạch.** Gạch động từ yêu cầu (*give advice, talk about, do you agree*), người nghe (*your cousin, your manager*) và chi tiết quan trọng (*first year, night shifts, tight budget*).\n- **5–20 giây: Bật ý bằng WH-questions.** Task 1: *WHAT can he do? WHERE? WHO can help?* Task 2: *WHEN, WHERE, WHO, WHAT happened, HOW did you feel?* Task 7: *WHY yes? WHY no?* Ghi nhanh 4–5 ý thô.\n- **20–30 giây: Chọn và bổ sung.** Giữ 2–3 ý mạnh nhất. Với mỗi ý, thêm một keyword ví dụ và một keyword kết quả. Nếu còn thời gian, ghi 2–3 từ cho câu kết.\n\nKhi bắt đầu nói, câu mở thường không cần ghi — bạn đã luyện nó trong sp-01."
+    },
+    {
+      "heading": "Phát triển ý: Reason → Example → Result",
+      "body": "Một ý chỉ có tên (“budget”) sẽ chỉ cho bạn 5 giây nói. Mỗi ý cần ba keyword:\n\n- **Reason:** vì sao lời khuyên/lý do này đúng? → *see where money goes*\n- **Example:** cụ thể ở đâu, ai, bao nhiêu? → *bank app, $50/week for food*\n- **Result:** điều gì sẽ xảy ra? → *notice overspending early*\n\nVí dụ tốt có **tên riêng, con số hoặc một cảnh nhỏ**: “the 99 B-Line”, “about two hundred dollars a month”, “my neighbour's son catches the bus at 7:15”. Bạn được phép dùng ví dụ giả định hoặc tự tạo, miễn là hợp lý — CELPIP đánh giá khả năng nói, không kiểm tra sự thật về đời bạn."
+    },
+    {
+      "heading": "Kho lý do dùng lại được",
+      "body": "Khi bí ý, hãy “quét” nhanh danh sách này — gần như mọi đề Task 1, 5, 6, 7 đều có ít nhất hai mục phù hợp:\n\n**money · time · health · safety · family & relationships · career & learning · convenience · environment · community**\n\nVí dụ đề “Should employers give workers a paid day off on their birthday?”: *happiness/morale* (health), *loyalty → fewer people quit* (career/money), *scheduling problems* (time). Chỉ trong 5 giây bạn đã có 3 hướng.\n\n**Với Task 7:** chọn phía mà bạn **phát triển được nhiều nhất**, không nhất thiết là ý kiến thật của bạn. Đếm nhanh: phía nào có 2 lý do có ví dụ? Chọn phía đó và đừng đổi ý giữa chừng."
+    },
+    {
+      "heading": "Ghi chú: keyword, tiếng Anh, có số thứ tự",
+      "body": "Một tờ ghi chú tốt trông như thế này (Task 1, khuyên em họ năm nhất UBC về tiền bạc):\n\n① budget – rent, phone – bank app → spot overspending\n② U-Pass – no car → save $100s\n③ PT job campus – 10 h – résumé\nEnd: no debt\n\nLưu ý: ghi bằng **tiếng Anh** (để khỏi dịch khi nói), dùng ký hiệu (→, $, h), **không** viết câu. Khoảng 10–15 từ là đủ cho 60–90 giây. Với Task 2, ghi theo trục thời gian: *when/where → what happened → result → feeling/lesson*."
+    }
+  ],
+  "stimuli": {
+    "bao-prompt": {
+      "title": "Task 1 prompt: a first-year student and money",
+      "text": "Your cousin Bao is starting his first year at the University of British Columbia in September. He is worried about managing his money as a student.\n\nGive Bao some advice about how to manage his money. (Preparation: 30 seconds. Speaking: 90 seconds.)"
+    },
+    "birthday-prompt": {
+      "title": "Task 7 prompt: a paid day off on your birthday",
+      "text": "Some companies give every employee a paid day off on their birthday.\n\nDo you think all employers should do this? Explain your reasons. (Preparation: 30 seconds. Speaking: 90 seconds.)"
+    },
+    "good-news-prompt": {
+      "title": "Task 2 prompt: good news",
+      "text": "Talk about a time when you received some good news. Where were you, what was the news, and how did you react? (Preparation: 30 seconds. Speaking: 60 seconds.)"
+    },
+    "mai-prompt": {
+      "title": "Task 1 prompt: a friend on night shifts",
+      "text": "Your friend Mai has just started working night shifts as a care aide at a hospital in Surrey. She finishes work at 7 a.m. and can't sleep well during the day.\n\nGive Mai some advice. (Preparation: 30 seconds. Speaking: 90 seconds.)"
+    },
+    "car-prompt": {
+      "title": "Task 1 prompt: buying a first car",
+      "text": "Your friend Jordan wants to buy a car. He lives a five-minute walk from a SkyTrain station, works downtown from Monday to Friday, and is trying to save money for a wedding next year.\n\nGive Jordan some advice about whether he should buy a car. (Preparation: 30 seconds. Speaking: 90 seconds.)"
+    }
+  },
+  "examples": [
+    {
+      "id": "ex1",
+      "title": "Task 1: what 30 good seconds of prep sound like",
+      "stimulusId": "bao-prompt",
+      "question": "How do you use 30 seconds to plan advice for Bao, and how does planning change the answer?",
+      "steps": [
+        "0–5 s — gạch: “cousin Bao” (thân mật), “first year”, “UBC”, “managing his money”. Yêu cầu: give advice.",
+        "5–20 s — bật ý bằng WHAT/WHERE: budget, cook at home, U-Pass (no car), part-time job on campus, student discounts. Năm ý thô trong khoảng 10 giây.",
+        "20–30 s — chọn 3 ý dễ có ví dụ cụ thể nhất và thêm Example/Result: ① budget – rent, phone – bank app → spot overspending; ② U-Pass – no car → save $100s; ③ PT job campus – 10 h – résumé. End: no debt.",
+        "Khi nói: dùng khung sp-01 (câu mở đồng cảm → 3 khối ý → câu kết), đọc keyword để “mở” từng câu. So sánh ba bản dưới đây."
+      ],
+      "answer": "Note sheet (≈ 15 words): ① budget – rent, phone – bank app → spot overspending ② U-Pass – no car → save $100s ③ PT job campus – 10 h – résumé · End: no debt",
+      "comparisons": [
+        {
+          "label": "weak",
+          "text": "Hi Bao. Um… money is very important for student. Um… you should save money. Because in Vancouver everything is expensive, rent is expensive, food is expensive. Um… so you should save money. And… um… you should not buy many thing. Um… I think you can work part-time also. Okay, um, that's it. Good luck.",
+          "commentVi": "Đây là kết quả của 30 giây chuẩn bị bị dùng để nghĩ câu: chỉ có một ý mơ hồ (“save money”) lặp hai lần, không ví dụ cụ thể, không dùng chi tiết “UBC” hay “first year”. Ý “work part-time” xuất hiện ở cuối, không phát triển. Lỗi điển hình: “for student” (thiếu “a” hoặc số nhiều “students”), “many thing” (thiếu -s), “Because…” đứng một mình. Ngập ngừng “um” liên tục vì vừa nói vừa nghĩ ý. Chỉ khoảng 30–35 giây."
+        },
+        {
+          "label": "acceptable",
+          "text": "Hi Bao, congratulations on getting into UBC! I know money is a big worry for students, so here are some ideas. First, you should make a budget. You can use an app on your phone, and it will help you see where your money goes. Second, you should cook at home. Eating out in Vancouver is expensive, so cooking can save a lot of money. Finally, you can get a part-time job on campus. Then you will have some extra money. I hope this helps. Good luck!",
+          "commentVi": "Có kế hoạch: ba ý, khung rõ, ít ngập ngừng. Nhưng mỗi ý chỉ có một lý do chung (“save a lot of money”, “some extra money”) — thiếu Example cụ thể (app nào? bao nhiêu tiền? làm ở đâu, mấy giờ?) và gần như không dùng chi tiết riêng của Bao. Khoảng 40–45 giây trên 90: chuẩn bị đủ ý nhưng chưa đủ “chất” để lấp thời gian."
+        },
+        {
+          "label": "level8",
+          "text": "Hey Bao, congratulations on getting into UBC! It's totally normal to worry about money in first year, so let me give you a few practical tips. First of all, I'd set up a simple budget before September even starts. Write down your fixed costs, like rent and your phone bill, and then decide how much you can spend on food and fun each week. Your bank's app can track it automatically, so you'll notice right away if you're overspending. Second, take advantage of things you're already paying for. Your U-Pass is included in your student fees, so you really don't need a car, and that alone could save you a few hundred dollars a month. Last but not least, think about a part-time job on campus, maybe ten hours a week at the library or a café. You'd earn some spending money without a long commute, and it looks great on a résumé. So, if you do these three things, you'll probably finish first year without any credit card debt. You've got this!",
+          "commentVi": "Mỗi keyword trên tờ ghi chú biến thành một khối Reason → Example → Result: budget → rent, phone bill, bank app → notice overspending; U-Pass → no car → a few hundred dollars a month; campus job → ten hours, library or café → spending money + résumé. Ví dụ gắn chặt với hoàn cảnh của Bao (UBC, first year). Từ vựng chính xác: “fixed costs”, “take advantage of”, “credit card debt”. Gần như không ngập ngừng vì ý đã có sẵn. Lấp đủ khoảng 85–90 giây."
+        }
+      ],
+      "takeawayVi": "Chất lượng câu trả lời được quyết định trong 30 giây chuẩn bị. Ghi keyword cho Reason/Example/Result, không ghi câu — và luôn dùng chi tiết trong đề làm nguyên liệu cho ví dụ."
+    },
+    {
+      "id": "ex2",
+      "title": "Task 7: choosing the side you can develop",
+      "stimulusId": "birthday-prompt",
+      "question": "In 30 seconds, how do you decide which side to take and what to say?",
+      "steps": [
+        "0–5 s — gạch “all employers should”, “explain your reasons”. Đây là câu hỏi ý kiến: phải chọn phía.",
+        "5–15 s — quét kho lý do, ghi nhanh hai cột. YES: morale/happy (health), loyalty → fewer quit (money/career), feel valued. NO: cost for small business (money), scheduling – restaurants, hospitals (time).",
+        "15–20 s — đếm: YES có 2 lý do dễ cho ví dụ; NO cũng có 2 nhưng ví dụ khó hơn với bạn. Chọn YES — dù bạn chưa chắc ý kiến thật của mình.",
+        "20–30 s — thêm Example/Result: ① morale – sister's company – came back energized; ② loyalty – hiring/training costs – cheaper than replacing staff. Note phản biện: “small biz → flexible day in same month”."
+      ],
+      "answer": "Note sheet: YES · ① morale – sister's office – energized → work harder ② loyalty – hire/train $$ → cheaper to keep staff · other side: small biz → any day that month · End: small cost, big return\n\nModel opening: “I think it's a great idea for employers to give staff a paid day off on their birthday, mainly because it boosts morale and helps companies keep good people.”",
+      "takeawayVi": "Task 7 không chấm “ý kiến đúng”, mà chấm cách bạn bảo vệ ý kiến. Chọn phía có nhiều lý do phát triển được, ghi ví dụ cho từng lý do, và giữ nguyên lập trường đến cuối."
+    },
+    {
+      "id": "ex3",
+      "title": "Task 2: a story in five keywords",
+      "stimulusId": "good-news-prompt",
+      "question": "How do you find and plan a story in 30 seconds?",
+      "steps": [
+        "Đừng tìm câu chuyện “hay nhất” — chọn câu chuyện **đầu tiên** bạn nhớ rõ chi tiết. Mất 10 giây để chọn là quá lâu.",
+        "Đi qua WH theo trục thời gian: WHEN/WHERE: March, warehouse break room, Burnaby · WHAT: email – PR approved · REACTION: hands shaking, called mom in Vietnam · LESSON: 3 years of waiting worth it.",
+        "Chọn một chi tiết cảm xúc cụ thể (“hands shaking”, “read it three times”) — đây là thứ làm câu chuyện sống động.",
+        "Ghi một câu kết ngắn bằng keyword: “patience”. Khi nói, dùng thì quá khứ và các mốc thời gian (as soon as, then, that evening)."
+      ],
+      "answer": "Model (≈ 60 s): “I'd like to talk about the day I found out my permanent residence was approved. It was a Tuesday in March, and I was on my lunch break in the staff room at the warehouse where I work in Burnaby. I checked my email, and there it was — the confirmation from IRCC. Honestly, my hands were shaking, and I had to read it three times to make sure it was real. As soon as I understood, I called my mom in Vietnam, even though it was the middle of the night there. She cried, and then I cried too, right there in the staff room. My coworkers bought me a cake that afternoon. Looking back, it was the moment I realized that three years of paperwork and waiting had been worth it.”",
+      "takeawayVi": "Với Task 2, WH-questions cũng là dàn ý: khi nào/ở đâu → chuyện gì → phản ứng → bài học. Một chi tiết cảm xúc cụ thể quan trọng hơn nhiều câu chung chung."
+    }
+  ],
+  "guided": [
+    {
+      "id": "g1",
+      "type": "choice",
+      "stimulusId": "mai-prompt",
+      "prompt": "You have 30 seconds to prepare advice for Mai. Which note sheet is the most useful?",
+      "hint": "Tờ ghi chú tốt có ít chữ, bằng tiếng Anh, chia theo từng ý và có ví dụ/kết quả cho mỗi ý.",
+      "options": [
+        { "text": "“Hi Mai, I'm sorry to hear that you can't sleep. First, I think you should buy some blackout curtains because…”", "misconception": "write-sentences", "whyVi": "Viết câu hoàn chỉnh tốn hết thời gian; bạn mới viết xong câu mở và nửa ý đầu." },
+        { "text": "① blackout curtains – dark room → body thinks night ② same sleep time – also days off ③ no coffee after 3 a.m. – earplugs", "misconception": null, "whyVi": "Đúng. Ba ý, mỗi ý có lý do/kết quả bằng keyword tiếng Anh, khoảng 20 từ — đủ cho 90 giây." },
+        { "text": "“rèm tối, ngủ cùng giờ, không uống cà phê, nút tai, tập thể dục, ăn nhẹ”", "misconception": "write-sentences", "whyVi": "Ghi bằng tiếng Việt buộc bạn phải dịch trong lúc nói, gây ngập ngừng; cũng không có lý do hay ví dụ cho ý nào." },
+        { "text": "curtains / earplugs / coffee / exercise / snacks / phone / music / tea", "misconception": "too-many-ideas", "whyVi": "Tám ý không được chọn lọc. Bạn sẽ liệt kê thay vì phát triển, mỗi ý chỉ được vài giây." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Ghi chú là “bản đồ”, không phải “bài viết”. Keyword tiếng Anh + số thứ tự + mũi tên kết quả là định dạng nhanh nhất.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g2",
+      "type": "choice",
+      "prompt": "Task 1: your friend wants to get fit but says she has no time. Which keyword note will give you the most to say in about 25 seconds?",
+      "hint": "Tìm ghi chú có đủ ba phần: lý do, ví dụ cụ thể và kết quả.",
+      "options": [
+        { "text": "bike to work", "misconception": "no-development", "whyVi": "Chỉ có tên ý. Khi nói, bạn sẽ hết chuyện sau một câu." },
+        { "text": "bike to work – no extra time – 20 min seawall route → fitter + save on gas", "misconception": null, "whyVi": "Đúng. Reason (no extra time) → Example (20 min seawall route) → Result (fitter + save on gas). Mỗi keyword mở ra một câu." },
+        { "text": "bike / gym / yoga / swim / diet", "misconception": "too-many-ideas", "whyVi": "Năm ý không có phát triển — lỗi liệt kê." },
+        { "text": "health – important – very important", "misconception": "no-development", "whyVi": "Chung chung và lặp; không phải lời khuyên cụ thể và không có ví dụ." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Mỗi ý nên có 3 keyword: lý do – ví dụ – kết quả. Đó là nguyên liệu cho 20–30 giây nói.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g3",
+      "type": "order",
+      "prompt": "Put the steps of the 30-second prep routine in order.",
+      "hint": "Bắt đầu từ việc hiểu đề, kết thúc bằng việc chuẩn bị câu kết. Chọn lọc ý phải đến sau khi đã có ý thô.",
+      "items": [
+        "Read the prompt and underline the task verb, the listener and key details.",
+        "Brainstorm 4–5 rough ideas with WH-questions.",
+        "Choose the 2–3 ideas that are easiest to develop.",
+        "Add an example keyword and a result keyword to each chosen idea.",
+        "Note two or three words for your wrap-up."
+      ],
+      "misconception": "too-many-ideas",
+      "explanationVi": "Đọc → bật ý → chọn → bổ sung ví dụ/kết quả → câu kết. Nếu bỏ bước “chọn”, bạn sẽ mang quá nhiều ý vào phần nói.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "g4",
+      "type": "choice",
+      "prompt": "Task 7: “Should all new apartment buildings in BC include a secure bike room?” In 15 seconds you note: YES — fewer stolen bikes; more people cycle, less traffic; residents with small units have no space for bikes. NO — it makes buildings more expensive. Which side should you choose?",
+      "hint": "Nhớ lại tiêu chí chọn phía trong Task 7: không phải phía bạn “thích”, mà là phía bạn nói được nhiều nhất.",
+      "options": [
+        { "text": "Yes, because you have three reasons you can develop.", "misconception": null, "whyVi": "Đúng. Ba lý do, và cả ba đều dễ có ví dụ cụ thể (xe bị trộm ở parkade, căn hộ nhỏ ở Burnaby…). Bạn có thể dùng ý của phía NO làm câu nhượng bộ." },
+        { "text": "No, because cost is the most serious issue and you personally don't cycle.", "misconception": "true-opinion-trap", "whyVi": "Bạn chỉ có một lý do cho phía NO; 90 giây sẽ rất khó lấp. Thói quen cá nhân không phải tiêu chí chọn." },
+        { "text": "Neither — explain both sides equally and let the listener decide.", "misconception": "true-opinion-trap", "whyVi": "Task 7 yêu cầu nêu ý kiến. Đứng giữa khiến câu trả lời không hoàn thành yêu cầu." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Đếm lý do có thể phát triển, rồi quyết định trong vài giây. Ý của phía còn lại vẫn hữu ích: dùng nó làm câu “Some people might say… but…”.",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "independent": [
+    {
+      "id": "i1",
+      "type": "choice",
+      "stimulusId": "mai-prompt",
+      "prompt": "Which piece of advice for Mai is the LEAST useful, because it ignores a detail in the prompt?",
+      "options": [
+        { "text": "Try to go to bed earlier at night, around ten o'clock.", "misconception": null, "whyVi": "Đúng. Mai làm ca đêm và kết thúc lúc 7 giờ sáng — cô ấy không thể ngủ lúc 10 giờ tối. Lời khuyên này bỏ qua chi tiết quan trọng nhất của đề." },
+        { "text": "Put blackout curtains in your bedroom so it feels like night when you get home.", "misconception": "ignore-details", "whyVi": "Lời khuyên này bám đúng vấn đề “không ngủ được ban ngày” — nó hữu ích." },
+        { "text": "Avoid coffee in the second half of your shift so you can fall asleep after work.", "misconception": "ignore-details", "whyVi": "Phù hợp với lịch ca đêm — nó hữu ích." },
+        { "text": "Keep the same sleep schedule on your days off, so your body gets used to it.", "misconception": "ignore-details", "whyVi": "Liên quan trực tiếp đến việc thích nghi với ca đêm — nó hữu ích." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Khi bật ý, luôn kiểm tra ý đó với chi tiết trong đề (night shifts, finishes at 7 a.m.). Ý chung chung “ngủ sớm” nghe hợp lý nhưng sai hoàn cảnh.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i2",
+      "type": "choice",
+      "stimulusId": "good-news-prompt",
+      "prompt": "A learner's notes for this Task 2 prompt read: “nervous – Vietnam – family – happy – job – Canada – friend – 2019 – rain – coffee”. What is the main problem?",
+      "options": [
+        { "text": "The notes are in English, so they will be hard to use.", "misconception": "write-sentences", "whyVi": "Ghi bằng tiếng Anh là đúng — nó giúp bạn không phải dịch khi nói." },
+        { "text": "The words are not connected to ONE event, so there is no clear story to tell.", "misconception": null, "whyVi": "Đúng. Mười từ rời rạc từ nhiều chuyện khác nhau (job? Canada? 2019?). Không có WHAT happened rõ ràng nên không thể kể theo trình tự." },
+        { "text": "There are too few words for a 60-second answer.", "misconception": "write-sentences", "whyVi": "Mười từ là đủ số lượng — ghi chú tốt chỉ cần 10–15 keyword, không cần viết nhiều hơn; vấn đề là chúng không thuộc cùng một câu chuyện." },
+        { "text": "The learner should have chosen a sad story instead.", "misconception": "ignore-details", "whyVi": "Đề yêu cầu tin tốt; chọn chuyện buồn là sai yêu cầu." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Task 2 cần chọn MỘT sự việc trước, rồi mới ghi keyword theo trục when/where → what → reaction → lesson.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i3",
+      "type": "text",
+      "prompt": "Complete the Task 2 planning questions with ONE word: “When? Where? Who? What happened? ___ did you feel, and what did you learn?”",
+      "answers": ["how"],
+      "mode": "exact",
+      "misconception": "no-development",
+      "explanationVi": "“How did you feel?” là câu hỏi người học hay bỏ qua, nhưng cảm xúc và bài học chính là phần làm câu chuyện Task 2 trọn vẹn — và đề Task 2 thường hỏi trực tiếp điều này.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i4",
+      "type": "order",
+      "prompt": "Task 7: “Should cities plant more trees on residential streets?” Put this developed reason in order: Point → Reason → Example → Result.",
+      "items": [
+        "One big benefit is that trees keep neighbourhoods cooler.",
+        "They provide shade and cool the air around them, which matters more and more during our summer heat waves.",
+        "On my street, which has big old maples, it feels several degrees cooler than the parking lot at the mall down the road.",
+        "So more street trees could make summers safer, especially for seniors who don't have air conditioning."
+      ],
+      "misconception": "no-development",
+      "explanationVi": "Point nêu ý; Reason giải thích cơ chế (shade, cool air); Example đưa một cảnh cụ thể (my street vs the mall parking lot); Result nói hệ quả cho con người (safer summers for seniors). Bốn câu ≈ 20–25 giây.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i5",
+      "type": "choice",
+      "prompt": "Task 7: “Should high school students in BC be required to take a personal finance course?” You have 30 seconds. Which plan uses the prep time best?",
+      "options": [
+        { "text": "Choose “agree”; note ① credit cards & student loans – 20% interest → avoid debt ② taxes & TFSA – first job → save early; end: “life skill”.", "misconception": null, "whyVi": "Đúng. Chọn phía nhanh, hai lý do mỗi lý do có ví dụ và kết quả, có keyword câu kết — đủ cho 90 giây." },
+        { "text": "Choose “disagree” because that is your honest feeling, even though you can only think of one reason.", "misconception": "true-opinion-trap", "whyVi": "Một lý do không đủ cho 90 giây. Chọn phía bạn phát triển được, không phải phía bạn cảm thấy." },
+        { "text": "Spend the 30 seconds writing a perfect first sentence so you start confidently.", "misconception": "write-sentences", "whyVi": "Câu mở đã có khung sẵn (sp-01). Dùng 30 giây để viết một câu nghĩa là bước vào phần nói không có ý nào." },
+        { "text": "Write down every reason you can think of for both sides and decide while speaking.", "misconception": "too-many-ideas", "whyVi": "Không chọn lọc và không quyết định lập trường trước khi nói sẽ dẫn đến lưỡng lự và đổi ý giữa chừng." }
+      ],
+      "answerIndex": 0,
+      "explanationVi": "Quy trình: quyết định phía → 2 lý do → ví dụ + kết quả → keyword kết. Tất cả nằm gọn trong khoảng 15 từ.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i6",
+      "type": "choice",
+      "prompt": "Reason: “Working from home a couple of days a week saves employees money.” Which example makes this reason the most convincing?",
+      "options": [
+        { "text": "For example, it saves a lot of money, so it's really good.", "misconception": "no-development", "whyVi": "Đây không phải ví dụ — chỉ lặp lại lý do bằng từ khác." },
+        { "text": "For example, my sister in Coquitlam spends about twenty dollars a day on gas and parking for her downtown job, so two days at home a week would save her around a hundred and sixty dollars a month.", "misconception": null, "whyVi": "Đúng. Có người cụ thể, nơi cụ thể, con số và kết quả tính được — người nghe “thấy” được khoản tiết kiệm." },
+        { "text": "For example, money is important for everyone nowadays because life is expensive.", "misconception": "no-development", "whyVi": "Lập luận vòng tròn và chung chung; không liên quan cụ thể đến làm việc tại nhà." },
+        { "text": "For example, working from home is also better for the environment.", "misconception": "too-many-ideas", "whyVi": "Đây là một lý do mới (environment), không phải ví dụ cho lý do “saves money”." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Ví dụ Level 8 = người/địa điểm cụ thể + con số + kết quả. Kiểm tra: ví dụ có minh hoạ đúng lý do vừa nêu không, hay đang lặp lại hoặc mở ý mới?",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i7",
+      "type": "choice",
+      "stimulusId": "car-prompt",
+      "prompt": "Which set of ideas makes the best use of the details in Jordan's situation?",
+      "options": [
+        { "text": "① Cars are expensive in general ② Driving is stressful ③ Electric cars are better for the environment", "misconception": "ignore-details", "whyVi": "Ý chung chung, áp dụng cho bất kỳ ai; không dùng chi tiết SkyTrain, downtown hay đám cưới." },
+        { "text": "① He's five minutes from SkyTrain, so transit to downtown is faster than driving ② Insurance, gas and downtown parking could cost $500+ a month — money for the wedding ③ For weekend trips, use Evo or Modo car share instead", "misconception": null, "whyVi": "Đúng. Mỗi ý gắn với một chi tiết trong đề (SkyTrain gần nhà, làm downtown, tiết kiệm cho đám cưới) và có ví dụ/số liệu cụ thể." },
+        { "text": "① Buy a used Honda because they're reliable ② Check the car's history report ③ Get a mechanic to inspect it", "misconception": "ignore-details", "whyVi": "Lời khuyên về cách mua xe, nhưng bỏ qua câu hỏi chính: có NÊN mua không, khi Jordan sống gần SkyTrain và đang tiết kiệm." },
+        { "text": "① SkyTrain ② money ③ wedding ④ car share ⑤ parking ⑥ insurance ⑦ weekends", "misconception": "too-many-ideas", "whyVi": "Có chi tiết đúng nhưng là bảy mảnh rời, chưa nhóm thành 2–3 ý có lý do và kết quả." }
+      ],
+      "answerIndex": 1,
+      "explanationVi": "Chi tiết trong đề là “mỏ vàng” ý tưởng: người viết đề đặt chúng ở đó để bạn dùng. Ý gắn với hoàn cảnh cụ thể thể hiện bạn thực sự hoàn thành task.",
+      "competency": "task_fulfillment"
+    },
+    {
+      "id": "i8",
+      "type": "produce",
+      "medium": "speak",
+      "prepSec": 30,
+      "responseSec": 90,
+      "prompt": "Task 7: Some people believe that every adult should be required to take a basic first-aid course. Do you agree or disagree? Explain your reasons.\n\nBefore you speak, use the 30 seconds to write keyword notes (about 10–15 words, in English). Then record your answer.",
+      "checklist": [
+        "My notes were keywords only (no full sentences) and fit in about 15 words",
+        "I stated my position clearly in the first sentence and kept it to the end",
+        "I developed two reasons, each with a reason, an example and a result",
+        "At least one example was specific (a person, a place or a number)",
+        "I started speaking within about three seconds and finished with a wrap-up"
+      ],
+      "modelAnswer": "Notes: AGREE · ① emergencies – first minutes – CPR → save lives ② confidence – coworker choked – froze → act calmly · other: cost/time → free/short courses · End: small effort, big difference\n\nAnswer: I agree that every adult should take a basic first-aid course, mainly because it saves lives and it gives people the confidence to act. The main reason is that the first few minutes of an emergency are the most important. If someone collapses at a bus stop, an ambulance might take ten minutes to arrive, but a person who knows CPR can start helping right away. That can be the difference between life and death. The second reason is confidence. A while ago, a coworker of mine started choking in the lunchroom, and honestly, most of us just froze because nobody knew what to do. Luckily, one woman had taken a course and helped him within seconds. If everyone had that training, people would act calmly instead of panicking. Now, some people might say these courses take time and cost money. That's true, but many are only one day long, and some workplaces pay for them. So, all in all, it's a small effort that could make a huge difference.",
+      "misconception": "no-development",
+      "explanationVi": "So sánh tờ ghi chú của bạn với bài mẫu: khoảng 15 keyword là đủ để nói 90 giây khi mỗi ý có lý do – ví dụ – kết quả. Nếu bạn hết ý trước 60 giây, vấn đề thường là thiếu keyword ví dụ trong ghi chú.",
+      "competency": "task_fulfillment"
+    }
+  ],
+  "misconceptions": {
+    "write-sentences": {
+      "label": "Viết câu / dịch trong lúc chuẩn bị",
+      "explanationVi": "Bạn dùng 30 giây để viết câu hoàn chỉnh hoặc nghĩ bằng tiếng Việt rồi dịch. Kết quả là chỉ có một câu mở và không có ý nào cho phần thân, nên phải vừa nói vừa nghĩ.",
+      "fixVi": "Chỉ ghi keyword tiếng Anh (10–15 từ), có số thứ tự và mũi tên. Câu mở và câu kết dùng khung có sẵn, không cần viết ra."
+    },
+    "too-many-ideas": {
+      "label": "Quá nhiều ý, không chọn lọc",
+      "explanationVi": "Bạn bật được nhiều ý nhưng không chọn, hoặc lẫn lộn ý mới với ví dụ. Mang 5–8 ý vào phần nói dẫn đến liệt kê, không ý nào được phát triển.",
+      "fixVi": "Sau khi bật ý, gạch bớt: giữ 2–3 ý dễ có ví dụ cụ thể nhất. Hỏi: “Đây là ví dụ cho ý cũ, hay là một ý mới?”"
+    },
+    "no-development": {
+      "label": "Ý không có lý do/ví dụ/kết quả",
+      "explanationVi": "Ý chỉ có tên (“budget”) hoặc chung chung, lặp lại, vòng tròn (“money is important because life is expensive”). Thiếu ví dụ cụ thể là khoảng cách chính giữa Level 6 và Level 8 về task fulfilment.",
+      "fixVi": "Mỗi ý trên ghi chú phải có 3 keyword: Reason → Example (người, nơi chốn, con số) → Result."
+    },
+    "ignore-details": {
+      "label": "Bỏ qua chi tiết trong đề",
+      "explanationVi": "Ý của bạn có thể đúng nói chung nhưng không khớp với hoàn cảnh cụ thể (người nghe, lịch làm việc, địa điểm, mục tiêu). Người chấm nghe thấy bạn chưa thực sự trả lời đúng tình huống.",
+      "fixVi": "Gạch chân 2–3 chi tiết trong đề trong 5 giây đầu và dùng ít nhất hai chi tiết đó làm nguyên liệu cho ví dụ."
+    },
+    "true-opinion-trap": {
+      "label": "Chọn phía theo cảm xúc / đứng giữa",
+      "explanationVi": "Trong Task 7, bạn chọn phía mình “thật lòng” nghĩ nhưng chỉ có một lý do, hoặc không chọn phía nào (“it depends”). Kết quả là thiếu nội dung hoặc không hoàn thành yêu cầu nêu ý kiến.",
+      "fixVi": "Đếm nhanh lý do phát triển được của mỗi phía và chọn phía có nhiều hơn. Quyết định trước khi nói và giữ nguyên đến cuối."
+    }
+  },
+  "mastery": { "advance": 0.8, "review": 0.6 },
+  "vocabulary": [
+    { "term": "Take … for example.", "vi": "Lấy … làm ví dụ (mở ví dụ cụ thể, tự nhiên khi nói).", "example": "Take my neighbour, for example. She bikes to work in Richmond every day and never pays for parking." },
+    { "term": "That way, you'd …", "vi": "Như vậy thì bạn sẽ … (nêu kết quả của lời khuyên).", "example": "Pack your lunch the night before. That way, you'd save at least fifty dollars a week." },
+    { "term": "which means …", "vi": "điều đó có nghĩa là … (nối kết quả vào câu trước).", "example": "Your U-Pass is included in your fees, which means you don't need a car at all." },
+    { "term": "The bottom line is …", "vi": "Điều cốt lõi là … (chốt ý, thân mật).", "example": "The bottom line is that a car would cost you more than it saves." },
+    { "term": "take advantage of …", "vi": "tận dụng …", "example": "You should take advantage of the free workshops at the public library." },
+    { "term": "fixed costs", "vi": "chi phí cố định (tiền nhà, điện thoại…).", "example": "Start by writing down your fixed costs, like rent and your phone bill." },
+    { "term": "In my experience, …", "vi": "Theo kinh nghiệm của mình, … (dẫn vào ví dụ cá nhân).", "example": "In my experience, people who carpool to work in Surrey get there just as fast." },
+    { "term": "make a huge difference", "vi": "tạo ra khác biệt rất lớn (nêu kết quả).", "example": "A short first-aid course can make a huge difference in an emergency." },
+    { "term": "as soon as …", "vi": "ngay khi … (mốc thời gian trong Task 2).", "example": "As soon as I read the email, I called my mom." }
+  ],
+  "grammar": [
+    {
+      "point": "Expressing results: so / which means / That way, + would",
+      "explanationVi": "Phần Result trong Reason → Example → Result cần cấu trúc nối kết quả. “so + mệnh đề” nối trong cùng câu; “which means + mệnh đề” bổ sung hệ quả cho cả câu trước (có dấu phẩy trước “which”); “That way, you'd / you'll + V” mở câu mới để nêu kết quả của lời khuyên. Khi lời khuyên mang tính giả định, dùng “would” (you'd save), khi chắc chắn hơn dùng “will” (you'll save). Lỗi hay gặp: “so that” dùng nhầm cho kết quả (“so that” chỉ mục đích).",
+      "examples": [
+        "Your U-Pass is included in your fees, so you don't need a car.",
+        "Many courses take only one day, which means time isn't really an excuse.",
+        "Cook a big batch of rice and curry on Sunday. That way, you'd have lunch for the whole week.",
+        "✗ It rained all weekend so that we stayed home. → ✓ It rained all weekend, so we stayed home."
+      ]
+    }
+  ],
+  "practice": [
+    { "label": "Practise Task 1: Giving advice", "route": "/speaking?task=S1" },
+    { "label": "Practise Task 7: Expressing opinions", "route": "/speaking?task=S7" },
+    { "label": "Practise Task 2: Personal experience", "route": "/speaking?task=S2" }
+  ],
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"author-agent+independent-review-agent","notes":"Solved all 12 exercises; keys confirmed. Remapped i2 \"too few words\" distractor to write-sentences, fixed i6 arithmetic (now $20/day -> ~$160/month), replaced a grammatical-but-marked \"so that\" error example with an unambiguous one, \"heart attack\" -> \"collapses\" in the CPR model, and corrected the acceptable-version timing estimate."}
+}

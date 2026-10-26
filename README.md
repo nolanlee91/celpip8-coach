@@ -4,6 +4,41 @@ A personal web app for studying CELPIP-General, built to take one learner from L
 
 > This is an **unofficial** practice tool. It is not affiliated with CELPIP or Paragon Testing. All practice content is original, and every score the app shows is a **practice estimate**, not an official result.
 
+## Two modes: Learn and Practice
+
+**Learn Mode (`/learn`)** is a structured, four-skill curriculum. It has 60 lessons in 13 modules: 15 each for Reading, Listening, Speaking and Writing. Every lesson follows the same teaching sequence:
+
+1. **Objective:** what you will be able to do, and why it matters for Level 8.
+2. **Concept:** the technique, explained in Vietnamese with English examples.
+3. **Worked examples:** step by step. Speaking lessons show weak, acceptable and Level 8 answers; Writing lessons show before and after.
+4. **Guided practice:** 3–5 exercises with hints and an explanation right after each answer.
+5. **Independent practice:** 5–10 exercises with no hints. This is the mastery check.
+6. **Mistake analysis:** each wrong choice is linked to a named misconception that explains the underlying skill gap.
+7. **Mastery decision:** at 80% or above you advance; at 60–79% you review soon; below 60% you repeat the lesson.
+8. **Spaced review:** SM-2 schedules short review quizzes, with earlier mistakes first.
+
+Wrong answers go into the mistake notebook, and lesson expressions can be added to the vocabulary SRS.
+
+**The coach** is rule-based and needs no AI. It picks what to learn next and explains why:
+- It resumes an unfinished lesson first.
+- Then it gives the lesson reviews that are due.
+- Then it repeats a failed lesson.
+- If Practice accuracy in a competency is weak (for example inference at 2/8), it assigns the matching lesson **before** more questions of that type.
+- Otherwise it picks the next lesson by skill gap. Reading and Listening come first, and Writing/Speaking are rotated in so they are maintained.
+
+**The daily plan** (30/60/90/120 min) mixes learning, guided practice, vocabulary and mistake review, applied practice, and occasional exam practice.
+
+**Practice Mode** is everything from before: Reading/Listening/Writing/Speaking practice, mock exams, the question bank, vocabulary, the mistake notebook, analytics and AI evaluation.
+
+> Lesson mastery measures how well you know a technique. It is **not** a CELPIP score.
+
+The optional AI Tutor (💬) is context-aware inside lessons. It receives:
+- the lesson,
+- the current exercise,
+- your actual answer and misconceptions.
+
+If you have not answered yet, it gives hints without revealing the answer.
+
 ## Architecture: content first, AI optional
 
 | Layer | What it does | Needs AI? |
@@ -11,7 +46,8 @@ A personal web app for studying CELPIP-General, built to take one learner from L
 | **A. Content library** | `content/` holds prebuilt Reading/Listening sets, Writing/Speaking prompts with Level 8 model answers, vocabulary, and mock-exam packages. It is validated automatically and checked by an independent review before use. | No |
 | **B. Learning engine** | Exercise selection, local scoring, explanations, mistake tracking, SM-2 spaced repetition, adaptive difficulty, daily plan, analytics, vocabulary review, mock exams | No |
 | C. AI assistance | Writing/Speaking evaluation (**only when the learner presses the button**), AI Tutor, and the admin tools for generating content | Gemini |
-| **D. Listening audio** | 30 MP3 files (24 sets) generated once with Edge TTS neural voices (en-CA Clara/Liam + en-US Jenny/Guy) and **committed in `audio-assets/`**, so a fresh deploy plays immediately | No |
+| **A2. Curriculum** | `content/lessons/` — `curriculum.json` (modules and order) plus one JSON file per lesson. Validated by `shared/validate-lesson.ts`. Only lessons that are approved and error-free are shown. | No |
+| **D. Listening audio** | 30 MP3 files (24 sets) + 83 lesson clips (17 lessons) generated once with Edge TTS neural voices (en-CA Clara/Liam + en-US Jenny/Guy) and **committed in `audio-assets/`**, so a fresh deploy plays immediately | No |
 
 **Without a Gemini key** you can still practise Reading, Listening (all 24 sets ship with audio), vocabulary, the mistake notebook, the study plan and the prebuilt mock exams. Writing and Speaking work too: the learner sees the model answer straight away, and AI evaluation can be requested later.
 
@@ -20,9 +56,9 @@ A personal web app for studying CELPIP-General, built to take one learner from L
 | Data | Location | In git? |
 |---|---|---|
 | Static content (A) | `content/` (curated) + `$DATA_DIR/library/` (approved through the admin page) | `content/` yes |
-| Learning progress (B) | `$DATA_DIR/progress.json` | no |
+| Learning progress (B), including Learn Mode lesson progress (`lessons`) | `$DATA_DIR/progress.json` | no |
 | AI results, pending submissions, usage log, cache (C) | `$DATA_DIR/ai.json` | no |
-| Listening audio (D) | `audio-assets/` (bundled, read-only) + `$DATA_DIR/audio-assets/` (generated later on the server) | bundled: yes (~21 MB) |
+| Listening audio (D) | `audio-assets/` (bundled, read-only) + `$DATA_DIR/audio-assets/` (generated later on the server) | bundled: yes (~45 MB: 30 practice + 83 lesson clips) |
 | Speaking recordings | `$DATA_DIR/audio/` | no |
 | Generation drafts | `$DATA_DIR/content-drafts/<job>/` | no |
 
@@ -45,8 +81,10 @@ npm run dev                 # http://localhost:5173 — use Edge/Chrome
 | `npm run content:generate -- --skill reading --task R4 --count 3 [--set-type full\|drill\|mock] [--focus inference] [--topic housing]` | Generates **drafts** in small batches (≤ 25), validates them automatically, then runs an independent AI review. Resume an interrupted job with `-- --resume <jobId>`. Track tokens per job with `-- --list`. |
 | `npm run content:review -- --job <id> [--show/--approve/--reject <draftId>]` | Human review. A draft with errors cannot be approved. |
 | `npm run content:import [-- --target library]` | Imports approved drafts into `content/` (to commit) or into `$DATA_DIR/library`. |
-| `npm run audio:generate [-- --concurrency 6] [-- --limit 10] [-- --status]` | Generates each listening clip **once**. Default `AUDIO_PROVIDER=edge` (no key, parallel); `gemini` is optional. Can be resumed and skips finished clips. Copy new files into `audio-assets/` and commit them to ship them. |
-| `npm run test:smoke` | End-to-end test **without an API key** in a temporary data directory. |
+| `npm run audio:generate [-- --lessons]`, `[-- --concurrency 6] [-- --limit 10] [-- --status]` | Generates each listening clip **once**. Default `AUDIO_PROVIDER=edge` (no key, parallel); `gemini` is optional. Can be resumed and skips finished clips. Copy new files into `audio-assets/` and commit them to ship them. |
+| `npm run test:learn` | Unit tests for Learn Mode: grading, mastery, progression, spaced review, coach rules, daily plan and persistence. |
+| `npm run test:smoke` | End-to-end test **without an API key** in a temporary data directory, including a full lesson pass and resume after restart. |
+| `npm test` | Both. |
 | `npm run typecheck` / `npm run build` | |
 
 The same actions (validation, audio, generation, approval, AI usage) are on the **Admin** page (`/admin`).
