@@ -1,3 +1,4 @@
+import { Icon } from "../components/Icon";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { ReadingSet, Settings } from "../../shared/types";
 import { CATEGORIES, READING_PARTS } from "../../shared/spec";
@@ -30,11 +31,11 @@ export function ReadingPage() {
 
   return (
     <div className="page">
-      <h1>📖 Reading</h1>
+      <h1>Reading</h1>
       <p className="muted">Kỹ năng ưu tiên cao nhất (5 → 8). Bài được chọn ngay từ thư viện đã kiểm duyệt — theo part yếu nhất, độ khó hiện tại và lịch sử làm bài. Không cần AI.</p>
       <ErrorBox error={error} />
       <div className="row gap-s wrap">
-        <button className="btn primary big" onClick={() => next({ mode: "learn" })}>▶ Bài đề xuất cho tôi</button>
+        <button className="btn primary big" onClick={() => next({ mode: "learn" })}><Icon name="play" /> Bài đề xuất cho tôi</button>
       </div>
       <div className="part-grid">
         {READING_PARTS.map((p) => (

@@ -1,3 +1,4 @@
+import { Icon } from "../components/Icon";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import type { LessonAnswer, LessonProgress, LessonResponse, LessonStep, LessonRun } from "../../shared/curriculum";
@@ -123,7 +124,8 @@ export function LessonPage() {
     <div className="page lesson-page">
       <div className="row between wrap">
         <div>
-          <div className="muted small"><Link to="/learn">← Lộ trình học</Link> · {SKILL_LABEL[lesson.skill]} · {LEVEL_LABEL[lesson.level]} · ~{lesson.estimatedMinutes} phút · {lesson.tasks.join(", ")}</div>
+          <div className="muted small"><Link to="/learn" className="row gap-s" style={{ display: "inline-flex" }}><Icon name="chevron-left" size={16} />Lộ trình học</Link></div>
+          <div className="muted small">{SKILL_LABEL[lesson.skill]}, {LEVEL_LABEL[lesson.level].toLowerCase()}, khoảng {lesson.estimatedMinutes} phút. Dùng cho {lesson.tasks.join(", ")}.</div>
           <h1>{lesson.titleVi}</h1>
           <div className="muted">{lesson.title}</div>
         </div>
@@ -141,20 +143,20 @@ export function LessonPage() {
       </nav>
 
       {step === "objective" && (
-        <Card title="🎯 Mục tiêu bài học">
+        <Card title="Mục tiêu bài học">
           <p>{lesson.objectiveVi}</p>
           <ul>{lesson.objectives.map((o) => <li key={o}>{o}</li>)}</ul>
-          <div className="recommend">📈 {lesson.whyItMattersVi}</div>
+          <div className="recommend"><strong>Vì sao quan trọng với Level 8.</strong> {lesson.whyItMattersVi}</div>
           <div className="row gap-s wrap" style={{ margin: "10px 0" }}>{lesson.competencies.map((c) => <Badge key={c} tone="info">{data.categories[c] ?? c}</Badge>)}</div>
           {data.missingPrerequisites.length > 0 && (
             <div className="banner subtle">Nên học trước: {data.missingPrerequisites.map((p, i) => <span key={p.id}>{i ? ", " : ""}<Link to={`/learn/${p.id}`}>{p.title}</Link></span>)}. Bạn vẫn có thể học bài này ngay.</div>
           )}
-          {lesson.skill === "listening" && !lesson.audioReady && <div className="banner subtle">🔇 Một số đoạn audio của bài chưa được tạo — các bài tập đó sẽ hiện thông báo "đang chờ".</div>}
+          {lesson.skill === "listening" && !lesson.audioReady && <div className="banner subtle">Một số đoạn audio của bài chưa được tạo — các bài tập đó sẽ hiện thông báo "đang chờ".</div>}
           <div className="row gap-s wrap" style={{ marginTop: 12 }}>
             <button className="btn primary" onClick={() => void goStep("concept")}>{progress ? "Tiếp tục" : "▶ Bắt đầu học"}</button>
-            {lastRun && <button className="btn ghost" onClick={() => void restart()}>↻ Học lại từ đầu</button>}
+            {lastRun && <button className="btn ghost" onClick={() => void restart()}><Icon name="rotate-ccw" /> Học lại từ đầu</button>}
           </div>
-          <p className="muted tiny">Bài học dùng nội dung soạn sẵn — không cần AI. AI Tutor (💬) là tùy chọn.</p>
+          <p className="muted tiny">Bài học dùng nội dung soạn sẵn, không cần AI. AI Tutor là tùy chọn.</p>
         </Card>
       )}
 
@@ -164,14 +166,14 @@ export function LessonPage() {
             <Card key={c.heading} title={c.heading}><Markdown text={c.body} /></Card>
           ))}
           <LessonLanguage lesson={lesson} />
-          <div className="row gap-s"><button className="btn primary" onClick={() => void goStep("examples")}>Xem ví dụ mẫu →</button></div>
+          <div className="row gap-s"><button className="btn primary" onClick={() => void goStep("examples")}>Xem ví dụ mẫu</button></div>
         </>
       )}
 
       {step === "examples" && (
         <>
           {lesson.examples.map((ex, i) => <WorkedExampleCard key={ex.id} ex={ex} index={i} lesson={lesson} />)}
-          <div className="row gap-s"><button className="btn primary" onClick={() => void goStep("guided")}>Luyện có hướng dẫn →</button></div>
+          <div className="row gap-s"><button className="btn primary" onClick={() => void goStep("guided")}>Luyện có hướng dẫn</button></div>
         </>
       )}
 
@@ -182,7 +184,7 @@ export function LessonPage() {
             <ExerciseCard key={ex.id} ex={ex} index={i} stim={ex.stimulusId ? lesson.stimuli[ex.stimulusId] : undefined} section="guided" answer={answers[ex.id] ?? null}
               showFeedback misconceptions={lesson.misconceptions} onSubmit={(r) => answer(ex.id, r)} onAskTutor={askTutor(ex.id)} onFocus={() => setFocusEx(ex.id)} />
           ))}
-          <div className="row gap-s"><button className="btn primary" onClick={() => void goStep("independent")}>Sang phần tự luyện →</button></div>
+          <div className="row gap-s"><button className="btn primary" onClick={() => void goStep("independent")}>Sang phần tự luyện</button></div>
         </>
       )}
 
@@ -196,7 +198,7 @@ export function LessonPage() {
           ))}
           <div className="row gap-s wrap">
             <ProgressBar value={indDone} max={lesson.independent.length} />
-            <button className="btn primary" onClick={() => void complete()}>✓ Nộp bài kiểm tra ({indDone}/{lesson.independent.length})</button>
+            <button className="btn primary" onClick={() => void complete()}><Icon name="check" /> Nộp bài kiểm tra ({indDone}/{lesson.independent.length})</button>
           </div>
         </>
       )}
@@ -205,6 +207,15 @@ export function LessonPage() {
         <LessonResultView lesson={lesson} run={lastRun} progress={progress!} analysis={result?.analysis} mistakesAdded={result?.mistakesAdded}
           onRestart={() => void restart()} onAskTutor={askTutor(null)} onNext={(to) => nav(to)} />
       )}
+
+      {/* Mobile: step navigation within thumb reach (the step pills are hidden on small screens). */}
+      <div className="lesson-nav">
+        <button className="btn" disabled={stepIndex === 0} onClick={() => void goStep(LESSON_STEPS[stepIndex - 1])} aria-label="Bước trước"><Icon name="chevron-left" /></button>
+        <span className="where">Bước {stepIndex + 1}/6: {STEP_LABEL[step].replace(/^\d\. /, "")}</span>
+        {step === "independent"
+          ? <button className="btn primary" onClick={() => void complete()}>Nộp bài</button>
+          : <button className="btn primary" disabled={stepIndex >= 4 || (step === "result")} onClick={() => void goStep(LESSON_STEPS[stepIndex + 1])} aria-label="Bước sau"><Icon name="chevron-right" /></button>}
+      </div>
     </div>
   );
 }
@@ -229,7 +240,7 @@ function WorkedExampleCard({ ex, index, lesson }: { ex: PublicLesson["examples"]
               <p className="small"><Markdown text={c.commentVi} /></p>
             </div>
           ))}
-          <div className="recommend">🔑 {ex.takeawayVi}</div>
+          <div className="recommend"><strong>Điều cần nhớ.</strong> {ex.takeawayVi}</div>
         </>
       )}
       {!all && <button className="btn ghost small" onClick={() => setShown(ex.steps.length)}>Hiện tất cả</button>}
@@ -245,14 +256,14 @@ function LessonLanguage({ lesson }: { lesson: PublicLesson }) {
   };
   return (
     <div className="grid-2">
-      <Card title="📚 Từ vựng & cụm từ của bài" actions={<button className="btn small" onClick={() => void add()}>+ Thêm vào ôn tập</button>}>
+      <Card title="Từ vựng và cụm từ của bài" actions={<button className="btn small" onClick={() => void add()}><Icon name="plus" /> Thêm vào ôn tập</button>}>
         {msg && <p className="ok-msg small">{msg}</p>}
         <ul className="vocab-mini">
           {lesson.vocabulary.map((v) => <li key={v.term}><strong>{v.term}</strong> — {v.vi}<div className="muted small">“{v.example}”</div></li>)}
         </ul>
       </Card>
       {lesson.grammar.length > 0 && (
-        <Card title="🧩 Ngữ pháp / cấu trúc">
+        <Card title="Ngữ pháp và cấu trúc">
           {lesson.grammar.map((g) => (
             <div key={g.point} style={{ marginBottom: 10 }}>
               <strong>{g.point}</strong>
@@ -274,7 +285,7 @@ function LessonResultView({ lesson, run, progress, analysis, mistakesAdded, onRe
   useEffect(() => { void api<{ next: { title: string; reasonVi: string; route: string } | null }>("/api/coach").then((c) => setNext(c.next)).catch(() => {}); }, [run.at]);
   const items = analysis ?? Object.entries(run.misconceptions).sort((a, b) => b[1] - a[1]).map(([key, count]) => ({ key, count, ...(lesson.misconceptions[key] ?? { label: key, explanationVi: "", fixVi: "" }), competency: null }));
   const outcome = {
-    advance: { tone: "good" as const, title: "Đã nắm vững ✓", text: "Bạn có thể sang bài tiếp theo. Hệ thống sẽ nhắc ôn lại theo lịch lặp lại ngắt quãng." },
+    advance: { tone: "good" as const, title: "Đã nắm vững", text: "Bạn có thể sang bài tiếp theo. Hệ thống sẽ nhắc ôn lại theo lịch lặp lại ngắt quãng." },
     review: { tone: "warn" as const, title: "Gần đạt — cần ôn sớm", text: "Bạn hiểu phần lớn kỹ thuật. Ôn lại các lỗi bên dưới; bài sẽ được nhắc ôn trong 1 ngày." },
     repeat: { tone: "bad" as const, title: "Nên học lại", text: "Hãy đọc lại phần khái niệm và ví dụ mẫu, rồi làm lại bài tập. Đây là bình thường với kỹ năng mới." },
   }[run.outcome];
@@ -295,15 +306,15 @@ function LessonResultView({ lesson, run, progress, analysis, mistakesAdded, onRe
         </div>
       </Card>
 
-      <Card title="🔍 Phân tích lỗi">
-        {items.length === 0 ? <p className="ok-msg">Không mắc lỗi tư duy nào trong lần này. 👏</p> : items.map((m) => (
+      <Card title="Phân tích lỗi">
+        {items.length === 0 ? <p className="ok-msg">Không mắc lỗi tư duy nào trong lần này.</p> : items.map((m) => (
           <div key={m.key} className="misc">
             <strong>{m.label}</strong> <Badge tone="warn">×{m.count}</Badge>
             <p>{m.explanationVi}</p>
-            <p>👉 {m.fixVi}</p>
+            <p><strong>Cách sửa:</strong> {m.fixVi}</p>
           </div>
         ))}
-        {items.length > 0 && <button className="btn ghost small" onClick={() => onAskTutor("Dựa trên các lỗi của tôi trong bài này, giải thích lỗ hổng kỹ năng chính và cho tôi 2 câu luyện ngắn (có đáp án ở cuối).")}>💬 Hỏi AI tutor về lỗi của tôi</button>}
+        {items.length > 0 && <button className="btn ghost small" onClick={() => onAskTutor("Dựa trên các lỗi của tôi trong bài này, giải thích lỗ hổng kỹ năng chính và cho tôi 2 câu luyện ngắn (có đáp án ở cuối).")}><Icon name="message-circle" /> Hỏi AI tutor về lỗi của tôi</button>}
       </Card>
 
       <Card title="Xem lại bài tự luyện">
@@ -318,14 +329,14 @@ function LessonResultView({ lesson, run, progress, analysis, mistakesAdded, onRe
 
       <Card title="Tiếp theo">
         <div className="row gap-s wrap">
-          {lesson.practice.map((p) => <Link key={p.route} className="btn" to={p.route}>🏋️ {p.label}</Link>)}
-          <button className="btn ghost" onClick={onRestart}>↻ Làm lại bài học</button>
+          {lesson.practice.map((p) => <Link key={p.route} className="btn" to={p.route}><Icon name="dumbbell" /> {p.label}</Link>)}
+          <button className="btn ghost" onClick={onRestart}><Icon name="rotate-ccw" /> Làm lại bài học</button>
         </div>
         {next && (
           <div className="recommend" style={{ marginTop: 10 }}>
             <strong>Huấn luyện viên gợi ý: {next.title}</strong>
             <div className="small">{next.reasonVi}</div>
-            <button className="btn primary small" style={{ marginTop: 6 }} onClick={() => onNext(next.route)}>Bắt đầu →</button>
+            <button className="btn primary small" style={{ marginTop: 6 }} onClick={() => onNext(next.route)}>Bắt đầu</button>
           </div>
         )}
       </Card>
@@ -354,7 +365,7 @@ function ReviewSession({ data, onDone }: { data: LessonData; onDone: () => void 
   };
   return (
     <div className="page">
-      <div className="muted small"><Link to="/learn">← Lộ trình học</Link></div>
+      <div className="muted small"><Link to="/learn" className="row gap-s" style={{ display: "inline-flex" }}><Icon name="chevron-left" size={16} />Lộ trình học</Link></div>
       <h1>Ôn lại: {lesson.titleVi}</h1>
       <p className="muted">Ôn ngắt quãng — {exs.length} câu. Nhớ lại kỹ thuật trước khi trả lời: <em>{lesson.objectives[0]}</em></p>
       {result && (

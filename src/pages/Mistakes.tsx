@@ -1,3 +1,4 @@
+import { Icon } from "../components/Icon";
 import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import type { CategoryStat, McqQuestion, MistakeRecord, SkillSummary } from "../../shared/types";
@@ -14,7 +15,7 @@ export function MistakesPage() {
   const [tab, setTab] = useState<"review" | "list" | "profile">(params.get("review") ? "review" : "list");
   return (
     <div className="page">
-      <h1>🧠 Sổ lỗi & phân tích điểm yếu</h1>
+      <h1>Sổ lỗi & phân tích điểm yếu</h1>
       <p className="muted">Mỗi câu sai/điểm yếu trở thành một thẻ lỗi có lịch ôn lặp lại ngắt quãng. Thẻ được đánh dấu “đã khắc phục” sau khi bạn làm đúng nhiều lần với khoảng cách ≥ 2 tuần.</p>
       <Segmented value={tab} onChange={setTab} options={[
         { value: "review", label: "Ôn thẻ đến hạn" }, { value: "list", label: "Tất cả lỗi" }, { value: "profile", label: "Hồ sơ điểm yếu" },
@@ -40,7 +41,7 @@ function ReviewSession() {
 
   if (error) return <ErrorBox error={error} />;
   if (!queue) return <Loading />;
-  if (queue.length === 0) return <Empty>🎉 Không có thẻ lỗi nào đến hạn. Quay lại vào ngày mai, hoặc làm thêm bài luyện tập.</Empty>;
+  if (queue.length === 0) return <Empty>Không có thẻ lỗi nào đến hạn. Quay lại vào ngày mai, hoặc làm thêm bài luyện tập.</Empty>;
   if (i >= queue.length) return (
     <Card title="Hoàn thành phiên ôn">
       <p>Đúng {stats.right} · Sai {stats.wrong}. Thẻ sai sẽ quay lại vào ngày mai; thẻ đúng được giãn khoảng cách.</p>
@@ -79,7 +80,7 @@ function ReviewSession() {
               <Markdown text={m.explanation} />
               <div className="row gap-s">
                 <button className="btn primary" onClick={() => grade(picked === m.original!.answerIndex)}>{picked === m.original!.answerIndex ? "✓ Đúng — tiếp" : "✗ Sai — tiếp"}</button>
-                <button className="btn ghost" onClick={() => tutor.ask("Giải thích lại giúp tôi lỗi này và cách tránh lần sau.", { exercise: "Mistake review", ...m, original: undefined, options: m.original!.options.map((o) => o.text) })}>💬 Hỏi tutor</button>
+                <button className="btn ghost" onClick={() => tutor.ask("Giải thích lại giúp tôi lỗi này và cách tránh lần sau.", { exercise: "Mistake review", ...m, original: undefined, options: m.original!.options.map((o) => o.text) })}><Icon name="message-circle" /> Hỏi tutor</button>
               </div>
             </>
           )}

@@ -1,3 +1,4 @@
+import { Icon } from "./Icon";
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from "react";
 import { Markdown } from "./ui";
 
@@ -97,7 +98,7 @@ export function TutorProvider({ children }: { children: ReactNode }) {
   return (
     <TutorCtx.Provider value={{ setContext, ask, open: () => setOpen(true) }}>
       {children}
-      <button className="tutor-fab" onClick={() => setOpen((o) => !o)} title="AI Tutor">💬 Tutor</button>
+      <button className="tutor-fab" onClick={() => setOpen((o) => !o)} aria-label="AI Tutor"><Icon name="message-circle" size={20} /><span className="fab-label">Hỏi tutor</span></button>
       {isOpen && (
         <aside className="tutor-drawer">
           <header className="tutor-head">
@@ -107,7 +108,7 @@ export function TutorProvider({ children }: { children: ReactNode }) {
             </div>
             <div className="row gap-s">
               <button className="btn small ghost" onClick={() => setMessages([])}>Mới</button>
-              <button className="btn small ghost" onClick={() => setOpen(false)}>✕</button>
+              <button className="icon-btn" aria-label="Đóng" onClick={() => setOpen(false)}><Icon name="x" /></button>
             </div>
           </header>
           <div className="tutor-body">

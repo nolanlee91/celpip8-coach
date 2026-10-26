@@ -1,3 +1,4 @@
+import { Icon } from "../components/Icon";
 import { useEffect, useState } from "react";
 import type { Settings } from "../../shared/types";
 import { SKILL_LABEL, SKILLS, taskName } from "../../shared/spec";
@@ -30,12 +31,12 @@ export function SettingsPage() {
 
   return (
     <div className="page">
-      <h1>⚙️ Cài đặt</h1>
+      <h1>Cài đặt</h1>
       <ErrorBox error={error} />
       <Card title="AI (tùy chọn)">
         {status?.aiConfigured
-          ? <p>✅ Đã cấu hình Gemini · model <code>{status.model}</code></p>
-          : <p>❌ Chưa có <code>GEMINI_API_KEY</code>. Reading, Listening (có audio), từ vựng, sổ lỗi, kế hoạch và thi thử vẫn hoạt động bình thường. Chỉ nhận xét Writing/Speaking, Tutor và công cụ quản trị cần AI.</p>}
+          ? <p>Đã cấu hình Gemini · model <code>{status.model}</code></p>
+          : <p>Chưa có <code>GEMINI_API_KEY</code>. Reading, Listening (có audio), từ vựng, sổ lỗi, kế hoạch và thi thử vẫn hoạt động bình thường. Chỉ nhận xét Writing/Speaking, Tutor và công cụ quản trị cần AI.</p>}
         <p className="small muted">AI chỉ được gọi khi bạn bấm: “Nhận xét bằng AI”, hỏi Tutor, hoặc thao tác ở trang Quản trị. Thống kê lượt gọi & token: <a href="/admin">Quản trị → Sử dụng AI</a>. Đổi model qua biến môi trường <code>GEMINI_MODEL</code>.</p>
         <label className="row gap-s"><input type="checkbox" checked={s.aiCache} onChange={(e) => upd({ aiCache: e.target.checked })} /> Dùng lại nhận xét AI đã có khi nộp lại đúng bài làm giống hệt (tiết kiệm quota)</label>
         <label className="field">Mức suy nghĩ khi sinh nội dung (trang Quản trị)
@@ -101,7 +102,7 @@ export function SettingsPage() {
             <option value="">Tự động (ưu tiên en-CA)</option>
             {voices.map((v) => <option key={v.name} value={v.name}>{v.name} ({v.lang})</option>)}
           </select>
-          <button className="btn small" onClick={() => speak("Welcome to your CELPIP practice. The next bus to Metrotown leaves at four fifteen.", "narrator", { preferred: s.preferredVoice })}>🔊 Nghe thử</button>
+          <button className="btn small" onClick={() => speak("Welcome to your CELPIP practice. The next bus to Metrotown leaves at four fifteen.", "narrator", { preferred: s.preferredVoice })}><Icon name="volume-2" /> Nghe thử</button>
         </div>
         {voices.length === 0 && <p className="error-box small">Trình duyệt không cung cấp giọng tiếng Anh nào.</p>}
       </Card>

@@ -102,9 +102,9 @@ export function Passage({
       {sel && (
         <div className="sel-toolbar">
           <span className="muted small">“{sel.text.slice(0, 40)}{sel.text.length > 40 ? "…" : ""}”</span>
-          <button className="btn small" onClick={() => addHighlight(false)}>🖍 Highlight</button>
-          <button className="btn small" onClick={() => addHighlight(true)}>📝 Ghi chú</button>
-          <button className="btn small" onClick={addVocab}>➕ Từ vựng</button>
+          <button className="btn small" onClick={() => addHighlight(false)}>Highlight</button>
+          <button className="btn small" onClick={() => addHighlight(true)}>Ghi chú</button>
+          <button className="btn small" onClick={addVocab}>Từ vựng</button>
         </div>
       )}
       {vocabMsg && <div className="muted small">{vocabMsg}</div>}

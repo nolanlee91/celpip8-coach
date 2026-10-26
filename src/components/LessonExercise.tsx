@@ -1,3 +1,4 @@
+import { Icon } from "./Icon";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Exercise, Lesson, LessonAnswer, LessonResponse, Stimulus, Misconception } from "../../shared/curriculum";
 import { Badge, Markdown, TimerPill, useCountdown } from "./ui";
@@ -29,10 +30,10 @@ export function StimulusView({ stim, revealed }: { stim: PublicStimulus | undefi
       {hasAudio && (
         stim.audioUrl
           ? <audio className="audio" controls preload="none" src={stim.audioUrl} />
-          : <div className="banner subtle small">🔇 Audio của đoạn này chưa được tạo (đang chờ). Chạy <code>npm run audio:generate</code> hoặc trang Quản trị → Audio.</div>
+          : <div className="banner subtle small"><Icon name="volume-x" /> Audio của đoạn này chưa được tạo. Tạo bằng <code>npm run audio:generate</code> hoặc ở trang Quản trị, mục Audio.</div>
       )}
       {hasAudio && stim.transcript && stim.showTranscript !== "always" && revealed && (
-        <button className="btn ghost small" onClick={() => setShowT((x) => !x)}>{showT ? "Ẩn transcript" : "📝 Xem transcript"}</button>
+        <button className="btn ghost small" onClick={() => setShowT((x) => !x)}>{showT ? "Ẩn transcript" : "Xem transcript"}</button>
       )}
       {hasAudio && transcriptVisible && stim.transcript && (
         <div className="transcript small">
@@ -94,7 +95,7 @@ export function ExerciseCard({
       <div className="row between wrap">
         <strong>{section === "guided" ? "Luyện có hướng dẫn" : section === "review" ? "Ôn tập" : "Tự luyện"} · Bài {index + 1}</strong>
         <div className="row gap-s">
-          {reveal && <Badge tone={answer!.correct ? "good" : answer!.score >= 0.5 ? "warn" : "bad"}>{answer!.correct ? "✓ Đúng" : ex.type === "choice" || ex.type === "text" && ex.mode === "exact" ? "✗ Chưa đúng" : `${Math.round(answer!.score * 100)}%`}</Badge>}
+          {reveal && <Badge tone={answer!.correct ? "good" : answer!.score >= 0.5 ? "warn" : "bad"}>{answer!.correct ? "Đúng" : ex.type === "choice" || ex.type === "text" && ex.mode === "exact" ? "✗ Chưa đúng" : `${Math.round(answer!.score * 100)}%`}</Badge>}
           {answered && !showFeedback && <Badge tone="info">Đã lưu</Badge>}
         </div>
       </div>
@@ -108,8 +109,8 @@ export function ExerciseCard({
 
       {section === "guided" && !answered && ex.hint && (
         <div className="row gap-s wrap" style={{ marginTop: 8 }}>
-          {!hint ? <button className="btn ghost small" onClick={() => setHint(true)}>💡 Gợi ý</button> : <div className="hint">💡 {ex.hint}</div>}
-          {onAskTutor && <button className="btn ghost small" onClick={() => onAskTutor("Cho tôi một gợi ý nhỏ cho bài này, đừng nói đáp án.")}>💬 Hỏi AI gợi ý</button>}
+          {!hint ? <button className="btn ghost small" onClick={() => setHint(true)}><Icon name="lightbulb" /> Gợi ý</button> : <div className="hint">{ex.hint}</div>}
+          {onAskTutor && <button className="btn ghost small" onClick={() => onAskTutor("Cho tôi một gợi ý nhỏ cho bài này, đừng nói đáp án.")}><Icon name="message-circle" /> Hỏi AI gợi ý</button>}
         </div>
       )}
 
@@ -121,12 +122,12 @@ export function ExerciseCard({
             <div className="misc">
               <strong>Lỗi tư duy: {mis.label}</strong>
               <p>{mis.explanationVi}</p>
-              <p>👉 {mis.fixVi}</p>
+              <p><strong>Cách sửa:</strong> {mis.fixVi}</p>
             </div>
           )}
           {onAskTutor && (
             <div className="row gap-s wrap">
-              <button className="btn ghost small" onClick={() => onAskTutor(answer!.correct ? "Giải thích thêm vì sao đáp án này đúng và các đáp án khác sai." : "Vì sao câu trả lời của tôi sai? Giải thích theo kỹ thuật của bài học rồi hỏi tôi một câu để kiểm tra.")}>💬 Hỏi AI tutor</button>
+              <button className="btn ghost small" onClick={() => onAskTutor(answer!.correct ? "Giải thích thêm vì sao đáp án này đúng và các đáp án khác sai." : "Vì sao câu trả lời của tôi sai? Giải thích theo kỹ thuật của bài học rồi hỏi tôi một câu để kiểm tra.")}><Icon name="message-circle" /> Hỏi AI tutor</button>
             </div>
           )}
         </div>

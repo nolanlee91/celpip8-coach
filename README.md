@@ -114,3 +114,16 @@ The same actions (validation, audio, generation, approval, AI usage) are on the 
 - **Speaking** is evaluated from the transcript only. Pronunciation and audio fluency are **not** assessed.
 - **Reading/Listening estimates** are a rough rule, not the official score conversion.
 - **Validation is not proof of quality.** It checks structure and consistency. Every item also needs a careful review (independent AI review + `review.status`). See `content/CONTENT_GUIDE.md` and `AUDIT.md`.
+
+## Interface
+
+- **Look:** deep sea-teal navigation rail and a cool off-white ground. Be Vietnam Pro (drawn for Vietnamese) is used for the interface, and Source Serif 4 for the English texts you study. The design guidance came from Anthropic's `frontend-design` skill and the open-source Impeccable skill.
+- **Today's plan:** drawn as a timetable with minute marks and one coloured line per skill. The next block is opened up; finished blocks can be ticked off.
+- **Mobile:**
+  - a bottom tab bar (Hôm nay, Lộ trình, Luyện thi, Từ vựng, Thêm) and a top bar with the tutor button;
+  - touch targets of at least 44 px;
+  - Back/Next for lesson steps, within thumb reach;
+  - no horizontal page scroll at 375 px.
+- **Licences:**
+  - Fonts are self-hosted in `public/fonts` (SIL Open Font License 1.1).
+  - Icons are Lucide (ISC License), inlined in `src/components/Icon.tsx`.

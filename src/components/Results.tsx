@@ -1,3 +1,4 @@
+import { Icon } from "./Icon";
 import { Link } from "react-router-dom";
 import type { Attempt, Evaluation, MistakeRecord, VocabItem } from "../../shared/types";
 import { CATEGORIES, type Skill } from "../../shared/spec";
@@ -55,7 +56,7 @@ export function WeaknessReport({ result, skill }: { result: ObjectiveResult; ski
       {report.followUpFocus && (
         <div className="row gap-s wrap" style={{ marginTop: 12 }}>
           <Link className="btn primary" to={`/${skill}?mode=drill&focus=${report.followUpFocus}`}>
-            🎯 Luyện drill: {CATEGORIES[skill][report.followUpFocus] ?? report.followUpFocus}
+            Luyện drill: {CATEGORIES[skill][report.followUpFocus] ?? report.followUpFocus}
           </Link>
           <Link className="btn" to="/mistakes">Xem sổ lỗi</Link>
         </div>
@@ -81,7 +82,7 @@ export function EvaluationView({ ev, audioUrl, newDifficulty, onRepeat }: { ev: 
             ))}
           </div>
         </div>
-        {ev.audioCaveat && <div className="unofficial compact">🎙 {ev.audioCaveat}</div>}
+        {ev.audioCaveat && <div className="unofficial compact">{ev.audioCaveat}</div>}
         {newDifficulty !== undefined && <p className="muted small">Độ khó đề tiếp theo cho task này: {newDifficulty}.</p>}
       </Card>
 
@@ -114,7 +115,7 @@ export function EvaluationView({ ev, audioUrl, newDifficulty, onRepeat }: { ev: 
         )}
       </Card>
 
-      <Card title="5. Bản mẫu Level 8+" actions={<button className="btn small ghost" onClick={() => speak(ev.improvedVersion)}>🔊 Nghe</button>}>
+      <Card title="5. Bản mẫu Level 8+" actions={<button className="btn small ghost" onClick={() => speak(ev.improvedVersion)}><Icon name="volume-2" /> Nghe</button>}>
         <p className="improved">{ev.improvedVersion}</p>
         <Markdown text={ev.improvementNotesVi} />
       </Card>
@@ -130,7 +131,7 @@ export function EvaluationView({ ev, audioUrl, newDifficulty, onRepeat }: { ev: 
         <button className="btn small ghost" onClick={() => tutor.ask("Vì sao bài của tôi chỉ được ước tính ở mức này, và tôi cần làm gì để lên Level 8?", {
           exercise: `${ev.skill} ${ev.taskType}`, response: ev.response, estimatedBand: `${ev.bandLow}-${ev.bandHigh}`,
           weaknesses: ev.weaknesses, dimensions: ev.dimensions, transcriptOnly: ev.skill === "speaking",
-        })}>💬 Hỏi tutor về kết quả này</button>
+        })}><Icon name="message-circle" /> Hỏi tutor về kết quả này</button>
       </Card>
     </div>
   );

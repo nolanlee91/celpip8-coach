@@ -39,7 +39,7 @@ export function AnalyticsPage() {
 
   return (
     <div className="page">
-      <h1>📈 Thống kê & tiến bộ</h1>
+      <h1>Thống kê & tiến bộ</h1>
 
       <Card title="Điểm chính thức vs. ước tính luyện tập">
         <p className="muted small"><strong>Điểm chính thức</strong> = kết quả CELPIP ngày 01/04/2026. <strong>Ước tính luyện tập</strong> = suy ra từ bài làm trong app (độ khó × độ chính xác, hoặc band AI) — chỉ để theo dõi xu hướng, <strong>không phải điểm CELPIP</strong>.</p>

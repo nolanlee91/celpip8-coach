@@ -1,3 +1,4 @@
+import { Icon } from "../components/Icon";
 import { useEffect, useState } from "react";
 import type { Settings, SpeakingPrompt, Submission } from "../../shared/types";
 import { SPEAKING_TASKS } from "../../shared/spec";
@@ -24,7 +25,7 @@ export function SpeakingPage() {
 
   return (
     <div className="page">
-      <h1>🎙 Speaking</h1>
+      <h1>Speaking</h1>
       <p className="muted">Đề lấy ngay từ ngân hàng đề (kèm hình minh họa khi cần). Ghi âm, chuyển giọng nói thành chữ trong trình duyệt, xem bài mẫu Level 8 ngay — AI chỉ chạy khi bạn bấm “Nhận xét bằng AI”. <strong>AI không đánh giá phát âm</strong> vì chỉ đọc bản chép lời.</p>
       <ErrorBox error={error} />
       <div className="part-grid">
@@ -84,9 +85,9 @@ function SpeakingSession({ prompt, mode, banner, onNext, onSame, onExit }: { pro
         <>
           <SubmissionPanel submission={done.submission} prompt={prompt} audioUrl={done.audioUrl} onRepeat={again} />
           <div className="row gap-s">
-            <button className="btn primary" onClick={again}>🔁 Nói lại cùng đề</button>
+            <button className="btn primary" onClick={again}><Icon name="rotate-ccw" /> Nói lại cùng đề</button>
             <button className="btn" onClick={onSame}>Đề khác cùng task</button>
-            <button className="btn" onClick={onNext}>Task tiếp theo →</button>
+            <button className="btn" onClick={onNext}>Task tiếp theo</button>
           </div>
         </>
       ) : !saving && (

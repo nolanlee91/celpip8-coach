@@ -1,3 +1,4 @@
+import { Icon } from "./Icon";
 import type { McqQuestion } from "../../shared/types";
 import { CATEGORIES, TRAPS, type Skill } from "../../shared/spec";
 import { useTutor } from "./Tutor";
@@ -54,7 +55,7 @@ export function McqList({
               <div className="explain">
                 <div className="row gap-s wrap">
                   <Badge tone="info">{CATEGORIES[skill][q.category] ?? q.category}</Badge>
-                  {q.evidence && onEvidence && <button className="btn small ghost" onClick={() => onEvidence(q.evidence)}>🔎 Xem bằng chứng</button>}
+                  {q.evidence && onEvidence && <button className="btn small ghost" onClick={() => onEvidence(q.evidence)}>Xem bằng chứng</button>}
                   <button
                     className="btn small ghost"
                     onClick={() => tutor.ask(chosen === q.answerIndex ? "Giải thích thêm cho tôi câu này." : "Vì sao đáp án tôi chọn sai và làm sao nhận ra đáp án đúng?", {
@@ -62,7 +63,7 @@ export function McqList({
                       learnerAnswer: chosen === null ? "(blank)" : q.options[chosen].text, correctAnswer: q.options[q.answerIndex].text,
                       evidence: q.evidence, explanation: q.explanationVi, category: q.category,
                     })}
-                  >💬 Hỏi tutor</button>
+                  ><Icon name="message-circle" /> Hỏi tutor</button>
                 </div>
                 {q.evidence && <blockquote>“{q.evidence}”</blockquote>}
                 <p>{q.explanationVi}</p>

@@ -1,3 +1,4 @@
+import { Icon } from "./Icon";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import type { Attempt } from "../../shared/types";
@@ -68,7 +69,7 @@ export function DrillPicker({ skill, onStart }: { skill: Skill; onStart: (focus:
       <select value={focus} onChange={(e) => setFocus(e.target.value)}>
         {Object.entries(CATEGORIES[skill]).filter(([k]) => k !== "time_management").map(([k, v]) => <option key={k} value={k}>{v}</option>)}
       </select>
-      <button className="btn" onClick={() => onStart(focus)}>🎯 Tạo drill</button>
+      <button className="btn" onClick={() => onStart(focus)}><Icon name="target" /> Tạo drill</button>
     </div>
   );
 }

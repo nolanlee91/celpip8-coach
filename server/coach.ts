@@ -239,12 +239,12 @@ export function blockers(db: Db, cur: CurriculumView) {
     .slice(0, 4)
     .map((c) => {
       const evidence = c.practice ? `luyện tập ${pct(c.practice.accuracy)} (${c.practice.correct}/${c.practice.total})`
-        : c.lessonMastery !== null ? `mastery bài học ${pct(c.lessonMastery)}` : "chưa có dữ liệu — ưu tiên theo điểm chính thức";
+        : c.lessonMastery !== null ? `mastery bài học ${pct(c.lessonMastery)}` : "chưa có dữ liệu luyện tập, nên ưu tiên theo điểm chính thức";
       const lesson = c.lessons.find((l) => l.status !== "mastered");
       return {
         skill: c.skill, competency: c.competency, label: c.label, evidence,
         lessonId: lesson?.id ?? null, lessonTitle: lesson?.title ?? null,
-        textVi: `${SKILL_LABEL[c.skill]} — ${c.label}: ${evidence}.`,
+        textVi: `${SKILL_LABEL[c.skill]}, ${c.label.charAt(0).toLowerCase()}${c.label.slice(1)}: ${evidence}.`,
       };
     });
 }
@@ -328,12 +328,12 @@ export function buildLearningPlan(db: Db, cur: CurriculumView, minutes: number, 
     const resumeAt = db.lessons[l.id]?.step;
     push({
       id: `learn-${tag}`, skill: l.skill, kind: "learn", lessonId: l.id, title: `Học: ${l.titleVi}`,
-      detail: `${l.title} — mục tiêu, khái niệm, ví dụ mẫu.${resumeAt && resumeAt !== "objective" && r.kind === "resume" ? ` (tiếp tục từ bước: ${STEP_VI[resumeAt] ?? resumeAt})` : ""}`,
+      detail: `${l.title}. Mục tiêu, khái niệm và ví dụ mẫu.${resumeAt && resumeAt !== "objective" && r.kind === "resume" ? ` (tiếp tục từ bước: ${STEP_VI[resumeAt] ?? resumeAt})` : ""}`,
       minutes: learn, route: `/learn/${l.id}${r.kind === "repeat" ? "?step=concept" : ""}`, reason: r.reasonVi,
     });
     push({
-      id: `guided-${tag}`, skill: l.skill, kind: "guided", lessonId: l.id, title: "Luyện có hướng dẫn + bài kiểm tra mức độ nắm vững",
-      detail: `${l.guided.length} bài có gợi ý, ${l.independent.length} bài tự làm. Đạt ≥ ${pct(l.mastery.advance)} là nắm vững.`,
+      id: `guided-${tag}`, skill: l.skill, kind: "guided", lessonId: l.id, title: `Luyện tập: ${l.titleVi}`,
+      detail: `${l.guided.length} bài có gợi ý, rồi ${l.independent.length} bài tự làm. Đạt từ ${pct(l.mastery.advance)} là nắm vững.`,
       minutes: practice, route: `/learn/${l.id}?step=guided`, reason: "Luyện ngay sau khi học giúp nhớ kỹ thuật lâu hơn.",
     });
   };

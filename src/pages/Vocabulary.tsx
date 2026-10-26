@@ -1,3 +1,4 @@
+import { Icon } from "../components/Icon";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import type { VocabItem } from "../../shared/types";
@@ -48,7 +49,7 @@ export function VocabularyPage() {
 
   return (
     <div className="page">
-      <h1>📚 Sổ từ vựng thông minh</h1>
+      <h1>Sổ từ vựng thông minh</h1>
       <p className="muted">Tự động thu thập từ câu sai, bài đọc, transcript nghe và phần sửa bài Writing/Speaking; tra nghĩa từ thư viện từ vựng soạn sẵn — không cần AI. Ôn theo lịch lặp lại ngắt quãng (SM-2).</p>
       <Segmented value={tab} onChange={setTab} options={[{ value: "notebook", label: "Sổ của tôi" }, { value: "library", label: "Thư viện từ vựng" }]} />
       <ErrorBox error={error} />
@@ -110,18 +111,18 @@ export function VocabularyPage() {
             {filtered.map((v) => (
               <div key={v.id} className="vocab-card">
                 <div className="row between">
-                  <strong className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm">🔊</button></strong>
+                  <strong className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm" aria-label="Phát âm"><Icon name="volume-2" /></button></strong>
                   {v.due ? <Badge tone="warn">đến hạn</Badge> : v.srs.interval >= 21 ? <Badge tone="good">đã thuộc</Badge> : <Badge>ôn {v.srs.due.slice(5)}</Badge>}
                 </div>
                 <div>🇻🇳 {v.vi}</div>
                 <div className="muted small">{v.definition}</div>
-                <div className="small"><em>{v.example}</em> <button className="icon-btn" onClick={() => say(v.example)}>🔊</button></div>
+                <div className="small"><em>{v.example}</em> <button className="icon-btn" onClick={() => say(v.example)} aria-label="Nghe phát âm"><Icon name="volume-2" /></button></div>
                 {v.collocations.length > 0 && <div className="tiny"><strong>Collocations:</strong> {v.collocations.join(" · ")}</div>}
                 {v.synonyms.length > 0 && <div className="tiny"><strong>Đồng nghĩa / paraphrase:</strong> {v.synonyms.join(", ")}</div>}
-                {v.celpipUsage && <div className="tiny muted">🎯 {v.celpipUsage}</div>}
+                {v.celpipUsage && <div className="tiny muted"><Icon name="target" /> {v.celpipUsage}</div>}
                 <div className="row between tiny muted">
                   <span>{v.source} · {v.reviews ? `${Math.round((v.correctReviews / v.reviews) * 100)}% đúng / ${v.reviews} lượt` : "chưa ôn"}</span>
-                  <button className="icon-btn" title="Xóa" onClick={async () => { if (confirm(`Xóa “${v.term}”?`)) { await api(`/api/vocab/${v.id}`, { method: "DELETE" }); void load(); } }}>🗑</button>
+                  <button className="icon-btn" title="Xóa" aria-label="Xóa" onClick={async () => { if (confirm(`Xóa “${v.term}”?`)) { await api(`/api/vocab/${v.id}`, { method: "DELETE" }); void load(); } }}><Icon name="x" /></button>
                 </div>
               </div>
             ))}
@@ -173,7 +174,7 @@ function VocabLibrary({ onAdded }: { onAdded: (n: number) => void }) {
             {rows.slice(0, 120).map((v) => (
               <div key={v.id} className="vocab-card">
                 <div className="row between">
-                  <strong className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm">🔊</button></strong>
+                  <strong className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm" aria-label="Phát âm"><Icon name="volume-2" /></button></strong>
                   {v.inNotebook ? <Badge tone="good">trong sổ</Badge> : <button className="btn small" onClick={() => add([v.id])}>+ Sổ</button>}
                 </div>
                 <div>🇻🇳 {v.vi}</div>
@@ -234,7 +235,7 @@ function Review({ pool, queue, mode, onDone }: { pool: V[]; queue: V[]; mode: Re
 
   const answerBlock = (
     <div className="flash-back">
-      <div className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)}>🔊</button></div>
+      <div className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} aria-label="Nghe phát âm"><Icon name="volume-2" /></button></div>
       <div>🇻🇳 {v.vi}</div>
       <div className="muted">{v.definition}</div>
       <div><em>{v.example}</em></div>
@@ -249,7 +250,7 @@ function Review({ pool, queue, mode, onDone }: { pool: V[]; queue: V[]; mode: Re
       <div className="flash">
         {kind === "flash" && (
           <>
-            <div className="term big">{v.term} <button className="icon-btn" onClick={() => say(v.term)}>🔊</button></div>
+            <div className="term big">{v.term} <button className="icon-btn" onClick={() => say(v.term)} aria-label="Nghe phát âm"><Icon name="volume-2" /></button></div>
             {!revealed ? <button className="btn primary" onClick={() => setRevealed(true)}>Lật thẻ</button> : (
               <>
                 {answerBlock}
@@ -265,7 +266,7 @@ function Review({ pool, queue, mode, onDone }: { pool: V[]; queue: V[]; mode: Re
         )}
         {(kind === "mcq" || kind === "listen") && (
           <>
-            {kind === "mcq" ? <div className="term big">{v.term}</div> : <button className="btn" onClick={() => say(v.term)}>🔊 Nghe lại</button>}
+            {kind === "mcq" ? <div className="term big">{v.term}</div> : <button className="btn" onClick={() => say(v.term)}><Icon name="volume-2" /> Nghe lại</button>}
             <p className="muted">{kind === "mcq" ? "Chọn nghĩa đúng:" : "Bạn vừa nghe từ nào?"}</p>
             <div className="options">
               {choices.map((c) => (
@@ -291,7 +292,7 @@ function Review({ pool, queue, mode, onDone }: { pool: V[]; queue: V[]; mode: Re
           <>
             <div className={correctNow ? "ok-msg" : "bad-msg"}>{correctNow ? "✓ Chính xác!" : "✗ Chưa đúng."}</div>
             {answerBlock}
-            <button className="btn primary" onClick={() => grade(correctNow ? 4 : 1)}>Tiếp →</button>
+            <button className="btn primary" onClick={() => grade(correctNow ? 4 : 1)}>Tiếp</button>
           </>
         )}
       </div>

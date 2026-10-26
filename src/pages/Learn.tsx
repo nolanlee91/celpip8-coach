@@ -4,6 +4,7 @@ import { SKILL_LABEL, SKILLS, type Skill } from "../../shared/spec";
 import { api } from "../api";
 import { Badge, Card, ErrorBox, Loading, ProgressBar, Segmented } from "../components/ui";
 import { STATUS_LABEL } from "./Lesson";
+import { Icon, type IconName } from "../components/Icon";
 
 export interface Rec { kind: string; skill: Skill; lessonId: string | null; title: string; reasonVi: string; minutes: number; route: string; priority: number }
 export interface MasteryRow { skill: Skill; lessons: number; mastered: number; needsReview: number; inProgress: number; notStarted: number; averageMastery: number | null }
@@ -22,18 +23,19 @@ interface CurriculumData extends LearningSummary {
   counts: { planned: number; active: number; files: number };
 }
 
-const ICON: Record<Skill, string> = { reading: "📖", listening: "🎧", speaking: "🎙", writing: "✍️" };
+const ICON: Record<Skill, IconName> = { reading: "book-open", listening: "headphones", speaking: "mic", writing: "pen-line" };
+const STATUS_ICON: Record<string, IconName> = { not_started: "target", in_progress: "play", needs_review: "rotate-ccw", mastered: "circle-check" };
 const pct = (x: number | null) => (x === null ? "–" : `${Math.round(x * 100)}%`);
 
 export function RecommendationCard({ rec, compact }: { rec: Rec; compact?: boolean }) {
   return (
     <div className={`rec ${compact ? "compact" : ""}`}>
       <div className="row between wrap gap-s">
-        <strong>{ICON[rec.skill]} {rec.title}</strong>
-        <span className="muted small">~{rec.minutes} phút</span>
+        <strong className={`skill-${rec.skill}`}>{rec.title}</strong>
+        <span className="muted small">khoảng {rec.minutes} phút</span>
       </div>
-      <div className="small">💡 Vì sao: {rec.reasonVi}</div>
-      <Link className="btn primary small" to={rec.route} style={{ marginTop: 6 }}>Bắt đầu</Link>
+      <div className="rec-why">{rec.reasonVi}</div>
+      <Link className={`btn ${compact ? "small" : "primary"}`} to={rec.route} style={{ marginTop: 6 }}>{compact ? "Mở" : <><Icon name="play" /> Bắt đầu</>}</Link>
     </div>
   );
 }
@@ -43,9 +45,9 @@ export function MasteryBars({ rows }: { rows: MasteryRow[] }) {
     <>
       {rows.map((r) => (
         <div key={r.skill} className="bar-row fixed">
-          <span>{ICON[r.skill]} {SKILL_LABEL[r.skill]}</span>
+          <span className="row gap-s"><Icon name={ICON[r.skill]} size={16} />{SKILL_LABEL[r.skill]}</span>
           <ProgressBar value={r.mastered} max={Math.max(1, r.lessons)} tone={r.mastered === r.lessons && r.lessons ? "good" : undefined} />
-          <span className="muted small">{r.mastered}/{r.lessons} nắm vững{r.needsReview ? ` · ${r.needsReview} cần ôn` : ""}{r.averageMastery !== null ? ` · TB ${pct(r.averageMastery)}` : ""}</span>
+          <span className="muted small">{r.mastered}/{r.lessons} nắm vững{r.needsReview ? `, ${r.needsReview} cần ôn` : ""}{r.averageMastery !== null ? `, trung bình ${pct(r.averageMastery)}` : ""}</span>
         </div>
       ))}
       <p className="muted tiny">Mastery bài học đo mức nắm kỹ thuật — không phải điểm CELPIP và không quy đổi sang điểm thi.</p>
@@ -66,16 +68,15 @@ export function LearnPage() {
   const modules = data.modules.filter((m) => skill === "all" || m.skill === skill);
   return (
     <div className="page">
-      <div className="hero">
+      <div className="page-head">
         <div>
-          <span className="mode-tag learn">LEARN MODE</span>
           <h1>Lộ trình học</h1>
-          <p className="muted">{data.counts.active} bài học trong lộ trình 4 kỹ năng — học kỹ thuật → ví dụ mẫu → luyện có hướng dẫn → tự luyện → kiểm tra → ôn ngắt quãng. Không cần AI.</p>
+          <p>{data.counts.active} bài cho bốn kỹ năng. Mỗi bài: học kỹ thuật, xem ví dụ mẫu, luyện có gợi ý, tự làm bài kiểm tra, rồi ôn lại theo lịch.</p>
         </div>
       </div>
 
       {data.next && (
-        <Card title="🧭 Nên học tiếp" className="next-card">
+        <Card title="Nên học tiếp" className="next-card">
           <RecommendationCard rec={data.next} />
           {data.recommendations.length > 1 && (
             <details style={{ marginTop: 8 }}>
@@ -88,16 +89,16 @@ export function LearnPage() {
 
       <div className="grid-2">
         <Card title="Mức độ nắm vững theo kỹ năng"><MasteryBars rows={data.mastery} /></Card>
-        <Card title="🚧 Điều đang giữ bạn ở dưới Level 8">
+        <Card title="Còn thiếu gì để đạt Level 8">
           {data.blockers.length === 0 ? <p className="muted">Chưa đủ dữ liệu.</p> : (
             <ul className="plain">{data.blockers.map((b) => (
               <li key={`${b.skill}-${b.label}`}>
-                {b.textVi} {b.lessonId && <Link to={`/learn/${b.lessonId}`}>→ {b.lessonTitle}</Link>}
+                {b.textVi} {b.lessonId && <Link to={`/learn/${b.lessonId}`}>Học: {b.lessonTitle}</Link>}
               </li>
             ))}</ul>
           )}
           {data.improvements.length > 0 && <>
-            <h4>📈 Tiến bộ gần đây</h4>
+            <h4>Tiến bộ gần đây</h4>
             <ul className="plain">{data.improvements.map((t) => <li key={t}>{t}</li>)}</ul>
           </>}
         </Card>
@@ -105,38 +106,39 @@ export function LearnPage() {
 
       <div className="row between wrap" style={{ margin: "18px 0 8px" }}>
         <h2>Bản đồ lộ trình</h2>
-        <Segmented value={skill} onChange={setSkill} options={[{ value: "all" as const, label: "Tất cả" }, ...SKILLS.map((s) => ({ value: s, label: `${ICON[s]} ${SKILL_LABEL[s]}` }))]} />
+        <Segmented value={skill} onChange={setSkill} options={[{ value: "all" as const, label: "Tất cả" }, ...SKILLS.map((s) => ({ value: s, label: SKILL_LABEL[s] }))]} />
       </div>
       <div className="legend small muted">
-        {Object.entries(STATUS_LABEL).map(([k, v]) => <Badge key={k} tone={v.tone}>{v.text}</Badge>)} <span>🔒 = nên học bài trước nó trước (không bắt buộc)</span>
+        {Object.entries(STATUS_LABEL).map(([k, v]) => <span key={k} className="row gap-s"><Icon name={STATUS_ICON[k]} size={15} />{v.text}</span>)} <span className="row gap-s"><Icon name="lock" size={15} />nên học bài trước nó trước (không bắt buộc)</span>
       </div>
 
       {modules.map((m) => (
-        <Card key={m.id} title={`${ICON[m.skill]} ${SKILL_LABEL[m.skill]} · Module ${m.order}: ${m.titleVi}`} actions={<span className="muted small">{m.lessons.filter((l) => l.status === "mastered").length}/{m.planned} nắm vững</span>}>
+        <Card key={m.id} title={<span className={`row gap-s skill-${m.skill}`}><Icon name={ICON[m.skill]} />{SKILL_LABEL[m.skill]}, phần {m.order}: {m.titleVi}</span>} actions={<span className="muted small">{m.lessons.filter((l) => l.status === "mastered").length}/{m.planned} nắm vững</span>}>
           <p className="muted small">{m.goalVi}</p>
           <div className="lesson-grid">
             {m.lessons.map((l, i) => (
               <Link key={l.id} to={`/learn/${l.id}`} className={`lesson-tile ${l.status}`}>
                 <div className="row between gap-s">
-                  <span className="muted tiny">Bài {i + 1} · {l.estimatedMinutes}′ · {l.tasks.slice(0, 3).join(", ")}{l.tasks.length > 3 ? "…" : ""}</span>
-                  {l.locked && <span title="Nên học bài tiên quyết trước">🔒</span>}
+                  <span className="tile-meta">Bài {i + 1}, {l.estimatedMinutes} phút</span>
+                  {l.locked && <span title="Nên học bài tiên quyết trước" className="muted"><Icon name="lock" size={15} label="Nên học bài trước" /></span>}
                 </div>
                 <strong>{l.titleVi}</strong>
                 <span className="muted small">{l.title}</span>
-                <div className="row gap-s wrap">
-                  <Badge tone={STATUS_LABEL[l.status]?.tone ?? "neutral"}>{l.inProgress && l.status !== "in_progress" ? "Đang học lại" : STATUS_LABEL[l.status]?.text}</Badge>
-                  {l.mastery !== null && <Badge tone="info">{pct(l.mastery)}</Badge>}
-                  {l.nextReview && <span className="muted tiny">ôn: {l.nextReview}</span>}
-                </div>
+                <span className="tile-status">
+                  <Icon name={STATUS_ICON[l.status] ?? "target"} size={15} />
+                  {l.inProgress && l.status !== "in_progress" ? "Đang học lại" : STATUS_LABEL[l.status]?.text}
+                  {l.mastery !== null && <span className="muted">, {pct(l.mastery)}</span>}
+                </span>
+                {l.nextReview && <span className="tile-meta">Ôn lại ngày {l.nextReview}</span>}
               </Link>
             ))}
-            {m.lessons.length < m.planned && <div className="lesson-tile pending muted small">{m.planned - m.lessons.length} bài đang biên soạn / chưa duyệt</div>}
+            {m.lessons.length < m.planned && <div className="lesson-tile pending muted small">{m.planned - m.lessons.length} bài chưa được duyệt</div>}
           </div>
         </Card>
       ))}
 
       <div className="grid-2">
-        <Card title="🗓 Lịch ôn bài học">
+        <Card title="Lịch ôn bài học">
           {data.reviewSchedule.length === 0 ? <p className="muted">Hoàn thành một bài học để có lịch ôn.</p> : (
             <ul className="plain">{data.reviewSchedule.slice(0, 12).map((r) => (
               <li key={r.lessonId} className="row between"><Link to={`/learn/${r.lessonId}${r.status === "needs_review" ? "?review=1" : ""}`}>{r.title}</Link><span className="muted small">{r.due}</span></li>
@@ -162,7 +164,7 @@ export function LearnPage() {
             </tr>
           ))}</tbody>
         </table>
-        <p className="muted tiny">Mức ưu tiên = (1 − hiệu suất) × khoảng cách tới mục tiêu của kỹ năng. Không có dữ liệu → ưu tiên theo điểm chính thức.</p>
+        <p className="muted tiny">Mức ưu tiên tính từ hiệu suất hiện tại nhân với khoảng cách tới mục tiêu của kỹ năng. Khi chưa có dữ liệu, ưu tiên theo điểm chính thức.</p>
       </Card>
     </div>
   );

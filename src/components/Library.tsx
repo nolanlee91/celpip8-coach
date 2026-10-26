@@ -1,3 +1,4 @@
+import { Icon } from "./Icon";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import type { Mode } from "../../shared/types";
@@ -59,8 +60,8 @@ export function PickReason({ reason, repeated, browserVoice }: { reason: string 
   if (!reason && !browserVoice) return null;
   return (
     <div className={`pick-reason ${repeated ? "repeat" : ""}`}>
-      {reason && <>🎯 Vì sao chọn bài này: {reason}</>}
-      {browserVoice && <div className="small">🔈 Bài này chưa có audio dựng sẵn — đang dùng <strong>giọng đọc trình duyệt</strong> theo lựa chọn của bạn trong Cài đặt (chất lượng thấp hơn bài thi thật).</div>}
+      {reason && <><Icon name="target" /> Vì sao chọn bài này: {reason}</>}
+      {browserVoice && <div className="small">Bài này chưa có audio dựng sẵn — đang dùng <strong>giọng đọc trình duyệt</strong> theo lựa chọn của bạn trong Cài đặt (chất lượng thấp hơn bài thi thật).</div>}
     </div>
   );
 }

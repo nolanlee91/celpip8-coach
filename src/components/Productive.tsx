@@ -1,3 +1,4 @@
+import { Icon } from "./Icon";
 import { useEffect, useState } from "react";
 import type { Evaluation, SpeakingPrompt, Submission, WritingPrompt } from "../../shared/types";
 import { api, post, wordCount } from "../api";
@@ -18,7 +19,7 @@ export function ModelAnswer({ prompt }: { prompt: WritingPrompt | SpeakingPrompt
   const sample = prompt.kind === "writing" ? prompt.modelResponse : prompt.modelAnswer;
   return (
     <div className="grid-2">
-      <Card title="Bài mẫu Level 8+ (soạn sẵn)" actions={sample && <button className="btn small ghost" onClick={() => speak(sample)}>🔊 Nghe</button>}>
+      <Card title="Bài mẫu Level 8+ (soạn sẵn)" actions={sample && <button className="btn small ghost" onClick={() => speak(sample)}><Icon name="volume-2" /> Nghe</button>}>
         {sample ? <p className="improved">{sample}</p> : <p className="muted">Đề này chưa có bài mẫu.</p>}
         {sample && <p className="muted tiny">{wordCount(sample)} từ. Bài mẫu không chính thức — dùng để học cách tổ chức ý và diễn đạt.</p>}
       </Card>
@@ -65,7 +66,7 @@ export function SubmissionPanel({ submission, prompt, audioUrl, onRepeat, onEval
 
   if (ev) return (
     <>
-      {cached && <p className="muted small">♻︎ Dùng lại nhận xét AI đã có cho đúng bài làm này (không tốn thêm lượt gọi API).</p>}
+      {cached && <p className="muted small">Dùng lại nhận xét AI đã có cho đúng bài làm này (không tốn thêm lượt gọi API).</p>}
       <EvaluationView ev={ev} audioUrl={audioUrl ?? (ev.meta.audioFile ? `/api/audio/${ev.meta.audioFile}` : null)} newDifficulty={newDifficulty} onRepeat={onRepeat} />
     </>
   );
@@ -83,8 +84,8 @@ export function SubmissionPanel({ submission, prompt, audioUrl, onRepeat, onEval
               Ước tính band, sửa từng câu, bản viết lại Level 8, bài tập lặp lại. Tốn 1 lượt gọi Gemini.
               {prompt.kind === "speaking" && " AI chỉ đọc bản chép lời — không đánh giá phát âm."}
             </p>
-            {ai && !ai.configured && <p className="small">⚠︎ Chưa cấu hình Gemini — bài đã được lưu, bạn có thể chấm sau khi thêm key.</p>}
-            {ai?.rateLimited && <p className="small">⚠︎ Gemini đang bị giới hạn tốc độ — thử lại sau ít phút.</p>}
+            {ai && !ai.configured && <p className="small">Chưa cấu hình Gemini — bài đã được lưu, bạn có thể chấm sau khi thêm key.</p>}
+            {ai?.rateLimited && <p className="small">Gemini đang bị giới hạn tốc độ — thử lại sau ít phút.</p>}
           </div>
           <button className="btn primary" disabled={busy || (ai !== null && !ai.configured)} onClick={evaluate}>{busy ? "AI đang chấm…" : error ? "Thử lại" : "Nhận xét bằng AI"}</button>
         </div>
@@ -109,7 +110,7 @@ export function SubmissionPanel({ submission, prompt, audioUrl, onRepeat, onEval
             </>
           )}
         </ul>
-        {onRepeat && <button className="btn small" onClick={onRepeat}>🔁 Làm lại đề này</button>}
+        {onRepeat && <button className="btn small" onClick={onRepeat}><Icon name="rotate-ccw" /> Làm lại đề này</button>}
       </div>
       <ModelAnswer prompt={prompt} />
     </div>

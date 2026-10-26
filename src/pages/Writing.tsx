@@ -26,7 +26,7 @@ export function WritingPage() {
 
   return (
     <div className="page">
-      <h1>✍️ Writing</h1>
+      <h1>Writing</h1>
       <p className="muted">Bạn đã đạt 7 — mục tiêu là <strong>ổn định ở Level 8</strong>. Đề lấy ngay từ ngân hàng đề; sau khi nộp bạn xem bài mẫu Level 8 ngay lập tức, và chỉ gọi AI khi muốn nhận xét chi tiết.</p>
       <ErrorBox error={error} />
       <div className="part-grid">

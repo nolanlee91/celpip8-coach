@@ -30,7 +30,7 @@ export function ErrorBox({ error, onRetry }: { error: string | null; onRetry?: (
 }
 
 export function Unofficial({ compact }: { compact?: boolean }) {
-  return <div className={`unofficial ${compact ? "compact" : ""}`}>⚠︎ {UNOFFICIAL_NOTICE}</div>;
+  return <div className={`unofficial ${compact ? "compact" : ""}`}>{UNOFFICIAL_NOTICE}</div>;
 }
 
 export function Badge({ children, tone = "neutral" }: { children: ReactNode; tone?: "neutral" | "good" | "bad" | "warn" | "info" }) {

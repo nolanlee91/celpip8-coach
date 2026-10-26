@@ -1,3 +1,4 @@
+import { Icon } from "../components/Icon";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { ListeningSet, Mode, Settings } from "../../shared/types";
 import { LISTENING_PARTS } from "../../shared/spec";
@@ -38,7 +39,7 @@ export function ListeningPage() {
 
   return (
     <div className="page">
-      <h1>🎧 Listening</h1>
+      <h1>Listening</h1>
       <p className="muted">Bài được chọn từ thư viện; audio được tạo sẵn một lần (Gemini TTS, nhiều giọng) và lưu lại — không gọi API khi bạn luyện. Bài chưa có audio sẽ không được dùng{settings?.allowBrowserVoice ? ", trừ khi dùng giọng đọc trình duyệt (bạn đã bật trong Cài đặt)" : ""}.</p>
       <ErrorBox error={error} />
       <Card>
@@ -46,7 +47,7 @@ export function ListeningPage() {
           <span><strong>Điều kiện thi thật:</strong> chỉ nghe một lần, không tạm dừng, không đổi tốc độ, không xem transcript trước khi nộp.</span>
         </label>
       </Card>
-      <div className="row gap-s wrap"><button className="btn primary big" onClick={() => next({ mode: "learn" })}>▶ Bài đề xuất cho tôi</button></div>
+      <div className="row gap-s wrap"><button className="btn primary big" onClick={() => next({ mode: "learn" })}><Icon name="play" /> Bài đề xuất cho tôi</button></div>
       <div className="part-grid">
         {LISTENING_PARTS.map((p) => (
           <Card key={p.id} title={`Part ${p.part}: ${p.name}`}>
@@ -155,7 +156,7 @@ function ListeningSession({ set, mode, examLike, browserVoice, preferredVoice, b
               <>
                 <McqList questions={chunk.questions} answers={answers} onAnswer={(q, i) => setAnswers((a) => ({ ...a, [q]: i }))} reviewed={false} skill="listening" exerciseTitle={set.title} />
                 <button className="btn primary big full" onClick={advance}>
-                  {chunkIdx < set.chunks.length - 1 ? "Tiếp tục phần nghe tiếp theo →" : "Nộp bài"}
+                  {chunkIdx < set.chunks.length - 1 ? "Tiếp tục phần nghe tiếp theo" : "Nộp bài"}
                 </button>
               </>
             )}

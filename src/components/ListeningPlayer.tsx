@@ -1,3 +1,4 @@
+import { Icon } from "./Icon";
 import { useEffect, useRef, useState } from "react";
 import type { ListeningSegment } from "../../shared/types";
 import { loadVoices, speak, splitSentences, stopSpeaking, type VoiceRole } from "../lib/speech";
@@ -53,12 +54,12 @@ export function SegmentPlayer({
       <div className="row gap-s wrap">
         {exam ? (
           state === "idle" && !finished.current
-            ? <button className="btn primary" onClick={() => play(0)}>▶ Phát (chỉ một lần)</button>
-            : <span className="muted small">{state === "playing" ? "🔊 Đang phát… (không thể tạm dừng trong chế độ thi)" : "Đã phát xong."}</span>
+            ? <button className="btn primary" onClick={() => play(0)}><Icon name="play" /> Phát (chỉ một lần)</button>
+            : <span className="muted small">{state === "playing" ? "Đang phát… (không thể tạm dừng trong chế độ thi)" : "Đã phát xong."}</span>
         ) : (
           <>
             {state !== "playing"
-              ? <button className="btn primary" onClick={() => play(state === "done" ? 0 : index)}>{state === "done" ? "↻ Nghe lại" : index > 0 ? "▶ Tiếp tục" : "▶ Phát"}</button>
+              ? <button className="btn primary" onClick={() => play(state === "done" ? 0 : index)}>{state === "done" ? "Nghe lại" : index > 0 ? "Tiếp tục" : "Phát"}</button>
               : <button className="btn" onClick={stop}>⏸ Dừng</button>}
             <select value={rate} onChange={(e) => setRate(Number(e.target.value))} disabled={state === "playing"} title="Tốc độ">
               {[0.75, 0.85, 1, 1.1, 1.25].map((r) => <option key={r} value={r}>{r}×</option>)}
@@ -107,8 +108,8 @@ export function AudioChunkPlayer({ audio, exam, onFinished }: { audio: ChunkAudi
       <div className="row gap-s wrap">
         {exam ? (
           state === "idle"
-            ? <button className="btn primary" onClick={() => void ref.current?.play()}>▶ Phát (chỉ một lần)</button>
-            : <span className="muted small">{state === "playing" ? "🔊 Đang phát… (không thể tạm dừng trong chế độ thi)" : "Đã phát xong."}</span>
+            ? <button className="btn primary" onClick={() => void ref.current?.play()}><Icon name="play" /> Phát (chỉ một lần)</button>
+            : <span className="muted small">{state === "playing" ? "Đang phát… (không thể tạm dừng trong chế độ thi)" : "Đã phát xong."}</span>
         ) : (
           <>
             <select value={rate} onChange={(e) => setRate(Number(e.target.value))} title="Tốc độ">

@@ -1,3 +1,4 @@
+import { Icon } from "../components/Icon";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import type { MockExam, ReadingSet, Settings, SpeakingPrompt, Submission, WritingPrompt } from "../../shared/types";
@@ -43,7 +44,7 @@ export function MockPage() {
 
   return (
     <div className="page">
-      <h1>📝 Thi thử (Mock Exam)</h1>
+      <h1>Thi thử (Mock Exam)</h1>
       <Unofficial />
       <Card title="Cấu trúc bài thi thử">
         <div className="grid-4">
@@ -69,7 +70,7 @@ export function MockPage() {
                     {p.problems.map((x, i) => <div key={i} className="tiny muted">{x}</div>)}
                   </td>
                   <td>{p.timesTaken}×</td>
-                  <td><button className="btn primary small" disabled={!p.available} onClick={() => start(p.id)}>▶ Bắt đầu thi</button></td>
+                  <td><button className="btn primary small" disabled={!p.available} onClick={() => start(p.id)}><Icon name="play" /> Bắt đầu thi</button></td>
                 </tr>
               ))}
             </tbody>
@@ -277,7 +278,7 @@ function ExamListening({ mockId, contentId, onDone }: { mockId: string; contentI
           <>
             <div className="row between"><span className="muted small">Trả lời trước khi hết giờ</span><TimerPill seconds={left} warnAt={15} /></div>
             <McqList questions={set.chunks[chunk].questions} answers={answers} onAnswer={(q, i) => setAnswers((a) => ({ ...a, [q]: i }))} reviewed={false} skill="listening" exerciseTitle={set.title} />
-            <button className="btn primary full" onClick={() => void finishChunk()}>Tiếp →</button>
+            <button className="btn primary full" onClick={() => void finishChunk()}>Tiếp</button>
           </>
         )}
       </div>
@@ -309,7 +310,7 @@ function ExamReading({ mockId, contentId, onDone }: { mockId: string; contentId:
         <div className="split-left">{set.sections.map((s, i) => <Passage key={i} section={s} answers={blanks} sourceLabel={`mock:${set.taskType}`} />)}</div>
         <div className="split-right">
           <McqList questions={set.questions} answers={answers} onAnswer={(q, i) => setAnswers((a) => ({ ...a, [q]: i }))} reviewed={false} skill="reading" exerciseTitle={set.title} />
-          <button className="btn primary full" onClick={() => { if (confirm("Chuyển sang part tiếp theo? Bạn sẽ không quay lại được.")) void submit(false); }}>Tiếp →</button>
+          <button className="btn primary full" onClick={() => { if (confirm("Chuyển sang part tiếp theo? Bạn sẽ không quay lại được.")) void submit(false); }}>Tiếp</button>
         </div>
       </div>
     </>
@@ -352,7 +353,7 @@ function ExamWriting({ mockId, contentId, onDone }: { mockId: string; contentId:
       <div className="split-right">
         <textarea className="editor" value={text} onChange={(e) => setText(e.target.value)} spellCheck={false} />
         <div className="row between"><span className={`wc ${wc < spec.minWords ? "low" : wc > spec.maxWords ? "high" : "ok"}`}>{wc} từ</span></div>
-        <button className="btn primary full" onClick={() => { if (confirm("Nộp task này và chuyển tiếp?")) void submit(); }}>Tiếp →</button>
+        <button className="btn primary full" onClick={() => { if (confirm("Nộp task này và chuyển tiếp?")) void submit(); }}>Tiếp</button>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import { Icon } from "../components/Icon";
 import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import type { DailyPlan, Settings, WeeklyAssessment } from "../../shared/types";
@@ -40,7 +41,7 @@ export function PlannerPage() {
 
   return (
     <div className="page">
-      <h1>🗓 Kế hoạch học {settings.planWeeks} tuần</h1>
+      <h1>Kế hoạch học {settings.planWeeks} tuần</h1>
       <p className="muted">Bắt đầu {settings.startDate} · hiện ở <strong>tuần {plan.week}</strong> · tỷ trọng: {SKILLS.map((k) => `${SKILL_LABEL[k]} ${settings.weights[k]}%`).join(" · ")} (<Link to="/settings">chỉnh</Link>)</p>
 
       <div className="timeline">
@@ -73,7 +74,7 @@ export function PlannerPage() {
           <Link className="btn" to="/reading?mode=weekly&task=R4">1. Reading Part 4</Link>
           <Link className="btn" to="/listening?mode=weekly&task=L5">2. Listening Part 5</Link>
           <Link className="btn" to="/speaking?mode=weekly&task=S7">3. Speaking Task 7</Link>
-          <button className="btn primary" onClick={doCheckin}>✔ Hoàn tất đánh giá tuần {plan.week}</button>
+          <button className="btn primary" onClick={doCheckin}><Icon name="check" /> Hoàn tất đánh giá tuần {plan.week}</button>
         </div>
         {checkin && (
           <div className="checkin">

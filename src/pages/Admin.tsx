@@ -1,3 +1,4 @@
+import { Icon } from "../components/Icon";
 import { Fragment, useCallback, useEffect, useState } from "react";
 import type { ValidationIssue } from "../../shared/content";
 import { CATEGORIES, LISTENING_PARTS, READING_PARTS, SPEAKING_TASKS, WRITING_TASKS, type Skill } from "../../shared/spec";
@@ -37,7 +38,7 @@ export function AdminPage() {
   const [tab, setTab] = useState<"library" | "lessons" | "audio" | "generate" | "ai">("library");
   return (
     <div className="page">
-      <h1>🛠 Quản trị nội dung</h1>
+      <h1>Quản trị nội dung</h1>
       <p className="muted">Khu vực dành cho quản trị — không thuộc luồng học. Mọi thao tác dùng AI ở đây đều phải bấm chủ động.</p>
       <Segmented value={tab} onChange={setTab} options={[
         { value: "library", label: "Thư viện" }, { value: "lessons", label: "Bài học (Learn)" }, { value: "audio", label: "Audio Listening" }, { value: "generate", label: "Sinh nội dung" }, { value: "ai", label: "Sử dụng AI" },
@@ -69,7 +70,7 @@ function LibraryTab() {
   ];
   return (
     <>
-      <Card title="Tiến độ thư viện (chỉ tính nội dung đã duyệt + hợp lệ)" actions={<button className="btn small" onClick={async () => { await post("/api/admin/library/reload"); void load(); }}>↻ Nạp lại từ đĩa</button>}>
+      <Card title="Tiến độ thư viện (chỉ tính nội dung đã duyệt + hợp lệ)" actions={<button className="btn small" onClick={async () => { await post("/api/admin/library/reload"); void load(); }}><Icon name="rotate-ccw" /> Nạp lại từ đĩa</button>}>
         {rows.map(([label, n, target, note]) => (
           <div key={label} className="bar-row fixed">
             <span>{label}</span>
@@ -138,7 +139,7 @@ function AudioTab() {
         <p className="small muted">Audio được tạo MỘT lần (nguồn: <strong>{job?.provider === "gemini" ? "Gemini TTS — cần GEMINI_API_KEY" : "Edge TTS — giọng neural en-CA, không cần API key"}</strong>), lưu vào thư mục dữ liệu bền vững (<code>$DATA_DIR/audio-assets</code>, không nằm trong git) và dùng lại mãi mãi. Có thể dừng và chạy tiếp — phần đã tạo không bị tạo lại. Edge TTS là dịch vụ không chính thức của Microsoft: có thể thay đổi hoặc ngừng bất cứ lúc nào, nên hãy tạo audio sớm và sao lưu thư mục này.</p>
         <div className="row gap-s wrap">
           <label className="row gap-s small">Số đoạn tối đa lô này <input type="number" min={1} max={200} value={limit} onChange={(e) => setLimit(Number(e.target.value))} style={{ width: 80 }} /></label>
-          <button className="btn primary" disabled={job?.running} onClick={async () => { setError(null); try { await post("/api/admin/audio/generate", { limit }); setTimeout(load, 800); } catch (e) { setError((e as Error).message); } }}>▶ Tạo audio còn thiếu</button>
+          <button className="btn primary" disabled={job?.running} onClick={async () => { setError(null); try { await post("/api/admin/audio/generate", { limit }); setTimeout(load, 800); } catch (e) { setError((e as Error).message); } }}><Icon name="play" /> Tạo audio còn thiếu</button>
           {job?.running && <button className="btn" onClick={() => post("/api/admin/audio/stop").then(load)}>⏹ Dừng</button>}
         </div>
         <ErrorBox error={error} />
@@ -223,7 +224,7 @@ function GenerateTab() {
       {!jobs ? <Loading /> : jobs.length === 0 ? <Empty>Chưa có job nào.</Empty> : jobs.map((j) => (
         <Card key={j.id} title={`${j.skill}/${j.taskType || "-"} · ${j.setType} × ${j.count}`} actions={
           <span className="row gap-s">
-            {j.running ? <Badge tone="info">đang chạy</Badge> : j.drafts.some((d) => d.status !== "generated") && <button className="btn small" onClick={() => post(`/api/admin/jobs/${j.id}/run`).then(() => setTimeout(() => void load(), 500))}>▶ Chạy tiếp</button>}
+            {j.running ? <Badge tone="info">đang chạy</Badge> : j.drafts.some((d) => d.status !== "generated") && <button className="btn small" onClick={() => post(`/api/admin/jobs/${j.id}/run`).then(() => setTimeout(() => void load(), 500))}><Icon name="play" /> Chạy tiếp</button>}
             <span className="tiny muted">{j.usage.calls} lượt · {j.usage.totalTokens.toLocaleString()} token</span>
           </span>
         }>
@@ -252,7 +253,7 @@ function GenerateTab() {
                     {open?.item === d.id && (
                       <tr className="detail-row"><td colSpan={6}>
                         {d.issues.map((i, k) => <div key={k} className="small">{i.severity === "error" ? "✗" : "!"} {i.message}</div>)}
-                        {d.aiReview?.issues.map((x, k) => <div key={k} className="small">🤖 {x}</div>)}
+                        {d.aiReview?.issues.map((x, k) => <div key={k} className="small">{x}</div>)}
                         <pre className="pre" style={{ maxHeight: 420, overflow: "auto" }}>{JSON.stringify(open.data, null, 2)}</pre>
                       </td></tr>
                     )}
@@ -275,8 +276,8 @@ function UsageTab() {
   return (
     <>
       <Card title="Trạng thái AI">
-        <p>{a.configured ? "✅ Đã cấu hình" : "❌ Chưa cấu hình GEMINI_API_KEY"} · model <code>{a.model}</code> · TTS <code>{a.ttsModel}</code></p>
-        <p className="small">Lần thành công gần nhất: {a.lastSuccessAt ? new Date(a.lastSuccessAt).toLocaleString() : "–"}{a.rateLimitedUntil && Date.parse(a.rateLimitedUntil) > Date.now() ? ` · ⚠︎ đang bị giới hạn tốc độ đến ${new Date(a.rateLimitedUntil).toLocaleTimeString()}` : ""}</p>
+        <p>{a.configured ? "Đã cấu hình" : "Chưa cấu hình GEMINI_API_KEY"} · model <code>{a.model}</code> · TTS <code>{a.ttsModel}</code></p>
+        <p className="small">Lần thành công gần nhất: {a.lastSuccessAt ? new Date(a.lastSuccessAt).toLocaleString() : "–"}{a.rateLimitedUntil && Date.parse(a.rateLimitedUntil) > Date.now() ? ` · đang bị giới hạn tốc độ đến ${new Date(a.rateLimitedUntil).toLocaleTimeString()}` : ""}</p>
         {a.lastError && <p className="small">Lỗi gần nhất ({new Date(a.lastError.at).toLocaleString()}): {a.lastError.message}</p>}
         <p className="small muted">Bộ nhớ đệm nhận xét: {u.cacheEntries} mục · Bài nộp chưa chấm: {u.pendingSubmissions}</p>
       </Card>
@@ -321,7 +322,7 @@ function LessonsTab() {
   const errors = d.issues.filter((i) => i.severity === "error");
   return (
     <>
-      <Card title="Lộ trình Learn Mode" actions={<button className="btn small" onClick={() => void post("/api/admin/curriculum/reload").then(load)}>↻ Nạp lại</button>}>
+      <Card title="Lộ trình Learn Mode" actions={<button className="btn small" onClick={() => void post("/api/admin/curriculum/reload").then(load)}><Icon name="rotate-ccw" /> Nạp lại</button>}>
         <p>Kế hoạch <strong>{d.planned}</strong> bài · có file <strong>{d.lessons.length}</strong> · đang dùng (đã duyệt + hợp lệ) <strong>{active}</strong> · lỗi kiểm tra <strong>{errors.length}</strong></p>
         <p className="muted small">Bài học soạn sẵn trong <code>content/lessons/</code>, kiểm tra bằng <code>npm run content:validate</code>. Audio của bài nghe tạo bằng <code>npm run audio:generate -- --lessons</code> (hoặc tab Audio).</p>
         <table className="table small">
