@@ -1,0 +1,1791 @@
+{
+ "l1-drill-01-c0-0b8b8402f6f0.mp3": {
+  "setId": "l1-drill-01",
+  "chunk": 0,
+  "hash": "0b8b8402f6f0",
+  "durationSec": 99,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Rosa": "en-CA-ClaraNeural",
+   "Tomás": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:12:01.356Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 11.45
+   },
+   {
+    "start": 11.86,
+    "end": 16.61
+   },
+   {
+    "start": 17.02,
+    "end": 20.59
+   },
+   {
+    "start": 21,
+    "end": 33.58
+   },
+   {
+    "start": 33.98,
+    "end": 38.74
+   },
+   {
+    "start": 39.14,
+    "end": 47.59
+   },
+   {
+    "start": 48,
+    "end": 54.05
+   },
+   {
+    "start": 54.46,
+    "end": 61.42
+   },
+   {
+    "start": 61.82,
+    "end": 70.8
+   },
+   {
+    "start": 71.21,
+    "end": 77.38
+   },
+   {
+    "start": 77.78,
+    "end": 88.82
+   },
+   {
+    "start": 89.23,
+    "end": 98.59
+   }
+  ]
+ },
+ "l1-full-01-c0-80e9fc5b2acf.mp3": {
+  "setId": "l1-full-01",
+  "chunk": 0,
+  "hash": "80e9fc5b2acf",
+  "durationSec": 78.6,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Mei": "en-CA-ClaraNeural",
+   "Daniel": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:12:24.953Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 6.62
+   },
+   {
+    "start": 7.03,
+    "end": 15.07
+   },
+   {
+    "start": 15.48,
+    "end": 20.16
+   },
+   {
+    "start": 20.57,
+    "end": 30.98
+   },
+   {
+    "start": 31.39,
+    "end": 39.5
+   },
+   {
+    "start": 39.91,
+    "end": 45.07
+   },
+   {
+    "start": 45.48,
+    "end": 56.66
+   },
+   {
+    "start": 57.07,
+    "end": 61.68
+   },
+   {
+    "start": 62.09,
+    "end": 68.81
+   },
+   {
+    "start": 69.22,
+    "end": 78.24
+   }
+  ]
+ },
+ "l1-full-01-c1-48e5e2b6e97c.mp3": {
+  "setId": "l1-full-01",
+  "chunk": 1,
+  "hash": "48e5e2b6e97c",
+  "durationSec": 79.2,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Daniel": "en-CA-LiamNeural",
+   "Mei": "en-CA-ClaraNeural"
+  },
+  "createdAt": "2026-10-26T22:12:46.336Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 7.99
+   },
+   {
+    "start": 8.4,
+    "end": 15.46
+   },
+   {
+    "start": 15.86,
+    "end": 25.94
+   },
+   {
+    "start": 26.35,
+    "end": 40.7
+   },
+   {
+    "start": 41.11,
+    "end": 45.94
+   },
+   {
+    "start": 46.34,
+    "end": 57.34
+   },
+   {
+    "start": 57.74,
+    "end": 64.3
+   },
+   {
+    "start": 64.7,
+    "end": 74.69
+   },
+   {
+    "start": 75.1,
+    "end": 78.84
+   }
+  ]
+ },
+ "l1-full-01-c2-f14ce56964f2.mp3": {
+  "setId": "l1-full-01",
+  "chunk": 2,
+  "hash": "f14ce56964f2",
+  "durationSec": 76.1,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Daniel": "en-CA-LiamNeural",
+   "Mei": "en-CA-ClaraNeural"
+  },
+  "createdAt": "2026-10-26T22:13:01.114Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 8.74
+   },
+   {
+    "start": 9.14,
+    "end": 15.34
+   },
+   {
+    "start": 15.74,
+    "end": 29.4
+   },
+   {
+    "start": 29.81,
+    "end": 34.18
+   },
+   {
+    "start": 34.58,
+    "end": 46.9
+   },
+   {
+    "start": 47.3,
+    "end": 52.61
+   },
+   {
+    "start": 53.02,
+    "end": 64.82
+   },
+   {
+    "start": 65.23,
+    "end": 75.65
+   }
+  ]
+ },
+ "l1-mock-01-c0-596a43b02ef7.mp3": {
+  "setId": "l1-mock-01",
+  "chunk": 0,
+  "hash": "596a43b02ef7",
+  "durationSec": 79.7,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Teresa": "en-CA-ClaraNeural",
+   "Arjun": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:13:18.418Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 11.71
+   },
+   {
+    "start": 12.12,
+    "end": 20.64
+   },
+   {
+    "start": 21.05,
+    "end": 24.34
+   },
+   {
+    "start": 24.74,
+    "end": 35.69
+   },
+   {
+    "start": 36.1,
+    "end": 41.52
+   },
+   {
+    "start": 41.93,
+    "end": 57.6
+   },
+   {
+    "start": 58.01,
+    "end": 67.9
+   },
+   {
+    "start": 68.3,
+    "end": 79.27
+   }
+  ]
+ },
+ "l1-mock-01-c1-a94355e0db8f.mp3": {
+  "setId": "l1-mock-01",
+  "chunk": 1,
+  "hash": "a94355e0db8f",
+  "durationSec": 76.2,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Teresa": "en-CA-ClaraNeural",
+   "Arjun": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:13:38.558Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 10.2
+   },
+   {
+    "start": 10.61,
+    "end": 20.95
+   },
+   {
+    "start": 21.36,
+    "end": 23.23
+   },
+   {
+    "start": 23.64,
+    "end": 39.72
+   },
+   {
+    "start": 40.13,
+    "end": 42.34
+   },
+   {
+    "start": 42.74,
+    "end": 47.11
+   },
+   {
+    "start": 47.52,
+    "end": 57.02
+   },
+   {
+    "start": 57.43,
+    "end": 66.7
+   },
+   {
+    "start": 67.1,
+    "end": 75.77
+   }
+  ]
+ },
+ "l1-mock-01-c2-697ade7c584b.mp3": {
+  "setId": "l1-mock-01",
+  "chunk": 2,
+  "hash": "697ade7c584b",
+  "durationSec": 69.6,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Arjun": "en-CA-LiamNeural",
+   "Teresa": "en-CA-ClaraNeural"
+  },
+  "createdAt": "2026-10-26T22:13:57.043Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.88
+   },
+   {
+    "start": 6.29,
+    "end": 19.61
+   },
+   {
+    "start": 20.02,
+    "end": 28.56
+   },
+   {
+    "start": 28.97,
+    "end": 40.49
+   },
+   {
+    "start": 40.9,
+    "end": 51.02
+   },
+   {
+    "start": 51.43,
+    "end": 55.73
+   },
+   {
+    "start": 56.14,
+    "end": 64.2
+   },
+   {
+    "start": 64.61,
+    "end": 69.22
+   }
+  ]
+ },
+ "l1-mock-02-c0-3f271171c0b1.mp3": {
+  "setId": "l1-mock-02",
+  "chunk": 0,
+  "hash": "3f271171c0b1",
+  "durationSec": 71.2,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Chloe": "en-CA-ClaraNeural",
+   "Farid": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:14:14.858Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 8.04
+   },
+   {
+    "start": 8.45,
+    "end": 16.42
+   },
+   {
+    "start": 16.82,
+    "end": 27.53
+   },
+   {
+    "start": 27.94,
+    "end": 38.23
+   },
+   {
+    "start": 38.64,
+    "end": 46.75
+   },
+   {
+    "start": 47.16,
+    "end": 57.65
+   },
+   {
+    "start": 58.06,
+    "end": 64.51
+   },
+   {
+    "start": 64.92,
+    "end": 70.75
+   }
+  ]
+ },
+ "l1-mock-02-c1-680870eeb324.mp3": {
+  "setId": "l1-mock-02",
+  "chunk": 1,
+  "hash": "680870eeb324",
+  "durationSec": 74.3,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Chloe": "en-CA-ClaraNeural",
+   "Farid": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:14:30.440Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 11.69
+   },
+   {
+    "start": 12.1,
+    "end": 16.58
+   },
+   {
+    "start": 16.99,
+    "end": 29.26
+   },
+   {
+    "start": 29.66,
+    "end": 36.19
+   },
+   {
+    "start": 36.6,
+    "end": 46.51
+   },
+   {
+    "start": 46.92,
+    "end": 55.51
+   },
+   {
+    "start": 55.92,
+    "end": 68.11
+   },
+   {
+    "start": 68.52,
+    "end": 73.87
+   }
+  ]
+ },
+ "l1-mock-02-c2-a87af22f960e.mp3": {
+  "setId": "l1-mock-02",
+  "chunk": 2,
+  "hash": "a87af22f960e",
+  "durationSec": 62.6,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Farid": "en-CA-LiamNeural",
+   "Chloe": "en-CA-ClaraNeural"
+  },
+  "createdAt": "2026-10-26T22:14:45.787Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 5.3
+   },
+   {
+    "start": 5.71,
+    "end": 19.82
+   },
+   {
+    "start": 20.23,
+    "end": 23.88
+   },
+   {
+    "start": 24.29,
+    "end": 29.3
+   },
+   {
+    "start": 29.71,
+    "end": 40.44
+   },
+   {
+    "start": 40.85,
+    "end": 48.62
+   },
+   {
+    "start": 49.03,
+    "end": 57.24
+   },
+   {
+    "start": 57.65,
+    "end": 62.21
+   }
+  ]
+ },
+ "l2-drill-01-c0-4f80ec1827da.mp3": {
+  "setId": "l2-drill-01",
+  "chunk": 0,
+  "hash": "4f80ec1827da",
+  "durationSec": 102.7,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Ana": "en-CA-ClaraNeural",
+   "Ben": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:15:12.545Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 12.58
+   },
+   {
+    "start": 12.98,
+    "end": 18.91
+   },
+   {
+    "start": 19.32,
+    "end": 24.89
+   },
+   {
+    "start": 25.3,
+    "end": 35.47
+   },
+   {
+    "start": 35.88,
+    "end": 46.97
+   },
+   {
+    "start": 47.38,
+    "end": 52.51
+   },
+   {
+    "start": 52.92,
+    "end": 58.61
+   },
+   {
+    "start": 59.02,
+    "end": 61.7
+   },
+   {
+    "start": 62.11,
+    "end": 71.57
+   },
+   {
+    "start": 71.98,
+    "end": 86.66
+   },
+   {
+    "start": 87.07,
+    "end": 90.94
+   },
+   {
+    "start": 91.34,
+    "end": 97.78
+   },
+   {
+    "start": 98.18,
+    "end": 102.26
+   }
+  ]
+ },
+ "l2-full-01-c0-915127a10c48.mp3": {
+  "setId": "l2-full-01",
+  "chunk": 0,
+  "hash": "915127a10c48",
+  "durationSec": 121.8,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Minh": "en-CA-LiamNeural",
+   "Ms. Kaur": "en-US-JennyNeural"
+  },
+  "createdAt": "2026-10-26T22:15:36.794Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 8.88
+   },
+   {
+    "start": 9.29,
+    "end": 16.78
+   },
+   {
+    "start": 17.18,
+    "end": 23.78
+   },
+   {
+    "start": 24.19,
+    "end": 29.18
+   },
+   {
+    "start": 29.59,
+    "end": 40.8
+   },
+   {
+    "start": 41.21,
+    "end": 51.7
+   },
+   {
+    "start": 52.1,
+    "end": 62.5
+   },
+   {
+    "start": 62.9,
+    "end": 67.82
+   },
+   {
+    "start": 68.23,
+    "end": 73.87
+   },
+   {
+    "start": 74.28,
+    "end": 79.7
+   },
+   {
+    "start": 80.11,
+    "end": 91.61
+   },
+   {
+    "start": 92.02,
+    "end": 97.9
+   },
+   {
+    "start": 98.3,
+    "end": 104.69
+   },
+   {
+    "start": 105.1,
+    "end": 118.63
+   },
+   {
+    "start": 119.04,
+    "end": 121.42
+   }
+  ]
+ },
+ "l2-mock-01-c0-0bdebf8296ed.mp3": {
+  "setId": "l2-mock-01",
+  "chunk": 0,
+  "hash": "0bdebf8296ed",
+  "durationSec": 137.6,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Dave": "en-CA-LiamNeural",
+   "Gurpreet": "en-CA-ClaraNeural"
+  },
+  "createdAt": "2026-10-26T22:16:08.187Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 11.3
+   },
+   {
+    "start": 11.71,
+    "end": 23.88
+   },
+   {
+    "start": 24.29,
+    "end": 35.33
+   },
+   {
+    "start": 35.74,
+    "end": 45.12
+   },
+   {
+    "start": 45.53,
+    "end": 56.33
+   },
+   {
+    "start": 56.74,
+    "end": 63.38
+   },
+   {
+    "start": 63.79,
+    "end": 76.37
+   },
+   {
+    "start": 76.78,
+    "end": 85.56
+   },
+   {
+    "start": 85.97,
+    "end": 91.54
+   },
+   {
+    "start": 91.94,
+    "end": 101.04
+   },
+   {
+    "start": 101.45,
+    "end": 106.2
+   },
+   {
+    "start": 106.61,
+    "end": 118.51
+   },
+   {
+    "start": 118.92,
+    "end": 130.92
+   },
+   {
+    "start": 131.33,
+    "end": 137.23
+   }
+  ]
+ },
+ "l2-mock-02-c0-d985a972bbdb.mp3": {
+  "setId": "l2-mock-02",
+  "chunk": 0,
+  "hash": "d985a972bbdb",
+  "durationSec": 133.4,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Sophie": "en-US-JennyNeural",
+   "Kwame": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:16:31.251Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 2.83
+   },
+   {
+    "start": 3.24,
+    "end": 13.73
+   },
+   {
+    "start": 14.14,
+    "end": 18.72
+   },
+   {
+    "start": 19.13,
+    "end": 32.11
+   },
+   {
+    "start": 32.52,
+    "end": 34.39
+   },
+   {
+    "start": 34.8,
+    "end": 40.01
+   },
+   {
+    "start": 40.42,
+    "end": 46.82
+   },
+   {
+    "start": 47.23,
+    "end": 58.78
+   },
+   {
+    "start": 59.18,
+    "end": 65.54
+   },
+   {
+    "start": 65.95,
+    "end": 70.15
+   },
+   {
+    "start": 70.56,
+    "end": 76.01
+   },
+   {
+    "start": 76.42,
+    "end": 94.2
+   },
+   {
+    "start": 94.61,
+    "end": 101.54
+   },
+   {
+    "start": 101.95,
+    "end": 116.47
+   },
+   {
+    "start": 116.88,
+    "end": 125.14
+   },
+   {
+    "start": 125.54,
+    "end": 132.96
+   }
+  ]
+ },
+ "l3-drill-01-c0-f692485855cc.mp3": {
+  "setId": "l3-drill-01",
+  "chunk": 0,
+  "hash": "f692485855cc",
+  "durationSec": 109.1,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Mai": "en-CA-ClaraNeural",
+   "Samuel": "en-US-GuyNeural"
+  },
+  "createdAt": "2026-10-26T22:16:52.425Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 13.06
+   },
+   {
+    "start": 13.46,
+    "end": 26.21
+   },
+   {
+    "start": 26.62,
+    "end": 31.13
+   },
+   {
+    "start": 31.54,
+    "end": 33.84
+   },
+   {
+    "start": 34.25,
+    "end": 45.43
+   },
+   {
+    "start": 45.84,
+    "end": 50.04
+   },
+   {
+    "start": 50.45,
+    "end": 65.4
+   },
+   {
+    "start": 65.81,
+    "end": 71.3
+   },
+   {
+    "start": 71.71,
+    "end": 83.57
+   },
+   {
+    "start": 83.98,
+    "end": 88.97
+   },
+   {
+    "start": 89.38,
+    "end": 98.33
+   },
+   {
+    "start": 98.74,
+    "end": 104.71
+   },
+   {
+    "start": 105.12,
+    "end": 108.7
+   }
+  ]
+ },
+ "l3-full-01-c0-f31a9bc99607.mp3": {
+  "setId": "l3-full-01",
+  "chunk": 0,
+  "hash": "f31a9bc99607",
+  "durationSec": 177.4,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Nadia": "en-US-JennyNeural",
+   "Marcus": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:17:19.676Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 10.75
+   },
+   {
+    "start": 11.16,
+    "end": 17.14
+   },
+   {
+    "start": 17.54,
+    "end": 32.42
+   },
+   {
+    "start": 32.83,
+    "end": 36.14
+   },
+   {
+    "start": 36.55,
+    "end": 41.16
+   },
+   {
+    "start": 41.57,
+    "end": 52.7
+   },
+   {
+    "start": 53.11,
+    "end": 56.4
+   },
+   {
+    "start": 56.81,
+    "end": 67.1
+   },
+   {
+    "start": 67.51,
+    "end": 77.21
+   },
+   {
+    "start": 77.62,
+    "end": 82.15
+   },
+   {
+    "start": 82.56,
+    "end": 90.67
+   },
+   {
+    "start": 91.08,
+    "end": 98.5
+   },
+   {
+    "start": 98.9,
+    "end": 113.28
+   },
+   {
+    "start": 113.69,
+    "end": 123.48
+   },
+   {
+    "start": 123.89,
+    "end": 129.41
+   },
+   {
+    "start": 129.82,
+    "end": 142.63
+   },
+   {
+    "start": 143.04,
+    "end": 148.42
+   },
+   {
+    "start": 148.82,
+    "end": 151.66
+   },
+   {
+    "start": 152.06,
+    "end": 163.25
+   },
+   {
+    "start": 163.66,
+    "end": 170.9
+   },
+   {
+    "start": 171.31,
+    "end": 176.98
+   }
+  ]
+ },
+ "l4-drill-01-c0-135ab15be5c6.mp3": {
+  "setId": "l4-drill-01",
+  "chunk": 0,
+  "hash": "135ab15be5c6",
+  "durationSec": 79.7,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "News reader": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:17:51.280Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 11.57
+   },
+   {
+    "start": 11.81,
+    "end": 22.39
+   },
+   {
+    "start": 22.63,
+    "end": 32.5
+   },
+   {
+    "start": 32.74,
+    "end": 46.58
+   },
+   {
+    "start": 46.82,
+    "end": 59.42
+   },
+   {
+    "start": 59.66,
+    "end": 73.68
+   },
+   {
+    "start": 73.92,
+    "end": 79.42
+   }
+  ]
+ },
+ "l4-mock-01-c0-e75bcd4a80d9.mp3": {
+  "setId": "l4-mock-01",
+  "chunk": 0,
+  "hash": "e75bcd4a80d9",
+  "durationSec": 100.7,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "News reader": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:17:53.341Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 14.74
+   },
+   {
+    "start": 14.98,
+    "end": 31.9
+   },
+   {
+    "start": 32.14,
+    "end": 39.17
+   },
+   {
+    "start": 39.41,
+    "end": 51.84
+   },
+   {
+    "start": 52.08,
+    "end": 67.39
+   },
+   {
+    "start": 67.63,
+    "end": 76.78
+   },
+   {
+    "start": 77.02,
+    "end": 94.42
+   },
+   {
+    "start": 94.66,
+    "end": 100.46
+   }
+  ]
+ },
+ "l4-mock-02-c0-007d4cb5f86a.mp3": {
+  "setId": "l4-mock-02",
+  "chunk": 0,
+  "hash": "007d4cb5f86a",
+  "durationSec": 101.9,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "News reader": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:17:54.644Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 14.9
+   },
+   {
+    "start": 15.14,
+    "end": 30.79
+   },
+   {
+    "start": 31.03,
+    "end": 42.7
+   },
+   {
+    "start": 42.94,
+    "end": 58.85
+   },
+   {
+    "start": 59.09,
+    "end": 70.03
+   },
+   {
+    "start": 70.27,
+    "end": 90.34
+   },
+   {
+    "start": 90.58,
+    "end": 101.69
+   }
+  ]
+ },
+ "l4-full-01-c0-4ead11cd252b.mp3": {
+  "setId": "l4-full-01",
+  "chunk": 0,
+  "hash": "4ead11cd252b",
+  "durationSec": 94.7,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "News reader": "en-CA-LiamNeural"
+  },
+  "createdAt": "2026-10-26T22:17:54.900Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 16.22
+   },
+   {
+    "start": 16.46,
+    "end": 28.03
+   },
+   {
+    "start": 28.27,
+    "end": 44.74
+   },
+   {
+    "start": 44.98,
+    "end": 60.46
+   },
+   {
+    "start": 60.7,
+    "end": 75.5
+   },
+   {
+    "start": 75.74,
+    "end": 89.28
+   },
+   {
+    "start": 89.52,
+    "end": 94.46
+   }
+  ]
+ },
+ "l3-mock-01-c0-6742b28d9718.mp3": {
+  "setId": "l3-mock-01",
+  "chunk": 0,
+  "hash": "6742b28d9718",
+  "durationSec": 156.7,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Priya": "en-CA-ClaraNeural",
+   "Owen": "en-US-GuyNeural"
+  },
+  "createdAt": "2026-10-26T22:18:01.721Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 9.22
+   },
+   {
+    "start": 9.62,
+    "end": 13.78
+   },
+   {
+    "start": 14.18,
+    "end": 27.12
+   },
+   {
+    "start": 27.53,
+    "end": 41.3
+   },
+   {
+    "start": 41.71,
+    "end": 46.34
+   },
+   {
+    "start": 46.75,
+    "end": 55.27
+   },
+   {
+    "start": 55.68,
+    "end": 63
+   },
+   {
+    "start": 63.41,
+    "end": 68.86
+   },
+   {
+    "start": 69.26,
+    "end": 81.02
+   },
+   {
+    "start": 81.43,
+    "end": 84.77
+   },
+   {
+    "start": 85.18,
+    "end": 93.29
+   },
+   {
+    "start": 93.7,
+    "end": 98.47
+   },
+   {
+    "start": 98.88,
+    "end": 104.71
+   },
+   {
+    "start": 105.12,
+    "end": 116.45
+   },
+   {
+    "start": 116.86,
+    "end": 123.05
+   },
+   {
+    "start": 123.46,
+    "end": 135.1
+   },
+   {
+    "start": 135.5,
+    "end": 140.59
+   },
+   {
+    "start": 141,
+    "end": 148.66
+   },
+   {
+    "start": 149.06,
+    "end": 156.31
+   }
+  ]
+ },
+ "l3-mock-02-c0-2ff94e1fe2e6.mp3": {
+  "setId": "l3-mock-02",
+  "chunk": 0,
+  "hash": "2ff94e1fe2e6",
+  "durationSec": 173.4,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Andrés": "en-CA-LiamNeural",
+   "Fiona": "en-US-JennyNeural"
+  },
+  "createdAt": "2026-10-26T22:18:05.995Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 15.1
+   },
+   {
+    "start": 15.5,
+    "end": 29.93
+   },
+   {
+    "start": 30.34,
+    "end": 32.4
+   },
+   {
+    "start": 32.81,
+    "end": 48.12
+   },
+   {
+    "start": 48.53,
+    "end": 52.7
+   },
+   {
+    "start": 53.11,
+    "end": 65.09
+   },
+   {
+    "start": 65.5,
+    "end": 72
+   },
+   {
+    "start": 72.41,
+    "end": 78.02
+   },
+   {
+    "start": 78.43,
+    "end": 87.31
+   },
+   {
+    "start": 87.72,
+    "end": 92.02
+   },
+   {
+    "start": 92.42,
+    "end": 103.87
+   },
+   {
+    "start": 104.28,
+    "end": 109.73
+   },
+   {
+    "start": 110.14,
+    "end": 120.38
+   },
+   {
+    "start": 120.79,
+    "end": 131.54
+   },
+   {
+    "start": 131.95,
+    "end": 136.61
+   },
+   {
+    "start": 137.02,
+    "end": 150.43
+   },
+   {
+    "start": 150.84,
+    "end": 158.98
+   },
+   {
+    "start": 159.38,
+    "end": 163.97
+   },
+   {
+    "start": 164.38,
+    "end": 172.97
+   }
+  ]
+ },
+ "l6-drill-01-c0-86eb6eb89e76.mp3": {
+  "setId": "l6-drill-01",
+  "chunk": 0,
+  "hash": "86eb6eb89e76",
+  "durationSec": 113.4,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Jason Park, commentator": "en-US-GuyNeural"
+  },
+  "createdAt": "2026-10-26T22:18:13.812Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 12.41
+   },
+   {
+    "start": 12.65,
+    "end": 33.17
+   },
+   {
+    "start": 33.41,
+    "end": 57.62
+   },
+   {
+    "start": 57.86,
+    "end": 71.76
+   },
+   {
+    "start": 72,
+    "end": 90.41
+   },
+   {
+    "start": 90.65,
+    "end": 98.93
+   },
+   {
+    "start": 99.17,
+    "end": 113.21
+   }
+  ]
+ },
+ "l5-drill-01-c0-a68c918c0de2.mp3": {
+  "setId": "l5-drill-01",
+  "chunk": 0,
+  "hash": "a68c918c0de2",
+  "durationSec": 146.1,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Farah, team lead": "en-CA-ClaraNeural",
+   "Kevin, AP clerk": "en-CA-LiamNeural",
+   "Priscilla, AP clerk": "en-US-JennyNeural",
+   "Dmitri, AP analyst": "en-US-GuyNeural"
+  },
+  "createdAt": "2026-10-26T22:18:20.172Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 14.14
+   },
+   {
+    "start": 14.54,
+    "end": 25.01
+   },
+   {
+    "start": 25.42,
+    "end": 30.67
+   },
+   {
+    "start": 31.08,
+    "end": 41.74
+   },
+   {
+    "start": 42.14,
+    "end": 55.13
+   },
+   {
+    "start": 55.54,
+    "end": 64.56
+   },
+   {
+    "start": 64.97,
+    "end": 72.1
+   },
+   {
+    "start": 72.5,
+    "end": 78.22
+   },
+   {
+    "start": 78.62,
+    "end": 87
+   },
+   {
+    "start": 87.41,
+    "end": 102.65
+   },
+   {
+    "start": 103.06,
+    "end": 108.14
+   },
+   {
+    "start": 108.55,
+    "end": 119.38
+   },
+   {
+    "start": 119.78,
+    "end": 129.79
+   },
+   {
+    "start": 130.2,
+    "end": 137.04
+   },
+   {
+    "start": 137.45,
+    "end": 145.73
+   }
+  ]
+ },
+ "l5-full-01-c0-1e1ab0cfc895.mp3": {
+  "setId": "l5-full-01",
+  "chunk": 0,
+  "hash": "1e1ab0cfc895",
+  "durationSec": 192.6,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Grace, operations manager": "en-CA-ClaraNeural",
+   "Marco, shift supervisor": "en-CA-LiamNeural",
+   "Tanvir, forklift operator": "en-US-GuyNeural",
+   "Lena, HR coordinator": "en-US-JennyNeural"
+  },
+  "createdAt": "2026-10-26T22:18:25.542Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 14.21
+   },
+   {
+    "start": 14.62,
+    "end": 28.87
+   },
+   {
+    "start": 29.28,
+    "end": 39.5
+   },
+   {
+    "start": 39.91,
+    "end": 54.89
+   },
+   {
+    "start": 55.3,
+    "end": 67.92
+   },
+   {
+    "start": 68.33,
+    "end": 81.55
+   },
+   {
+    "start": 81.96,
+    "end": 88.49
+   },
+   {
+    "start": 88.9,
+    "end": 103.25
+   },
+   {
+    "start": 103.66,
+    "end": 120.84
+   },
+   {
+    "start": 121.25,
+    "end": 135.29
+   },
+   {
+    "start": 135.7,
+    "end": 143.14
+   },
+   {
+    "start": 143.54,
+    "end": 157.56
+   },
+   {
+    "start": 157.97,
+    "end": 166.3
+   },
+   {
+    "start": 166.7,
+    "end": 174.02
+   },
+   {
+    "start": 174.43,
+    "end": 188.02
+   },
+   {
+    "start": 188.42,
+    "end": 192.14
+   }
+  ]
+ },
+ "l6-mock-01-c0-101a83bf86bc.mp3": {
+  "setId": "l6-mock-01",
+  "chunk": 0,
+  "hash": "101a83bf86bc",
+  "durationSec": 146.6,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Marcus Delgado, retail consultant": "en-US-GuyNeural"
+  },
+  "createdAt": "2026-10-26T22:18:26.508Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 17.21
+   },
+   {
+    "start": 17.45,
+    "end": 39.86
+   },
+   {
+    "start": 40.1,
+    "end": 61.01
+   },
+   {
+    "start": 61.25,
+    "end": 82.06
+   },
+   {
+    "start": 82.3,
+    "end": 103.06
+   },
+   {
+    "start": 103.3,
+    "end": 116.38
+   },
+   {
+    "start": 116.62,
+    "end": 131.28
+   },
+   {
+    "start": 131.52,
+    "end": 146.4
+   }
+  ]
+ },
+ "l5-mock-01-c0-f887abc85bbf.mp3": {
+  "setId": "l5-mock-01",
+  "chunk": 0,
+  "hash": "f887abc85bbf",
+  "durationSec": 202.9,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Deborah, council president": "en-CA-ClaraNeural",
+   "Sofia, council member": "en-US-JennyNeural",
+   "Rajiv, treasurer": "en-CA-LiamNeural",
+   "Owen, council member": "en-US-GuyNeural"
+  },
+  "createdAt": "2026-10-26T22:18:28.668Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 16.37
+   },
+   {
+    "start": 16.78,
+    "end": 39.62
+   },
+   {
+    "start": 40.03,
+    "end": 59.45
+   },
+   {
+    "start": 59.86,
+    "end": 73.39
+   },
+   {
+    "start": 73.8,
+    "end": 89.11
+   },
+   {
+    "start": 89.52,
+    "end": 96.38
+   },
+   {
+    "start": 96.79,
+    "end": 111.72
+   },
+   {
+    "start": 112.13,
+    "end": 123.17
+   },
+   {
+    "start": 123.58,
+    "end": 135.19
+   },
+   {
+    "start": 135.6,
+    "end": 145.82
+   },
+   {
+    "start": 146.23,
+    "end": 155.04
+   },
+   {
+    "start": 155.45,
+    "end": 162.96
+   },
+   {
+    "start": 163.37,
+    "end": 178.32
+   },
+   {
+    "start": 178.73,
+    "end": 185.62
+   },
+   {
+    "start": 186.02,
+    "end": 197.26
+   },
+   {
+    "start": 197.66,
+    "end": 202.54
+   }
+  ]
+ },
+ "l6-mock-02-c0-7201c8d0d9ab.mp3": {
+  "setId": "l6-mock-02",
+  "chunk": 0,
+  "hash": "7201c8d0d9ab",
+  "durationSec": 152.9,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Dr. Helen Moreau, sleep researcher": "en-US-JennyNeural"
+  },
+  "createdAt": "2026-10-26T22:18:29.739Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 16.51
+   },
+   {
+    "start": 16.75,
+    "end": 36.17
+   },
+   {
+    "start": 36.41,
+    "end": 54.77
+   },
+   {
+    "start": 55.01,
+    "end": 74.59
+   },
+   {
+    "start": 74.83,
+    "end": 95.74
+   },
+   {
+    "start": 95.98,
+    "end": 107.26
+   },
+   {
+    "start": 107.5,
+    "end": 133.56
+   },
+   {
+    "start": 133.8,
+    "end": 152.62
+   }
+  ]
+ },
+ "l5-mock-02-c0-16a4ca959054.mp3": {
+  "setId": "l5-mock-02",
+  "chunk": 0,
+  "hash": "16a4ca959054",
+  "durationSec": 185.1,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Nadia, PAC chair": "en-CA-ClaraNeural",
+   "Jordan, PAC treasurer": "en-CA-LiamNeural",
+   "Mei, parent volunteer": "en-US-JennyNeural",
+   "Mr. Bell, principal": "en-US-GuyNeural"
+  },
+  "createdAt": "2026-10-26T22:18:32.021Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 15.58
+   },
+   {
+    "start": 15.98,
+    "end": 25.9
+   },
+   {
+    "start": 26.3,
+    "end": 38.78
+   },
+   {
+    "start": 39.19,
+    "end": 54.74
+   },
+   {
+    "start": 55.15,
+    "end": 61.01
+   },
+   {
+    "start": 61.42,
+    "end": 77.83
+   },
+   {
+    "start": 78.24,
+    "end": 90.82
+   },
+   {
+    "start": 91.22,
+    "end": 97.66
+   },
+   {
+    "start": 98.06,
+    "end": 107.45
+   },
+   {
+    "start": 107.86,
+    "end": 120.29
+   },
+   {
+    "start": 120.7,
+    "end": 132.7
+   },
+   {
+    "start": 133.1,
+    "end": 143.35
+   },
+   {
+    "start": 143.76,
+    "end": 153.79
+   },
+   {
+    "start": 154.2,
+    "end": 162.31
+   },
+   {
+    "start": 162.72,
+    "end": 169.94
+   },
+   {
+    "start": 170.35,
+    "end": 179.71
+   },
+   {
+    "start": 180.12,
+    "end": 184.73
+   }
+  ]
+ },
+ "l6-full-01-c0-ba836787b51e.mp3": {
+  "setId": "l6-full-01",
+  "chunk": 0,
+  "hash": "ba836787b51e",
+  "durationSec": 154.8,
+  "model": "edge-tts:audio-24khz-48kbitrate-mono-mp3",
+  "voices": {
+   "Alan, radio host": "en-CA-LiamNeural",
+   "Rebecca Thiessen, commentator": "en-CA-ClaraNeural"
+  },
+  "createdAt": "2026-10-26T22:18:41.462Z",
+  "segments": [
+   {
+    "start": 0,
+    "end": 17.09
+   },
+   {
+    "start": 17.5,
+    "end": 37.1
+   },
+   {
+    "start": 37.51,
+    "end": 57.36
+   },
+   {
+    "start": 57.77,
+    "end": 83.78
+   },
+   {
+    "start": 84.19,
+    "end": 99.7
+   },
+   {
+    "start": 100.1,
+    "end": 114.17
+   },
+   {
+    "start": 114.58,
+    "end": 138.02
+   },
+   {
+    "start": 138.43,
+    "end": 154.44
+   }
+  ]
+ }
+}

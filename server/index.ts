@@ -12,7 +12,7 @@ import {
 } from "./analytics";
 import { library, reloadLibrary } from "./library";
 import { candidates, mockPackages, selectNext } from "./selection";
-import { AUDIO_ASSETS_DIR, audioJob, audioStatus, generateAudioBatch, manifestEntry, stopAudioJob } from "./audio";
+import { AUDIO_PROVIDER, audioFilePath, audioJob, audioProviderReady, audioStatus, generateAudioBatch, manifestEntry, stopAudioJob } from "./audio";
 import { createJob, decide, getJob, importApproved, listJobs, readDraft, runJob, type JobSkill } from "./pipeline";
 import { CATEGORIES, SKILLS, TRAPS, type Skill } from "../shared/spec";
 import { TOPIC_LABEL, type VocabEntry } from "../shared/content";
@@ -426,8 +426,8 @@ app.post("/api/practice/next", h((req, res) => {
 
 app.get("/api/audio-assets/:file", (req, res) => {
   const file = path.basename(String(req.params.file));
-  const full = path.join(AUDIO_ASSETS_DIR, file);
-  if (!file.endsWith(".wav") || !fs.existsSync(full)) return res.status(404).end();
+  const full = /.(wav|mp3)$/.test(file) ? audioFilePath(file) : null;
+  if (!full) return res.status(404).end();
   res.setHeader("Cache-Control", "private, max-age=31536000, immutable"); // file names contain the script hash
   res.sendFile(full);
 });
@@ -900,10 +900,10 @@ app.post("/api/admin/library/reload", h((_req, res) => {
   res.json({ items: lib.items.size, issues: lib.issues.length });
 }));
 
-app.get("/api/admin/audio", (_req, res) => res.json(audioJob));
+app.get("/api/admin/audio", (_req, res) => res.json({ ...audioJob, provider: AUDIO_PROVIDER, providerReady: audioProviderReady() }));
 
 app.post("/api/admin/audio/generate", h((req, res) => {
-  if (!aiConfigured()) throw new AiError("Cần GEMINI_API_KEY để tạo audio.", 503);
+  if (!audioProviderReady()) throw new AiError("AUDIO_PROVIDER=gemini cần GEMINI_API_KEY (hoặc dùng AUDIO_PROVIDER=edge, không cần key).", 503);
   const ids = (req.body?.setIds as string[] | undefined) ?? null;
   const sets = [...library().items.values()].filter((i): i is ListeningSet => i.kind === "listening" && (!ids || ids.includes(i.id)));
   void generateAudioBatch(sets, { limit: Number(req.body?.limit) || undefined, log: (s) => console.log(s) }).catch((e) => console.error(e));

@@ -1,4 +1,4 @@
-// Pre-generates listening audio once with Gemini TTS and stores it in $DATA_DIR/audio-assets.
+// Pre-generates listening audio once (AUDIO_PROVIDER: edge by default, or gemini) and stores it in $DATA_DIR/audio-assets.
 // Resumable: chunks that already have a file with a matching script hash are skipped.
 //
 //   npm run audio:generate                 # all approved listening sets missing audio
@@ -10,8 +10,7 @@
 
 import "dotenv/config";
 import { library } from "../server/library";
-import { audioStatus, generateAudioBatch, AUDIO_ASSETS_DIR } from "../server/audio";
-import { aiConfigured, TTS_MODEL } from "../server/ai";
+import { audioStatus, generateAudioBatch, AUDIO_ASSETS_DIR, AUDIO_PROVIDER, audioProviderReady, VOICE_MAP } from "../server/audio";
 import type { ListeningSet } from "../shared/types";
 
 const args = process.argv.slice(2);
@@ -28,9 +27,9 @@ if (args.includes("--status")) {
   process.exit(0);
 }
 
-if (!aiConfigured()) { console.error("GEMINI_API_KEY is not set (.env)."); process.exit(1); }
-console.log(`TTS model: ${TTS_MODEL} · output: ${AUDIO_ASSETS_DIR}`);
-generateAudioBatch(sets, { limit: opt("limit") ? Number(opt("limit")) : undefined, log: console.log })
+if (!audioProviderReady()) { console.error("AUDIO_PROVIDER=gemini needs GEMINI_API_KEY (.env). The default edge provider needs no key."); process.exit(1); }
+console.log(`Provider: ${AUDIO_PROVIDER} · voices: ${JSON.stringify(VOICE_MAP)} · output: ${AUDIO_ASSETS_DIR}`);
+generateAudioBatch(sets, { limit: opt("limit") ? Number(opt("limit")) : undefined, concurrency: opt("concurrency") ? Number(opt("concurrency")) : undefined, log: console.log })
   .then((job) => {
     console.log(`\nDone: ${job.done}/${job.total} generated, ${job.failed.length} failed${job.stoppedReason ? ` — stopped: ${job.stoppedReason}` : ""}.`);
     console.log(`${sets.filter((s) => audioStatus(s).ready).length}/${sets.length} listening sets now have complete audio.`);

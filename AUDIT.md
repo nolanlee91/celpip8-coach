@@ -20,7 +20,7 @@ This report describes the current state of the repository after the **content-fi
 | **A. Static content** | Reading/Listening sets, Writing/Speaking prompts with Level 8 model answers, vocabulary, mock-exam packages | `content/` (git) + `$DATA_DIR/library/` (admin-imported) | No |
 | **B. Learning engine** | Selection, local scoring, explanations, mistakes, SM-2, adaptive difficulty, planner, analytics, vocabulary review, mock exams | `server/selection.ts`, `server/analytics.ts`, `server/index.ts` | No |
 | **C. AI assistance** | Writing/Speaking evaluation **on explicit request**, Tutor, admin generation/review/TTS | `server/ai.ts`, `server/prompts.ts`, `server/pipeline.ts` | Gemini |
-| **D. Audio assets** | Pre-generated listening WAVs + manifest | `$DATA_DIR/audio-assets/` (not in git) | Gemini TTS, generated once |
+| **D. Audio assets** | Pre-generated listening MP3s + manifest | `audio-assets/` (committed, 30 files, ~21 MB) + `$DATA_DIR/audio-assets/` (future server-side generation) | Edge TTS (default, no key) or Gemini TTS; generated once |
 
 **Storage split** (`server/db.ts`):
 
@@ -43,7 +43,7 @@ This report describes the current state of the repository after the **content-fi
 | `shared/validate.ts` | Pure validation rules shared by loader, CLI and pipeline |
 | `server/library.ts` | Loads `content/` + `$DATA_DIR/library`, validates, exposes only approved and error-free items |
 | `server/selection.ts` | Exercise selection engine + mock package availability |
-| `server/audio.ts` | Gemini TTS batch pipeline (resumable, hash-based), WAV writer, audio status |
+| `server/audio.ts` | TTS batch pipeline with two providers: Edge TTS (default, MP3, parallel workers) and Gemini TTS (WAV). Resumable and hash-based; reads both the bundled and the generated audio stores |
 | `server/pipeline.ts` | Admin generation jobs: drafts, validation, AI review, approve/reject, import, token tally |
 | `scripts/content-validate.ts` | `npm run content:validate` |
 | `scripts/content-generate.ts` | `npm run content:generate` |
@@ -55,7 +55,11 @@ This report describes the current state of the repository after the **content-fi
 | `src/components/Productive.tsx` | Offline model answer panel + explicit "evaluate with AI" |
 | `src/pages/Admin.tsx` | Library status, validation issues, mock packages, audio generation, generation jobs + approval, AI usage |
 
-Also new: `content/CONTENT_GUIDE.md` (authoring specification) and 96 content items + 13 vocabulary files + 2 mock packages under `content/`.
+Also new:
+- `content/CONTENT_GUIDE.md` (authoring specification).
+- 96 content items + 13 vocabulary files + 2 mock packages under `content/`.
+- `audio-assets/`: 30 MP3 files + `manifest.json`.
+- Dependency `msedge-tts`.
 
 **Modified (25):**
 - **Server:** `server/ai.ts` (configurable models, usage tracking, availability/rate-limit state), `server/db.ts` (storage split + migration), `server/index.ts` (routes rewritten around the library), `server/prompts.ts` (generation prompts use CONTENT_GUIDE as source of truth; independent review prompt), `server/analytics.ts` (exports for the selector).
@@ -167,24 +171,45 @@ Progress against the long-term targets:
 
 | Item | Value |
 |---|---|
-| **Listening audio files actually generated** | **0** |
-| Listening sets ready | 0/24 |
+| **Listening audio files actually generated** | **30 MP3 files** (one per chunk) |
+| **Listening sets ready** | **24/24** |
+| Total duration | ~59 min |
+| Size | ~21 MB |
+| Provider | Edge TTS (`msedge-tts`, format `audio-24khz-48kbitrate-mono-mp3`) |
 
-No Gemini key was available in the build environment.
+**Voices:**
 
-**Pipeline (implemented, not yet run against the real API):**
-- `npm run audio:generate` or Admin → *Audio Listening*.
-- Uses Gemini TTS: chunks with ≤ 2 speakers are generated in one multi-speaker request; chunks with 3+ speakers are generated per segment and joined, which gives exact segment offsets.
-- Output is WAV files named `<set>-c<chunk>-<scriptHash>.wav` plus `manifest.json`.
-- Resumable: chunks whose file exists with a matching hash are skipped.
-- Stops on 429/401/503.
+| Script role | Voice |
+|---|---|
+| `female_a` | en-CA-ClaraNeural |
+| `male_a` | en-CA-LiamNeural |
+| `narrator` | en-CA-LiamNeural (only used alone, in L4 news) |
+| `female_b` | en-US-JennyNeural |
+| `male_b` | en-US-GuyNeural |
 
-**Until audio exists:**
-- Listening sets are labelled **pending audio** and excluded from practice and mock packages.
-- **They are never silently replaced by text practice.**
-- The learner can explicitly opt in to browser text-to-speech in Settings. Every set played that way is labelled "giọng trình duyệt".
+Edge offers only two Canadian neural voices. Override the mapping with `EDGE_TTS_VOICES`.
 
-**What was tested:** the app-side "audio ready" path (manifest → `/api/content` audio URLs → `/api/audio-assets` serving `audio/wav` → selection → `<audio>` player) was exercised with a **silent placeholder WAV** in a throwaway directory. The real TTS call was not.
+**How it is generated:**
+- One request per dialogue segment, joined with silent MPEG frames (0.25 s for a single speaker, 0.4 s between speakers).
+- The stream is constant bitrate, so the manifest stores **exact segment offsets**; transcript replay is exact, not estimated.
+- Ran with 6 parallel workers: the last 14 chunks took 1.1 minutes, with 0 failures.
+- File names include a hash of the script and voices, so editing a script automatically marks that chunk as needing regeneration.
+
+**Where it is stored:**
+- **Committed** in `audio-assets/`, so a fresh Railway deploy plays immediately with no admin action.
+- Audio generated later on the server goes to `$DATA_DIR/audio-assets/`.
+- The server reads both stores (`audioFilePath`).
+
+**Verification:**
+1. In a **fresh deploy simulation** (empty `DATA_DIR`, audio served only from the bundled folder), headless Microsoft Edge loaded and **decoded all 30/30 files**. Decoded durations match the manifest within **0.05 s**, which confirms the hand-built silent frames are valid MP3.
+2. Listening selection returns sets with `audio.ready=true` and no browser-voice fallback.
+3. Both mock packages report `available=true`.
+
+**Caveats:**
+- **Edge TTS is an unofficial Microsoft service.** Availability or terms may change. Already-generated files are unaffected; only generating new audio could break, in which case use `AUDIO_PROVIDER=gemini`.
+- **The Gemini TTS path is still untested** against the live API.
+- **Nobody has listened to the audio.** No human has checked pronunciation or naturalness.
+- **Pending-audio rule still applies:** sets without audio are labelled pending and excluded, never silently turned into text practice. Browser TTS remains an explicit, labelled opt-in.
 
 ---
 
@@ -193,7 +218,7 @@ No Gemini key was available in the build environment.
 **Works without any API key** (verified by `npm run test:smoke`):
 
 - **Reading:** recommended or browsed selection, instant load (~30 ms), timer, highlighting, local scoring, explanations with evidence, weakness report, drills by category.
-- **Listening:** only for sets with generated audio (or with the browser-voice opt-in). Single-play exam restrictions, transcript with replay.
+- **Listening:** all 24 sets with real pre-generated audio (bundled). Single-play exam restrictions, transcript with exact sentence replay.
 - **Vocabulary:**
   - Library of 400 entries.
   - Adding words: from the library, or saved manually without a meaning.
@@ -214,7 +239,7 @@ No Gemini key was available in the build environment.
 | AI Tutor | — |
 | Vocabulary AI lookup | Checkbox / "…hoặc bằng AI" |
 | Admin: content generation + independent AI review | Admin action |
-| Admin: listening audio generation (TTS) | Admin action |
+| Admin: listening audio generation with `AUDIO_PROVIDER=gemini` only | Admin action (the default Edge provider needs no key) |
 
 **Cost controls:**
 - **Models:** configurable through `GEMINI_MODEL` (default `gemini-2.5-flash`, which has a free tier) and `GEMINI_TTS_MODEL`.
@@ -234,7 +259,7 @@ No Gemini key was available in the build environment.
 | `vite build` | ✅ (single 760 kB JS chunk warning) |
 | `npm run content:validate` | ✅ 0 errors, 0 warnings; 96 active items, 400 vocab, 2 valid mock packages |
 | `npm run test:smoke` (real server, **no API key**, temp data dir seeded with a legacy `db.json`) | ✅ **35/35 passed** |
-| Audio-ready path with placeholder WAV | ✅ `audio.ready=true`, WAV served as `audio/wav`, selector picks the audio-ready set without the browser-voice flag |
+| Real audio, fresh-deploy simulation | ✅ 30/30 MP3 decoded in Edge, durations within 0.05 s of the manifest; listening served with `audio.ready=true`; both mock packages available |
 | Headless Edge screenshots | ✅ Reading session, Listening (with `<audio>`), Writing submission (offline model answer, AI button disabled with explanation), Speaking S3 with SVG, Mock packages (unavailable with reason), Admin library |
 | Validator negative test (deliberately broken fixture) | ✅ caught all 9 planted errors |
 
@@ -249,7 +274,7 @@ No Gemini key was available in the build environment.
 - **Persistence:** progress and settings survive a restart.
 
 **Not performed:**
-1. **Live Gemini calls:** evaluation, tutor, TTS, generation, AI review.
+1. **Live Gemini calls:** evaluation, tutor, Gemini TTS, generation, AI review.
 2. **Railway deployment** of this version.
 3. A **real browser session** with microphone/STT and clicking through a full mock exam (only headless screenshots and API-level tests).
 
@@ -257,10 +282,10 @@ No Gemini key was available in the build environment.
 
 ## 8. Remaining limitations / known issues
 
-1. **No real audio yet.** Listening practice and both mock packages are unavailable until `audio:generate` runs with a key, unless the browser-voice opt-in is turned on. The Gemini TTS model id and voice names (`Kore`, `Aoede`, `Orus`, `Puck`, `Charon`) are unverified against the live API; both are configurable via `GEMINI_TTS_MODEL` / `GEMINI_TTS_VOICES`.
+1. **Audio quality is unreviewed by a human.** The audio comes from Edge TTS, an unofficial service that may change. Two of the five voices are US rather than Canadian. The Gemini TTS alternative is untested.
 2. **Content volume is small** compared with the targets. Listening has only 1 `full` set per part for normal practice (plus 1 drill); the 12 `mock` sets are reserved for the two packages. The selector repeats least-recently-used sets once new ones run out and says so.
 3. **Content review was AI-only.** No human expert has checked the answer keys or explanations.
-4. **Sentence-level replay** with generated audio uses offsets estimated from text length (marked "≈") for chunks generated in a single multi-speaker request.
+4. **Sentence-level replay:** segment offsets are exact for the Edge audio. Sentences within a segment are estimated from text length. Gemini multi-speaker chunks would use estimated offsets.
 5. **Speaking** feedback is transcript-only; pronunciation is not assessed (disclosed in the UI). STT needs Chrome/Edge.
 6. **Reading/Listening estimates** are heuristics, not official conversion tables.
 7. **AI generation pipeline:** never run live. JSON-schema features (`anyOf` null, `additionalProperties:false`, nested `rows: string[][]`) might be rejected by some Gemini models.

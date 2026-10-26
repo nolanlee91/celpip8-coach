@@ -16,7 +16,7 @@ interface LibraryInfo {
   loadedAt: string;
   packages: { id: string; title: string; valid: boolean; available: boolean; problems: string[] }[];
 }
-interface AudioJob { running: boolean; total: number; done: number; failed: { file: string; error: string }[]; stoppedReason: string | null; current: string | null; finishedAt: string | null }
+interface AudioJob { provider?: string; providerReady?: boolean; running: boolean; total: number; done: number; failed: { file: string; error: string }[]; stoppedReason: string | null; current: string | null; finishedAt: string | null }
 interface Draft { id: string; status: string; error: string | null; topic: string; difficulty: number; issues: ValidationIssue[]; aiReview: { verdict: string; issues: string[]; wrongKeys: number[]; ambiguousQuestions: number[] } | null; decision: string; imported: boolean }
 interface Job { id: string; createdAt: string; skill: string; taskType: string; setType: string; count: number; drafts: Draft[]; usage: { calls: number; totalTokens: number }; running: boolean; lastError: string | null }
 interface Usage {
@@ -134,7 +134,7 @@ function AudioTab() {
   return (
     <>
       <Card title={`Audio Listening: ${d.audioReady} sẵn sàng · ${d.audioPending} chờ tạo`}>
-        <p className="small muted">Audio được tạo MỘT lần bằng Gemini TTS (nhiều giọng), lưu vào thư mục dữ liệu bền vững (<code>$DATA_DIR/audio-assets</code>, không nằm trong git) và dùng lại mãi mãi. Có thể dừng và chạy tiếp — phần đã tạo không bị tạo lại. Gói miễn phí giới hạn số lượt TTS mỗi ngày: chạy từng lô nhỏ.</p>
+        <p className="small muted">Audio được tạo MỘT lần (nguồn: <strong>{job?.provider === "gemini" ? "Gemini TTS — cần GEMINI_API_KEY" : "Edge TTS — giọng neural en-CA, không cần API key"}</strong>), lưu vào thư mục dữ liệu bền vững (<code>$DATA_DIR/audio-assets</code>, không nằm trong git) và dùng lại mãi mãi. Có thể dừng và chạy tiếp — phần đã tạo không bị tạo lại. Edge TTS là dịch vụ không chính thức của Microsoft: có thể thay đổi hoặc ngừng bất cứ lúc nào, nên hãy tạo audio sớm và sao lưu thư mục này.</p>
         <div className="row gap-s wrap">
           <label className="row gap-s small">Số đoạn tối đa lô này <input type="number" min={1} max={200} value={limit} onChange={(e) => setLimit(Number(e.target.value))} style={{ width: 80 }} /></label>
           <button className="btn primary" disabled={job?.running} onClick={async () => { setError(null); try { await post("/api/admin/audio/generate", { limit }); setTimeout(load, 800); } catch (e) { setError((e as Error).message); } }}>▶ Tạo audio còn thiếu</button>
