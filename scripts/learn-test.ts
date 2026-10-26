@@ -350,6 +350,70 @@ test("progress views: mastery by skill, blockers and improvements come only from
   assert.ok(coach.blockers(db, cur).length > 0);
 });
 
+// ---------- guided navigation (primary action, next step, onboarding migration) ----------
+
+test("primary action: a new learner is told to start the coach's first lesson (not hard-coded)", () => {
+  const db = freshDb();
+  const p = coach.primaryAction(db, cur);
+  assert.equal(p.state, "new");
+  assert.equal(p.headline, "Bắt đầu học Reading");
+  assert.equal(p.cta, "Bắt đầu bài học đầu tiên");
+  assert.equal(p.route, coach.recommendations(db, cur).find((r) => r.lessonId)!.route);
+  assert.ok(p.minutes > 0 && p.reasonVi.length > 20);
+});
+
+test("primary action: unfinished lesson → resume; due review → review; just finished → next lesson", () => {
+  const db = freshDb();
+  learn.startLesson(db, rd1);
+  learn.setStep(db, rd1, "concept");
+  assert.equal(coach.primaryAction(db, cur).headline, "Tiếp tục bài học đang dở");
+  answerAll(db, rd1, 5);
+  learn.completeLesson(db, rd1);
+  const after = coach.primaryAction(db, cur);
+  assert.equal(after.state, "next");
+  assert.equal(after.headline, "Chuyển sang bài học tiếp theo");
+  assert.notEqual(after.lessonId, "rd-01");
+  db.lessons[rd1.id].srs!.due = dbm.today();
+  const rev = coach.primaryAction(db, cur);
+  assert.equal(rev.headline, "Ôn tập kiến thức hôm nay");
+  assert.equal(rev.route, "/learn/rd-01?review=1");
+});
+
+test("primary action: 'what happens next' names a different block from today's plan", () => {
+  const db = freshDb();
+  const p = coach.primaryAction(db, cur);
+  const plan = coach.buildLearningPlan(db, cur, 60);
+  const text = coach.afterPrimaryVi(p, plan);
+  assert.match(text, /Sau đó: /);
+  assert.ok(!text.includes(p.title), text);
+});
+
+test("next step after practice: a repeatedly missed type → its lesson; a clean result → the coach's next action", () => {
+  const db = freshDb();
+  seedPractice(db, "inference", 1, 4);
+  const weak = coach.nextStepAfter(db, cur, { after: "practice", attemptId: "at_inference" });
+  assert.equal(weak.route, "/learn/rd-08");
+  assert.match(weak.reasonVi, /3\/4/);
+  assert.equal(weak.secondary?.route, "/mistakes?review=1");
+  const db2 = freshDb();
+  seedPractice(db2, "detail", 4, 4);
+  const good = coach.nextStepAfter(db2, cur, { after: "practice", attemptId: "at_detail" });
+  assert.equal(good.route, coach.primaryAction(db2, cur).route);
+  const rev = coach.nextStepAfter(db2, cur, { after: "review" });
+  assert.equal(rev.secondary?.route, "/");
+});
+
+test("onboarding migration: learners who already studied skip the guide; empty data shows it", () => {
+  const studied = dbm.merge({ settings: { ...dbm.load().settings, onboarding: undefined as never }, attempts: [{ id: "a" } as never] });
+  assert.equal(studied.settings.onboarding.completed, true);
+  assert.equal(studied.settings.onboarding.reason, "existing-user");
+  const empty = dbm.merge({ settings: { ...dbm.load().settings, onboarding: undefined as never }, attempts: [] });
+  assert.equal(empty.settings.onboarding.completed, false);
+  const fresh = dbm.merge({});
+  assert.equal(fresh.settings.onboarding.completed, false);
+  assert.deepEqual(fresh.settings.helpSeen, []);
+});
+
 // ---------- validation ----------
 
 test("validator: a complete fixture lesson passes; a thin lesson is rejected", () => {

@@ -184,6 +184,26 @@ async function main() {
     check("curriculum reports planned lessons even before approval", (curr.data.counts?.planned ?? 0) > 0);
   }
 
+  // --- Guided navigation: onboarding, primary action, next step, help notes
+  const s0 = (await call("/api/settings")).data;
+  check("existing learner (migrated data with attempts) is not shown the welcome guide", s0.onboarding?.completed === true && s0.onboarding?.reason === "existing-user");
+  const badScore = await call("/api/onboarding", { officialScores: { listening: 6, reading: 0, writing: 7, speaking: 6 } });
+  check("onboarding rejects an invalid score", badScore.status === 400);
+  const o1 = await call("/api/onboarding", { step: 1, officialScores: { listening: 6, reading: 5, writing: 7, speaking: 6 }, targetLevel: 8 });
+  check("onboarding step 1 saves scores and rebalances weights toward weak skills", o1.status === 200 && o1.data.onboarding.step === 1 && o1.data.weights.reading >= o1.data.weights.writing, JSON.stringify(o1.data.weights));
+  const o2 = await call("/api/onboarding", { step: 2, dailyMinutes: 60 });
+  const o3 = await call("/api/onboarding", { finish: "completed" });
+  check("onboarding saves the daily time and completes", o2.data.dailyMinutes === 60 && o3.data.onboarding.completed === true && o3.data.onboarding.reason === "finished");
+  const dash = await call("/api/dashboard");
+  check("dashboard leads with one primary action from the coach", Boolean(dash.data.primary?.headline && dash.data.primary?.route && dash.data.primary?.cta && dash.data.primary?.reasonVi), dash.data.primary?.headline);
+  const ns = await call("/api/next-step?after=review");
+  check("next step after a review offers an action and a way home", ns.status === 200 && Boolean(ns.data.route) && ns.data.secondary?.route === "/");
+  const lastAttempt = (await call("/api/history")).data[0];
+  const nsp = await call(`/api/next-step?after=practice&attemptId=${lastAttempt?.id ?? ""}`);
+  check("next step after a practice attempt", nsp.status === 200 && Boolean(nsp.data.route), nsp.data.title);
+  const hs = await call("/api/help/seen", { key: "learn" });
+  check("help note dismissal is saved", hs.status === 200 && hs.data.helpSeen.includes("learn"));
+
   // --- persistence across restart
   const before = (await call("/api/history")).data.length;
   const vocabBefore = (await call("/api/vocab")).data.length;
@@ -193,6 +213,7 @@ async function main() {
   const vocabAfter = (await call("/api/vocab")).data.length;
   const settingsAfter = (await call("/api/settings")).data;
   check("progress persists after restart", before === after && vocabBefore === vocabAfter && settingsAfter.allowBrowserVoice === true, `${after} attempts, ${vocabAfter} vocab`);
+  check("onboarding completion and dismissed help survive a restart", settingsAfter.onboarding?.completed === true && settingsAfter.dailyMinutes === 60 && settingsAfter.helpSeen?.includes("learn"));
 
   if (lessonId && guidedId) {
     const L = await call(`/api/lessons/${lessonId}`);

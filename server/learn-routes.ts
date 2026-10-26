@@ -14,7 +14,9 @@ import {
   answerExercise, completeLesson, dueLessonReviews, inProgressPass, isCompleted, lessonStatus, prerequisitesMet,
   reviewExercises, setStep, startLesson, submitReview,
 } from "./learn";
-import { blockers, competencyProfile, improvements, masteryBySkill, recommendations, weeklyConsistency } from "./coach";
+import { blockers, competencyProfile, improvements, masteryBySkill, nextStepAfter, recommendations, weeklyConsistency } from "./coach";
+import { adjustedWeights } from "./analytics";
+import { SKILLS } from "../shared/spec";
 
 type Handler = (req: Request, res: Response) => Promise<unknown> | unknown;
 const h = (fn: Handler) => (req: Request, res: Response, next: NextFunction) => Promise.resolve(fn(req, res)).catch(next);
@@ -172,6 +174,58 @@ export function learnRouter(deps: { upsertVocab: (db: Db, seed: VocabSeed, sourc
   }));
 
   r.get("/api/coach", h((_req, res) => res.json(learningSummary(load()))));
+
+  /** What to do after an activity (lesson result, practice result, review). Never a dead end. */
+  r.get("/api/next-step", h((req, res) => {
+    const after = String(req.query.after ?? "lesson");
+    if (!["lesson", "practice", "review"].includes(after)) throw new AiError("after must be lesson | practice | review", 400);
+    res.json(nextStepAfter(load(), curView(), { after: after as "lesson" | "practice" | "review", attemptId: req.query.attemptId ? String(req.query.attemptId) : undefined }));
+  }));
+
+  /**
+   * Onboarding: saves each step as the learner goes, so it resumes where it stopped.
+   * finish = "completed" | "skipped" marks it done; it is then never shown automatically again.
+   */
+  r.post("/api/onboarding", h(async (req, res) => {
+    const db = load();
+    const b = req.body as { step?: number; officialScores?: Record<string, number>; targetLevel?: number; dailyMinutes?: number; learnerName?: string; finish?: "completed" | "skipped" };
+    const s = db.settings;
+    if (b.officialScores) {
+      for (const k of SKILLS) {
+        const v = Number(b.officialScores[k]);
+        if (!Number.isInteger(v) || v < 1 || v > 12) throw new AiError("Điểm mỗi kỹ năng phải là số nguyên từ 1 đến 12.", 400);
+      }
+      s.officialScores = Object.fromEntries(SKILLS.map((k) => [k, Number(b.officialScores![k])])) as typeof s.officialScores;
+    }
+    if (b.targetLevel !== undefined) {
+      const t = Number(b.targetLevel);
+      if (!Number.isInteger(t) || t < 4 || t > 12) throw new AiError("Mục tiêu phải là số nguyên từ 4 đến 12.", 400);
+      s.targetLevel = t;
+    }
+    if (b.officialScores || b.targetLevel !== undefined) s.weights = adjustedWeights(db); // weakest skills get more time
+    if (b.dailyMinutes !== undefined) {
+      if (![30, 60, 90, 120].includes(Number(b.dailyMinutes))) throw new AiError("Thời gian mỗi ngày phải là 30, 60, 90 hoặc 120 phút.", 400);
+      s.dailyMinutes = Number(b.dailyMinutes) as typeof s.dailyMinutes;
+    }
+    if (typeof b.learnerName === "string" && b.learnerName.trim()) s.learnerName = b.learnerName.trim().slice(0, 40);
+    if (b.step !== undefined) s.onboarding.step = Math.max(0, Math.min(2, Math.round(Number(b.step) || 0)));
+    if (b.finish) s.onboarding = { completed: true, skipped: b.finish === "skipped", step: s.onboarding.step, completedAt: new Date().toISOString(), reason: b.finish === "skipped" ? "skipped" : "finished" };
+    await save();
+    res.json(s);
+  }));
+
+  /** First-visit help notes, dismissed once and remembered. reset=true shows them again. */
+  r.post("/api/help/seen", h(async (req, res) => {
+    const db = load();
+    if (req.body?.reset) db.settings.helpSeen = [];
+    else {
+      const key = String(req.body?.key ?? "");
+      if (!/^[a-z-]{2,30}$/.test(key)) throw new AiError("key không hợp lệ.", 400);
+      if (!db.settings.helpSeen.includes(key)) db.settings.helpSeen.push(key);
+    }
+    await save();
+    res.json({ helpSeen: db.settings.helpSeen });
+  }));
 
   r.post("/api/admin/curriculum/reload", h((_req, res) => {
     const c = reloadCurriculum();

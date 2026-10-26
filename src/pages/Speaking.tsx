@@ -1,3 +1,5 @@
+import { PRACTICE_HELP } from "../components/helpText";
+import { HelpTip } from "../components/Guide";
 import { Icon } from "../components/Icon";
 import { useEffect, useState } from "react";
 import type { Settings, SpeakingPrompt, Submission } from "../../shared/types";
@@ -27,6 +29,7 @@ export function SpeakingPage() {
     <div className="page">
       <h1>Speaking</h1>
       <p className="muted">Đề lấy ngay từ ngân hàng đề (kèm hình minh họa khi cần). Ghi âm, chuyển giọng nói thành chữ trong trình duyệt, xem bài mẫu Level 8 ngay — AI chỉ chạy khi bạn bấm “Nhận xét bằng AI”. <strong>AI không đánh giá phát âm</strong> vì chỉ đọc bản chép lời.</p>
+      <HelpTip id="practice" title="Luyện thi khác Học ở chỗ nào?">{PRACTICE_HELP}</HelpTip>
       <ErrorBox error={error} />
       <div className="part-grid">
         {SPEAKING_TASKS.map((t) => (

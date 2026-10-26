@@ -391,3 +391,142 @@ export function buildLearningPlan(db: Db, cur: CurriculumView, minutes: number, 
   const completed = [...new Set([...(db.planCompletions[date] ?? []), ...auto])];
   return { date, week, phase, minutes, blocks, completed };
 }
+
+// ---------------- Primary action and next step (guided navigation) ----------------
+// Both are thin views over `recommendations()`: they never pick a different activity than the coach,
+// they only phrase the top recommendation as one clear action ("what now, why, how long, what next").
+
+export interface PrimaryAction {
+  state: "new" | "resume" | "review" | "repeat" | "remediate" | "next" | "practice" | "done";
+  headline: string; // e.g. "Bắt đầu học Reading"
+  title: string; // the lesson or activity
+  skill: Skill | null;
+  minutes: number;
+  reasonVi: string;
+  route: string;
+  cta: string;
+  lessonId: string | null;
+}
+
+/** A learner with no lesson pass and no practice attempt yet. */
+export const isNewLearner = (db: Db) => db.attempts.length === 0 && !Object.values(db.lessons).some((p) => p.runs.length || Object.keys(p.answers).length);
+
+function lastLessonRunAt(db: Db): string | null {
+  return Object.values(db.lessons).flatMap((p) => p.runs.map((r) => r.at)).sort().at(-1) ?? null;
+}
+
+/** Keeps the dashboard explanation to about two sentences; the full reason is in the lesson itself. */
+export function brief(text: string, max = 230): string {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
+  const end = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf("! "), cut.lastIndexOf("? "));
+  return end > 60 ? cut.slice(0, end + 1) : cut.slice(0, cut.lastIndexOf(" ")) + "…";
+}
+
+export function primaryAction(db: Db, cur: CurriculumView): PrimaryAction {
+  const top = recommendations(db, cur)[0];
+  if (!top) {
+    return {
+      state: "done", headline: "Luyện dạng thi hôm nay", title: "Bạn đã học hết lộ trình hiện có", skill: null, minutes: 30,
+      reasonVi: "Không còn bài học mới hay bài cần ôn. Luyện dạng thi để giữ phong độ và đo tiến bộ.", route: "/practice", cta: "Chọn bài luyện", lessonId: null,
+    };
+  }
+  const lesson = top.lessonId ? cur.lessons.get(top.lessonId) : undefined;
+  const title = lesson ? lesson.titleVi : top.title;
+  const base = { title, skill: top.skill, minutes: top.minutes, reasonVi: brief(top.reasonVi), route: top.route, lessonId: top.lessonId };
+  const skill = SKILL_LABEL[top.skill];
+  switch (top.kind) {
+    case "resume": return { ...base, state: "resume", headline: "Tiếp tục bài học đang dở", cta: "Tiếp tục bài học" };
+    case "review": return { ...base, state: "review", headline: "Ôn tập kiến thức hôm nay", cta: "Bắt đầu ôn tập" };
+    case "repeat": return { ...base, state: "repeat", headline: "Học lại để nắm chắc kỹ thuật", cta: "Học lại bài này" };
+    case "remediate": return { ...base, state: "remediate", headline: `Học kỹ thuật ${skill} bạn đang yếu`, cta: "Bắt đầu bài học" };
+    case "practice": return { ...base, state: "practice", headline: "Áp dụng vào bài dạng thi", cta: "Làm bài luyện" };
+    case "next": {
+      if (isNewLearner(db)) return { ...base, state: "new", headline: `Bắt đầu học ${skill}`, cta: "Bắt đầu bài học đầu tiên" };
+      const last = lastLessonRunAt(db);
+      const recent = last !== null && last.slice(0, 10) >= addDays(today(), -1);
+      return { ...base, state: "next", headline: recent ? "Chuyển sang bài học tiếp theo" : `Học tiếp ${skill}`, cta: "Bắt đầu bài học" };
+    }
+  }
+}
+
+/** One sentence on what comes after the primary action, taken from today's plan. */
+export function afterPrimaryVi(primary: PrimaryAction, plan: DailyPlan): string {
+  const lessonFlow = primary.lessonId && primary.state !== "review"
+    ? "Trong bài: học khái niệm, xem ví dụ mẫu, luyện có gợi ý rồi tự làm bài kiểm tra. Hệ thống sẽ hẹn ngày ôn lại."
+    : "";
+  const next = plan.blocks.find((b) => !plan.completed.includes(b.id) && (!primary.lessonId || b.lessonId !== primary.lessonId) && b.route !== primary.route);
+  const then = next ? `Sau đó: ${next.title} (${next.minutes} phút).` : "";
+  return [lessonFlow, then].filter(Boolean).join(" ");
+}
+
+export interface NextStep {
+  title: string;
+  reasonVi: string;
+  route: string;
+  cta: string;
+  secondary: { label: string; route: string } | null;
+  nextReviewVi: string | null;
+}
+
+const fromPrimary = (p: PrimaryAction): Pick<NextStep, "title" | "reasonVi" | "route" | "cta"> => ({ title: `${p.headline}: ${p.title}`, reasonVi: p.reasonVi, route: p.route, cta: p.cta });
+
+function nextReviewVi(db: Db): string | null {
+  const dates = [
+    ...db.mistakes.filter((m) => !m.resolved).map((m) => m.srs.due),
+    ...db.vocab.map((v) => v.srs.due),
+    ...Object.values(db.lessons).filter((p) => p.srs && p.runs.length).map((p) => p.srs!.due),
+  ].filter((d) => d > today()).sort();
+  return dates[0] ? `Lần ôn tiếp theo: ngày ${dates[0]}.` : null;
+}
+
+/**
+ * What to do after an activity, so no result screen is a dead end.
+ *  - practice: if the attempt exposed a weak question type, teach (or drill) that type; otherwise continue.
+ *  - lesson / review: the coach's top recommendation.
+ */
+export function nextStepAfter(db: Db, cur: CurriculumView, ctx: { after: "lesson" | "practice" | "review"; attemptId?: string }): NextStep {
+  const primary = primaryAction(db, cur);
+  const home = { label: "Về trang Hôm nay", route: "/" };
+  if (ctx.after === "practice" && ctx.attemptId) {
+    const a = db.attempts.find((x) => x.id === ctx.attemptId);
+    if (a && a.items.length) {
+      const byCat = new Map<string, { wrong: number; total: number }>();
+      for (const it of a.items) {
+        const c = byCat.get(it.category) ?? { wrong: 0, total: 0 };
+        c.total++;
+        if (!it.correct) c.wrong++;
+        byCat.set(it.category, c);
+      }
+      const [cat, st] = [...byCat.entries()].sort((x, y) => y[1].wrong - x[1].wrong)[0];
+      const wrongTotal = a.items.filter((i) => !i.correct).length;
+      const mistakesLink = wrongTotal ? { label: `Ôn ${wrongTotal} câu vừa sai`, route: "/mistakes?review=1" } : home;
+      const label = CATEGORIES[a.skill][cat] ?? cat;
+      if (st.wrong >= 2) {
+        const lesson = cur.order[a.skill].map((id) => cur.lessons.get(id)).find((l): l is Lesson => !!l && l.competencies.includes(cat) && lessonStatus(db, l.id) !== "mastered");
+        if (lesson) {
+          return {
+            title: `Học: ${lesson.titleVi}`, route: `/learn/${lesson.id}`, cta: "Học kỹ thuật này",
+            reasonVi: `Bạn sai ${st.wrong}/${st.total} câu "${label}" trong bài vừa làm. Học kỹ thuật này trước, rồi quay lại luyện sẽ hiệu quả hơn làm thêm đề.`,
+            secondary: mistakesLink, nextReviewVi: null,
+          };
+        }
+        return {
+          title: `Luyện drill: ${label}`, route: `/${a.skill}?mode=drill&focus=${cat}`, cta: "Làm drill ngắn",
+          reasonVi: `Bạn đã học bài về "${label}" nhưng vẫn sai ${st.wrong}/${st.total} câu. Một drill ngắn giúp áp dụng kỹ thuật vào dạng thi.`,
+          secondary: mistakesLink, nextReviewVi: null,
+        };
+      }
+      const acc = a.correct / a.total;
+      if (acc >= 0.75) {
+        return { ...fromPrimary(primary), reasonVi: `Bạn làm đúng ${Math.round(acc * 100)}%, không có loại câu nào sai nhiều. ${primary.reasonVi}`, secondary: mistakesLink, nextReviewVi: null };
+      }
+      return {
+        title: `Ôn lại ${wrongTotal} câu vừa sai`, route: "/mistakes?review=1", cta: "Ôn câu sai",
+        reasonVi: "Lỗi rải rác ở nhiều loại câu. Xem lại từng câu sai và lời giải thích trước khi làm bài mới.",
+        secondary: home, nextReviewVi: null,
+      };
+    }
+  }
+  return { ...fromPrimary(primary), secondary: home, nextReviewVi: ctx.after === "review" ? nextReviewVi(db) : null };
+}

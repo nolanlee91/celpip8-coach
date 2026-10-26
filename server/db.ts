@@ -58,6 +58,8 @@ function defaultSettings(): Settings {
     effort: "medium",
     allowBrowserVoice: false,
     aiCache: true,
+    onboarding: { completed: false, skipped: false, step: 0, completedAt: null },
+    helpSeen: [],
   };
 }
 
@@ -83,9 +85,18 @@ function emptyDb(): Db {
 
 const AI_KEYS = ["evaluations", "submissions", "aiUsage", "aiCache"] as const;
 
-function merge(parsed: Partial<Db>): Db {
+export function merge(parsed: Partial<Db>): Db {
   const base = emptyDb();
-  return { ...base, ...parsed, settings: { ...base.settings, ...(parsed.settings ?? {}), difficulty: { ...base.settings.difficulty, ...(parsed.settings?.difficulty ?? {}) } } };
+  const db: Db = { ...base, ...parsed, settings: { ...base.settings, ...(parsed.settings ?? {}), difficulty: { ...base.settings.difficulty, ...(parsed.settings?.difficulty ?? {}) } } };
+  // Data saved before onboarding existed: a learner who has already studied skips the welcome guide
+  // (it stays available from Help). A data file with no activity is treated as a new learner.
+  if (parsed.settings && !parsed.settings.onboarding) {
+    const studied = (parsed.attempts?.length ?? 0) > 0 || Object.keys(parsed.lessons ?? {}).length > 0;
+    db.settings.onboarding = studied
+      ? { completed: true, skipped: false, step: 2, completedAt: null, reason: "existing-user" }
+      : { ...base.settings.onboarding };
+  }
+  return db;
 }
 
 /**

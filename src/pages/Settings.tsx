@@ -1,3 +1,4 @@
+import { useGuide } from "../components/Guide";
 import { Icon } from "../components/Icon";
 import { useEffect, useState } from "react";
 import type { Settings } from "../../shared/types";
@@ -12,6 +13,7 @@ export function SettingsPage() {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [msg, setMsg] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const guide = useGuide();
 
   useEffect(() => {
     api<Settings>("/api/settings").then(setS).catch((e) => setError(e.message));
@@ -33,6 +35,14 @@ export function SettingsPage() {
     <div className="page">
       <h1>Cài đặt</h1>
       <ErrorBox error={error} />
+      <Card title="Hướng dẫn sử dụng">
+        <p className="small muted">Xem lại phần giới thiệu ba bước, hoặc đọc cách học với ứng dụng.</p>
+        <div className="row gap-s wrap">
+          <button className="btn" onClick={guide.openOnboarding}><Icon name="rotate-ccw" /> Xem lại hướng dẫn bắt đầu</button>
+          <a className="btn ghost" href="/help">Bắt đầu từ đâu?</a>
+        </div>
+      </Card>
+
       <Card title="AI (tùy chọn)">
         {status?.aiConfigured
           ? <p>Đã cấu hình Gemini · model <code>{status.model}</code></p>

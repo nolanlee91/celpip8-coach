@@ -1,3 +1,6 @@
+import { NextStep } from "../components/NextStep";
+import { LEARN_HELP } from "../components/helpText";
+import { HelpTip } from "../components/Guide";
 import { Icon } from "../components/Icon";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
@@ -131,6 +134,8 @@ export function LessonPage() {
         </div>
         <Badge tone={STATUS_LABEL[data.status]?.tone ?? "neutral"}>{STATUS_LABEL[data.status]?.text ?? data.status}</Badge>
       </div>
+
+      <HelpTip id="learn" title="Một bài học gồm những gì?">{LEARN_HELP}</HelpTip>
 
       <nav className="steps">
         {LESSON_STEPS.map((s, i) => (
@@ -281,8 +286,6 @@ function LessonResultView({ lesson, run, progress, analysis, mistakesAdded, onRe
   lesson: PublicLesson; run: LessonRun; progress: LessonProgress; analysis?: ResultData["analysis"]; mistakesAdded?: number;
   onRestart: () => void; onAskTutor: (q: string) => void; onNext: (to: string) => void;
 }) {
-  const [next, setNext] = useState<{ title: string; reasonVi: string; route: string } | null>(null);
-  useEffect(() => { void api<{ next: { title: string; reasonVi: string; route: string } | null }>("/api/coach").then((c) => setNext(c.next)).catch(() => {}); }, [run.at]);
   const items = analysis ?? Object.entries(run.misconceptions).sort((a, b) => b[1] - a[1]).map(([key, count]) => ({ key, count, ...(lesson.misconceptions[key] ?? { label: key, explanationVi: "", fixVi: "" }), competency: null }));
   const outcome = {
     advance: { tone: "good" as const, title: "Đã nắm vững", text: "Bạn có thể sang bài tiếp theo. Hệ thống sẽ nhắc ôn lại theo lịch lặp lại ngắt quãng." },
@@ -306,6 +309,8 @@ function LessonResultView({ lesson, run, progress, analysis, mistakesAdded, onRe
         </div>
       </Card>
 
+      <NextStep after="lesson" refreshKey={run.at} />
+
       <Card title="Phân tích lỗi">
         {items.length === 0 ? <p className="ok-msg">Không mắc lỗi tư duy nào trong lần này.</p> : items.map((m) => (
           <div key={m.key} className="misc">
@@ -327,18 +332,11 @@ function LessonResultView({ lesson, run, progress, analysis, mistakesAdded, onRe
 
       <LessonLanguage lesson={lesson} />
 
-      <Card title="Tiếp theo">
+      <Card title="Luyện thêm với bài này">
         <div className="row gap-s wrap">
           {lesson.practice.map((p) => <Link key={p.route} className="btn" to={p.route}><Icon name="dumbbell" /> {p.label}</Link>)}
           <button className="btn ghost" onClick={onRestart}><Icon name="rotate-ccw" /> Làm lại bài học</button>
         </div>
-        {next && (
-          <div className="recommend" style={{ marginTop: 10 }}>
-            <strong>Huấn luyện viên gợi ý: {next.title}</strong>
-            <div className="small">{next.reasonVi}</div>
-            <button className="btn primary small" style={{ marginTop: 6 }} onClick={() => onNext(next.route)}>Bắt đầu</button>
-          </div>
-        )}
       </Card>
     </>
   );
@@ -375,11 +373,12 @@ function ReviewSession({ data, onDone }: { data: LessonData; onDone: () => void 
             <div>
               <p>{result.score >= lesson.mastery.advance ? "Bạn vẫn nhớ tốt kỹ thuật này. Lần ôn tiếp theo sẽ cách xa hơn." : "Bạn đã quên một phần — lịch ôn được rút ngắn. Nên xem lại phần khái niệm."}</p>
               <p className="small">Lần ôn tiếp theo: <strong>{result.nextReview}</strong></p>
-              <div className="row gap-s"><Link className="btn small" to={`/learn/${lesson.id}?step=concept`}>Xem lại khái niệm</Link><button className="btn small primary" onClick={onDone}>Xong</button></div>
+              <div className="row gap-s"><Link className="btn small" to={`/learn/${lesson.id}?step=concept`}>Xem lại khái niệm</Link><button className="btn small ghost" onClick={onDone}>Đóng</button></div>
             </div>
           </div>
         </Card>
       )}
+      {result && <NextStep after="review" refreshKey={result.nextReview} />}
       {exs.map((ex, i) => (
         <ExerciseCard key={ex.id} ex={ex} index={i} stim={ex.stimulusId ? lesson.stimuli[ex.stimulusId] : undefined} section="review" answer={answerOf(ex.id)}
           showFeedback={Boolean(result)} misconceptions={lesson.misconceptions} onSubmit={async (r) => { setResponses((x) => ({ ...x, [ex.id]: r })); }} />

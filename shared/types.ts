@@ -272,6 +272,16 @@ export interface Settings {
   effort: "low" | "medium" | "high";
   allowBrowserVoice: boolean; // explicit opt-in: use browser TTS for listening sets whose audio is pending
   aiCache: boolean; // reuse an earlier AI evaluation for an identical response
+  onboarding: OnboardingState;
+  helpSeen: string[]; // ids of dismissed first-visit help notes ("learn", "practice", "review")
+}
+
+export interface OnboardingState {
+  completed: boolean; // true after finishing OR skipping; the guide is then never shown automatically again
+  skipped: boolean;
+  step: number; // 0–2, last step reached (resume point)
+  completedAt: string | null;
+  reason?: "finished" | "skipped" | "existing-user";
 }
 
 export interface WeeklyAssessment {
@@ -378,6 +388,9 @@ export interface DailyPlan {
 
 export interface Dashboard {
   learning?: unknown; // Learn Mode summary (server/learn-routes.ts learningSummary)
+  primary?: unknown; // coach.primaryAction: the one thing to do now
+  afterPrimary?: string;
+  isNewLearner?: boolean;
   settings: Settings;
   skills: SkillSummary[];
   categoryStats: CategoryStat[];

@@ -1,3 +1,5 @@
+import { LEARN_HELP } from "../components/helpText";
+import { HelpTip } from "../components/Guide";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { SKILL_LABEL, SKILLS, type Skill } from "../../shared/spec";
@@ -74,6 +76,7 @@ export function LearnPage() {
           <p>{data.counts.active} bài cho bốn kỹ năng. Mỗi bài: học kỹ thuật, xem ví dụ mẫu, luyện có gợi ý, tự làm bài kiểm tra, rồi ôn lại theo lịch.</p>
         </div>
       </div>
+      <HelpTip id="learn" title="Một bài học gồm những gì?">{LEARN_HELP}</HelpTip>
 
       {data.next && (
         <Card title="Nên học tiếp" className="next-card">

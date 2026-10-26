@@ -1,3 +1,6 @@
+import { NextStep } from "../components/NextStep";
+import { REVIEW_HELP } from "../components/helpText";
+import { HelpTip } from "../components/Guide";
 import { Icon } from "../components/Icon";
 import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
@@ -17,6 +20,7 @@ export function MistakesPage() {
     <div className="page">
       <h1>Sổ lỗi & phân tích điểm yếu</h1>
       <p className="muted">Mỗi câu sai/điểm yếu trở thành một thẻ lỗi có lịch ôn lặp lại ngắt quãng. Thẻ được đánh dấu “đã khắc phục” sau khi bạn làm đúng nhiều lần với khoảng cách ≥ 2 tuần.</p>
+      <HelpTip id="review" title="Ôn tập hoạt động thế nào?">{REVIEW_HELP}</HelpTip>
       <Segmented value={tab} onChange={setTab} options={[
         { value: "review", label: "Ôn thẻ đến hạn" }, { value: "list", label: "Tất cả lỗi" }, { value: "profile", label: "Hồ sơ điểm yếu" },
       ]} />
@@ -41,11 +45,11 @@ function ReviewSession() {
 
   if (error) return <ErrorBox error={error} />;
   if (!queue) return <Loading />;
-  if (queue.length === 0) return <Empty>Không có thẻ lỗi nào đến hạn. Quay lại vào ngày mai, hoặc làm thêm bài luyện tập.</Empty>;
+  if (queue.length === 0) return <><Empty>Không có thẻ lỗi nào đến hạn hôm nay.</Empty><NextStep after="review" /></>;
   if (i >= queue.length) return (
     <Card title="Hoàn thành phiên ôn">
       <p>Đúng {stats.right} · Sai {stats.wrong}. Thẻ sai sẽ quay lại vào ngày mai; thẻ đúng được giãn khoảng cách.</p>
-      <Link to="/" className="btn primary">Về Dashboard</Link>
+      <NextStep after="review" />
     </Card>
   );
 

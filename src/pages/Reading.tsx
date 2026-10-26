@@ -1,3 +1,5 @@
+import { PRACTICE_HELP } from "../components/helpText";
+import { HelpTip } from "../components/Guide";
 import { Icon } from "../components/Icon";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { ReadingSet, Settings } from "../../shared/types";
@@ -33,6 +35,7 @@ export function ReadingPage() {
     <div className="page">
       <h1>Reading</h1>
       <p className="muted">Kỹ năng ưu tiên cao nhất (5 → 8). Bài được chọn ngay từ thư viện đã kiểm duyệt — theo part yếu nhất, độ khó hiện tại và lịch sử làm bài. Không cần AI.</p>
+      <HelpTip id="practice" title="Luyện thi khác Học ở chỗ nào?">{PRACTICE_HELP}</HelpTip>
       <ErrorBox error={error} />
       <div className="row gap-s wrap">
         <button className="btn primary big" onClick={() => next({ mode: "learn" })}><Icon name="play" /> Bài đề xuất cho tôi</button>

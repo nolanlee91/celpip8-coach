@@ -1,3 +1,5 @@
+import { PRACTICE_HELP } from "../components/helpText";
+import { HelpTip } from "../components/Guide";
 import { useEffect, useRef, useState } from "react";
 import type { Submission, WritingPrompt } from "../../shared/types";
 import { WRITING_TASKS } from "../../shared/spec";
@@ -28,6 +30,7 @@ export function WritingPage() {
     <div className="page">
       <h1>Writing</h1>
       <p className="muted">Bạn đã đạt 7 — mục tiêu là <strong>ổn định ở Level 8</strong>. Đề lấy ngay từ ngân hàng đề; sau khi nộp bạn xem bài mẫu Level 8 ngay lập tức, và chỉ gọi AI khi muốn nhận xét chi tiết.</p>
+      <HelpTip id="practice" title="Luyện thi khác Học ở chỗ nào?">{PRACTICE_HELP}</HelpTip>
       <ErrorBox error={error} />
       <div className="part-grid">
         {WRITING_TASKS.map((t) => (

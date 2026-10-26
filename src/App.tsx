@@ -17,7 +17,8 @@ import { EvaluationPage, ReviewPage, SubmissionPage } from "./pages/Review";
 import { AdminPage } from "./pages/Admin";
 import { LearnPage } from "./pages/Learn";
 import { LessonPage } from "./pages/Lesson";
-import { MorePage, PracticeHubPage } from "./pages/Hubs";
+import { HelpPage, MorePage, PracticeHubPage } from "./pages/Hubs";
+import { GuideProvider } from "./components/Guide";
 
 type NavItem = { to: string; label: string; icon: IconName };
 
@@ -39,6 +40,7 @@ const NAV: { section: string; items: NavItem[] }[] = [
     { to: "/vocabulary", label: "Từ vựng", icon: "library" },
   ] },
   { section: "Khác", items: [
+    { to: "/help", label: "Bắt đầu từ đâu?", icon: "lightbulb" },
     { to: "/analytics", label: "Thống kê", icon: "chart-line" },
     { to: "/settings", label: "Cài đặt", icon: "settings" },
     { to: "/admin", label: "Quản trị nội dung", icon: "wrench" },
@@ -51,7 +53,7 @@ const TABS: { to: string; label: string; icon: IconName; match: string[] }[] = [
   { to: "/learn", label: "Lộ trình", icon: "graduation-cap", match: ["/learn"] },
   { to: "/practice", label: "Luyện thi", icon: "dumbbell", match: ["/practice", "/reading", "/listening", "/speaking", "/writing", "/mock", "/review", "/evaluation", "/submission"] },
   { to: "/vocabulary", label: "Từ vựng", icon: "library", match: ["/vocabulary"] },
-  { to: "/more", label: "Thêm", icon: "ellipsis", match: ["/more", "/mistakes", "/planner", "/analytics", "/settings", "/admin"] },
+  { to: "/more", label: "Thêm", icon: "ellipsis", match: ["/more", "/help", "/mistakes", "/planner", "/analytics", "/settings", "/admin"] },
 ];
 
 function TabBar() {
@@ -84,6 +86,7 @@ export function App() {
   return (
     <BrowserRouter>
       <TutorProvider>
+        <GuideProvider>
         <div className="app">
           <TopBar />
           <nav className="sidebar" aria-label="Điều hướng">
@@ -112,6 +115,7 @@ export function App() {
               <Route path="/learn/:id" element={<LessonPage />} />
               <Route path="/practice" element={<PracticeHubPage />} />
               <Route path="/more" element={<MorePage />} />
+              <Route path="/help" element={<HelpPage />} />
               <Route path="/reading" element={<ReadingPage />} />
               <Route path="/listening" element={<ListeningPage />} />
               <Route path="/speaking" element={<SpeakingPage />} />
@@ -129,6 +133,7 @@ export function App() {
           </main>
           <TabBar />
         </div>
+        </GuideProvider>
       </TutorProvider>
     </BrowserRouter>
   );

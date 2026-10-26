@@ -127,3 +127,15 @@ The same actions (validation, audio, generation, approval, AI usage) are on the 
 - **Licences:**
   - Fonts are self-hosted in `public/fonts` (SIL Open Font License 1.1).
   - Icons are Lucide (ISC License), inlined in `src/components/Icon.tsx`.
+
+## First run and navigation
+
+- **New learners** see a 3-step guide:
+  1. Check your scores and target.
+  2. Choose your daily study time (30/60/90/120 min).
+  3. See how learning works.
+
+  The last button opens the first lesson the coach recommends. You can skip the guide or go back, and it can be reopened from **Cài đặt** or **Bắt đầu từ đâu?**. Learners who already have progress do not see it.
+- **The dashboard** leads with one action: what to do now, why, how long, and what comes next. The rest of today's plan, due reviews and progress toward Level 8 sit below it.
+- **Every result screen** (lesson, practice, review) ends with one recommended next step and a way back to the dashboard.
+- **First visits** to Learn, Practice and Review show a short help note that you can dismiss.

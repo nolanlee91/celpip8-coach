@@ -1,3 +1,4 @@
+import { NextStep } from "./NextStep";
 import { Icon } from "./Icon";
 import { Link } from "react-router-dom";
 import type { Attempt, Evaluation, MistakeRecord, VocabItem } from "../../shared/types";
@@ -53,14 +54,7 @@ export function WeaknessReport({ result, skill }: { result: ObjectiveResult; ski
           ))}
         </div>
       </div>
-      {report.followUpFocus && (
-        <div className="row gap-s wrap" style={{ marginTop: 12 }}>
-          <Link className="btn primary" to={`/${skill}?mode=drill&focus=${report.followUpFocus}`}>
-            Luyện drill: {CATEGORIES[skill][report.followUpFocus] ?? report.followUpFocus}
-          </Link>
-          <Link className="btn" to="/mistakes">Xem sổ lỗi</Link>
-        </div>
-      )}
+      <div style={{ marginTop: 14 }}><NextStep after="practice" attemptId={attempt.id} /></div>
     </Card>
   );
 }

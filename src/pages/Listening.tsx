@@ -1,3 +1,5 @@
+import { PRACTICE_HELP } from "../components/helpText";
+import { HelpTip } from "../components/Guide";
 import { Icon } from "../components/Icon";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { ListeningSet, Mode, Settings } from "../../shared/types";
@@ -40,7 +42,8 @@ export function ListeningPage() {
   return (
     <div className="page">
       <h1>Listening</h1>
-      <p className="muted">Bài được chọn từ thư viện; audio được tạo sẵn một lần (Gemini TTS, nhiều giọng) và lưu lại — không gọi API khi bạn luyện. Bài chưa có audio sẽ không được dùng{settings?.allowBrowserVoice ? ", trừ khi dùng giọng đọc trình duyệt (bạn đã bật trong Cài đặt)" : ""}.</p>
+      <p className="muted">Bài được chọn từ thư viện; audio được tạo sẵn một lần và lưu lại, không gọi API khi bạn luyện. Bài chưa có audio sẽ không được dùng{settings?.allowBrowserVoice ? ", trừ khi dùng giọng đọc trình duyệt (bạn đã bật trong Cài đặt)" : ""}.</p>
+      <HelpTip id="practice" title="Luyện thi khác Học ở chỗ nào?">{PRACTICE_HELP}</HelpTip>
       <ErrorBox error={error} />
       <Card>
         <label className="row gap-s"><input type="checkbox" checked={examLike} onChange={(e) => setExamLike(e.target.checked)} />

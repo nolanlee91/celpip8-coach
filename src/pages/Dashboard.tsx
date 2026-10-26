@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import type { Dashboard as DashboardData, PlanBlock } from "../../shared/types";
-import { CATEGORIES, SKILL_LABEL, SKILLS } from "../../shared/spec";
+import { CATEGORIES, SKILL_LABEL, SKILLS, type Skill } from "../../shared/spec";
 import { api, post } from "../api";
-import { Badge, Card, ErrorBox, Loading, ProgressBar, Segmented } from "../components/ui";
-import { Icon } from "../components/Icon";
-import { MasteryBars, RecommendationCard, type LearningSummary } from "./Learn";
+import { Card, ErrorBox, Loading, ProgressBar, Segmented } from "../components/ui";
+import { Icon, type IconName } from "../components/Icon";
+import type { LearningSummary } from "./Learn";
+
+const SKILL_ICON: Record<Skill, IconName> = { reading: "book-open", listening: "headphones", speaking: "mic", writing: "pen-line" };
 
 const KIND_LABEL: Record<string, string> = {
   learn: "Học bài mới", guided: "Luyện có hướng dẫn", "lesson-review": "Ôn bài học", vocab: "Từ vựng",
@@ -41,7 +42,7 @@ export function Heatmap({ stats }: { stats: DashboardData["categoryStats"] }) {
   );
 }
 
-/** The day's session drawn as a timetable: minute marks, one coloured line per skill, the next block opened up. */
+/** The rest of today's session as a quiet timetable. The dashboard's one primary button lives above it. */
 function Session({ blocks, completed, onToggle }: { blocks: PlanBlock[]; completed: string[]; onToggle: (id: string, done: boolean) => void }) {
   const nextId = blocks.find((b) => !completed.includes(b.id))?.id;
   let t = 0;
@@ -61,24 +62,14 @@ function Session({ blocks, completed, onToggle }: { blocks: PlanBlock[]; complet
                 <span className="slot-kind">{b.kind ? KIND_LABEL[b.kind] : SKILL_LABEL[b.skill as keyof typeof SKILL_LABEL] ?? "Ôn tập"}</span>
                 <span className="slot-min">
                   {b.minutes} phút
-                  {!now && (
-                    <button className={`icon-btn slot-check ${done ? "on" : ""}`} onClick={() => onToggle(b.id, !done)} aria-pressed={done} aria-label={done ? "Bỏ đánh dấu đã xong" : "Đánh dấu đã xong"} title={done ? "Bỏ đánh dấu" : "Đánh dấu xong"}>
-                      <Icon name={done ? "circle-check" : "check"} size={18} />
-                    </button>
-                  )}
+                  <button className={`icon-btn slot-check ${done ? "on" : ""}`} onClick={() => onToggle(b.id, !done)} aria-pressed={done} aria-label={done ? "Bỏ đánh dấu đã xong" : "Đánh dấu đã xong"} title={done ? "Bỏ đánh dấu" : "Đánh dấu xong"}>
+                    <Icon name={done ? "circle-check" : "check"} size={18} />
+                  </button>
                 </span>
               </div>
-              {now ? <div className="slot-title">{b.title}</div> : <Link className="slot-title" to={b.route}>{b.title}</Link>}
-              <div className="slot-detail">{b.detail}</div>
-              {b.reason && (now
-                ? <p className="slot-reason">{b.reason}</p>
-                : !done && <details className="slot-reason"><summary>Vì sao bài này?</summary><p>{b.reason}</p></details>)}
-              {now && (
-                <div className="slot-actions">
-                  <Link className="btn primary" to={b.route}><Icon name="play" /> Bắt đầu</Link>
-                  <button className="btn ghost" onClick={() => onToggle(b.id, true)}>Đánh dấu xong</button>
-                </div>
-              )}
+              <Link className="slot-title" to={b.route}>{b.title}</Link>
+              {!done && <div className="slot-detail">{b.detail}</div>}
+              {b.reason && !done && <details className="slot-reason"><summary>Vì sao?</summary><p>{b.reason}</p></details>}
             </div>
           </li>
         );
@@ -87,6 +78,8 @@ function Session({ blocks, completed, onToggle }: { blocks: PlanBlock[]; complet
     </ol>
   );
 }
+
+interface Primary { state: string; headline: string; title: string; skill: Skill | null; minutes: number; reasonVi: string; route: string; cta: string }
 
 export function DashboardPage() {
   const [data, setData] = useState<DashboardData | null>(null);
@@ -103,125 +96,106 @@ export function DashboardPage() {
 
   const { plan } = data;
   const learning = data.learning as LearningSummary | undefined;
-  const nextBlock = plan.blocks.find((b) => !plan.completed.includes(b.id)) ?? plan.blocks[0];
+  const primary = data.primary as Primary | undefined;
+  const isNew = Boolean(data.isNewLearner);
+  const totalMin = plan.blocks.reduce((n, b) => n + b.minutes, 0);
   const doneMin = plan.blocks.filter((b) => plan.completed.includes(b.id)).reduce((n, b) => n + b.minutes, 0);
   const toggle = async (id: string, done: boolean) => {
     await post("/api/plan/complete", { blockId: id, done });
     void load(minutes);
   };
+  const mastery = (k: Skill) => learning?.mastery.find((m) => m.skill === k);
 
   return (
     <div className="page">
-      <div className="page-head">
-        <div>
-          <h1>Chào {data.settings.learnerName}</h1>
-          <p>Tuần {plan.week}/{data.settings.planWeeks}, giai đoạn {plan.phase.number}: {plan.phase.name}. {plan.phase.goal}</p>
-        </div>
-        {nextBlock && <button className="btn primary big" onClick={() => nav(nextBlock.route)}><Icon name="play" /> {plan.completed.length ? "Học tiếp" : "Bắt đầu buổi học"}</button>}
-      </div>
+      <p className="greet">Chào {data.settings.learnerName}. Tuần {plan.week}/{data.settings.planWeeks} của kế hoạch.</p>
 
+      {/* 1. The one thing to do now: what, why, how long, then what. */}
+      {primary && (
+        <section className={`primary-action ${primary.skill ? `skill-${primary.skill}` : ""}`} aria-labelledby="primary-h">
+          <h1 id="primary-h">{primary.headline}</h1>
+          <p className="pa-title">{primary.title}</p>
+          <p className="pa-meta">
+            {primary.skill && <><Icon name={SKILL_ICON[primary.skill]} size={16} /> {SKILL_LABEL[primary.skill]}</>}
+            <span className="pa-sep" aria-hidden />
+            <Icon name="clock" size={16} /> khoảng {primary.minutes} phút
+          </p>
+          <p className="pa-why">{primary.reasonVi}</p>
+          <button className="btn primary big pa-cta" onClick={() => nav(primary.route)}><Icon name="play" /> {primary.cta}</button>
+          {data.afterPrimary && <p className="pa-next">{data.afterPrimary}</p>}
+        </section>
+      )}
+
+      {/* 2. Secondary: the rest of today, reviews, progress. */}
       <div className="today">
-        <Card title="Kế hoạch học hôm nay" actions={
+        <Card title="Kế hoạch hôm nay" actions={
           <Segmented value={minutes ?? data.settings.dailyMinutes} options={[30, 60, 90, 120].map((m) => ({ value: m, label: `${m} phút` }))} onChange={(m) => setMinutes(m)} />
         }>
-          <p className="muted small" style={{ marginTop: -6 }}>Đã xong {doneMin}/{plan.blocks.reduce((n, b) => n + b.minutes, 0)} phút. Bài học, luyện có hướng dẫn, ôn tập và luyện dạng thi được trộn theo điểm yếu của bạn.</p>
+          <p className="muted small" style={{ marginTop: -6 }}>Đã xong {doneMin}/{totalMin} phút. Bấm vào tên một mục để mở, bấm dấu tích khi làm xong.</p>
           <Session blocks={plan.blocks} completed={plan.completed} onToggle={toggle} />
         </Card>
 
         <div className="today-side">
-          {learning && (
-            <Card title="Nên học gì tiếp">
-              {learning.next ? <RecommendationCard rec={learning.next} /> : <p className="muted">Bạn đã đi hết lộ trình hiện có. Tiếp tục luyện dạng thi và thi thử.</p>}
-              {learning.dueReviews > 0 && <p className="small"><Link to="/learn">{learning.dueReviews} bài học đến hạn ôn</Link></p>}
-            </Card>
-          )}
           <Card title="Ôn tập đến hạn">
-            <dl className="facts">
-              <dt>Thẻ lỗi</dt><dd><Link to="/mistakes?review=1">{data.dueMistakes}</Link></dd>
-              <dt>Từ vựng</dt><dd><Link to="/vocabulary?review=1">{data.dueVocab}</Link></dd>
-              <dt>Chuỗi ngày học</dt><dd>{data.streak} ngày</dd>
-              <dt>Hôm nay</dt><dd>{data.minutesToday} phút</dd>
-              <dt>7 ngày qua</dt><dd>{Math.round(data.minutesWeek / 6) / 10} giờ</dd>
-            </dl>
+            {data.dueMistakes + data.dueVocab + (learning?.dueReviews ?? 0) === 0
+              ? <p className="muted small">Hôm nay chưa có gì đến hạn ôn. Những gì bạn học sẽ được nhắc ôn lại đúng lúc sắp quên.</p>
+              : (
+                <dl className="facts">
+                  {(learning?.dueReviews ?? 0) > 0 && <><dt>Bài học cần ôn</dt><dd><Link to="/learn">{learning!.dueReviews}</Link></dd></>}
+                  <dt>Câu đã sai</dt><dd><Link to="/mistakes?review=1">{data.dueMistakes}</Link></dd>
+                  <dt>Từ vựng</dt><dd><Link to="/vocabulary?review=1">{data.dueVocab}</Link></dd>
+                </dl>
+              )}
+          </Card>
+
+          <Card title="Tiến độ tới Level 8">
+            <table className="scores compact">
+              <thead><tr><th>Kỹ năng</th><th>Hiện tại</th><th>Bài đã vững</th></tr></thead>
+              <tbody>{data.skills.map((s) => {
+                const m = mastery(s.skill);
+                return (
+                  <tr key={s.skill} className={`skill-${s.skill}`}>
+                    <td className="skill"><span className="dot" />{SKILL_LABEL[s.skill]}</td>
+                    <td>{s.estimate ?? s.official} <span className="gap">/ {s.target}</span></td>
+                    <td>{m ? `${m.mastered}/${m.lessons}` : "–"}</td>
+                  </tr>
+                );
+              })}</tbody>
+            </table>
+            <p className="muted tiny">"Hiện tại" là điểm chính thức, hoặc ước tính luyện tập khi đã đủ bài. Không phải điểm CELPIP chính thức.</p>
           </Card>
         </div>
       </div>
 
-      {learning && (
-        <div className="grid-2">
-          <Card title="Còn thiếu gì để đạt Level 8">
-            <ul className="plain">{learning.blockers.map((b) => (
-              <li key={`${b.skill}-${b.label}`}>{b.textVi} {b.lessonId && <Link to={`/learn/${b.lessonId}`}>Học: {b.lessonTitle}</Link>}</li>
-            ))}</ul>
-            <h4>Tiến bộ gần đây</h4>
-            {learning.improvements.length ? <ul className="plain">{learning.improvements.map((t) => <li key={t}>{t}</li>)}</ul>
-              : <p className="muted small">Chưa có thay đổi đủ lớn để ghi nhận. Hoàn thành vài bài học và bài luyện để thấy tiến bộ ở đây.</p>}
-          </Card>
-          <Card title="Mức độ nắm vững bài học">
-            <MasteryBars rows={learning.mastery} />
-          </Card>
-        </div>
-      )}
-
-      <Card title="Điểm theo kỹ năng">
-        <table className="scores">
-          <thead><tr><th>Kỹ năng</th><th>Chính thức</th><th>Ước tính luyện tập</th><th>Mục tiêu</th><th>Độ chính xác</th></tr></thead>
-          <tbody>{data.skills.map((s) => (
-            <tr key={s.skill} className={`skill-${s.skill}`}>
-              <td className="skill"><Link to={`/${s.skill}`}><span className="dot" />{SKILL_LABEL[s.skill]}</Link></td>
-              <td>{s.official}</td>
-              <td>{s.estimate ?? <span className="gap">chưa đủ dữ liệu</span>}</td>
-              <td>{s.target}</td>
-              <td>{s.accuracy !== null ? `${Math.round(s.accuracy * 100)}%` : <span className="gap">{s.attempts} bài</span>}
-                {s.recentTrend !== null && <span className="gap"> ({s.recentTrend >= 0 ? "+" : "−"}{Math.abs(Math.round(s.recentTrend * 100))}%)</span>}</td>
-            </tr>
-          ))}</tbody>
-        </table>
-        <p className="muted tiny">Điểm chính thức: CELPIP tháng 4/2026. Ước tính luyện tập không phải điểm chính thức. {data.readiness.message}</p>
-      </Card>
-
-      <div className="grid-2">
-        <Card title="Mục tiêu tuần">
-          {data.weeklyGoals.map((g) => (
-            <div key={g.label} className="bar-row">
-              <span>{g.label}</span>
-              <ProgressBar value={g.done} max={g.target} tone={g.done >= g.target ? "good" : undefined} />
-              <span className="muted small">{g.done}/{g.target}</span>
+      {isNew ? (
+        <p className="muted small">Thống kê, điểm yếu và tiến bộ sẽ xuất hiện ở đây sau vài bài học đầu tiên.</p>
+      ) : learning && (
+        <Card title="Tiến bộ và điểm còn yếu" actions={<Link to="/analytics" className="btn small ghost">Thống kê chi tiết</Link>}>
+          <div className="grid-2 tight">
+            <div>
+              <h4>Tiến bộ gần đây</h4>
+              {learning.improvements.length ? <ul className="plain">{learning.improvements.map((t) => <li key={t}>{t}</li>)}</ul>
+                : <p className="muted small">Chưa có thay đổi đủ lớn để ghi nhận.</p>}
             </div>
-          ))}
-        </Card>
-        <Card title="Độ chính xác 8 tuần qua">
-          <ResponsiveContainer width="100%" height={200}>
-            <LineChart data={data.accuracyTrend}>
-              <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" />
-              <XAxis dataKey="week" fontSize={11} />
-              <YAxis domain={[0, 100]} fontSize={11} unit="%" />
-              <Tooltip />
-              <Legend />
-              <Line type="monotone" dataKey="reading" name="Reading" stroke="var(--c-reading)" connectNulls strokeWidth={2} />
-              <Line type="monotone" dataKey="listening" name="Listening" stroke="var(--c-listening)" connectNulls strokeWidth={2} />
-            </LineChart>
-          </ResponsiveContainer>
-        </Card>
-      </div>
-
-      <Card title="Bản đồ điểm yếu (60 ngày)">
-        <Heatmap stats={data.categoryStats} />
-      </Card>
-
-      <Card title="Lỗi gần đây" actions={<Link to="/mistakes" className="btn small ghost">Xem sổ lỗi</Link>}>
-        {data.recentMistakes.length === 0 ? <p className="muted">Chưa có lỗi nào. Làm một bài để bắt đầu.</p> : (
-          <ul className="mistake-mini">
-            {data.recentMistakes.map((m) => (
-              <li key={m.id}>
-                <Badge tone="info">{CATEGORIES[m.skill][m.category] ?? m.category}</Badge>
-                <span className="grow ellipsis">{m.question}</span>
-                {m.repeatCount > 1 && <Badge tone="warn">lặp {m.repeatCount} lần</Badge>}
-              </li>
+            <div>
+              <h4>Điểm còn giữ bạn dưới Level 8</h4>
+              <ul className="plain">{learning.blockers.slice(0, 3).map((b) => (
+                <li key={`${b.skill}-${b.label}`}>{b.textVi} {b.lessonId && <Link to={`/learn/${b.lessonId}`}>Học: {b.lessonTitle}</Link>}</li>
+              ))}</ul>
+            </div>
+          </div>
+          <details className="more">
+            <summary>Mục tiêu tuần</summary>
+            {data.weeklyGoals.map((g) => (
+              <div key={g.label} className="bar-row">
+                <span>{g.label}</span>
+                <ProgressBar value={g.done} max={g.target} tone={g.done >= g.target ? "good" : undefined} />
+                <span className="muted small">{g.done}/{g.target}</span>
+              </div>
             ))}
-          </ul>
-        )}
-      </Card>
+          </details>
+        </Card>
+      )}
     </div>
   );
 }

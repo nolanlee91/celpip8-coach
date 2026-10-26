@@ -14,7 +14,7 @@ import { library, reloadLibrary } from "./library";
 import { candidates, mockPackages, selectNext } from "./selection";
 import { AUDIO_PROVIDER, audioFilePath, audioJob, audioProviderReady, audioStatus, generateAudioBatch, manifestEntry, stopAudioJob } from "./audio";
 import { learnRouter, learningSummary, lessonTutorContext, curView } from "./learn-routes";
-import { buildLearningPlan } from "./coach";
+import { afterPrimaryVi, buildLearningPlan, isNewLearner, primaryAction } from "./coach";
 import { curriculum, reloadCurriculum } from "./lessons";
 import { lessonAudioSet } from "./audio";
 import { createJob, decide, getJob, importApproved, listJobs, readDraft, runJob, type JobSkill } from "./pipeline";
@@ -349,7 +349,8 @@ app.get("/api/dashboard", h((req, res) => {
   const db = load();
   const d = dashboard(db, minutes);
   d.plan = annotatePlan(db, buildLearningPlan(db, curView(), minutes ?? db.settings.dailyMinutes));
-  res.json({ ...d, learning: learningSummary(db) });
+  const primary = primaryAction(db, curView());
+  res.json({ ...d, learning: learningSummary(db), primary, afterPrimary: afterPrimaryVi(primary, d.plan), isNewLearner: isNewLearner(db) });
 }));
 
 app.get("/api/plan", h((req, res) => {

@@ -1,3 +1,6 @@
+import { NextStep } from "../components/NextStep";
+import { REVIEW_HELP } from "../components/helpText";
+import { HelpTip } from "../components/Guide";
 import { Icon } from "../components/Icon";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
@@ -16,6 +19,7 @@ export function VocabularyPage() {
   const [params] = useSearchParams();
   const [items, setItems] = useState<V[] | null>(null);
   const [reviewing, setReviewing] = useState<{ mode: ReviewMode; queue: V[] } | null>(null);
+  const [justReviewed, setJustReviewed] = useState(false);
   const [mode, setMode] = useState<ReviewMode>("mixed");
   const [q, setQ] = useState("");
   const [filter, setFilter] = useState<"all" | "due" | "new" | "mastered">("all");
@@ -42,7 +46,7 @@ export function VocabularyPage() {
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt)), [items, q, filter]);
 
   if (!items) return <div className="page"><Loading /></div>;
-  if (reviewing) return <div className="page"><Review pool={items} queue={reviewing.queue} mode={reviewing.mode} onDone={() => { setReviewing(null); void load(); }} /></div>;
+  if (reviewing) return <div className="page"><Review pool={items} queue={reviewing.queue} mode={reviewing.mode} onDone={() => { setReviewing(null); setJustReviewed(true); void load(); }} /></div>;
 
   const due = items.filter((v) => v.due && (v.vi || v.definition));
   const pending = items.filter((v) => !v.enriched).length;
@@ -51,6 +55,8 @@ export function VocabularyPage() {
     <div className="page">
       <h1>Sổ từ vựng thông minh</h1>
       <p className="muted">Tự động thu thập từ câu sai, bài đọc, transcript nghe và phần sửa bài Writing/Speaking; tra nghĩa từ thư viện từ vựng soạn sẵn — không cần AI. Ôn theo lịch lặp lại ngắt quãng (SM-2).</p>
+      <HelpTip id="review" title="Ôn tập hoạt động thế nào?">{REVIEW_HELP}</HelpTip>
+      {justReviewed && <NextStep after="review" />}
       <Segmented value={tab} onChange={setTab} options={[{ value: "notebook", label: "Sổ của tôi" }, { value: "library", label: "Thư viện từ vựng" }]} />
       <ErrorBox error={error} />
       {info && <p className="ok-msg small">{info}</p>}

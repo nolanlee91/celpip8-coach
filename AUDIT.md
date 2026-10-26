@@ -1,21 +1,22 @@
 # CELPIP 8 Coach: audit report
 
-This is the single, current audit document for the repository. It replaces all earlier audit files. It is written for an independent reviewer (Codex) and covers the whole app as of commit `4d8ba21`, built in three stages:
+This is the single, current audit document for the repository. It replaces all earlier audit files. It is written for an independent reviewer (Codex) and covers the whole app as of the latest commit on `main`, built in four stages:
 
 1. offline-first content library;
 2. Learn Mode with coaching;
-3. interface redesign and mobile support.
+3. interface redesign and mobile support;
+4. guided onboarding and clear learning navigation.
 
 | | |
 |---|---|
 | **Repository** | https://github.com/nolanlee91/celpip8-coach |
 | **Stack** | React 19 + Vite 8, Express 5 + `tsx`, TypeScript, Google Gemini via `@google/genai` (optional) |
 | **Learner** | Vietnamese adult in British Columbia. Official CELPIP-General scores (April 2026): Listening 6, Reading 5, Writing 7, Speaking 6. Target: 8 or higher in every skill. |
-| **Code size** | 11,505 lines in `server/`, `shared/`, `scripts/` and `src/` |
+| **Code size** | 12,104 lines in `server/`, `shared/`, `scripts/` and `src/` |
 
 **Ground rules for this report:**
 - Every number was produced by a script or command output.
-- Anything not exercised by a test is listed in §11 (Untested).
+- Anything not exercised by a test is listed in §12 (Untested).
 
 ---
 
@@ -30,7 +31,8 @@ This is the single, current audit document for the repository. It replaces all e
 | **Listening audio** | 113 MP3 files (30 for practice sets, 83 for lessons), bundled in the repo |
 | **AI (Gemini)** | Optional. Used only for the AI Tutor, Writing/Speaking evaluation on request, and admin content generation. |
 | **Interface** | Redesigned; bottom tab navigation on phones; no horizontal scroll at 375 px |
-| **Tests** | Typecheck OK; `test:learn` 24/24; `test:smoke` 45/45; content validation 0 errors / 0 warnings; build OK |
+| **Guided navigation** | 3-step onboarding for new learners; one dominant "do this now" action on the dashboard; a "next step" on every result screen; dismissible first-visit help; a "Bắt đầu từ đâu?" page |
+| **Tests** | Typecheck OK; `test:learn` 29/29; `test:smoke` 54/54; content validation 0 errors / 0 warnings; build OK |
 
 **Not yet done:**
 - No human has reviewed the content or listened to the audio.
@@ -213,7 +215,7 @@ Every file's `review.notes` records what was checked and fixed.
 - Scene descriptions corrected to match the SVG drawings.
 - 137 of 400 vocabulary entries corrected.
 
-**Caveat:** this is careful AI review, not expert certification. A human spot check is still recommended (§11).
+**Caveat:** this is careful AI review, not expert certification. A human spot check is still recommended (§12).
 
 ---
 
@@ -427,13 +429,106 @@ The design guidance came from Anthropic's `frontend-design` skill and the open-s
 
 ---
 
-## 10. Tests (latest run, commit `4d8ba21`)
+## 10. Onboarding and guided navigation
+
+**Goal:** a first-time learner knows what to do within seconds of opening the dashboard.
+
+### Onboarding (`src/components/Guide.tsx`, `POST /api/onboarding`)
+
+Three steps:
+1. **Starting point:** scores pre-filled (L6 / R5 / W7 / S6, target 8), all editable. The learner is told that the two weakest skills get more time first. Saving the scores re-runs the existing `adjustedWeights`, so the weakest skills get a larger share.
+2. **Study time:** 30 / 60 / 90 / 120 minutes, saved to `settings.dailyMinutes`.
+3. **How learning works:** Học, Luyện thi, Ôn tập, Huấn luyện viên.
+
+The final button **"Bắt đầu bài học đầu tiên"** opens the first lesson recommended by the coach (`/api/coach`). No lesson id is hard-coded.
+
+**Behaviour:**
+- Back and Skip work; Escape also skips.
+- Each step is saved on the server (`settings.onboarding.step`).
+- Finishing or skipping sets `completed: true`, after which the guide is never shown automatically again.
+- It can be reopened from **Cài đặt** or **Bắt đầu từ đâu?**.
+
+**Existing users:** `merge()` in `server/db.ts` marks the guide as done (`reason: "existing-user"`) for data saved before this feature when the learner already has attempts or lesson progress. A data file with no activity shows the guide. No learning data is changed.
+
+**Mobile:** full-screen sheet, 2-column score inputs, buttons in thumb reach; the final button takes the full width.
+
+### Dashboard: one primary action (`coach.primaryAction`)
+
+The dashboard now has a single dominant panel at the top. It answers: what to do now, why, how long, and what happens next.
+
+It is a view over the **existing** `recommendations()`, not a second engine.
+
+| State | Headline |
+|---|---|
+| New learner | "Bắt đầu học {skill}" |
+| Unfinished lesson | "Tiếp tục bài học đang dở" |
+| Lesson review due | "Ôn tập kiến thức hôm nay" |
+| Failed mastery check | "Học lại để nắm chắc kỹ thuật" |
+| Practice shows a weakness | "Học kỹ thuật {skill} bạn đang yếu" |
+| Just finished a lesson | "Chuyển sang bài học tiếp theo" |
+| Curriculum finished | "Luyện dạng thi hôm nay" |
+
+**Panel contents:**
+- The title, skill and estimated time.
+- A short reason, trimmed to about two sentences (`brief()`).
+- One CTA button that goes straight to the activity.
+- A "what happens next" line built from today's plan (`afterPrimaryVi`).
+
+**Secondary content** (visually quieter):
+- Today's plan as a timetable with tick buttons. It no longer contains competing primary buttons.
+- Due reviews.
+- Progress to Level 8 (score now / target, lessons mastered).
+- For returning learners only: recent improvements and remaining weaknesses, with weekly goals inside a collapsed section.
+
+**Removed from the dashboard:** charts and the weakness heatmap. They remain on the Analytics and Mistakes pages. New learners see one line instead of analytics.
+
+### No dead ends (`coach.nextStepAfter`, `GET /api/next-step`, `components/NextStep.tsx`)
+
+Every result screen ends with one primary next action and a secondary way home:
+
+| After | Next step |
+|---|---|
+| Lesson result | The coach's next action, shown right under the score. The old competing "next" button became a quiet "Luyện thêm với bài này" card. |
+| Spaced lesson review | The next action plus the next review date |
+| Reading/Listening practice | If one question type was missed twice or more, the lesson that teaches it. If that lesson is already mastered, a drill. With 75% or more correct, the coach's next action. If errors are scattered, review of the questions just missed. |
+| Writing/Speaking practice | Both before and after AI feedback: the coach's next action |
+| Mistake review / vocabulary review | The next scheduled review date + the next action |
+
+### Contextual help
+
+Dismissible notes appear once, and the dismissal is saved in `settings.helpSeen`:
+- **"learn":** the six lesson steps (Learn page and lesson page).
+- **"practice":** how Practice differs from Learn (Practice hub, Reading, Listening, Writing, Speaking).
+- **"review":** spaced repetition and the mistake notebook in simple Vietnamese (Mistakes, Vocabulary).
+
+The **"Bắt đầu từ đâu?"** page:
+- explains the workflow in five steps;
+- can reopen the onboarding;
+- can show the help notes again.
+
+It is reachable from the sidebar, the mobile **Thêm** tab and **Cài đặt**.
+
+### Verified
+
+1. **Click-through on a fresh data directory** (Chrome DevTools protocol, 390 px, headless Edge):
+   - the guide is shown;
+   - Next, Back and Next again work;
+   - 90 minutes is saved;
+   - "Bắt đầu bài học đầu tiên" lands on `/learn/rd-01`, equal to the coach's first recommendation;
+   - `completed: true, reason: "finished"`;
+   - after a reload the guide is **not** shown again;
+   - the dashboard shows "Bắt đầu học Reading" with its CTA visible on the first screen (49 px tall).
+2. **Screenshots reviewed:** onboarding (desktop and mobile), new-learner dashboard (desktop and mobile).
+
+---
+
+## 11. Tests (latest run)
 
 | Command | Result |
 |---|---|
 | `npm run typecheck` | ✅ 0 errors |
-| `npm run test:learn` | ✅ **24 passed, 0 failed** |
-| `npm run test:smoke` | ✅ **45 passed, 0 failed** |
+| `npm run test:learn` | ✅ **29 passed, 0 failed** |
+| `npm run test:smoke` | ✅ **54 passed, 0 failed** |
 | `npm run content:validate` | ✅ 0 errors, 0 warnings; 96 library items, 400 vocab, 2 mock packages, 60/60 lessons, lesson audio 83/83, practice audio 24/24 |
 | `npm run build` | ✅ (single large JS chunk warning) |
 
@@ -456,15 +551,29 @@ The design guidance came from Anthropic's `frontend-design` skill and the open-s
 - **Progress views** contain only real data.
 - **Validator:** accepts a complete lesson, rejects thin lessons, enforces curriculum order.
 - **Persistence:** lesson progress goes to `progress.json`, not `ai.json`.
+- **Guided navigation:**
+  - the primary action for a new learner, a resume, a due review and just after a lesson;
+  - the "what happens next" line;
+  - the next step after practice (weak type → lesson; clean result → coach);
+  - the onboarding migration for existing vs empty data.
 
 **`test:smoke` covers** (real server, no API key, temporary data directory seeded with a legacy `db.json`):
 - **Migration and Practice Mode:** legacy-data migration, practice scoring and selection, pending-audio rules and the browser-voice opt-in, vocabulary without AI, offline Writing/Speaking submission, instant mock exams with answer keys stripped, admin endpoints.
 - **Learn Mode:** a lesson opens without AI, guided grading, the plan resumes an unfinished lesson, **resume after a server restart**, a full mastery pass, lesson vocabulary into the SRS, the coach moving to a different lesson.
 - **Errors:** the tutor fails cleanly without a key.
+- **Onboarding and help:**
+  - migrated learners are not shown the guide;
+  - invalid scores are rejected;
+  - saved scores rebalance weights toward the weak skills;
+  - daily time is saved and the guide completes;
+  - the dashboard has a primary action;
+  - next-step endpoints work;
+  - help dismissal is saved;
+  - onboarding and help state survive a restart.
 
 ---
 
-## 11. Known limitations and untested functionality
+## 12. Known limitations and untested functionality
 
 **Known limitations:**
 1. All content is AI-written and AI-reviewed. No human teacher has checked answer keys or explanations.
@@ -481,7 +590,9 @@ The design guidance came from Anthropic's `frontend-design` skill and the open-s
    - the coach weights are hand-set, not tuned on data.
 7. Content volume is small compared with the targets (§3.1). Listening practice has only 1 full set per part outside the mock packages.
 8. Lessons are authored as files; the admin generation pipeline produces practice items only.
-9. Security and scale:
+9. Guided navigation is rule-based wording over the coach. The new-learner flow was checked by an automated click-through, not by a real first-time user.
+10. The Mock exam report does not yet end with a "next step" card; it links back to the dashboard as before.
+11. Security and scale:
    - Basic auth has no rate limiting;
    - storage is single-process JSON files;
    - answer keys are hidden only in exam mode.
@@ -493,7 +604,7 @@ The design guidance came from Anthropic's `frontend-design` skill and the open-s
    - content generation and AI review;
    - Gemini TTS.
 2. A **real browser session by a human**: microphone and speech recognition, a full mock exam, a full lesson pass by hand.
-3. **A real phone**, especially iOS Safari.
+3. **A real phone**, especially iOS Safari, including the onboarding sheet and safe-area spacing.
 4. **Railway deployment** of the current commit.
 5. **Long-term behaviour** over weeks: review timing, skill rotation, and whether mastery predicts CELPIP improvement.
 

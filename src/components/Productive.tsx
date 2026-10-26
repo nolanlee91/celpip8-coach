@@ -1,3 +1,4 @@
+import { NextStep } from "./NextStep";
 import { Icon } from "./Icon";
 import { useEffect, useState } from "react";
 import type { Evaluation, SpeakingPrompt, Submission, WritingPrompt } from "../../shared/types";
@@ -68,6 +69,7 @@ export function SubmissionPanel({ submission, prompt, audioUrl, onRepeat, onEval
     <>
       {cached && <p className="muted small">Dùng lại nhận xét AI đã có cho đúng bài làm này (không tốn thêm lượt gọi API).</p>}
       <EvaluationView ev={ev} audioUrl={audioUrl ?? (ev.meta.audioFile ? `/api/audio/${ev.meta.audioFile}` : null)} newDifficulty={newDifficulty} onRepeat={onRepeat} />
+      <NextStep after="practice" attemptId={submission.attemptId} />
     </>
   );
 
@@ -113,6 +115,7 @@ export function SubmissionPanel({ submission, prompt, audioUrl, onRepeat, onEval
         {onRepeat && <button className="btn small" onClick={onRepeat}><Icon name="rotate-ccw" /> Làm lại đề này</button>}
       </div>
       <ModelAnswer prompt={prompt} />
+      <NextStep after="practice" attemptId={submission.attemptId} />
     </div>
   );
 }
