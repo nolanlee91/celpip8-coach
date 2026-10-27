@@ -8,7 +8,7 @@ import { CATEGORIES, SKILL_LABEL, taskName, type Skill } from "../shared/spec";
 import { library } from "./library";
 import { audioStatus } from "./audio";
 import { PART_IDS, weakestTask } from "./analytics";
-import { addDays, today } from "./db";
+import { addDays, today, dayOf } from "./db";
 
 export interface SelectOpts {
   skill: Skill;
@@ -124,7 +124,7 @@ export function selectNext(db: Db, opts: SelectOpts): Selection {
   // 4–5. Prefer never-used, then not-recent least-recently-used; then closest difficulty; drills prefer real drills with high focus share.
   const recentCut = addDays(today(), -RECENT_DAYS);
   const rank = (r: CandidateRow) => [
-    r.attempts === 0 ? 0 : (r.lastAttemptAt ?? "").slice(0, 10) >= recentCut ? 2 : 1,
+    r.attempts === 0 ? 0 : dayOf(r.lastAttemptAt) >= recentCut ? 2 : 1,
     Math.abs(r.difficulty - target),
     opts.mode === "drill" ? (r.setType === "drill" ? 0 : 1) : 0,
     -r.focusShare,

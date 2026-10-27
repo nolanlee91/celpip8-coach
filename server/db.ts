@@ -26,6 +26,9 @@ export function localDate(d: Date): string {
   return `${y}-${m}-${day}`;
 }
 
+/** Local calendar day (yyyy-mm-dd) of a stored ISO timestamp. Timestamps are UTC; plans and streaks use local days. */
+export const dayOf = (iso: string | null | undefined) => (iso ? localDate(new Date(iso)) : "");
+
 export function addDays(date: string, days: number): string {
   const d = new Date(date + "T12:00:00");
   d.setDate(d.getDate() + days);

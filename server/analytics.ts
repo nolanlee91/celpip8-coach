@@ -5,7 +5,7 @@ import {
   CATEGORIES, LISTENING_PARTS, READING_PARTS, SKILLS, SKILL_LABEL, SPEAKING_TASKS, WRITING_TASKS,
   taskName, type Skill,
 } from "../shared/spec";
-import { addDays, today } from "./db";
+import { addDays, today, dayOf } from "./db";
 
 // ---------------- Spaced repetition (SM-2) ----------------
 
@@ -102,7 +102,7 @@ export function categoryStats(db: Db, sinceDays = 60): CategoryStat[] {
     map.set(key, st);
   };
   for (const a of db.attempts) {
-    if (a.finishedAt.slice(0, 10) < since) continue;
+    if (dayOf(a.finishedAt) < since) continue;
     if (a.skill === "reading" || a.skill === "listening") {
       for (const it of a.items) bump(a.skill, it.category, it.correct);
     } else if (a.evaluationId) {
@@ -443,7 +443,7 @@ export function dashboard(db: Db, minutes?: number): Dashboard {
   }
 
   const weekStart = addDays(today(), -6);
-  const thisWeek = db.attempts.filter((a) => a.finishedAt.slice(0, 10) >= weekStart);
+  const thisWeek = db.attempts.filter((a) => dayOf(a.finishedAt) >= weekStart);
   const weeklyMin = s.dailyMinutes * 7;
   const weeklyGoals = [
     { label: "Bài Reading", done: thisWeek.filter((a) => a.skill === "reading").length, target: Math.max(2, Math.round((weeklyMin * s.weights.reading) / 100 / 14)) },
@@ -473,7 +473,7 @@ export function dashboard(db: Db, minutes?: number): Dashboard {
     const from = addDays(today(), -7 * w - 6);
     const to = addDays(today(), -7 * w);
     const inWeek = db.attempts.filter((a) => {
-      const d = a.finishedAt.slice(0, 10);
+      const d = dayOf(a.finishedAt);
       return d >= from && d <= to;
     });
     const acc = (skill: Skill) => {
@@ -517,7 +517,7 @@ export function analytics(db: Db) {
   for (let w = 11; w >= 0; w--) {
     const from = addDays(today(), -7 * w - 6);
     const to = addDays(today(), -7 * w);
-    const inW = db.attempts.filter((a) => a.finishedAt.slice(0, 10) >= from && a.finishedAt.slice(0, 10) <= to);
+    const inW = db.attempts.filter((a) => dayOf(a.finishedAt) >= from && dayOf(a.finishedAt) <= to);
     const band = (skill: Skill) => {
       const b = inW.filter((a) => a.skill === skill && a.estimatedBand);
       return b.length ? Math.round((b.reduce((n, a) => n + (a.estimatedBand![0] + a.estimatedBand![1]) / 2, 0) / b.length) * 10) / 10 : null;
@@ -571,7 +571,7 @@ export function analytics(db: Db) {
   }
 
   const mocks = db.mockExams.filter((m) => m.status === "done" && m.results).map((m) => ({
-    date: m.createdAt.slice(0, 10),
+    date: dayOf(m.createdAt),
     listening: m.results!.listening?.estimate ?? null,
     reading: m.results!.reading?.estimate ?? null,
     writing: m.results!.writing?.estimate ?? null,

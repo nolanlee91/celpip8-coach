@@ -7,7 +7,7 @@ import { CATEGORIES, SKILLS, SKILL_LABEL, type Skill } from "../shared/spec";
 import {
   buildPlan, categoryStats, currentWeek, dueMistakes, isDue, phaseFor, skillSummaries, trapCounts, weakestTask,
 } from "./analytics";
-import { addDays, today } from "./db";
+import { addDays, today, dayOf } from "./db";
 import { dueLessonReviews, inProgressPass, isCompleted, lessonStatus, prerequisitesMet } from "./learn";
 
 /** What the coach needs from the curriculum (injectable for tests). */
@@ -90,7 +90,7 @@ export interface Recommendation {
 function skillPriority(db: Db): Record<Skill, number> {
   const gaps = skillGap(db);
   const out = {} as Record<Skill, number>;
-  const lastLesson = (skill: Skill) => Object.values(db.lessons).filter((p) => p.skill === skill).map((p) => p.updatedAt.slice(0, 10)).sort().at(-1);
+  const lastLesson = (skill: Skill) => Object.values(db.lessons).filter((p) => p.skill === skill).map((p) => dayOf(p.updatedAt)).sort().at(-1);
   for (const s of SKILLS) {
     const objectiveBonus = s === "reading" || s === "listening" ? 1 : 0;
     const last = lastLesson(s);
@@ -202,7 +202,7 @@ export function recommendations(db: Db, cur: CurriculumView): Recommendation[] {
   for (const p of Object.values(db.lessons)) {
     const l = L(p.lessonId);
     const last = p.runs.at(-1);
-    if (!l || !last || last.outcome !== "advance" || last.at.slice(0, 10) < addDays(today(), -3) || !l.practice[0]) continue;
+    if (!l || !last || last.outcome !== "advance" || dayOf(last.at) < addDays(today(), -3) || !l.practice[0]) continue;
     add({
       kind: "practice", skill: l.skill, lessonId: l.id, title: `Áp dụng: ${l.practice[0].label}`, minutes: 15, route: l.practice[0].route, priority: 35,
       reasonVi: `Bạn vừa nắm vững "${l.titleVi}" (${pct(last.score)}). Áp dụng ngay vào bài dạng thi để kỹ năng chuyển sang điểm số.`,
@@ -253,7 +253,7 @@ export function blockers(db: Db, cur: CurriculumView) {
 export function improvements(db: Db, cur: CurriculumView): string[] {
   const out: string[] = [];
   const weekAgo = addDays(today(), -6);
-  const mastered = Object.values(db.lessons).filter((p) => p.runs.some((r) => r.outcome === "advance" && r.at.slice(0, 10) >= weekAgo));
+  const mastered = Object.values(db.lessons).filter((p) => p.runs.some((r) => r.outcome === "advance" && dayOf(r.at) >= weekAgo));
   if (mastered.length) out.push(`Nắm vững ${mastered.length} bài học trong 7 ngày qua: ${mastered.map((p) => cur.lessons.get(p.lessonId)?.titleVi ?? p.lessonId).slice(0, 4).join(", ")}.`);
   for (const p of Object.values(db.lessons)) {
     if (p.runs.length < 2) continue;
@@ -273,7 +273,7 @@ export function improvements(db: Db, cur: CurriculumView): string[] {
     const delta = r.accuracy - prevCorrect / prevTotal;
     if (delta >= 0.1) out.push(`${SKILL_LABEL[r.skill]} — ${CATEGORIES[r.skill][r.category]}: ${pct(prevCorrect / prevTotal)} → ${pct(r.accuracy)} (luyện tập, 14 ngày gần nhất).`);
   }
-  const reviews = Object.values(db.lessons).flatMap((p) => p.reviews.filter((r) => r.at.slice(0, 10) >= weekAgo));
+  const reviews = Object.values(db.lessons).flatMap((p) => p.reviews.filter((r) => dayOf(r.at) >= weekAgo));
   if (reviews.length) out.push(`Ôn ${reviews.length} bài đúng hạn tuần này, điểm ôn trung bình ${pct(reviews.reduce((n, r) => n + r.score, 0) / reviews.length)}.`);
   return out.slice(0, 6);
 }
@@ -288,8 +288,8 @@ export function weeklyConsistency(db: Db) {
       week: from.slice(5),
       daysStudied: days.size,
       minutes: db.studyLog.filter((e) => inRange(e.date)).reduce((n, e) => n + e.minutes, 0),
-      lessonsCompleted: Object.values(db.lessons).reduce((n, p) => n + p.runs.filter((r) => inRange(r.at.slice(0, 10))).length, 0),
-      reviews: Object.values(db.lessons).reduce((n, p) => n + p.reviews.filter((r) => inRange(r.at.slice(0, 10))).length, 0),
+      lessonsCompleted: Object.values(db.lessons).reduce((n, p) => n + p.runs.filter((r) => inRange(dayOf(r.at))).length, 0),
+      reviews: Object.values(db.lessons).reduce((n, p) => n + p.reviews.filter((r) => inRange(dayOf(r.at))).length, 0),
     };
   });
 }
@@ -383,9 +383,9 @@ export function buildLearningPlan(db: Db, cur: CurriculumView, minutes: number, 
     if (!b.lessonId) return false;
     const p = db.lessons[b.lessonId];
     if (!p) return false;
-    if (b.kind === "lesson-review") return p.reviews.some((r) => r.at.slice(0, 10) === date);
-    if (b.kind === "guided") return p.runs.some((r) => r.at.slice(0, 10) === date);
-    if (b.kind === "learn") return p.runs.some((r) => r.at.slice(0, 10) === date) || ["guided", "independent", "result"].includes(p.step) && p.updatedAt.slice(0, 10) === date;
+    if (b.kind === "lesson-review") return p.reviews.some((r) => dayOf(r.at) === date);
+    if (b.kind === "guided") return p.runs.some((r) => dayOf(r.at) === date);
+    if (b.kind === "learn") return p.runs.some((r) => dayOf(r.at) === date) || ["guided", "independent", "result"].includes(p.step) && dayOf(p.updatedAt) === date;
     return false;
   }).map((b) => b.id);
   const completed = [...new Set([...(db.planCompletions[date] ?? []), ...auto])];
@@ -444,7 +444,7 @@ export function primaryAction(db: Db, cur: CurriculumView): PrimaryAction {
     case "next": {
       if (isNewLearner(db)) return { ...base, state: "new", headline: `Bắt đầu học ${skill}`, cta: "Bắt đầu bài học đầu tiên" };
       const last = lastLessonRunAt(db);
-      const recent = last !== null && last.slice(0, 10) >= addDays(today(), -1);
+      const recent = last !== null && dayOf(last) >= addDays(today(), -1);
       return { ...base, state: "next", headline: recent ? "Chuyển sang bài học tiếp theo" : `Học tiếp ${skill}`, cta: "Bắt đầu bài học" };
     }
   }

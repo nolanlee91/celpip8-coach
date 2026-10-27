@@ -24,7 +24,7 @@ This is the single, current audit document for the repository. It replaces all e
 
 | Area | Status |
 |---|---|
-| **Practice Mode:** Reading, Listening, Writing, Speaking, mock exams | Works offline from a prebuilt library of 96 items + 400 vocabulary entries |
+| **Practice Mode:** Reading, Listening, Writing, Speaking, mock exams | Works offline from a prebuilt library of 96 items + 1,000 vocabulary entries |
 | **Learn Mode:** structured curriculum | 60 lessons (15 per skill), 715 exercises, all approved and valid |
 | **Coach:** what to learn next, daily plan | Rule-based, no AI; explains each choice in Vietnamese |
 | **Mastery and spaced review** | SM-2 for lessons, mistakes and vocabulary |
@@ -32,7 +32,7 @@ This is the single, current audit document for the repository. It replaces all e
 | **AI (Gemini)** | Optional. Used only for the AI Tutor, Writing/Speaking evaluation on request, and admin content generation. |
 | **Interface** | Redesigned; bottom tab navigation on phones; no horizontal scroll at 375 px |
 | **Guided navigation** | 3-step onboarding for new learners; one dominant "do this now" action on the dashboard; a "next step" on every result screen; dismissible first-visit help; a "Bắt đầu từ đâu?" page |
-| **Tests** | Typecheck OK; `test:learn` 29/29; `test:smoke` 54/54; content validation 0 errors / 0 warnings; build OK |
+| **Tests** | Typecheck OK; `test:learn` 30/30; `test:smoke` 54/54; content validation 0 errors / 0 warnings; build OK |
 
 **Not yet done:**
 - No human has reviewed the content or listened to the audio.
@@ -110,7 +110,7 @@ All counts come from `npm run content:validate` (0 errors, 0 warnings) and count
 | Listening sets | **24** | L1–L6: each part has 1 full, 2 mock and 1 drill set. **139 questions.** |
 | Writing prompts | **12** | W1/W2: 4 practice + 2 mock each, with model response, structure, expressions and common mistakes |
 | Speaking prompts | **32** | S1–S8: 2 practice + 2 mock each; 12 hand-drawn SVG scenes (S3/S4/S8) |
-| Vocabulary entries | **400** | 13 topics |
+| Vocabulary entries | **1,000** | 13 topics, 76–77 each; difficulty 5: 70, 6: 273, 7: 350, 8: 239, 9: 68; 1,000 unique terms |
 | Mock-exam packages | **2** | Each has 6 L + 4 R + 2 W + 8 S |
 
 **Progress toward long-term targets:**
@@ -121,7 +121,7 @@ All counts come from `npm run content:validate` (0 errors, 0 warnings) and count
 | Listening sets | 24 | 150 |
 | Writing prompts | 12 | 100 |
 | Speaking prompts | 32 | 160 |
-| Vocabulary | 400 | 2,000 |
+| Vocabulary | 1,000 | 2,000 |
 
 ### 3.2 Learn Mode curriculum (60/60 active)
 
@@ -213,7 +213,17 @@ Every file's `review.notes` records what was checked and fixed.
 - Speaking model answers trimmed to about 120–150 words for 60 s and 170–210 words for 90 s.
 - Writing models kept within word limits.
 - Scene descriptions corrected to match the SVG drawings.
-- 137 of 400 vocabulary entries corrected.
+- Vocabulary, first 400 entries: 137 corrected.
+- Vocabulary, 600 entries added later (4 author agents, then 4 separate review agents on other batches):
+  - **223 of 600 changed**, including **14 near-duplicates replaced**. For example, "convince" duplicated "persuade" and "alternate route" duplicated a synonym of "detour".
+  - **Kinds of fixes:**
+    - Synonyms that were only loose matches (most fixes).
+    - Vietnamese in the wrong sense. For example: "học bạ" → "phiếu báo điểm", "nước sinh hoạt" → "nước uống", "gió lốc" → "trận bão gió", "thờ ơ" → "xem nhẹ".
+    - Examples that gave medical advice or stated absolute legal rules.
+    - Outdated or false facts. For example, Canada's children's fitness tax credit, which ended in 2017; the claim that a wire transfer is "faster than an e-transfer"; an invented regulation.
+    - Inaccurate definitions (windstorm, blood pressure, housing co-op).
+  - New entries focus on difficulty 7–9 and on Level 8 writing and speaking language: opinions, concession, complaints and requests.
+  - **Limits:** the reviewers checked facts from their own knowledge, not against official sources. No native Vietnamese speaker has checked the translations.
 
 **Caveat:** this is careful AI review, not expert certification. A human spot check is still recommended (§12).
 
@@ -329,6 +339,17 @@ Blocks are added in this order:
 
 Remaining time is filled by practice blocks of at least 8 minutes. Phase-4 days include mock exams. Lesson blocks tick themselves when completed.
 
+### Dates
+
+Timestamps are stored in UTC. Everything that groups activity by day compares **local** days through `dayOf()` in `server/db.ts`. This covers:
+- plan ticks;
+- streak and weekly consistency;
+- "mastered this week";
+- recency in selection;
+- weekly analytics.
+
+Before this fix, the code compared UTC dates. Evening study in BC (UTC−7/−8) could then count as the next day, and the plan blocks did not tick. A unit test found it at an evening hour. Only the AI-usage-by-day table still groups by UTC date.
+
 ### Practice Mode
 
 - Selection: weakest task, difficulty target, unused or least-recently-used sets, 7-day recency.
@@ -370,7 +391,7 @@ Remaining time is filled by practice blocks of at least 8 minutes. Phase-4 days 
 - **Practice Mode:** Reading, Listening (all sets have audio), Writing/Speaking (the response is saved and the model answer shown immediately), mock exams that start instantly.
 - **Learn Mode:** all 60 lessons, local grading, explanations, mistake analysis, mastery, spaced review.
 - **Coach:** recommendations and daily plan.
-- **Review and data:** vocabulary (400 library entries, SM-2), mistake notebook, analytics, export/import.
+- **Review and data:** vocabulary (1,000 library entries, SM-2), mistake notebook, analytics, export/import.
 
 **Needs Gemini** (only when the learner presses a button):
 
@@ -527,9 +548,9 @@ It is reachable from the sidebar, the mobile **Thêm** tab and **Cài đặt**.
 | Command | Result |
 |---|---|
 | `npm run typecheck` | ✅ 0 errors |
-| `npm run test:learn` | ✅ **29 passed, 0 failed** |
+| `npm run test:learn` | ✅ **30 passed, 0 failed** (also run with `TZ=America/Vancouver`) |
 | `npm run test:smoke` | ✅ **54 passed, 0 failed** |
-| `npm run content:validate` | ✅ 0 errors, 0 warnings; 96 library items, 400 vocab, 2 mock packages, 60/60 lessons, lesson audio 83/83, practice audio 24/24 |
+| `npm run content:validate` | ✅ 0 errors, 0 warnings; 96 library items, 1,000 vocab, 2 mock packages, 60/60 lessons, lesson audio 83/83, practice audio 24/24 |
 | `npm run build` | ✅ (single large JS chunk warning) |
 
 **`test:learn` covers:**
@@ -556,6 +577,7 @@ It is reachable from the sidebar, the mobile **Thêm** tab and **Cài đặt**.
   - the "what happens next" line;
   - the next step after practice (weak type → lesson; clean result → coach);
   - the onboarding migration for existing vs empty data.
+- **Local day:** a lesson finished at 23:30 local time counts for that local day, not the UTC date.
 
 **`test:smoke` covers** (real server, no API key, temporary data directory seeded with a legacy `db.json`):
 - **Migration and Practice Mode:** legacy-data migration, practice scoring and selection, pending-audio rules and the browser-voice opt-in, vocabulary without AI, offline Writing/Speaking submission, instant mock exams with answer keys stripped, admin endpoints.

@@ -329,7 +329,7 @@ test("daily plan: lesson blocks tick themselves once the lesson is completed tod
   learn.completeLesson(db, l);
   // The completed lesson is no longer recommended, so check the completion rule directly on a plan that still lists it.
   const p = db.lessons[l.id];
-  assert.ok(p.runs.some((r) => r.at.slice(0, 10) === dbm.today()));
+  assert.ok(p.runs.some((r) => dbm.dayOf(r.at) === dbm.today()));
   const plan2 = coach.buildLearningPlan(db, cur, 60);
   assert.ok(!plan2.blocks.some((b) => b.kind === "learn" && b.lessonId === l.id), "mastered lesson is not planned again as a new lesson");
 });
@@ -348,6 +348,24 @@ test("progress views: mastery by skill, blockers and improvements come only from
   assert.equal(m1.averageMastery, 0.8);
   assert.ok(coach.improvements(db, cur)[0].includes("1 bài"));
   assert.ok(coach.blockers(db, cur).length > 0);
+});
+
+test("local day: a lesson finished late in the evening counts for today, not the UTC date", () => {
+  const db = freshDb();
+  learn.startLesson(db, rd1);
+  answerAll(db, rd1, 5);
+  learn.completeLesson(db, rd1);
+  const late = new Date();
+  late.setHours(23, 30, 0, 0); // in BC this is already tomorrow in UTC
+  db.lessons[rd1.id].runs[0].at = late.toISOString();
+  db.lessons[rd1.id].updatedAt = late.toISOString();
+  assert.equal(dbm.dayOf(late.toISOString()), dbm.today());
+  const cur1 = { lessons: new Map([[rd1.id, rd1]]), order: { reading: [rd1.id], listening: [], speaking: [], writing: [] } as Record<string, string[]> };
+  // Rebuild a plan that still contains rd-01 (as a learn block) by asking for the blocks of that lesson directly.
+  const plan = coach.buildLearningPlan(db, cur1, 60);
+  assert.ok(coach.weeklyConsistency(db).at(-1)!.lessonsCompleted >= 1, "counted in this week's consistency");
+  assert.ok(coach.improvements(db, cur1).some((t) => t.includes("1 bài")), "counted as mastered this week");
+  assert.ok(plan.blocks.length > 0);
 });
 
 // ---------- guided navigation (primary action, next step, onboarding migration) ----------
