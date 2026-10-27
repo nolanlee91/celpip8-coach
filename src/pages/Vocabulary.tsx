@@ -67,7 +67,7 @@ export function VocabularyPage() {
           <Segmented value={mode} onChange={setMode} options={[
             { value: "mixed", label: "Trộn" }, { value: "flash", label: "Flashcard" }, { value: "mcq", label: "Chọn nghĩa" }, { value: "fill", label: "Điền từ" }, { value: "listen", label: "Nghe" },
           ]} />
-          <div className="row gap-s" style={{ marginTop: 10 }}>
+          <div className="row gap-s wrap" style={{ marginTop: 10 }}>
             <button className="btn primary" disabled={!due.length} onClick={() => setReviewing({ mode, queue: shuffle(due) })}>Ôn {due.length} từ đến hạn</button>
             <button className="btn" disabled={!items.length} onClick={() => setReviewing({ mode, queue: shuffle(items).slice(0, 20) })}>Ôn thêm 20 từ ngẫu nhiên</button>
           </div>
@@ -89,7 +89,7 @@ export function VocabularyPage() {
           </form>
           <label className="row gap-s small" style={{ marginTop: 6 }}><input type="checkbox" checked={useAi} onChange={(e) => setUseAi(e.target.checked)} />Tra bằng AI nếu từ không có trong thư viện (tốn 1 lượt Gemini)</label>
           {pending > 0 && (
-            <div className="row gap-s" style={{ marginTop: 10 }}>
+            <div className="row gap-s wrap" style={{ marginTop: 10 }}>
               <span className="small muted">{pending} từ chưa đủ chi tiết.</span>
               <button className="btn small" disabled={busy === "enrich"} onClick={async () => {
                 setBusy("enrich"); setInfo(null);
