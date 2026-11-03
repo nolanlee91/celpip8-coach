@@ -54,6 +54,7 @@ export function MorePage() {
       <div className="page-head"><h1>Thêm</h1></div>
       <EntryList entries={[
         { to: "/help", icon: "lightbulb", title: "Bắt đầu từ đâu?", text: "Cách học với ứng dụng, xem lại hướng dẫn bắt đầu" },
+        { to: "/exam", icon: "list-checks", title: "Cấu trúc bài thi", text: "4 kỹ năng, từng part, số câu và thời gian khi đi thi" },
         { to: "/mistakes", icon: "notebook-pen", title: "Sổ lỗi", text: "Lỗi cần ôn hôm nay và hồ sơ điểm yếu" },
         { to: "/planner", icon: "calendar-days", title: "Kế hoạch tuần", text: "Giai đoạn học và kiểm tra cuối tuần" },
         { to: "/analytics", icon: "chart-line", title: "Thống kê", text: "Độ chính xác, thời gian học, tiến bộ theo tuần" },

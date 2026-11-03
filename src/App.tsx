@@ -18,6 +18,7 @@ import { AdminPage } from "./pages/Admin";
 import { LearnPage } from "./pages/Learn";
 import { LessonPage } from "./pages/Lesson";
 import { HelpPage, MorePage, PracticeHubPage } from "./pages/Hubs";
+import { ExamStructurePage } from "./pages/ExamStructure";
 import { GuideProvider } from "./components/Guide";
 
 type NavItem = { to: string; label: string; icon: IconName };
@@ -41,6 +42,7 @@ const NAV: { section: string; items: NavItem[] }[] = [
   ] },
   { section: "Khác", items: [
     { to: "/help", label: "Bắt đầu từ đâu?", icon: "lightbulb" },
+    { to: "/exam", label: "Cấu trúc bài thi", icon: "list-checks" },
     { to: "/analytics", label: "Thống kê", icon: "chart-line" },
     { to: "/settings", label: "Cài đặt", icon: "settings" },
     { to: "/admin", label: "Quản trị nội dung", icon: "wrench" },
@@ -53,7 +55,7 @@ const TABS: { to: string; label: string; icon: IconName; match: string[] }[] = [
   { to: "/learn", label: "Lộ trình", icon: "graduation-cap", match: ["/learn"] },
   { to: "/practice", label: "Luyện thi", icon: "dumbbell", match: ["/practice", "/reading", "/listening", "/speaking", "/writing", "/mock", "/review", "/evaluation", "/submission"] },
   { to: "/vocabulary", label: "Từ vựng", icon: "library", match: ["/vocabulary"] },
-  { to: "/more", label: "Thêm", icon: "ellipsis", match: ["/more", "/help", "/mistakes", "/planner", "/analytics", "/settings", "/admin"] },
+  { to: "/more", label: "Thêm", icon: "ellipsis", match: ["/more", "/help", "/exam", "/mistakes", "/planner", "/analytics", "/settings", "/admin"] },
 ];
 
 function TabBar() {
@@ -116,6 +118,7 @@ export function App() {
               <Route path="/practice" element={<PracticeHubPage />} />
               <Route path="/more" element={<MorePage />} />
               <Route path="/help" element={<HelpPage />} />
+              <Route path="/exam" element={<ExamStructurePage />} />
               <Route path="/reading" element={<ReadingPage />} />
               <Route path="/listening" element={<ListeningPage />} />
               <Route path="/speaking" element={<SpeakingPage />} />
