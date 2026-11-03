@@ -178,8 +178,12 @@ export function learnRouter(deps: { upsertVocab: (db: Db, seed: VocabSeed, sourc
   /** What to do after an activity (lesson result, practice result, review). Never a dead end. */
   r.get("/api/next-step", h((req, res) => {
     const after = String(req.query.after ?? "lesson");
-    if (!["lesson", "practice", "review"].includes(after)) throw new AiError("after must be lesson | practice | review", 400);
-    res.json(nextStepAfter(load(), curView(), { after: after as "lesson" | "practice" | "review", attemptId: req.query.attemptId ? String(req.query.attemptId) : undefined }));
+    if (!["lesson", "practice", "review", "mock"].includes(after)) throw new AiError("after must be lesson | practice | review | mock", 400);
+    res.json(nextStepAfter(load(), curView(), {
+      after: after as "lesson" | "practice" | "review" | "mock",
+      attemptId: req.query.attemptId ? String(req.query.attemptId) : undefined,
+      mockId: req.query.mockId ? String(req.query.mockId) : undefined,
+    }));
   }));
 
   /**

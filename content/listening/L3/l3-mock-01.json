@@ -11,8 +11,8 @@
     {
       "segments": [
         { "speaker": "Priya", "voice": "female_a", "text": "Hi, sorry, is this the right place to ask questions? It's my first time here, and I've got, well, a whole garage to clear out." },
-        { "speaker": "Owen", "voice": "male_b", "text": "You're in the right spot. What are you bringing?" },
-        { "speaker": "Priya", "voice": "female_a", "text": "Okay, so, an old laptop and a printer, a few cans of leftover paint, a bunch of styrofoam from a new TV, and, um, a mattress. Oh, and probably twenty bags of cans and bottles." },
+        { "speaker": "Owen", "voice": "male_b", "text": "You're in the right spot. I'm Owen. What are you bringing?" },
+        { "speaker": "Priya", "voice": "female_a", "text": "Thanks, Owen. I'm Priya. Okay, so, an old laptop and a printer, a few cans of leftover paint, a bunch of styrofoam from a new TV, and, um, a mattress. Oh, and probably twenty bags of cans and bottles." },
         { "speaker": "Owen", "voice": "male_b", "text": "That's quite the list. Let's go through it. The laptop and printer are easy, electronics are free. Just wipe your personal data off the laptop first. We don't do that for you." },
         { "speaker": "Priya", "voice": "female_a", "text": "Right, I'll do a factory reset. And the paint?" },
         { "speaker": "Owen", "voice": "male_b", "text": "Paint's free too, as long as it's in the original can with the label on it. If you poured it into a jar or something, we can't take it." },
@@ -135,7 +135,7 @@
   ],
   "estimatedMinutes": 7,
   "source": "curated",
-  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; key matched. Q5 (cash up to $50, rest by e-transfer, 20 bags probably over $50) verified as single defensible inference. Changed: foam rule framed as this depot's policy ('We take it here') since BC-wide foam acceptance rules differ by depot. Other depot rules are presented as site-specific." },
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; key matched. Q5 (cash up to $50, rest by e-transfer, 20 bags probably over $50) verified as single defensible inference. Changed: foam rule framed as this depot's policy ('We take it here') since BC-wide foam acceptance rules differ by depot. Other depot rules are presented as site-specific. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)." },
   "createdAt": "2026-10-26",
   "focus": []
 }

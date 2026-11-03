@@ -1,0 +1,312 @@
+{
+  "id": "r3-drill-06",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "Detail drill: Kamloops Clean-Air Workshops",
+  "estimatedMinutes": 8,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 independently; keys match; Q5 E verified. Changed 'designated clean-air shelter' to 'designated cleaner-air space' (BC/Interior Health terminology) and updated the Q4 explanation; Interior Health advice is hedged ('consider') and consistent with its public messaging. Box-fan purifier and MERV 13 facts are accurate."
+  },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "For the past three summers, wildfire smoke has pushed Kamloops' air quality into the \"high risk\" range for days at a time. In response, the Thompson Clean Air Society has been running free workshops where residents build their own air purifiers from a box fan, four furnace filters and a roll of duct tape. The design, first developed by researchers in the United States, costs about $90 in materials, compared with $250 or more for many store-bought units. Participants take their finished purifier home. Workshops are held on Saturday mornings in June and July at the Brocklehurst community hall, and each session is limited to fifteen people.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "Filters matter more than the fan. Organizers recommend filters with a MERV 13 rating, which can trap most of the fine particles found in smoke, and they supply these at cost. Cheaper filters with lower ratings may look identical but let much more through. The finished unit should be placed in the room where people spend the most time, usually a bedroom, with windows and doors closed. Filters need replacing when they turn noticeably grey, which, during a heavy smoke season, may happen after only three or four weeks. A set of four replacement filters currently costs around $60 at local hardware stores.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Volunteer coordinator Sunita Bhatt says the workshops were originally aimed at seniors and families with young children, who are most vulnerable to smoke. In practice, she says, the sessions attract a much wider mix, including outdoor workers and people with asthma. Priority registration is still given to residents over sixty-five and to households with a child under five. Bhatt adds that participants who cannot lift or tape the box themselves can bring a helper, or volunteers will do the assembly for them. Those who are unable to attend in person can request a pre-built unit, which is delivered by volunteers, although supply is limited.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Health officials caution that home-made purifiers are not a cure-all. They clean the air in a single room, not a whole house, and they do nothing to reduce the risk from the fires themselves. On days with extreme smoke, Interior Health still advises vulnerable residents to consider visiting a designated cleaner-air space, such as the public library, which has upgraded its ventilation system. The society plans to publish a short guide this spring explaining how to use the purifiers safely, including a reminder not to leave box fans running unattended for long periods, since older models can overheat.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "There is a cap on how many people can attend each session.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: 'each session is limited to fifteen people'."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về bộ lọc."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'supply is limited' — nói về số máy làm sẵn, không phải số người mỗi buổi."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về giới hạn của máy lọc, không nói về buổi hội thảo."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "each session is limited to fifteen people",
+      "explanationVi": "'A cap on how many people' = 'limited to fifteen people'. Chú ý Đoạn C có 'supply is limited' nhưng đó là số máy làm sẵn, không phải số người mỗi buổi."
+    },
+    {
+      "number": 2,
+      "prompt": "In a bad smoke season, filters might need replacing roughly once a month or even sooner.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A nói về vật liệu và lịch hội thảo."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Bộ lọc có thể phải thay 'after only three or four weeks' khi khói nhiều."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về người tham gia."
+        },
+        {
+          "text": "D",
+          "trap": "partially_true",
+          "whyVi": "Đoạn D có lời nhắc an toàn về quạt cũ bị nóng, không nói thời gian thay lọc."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "during a heavy smoke season, may happen after only three or four weeks",
+      "explanationVi": "'Bad smoke season' = 'heavy smoke season'; 'roughly once a month or even sooner' = 'after only three or four weeks'. Dấu hiệu cần thay: lọc 'turn noticeably grey'."
+    },
+    {
+      "number": 3,
+      "prompt": "People who are physically unable to put a purifier together can still get one.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A nói người tham gia mang máy về sau khi tự làm — không nói về người không tự làm được."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về bộ lọc và cách đặt máy."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Tình nguyện viên sẽ lắp máy cho người không tự làm được."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về giới hạn của máy và nơi trú khói."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "volunteers will do the assembly for them",
+      "explanationVi": "'Physically unable to put together' = 'cannot lift or tape the box themselves'; họ có thể mang người giúp, hoặc tình nguyện viên lắp hộ ('do the assembly for them').",
+      "vocabulary": [
+        "assembly"
+      ]
+    },
+    {
+      "number": 4,
+      "prompt": "At least one public building has been modified to provide cleaner indoor air.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'community hall' (nơi tổ chức hội thảo), nhưng không nói hội trường được nâng cấp."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về bộ lọc trong nhà."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về người tham gia."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: Thư viện công cộng 'has upgraded its ventilation system'."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "such as the public library, which has upgraded its ventilation system",
+      "explanationVi": "'Modified' = 'upgraded'; 'public building' = 'the public library'; 'cleaner indoor air' = 'cleaner-air space' (nơi có không khí sạch hơn) với 'ventilation system' (hệ thống thông gió) mới."
+    },
+    {
+      "number": 5,
+      "prompt": "Workshops are also offered online for people who cannot come in person.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A nói lịch và địa điểm hội thảo (sáng thứ Bảy, hội trường Brocklehurst) — không có hình thức online."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về bộ lọc."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'unable to attend in person' nhưng giải pháp là nhận máy làm sẵn, không phải học online."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn D nói sẽ xuất bản hướng dẫn — là tài liệu, không phải hội thảo online."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: Không đoạn nào nói có hội thảo online."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "Those who are unable to attend in person can request a pre-built unit",
+      "explanationVi": "Người không đến được thì 'request a pre-built unit' (xin máy làm sẵn), không có hội thảo online. Đoạn D nói sẽ có 'a short guide' — là tài liệu, không phải buổi học. → E."
+    },
+    {
+      "number": 6,
+      "prompt": "Participants can buy the recommended filters without the society making any profit.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn A có giá vật liệu $90 so với $250 — so với máy mua sẵn, không nói hội có lời hay không."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Ban tổ chức cung cấp bộ lọc MERV 13 'at cost'."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nói về giá."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về giá."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "they supply these at cost",
+      "explanationVi": "'At cost' = bán đúng giá gốc, không lấy lời → 'without making any profit'. Đừng nhầm với giá $60 của bộ lọc thay thế ở cửa hàng.",
+      "vocabulary": [
+        "at cost"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "air purifier",
+      "vi": "máy lọc không khí",
+      "definition": "a machine that removes dust and smoke from the air",
+      "example": "Residents build their own air purifiers."
+    },
+    {
+      "term": "at cost",
+      "vi": "theo giá gốc (không lời)",
+      "definition": "for the same price the seller paid",
+      "example": "Organizers supply the filters at cost."
+    },
+    {
+      "term": "vulnerable",
+      "vi": "dễ bị ảnh hưởng, dễ tổn thương",
+      "definition": "easily harmed",
+      "example": "Seniors and young children are most vulnerable to smoke."
+    },
+    {
+      "term": "priority registration",
+      "vi": "đăng ký ưu tiên",
+      "definition": "the right to sign up before other people",
+      "example": "Priority registration is given to residents over sixty-five."
+    },
+    {
+      "term": "assembly",
+      "vi": "việc lắp ráp",
+      "definition": "putting the parts of something together",
+      "example": "Volunteers will do the assembly for them."
+    },
+    {
+      "term": "cure-all",
+      "vi": "giải pháp vạn năng",
+      "definition": "something that is supposed to solve every problem",
+      "example": "Home-made purifiers are not a cure-all."
+    },
+    {
+      "term": "unattended",
+      "vi": "không có người trông",
+      "definition": "without anyone watching or in charge",
+      "example": "Do not leave box fans running unattended."
+    },
+    {
+      "term": "overheat",
+      "vi": "quá nóng",
+      "definition": "to become too hot",
+      "example": "Older models can overheat."
+    }
+  ]
+}

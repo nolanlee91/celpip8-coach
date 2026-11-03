@@ -1,0 +1,442 @@
+{
+  "id": "l5-mock-06",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "government",
+  "title": "Discussion: Rules for the city's first participatory budget vote",
+  "context": "You will hear a city planner in Nelson meeting with a residents' advisory committee about the rules for a public vote on neighbourhood projects.",
+  "estimatedMinutes": 10,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Marguerite, city engagement planner",
+          "voice": "female_a",
+          "text": "Thanks for having me. As you know, council has set aside two hundred thousand dollars for small neighbourhood projects next year, and for the first time, residents will vote directly on how it's spent. What I need from this committee is advice on the voting rules before staff write the final report."
+        },
+        {
+          "speaker": "Dev, committee chair",
+          "voice": "male_a",
+          "text": "Thanks, Marguerite. Let's start with the big one, then. Who gets to vote? My understanding is that for a regular municipal election, you have to be a Canadian citizen and at least eighteen."
+        },
+        {
+          "speaker": "Marguerite, city engagement planner",
+          "voice": "female_a",
+          "text": "That's right, but legally speaking, this isn't an election. It's a consultation, so council has room to set its own rules. Some cities have let anyone who lives there vote, starting at fourteen."
+        },
+        {
+          "speaker": "Hye-jin, committee member",
+          "voice": "female_b",
+          "text": "I'd push hard for that. Half the people in my building are permanent residents. They pay property tax through their rent, their kids go to school here, and they've never once had a say in anything the city does. This would be a real chance to bring them in."
+        },
+        {
+          "speaker": "Walter, committee member",
+          "voice": "male_b",
+          "text": "I don't disagree in principle, Hye-jin. But fourteen? I taught high school for thirty years. I'm fond of teenagers, but some of them will vote for whatever their friends tell them to on social media."
+        },
+        {
+          "speaker": "Hye-jin, committee member",
+          "voice": "female_b",
+          "text": "With respect, Walter, plenty of adults do exactly the same thing."
+        },
+        {
+          "speaker": "Walter, committee member",
+          "voice": "male_b",
+          "text": "Touché. All right, I'll give you that one."
+        },
+        {
+          "speaker": "Dev, committee chair",
+          "voice": "male_a",
+          "text": "What about the voting itself? I'm assuming it'll be online."
+        },
+        {
+          "speaker": "Marguerite, city engagement planner",
+          "voice": "female_a",
+          "text": "Mostly, yes. Our platform checks people's address and date of birth, and we'd cross-check against utility accounts and school enrolment. It won't be airtight, but for a consultation, staff think it's good enough."
+        },
+        {
+          "speaker": "Walter, committee member",
+          "voice": "male_b",
+          "text": "And for those of us who don't do everything on our phones? You'd be shutting out a big chunk of the people at the seniors' centre."
+        },
+        {
+          "speaker": "Marguerite, city engagement planner",
+          "voice": "female_a",
+          "text": "We'd have paper ballots at the library and the community centre for two weekends. The catch is cost. Every paper ballot has to be entered by hand, and that would come out of the same two hundred thousand."
+        },
+        {
+          "speaker": "Hye-jin, committee member",
+          "voice": "female_b",
+          "text": "Out of the project money? That seems backwards. It's basically penalizing people for not being online."
+        },
+        {
+          "speaker": "Marguerite, city engagement planner",
+          "voice": "female_a",
+          "text": "I raised the same point with finance. They've agreed to cover up to five thousand in administration from the operating budget, but anything beyond that would come out of the project pot."
+        },
+        {
+          "speaker": "Dev, committee chair",
+          "voice": "male_a",
+          "text": "Then let's keep paper simple. Two locations, two weekends, and volunteers from this committee can help with data entry to keep the costs down. Walter, could the seniors' centre host one of the voting stations?"
+        },
+        {
+          "speaker": "Walter, committee member",
+          "voice": "male_b",
+          "text": "I'd have to run it by their board, but I can't imagine they'd say no. Half of them have been asking for a crosswalk on Baker Street for years. They'll be first in line."
+        },
+        {
+          "speaker": "Marguerite, city engagement planner",
+          "voice": "female_a",
+          "text": "Which brings up one more thing I should flag. Projects have to be on city land and cost under fifty thousand. A crosswalk qualifies, but if it needs a full traffic signal, engineering may price it well over that."
+        },
+        {
+          "speaker": "Walter, committee member",
+          "voice": "male_b",
+          "text": "Well, there goes my sales pitch."
+        },
+        {
+          "speaker": "Dev, committee chair",
+          "voice": "male_a",
+          "text": "Let's not write it off yet. Marguerite, could engineering give us rough estimates before the ideas go to a vote?"
+        },
+        {
+          "speaker": "Marguerite, city engagement planner",
+          "voice": "female_a",
+          "text": "I'll ask. No promises on timing, though. They're stretched pretty thin right now."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why is the city free to set its own voting rules for this project?",
+          "options": [
+            {
+              "text": "The vote is legally a consultation rather than an election.",
+              "trap": "none",
+              "whyVi": "Đúng: về mặt pháp lý đây không phải bầu cử mà là tham vấn, nên hội đồng được tự đặt luật."
+            },
+            {
+              "text": "Council has already approved voting from age fourteen.",
+              "trap": "wrong_detail",
+              "whyVi": "Tuổi 14 chỉ là ví dụ của các thành phố khác, chưa được quyết định."
+            },
+            {
+              "text": "Permanent residents can already vote in municipal elections.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bầu cử cấp thành phố đòi hỏi phải là công dân Canada."
+            },
+            {
+              "text": "The amount of money involved is too small to need rules.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói số tiền quá nhỏ."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "legally speaking, this isn't an election. It's a consultation, so council has room to set its own rules",
+          "explanationVi": "'Council has room to set its own rules' là kết quả; nguyên nhân là 'this isn't an election. It's a consultation'. Đáp án A diễn đạt lại lý do này.",
+          "vocabulary": [
+            "consultation"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "What is Hye-jin's view on who should be allowed to vote?",
+          "options": [
+            {
+              "text": "Only people who own property should vote.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô muốn mở rộng cho cả người thuê nhà và thường trú nhân."
+            },
+            {
+              "text": "Teenagers should not be included.",
+              "trap": "wrong_speaker",
+              "whyVi": "Walter là người nghi ngờ tuổi 14; Hye-jin còn bênh vực ý này."
+            },
+            {
+              "text": "She firmly supports letting residents who are not citizens take part.",
+              "trap": "none",
+              "whyVi": "Đúng: cô 'push hard' để thường trú nhân trong tòa nhà mình được bỏ phiếu."
+            },
+            {
+              "text": "Permanent residents should pay more property tax.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'property tax', nhưng cô nói họ đã đóng thuế qua tiền thuê nhà, không đòi đóng thêm."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "I'd push hard for that.",
+          "explanationVi": "'Push hard for' = ủng hộ mạnh mẽ. Cô nêu lý do: thường trú nhân đóng thuế, con cái học ở đây nhưng 'never once had a say'.",
+          "vocabulary": [
+            "have a say",
+            "push for"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Walter show when he says \"Touché\"?",
+          "options": [
+            {
+              "text": "He is offended by Hye-jin's remark.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: 'Touché' là cách thừa nhận đối phương nói đúng, kèm 'I'll give you that one'."
+            },
+            {
+              "text": "He admits that Hye-jin has made a good point.",
+              "trap": "none",
+              "whyVi": "Đúng: anh thừa nhận người lớn cũng dễ bị bạn bè trên mạng ảnh hưởng."
+            },
+            {
+              "text": "He has changed his mind about the entire voting plan.",
+              "trap": "too_broad",
+              "whyVi": "Anh chỉ chịu thua một điểm ('that one'), không thay đổi toàn bộ quan điểm."
+            },
+            {
+              "text": "He thinks voters should be tested before they vote.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai đề nghị kiểm tra cử tri."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "Touché. All right, I'll give you that one.",
+          "explanationVi": "'Touché' (gốc tiếng Pháp) dùng khi đối phương phản bác khéo và đúng. 'I'll give you that one' = tôi chịu điểm này. Thái độ: thừa nhận một phần.",
+          "vocabulary": [
+            "give someone that"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What does Marguerite say about the online voting system?",
+          "options": [
+            {
+              "text": "Every voter will need a utility account.",
+              "trap": "wrong_detail",
+              "whyVi": "Tài khoản tiện ích chỉ dùng để đối chiếu, không bắt buộc với mọi người."
+            },
+            {
+              "text": "It has no way of checking people's ages.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: hệ thống kiểm tra ngày sinh."
+            },
+            {
+              "text": "It is the same system used in city elections.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói đây là hệ thống bầu cử."
+            },
+            {
+              "text": "It is not perfect, but staff consider it acceptable for this purpose.",
+              "trap": "none",
+              "whyVi": "Đúng: không hoàn toàn kín kẽ nhưng đủ tốt cho một cuộc tham vấn."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "It won't be airtight, but for a consultation, staff think it's good enough.",
+          "explanationVi": "'Won't be airtight' = không hoàn hảo; 'good enough' = chấp nhận được. Đáp án D diễn đạt lại cả hai vế.",
+          "vocabulary": []
+        },
+        {
+          "number": 5,
+          "prompt": "How will the cost of entering paper ballots be paid for?",
+          "options": [
+            {
+              "text": "All of it will come out of the $200,000 for projects.",
+              "trap": "wrong_detail",
+              "whyVi": "Đây là kế hoạch ban đầu, trước khi bộ phận tài chính đồng ý hỗ trợ."
+            },
+            {
+              "text": "The finance department will pay all of it.",
+              "trap": "too_broad",
+              "whyVi": "Tài chính chỉ chi tối đa 5.000 đô, không phải toàn bộ."
+            },
+            {
+              "text": "The first $5,000 will come from another budget, and any extra from the project money.",
+              "trap": "none",
+              "whyVi": "Đúng: tối đa 5.000 đô từ ngân sách hoạt động, phần vượt sẽ lấy từ quỹ dự án."
+            },
+            {
+              "text": "Committee volunteers will pay for the data entry themselves.",
+              "trap": "word_match",
+              "whyVi": "Tình nguyện viên giúp nhập liệu để giảm chi phí, không tự trả tiền."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "similar_choices",
+          "evidence": "They've agreed to cover up to five thousand in administration from the operating budget, but anything beyond that would come out of the project pot.",
+          "explanationVi": "Các phương án rất giống nhau. 'Up to five thousand' = tối đa 5.000; 'anything beyond that' = phần vượt quá. 'Operating budget' được diễn đạt lại thành 'another budget', 'project pot' thành 'project money'.",
+          "vocabulary": [
+            "project pot"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "When Walter says he would have to \"run it by\" the seniors' centre board, what does he mean?",
+          "options": [
+            {
+              "text": "He would need to ask the board for its approval.",
+              "trap": "none",
+              "whyVi": "Đúng: 'run something by someone' = hỏi ý kiến/xin chấp thuận."
+            },
+            {
+              "text": "He would let the board organize the voting station.",
+              "trap": "partially_true",
+              "whyVi": "Hội đồng có thể đồng ý làm nơi đặt điểm bỏ phiếu, nhưng cụm từ chỉ nghĩa là hỏi ý họ trước."
+            },
+            {
+              "text": "He would inform the board after the decision is made.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: anh phải hỏi trước khi quyết định."
+            },
+            {
+              "text": "He would run the station with help from board members.",
+              "trap": "word_match",
+              "whyVi": "Dùng lại từ 'run' nhưng 'run it by' không có nghĩa là điều hành."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "vocabulary",
+          "evidence": "I'd have to run it by their board, but I can't imagine they'd say no.",
+          "explanationVi": "'Run it by' = trình bày để xin ý kiến. Vế sau 'I can't imagine they'd say no' cho thấy cần sự đồng ý của họ.",
+          "vocabulary": [
+            "run by"
+          ]
+        },
+        {
+          "number": 7,
+          "prompt": "What does Walter imply when he says \"there goes my sales pitch\"?",
+          "options": [
+            {
+              "text": "He no longer wants the seniors' centre to host a station.",
+              "trap": "too_broad",
+              "whyVi": "Anh chỉ lo về dự án vạch qua đường, không rút lại đề xuất làm điểm bỏ phiếu."
+            },
+            {
+              "text": "He is annoyed with the engineering department.",
+              "trap": "not_mentioned",
+              "whyVi": "Anh không phàn nàn về bộ phận kỹ thuật."
+            },
+            {
+              "text": "He expected the crosswalk to cost less than $5,000.",
+              "trap": "wrong_detail",
+              "whyVi": "5.000 đô là chi phí hành chính; giới hạn dự án là 50.000 đô."
+            },
+            {
+              "text": "The project he was using to attract the seniors might be too costly to qualify.",
+              "trap": "none",
+              "whyVi": "Đúng: anh vừa nói người cao tuổi sẽ hăng hái vì vạch qua đường, nhưng nếu cần đèn tín hiệu thì có thể vượt 50.000 đô."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "Well, there goes my sales pitch.",
+          "explanationVi": "'There goes X' = X vừa mất tác dụng. 'Sales pitch' của Walter là lời mời người cao tuổi đến bỏ phiếu cho dự án vạch qua đường. Thông tin giới hạn 50.000 đô làm lý lẽ đó yếu đi.",
+          "vocabulary": [
+            "sales pitch"
+          ]
+        },
+        {
+          "number": 8,
+          "prompt": "Which issue is still uncertain at the end of the meeting?",
+          "options": [
+            {
+              "text": "Whether paper ballots will be offered",
+              "trap": "wrong_detail",
+              "whyVi": "Đã quyết: phiếu giấy ở hai địa điểm trong hai cuối tuần."
+            },
+            {
+              "text": "Whether cost estimates will be ready before the vote",
+              "trap": "none",
+              "whyVi": "Đúng: Marguerite sẽ hỏi nhưng không hứa về thời gian vì bộ phận kỹ thuật đang quá tải."
+            },
+            {
+              "text": "How much a single project is allowed to cost",
+              "trap": "wrong_detail",
+              "whyVi": "Đã rõ: mỗi dự án dưới 50.000 đô."
+            },
+            {
+              "text": "Whether volunteers may help with data entry",
+              "trap": "wrong_detail",
+              "whyVi": "Đã quyết: tình nguyện viên trong ủy ban sẽ giúp nhập liệu."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "No promises on timing, though. They're stretched pretty thin right now.",
+          "explanationVi": "Cần theo dõi cả cuộc họp để biết điều gì đã chốt. Câu cuối 'No promises on timing' và 'stretched pretty thin' (quá tải) cho thấy chưa chắc có ước tính chi phí kịp trước khi bỏ phiếu.",
+          "vocabulary": [
+            "write off",
+            "stretched thin"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "consultation",
+      "vi": "cuộc tham vấn (lấy ý kiến người dân)",
+      "definition": "a process of asking the public for their opinions",
+      "example": "Legally, this is a consultation, not an election."
+    },
+    {
+      "term": "push for",
+      "vi": "vận động mạnh cho",
+      "definition": "try hard to make something happen",
+      "example": "I'd push hard for letting permanent residents vote."
+    },
+    {
+      "term": "have a say",
+      "vi": "có tiếng nói, có quyền góp ý",
+      "definition": "have the right to give an opinion in a decision",
+      "example": "They've never had a say in anything the city does."
+    },
+    {
+      "term": "give someone that",
+      "vi": "thừa nhận điểm ai đó nói đúng",
+      "definition": "admit that someone is right about a point",
+      "example": "All right, I'll give you that one."
+    },
+    {
+      "term": "project pot",
+      "vi": "quỹ chung cho các dự án",
+      "definition": "the shared amount of money available for projects",
+      "example": "Extra costs would come out of the project pot."
+    },
+    {
+      "term": "run by",
+      "vi": "hỏi ý kiến, trình bày để xin chấp thuận",
+      "definition": "tell someone about a plan to get their opinion or approval",
+      "example": "I'd have to run it by their board."
+    },
+    {
+      "term": "sales pitch",
+      "vi": "lời chào hàng, lý lẽ thuyết phục",
+      "definition": "words used to persuade someone to support or buy something",
+      "example": "Well, there goes my sales pitch."
+    },
+    {
+      "term": "write off",
+      "vi": "gạt bỏ, coi là thất bại",
+      "definition": "decide that something has no chance of success",
+      "example": "Let's not write it off yet."
+    },
+    {
+      "term": "stretched thin",
+      "vi": "quá tải, bị dàn mỏng",
+      "definition": "having too much work and not enough people or time",
+      "example": "Engineering is stretched pretty thin right now."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 8 items independently; keys match, attitude items (Q2, Q3, Q7) recoverable from wording. Eligibility for municipal elections is hedged ('My understanding is') and the consultation point is specific to this process, so no false legal claim. Added name cues for Marguerite and Hye-jin (Hye-jin was never named although Q2/Q3 ask about her)."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

@@ -1,0 +1,196 @@
+{
+  "id": "r3-mock-04",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "workplace",
+  "title": "Growing Its Own: A Kelowna Firm Trains Career Changers",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Rewritten with a new scenario (Kelowna plumbing firm training career changers, topic workplace) because the original bank-closure story duplicated r4-mock-05/r4-full-06; kept id, difficulty 8 and layout (4 paragraphs 113-117 words, 9 statements). Keys A,C,B,E,D,B,C,E,D solved and checked; Q4 (no stay-on agreement) and Q8 (no government funding) are E with nearest-sentence evidence; all evidence quotes verified verbatim."
+  },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "For years, Okanagan Comfort Systems, a plumbing and heating company in Kelowna, solved its staffing problems the usual way: it posted job ads and hoped experienced tradespeople would answer. By 2024 that approach had stopped working. Owner Teresa Vance says a single opening for a qualified gas fitter could sit unfilled for eight months, while older employees were retiring faster than they could be replaced. Rather than keep competing with larger firms for the same small pool of workers, the company decided to grow its own. It now recruits adults with no trade background, pays them from their first day, and pairs each one with a senior technician for at least a year before they work alone.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "Recruits are not chosen for what they already know. Applicants attend a half-day hands-on session, where they might be asked to join two lengths of pipe or follow a written diagram, while staff watch how they handle frustration and whether they ask questions. Of the first two groups of trainees, fewer than a quarter had ever worked in construction. They have included a former bank teller, a long-haul trucker and two newcomers who had been engineers in their home countries but whose credentials were not recognized in Canada. Vance says career changers often bring habits that are hard to teach, such as arriving on time and speaking politely to customers in their own homes.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "The program is not cheap. Vance estimates that each trainee costs the company about $45,000 in wages, tools and supervision before they bring in more money than they cost, a point usually reached late in their second year. The senior technicians who act as mentors also get less of their own work done, and two of them admit that they found the role draining at first. To keep the load manageable, no mentor takes on more than one trainee at a time. The biggest risk, Vance says, is that a trainee leaves for a competitor as soon as they are qualified. So far, three of nineteen have done so, which she calls \"disappointing but not a disaster.\"",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Other employers are paying attention. A regional builders' association has invited Vance to speak at its spring conference, and two electrical contractors in Vernon have asked to visit. Not everyone is convinced the model can be copied, however. Firms with only three or four employees, says association director Marcus Odell, simply do not have enough senior staff to spare as mentors. He would like to see several companies share trainees, rotating them between job sites so that the cost of training is spread around. Vance is open to the idea but cautious. \"Every firm works a little differently,\" she says. \"Trainees need one place to call home before they can learn from many.\"",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "The company changed its approach to staffing after conventional recruitment stopped producing results.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: Đăng tin tuyển thợ có kinh nghiệm 'had stopped working', nên công ty quyết định 'grow its own' (tự đào tạo người mới)." },
+        { "text": "B", "trap": "partially_true", "whyVi": "Đoạn B nói cách chọn học viên — đó là cách làm mới, không nói lý do công ty phải thay đổi." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói chi phí và rủi ro của chương trình." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D có 'the model can be copied' — nói các công ty khác có làm theo được không, không nói vì sao công ty này đổi cách." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "By 2024 that approach had stopped working.",
+      "explanationVi": "'Conventional recruitment' = 'posted job ads and hoped experienced tradespeople would answer' (cách tuyển dụng thông thường); 'stopped producing results' = 'had stopped working'; 'changed its approach' = 'decided to grow its own' (tự đào tạo nhân viên).",
+      "vocabulary": ["grow your own"]
+    },
+    {
+      "number": 2,
+      "prompt": "Some experienced employees initially found guiding newcomers exhausting.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A nói mỗi học viên được ghép với một thợ lâu năm, nhưng không nói thợ lâu năm thấy mệt." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói về học viên, không nói cảm nhận của người hướng dẫn." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Hai thợ hướng dẫn thừa nhận 'they found the role draining at first'." },
+        { "text": "D", "trap": "wrong_detail", "whyVi": "Đoạn D nói công ty nhỏ không đủ thợ lâu năm để làm người hướng dẫn — là chuyện thiếu người, không phải chuyện mệt mỏi." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "two of them admit that they found the role draining at first",
+      "explanationVi": "'Experienced employees' = 'senior technicians who act as mentors'; 'guiding newcomers' = vai trò 'mentor'; 'exhausting' = 'draining' (làm kiệt sức); 'initially' = 'at first'.",
+      "vocabulary": ["draining"]
+    },
+    {
+      "number": 3,
+      "prompt": "A few recruits had professional training from abroad that was not accepted here.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'qualified gas fitter' (thợ có chứng chỉ) — nói vị trí khó tuyển, không nói học viên có bằng cấp nước ngoài." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Hai người mới đến từng là kỹ sư ở nước mình nhưng 'credentials were not recognized in Canada'." },
+        { "text": "C", "trap": "wrong_detail", "whyVi": "Đoạn C có 'as soon as they are qualified' — nói học viên đã đủ chứng chỉ rồi rời đi, không phải bằng cấp nước ngoài." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về các công ty khác." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "two newcomers who had been engineers in their home countries but whose credentials were not recognized in Canada",
+      "explanationVi": "'Professional training from abroad' = từng là 'engineers in their home countries'; 'not accepted here' = 'credentials were not recognized in Canada' (bằng cấp không được công nhận).",
+      "vocabulary": ["credentials"]
+    },
+    {
+      "number": 4,
+      "prompt": "Trainees must sign an agreement to stay with the company for a set period after they qualify.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A nói học viên được trả lương từ ngày đầu và học ít nhất một năm, nhưng không nói có hợp đồng cam kết ở lại." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói cách chọn học viên." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C nói rủi ro học viên bỏ đi 'as soon as they are qualified' — có ba người đã đi, nghĩa là không có quy định nào giữ họ lại được nhắc đến." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về việc chia sẻ học viên giữa các công ty, không nói cam kết ở lại." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: Không đoạn nào nói học viên phải ký cam kết làm việc một thời gian." }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "The biggest risk, Vance says, is that a trainee leaves for a competitor as soon as they are qualified.",
+      "explanationVi": "Câu gần nhất ở Đoạn C chỉ nói rủi ro học viên chuyển sang đối thủ ngay khi đủ chứng chỉ, và đã có 3/19 người làm vậy. Bài không nói có hợp đồng ràng buộc nào → E. Đừng tự suy ra 'chắc phải có hợp đồng' từ kinh nghiệm ngoài đời."
+    },
+    {
+      "number": 5,
+      "prompt": "An industry spokesperson doubts that very small businesses could run a similar program on their own.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'larger firms' (công ty lớn hơn) nhưng nói về cạnh tranh tuyển người, không ai nghi ngờ công ty nhỏ." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói về học viên." },
+        { "text": "C", "trap": "wrong_speaker", "whyVi": "Đoạn C là ý kiến của bà Vance về chi phí và rủi ro, không phải người đại diện ngành." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Ông Odell (hiệp hội nhà thầu) nói công ty chỉ 3–4 nhân viên 'do not have enough senior staff to spare as mentors'." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Firms with only three or four employees, says association director Marcus Odell, simply do not have enough senior staff to spare as mentors.",
+      "explanationVi": "'Industry spokesperson' = 'association director Marcus Odell'; 'very small businesses' = 'firms with only three or four employees'; 'doubts ... could run a similar program' = 'Not everyone is convinced the model can be copied' + không đủ thợ lâu năm để làm người hướng dẫn. 'On their own' khớp với đề xuất của ông: nhiều công ty cùng chia sẻ học viên.",
+      "vocabulary": ["spare"]
+    },
+    {
+      "number": 6,
+      "prompt": "When selecting trainees, the company pays more attention to attitude than to existing ability.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A nói công ty tuyển người 'with no trade background', nhưng không nói họ được chọn dựa trên điều gì." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: Học viên 'not chosen for what they already know'; nhân viên quan sát cách họ xử lý khi bực bội và có chịu hỏi hay không." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói chi phí và việc hướng dẫn." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói phản ứng của các công ty khác." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Recruits are not chosen for what they already know.",
+      "explanationVi": "'Not chosen for what they already know' = không chọn theo kỹ năng sẵn có ('existing ability'). Trong buổi thử việc, nhân viên xem 'how they handle frustration and whether they ask questions' — đó là thái độ ('attitude'). Phải ghép hai câu mới thấy ý so sánh."
+    },
+    {
+      "number": 7,
+      "prompt": "It takes the firm almost two years before a typical trainee becomes profitable.",
+      "options": [
+        { "text": "A", "trap": "wrong_detail", "whyVi": "Đoạn A có 'at least a year' — đó là thời gian học viên làm cùng thợ lâu năm trước khi làm một mình, không phải lúc bắt đầu có lời." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói về việc chọn học viên." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Học viên bắt đầu mang về nhiều tiền hơn chi phí 'late in their second year'." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D nói 'the cost of training' cần được chia sẻ, nhưng không nói bao lâu thì có lời." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "before they bring in more money than they cost, a point usually reached late in their second year",
+      "explanationVi": "'Becomes profitable' = 'bring in more money than they cost' (mang về nhiều tiền hơn chi phí); 'almost two years' = 'late in their second year' (cuối năm thứ hai); 'typical' = 'usually'."
+    },
+    {
+      "number": 8,
+      "prompt": "Government funding covers part of what the company pays its trainees.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Đoạn A có 'pays them from their first day' — công ty trả lương, nhưng không nói ai tài trợ." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B không nói về tiền." },
+        { "text": "C", "trap": "partially_true", "whyVi": "Đoạn C nói mỗi học viên tốn khoảng $45,000 tiền lương, dụng cụ và giám sát, nhưng không nói có tiền hỗ trợ từ chính phủ." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D có hiệp hội nhà thầu, không phải chính phủ, và không nói tài trợ." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: Không đoạn nào nói chính phủ hỗ trợ tiền lương cho học viên." }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "Vance estimates that each trainee costs the company about $45,000 in wages, tools and supervision",
+      "explanationVi": "Câu gần nhất ở Đoạn C chỉ nói chi phí công ty phải bỏ ra cho mỗi học viên. Bài không nhắc đến trợ cấp hay tiền của chính phủ → E. 'Regional builders' association' ở Đoạn D là hiệp hội ngành, không phải chính quyền."
+    },
+    {
+      "number": 9,
+      "prompt": "The owner believes trainees should first be based with a single employer.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A nói mỗi học viên được ghép với một thợ lâu năm, nhưng không có ý kiến của bà Vance về việc chia sẻ học viên giữa các công ty." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B nói cách chọn học viên." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'no mentor takes on more than one trainee' (một người hướng dẫn chỉ nhận một học viên) — là về người hướng dẫn, không phải về công ty." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Bà Vance nói 'Trainees need one place to call home before they can learn from many'." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "\"Trainees need one place to call home before they can learn from many.\"",
+      "explanationVi": "'The owner' = Vance; 'first be based with a single employer' = 'one place to call home before they can learn from many'. Bà 'open to the idea but cautious' với đề xuất xoay vòng học viên giữa nhiều công ty — tức là muốn học viên có một nơi cố định trước.",
+      "vocabulary": ["call home"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "grow your own", "vi": "tự đào tạo (nhân sự) thay vì tuyển từ ngoài", "definition": "to train your own people instead of hiring them ready-made", "example": "The company decided to grow its own workers." },
+    { "term": "pool of workers", "vi": "nguồn lao động sẵn có", "definition": "the group of people available to be hired", "example": "Large firms compete for the same small pool of workers." },
+    { "term": "credentials", "vi": "bằng cấp, chứng chỉ chuyên môn", "definition": "qualifications that show you are trained for a job", "example": "Their credentials were not recognized in Canada." },
+    { "term": "career changer", "vi": "người chuyển nghề", "definition": "someone who moves into a completely different type of work", "example": "Career changers often bring good work habits." },
+    { "term": "draining", "vi": "làm kiệt sức, mệt mỏi", "definition": "making you feel very tired", "example": "Two mentors found the role draining at first." },
+    { "term": "mentor", "vi": "người hướng dẫn, kèm cặp", "definition": "an experienced person who guides someone new", "example": "No mentor takes on more than one trainee at a time." },
+    { "term": "spare", "vi": "dư ra để dành cho việc khác", "definition": "to have enough of something to give or use for another purpose", "example": "Small firms do not have senior staff to spare as mentors." },
+    { "term": "call home", "vi": "coi là nơi gắn bó, nơi thuộc về", "definition": "to think of a place as the one where you belong", "example": "Trainees need one place to call home." }
+  ]
+}

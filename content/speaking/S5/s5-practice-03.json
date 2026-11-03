@@ -1,0 +1,73 @@
+{
+  "id": "s5-practice-03",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "healthcare",
+  "title": "Choosing physiotherapy for your mother's knee",
+  "prompt": "Your mother's doctor has recommended eight weeks of physiotherapy for her sore knee, and your family has found two options. Choose the option you prefer. Then persuade your brother, who prefers the other option, that your choice is better for your mother.",
+  "svg": null,
+  "options": [
+    {
+      "title": "Lakeview Physio & Wellness (private clinic)",
+      "details": [
+        "$110 CAD per 45-minute one-on-one session, twice a week",
+        "Mom's extended health plan covers up to $500 a year",
+        "10-minute drive from Mom's home in Coquitlam",
+        "Evening and Saturday appointments; can start next week"
+      ]
+    },
+    {
+      "title": "Hospital community rehab program",
+      "details": [
+        "$15 CAD per session (subsidized), twice a week for 8 weeks",
+        "Small group class for knee and hip patients, led by a hospital physiotherapist",
+        "Weekdays at 9 a.m.; about 40 minutes by bus from Mom's home",
+        "Three-week waitlist before the next group starts"
+      ]
+    }
+  ],
+  "structure": [
+    "Address your brother directly, acknowledge his preference, and state your choice.",
+    "Reason 1 with numbers: total cost over eight weeks after the insurance limit.",
+    "Reason 2: a specialist-led group keeps Mom motivated and less isolated.",
+    "Deal with the weaknesses of your option (waitlist, bus ride) and finish with a concrete proposal."
+  ],
+  "modelAnswer": "Minh, I know you'd rather book Mom into the private clinic, but I really think the hospital program is the better fit for her. Let's start with the money. Sixteen sessions at a hundred and ten dollars each comes to about seventeen hundred and sixty dollars, and her health plan only covers five hundred. So we'd be paying over twelve hundred out of pocket. The hospital program would cost two hundred and forty dollars for the whole eight weeks. Second, it's designed specifically for knee and hip patients and run by a hospital physio, so she's not getting second-rate care. And honestly, since she retired, Mom's been pretty isolated. Exercising with a small group might be exactly what keeps her motivated. Now, I get that a three-week wait and a forty-minute bus ride aren't ideal. But her doctor didn't say it was urgent, and I work from home on Tuesdays, so I can drive her then. If you could cover Thursdays, the bus wouldn't even be an issue. So what do you say we sign her up today?",
+  "usefulExpressions": [
+    {
+      "expression": "I know you'd rather…, but I really think… is the better fit for…",
+      "usageVi": "Thừa nhận người kia thích phương án khác rồi mới nêu lựa chọn của mình — mở bài lịch sự"
+    },
+    {
+      "expression": "…comes to about…, so we'd be paying… out of pocket.",
+      "usageVi": "Tính tổng chi phí rồi nói số tiền phải tự trả — dùng con số để thuyết phục"
+    },
+    {
+      "expression": "…so she's not getting second-rate care.",
+      "usageVi": "Phản bác trước nỗi lo 'rẻ thì chất lượng kém' (second-rate = hạng hai, kém hơn)"
+    },
+    {
+      "expression": "Now, I get that… aren't ideal. But…",
+      "usageVi": "Thừa nhận điểm yếu của lựa chọn mình rồi giảm nhẹ nó ngay"
+    },
+    {
+      "expression": "So what do you say we…?",
+      "usageVi": "Câu kết thân mật, rủ người kia đồng ý hành động cụ thể"
+    }
+  ],
+  "commonMistakes": [
+    "Đọc từng con số trên thẻ mà không tính toán; người đạt Level 8+ thường cộng lại thành tổng chi phí (16 buổi × $110) để thấy rõ chênh lệch.",
+    "Chỉ nói 'cheap' cho phương án bệnh viện mà không trả lời nỗi lo về chất lượng; hãy nói rõ chuyên viên vật lý trị liệu của bệnh viện dẫn lớp.",
+    "Né tránh nhược điểm (chờ 3 tuần, đi xe buýt 40 phút). Giám khảo đánh giá cao khi bạn tự nêu ra và đưa giải pháp (tôi chở mẹ thứ Ba, anh chở thứ Năm)."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Verified maths (16 x $110 = $1,760, minus $500 coverage = $1,260 out of pocket; 16 x $15 = $240) and that cost/convenience vs speed/one-on-one keeps the cards balanced. Softened a medical claim ('her pain isn't urgent' -> 'her doctor didn't say it was urgent'); 178 words."
+  },
+  "createdAt": "2026-11-03"
+}

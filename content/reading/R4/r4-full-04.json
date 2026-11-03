@@ -1,0 +1,186 @@
+{
+  "id": "r4-full-04",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "education",
+  "title": "Shorter Summers, Longer Breaks?",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 10 independently; keys match. Checked blank 10 (only day camps are unconfirmed — 'have been asked'; survey comes after year one) and blank 8 grammar fit; fictional district framing for the balanced calendar is fine. No changes." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "Parents in the Kestrel Bay School District have until the end of the month to give their views on a proposal that would change one of the most familiar rhythms of family life: the long summer holiday. Under the plan, four elementary schools in Nanaimo would move to a \"balanced calendar\" starting next September. Students would still attend the same number of days, but summer break would shrink from about nine weeks to six, and the time saved would be added as a two-week break in late October and another in early February.\n\nSuperintendent Dr. Harjit Grewal says the main goal is to reduce what teachers call \"summer slide.\" \"Every September, our teachers spend the first month re-teaching what students knew perfectly well in June,\" he said. \"For children who don't have summer camps, family trips or a house full of books, that loss is much bigger.\" He points to research suggesting that shorter breaks help students from lower-income families most, though he admits the evidence is \"encouraging rather than conclusive.\"\n\nSome teachers like the idea for a different reason. Grade 4 teacher Rosalind Achebe says the long stretch between winter break and spring break is the hardest part of the year. \"By February, everyone is worn out, the kids and the staff. A real break in the middle of winter would make a huge difference to how well we all cope.\"\n\nMany parents, however, are worried about the practical side. Joel Marchand, a father of three, says his oldest child attends a high school that would stay on the regular calendar. \"So in October I'd have one kid at home and two at school, and in July it'd be the other way around,\" he said. \"Who's supposed to look after them? Most of us don't get four extra weeks of vacation just because the school board changed its mind.\"\n\nChild-care providers share that concern. Mei-Ling Cho, who runs an out-of-school care program near one of the pilot schools, says she would need to hire extra staff for the new breaks, and that summer camps running for six weeks instead of nine might no longer pay their way. \"I'm not against it,\" she said. \"I'm just not sure anyone has done the math for families like the ones I serve.\"\n\nThe district says community centres have been asked to offer day camps during the October and February breaks, and that it will survey families after the first year. Students, for their part, seem divided. \"I'd miss the long summer,\" said one Grade 6 student, \"but two weeks off in February sounds pretty good.\"\n\nTrustees are expected to vote on the proposal in December.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "As a parent of two children at one of the pilot schools, I've gone back and forth on this proposal. I respect Dr. Grewal's honesty in admitting that the research is [[6]], and I've watched my own son forget his times tables over the summer. Ms. Achebe's point about February also rings true; anyone who has [[7]] knows how long that stretch can feel. Still, Mr. Marchand has put his finger on my biggest worry. Families with children in both elementary and high school could end up [[8]] at different times of year. Ms. Cho's remark that nobody seems to have [[9]] is exactly the kind of warning trustees need to hear. If the district wants parents on board, it should confirm that [[10]] before the December vote, not after it.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the article mainly about?",
+      "options": [
+        { "text": "Research proving that long summer holidays harm learning", "trap": "too_broad", "whyVi": "Grewal chỉ nói nghiên cứu 'encouraging rather than conclusive' (chưa chứng minh); nghiên cứu không phải chủ đề chính." },
+        { "text": "A plan to rearrange the school year, and the hopes and worries it raises", "trap": "none", "whyVi": "Đúng: Bài giới thiệu đề xuất 'balanced calendar', rồi nêu người ủng hộ (Grewal, Achebe) và người lo ngại (Marchand, Cho)." },
+        { "text": "A shortage of child-care spaces in Nanaimo", "trap": "partially_true", "whyVi": "Chăm sóc trẻ chỉ là một mối lo trong bài, không phải chủ đề chính." },
+        { "text": "A decision by trustees to cancel summer break", "trap": "opposite", "whyVi": "Hội đồng chưa quyết định (sẽ bỏ phiếu tháng 12), và kỳ nghỉ hè chỉ bị rút ngắn, không bị bỏ." }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "four elementary schools in Nanaimo would move to a \"balanced calendar\" starting next September",
+      "explanationVi": "Đoạn đầu nêu đề xuất thay đổi lịch học; các đoạn sau là các quan điểm khác nhau. 'Rearrange the school year' diễn đạt lại việc chuyển sang 'balanced calendar' (rút ngắn hè, thêm kỳ nghỉ tháng 10 và tháng 2).",
+      "vocabulary": ["balanced calendar"]
+    },
+    {
+      "number": 2,
+      "prompt": "How would the balanced calendar change the school year?",
+      "options": [
+        { "text": "Students would attend school on more days.", "trap": "opposite", "whyVi": "Bài nói rõ 'the same number of days'." },
+        { "text": "Spring break would be cancelled.", "trap": "not_mentioned", "whyVi": "Bài không nói bỏ kỳ nghỉ xuân." },
+        { "text": "Summer break would be cut to three weeks.", "trap": "wrong_detail", "whyVi": "Hè rút từ khoảng chín tuần xuống sáu tuần; 'three' là số tuần bị cắt, không phải độ dài mới." },
+        { "text": "The total number of school days stays the same, but some summer weeks move to other seasons.", "trap": "none", "whyVi": "Đúng: Vẫn số ngày học như cũ; ba tuần hè được chuyển thành kỳ nghỉ tháng 10 và tháng 2." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Students would still attend the same number of days, but summer break would shrink from about nine weeks to six",
+      "explanationVi": "'Shrink from nine weeks to six' + 'the time saved would be added as a two-week break in late October and another in early February' → thời gian hè được dời sang mùa khác. Đáp án C dùng con số 3 (9 − 6) để gài bẫy.",
+      "vocabulary": ["shrink"]
+    },
+    {
+      "number": 3,
+      "prompt": "What does Dr. Grewal suggest about \"summer slide\"?",
+      "options": [
+        { "text": "It affects children with fewer resources at home more than others.", "trap": "none", "whyVi": "Đúng: Trẻ không có trại hè, du lịch hay sách ở nhà thì 'that loss is much bigger'." },
+        { "text": "It mainly affects high school students.", "trap": "not_mentioned", "whyVi": "Ông không nói về học sinh trung học; đề xuất chỉ dành cho trường tiểu học." },
+        { "text": "Teachers are partly responsible for it.", "trap": "not_mentioned", "whyVi": "Giáo viên phải dạy lại, nhưng ông không đổ lỗi cho họ." },
+        { "text": "Summer camps make it worse.", "trap": "opposite", "whyVi": "Ông ngụ ý trẻ có trại hè ít bị ảnh hưởng hơn, tức trại hè giúp giảm mất kiến thức." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"For children who don't have summer camps, family trips or a house full of books, that loss is much bigger.\"",
+      "explanationVi": "Trẻ không có trại hè, chuyến đi, sách = trẻ có ít điều kiện ('fewer resources at home'). Ông còn nói nghiên cứu cho thấy học sinh gia đình thu nhập thấp được lợi nhiều nhất.",
+      "vocabulary": ["summer slide"]
+    },
+    {
+      "number": 4,
+      "prompt": "What attitude does Joel Marchand express when he says most parents \"don't get four extra weeks of vacation\"?",
+      "options": [
+        { "text": "He wants the school board to give parents more time off.", "trap": "word_match", "whyVi": "Dùng lại 'vacation', nhưng hội đồng trường không thể cho cha mẹ nghỉ phép; ông đang chỉ ra vấn đề." },
+        { "text": "He would support the plan if high schools were left out.", "trap": "opposite", "whyVi": "Việc trường trung học giữ lịch cũ chính là nguyên nhân gây rắc rối cho ông." },
+        { "text": "He feels the board has overlooked the realities of working parents.", "trap": "none", "whyVi": "Đúng: Ông mỉa mai rằng cha mẹ không tự nhiên có thêm bốn tuần nghỉ chỉ vì hội đồng 'changed its mind'." },
+        { "text": "He is mainly worried about his oldest child's grades.", "trap": "not_mentioned", "whyVi": "Ông lo ai trông con, không nhắc đến điểm số." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Most of us don't get four extra weeks of vacation just because the school board changed its mind.",
+      "explanationVi": "Câu hỏi thái độ. 'Just because the school board changed its mind' mang giọng bực bội: hội đồng thay đổi lịch mà không nghĩ cha mẹ đi làm sẽ trông con thế nào ('Who's supposed to look after them?').",
+      "vocabulary": ["look after"]
+    },
+    {
+      "number": 5,
+      "prompt": "Which best describes Mei-Ling Cho's position?",
+      "options": [
+        { "text": "She opposes the plan because it would force her to hire staff.", "trap": "partially_true", "whyVi": "Bà có nói cần thuê thêm người, nhưng bà nói rõ 'I'm not against it'." },
+        { "text": "She is open to it but doubts its costs for some families have been worked out.", "trap": "none", "whyVi": "Đúng: Bà không phản đối, nhưng chưa chắc ai đã tính toán chi phí cho những gia đình bà phục vụ." },
+        { "text": "She expects summer camps to become more profitable.", "trap": "opposite", "whyVi": "Bà lo trại hè sáu tuần có thể 'no longer pay their way' (không còn đủ lời)." },
+        { "text": "She believes the district has planned the change carefully.", "trap": "opposite", "whyVi": "Bà nghi ngờ đã có ai 'done the math' — ngược lại với kế hoạch chu đáo." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"I'm not against it,\" she said.",
+      "explanationVi": "Hai câu liền nhau thể hiện thái độ: 'I'm not against it' (cởi mở) + 'I'm just not sure anyone has done the math' (nghi ngờ đã tính chi phí). 'Do the math' = tính toán → 'worked out'.",
+      "vocabulary": ["do the math"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "promising but not yet settled", "trap": "none", "whyVi": "Đúng: Diễn đạt lại 'encouraging rather than conclusive'." },
+        { "text": "clear that shorter breaks help everyone", "trap": "too_broad", "whyVi": "Ông thừa nhận bằng chứng chưa kết luận, và nói chủ yếu giúp học sinh thu nhập thấp." },
+        { "text": "based only on teachers' experience", "trap": "not_mentioned", "whyVi": "Ông dẫn nghiên cứu, không nói chỉ dựa vào kinh nghiệm giáo viên." },
+        { "text": "focused on high school students", "trap": "not_mentioned", "whyVi": "Bài không nói nghiên cứu tập trung vào học sinh trung học." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "he admits the evidence is \"encouraging rather than conclusive.\"",
+      "explanationVi": "'Honesty in admitting' khớp với 'he admits'. 'Encouraging' = 'promising'; 'not conclusive' = 'not yet settled'."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "looked for summer child care", "trap": "wrong_detail", "whyVi": "Chăm sóc trẻ mùa hè là mối lo của Marchand và Cho, không phải 'that stretch' tháng Hai." },
+        { "text": "re-taught lessons in September", "trap": "wrong_speaker", "whyVi": "Dạy lại vào tháng Chín là ý của Grewal về 'summer slide'." },
+        { "text": "got through the months between winter and spring break", "trap": "none", "whyVi": "Đúng: Achebe nói khoảng thời gian dài từ nghỉ đông đến nghỉ xuân là phần khó nhất trong năm." },
+        { "text": "taken a two-week break in October", "trap": "not_mentioned", "whyVi": "Chưa ai có kỳ nghỉ tháng Mười; đó là đề xuất mới." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "the long stretch between winter break and spring break is the hardest part of the year",
+      "explanationVi": "'Ms. Achebe's point about February' và 'that stretch' chỉ khoảng 'long stretch between winter break and spring break'. 'Get through' = vượt qua."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "paying for summer camp twice", "trap": "not_mentioned", "whyVi": "Bài không nói phải trả tiền trại hè hai lần." },
+        { "text": "taking four extra weeks of vacation", "trap": "opposite", "whyVi": "Marchand nói cha mẹ không có thêm bốn tuần nghỉ." },
+        { "text": "moving their children to new schools", "trap": "not_mentioned", "whyVi": "Không ai nói chuyện chuyển trường." },
+        { "text": "with some children at home and others in class", "trap": "none", "whyVi": "Đúng: 'In October I'd have one kid at home and two at school, and in July it'd be the other way around'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "\"So in October I'd have one kid at home and two at school, and in July it'd be the other way around,\"",
+      "explanationVi": "'End up with...' = rốt cuộc rơi vào tình huống. Gia đình có con học cả tiểu học (lịch mới) và trung học (lịch cũ) sẽ có con nghỉ, con đi học vào những thời điểm khác nhau."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "surveyed families about the plan", "trap": "partially_true", "whyVi": "Khảo sát gia đình là việc học khu sẽ làm sau năm đầu; đó không phải lời cảnh báo của Cho." },
+        { "text": "worked out the costs for families like hers", "trap": "none", "whyVi": "Đúng: Cho nói 'not sure anyone has done the math for families like the ones I serve'." },
+        { "text": "hired extra staff for the breaks", "trap": "wrong_detail", "whyVi": "Thuê thêm người là việc chính Cho sẽ phải làm, không phải điều 'nobody' đã làm." },
+        { "text": "studied the effects of summer slide", "trap": "opposite", "whyVi": "Đã có nghiên cứu, Grewal có dẫn ra." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "\"I'm just not sure anyone has done the math for families like the ones I serve.\"",
+      "explanationVi": "'Nobody seems to have' = 'not sure anyone has'. 'Done the math' = 'worked out the costs'."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "day camps will really be offered during the new breaks", "trap": "none", "whyVi": "Đúng: Trung tâm cộng đồng mới chỉ 'have been asked' tổ chức trại — chưa chắc chắn, nên cần xác nhận." },
+        { "text": "students will attend more days of school", "trap": "opposite", "whyVi": "Số ngày học không đổi." },
+        { "text": "the survey results are positive", "trap": "wrong_detail", "whyVi": "Khảo sát chỉ diễn ra sau năm đầu tiên, không thể có trước cuộc bỏ phiếu tháng 12." },
+        { "text": "high schools will join the pilot", "trap": "not_mentioned", "whyVi": "Bài không nói có kế hoạch đưa trường trung học vào thí điểm." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "community centres have been asked to offer day camps during the October and February breaks",
+      "explanationVi": "'Confirm that...' = xác nhận một điều chưa chắc. Bài chỉ nói trung tâm cộng đồng 'have been asked' (đã được đề nghị), chưa đồng ý. Trại ngày giải quyết đúng mối lo trông con của Marchand và Cho."
+    }
+  ],
+  "vocabulary": [
+    { "term": "balanced calendar", "vi": "lịch học cân bằng (hè ngắn, nhiều kỳ nghỉ hơn trong năm)", "definition": "a school year with a shorter summer and more breaks spread through the year", "example": "Four schools may move to a balanced calendar." },
+    { "term": "summer slide", "vi": "hiện tượng quên kiến thức sau kỳ nghỉ hè", "definition": "the learning students lose during the long summer break", "example": "Teachers want to reduce summer slide." },
+    { "term": "shrink", "vi": "thu hẹp, rút ngắn", "definition": "to become smaller or shorter", "example": "Summer break would shrink from nine weeks to six." },
+    { "term": "worn out", "vi": "mệt rã rời", "definition": "extremely tired", "example": "By February, everyone is worn out." },
+    { "term": "look after", "vi": "trông nom, chăm sóc", "definition": "to take care of someone", "example": "Who will look after the children in October?" },
+    { "term": "pay their way", "vi": "tự trang trải được chi phí", "definition": "to earn enough money to cover costs", "example": "Shorter camps might no longer pay their way." },
+    { "term": "do the math", "vi": "tính toán kỹ", "definition": "to calculate or think carefully about the costs", "example": "Has anyone done the math for these families?" },
+    { "term": "go back and forth", "vi": "phân vân, lưỡng lự", "definition": "to keep changing your opinion", "example": "I've gone back and forth on this proposal." },
+    { "term": "on board", "vi": "đồng tình, ủng hộ", "definition": "agreeing with and supporting a plan", "example": "The district needs parents on board." }
+  ]
+}

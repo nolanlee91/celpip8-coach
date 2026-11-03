@@ -1,0 +1,120 @@
+{
+  "id": "l2-full-02",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "transportation",
+  "title": "A carpool after the parking fee goes up",
+  "context": "You will hear two coworkers at an office in Burnaby talking about how they get to work.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Priya", "voice": "female_a", "text": "Daniel, got a sec? Did you see the email from facilities? Parking in the underground lot is going up to a hundred and sixty-five a month, starting in January." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Yeah, I saw it. Honestly, I'm not shocked. They've been dropping hints since the summer. But a hundred and sixty-five, that's, what, forty bucks more than now?" },
+        { "speaker": "Priya", "voice": "female_a", "text": "Forty-five. And that's what's getting to me. I only drive because the bus from my place takes forever. Two transfers, and if I miss the first one, I'm basically done for." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Where are you again, Priya? Coquitlam?" },
+        { "speaker": "Priya", "voice": "female_a", "text": "Port Moody, up the hill. It's a fifteen-minute walk just to get to the first stop." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Okay, here's a thought, and feel free to shoot it down. I go right past your neighbourhood every morning. What if I picked you up, and we split the parking? If we register as a carpool, the company knocks the rate down by half. It's in the fine print of that same email." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Wait, really? I totally skimmed it. That's, um, that's really generous of you, but I'd be stuck on your schedule, wouldn't I? Some days I'm here till six." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Fair point. I'm usually out the door at four thirty sharp because of daycare pickup. So on your late days, you'd have to find your own way home." },
+        { "speaker": "Priya", "voice": "female_a", "text": "That's actually not the end of the world. Going home isn't the problem, it's the morning connections that kill me. In the evening, if the bus takes an hour, so what? I'm not racing to get anywhere." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Then it works. Mind you, I should warn you, I'm not exactly a morning person. No small talk before coffee." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Ha, deal. I'll bring the coffee. How about we try it for a couple of weeks before we sign up with facilities? Just to make sure we don't drive each other up the wall." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Sounds smart. Let's start Monday. I'll text you when I'm leaving." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why does the parking increase bother Priya so much?",
+          "options": [
+            { "text": "The company gave employees no warning about it.", "trap": "opposite", "whyVi": "Daniel nói công ty đã 'dropping hints since the summer', tức là đã có dấu hiệu báo trước." },
+            { "text": "Public transit is not a realistic option for her morning trip.", "trap": "none", "whyVi": "Đúng: cô chỉ lái xe vì xe buýt từ nhà cô quá lâu, phải đổi hai chuyến." },
+            { "text": "Her monthly cost will rise by forty dollars.", "trap": "wrong_detail", "whyVi": "Daniel đoán 40 đô nhưng Priya sửa lại là 45 đô." },
+            { "text": "She has only recently started driving to work.", "trap": "not_mentioned", "whyVi": "Bài không nói cô mới bắt đầu lái xe đi làm." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "I only drive because the bus from my place takes forever. Two transfers, and if I miss the first one, I'm basically done for.",
+          "explanationVi": "Priya bực vì cô không có lựa chọn khác: 'the bus ... takes forever', 'two transfers'. Đáp án B diễn đạt lại thành 'public transit is not a realistic option'.",
+          "vocabulary": ["done for"]
+        },
+        {
+          "number": 2,
+          "prompt": "What is Daniel's reaction to the news about the parking rate?",
+          "options": [
+            { "text": "He thinks the new rate is reasonable.", "trap": "not_mentioned", "whyVi": "Daniel không nhận xét giá mới hợp lý hay không." },
+            { "text": "He is angry that nobody consulted staff.", "trap": "opposite", "whyVi": "Anh không tức giận; anh nói 'I'm not shocked'." },
+            { "text": "He had seen it coming for a while.", "trap": "none", "whyVi": "Đúng: 'I'm not shocked. They've been dropping hints since the summer.'" },
+            { "text": "He plans to complain to facilities.", "trap": "word_match", "whyVi": "Có nhắc 'facilities' nhưng không ai định khiếu nại." }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "Honestly, I'm not shocked. They've been dropping hints since the summer.",
+          "explanationVi": "'Not shocked' + 'dropping hints since the summer' = anh đã đoán trước điều này. Đáp án C dùng thành ngữ 'seen it coming'.",
+          "vocabulary": ["drop hints"]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Daniel tell Priya about carpooling?",
+          "options": [
+            { "text": "Registered carpools pay a reduced parking rate.", "trap": "none", "whyVi": "Đúng: đăng ký đi chung xe thì công ty giảm một nửa giá đỗ xe." },
+            { "text": "The company covers the full cost of parking for carpools.", "trap": "wrong_detail", "whyVi": "Công ty chỉ giảm một nửa ('by half'), không trả toàn bộ." },
+            { "text": "Carpools get spaces closer to the entrance.", "trap": "not_mentioned", "whyVi": "Không ai nói về vị trí chỗ đỗ." },
+            { "text": "Priya must read the email again to sign up.", "trap": "word_match", "whyVi": "Có nhắc email và 'skimmed' nhưng không có yêu cầu đọc lại để đăng ký." }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "If we register as a carpool, the company knocks the rate down by half.",
+          "explanationVi": "'Knocks the rate down by half' = giảm giá một nửa. Đáp án A diễn đạt lại thành 'a reduced parking rate'.",
+          "vocabulary": ["knock down", "fine print"]
+        },
+        {
+          "number": 4,
+          "prompt": "Why does Priya think her late workdays will not cause a serious problem?",
+          "options": [
+            { "text": "Daniel has agreed to wait for her on those days.", "trap": "opposite", "whyVi": "Daniel phải về lúc 4:30 để đón con, nên cô phải tự về." },
+            { "text": "The trip home only takes fifteen minutes.", "trap": "word_match", "whyVi": "'Fifteen-minute' là thời gian đi bộ tới trạm, không phải thời gian về nhà." },
+            { "text": "She plans to leave work earlier from now on.", "trap": "not_mentioned", "whyVi": "Cô không nói sẽ về sớm hơn." },
+            { "text": "A slow journey matters less to her in the evening.", "trap": "none", "whyVi": "Đúng: buổi tối xe buýt mất một tiếng cũng không sao vì cô không vội." }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "In the evening, if the bus takes an hour, so what? I'm not racing to get anywhere.",
+          "explanationVi": "Priya nói vấn đề chỉ là buổi sáng; buổi tối 'so what? I'm not racing to get anywhere' = chậm cũng không sao. Đáp án D diễn đạt lại.",
+          "vocabulary": ["not the end of the world"]
+        },
+        {
+          "number": 5,
+          "prompt": "What do Priya and Daniel agree to do?",
+          "options": [
+            { "text": "Register as a carpool with facilities on Monday.", "trap": "partially_true", "whyVi": "Họ bắt đầu đi chung từ thứ Hai, nhưng chỉ đăng ký sau khi thử vài tuần." },
+            { "text": "Share rides for a trial period before making it official.", "trap": "none", "whyVi": "Đúng: thử vài tuần rồi mới đăng ký với bộ phận facilities." },
+            { "text": "Take turns driving each week.", "trap": "not_mentioned", "whyVi": "Không có thỏa thuận thay phiên lái xe." },
+            { "text": "Have Daniel bring coffee every morning.", "trap": "wrong_speaker", "whyVi": "Chính Priya nói 'I'll bring the coffee', không phải Daniel." }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "How about we try it for a couple of weeks before we sign up with facilities?",
+          "explanationVi": "'Try it for a couple of weeks before we sign up' = thử một thời gian rồi mới chính thức. Đáp án B: 'trial period before making it official'.",
+          "vocabulary": ["drive someone up the wall"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "drop hints", "vi": "bóng gió, ám chỉ trước", "definition": "to suggest something indirectly before saying it openly", "example": "They've been dropping hints about a price increase since the summer." },
+    { "term": "done for", "vi": "coi như tiêu, hết cách", "definition": "in a hopeless situation; certain to fail", "example": "If I miss the first bus, I'm basically done for." },
+    { "term": "shoot down", "vi": "bác bỏ (ý kiến)", "definition": "to reject an idea or suggestion", "example": "Here's a thought, and feel free to shoot it down." },
+    { "term": "knock down", "vi": "giảm (giá)", "definition": "to reduce a price or amount", "example": "The company knocks the rate down by half for carpools." },
+    { "term": "fine print", "vi": "phần chữ nhỏ, điều khoản chi tiết", "definition": "the detailed part of a document that people often do not read", "example": "It's in the fine print of the email." },
+    { "term": "skim", "vi": "đọc lướt", "definition": "to read something quickly without paying attention to every detail", "example": "I totally skimmed the email." },
+    { "term": "not the end of the world", "vi": "không phải chuyện gì to tát", "definition": "not a very serious problem", "example": "Taking the bus home is not the end of the world." },
+    { "term": "drive someone up the wall", "vi": "làm ai phát điên, bực mình", "definition": "to annoy someone a lot", "example": "Let's make sure we don't drive each other up the wall." }
+  ],
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched, single defensible answer each (40 vs 45 dollars, half rate vs full cover checked). Changed: Priya's name was never spoken although every question uses it, so Daniel now says it." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

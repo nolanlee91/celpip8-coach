@@ -1,0 +1,60 @@
+{
+  "id": "s7-practice-05",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "education",
+  "title": "Starting secondary school an hour later",
+  "prompt": "A school district in the Lower Mainland is considering moving the start time for all secondary schools from 8:30 a.m. to 9:30 a.m. Supporters say teenagers need more sleep. Opponents say the change would cause problems for working parents, school buses and after-school activities.\n\nDo you think secondary schools should start later in the morning? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Clear position + acknowledge it requires adjustment",
+    "Reason 1: teenagers' sleep patterns + example (family member)",
+    "Reason 2: mental health and safety, not just grades",
+    "Concede the downsides honestly",
+    "Show how the downsides can be solved",
+    "Conclusion restating your position"
+  ],
+  "modelAnswer": "Yes, I'm in favour of a later start time, even though I know it would take some adjusting for families.\n\nFirst of all, it's widely reported that teenagers' body clocks shift during adolescence, so many of them genuinely can't fall asleep early, no matter how hard they try. Forcing them into class at eight thirty means a lot of students are running on six hours of sleep. My nephew is in grade eleven, and he says half his first-period class can barely keep their eyes open. An extra hour could make a real difference to how much they actually take in.\n\nSecond, sleep is closely tied to mental health and safety. Studies suggest that exhausted teens are more likely to struggle with anxiety, and drowsy teenage drivers are at higher risk of accidents. So this isn't just about grades; it's about their overall wellbeing.\n\nNow, I won't pretend there are no downsides. Parents who start work early may need to drop their kids off before school opens, and sports practices would wrap up later in the evening. However, these problems can be worked around. Schools could keep the library open from eight o'clock for supervised study, and bus schedules could be staggered with the elementary schools.\n\nTo wrap up, I'd say the benefits for students' health and learning are too important to ignore, so I believe the district should go ahead with the change.",
+  "usefulExpressions": [
+    {
+      "expression": "even though I know it would take some adjusting",
+      "usageVi": "Cho thấy bạn nhìn thấy cả hai mặt ngay từ câu mở đầu."
+    },
+    {
+      "expression": "running on (six hours of sleep)",
+      "usageVi": "Cách nói tự nhiên = chỉ ngủ được (sáu tiếng) mà vẫn phải hoạt động."
+    },
+    {
+      "expression": "can barely keep their eyes open",
+      "usageVi": "Thành ngữ = buồn ngủ díp cả mắt; sinh động hơn 'very tired'."
+    },
+    {
+      "expression": "This isn't just about X; it's about Y",
+      "usageVi": "Mở rộng lập luận sang một vấn đề lớn và quan trọng hơn."
+    },
+    {
+      "expression": "I won't pretend there are no downsides",
+      "usageVi": "Thừa nhận mặt trái một cách thẳng thắn — tăng độ tin cậy."
+    },
+    {
+      "expression": "can be worked around",
+      "usageVi": "= có thể tìm cách khắc phục; dẫn vào giải pháp cụ thể."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ lặp lại 'students need more sleep' nhiều lần. Hãy phát triển ý: sinh học tuổi teen → việc học → sức khỏe tinh thần → an toàn.",
+    "Nhầm 'secondary school' với 'college'. Ở BC, secondary school là trường trung học (lớp 8–12).",
+    "Dùng 'sleep' sai: 'they don't have enough sleeping' → đúng: 'they don't get enough sleep'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked clear position, development beyond 'more sleep', concessions with solutions, length 234. Fixed: hedged the anxiety/accident claims with 'Studies suggest' and 'at higher risk' instead of stating them as absolutes."
+  },
+  "createdAt": "2026-11-03"
+}

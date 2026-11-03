@@ -7,6 +7,7 @@ import { api, post, wordCount } from "../api";
 import { Badge, Card, Empty, ErrorBox, Loading, TimerPill, Unofficial, useCountdown } from "../components/ui";
 import { Passage } from "../components/Passage";
 import { Translation } from "../components/Translation";
+import { NextStep } from "../components/NextStep";
 import { McqList } from "../components/Mcq";
 import { AudioChunkPlayer, SegmentPlayer } from "../components/ListeningPlayer";
 import { SpeakingRunner } from "../components/SpeakingRunner";
@@ -161,6 +162,7 @@ function MockReport({ id }: { id: string }) {
           ))}
         </tbody>
       </table>
+      <NextStep after="mock" mockId={id} />
     </div>
   );
 }

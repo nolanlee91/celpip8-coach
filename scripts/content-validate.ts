@@ -3,9 +3,9 @@
 // Exit code 1 when any error is found (in the filtered scope).
 
 import { CONTENT_DIR, LIBRARY_DIR, scanLibrary } from "../server/library";
-import { audioStatus } from "../server/audio";
+import { audioStatus, lessonAudioStatus, readAloudFile, readAloudName } from "../server/audio";
 import { LESSONS_DIR, scanCurriculum } from "../server/lessons";
-import { lessonAudioStatus } from "../server/audio";
+import { readAloudTexts, translatableTexts, translate } from "../server/translations";
 
 const args = process.argv.slice(2);
 const opt = (name: string) => { const i = args.indexOf(`--${name}`); return i >= 0 ? args[i + 1] : undefined; };
@@ -57,5 +57,15 @@ for (const skill of ["reading", "listening", "speaking", "writing"]) {
 }
 const withAudio = [...cur.lessons.values()].map((l) => lessonAudioStatus(l)).filter((s) => s.chunks.length);
 console.log(`  lessons with audio clips: ${withAudio.length} (${withAudio.filter((s) => s.ready).length} fully generated, ${withAudio.reduce((n, s) => n + s.chunks.filter((c) => c.file).length, 0)}/${withAudio.reduce((n, s) => n + s.chunks.length, 0)} clips)`);
+// Media generated from the text and committed separately: warn so a content edit is not shipped without it.
+const missingRead = readAloudTexts().filter((t) => !readAloudFile(readAloudName(t))).length;
+const missingVi = translatableTexts().filter((t) => !translate(t)).length;
+const mediaWarnings = [
+  audioReady < listeningTotal && `${listeningTotal - audioReady} listening set(s) without audio → npm run audio:generate`,
+  missingRead && `${missingRead} reading passage(s) without bundled "Nghe bài đọc" audio → npm run audio:generate -- --reading`,
+  missingVi && `${missingVi} text(s) without a Vietnamese translation → npm run translations -- --export <dir>, translate, --import <dir>`,
+].filter(Boolean) as string[];
+console.log("\n=== Generated media ===");
+console.log(mediaWarnings.length ? mediaWarnings.map((w) => `  ! ${w}`).join("\n") : "  all listening audio, read-aloud audio and translations present");
 console.log(`\n${errors.length} error(s), ${warnings.length} warning(s)${filter ? ` matching "${filter}"` : ""}.`);
 process.exit(errors.length ? 1 : 0);

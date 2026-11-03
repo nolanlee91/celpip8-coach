@@ -10,7 +10,7 @@
   "chunks": [
     {
       "segments": [
-        { "speaker": "Minh", "voice": "male_a", "text": "Hi, I hope this is the right counter. I just moved to Coquitlam from Surrey, and I'd like to move my prescriptions here, if that's possible." },
+        { "speaker": "Minh", "voice": "male_a", "text": "Hi, I hope this is the right counter. My name's Minh. I just moved to Coquitlam from Surrey, and I'd like to move my prescriptions here, if that's possible." },
         { "speaker": "Ms. Kaur", "voice": "female_b", "text": "Sure, we can do that. Transfers are pretty simple. Which pharmacy are you using now?" },
         { "speaker": "Minh", "voice": "male_a", "text": "Fraser Valley Drug Mart, on 72nd Avenue. I don't have their number on me, sorry." },
         { "speaker": "Ms. Kaur", "voice": "female_b", "text": "No problem, I can look it up. And what are the medications?" },
@@ -115,7 +115,7 @@
   ],
   "estimatedMinutes": 6,
   "source": "curated",
-  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. Changed: pharmacist's absolute claim that controlled drugs 'can't be transferred between pharmacies' (federal transfer rules for controlled substances have changed since 2020) softened to a pharmacy-level statement; Q2 evidence/explanation and vocab example updated. Q1 option A trap wrong_speaker -> wrong_detail. PHN on BC Services Card and dispensing fee verified." },
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. Changed: pharmacist's absolute claim that controlled drugs 'can't be transferred between pharmacies' (federal transfer rules for controlled substances have changed since 2020) softened to a pharmacy-level statement; Q2 evidence/explanation and vocab example updated. Q1 option A trap wrong_speaker -> wrong_detail. PHN on BC Services Card and dispensing fee verified. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)." },
   "createdAt": "2026-10-26",
   "focus": []
 }

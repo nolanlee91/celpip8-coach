@@ -24,7 +24,7 @@
         {
           "speaker": "Grace, operations manager",
           "voice": "female_a",
-          "text": "That's fair. Head office originally said January, but they've told me we have some flexibility, as long as we're fully switched over by the end of March."
+          "text": "Thanks, Marco. That's fair. Head office originally said January, but they've told me we have some flexibility, as long as we're fully switched over by the end of March."
         },
         {
           "speaker": "Tanvir, forklift operator",
@@ -415,7 +415,7 @@
   "review": {
     "status": "approved",
     "reviewedBy": "independent AI review (Claude)",
-    "notes": "Solved all 8 items independently; keys match, who-said-what distractors verified against speaker turns, no double-answer items. 4 distinct voices/opinions, 523 words. Trap tags corrected: Q4 option C partially_true -> wrong_detail (a misreading of the idiom, not partly true); Q8 option B opposite -> wrong_detail (an issue that was already resolved), consistent with Q8 C/D."
+    "notes": "Solved all 8 items independently; keys match, who-said-what distractors verified against speaker turns, no double-answer items. 4 distinct voices/opinions, 523 words. Trap tags corrected: Q4 option C partially_true -> wrong_detail (a misreading of the idiom, not partly true); Q8 option B opposite -> wrong_detail (an issue that was already resolved), consistent with Q8 C/D. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)."
   },
   "createdAt": "2026-10-26",
   "focus": []

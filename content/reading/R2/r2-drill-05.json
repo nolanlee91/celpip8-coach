@@ -1,0 +1,138 @@
+{
+  "id": "r2-drill-05",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "social",
+  "title": "Paraphrase drill: Booking a room for a surprise 40th",
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 6 paraphrase items independently; all keys match. Checked capacity (50 guests: Loft 40 too small, Garden 60/45 standing fits, seats only 45), 10 p.m. amplified-music cut-off vs a 6-11 event, 25% deposit refundable up to 30 days before, $3-per-guest plating fee, bar service by venue staff only; Saturday March 13, 2027 is a Saturday. No changes needed." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Room rentals",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Lumen Room Event Spaces, New Westminster — Private Rooms for Friday and Saturday Evenings (a 25% deposit holds your date and is refundable up to 30 days before the event; outside food is welcome with a $3-per-guest plating fee; all bar service is provided by our licensed staff only)",
+        "headers": ["Room", "Capacity (standing / seated)", "Rental (4 hours)", "Each extra hour", "Included", "Not allowed"],
+        "rows": [
+          ["The Loft", "40 / 28", "$480", "$90", "Sound system, 4 high-top tables", "Confetti, open flames"],
+          ["The Garden Room", "60 / 45", "$720", "$120", "Covered patio with string lights, projector and screen", "Amplified music after 10 p.m."],
+          ["The Hall", "120 / 90", "$1,150", "$175", "Stage, dance floor, wireless microphone", "Confetti"],
+          ["The Den", "20 / 16", "$300", "$60", "Fireplace, board games, TV", "Live bands"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Farida,\n\nI think I've found the spot for Kenji's surprise fortieth! Lumen Room has four spaces, and with about fifty people coming, the Garden Room is the only one that [[1]]. The Loft would have us packed in like sardines, and the Hall would feel half-empty.\n\nIt also has [[2]], which will look gorgeous once it gets dark, and there's a projector for that slideshow of embarrassing photos you've been putting together. The only catch is that the DJ will have to [[3]], but by then most people will want to sit outside and chat anyway.\n\nWe're thinking 6 to 11, so one hour over the standard rental. To hold the date, I'll put down [[4]].\n\nYour mom's dumplings are more than welcome, by the way, as long as we [[5]]. The bar is another story, though.\n\nLet me know if Saturday, March 13 works for you!\n\nSanaz",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "has a dance floor", "trap": "wrong_detail", "whyVi": "Sàn nhảy là của The Hall." },
+        { "text": "can seat every guest at once", "trap": "wrong_detail", "whyVi": "Garden Room chỉ có 45 chỗ ngồi, ít hơn 50 khách — đây là bẫy dễ mắc." },
+        { "text": "suits a crowd our size", "trap": "none", "whyVi": "Đúng: sức chứa 60 người đứng — vừa với khoảng 50 khách; Loft quá chật, Hall quá rộng." },
+        { "text": "costs under $500", "trap": "wrong_detail", "whyVi": "Garden Room $720; dưới $500 là Loft và Den." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "The Loft would have us packed in like sardines, and the Hall would feel half-empty.",
+      "explanationVi": "Câu sau giải thích: Loft quá chật ('packed in like sardines'), Hall quá trống ('half-empty') → vấn đề là kích thước. 'suits a crowd our size' (vừa với số khách) diễn đạt lại cột 'Capacity'. Cẩn thận: 45 chỗ ngồi < 50 nên không thể 'seat every guest'.",
+      "vocabulary": ["packed in like sardines"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "a sheltered outdoor area strung with lights", "trap": "none", "whyVi": "Đúng: 'Covered patio with string lights' — hiên ngoài trời có mái che, giăng đèn dây." },
+        { "text": "an open-air garden lit by candles", "trap": "word_match", "whyVi": "Chữ 'Garden' trùng với tên phòng, nhưng patio có mái che (không phải 'open-air') và bảng không nhắc tới nến." },
+        { "text": "a cozy fireplace and board games", "trap": "wrong_detail", "whyVi": "Lò sưởi và trò chơi là của The Den." },
+        { "text": "a stage and a wireless microphone", "trap": "wrong_detail", "whyVi": "Sân khấu và micro là của The Hall." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "Covered patio with string lights, projector and screen",
+      "explanationVi": "'which will look gorgeous once it gets dark' gợi ý thứ gì đó có đèn. 'Covered patio' → 'sheltered outdoor area'; 'string lights' → 'strung with lights'.",
+      "vocabulary": ["covered patio"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "skip the confetti cannon", "trap": "wrong_detail", "whyVi": "Cấm confetti là quy định của Loft và Hall, không phải Garden Room." },
+        { "text": "turn the speakers off at ten", "trap": "none", "whyVi": "Đúng: Garden Room cấm 'Amplified music after 10 p.m.' — nhạc qua loa phải tắt lúc 10 giờ." },
+        { "text": "play quietly for the whole evening", "trap": "too_broad", "whyVi": "Quy định chỉ áp dụng sau 10 giờ tối, không phải suốt buổi." },
+        { "text": "keep the music off the patio", "trap": "not_mentioned", "whyVi": "Bảng không cấm nhạc ở khu hiên." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Amplified music after 10 p.m.",
+      "explanationVi": "Cột 'Not allowed' của Garden Room: 'Amplified music after 10 p.m.' 'Amplified music' (nhạc khuếch đại) → 'the speakers'; 'after 10 p.m.' → 'at ten'. 'by then' trong email cũng ám chỉ một mốc giờ cụ thể.",
+      "vocabulary": ["amplified"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "the full amount, which we can't get back", "trap": "opposite", "whyVi": "Chỉ cần đặt cọc 25%, và tiền cọc được hoàn nếu hủy trước 30 ngày." },
+        { "text": "a quarter of the cost, which we lose if we cancel at all", "trap": "partially_true", "whyVi": "Đúng là 25%, nhưng tiền cọc vẫn được hoàn nếu hủy sớm (trước 30 ngày)." },
+        { "text": "a quarter of the cost, which we'll get back if we cancel a month ahead", "trap": "none", "whyVi": "Đúng: 'a 25% deposit ... refundable up to 30 days before the event'." },
+        { "text": "$120 for the extra hour", "trap": "wrong_detail", "whyVi": "$120 là phí giờ thêm, không phải tiền giữ chỗ." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "a 25% deposit holds your date and is refundable up to 30 days before the event",
+      "explanationVi": "'To hold the date' khớp với 'holds your date' trong chú thích. '25%' → 'a quarter'; 'refundable up to 30 days before' → 'get back if we cancel a month ahead'. Phương án B đúng một nửa nhưng sai phần hoàn tiền.",
+      "vocabulary": ["deposit", "put down"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "bring our own plates", "trap": "word_match", "whyVi": "'plating fee' là phí bày món ra đĩa và phục vụ, không có nghĩa là tự mang đĩa." },
+        { "text": "pay a small charge per guest to have them served", "trap": "none", "whyVi": "Đúng: 'outside food is welcome with a $3-per-guest plating fee'." },
+        { "text": "let their kitchen cook them", "trap": "opposite", "whyVi": "Bánh do mẹ Farida làm (đồ ăn mang từ ngoài vào), không phải bếp của địa điểm." },
+        { "text": "serve them before ten o'clock", "trap": "not_mentioned", "whyVi": "Mốc 10 giờ chỉ áp dụng cho nhạc, không phải đồ ăn." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "outside food is welcome with a $3-per-guest plating fee",
+      "explanationVi": "'more than welcome ... as long as' (rất hoan nghênh ... miễn là) → tìm điều kiện cho đồ ăn mang vào. '$3-per-guest plating fee' → 'a small charge per guest to have them served'.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "Why does Sanaz say 'The bar is another story'?",
+      "options": [
+        { "text": "Unlike the food, drinks can only be served by the venue's own trained staff.", "trap": "none", "whyVi": "Đúng: 'all bar service is provided by our licensed staff only' — khác với đồ ăn, đồ uống chỉ do nhân viên có giấy phép của địa điểm phục vụ." },
+        { "text": "She will need to apply for a liquor licence herself.", "trap": "word_match", "whyVi": "Chữ 'licensed' trong bảng nói về nhân viên của địa điểm; Sanaz không cần tự xin giấy phép." },
+        { "text": "The Garden Room does not serve alcohol.", "trap": "not_mentioned", "whyVi": "Bảng không nói phòng này không phục vụ đồ uống có cồn." },
+        { "text": "Farida's family will take care of the drinks.", "trap": "opposite", "whyVi": "Gia đình Farida lo đồ ăn; đồ uống chỉ do nhân viên địa điểm phục vụ." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "all bar service is provided by our licensed staff only",
+      "explanationVi": "'another story' = chuyện khác hẳn, tức là quy định khác với đồ ăn. Chú thích: đồ ăn ngoài được phép, nhưng quầy bar chỉ do 'our licensed staff only' phục vụ.",
+      "vocabulary": ["another story"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "packed in like sardines", "vi": "chật như nêm", "definition": "crowded very closely together", "example": "Fifty people in that small room would be packed in like sardines." },
+    { "term": "covered patio", "vi": "hiên ngoài trời có mái che", "definition": "an outdoor area next to a building with a roof over it", "example": "Guests can chat on the covered patio even if it rains." },
+    { "term": "amplified", "vi": "được khuếch đại (qua loa)", "definition": "made louder with electronic equipment", "example": "Amplified music must stop at 10 p.m." },
+    { "term": "deposit", "vi": "tiền đặt cọc", "definition": "money paid in advance to hold a booking", "example": "A 25% deposit holds your date." },
+    { "term": "put down", "vi": "đặt (cọc), trả trước", "definition": "to pay part of a price in advance", "example": "We put down $200 to reserve the room." },
+    { "term": "another story", "vi": "chuyện khác hẳn", "definition": "a completely different situation", "example": "Food is fine, but drinks are another story." },
+    { "term": "the only catch", "vi": "điểm vướng duy nhất", "definition": "the one hidden problem or disadvantage", "example": "The only catch is that music must stop at ten." }
+  ]
+}

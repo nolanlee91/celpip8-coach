@@ -1,0 +1,185 @@
+{
+  "id": "r4-full-05",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "housing",
+  "title": "Should Harbourview Terrace Lift Its Pet Ban?",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 10 independently; keys match. Replaced 'For twelve years' with 'Since 2012' so the timeline no longer contradicts 'bought in 2012' as years pass. Strata facts (3/4 vote, conditions, existing pets staying) are hedged and voiced by a fictional lawyer." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "Since 2012, the 140-unit Harbourview Terrace condominium in New Westminster has had one of the strictest pet bylaws in the city: no dogs, no cats, nothing larger than a goldfish. Next month, owners will vote on whether to replace it with a rule allowing one dog or cat per unit. Changing the bylaw needs a three-quarters majority, and both sides have been busy knocking on doors.\n\nThe push for change began with Anjali Desai, who moved in four years ago and now sits on the strata council. She argues that the ban is driving away exactly the kind of residents the building needs. \"Young families and retirees are the people most likely to stay for decades, and they're also the people most likely to have a pet,\" she said. She also points to a practical problem: several owners rent out their units, and landlords across Metro Vancouver say pet-friendly listings rent faster. \"We're turning away good tenants for no real reason.\"\n\nLongtime owner Walter Brenneman sees it differently. He bought his unit in 2012 precisely because of the ban. \"I have a serious allergy to cats. I chose this building with my eyes open, and so did everyone else,\" he said. \"Now I'm told the rules I relied on can be voted away. If that's how it works, what was the point of reading the bylaws?\" He is also concerned about noise, noting that the walls are thin enough for him to hear his neighbour's television.\n\nSome owners are less troubled by the principle than by the details. Sophie Laurent, who chairs the building's maintenance committee, says she would support pets in theory but wants answers first. Who will pay to repair scratched hallway carpets? Will dogs be allowed in the elevators? \"I've seen buildings change the rule overnight and then spend two years fighting over the fine print,\" she said. \"I'd rather have that fight now.\"\n\nStrata lawyer Daniel Osei-Mensah says disputes like this are increasingly common as more people live in condos. He notes that if the bylaw passes, the strata can still set conditions such as leash rules or a limit on size, and that pets already living in the building against the rules would generally be allowed to stay. \"A bylaw doesn't have to be all or nothing,\" he said. \"The buildings that get this right are the ones that write the conditions before the vote, not after.\"\n\nMeanwhile, at least one resident is quietly hoping for a yes. Ahmad Rahimi, a retired bus driver whose wife died last spring, says he has been looking at small dogs online for months. \"My daughter keeps telling me I need company,\" he said. \"If the vote goes the wrong way, I may have to sell, and I don't want to leave.\"\n\nBallots are due on November 28.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I've owned a unit at Harbourview Terrace for six years, and I'm still undecided. Ms. Desai makes a fair point that the ban may be [[6]], and as someone who rents out a second unit, I know how expensive an empty month can be. On the other hand, I have real sympathy for Mr. Brenneman. He made a major decision based on the rules at the time, and it's hard to tell him he was wrong to [[7]]. What has shifted my thinking most is Mr. Osei-Mensah's advice. If we [[8]], most of Ms. Laurent's questions about carpets and elevators would be answered before anyone casts a ballot. I was also moved by Mr. Rahimi's story. It seems harsh that a vote could [[9]]. Finally, the lawyer's reminder that [[10]] should reassure the few owners who are already quietly keeping a cat.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Which statement best summarizes the article?",
+      "options": [
+        { "text": "A New Westminster condo has decided to allow dogs and cats.", "trap": "opposite", "whyVi": "Chưa có quyết định; cuộc bỏ phiếu diễn ra tháng sau." },
+        { "text": "Pet ownership is rising quickly across Metro Vancouver.", "trap": "too_broad", "whyVi": "Bài chỉ nói về một tòa chung cư; không đưa số liệu nuôi thú cưng toàn vùng." },
+        { "text": "Owners in one building are divided ahead of a vote on allowing pets.", "trap": "none", "whyVi": "Đúng: Bài nêu cuộc bỏ phiếu sắp tới và các ý kiến ủng hộ (Desai, Rahimi), phản đối (Brenneman), băn khoăn (Laurent)." },
+        { "text": "An owner is taking his neighbours to court over noise.", "trap": "word_match", "whyVi": "Brenneman có nhắc tiếng ồn, nhưng không kiện ai." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "Next month, owners will vote on whether to replace it with a rule allowing one dog or cat per unit.",
+      "explanationVi": "Ý chính = sự kiện (cuộc bỏ phiếu về thú cưng) + các quan điểm chia rẽ ('both sides have been busy knocking on doors'). A sai vì chưa bỏ phiếu; B quá rộng.",
+      "vocabulary": ["bylaw"]
+    },
+    {
+      "number": 2,
+      "prompt": "Why does Anjali Desai mention landlords and tenants?",
+      "options": [
+        { "text": "To show the ban also costs money for owners who rent out units", "trap": "none", "whyVi": "Đúng: Căn hộ cho phép thú cưng cho thuê nhanh hơn, nên lệnh cấm khiến chủ cho thuê mất khách tốt." },
+        { "text": "To argue that tenants should be allowed to vote", "trap": "not_mentioned", "whyVi": "Bà không đề cập quyền bỏ phiếu của người thuê." },
+        { "text": "To complain that renters often break the building's rules", "trap": "not_mentioned", "whyVi": "Bà không phàn nàn về người thuê; bà gọi họ là 'good tenants'." },
+        { "text": "To suggest owners should stop renting out their units", "trap": "opposite", "whyVi": "Bà muốn giúp chủ cho thuê tìm người thuê dễ hơn, không khuyên ngừng cho thuê." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "landlords across Metro Vancouver say pet-friendly listings rent faster",
+      "explanationVi": "Bài không nói thẳng 'tốn tiền', nhưng 'rent faster' và 'turning away good tenants' ngụ ý căn hộ bị bỏ trống lâu hơn → chủ cho thuê mất tiền. Bình luận cũng xác nhận: 'how expensive an empty month can be'.",
+      "vocabulary": ["rent out"]
+    },
+    {
+      "number": 3,
+      "prompt": "When Walter Brenneman asks \"what was the point of reading the bylaws?\", he is mainly expressing",
+      "options": [
+        { "text": "embarrassment that he never read the bylaws carefully.", "trap": "opposite", "whyVi": "Ông đã đọc kỹ và mua nhà 'precisely because of the ban'." },
+        { "text": "confusion about how strata bylaws are written.", "trap": "not_mentioned", "whyVi": "Ông không nói quy định khó hiểu." },
+        { "text": "a wish for the vote to need only a simple majority.", "trap": "opposite", "whyVi": "Ông phản đối thay đổi, nên không muốn hạ ngưỡng bỏ phiếu." },
+        { "text": "frustration that rules buyers relied on can be changed later.", "trap": "none", "whyVi": "Đúng: Ông chọn tòa nhà vì lệnh cấm; câu hỏi tu từ cho thấy ông thấy bất công khi quy định có thể bị 'voted away'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "\"Now I'm told the rules I relied on can be voted away. If that's how it works, what was the point of reading the bylaws?\"",
+      "explanationVi": "Đây là câu hỏi tu từ (rhetorical question), không cần trả lời. Ý thật: đọc quy định là vô ích nếu nó có thể bị thay đổi → bực bội, cảm thấy bất công. 'Relied on' = dựa vào khi quyết định mua.",
+      "vocabulary": ["with your eyes open"]
+    },
+    {
+      "number": 4,
+      "prompt": "What is Sophie Laurent's position?",
+      "options": [
+        { "text": "She opposes pets because carpet repairs would be too expensive.", "trap": "partially_true", "whyVi": "Bà có hỏi ai trả tiền sửa thảm, nhưng bà nói 'would support pets in theory'." },
+        { "text": "She is open to pets but wants practical questions settled before any change.", "trap": "none", "whyVi": "Đúng: Ủng hộ về nguyên tắc nhưng muốn có câu trả lời trước ('wants answers first', 'I'd rather have that fight now')." },
+        { "text": "She thinks the rule should be changed overnight.", "trap": "word_match", "whyVi": "Dùng lại 'overnight', nhưng bà cảnh báo việc đổi quy định vội vàng." },
+        { "text": "She believes the building has already changed the rule.", "trap": "not_mentioned", "whyVi": "Bà nói về 'buildings' khác; tòa nhà này chưa đổi quy định." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "says she would support pets in theory but wants answers first",
+      "explanationVi": "'In theory' = về nguyên tắc; 'but wants answers first' = nhưng cần giải quyết chi tiết trước. Câu 'I'd rather have that fight now' cho thấy bà muốn tranh luận chi tiết trước bỏ phiếu thay vì cãi nhau hai năm sau.",
+      "vocabulary": ["fine print"]
+    },
+    {
+      "number": 5,
+      "prompt": "What does Daniel Osei-Mensah mean by \"A bylaw doesn't have to be all or nothing\"?",
+      "options": [
+        { "text": "A strata must either ban every pet or allow every pet.", "trap": "opposite", "whyVi": "Đây chính là 'all or nothing' mà ông nói là không bắt buộc." },
+        { "text": "Bylaws cannot be changed once they are passed.", "trap": "not_mentioned", "whyVi": "Ông không nói vậy; cả bài nói về việc thay đổi quy định." },
+        { "text": "A strata can allow pets while still placing limits on them.", "trap": "none", "whyVi": "Đúng: Ban quản trị vẫn có thể đặt điều kiện như dắt dây hay giới hạn kích cỡ." },
+        { "text": "Pets already in the building would have to leave.", "trap": "opposite", "whyVi": "Ông nói chúng 'would generally be allowed to stay'." }
+      ],
+      "answerIndex": 2,
+      "category": "vocabulary",
+      "evidence": "the strata can still set conditions such as leash rules or a limit on size",
+      "explanationVi": "'All or nothing' = hoặc tất cả hoặc không gì. Ông nói không cần chọn giữa cấm hẳn và cho phép tự do: có thể cho phép kèm điều kiện ('set conditions').",
+      "vocabulary": ["all or nothing"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "illegal under provincial law", "trap": "not_mentioned", "whyVi": "Không ai nói lệnh cấm vi phạm luật tỉnh." },
+        { "text": "popular with young families", "trap": "opposite", "whyVi": "Desai nói gia đình trẻ thường có thú cưng, nên lệnh cấm khiến họ không đến." },
+        { "text": "too strict about goldfish", "trap": "word_match", "whyVi": "Cá vàng được phép; từ 'goldfish' chỉ dùng để minh họa mức nghiêm ngặt." },
+        { "text": "keeping away people who would stay for the long term", "trap": "none", "whyVi": "Đúng: Desai nói lệnh cấm đẩy đi gia đình trẻ và người về hưu — những người 'most likely to stay for decades'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "\"Young families and retirees are the people most likely to stay for decades, and they're also the people most likely to have a pet,\"",
+      "explanationVi": "'Driving away' = 'keeping away'; 'stay for decades' = 'stay for the long term'. Đây là lập luận chính của Desai."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "rely on the bylaws when he bought", "trap": "none", "whyVi": "Đúng: Ông mua căn hộ dựa vào lệnh cấm ('the rules I relied on')." },
+        { "text": "complain about his neighbour's television", "trap": "partially_true", "whyVi": "Ông có nhắc tiếng TV, nhưng 'decision based on the rules' là về việc mua nhà, không phải phàn nàn tiếng ồn." },
+        { "text": "rent out his unit", "trap": "wrong_detail", "whyVi": "Không có thông tin Brenneman cho thuê căn hộ; người cho thuê là người viết." },
+        { "text": "join the strata council", "trap": "wrong_speaker", "whyVi": "Người ở trong ban quản trị là Desai." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "He bought his unit in 2012 precisely because of the ban.",
+      "explanationVi": "'A major decision based on the rules at the time' = mua nhà vì lệnh cấm. Vì vậy khó nói ông sai khi 'rely on the bylaws when he bought'."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "delay the vote until next year", "trap": "not_mentioned", "whyVi": "Không ai đề xuất hoãn bỏ phiếu; luật sư khuyên viết điều kiện trước bỏ phiếu." },
+        { "text": "agree on the conditions before voting", "trap": "none", "whyVi": "Đúng: Luật sư nói các tòa nhà làm tốt là những nơi 'write the conditions before the vote'." },
+        { "text": "keep the current bylaw", "trap": "opposite", "whyVi": "Nếu giữ lệnh cấm thì câu hỏi về thảm, thang máy không còn cần trả lời; không khớp với lời khuyên của luật sư." },
+        { "text": "allow only cats", "trap": "not_mentioned", "whyVi": "Không ai đề xuất chỉ cho nuôi mèo." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "\"The buildings that get this right are the ones that write the conditions before the vote, not after.\"",
+      "explanationVi": "'Mr. Osei-Mensah's advice' + 'answered before anyone casts a ballot' → viết điều kiện trước khi bỏ phiếu. 'Write the conditions' = 'agree on the conditions'."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "make him buy a small dog", "trap": "word_match", "whyVi": "Ông muốn mua chó nhỏ; không ai bắt ông." },
+        { "text": "stop his daughter from visiting", "trap": "not_mentioned", "whyVi": "Bài không nói con gái ông bị cấm đến thăm." },
+        { "text": "push him to sell a home he wants to keep", "trap": "none", "whyVi": "Đúng: 'If the vote goes the wrong way, I may have to sell, and I don't want to leave.'" },
+        { "text": "raise his monthly strata fees", "trap": "not_mentioned", "whyVi": "Không có thông tin về phí quản lý." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "\"If the vote goes the wrong way, I may have to sell, and I don't want to leave.\"",
+      "explanationVi": "'It seems harsh that a vote could...' cần một hậu quả nặng nề cho Rahimi. Nếu không được nuôi chó (bầu bạn sau khi vợ mất), ông có thể phải bán nhà dù không muốn đi."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "dogs will be banned from the elevators", "trap": "not_mentioned", "whyVi": "Đây chỉ là câu hỏi của Laurent, chưa có quy định nào." },
+        { "text": "the strata cannot set any conditions", "trap": "opposite", "whyVi": "Luật sư nói ngược lại: ban quản trị vẫn có thể đặt điều kiện." },
+        { "text": "pets must be no larger than a goldfish", "trap": "word_match", "whyVi": "Đây là quy định hiện tại, không phải lời nhắc của luật sư, và không trấn an người đang nuôi mèo." },
+        { "text": "animals already living there would usually be allowed to remain", "trap": "none", "whyVi": "Đúng: Luật sư nói thú cưng đang ở trái quy định 'would generally be allowed to stay'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "pets already living in the building against the rules would generally be allowed to stay",
+      "explanationVi": "Người được trấn an là chủ căn hộ 'already quietly keeping a cat' (đang nuôi lén). Điều làm họ yên tâm là thú cưng hiện có được ở lại. 'Generally' = 'usually'; 'stay' = 'remain'."
+    }
+  ],
+  "vocabulary": [
+    { "term": "bylaw", "vi": "quy định nội bộ (của strata/thành phố)", "definition": "a rule made by a local organization such as a strata or city", "example": "The building has a strict pet bylaw." },
+    { "term": "rent out", "vi": "cho thuê", "definition": "to let someone use your property in return for payment", "example": "Several owners rent out their units." },
+    { "term": "with your eyes open", "vi": "biết rõ mình đang chọn gì", "definition": "fully aware of the facts when making a decision", "example": "I chose this building with my eyes open." },
+    { "term": "fine print", "vi": "các điều khoản chi tiết", "definition": "the small details of a rule or agreement", "example": "They spent two years fighting over the fine print." },
+    { "term": "all or nothing", "vi": "hoặc tất cả hoặc không gì", "definition": "allowing only two extreme choices", "example": "A pet bylaw doesn't have to be all or nothing." },
+    { "term": "knock on doors", "vi": "đi gõ cửa vận động", "definition": "to visit people at home to ask for their support", "example": "Both sides have been knocking on doors." },
+    { "term": "cast a ballot", "vi": "bỏ phiếu", "definition": "to vote", "example": "Owners will cast their ballots in November." },
+    { "term": "strata council", "vi": "ban quản trị chung cư", "definition": "the elected group that manages a condo building", "example": "She now sits on the strata council." }
+  ]
+}

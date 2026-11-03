@@ -1,0 +1,399 @@
+{
+  "id": "r4-mock-04",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "recreation",
+  "title": "Paying to Park at the Trailhead",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Near-duplicate scenario of r4-full-05 (same batch): crowded trailhead on a sunny July Saturday, cars along the road shoulder, ambulance blocked, $12 charge, free shuttle, Brackendale, café owner worried about day-trippers, reservation-system idea. Keep only one of the pair. Content otherwise passes: all 10 keys solved independently and match, each blank has one logical option, no edits needed. Can be approved if r4-full-05 is dropped or rewritten. 2026-11-03: the duplicate counterpart (r4-full / r4-drill-03) was rewritten with a different scenario, so the duplication no longer applies; approved on the reviewer’s item-quality findings."
+  },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "On a sunny Saturday in July, the gravel lot at the base of Mount Tessaly can be full by 7:30 a.m. By mid-morning, cars line both shoulders of Brackendale Road for nearly a kilometre, and hikers are dodging traffic to reach the trail. Now the Kestrel Valley Regional District wants to tackle the crunch with a measure that has split the community: paid parking at its three busiest trailheads, at $3 an hour or $12 a day.\n\nParks manager Simone Achebe insists the fees are not a cash grab. The district spends about $210,000 a year on washrooms, garbage collection and trail repairs at the three sites, and visitor numbers have nearly doubled since 2019. \"Right now, the people who live here are footing the bill for the people who visit,\" she said. Achebe also hopes the fees will nudge visitors toward a free weekend shuttle from the town centre. \"We can't pave our way out of this. Every new stall just invites another car.\"\n\nFor Darnell Fisk, president of the Tessaly Trail Society, the proposal misses the point. His volunteers built many of the trails in the first place, and he argues that charging for access turns a public good into a product. \"A family that drives up every weekend is suddenly looking at fifty dollars a month,\" he said. \"Those aren't the people causing the problem.\" Fisk also predicts that drivers will simply leave their cars along nearby roads, where parking is free. He would rather see a free reservation system that caps the number of vehicles in each lot.\n\nResidents of Brackendale Road see things differently. Hye-jin Park, whose driveway sits across from the trailhead, says she has twice been unable to get her car out on weekend mornings, and an ambulance once struggled to reach a neighbour. \"I'm not against hikers. I'm against chaos,\" she said. The district says it would pair the fees with no-parking zones on the road shoulders, enforced by bylaw officers, which Park calls \"the part that actually matters.\"\n\nLocal businesses are watching closely. Mateo Lindqvist, who owns a café and bike rental shop in town, worries that day-trippers from the Lower Mainland may decide the drive is no longer worth it. On the other hand, a shuttle that drops hikers in the town centre could bring customers right to his door. \"If it's done right, I come out ahead,\" he said. \"If it's done badly, I'm the one who pays.\"\n\nThe proposal includes a $45 annual pass for residents of the regional district and free parking for anyone with a disability parking permit. The board will hold a public hearing on April 14 before voting in May. If approved, fees would begin in June and be reviewed after one year.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I've hiked Mount Tessaly for twenty years, and I used to agree with Mr. Fisk that a trail should never come with a price tag. After reading this article, I'm less sure. Ms. Achebe's point that [[6]] is hard to argue with: paving more forest would only invite more traffic. That said, Mr. Fisk's prediction that drivers will [[7]] worries me, and it's the reason I think Ms. Park has it right. Without [[8]], the fees will just move the cars from the lot to the roadside. I'd also like the board to take his reservation idea seriously, since it [[9]]. As for Mr. Lindqvist, I suspect he'll do fine as long as the shuttle runs often. Whatever the board decides, I hope the one-year review [[10]], so we learn whether the road is actually any clearer.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the article mainly about?",
+      "options": [
+        {
+          "text": "How volunteers built and maintain the trails on Mount Tessaly",
+          "trap": "word_match",
+          "whyVi": "Bài có nhắc tình nguyện viên làm đường mòn, nhưng đó chỉ là một chi tiết trong ý kiến của Fisk."
+        },
+        {
+          "text": "A plan to charge for parking at popular trails and the mixed reactions to it",
+          "trap": "none",
+          "whyVi": "Đúng: Bài giới thiệu đề xuất thu phí đỗ xe rồi lần lượt đưa ý kiến của quản lý công viên, hội đường mòn, cư dân và chủ doanh nghiệp."
+        },
+        {
+          "text": "A new free shuttle that will replace parking at the trailheads",
+          "trap": "partially_true",
+          "whyVi": "Xe buýt đưa đón chỉ là một phần của kế hoạch, và nó không thay thế bãi đỗ."
+        },
+        {
+          "text": "The growing number of injuries among hikers on busy roads",
+          "trap": "not_mentioned",
+          "whyVi": "Bài nói người đi bộ phải tránh xe, nhưng không nói về số người bị thương."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "Now the Kestrel Valley Regional District wants to tackle the crunch with a measure that has split the community: paid parking at its three busiest trailheads",
+      "explanationVi": "Ý chính nằm ở cuối đoạn 1: một biện pháp 'has split the community' – thu phí đỗ xe. Các đoạn sau là các quan điểm khác nhau. 'Split the community' = 'mixed reactions'. A và C chỉ là chi tiết.",
+      "vocabulary": [
+        "crunch"
+      ]
+    },
+    {
+      "number": 2,
+      "prompt": "What does Simone Achebe suggest about the current situation?",
+      "options": [
+        {
+          "text": "Local residents should stop using the busiest trails.",
+          "trap": "not_mentioned",
+          "whyVi": "Bà không đề nghị cư dân ngừng đi bộ đường mòn."
+        },
+        {
+          "text": "Visitors are deliberately damaging the trails.",
+          "trap": "not_mentioned",
+          "whyVi": "Bài có 'trail repairs' nhưng không nói du khách cố ý phá hoại."
+        },
+        {
+          "text": "Residents will have to pay higher fees than visitors.",
+          "trap": "opposite",
+          "whyVi": "Ngược lại, cư dân được mua thẻ năm $45, rẻ hơn."
+        },
+        {
+          "text": "Local taxpayers are covering costs created largely by outsiders.",
+          "trap": "none",
+          "whyVi": "Đúng: 'the people who live here are footing the bill for the people who visit' – người địa phương đang trả tiền cho chi phí do khách tạo ra."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "\"Right now, the people who live here are footing the bill for the people who visit,\" she said.",
+      "explanationVi": "'Foot the bill' = trả tiền. Kết hợp với chi phí $210,000 và lượng khách tăng gấp đôi, ta suy ra: người dân địa phương (qua thuế của khu vực) đang gánh chi phí do khách bên ngoài gây ra.",
+      "vocabulary": [
+        "foot the bill"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "What alternative does Darnell Fisk propose?",
+      "options": [
+        {
+          "text": "Limiting the number of cars without charging drivers anything",
+          "trap": "none",
+          "whyVi": "Đúng: 'a free reservation system that caps the number of vehicles' – giới hạn số xe mà không thu tiền."
+        },
+        {
+          "text": "Having volunteers collect parking fees at each lot",
+          "trap": "word_match",
+          "whyVi": "Bài có 'volunteers' và 'fees' nhưng Fisk không đề xuất tình nguyện viên thu phí."
+        },
+        {
+          "text": "Building larger parking lots at the three trailheads",
+          "trap": "wrong_speaker",
+          "whyVi": "Không ai đề xuất mở rộng bãi; ý về 'pave' là của Achebe, và bà bác bỏ ý này."
+        },
+        {
+          "text": "Charging fees only to families who visit every weekend",
+          "trap": "opposite",
+          "whyVi": "Fisk nói chính những gia đình này không phải là người gây ra vấn đề."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "He would rather see a free reservation system that caps the number of vehicles in each lot.",
+      "explanationVi": "'Would rather see' giới thiệu phương án của ông. 'Free' = 'without charging drivers anything'; 'caps the number of vehicles' = 'limiting the number of cars'.",
+      "vocabulary": [
+        "cap"
+      ]
+    },
+    {
+      "number": 4,
+      "prompt": "Which part of the plan does Hye-jin Park consider most important?",
+      "options": [
+        {
+          "text": "The hourly parking fee itself",
+          "trap": "partially_true",
+          "whyVi": "Bà không phản đối phí, nhưng phần bà coi trọng là lệnh cấm đỗ xe được thực thi."
+        },
+        {
+          "text": "The free shuttle from the town centre",
+          "trap": "wrong_detail",
+          "whyVi": "Bà không nhắc tới xe đưa đón."
+        },
+        {
+          "text": "Keeping cars off the road shoulders and enforcing it",
+          "trap": "none",
+          "whyVi": "Đúng: 'the part that actually matters' chỉ 'no-parking zones on the road shoulders, enforced by bylaw officers'."
+        },
+        {
+          "text": "The annual pass for local residents",
+          "trap": "not_mentioned",
+          "whyVi": "Bà không nói gì về thẻ năm."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "The district says it would pair the fees with no-parking zones on the road shoulders, enforced by bylaw officers, which Park calls \"the part that actually matters.\"",
+      "explanationVi": "Đại từ 'which' chỉ lại cụm 'no-parking zones ... enforced by bylaw officers'. Bà khổ vì xe đỗ chắn lối ra nhà, nên với bà điều quan trọng là đường được dọn sạch xe. Đáp án A là bẫy vì 'fees' đứng ngay trước trong câu.",
+      "vocabulary": [
+        "bylaw officer"
+      ]
+    },
+    {
+      "number": 5,
+      "prompt": "Which best describes Mateo Lindqvist's attitude toward the proposal?",
+      "options": [
+        {
+          "text": "He is firmly opposed because it will drive tourists away.",
+          "trap": "partially_true",
+          "whyVi": "Ông có lo khách bỏ đi, nhưng cũng thấy cơ hội từ xe đưa đón; không phải phản đối dứt khoát."
+        },
+        {
+          "text": "He believes its effect on him depends on how well it is carried out.",
+          "trap": "none",
+          "whyVi": "Đúng: 'If it's done right, I come out ahead... If it's done badly, I'm the one who pays.'"
+        },
+        {
+          "text": "He is confident it will bring him more customers.",
+          "trap": "partially_true",
+          "whyVi": "Đó chỉ là một khả năng ông nêu, không phải điều ông chắc chắn."
+        },
+        {
+          "text": "He thinks businesses should help pay for the shuttle.",
+          "trap": "not_mentioned",
+          "whyVi": "Ông không đề nghị doanh nghiệp góp tiền cho xe đưa đón."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"If it's done right, I come out ahead,\" he said. \"If it's done badly, I'm the one who pays.\"",
+      "explanationVi": "Hai câu điều kiện đối lập cho thấy ông không đứng hẳn về phía nào: kết quả tốt hay xấu tùy cách triển khai. 'Come out ahead' = được lợi. A và C mỗi đáp án chỉ lấy một nửa ý.",
+      "vocabulary": [
+        "come out ahead"
+      ]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        {
+          "text": "adding more parking would not solve anything",
+          "trap": "none",
+          "whyVi": "Đúng: Achebe nói 'We can't pave our way out of this. Every new stall just invites another car', khớp với vế sau dấu hai chấm."
+        },
+        {
+          "text": "the shuttle will be free on weekends",
+          "trap": "word_match",
+          "whyVi": "Đúng với bài, nhưng không khớp với lời giải thích sau dấu hai chấm về việc làm thêm bãi đỗ."
+        },
+        {
+          "text": "the fees are not meant to make money",
+          "trap": "partially_true",
+          "whyVi": "Bà có nói 'not a cash grab', nhưng vế sau dấu hai chấm nói về việc mở rộng bãi, không phải mục đích của phí."
+        },
+        {
+          "text": "residents are not against hikers",
+          "trap": "wrong_speaker",
+          "whyVi": "Câu 'I'm not against hikers' là của Hye-jin Park."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"We can't pave our way out of this. Every new stall just invites another car.\"",
+      "explanationVi": "Dấu hai chấm giới thiệu lời giải thích: 'paving more forest would only invite more traffic'. Vậy chỗ trống phải là ý 'mở rộng bãi đỗ không giải quyết được gì' – chính ý của Achebe. Các đáp án B, C cũng đúng với bài nhưng không khớp logic câu."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        {
+          "text": "stop visiting the area altogether",
+          "trap": "wrong_speaker",
+          "whyVi": "Lo khách không đến nữa là ý của Lindqvist, không phải dự đoán của Fisk."
+        },
+        {
+          "text": "switch to the weekend shuttle",
+          "trap": "opposite",
+          "whyVi": "Đây là điều Achebe hy vọng; Fisk dự đoán điều ngược lại."
+        },
+        {
+          "text": "park along nearby roads instead",
+          "trap": "none",
+          "whyVi": "Đúng: Fisk dự đoán 'drivers will simply leave their cars along nearby roads, where parking is free'."
+        },
+        {
+          "text": "buy the annual pass",
+          "trap": "not_mentioned",
+          "whyVi": "Fisk không dự đoán gì về thẻ năm."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Fisk also predicts that drivers will simply leave their cars along nearby roads, where parking is free.",
+      "explanationVi": "'Mr. Fisk's prediction' → tìm từ 'predicts' trong đoạn 3. 'Leave their cars along nearby roads' = 'park along nearby roads instead'. Câu sau trong bình luận ('move the cars from the lot to the roadside') cũng xác nhận."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        {
+          "text": "a discount for local families",
+          "trap": "partially_true",
+          "whyVi": "Thẻ năm cho cư dân có trong kế hoạch, nhưng không ngăn xe đỗ ven đường."
+        },
+        {
+          "text": "a public hearing in April",
+          "trap": "wrong_detail",
+          "whyVi": "Buổi điều trần không liên quan đến việc xe đỗ ven đường."
+        },
+        {
+          "text": "a larger gravel lot",
+          "trap": "opposite",
+          "whyVi": "Người viết vừa đồng ý rằng mở rộng bãi chỉ thu hút thêm xe."
+        },
+        {
+          "text": "parking bans on the shoulders that are actually enforced",
+          "trap": "none",
+          "whyVi": "Đúng: Đây là phần Park cho là quan trọng – vùng cấm đỗ do nhân viên bylaw thực thi."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "no-parking zones on the road shoulders, enforced by bylaw officers",
+      "explanationVi": "Câu trước nói 'Ms. Park has it right', nên chỗ trống là điều Park coi trọng. Logic: nếu không có lệnh cấm đỗ được thực thi thì xe chỉ chuyển từ bãi ra lề đường. 'No-parking zones ... enforced' = 'parking bans ... actually enforced'."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        {
+          "text": "would raise more money than the fees",
+          "trap": "opposite",
+          "whyVi": "Hệ thống đặt chỗ của Fisk là miễn phí, nên không thu được tiền."
+        },
+        {
+          "text": "would control crowds without putting a price on access",
+          "trap": "none",
+          "whyVi": "Đúng: hệ thống 'free' và 'caps the number of vehicles' – kiểm soát đông đúc mà không thu tiền."
+        },
+        {
+          "text": "was first suggested by Ms. Achebe",
+          "trap": "wrong_speaker",
+          "whyVi": "Ý tưởng đặt chỗ là của Fisk ('his reservation idea')."
+        },
+        {
+          "text": "would let more cars into each lot",
+          "trap": "opposite",
+          "whyVi": "Hệ thống giới hạn số xe, không tăng."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "He would rather see a free reservation system that caps the number of vehicles in each lot.",
+      "explanationVi": "Người viết từng tin 'a trail should never come with a price tag', nên lý do họ thích ý tưởng này là: giảm đông đúc ('caps the number of vehicles') mà vẫn miễn phí ('free'). 'Putting a price on access' nhắc lại lập luận 'turns a public good into a product' của Fisk."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        {
+          "text": "checks where people are parking, not just how much the fees bring in",
+          "trap": "none",
+          "whyVi": "Đúng: Vế sau 'so we learn whether the road is actually any clearer' cho thấy cần xem xe có còn đỗ ven đường không."
+        },
+        {
+          "text": "takes place before the April hearing",
+          "trap": "wrong_detail",
+          "whyVi": "Đánh giá diễn ra sau một năm áp dụng phí, không thể trước buổi điều trần tháng Tư."
+        },
+        {
+          "text": "gives every hiker a free annual pass",
+          "trap": "not_mentioned",
+          "whyVi": "Không ai đề xuất thẻ năm miễn phí cho mọi người; đây cũng không giúp biết đường có thông thoáng không."
+        },
+        {
+          "text": "focuses on how many tourists visit Mr. Lindqvist's café",
+          "trap": "wrong_detail",
+          "whyVi": "Không khớp với mục đích nêu ở vế 'so we learn whether the road is actually any clearer'."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "If approved, fees would begin in June and be reviewed after one year.",
+      "explanationVi": "Chỗ trống mô tả nội dung đợt đánh giá sau một năm. Mệnh đề mục đích 'so we learn whether the road is actually any clearer' chỉ khớp với đáp án A: kiểm tra xe đỗ ở đâu, không chỉ đếm tiền thu được."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "crunch",
+      "vi": "tình trạng quá tải, căng thẳng",
+      "definition": "a difficult situation caused by too much demand",
+      "example": "The district wants to tackle the parking crunch at the trailheads."
+    },
+    {
+      "term": "cash grab",
+      "vi": "chiêu kiếm tiền",
+      "definition": "an attempt to make money quickly, often unfairly",
+      "example": "The parks manager insists the fees are not a cash grab."
+    },
+    {
+      "term": "foot the bill",
+      "vi": "trả tiền, gánh chi phí",
+      "definition": "to pay for something, often for others",
+      "example": "Local residents are footing the bill for visitors."
+    },
+    {
+      "term": "nudge",
+      "vi": "khuyến khích nhẹ nhàng",
+      "definition": "to gently encourage someone to do something",
+      "example": "The fees may nudge visitors toward the shuttle."
+    },
+    {
+      "term": "cap",
+      "vi": "giới hạn tối đa",
+      "definition": "to set an upper limit on a number or amount",
+      "example": "A reservation system could cap the number of vehicles in each lot."
+    },
+    {
+      "term": "bylaw officer",
+      "vi": "nhân viên thực thi quy định địa phương",
+      "definition": "a municipal employee who enforces local rules",
+      "example": "Bylaw officers would enforce the no-parking zones."
+    },
+    {
+      "term": "come out ahead",
+      "vi": "được lợi, có lời",
+      "definition": "to gain more than you lose from a situation",
+      "example": "If the shuttle works, local cafés could come out ahead."
+    },
+    {
+      "term": "day-tripper",
+      "vi": "khách đi trong ngày",
+      "definition": "a person who visits a place and returns home the same day",
+      "example": "Day-trippers from the Lower Mainland fill the lot on weekends."
+    }
+  ]
+}

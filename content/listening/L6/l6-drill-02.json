@@ -1,0 +1,288 @@
+{
+  "id": "l6-drill-02",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "banking",
+  "title": "Long-conversation drill: Should shops have to accept cash?",
+  "context": "You will hear a radio host interviewing a consumer advocate who wants businesses in British Columbia to be required to accept cash.",
+  "estimatedMinutes": 6,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Sandra Kim, radio host",
+          "voice": "female_a",
+          "text": "More and more cafés and shops in Victoria are putting up signs that say card only. Farid Haddad of the BC Consumer Fairness Network wants the province to require businesses to accept cash. Farid, a lot of listeners will say that's the owner's call, not the government's."
+        },
+        {
+          "speaker": "Farid Haddad, consumer advocate",
+          "voice": "male_b",
+          "text": "I understand that reaction, Sandra, and for a while I shared it. But think about who still relies on cash. It's seniors who never got comfortable with tapping a card, people with poor credit who can't get one, and newcomers waiting for their first Canadian bank account. When a business refuses cash, it isn't just picking a payment method. It's picking which customers it's willing to serve."
+        },
+        {
+          "speaker": "Sandra Kim, radio host",
+          "voice": "female_a",
+          "text": "But the owners I've talked to have real reasons. Handling cash means counting tills, trips to the bank and the risk of break-ins. One bakery owner told me she went card-only after being robbed twice in a year. Are you telling her she has to take that risk?"
+        },
+        {
+          "speaker": "Farid Haddad, consumer advocate",
+          "voice": "male_b",
+          "text": "No, and that's a fair challenge. I'm not suggesting a corner bakery should be treated the same as a grocery chain. What I'd propose is a narrower rule. Businesses selling essentials, so groceries, pharmacies and transit, should have to accept cash. A café selling oat-milk lattes can do as it likes."
+        },
+        {
+          "speaker": "Sandra Kim, radio host",
+          "voice": "female_a",
+          "text": "So you've already backed away from asking everyone to take cash."
+        },
+        {
+          "speaker": "Farid Haddad, consumer advocate",
+          "voice": "male_b",
+          "text": "I'd put it differently. I've never lost sleep over whether someone can pay cash for a latte. I care whether they can buy groceries or a bus ticket. If the broad version is what got people talking, fine, but the essentials are where it actually matters."
+        },
+        {
+          "speaker": "Sandra Kim, radio host",
+          "voice": "female_a",
+          "text": "Some people would say the better fix is to get everyone banked. Make low-fee accounts easier to open, and the problem shrinks on its own."
+        },
+        {
+          "speaker": "Farid Haddad, consumer advocate",
+          "voice": "male_b",
+          "text": "I'm all for that, and in the long run you may well be right. But it takes years, and some people will never trust a bank, sometimes for good reasons. A woman leaving an abusive relationship, for instance, may not want a shared account history following her around. Cash is the one way of paying that doesn't leave a trail."
+        },
+        {
+          "speaker": "Sandra Kim, radio host",
+          "voice": "female_a",
+          "text": "And what about privacy for the rest of us?"
+        },
+        {
+          "speaker": "Farid Haddad, consumer advocate",
+          "voice": "male_b",
+          "text": "That's my last point. Every tap creates a record of where you were and what you bought. Most of us shrug that off. But a society where you can't buy a sandwich without being tracked isn't one any of us ever actually voted for."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How does Farid respond to Sandra's point that accepting cash should be the owner's decision?",
+          "options": [
+            {
+              "text": "He says owners should have no say at all in how customers pay.",
+              "trap": "too_broad",
+              "whyVi": "Quá rộng: sau đó ông còn đồng ý để quán cà phê tự quyết định."
+            },
+            {
+              "text": "He argues that going card-only effectively shuts out certain groups of people.",
+              "trap": "none",
+              "whyVi": "Đúng: từ chối tiền mặt nghĩa là chọn phục vụ khách nào — người cao tuổi, người có tín dụng kém, người mới đến bị loại ra."
+            },
+            {
+              "text": "He agrees with her and says he will not push the idea further.",
+              "trap": "opposite",
+              "whyVi": "Ông nói 'for a while I shared it' — trước đây ông từng nghĩ vậy, nhưng giờ thì không."
+            },
+            {
+              "text": "He points out that most seniors now prefer to tap their cards.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông nói nhiều người cao tuổi 'never got comfortable with tapping a card'."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "When a business refuses cash, it isn't just picking a payment method. It's picking which customers it's willing to serve.",
+          "explanationVi": "Ông bắt đầu bằng sự đồng cảm ('I understand that reaction... I shared it'), rồi chuyển ý bằng 'But'. Lập luận chính: từ chối tiền mặt = chọn khách hàng, tức là loại trừ một số nhóm. 'shuts out certain groups' là cách diễn đạt lại.",
+          "vocabulary": [
+            "someone's call"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "What leads Farid to narrow his proposal during the interview?",
+          "options": [
+            {
+              "text": "Sandra's example of a small business owner facing a real safety risk",
+              "trap": "none",
+              "whyVi": "Đúng: sau câu hỏi về chủ tiệm bánh bị cướp hai lần, ông nói 'that's a fair challenge' và đề xuất quy định hẹp hơn."
+            },
+            {
+              "text": "Complaints from grocery chains about the cost of handling cash",
+              "trap": "not_mentioned",
+              "whyVi": "Không có chuỗi siêu thị nào phàn nàn; ông còn nói siêu thị phải nhận tiền mặt."
+            },
+            {
+              "text": "A café owner who refused to give up selling lattes",
+              "trap": "word_match",
+              "whyVi": "'oat-milk lattes' chỉ là ví dụ ông dùng, không có chủ quán cà phê nào trong cuộc trò chuyện."
+            },
+            {
+              "text": "New figures showing that cash use is falling quickly",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không đưa ra số liệu về việc sử dụng tiền mặt."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "long_conversation",
+          "evidence": "No, and that's a fair challenge. I'm not suggesting a corner bakery should be treated the same as a grocery chain.",
+          "explanationVi": "Cần theo dõi mạch hội thoại: Sandra đưa ví dụ tiệm bánh bị cướp và hỏi 'Are you telling her she has to take that risk?'. Farid trả lời 'No, and that's a fair challenge' rồi đề xuất 'a narrower rule'. Vậy chính ví dụ của Sandra khiến ông thu hẹp đề xuất.",
+          "vocabulary": [
+            "fair challenge"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "How does Farid react when Sandra says he has backed away from his original position?",
+          "options": [
+            {
+              "text": "He admits that his first proposal was a mistake.",
+              "trap": "opposite",
+              "whyVi": "Ông không nhận sai: 'I'd put it differently'."
+            },
+            {
+              "text": "He insists that cafés should also be made to take cash.",
+              "trap": "wrong_detail",
+              "whyVi": "Ông nói rõ quán cà phê có thể tự quyết định."
+            },
+            {
+              "text": "He accuses Sandra of twisting his words.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông chỉ diễn đạt lại theo cách khác một cách lịch sự, không buộc tội Sandra."
+            },
+            {
+              "text": "He says his real concern has always been access to basic necessities.",
+              "trap": "none",
+              "whyVi": "Đúng: ông chưa bao giờ bận tâm chuyện trả tiền mặt cho ly latte; điều ông quan tâm là mua thực phẩm hay vé xe buýt."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "long_conversation",
+          "evidence": "I've never lost sleep over whether someone can pay cash for a latte. I care whether they can buy groceries or a bus ticket.",
+          "explanationVi": "'I'd put it differently' = tôi không đồng ý với cách bạn mô tả. Ông cho rằng mình không lùi bước, vì trọng tâm luôn là 'the essentials'. 'groceries or a bus ticket' được khái quát thành 'basic necessities'.",
+          "vocabulary": [
+            "back away from",
+            "lose sleep over"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What is Farid's view of the idea of making bank accounts easier to get?",
+          "options": [
+            {
+              "text": "He thinks it would remove the need for cash within a short time.",
+              "trap": "opposite",
+              "whyVi": "Ông nói việc này 'takes years', không nhanh."
+            },
+            {
+              "text": "He rejects it because banks cannot be trusted.",
+              "trap": "partially_true",
+              "whyVi": "Ông nói một số người sẽ không bao giờ tin ngân hàng, nhưng bản thân ông ủng hộ ý tưởng ('I'm all for that')."
+            },
+            {
+              "text": "He supports it but believes some people will still need cash.",
+              "trap": "none",
+              "whyVi": "Đúng: ông ủng hộ, nhưng việc này tốn nhiều năm và một số người vẫn cần tiền mặt."
+            },
+            {
+              "text": "He wants banks to be required to remove all their fees.",
+              "trap": "word_match",
+              "whyVi": "Sandra nói 'low-fee accounts', nhưng không ai đề nghị bỏ hết phí."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "I'm all for that, and in the long run you may well be right. But it takes years, and some people will never trust a bank, sometimes for good reasons.",
+          "explanationVi": "'I'm all for that' = hoàn toàn ủng hộ; 'But it takes years, and some people will never trust a bank' = nhưng giải pháp này không đủ cho tất cả. Đáp án B là bẫy vì lấy ý của một số người và gán cho Farid.",
+          "vocabulary": [
+            "in the long run"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What does Farid suggest about the way most people view the tracking of card payments?",
+          "options": [
+            {
+              "text": "They are deeply worried about it and want it stopped.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: 'Most of us shrug that off' — phần lớn người ta không bận tâm."
+            },
+            {
+              "text": "They know the government is using the records.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không nói chính phủ sử dụng dữ liệu thanh toán."
+            },
+            {
+              "text": "Only people leaving abusive relationships need to care about it.",
+              "trap": "partially_true",
+              "whyVi": "Ví dụ người phụ nữ rời bỏ mối quan hệ bạo hành chỉ là một trường hợp; ông nói quyền riêng tư liên quan đến mọi người."
+            },
+            {
+              "text": "They accept it without much thought, although they never really agreed to it.",
+              "trap": "none",
+              "whyVi": "Đúng: người ta 'shrug that off', nhưng xã hội bị theo dõi như vậy không phải là điều ai đã 'voted for'."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "Most of us shrug that off. But a society where you can't buy a sandwich without being tracked isn't one any of us ever actually voted for.",
+          "explanationVi": "'shrug that off' = nhún vai bỏ qua, không bận tâm. 'isn't one any of us ever actually voted for' = chưa ai thực sự đồng ý với điều đó. Đáp án D gộp cả hai vế.",
+          "vocabulary": [
+            "shrug off",
+            "leave a trail"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "someone's call",
+      "vi": "quyền quyết định của ai",
+      "definition": "a decision that a particular person has the right to make",
+      "example": "Accepting cash should be the owner's call."
+    },
+    {
+      "term": "fair challenge",
+      "vi": "câu chất vấn hợp lý",
+      "definition": "a reasonable question or objection to someone's argument",
+      "example": "That's a fair challenge, and I'll answer it."
+    },
+    {
+      "term": "back away from",
+      "vi": "lùi bước, rút lại (lập trường)",
+      "definition": "to stop supporting an idea or position you had before",
+      "example": "He has backed away from his original proposal."
+    },
+    {
+      "term": "lose sleep over",
+      "vi": "lo lắng, bận tâm về",
+      "definition": "to worry about something",
+      "example": "I've never lost sleep over how people pay for lattes."
+    },
+    {
+      "term": "in the long run",
+      "vi": "về lâu dài",
+      "definition": "over a long period of time in the future",
+      "example": "In the long run, better bank accounts may help."
+    },
+    {
+      "term": "leave a trail",
+      "vi": "để lại dấu vết",
+      "definition": "to leave signs or records that show where someone has been",
+      "example": "Cash is the one way of paying that doesn't leave a trail."
+    },
+    {
+      "term": "shrug off",
+      "vi": "xem nhẹ, bỏ qua",
+      "definition": "to treat something as unimportant",
+      "example": "Most of us shrug off being tracked."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 5 items independently; keys match; 4/5 long_conversation items meet the drill target. No BC law requires cash acceptance and the talk only frames it as advocacy by a fictional group, so no factual risk. Both speakers address each other by name, so names used in questions are audible. No edits needed."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

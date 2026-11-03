@@ -1,0 +1,172 @@
+{
+  "id": "r2-mock-06",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "environment",
+  "title": "Weighing heat pump rebates for an older house",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 8 items independently; all keys match. Checked eligibility logic (non-registry contractor = no rebate, ducted requires furnace removal, 3+ head mini-split allows backup, panel 50% of $2,400 = $1,200 under the $1,500 cap, $150 assessment before insulation, income $112,000 > $95,000); every rebate rule is presented only as part of the fictional CleanHeat Okanagan chart. Replaced the idiom 'on its last legs' (also tested in r2-full-07) with 'living on borrowed time' and updated Q8, its evidence and vocabulary." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Rebate chart",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "CleanHeat Okanagan — 2027 Home Heat Pump Rebates (pre-approval is required before any work begins; all work must be done by a contractor on the CleanHeat registry; rebates are paid within 8 weeks of a passed post-installation inspection)",
+        "headers": ["Upgrade", "Replaces", "Rebate", "Conditions", "Can be combined with"],
+        "rows": [
+          ["Ducted air-source heat pump", "Oil, propane or natural gas furnace", "$5,000", "Old system must be removed or permanently disconnected", "Electrical panel upgrade"],
+          ["Ductless mini-split (1–2 indoor heads)", "Electric baseboards", "$2,000", "Home must be heated only by electricity before the upgrade", "Electrical panel upgrade; attic insulation"],
+          ["Ductless mini-split (3 or more indoor heads)", "Oil, propane or natural gas furnace, or electric baseboards", "$3,500", "Backup heating may stay but must not be the main heat source", "Electrical panel upgrade; attic insulation"],
+          ["Electrical panel upgrade", "Panels under 200 amps", "50% of the cost, up to $1,500", "Only with a heat pump rebate in the same application", "Any heat pump rebate"],
+          ["Attic insulation", "Existing insulation below R-20", "60% of the cost, up to $1,200", "Pre-upgrade energy assessment required ($150, refunded with your rebate)", "Ductless mini-splits only"],
+          ["Income-qualified top-up", "Not applicable", "Doubles the heat pump rebate", "Household income under $95,000; proof from latest tax assessment", "All of the above"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Grace,\n\nYou asked how the heat pump research was going, so here's where Malik and I have landed.\n\nOur gas furnace is twenty-two years old and living on borrowed time, so we're replacing it either way. The installer we liked, Summit Mechanical, turned out not to be on the CleanHeat registry, so [[1]] if we hired them. Annoying, since their quote was the lowest.\n\nWe'd assumed a ducted system was a no-brainer, but there's a catch. Malik wants to hang on to the furnace for the coldest January nights, and with the ducted option, [[2]]. A three-head mini-split would let him keep it, as long as [[3]].\n\nOur panel is only 100 amps, and the quotes put an upgrade at $2,400, which would bring in another [[4]]. Insulation is trickier: we'd have to [[5]] before anything else, though that money comes back if the rebate goes through.\n\nSadly, with our combined income at $112,000, the top-up is off the table. A registered installer is coming for a site visit next Tuesday, and we'll apply for pre-approval right after that. Fingers crossed!\n\nTalk soon,\nImani",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "we'd have to wait eight weeks for the money", "trap": "word_match", "whyVi": "'8 weeks' có trong chú thích, nhưng đó là thời gian chờ của mọi khoản hoàn tiền, không phải hậu quả của việc thuê thợ ngoài danh sách." },
+        { "text": "we wouldn't see a cent of the rebate", "trap": "none", "whyVi": "Đúng: chú thích ghi 'all work must be done by a contractor on the CleanHeat registry' — thuê thợ không có trong danh sách thì mất toàn bộ tiền hoàn." },
+        { "text": "we'd only qualify for half the rebate", "trap": "not_mentioned", "whyVi": "Không có quy định nào về việc giảm một nửa; quy định là bắt buộc, không đáp ứng thì không được gì." },
+        { "text": "we'd lose the income-qualified top-up", "trap": "wrong_detail", "whyVi": "Họ vốn không đủ điều kiện nhận top-up (thu nhập $112,000 > $95,000), nên không có gì để 'mất'." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "all work must be done by a contractor on the CleanHeat registry",
+      "explanationVi": "Từ 'not on the CleanHeat registry' khớp với điều kiện trong chú thích. 'must' = bắt buộc → vi phạm thì không được hoàn tiền. 'not see a cent' (không nhận được đồng nào) là cách diễn đạt thành ngữ. 'Annoying, since their quote was the lowest' xác nhận đây là một mất mát lớn.",
+      "vocabulary": ["registry"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "the heat pump would have to be our main heat source", "trap": "wrong_detail", "whyVi": "Đây là điều kiện của mini-split 3+ đầu, và nó vẫn cho giữ lò sưởi dự phòng." },
+        { "text": "we'd need electric baseboards first", "trap": "wrong_detail", "whyVi": "Điều kiện sưởi bằng điện là của mini-split 1–2 đầu." },
+        { "text": "the furnace would have to go for good", "trap": "none", "whyVi": "Đúng: hệ ducted yêu cầu 'Old system must be removed or permanently disconnected' — bỏ hẳn lò cũ." },
+        { "text": "we couldn't also claim a panel upgrade", "trap": "opposite", "whyVi": "Hệ ducted vẫn kết hợp được với 'Electrical panel upgrade'." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Old system must be removed or permanently disconnected",
+      "explanationVi": "'there's a catch' (có một vướng mắc) + Malik muốn 'hang on to the furnace' (giữ lại lò). Điều kiện của hệ ducted là gỡ bỏ hoặc ngắt vĩnh viễn hệ cũ → 'have to go for good' (phải bỏ đi vĩnh viễn).",
+      "vocabulary": ["hang on to", "for good"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "the heat pump does most of the work", "trap": "none", "whyVi": "Đúng: 'Backup heating may stay but must not be the main heat source' — lò cũ chỉ là dự phòng, máy bơm nhiệt phải sưởi chính." },
+        { "text": "we heat the whole house with electricity first", "trap": "wrong_detail", "whyVi": "Đây là điều kiện của mini-split 1–2 đầu, không phải loại 3 đầu." },
+        { "text": "we stick to two indoor heads", "trap": "opposite", "whyVi": "Họ đang xét mini-split 3 đầu; giảm xuống 2 đầu thì lại không được thay lò ga." },
+        { "text": "we insulate the attic at the same time", "trap": "wrong_detail", "whyVi": "Cách nhiệt chỉ là 'Can be combined with' (có thể kết hợp), không phải điều kiện bắt buộc." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "Backup heating may stay but must not be the main heat source",
+      "explanationVi": "'as long as' = với điều kiện là. Dò hàng mini-split 3+ đầu, cột 'Conditions'. 'must not be the main heat source' (lò cũ không được là nguồn sưởi chính) ↔ 'the heat pump does most of the work' (máy bơm nhiệt làm phần lớn việc).",
+      "vocabulary": ["backup"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "$1,500", "trap": "word_match", "whyVi": "$1,500 chỉ là mức trần ('up to'); 50% của $2,400 mới là $1,200." },
+        { "text": "$2,400", "trap": "wrong_detail", "whyVi": "$2,400 là chi phí nâng cấp, không phải tiền hoàn." },
+        { "text": "$900", "trap": "wrong_detail", "whyVi": "$900 = $2,400 − $1,500, phép tính sai." },
+        { "text": "$1,200", "trap": "none", "whyVi": "Đúng: 50% × $2,400 = $1,200, dưới mức trần $1,500." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "50% of the cost, up to $1,500",
+      "explanationVi": "Panel 100 amps < 200 amps nên đủ điều kiện. Tính 50% chi phí: $2,400 × 0.5 = $1,200. Vì $1,200 chưa vượt trần $1,500 nên nhận $1,200. Bẫy: chọn con số trần có sẵn trong bảng.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "show our latest tax assessment", "trap": "word_match", "whyVi": "'assessment' có trong bảng, nhưng 'tax assessment' là giấy tờ chứng minh thu nhập cho top-up, không phải cho cách nhiệt." },
+        { "text": "pay for a home energy evaluation", "trap": "none", "whyVi": "Đúng: 'Pre-upgrade energy assessment required ($150, refunded with your rebate)' — trả $150 trước, được hoàn lại cùng tiền rebate." },
+        { "text": "switch to a ducted heat pump", "trap": "opposite", "whyVi": "Cách nhiệt chỉ kết hợp với 'Ductless mini-splits only'." },
+        { "text": "remove the old insulation", "trap": "not_mentioned", "whyVi": "Bảng không yêu cầu gỡ lớp cách nhiệt cũ." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Pre-upgrade energy assessment required ($150, refunded with your rebate)",
+      "explanationVi": "'before anything else' = 'Pre-upgrade'; 'that money comes back' = 'refunded with your rebate'. Đáp án đổi 'assessment' thành 'evaluation' (đánh giá).",
+      "vocabulary": ["energy assessment"]
+    },
+    {
+      "number": 6,
+      "prompt": "Why does Imani find the situation with Summit Mechanical annoying?",
+      "options": [
+        { "text": "Summit Mechanical charged more than the other installers.", "trap": "opposite", "whyVi": "Ngược lại: 'their quote was the lowest' (báo giá thấp nhất)." },
+        { "text": "Summit Mechanical refused to install a mini-split.", "trap": "not_mentioned", "whyVi": "Không có chi tiết nào về việc từ chối lắp đặt." },
+        { "text": "Hiring the cheapest installer would cost them the rebate.", "trap": "none", "whyVi": "Đúng: thợ rẻ nhất lại không có trong danh sách, nên thuê họ thì mất tiền hoàn." },
+        { "text": "Summit Mechanical could not come for a site visit.", "trap": "wrong_detail", "whyVi": "Buổi khảo sát thứ Ba là của một thợ có đăng ký khác ('A registered installer')." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Annoying, since their quote was the lowest.",
+      "explanationVi": "Kết hợp hai câu: Summit không có trong registry (→ mất rebate) và báo giá thấp nhất. Sự bực mình đến từ việc phải bỏ lựa chọn rẻ nhất để giữ tiền hoàn.",
+      "vocabulary": ["quote"]
+    },
+    {
+      "number": 7,
+      "prompt": "When can Imani and Malik expect to receive their rebate?",
+      "options": [
+        { "text": "Within two months after the new system passes inspection", "trap": "none", "whyVi": "Đúng: 'within 8 weeks of a passed post-installation inspection' — 8 tuần ≈ 2 tháng, tính từ khi kiểm tra sau lắp đặt đạt yêu cầu." },
+        { "text": "Eight weeks after they apply for pre-approval", "trap": "wrong_detail", "whyVi": "Mốc tính 8 tuần là sau khi kiểm tra đạt, không phải sau khi xin phê duyệt trước." },
+        { "text": "Right after the site visit next Tuesday", "trap": "word_match", "whyVi": "Buổi khảo sát chỉ là bước đầu, trước cả khi xin phê duyệt và lắp đặt." },
+        { "text": "Once the city has checked their tax assessment", "trap": "not_mentioned", "whyVi": "Giấy tờ thuế chỉ dùng cho top-up mà họ không đủ điều kiện; bảng không nói gì về việc thành phố kiểm tra." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "rebates are paid within 8 weeks of a passed post-installation inspection",
+      "explanationVi": "Đọc chú thích bảng. '8 weeks' → 'two months'; 'a passed post-installation inspection' → 'the new system passes inspection'. Chú ý mốc thời gian bắt đầu tính.",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "What does Imani mean when she says the furnace is 'living on borrowed time'?",
+      "options": [
+        { "text": "It only needs a few minor repairs.", "trap": "opposite", "whyVi": "Ngược nghĩa: họ thay lò 'either way' (dù thế nào cũng thay)." },
+        { "text": "It is close to breaking down for good.", "trap": "none", "whyVi": "Đúng: 'living on borrowed time' = đã quá tuổi thọ, có thể hỏng hẳn bất cứ lúc nào." },
+        { "text": "It is the main source of heat in the house.", "trap": "partially_true", "whyVi": "Lò ga đúng là nguồn sưởi hiện tại, nhưng đó không phải nghĩa của thành ngữ." },
+        { "text": "It is too expensive to run in January.", "trap": "not_mentioned", "whyVi": "Không nhắc tới chi phí vận hành; tháng Giêng chỉ được nhắc khi Malik muốn giữ lò dự phòng." }
+      ],
+      "answerIndex": 1,
+      "category": "vocabulary",
+      "evidence": "Our gas furnace is twenty-two years old and living on borrowed time, so we're replacing it either way.",
+      "explanationVi": "Ngữ cảnh: 'twenty-two years old' + 'so we're replacing it either way' → lò rất cũ, sắp hỏng. Thành ngữ 'living on borrowed time' = sống thêm 'thời gian vay mượn', tức là đã quá hạn và có thể hỏng bất cứ lúc nào.",
+      "vocabulary": ["living on borrowed time"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "living on borrowed time", "vi": "đã quá tuổi thọ, sắp hỏng", "definition": "still working or alive, but expected to fail or end soon", "example": "Our old washing machine is living on borrowed time." },
+    { "term": "hang on to", "vi": "giữ lại", "definition": "to keep something instead of getting rid of it", "example": "He wants to hang on to the old furnace as a backup." },
+    { "term": "for good", "vi": "vĩnh viễn, mãi mãi", "definition": "permanently", "example": "The old system has to be disconnected for good." },
+    { "term": "no-brainer", "vi": "lựa chọn hiển nhiên", "definition": "a decision that is very easy to make", "example": "With a $5,000 rebate, it seemed like a no-brainer." },
+    { "term": "off the table", "vi": "bị loại, không còn là lựa chọn", "definition": "no longer being considered or available", "example": "With our income, the top-up is off the table." },
+    { "term": "registry", "vi": "danh sách đăng ký chính thức", "definition": "an official list of approved people or businesses", "example": "Check that your contractor is on the registry." },
+    { "term": "energy assessment", "vi": "đánh giá mức tiêu thụ năng lượng", "definition": "an inspection that measures how efficiently a home uses energy", "example": "Book an energy assessment before you start the insulation work." },
+    { "term": "quote", "vi": "bảng báo giá", "definition": "a written statement of how much a job will cost", "example": "We got three quotes for the new heat pump." },
+    { "term": "backup", "vi": "dự phòng", "definition": "something kept ready to use if the main thing fails", "example": "The gas furnace will stay as a backup." }
+  ]
+}

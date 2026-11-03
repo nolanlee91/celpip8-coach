@@ -1,0 +1,188 @@
+{
+  "id": "r4-mock-06",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "government",
+  "title": "Letting Residents Vote on the City Budget",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": {"status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 10 independently; keys match, including the attitude items (Okonkwo's implication, Hallorann's culvert remark, Siddiqui's 'depends on design', Nguyen's conditional support). Checked each blank for grammar and logic (8: 'dismissed as X but treated as Y'; 10: 'complement ... rather than take its place'); exactly one option fits each. Difficulty 9 justified by idioms (window dressing, on a shoestring, strings attached). No edits needed; no duplicate scenario in R4."},
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "Every spring, Ridgemont city council spends weeks carving up its capital budget among roads, parks, pipes and buildings. Next year, a sliver of that decision could be handed to residents themselves. Under a motion council will debate on February 9, $1.5 million, just under two per cent of the capital budget, would be set aside for projects proposed and chosen by the public, with anyone aged 14 or older eligible to vote.\n\nCouncillor Imani Okonkwo, who brought the motion forward, argues that the idea is less radical than it sounds. \"We already ask people what they think. Then we thank them for their input and carry on with whatever we'd planned,\" she said. \"This would be the first time we tell residents their vote actually decides something.\" She points to Port Calder, which ran a similar program for three years, funding everything from shaded benches at bus stops to a bike repair station outside the high school.\n\nCouncillor Bruce Hallorann has no quarrel with listening to residents, but he doubts the motion would deliver what it promises. In Port Calder, he notes, fewer than six per cent of eligible residents cast a ballot in any year, and winning projects tended to come from neighbourhoods with well-organized parent groups. \"We'd be swapping a council elected by thousands for a vote decided by whoever has the most free evenings,\" he said. He also suspects that the projects people get excited about are rarely the ones a city most needs. \"Nobody campaigns for a culvert.\"\n\nDr. Farah Siddiqui, who studies local government at Fraser Coast University, says both councillors are partly right. Turnout in such programs is almost always low, she says, but a sizeable share of participants have never contacted city hall before. Whether that outweighs the risk of organized groups dominating depends largely on design: where ballots are available, which languages they appear in, and whether staff help residents from quieter neighbourhoods turn rough ideas into eligible proposals. \"Run on the cheap, it becomes window dressing,\" she said. \"Run well, it costs more than people expect.\"\n\nThat cost is not trivial. City staff estimate that running the program properly would take about $180,000 a year in staff time and outreach, on top of the $1.5 million for projects. Hallorann calls that \"paying a premium to make the same decisions more slowly.\" Okonkwo counters that the city already spends more than that on consultants' reports that few residents ever read.\n\nFor Lan Nguyen, who coordinates a settlement agency for newcomers, the real question is who gets invited in. Many of her clients, she says, cannot vote in municipal elections because they are not yet citizens. \"This could be the first time someone feels they have a say in the place they live,\" she said. Her support, however, comes with a string attached: ballots and meetings in at least five languages.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I moved to Ridgemont from Port Calder, so I've seen this kind of program up close, and both councillors describe it accurately. Councillor Hallorann is right that turnout was dismal and that [[6]]; my old neighbourhood, which had no parent group to speak of, never won a single project. But I draw a different conclusion. The problem wasn't the idea itself. It was that Port Calder [[7]], which is exactly the trap Dr. Siddiqui describes. If Ridgemont goes ahead, the $180,000 shouldn't be dismissed as [[8]] but treated as the price of doing it properly, and Ms. Nguyen's condition is a sensible place to start spending it. As for culverts, I'd suggest council simply [[9]], so the public vote is reserved for ideas that would otherwise never get a hearing. Done that way, the program would complement council's work rather than [[10]].",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What does Councillor Okonkwo imply about the city's current way of consulting residents?",
+      "options": [
+        { "text": "Few residents bother to give their opinions.", "trap": "opposite", "whyVi": "Bà nói thành phố có hỏi và có nhận ý kiến ('thank them for their input'); vấn đề không phải người dân thờ ơ." },
+        { "text": "It costs the city more than the new program would.", "trap": "wrong_detail", "whyVi": "Việc so sánh chi phí là về các báo cáo tư vấn ở đoạn 5, không phải ý của câu nói này." },
+        { "text": "It seldom has any real effect on council's decisions.", "trap": "none", "whyVi": "Đúng: Hội đồng cảm ơn rồi 'carry on with whatever we'd planned' – ý kiến người dân hầu như không thay đổi quyết định." },
+        { "text": "It already allows residents to decide some spending.", "trap": "opposite", "whyVi": "Bà nói đây sẽ là 'the first time' lá phiếu của người dân quyết định điều gì đó." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "\"We already ask people what they think. Then we thank them for their input and carry on with whatever we'd planned,\" she said.",
+      "explanationVi": "Bà không nói thẳng 'tham vấn vô ích', nhưng 'carry on with whatever we'd planned' (cứ làm theo kế hoạch cũ) ngụ ý ý kiến người dân không ảnh hưởng gì. Câu sau 'the first time ... actually decides something' củng cố suy luận này.",
+      "vocabulary": ["carry on"]
+    },
+    {
+      "number": 2,
+      "prompt": "What point is Councillor Hallorann making with the remark \"Nobody campaigns for a culvert\"?",
+      "options": [
+        { "text": "Essential but unexciting infrastructure would struggle to win a public vote.", "trap": "none", "whyVi": "Đúng: Cống thoát nước là ví dụ cho hạ tầng cần thiết nhưng không ai hào hứng vận động – nên khó thắng phiếu." },
+        { "text": "Culvert repairs are too expensive for the program's budget.", "trap": "not_mentioned", "whyVi": "Ông không nói về giá sửa cống." },
+        { "text": "Port Calder spent too much of its budget on drainage.", "trap": "not_mentioned", "whyVi": "Bài không nói Port Calder chi tiền cho hệ thống thoát nước." },
+        { "text": "Parent groups have opposed drainage projects in the past.", "trap": "word_match", "whyVi": "Bài có nhắc 'parent groups' nhưng không nói họ phản đối dự án thoát nước." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "He also suspects that the projects people get excited about are rarely the ones a city most needs. \"Nobody campaigns for a culvert.\"",
+      "explanationVi": "Câu dẫn trước đó giải thích ý: thứ người dân hào hứng hiếm khi là thứ thành phố cần nhất. 'Culvert' (cống ngầm) là ví dụ cho hạ tầng thiết yếu nhưng nhàm chán. Phải hiểu đây là ví dụ tượng trưng, không phải chuyện cống thật.",
+      "vocabulary": ["culvert"]
+    },
+    {
+      "number": 3,
+      "prompt": "What is Dr. Siddiqui's main point?",
+      "options": [
+        { "text": "Turnout is too low for such programs to be worthwhile.", "trap": "partially_true", "whyVi": "Bà thừa nhận số người tham gia thấp, nhưng không kết luận chương trình không đáng làm." },
+        { "text": "Such programs mainly benefit well-organized groups.", "trap": "wrong_speaker", "whyVi": "Đây gần với lập luận của Hallorann; Siddiqui chỉ nói đó là một rủi ro tùy cách thiết kế." },
+        { "text": "Such programs are usually cheaper than critics claim.", "trap": "opposite", "whyVi": "Bà nói làm tốt thì 'costs more than people expect'." },
+        { "text": "Whether such a program succeeds depends on how carefully it is set up.", "trap": "none", "whyVi": "Đúng: 'depends largely on design' – kết quả phụ thuộc phần lớn vào cách thiết kế." }
+      ],
+      "answerIndex": 3,
+      "category": "main_idea",
+      "evidence": "Whether that outweighs the risk of organized groups dominating depends largely on design",
+      "explanationVi": "Bà nói 'both councillors are partly right', rồi đưa ra kết luận: lợi hay hại 'depends largely on design'. Các ví dụ (nơi đặt phiếu, ngôn ngữ, nhân viên hỗ trợ) đều minh họa ý này. A và B chỉ là một nửa lập luận.",
+      "vocabulary": ["outweigh"]
+    },
+    {
+      "number": 4,
+      "prompt": "In paragraph 4, what does \"window dressing\" mean?",
+      "options": [
+        { "text": "A program that has been poorly advertised", "trap": "not_mentioned", "whyVi": "Cụm này không nói về quảng cáo." },
+        { "text": "Something that looks good but changes little in practice", "trap": "none", "whyVi": "Đúng: 'window dressing' = vẻ bề ngoài đẹp đẽ nhưng không có tác dụng thật." },
+        { "text": "A project that improves the appearance of city buildings", "trap": "word_match", "whyVi": "Hiểu theo nghĩa đen 'trang trí cửa sổ'; trong bài là thành ngữ." },
+        { "text": "A plan that is too expensive to carry out", "trap": "opposite", "whyVi": "'Window dressing' xảy ra khi chương trình làm 'on the cheap' – quá rẻ, không phải quá đắt." }
+      ],
+      "answerIndex": 1,
+      "category": "vocabulary",
+      "evidence": "\"Run on the cheap, it becomes window dressing,\" she said.",
+      "explanationVi": "Đặt trong đối lập 'Run on the cheap' (làm tiết kiệm) ↔ 'Run well'. Nếu làm sơ sài, chương trình chỉ để trưng ra cho đẹp mà không thực sự trao quyền cho người dân. Đây là thành ngữ, không hiểu theo nghĩa đen.",
+      "vocabulary": ["window dressing", "on the cheap"]
+    },
+    {
+      "number": 5,
+      "prompt": "Which statement best describes Lan Nguyen's position?",
+      "options": [
+        { "text": "Her backing depends on the program reaching people who speak languages other than English.", "trap": "none", "whyVi": "Đúng: Bà ủng hộ nhưng 'comes with a string attached' – phiếu bầu và các buổi họp bằng ít nhất năm ngôn ngữ." },
+        { "text": "She opposes it because her clients are not yet citizens.", "trap": "opposite", "whyVi": "Chính vì khách hàng của bà chưa có quyền bầu cử, chương trình này là cơ hội để họ có tiếng nói." },
+        { "text": "She thinks only citizens should be allowed to vote.", "trap": "opposite", "whyVi": "Bà vui vì người chưa là công dân có thể tham gia." },
+        { "text": "She wants the voting age lowered below 14.", "trap": "not_mentioned", "whyVi": "Bà không nói về độ tuổi bỏ phiếu." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Her support, however, comes with a string attached: ballots and meetings in at least five languages.",
+      "explanationVi": "'Comes with a string attached' = có điều kiện kèm theo. Bà ủng hộ, nhưng chỉ khi chương trình có nhiều ngôn ngữ – tức là tiếp cận được người không nói tốt tiếng Anh. Câu trả lời phải giữ cả hai ý: ủng hộ + có điều kiện.",
+      "vocabulary": ["strings attached"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "most of the money went to bike repair stations", "trap": "word_match", "whyVi": "Trạm sửa xe đạp chỉ là một ví dụ dự án; bài không nói phần lớn tiền dành cho nó." },
+        { "text": "residents would rather leave decisions to council", "trap": "not_mentioned", "whyVi": "Hallorann không nói người dân muốn để hội đồng quyết định." },
+        { "text": "the program cost far more than planned", "trap": "wrong_detail", "whyVi": "Chi phí $180,000 là ước tính cho Ridgemont, không phải điều Hallorann nói về Port Calder." },
+        { "text": "the best-organized neighbourhoods usually came out on top", "trap": "none", "whyVi": "Đúng: 'winning projects tended to come from neighbourhoods with well-organized parent groups'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "winning projects tended to come from neighbourhoods with well-organized parent groups",
+      "explanationVi": "Vế sau dấu chấm phẩy là ví dụ: khu phố 'no parent group to speak of' không bao giờ thắng. Vậy chỗ trống là ý ngược lại: khu có tổ chức tốt thường thắng. 'Came out on top' = 'winning'; 'tended to' = 'usually'."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "printed its ballots in too many languages", "trap": "opposite", "whyVi": "Siddiqui coi nhiều ngôn ngữ là thiết kế tốt; đây không thể là 'cái bẫy'." },
+        { "text": "tried to run it on a shoestring", "trap": "none", "whyVi": "Đúng: 'on a shoestring' = với rất ít tiền, tương đương 'on the cheap' – cái bẫy Siddiqui mô tả." },
+        { "text": "allowed fourteen-year-olds to vote", "trap": "wrong_detail", "whyVi": "Tuổi 14 là quy định đề xuất cho Ridgemont; bài không nói Port Calder làm vậy, và Siddiqui không gọi đó là cái bẫy." },
+        { "text": "spent too much on consultants", "trap": "wrong_speaker", "whyVi": "Chi phí tư vấn là lập luận của Okonkwo về Ridgemont, không phải 'trap' của Siddiqui." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"Run on the cheap, it becomes window dressing,\" she said.",
+      "explanationVi": "'The trap Dr. Siddiqui describes' là làm chương trình 'on the cheap'. 'On a shoestring' là thành ngữ đồng nghĩa. Câu tiếp theo về $180,000 ('the price of doing it properly') cũng xác nhận vấn đề là đầu tư quá ít.",
+      "vocabulary": ["on the cheap"]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "an investment in reaching more residents", "trap": "opposite", "whyVi": "Đây chính là cách người viết muốn nhìn khoản tiền; đặt sau 'shouldn't be dismissed as' sẽ mâu thuẫn." },
+        { "text": "a reward for well-organized parent groups", "trap": "word_match", "whyVi": "Dùng lại 'well-organized parent groups' của đoạn 3, nhưng $180,000 là chi phí nhân viên và tiếp cận cộng đồng, không phải tiền thưởng cho ai." },
+        { "text": "money wasted on red tape", "trap": "none", "whyVi": "Đúng: Cấu trúc 'shouldn't be dismissed as X but treated as Y' cần X tiêu cực, đối lập với 'the price of doing it properly' – gần với lời chê 'paying a premium' của Hallorann." },
+        { "text": "enough to pay for the projects themselves", "trap": "wrong_detail", "whyVi": "Tiền dự án là $1.5 triệu riêng; $180,000 là chi phí vận hành." }
+      ],
+      "answerIndex": 2,
+      "category": "grammar",
+      "evidence": "Hallorann calls that \"paying a premium to make the same decisions more slowly.\"",
+      "explanationVi": "Cấu trúc 'not dismissed as X but treated as Y': X phải là cách nhìn tiêu cực trái ngược với Y ('the price of doing it properly'). Người viết đang phản bác lời chê của Hallorann rằng khoản này là trả giá đắt cho sự chậm chạp → 'money wasted on red tape' (tiền phí phạm vào thủ tục).",
+      "vocabulary": ["red tape"]
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "keep essential infrastructure off the ballot", "trap": "none", "whyVi": "Đúng: Nếu hạ tầng thiết yếu do hội đồng lo, lá phiếu công khai chỉ dành cho các ý tưởng mới – đúng mục đích 'so...'." },
+        { "text": "let residents vote on drainage repairs", "trap": "opposite", "whyVi": "Ngược với mệnh đề mục đích: phiếu bầu phải dành cho ý tưởng 'would otherwise never get a hearing', còn sửa cống thì hội đồng vẫn phải làm." },
+        { "text": "hire consultants to choose the projects", "trap": "wrong_detail", "whyVi": "Báo cáo tư vấn được nhắc ở đoạn 5 nhưng đi ngược tinh thần để người dân tự chọn." },
+        { "text": "double the money set aside for projects", "trap": "not_mentioned", "whyVi": "Không ai đề nghị tăng gấp đôi ngân sách; ý này cũng không liên quan tới cống." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "He also suspects that the projects people get excited about are rarely the ones a city most needs.",
+      "explanationVi": "'As for culverts' nhắc lại lo ngại của Hallorann: hạ tầng thiết yếu sẽ thua phiếu. Giải pháp hợp lý: để hội đồng tự lo những thứ đó, không đưa ra bỏ phiếu. Mệnh đề 'so the public vote is reserved for ideas that would otherwise never get a hearing' chỉ khớp với A. ('suggest council simply + động từ nguyên mẫu' – thể giả định.)"
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "add something to it", "trap": "opposite", "whyVi": "'Add to' gần nghĩa với 'complement'; dùng sau 'rather than' thì câu tự mâu thuẫn." },
+        { "text": "reach more newcomers", "trap": "wrong_detail", "whyVi": "Tiếp cận người mới là điều tốt, không thể là thứ bị loại trừ bởi 'rather than'." },
+        { "text": "save the city money", "trap": "not_mentioned", "whyVi": "Không ai nói chương trình giúp tiết kiệm tiền; ý này cũng không đối lập với 'complement'." },
+        { "text": "take its place", "trap": "none", "whyVi": "Đúng: Đối lập với 'complement' (bổ sung) là 'thay thế' – chính nỗi lo 'swapping a council elected by thousands' của Hallorann." }
+      ],
+      "answerIndex": 3,
+      "category": "grammar",
+      "evidence": "\"We'd be swapping a council elected by thousands for a vote decided by whoever has the most free evenings,\" he said.",
+      "explanationVi": "'Complement X rather than ...' cần một động từ nguyên mẫu mang nghĩa trái với 'bổ sung'. 'Take its place' (thay thế hội đồng) trả lời trực tiếp nỗi lo 'swapping a council ...' của Hallorann. A đồng nghĩa với 'complement' nên mâu thuẫn."
+    }
+  ],
+  "vocabulary": [
+    { "term": "carve up", "vi": "chia nhỏ, phân chia", "definition": "to divide something into parts and share it out", "example": "Council spends weeks carving up its capital budget." },
+    { "term": "carry on", "vi": "tiếp tục (như cũ)", "definition": "to continue doing something", "example": "They thank residents for their input and carry on with their plans." },
+    { "term": "culvert", "vi": "cống ngầm thoát nước", "definition": "a pipe or channel that carries water under a road", "example": "Nobody campaigns for a culvert, but every city needs them." },
+    { "term": "outweigh", "vi": "lớn hơn, quan trọng hơn", "definition": "to be greater or more important than something else", "example": "The benefits may outweigh the risks if the program is well designed." },
+    { "term": "window dressing", "vi": "vẻ bề ngoài, làm cho có", "definition": "something done to look good that has little real effect", "example": "Without proper funding, the program would be window dressing." },
+    { "term": "on the cheap", "vi": "làm sơ sài cho rẻ", "definition": "using as little money as possible, often with poor results", "example": "Run on the cheap, the program will fail." },
+    { "term": "strings attached", "vi": "điều kiện kèm theo", "definition": "conditions that come with an offer or support", "example": "Her support comes with a string attached." },
+    { "term": "red tape", "vi": "thủ tục hành chính rườm rà", "definition": "official rules and paperwork that slow things down", "example": "Some councillors see the outreach budget as red tape." },
+    { "term": "come out on top", "vi": "giành chiến thắng", "definition": "to win or be the most successful", "example": "Organized neighbourhoods tended to come out on top." }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "w2-practice-07",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "shopping",
+  "title": "Vacant mall unit: discount grocery store or indoor market",
+  "situation": "A hardware store at Maplewood Plaza in Surrey has closed, leaving a large unit empty. Before signing a new lease, the plaza's owner is surveying nearby residents about what should replace it.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Lease the unit to a national discount grocery chain that would be open every day from 8 a.m. to 10 p.m.",
+  "optionB": "Option B: Use the space for an indoor farmers' and makers' market from Thursday to Sunday, with stalls for local farms, bakeries and artisans.",
+  "structure": [
+    "Opening: acknowledge the other option's charm, then state your choice + summary reason (affordability)",
+    "Reason 1: cost of living + the distance to the nearest low-cost store, with who is affected",
+    "Reason 2: opening hours and convenience compared directly with the market",
+    "Concession ('To be fair… That said…'): the market's benefits and why they matter less",
+    "Conclusion linking back to the community's most pressing need"
+  ],
+  "modelResponse": "Although an indoor market would add character to Maplewood Plaza, I would rather see the space leased to a discount grocery store, mainly because it would make everyday life more affordable for local families.\n\nWith food prices rising steadily, many households in our area are struggling to stretch their budgets. At present, the nearest low-cost supermarket is a twenty-minute drive away, which is a real obstacle for seniors and residents who rely on transit. A discount grocer within walking distance would allow people to pick up basics like milk, rice and fresh produce without spending extra on gas or bus fare.\n\nFurthermore, a store open every day from early morning until late evening would suit people with irregular work schedules, whereas a market that operates only four days a week is harder to plan around.\n\nTo be fair, a farmers' market would support local businesses and create a lively gathering place. That said, artisan bread and handmade goods tend to be treats rather than necessities, and their higher prices would put them out of reach for many shoppers.\n\nUltimately, I believe the grocery store would meet a more pressing need in our community.",
+  "usefulExpressions": [
+    {
+      "expression": "Although X would add character to…, I would rather see…",
+      "usageVi": "Mở bài vừa nhượng bộ vừa nêu lựa chọn trong một câu — cấu trúc phức đạt điểm cao."
+    },
+    {
+      "expression": "struggling to stretch their budgets",
+      "usageVi": "'stretch a budget' = chi tiêu dè sẻn cho đủ — thành ngữ tự nhiên về chi phí sinh hoạt."
+    },
+    {
+      "expression": "within walking distance",
+      "usageVi": "Trong khoảng cách đi bộ được — cụm cố định rất hay dùng."
+    },
+    {
+      "expression": "harder to plan around",
+      "usageVi": "'plan around something' = sắp xếp lịch theo điều gì — giới từ cuối câu rất tự nhiên."
+    },
+    {
+      "expression": "To be fair, … That said, …",
+      "usageVi": "Nhượng bộ công bằng rồi chuyển sang phản bác — mượt hơn 'But'."
+    },
+    {
+      "expression": "treats rather than necessities",
+      "usageVi": "Đối lập 'thứ để thưởng thức' và 'nhu yếu phẩm' — lập luận ngắn gọn, sắc."
+    },
+    {
+      "expression": "put them out of reach for…",
+      "usageVi": "Khiến ai đó không thể mua/tiếp cận được — cách nói tự nhiên thay cho 'too expensive'."
+    }
+  ],
+  "commonMistakes": [
+    "Viết 'grocery' như danh từ đếm được chỉ cửa hàng ('a grocery') → nên dùng 'a grocery store' hoặc 'a grocer'.",
+    "Nhầm 'farmer market' → đúng là 'farmers' market' (có 's' và dấu sở hữu).",
+    "Chỉ nói 'cheap is good' mà không giải thích ai cần giá rẻ và vì sao (người cao tuổi, người đi xe buýt, giá thực phẩm tăng).",
+    "Chê phương án kia quá nặng ('the market is useless'). Ở mức 8+, hãy công nhận lợi ích thật rồi mới chỉ ra hạn chế."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked W2 format, balanced options (daily discount grocer vs four-day local market), model answer covers affordability, hours comparison and a fair concession, Canadian spelling, word count 193. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

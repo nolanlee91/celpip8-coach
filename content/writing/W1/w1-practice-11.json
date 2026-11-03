@@ -1,0 +1,69 @@
+{
+  "id": "w1-practice-11",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 9,
+  "topic": "housing",
+  "title": "Fire pit smoke and a kind neighbour",
+  "situation": "You live in one half of a duplex in Langley. Your neighbour, Bob, is a retired man who has always been friendly and helpful; last winter he shovelled your driveway when you were sick. This summer he started using a backyard fire pit most evenings, and the smoke drifts straight into your seven-year-old daughter's bedroom window. Your daughter has asthma and has had several attacks recently. You do not want to damage your good relationship. You decide to email him.",
+  "instructions": [
+    "Show appreciation for him as a neighbour.",
+    "Explain the problem and how it is affecting your family.",
+    "Suggest a compromise that would allow both of you to enjoy your homes."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Warm greeting (Dear Bob,) + genuine appreciation with a specific memory",
+    "Transition that signals a delicate topic (That is why this email is a little difficult to write)",
+    "Instruction 2: describe the problem without blame — show you understand his enjoyment, then the health impact with facts",
+    "Instruction 3: two compromise options framed as questions + an offer to help",
+    "Invitation to talk in person + friendly sign-off"
+  ],
+  "modelResponse": "Dear Bob,\n\nBefore anything else, I want to say how grateful we are to have you next door. We still talk about the morning you cleared our driveway when I was down with the flu, and Mai loves chatting with you over the fence.\n\nThat is why this email is a little difficult to write. I have noticed that you have been enjoying your fire pit most evenings this summer, and I can completely understand why. Unfortunately, the smoke tends to drift straight into Mai's bedroom window. She has asthma, and she has had three attacks in the past month, all at night. Our doctor believes the smoke could be a trigger.\n\nI would hate to take away something you enjoy, so I wonder if we could find a middle ground. Perhaps you could light the fire on weekends only and give us a quick heads-up beforehand, so we can keep her window shut? Another option might be a propane fire table, which produces far less smoke. I would be glad to help look into one.\n\nPlease let me know what you think. I would be happy to talk it over in person.\n\nAll the best,\nJenna Kim",
+  "usefulExpressions": [
+    {
+      "expression": "Before anything else, I want to say how grateful we are to have you next door.",
+      "usageVi": "Mở đầu bằng lời cảm kích thật lòng, tạo thiện cảm trước khi nói chuyện khó."
+    },
+    {
+      "expression": "That is why this email is a little difficult to write.",
+      "usageVi": "Câu chuyển ý khéo léo, báo hiệu chủ đề tế nhị mà không gây sốc."
+    },
+    {
+      "expression": "I can completely understand why.",
+      "usageVi": "Thể hiện sự thấu hiểu niềm vui của người kia – giảm cảm giác bị trách móc."
+    },
+    {
+      "expression": "I would hate to take away something you enjoy",
+      "usageVi": "Cách nói mềm mỏng, cho thấy bạn tôn trọng lợi ích của hàng xóm."
+    },
+    {
+      "expression": "find a middle ground",
+      "usageVi": "Thành ngữ: tìm giải pháp dung hòa cho cả hai bên."
+    },
+    {
+      "expression": "give us a quick heads-up",
+      "usageVi": "Cách nói thân mật: báo trước một tiếng."
+    },
+    {
+      "expression": "talk it over in person",
+      "usageVi": "Phrasal verb 'talk something over' = bàn bạc; mời gặp trực tiếp giữ quan hệ tốt."
+    }
+  ],
+  "commonMistakes": [
+    "Đi thẳng vào phàn nàn hoặc nhắc tới luật thành phố/khiếu nại chính quyền ngay đầu thư. Với hàng xóm tốt bụng, điều này làm hỏng quan hệ và mất điểm về giọng văn.",
+    "Lời cảm ơn ở ý 1 quá chung chung ('You are a good neighbour'). Hãy nhắc một kỷ niệm cụ thể để nghe chân thành.",
+    "Yêu cầu một chiều ('Please stop using your fire pit'). Đề bài yêu cầu thỏa hiệp – cần phương án cho cả hai bên cùng hài lòng.",
+    "Dùng câu mệnh lệnh thay vì câu đề nghị mềm: 'You should only use it on weekends' → 'Perhaps you could light the fire on weekends only?'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets (appreciation, problem + impact, compromise), tactful tone, hedged medical wording, 198 words. Fixed: \"the kids\" contradicted the situation (one daughter) -> \"Mai\"."
+  },
+  "createdAt": "2026-11-03"
+}

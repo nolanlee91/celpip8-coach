@@ -1,0 +1,56 @@
+{
+  "id": "s7-mock-03",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "banking",
+  "title": "Cash-free shops and cafés",
+  "prompt": "More and more cafés and shops in Canadian cities are refusing to accept cash. They only take debit cards, credit cards or mobile payments.\n\nDo you think businesses should be allowed to refuse cash payments? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Clear position + main reason in one sentence",
+    "Reason 1: fairness to people who rely on cash + personal example",
+    "Reason 2: cash as a backup during outages",
+    "Reason 3: privacy and budgeting",
+    "Acknowledge the business side, then respond",
+    "Conclusion restating your position"
+  ],
+  "modelAnswer": "In my opinion, businesses shouldn't be allowed to refuse cash, because it shuts out people who depend on it.\n\nThe first reason is fairness. Not everybody has a bank card or a smartphone. Seniors, newcomers who are still setting up a bank account, and people on very low incomes often rely on cash for daily purchases. When my parents first came to Canada, they paid cash for almost everything for the first few months. If a café refuses cash, those customers simply can't buy a cup of coffee, and that doesn't seem right to me.\n\nSecondly, cash is a useful backup. A few years ago, a major network outage in Canada meant that many stores couldn't process debit payments for most of the day. The shops that still accepted cash were the only ones that could keep selling.\n\nThirdly, some people prefer cash for privacy or to keep their spending under control. Paying with bills makes it easier to stick to a budget, because you can actually see your money disappearing.\n\nI do understand that handling cash costs businesses time and creates some security risks. Still, I think the answer is to make card payments more convenient, not to get rid of cash completely.\n\nSo overall, I believe stores should keep accepting cash, so that every customer is treated equally.",
+  "usefulExpressions": [
+    {
+      "expression": "…because it shuts out people who…",
+      "usageVi": "'shut out' = loại trừ, gạt ra ngoài; nêu lý do chính ngay câu đầu."
+    },
+    {
+      "expression": "people on low incomes",
+      "usageVi": "Collocation đúng: 'on a low income'; không nói 'people with low salary'."
+    },
+    {
+      "expression": "keep (their spending) under control",
+      "usageVi": "= kiểm soát (chi tiêu); cụm tự nhiên trong chủ đề tài chính."
+    },
+    {
+      "expression": "stick to a budget",
+      "usageVi": "= chi tiêu đúng ngân sách; collocation thường gặp."
+    },
+    {
+      "expression": "Still, I think the answer is to…, not to…",
+      "usageVi": "Phản bác nhẹ nhàng và đưa ra giải pháp thay thế."
+    }
+  ],
+  "commonMistakes": [
+    "Nói 'refuse to accepting' → sau 'refuse' dùng to + động từ nguyên mẫu: 'refuse to accept cash'.",
+    "Nói 'pay by cash' → tự nhiên hơn: 'pay cash' hoặc 'pay in cash' (nhưng 'pay by card').",
+    "Kể chuyện cá nhân quá dài (hơn 30 giây). Ví dụ chỉ nên 1–2 câu để còn thời gian cho các lý do khác."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked that the answer argues what businesses should be allowed to do (opinion) without claiming refusing cash is currently illegal in Canada; outage example is hedged and plausible; length 220. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "w1-practice-05",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "community-services",
+  "title": "Booking a community centre room for a cultural celebration",
+  "situation": "You belong to a small volunteer group of Vietnamese-Canadian families in Coquitlam. The group wants to hold a Lunar New Year celebration in February and needs a place to hold it. The website of Riverside Community Centre says that rooms can be rented by community groups, but it gives very little information. You decide to email the centre's booking coordinator.",
+  "instructions": [
+    "Describe your group and the event you are planning.",
+    "Ask about the details you need to know before booking.",
+    "Explain any special requirements your group has."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting + purpose: who you represent and that you want to rent a room",
+    "Instruction 1: the event — date, time, number and type of guests, main activities",
+    "Instruction 2: 2–3 clear questions, organised with First / Second / Finally (capacity, price, deposit, discount)",
+    "Instruction 3: 2–3 special needs with a reason for each (kitchen, noise, accessibility)",
+    "Polite closing line + sign-off + full name"
+  ],
+  "modelResponse": "Dear Booking Coordinator,\n\nI am writing on behalf of the Coquitlam Vietnamese Family Circle, a volunteer group of about twenty families, to ask about renting a room at Riverside Community Centre. We are planning a Lunar New Year celebration on Saturday, February 13, from 4 p.m. to 9 p.m. We expect around 80 guests, including many young children and several seniors, and the evening will feature a potluck dinner, traditional music and a lion dance.\n\nBefore we go ahead with a booking, I would be grateful if you could answer a few questions. First, which of your rooms can hold this many people, and what is the hourly rate for a non-profit group? Second, is a damage deposit required, and if so, when is it due? Finally, do you offer any discounts for community organizations?\n\nWe also have a few special requirements. Since we will be serving homemade food, we would need access to a kitchen with a fridge. In addition, the lion dance involves drums, so I would like to confirm that some noise is acceptable. Wheelchair access is also essential for several of our older guests.\n\nI look forward to hearing from you.\n\nBest regards,\nLinh Nguyen",
+  "usefulExpressions": [
+    {
+      "expression": "I am writing on behalf of…",
+      "usageVi": "Mở đầu khi viết thư thay mặt một nhóm/tổ chức, giúp người đọc biết ngay bạn là ai."
+    },
+    {
+      "expression": "the evening will feature…",
+      "usageVi": "'feature' = có phần/chương trình nổi bật; hay hơn 'there will be'."
+    },
+    {
+      "expression": "Before we go ahead with a booking, I would be grateful if you could…",
+      "usageVi": "Dẫn vào phần câu hỏi một cách lịch sự; 'go ahead with' = tiến hành."
+    },
+    {
+      "expression": "First, … Second, … Finally, …",
+      "usageVi": "Sắp xếp nhiều câu hỏi rõ ràng để giám khảo dễ theo dõi ý 2."
+    },
+    {
+      "expression": "is a damage deposit required, and if so, when is it due?",
+      "usageVi": "'if so' = nếu có; 'due' = đến hạn phải trả. Gộp hai câu hỏi liên quan gọn gàng."
+    },
+    {
+      "expression": "Since we will be…, we would need…",
+      "usageVi": "Nêu yêu cầu kèm lý do, làm cho yêu cầu đặc biệt nghe hợp lý."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ hỏi chung chung 'Can you send me more information?'. Ý 2 cần những câu hỏi cụ thể (sức chứa, giá theo giờ, tiền đặt cọc, giảm giá) thì mới được điểm cao.",
+    "Viết câu hỏi trực tiếp sau 'I would like to know' mà không đổi trật tự từ: 'I would like to know what is the rate' → 'I would like to know what the rate is'.",
+    "Quên nêu lý do cho yêu cầu đặc biệt (ví dụ chỉ viết 'We need a kitchen'). Thêm 'since/because…' để thư thuyết phục và tự nhiên hơn.",
+    "Dùng sai giới từ với ngày giờ: 'in Saturday, February 13' → 'on Saturday, February 13'; 'from 4 p.m. until to 9 p.m.' → 'from 4 p.m. to 9 p.m.'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets (group/event, specific questions on capacity/rate/deposit/discount, special needs with reasons), date/weekday (Sat Feb 13, 2027), 199 words, expressions and mistakes. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

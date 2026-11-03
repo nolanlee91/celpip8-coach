@@ -1,0 +1,138 @@
+{
+  "id": "l3-mock-05",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "shopping",
+  "title": "Choosing a first pair of progressive glasses",
+  "context": "You will hear a customer talking with an optician at an eyewear store in Nanaimo about buying new glasses.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Farid", "voice": "male_b", "text": "Okay, Colleen, I've got the prescription your optometrist sent over. Before we look at frames, let's talk lenses, because that's where most of the cost is." },
+        { "speaker": "Colleen", "voice": "female_a", "text": "Sure, Farid. Fair warning, I've only ever needed glasses for driving home after night shifts. Apparently now I need them for reading, too." },
+        { "speaker": "Farid", "voice": "male_b", "text": "That's really common at this stage. You've basically got two routes. One is two separate pairs, one for distance and one for reading. The other is progressives, which handle both in a single lens, with no visible line. Progressives are more convenient, but they take some getting used to. For the first week or two, a lot of people feel a bit off, especially going down stairs." },
+        { "speaker": "Colleen", "voice": "female_a", "text": "Hmm. I'm a nurse, so I'm on my feet and rushing between rooms all day. I'm not crazy about the sound of that." },
+        { "speaker": "Farid", "voice": "male_b", "text": "Understandable. The adjustment is temporary, though, and we have a sixty-day adaptation guarantee. If you really can't get used to them, we'll remake the lenses as two separate pairs at no extra cost. The catch is that it covers the lenses, not the frames." },
+        { "speaker": "Colleen", "voice": "female_a", "text": "Okay, that takes some of the pressure off. What about price?" },
+        { "speaker": "Farid", "voice": "male_b", "text": "Our standard progressives are three hundred and eighty dollars, and the anti-glare coating adds sixty. Given all that night driving, I wouldn't treat the coating as optional. Frames run from about a hundred to four hundred." },
+        { "speaker": "Colleen", "voice": "female_a", "text": "My work benefits cover some of it, I think. Three hundred dollars every two years?" },
+        { "speaker": "Farid", "voice": "male_b", "text": "Then we can bill your insurer directly, so you'd only pay the difference today. One thing to check, though. Many plans count two years from your last claim, not from January. If you've claimed prescription eyewear more recently than that, even from somewhere else, the claim could be turned down." },
+        { "speaker": "Colleen", "voice": "female_a", "text": "I bought prescription sunglasses online about eighteen months ago, and I'm pretty sure I claimed them." },
+        { "speaker": "Farid", "voice": "male_b", "text": "Then that would probably still count, I'm afraid, even though it was online. I'd call your benefits provider before we submit anything. Otherwise you could end up paying the full amount and spending months sorting it out." },
+        { "speaker": "Colleen", "voice": "female_a", "text": "Typical. What about the frames in that clearance bin?" },
+        { "speaker": "Farid", "voice": "male_b", "text": "Those are half price, but they're final sale, so if you go off the style after a month, you're stuck with it. Either way, the lenses take about ten days, because they're made at an outside lab." },
+        { "speaker": "Colleen", "voice": "female_a", "text": "Alright. I'll phone my benefits company on my break tomorrow and come back to pick frames once I know what's covered." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why is Colleen hesitant about progressive lenses?",
+          "options": [
+            { "text": "She thinks they are too expensive for her budget.", "trap": "not_mentioned", "whyVi": "Lúc này cô chưa hỏi giá; mối lo của cô là thời gian làm quen." },
+            { "text": "She dislikes the visible line in the lens.", "trap": "opposite", "whyVi": "Farid nói tròng progressive 'no visible line'." },
+            { "text": "Feeling unsteady at first could be a problem in her fast-paced job.", "trap": "none", "whyVi": "Đúng: cô là y tá, đứng và chạy giữa các phòng cả ngày, nên lo giai đoạn thấy 'a bit off'." },
+            { "text": "She would rather wear glasses only for driving.", "trap": "partially_true", "whyVi": "Trước đây cô chỉ đeo kính khi lái xe, nhưng giờ cô cần đọc sách nữa và không nói muốn quay lại." }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "I'm a nurse, so I'm on my feet and rushing between rooms all day. I'm not crazy about the sound of that.",
+          "explanationVi": "'Not crazy about the sound of that' = không thích điều đó (thời gian thấy chông chênh khi xuống cầu thang). Lý do: công việc phải di chuyển nhiều. Đáp án C diễn đạt lại bằng 'unsteady' và 'fast-paced job'.",
+          "vocabulary": ["not crazy about", "feel off"]
+        },
+        {
+          "number": 2,
+          "prompt": "What does the adaptation guarantee offer?",
+          "options": [
+            { "text": "Free replacement lenses in two separate pairs if she cannot adjust.", "trap": "none", "whyVi": "Đúng: nếu không quen được, cửa hàng làm lại thành hai cặp kính riêng, không tính thêm tiền." },
+            { "text": "A full refund within sixty days.", "trap": "not_mentioned", "whyVi": "Không có hoàn tiền; chỉ làm lại tròng kính." },
+            { "text": "A free exchange of frames and lenses.", "trap": "opposite", "whyVi": "Bảo đảm chỉ áp dụng cho tròng, không cho gọng." },
+            { "text": "A two-week trial before she pays.", "trap": "word_match", "whyVi": "'First week or two' là thời gian làm quen, không phải dùng thử trước khi trả tiền." }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "If you really can't get used to them, we'll remake the lenses as two separate pairs at no extra cost. The catch is that it covers the lenses, not the frames.",
+          "explanationVi": "'Remake the lenses as two separate pairs at no extra cost' ↔ 'free replacement lenses in two separate pairs'. Lưu ý 'the catch': không áp dụng cho gọng. Đáp án A.",
+          "vocabulary": ["adaptation guarantee", "the catch"]
+        },
+        {
+          "number": 3,
+          "prompt": "What is Farid's opinion of the anti-glare coating for Colleen?",
+          "options": [
+            { "text": "It is a costly extra that most customers skip.", "trap": "opposite", "whyVi": "Farid khuyên không nên coi nó là tùy chọn." },
+            { "text": "It is already included in the price of progressives.", "trap": "wrong_detail", "whyVi": "Lớp phủ tính thêm 60 đô." },
+            { "text": "It only matters for people who work at night.", "trap": "wrong_detail", "whyVi": "Farid nói về việc lái xe ban đêm của Colleen, không đưa ra quy tắc chung về người làm ca đêm." },
+            { "text": "It is essential because of the way she uses her glasses.", "trap": "none", "whyVi": "Đúng: vì cô hay lái xe đêm, anh cho rằng lớp phủ là cần thiết." }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "Given all that night driving, I wouldn't treat the coating as optional.",
+          "explanationVi": "'Wouldn't treat ... as optional' = coi là bắt buộc, cần thiết. 'Given all that night driving' nối với câu đầu của Colleen về lái xe về nhà sau ca đêm. Đáp án D.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "Why might Colleen's insurance claim be refused?",
+          "options": [
+            { "text": "Her plan does not allow direct billing.", "trap": "opposite", "whyVi": "Farid nói có thể tính tiền thẳng với bảo hiểm." },
+            { "text": "She may have used her eyewear benefit within the last two years.", "trap": "none", "whyVi": "Đúng: cô mua kính râm có độ cách đây 18 tháng và đã yêu cầu bảo hiểm trả, nên có thể đã dùng quyền lợi hai năm." },
+            { "text": "Her plan resets every January.", "trap": "opposite", "whyVi": "Farid nói nhiều gói tính từ lần yêu cầu cuối, KHÔNG phải từ tháng Một." },
+            { "text": "Glasses bought online are never covered.", "trap": "word_match", "whyVi": "Cô có nói mua 'online', nhưng Farid không nói kính mua online không được chi trả; ngược lại, anh nói lần mua đó vẫn bị tính 'even though it was online'." }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "Many plans count two years from your last claim, not from January. If you've claimed prescription eyewear more recently than that, even from somewhere else, the claim could be turned down.",
+          "explanationVi": "Nối: gói bảo hiểm 300 đô mỗi hai năm, tính từ lần yêu cầu cuối; cô mua kính râm có độ online 18 tháng trước và đã yêu cầu bảo hiểm chi trả (dưới hai năm). 'Turned down' = bị từ chối. Đáp án B.",
+          "vocabulary": ["turn down", "benefits provider"]
+        },
+        {
+          "number": 5,
+          "prompt": "What is the main drawback of the clearance frames?",
+          "options": [
+            { "text": "They take longer to arrive from the lab.", "trap": "wrong_detail", "whyVi": "Mười ngày là thời gian làm tròng kính cho mọi trường hợp ('Either way')." },
+            { "text": "They are not covered by the adaptation guarantee.", "trap": "partially_true", "whyVi": "Đúng là bảo đảm không áp dụng cho gọng, nhưng điều đó đúng với mọi gọng, không phải điểm yếu riêng của gọng giảm giá." },
+            { "text": "They cost only slightly less than regular frames.", "trap": "opposite", "whyVi": "Gọng thanh lý giảm một nửa giá." },
+            { "text": "She cannot exchange them if she stops liking how they look.", "trap": "none", "whyVi": "Đúng: 'final sale' – nếu chán kiểu dáng thì vẫn phải giữ." }
+          ],
+          "answerIndex": 3,
+          "category": "vocabulary",
+          "evidence": "they're final sale, so if you go off the style after a month, you're stuck with it",
+          "explanationVi": "'Go off the style' = hết thích kiểu dáng; 'stuck with it' = phải giữ, không đổi được. Đáp án D diễn đạt lại.",
+          "vocabulary": ["final sale", "go off"]
+        },
+        {
+          "number": 6,
+          "prompt": "What will Colleen most likely do before choosing frames?",
+          "options": [
+            { "text": "Order the progressive lenses so the lab can start.", "trap": "opposite", "whyVi": "Farid khuyên gọi bảo hiểm trước khi nộp yêu cầu; cô chưa đặt gì." },
+            { "text": "Buy a pair from the clearance bin.", "trap": "not_mentioned", "whyVi": "Cô chỉ hỏi về gọng thanh lý, không quyết định mua." },
+            { "text": "Check with her benefits provider about her coverage.", "trap": "none", "whyVi": "Đúng: ngày mai giờ nghỉ cô sẽ gọi công ty bảo hiểm phúc lợi rồi mới quay lại chọn gọng." },
+            { "text": "Return the sunglasses she bought online.", "trap": "word_match", "whyVi": "Kính râm được nhắc tới, nhưng không ai nói trả lại." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "I'll phone my benefits company on my break tomorrow and come back to pick frames once I know what's covered.",
+          "explanationVi": "'Phone my benefits company' ↔ 'check with her benefits provider'; 'once I know what's covered' ↔ 'about her coverage'. Đáp án C.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "progressives", "vi": "tròng kính đa tròng (nhìn xa và gần trên cùng một tròng)", "definition": "lenses that correct both distance and close-up vision without a visible line", "example": "Progressives handle both in a single lens." },
+    { "term": "feel off", "vi": "thấy không ổn, chông chênh", "definition": "to feel slightly wrong or uncomfortable", "example": "A lot of people feel a bit off for the first week." },
+    { "term": "not crazy about", "vi": "không thích lắm", "definition": "not keen on something; not liking it much", "example": "I'm not crazy about the sound of that." },
+    { "term": "adaptation guarantee", "vi": "bảo đảm thích nghi (làm lại nếu không quen)", "definition": "a promise to replace lenses if the wearer cannot get used to them", "example": "We have a sixty-day adaptation guarantee." },
+    { "term": "the catch", "vi": "điểm vướng, điều kiện kèm theo", "definition": "a hidden problem or condition", "example": "The catch is that it covers the lenses, not the frames." },
+    { "term": "benefits provider", "vi": "công ty bảo hiểm phúc lợi", "definition": "the company that runs an employee's health and dental benefits", "example": "Call your benefits provider before we submit anything." },
+    { "term": "turn down", "vi": "từ chối", "definition": "to refuse a request or application", "example": "The claim could be turned down." },
+    { "term": "final sale", "vi": "hàng bán không đổi trả", "definition": "a sale where the item cannot be returned or exchanged", "example": "The clearance frames are final sale." },
+    { "term": "go off", "vi": "hết thích", "definition": "to stop liking something", "example": "If you go off the style after a month, you're stuck with it." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; keys match (C, A, D, B, D, C). Fixed the insurance logic: a rolling two-year limit is used up by a previous claim, not by any purchase, so Farid now says 'If you've claimed...' and Colleen says she claimed the online sunglasses; Q4 evidence and Vietnamese explanations updated. The rule stays hedged ('Many plans'), which is accurate. Q3 option C trap relabelled wrong_detail; both names spoken; attitude items are recoverable from the words; no duplicate title." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

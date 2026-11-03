@@ -1,0 +1,65 @@
+{
+  "id": "w1-practice-07",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "shopping",
+  "title": "Wrong sofa colour and an unfair return fee",
+  "situation": "Three weeks ago you ordered a three-seat sofa for $1,450 from an online furniture store, Northwood Home. When it was delivered, it was a different colour from the one you had ordered, and the delivery team left before you could check it. When you phoned customer service, you were told that returns cost a $150 pickup fee. You decide to email the store's customer care manager.",
+  "instructions": [
+    "Explain what you ordered and what happened at delivery.",
+    "Say why you think the return fee is unfair.",
+    "Tell the manager what you would like the company to do."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting + order number, date and price in the first sentence",
+    "Instruction 1: what you ordered vs. what arrived + why you could not check it at the door",
+    "Instruction 2: the phone call, then a calm argument — the error was the company's, not a change of mind",
+    "Instruction 3: a clear first request with a time frame + a back-up option (therefore / If… I would prefer…)",
+    "Formal closing (I look forward to your prompt reply) + Yours sincerely"
+  ],
+  "modelResponse": "Dear Customer Care Manager,\n\nI am writing about order NH-48217, a three-seat sofa I purchased from Northwood Home on October 9 for $1,450. I specifically chose the \"Harbour Blue\" fabric, but the sofa delivered last Friday is light grey. Unfortunately, the delivery team dropped it off in a hurry and left before I had a chance to unwrap it, so I only noticed the problem after they had gone.\n\nWhen I called your customer service line, I was told that I would have to pay a $150 pickup fee to return the item. With respect, I do not think this is reasonable. I have not changed my mind about the purchase; your warehouse simply sent the wrong product. Charging a customer for the company's own mistake seems unfair, and it is not what I expected from a store with such positive reviews.\n\nI would therefore ask you to arrange for the grey sofa to be collected free of charge and for the correct blue one to be delivered within two weeks. If that colour is no longer in stock, I would prefer a full refund.\n\nI look forward to your prompt reply.\n\nYours sincerely,\nCarlos Mendoza",
+  "usefulExpressions": [
+    {
+      "expression": "I am writing about order NH-48217, … I purchased on … for …",
+      "usageVi": "Câu mở đầu thư khiếu nại mua hàng: đưa ngay mã đơn, ngày mua, giá tiền."
+    },
+    {
+      "expression": "left before I had a chance to…",
+      "usageVi": "Giải thích vì sao bạn không kiểm tra hàng kịp, tránh bị cho là lỗi của bạn."
+    },
+    {
+      "expression": "With respect, I do not think this is reasonable.",
+      "usageVi": "Phản đối một cách lịch sự, giữ giọng bình tĩnh mà vẫn kiên quyết."
+    },
+    {
+      "expression": "I have not changed my mind…; your warehouse simply sent the wrong product.",
+      "usageVi": "Phân biệt rõ 'đổi ý' và 'giao sai hàng' – lập luận chính cho ý 2."
+    },
+    {
+      "expression": "I would therefore ask you to arrange for … to be collected free of charge",
+      "usageVi": "Yêu cầu trang trọng với 'arrange for + object + to be + V3'."
+    },
+    {
+      "expression": "If…, I would prefer a full refund.",
+      "usageVi": "Đưa phương án dự phòng, cho thấy bạn hợp lý và có tính toán."
+    }
+  ],
+  "commonMistakes": [
+    "Giọng giận dữ, đe dọa ('This is a scam, I will sue you'). Ở mức 8–9, phàn nàn phải chắc chắn nhưng lịch sự, dựa trên lý lẽ.",
+    "Ý 2 chỉ nói 'The fee is unfair' mà không giải thích vì sao. Cần lập luận: lỗi do công ty, không phải khách đổi ý.",
+    "Ý 3 mơ hồ ('Please fix this'). Hãy nói rõ muốn gì (lấy hàng miễn phí, giao đúng màu) và thời hạn.",
+    "Sai cấu trúc bị động: 'arrange the sofa to collect' → 'arrange for the sofa to be collected'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets (order vs. delivery, why the fee is unfair, clear request + fallback), calm firm tone, 196 words; fee/price figures plausible and not presented as legal rights. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

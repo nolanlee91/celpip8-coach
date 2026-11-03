@@ -1,0 +1,62 @@
+{
+  "id": "s8-mock-06",
+  "kind": "speaking",
+  "taskType": "S8",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "social",
+  "title": "A two-spouted teapot for a gift exchange",
+  "prompt": "Your friend group is doing a gift exchange at a holiday party, with a $30 spending limit. While browsing in a second-hand shop on Commercial Drive in Vancouver, you see this unusual teapot. Call the friend who organized the exchange, describe the teapot in detail, and explain whether you think it would make a good gift.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='#f7f1e8'/><rect y='430' width='800' height='70' fill='#8d6e63'/><g fill='#f0b429'><rect x='330' y='380' width='14' height='50' rx='3'/><rect x='393' y='385' width='14' height='45' rx='3'/><rect x='456' y='380' width='14' height='50' rx='3'/></g><path d='M300 330 Q230 320 205 225' stroke='#6c3483' stroke-width='18' fill='none' stroke-linecap='round'/><path d='M500 300 L560 280' stroke='#6c3483' stroke-width='18' fill='none' stroke-linecap='round'/><line x1='560' y1='282' x2='560' y2='338' stroke='#95a5a6' stroke-width='2' stroke-dasharray='3 2'/><circle cx='560' cy='354' r='15' fill='#bdc3c7' stroke='#7f8c8d' stroke-width='2'/><g fill='#7f8c8d'><circle cx='554' cy='348' r='1.5'/><circle cx='562' cy='348' r='1.5'/><circle cx='558' cy='356' r='1.5'/><circle cx='566' cy='356' r='1.5'/><circle cx='554' cy='362' r='1.5'/><circle cx='562' cy='362' r='1.5'/></g><ellipse cx='400' cy='300' rx='110' ry='95' fill='#6c3483'/><g fill='#ffffff'><circle cx='340' cy='260' r='6'/><circle cx='460' cy='252' r='6'/><circle cx='345' cy='350' r='6'/><circle cx='455' cy='350' r='6'/><circle cx='400' cy='372' r='6'/><circle cx='318' cy='305' r='6'/><circle cx='482' cy='300' r='6'/></g><path d='M330 225 Q400 110 470 225' stroke='#c8a165' stroke-width='12' fill='none'/><g stroke='#7a5c2e' stroke-width='3'><line x1='360' y1='176' x2='370' y2='188'/><line x1='400' y1='161' x2='400' y2='174'/><line x1='430' y1='188' x2='440' y2='176'/></g><path d='M355 212 Q400 185 445 212 Z' fill='#8e44ad'/><ellipse cx='400' cy='192' rx='12' ry='8' fill='#f1c40f'/><circle cx='410' cy='184' r='6' fill='#f1c40f'/><polygon points='415,182 423,184 415,187' fill='#e67e22'/><circle cx='411' cy='183' r='1.5' fill='#2d3436'/><circle cx='400' cy='300' r='32' fill='#ffffff' stroke='#d4ac0d' stroke-width='4'/><g stroke='#2d3436' stroke-width='2'><line x1='400' y1='272' x2='400' y2='278'/><line x1='372' y1='300' x2='378' y2='300'/><line x1='422' y1='300' x2='428' y2='300'/></g><line x1='400' y1='300' x2='418' y2='282' stroke='#d63031' stroke-width='3'/><circle cx='400' cy='300' r='3' fill='#2d3436'/><rect x='620' y='445' width='120' height='42' rx='4' fill='#ffffff' stroke='#999999'/><text x='680' y='473' font-family='Arial' font-size='20' font-weight='bold' fill='#d63031' text-anchor='middle'>$28</text></svg>",
+  "options": null,
+  "structure": [
+    "Open the call, mention the gift exchange and give your first impression.",
+    "Describe the body (colour, dots, dial, legs) and the two very different spouts.",
+    "Describe the top (bamboo-style handle, lid, bird) and the infuser hanging from the spout.",
+    "Speculate on the purpose of the odd features, note the price and give a reasoned opinion."
+  ],
+  "modelAnswer": "Hey Jordan, it's Mei. I'm in a second-hand shop on Commercial Drive, and I've found something that would be a total wild card for the gift exchange. It's a teapot, but a very eccentric one. The body is round and deep purple, dotted with white spots, and it's perched on three stubby gold legs. On the front, there's a white dial with a red needle, like a thermometer, so presumably it tells you how hot the tea is. What really throws you off is that it has two spouts: on the left, a long one that curves up, almost like a swan's neck, and on the right, a short, straight one. Dangling from the short spout on a chain, there's a little silver ball with tiny holes, probably a tea infuser. Instead of a side handle, there's a light brown, bamboo-style handle arching over the top, and a tiny yellow bird sits on the purple lid. It's $28, just under our limit. It's quirky, admittedly, but whoever ends up with it will have a story to tell. What's your take?",
+  "usefulExpressions": [
+    {
+      "expression": "…would be a total wild card",
+      "usageVi": "Món đồ khó đoán, bất ngờ — thành ngữ tự nhiên"
+    },
+    {
+      "expression": "…it's perched on…",
+      "usageVi": "Đậu/đặt trên (thường là chân nhỏ, chỗ cao) — từ vựng mô tả nâng cao"
+    },
+    {
+      "expression": "What really throws you off is that…",
+      "usageVi": "Làm nổi bật chi tiết gây bối rối nhất"
+    },
+    {
+      "expression": "…, almost like a swan's neck",
+      "usageVi": "So sánh hình ảnh để tả đường cong"
+    },
+    {
+      "expression": "Dangling from…, there's…",
+      "usageVi": "Đảo ngữ chỉ vị trí với vật treo lủng lẳng"
+    },
+    {
+      "expression": "It's quirky, admittedly, but…",
+      "usageVi": "Thừa nhận điểm yếu trước khi đưa ý kiến tích cực"
+    },
+    {
+      "expression": "What's your take?",
+      "usageVi": "Hỏi ý kiến người nghe một cách tự nhiên"
+    }
+  ],
+  "commonMistakes": [
+    "Gọi mọi phần là 'the thing'; hãy dùng 'spout' (vòi), 'lid' (nắp), 'handle' (quai), hoặc diễn đạt vòng nếu quên từ.",
+    "Tả hai vòi nhưng không so sánh (dài/ngắn, cong/thẳng) — chi tiết đối lập giúp đạt điểm từ vựng cao.",
+    "Kết luận chỉ bằng \"It's nice\"; ở mức 9 cần lý do cụ thể (hợp giới hạn $30, tạo bất ngờ cho trò đổi quà)."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked every detail against the SVG markup (purple body with white dots, three gold legs, white dial with red needle, long curved spout left vs short straight spout right, silver infuser on a chain, bamboo-style arched handle, yellow bird on the lid, $28 under the $30 limit) and SVG rules. Trimmed 6 words to 180."
+  },
+  "createdAt": "2026-11-03"
+}

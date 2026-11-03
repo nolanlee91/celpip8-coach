@@ -1,0 +1,54 @@
+{
+  "id": "s2-mock-04",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "customer-service",
+  "title": "Complaining about poor service",
+  "prompt": "Talk about a time when you received poor service from a business. What went wrong, how did you make your complaint, and were you satisfied with the outcome?",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "The business + what you paid for",
+    "What went wrong (specific details)",
+    "How you complained (calm, step by step, evidence)",
+    "The outcome + whether you were satisfied and why"
+  ],
+  "modelAnswer": "Last winter, I booked a furnace inspection with a heating company in Coquitlam called NorthStar Comfort. I took the morning off work, because they'd given me a window from eight to twelve.\n\nWell, nobody showed up. I called three times, and each time I was told the technician was \"on his way.\" Finally, at about one o'clock, someone admitted that my booking had been cancelled by mistake and nobody had bothered to let me know. So, I'd wasted half a day of vacation for nothing.\n\nInstead of losing my temper on the phone, I decided to put everything in writing. That evening, I sent an email to the customer service manager, listing the times I'd called and explaining that I'd lost four hours of paid leave. I asked for a new appointment and some kind of compensation.\n\nTo their credit, the manager called me the next morning and apologized. They rebooked me for that Saturday and waived the hundred-and-twenty-dollar fee. Overall, I was fairly satisfied, although I'd still have preferred an honest answer at nine instead of one.",
+  "usefulExpressions": [
+    {
+      "expression": "nobody had bothered to let me know",
+      "usageVi": "'Not bother to do' = chẳng thèm làm — thể hiện sự bực mình một cách lịch sự."
+    },
+    {
+      "expression": "Instead of losing my temper, …",
+      "usageVi": "'Lose one's temper' = nổi nóng — cho thấy bạn xử lý bình tĩnh."
+    },
+    {
+      "expression": "I decided to put everything in writing",
+      "usageVi": "Ghi lại bằng văn bản — cách khiếu nại hiệu quả, rất hay dùng ở Canada."
+    },
+    {
+      "expression": "To their credit, …",
+      "usageVi": "Công bằng mà nói / phải công nhận là — dùng khi khen phía bị khiếu nại."
+    },
+    {
+      "expression": "Overall, I was fairly satisfied, although I'd still have preferred…",
+      "usageVi": "Câu kết có sắc thái (hài lòng nhưng vẫn còn điều chưa ổn) — dấu hiệu của Level 9."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ kể chuyện tức giận mà không nói rõ cách khiếu nại (gọi, email, bằng chứng) — đó là ý thứ hai của đề.",
+    "Dùng 'complain' sai cấu trúc: 'I complained them'. Nói 'I complained to the manager about the delay' hoặc 'I made a complaint'.",
+    "Không biết cụm 'waive the fee' (miễn khoản phí). 'Waive' và 'wave' (vẫy tay) đọc giống hệt nhau /weɪv/, nên khi nói cần dùng đúng cụm 'they waived the fee' để người nghe hiểu ngay qua ngữ cảnh."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked what went wrong, how the complaint was made (written email with call log) and a nuanced satisfaction verdict; length 178; business is fictional. Reworded commonMistakes[2], which treated 'waive'/'wave' (homophones) as a pronunciation error; it now teaches the collocation 'waive the fee'."
+  },
+  "createdAt": "2026-11-03"
+}

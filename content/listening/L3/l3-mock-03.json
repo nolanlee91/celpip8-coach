@@ -1,0 +1,136 @@
+{
+  "id": "l3-mock-03",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "recreation",
+  "title": "A beginner ski package for two newcomers",
+  "context": "You will hear a woman phoning the guest services desk at a ski hill near Kamloops to ask about lessons for adult beginners.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Kenji", "voice": "male_a", "text": "Good morning, Silvertip Mountain guest services, this is Kenji. How can I help?" },
+        { "speaker": "Daniela", "voice": "female_b", "text": "Hi, Kenji, my name's Daniela. My husband and I just moved here from Mexico City, and we've never been on skis in our lives. A coworker said you have some kind of beginner package for adults?" },
+        { "speaker": "Kenji", "voice": "male_a", "text": "We do. It's called First Tracks. It's three lessons, two hours each, and the price includes your rental skis, boots and helmet, plus a lift ticket for the beginner area. It's two hundred and forty-nine dollars per person on weekdays, or two ninety-nine if you take the lessons on weekends." },
+        { "speaker": "Daniela", "voice": "female_b", "text": "Do the three lessons have to be on back-to-back days?" },
+        { "speaker": "Kenji", "voice": "male_a", "text": "No, you've got the whole season to use them. A lot of people space them out a week apart. That said, I wouldn't leave too long between the first two, or you'll spend half of the second lesson remembering how to stop." },
+        { "speaker": "Daniela", "voice": "female_b", "text": "Makes sense. And after the third lesson, is that it?" },
+        { "speaker": "Kenji", "voice": "male_a", "text": "That's actually the best part. If you finish all three, you get a free pass for the beginner area, good for the rest of the winter. Rentals aren't included in the pass, though, so at that point most people either rent by the day or start looking at used gear." },
+        { "speaker": "Daniela", "voice": "female_b", "text": "Oh, that's a great deal. What about getting up there? We have a car, but it's a small one, and neither of us has ever driven in snow." },
+        { "speaker": "Kenji", "voice": "male_a", "text": "Then I'd strongly suggest the shuttle. It leaves from the visitor centre downtown at seven-thirty and eight-thirty, and it's free if you show your lesson confirmation. If you do drive, the highway up here requires winter tires from October through March, and summer tires definitely don't count." },
+        { "speaker": "Daniela", "voice": "female_b", "text": "I'm pretty sure ours are summer tires. Shuttle it is. Last question. What happens if the weather's terrible?" },
+        { "speaker": "Kenji", "voice": "male_a", "text": "We hardly ever close for snow, believe it or not. Snow is kind of the point. But if we cancel lessons because of high winds or freezing rain, we'll move you to another day at no charge. If you just decide you don't feel like coming, you need to give us forty-eight hours' notice, or that lesson counts as used." },
+        { "speaker": "Daniela", "voice": "female_b", "text": "Okay, fair enough. Can I book both of us now, over the phone?" },
+        { "speaker": "Kenji", "voice": "male_a", "text": "You can, but it's actually cheaper online. There's a ten percent discount if you book on the website at least a week ahead." },
+        { "speaker": "Daniela", "voice": "female_b", "text": "Then I'll sit down and do it tonight. Thanks so much, Kenji." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is included in the price of the First Tracks package?",
+          "options": [
+            { "text": "Lessons on any run on the mountain.", "trap": "too_broad", "whyVi": "Vé thang máy chỉ dành cho khu vực người mới, không phải toàn bộ ngọn núi." },
+            { "text": "Equipment and access to the beginner slopes.", "trap": "none", "whyVi": "Đúng: giá gồm thuê ván trượt, giày, mũ bảo hiểm và vé thang máy cho khu người mới." },
+            { "text": "Weekend lessons at the weekday price.", "trap": "wrong_detail", "whyVi": "Học cuối tuần đắt hơn: 299 đô so với 249 đô ngày thường." },
+            { "text": "A ride on the shuttle for the whole season.", "trap": "not_mentioned", "whyVi": "Xe đưa đón miễn phí khi trình xác nhận buổi học; không có vé xe cả mùa trong gói." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "the price includes your rental skis, boots and helmet, plus a lift ticket for the beginner area",
+          "explanationVi": "'Rental skis, boots and helmet' = 'equipment'; 'lift ticket for the beginner area' = 'access to the beginner slopes'. Đáp án B.",
+          "vocabulary": ["lift ticket"]
+        },
+        {
+          "number": 2,
+          "prompt": "Why does Kenji advise against a long gap between the first two lessons?",
+          "options": [
+            { "text": "The package expires a week after the first lesson.", "trap": "opposite", "whyVi": "Có cả mùa để dùng ba buổi học." },
+            { "text": "Weekend lessons are more expensive.", "trap": "word_match", "whyVi": "Giá cuối tuần cao hơn là đúng, nhưng không phải lý do của lời khuyên này." },
+            { "text": "The instructor may not be available later in the season.", "trap": "not_mentioned", "whyVi": "Không nhắc tới lịch của giáo viên." },
+            { "text": "Learners may forget basic skills and lose lesson time relearning them.", "trap": "none", "whyVi": "Đúng: nếu chờ lâu, nửa buổi thứ hai sẽ dùng để nhớ lại cách dừng lại." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "I wouldn't leave too long between the first two, or you'll spend half of the second lesson remembering how to stop.",
+          "explanationVi": "'Spend half of the second lesson remembering how to stop' ↔ quên kỹ năng cơ bản và mất thời gian học lại. Đáp án D.",
+          "vocabulary": ["space out"]
+        },
+        {
+          "number": 3,
+          "prompt": "What do learners receive after completing all three lessons?",
+          "options": [
+            { "text": "Free access to the learners' slopes until the season ends, though equipment is extra.", "trap": "none", "whyVi": "Đúng: vé miễn phí khu người mới đến hết mùa đông, nhưng không gồm thuê đồ." },
+            { "text": "Free equipment rental for the rest of the winter.", "trap": "opposite", "whyVi": "Kenji nói rõ 'Rentals aren't included in the pass'." },
+            { "text": "A discount on used gear.", "trap": "word_match", "whyVi": "Có nhắc 'used gear' nhưng chỉ là việc nhiều người tự đi tìm mua, không có giảm giá." },
+            { "text": "A season pass for the whole mountain.", "trap": "too_broad", "whyVi": "Vé chỉ dành cho khu vực người mới." }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "If you finish all three, you get a free pass for the beginner area, good for the rest of the winter. Rentals aren't included in the pass, though",
+          "explanationVi": "Cần nghe cả hai ý: được vé miễn phí khu người mới ('good for the rest of the winter' = đến hết mùa) VÀ không gồm thuê đồ. Đáp án A gộp cả hai.",
+          "vocabulary": ["gear"]
+        },
+        {
+          "number": 4,
+          "prompt": "Why does Daniela decide to take the shuttle?",
+          "options": [
+            { "text": "The shuttle leaves from near her home.", "trap": "not_mentioned", "whyVi": "Xe xuất phát từ trung tâm du khách ở trung tâm thành phố; không nói gần nhà cô." },
+            { "text": "Her car is too small for two sets of skis.", "trap": "word_match", "whyVi": "Cô nói xe nhỏ, nhưng không nói không chở được ván trượt." },
+            { "text": "Her car's tires would not be allowed on the road to the ski hill.", "trap": "none", "whyVi": "Đúng: đường lên núi bắt buộc lốp mùa đông, mà xe cô chỉ có lốp mùa hè." },
+            { "text": "Driving would cost more than the shuttle fare.", "trap": "not_mentioned", "whyVi": "Không so sánh chi phí; xe đưa đón miễn phí nếu có xác nhận." }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "I'm pretty sure ours are summer tires. Shuttle it is.",
+          "explanationVi": "Nối hai câu: Kenji nói đường lên núi 'requires winter tires' và 'summer tires definitely don't count'; Daniela đáp xe cô có lốp mùa hè → chọn xe đưa đón. Đáp án C.",
+          "vocabulary": ["winter tires"]
+        },
+        {
+          "number": 5,
+          "prompt": "In which situation would a lesson count as used?",
+          "options": [
+            { "text": "The ski hill closes because of heavy snow.", "trap": "opposite", "whyVi": "Khu trượt hầu như không bao giờ đóng vì tuyết." },
+            { "text": "Lessons are cancelled due to freezing rain.", "trap": "opposite", "whyVi": "Khi khu trượt hủy vì mưa băng, buổi học được dời miễn phí." },
+            { "text": "A learner phones a week ahead to change the date.", "trap": "wrong_detail", "whyVi": "Báo trước một tuần là đủ 48 giờ; 'một tuần' là chi tiết về giảm giá đặt online." },
+            { "text": "A learner cancels with less than two days' notice.", "trap": "none", "whyVi": "Đúng: tự ý không đến mà báo dưới 48 giờ thì buổi đó bị tính là đã dùng." }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "If you just decide you don't feel like coming, you need to give us forty-eight hours' notice, or that lesson counts as used.",
+          "explanationVi": "'Forty-eight hours' = 'two days'. Hủy do thời tiết thì được dời miễn phí; tự hủy mà báo dưới 48 giờ mới mất buổi. Đáp án D.",
+          "vocabulary": ["notice"]
+        },
+        {
+          "number": 6,
+          "prompt": "What will Daniela most likely do next?",
+          "options": [
+            { "text": "Book the lessons with Kenji over the phone.", "trap": "opposite", "whyVi": "Kenji nói đặt online rẻ hơn, nên cô quyết định tự đặt tối nay." },
+            { "text": "Reserve the lessons online that evening to save money.", "trap": "none", "whyVi": "Đúng: đặt trên web trước một tuần được giảm 10%, và cô nói sẽ làm tối nay." },
+            { "text": "Buy winter tires for her car.", "trap": "not_mentioned", "whyVi": "Cô chọn đi xe đưa đón, không nói mua lốp." },
+            { "text": "Visit the visitor centre to get a confirmation.", "trap": "word_match", "whyVi": "Trung tâm du khách là nơi xe đưa đón xuất phát, không phải nơi lấy xác nhận." }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "Then I'll sit down and do it tonight.",
+          "explanationVi": "'Then' nối với lời Kenji: đặt trên website rẻ hơn 10%. 'Do it tonight' = đặt online tối nay. Đáp án B.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "lift ticket", "vi": "vé đi thang máy/cáp treo khu trượt tuyết", "definition": "a ticket that lets you ride the lifts at a ski hill", "example": "The price includes a lift ticket for the beginner area." },
+    { "term": "back-to-back", "vi": "liên tiếp, liền nhau", "definition": "happening one right after another", "example": "Do the lessons have to be on back-to-back days?" },
+    { "term": "space out", "vi": "giãn ra, chia cách quãng", "definition": "to arrange things with time or space between them", "example": "A lot of people space the lessons out a week apart." },
+    { "term": "gear", "vi": "đồ nghề, dụng cụ", "definition": "the equipment needed for an activity", "example": "Some people start looking at used gear." },
+    { "term": "winter tires", "vi": "lốp mùa đông", "definition": "tires made to grip on snow and ice", "example": "The highway requires winter tires from October through March." },
+    { "term": "notice", "vi": "thông báo trước", "definition": "a warning given in advance that something will happen", "example": "You need to give us forty-eight hours' notice." },
+    { "term": "count as", "vi": "được tính là", "definition": "to be considered as something", "example": "Otherwise that lesson counts as used." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; keys match (B, D, A, C, D, B). Fixed Q1: option C 'A pass for the beginner area from the first day' was defensible because the package includes a beginner-area lift ticket, so it was replaced with 'Weekend lessons at the weekday price'; Q3 key reworded so it no longer copies the text. Checked: both names spoken; BC winter-tire rule (Oct-Mar on designated highways, summer tires not accepted) is accurate; ski hill fictional; no duplicate title." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

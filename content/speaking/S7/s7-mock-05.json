@@ -1,0 +1,60 @@
+{
+  "id": "s7-mock-05",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "customer-service",
+  "title": "Replacing tips with higher menu prices",
+  "prompt": "A restaurant owner in Victoria has stopped accepting tips. Instead, menu prices have gone up by about 18 percent, and all staff now receive a higher hourly wage. Some customers like the change, while others say tipping is the best way to reward good service.\n\nDo you think restaurants should replace tipping with higher menu prices? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Clear position in the first sentence",
+    "Reason 1: honesty and transparency for customers (everyday example)",
+    "Reason 2: fairness and stable income for all staff",
+    "Rebut the 'tips motivate good service' argument",
+    "Admit a real risk and how to manage it",
+    "Conclusion summarising both reasons"
+  ],
+  "modelAnswer": "Personally, I think replacing tips with higher menu prices is the better system, and I'd be happy to see more restaurants follow this owner's lead.\n\nMy first reason is that it's more honest for customers. These days, it feels like every payment machine asks for eighteen, twenty or even twenty-five percent. With a no-tipping policy, the price on the menu is the price you pay, so there's no awkward moment at the end of the meal.\n\nSecond, it's fairer to staff. Under the current system, servers can do very well while the cooks and dishwashers, who work just as hard, take home much less. Tips also go up and down with the weather and the season, which makes it hard for workers to budget. A steady, higher wage gives everyone in the restaurant more security.\n\nI know some people argue that tipping motivates servers to do a better job. But in my experience, good service comes from good training and a decent workplace, not from hoping a customer will be generous. Besides, studies have suggested that tips often depend on things that have nothing to do with service.\n\nThe real risk is that diners might see the higher prices and go elsewhere, so restaurants would need to explain the policy clearly on their menus.\n\nIn short, I'm in favour of the change, because it's clearer for customers and fairer for the people working behind the scenes.",
+  "usefulExpressions": [
+    {
+      "expression": "follow (someone's) lead",
+      "usageVi": "= làm theo, noi gương ai đó."
+    },
+    {
+      "expression": "the price on the menu is the price you pay",
+      "usageVi": "Câu ngắn, cân đối, dễ nhớ — nhấn mạnh sự minh bạch."
+    },
+    {
+      "expression": "take home (much less)",
+      "usageVi": "= thực nhận ít hơn nhiều; 'take-home pay' = lương thực nhận sau thuế."
+    },
+    {
+      "expression": "…comes from X, not from Y",
+      "usageVi": "Cấu trúc đối lập giúp phản bác rõ ràng."
+    },
+    {
+      "expression": "The real risk is that…",
+      "usageVi": "Tự nêu rủi ro thật sự — cho thấy lập luận cân bằng."
+    },
+    {
+      "expression": "behind the scenes",
+      "usageVi": "Thành ngữ = ở hậu trường; chỉ những người làm việc mà khách không thấy."
+    }
+  ],
+  "commonMistakes": [
+    "Nói 'I give tip 15 percent' → đúng: 'I leave a 15 percent tip' hoặc 'I tip 15 percent'.",
+    "Nói 'eighteen percents' → 'percent' không thêm 's' khi đi sau con số.",
+    "Kết thúc bằng 'That's all' hoặc dừng đột ngột. Hãy tóm lại 2 lý do chính trong một câu kết."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked clear position, two reasons, rebuttal of the motivation argument, hedged 'studies have suggested', length now 236. Trimmed one clause (muffin example) because at 247 words the answer read as rushed for 90 s."
+  },
+  "createdAt": "2026-11-03"
+}

@@ -1,0 +1,169 @@
+{
+  "id": "r2-mock-05",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "government",
+  "title": "Sorting out residential parking permits after a move",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 8 items independently; all keys match and only one option fits each blank. Recomputed: temporary permit 60 days/2 months from Oct 12 = mid-December, contractor 5 x $12 = $60, visitor pass 14 of 21 days, second resident permit $130 = twice $65; all rules come only from the fictional City of Lanford table. Changed Kamloops to Prince George to reduce overlap with r2-full-06 and fixed an ambiguous 'chị Bao' in a whyVi." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Permit guide",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "City of Lanford — Residential Parking Permits (the permit year runs September 1 to August 31; prices are not prorated; proof of address and a vehicle registration in the applicant's name are required)",
+        "headers": ["Permit type", "Who can apply", "Fee", "Limit per household", "Where and when valid", "How to apply"],
+        "rows": [
+          ["Resident permit", "Residents of a permit zone with a vehicle registered at that address", "$65 for the first; $130 for the second", "2", "Your own zone only, any time", "Online; issued within 3 business days"],
+          ["Visitor pass", "Resident permit holders only", "$30 per year", "1", "Your own zone, up to 14 days in a row per guest", "Online or at City Hall"],
+          ["Caregiver permit", "Home-care workers visiting a resident; doctor's letter required", "Free", "1 per resident receiving care", "Any zone, weekdays 7 a.m.–7 p.m.", "In person at City Hall only"],
+          ["Contractor permit", "Businesses doing work at a home in a permit zone", "$12 per day", "No limit", "Zone of the work address, 7 a.m.–6 p.m.", "Online; issued the same day"],
+          ["Temporary resident permit", "Residents who moved within the last 60 days and whose vehicle is still registered at a previous address", "$15 per month, for up to 2 months", "2", "Your own zone only, any time", "Online; issued within 3 business days"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Bao,\n\nQuick update on parking at the new place. I spent an hour on the City of Lanford website last night, and it's more complicated than I expected.\n\nBecause I updated my car's registration last week, I can apply for a regular resident permit straight away. Yours is still registered at the Prince George address, so until you change it, you'll need [[1]]. Don't leave it too long, though: [[2]], and since we got the keys on October 12, you've got until mid-December at the latest.\n\nMom's home-care worker can get a permit for free, but she'll need a letter from Dr. Malik, and [[3]]. No online option, unfortunately.\n\nThe kitchen crew will be here for five weekdays in November, so their permit will come to [[4]] in total, which seems fair. And when your sister comes for three weeks at Christmas, our visitor pass will only cover [[5]].\n\nOne more thing: we'll pay the full fee even though the permit year started back in September. Annoying, but there's no way around it.\n\nTalk tonight,\nWen",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "a visitor pass", "trap": "wrong_detail", "whyVi": "Visitor pass dành cho khách của người đã có resident permit, chỉ dùng tối đa 14 ngày liên tục mỗi khách — không dành cho người sống ở đó." },
+        { "text": "a second resident permit", "trap": "partially_true", "whyVi": "Sau này Bao sẽ cần permit thứ hai, nhưng hiện tại xe anh chưa đăng ký ở địa chỉ mới nên chưa đủ điều kiện." },
+        { "text": "a caregiver permit", "trap": "wrong_detail", "whyVi": "Permit này dành cho nhân viên chăm sóc tại nhà." },
+        { "text": "the short-term permit for people who've just moved", "trap": "none", "whyVi": "Đúng: Temporary resident permit dành cho người 'moved within the last 60 days' mà xe 'still registered at a previous address' — đúng trường hợp của Bao." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Residents who moved within the last 60 days and whose vehicle is still registered at a previous address",
+      "explanationVi": "Từ khóa: 'still registered at the Prince George address' khớp với 'still registered at a previous address' trong cột 'Who can apply'. Đáp án không nhắc tên 'Temporary resident permit' mà diễn đạt lại: 'short-term permit for people who've just moved'.",
+      "vocabulary": ["vehicle registration"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "the city only lets you have it for two months", "trap": "none", "whyVi": "Đúng: 'for up to 2 months', và chỉ cho người chuyển đến trong vòng 60 ngày → từ 12/10 tính ra khoảng giữa tháng 12." },
+        { "text": "it costs $15 a day", "trap": "wrong_detail", "whyVi": "$15 là theo tháng, không phải theo ngày; $12/ngày là permit cho nhà thầu." },
+        { "text": "it's only valid on weekdays", "trap": "wrong_detail", "whyVi": "Chỉ ngày thường là của Caregiver permit; permit tạm thời dùng 'any time'." },
+        { "text": "it takes three business days to arrive", "trap": "partially_true", "whyVi": "Đúng là cấp trong 3 ngày làm việc, nhưng điều này không giải thích được hạn chót giữa tháng 12." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "$15 per month, for up to 2 months",
+      "explanationVi": "'Don't leave it too long' + 'you've got until mid-December' → cần một giới hạn thời gian. Nhận chìa khóa 12/10 + tối đa 2 tháng (hoặc 60 ngày) ≈ giữa tháng 12. Chỉ phương án A giải thích được mốc thời gian đó.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "it will only be valid in our zone", "trap": "opposite", "whyVi": "Caregiver permit có giá trị 'Any zone' (mọi khu vực)." },
+        { "text": "she'll have to go down to City Hall to apply", "trap": "none", "whyVi": "Đúng: 'In person at City Hall only' — phải đến Tòa thị chính nộp trực tiếp." },
+        { "text": "it costs $30 a year", "trap": "wrong_detail", "whyVi": "$30/năm là phí visitor pass; caregiver permit miễn phí." },
+        { "text": "it's issued the same day", "trap": "wrong_detail", "whyVi": "Cấp trong ngày là contractor permit." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "In person at City Hall only",
+      "explanationVi": "Câu sau 'No online option, unfortunately' gợi ý chỗ trống nói về cách nộp đơn. Cột 'How to apply': 'In person at City Hall only' → 'go down to City Hall to apply'.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "$12", "trap": "partially_true", "whyVi": "$12 chỉ là giá một ngày; đội thợ làm 5 ngày." },
+        { "text": "$65", "trap": "wrong_detail", "whyVi": "$65 là giá resident permit đầu tiên." },
+        { "text": "$60", "trap": "none", "whyVi": "Đúng: $12 mỗi ngày × 5 ngày = $60." },
+        { "text": "$75", "trap": "wrong_detail", "whyVi": "$75 = $15 × 5 — dùng nhầm giá của permit tạm thời." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "$12 per day",
+      "explanationVi": "'kitchen crew' (đội thợ làm bếp) = 'Businesses doing work at a home' → Contractor permit, $12 per day. 'in total' (tổng cộng) → nhân với 5 ngày.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "her entire stay", "trap": "opposite", "whyVi": "Pass chỉ dùng tối đa 14 ngày liên tục, mà chị/em gái của Bao ở 3 tuần (21 ngày)." },
+        { "text": "the first two weeks of her visit", "trap": "none", "whyVi": "Đúng: 'up to 14 days in a row per guest' = hai tuần đầu của chuyến thăm 3 tuần." },
+        { "text": "weekday parking", "trap": "wrong_detail", "whyVi": "Giới hạn ngày thường là của Caregiver permit." },
+        { "text": "parking anywhere in the city", "trap": "opposite", "whyVi": "Visitor pass chỉ dùng trong khu vực của mình ('Your own zone')." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Your own zone, up to 14 days in a row per guest",
+      "explanationVi": "Chữ 'only' cho thấy pass không đủ. 3 tuần = 21 ngày, nhưng pass chỉ cho 14 ngày liên tục mỗi khách → chỉ đủ hai tuần đầu.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "In the diagram, what does 'prices are not prorated' mean?",
+      "options": [
+        { "text": "Prices go up every September.", "trap": "not_mentioned", "whyVi": "Bảng không nói gì về việc tăng giá." },
+        { "text": "Permits can be paid for in monthly instalments.", "trap": "wrong_detail", "whyVi": "Chỉ permit tạm thời tính theo tháng; câu này không giải thích 'prorated'." },
+        { "text": "A second permit costs less than the first.", "trap": "opposite", "whyVi": "Permit thứ hai đắt gấp đôi ($130 so với $65)." },
+        { "text": "The fee stays the same no matter when in the year you buy.", "trap": "none", "whyVi": "Đúng: 'prorated' là tính theo tỷ lệ thời gian còn lại; 'not prorated' = mua muộn vẫn trả đủ. Wen xác nhận: 'we'll pay the full fee even though the permit year started back in September'." }
+      ],
+      "answerIndex": 3,
+      "category": "vocabulary",
+      "evidence": "we'll pay the full fee even though the permit year started back in September",
+      "explanationVi": "Đoán nghĩa từ ngữ cảnh: email nói phải trả 'the full fee' dù năm cấp phép đã bắt đầu từ tháng 9. Vậy 'not prorated' = không giảm theo phần thời gian còn lại.",
+      "vocabulary": ["prorated"]
+    },
+    {
+      "number": 7,
+      "prompt": "What will happen once Bao registers his car at the new address?",
+      "options": [
+        { "text": "He can keep his temporary permit for the rest of the year.", "trap": "opposite", "whyVi": "Permit tạm thời chỉ dành cho xe còn đăng ký ở địa chỉ cũ và tối đa 2 tháng." },
+        { "text": "He will pay $65, the same as Wen.", "trap": "wrong_detail", "whyVi": "$65 chỉ áp dụng cho permit đầu tiên của hộ — Wen đã dùng." },
+        { "text": "He can get a resident permit, but at twice the price Wen paid.", "trap": "none", "whyVi": "Đúng: Wen xin trước nên trả $65 (permit đầu tiên); permit thứ hai của hộ giá $130 = gấp đôi." },
+        { "text": "He will have to apply in person at City Hall.", "trap": "wrong_detail", "whyVi": "Resident permit nộp online; nộp trực tiếp là caregiver permit." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "$65 for the first; $130 for the second",
+      "explanationVi": "Wen nộp đơn 'straight away' nên permit của cô là cái đầu tiên ($65). Khi Bao đổi đăng ký xe, anh được xin resident permit, nhưng là cái thứ hai của hộ → $130, gấp đôi. 'Limit per household' = 2 nên vẫn được phép.",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "How does Wen seem to feel about the permit rules overall?",
+      "options": [
+        { "text": "Mildly frustrated, but resigned to following them", "trap": "none", "whyVi": "Đúng: 'more complicated than I expected', 'Annoying, but there's no way around it' — hơi bực nhưng chấp nhận." },
+        { "text": "Pleased with how simple they are", "trap": "opposite", "whyVi": "Cô nói 'more complicated than I expected'." },
+        { "text": "Angry enough to complain to the city", "trap": "not_mentioned", "whyVi": "Không có ý định khiếu nại nào." },
+        { "text": "Convinced that the contractor fee is too high", "trap": "opposite", "whyVi": "Về phí nhà thầu, cô nói 'which seems fair' (có vẻ hợp lý)." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Annoying, but there's no way around it.",
+      "explanationVi": "Câu hỏi về thái độ. 'Annoying' = hơi bực mình; 'there's no way around it' = không tránh được, đành chấp nhận. 'resigned to' = cam chịu, chấp nhận.",
+      "vocabulary": ["no way around it"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "prorated", "vi": "tính theo tỷ lệ (thời gian)", "definition": "calculated according to how much of a period is used", "example": "The rent for your first month will be prorated." },
+    { "term": "vehicle registration", "vi": "đăng ký xe", "definition": "the official record linking a vehicle to its owner and address", "example": "Update your vehicle registration when you move." },
+    { "term": "straight away", "vi": "ngay lập tức", "definition": "immediately, without waiting", "example": "You can apply for the permit straight away." },
+    { "term": "no way around it", "vi": "không tránh được, đành chịu", "definition": "used to say a problem cannot be avoided", "example": "It's expensive, but there's no way around it." },
+    { "term": "come to", "vi": "tổng cộng là", "definition": "to add up to a total amount", "example": "Five days of parking will come to $60." },
+    { "term": "business day", "vi": "ngày làm việc", "definition": "a weekday that is not a public holiday", "example": "Your permit will be issued within three business days." },
+    { "term": "home-care worker", "vi": "nhân viên chăm sóc tại nhà", "definition": "a person who visits people at home to help with health or daily needs", "example": "Her home-care worker visits every weekday morning." }
+  ]
+}

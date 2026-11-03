@@ -1,0 +1,60 @@
+{
+  "id": "s7-practice-04",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "Fees for missed medical appointments",
+  "prompt": "A family medical clinic in Surrey has started charging patients a $50 fee if they miss an appointment without giving 24 hours' notice. The clinic says missed appointments waste doctors' time, while some patient groups say fees like this are unfair.\n\nDo you think medical clinics should charge a fee for missed appointments? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Qualified position: yes, but with exceptions",
+    "Reason 1: shortage of family doctors + personal example",
+    "Reason 2: a fee changes behaviour (comparison with dentists)",
+    "Counter-argument: vulnerable patients — show you take it seriously",
+    "Your compromise solution (warning, text cancellation, waiver)",
+    "Conclusion with a condition"
+  ],
+  "modelAnswer": "I think clinics should be able to charge a missed-appointment fee, but only if there are sensible exceptions built in.\n\nThe biggest reason is that family doctors are in such short supply. Here in BC, plenty of people have been on a waitlist for years, and when I needed a check-up last spring, the earliest slot I could get was three weeks away. So when someone simply doesn't show up, that's not just the doctor's loss; it's a slot another patient desperately needed.\n\nSecondly, a small fee changes behaviour. People tend to take a commitment more seriously when there's money on the line. Dentists and physiotherapists have done this for ages, and as far as I can tell, it keeps their schedules running smoothly.\n\nHaving said that, I can see why patient groups are uneasy. Some patients have low incomes, some live with mental health challenges, and others get stuck at work or on a delayed bus through no fault of their own. Hitting those people with a fifty-dollar charge could actually put them off booking care at all, which would defeat the purpose.\n\nThat's why I'd suggest a middle ground: a warning for the first missed visit, an easy way to cancel by text, and the option to waive the fee in genuine emergencies.\n\nAll in all, I'm in favour of the fee, as long as it's used to protect appointment time rather than to punish people who are already struggling.",
+  "usefulExpressions": [
+    {
+      "expression": "…but only if there are sensible exceptions built in",
+      "usageVi": "Nêu quan điểm có điều kiện ngay từ đầu — dấu hiệu tư duy cân nhắc ở mức 8–9."
+    },
+    {
+      "expression": "in such short supply",
+      "usageVi": "= rất khan hiếm; tự nhiên và trang trọng hơn 'there are not enough'."
+    },
+    {
+      "expression": "when there's money on the line",
+      "usageVi": "Thành ngữ = khi có nguy cơ mất tiền, khi tiền bạc bị đặt vào cuộc."
+    },
+    {
+      "expression": "through no fault of their own",
+      "usageVi": "= không phải do lỗi của họ; rất hữu ích khi bênh vực nhóm yếu thế."
+    },
+    {
+      "expression": "put (someone) off (doing something)",
+      "usageVi": "Phrasal verb = làm ai ngại, nản, không muốn làm việc gì nữa."
+    },
+    {
+      "expression": "which would defeat the purpose",
+      "usageVi": "= đi ngược lại chính mục đích ban đầu; dùng để chỉ ra hậu quả ngược."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ nói một phía (ủng hộ phí phạt) mà bỏ qua bệnh nhân thu nhập thấp. Ở mức 8–9, cần thừa nhận phản biện và đưa ra giải pháp dung hòa.",
+    "Nói 'the fee is 50 dollar' → cần số nhiều: 'fifty dollars'; nhưng khi làm tính từ thì 'a fifty-dollar fee' (không có 's').",
+    "Dùng sai 'miss': 'I missed to go to my appointment' → đúng là 'I missed my appointment'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked qualified position, reasons, counter-argument and compromise, length 242. Fixed: prompt no longer states a province-wide fee cap ('up to $50' at 'some BC clinics'); it now describes one clinic in Surrey charging $50, so no BC policy is presented as fact."
+  },
+  "createdAt": "2026-11-03"
+}

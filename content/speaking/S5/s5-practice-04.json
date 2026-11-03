@@ -1,0 +1,73 @@
+{
+  "id": "s5-practice-04",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "workplace",
+  "title": "Choosing a new office for a small design studio",
+  "prompt": "You and your business partner run a small graphic design studio with four employees. Your current lease ends in two months, and you have narrowed the search down to two spaces. Choose the space you prefer. Then persuade your partner, who prefers the other space, that your choice is better for the business.",
+  "svg": null,
+  "options": [
+    {
+      "title": "Co-working suite in downtown Vancouver",
+      "details": [
+        "$3,200 CAD per month, all-inclusive (internet, cleaning, coffee, utilities)",
+        "Month-to-month agreement; 30 days' notice to leave",
+        "Two-minute walk from Waterfront Station",
+        "Private room for 6 desks; meeting rooms must be booked; shared kitchen can be noisy"
+      ]
+    },
+    {
+      "title": "Private office in a converted warehouse in Port Moody",
+      "details": [
+        "$2,400 CAD per month plus about $350 for utilities and internet",
+        "Three-year lease required",
+        "Free parking for six cars; 25-minute drive from downtown",
+        "Extra room big enough for a print and photo studio"
+      ]
+    }
+  ],
+  "structure": [
+    "Name your choice and show you understand why your partner likes the other space.",
+    "Reason 1: flexibility (month-to-month vs a three-year commitment) for a small, growing business.",
+    "Reason 2: location and what it means for clients and staff; turn the extra cost into a monthly figure and justify it.",
+    "Rebut the partner's strongest points (studio room, parking) with a practical workaround and close."
+  ],
+  "modelAnswer": "Priya, I know the warehouse has a lot going for it, especially that extra room for a photo studio, but I'd honestly rather go with the downtown co-working suite. My biggest concern is the three-year lease. We've only been in business for two years, and if we land a couple of big contracts, we could easily outgrow four employees. With the co-working space, we can scale up or move out with thirty days' notice instead of being locked in for three years. Then there's location. Most of our clients are downtown, and being two minutes from Waterfront means they can just drop by for a meeting. Plus, three of our designers take transit, so a twenty-five-minute drive to Port Moody would be a real hassle. Sure, it's about four hundred and fifty dollars more a month once you add the warehouse's utilities, but that includes cleaning and coffee, which we'd otherwise pay for separately. As for photo shoots, we can rent a studio by the day when we need one. Shall we book a viewing this week?",
+  "usefulExpressions": [
+    {
+      "expression": "I know… has a lot going for it, but I'd honestly rather go with…",
+      "usageVi": "'Has a lot going for it' = có nhiều ưu điểm; cách thừa nhận tự nhiên trước khi nêu lựa chọn khác"
+    },
+    {
+      "expression": "My biggest concern is…",
+      "usageVi": "Mở lý do quan trọng nhất bằng cách nói về rủi ro của phương án kia"
+    },
+    {
+      "expression": "…instead of being locked in until…",
+      "usageVi": "'Be locked in' = bị ràng buộc (hợp đồng); nhấn mạnh sự linh hoạt"
+    },
+    {
+      "expression": "Sure, it's about… more a month, but that includes…",
+      "usageVi": "Thừa nhận giá cao hơn rồi giải thích số tiền đó bao gồm những gì"
+    },
+    {
+      "expression": "As for…, we can…",
+      "usageVi": "Chuyển sang trả lời một lý lẽ cụ thể của người kia và đưa ra giải pháp"
+    }
+  ],
+  "commonMistakes": [
+    "So sánh giá sai: $3,200 với $2,400 chênh $800 nhưng phải cộng thêm $350 phí điện nước, nên thực tế chỉ chênh khoảng $450. Tính đúng giúp lập luận đáng tin hơn.",
+    "Chỉ liệt kê ưu điểm của mình mà không nhắc đến phòng chụp ảnh và chỗ đậu xe — đó chính là lý do người kia thích phương án B, phải phản hồi.",
+    "Dùng giọng ra lệnh ('We must take…'). Với đối tác kinh doanh, hãy dùng 'I'd rather…', 'Shall we…?' để vừa chắc chắn vừa lịch sự."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Verified $3,200 vs $2,400 + $350 = $450/month gap. Fixed an inaccuracy: the answer said the premium 'covers internet', but the warehouse's $350 already includes internet, so it now says cleaning and coffee; replaced 'locked in until 2029' with 'for three years' (date did not match a lease starting early 2027). Trimmed 183 -> 177 words."
+  },
+  "createdAt": "2026-11-03"
+}

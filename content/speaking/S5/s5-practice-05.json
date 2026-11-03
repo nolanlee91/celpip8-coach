@@ -1,0 +1,73 @@
+{
+  "id": "s5-practice-05",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "Choosing a green upgrade for your condo building",
+  "prompt": "You sit on the strata council of your 48-unit condo building in Burnaby. The council has $40,000 in its green-upgrade fund and can afford only one of two projects. Choose the project you prefer. Then persuade the council president, who supports the other project, that yours is the better use of the money.",
+  "svg": null,
+  "options": [
+    {
+      "title": "EV charging stations in the parkade",
+      "details": [
+        "$38,000 CAD for 6 charging stations (after a provincial rebate)",
+        "Drivers pay $0.25 per kWh; strata recovers the cost in about 7 years",
+        "9 of the 48 units currently own an electric car",
+        "May increase resale value of units"
+      ]
+    },
+    {
+      "title": "LED lighting and rooftop rain collection",
+      "details": [
+        "$31,000 CAD to replace all common-area lights and add rain barrels for the garden",
+        "Cuts the strata's electricity and water bills by about $4,500 a year",
+        "Benefits all 48 units through lower strata fees",
+        "Installation takes three weeks; no ongoing fees for owners"
+      ]
+    }
+  ],
+  "structure": [
+    "Acknowledge the president's view and state your choice.",
+    "Reason 1: who benefits (48 units vs 9 EV owners) — fairness of spending shared money.",
+    "Reason 2: payback with numbers ($4,500 a year, about 7 years for either, but certain vs uncertain).",
+    "Address the future-proofing / resale argument and suggest a compromise for later."
+  ],
+  "modelAnswer": "Gordon, I can see why the chargers appeal to you, and I agree we'll need them eventually. But I'm convinced the LED and rain-collection project is the smarter move right now. First, this is everyone's money. All forty-eight owners paid into this fund, and the chargers would really only benefit the nine households that own electric cars. The lighting upgrade, on the other hand, lowers the strata's bills by about forty-five hundred dollars a year, and those savings show up in everyone's fees. Second, the numbers are just more reliable. Both projects pay for themselves in roughly seven years, but the charger payback depends on people actually using them. If only a handful of owners plug in, it could drag on much longer. With LEDs, the savings start the day they're installed. And it's seven thousand dollars cheaper, so we'd have a cushion left over. I'm not saying no to chargers forever. What if we put the leftover money toward a charger fund and revisit it at next year's AGM, once we know how many owners actually want one?",
+  "usefulExpressions": [
+    {
+      "expression": "I can see why… appeals to you, and I agree we'll need… eventually.",
+      "usageVi": "Đồng ý một phần với người kia để tạo thiện cảm trước khi phản bác"
+    },
+    {
+      "expression": "…is the smarter move right now.",
+      "usageVi": "Nói lựa chọn hợp lý hơn ở thời điểm hiện tại — mềm hơn 'is better'"
+    },
+    {
+      "expression": "…pay for themselves in roughly…",
+      "usageVi": "'Pay for itself' = tự hoàn vốn; dùng khi so sánh chi phí đầu tư"
+    },
+    {
+      "expression": "…it could drag on much longer.",
+      "usageVi": "'Drag on' = kéo dài lê thê; nhấn mạnh rủi ro của phương án kia"
+    },
+    {
+      "expression": "I'm not saying no to… forever. What if we…?",
+      "usageVi": "Đưa ra thỏa hiệp ở cuối bài — cách thuyết phục rất hiệu quả trong Task 5"
+    }
+  ],
+  "commonMistakes": [
+    "Nói 'electric cars are bad' hoặc chê dự án kia; Task 5 cần thuyết phục, không phải công kích. Hãy thừa nhận lợi ích rồi so sánh.",
+    "Quên tính thời gian hoàn vốn: $31,000 ÷ $4,500 ≈ 7 năm, gần bằng dự án sạc xe. Điểm khác biệt là khoản tiết kiệm của LED chắc chắn hơn.",
+    "Dùng 'economic' thay vì 'economical' hoặc 'cost-effective'; 'economic' nghĩa là thuộc về kinh tế, không phải 'tiết kiệm'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Verified $31,000 / $4,500 = ~7-year payback (same as chargers), $7,000 price gap and 48 vs 9 beneficiaries; cards balanced (future-proofing/resale vs certain savings). Fixed grammar 'that savings shows up' -> 'those savings show up'; 179 words."
+  },
+  "createdAt": "2026-11-03"
+}

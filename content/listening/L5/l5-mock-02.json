@@ -34,7 +34,7 @@
         {
           "speaker": "Jordan, PAC treasurer",
           "voice": "male_a",
-          "text": "Fair enough, but the playground isn't going to pay for itself. What's the alternative?"
+          "text": "Fair enough, Mr. Bell, but the playground isn't going to pay for itself. What's the alternative?"
         },
         {
           "speaker": "Mei, parent volunteer",
@@ -418,7 +418,7 @@
   "review": {
     "status": "approved",
     "reviewedBy": "independent AI review (Claude)",
-    "notes": "Solved all 8 items independently; keys, evidence and trap tags correct; speaker attributions (Mei vs Mr. Bell vs Jordan vs Nadia) unambiguous; timing logic (pledges in ~2 weeks, end-of-May deadline) consistent. 4 voices, 480 words. No changes needed."
+    "notes": "Solved all 8 items independently; keys, evidence and trap tags correct; speaker attributions (Mei vs Mr. Bell vs Jordan vs Nadia) unambiguous; timing logic (pledges in ~2 weeks, end-of-May deadline) consistent. 4 voices, 480 words. No changes needed. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)."
   },
   "createdAt": "2026-10-26",
   "focus": []

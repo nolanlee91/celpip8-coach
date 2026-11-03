@@ -1,0 +1,187 @@
+{
+  "id": "r4-full-08",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "full",
+  "difficulty": 9,
+  "topic": "government",
+  "title": "Three Minutes at the Microphone",
+  "estimatedMinutes": 14,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 10 independently; keys match. Checked attitude/inference items (mayor's 'isn't really open', Rostami's 'ration democracy', Achterberg's narrower objection, Herrera on perception) and that each blank has one defensible option. No changes; difficulty 9 fits." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "For as long as anyone at Ashcombe City Hall can remember, a resident who wanted to address council could simply turn up on a Tuesday evening, sign a clipboard at the door and speak for up to five minutes. That tradition is about to change. Under new procedure rules adopted last week by a vote of six to three, speakers will have to register by noon on the day of the meeting, and each will be limited to three minutes. Public comment will also be capped at 90 minutes per meeting, with any remaining speakers invited to submit their remarks in writing.\n\nMayor Elaine Foster-Mbeki insists the changes are about making meetings work for more people, not fewer. In June, a debate over a proposed apartment building drew 74 speakers and dragged on past 1 a.m. \"By the time we voted, most of the people who'd come to listen had gone home, and so had the reporters,\" she said. \"A meeting that only the most determined can sit through isn't really open, whatever the rules say.\" The city has also begun streaming meetings live and accepting video submissions, which she argues will bring in residents who could never make an evening meeting.\n\nCouncillor Hamid Rostami, who voted against the rules, sees it differently. He doesn't dispute that the June meeting was gruelling, but he argues that one unusually long night should not lead to a permanent limit on everyone. \"We had one difficult evening in eleven years, and our answer is to ration democracy,\" he said. He is particularly troubled by the noon deadline, which he says will catch out exactly the people least familiar with how City Hall works.\n\nNot all the criticism comes from that direction, however. Wendy Achterberg, who chairs the Ashcombe Heights Residents' Association, opposed the apartment proposal and was one of the 74 speakers in June. She concedes that much of the evening was repetitive, with people on both sides \"reading out the same talking points one after another.\" Her objection is narrower: written comments, she says, simply carry less weight. \"Councillors can skim a stack of letters at their kitchen table. It's much harder to tune out someone standing in front of you.\"\n\nCity clerk Benjamin Osei, whose office drafted the rules, points out that Ashcombe's limits are in line with those of most municipalities in the region, several of which allow only two minutes. He adds that councillors already receive every written submission in full.\n\nSome observers think the debate is less about minutes than about trust. Political scientist Dr. Lucía Herrera of Fraser Valley Polytechnic says residents often treat the right to speak as proof that council is listening, even when it rarely changes the outcome. \"Trimming two minutes won't change many votes,\" she said. \"But if people come to believe the door is closing, that belief can do more damage than the rule itself.\"\n\nCouncil has agreed to review the changes after one year.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I've spoken at Ashcombe council exactly twice, both times about the bike lane on Wren Street, and I was nervous enough without a stopwatch. Still, I left that June meeting at midnight myself, so I can't pretend Mayor Foster-Mbeki is [[6]]. Where I part ways with her is on the deadline. Councillor Rostami is right that the noon cut-off will [[7]], not the regulars who know the system inside out. Ms. Achterberg's point also rings true: a letter is easy to [[8]] in a way that a neighbour at the microphone is not. Mr. Osei may well be correct that other cities are stricter, but that alone doesn't make these rules [[9]]. In the end, I think Dr. Herrera has put her finger on it. Council should worry less about the clock and more about whether residents feel [[10]].",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the article mainly about?",
+      "options": [
+        { "text": "A dispute over a proposed apartment building in Ashcombe", "trap": "partially_true", "whyVi": "Cuộc họp về tòa chung cư chỉ là bối cảnh dẫn đến quy định mới; bài không chủ yếu nói về tòa nhà đó." },
+        { "text": "The growth of online participation in local government", "trap": "too_broad", "whyVi": "Phát trực tuyến và gửi video chỉ được nhắc ngắn; bài chỉ nói về Ashcombe và quy định phát biểu." },
+        { "text": "Mixed reactions to new limits on how residents can speak to their council", "trap": "none", "whyVi": "Đúng: Bài nêu quy định mới (đăng ký trước trưa, 3 phút, tối đa 90 phút) và các quan điểm khác nhau của thị trưởng, Rostami, Achterberg, Osei, Herrera." },
+        { "text": "A plan to stop holding council meetings in the evening", "trap": "not_mentioned", "whyVi": "Họp vẫn diễn ra tối thứ Ba; không có kế hoạch đổi giờ." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "Under new procedure rules adopted last week by a vote of six to three, speakers will have to register by noon on the day of the meeting, and each will be limited to three minutes.",
+      "explanationVi": "Đoạn đầu giới thiệu quy định mới; mỗi đoạn sau là một quan điểm (ủng hộ, phản đối, phản đối một phần, giải thích kỹ thuật, nhận định chuyên gia). A là chi tiết bối cảnh; B quá rộng.",
+      "vocabulary": ["address council"]
+    },
+    {
+      "number": 2,
+      "prompt": "What does the mayor mean when she says a meeting \"isn't really open, whatever the rules say\"?",
+      "options": [
+        { "text": "The speakers in June had broken the old rules.", "trap": "word_match", "whyVi": "Có từ 'rules' nhưng bà không nói ai vi phạm quy định." },
+        { "text": "Only the most committed residents should be allowed to speak.", "trap": "opposite", "whyVi": "Bà phê phán việc chỉ người kiên trì nhất mới theo dõi được; bà muốn mở rộng cho nhiều người hơn." },
+        { "text": "Meetings should be closed to the public after midnight.", "trap": "not_mentioned", "whyVi": "Bà không đề nghị đóng cửa cuộc họp." },
+        { "text": "Having a right to attend means little if long meetings drive most people away.", "trap": "none", "whyVi": "Đúng: Về hình thức ai cũng được dự, nhưng nếu cuộc họp kéo dài đến mức chỉ người kiên trì nhất ngồi lại được, thì thực chất không mở." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "\"A meeting that only the most determined can sit through isn't really open, whatever the rules say.\"",
+      "explanationVi": "'Whatever the rules say' = dù quy định nói gì đi nữa. Bà phân biệt 'mở' trên giấy với 'mở' trong thực tế: người đến nghe đã về hết trước khi biểu quyết. 'Sit through' = ngồi đến hết.",
+      "vocabulary": ["sit through"]
+    },
+    {
+      "number": 3,
+      "prompt": "By saying council's answer is \"to ration democracy,\" Councillor Rostami suggests that",
+      "options": [
+        { "text": "the council has overreacted to a rare event.", "trap": "none", "whyVi": "Đúng: Chỉ có một buổi tối khó khăn trong 11 năm mà lại đặt giới hạn vĩnh viễn cho mọi người." },
+        { "text": "the June meeting was not really too long.", "trap": "opposite", "whyVi": "Ông 'doesn't dispute that the June meeting was gruelling' — ông đồng ý nó rất mệt." },
+        { "text": "speakers should be limited to two minutes.", "trap": "opposite", "whyVi": "Ông phản đối việc giới hạn; hai phút là quy định của các thành phố khác mà Osei nhắc." },
+        { "text": "his main objection is the 90-minute cap.", "trap": "wrong_detail", "whyVi": "Điều ông 'particularly troubled by' là hạn đăng ký trước trưa, không phải giới hạn 90 phút." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"We had one difficult evening in eleven years, and our answer is to ration democracy,\"",
+      "explanationVi": "'Ration' = chia khẩu phần, hạn chế. Ông đặt 'one difficult evening in eleven years' cạnh một giải pháp nặng nề và vĩnh viễn → ngụ ý phản ứng quá mức ('overreacted'). Giọng điệu mỉa mai, phê phán.",
+      "vocabulary": ["ration"]
+    },
+    {
+      "number": 4,
+      "prompt": "How does Wendy Achterberg's position differ from Councillor Rostami's?",
+      "options": [
+        { "text": "She supported the apartment proposal that he opposed.", "trap": "opposite", "whyVi": "Achterberg phản đối dự án chung cư; quan điểm của Rostami về dự án không được nêu." },
+        { "text": "She accepts that the new rules are fair in every respect.", "trap": "too_broad", "whyVi": "Bà vẫn có phản đối, dù hẹp hơn: ý kiến bằng văn bản ít trọng lượng hơn." },
+        { "text": "Her criticism is more limited, focusing on the weight given to written comments.", "trap": "none", "whyVi": "Đúng: 'Her objection is narrower' — bà thừa nhận buổi họp lặp lại nhiều và chỉ phản đối việc chuyển sang ý kiến viết." },
+        { "text": "She wants each speaker to have more than five minutes.", "trap": "not_mentioned", "whyVi": "Bà không đề nghị tăng thời gian phát biểu; bà còn thừa nhận nhiều người nói lặp lại." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Her objection is narrower: written comments, she says, simply carry less weight.",
+      "explanationVi": "Rostami phản đối toàn bộ việc giới hạn ('a permanent limit on everyone') và hạn đăng ký. Achterberg nhượng bộ ('concedes') rằng buổi họp lặp lại, và chỉ phản đối một điểm: văn bản 'carry less weight'. 'Narrower' = 'more limited'. 'Not all the criticism comes from that direction' báo hiệu một kiểu phê phán khác.",
+      "vocabulary": ["concede"]
+    },
+    {
+      "number": 5,
+      "prompt": "Which statement would Dr. Herrera most likely agree with?",
+      "options": [
+        { "text": "Cutting speaking time will change the result of many votes.", "trap": "opposite", "whyVi": "Bà nói 'Trimming two minutes won't change many votes'." },
+        { "text": "How residents perceive the change may matter more than its practical effect.", "trap": "none", "whyVi": "Đúng: Nếu người dân tin 'the door is closing', niềm tin đó có thể gây hại hơn chính quy định." },
+        { "text": "Residents' comments usually decide council outcomes.", "trap": "opposite", "whyVi": "Bà nói quyền phát biểu 'rarely changes the outcome'." },
+        { "text": "Ashcombe should follow cities that allow only two minutes.", "trap": "wrong_speaker", "whyVi": "Thông tin về các thành phố cho hai phút là của Osei; Herrera không đề xuất điều đó." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"But if people come to believe the door is closing, that belief can do more damage than the rule itself.\"",
+      "explanationVi": "'The door is closing' là ẩn dụ: chính quyền đang đóng cửa với dân. 'That belief can do more damage than the rule itself' → nhận thức (perception) quan trọng hơn tác động thực tế (practical effect).",
+      "vocabulary": ["trim"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "opposed to hearing from residents", "trap": "opposite", "whyVi": "Thị trưởng nói thay đổi là để 'more people, not fewer' tham gia." },
+        { "text": "exaggerating the problem of late-night meetings", "trap": "none", "whyVi": "Đúng: Người viết cũng rời cuộc họp lúc nửa đêm, nên không thể nói thị trưởng phóng đại vấn đề." },
+        { "text": "the only member who voted for the rules", "trap": "wrong_detail", "whyVi": "Quy định được thông qua 6–3, nên có sáu người ủng hộ." },
+        { "text": "the reason the reporters went home", "trap": "word_match", "whyVi": "Có 'the reporters... had gone home' nhưng đó là vì họp quá khuya, không phải do thị trưởng." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"By the time we voted, most of the people who'd come to listen had gone home, and so had the reporters,\"",
+      "explanationVi": "'Can't pretend X is...' = không thể làm như thể X... Người viết cũng về lúc nửa đêm ('I left... at midnight myself') → chứng kiến đúng điều thị trưởng mô tả, nên không thể nói bà phóng đại."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "shorten meetings by several hours", "trap": "partially_true", "whyVi": "Có thể đúng về mặt kết quả, nhưng câu đối lập với 'not the regulars' cần nói về một nhóm người bị ảnh hưởng." },
+        { "text": "stop reporters from attending", "trap": "word_match", "whyVi": "Phóng viên chỉ được nhắc trong câu của thị trưởng; hạn đăng ký không liên quan đến họ." },
+        { "text": "favour residents who send in videos", "trap": "not_mentioned", "whyVi": "Không ai nói hạn đăng ký có lợi cho người gửi video." },
+        { "text": "trip up people who are new to local politics", "trap": "none", "whyVi": "Đúng: Rostami nói hạn trưa sẽ 'catch out exactly the people least familiar with how City Hall works'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "which he says will catch out exactly the people least familiar with how City Hall works",
+      "explanationVi": "'Catch out' = 'trip up' (làm ai bị hớ, bị lỡ). 'People least familiar with how City Hall works' = 'people new to local politics', đối lập với 'regulars who know the system inside out'."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "brush aside without much thought", "trap": "none", "whyVi": "Đúng: Achterberg nói ủy viên có thể 'skim a stack of letters' (đọc lướt), còn khó 'tune out' người đứng trước mặt." },
+        { "text": "lose in the mail", "trap": "not_mentioned", "whyVi": "Không ai nói thư bị thất lạc." },
+        { "text": "write at the kitchen table", "trap": "word_match", "whyVi": "'Kitchen table' là nơi ủy viên đọc lướt thư, không phải nơi viết; và ý này không đối lập với người đứng ở micro." },
+        { "text": "receive in full", "trap": "wrong_speaker", "whyVi": "Việc ủy viên nhận đầy đủ mọi văn bản là ý của Osei, dùng để bảo vệ quy định; nó không giải thích vì sao thư khác với người đứng ở micro." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "\"Councillors can skim a stack of letters at their kitchen table. It's much harder to tune out someone standing in front of you.\"",
+      "explanationVi": "Cụm 'in a way that a neighbour at the microphone is not' đối lập thư với người phát biểu trực tiếp. 'Tune out' = phớt lờ; 'skim' = đọc lướt → thư dễ bị 'brush aside' (gạt sang một bên)."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "any stricter than two minutes", "trap": "word_match", "whyVi": "Dùng lại 'two minutes' nhưng quy định Ashcombe là ba phút; câu không hợp nghĩa." },
+        { "text": "the right fit for Ashcombe", "trap": "none", "whyVi": "Đúng: Người viết nói việc nơi khác nghiêm hơn không đủ để chứng minh quy định này phù hợp với Ashcombe." },
+        { "text": "legal under provincial law", "trap": "not_mentioned", "whyVi": "Bài không nói gì về luật tỉnh." },
+        { "text": "popular with other councils", "trap": "partially_true", "whyVi": "Các nơi khác đúng là có giới hạn tương tự, nhưng 'that alone doesn't make...' cần một đánh giá về Ashcombe, không phải về nơi khác." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Ashcombe's limits are in line with those of most municipalities in the region, several of which allow only two minutes",
+      "explanationVi": "Lập luận của Osei: Ashcombe giống các nơi khác. Người viết phản bác: giống nơi khác 'alone doesn't make these rules' đúng/phù hợp → 'the right fit for Ashcombe'."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "comfortable speaking for two minutes", "trap": "word_match", "whyVi": "Dùng lại 'two minutes' nhưng không liên quan đến ý của Herrera." },
+        { "text": "happy with the live streaming", "trap": "not_mentioned", "whyVi": "Herrera không nhắc việc phát trực tuyến." },
+        { "text": "that their comments change many votes", "trap": "opposite", "whyVi": "Herrera nói quyền phát biểu 'rarely changes the outcome'; người viết đồng ý với bà." },
+        { "text": "that council still hears them", "trap": "none", "whyVi": "Đúng: Herrera nói người dân coi quyền phát biểu là 'proof that council is listening'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "residents often treat the right to speak as proof that council is listening",
+      "explanationVi": "'Put her finger on it' = nói trúng vấn đề. Người viết đồng ý: điều quan trọng là niềm tin ('trust'), tức người dân có cảm thấy hội đồng vẫn lắng nghe hay không. 'Hears them' = 'is listening'."
+    }
+  ],
+  "vocabulary": [
+    { "term": "address council", "vi": "phát biểu trước hội đồng", "definition": "to speak formally to a city council", "example": "Any resident could address council for five minutes." },
+    { "term": "drag on", "vi": "kéo dài lê thê", "definition": "to continue for longer than is wanted", "example": "The debate dragged on past 1 a.m." },
+    { "term": "sit through", "vi": "ngồi đến hết (dù chán, mệt)", "definition": "to stay until the end of something long or boring", "example": "Only the most determined could sit through the meeting." },
+    { "term": "ration", "vi": "hạn chế, chia khẩu phần", "definition": "to limit how much of something people can have", "example": "He said the council was trying to ration democracy." },
+    { "term": "catch out", "vi": "làm ai bị hớ, bị lỡ", "definition": "to cause someone to make a mistake or miss something", "example": "The noon deadline will catch out newcomers." },
+    { "term": "concede", "vi": "thừa nhận (miễn cưỡng)", "definition": "to admit that something is true, often unwillingly", "example": "She concedes that the evening was repetitive." },
+    { "term": "tune out", "vi": "phớt lờ, không để ý", "definition": "to stop paying attention to someone or something", "example": "It's harder to tune out someone in front of you." },
+    { "term": "trim", "vi": "cắt bớt", "definition": "to reduce something by a small amount", "example": "Trimming two minutes won't change many votes." },
+    { "term": "part ways with", "vi": "bất đồng với", "definition": "to stop agreeing with someone on a point", "example": "I part ways with the mayor on the deadline." },
+    { "term": "put your finger on", "vi": "chỉ ra đúng vấn đề", "definition": "to identify exactly what is important or wrong", "example": "Dr. Herrera has put her finger on the real issue." }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "id": "r1-full-08",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "full",
+  "difficulty": 9,
+  "topic": "government",
+  "title": "A secondary-suite permit stuck in review",
+  "estimatedMinutes": 12,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 11 items independently; all keys match. Checked the timeline (June application, four months, reviewer leave in late September, decision by November 7 before the November 15 contractor deadline), evidence, trap labels and Vietnamese. Province housing-pressure remark is hedged and accurate; city and staff are fictional. Difficulty 9 kept (dense bureaucratic letter, idioms, multi-step inference). No changes needed." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a homeowner",
+      "kind": "text",
+      "text": "Dear Ms. Achterberg,\n\nI'm writing to you directly because, after four months of being passed from one desk to another, I'm frankly not sure who else to ask.\n\nIn June, my wife and I applied for a building permit to convert our basement into a legal secondary suite (application BP-2026-0614). We'd been told at the counter that a straightforward suite was taking roughly eight weeks. In August we were asked for a revised drawing showing a second exit from the bedroom, which our designer turned around within a week. In September a different reviewer asked for a fire-separation detail that, as far as we can tell, was already on page three of the original plans. Since then, the online portal has said \"Under review\" and nothing more. Two emails to the general inbox have produced automated replies and, on one occasion, a phone call from someone who was very pleasant but had no access to our file.\n\nI want to be fair. I know your department is stretched thin, and I gather the province is pushing municipalities to approve more housing, which presumably means more applications landing on fewer desks. But the delay is costing us. Our contractor has pencilled us in for early December and won't hold the slot past November 15, and his quote is only valid until the end of the year. My mother-in-law, who has spent two years on a wait list for subsidized seniors' housing, was planning to move into the suite in the new year.\n\nI'm not asking you to cut corners. If something in our application is genuinely missing, I'd much rather hear it now than in another six weeks. What I'd appreciate is one person who can see our file and tell us, honestly, where it stands and what, if anything, is holding it up.\n\nThank you for your time.\n\nRafael Domingo\n1187 Thornbury Road",
+      "table": null
+    },
+    {
+      "label": "Reply from the City",
+      "kind": "text",
+      "text": "Dear Mr. Domingo,\n\nThank you for your email. I've reviewed your file personally, and I owe you an apology: you should not have had to [[7]] to get a straight answer.\n\nHere is where things stand. The fire-separation detail you were asked for in September was, as you suspected, [[8]]. That request has been withdrawn. The only outstanding item is a plumbing review, which was delayed because the file was [[9]] when the second reviewer went on extended leave in late September.\n\nI have assigned your application to Kenji Whitfield, a senior plans examiner, who will be your single point of contact from now on. He expects to [[10]] by November 7, which should leave you enough time to confirm your December start with your contractor.\n\nPlease don't hesitate to contact Kenji directly at 604-555-0142. I've also asked our team to look into why the portal [[11]] for so long, since other applicants are likely in the same position.\n\nSincerely,\nHilde Achterberg\nManager, Building Permits, City of Port Halden",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is Rafael mainly asking for?",
+      "options": [
+        {
+          "text": "Approval of his permit ahead of other applicants",
+          "trap": "opposite",
+          "whyVi": "Anh nói 'I'm not asking you to cut corners' — không xin được ưu tiên hay bỏ qua quy trình."
+        },
+        {
+          "text": "A refund of his permit fees because of the delay",
+          "trap": "not_mentioned",
+          "whyVi": "Thư không nhắc đến phí cấp phép."
+        },
+        {
+          "text": "A single, informed contact who can give him a frank update",
+          "trap": "none",
+          "whyVi": "Đúng: 'one person who can see our file and tell us, honestly, where it stands'."
+        },
+        {
+          "text": "Permission to begin construction before a decision is made",
+          "trap": "not_mentioned",
+          "whyVi": "Anh không xin khởi công trước khi có giấy phép."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "What I'd appreciate is one person who can see our file and tell us, honestly, where it stands and what, if anything, is holding it up.",
+      "explanationVi": "Câu 'What I'd appreciate is...' ở cuối thư nêu yêu cầu chính. 'one person who can see our file' = 'a single, informed contact' (người nắm được hồ sơ); 'tell us, honestly, where it stands' = 'a frank update'.",
+      "vocabulary": [
+        "hold up"
+      ]
+    },
+    {
+      "number": 2,
+      "prompt": "What does Rafael imply about the request he received in September?",
+      "options": [
+        {
+          "text": "It asked for information the couple had already supplied.",
+          "trap": "none",
+          "whyVi": "Đúng: chi tiết đó 'was already on page three of the original plans' — đã có trong hồ sơ ban đầu."
+        },
+        {
+          "text": "It was more difficult to complete than the August request.",
+          "trap": "not_mentioned",
+          "whyVi": "Anh không so sánh độ khó của hai yêu cầu."
+        },
+        {
+          "text": "It came from the same reviewer who asked for the second exit.",
+          "trap": "opposite",
+          "whyVi": "Yêu cầu tháng 9 đến từ 'a different reviewer' — một người khác."
+        },
+        {
+          "text": "It forced the designer to redraw the whole basement.",
+          "trap": "wrong_detail",
+          "whyVi": "Việc vẽ lại là yêu cầu tháng 8 (lối thoát thứ hai), và chỉ là một bản vẽ sửa."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "a fire-separation detail that, as far as we can tell, was already on page three of the original plans",
+      "explanationVi": "Rafael không nói thẳng 'yêu cầu đó vô lý', nhưng 'as far as we can tell, was already on page three of the original plans' ngụ ý người duyệt hỏi lại điều đã có. Chi tiết 'a different reviewer' gợi ý hồ sơ được nhiều người xem mà không phối hợp với nhau.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "What was the problem with the phone call Rafael received?",
+      "options": [
+        {
+          "text": "The caller was unfriendly and in a hurry.",
+          "trap": "opposite",
+          "whyVi": "Người gọi 'very pleasant' — rất dễ chịu."
+        },
+        {
+          "text": "The caller was unable to look at his application.",
+          "trap": "none",
+          "whyVi": "Đúng: người gọi 'had no access to our file' nên không thể cho biết tình trạng hồ sơ."
+        },
+        {
+          "text": "It was an automated message, not a real person.",
+          "trap": "word_match",
+          "whyVi": "'automated replies' là các email trả lời tự động; cuộc gọi là từ một người thật."
+        },
+        {
+          "text": "The caller told him to submit a new application.",
+          "trap": "not_mentioned",
+          "whyVi": "Không có chi tiết này."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "a phone call from someone who was very pleasant but had no access to our file",
+      "explanationVi": "Cấu trúc 'very pleasant BUT had no access to our file' — 'but' báo hiệu vấn đề: dù dễ chịu, người gọi không xem được hồ sơ nên không giúp được gì. 'had no access to our file' = 'was unable to look at his application'.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "Which best describes Rafael's attitude toward the permit department?",
+      "options": [
+        {
+          "text": "He suspects reviewers are delaying his file on purpose.",
+          "trap": "not_mentioned",
+          "whyVi": "Anh không cáo buộc ai cố tình trì hoãn."
+        },
+        {
+          "text": "He is unconcerned and simply curious about the timeline.",
+          "trap": "opposite",
+          "whyVi": "Anh nói rõ 'the delay is costing us' — rất lo lắng."
+        },
+        {
+          "text": "He is so sympathetic that he is willing to wait as long as needed.",
+          "trap": "partially_true",
+          "whyVi": "Anh có thông cảm ('stretched thin'), nhưng không sẵn sàng chờ mãi vì hạn 15/11 của nhà thầu."
+        },
+        {
+          "text": "He is frustrated but recognizes the pressure staff are under.",
+          "trap": "none",
+          "whyVi": "Đúng: 'I want to be fair. I know your department is stretched thin... But the delay is costing us.'"
+        }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "I want to be fair. I know your department is stretched thin",
+      "explanationVi": "Câu hỏi thái độ cần cân nhắc cả hai phía: thông cảm ('stretched thin' = thiếu người, quá tải) và bực bội ('frankly', 'passed from one desk to another', 'the delay is costing us'). Đáp án D gói cả hai. C chỉ đúng một nửa.",
+      "vocabulary": [
+        "stretched thin"
+      ]
+    },
+    {
+      "number": 5,
+      "prompt": "Why is November 15 important to Rafael?",
+      "options": [
+        {
+          "text": "After that date, the builder will give his time to someone else.",
+          "trap": "none",
+          "whyVi": "Đúng: nhà thầu 'won't hold the slot past November 15' — sau ngày đó sẽ không giữ lịch cho anh."
+        },
+        {
+          "text": "His contractor's price will no longer be valid after it.",
+          "trap": "wrong_detail",
+          "whyVi": "Báo giá có hiệu lực đến cuối năm, không phải 15/11."
+        },
+        {
+          "text": "It is when his mother-in-law plans to move in.",
+          "trap": "wrong_detail",
+          "whyVi": "Mẹ vợ dự định chuyển đến vào năm mới."
+        },
+        {
+          "text": "It is the deadline for submitting revised drawings.",
+          "trap": "not_mentioned",
+          "whyVi": "Không có hạn nộp bản vẽ nào."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "Our contractor has pencilled us in for early December and won't hold the slot past November 15",
+      "explanationVi": "'pencil someone in' = xếp lịch tạm; 'won't hold the slot past November 15' = sau 15/11 sẽ không giữ suất đó (nhường cho khách khác). Cẩn thận bẫy wrong_detail: báo giá hết hạn 'end of the year'.",
+      "vocabulary": [
+        "pencil in"
+      ]
+    },
+    {
+      "number": 6,
+      "prompt": "Why does Rafael mention his mother-in-law?",
+      "options": [
+        {
+          "text": "She is the official owner of the house.",
+          "trap": "not_mentioned",
+          "whyVi": "Bài không nói bà là chủ nhà; người nộp đơn là Rafael và vợ."
+        },
+        {
+          "text": "She has been waiting two years for the permit.",
+          "trap": "word_match",
+          "whyVi": "'two years' là thời gian bà chờ nhà ở xã hội, không phải chờ giấy phép (mới 4 tháng)."
+        },
+        {
+          "text": "To show that the delay is affecting a family member's housing plans",
+          "trap": "none",
+          "whyVi": "Đúng: bà định chuyển vào căn phòng mới vào năm mới; trì hoãn ảnh hưởng đến chỗ ở của bà."
+        },
+        {
+          "text": "To ask the City to move her up the seniors' housing list",
+          "trap": "not_mentioned",
+          "whyVi": "Anh không đề nghị chuyện này; danh sách chờ chỉ là bối cảnh."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "My mother-in-law, who has spent two years on a wait list for subsidized seniors' housing, was planning to move into the suite in the new year.",
+      "explanationVi": "Chi tiết này nằm trong đoạn 'But the delay is costing us' — là ví dụ thứ hai về hậu quả của sự chậm trễ. Bà đã chờ nhà ở xã hội 2 năm và dự định sống trong căn suite, nên trì hoãn giấy phép ảnh hưởng trực tiếp đến chỗ ở của bà.",
+      "vocabulary": [
+        "subsidized"
+      ]
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        {
+          "text": "hire a new designer",
+          "trap": "not_mentioned",
+          "whyVi": "Anh không thuê nhà thiết kế mới; người cũ đã sửa bản vẽ trong một tuần."
+        },
+        {
+          "text": "chase us for months and write to a manager",
+          "trap": "none",
+          "whyVi": "Đúng: anh bị chuyển 'from one desk to another' suốt bốn tháng, cuối cùng phải viết thẳng cho quản lý ('writing to you directly')."
+        },
+        {
+          "text": "visit the counter in person",
+          "trap": "word_match",
+          "whyVi": "Có nhắc 'at the counter', nhưng đó là lúc nộp đơn ban đầu, không phải cách anh tìm câu trả lời."
+        },
+        {
+          "text": "redraw your plans several times",
+          "trap": "wrong_detail",
+          "whyVi": "Chỉ có một bản vẽ sửa (tháng 8); yêu cầu tháng 9 không cần vẽ lại vì đã có sẵn."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "after four months of being passed from one desk to another, I'm frankly not sure who else to ask",
+      "explanationVi": "Lời xin lỗi 'you should not have had to... to get a straight answer' nói đến những gì Rafael đã phải làm: theo đuổi hồ sơ bốn tháng ('chase us' = liên tục hỏi han, thúc giục) rồi viết thẳng cho cấp quản lý ('I'm writing to you directly').",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        {
+          "text": "required by the province",
+          "trap": "word_match",
+          "whyVi": "'province' được nhắc khi nói về áp lực xây nhà, không liên quan đến chi tiết chống cháy."
+        },
+        {
+          "text": "missing from the revised drawing",
+          "trap": "opposite",
+          "whyVi": "Nếu thiếu thì yêu cầu đã không bị rút lại ('That request has been withdrawn')."
+        },
+        {
+          "text": "the reason for the second exit",
+          "trap": "wrong_detail",
+          "whyVi": "Lối thoát thứ hai là yêu cầu riêng của tháng 8."
+        },
+        {
+          "text": "in your original submission all along",
+          "trap": "none",
+          "whyVi": "Đúng: 'as you suspected' xác nhận nghi ngờ của Rafael rằng chi tiết đã có trên trang 3 của bản gốc."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "was already on page three of the original plans",
+      "explanationVi": "'as you suspected' báo hiệu thư trả lời xác nhận điều Rafael nghi ngờ: chi tiết đó đã có sẵn ('already on page three of the original plans' = 'in your original submission all along'). Câu sau 'That request has been withdrawn' củng cố đáp án.",
+      "vocabulary": []
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        {
+          "text": "marked as approved by mistake",
+          "trap": "opposite",
+          "whyVi": "Hồ sơ vẫn đang chờ duyệt, chưa được duyệt."
+        },
+        {
+          "text": "never handed over to anyone else",
+          "trap": "none",
+          "whyVi": "Đúng: người duyệt thứ hai nghỉ dài hạn mà hồ sơ không được chuyển cho ai → hồ sơ nằm im."
+        },
+        {
+          "text": "sent to your contractor in error",
+          "trap": "not_mentioned",
+          "whyVi": "Không có chi tiết nào về việc gửi nhầm hồ sơ."
+        },
+        {
+          "text": "returned to your designer for changes",
+          "trap": "wrong_detail",
+          "whyVi": "Việc gửi nhà thiết kế sửa là chuyện tháng 8, không phải lý do trì hoãn hiện tại."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Since then, the online portal has said \"Under review\" and nothing more.",
+      "explanationVi": "'delayed because the file was ... when the second reviewer went on extended leave' → khi người duyệt nghỉ dài hạn, hồ sơ bị trễ vì không ai tiếp nhận. Điều này giải thích vì sao từ tháng 9 cổng trực tuyến chỉ ghi 'Under review'.",
+      "vocabulary": []
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        {
+          "text": "make a decision on your permit",
+          "trap": "none",
+          "whyVi": "Đúng: có quyết định trước 7/11 thì Rafael kịp xác nhận với nhà thầu trước hạn 15/11."
+        },
+        {
+          "text": "begin work on your basement",
+          "trap": "wrong_speaker",
+          "whyVi": "Người thi công là nhà thầu, không phải chuyên viên duyệt hồ sơ."
+        },
+        {
+          "text": "request a new fire-separation detail",
+          "trap": "opposite",
+          "whyVi": "Yêu cầu về chi tiết chống cháy vừa bị rút lại."
+        },
+        {
+          "text": "move your contractor's start date",
+          "trap": "not_mentioned",
+          "whyVi": "Thành phố không có quyền đổi lịch của nhà thầu."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "won't hold the slot past November 15",
+      "explanationVi": "Mệnh đề 'which should leave you enough time to confirm your December start' cho thấy việc Kenji làm trước 7/11 là điều kiện để Rafael bắt đầu thi công → phải là ra quyết định về giấy phép. 7/11 trước hạn 15/11 của nhà thầu.",
+      "vocabulary": []
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        {
+          "text": "sent you automated replies",
+          "trap": "wrong_detail",
+          "whyVi": "Thư trả lời tự động đến từ hộp thư chung (general inbox), không phải từ cổng trực tuyến."
+        },
+        {
+          "text": "asked for a second exit",
+          "trap": "wrong_detail",
+          "whyVi": "Yêu cầu lối thoát thứ hai đến từ người duyệt, không phải cổng trực tuyến."
+        },
+        {
+          "text": "showed the same status without any detail",
+          "trap": "none",
+          "whyVi": "Đúng: cổng chỉ ghi 'Under review' và không có gì thêm suốt thời gian dài."
+        },
+        {
+          "text": "listed your application as complete",
+          "trap": "opposite",
+          "whyVi": "Cổng ghi 'Under review', không phải đã hoàn tất."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "the online portal has said \"Under review\" and nothing more",
+      "explanationVi": "'why the portal ... for so long' liên hệ với phàn nàn của Rafael về cổng trực tuyến: 'has said Under review and nothing more' = 'showed the same status without any detail'. Bẫy: email tự động là của 'general inbox'.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "secondary suite",
+      "vi": "căn hộ phụ (thường ở tầng hầm, cho thuê/ở riêng)",
+      "definition": "a separate, self-contained living space inside a house",
+      "example": "They converted the basement into a legal secondary suite."
+    },
+    {
+      "term": "stretched thin",
+      "vi": "quá tải, thiếu người/nguồn lực",
+      "definition": "having too much work and not enough people or resources",
+      "example": "The permit office is stretched thin this year."
+    },
+    {
+      "term": "pencil in",
+      "vi": "xếp lịch tạm (chưa chắc chắn)",
+      "definition": "to arrange something for a time, knowing it may change",
+      "example": "The contractor pencilled us in for early December."
+    },
+    {
+      "term": "cut corners",
+      "vi": "làm tắt, bỏ qua bước cần thiết",
+      "definition": "to do something less carefully or completely to save time or money",
+      "example": "Don't cut corners on safety inspections."
+    },
+    {
+      "term": "hold up",
+      "vi": "làm chậm trễ, cản trở",
+      "definition": "to delay something",
+      "example": "A missing document is holding up my application."
+    },
+    {
+      "term": "subsidized",
+      "vi": "được trợ giá (bởi nhà nước)",
+      "definition": "partly paid for by the government so that it costs less",
+      "example": "She is on a wait list for subsidized housing."
+    },
+    {
+      "term": "turn around",
+      "vi": "hoàn thành và gửi lại (nhanh)",
+      "definition": "to finish a piece of work and send it back",
+      "example": "Our designer turned around the new drawing within a week."
+    },
+    {
+      "term": "point of contact",
+      "vi": "đầu mối liên lạc",
+      "definition": "the person you should contact about a particular matter",
+      "example": "Kenji will be your point of contact from now on."
+    },
+    {
+      "term": "outstanding",
+      "vi": "còn tồn đọng, chưa xong",
+      "definition": "not yet done, paid or dealt with",
+      "example": "The only outstanding item is the plumbing review."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "l2-mock-04",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "education",
+  "title": "A French immersion spot for kindergarten",
+  "context": "You will hear two parents talking outside an elementary school in North Vancouver.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Carlos", "voice": "male_a", "text": "Mei! I heard the lottery results came out. Did Leo get a spot?" },
+        { "speaker": "Mei", "voice": "female_a", "text": "He did, actually. French immersion at Ridgeway. Which is great, I guess. I just wasn't expecting to actually get in, so now I have to decide by Friday." },
+        { "speaker": "Carlos", "voice": "male_a", "text": "You don't sound thrilled." },
+        { "speaker": "Mei", "voice": "female_a", "text": "It's not that. It's more the logistics. Ridgeway's a twenty-minute drive from us, and there's no school bus. And neither my husband nor I speak a word of French, so I keep picturing him coming home with homework we can't help with." },
+        { "speaker": "Carlos", "voice": "male_a", "text": "Okay, I'll be honest, the homework thing is way less of an issue than people think. Sofia's in grade two in immersion, and all I've got is high school Spanish. The teachers know most parents don't speak it. They send notes home in English, and the books she brings home, she just reads them to me." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Really, Carlos? That's reassuring. What about the drive, though?" },
+        { "speaker": "Carlos", "voice": "male_a", "text": "That one's real. We ended up joining a carpool with two other families, and it took a while to set up. Without it, I'd probably have pulled her out by now, to be honest." },
+        { "speaker": "Mei", "voice": "female_a", "text": "See, that's what worries me. Our neighbourhood school is literally a five-minute walk. And Leo's best friend from daycare is going there." },
+        { "speaker": "Carlos", "voice": "male_a", "text": "Which is a big deal at five. I wouldn't brush that off. But here's the thing. It's a lot easier to switch out of immersion later than to get into it later. If you turn down the spot, it might not come around again." },
+        { "speaker": "Mei", "voice": "female_a", "text": "Hmm. I hadn't really thought of it that way." },
+        { "speaker": "Carlos", "voice": "male_a", "text": "Ridgeway has an open house Thursday evening. Why not go and have a look before you decide?" },
+        { "speaker": "Mei", "voice": "female_a", "text": "Yeah, I think I will. I'd hate to say no just because I panicked about the driving." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How does Mei feel about the lottery result at first?",
+          "options": [
+            { "text": "Delighted, and ready to accept the spot.", "trap": "opposite", "whyVi": "Carlos nhận xét 'You don't sound thrilled'; cô chưa quyết định." },
+            { "text": "Glad, but uncertain about what to do.", "trap": "none", "whyVi": "Đúng: 'Which is great, I guess' cho thấy vui nhưng còn phân vân." },
+            { "text": "Disappointed that Leo did not get in.", "trap": "opposite", "whyVi": "Leo đã được nhận." },
+            { "text": "Upset that Leo was placed at the wrong school.", "trap": "not_mentioned", "whyVi": "Không ai nói Leo bị xếp nhầm trường." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "Which is great, I guess. I just wasn't expecting to actually get in, so now I have to decide by Friday.",
+          "explanationVi": "'Great, I guess' (thêm 'I guess' làm giảm sự vui) + 'now I have to decide' = vui nhưng phân vân. Đáp án B.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "What point does Carlos make about homework in French immersion?",
+          "options": [
+            { "text": "Children in the program rarely get any homework.", "trap": "not_mentioned", "whyVi": "Carlos không nói ít bài tập." },
+            { "text": "His knowledge of Spanish helps him follow along.", "trap": "word_match", "whyVi": "Có nhắc 'Spanish' nhưng để nói anh không biết tiếng Pháp." },
+            { "text": "Teachers send all their messages home in French.", "trap": "opposite", "whyVi": "Giáo viên gửi thư về bằng tiếng Anh." },
+            { "text": "Parents can support their child without speaking French.", "trap": "none", "whyVi": "Đúng: giáo viên biết phụ huynh không nói tiếng Pháp và vẫn có cách hỗ trợ." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "The teachers know most parents don't speak it. They send notes home in English",
+          "explanationVi": "Ý chính: 'the homework thing is way less of an issue' vì giáo viên hiểu phụ huynh không nói tiếng Pháp. Đáp án D tóm lại ý này.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "What does Carlos admit about getting his daughter to Ridgeway?",
+          "options": [
+            { "text": "It is easy because the school provides a bus.", "trap": "opposite", "whyVi": "Mei nói 'there's no school bus'." },
+            { "text": "He might have given up on the program without the carpool.", "trap": "none", "whyVi": "Đúng: không có nhóm đi chung xe thì có lẽ anh đã cho con nghỉ." },
+            { "text": "He drives Sofia there himself every day.", "trap": "wrong_detail", "whyVi": "Anh đi chung xe với hai gia đình khác, không tự chở mỗi ngày." },
+            { "text": "Setting up the carpool was quick and simple.", "trap": "opposite", "whyVi": "Anh nói 'it took a while to set up'." }
+          ],
+          "answerIndex": 1,
+          "category": "similar_choices",
+          "evidence": "Without it, I'd probably have pulled her out by now, to be honest.",
+          "explanationVi": "'Pulled her out' = cho con rút khỏi chương trình. Đáp án B diễn đạt lại thành 'given up on the program'.",
+          "vocabulary": ["pull out"]
+        },
+        {
+          "number": 4,
+          "prompt": "What is Carlos's main argument for keeping the spot?",
+          "options": [
+            { "text": "The chance may not be offered again if Mei declines it.", "trap": "none", "whyVi": "Đúng: từ chối bây giờ thì cơ hội có thể không quay lại." },
+            { "text": "Leo's best friend will also be at Ridgeway.", "trap": "wrong_detail", "whyVi": "Bạn thân của Leo học trường gần nhà, không phải Ridgeway." },
+            { "text": "Immersion schools are better than neighbourhood schools.", "trap": "too_broad", "whyVi": "Carlos không so sánh chất lượng trường nói chung." },
+            { "text": "It is easy to join French immersion in a later grade.", "trap": "opposite", "whyVi": "Anh nói ngược lại: vào sau thì khó hơn nhiều." }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "If you turn down the spot, it might not come around again.",
+          "explanationVi": "'Turn down the spot' = 'declines it'; 'might not come around again' = 'may not be offered again'. Đáp án A.",
+          "vocabulary": ["turn down", "come around"]
+        },
+        {
+          "number": 5,
+          "prompt": "What does Mei decide to do?",
+          "options": [
+            { "text": "Turn down the spot and choose the nearby school.", "trap": "opposite", "whyVi": "Cô không muốn từ chối chỉ vì hoảng chuyện lái xe." },
+            { "text": "Accept the spot before Friday without visiting.", "trap": "not_mentioned", "whyVi": "Cô chưa nhận, cô muốn đi xem trường trước." },
+            { "text": "Join Carlos's carpool with the other families.", "trap": "not_mentioned", "whyVi": "Không ai nói Mei tham gia nhóm của Carlos." },
+            { "text": "Find out more about Ridgeway before making up her mind.", "trap": "none", "whyVi": "Đúng: cô sẽ đi buổi open house thứ Năm rồi mới quyết." }
+          ],
+          "answerIndex": 3,
+          "category": "long_conversation",
+          "evidence": "Yeah, I think I will. I'd hate to say no just because I panicked about the driving.",
+          "explanationVi": "'I think I will' trả lời gợi ý 'go and have a look before you decide'. Đáp án D: tìm hiểu trường trước khi quyết định.",
+          "vocabulary": ["open house"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "lottery", "vi": "bốc thăm (xét tuyển)", "definition": "a system that chooses people at random, for example for school places", "example": "The French immersion lottery results came out today." },
+    { "term": "logistics", "vi": "khâu sắp xếp, đi lại", "definition": "the practical arrangements needed to make something work", "example": "It's not the program, it's more the logistics." },
+    { "term": "reassuring", "vi": "làm yên tâm", "definition": "making someone feel less worried", "example": "That's really reassuring to hear." },
+    { "term": "pull out", "vi": "rút (ai) ra khỏi", "definition": "to remove someone from a program or activity", "example": "Without the carpool, I'd have pulled her out." },
+    { "term": "brush off", "vi": "gạt đi, xem nhẹ", "definition": "to treat something as unimportant", "example": "A best friend matters at five. I wouldn't brush that off." },
+    { "term": "turn down", "vi": "từ chối", "definition": "to refuse an offer", "example": "If you turn down the spot, you may not get another one." },
+    { "term": "come around", "vi": "quay lại, xuất hiện lần nữa", "definition": "(of a chance) to happen or become available again", "example": "A spot like this might not come around again." },
+    { "term": "open house", "vi": "buổi tham quan mở cửa", "definition": "an event when a school lets visitors look around", "example": "Ridgeway has an open house on Thursday evening." }
+  ],
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. The Q1 attitude ('great, I guess' plus 'You don't sound thrilled' / 'It's not that') can be recovered from the words alone. Changed: Carlos was never named in the audio, so Mei now addresses him by name." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

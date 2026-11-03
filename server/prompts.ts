@@ -8,11 +8,16 @@ import { arr, callJSON, enumOf, int, nullable, obj, str, type Effort } from "./a
 import { CATEGORIES, LISTENING_PARTS, READING_PARTS, SPEAKING_TASKS, TRAPS, WRITING_TASKS, type Skill } from "../shared/spec";
 import { TOPICS, type LibraryItem } from "../shared/content";
 import type { SpeakingPrompt, VocabSeed, WritingPrompt } from "../shared/types";
+import { load } from "./db";
 
-const LEARNER =
-  "The learner is a Vietnamese adult living and working in British Columbia, Canada, with a background in " +
-  "accounting, logistics and operations. Official CELPIP-General results (Apr 2026): Listening 6, Reading 5, " +
-  "Writing 7, Speaking 6. Goal: Level 8+ in every skill.";
+/** Learner profile with the official scores and target level from Settings, so prompts follow a changed goal. */
+function learner(): string {
+  const { officialScores: o, targetLevel } = load().settings;
+  return "The learner is a Vietnamese adult living and working in British Columbia, Canada, with a background in " +
+    `accounting, logistics and operations. Official CELPIP-General results: Listening ${o.listening}, Reading ${o.reading}, ` +
+    `Writing ${o.writing}, Speaking ${o.speaking}. Goal: Level ${targetLevel}+ in every skill.`;
+}
+const target = () => load().settings.targetLevel;
 
 /** The authoring guide is the single source of truth for content format and quality rules. */
 function guide(): string {
@@ -36,7 +41,7 @@ const usefulExpr = arr(obj({ expression: str(), usageVi: str() }));
 
 const GENERATOR_SYSTEM = () => [
   "You author ORIGINAL, high-quality CELPIP-General practice content for one learner's personal study library. Output must follow the content guide below exactly; it is validated automatically and then reviewed. Never claim content is official.",
-  LEARNER,
+  learner(),
   "=== CONTENT GUIDE ===",
   guide(),
 ].join("\n\n");
@@ -147,13 +152,13 @@ export const ALL_TOPICS = TOPICS;
 
 // ---------------- Evaluation (writing + speaking, on learner request) ----------------
 
-const EVAL_SYSTEM = [
+const evalSystem = () => [
   "You are an experienced CELPIP-General writing and speaking coach. You give an UNOFFICIAL estimated level range, never an official score, and never claim your estimate equals an official result.",
-  LEARNER,
+  learner(),
   "Assess using the publicly described CELPIP performance dimensions. Writing: Content/Coherence, Vocabulary, Readability, Task Fulfillment. Speaking: Content/Coherence, Vocabulary, Listenability, Task Fulfillment. Use a level range of at most 1.5 levels (e.g. 7–8). Be calibrated and honest: do not inflate.",
   "Explanations (fields ending in Vi) are in clear, concise Vietnamese. Corrections, improved versions and expressions are in English.",
   "corrections: the most important sentence-level fixes (up to 10), quoting the learner's original sentence exactly.",
-  "improvedVersion: a natural Level 8–9 style rewrite that keeps the learner's ideas and stays within the task's length/time.",
+  `improvedVersion: a natural Level ${target()}–${Math.min(12, target() + 1)} style rewrite that keeps the learner's ideas and stays within the task's length/time.`,
   "weaknesses: the top three, each tagged with a category.",
   "followUpExercise: one short, specific exercise (in English, with a Vietnamese hint) targeting the biggest weakness.",
   "vocabulary: up to 6 words/phrases worth adding to the learner's notebook (from your corrections and improved version).",
@@ -190,7 +195,7 @@ export function evaluateWriting(args: { prompt: WritingPrompt; response: string;
   const t = WRITING_TASKS.find((x) => x.id === args.prompt.taskType)!;
   return callJSON<RawEvaluation>({
     kind: "evaluate-writing",
-    system: EVAL_SYSTEM,
+    system: evalSystem(),
     user: [
       `Skill: WRITING — Task ${t.task}: ${t.name} (${t.minWords}–${t.maxWords} words, ${t.minutes} minutes).`,
       `Situation: ${args.prompt.situation}`,
@@ -198,7 +203,7 @@ export function evaluateWriting(args: { prompt: WritingPrompt; response: string;
       args.prompt.optionA ? `Option A: ${args.prompt.optionA}\nOption B: ${args.prompt.optionB}\nLearner chose: ${args.chosenOption ?? "not stated"}` : "",
       `The learner wrote ${args.wordCount} words in ${args.minutesUsed} minutes.`,
       `Learner profile:\n${args.profile}`,
-      "Focus feedback on what separates this response from a consistent Level 8; the learner already scored 7 officially, so avoid generic advice.",
+      `Focus feedback on what separates this response from a consistent Level ${target()}; the learner already scored ${load().settings.officialScores.writing} officially in writing, so avoid generic advice.`,
       `<response>\n${args.response}\n</response>`,
     ].filter(Boolean).join("\n\n"),
     schema: evalSchema(Object.keys(CATEGORIES.writing), ["Content/Coherence", "Vocabulary", "Readability", "Task Fulfillment"]),
@@ -214,7 +219,7 @@ export function evaluateSpeaking(args: {
   const wpm = args.durationSec > 0 ? Math.round((words / args.durationSec) * 60) : 0;
   return callJSON<RawEvaluation>({
     kind: "evaluate-speaking",
-    system: EVAL_SYSTEM,
+    system: evalSystem(),
     user: [
       `Skill: SPEAKING — Task ${t.task}: ${t.name} (${t.speakSec} seconds to speak).`,
       `Prompt: ${args.prompt.prompt}`,
@@ -235,7 +240,7 @@ export function evaluateSpeaking(args: {
 export function enrichVocab(items: { term: string; context: string }[]) {
   return callJSON<{ items: { term: string; vi: string; definition: string; example: string; collocations: string[]; synonyms: string[]; celpipUsage: string }[] }>({
     kind: "vocab-lookup",
-    system: ["You build vocabulary notebook entries for a Vietnamese CELPIP learner. Prioritise meanings useful for comprehension and real CELPIP performance.", LEARNER].join("\n\n"),
+    system: ["You build vocabulary notebook entries for a Vietnamese CELPIP learner. Prioritise meanings useful for comprehension and real CELPIP performance.", learner()].join("\n\n"),
     user: `Create one entry per term, in the same order. vi = Vietnamese meaning as used in the context. definition = simple English definition. example = natural Canadian-context sentence. collocations = 2–4 common collocations. synonyms = 2–4 (include common paraphrases CELPIP answers use). celpipUsage = one Vietnamese sentence on where/how this appears in CELPIP.\n\n${items.map((i, n) => `${n + 1}. ${i.term} — context: ${i.context || "(none)"}`).join("\n")}`,
     schema: obj({ items: arr(obj({ term: str(), vi: str(), definition: str(), example: str(), collocations: arr(str()), synonyms: arr(str()), celpipUsage: str() })) }),
     effort: "low",
@@ -244,9 +249,9 @@ export function enrichVocab(items: { term: string; context: string }[]) {
 
 // ---------------- Tutor ----------------
 
-export const TUTOR_SYSTEM = [
+export const tutorSystem = () => [
   "You are the learner's personal CELPIP-General tutor inside the \"CELPIP 8 Coach\" app.",
-  LEARNER,
+  learner(),
   "Answer in the language the learner uses (Vietnamese or English); default to Vietnamese for explanations, and keep English examples in English.",
   "Be concise first: give the direct answer in 2–5 sentences, then offer \"Muốn giải thích sâu hơn không?\" when a deeper explanation would help.",
   "Use the <context> block (current exercise, the learner's answer, the correct answer, explanations, and weakness profile) to ground your answer. If asked for more practice questions, write them in CELPIP style with an answer key at the end, and say they are quick unreviewed practice, not part of the validated library.",

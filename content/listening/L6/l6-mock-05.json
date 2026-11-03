@@ -1,0 +1,307 @@
+{
+  "id": "l6-mock-05",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "shopping",
+  "title": "Viewpoints: The right to repair your own devices",
+  "context": "You will hear a radio commentary by the owner of a small electronics repair shop about the idea of a provincial right-to-repair law.",
+  "estimatedMinutes": 7,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Sophie Leclerc, radio host",
+          "voice": "female_b",
+          "text": "Some people want B.C. to pass a right-to-repair law that would require manufacturers to sell spare parts, manuals and repair tools to anyone, not just their own service centres. Andre Tremblay has run a phone and laptop repair shop in Kelowna for nine years. Here's his take."
+        },
+        {
+          "speaker": "Andre Tremblay, repair shop owner",
+          "voice": "male_a",
+          "text": "Every week somebody walks into my shop with a phone that has nothing wrong with it except a tired battery. A new battery costs maybe forty dollars. But on more and more models, the battery is glued in, and the phone won't fully accept a replacement unless the manufacturer's software approves it. So I have to tell the customer that the official fix is a two-hundred-dollar job at an authorized centre, the phone can be gone for a week, and plenty of them just buy a new phone instead. That's a perfectly good device going into a drawer, or worse, into the landfill."
+        },
+        {
+          "speaker": "Andre Tremblay, repair shop owner",
+          "voice": "male_a",
+          "text": "The manufacturers say they lock things down for safety and security, and I'll give them this much. A swollen lithium battery handled carelessly can start a fire, and nobody wants a stranger fiddling with the chip that protects your banking app. Those are fair points. But the answer to that is training and certification for independent shops, not a system where only the company that sold you the phone is allowed to open it. When the same company profits from you giving up and buying a new model, I'm a little skeptical that safety is the whole story."
+        },
+        {
+          "speaker": "Andre Tremblay, repair shop owner",
+          "voice": "male_a",
+          "text": "I should also be honest about something that doesn't make me popular with my own customers. A law won't fix our habits on its own. A lot of people replace phones that are working fine because a new colour came out, or because a two-year contract ended and an upgrade felt free. No law is going to talk anyone out of that."
+        },
+        {
+          "speaker": "Andre Tremblay, repair shop owner",
+          "voice": "male_a",
+          "text": "Still, I'd support a law like this even if it hurt my business, and in the short run it might, because some people will do their own repairs once the parts are available. Fine by me. If a teenager in Vernon can follow a manual and fix her own cracked screen for thirty dollars, that's a win for her wallet and for the environment."
+        },
+        {
+          "speaker": "Andre Tremblay, repair shop owner",
+          "voice": "male_a",
+          "text": "My one request to the province, if it goes ahead, is to put some teeth in it. A law that lets companies charge whatever they like for parts, or release a manual nobody can follow, is a right to repair on paper only."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why do many of Andre's customers end up buying a new phone?",
+          "options": [
+            {
+              "text": "The batteries for their phones are no longer manufactured.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói pin không còn được sản xuất."
+            },
+            {
+              "text": "Andre's shop charges too much to replace a battery.",
+              "trap": "wrong_detail",
+              "whyVi": "Pin chỉ khoảng 40 đô; mức 200 đô là ở trung tâm bảo hành chính hãng, không phải cửa hàng của Andre."
+            },
+            {
+              "text": "The approved repair is costly and inconvenient compared with a simple fix.",
+              "trap": "none",
+              "whyVi": "Đúng: phải đem đến trung tâm ủy quyền với giá 200 đô và có thể mất cả tuần, nên nhiều người bỏ cuộc và mua máy mới."
+            },
+            {
+              "text": "Their phones have serious faults besides the battery.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: điện thoại không có lỗi gì ngoài pin yếu."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "So I have to tell the customer that the official fix is a two-hundred-dollar job at an authorized centre, the phone can be gone for a week, and plenty of them just buy a new phone instead.",
+          "explanationVi": "'a two-hundred-dollar job at an authorized centre' (đắt) và 'the phone can be gone for a week' (bất tiện) được diễn đạt lại thành 'costly and inconvenient'. So sánh với pin 40 đô cho thấy đây chỉ là một sửa chữa đơn giản.",
+          "vocabulary": [
+            "authorized centre"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "How does Andre respond to manufacturers' safety arguments?",
+          "options": [
+            {
+              "text": "He dismisses them as completely invented.",
+              "trap": "too_broad",
+              "whyVi": "Quá mạnh: ông nói 'Those are fair points' — ông công nhận một phần."
+            },
+            {
+              "text": "He accepts some of their concerns but doubts they are the real motive.",
+              "trap": "none",
+              "whyVi": "Đúng: ông đồng ý pin có thể cháy và chip bảo mật cần bảo vệ, nhưng nghi ngờ an toàn không phải là toàn bộ lý do."
+            },
+            {
+              "text": "He agrees that only manufacturers should open phones.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông phản đối hệ thống chỉ cho hãng sản xuất mở máy."
+            },
+            {
+              "text": "He says independent shops cause most battery fires.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'fire' và 'independent shops' nhưng ông không nói các cửa hàng độc lập gây ra phần lớn vụ cháy."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "When the same company profits from you giving up and buying a new model, I'm a little skeptical that safety is the whole story.",
+          "explanationVi": "'I'll give them this much' và 'Those are fair points' = thừa nhận một phần. 'I'm a little skeptical that safety is the whole story' ngụ ý động cơ thật là lợi nhuận. Đáp án B nắm được cả hai vế.",
+          "vocabulary": [
+            "I'll give them this much",
+            "skeptical"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Andre propose instead of letting only manufacturers do repairs?",
+          "options": [
+            {
+              "text": "Banning lithium batteries in new phones",
+              "trap": "word_match",
+              "whyVi": "Bài có 'lithium battery' nhưng ông không đề xuất cấm loại pin này."
+            },
+            {
+              "text": "Having the province run its own repair centres",
+              "trap": "not_mentioned",
+              "whyVi": "Không có đề xuất tỉnh tự mở trung tâm sửa chữa."
+            },
+            {
+              "text": "Requiring customers to sign a safety waiver",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc đến giấy cam kết miễn trách nhiệm."
+            },
+            {
+              "text": "Training and certifying independent repair shops",
+              "trap": "none",
+              "whyVi": "Đúng: ông nói giải pháp là đào tạo và cấp chứng nhận cho các cửa hàng độc lập."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "But the answer to that is training and certification for independent shops",
+          "explanationVi": "Sau khi thừa nhận lo ngại về an toàn, ông đưa ra giải pháp bằng 'But the answer to that is...'. Đây là chi tiết dễ bị bỏ lỡ vì nằm giữa đoạn nói về rủi ro.",
+          "vocabulary": [
+            "certification"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What point does Andre make that he admits his customers may not like?",
+          "options": [
+            {
+              "text": "Many people replace working phones for reasons a law cannot change.",
+              "trap": "none",
+              "whyVi": "Đúng: nhiều người thay điện thoại còn tốt vì màu mới hoặc hết hợp đồng, và luật không thay đổi được điều đó."
+            },
+            {
+              "text": "His prices will have to go up if the law passes.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không nói sẽ tăng giá."
+            },
+            {
+              "text": "Phone contracts should be made illegal.",
+              "trap": "too_broad",
+              "whyVi": "Ông có nhắc hợp đồng hai năm, nhưng không đề nghị cấm hợp đồng."
+            },
+            {
+              "text": "Customers who repair their own phones usually damage them.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông ủng hộ việc người dùng tự sửa, như cô thiếu niên ở Vernon."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "similar_choices",
+          "evidence": "A law won't fix our habits on its own.",
+          "explanationVi": "Cụm 'something that doesn't make me popular with my own customers' báo hiệu điều ông sắp nói không dễ nghe với khách hàng: thói quen thay máy không cần thiết. 'No law is going to talk anyone out of that' = luật không thể thuyết phục ai bỏ thói quen đó.",
+          "vocabulary": [
+            "talk someone out of"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What is Andre's attitude toward people doing their own repairs if the law passes?",
+          "options": [
+            {
+              "text": "He worries it will put his shop out of business.",
+              "trap": "partially_true",
+              "whyVi": "Ông thừa nhận việc kinh doanh có thể bị ảnh hưởng ngắn hạn, nhưng ông không lo lắng mà còn ủng hộ."
+            },
+            {
+              "text": "He thinks only teenagers will bother to try it.",
+              "trap": "word_match",
+              "whyVi": "Cô thiếu niên ở Vernon chỉ là một ví dụ minh họa."
+            },
+            {
+              "text": "He welcomes it, even though it may cost him some customers.",
+              "trap": "none",
+              "whyVi": "Đúng: 'Fine by me' — ông vui vẻ chấp nhận dù có thể mất khách."
+            },
+            {
+              "text": "He believes it should be allowed only for screens.",
+              "trap": "wrong_detail",
+              "whyVi": "Màn hình vỡ chỉ là ví dụ; ông không giới hạn việc tự sửa ở màn hình."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "Still, I'd support a law like this even if it hurt my business, and in the short run it might, because some people will do their own repairs once the parts are available. Fine by me.",
+          "explanationVi": "'Fine by me' = tôi thấy ổn. Ông nói ủng hộ dự luật 'even if it hurt my business'. Đáp án A là bẫy vì ông có nhắc đến thiệt hại nhưng không thể hiện sự lo lắng.",
+          "vocabulary": [
+            "in the short run"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Andre mean when he asks the province to \"put some teeth in it\"?",
+          "options": [
+            {
+              "text": "The law should cover many more kinds of devices.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không yêu cầu mở rộng luật sang các loại thiết bị khác; ông muốn luật có hiệu lực thực sự."
+            },
+            {
+              "text": "The law should be introduced more slowly.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không nói về tốc độ áp dụng luật."
+            },
+            {
+              "text": "The law should let companies set their own prices for parts.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông lo luật cho phép công ty định giá tùy ý."
+            },
+            {
+              "text": "The law should be strong enough to make repairs genuinely possible.",
+              "trap": "none",
+              "whyVi": "Đúng: luật phải có hiệu lực thực sự, nếu không thì chỉ là quyền sửa chữa 'trên giấy'."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "vocabulary",
+          "evidence": "A law that lets companies charge whatever they like for parts, or release a manual nobody can follow, is a right to repair on paper only.",
+          "explanationVi": "'put some teeth in' (a law) = làm cho luật có sức mạnh thi hành. Câu tiếp theo giải thích: nếu hãng được bán linh kiện giá nào cũng được hoặc phát hành hướng dẫn không ai làm theo được, thì quyền sửa chữa chỉ có 'on paper only'.",
+          "vocabulary": [
+            "put teeth in",
+            "on paper"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "take",
+      "vi": "quan điểm, cách nhìn",
+      "definition": "a person's opinion about something",
+      "example": "Here's his take on the idea."
+    },
+    {
+      "term": "I'll give them this much",
+      "vi": "tôi công nhận họ ở điểm này",
+      "definition": "used before admitting that someone you disagree with is partly right",
+      "example": "I'll give them this much: batteries can be dangerous."
+    },
+    {
+      "term": "skeptical",
+      "vi": "hoài nghi",
+      "definition": "having doubts that something is true",
+      "example": "I'm a little skeptical that safety is the whole story."
+    },
+    {
+      "term": "fiddle with",
+      "vi": "táy máy, nghịch",
+      "definition": "to touch or change something in a careless way",
+      "example": "Nobody wants a stranger fiddling with the security chip."
+    },
+    {
+      "term": "talk someone out of",
+      "vi": "thuyết phục ai đừng làm gì",
+      "definition": "to persuade someone not to do something",
+      "example": "No law will talk anyone out of upgrading."
+    },
+    {
+      "term": "in the short run",
+      "vi": "trong ngắn hạn",
+      "definition": "in the near future; for a short period",
+      "example": "In the short run, the law might hurt my business."
+    },
+    {
+      "term": "put teeth in",
+      "vi": "làm cho (luật) có hiệu lực thực sự",
+      "definition": "to make a law or rule strong enough to be enforced",
+      "example": "The province should put some teeth in the law."
+    },
+    {
+      "term": "on paper",
+      "vi": "trên giấy tờ (không có thật trên thực tế)",
+      "definition": "officially or in theory, but not in reality",
+      "example": "It's a right to repair on paper only."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 items independently; keys match, partial concession on safety arguments clearly worded. Removed the unverified claim that B.C. is currently consulting on a right-to-repair law (now 'Some people want B.C. to pass...'; context, 'this bill' and vocab example adjusted) and dropped 'authorized centre in Vancouver' (Kelowna may have local providers) in favour of cost plus a week without the phone; Q1 evidence/whyVi/explanation updated, key unchanged."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

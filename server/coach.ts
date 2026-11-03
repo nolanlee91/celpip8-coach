@@ -483,50 +483,54 @@ function nextReviewVi(db: Db): string | null {
 /**
  * What to do after an activity, so no result screen is a dead end.
  *  - practice: if the attempt exposed a weak question type, teach (or drill) that type; otherwise continue.
+ *  - mock: the same, over the Listening/Reading parts of the whole mock exam.
  *  - lesson / review: the coach's top recommendation.
  */
-export function nextStepAfter(db: Db, cur: CurriculumView, ctx: { after: "lesson" | "practice" | "review"; attemptId?: string }): NextStep {
+export function nextStepAfter(db: Db, cur: CurriculumView, ctx: { after: "lesson" | "practice" | "review" | "mock"; attemptId?: string; mockId?: string }): NextStep {
   const primary = primaryAction(db, cur);
   const home = { label: "Về trang Hôm nay", route: "/" };
-  if (ctx.after === "practice" && ctx.attemptId) {
-    const a = db.attempts.find((x) => x.id === ctx.attemptId);
-    if (a && a.items.length) {
-      const byCat = new Map<string, { wrong: number; total: number }>();
-      for (const it of a.items) {
-        const c = byCat.get(it.category) ?? { wrong: 0, total: 0 };
-        c.total++;
-        if (!it.correct) c.wrong++;
-        byCat.set(it.category, c);
-      }
-      const [cat, st] = [...byCat.entries()].sort((x, y) => y[1].wrong - x[1].wrong)[0];
-      const wrongTotal = a.items.filter((i) => !i.correct).length;
-      const mistakesLink = wrongTotal ? { label: `Ôn ${wrongTotal} câu vừa sai`, route: "/mistakes?review=1" } : home;
-      const label = CATEGORIES[a.skill][cat] ?? cat;
-      if (st.wrong >= 2) {
-        const lesson = cur.order[a.skill].map((id) => cur.lessons.get(id)).find((l): l is Lesson => !!l && l.competencies.includes(cat) && lessonStatus(db, l.id) !== "mastered");
-        if (lesson) {
-          return {
-            title: `Học: ${lesson.titleVi}`, route: `/learn/${lesson.id}`, cta: "Học kỹ thuật này",
-            reasonVi: `Bạn sai ${st.wrong}/${st.total} câu "${label}" trong bài vừa làm. Học kỹ thuật này trước, rồi quay lại luyện sẽ hiệu quả hơn làm thêm đề.`,
-            secondary: mistakesLink, nextReviewVi: null,
-          };
-        }
+  const attempts =
+    ctx.after === "practice" && ctx.attemptId ? db.attempts.filter((x) => x.id === ctx.attemptId) :
+    ctx.after === "mock" && ctx.mockId ? db.attempts.filter((x) => x.mockExamId === ctx.mockId) : [];
+  const items = attempts.flatMap((a) => a.items.map((it) => ({ ...it, skill: a.skill })));
+  if (items.length) {
+    const where = ctx.after === "mock" ? "trong bài thi thử" : "trong bài vừa làm";
+    const byCat = new Map<string, { skill: Skill; cat: string; wrong: number; total: number }>();
+    for (const it of items) {
+      const key = `${it.skill}:${it.category}`;
+      const c = byCat.get(key) ?? { skill: it.skill, cat: it.category, wrong: 0, total: 0 };
+      c.total++;
+      if (!it.correct) c.wrong++;
+      byCat.set(key, c);
+    }
+    const st = [...byCat.values()].sort((x, y) => y.wrong - x.wrong)[0];
+    const wrongTotal = items.filter((i) => !i.correct).length;
+    const mistakesLink = wrongTotal ? { label: `Ôn ${wrongTotal} câu vừa sai`, route: "/mistakes?review=1" } : home;
+    const label = `${CATEGORIES[st.skill][st.cat] ?? st.cat}${ctx.after === "mock" ? ` (${SKILL_LABEL[st.skill]})` : ""}`;
+    if (st.wrong >= 2) {
+      const lesson = cur.order[st.skill].map((id) => cur.lessons.get(id)).find((l): l is Lesson => !!l && l.competencies.includes(st.cat) && lessonStatus(db, l.id) !== "mastered");
+      if (lesson) {
         return {
-          title: `Luyện drill: ${label}`, route: `/${a.skill}?mode=drill&focus=${cat}`, cta: "Làm drill ngắn",
-          reasonVi: `Bạn đã học bài về "${label}" nhưng vẫn sai ${st.wrong}/${st.total} câu. Một drill ngắn giúp áp dụng kỹ thuật vào dạng thi.`,
+          title: `Học: ${lesson.titleVi}`, route: `/learn/${lesson.id}`, cta: "Học kỹ thuật này",
+          reasonVi: `Bạn sai ${st.wrong}/${st.total} câu "${label}" ${where}. Học kỹ thuật này trước, rồi quay lại luyện sẽ hiệu quả hơn làm thêm đề.`,
           secondary: mistakesLink, nextReviewVi: null,
         };
       }
-      const acc = a.correct / a.total;
-      if (acc >= 0.75) {
-        return { ...fromPrimary(primary), reasonVi: `Bạn làm đúng ${Math.round(acc * 100)}%, không có loại câu nào sai nhiều. ${primary.reasonVi}`, secondary: mistakesLink, nextReviewVi: null };
-      }
       return {
-        title: `Ôn lại ${wrongTotal} câu vừa sai`, route: "/mistakes?review=1", cta: "Ôn câu sai",
-        reasonVi: "Lỗi rải rác ở nhiều loại câu. Xem lại từng câu sai và lời giải thích trước khi làm bài mới.",
-        secondary: home, nextReviewVi: null,
+        title: `Luyện drill: ${label}`, route: `/${st.skill}?mode=drill&focus=${st.cat}`, cta: "Làm drill ngắn",
+        reasonVi: `Bạn đã học bài về "${label}" nhưng vẫn sai ${st.wrong}/${st.total} câu ${where}. Một drill ngắn giúp áp dụng kỹ thuật vào dạng thi.`,
+        secondary: mistakesLink, nextReviewVi: null,
       };
     }
+    const acc = (items.length - wrongTotal) / items.length;
+    if (acc >= 0.75) {
+      return { ...fromPrimary(primary), reasonVi: `Bạn làm đúng ${Math.round(acc * 100)}% ${where}, không có loại câu nào sai nhiều. ${primary.reasonVi}`, secondary: mistakesLink, nextReviewVi: null };
+    }
+    return {
+      title: `Ôn lại ${wrongTotal} câu vừa sai`, route: "/mistakes?review=1", cta: "Ôn câu sai",
+      reasonVi: `Lỗi rải rác ở nhiều loại câu ${where}. Xem lại từng câu sai và lời giải thích trước khi làm bài mới.`,
+      secondary: home, nextReviewVi: null,
+    };
   }
   return { ...fromPrimary(primary), secondary: home, nextReviewVi: ctx.after === "review" ? nextReviewVi(db) : null };
 }

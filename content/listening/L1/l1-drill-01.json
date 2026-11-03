@@ -11,7 +11,7 @@
     {
       "segments": [
         { "speaker": "Rosa", "voice": "female_a", "text": "Tomás, sorry to bang on your door so late. Do you know anything about the unit above me? There's water dripping through my bathroom ceiling, right by the light fixture." },
-        { "speaker": "Tomás", "voice": "male_a", "text": "Oh no. That's four-oh-two. Did you knock?" },
+        { "speaker": "Tomás", "voice": "male_a", "text": "Hey, Rosa. Oh no. That's four-oh-two. Did you knock?" },
         { "speaker": "Rosa", "voice": "female_a", "text": "Twice. Nobody answered." },
         { "speaker": "Tomás", "voice": "male_a", "text": "Yeah, the owner's in Mexico till the end of the month, I think. Okay, first thing, don't touch that light. Turn off the breaker for the bathroom. Water and electricity, you know." },
         { "speaker": "Rosa", "voice": "female_a", "text": "Right, good thinking. Then what, call the landlord?" },
@@ -97,7 +97,7 @@
   ],
   "estimatedMinutes": 4,
   "source": "curated",
-  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 4 Qs; key matched. 3/4 missed_info (meets 70% drill target). Evidence, traps and Vietnamese checked; tenant-insurance/emergency-line advice is sensible. No changes needed." },
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 4 Qs; key matched. 3/4 missed_info (meets 70% drill target). Evidence, traps and Vietnamese checked; tenant-insurance/emergency-line advice is sensible. No changes needed. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)." },
   "createdAt": "2026-10-26",
   "focus": []
 }

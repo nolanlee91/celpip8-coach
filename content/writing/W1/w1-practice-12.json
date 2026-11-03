@@ -1,0 +1,65 @@
+{
+  "id": "w1-practice-12",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 9,
+  "topic": "workplace",
+  "title": "Turning down a promotion that requires relocation",
+  "situation": "You work as a dispatcher for a regional trucking company in Abbotsford. Your manager, Sandra, has offered you a promotion to dispatch supervisor, but the job is at the company's new branch in Prince George, and she clearly expects you to accept. You are grateful and want to advance in the company, but your spouse has just started a new job in Abbotsford and your elderly parents, who live with you, need your help every day. You decide to email her.",
+  "instructions": [
+    "Thank your manager for the offer.",
+    "Explain why you cannot accept it at this time.",
+    "Suggest how you could still take on more responsibility or support the new branch."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Greeting + sincere thanks that shows you value the trust placed in you",
+    "Instruction 2: a clear but soft refusal (After careful consideration… at this time) + 2 family reasons",
+    "Reassure the manager: the decision is not about lack of ambition or commitment",
+    "Instruction 3: 2–3 concrete ways to support the new branch + interest in future local openings",
+    "Hope for understanding + offer to discuss in person + sign-off"
+  ],
+  "modelResponse": "Dear Sandra,\n\nThank you very much for offering me the dispatch supervisor position at the new Prince George branch. I was genuinely honoured that you thought of me, especially as I have been with the company for only three years, and I have given the offer a great deal of thought.\n\nAfter careful consideration, I have concluded that I cannot accept the transfer at this time. My wife started a nursing position at Abbotsford Regional Hospital last month, and my parents, who live with us, rely on me to drive them to medical appointments several times a week. Moving north would put my family in a very difficult position. I want to stress that this decision has nothing to do with my interest in the role or my commitment to the company.\n\nI would still like to grow here. For example, I could help train the new Prince George dispatchers remotely, or spend a week or two there during the launch. I would also welcome the chance to be considered for any supervisory opening in Abbotsford in the future.\n\nI hope you understand, and I would be glad to discuss this further in person.\n\nBest regards,\nMarco Ruiz",
+  "usefulExpressions": [
+    {
+      "expression": "I was genuinely honoured that you thought of me",
+      "usageVi": "Lời cảm ơn chân thành, cho thấy bạn trân trọng sự tin tưởng của quản lý (Canadian spelling: 'honoured')."
+    },
+    {
+      "expression": "I have given the offer a great deal of thought",
+      "usageVi": "Cho thấy bạn đã cân nhắc nghiêm túc trước khi từ chối."
+    },
+    {
+      "expression": "After careful consideration, I have concluded that I cannot … at this time.",
+      "usageVi": "Từ chối rõ ràng nhưng mềm mỏng; 'at this time' để ngỏ khả năng trong tương lai."
+    },
+    {
+      "expression": "would put my family in a very difficult position",
+      "usageVi": "Giải thích lý do cá nhân một cách ngắn gọn, chuyên nghiệp."
+    },
+    {
+      "expression": "I want to stress that this decision has nothing to do with…",
+      "usageVi": "Trấn an người nhận, tránh để quản lý nghĩ bạn thiếu tham vọng."
+    },
+    {
+      "expression": "I would also welcome the chance to be considered for…",
+      "usageVi": "Thể hiện mong muốn thăng tiến, biến lời từ chối thành cơ hội khác."
+    }
+  ],
+  "commonMistakes": [
+    "Từ chối mơ hồ ('Maybe I can't, I'm not sure'), khiến quản lý không biết câu trả lời. Ở mức 9, bạn phải rõ ràng nhưng tế nhị.",
+    "Kể quá nhiều chi tiết riêng tư về gia đình. Chỉ cần 1–2 lý do ngắn gọn, chuyên nghiệp.",
+    "Quên ý 3 hoặc chỉ viết 'I can help if you need'. Hãy đưa đề xuất cụ thể (đào tạo từ xa, hỗ trợ khi khai trương).",
+    "Sai cấu trúc: 'I am honoured that you think about me' → 'that you thought of me'; 'consider me to be' → 'consider me for'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets (thanks, clear soft refusal with family reasons, concrete ways to support the branch), 198 words, expressions and mistakes. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

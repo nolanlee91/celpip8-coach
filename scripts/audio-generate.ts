@@ -16,8 +16,8 @@ import path from "node:path";
 import { library } from "../server/library";
 import { audioStatus, generateAudioBatch, AUDIO_ASSETS_DIR, AUDIO_PROVIDER, audioProviderReady, VOICE_MAP, lessonAudioSet, BUNDLED_AUDIO_DIR, readAloud, readAloudName } from "../server/audio";
 import { curriculum } from "../server/lessons";
-import { speechText, tableSpeech } from "../shared/read-aloud";
-import type { ListeningSet, ReadingSet } from "../shared/types";
+import { readAloudTexts } from "../server/translations";
+import type { ListeningSet } from "../shared/types";
 
 const args = process.argv.slice(2);
 const opt = (n: string) => { const i = args.indexOf(`--${n}`); return i >= 0 ? args[i + 1] : undefined; };
@@ -29,15 +29,7 @@ if (args.includes("--reading")) await generateReading();
  * review) and lesson stimuli that have text but no audio of their own. Same normalisation as the client.
  */
 async function generateReading() {
-  const texts = new Map<string, string>(); // file -> text
-  const add = (raw: string) => { const t = speechText(raw); if (t) texts.set(readAloudName(t), t); };
-  for (const item of library().items.values()) {
-    if (item.kind !== "reading") continue;
-    for (const sec of (item as ReadingSet).sections) add(sec.kind === "table" && sec.table ? tableSpeech(sec.table) : sec.text);
-  }
-  for (const l of curriculum().lessons.values())
-    for (const st of Object.values(l.stimuli ?? {})) if (st.text && !st.audio?.length && !st.audioRef) add(st.text);
-
+  const texts = new Map(readAloudTexts().map((t) => [readAloudName(t), t])); // file -> text
   const todo = [...texts].filter(([f]) => !fs.existsSync(path.join(BUNDLED_AUDIO_DIR, f)));
   console.log(`Reading read-aloud: ${texts.size} passage(s), ${todo.length} missing · output: ${BUNDLED_AUDIO_DIR}`);
   if (args.includes("--status")) process.exit(0);

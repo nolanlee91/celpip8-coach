@@ -1,0 +1,424 @@
+{
+  "id": "l5-mock-04",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "Discussion: Missed appointments at a family practice clinic",
+  "context": "You will hear staff at a family practice clinic in Nanaimo discussing what to do about patients who miss their appointments.",
+  "estimatedMinutes": 10,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Owen, office manager",
+          "voice": "male_a",
+          "text": "Okay, last month's numbers are in, and they're not pretty. We had a hundred and twelve booked appointments where the patient just didn't show up and didn't call. That's close to three full days of empty slots, while people are lined up outside the door every morning."
+        },
+        {
+          "speaker": "Dr. Farida Haidari, lead physician",
+          "voice": "female_a",
+          "text": "And our waitlist for new patients is past four hundred. Every empty slot is someone who could have been seen. Owen, you mentioned a no-show fee. Walk us through it."
+        },
+        {
+          "speaker": "Owen, office manager",
+          "voice": "male_a",
+          "text": "Sure, Dr. Haidari. Some clinics in Victoria charge twenty-five dollars if you miss an appointment without giving twenty-four hours' notice. From what I've read, MSP doesn't cover missed appointments, so clinics can bill patients directly, but we'd want to check the College's guidelines first and make sure patients are told in advance."
+        },
+        {
+          "speaker": "Rosalind, medical office assistant",
+          "voice": "female_b",
+          "text": "I have to say, I'm the one at the front desk who'd be asking for that money, and I can already picture those conversations. A lot of our patients are seniors or on income assistance. Twenty-five dollars is groceries for some of them. And the people who miss appointments most often tend to be the ones who are struggling the most."
+        },
+        {
+          "speaker": "Luis, nurse practitioner",
+          "voice": "male_b",
+          "text": "I'm with Rosalind, but I'd go further. When I've followed up on no-shows, the reason usually isn't that people don't care. They forgot, or they got the time mixed up, or they couldn't get off work. A fee doesn't fix any of that."
+        },
+        {
+          "speaker": "Dr. Farida Haidari, lead physician",
+          "voice": "female_a",
+          "text": "So what does, Luis?"
+        },
+        {
+          "speaker": "Luis, nurse practitioner",
+          "voice": "male_b",
+          "text": "Reminders, for a start. We still only phone people the day before, and only if Rosalind has a spare minute, which, let's be honest, she rarely does."
+        },
+        {
+          "speaker": "Rosalind, medical office assistant",
+          "voice": "female_b",
+          "text": "Rarely is generous. Most days I don't get past the first ten names."
+        },
+        {
+          "speaker": "Owen, office manager",
+          "voice": "male_a",
+          "text": "Our booking system actually has automatic text reminders built in. We've just never switched them on, because the add-on costs about ninety dollars a month."
+        },
+        {
+          "speaker": "Dr. Farida Haidari, lead physician",
+          "voice": "female_a",
+          "text": "Ninety dollars a month? That's less than what four missed appointments cost us. Why on earth haven't we done that already?"
+        },
+        {
+          "speaker": "Owen, office manager",
+          "voice": "male_a",
+          "text": "Mostly because nobody asked. I'll take the blame for that one."
+        },
+        {
+          "speaker": "Luis, nurse practitioner",
+          "voice": "male_b",
+          "text": "The other thing is making it easy to cancel. Right now the only way is to call, and our line's busy all morning. If the text had a reply-C-to-cancel option, the slot could go straight back on the schedule for someone on the same-day list."
+        },
+        {
+          "speaker": "Rosalind, medical office assistant",
+          "voice": "female_b",
+          "text": "I'd love that. Half my mornings go to people complaining about the hold music."
+        },
+        {
+          "speaker": "Dr. Farida Haidari, lead physician",
+          "voice": "female_a",
+          "text": "All right, I'm convinced we should start there. But I'm not ruling out a fee forever. Let's run the reminders and the text cancellations for three months and see what the numbers look like. If no-shows don't drop by at least a third, we revisit the fee, maybe with an exemption for patients on assistance."
+        },
+        {
+          "speaker": "Owen, office manager",
+          "voice": "male_a",
+          "text": "That works. I'll switch on the add-on this week and update the website so patients know what's changing."
+        },
+        {
+          "speaker": "Luis, nurse practitioner",
+          "voice": "male_b",
+          "text": "Could we also keep track of the reasons people give when they do cancel? That would tell us a lot."
+        },
+        {
+          "speaker": "Dr. Farida Haidari, lead physician",
+          "voice": "female_a",
+          "text": "Good idea. Rosalind, would a simple drop-down menu in the booking system work for you?"
+        },
+        {
+          "speaker": "Rosalind, medical office assistant",
+          "voice": "female_b",
+          "text": "As long as it's one click, sure."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What problem does Owen describe at the start?",
+          "options": [
+            {
+              "text": "The clinic had to close for almost three days.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'three full days' nhưng đó là tổng số lịch hẹn bị bỏ trống, không phải phòng khám đóng cửa."
+            },
+            {
+              "text": "The waitlist for new patients reached 112 people.",
+              "trap": "wrong_detail",
+              "whyVi": "112 là số lịch hẹn bị bỏ; danh sách chờ là hơn 400 người."
+            },
+            {
+              "text": "Many patients missed appointments without letting the clinic know.",
+              "trap": "none",
+              "whyVi": "Đúng: 112 bệnh nhân không đến và cũng không gọi báo."
+            },
+            {
+              "text": "Too many patients came in without an appointment.",
+              "trap": "wrong_detail",
+              "whyVi": "Người xếp hàng mỗi sáng là chi tiết phụ, không phải vấn đề chính Owen nêu."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "the patient just didn't show up and didn't call",
+          "explanationVi": "'Didn't show up and didn't call' được diễn đạt lại thành 'missed appointments without letting the clinic know'.",
+          "vocabulary": [
+            "no-show"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "Under the policy Owen describes, when could a patient be charged?",
+          "options": [
+            {
+              "text": "When they miss an appointment and have not cancelled a day ahead",
+              "trap": "none",
+              "whyVi": "Đúng: tính 25 đô nếu bỏ hẹn mà không báo trước 24 giờ."
+            },
+            {
+              "text": "When they arrive more than twenty-four minutes late",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói về việc đến trễ."
+            },
+            {
+              "text": "When MSP refuses to pay for their visit",
+              "trap": "word_match",
+              "whyVi": "Có nhắc MSP, nhưng chỉ để giải thích vì sao phòng khám có thể thu phí trực tiếp."
+            },
+            {
+              "text": "Whenever they cancel an appointment by phone",
+              "trap": "partially_true",
+              "whyVi": "Hủy hẹn không bị phạt nếu báo trước 24 giờ; chỉ bỏ hẹn không báo mới bị tính phí."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "similar_choices",
+          "evidence": "charge twenty-five dollars if you miss an appointment without giving twenty-four hours' notice",
+          "explanationVi": "'Without giving twenty-four hours' notice' được diễn đạt lại thành 'have not cancelled a day ahead'. Chú ý con số 24 xuất hiện trong phương án B để đánh lừa.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "What is Rosalind's attitude toward the fee?",
+          "options": [
+            {
+              "text": "She is worried it could cost her her job.",
+              "trap": "not_mentioned",
+              "whyVi": "Cô không nói lo mất việc."
+            },
+            {
+              "text": "She thinks $25 is too small to change anyone's habits.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô cho rằng 25 đô là số tiền lớn với một số bệnh nhân."
+            },
+            {
+              "text": "She believes seniors skip appointments on purpose.",
+              "trap": "not_mentioned",
+              "whyVi": "Cô không nói người cao tuổi cố tình bỏ hẹn."
+            },
+            {
+              "text": "She feels it would hurt patients who have the least money.",
+              "trap": "none",
+              "whyVi": "Đúng: 25 đô là tiền chợ của nhiều người, và người hay bỏ hẹn lại thường là người khó khăn nhất."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "Twenty-five dollars is groceries for some of them.",
+          "explanationVi": "Rosalind nói 25 đô 'is groceries for some of them' và 'the ones who are struggling the most'. Thái độ: phản đối vì không công bằng với người thu nhập thấp.",
+          "vocabulary": [
+            "income assistance"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "According to Luis, why do most patients miss their appointments?",
+          "options": [
+            {
+              "text": "They do not take their health seriously.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: anh nói lý do 'usually isn't that people don't care'."
+            },
+            {
+              "text": "They have everyday, practical problems rather than a lack of concern.",
+              "trap": "none",
+              "whyVi": "Đúng: họ quên, nhầm giờ, hoặc không xin nghỉ làm được."
+            },
+            {
+              "text": "The clinic gives them the wrong appointment time.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'got the time mixed up', nhưng là bệnh nhân tự nhầm, không phải phòng khám báo sai."
+            },
+            {
+              "text": "They cannot afford the clinic's fees.",
+              "trap": "not_mentioned",
+              "whyVi": "Luis không nói bệnh nhân không đủ tiền khám."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "the reason usually isn't that people don't care",
+          "explanationVi": "Luis liệt kê các lý do thực tế: 'forgot', 'got the time mixed up', 'couldn't get off work'. Đáp án B tóm lại thành 'everyday, practical problems rather than a lack of concern'.",
+          "vocabulary": [
+            "mix up"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What does Rosalind mean when she says \"Rarely is generous\"?",
+          "options": [
+            {
+              "text": "She feels Luis is criticizing her unfairly.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô đồng ý với Luis và còn nói tình hình tệ hơn."
+            },
+            {
+              "text": "She wants extra pay for making reminder calls.",
+              "trap": "word_match",
+              "whyVi": "'Generous' ở đây không liên quan đến tiền lương."
+            },
+            {
+              "text": "She almost never has time to finish the reminder calls.",
+              "trap": "none",
+              "whyVi": "Đúng: nói 'rarely' còn là nhẹ; hầu hết các ngày cô không gọi quá mười người đầu tiên."
+            },
+            {
+              "text": "She thinks reminder calls do not help patients.",
+              "trap": "not_mentioned",
+              "whyVi": "Cô không nói gọi nhắc vô ích."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "Rarely is generous. Most days I don't get past the first ten names.",
+          "explanationVi": "'X is generous' là cách nói hài hước: từ X còn là nói giảm, sự thật còn tệ hơn. Câu sau 'I don't get past the first ten names' xác nhận cô gần như không bao giờ gọi xong.",
+          "vocabulary": []
+        },
+        {
+          "number": 6,
+          "prompt": "How does Dr. Haidari react when she hears what the text reminders cost?",
+          "options": [
+            {
+              "text": "She is surprised they were not used earlier, since they would quickly pay for themselves.",
+              "trap": "none",
+              "whyVi": "Đúng: 90 đô/tháng còn ít hơn chi phí của bốn lịch hẹn bị bỏ, nên cô ngạc nhiên vì chưa dùng."
+            },
+            {
+              "text": "She thinks $90 a month is more than the clinic can afford.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô thấy số tiền này rất nhỏ so với thiệt hại."
+            },
+            {
+              "text": "She wants to compare it with other booking systems first.",
+              "trap": "not_mentioned",
+              "whyVi": "Cô không đề nghị so sánh hệ thống khác."
+            },
+            {
+              "text": "She takes the blame for not asking about it sooner.",
+              "trap": "wrong_speaker",
+              "whyVi": "Owen mới là người nhận lỗi ('I'll take the blame')."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "That's less than what four missed appointments cost us. Why on earth haven't we done that already?",
+          "explanationVi": "'Why on earth...?' thể hiện sự ngạc nhiên mạnh. Cô so sánh chi phí: 90 đô < giá trị bốn lịch hẹn bị bỏ, tức là khoản này tự bù được chi phí.",
+          "vocabulary": []
+        },
+        {
+          "number": 7,
+          "prompt": "When Dr. Haidari says she is \"not ruling out a fee forever\", what does she mean?",
+          "options": [
+            {
+              "text": "She has decided to introduce a fee later.",
+              "trap": "partially_true",
+              "whyVi": "Cô chỉ để ngỏ khả năng; phí chỉ được xem xét lại nếu số người bỏ hẹn không giảm."
+            },
+            {
+              "text": "She wants to make clear rules about the fee.",
+              "trap": "word_match",
+              "whyVi": "'Rule out' không liên quan đến việc đặt ra quy định ('rules')."
+            },
+            {
+              "text": "She plans to lower the fee for some patients.",
+              "trap": "wrong_detail",
+              "whyVi": "Có nhắc miễn phí cho người nhận trợ cấp, nhưng đó không phải nghĩa của cụm từ này."
+            },
+            {
+              "text": "She is keeping the fee as a possible option for the future.",
+              "trap": "none",
+              "whyVi": "Đúng: 'not rule out' = chưa loại bỏ, vẫn còn là một khả năng."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "vocabulary",
+          "evidence": "But I'm not ruling out a fee forever.",
+          "explanationVi": "'Rule out' = loại bỏ một khả năng. 'Not ruling out' = vẫn giữ khả năng đó. Câu sau xác nhận: họ sẽ 'revisit the fee' nếu số liệu không cải thiện.",
+          "vocabulary": [
+            "rule out",
+            "revisit"
+          ]
+        },
+        {
+          "number": 8,
+          "prompt": "What does the clinic decide to do?",
+          "options": [
+            {
+              "text": "Bring in a fee now, with an exemption for patients on assistance",
+              "trap": "partially_true",
+              "whyVi": "Phí và miễn trừ chỉ được xem xét lại sau ba tháng nếu số người bỏ hẹn không giảm một phần ba."
+            },
+            {
+              "text": "Test text reminders and text cancellations for three months before reconsidering a fee",
+              "trap": "none",
+              "whyVi": "Đúng: thử nghiệm nhắc hẹn và hủy hẹn qua tin nhắn trong ba tháng rồi mới xem lại chuyện thu phí."
+            },
+            {
+              "text": "Hire another assistant to phone patients the day before",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai đề nghị thuê thêm người."
+            },
+            {
+              "text": "Stop letting patients cancel by phone",
+              "trap": "wrong_detail",
+              "whyVi": "Họ thêm cách hủy qua tin nhắn, không bỏ cách gọi điện."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "Let's run the reminders and the text cancellations for three months and see what the numbers look like.",
+          "explanationVi": "Cần theo dõi cả cuộc họp: ý thu phí được nêu đầu tiên nhưng bị phản đối, cuối cùng bác sĩ chọn thử nghiệm nhắc hẹn trước. Phương án A dễ nhầm vì có nhắc 'exemption', nhưng đó chỉ là điều kiện cho tương lai.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "no-show",
+      "vi": "người không đến (cuộc hẹn)",
+      "definition": "a person who does not come to an appointment and does not cancel",
+      "example": "We had a hundred and twelve no-shows last month."
+    },
+    {
+      "term": "walk someone through",
+      "vi": "giải thích từng bước cho ai",
+      "definition": "explain something to someone step by step",
+      "example": "Walk us through the no-show fee."
+    },
+    {
+      "term": "income assistance",
+      "vi": "trợ cấp thu nhập (phúc lợi xã hội)",
+      "definition": "government money for people with very low income",
+      "example": "Many patients are on income assistance."
+    },
+    {
+      "term": "mix up",
+      "vi": "nhầm lẫn",
+      "definition": "confuse one thing with another",
+      "example": "They got the time mixed up."
+    },
+    {
+      "term": "add-on",
+      "vi": "tính năng bổ sung (trả thêm tiền)",
+      "definition": "an extra feature you pay for separately",
+      "example": "The text reminder add-on costs ninety dollars a month."
+    },
+    {
+      "term": "take the blame",
+      "vi": "nhận lỗi",
+      "definition": "accept responsibility for a mistake",
+      "example": "I'll take the blame for that one."
+    },
+    {
+      "term": "rule out",
+      "vi": "loại trừ, loại bỏ khả năng",
+      "definition": "decide that something is not possible or will not happen",
+      "example": "I'm not ruling out a fee forever."
+    },
+    {
+      "term": "revisit",
+      "vi": "xem xét lại",
+      "definition": "think about or discuss something again",
+      "example": "If nothing changes, we'll revisit the fee."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 8 items independently; keys match. Owen's statement that a no-show fee 'is allowed' was a regulatory rule stated as fact; reworded as hedged ('From what I've read... we'd want to check the College's guidelines first') and updated Q2 option C whyVi. Added name cues so Dr. Haidari and Luis are identifiable before questions about them."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

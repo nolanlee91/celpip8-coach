@@ -1,0 +1,274 @@
+{
+  "id": "l4-full-02",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "housing",
+  "title": "News: Victoria council backs renters facing renovation move-outs",
+  "context": "You will hear a local radio news report about a new rule for renovated rental buildings in Victoria.",
+  "estimatedMinutes": 5,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Good afternoon. Tenants at a sixty-unit apartment building in Victoria's Fernwood neighbourhood say they've been thrown a lifeline, though some aren't ready to celebrate just yet. City council voted late last night to require landlords who renovate older rental buildings to help displaced tenants find temporary housing, and to cover the difference in rent while the work is underway."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The vote comes after residents of the Birchwood Court apartments received notices in August telling them they would have to move out for at least eight months while the plumbing and wiring are replaced. Many of them have lived there for over a decade and pay well below today's market rents."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Councillor Marisol Ventura, who brought the motion forward, says the goal isn't to stop renovations. She told reporters the buildings genuinely need the work, but that long-time renters shouldn't be the ones footing the bill for decades of deferred maintenance."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Not everyone is on board. The South Island Rental Owners Group warns the rules could backfire. Its spokesperson, Graham Lindqvist, says smaller owners may simply put off repairs they can't afford, which, he argues, would leave tenants living with aging wiring for even longer."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "For Birchwood Court resident Hye-jin Park, the timing is the real question. The new bylaw won't take effect until January first, and her building's notices went out months before that. City staff say they're still looking into whether the rules can apply to notices already issued, and expect to report back within six weeks."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "In the meantime, the city is pointing tenants to its renter help line, which offers free advice on their rights under the Residential Tenancy Act."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What did Victoria city council decide?",
+          "options": [
+            {
+              "text": "Renovations of older rental buildings will no longer be allowed.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: Ventura nói mục tiêu 'isn't to stop renovations' – không cấm sửa chữa."
+            },
+            {
+              "text": "Landlords must keep rents below market rates after renovating.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài có nhắc 'below today's market rents' nhưng chỉ là mức thuê hiện tại của người thuê, không phải quy định mới."
+            },
+            {
+              "text": "Landlords carrying out major repairs must support tenants who have to leave for a while.",
+              "trap": "none",
+              "whyVi": "Đúng: chủ nhà phải giúp người thuê tìm chỗ ở tạm và bù phần chênh lệch tiền thuê."
+            },
+            {
+              "text": "The city will start offering tenants free legal advice.",
+              "trap": "wrong_detail",
+              "whyVi": "Đường dây tư vấn miễn phí đã có sẵn, thành phố chỉ giới thiệu cho người thuê – không phải quyết định của hội đồng."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "to require landlords who renovate older rental buildings to help displaced tenants find temporary housing",
+          "explanationVi": "Câu chính của bản tin nằm ngay đầu. 'landlords who renovate' được diễn đạt lại thành 'landlords carrying out major repairs', 'help displaced tenants find temporary housing' thành 'support tenants who have to leave for a while'.",
+          "vocabulary": [
+            "displaced"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "How do the Fernwood tenants seem to feel about the vote?",
+          "options": [
+            {
+              "text": "Hopeful, but not yet sure it will solve their problem",
+              "trap": "none",
+              "whyVi": "Đúng: 'thrown a lifeline' (được cứu) nhưng 'aren't ready to celebrate just yet' (chưa dám vui)."
+            },
+            {
+              "text": "Disappointed that council rejected the motion",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: hội đồng đã thông qua, không bác bỏ."
+            },
+            {
+              "text": "Relieved that their troubles are now over",
+              "trap": "partially_true",
+              "whyVi": "Chỉ đúng một nửa: họ thấy nhẹ nhõm phần nào nhưng chưa ăn mừng vì vấn đề chưa chắc đã xong."
+            },
+            {
+              "text": "Angry with Councillor Ventura for acting too late",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói người thuê giận Ventura."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "say they've been thrown a lifeline, though some aren't ready to celebrate just yet",
+          "explanationVi": "Thái độ được ngầm thể hiện qua thành ngữ: 'thrown a lifeline' = có hy vọng, 'aren't ready to celebrate just yet' = còn dè dặt. Đáp án A gộp cả hai ý.",
+          "vocabulary": [
+            "throw someone a lifeline"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Councillor Ventura suggest about the buildings' condition?",
+          "options": [
+            {
+              "text": "Tenants caused much of the damage to the plumbing.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói người thuê làm hư hỏng."
+            },
+            {
+              "text": "The planned renovations are not really necessary.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà nói các tòa nhà 'genuinely need the work'."
+            },
+            {
+              "text": "Renters should share the cost of the repairs.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà nói người thuê lâu năm KHÔNG nên 'footing the bill' (gánh chi phí)."
+            },
+            {
+              "text": "Necessary repairs were put off for many years.",
+              "trap": "none",
+              "whyVi": "Đúng: 'decades of deferred maintenance' = việc bảo trì bị trì hoãn hàng chục năm."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "vocabulary",
+          "evidence": "long-time renters shouldn't be the ones footing the bill for decades of deferred maintenance",
+          "explanationVi": "Cần hiểu cụm 'deferred maintenance' (bảo trì bị trì hoãn). Đáp án D diễn đạt lại thành 'repairs were put off for many years'. Hai lựa chọn 'opposite' lấy từ cùng câu nhưng đảo nghĩa.",
+          "vocabulary": [
+            "deferred maintenance",
+            "foot the bill"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What is Graham Lindqvist's main concern?",
+          "options": [
+            {
+              "text": "Smaller owners will be forced to sell their buildings.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'smaller owners' nhưng ông nói họ sẽ hoãn sửa chữa, không phải bán nhà."
+            },
+            {
+              "text": "The rules could end up hurting the people they are meant to protect.",
+              "trap": "none",
+              "whyVi": "Đúng: chủ nhỏ hoãn sửa chữa thì người thuê phải sống lâu hơn với hệ thống điện cũ – quy định 'backfire'."
+            },
+            {
+              "text": "Landlords will raise rents to pay for the new costs.",
+              "trap": "not_mentioned",
+              "whyVi": "Nghe hợp lý nhưng ông không hề nói chuyện tăng tiền thuê."
+            },
+            {
+              "text": "The bylaw takes effect too soon for landlords to prepare.",
+              "trap": "wrong_speaker",
+              "whyVi": "Chuyện thời điểm có hiệu lực là mối lo của người thuê Hye-jin Park, không phải của Lindqvist."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "smaller owners may simply put off repairs they can't afford, which, he argues, would leave tenants living with aging wiring for even longer",
+          "explanationVi": "'backfire' = phản tác dụng. Ông lập luận người thuê sẽ phải sống với dây điện cũ lâu hơn, tức quy định lại gây hại cho chính người thuê. Đáp án B là cách nói khái quát của ý này.",
+          "vocabulary": [
+            "backfire",
+            "put off"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What has not yet been decided?",
+          "options": [
+            {
+              "text": "When the new bylaw will come into force",
+              "trap": "wrong_detail",
+              "whyVi": "Đã rõ: bylaw có hiệu lực từ 1 tháng 1."
+            },
+            {
+              "text": "Whether the renter help line will remain free",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói gì về việc đường dây tư vấn có còn miễn phí."
+            },
+            {
+              "text": "Whether residents who were already given notice will be covered",
+              "trap": "none",
+              "whyVi": "Đúng: nhân viên thành phố vẫn đang xem xét quy định có áp dụng cho thông báo đã gửi hay không."
+            },
+            {
+              "text": "Whether council will hold a second vote on the motion",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc tới một cuộc bỏ phiếu lần hai; 'report back' chỉ là báo cáo của nhân viên."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "they're still looking into whether the rules can apply to notices already issued",
+          "explanationVi": "Thông tin quan trọng nằm gần cuối. 'notices already issued' được diễn đạt lại thành 'residents who were already given notice'. Ngày 1/1 là thông tin đã chắc chắn, dễ gây nhầm.",
+          "vocabulary": [
+            "look into"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "throw someone a lifeline",
+      "vi": "giúp ai thoát khỏi tình thế khó khăn",
+      "definition": "give help to someone who is in a difficult situation",
+      "example": "The new bylaw could throw tenants a lifeline."
+    },
+    {
+      "term": "displaced",
+      "vi": "bị buộc rời khỏi chỗ ở",
+      "definition": "forced to leave the place where you live",
+      "example": "Displaced tenants will get help finding temporary housing."
+    },
+    {
+      "term": "foot the bill",
+      "vi": "gánh chi phí, trả tiền",
+      "definition": "pay for something, often unwillingly",
+      "example": "Renters shouldn't have to foot the bill for old repairs."
+    },
+    {
+      "term": "deferred maintenance",
+      "vi": "việc bảo trì bị trì hoãn",
+      "definition": "repairs that were needed but postponed",
+      "example": "Years of deferred maintenance left the pipes in bad shape."
+    },
+    {
+      "term": "backfire",
+      "vi": "phản tác dụng",
+      "definition": "have the opposite result to what was intended",
+      "example": "Landlords warn the rules could backfire."
+    },
+    {
+      "term": "put off",
+      "vi": "hoãn lại",
+      "definition": "delay doing something until later",
+      "example": "Small owners may put off repairs they can't afford."
+    },
+    {
+      "term": "look into",
+      "vi": "xem xét, tìm hiểu",
+      "definition": "investigate or examine a question",
+      "example": "Staff are looking into whether the rules apply to old notices."
+    },
+    {
+      "term": "take effect",
+      "vi": "có hiệu lực",
+      "definition": "start to apply officially",
+      "example": "The bylaw will take effect on January first."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 5 independently; keys match (CADBC), evidence and Vietnamese explanations accurate, idiom-based attitude items justify difficulty 8. Renamed the landlord group to the fictional South Island Rental Owners Group so no real association is misrepresented; one narrator, 272 words."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

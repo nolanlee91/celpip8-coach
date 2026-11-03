@@ -1,0 +1,138 @@
+{
+  "id": "l3-drill-02",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "customer-service",
+  "title": "Missed information drill: Moving home internet service",
+  "context": "You will hear a customer on the phone with an agent from an internet provider about moving her service to a new apartment in Burnaby.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Jordan", "voice": "male_b", "text": "Thanks for holding, this is Jordan. I've pulled up your account, Farah. You said you're moving at the end of the month?" },
+        { "speaker": "Farah", "voice": "female_a", "text": "That's right, the thirtieth. I work from home, so I really can't be without internet for more than a day or so." },
+        { "speaker": "Jordan", "voice": "male_b", "text": "Understood. Let me check the new address. Okay, so the building's wired for us, but your unit's never had our service, so a technician will need to come out and activate the line. Our next openings after the thirtieth are on December second." },
+        { "speaker": "Farah", "voice": "female_a", "text": "The second? That's three days with nothing." },
+        { "speaker": "Jordan", "voice": "male_b", "text": "I know it's not ideal. What I can do is put you on the cancellation list, and if something opens up on the first, the system will text you. Most people on the list do get bumped up, but I can't promise it." },
+        { "speaker": "Jordan", "voice": "male_b", "text": "In the meantime, I can add an extra twenty gigabytes to your mobile plan for the month, at no charge, so you can use your phone as a hotspot." },
+        { "speaker": "Farah", "voice": "female_a", "text": "Okay, that would definitely help. What time would the technician come?" },
+        { "speaker": "Jordan", "voice": "male_b", "text": "We book in two windows, eight to noon or noon to five. Someone eighteen or older has to be there the whole time, because the tech may need to get into the unit to check the wall jack. I'll put you down for the morning slot, if that suits you." },
+        { "speaker": "Farah", "voice": "female_a", "text": "Morning's perfect. Will I be charged for the move?" },
+        { "speaker": "Jordan", "voice": "male_b", "text": "Normally there's a forty-nine dollar transfer fee, but it's waived when you book at least fourteen days ahead, which you're doing, so you're in the clear." },
+        { "speaker": "Farah", "voice": "female_a", "text": "Great. And since I'm moving anyway, I was thinking of upgrading to the faster plan." },
+        { "speaker": "Jordan", "voice": "male_b", "text": "You could, but just so you know, you're on a promotional rate right now, sixty-five a month. That stays with you through the move. If you change plans, though, the promotion ends and you'd go to the regular price, which for the faster plan is ninety-five." },
+        { "speaker": "Farah", "voice": "female_a", "text": "Oh. Then let's leave it as is for now. What about the modem? Do I return it?" },
+        { "speaker": "Jordan", "voice": "male_b", "text": "No, bring it with you. Just don't plug it in at the new place until the technician's finished, or it might not connect properly. Your service at the old address will stop at midnight on the thirtieth." },
+        { "speaker": "Farah", "voice": "female_a", "text": "Perfect. Thanks, Jordan, you've been really helpful." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why is a technician visit needed at the new address?",
+          "options": [
+            { "text": "The building has never been connected to the provider's network.", "trap": "opposite", "whyVi": "Tòa nhà đã có dây của nhà mạng ('wired for us')." },
+            { "text": "Farah's modem is not compatible with the new building.", "trap": "not_mentioned", "whyVi": "Modem vẫn dùng được; chỉ không nên cắm trước khi thợ làm xong." },
+            { "text": "Her particular unit has not had the service before.", "trap": "none", "whyVi": "Đúng: tòa nhà có dây, nhưng căn hộ của cô chưa từng dùng dịch vụ, nên cần kích hoạt." },
+            { "text": "The wall jack in her unit is damaged.", "trap": "word_match", "whyVi": "Thợ có thể kiểm tra ổ cắm trên tường, nhưng không ai nói nó bị hỏng." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "Okay, so the building's wired for us, but your unit's never had our service, so a technician will need to come out and activate the line.",
+          "explanationVi": "Thông tin quan trọng nằm sau 'but': tòa nhà có dây NHƯNG căn hộ chưa từng có dịch vụ. Người nghe chỉ bắt được nửa đầu sẽ chọn sai đáp án A.",
+          "vocabulary": ["activate"]
+        },
+        {
+          "number": 2,
+          "prompt": "What will happen if an earlier appointment becomes available?",
+          "options": [
+            { "text": "Farah will get a text message about it.", "trap": "none", "whyVi": "Đúng: nếu có chỗ trống ngày 1, hệ thống sẽ nhắn tin cho cô." },
+            { "text": "Jordan will call her to confirm the new time.", "trap": "wrong_speaker", "whyVi": "Người báo là hệ thống tự động, không phải Jordan gọi." },
+            { "text": "Her appointment will be moved automatically to the thirtieth.", "trap": "wrong_detail", "whyVi": "Ngày 30 là ngày chuyển nhà; chỗ trống có thể có là ngày 1." },
+            { "text": "She is guaranteed a visit on December first.", "trap": "opposite", "whyVi": "Jordan nói rõ 'I can't promise it'." }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "What I can do is put you on the cancellation list, and if something opens up on the first, the system will text you.",
+          "explanationVi": "'The system will text you' – hệ thống nhắn tin. Chú ý câu tiếp theo 'I can't promise it' loại đáp án D.",
+          "vocabulary": ["cancellation list", "bump up"]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Jordan offer to help Farah until her service is connected?",
+          "options": [
+            { "text": "A discount on her next internet bill.", "trap": "not_mentioned", "whyVi": "Không có giảm giá hóa đơn internet." },
+            { "text": "A free portable hotspot device.", "trap": "word_match", "whyVi": "'Hotspot' được nhắc, nhưng là dùng điện thoại làm điểm phát, không phải thiết bị riêng." },
+            { "text": "Extra mobile data at no cost.", "trap": "none", "whyVi": "Đúng: thêm 20 GB vào gói di động trong tháng, miễn phí." },
+            { "text": "A technician visit outside normal hours.", "trap": "not_mentioned", "whyVi": "Không có lịch ngoài giờ." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "In the meantime, I can add an extra twenty gigabytes to your mobile plan for the month, at no charge, so you can use your phone as a hotspot.",
+          "explanationVi": "'Twenty gigabytes to your mobile plan' = dữ liệu di động; 'at no charge' = miễn phí. Đáp án B lấy từ 'hotspot' để đánh lừa.",
+          "vocabulary": ["hotspot"]
+        },
+        {
+          "number": 4,
+          "prompt": "Why won't Farah have to pay the forty-nine dollar fee?",
+          "options": [
+            { "text": "She has been a customer for a long time.", "trap": "not_mentioned", "whyVi": "Không nhắc tới thời gian làm khách hàng." },
+            { "text": "She arranged the move well enough in advance.", "trap": "none", "whyVi": "Đúng: phí được miễn khi đặt trước ít nhất 14 ngày, và cô đã làm vậy." },
+            { "text": "She is keeping her current promotional plan.", "trap": "wrong_detail", "whyVi": "Việc giữ giá khuyến mãi không liên quan đến phí chuyển." },
+            { "text": "She agreed to the morning appointment.", "trap": "not_mentioned", "whyVi": "Khung giờ buổi sáng không ảnh hưởng tới phí." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "Normally there's a forty-nine dollar transfer fee, but it's waived when you book at least fourteen days ahead, which you're doing, so you're in the clear.",
+          "explanationVi": "'Waived when you book at least fourteen days ahead' ↔ 'arranged well enough in advance'. 'In the clear' = không phải trả.",
+          "vocabulary": ["waive", "in the clear"]
+        },
+        {
+          "number": 5,
+          "prompt": "What would happen if Farah upgraded her plan?",
+          "options": [
+            { "text": "She would pay sixty-five dollars a month.", "trap": "wrong_detail", "whyVi": "65 đô là giá khuyến mãi hiện tại, sẽ mất nếu đổi gói." },
+            { "text": "Her transfer fee would no longer be waived.", "trap": "not_mentioned", "whyVi": "Không nói đổi gói làm mất miễn phí chuyển." },
+            { "text": "The technician would need a second visit.", "trap": "not_mentioned", "whyVi": "Không có thông tin này." },
+            { "text": "She would lose her current discount and pay ninety-five dollars.", "trap": "none", "whyVi": "Đúng: khuyến mãi kết thúc và gói nhanh hơn có giá thường 95 đô." }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "If you change plans, though, the promotion ends and you'd go to the regular price, which for the faster plan is ninety-five.",
+          "explanationVi": "Jordan nói giá khuyến mãi được giữ khi chuyển nhà, NHƯNG ('though') nếu đổi gói thì mất khuyến mãi. Phải nghe cả hai ý và con số 95.",
+          "vocabulary": ["promotional rate"]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Jordan tell Farah about her modem?",
+          "options": [
+            { "text": "She should set it up at the new place right after she moves in.", "trap": "opposite", "whyVi": "Không cắm modem cho tới khi thợ làm xong." },
+            { "text": "She needs to wait until the technician is done before connecting it.", "trap": "none", "whyVi": "Đúng: 'don't plug it in at the new place until the technician's finished'." },
+            { "text": "She must return it before the thirtieth.", "trap": "opposite", "whyVi": "Không cần trả; mang theo sang nhà mới." },
+            { "text": "The technician will bring a replacement.", "trap": "not_mentioned", "whyVi": "Không nói có modem thay thế." }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "Just don't plug it in at the new place until the technician's finished, or it might not connect properly.",
+          "explanationVi": "Sau câu 'bring it with you' còn một lời dặn quan trọng: không cắm điện trước khi thợ làm xong. 'Plug it in' ↔ 'connecting it'.",
+          "vocabulary": ["plug in"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "activate", "vi": "kích hoạt", "definition": "to make a service or device start working", "example": "A technician will come out and activate the line." },
+    { "term": "cancellation list", "vi": "danh sách chờ (lấy chỗ khi có người hủy)", "definition": "a list of people waiting for a spot if someone cancels", "example": "I'll put you on the cancellation list." },
+    { "term": "bump up", "vi": "được đẩy lên sớm hơn", "definition": "to move something to an earlier time or higher position", "example": "Most people on the list get bumped up." },
+    { "term": "hotspot", "vi": "điểm phát wifi", "definition": "a device that shares an internet connection with others", "example": "You can use your phone as a hotspot." },
+    { "term": "waive", "vi": "miễn (phí)", "definition": "to choose not to charge a fee", "example": "The transfer fee is waived if you book early." },
+    { "term": "in the clear", "vi": "không còn vấn đề gì, không phải trả", "definition": "free from a problem or charge", "example": "You booked early, so you're in the clear." },
+    { "term": "promotional rate", "vi": "giá khuyến mãi", "definition": "a special lower price offered for a limited time", "example": "You're on a promotional rate right now." },
+    { "term": "plug in", "vi": "cắm điện, kết nối", "definition": "to connect a device to a power supply or network", "example": "Don't plug the modem in until the technician's finished." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; keys matched; 5/6 items are missed_info (meets the 70% drill rule). Timeline (move Nov 30, tech Dec 2, cancellation slot Dec 1) is consistent. Difficulty 8 -> 7: answers are mostly explicit with light paraphrase. Speaker names used in questions are now spoken in the audio (self-introductions/greetings added)." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

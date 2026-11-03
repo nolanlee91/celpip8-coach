@@ -1,0 +1,125 @@
+{
+  "id": "r4-drill-04",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "customer-service",
+  "title": "Main idea drill: A Restaurant Says Goodbye to Tipping",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": {"status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 6; keys match. Blank 6 frame 'what she seems to miss is ...' was ambiguous (miss = long for vs overlook, which would let other options fit) -> rewrote as 'What really bothers her is losing [[6]]', changed key text to 'control over how much extra she gives', updated whyVi/explanation. Lengthened comment to ~121 words ('For years,', 'downtown', 'really'). Difficulty 8 -> 7 (main-idea items are fairly explicit). Note: same theme (tip-free pricing) as r4-full-07, but different setting and arguments (kitchen pay equity vs tip-screen pressure)."},
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "When diners at Salt & Cedar in Victoria open the menu this month, they'll notice two things: prices are about 18 per cent higher, and there is no longer a line for a tip on the bill. The restaurant has joined a handful of Canadian eateries trying \"hospitality-included\" pricing, in which the cost of service is built into menu prices and staff earn a higher hourly wage instead of relying on tips. Some diners have welcomed the move; others doubt it will last.\n\nOwner Marisol Duarte says the old system had become impossible to defend. Servers sometimes took home three times as much as the cooks working a few metres away, even though both were needed to get a meal to the table. \"Tips reward the people the customer can see,\" she said. \"My kitchen staff are invisible, and their pay reflected that.\" Under the new model, every employee starts at $24 an hour, and the restaurant shares a portion of its profits each quarter.\n\nThe early numbers are less tidy. Two of Duarte's most experienced servers quit before the switch, saying they expected to earn less on busy weekends. Restaurant consultant Kwame Boateng says that is a familiar pattern. \"The best servers can make far more with tips than any wage an owner can afford,\" he said. \"Lose your strongest people and the service slips, and customers notice.\" He adds that higher menu prices can look steep next to competitors, even when the final bill comes out about the same.\n\nCustomers so far are split. Regular diner Harold Kwan likes knowing exactly what he'll pay. \"No calculator at the end of the meal. No guilt.\" But first-time visitor Amira Haddad says the prices made her think twice about ordering dessert, and she isn't sure she'll be back. \"I usually tip well anyway. I just like being the one who decides.\"\n\nDuarte will review staff turnover and sales after six months. She admits the experiment could fail, but says going back would mean \"choosing the easy answer over the fair one.\"",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I spent eight years waiting tables in downtown Victoria, so I read this article with real interest. I agree with Ms. Duarte that the core problem with tipping is that it [[5]]. For years, I watched dishwashers work every bit as hard as I did for half the money. Still, Mr. Boateng's warning shouldn't be brushed aside. If the restaurant can't hang on to experienced servers, diners will feel the difference long before the six-month review. As for Ms. Haddad, I understand where she's coming from. What really bothers her is losing [[6]], not the chance to save a few dollars. Personally, I really hope the experiment works, because the fairest restaurants are the ones where everyone shares in the rewards.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the article mainly about?",
+      "options": [
+        { "text": "Why Victoria restaurants are raising their menu prices", "trap": "too_broad", "whyVi": "Bài chỉ nói về một nhà hàng, và giá tăng là vì bỏ tiền tip, không phải xu hướng chung của Victoria." },
+        { "text": "How servers can earn more money on busy weekends", "trap": "word_match", "whyVi": "Bài có nhắc cuối tuần đông khách, nhưng đó chỉ là lý do hai nhân viên nghỉ việc." },
+        { "text": "A restaurant's switch to tip-free pricing and the debate it has sparked", "trap": "none", "whyVi": "Đúng: Bài giới thiệu việc bỏ tip, lý do của chủ, rủi ro theo chuyên gia và phản ứng trái chiều của khách." },
+        { "text": "A consultant's advice on keeping experienced staff", "trap": "partially_true", "whyVi": "Ý kiến của Boateng chỉ là một đoạn trong bài." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "Some diners have welcomed the move; others doubt it will last.",
+      "explanationVi": "Đoạn 1 nêu chủ đề (bỏ tip, tính phí phục vụ vào giá) và báo trước tranh luận: 'Some diners have welcomed the move; others doubt it will last'. Các đoạn sau phát triển hai phía. 'Sparked' = gây ra (tranh luận).",
+      "vocabulary": ["hospitality-included"]
+    },
+    {
+      "number": 2,
+      "prompt": "What is Marisol Duarte's main reason for the change?",
+      "options": [
+        { "text": "Tipping rewarded front-of-house staff while kitchen workers were left behind.", "trap": "none", "whyVi": "Đúng: Phục vụ bàn có khi kiếm gấp ba đầu bếp; 'Tips reward the people the customer can see'." },
+        { "text": "Customers had complained about having to calculate tips.", "trap": "wrong_speaker", "whyVi": "Ý 'no calculator' là cảm nhận của khách Harold Kwan, không phải lý do của chủ." },
+        { "text": "She wanted to raise prices to increase profits.", "trap": "opposite", "whyVi": "Giá tăng để trả lương thay cho tip, và nhà hàng còn chia lợi nhuận cho nhân viên." },
+        { "text": "Her best servers were threatening to quit.", "trap": "wrong_detail", "whyVi": "Hai nhân viên nghỉ là hậu quả của việc thay đổi, không phải nguyên nhân." }
+      ],
+      "answerIndex": 0,
+      "category": "main_idea",
+      "evidence": "\"Tips reward the people the customer can see,\" she said. \"My kitchen staff are invisible, and their pay reflected that.\"",
+      "explanationVi": "Đoạn 2 xoay quanh một ý: tip không công bằng vì chỉ thưởng cho người khách nhìn thấy (phục vụ bàn), còn bếp 'invisible' nên lương thấp. 'Front-of-house staff' = nhân viên tiếp xúc khách; 'left behind' = bị thiệt.",
+      "vocabulary": ["take home"]
+    },
+    {
+      "number": 3,
+      "prompt": "What is the main purpose of the third paragraph?",
+      "options": [
+        { "text": "To show that customers prefer the new prices", "trap": "opposite", "whyVi": "Đoạn 3 nêu rủi ro: giá cao có thể trông 'steep' so với đối thủ." },
+        { "text": "To explain how profit-sharing works at the restaurant", "trap": "wrong_detail", "whyVi": "Chia lợi nhuận được nhắc ở cuối đoạn 2, không phải đoạn 3." },
+        { "text": "To argue that tipping should be banned across Canada", "trap": "too_broad", "whyVi": "Không ai đề nghị cấm tip trên toàn quốc." },
+        { "text": "To point out the risks the change has already revealed", "trap": "none", "whyVi": "Đúng: Đoạn 3 bắt đầu 'The early numbers are less tidy' rồi nêu nhân viên giỏi nghỉ việc, dịch vụ có thể kém đi, giá trông đắt." }
+      ],
+      "answerIndex": 3,
+      "category": "main_idea",
+      "evidence": "The early numbers are less tidy.",
+      "explanationVi": "Câu mở đầu đoạn là câu chủ đề: 'less tidy' = không suôn sẻ như mong đợi. Mọi chi tiết sau (hai người nghỉ, lời cảnh báo của Boateng, giá trông đắt) đều là mặt trái/rủi ro. Đây là cách tìm mục đích đoạn văn: đọc câu chủ đề và xem các chi tiết hỗ trợ ý gì."
+    },
+    {
+      "number": 4,
+      "prompt": "Which headline best fits the article?",
+      "options": [
+        { "text": "Servers Quit as Victoria Restaurant Cuts Wages", "trap": "opposite", "whyVi": "Lương theo giờ được tăng lên $24, không phải bị cắt." },
+        { "text": "No Tips, Higher Prices: A Fairer System or a Risky Bet?", "trap": "none", "whyVi": "Đúng: Tiêu đề bao quát cả thay đổi (bỏ tip, giá cao hơn) lẫn hai phía tranh luận (công bằng hay rủi ro)." },
+        { "text": "Diners Love Restaurant's Guilt-Free Bills", "trap": "partially_true", "whyVi": "Chỉ đúng với ông Kwan; bà Haddad và chuyên gia có nghi ngại." },
+        { "text": "Cooks Now Earn Three Times as Much as Servers", "trap": "word_match", "whyVi": "Dùng lại 'three times' nhưng đảo ngược: trước đây phục vụ kiếm gấp ba đầu bếp." }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "She admits the experiment could fail, but says going back would mean \"choosing the easy answer over the fair one.\"",
+      "explanationVi": "Tiêu đề tốt phải bao quát toàn bài. Bài kết thúc với hai mặt: thí nghiệm 'could fail' (rủi ro) nhưng chủ cho rằng đó là lựa chọn 'fair' (công bằng). Đáp án B gói được cả hai."
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "makes diners feel guilty at the end of a meal", "trap": "wrong_speaker", "whyVi": "Cảm giác 'guilt' là ý của ông Kwan, không phải lập luận chính của Duarte." },
+        { "text": "makes menu prices look higher than they are", "trap": "wrong_detail", "whyVi": "Đây là vấn đề của giá mới theo Boateng, không phải vấn đề của tip." },
+        { "text": "leaves the kitchen staff underpaid compared with servers", "trap": "none", "whyVi": "Đúng: Ý chính của Duarte; câu sau về người rửa bát làm vất vả mà nhận nửa tiền cũng xác nhận." },
+        { "text": "is too complicated for most people to work out", "trap": "word_match", "whyVi": "Gợi lại từ 'calculator' nhưng không phải ý của Duarte." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "Servers sometimes took home three times as much as the cooks working a few metres away",
+      "explanationVi": "Chỗ trống là 'the core problem' theo Duarte – ý chính của đoạn 2. Câu tiếp theo trong bình luận ('dishwashers ... for half the money') là ví dụ minh họa, nên đáp án phải nói về nhân viên bếp bị trả thấp."
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "control over how much extra she gives", "trap": "none", "whyVi": "Đúng: Haddad nói 'I usually tip well anyway. I just like being the one who decides' – điều làm bà khó chịu là mất quyền tự quyết." },
+        { "text": "the restaurant's cheaper dessert menu", "trap": "word_match", "whyVi": "Bài có 'dessert' nhưng bà nói giá cao khiến bà ngại gọi, không có thực đơn tráng miệng rẻ." },
+        { "text": "the higher wages paid to servers", "trap": "not_mentioned", "whyVi": "Bà Haddad không bàn về lương của nhân viên phục vụ." },
+        { "text": "a menu that clearly lists every price", "trap": "wrong_speaker", "whyVi": "Biết rõ mình trả bao nhiêu là điều ông Kwan thích; hệ thống mới không làm mất điều này mà còn tạo ra nó." }
+      ],
+      "answerIndex": 0,
+      "category": "main_idea",
+      "evidence": "\"I usually tip well anyway. I just like being the one who decides.\"",
+      "explanationVi": "Người viết phân biệt: điều bà Haddad không muốn mất không phải tiền ('not the chance to save a few dollars') mà là quyền quyết định. Bà tự nói mình vẫn tip hậu, nên ý chính là 'being the one who decides' = 'control over how much extra she gives'. 'What really bothers her is losing + danh từ' – chỗ trống phải là cụm danh từ."
+    }
+  ],
+  "vocabulary": [
+    { "term": "hospitality-included", "vi": "đã bao gồm phí phục vụ", "definition": "a pricing system where the cost of service is built into the menu prices", "example": "The restaurant switched to hospitality-included pricing." },
+    { "term": "take home", "vi": "kiếm được (thực nhận)", "definition": "to earn as pay after everything is counted", "example": "Servers took home three times as much as the cooks." },
+    { "term": "turnover", "vi": "tỷ lệ nghỉ việc", "definition": "the rate at which employees leave and are replaced", "example": "The owner will review staff turnover after six months." },
+    { "term": "steep", "vi": "đắt đỏ", "definition": "very high, especially about prices", "example": "Higher menu prices can look steep next to competitors." },
+    { "term": "think twice", "vi": "đắn đo, cân nhắc lại", "definition": "to consider something carefully before doing it", "example": "The prices made her think twice about ordering dessert." },
+    { "term": "brush aside", "vi": "gạt đi, coi nhẹ", "definition": "to refuse to treat something as important", "example": "His warning shouldn't be brushed aside." },
+    { "term": "hang on to", "vi": "giữ lại", "definition": "to keep someone or something and not lose them", "example": "The restaurant must hang on to its experienced servers." }
+  ]
+}

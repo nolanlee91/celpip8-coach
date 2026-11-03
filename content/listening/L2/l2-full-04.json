@@ -1,0 +1,120 @@
+{
+  "id": "l2-full-04",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "housing",
+  "title": "A landlord's plan to redo the kitchen",
+  "context": "You will hear a landlord talking on the phone with his tenant, who rents an apartment from him in Victoria.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Tom", "voice": "male_b", "text": "Hi, Yasmin, it's Tom Okafor. Is now an okay time? It won't take long." },
+        { "speaker": "Yasmin", "voice": "female_a", "text": "Oh, hi, Mr. Okafor. Sure, I've got a few minutes. Is this about the leak under the sink? Because it's been dripping again." },
+        { "speaker": "Tom", "voice": "male_b", "text": "Sort of, yes. Actually, it's bigger than that. The plumber had a look last week, and the cabinets underneath are pretty much rotted through. Rather than keep patching things up, I'd like to redo the whole kitchen. New cabinets, counters, the works." },
+        { "speaker": "Yasmin", "voice": "female_a", "text": "Wow. Okay. That's, um, that's a lot more than I was expecting. How long would something like that take?" },
+        { "speaker": "Tom", "voice": "male_b", "text": "The contractor's saying about three weeks, starting mid-February. You wouldn't have to move out or anything, but you'd be without a stove and a proper sink for most of that time." },
+        { "speaker": "Yasmin", "voice": "female_a", "text": "Three weeks with no kitchen. Well, I can't say I love the sound of that, but I guess it has to be done." },
+        { "speaker": "Tom", "voice": "male_b", "text": "I know it's not ideal. So, to make up for it, I'd knock a third off your rent while the work's going on. And I could lend you a hot plate and a microwave for the living room." },
+        { "speaker": "Yasmin", "voice": "female_a", "text": "That's kind of you. Can I ask, though, and I don't mean this the wrong way, is the rent going to jump once it's all done? A friend of mine went through something similar in Saanich, and it didn't end well for her." },
+        { "speaker": "Tom", "voice": "male_b", "text": "I hear you, and I've heard those stories too. No, this isn't some excuse to push you out. I'm not planning to raise it beyond the normal yearly increase the province allows, new kitchen or not." },
+        { "speaker": "Yasmin", "voice": "female_a", "text": "Okay. I appreciate you being upfront about it. Would you mind putting the dates and the rent reduction in an email? Just so we're both on the same page." },
+        { "speaker": "Tom", "voice": "male_b", "text": "Not at all. I'll send it tonight. And if the timing's a problem, say you've got family visiting, let me know and we can push it back a bit." },
+        { "speaker": "Yasmin", "voice": "female_a", "text": "No, February's fine. Honestly, I'd rather just get it over with." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why does Mr. Okafor want to replace the kitchen?",
+          "options": [
+            { "text": "He wants to be able to charge more rent afterward.", "trap": "opposite", "whyVi": "Ông khẳng định sẽ không tăng giá thuê quá mức tăng hằng năm cho phép." },
+            { "text": "Yasmin has complained about the kitchen many times.", "trap": "word_match", "whyVi": "Yasmin chỉ nói vòi rò rỉ 'dripping again', không phàn nàn nhiều lần về cả bếp." },
+            { "text": "The contractor offered him a good price.", "trap": "not_mentioned", "whyVi": "Không nhắc gì đến giá của nhà thầu." },
+            { "text": "Making more small repairs no longer seems worthwhile.", "trap": "none", "whyVi": "Đúng: tủ đã mục, ông không muốn tiếp tục vá víu nữa." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "Rather than keep patching things up, I'd like to redo the whole kitchen.",
+          "explanationVi": "'Rather than keep patching things up' = thay vì cứ sửa chắp vá. Đáp án D diễn đạt lại thành 'more small repairs no longer seem worthwhile'.",
+          "vocabulary": ["patch up", "rotted through"]
+        },
+        {
+          "number": 2,
+          "prompt": "What does Yasmin's comment about having no kitchen for three weeks suggest?",
+          "options": [
+            { "text": "She is refusing to allow the renovation.", "trap": "opposite", "whyVi": "Cuối bài cô đồng ý tháng Hai và muốn làm cho xong." },
+            { "text": "She is unhappy about the inconvenience but not objecting.", "trap": "none", "whyVi": "Đúng: cô nói thẳng là không thích ('I can't say I love the sound of that') nhưng chấp nhận ('it has to be done')." },
+            { "text": "She thinks three weeks is not long enough for the job.", "trap": "opposite", "whyVi": "Cô thấy ba tuần là lâu, không phải quá ngắn." },
+            { "text": "She is confused about when the work will start.", "trap": "not_mentioned", "whyVi": "Cô không hỏi lại ngày bắt đầu." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "Three weeks with no kitchen. Well, I can't say I love the sound of that, but I guess it has to be done.",
+          "explanationVi": "'I can't say I love the sound of that' là cách nói giảm nhẹ của 'tôi không thích'; vế sau 'but I guess it has to be done' cho thấy cô miễn cưỡng chấp nhận. Chủ nhà hiểu ngay: 'I know it's not ideal'. Đáp án B: không vui nhưng không phản đối.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "What does Mr. Okafor offer Yasmin during the work?",
+          "options": [
+            { "text": "Lower rent and some appliances to borrow.", "trap": "none", "whyVi": "Đúng: giảm một phần ba tiền thuê và cho mượn bếp điện, lò vi sóng." },
+            { "text": "Free rent for the month of February.", "trap": "wrong_detail", "whyVi": "Chỉ giảm một phần ba, không miễn phí cả tháng." },
+            { "text": "A place to stay somewhere else.", "trap": "not_mentioned", "whyVi": "Ông nói cô không cần dọn ra ngoài; không đề nghị chỗ ở khác." },
+            { "text": "A new microwave that she can keep.", "trap": "word_match", "whyVi": "Có nhắc 'microwave' nhưng là cho mượn ('lend'), không phải tặng." }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "I'd knock a third off your rent while the work's going on. And I could lend you a hot plate and a microwave for the living room.",
+          "explanationVi": "Hai ý: 'knock a third off your rent' = giảm tiền thuê; 'lend you a hot plate and a microwave' = cho mượn thiết bị. Đáp án A gộp cả hai.",
+          "vocabulary": ["knock off", "make up for"]
+        },
+        {
+          "number": 4,
+          "prompt": "Why does Yasmin mention her friend in Saanich?",
+          "options": [
+            { "text": "To recommend a contractor her friend used.", "trap": "not_mentioned", "whyVi": "Không nhắc tới nhà thầu nào của bạn cô." },
+            { "text": "To point out that renovations often run late.", "trap": "not_mentioned", "whyVi": "Cô không nói về việc chậm tiến độ." },
+            { "text": "To explain her concern about what may happen after the work.", "trap": "none", "whyVi": "Đúng: bạn cô gặp chuyện tương tự và kết cục không tốt, nên cô lo bị tăng giá thuê." },
+            { "text": "To show that her friend's landlord was more generous.", "trap": "opposite", "whyVi": "Chuyện của bạn cô 'didn't end well', không phải chủ nhà tốt hơn." }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "is the rent going to jump once it's all done? A friend of mine went through something similar in Saanich, and it didn't end well for her.",
+          "explanationVi": "Cô hỏi tiền thuê có tăng vọt sau khi sửa không, rồi kể chuyện bạn để giải thích nỗi lo. Đáp án C nói đúng mục đích.",
+          "vocabulary": ["upfront"]
+        },
+        {
+          "number": 5,
+          "prompt": "How does Yasmin feel about the timing of the work?",
+          "options": [
+            { "text": "She would like it delayed until her family has visited.", "trap": "word_match", "whyVi": "Chủ nhà chỉ lấy ví dụ 'family visiting'; Yasmin không có khách." },
+            { "text": "She hopes it can be moved to the spring.", "trap": "opposite", "whyVi": "Cô nói 'February's fine'." },
+            { "text": "She is excited to have a new kitchen soon.", "trap": "not_mentioned", "whyVi": "Cô không tỏ ra hào hứng; chỉ muốn làm cho xong." },
+            { "text": "She prefers not to put off something unpleasant.", "trap": "none", "whyVi": "Đúng: 'I'd rather just get it over with' = muốn làm cho xong việc khó chịu." }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "No, February's fine. Honestly, I'd rather just get it over with.",
+          "explanationVi": "'Get it over with' dùng cho việc không dễ chịu mà ta muốn xong sớm. Đáp án D: 'not put off something unpleasant'.",
+          "vocabulary": ["get it over with", "push back"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "rotted through", "vi": "mục nát hoàn toàn", "definition": "so damaged by water or decay that it is weak all the way through", "example": "The cabinets under the sink are pretty much rotted through." },
+    { "term": "patch up", "vi": "sửa tạm, vá víu", "definition": "to repair something quickly or temporarily", "example": "Rather than keep patching things up, I'd like to redo the kitchen." },
+    { "term": "make up for", "vi": "bù đắp cho", "definition": "to do something good to balance something bad", "example": "To make up for it, I'd lower your rent." },
+    { "term": "knock off", "vi": "trừ bớt, giảm", "definition": "to take an amount away from a price", "example": "I'd knock a third off your rent while the work's going on." },
+    { "term": "upfront", "vi": "thẳng thắn, nói rõ từ đầu", "definition": "honest and open about something from the beginning", "example": "I appreciate you being upfront about it." },
+    { "term": "on the same page", "vi": "hiểu giống nhau, thống nhất", "definition": "in agreement about what is happening or what has been decided", "example": "Put it in an email, just so we're both on the same page." },
+    { "term": "push back", "vi": "lùi lại (thời gian)", "definition": "to move something to a later time", "example": "We can push the work back a bit." },
+    { "term": "get it over with", "vi": "làm cho xong (việc không thích)", "definition": "to do something unpleasant now so that it is finished", "example": "I'd rather just get it over with." }
+  ],
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. Changed: Q2 relied on a flat-toned 'Three weeks with no kitchen. Right.', which neutral TTS cannot carry, so Yasmin now says she doesn't love the sound of it but it has to be done; evidence, whyVi and explanation updated. Difficulty 9 -> 8 (mostly explicit paraphrase). Rent-increase line is the landlord's own plan, consistent with BC's annual allowable increase." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

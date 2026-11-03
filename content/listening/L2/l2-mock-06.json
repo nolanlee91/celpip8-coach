@@ -1,0 +1,119 @@
+{
+  "id": "l2-mock-06",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "workplace",
+  "title": "An offer to supervise the night shift",
+  "context": "You will hear two coworkers talking during a break at a hotel in Whistler.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Ines", "voice": "female_a", "text": "Kwame, can I run something by you? Marguerite pulled me aside this morning and offered me the night supervisor job." },
+        { "speaker": "Kwame", "voice": "male_a", "text": "Ines, that's huge! Congratulations. So why do you look like someone just cancelled your vacation?" },
+        { "speaker": "Ines", "voice": "female_a", "text": "Because it's nights. Eleven to seven, four nights a week. It's three dollars more an hour, which, don't get me wrong, would help with rent. But I've got my accounting course on Tuesday and Thursday mornings, and I'm not sure how I'd stay awake through it." },
+        { "speaker": "Kwame", "voice": "male_a", "text": "Yeah, I won't sugar-coat it. I did nights here for almost two years, and the first few months, I was a zombie. People told me my body would adjust. It sort of did. My social life never did." },
+        { "speaker": "Ines", "voice": "female_a", "text": "That's not exactly what I was hoping to hear." },
+        { "speaker": "Kwame", "voice": "male_a", "text": "I know. But listen, it wasn't all bad. It's quiet, and you end up learning every part of the operation, because there's nobody else around to call. When the day manager job opened up, I was the obvious pick, and I don't think that's a coincidence." },
+        { "speaker": "Ines", "voice": "female_a", "text": "So you're saying I should take it." },
+        { "speaker": "Kwame", "voice": "male_a", "text": "I'm saying don't turn it down just yet. Did Marguerite say it had to be those exact four nights?" },
+        { "speaker": "Ines", "voice": "female_a", "text": "She didn't say. I didn't even think to ask, honestly. I kind of froze." },
+        { "speaker": "Kwame", "voice": "male_a", "text": "Then ask. If you worked Friday to Monday, your course days would be free. And find out whether there's a timeline. Like, could you move to days after six months if something opens up? Managers tend to agree to a few conditions when they really want someone, and she clearly wants you, or she wouldn't have come to you first." },
+        { "speaker": "Ines", "voice": "female_a", "text": "Okay. That makes sense. I'll talk to her before my shift ends. Worst case, she says no, and I'm right back where I started." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How does Ines feel about the job offer?",
+          "options": [
+            { "text": "She has already decided to say no.", "trap": "opposite", "whyVi": "Cô chưa quyết; cuối bài cô còn định thương lượng." },
+            { "text": "She is excited and wants to start right away.", "trap": "opposite", "whyVi": "Kwame thấy cô trông buồn như 'someone just cancelled your vacation'." },
+            { "text": "She sees a financial benefit but doubts she can manage the hours.", "trap": "none", "whyVi": "Đúng: thêm 3 đô/giờ giúp trả tiền nhà, nhưng ca đêm đụng lịch học." },
+            { "text": "She is upset that she wasn't offered the day manager job.", "trap": "wrong_detail", "whyVi": "Việc quản lý ca ngày là chuyện của Kwame trước đây." }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "It's three dollars more an hour, which, don't get me wrong, would help with rent. But I've got my accounting course on Tuesday and Thursday mornings, and I'm not sure how I'd stay awake through it.",
+          "explanationVi": "'Don't get me wrong, would help with rent' (ưu điểm) + 'But... not sure how I'd stay awake' (lo ngại). Thái độ hai mặt, đáp án C.",
+          "vocabulary": ["don't get me wrong"]
+        },
+        {
+          "number": 2,
+          "prompt": "What does Kwame suggest when he says his social life never adjusted?",
+          "options": [
+            { "text": "He never got used to sleeping during the day.", "trap": "opposite", "whyVi": "Anh nói cơ thể 'sort of did' thích nghi." },
+            { "text": "Night work kept him from seeing people, even after his body adapted.", "trap": "none", "whyVi": "Đúng: cơ thể dần quen nhưng đời sống xã hội thì không." },
+            { "text": "He quit the night shift so he could spend time with friends.", "trap": "not_mentioned", "whyVi": "Anh chuyển sang quản lý ca ngày vì được chọn, không phải vì bạn bè." },
+            { "text": "He made most of his friends while working nights.", "trap": "opposite", "whyVi": "Ý anh là ngược lại: đời sống xã hội bị ảnh hưởng." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "People told me my body would adjust. It sort of did. My social life never did.",
+          "explanationVi": "So sánh hai vế: 'my body... sort of did' và 'my social life never did'. Đáp án B diễn đạt lại cả hai vế.",
+          "vocabulary": ["sugar-coat"]
+        },
+        {
+          "number": 3,
+          "prompt": "What advantage of night work does Kwame point out?",
+          "options": [
+            { "text": "The higher hourly pay.", "trap": "wrong_speaker", "whyVi": "Chính Ines nhắc đến 3 đô/giờ, không phải Kwame." },
+            { "text": "More free time to study during quiet hours.", "trap": "not_mentioned", "whyVi": "Anh nói 'it's quiet' nhưng không nói có thể học bài." },
+            { "text": "Less contact with demanding managers.", "trap": "not_mentioned", "whyVi": "Không ai nói về việc tránh quản lý." },
+            { "text": "Broad experience that can help you get promoted.", "trap": "none", "whyVi": "Đúng: học mọi mảng công việc, và nhờ vậy anh được chọn làm quản lý ca ngày." }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "you end up learning every part of the operation, because there's nobody else around to call. When the day manager job opened up, I was the obvious pick, and I don't think that's a coincidence.",
+          "explanationVi": "'Learning every part of the operation' = kinh nghiệm rộng; 'I was the obvious pick... not a coincidence' = giúp thăng tiến. Đáp án D gộp hai ý.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "What is Kwame's main advice to Ines?",
+          "options": [
+            { "text": "Find out whether the conditions of the job can be changed.", "trap": "none", "whyVi": "Đúng: hỏi về các đêm làm việc và khả năng chuyển ca ngày sau sáu tháng." },
+            { "text": "Accept the position right away before someone else does.", "trap": "too_broad", "whyVi": "Anh chỉ nói 'don't turn it down just yet', không bảo nhận ngay." },
+            { "text": "Turn it down so she can focus on her course.", "trap": "opposite", "whyVi": "Anh khuyên đừng từ chối vội." },
+            { "text": "Drop her accounting course for now.", "trap": "not_mentioned", "whyVi": "Không ai khuyên bỏ khóa học." }
+          ],
+          "answerIndex": 0,
+          "category": "long_conversation",
+          "evidence": "I'm saying don't turn it down just yet. Did Marguerite say it had to be those exact four nights?",
+          "explanationVi": "Kwame không bảo nhận hay từ chối, mà bảo hỏi lại: ca nào, có thời hạn chuyển ca không. Đáp án A tóm tắt lời khuyên.",
+          "vocabulary": ["turn down"]
+        },
+        {
+          "number": 5,
+          "prompt": "Why does Kwame believe Marguerite might be flexible?",
+          "options": [
+            { "text": "The hotel is having trouble finding staff.", "trap": "not_mentioned", "whyVi": "Không nhắc gì đến thiếu nhân viên." },
+            { "text": "Kwame plans to speak to her on Ines's behalf.", "trap": "not_mentioned", "whyVi": "Ines tự đi nói chuyện; Kwame không đề nghị." },
+            { "text": "Marguerite used to work nights herself.", "trap": "wrong_speaker", "whyVi": "Người từng làm ca đêm là Kwame, không phải Marguerite." },
+            { "text": "Ines was clearly her first choice for the role.", "trap": "none", "whyVi": "Đúng: cô ấy hỏi Ines đầu tiên, chứng tỏ rất muốn Ines." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "she clearly wants you, or she wouldn't have come to you first",
+          "explanationVi": "'She wouldn't have come to you first' = Ines là lựa chọn đầu tiên. Đáp án D diễn đạt lại thành 'her first choice'.",
+          "vocabulary": ["pull someone aside"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "run something by someone", "vi": "hỏi ý kiến ai về việc gì", "definition": "to tell someone about an idea or plan to get their opinion", "example": "Can I run something by you?" },
+    { "term": "pull someone aside", "vi": "kéo ai ra nói riêng", "definition": "to take someone away from a group to speak privately", "example": "My manager pulled me aside this morning." },
+    { "term": "don't get me wrong", "vi": "đừng hiểu lầm", "definition": "used before or after a positive comment to show you are not only complaining", "example": "Don't get me wrong, the extra pay would help." },
+    { "term": "sugar-coat", "vi": "nói giảm nói tránh", "definition": "to make something unpleasant sound better than it is", "example": "I won't sugar-coat it: nights are hard." },
+    { "term": "adjust", "vi": "thích nghi", "definition": "to get used to a new situation", "example": "People told me my body would adjust." },
+    { "term": "the obvious pick", "vi": "lựa chọn hiển nhiên", "definition": "the person everyone expects to be chosen", "example": "I was the obvious pick for the day manager job." },
+    { "term": "turn down", "vi": "từ chối", "definition": "to refuse an offer", "example": "Don't turn the job down just yet." },
+    { "term": "back where you started", "vi": "trở lại như lúc đầu", "definition": "in the same situation as before, with nothing gained or lost", "example": "If she says no, I'm right back where I started." }
+  ],
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. Attitudes are carried by the words ('don't get me wrong... But', 'My social life never did'). Changed: Kwame's name was never spoken, so it is added to Ines's opening line. Difficulty 9 is kept for the inference items Q2, Q3 and Q5." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

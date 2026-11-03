@@ -1,0 +1,68 @@
+{
+  "id": "w2-practice-09",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "government",
+  "title": "Municipal election turnout: mail-in ballots or more polling stations",
+  "situation": "Only 31% of eligible voters took part in the last municipal election in the City of Port Alder. City council has approved funding for one measure to increase turnout and is asking residents for their opinion.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Mail a ballot to every registered voter, with a prepaid return envelope. Completed ballots could also be dropped off at a secure box at city hall.",
+  "optionB": "Option B: Double the number of polling stations, including new locations in shopping malls and on college campuses, and extend advance voting from three days to two weeks.",
+  "structure": [
+    "Opening: refer to the low turnout, state your choice and the key barrier it removes",
+    "Reason 1: groups who cannot easily get to a polling station + the benefit of time to research candidates",
+    "Reason 2: residents who are usually left out (care homes, rural areas)",
+    "Concession: concerns about mail-in voting and how the plan already answers them",
+    "Conclusion"
+  ],
+  "modelResponse": "Given that fewer than a third of residents voted in the last municipal election, I would support mailing a ballot to every registered voter, as it removes the biggest barrier to participation: getting to a polling station.\n\nMany people want to vote but simply cannot fit it into their day. Shift workers, parents of young children and people with disabilities often struggle to line up at a specific location, even if more stations were opened and advance voting lasted longer. With a ballot delivered to their door, voters could take their time to research the candidates and fill it out whenever it suits them. This would likely lead to more informed choices as well as higher turnout.\n\nIn addition, mail-in voting would reach residents who are often left out, such as seniors in care homes or those living in rural parts of the city without reliable transportation.\n\nI recognize that some people value the tradition of voting in person and may worry about lost or delayed ballots. However, prepaid envelopes and a secure drop-off box at city hall would address most of these concerns.\n\nAll things considered, mail-in ballots would make voting genuinely accessible to everyone.",
+  "usefulExpressions": [
+    {
+      "expression": "Given that…, I would support…",
+      "usageVi": "'Given that' = xét thấy rằng; mở bài bằng dữ kiện trong đề rất thuyết phục."
+    },
+    {
+      "expression": "the biggest barrier to participation",
+      "usageVi": "'barrier to + N' = rào cản đối với — từ vựng chủ đề chính quyền, xã hội."
+    },
+    {
+      "expression": "fit it into their day",
+      "usageVi": "Sắp xếp được việc gì vào lịch trong ngày — cách nói tự nhiên."
+    },
+    {
+      "expression": "whenever it suits them",
+      "usageVi": "Bất cứ khi nào thuận tiện cho họ — 'suit' dùng như động từ."
+    },
+    {
+      "expression": "residents who are often left out",
+      "usageVi": "Phrasal verb 'left out' = bị bỏ sót, bị gạt ra ngoài."
+    },
+    {
+      "expression": "I recognize that… However, …",
+      "usageVi": "Nhượng bộ trang trọng; chú ý chính tả Canada chấp nhận 'recognize'."
+    },
+    {
+      "expression": "All things considered, …",
+      "usageVi": "Mở đầu kết luận ở mức cao, thay cho 'In conclusion'."
+    }
+  ],
+  "commonMistakes": [
+    "Nhầm 'vote' và 'votes': 'more people will vote' (động từ) ≠ 'more votes' (danh từ). Không viết 'more people will votes'.",
+    "Thiếu giới từ: 'vote a candidate' → 'vote for a candidate'; dùng sai từ loại: 'the elect' → 'the election'.",
+    "Đưa quan điểm chính trị cá nhân (ủng hộ đảng nào) thay vì tập trung vào hai phương án trong đề.",
+    "Bỏ qua nỗi lo về phiếu bị thất lạc. Nêu và giải quyết phản biện là điểm cộng lớn ở W2."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked 31% vs 'fewer than a third', fictional city, both options balanced. Model answer now also answers Option B's two-week advance voting (not only the extra stations); rewrote a muddled common-mistake note ('the election day is'). Word count 196."
+  },
+  "createdAt": "2026-11-03"
+}

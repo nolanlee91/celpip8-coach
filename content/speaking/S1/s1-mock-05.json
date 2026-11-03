@@ -1,0 +1,55 @@
+{
+  "id": "s1-mock-05",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "customer-service",
+  "title": "Advice for a friend whose online furniture order arrived damaged",
+  "prompt": "Your friend Tomás ordered a $900 sofa from an online furniture store called Westcoast Home Living. When it was delivered, one of the legs was broken and the fabric was torn. He has sent two emails to the company over the past ten days, but nobody has replied.\n\nGive Tomás some advice about what he should do.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Sympathize + suggest staying calm and organized",
+    "Advice 1: document everything (photos, order details, dates of emails)",
+    "Advice 2: try other contact channels and escalate politely, with a deadline",
+    "Advice 3: if still ignored, dispute the charge with the credit card company / consumer protection",
+    "Summary of the order of steps + encouragement"
+  ],
+  "modelAnswer": "Oh no, Tomás, that's so frustrating, especially after paying nine hundred dollars. Ten days without a reply is not okay, but I think you can still get this sorted out if you're a bit strategic about it.\n\nThe first thing I'd do is make sure you've got everything documented. Take clear photos of the broken leg and the torn fabric, and keep your order confirmation and copies of the emails you've sent. And whatever you do, don't throw away the packaging yet, because they might ask you to return the sofa in it.\n\nNext, since email clearly isn't working, try a different channel. Call their customer service line, or send a message through their website chat or social media. Companies tend to respond faster when complaints are public. Be polite but firm: explain exactly what happened, say whether you'd prefer a replacement or a refund, and give them a clear deadline, say five business days.\n\nIf they still ignore you after that, you've got a backup plan. Did you pay by credit card? If so, you can call your card company and ask about disputing the charge. They deal with this kind of thing all the time. You could also contact Consumer Protection BC to find out what your options are.\n\nSo basically, gather your evidence, give the store one last fair chance, and then escalate if you have to. Hopefully it won't come to that, but at least you'll be prepared. Keep me posted!",
+  "usefulExpressions": [
+    {
+      "expression": "get something sorted out",
+      "usageVi": "'Giải quyết xong việc gì' — cách nói thân mật, rất phổ biến ở Canada."
+    },
+    {
+      "expression": "Whatever you do, don't…",
+      "usageVi": "Cảnh báo mạnh một điều tuyệt đối không nên làm."
+    },
+    {
+      "expression": "Be polite but firm.",
+      "usageVi": "'Lịch sự nhưng cứng rắn' — lời khuyên kinh điển khi khiếu nại."
+    },
+    {
+      "expression": "dispute the charge",
+      "usageVi": "Khiếu nại/tranh chấp một khoản phí với công ty thẻ tín dụng."
+    },
+    {
+      "expression": "Hopefully it won't come to that.",
+      "usageVi": "'Hy vọng sẽ không phải đến mức đó' — làm dịu lời khuyên về bước cuối cùng."
+    },
+    {
+      "expression": "Keep me posted!",
+      "usageVi": "'Nhớ cập nhật cho mình nhé!' — câu kết thân mật."
+    }
+  ],
+  "commonMistakes": [
+    "Khuyên ngay 'Call a lawyer' hoặc 'Never buy online again'. Lời khuyên tốt đi từng bước: thu thập bằng chứng → liên hệ lại → leo thang khiếu nại.",
+    "Quên rằng Tomás đã gửi email hai lần. Khuyên 'Send them an email' là bỏ qua chi tiết của đề; hãy đề xuất kênh khác.",
+    "Nói 'nine hundreds dollars' thay vì 'nine hundred dollars'. Sau số đếm, 'hundred/thousand' không thêm -s."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {"status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Verified Consumer Protection BC is the correct real BC consumer body; reworded so Tomás contacts it 'to find out what your options are' rather than implying it resolves his complaint, and changed 'dispute the charge' to 'ask about disputing the charge' (chargebacks are not guaranteed). Fixed a commonMistakes line that called a grammar error 'pronunciation'."},
+  "createdAt": "2026-11-03"
+}

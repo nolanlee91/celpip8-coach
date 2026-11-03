@@ -1,0 +1,307 @@
+{
+  "id": "l6-full-02",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "housing",
+  "title": "Viewpoints: Is renting for life a failure?",
+  "context": "You will hear a radio commentary by a financial planner about young people in Metro Vancouver who have decided to rent instead of buying a home.",
+  "estimatedMinutes": 7,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Marcus Bell, radio host",
+          "voice": "male_a",
+          "text": "Good morning. A new survey suggests that more than half of renters under forty in Metro Vancouver have given up on ever buying a home. To many of their parents, that sounds like a crisis. Our commentator today, Priya Raman, is a financial planner in Burnaby, and she thinks we may be asking the wrong question."
+        },
+        {
+          "speaker": "Priya Raman, financial planner",
+          "voice": "female_a",
+          "text": "Thanks, Marcus. I'll admit that when I started out, I told nearly every client the same thing: stretch yourself, get into the market, and you'll thank me in ten years. For a long time that advice happened to work, so nobody questioned it, least of all me."
+        },
+        {
+          "speaker": "Priya Raman, financial planner",
+          "voice": "female_a",
+          "text": "What's changed isn't that young people have become less responsible. It's the arithmetic. A one-bedroom condo in New Westminster can easily cost more than half a million dollars. Once you add strata fees, property tax and mortgage interest, owning can cost several hundred dollars a month more than renting the same unit next door, sometimes a lot more. Invested steadily over twenty years, that gap can grow into a very respectable sum."
+        },
+        {
+          "speaker": "Priya Raman, financial planner",
+          "voice": "female_a",
+          "text": "So when a client in her thirties tells me she's decided to rent, I no longer treat it as a confession. I ask whether she's actually investing the difference, because that's where the plan lives or dies. A renter who spends the gap on restaurants and weekends in Whistler hasn't chosen an alternative to owning. She's chosen to have neither."
+        },
+        {
+          "speaker": "Priya Raman, financial planner",
+          "voice": "female_a",
+          "text": "Now, the people who disagree with me have a point I can't brush aside. Owning a home forces you to save. Every mortgage payment chips away at the debt whether you feel disciplined that month or not. There's also security. A landlord can sell the building or move a relative in, and suddenly you're hunting for a place in a market with very few vacancies. I watched that happen to a client of mine who was seventy, and it was genuinely frightening for her."
+        },
+        {
+          "speaker": "Priya Raman, financial planner",
+          "voice": "female_a",
+          "text": "But those are arguments for stronger tenant protections and automatic savings plans, not for pushing everyone into a mortgage they can barely carry. If one rate increase would wreck your budget, you don't own the home so much as it owns you."
+        },
+        {
+          "speaker": "Priya Raman, financial planner",
+          "voice": "female_a",
+          "text": "What bothers me most is the language. We talk about renters as if they're stuck in a waiting room, and that shame drives people into decisions they regret. Some of my clients should buy, and I tell them so. Others are better off renting and building wealth another way. The goal was never the house. It was a secure, comfortable life, and there's more than one road to it."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is Priya Raman's main argument about renting in Metro Vancouver?",
+          "options": [
+            {
+              "text": "Young people should buy a home as early as they possibly can.",
+              "trap": "opposite",
+              "whyVi": "Đây là lời khuyên cũ của Priya mà bây giờ bà không còn áp dụng cho mọi người nữa."
+            },
+            {
+              "text": "Buying a home in the region is now a poor investment for everyone.",
+              "trap": "too_broad",
+              "whyVi": "Quá rộng: bà nói một số khách hàng vẫn nên mua nhà ('Some of my clients should buy')."
+            },
+            {
+              "text": "Choosing to rent can be a reasonable decision if it is part of a serious financial plan.",
+              "trap": "none",
+              "whyVi": "Đúng: bà coi thuê nhà là một con đường hợp lý, miễn là người thuê thực sự đầu tư phần tiền chênh lệch."
+            },
+            {
+              "text": "The government should build far more rental housing.",
+              "trap": "not_mentioned",
+              "whyVi": "Bà không đề xuất chính phủ xây thêm nhà cho thuê; bà chỉ nhắc đến việc bảo vệ người thuê nhà."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "The goal was never the house. It was a secure, comfortable life, and there's more than one road to it.",
+          "explanationVi": "Ý chính nằm ở phần kết: mục tiêu là cuộc sống an toàn, thoải mái, và 'there's more than one road to it'. Kết hợp với ý 'that's where the plan lives or dies' (phải đầu tư phần chênh lệch), đáp án C tóm tắt đúng lập luận. Đáp án B sai vì bà vẫn khuyên một số người mua nhà.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "What does Priya suggest about the advice she gave clients early in her career?",
+          "options": [
+            {
+              "text": "She repeated it without really examining it because it seemed to succeed.",
+              "trap": "none",
+              "whyVi": "Đúng: lời khuyên đó 'tình cờ' hiệu quả nên không ai, kể cả bà, đặt câu hỏi về nó."
+            },
+            {
+              "text": "She now believes it was harmful even at the time.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà nói lời khuyên đó đã từng hiệu quả ('happened to work') trong một thời gian dài."
+            },
+            {
+              "text": "Several clients complained that it had cost them money.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc đến việc khách hàng phàn nàn."
+            },
+            {
+              "text": "She still gives it to most clients in their thirties.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: với khách hàng ngoài ba mươi muốn thuê nhà, bà giờ hỏi họ có đầu tư phần chênh lệch không, không còn khuyên mua bằng mọi giá."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "For a long time that advice happened to work, so nobody questioned it, least of all me.",
+          "explanationVi": "'happened to work' = tình cờ có kết quả tốt; 'nobody questioned it, least of all me' = không ai thắc mắc, bản thân bà càng không. Đáp án A diễn đạt lại: lặp lại lời khuyên mà không xem xét kỹ vì nó có vẻ thành công.",
+          "vocabulary": [
+            "least of all"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "According to Priya, what decides whether renting works out well financially?",
+          "options": [
+            {
+              "text": "Whether the renter can find a unit without strata fees",
+              "trap": "word_match",
+              "whyVi": "Bài có 'strata fees' nhưng đó là chi phí của người sở hữu căn hộ, không phải điều kiện để thuê nhà thành công."
+            },
+            {
+              "text": "Whether interest rates come down over the next decade",
+              "trap": "not_mentioned",
+              "whyVi": "Bà nhắc lãi suất hiện tại, nhưng không nói việc thuê nhà thành công phụ thuộc vào lãi suất giảm."
+            },
+            {
+              "text": "Whether the renter lives close to work and avoids travel costs",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói gì về khoảng cách đến nơi làm việc."
+            },
+            {
+              "text": "Whether the money saved each month is put aside and invested",
+              "trap": "none",
+              "whyVi": "Đúng: bà hỏi khách hàng có 'investing the difference' không, vì kế hoạch thành hay bại là ở đó."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "I ask whether she's actually investing the difference, because that's where the plan lives or dies.",
+          "explanationVi": "'investing the difference' (đầu tư phần chênh lệch giữa chi phí sở hữu và chi phí thuê) được diễn đạt lại thành 'the money saved each month is put aside and invested'. 'lives or dies' = quyết định thành bại.",
+          "vocabulary": [
+            "live or die"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "Why does Priya mention a client who was seventy?",
+          "options": [
+            {
+              "text": "To criticize landlords who move relatives into rented units",
+              "trap": "word_match",
+              "whyVi": "Bài có 'move a relative in', nhưng bà không chỉ trích chủ nhà; bà dùng ví dụ để thừa nhận rủi ro của việc thuê nhà."
+            },
+            {
+              "text": "To admit that renting can leave people without a stable home",
+              "trap": "none",
+              "whyVi": "Đúng: đây là một ý của phía phản đối mà bà công nhận — người thuê nhà thiếu sự ổn định."
+            },
+            {
+              "text": "To argue that older people should never rent",
+              "trap": "too_broad",
+              "whyVi": "Quá rộng: bà không đưa ra kết luận chung về người lớn tuổi."
+            },
+            {
+              "text": "To show that older clients are better at saving money",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không so sánh khả năng tiết kiệm theo độ tuổi."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "similar_choices",
+          "evidence": "There's also security. A landlord can sell the building or move a relative in, and suddenly you're hunting for a place in a market with very few vacancies.",
+          "explanationVi": "Ví dụ người khách 70 tuổi nằm trong đoạn bà nói 'the people who disagree with me have a point I can't brush aside'. Từ khóa 'security' cho thấy bà đang thừa nhận nhược điểm của việc thuê: có thể mất chỗ ở bất cứ lúc nào. Đáp án A dùng lại từ trong bài nhưng sai mục đích.",
+          "vocabulary": [
+            "brush aside",
+            "vacancy"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What does Priya mean when she says \"you don't own the home so much as it owns you\"?",
+          "options": [
+            {
+              "text": "Most homeowners end up regretting their purchase.",
+              "trap": "too_broad",
+              "whyVi": "Quá rộng: bà chỉ nói về người có khoản vay quá sức, không phải hầu hết chủ nhà."
+            },
+            {
+              "text": "The bank legally owns a home until the mortgage is paid.",
+              "trap": "word_match",
+              "whyVi": "Hiểu theo nghĩa đen về quyền sở hữu là sai; câu này là cách nói hình ảnh."
+            },
+            {
+              "text": "Rising interest rates make a home worth more over time.",
+              "trap": "opposite",
+              "whyVi": "Bà nói lãi suất tăng làm hỏng ngân sách, không phải làm tăng giá trị nhà."
+            },
+            {
+              "text": "A mortgage that stretches you too far ends up controlling your life.",
+              "trap": "none",
+              "whyVi": "Đúng: nếu một lần tăng lãi suất cũng đủ phá hỏng ngân sách thì căn nhà đang chi phối cuộc sống của bạn."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "vocabulary",
+          "evidence": "If one rate increase would wreck your budget, you don't own the home so much as it owns you.",
+          "explanationVi": "Cấu trúc 'not A so much as B' = không hẳn là A mà đúng hơn là B. Ở đây: không phải bạn làm chủ căn nhà, mà căn nhà làm chủ bạn — tức khoản vay quá nặng kiểm soát cuộc sống của bạn. Đáp án D diễn đạt lại ý 'a mortgage they can barely carry'.",
+          "vocabulary": [
+            "barely carry"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "How does Priya feel about the way people commonly talk about renters?",
+          "options": [
+            {
+              "text": "She thinks it makes renters feel ashamed and leads to poor choices.",
+              "trap": "none",
+              "whyVi": "Đúng: bà nói sự xấu hổ đó đẩy người ta vào những quyết định mà họ hối tiếc."
+            },
+            {
+              "text": "She thinks it encourages renters to save more carefully.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà cho rằng cách nói đó gây hại, không khuyến khích tiết kiệm."
+            },
+            {
+              "text": "She thinks it is unfair mainly to landlords.",
+              "trap": "wrong_detail",
+              "whyVi": "Bà lo cho người thuê nhà, không nói gì về việc bất công với chủ nhà."
+            },
+            {
+              "text": "She believes renters really are waiting for a chance to buy.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'waiting room', nhưng bà phê phán hình ảnh này chứ không đồng ý với nó."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "We talk about renters as if they're stuck in a waiting room, and that shame drives people into decisions they regret.",
+          "explanationVi": "Cụm 'What bothers me most' báo hiệu thái độ không hài lòng. 'that shame drives people into decisions they regret' được diễn đạt lại thành 'makes renters feel ashamed and leads to poor choices'.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "stretch yourself",
+      "vi": "cố gắng quá sức (về tài chính)",
+      "definition": "to spend or borrow close to the limit of what you can afford",
+      "example": "Many buyers stretch themselves to get into the market."
+    },
+    {
+      "term": "least of all",
+      "vi": "càng không, nhất là không",
+      "definition": "especially not; used to say a person or thing is the least likely",
+      "example": "Nobody questioned the advice, least of all me."
+    },
+    {
+      "term": "live or die",
+      "vi": "thành hay bại (phụ thuộc vào)",
+      "definition": "to succeed or fail completely because of one thing",
+      "example": "The plan lives or dies on whether you invest the difference."
+    },
+    {
+      "term": "brush aside",
+      "vi": "gạt bỏ, xem nhẹ",
+      "definition": "to refuse to consider something seriously",
+      "example": "They have a point I can't brush aside."
+    },
+    {
+      "term": "chip away at",
+      "vi": "giảm dần từng chút",
+      "definition": "to reduce something slowly, little by little",
+      "example": "Every mortgage payment chips away at the debt."
+    },
+    {
+      "term": "vacancy",
+      "vi": "chỗ trống (nhà cho thuê còn trống)",
+      "definition": "a home or room that is available to rent",
+      "example": "The city has very few rental vacancies."
+    },
+    {
+      "term": "barely carry",
+      "vi": "gần như không gánh nổi",
+      "definition": "to only just manage to pay for or support something",
+      "example": "Don't take a mortgage you can barely carry."
+    },
+    {
+      "term": "strata fees",
+      "vi": "phí quản lý chung cư (strata)",
+      "definition": "monthly fees condo owners pay for shared building costs",
+      "example": "Strata fees in the building went up again this year."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 items independently; keys match and attitude items are stated in words (e.g. 'What bothers me most', 'a point I can't brush aside'). Softened risky market figures to defensible framing: New Westminster one-bedroom 'more than half a million' (was ~$700k) and ownership premium 'several hundred dollars a month, sometimes a lot more' (was 'well over a thousand'); 'almost no vacancies' -> 'very few vacancies' (text, Q4 evidence, vocab example). Speaker names used in questions are spoken by the host."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

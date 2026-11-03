@@ -1,0 +1,64 @@
+{
+  "id": "w2-practice-10",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "Food waste plan: curbside green bins or free backyard composters",
+  "situation": "Food scraps make up about 40% of the garbage collected in the District of Lakeview. The district wants to reduce the amount sent to the landfill and has asked households to choose between two plans.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Weekly curbside collection of food scraps in a green bin, which would add $65 a year to each household's utility bill.",
+  "optionB": "Option B: A free backyard composter for every household that wants one, plus a free food-scrap drop-off depot at the recycling centre, open six days a week. There would be no fee increase.",
+  "structure": [
+    "Opening: state your choice and accept the cost up front",
+    "Reason 1: effort and participation rate — compare directly with the drop-off depot",
+    "Reason 2: practical problems with backyard composting (wildlife, residents without yards)",
+    "Concession: the fee is unwelcome, then put the cost in perspective",
+    "Conclusion"
+  ],
+  "modelResponse": "I would choose weekly curbside collection, even with the extra $65 a year, because it is the only option that would actually keep most food scraps out of the landfill.\n\nThe main advantage of curbside pickup is that it requires very little effort. Residents would simply put their scraps in a green bin next to their garbage, so almost every household would take part. By contrast, a drop-off depot depends on people storing scraps and driving them across town, and realistically only the most committed residents would bother.\n\nBackyard composters also raise practical concerns in our area. Many of us live near forests, and poorly managed compost is known to attract bears, raccoons and rats, which can put both people and wildlife at risk. In addition, many townhouse residents have no yard to put one in.\n\nAdmittedly, a fee increase is unwelcome when the cost of living is already high. However, $65 works out to about $1.25 a week, and reducing landfill waste could save the district money in the long run.\n\nFor these reasons, curbside collection is clearly the more effective plan.",
+  "usefulExpressions": [
+    {
+      "expression": "even with the extra $65 a year",
+      "usageVi": "Chủ động thừa nhận nhược điểm ngay trong câu mở bài — cho thấy bạn đã cân nhắc kỹ."
+    },
+    {
+      "expression": "keep… out of the landfill",
+      "usageVi": "'keep something out of' = ngăn không cho vào — cụm tự nhiên chủ đề môi trường."
+    },
+    {
+      "expression": "only the most committed residents would bother",
+      "usageVi": "'bother' = chịu khó làm việc gì — cách nói tự nhiên, hơi thân mật nhưng phù hợp khảo sát."
+    },
+    {
+      "expression": "raise practical concerns",
+      "usageVi": "Đặt ra những lo ngại thực tế — từ vựng lập luận trang trọng."
+    },
+    {
+      "expression": "works out to about $1.25 a week",
+      "usageVi": "'work out to' = tính ra là — giúp làm nhỏ chi phí, lập luận thuyết phục."
+    },
+    {
+      "expression": "in the long run",
+      "usageVi": "Về lâu dài — kết nối với lợi ích tương lai."
+    }
+  ],
+  "commonMistakes": [
+    "Viết 'compost' và 'composter' lẫn lộn: 'compost' là phân ủ/việc ủ phân, 'composter' là thùng ủ.",
+    "Lập luận chung chung về môi trường ('saving the planet') mà không gắn với hai phương án cụ thể trong đề.",
+    "Quên tính đến chi phí $65 — nếu chọn A mà không nói gì về phí, giám khảo sẽ thấy lập luận thiếu cân bằng.",
+    "Viết số tiền sai định dạng: '65$' → '$65' (ký hiệu đô la đứng trước số)."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked $65/52 ≈ $1.25 a week, wildlife/bear concern is accurate for BC and hedged, options balanced (fee vs free but more effort). Changed 'townhouses and apartments' to townhouse residents, since apartments usually are not on curbside green-bin collection either and the original weakened the argument. Word count 183."
+  },
+  "createdAt": "2026-11-03"
+}

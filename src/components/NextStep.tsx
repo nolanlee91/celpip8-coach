@@ -13,12 +13,12 @@ export interface NextStepData {
 }
 
 /** "What now?" at the end of an activity: one primary action from the coach and a quiet way home. */
-export function NextStep({ after, attemptId, refreshKey }: { after: "lesson" | "practice" | "review"; attemptId?: string | null; refreshKey?: unknown }) {
+export function NextStep({ after, attemptId, mockId, refreshKey }: { after: "lesson" | "practice" | "review" | "mock"; attemptId?: string | null; mockId?: string; refreshKey?: unknown }) {
   const [d, setD] = useState<NextStepData | null>(null);
   useEffect(() => {
-    const q = new URLSearchParams({ after, ...(attemptId ? { attemptId } : {}) });
+    const q = new URLSearchParams({ after, ...(attemptId ? { attemptId } : {}), ...(mockId ? { mockId } : {}) });
     api<NextStepData>(`/api/next-step?${q}`).then(setD).catch(() => setD(null));
-  }, [after, attemptId, refreshKey]);
+  }, [after, attemptId, mockId, refreshKey]);
   if (!d) return null;
   return (
     <section className="next-step" aria-label="Bước tiếp theo">

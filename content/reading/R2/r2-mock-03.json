@@ -1,0 +1,169 @@
+{
+  "id": "r2-mock-03",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "banking",
+  "title": "Picking a chequing package at a credit union",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 8 items before checking keys; all keys match. Recomputed every blank: Student excluded at age 25 (under 25 only), Premium gap $6,000 - $3,500 = $2,500, Basic overage 15 x $1.00 + 3 x $1.50 = $19.50 ('nearly $20'), Everyday fee waived above $3,000, one cheque book per year. Changed the rent-by-cheque detail to tuition instalments to reduce overlap with r2-full-05 (similar credit-union chequing scenario)." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Package comparison",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Fraser Ridge Credit Union — Personal Chequing Packages (the monthly fee is waived in any month you keep the minimum daily balance shown)",
+        "headers": ["Package", "Monthly fee", "Fee waived with a minimum balance of", "Debit transactions", "Interac e-Transfers", "Extras and eligibility"],
+        "rows": [
+          ["Basic", "$4", "$1,500", "15 per month included ($1.00 each after that)", "5 free per month, then $1.50 each", "None"],
+          ["Everyday", "$10.95", "$3,000", "Unlimited", "Unlimited", "Free personalized cheques (one book per year)"],
+          ["Student", "$0", "Not applicable", "Unlimited", "Unlimited", "Full-time students under 25 only"],
+          ["Premium", "$25", "$6,000", "Unlimited", "Unlimited", "Free safety deposit box; no fee on US-dollar withdrawals"],
+          ["Senior", "$0", "Not applicable", "25 per month included ($0.75 each after that)", "10 free per month, then $1.00 each", "Members 60 and over only"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Rohan,\n\nThanks for pointing me to Fraser Ridge. I dropped by the Kelowna branch on Saturday, and I think I've figured out which package makes sense for me.\n\nThe Student package would have been ideal. I'm still taking classes full-time, but I turned 25 in March, so [[1]]. Premium is out too. To avoid its $25 fee, I'd have to keep [[2]] than the $3,500 or so I usually have, and I'd rather not tie up that much cash.\n\nThat leaves Basic and Everyday. I tap my debit card about thirty times a month and send roughly eight e-Transfers to my roommate and my sister. With Basic, the fee would be waived, but the extra transactions would [[3]]. Everyday has the higher fee on paper, but my balance hasn't dropped below $3,000 in over a year, so I'd [[4]].\n\nThe free cheques are a nice bonus, since I still pay my tuition instalments by cheque, although I'd only get [[5]].\n\nI'm planning to open the account next week. Can you think of anything I've overlooked?\n\nShanice",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "I'd have to keep $1,500 in the account", "trap": "wrong_detail", "whyVi": "$1,500 là mức số dư của gói Basic; gói Student ghi 'Not applicable' — không cần số dư tối thiểu." },
+        { "text": "it would limit my e-Transfers", "trap": "wrong_detail", "whyVi": "Gói Student có e-Transfer 'Unlimited' (không giới hạn)." },
+        { "text": "I no longer qualify for it", "trap": "none", "whyVi": "Đúng: gói Student chỉ dành cho 'Full-time students under 25'. Shanice vẫn học toàn thời gian nhưng đã 25 tuổi nên không còn đủ điều kiện." },
+        { "text": "I'm no longer studying full-time", "trap": "opposite", "whyVi": "Ngược lại: cô nói 'I'm still taking classes full-time'. Vấn đề là tuổi, không phải việc học." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Full-time students under 25 only",
+      "explanationVi": "Chữ 'so' nối với 'I turned 25 in March' → lý do liên quan tới tuổi. Bảng: Student chỉ cho 'under 25' (dưới 25). Shanice vừa tròn 25 nên không đủ điều kiện. 'no longer qualify' là cách diễn đạt lại của việc vượt giới hạn tuổi.",
+      "vocabulary": ["qualify for"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "$25 more", "trap": "word_match", "whyVi": "$25 là phí hằng tháng của Premium, không phải số dư cần giữ." },
+        { "text": "about $3,000 more", "trap": "wrong_detail", "whyVi": "$3,000 là chênh lệch giữa $6,000 và mức $3,000 của gói Everyday, không phải so với $3,500 Shanice đang có." },
+        { "text": "about $4,500 more", "trap": "wrong_detail", "whyVi": "$4,500 = $6,000 − $1,500 (mức của gói Basic), không liên quan tới số tiền của Shanice." },
+        { "text": "about $2,500 more", "trap": "none", "whyVi": "Đúng: Premium cần số dư $6,000; Shanice thường có khoảng $3,500 → thiếu khoảng $2,500." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "the $3,500 or so I usually have",
+      "explanationVi": "Tra cột 'Fee waived with a minimum balance of' ở hàng Premium: $6,000. So với 'the $3,500 or so I usually have' trong email: $6,000 − $3,500 = $2,500. Bẫy là trừ nhầm với mức của gói khác.",
+      "vocabulary": ["tie up"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "add up to nearly $20 a month", "trap": "none", "whyVi": "Đúng: 30 − 15 = 15 giao dịch thẻ × $1.00 = $15; 8 − 5 = 3 e-Transfer × $1.50 = $4.50 → tổng $19.50, gần $20." },
+        { "text": "add up to about $15 a month", "trap": "partially_true", "whyVi": "$15 chỉ là phí thẻ ghi nợ; quên cộng phí 3 e-Transfer vượt mức ($4.50)." },
+        { "text": "add up to about $30 a month", "trap": "wrong_detail", "whyVi": "Tính cả 30 lần quẹt thẻ × $1 là sai, vì 15 giao dịch đầu tiên đã được miễn phí." },
+        { "text": "be covered by the monthly fee", "trap": "opposite", "whyVi": "Gói Basic chỉ bao gồm 15 giao dịch và 5 e-Transfer; phần vượt phải trả thêm." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "15 per month included ($1.00 each after that)",
+      "explanationVi": "Cần tính hai phần ở hàng Basic: giao dịch thẻ (15 miễn phí, sau đó $1.00) và e-Transfer (5 miễn phí, sau đó $1.50). Shanice dùng thẻ 'about thirty times' và gửi 'roughly eight e-Transfers' → $15 + $4.50 = $19.50. 'add up to nearly $20' = cộng lại gần $20.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "pay $10.95 every month", "trap": "opposite", "whyVi": "Số dư của cô luôn trên $3,000 nên phí $10.95 được miễn." },
+        { "text": "never actually be charged it", "trap": "none", "whyVi": "Đúng: Everyday miễn phí khi giữ tối thiểu $3,000; số dư của Shanice không xuống dưới $3,000 trong hơn một năm." },
+        { "text": "only pay $4 a month", "trap": "wrong_detail", "whyVi": "$4 là phí của gói Basic, không phải Everyday." },
+        { "text": "get a free safety deposit box", "trap": "wrong_detail", "whyVi": "Hộp ký gửi an toàn miễn phí là quyền lợi của Premium." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "the monthly fee is waived in any month you keep the minimum daily balance shown",
+      "explanationVi": "'has the higher fee on paper' (trên giấy tờ thì phí cao hơn) + 'but' → thực tế cô không phải trả. Chú thích bảng: phí được miễn khi giữ đủ số dư tối thiểu. 'never actually be charged it' diễn đạt lại 'waived'.",
+      "vocabulary": ["waive", "on paper"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "as many as I need", "trap": "too_broad", "whyVi": "Chữ 'Unlimited' trong bảng nói về giao dịch, không phải séc. Séc chỉ có một cuốn mỗi năm." },
+        { "text": "a new book every month", "trap": "wrong_detail", "whyVi": "Bảng ghi 'one book per year', không phải mỗi tháng." },
+        { "text": "a single book of them each year", "trap": "none", "whyVi": "Đúng: 'Free personalized cheques (one book per year)'." },
+        { "text": "them if I kept $6,000 in the account", "trap": "wrong_detail", "whyVi": "$6,000 là điều kiện miễn phí của Premium; séc miễn phí thuộc gói Everyday." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Free personalized cheques (one book per year)",
+      "explanationVi": "'although I'd only get' báo hiệu một giới hạn. Cột 'Extras' của Everyday: 'one book per year' → 'a single book of them each year'.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "What can be inferred about Shanice?",
+      "options": [
+        { "text": "She mostly pays for things in cash.", "trap": "opposite", "whyVi": "Cô quẹt thẻ ghi nợ khoảng 30 lần mỗi tháng." },
+        { "text": "She keeps a fairly steady amount of money in her account.", "trap": "none", "whyVi": "Đúng: số dư thường khoảng $3,500 và không xuống dưới $3,000 suốt hơn một năm → khá ổn định." },
+        { "text": "She often withdraws US dollars.", "trap": "word_match", "whyVi": "'US-dollar withdrawals' là quyền lợi của Premium trong bảng; Shanice không hề nhắc tới." },
+        { "text": "She has more savings than she needs.", "trap": "opposite", "whyVi": "Cô nói 'I'd rather not tie up that much cash' — cô không muốn giữ nhiều tiền chết trong tài khoản." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "my balance hasn't dropped below $3,000 in over a year",
+      "explanationVi": "Kết hợp hai chi tiết: 'the $3,500 or so I usually have' và 'hasn't dropped below $3,000 in over a year' → số tiền trong tài khoản dao động ít. Bài không nói trực tiếp 'steady' nên đây là câu suy luận.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "What is the main purpose of Shanice's email?",
+      "options": [
+        { "text": "To ask Rohan to open a joint account with her", "trap": "not_mentioned", "whyVi": "Không có chi tiết nào về tài khoản chung." },
+        { "text": "To complain about the credit union's high fees", "trap": "opposite", "whyVi": "Cô cảm ơn Rohan và thấy gói Everyday hợp lý; cô không phàn nàn." },
+        { "text": "To compare several banks in Kelowna", "trap": "too_broad", "whyVi": "Cô chỉ so sánh các gói của một credit union (Fraser Ridge)." },
+        { "text": "To explain the choice she is leaning toward and ask for feedback", "trap": "none", "whyVi": "Đúng: cô lần lượt loại các gói, chọn Everyday và hỏi 'Can you think of anything I've overlooked?'." }
+      ],
+      "answerIndex": 3,
+      "category": "main_idea",
+      "evidence": "Can you think of anything I've overlooked?",
+      "explanationVi": "Ý chính của cả email: lập luận loại từng gói (Student, Premium, Basic) để đến Everyday, rồi kết thúc bằng câu nhờ Rohan góp ý. 'overlooked' = bỏ sót.",
+      "vocabulary": ["overlook"]
+    },
+    {
+      "number": 8,
+      "prompt": "If Shanice opened the Everyday package and her balance fell to $2,000 during one month, what would happen?",
+      "options": [
+        { "text": "She would pay the $10.95 fee for that month.", "trap": "none", "whyVi": "Đúng: phí chỉ được miễn 'in any month' giữ đủ $3,000; tháng đó số dư thấp hơn nên phải trả $10.95." },
+        { "text": "She would be charged $1.00 for each transaction.", "trap": "wrong_detail", "whyVi": "Phí $1.00 mỗi giao dịch là của gói Basic; Everyday có giao dịch không giới hạn." },
+        { "text": "Her account would be switched to the Basic package.", "trap": "not_mentioned", "whyVi": "Bảng không nói gì về việc tự động chuyển gói." },
+        { "text": "Nothing, because her balance would still be above $1,500.", "trap": "wrong_detail", "whyVi": "$1,500 là mức của gói Basic; Everyday cần $3,000." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "the monthly fee is waived in any month you keep the minimum daily balance shown",
+      "explanationVi": "Chú thích nói miễn phí theo từng tháng ('in any month') và dựa trên 'minimum daily balance'. Tháng nào số dư xuống dưới $3,000 thì tháng đó phải trả phí $10.95 của Everyday.",
+      "vocabulary": ["waive"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "waive", "vi": "miễn (phí)", "definition": "to not charge a fee or not apply a rule", "example": "The bank will waive the fee if you keep $3,000 in your account." },
+    { "term": "minimum balance", "vi": "số dư tối thiểu", "definition": "the smallest amount of money you must keep in an account", "example": "Keep a minimum balance of $1,500 to avoid the monthly charge." },
+    { "term": "qualify for", "vi": "đủ điều kiện để được", "definition": "to meet the conditions needed to get something", "example": "You no longer qualify for the student package once you turn 25." },
+    { "term": "tie up", "vi": "giam (tiền), để tiền nằm chết", "definition": "to put money somewhere so that you cannot easily use it", "example": "I don't want to tie up all my savings in one account." },
+    { "term": "on paper", "vi": "trên lý thuyết, trên giấy tờ", "definition": "when you look at the official details, but not in reality", "example": "On paper, the plan is more expensive, but I'd never pay the fee." },
+    { "term": "overlook", "vi": "bỏ sót, không để ý", "definition": "to fail to notice or consider something", "example": "Let me know if I've overlooked any hidden fees." },
+    { "term": "drop by", "vi": "ghé qua", "definition": "to visit a place briefly, often without planning", "example": "I dropped by the branch on my way home." }
+  ]
+}

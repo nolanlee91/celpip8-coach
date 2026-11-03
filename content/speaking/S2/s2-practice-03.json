@@ -1,0 +1,54 @@
+{
+  "id": "s2-practice-03",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Feedback that changed how you work",
+  "prompt": "Talk about a time when someone gave you feedback at work that was difficult to hear. What was the feedback, how did you react, and what did you change afterwards?",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Set the scene: your job, who gave the feedback, when",
+    "The feedback itself (quote it briefly)",
+    "Your honest first reaction, then how you thought it over",
+    "What you changed + the result"
+  ],
+  "modelAnswer": "A couple of years ago, I was working as a shift supervisor at a warehouse in Delta. After my first three months, my manager, Priya, called me into her office for a review.\n\nShe told me, quite directly, that my team found me hard to approach. Apparently, I was so focused on hitting our targets that I never stopped to ask people how things were going.\n\nTo be honest, my first reaction was to get a bit defensive, because I thought I'd been doing a great job. But that evening, I thought it over, and I realized she had a point. I'd been treating the job like a checklist instead of leading people.\n\nSo, I started doing a quick five-minute check-in at the start of every shift, and I made a habit of thanking people by name. Within a couple of months, two of my staff told me the atmosphere felt much friendlier, and our sick days actually went down. Looking back, that feedback was probably the most useful thing anyone has told me at work.",
+  "usefulExpressions": [
+    {
+      "expression": "She told me, quite directly, that…",
+      "usageVi": "Thuật lại lời góp ý (câu tường thuật) — 'quite directly' cho thấy lời nói thẳng, khó nghe."
+    },
+    {
+      "expression": "my first reaction was to get a bit defensive",
+      "usageVi": "Thừa nhận cảm xúc thật: 'get defensive' = phản ứng tự vệ, không muốn nghe lời chê."
+    },
+    {
+      "expression": "I thought it over / she had a point",
+      "usageVi": "'Think it over' = suy nghĩ kỹ lại; 'she had a point' = cô ấy nói cũng có lý."
+    },
+    {
+      "expression": "I made a habit of + V-ing",
+      "usageVi": "Diễn tả thay đổi thói quen lâu dài — tự nhiên hơn \"I always tried to\"."
+    },
+    {
+      "expression": "Looking back, …",
+      "usageVi": "Mở câu kết, nhìn lại sự việc với góc nhìn hiện tại."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ kể lời góp ý rồi dừng, quên nói mình đã thay đổi gì sau đó — đề hỏi 3 ý, phải trả lời đủ cả 3.",
+    "Nói 'She gave me a feedback' / 'feedbacks'. 'Feedback' là danh từ không đếm được: 'some feedback', 'a piece of feedback'.",
+    "Ngại thừa nhận phản ứng tiêu cực ban đầu. Giám khảo đánh giá cao câu chuyện chân thật có cảm xúc thay đổi (khó chịu → suy nghĩ lại → thay đổi)."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked all 3 prompt parts (feedback, reaction, change) are answered with a clear emotional arc, Level 8 language, length 176 words; expressions and Vietnamese notes accurate. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

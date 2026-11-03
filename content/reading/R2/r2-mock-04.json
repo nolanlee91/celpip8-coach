@@ -1,0 +1,170 @@
+{
+  "id": "r2-mock-04",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "education",
+  "title": "Starting a bookkeeping certificate in the winter term",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 8 items independently; all keys match. Verified prerequisites (ACCT 101/105 for payroll and tax), Tuesday 6:30-9:30 = 3 hours, $545 - $495 = $50, weekly deadlines, 'Not for credit', refund on Jan 20 = $495 - $40 = $455. Reworded the blank-5 key to 'wouldn't earn me any certificate credit' (removed an ambiguous 'it ... toward it') and clarified the Thursday distractor's whyVi." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Course schedule",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Coastview College Continuing Studies — Winter Term Bookkeeping Courses (term runs January 12 to April 3; withdraw by January 23 for a full refund minus a $40 administration fee; no refunds after that date)",
+        "headers": ["Course", "Format", "Schedule", "Length", "Tuition", "Prerequisite", "Counts toward"],
+        "rows": [
+          ["ACCT 101 Bookkeeping Fundamentals", "In person, Burnaby campus", "Tuesdays 6:30–9:30 p.m.", "12 weeks", "$545", "None", "Bookkeeping Certificate"],
+          ["ACCT 105 Bookkeeping Fundamentals", "Online, self-paced, with weekly deadlines", "No set class times", "12 weeks", "$495", "None", "Bookkeeping Certificate"],
+          ["ACCT 110 Payroll Essentials", "Online, live sessions", "Saturdays 9:00 a.m.–12:00 p.m.", "8 weeks", "$420", "ACCT 101 or 105", "Bookkeeping Certificate"],
+          ["ACCT 120 Small Business Tax Basics", "Hybrid (4 campus sessions, rest online)", "Thursdays 7:00–9:00 p.m.", "10 weeks", "$460", "ACCT 101 or 105", "Bookkeeping Certificate and Small Business Diploma"],
+          ["ACCT 130 Spreadsheet Skills for Bookkeepers", "In person, downtown Vancouver campus", "Saturdays 1:00–4:00 p.m.", "6 weeks", "$310", "None", "Not for credit"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Olumide,\n\nYou've been telling me for ages to stop putting off the bookkeeping certificate, so I finally sat down with the Coastview winter schedule last night.\n\nPayroll was the course that caught my eye, given my job at the store, but it turns out [[1]], so that'll have to wait until spring. The same goes for the tax course.\n\nThe real headache is my shifts. Since the store switched to a rotating schedule, I never know more than a week ahead which evenings I'll be working, so committing to [[2]] at the Burnaby campus just isn't realistic. That's why I'm going with the online version. As a bonus, it's [[3]] than the classroom option. Still, I can't just log in whenever the mood strikes, because [[4]].\n\nI was also tempted by the spreadsheet course, since my Excel skills are pretty rusty. But it [[5]], and I'd rather put every dollar toward the certificate for now.\n\nAnd if the online format doesn't work for me, I can still pull out before January 23 and get most of my money back. Does that sound like a sensible plan?\n\nLan",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "it doesn't count toward the certificate", "trap": "wrong_detail", "whyVi": "Payroll Essentials có ghi 'Bookkeeping Certificate' ở cột 'Counts toward'." },
+        { "text": "I need to finish Bookkeeping Fundamentals first", "trap": "none", "whyVi": "Đúng: cột 'Prerequisite' của Payroll ghi 'ACCT 101 or 105' — phải học xong một trong hai lớp Fundamentals trước." },
+        { "text": "it's only taught on campus", "trap": "opposite", "whyVi": "Payroll học trực tuyến ('Online, live sessions')." },
+        { "text": "it costs more than the fundamentals course", "trap": "wrong_detail", "whyVi": "Payroll $420, rẻ hơn cả hai lớp Fundamentals ($545 và $495)." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "ACCT 101 or 105",
+      "explanationVi": "'so that'll have to wait until spring' và 'The same goes for the tax course' cho thấy lý do áp dụng cho cả Payroll lẫn Tax. Điểm chung của hai lớp trong bảng là điều kiện tiên quyết 'ACCT 101 or 105'. 'need to finish ... first' diễn đạt lại 'prerequisite'.",
+      "vocabulary": ["prerequisite"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "two hours every Thursday night", "trap": "wrong_detail", "whyVi": "Thứ Năm 7:00–9:00 là lớp Tax (hybrid, chỉ 4 buổi ở trường) mà Lan đã loại; lớp ở Burnaby cô đang nói tới là ACCT 101." },
+        { "text": "three hours every Saturday morning", "trap": "wrong_detail", "whyVi": "Sáng thứ Bảy là lớp Payroll trực tuyến; Lan đang nói về các buổi tối." },
+        { "text": "three hours every Tuesday night", "trap": "none", "whyVi": "Đúng: ACCT 101 ở Burnaby học thứ Ba 6:30–9:30 tối = 3 tiếng mỗi tuần." },
+        { "text": "twelve Tuesday afternoons", "trap": "partially_true", "whyVi": "Đúng là 12 tuần vào thứ Ba, nhưng lớp học buổi tối (6:30 p.m.), không phải buổi chiều." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Tuesdays 6:30–9:30 p.m.",
+      "explanationVi": "Từ khóa 'Burnaby campus' dẫn tới hàng ACCT 101. Phải tự tính 6:30–9:30 = 3 tiếng. Vấn đề của Lan là ca làm buổi tối thay đổi ('which evenings I'll be working'), nên một lớp cố định mỗi tối thứ Ba không khả thi.",
+      "vocabulary": ["commit to"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "$50 more expensive", "trap": "opposite", "whyVi": "Lớp online $495 rẻ hơn lớp trên lớp $545, và 'As a bonus' cho thấy đây là điểm cộng." },
+        { "text": "$85 cheaper", "trap": "wrong_detail", "whyVi": "$85 = $545 − $460 (lớp Tax), không phải lớp online." },
+        { "text": "$50 cheaper", "trap": "none", "whyVi": "Đúng: $545 − $495 = $50." },
+        { "text": "four weeks shorter", "trap": "wrong_detail", "whyVi": "Cả hai lớp Fundamentals đều dài 12 tuần." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "That's why I'm going with the online version.",
+      "explanationVi": "'online version' = ACCT 105 ($495); 'classroom option' = ACCT 101 ($545). 'As a bonus' (thêm một điểm lợi) → so sánh có lợi: rẻ hơn $50.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "there are no fixed class times", "trap": "partially_true", "whyVi": "Đúng là lớp online không có giờ học cố định, nhưng điều này lại cho phép học lúc nào cũng được — ngược với ý 'I can't just log in whenever'." },
+        { "text": "there are still deadlines to meet every week", "trap": "none", "whyVi": "Đúng: cột Format ghi 'self-paced, with weekly deadlines' — tự học nhưng vẫn có hạn nộp hằng tuần." },
+        { "text": "I'll have to attend live sessions on Saturdays", "trap": "wrong_detail", "whyVi": "Buổi học trực tiếp thứ Bảy là của Payroll, không phải lớp online Fundamentals." },
+        { "text": "the course only lasts six weeks", "trap": "wrong_detail", "whyVi": "6 tuần là lớp Spreadsheet; lớp online dài 12 tuần." }
+      ],
+      "answerIndex": 1,
+      "category": "distractor",
+      "evidence": "Online, self-paced, with weekly deadlines",
+      "explanationVi": "'Still' + 'I can't just log in whenever the mood strikes' (không thể học tùy hứng) → cần một ràng buộc. Ràng buộc đó là 'weekly deadlines'. Phương án 'no fixed class times' là thông tin đúng trong bảng nhưng không giải thích được câu.",
+      "vocabulary": ["self-paced"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "wouldn't earn me any certificate credit", "trap": "none", "whyVi": "Đúng: Spreadsheet Skills ghi 'Not for credit' — không được tính vào chứng chỉ." },
+        { "text": "costs more than any other course", "trap": "opposite", "whyVi": "$310 là học phí thấp nhất trong bảng." },
+        { "text": "requires Bookkeeping Fundamentals first", "trap": "wrong_detail", "whyVi": "Cột Prerequisite của lớp này ghi 'None'." },
+        { "text": "is only offered online", "trap": "opposite", "whyVi": "Lớp này học trực tiếp ở downtown Vancouver." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "Not for credit",
+      "explanationVi": "Vế sau 'I'd rather put every dollar toward the certificate' cho biết lý do liên quan tới chứng chỉ. Cột 'Counts toward' ghi 'Not for credit' → 'wouldn't earn me any certificate credit'.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "Why was Lan first interested in the payroll course?",
+      "options": [
+        { "text": "It is the cheapest course on the list.", "trap": "wrong_detail", "whyVi": "Rẻ nhất là Spreadsheet ($310), không phải Payroll ($420)." },
+        { "text": "Olumide recommended it to her.", "trap": "wrong_speaker", "whyVi": "Olumide khuyên cô học chứng chỉ nói chung, không phải riêng lớp Payroll." },
+        { "text": "Its Saturday schedule fits around her shifts.", "trap": "not_mentioned", "whyVi": "Lan không nói gì về việc lịch thứ Bảy phù hợp với ca làm." },
+        { "text": "It seemed relevant to the work she already does.", "trap": "none", "whyVi": "Đúng: 'given my job at the store' — vì công việc hiện tại ở cửa hàng nên lớp Payroll thu hút cô." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Payroll was the course that caught my eye, given my job at the store",
+      "explanationVi": "'caught my eye' = thu hút sự chú ý; 'given ...' = xét tới, vì. Lan không nói rõ cô làm gì, nhưng việc nhắc tới công việc ngay sau cho thấy lớp này liên quan tới việc của cô.",
+      "vocabulary": ["catch someone's eye"]
+    },
+    {
+      "number": 7,
+      "prompt": "If Lan withdraws from her course on January 20, how much will she get back?",
+      "options": [
+        { "text": "$495", "trap": "partially_true", "whyVi": "Cô rút trước hạn nên được hoàn tiền, nhưng bị trừ phí hành chính $40." },
+        { "text": "$505", "trap": "wrong_detail", "whyVi": "$505 = $545 − $40 — đó là học phí lớp trên lớp, không phải lớp online Lan chọn." },
+        { "text": "$455", "trap": "none", "whyVi": "Đúng: $495 − $40 phí hành chính = $455." },
+        { "text": "Nothing", "trap": "opposite", "whyVi": "Không hoàn tiền chỉ áp dụng sau ngày 23 tháng 1; ngày 20 vẫn trong hạn." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "withdraw by January 23 for a full refund minus a $40 administration fee",
+      "explanationVi": "Thông tin nằm ở chú thích bảng. Ngày 20 trước hạn 23 → được hoàn 'full refund minus a $40 administration fee'. Lấy học phí lớp online $495 − $40 = $455. Email nói 'get most of my money back' (lấy lại phần lớn tiền) — khớp với việc bị trừ $40.",
+      "vocabulary": ["pull out"]
+    },
+    {
+      "number": 8,
+      "prompt": "What does Lan mean when she says Olumide has told her to stop 'putting off' the certificate?",
+      "options": [
+        { "text": "She should stop worrying about the cost.", "trap": "not_mentioned", "whyVi": "Cụm từ không liên quan tới chi phí." },
+        { "text": "She should stop delaying it.", "trap": "none", "whyVi": "Đúng: 'put off' = trì hoãn." },
+        { "text": "She should give it up for now.", "trap": "opposite", "whyVi": "Ngược nghĩa: Olumide muốn cô bắt đầu, không phải từ bỏ." },
+        { "text": "She should take only one course at a time.", "trap": "not_mentioned", "whyVi": "Không có lời khuyên nào về số lượng lớp." }
+      ],
+      "answerIndex": 1,
+      "category": "vocabulary",
+      "evidence": "You've been telling me for ages to stop putting off the bookkeeping certificate",
+      "explanationVi": "'put off' là cụm động từ nghĩa là trì hoãn. Câu tiếp theo 'so I finally sat down...' (cuối cùng tôi cũng ngồi xem) xác nhận cô đã chần chừ lâu.",
+      "vocabulary": ["put off"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "put off", "vi": "trì hoãn", "definition": "to delay doing something until a later time", "example": "I've been putting off my tax return for weeks." },
+    { "term": "prerequisite", "vi": "điều kiện tiên quyết (môn phải học trước)", "definition": "a course you must complete before you can take another one", "example": "ACCT 101 is a prerequisite for the payroll course." },
+    { "term": "self-paced", "vi": "tự học theo tốc độ riêng", "definition": "done at the speed the learner chooses", "example": "The online course is self-paced, but there are weekly deadlines." },
+    { "term": "commit to", "vi": "cam kết, ràng buộc vào", "definition": "to promise to do something regularly or for a long time", "example": "I can't commit to a fixed class every Tuesday." },
+    { "term": "catch someone's eye", "vi": "thu hút sự chú ý của ai", "definition": "to attract someone's attention", "example": "The payroll course caught my eye right away." },
+    { "term": "pull out", "vi": "rút lui, rút khỏi", "definition": "to stop taking part in something", "example": "You can pull out before the deadline and get most of your money back." },
+    { "term": "rusty", "vi": "lụt nghề, mai một (kỹ năng)", "definition": "not as good as before because of lack of practice", "example": "My Excel skills are a bit rusty." },
+    { "term": "rotating schedule", "vi": "lịch làm xoay ca", "definition": "a work schedule in which shifts change regularly", "example": "With a rotating schedule, I never know my evenings in advance." }
+  ]
+}

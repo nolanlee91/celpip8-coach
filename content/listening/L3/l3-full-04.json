@@ -1,0 +1,138 @@
+{
+  "id": "l3-full-04",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "transportation",
+  "title": "Joining a car-sharing co-op",
+  "context": "You will hear a new member talking to a member services representative at a car-sharing co-operative in Victoria about how the service works.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Dev", "voice": "male_a", "text": "Okay, Hyejin, I'm Dev, and I'll be your contact here. Your driving record came back clean, so you're approved. Let me walk you through the nuts and bolts before you book your first car." },
+        { "speaker": "Hyejin", "voice": "female_a", "text": "Great. I sold my car when I moved downtown, and I'm already missing it on weekends." },
+        { "speaker": "Dev", "voice": "male_a", "text": "You're in good company. So, first, the five-hundred-dollar membership share. Think of it less as a fee and more as a deposit. If you ever leave, you get it back within ninety days, minus anything you still owe us." },
+        { "speaker": "Dev", "voice": "male_a", "text": "Then there are two plans. Casual has no monthly charge, but you pay nine dollars an hour. Regular is fifteen dollars a month, and the hourly rate drops to six. As a rule of thumb, once you're driving more than five hours a month, Regular pays for itself." },
+        { "speaker": "Hyejin", "voice": "female_a", "text": "Hmm. I'd say I'd use it twice a month, three or four hours each time, so six to eight hours a month, mostly for big grocery runs and visiting my aunt in Sooke." },
+        { "speaker": "Dev", "voice": "male_a", "text": "Well, you can do the math. And you can switch plans whenever you like, it just kicks in the following month." },
+        { "speaker": "Dev", "voice": "male_a", "text": "Now, the part I really want to drill into you. Before every single trip, walk around the car and check for damage. If you spot anything new, a scratch, a dent, whatever, take photos and report it in the app before you turn the key. If you don't, and the next person reports it, you're the one on the hook." },
+        { "speaker": "Hyejin", "voice": "female_a", "text": "On the hook for how much?" },
+        { "speaker": "Dev", "voice": "male_a", "text": "Your damage deductible is seven hundred and fifty dollars. You can bring that down to two-fifty with our damage waiver, which is five dollars a month. Most members who drive regularly figure it's worth it." },
+        { "speaker": "Hyejin", "voice": "female_a", "text": "And what if I'm running late bringing a car back? Traffic coming in from Sooke can be brutal." },
+        { "speaker": "Dev", "voice": "male_a", "text": "Extend the booking in the app as soon as you know. If nobody's booked after you, it goes through automatically. If someone is, the app won't let you, and that's when you phone our twenty-four hour line, so we can find the other member a different car. What you don't want is to just show up late. That's a twenty-five dollar fee on top of the extra time, and you've left someone stranded." },
+        { "speaker": "Hyejin", "voice": "female_a", "text": "Fair enough. What about gas?" },
+        { "speaker": "Dev", "voice": "male_a", "text": "Gas is included. There's a fuel card behind the sun visor. The only rule is don't bring it back below a quarter tank. Nobody wants to start their trip with a detour to the gas station." },
+        { "speaker": "Hyejin", "voice": "female_a", "text": "Makes sense. Okay, I think I'm sold." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How does Dev describe the five-hundred-dollar membership share?",
+          "options": [
+            { "text": "As a one-time charge that covers the first ninety days.", "trap": "word_match", "whyVi": "'Ninety days' là thời hạn hoàn tiền khi rời hội, không phải thời gian khoản tiền chi trả." },
+            { "text": "As money members can recover, less any unpaid charges.", "trap": "none", "whyVi": "Đúng: giống tiền đặt cọc, được trả lại khi rời hội, trừ khoản còn nợ." },
+            { "text": "As a monthly payment for the Regular plan.", "trap": "wrong_detail", "whyVi": "Gói Regular là 15 đô mỗi tháng, không phải 500 đô." },
+            { "text": "As a fee that is waived for drivers with a clean record.", "trap": "word_match", "whyVi": "Hồ sơ lái xe sạch chỉ giúp cô được duyệt; không miễn khoản 500 đô." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "Think of it less as a fee and more as a deposit. If you ever leave, you get it back within ninety days, minus anything you still owe us.",
+          "explanationVi": "'Get it back' ↔ 'recover'; 'minus anything you still owe us' ↔ 'less any unpaid charges'. Đáp án A dùng lại '90 days' để đánh lừa.",
+          "vocabulary": ["deposit"]
+        },
+        {
+          "number": 2,
+          "prompt": "Based on her expected use, which choice would make the most financial sense for Hyejin?",
+          "options": [
+            { "text": "The Casual plan, because she will drive only on weekends.", "trap": "partially_true", "whyVi": "Cô lái chủ yếu cuối tuần, nhưng số giờ (6–8 giờ/tháng) vượt mức 5 giờ, nên Casual tốn hơn." },
+            { "text": "The Casual plan, because it has no monthly charge.", "trap": "partially_true", "whyVi": "Casual đúng là không có phí tháng, nhưng với 6–8 giờ mỗi tháng thì giá giờ 9 đô làm tổng chi phí cao hơn." },
+            { "text": "Switching plans every month depending on her trips.", "trap": "word_match", "whyVi": "Dev nói có thể đổi gói bất cứ lúc nào, nhưng không gợi ý đổi hằng tháng." },
+            { "text": "The Regular plan, because her monthly hours exceed the break-even point.", "trap": "none", "whyVi": "Đúng: Hyejin ước tính 6–8 giờ/tháng, hơn mức 5 giờ mà Dev nói Regular 'pays for itself'." }
+          ],
+          "answerIndex": 3,
+          "category": "long_conversation",
+          "evidence": "As a rule of thumb, once you're driving more than five hours a month, Regular pays for itself.",
+          "explanationVi": "Phải kết hợp hai câu ở hai chỗ khác nhau: quy tắc 'more than five hours a month' của Dev và ước tính 'six to eight hours a month' của Hyejin. Dev không nói thẳng gói nào hợp mà chỉ bảo 'you can do the math', nên người nghe phải tự so sánh 6–8 giờ với mốc 5 giờ. (Kiểm tra: với 7 giờ, Regular = 15 + 6×7 = 57 đô; Casual = 9×7 = 63 đô.)",
+          "vocabulary": ["rule of thumb", "pay for itself"]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Dev consider the most important habit for new members?",
+          "options": [
+            { "text": "Inspecting the vehicle and recording any new damage before driving off.", "trap": "none", "whyVi": "Đúng: 'the part I really want to drill into you' – kiểm tra xe và báo hư hại trước khi lái." },
+            { "text": "Booking cars well ahead of time for weekend trips.", "trap": "not_mentioned", "whyVi": "Dev không nhấn mạnh việc đặt xe sớm." },
+            { "text": "Buying the damage waiver as soon as possible.", "trap": "partially_true", "whyVi": "Dev nói nhiều thành viên thấy đáng mua, nhưng đó không phải điều anh nhấn mạnh nhất." },
+            { "text": "Reporting any damage once the trip is over.", "trap": "opposite", "whyVi": "Dev yêu cầu báo hư hại TRƯỚC khi lái ('before you turn the key'), không phải sau chuyến đi." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "Now, the part I really want to drill into you. Before every single trip, walk around the car and check for damage.",
+          "explanationVi": "'Drill into you' = nhắc đi nhắc lại cho thấm, tức là điều quan trọng nhất. 'Walk around the car and check' ↔ 'inspecting the vehicle'.",
+          "vocabulary": ["drill into"]
+        },
+        {
+          "number": 4,
+          "prompt": "What is the most Hyejin would pay for damage she failed to report if she has the waiver?",
+          "options": [
+            { "text": "Five dollars.", "trap": "wrong_detail", "whyVi": "5 đô là phí bảo hiểm miễn trừ mỗi tháng." },
+            { "text": "Twenty-five dollars.", "trap": "wrong_detail", "whyVi": "25 đô là phí trả xe trễ." },
+            { "text": "Two hundred and fifty dollars.", "trap": "none", "whyVi": "Đúng: gói miễn trừ giảm mức khấu trừ từ 750 xuống 250 đô." },
+            { "text": "Seven hundred and fifty dollars.", "trap": "wrong_detail", "whyVi": "750 đô là mức khấu trừ khi KHÔNG có gói miễn trừ." }
+          ],
+          "answerIndex": 2,
+          "category": "similar_choices",
+          "evidence": "You can bring that down to two-fifty with our damage waiver, which is five dollars a month.",
+          "explanationVi": "Có nhiều con số: 750 (khấu trừ gốc), 250 (khi có waiver), 5 (phí tháng của waiver), 25 (phí trễ). 'Two-fifty' là cách nói tắt của 250.",
+          "vocabulary": ["on the hook", "damage waiver"]
+        },
+        {
+          "number": 5,
+          "prompt": "Hyejin is running late, but the app will not let her extend the booking. What should she do?",
+          "options": [
+            { "text": "Return the car as soon as she can and pay the late fee.", "trap": "opposite", "whyVi": "Dev nói điều không nên làm là cứ thế trả xe trễ." },
+            { "text": "Contact the co-op by phone so another car can be arranged for the next driver.", "trap": "none", "whyVi": "Đúng: gọi đường dây 24 giờ để họ tìm xe khác cho người đặt sau." },
+            { "text": "Message the next member through the app to apologize.", "trap": "not_mentioned", "whyVi": "Không có việc nhắn tin cho thành viên kế tiếp." },
+            { "text": "Try extending again until the booking goes through automatically.", "trap": "partially_true", "whyVi": "Gia hạn tự động chỉ xảy ra khi không ai đặt sau; ở đây app đã từ chối." }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "If someone is, the app won't let you, and that's when you phone our twenty-four hour line, so we can find the other member a different car.",
+          "explanationVi": "Có hai trường hợp: không ai đặt sau thì gia hạn tự động; có người đặt sau thì app không cho và phải gọi điện. Câu hỏi rơi vào trường hợp thứ hai.",
+          "vocabulary": ["stranded"]
+        },
+        {
+          "number": 6,
+          "prompt": "Why does Dev ask members to return cars with at least a quarter tank?",
+          "options": [
+            { "text": "Members are charged for any fuel they use.", "trap": "opposite", "whyVi": "Dev nói xăng đã bao gồm trong giá." },
+            { "text": "The fuel card does not work when the tank is nearly empty.", "trap": "not_mentioned", "whyVi": "Không có thông tin này." },
+            { "text": "Low fuel can damage the car's engine.", "trap": "not_mentioned", "whyVi": "Dev không nói về hư hại động cơ." },
+            { "text": "The next driver shouldn't have to refuel before setting off.", "trap": "none", "whyVi": "Đúng: không ai muốn bắt đầu chuyến đi bằng việc phải ghé trạm xăng." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "Nobody wants to start their trip with a detour to the gas station.",
+          "explanationVi": "Lý do được ngụ ý: người lái sau không phải đi vòng đổ xăng. 'Detour to the gas station' ↔ 'have to refuel before setting off'.",
+          "vocabulary": ["detour"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "nuts and bolts", "vi": "những chi tiết cơ bản, thực tế", "definition": "the basic practical details of something", "example": "Let me walk you through the nuts and bolts." },
+    { "term": "deposit", "vi": "tiền đặt cọc", "definition": "money paid that you can get back later", "example": "Think of it less as a fee and more as a deposit." },
+    { "term": "rule of thumb", "vi": "quy tắc kinh nghiệm", "definition": "a practical, approximate guideline", "example": "As a rule of thumb, Regular is cheaper after five hours." },
+    { "term": "pay for itself", "vi": "tự bù lại chi phí, có lời", "definition": "to save as much money as it costs", "example": "The Regular plan pays for itself if you drive often." },
+    { "term": "drill into", "vi": "nhắc đi nhắc lại cho nhớ", "definition": "to make someone learn something by repeating it", "example": "This is the part I really want to drill into you." },
+    { "term": "on the hook", "vi": "phải chịu trách nhiệm (trả tiền)", "definition": "responsible for paying for something", "example": "If you don't report it, you're on the hook." },
+    { "term": "damage waiver", "vi": "gói miễn giảm trách nhiệm hư hại", "definition": "an extra charge that lowers what you pay if a vehicle is damaged", "example": "The damage waiver is five dollars a month." },
+    { "term": "stranded", "vi": "bị bỏ lại, mắc kẹt", "definition": "left somewhere without a way to leave", "example": "Showing up late leaves someone stranded." },
+    { "term": "detour", "vi": "đường vòng, ghé ngang", "definition": "a longer route taken to avoid something or to stop somewhere", "example": "Nobody wants a detour to the gas station." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; keys matched. Per author note, Q2 no longer depends on unstated arithmetic: Hyejin now says 'so six to eight hours a month', so the listener only compares that with Dev's stated 5-hour rule of thumb (break-even 15/(9-6)=5 checks out); whyVi/explanationVi updated. Q3 option D ('reporting other members') was partly defensible and was replaced with 'Reporting any damage once the trip is over' (opposite). Difficulty 9 -> 8 (Q4-Q6 are explicit). Speaker names used in questions are now spoken in the audio (self-introductions/greetings added)." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

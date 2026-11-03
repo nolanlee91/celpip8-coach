@@ -1,0 +1,55 @@
+{
+  "id": "s6-practice-05",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "Your father's driving and his medical appointments",
+  "prompt": "Your 78-year-old father lives with your family. He has several medical appointments each month and insists on driving himself, even though his eyesight has become noticeably worse and he recently scraped the side of his car in a parking lot. Your sister lives nearby and works from home, but she has said she is too busy to help with his appointments.\n\nChoose ONE of the following options:\n\nOption A: Talk to your father. Explain your concerns about his driving and suggest other ways for him to get to his appointments.\n\nOption B: Talk to your sister. Explain why you need her help and suggest a fair way to share the responsibility.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Warm opener + acknowledge she is busy",
+    "Explain the safety concern with specific evidence",
+    "Explain your own limits honestly",
+    "Propose a fair, specific split of the work",
+    "Suggest a trial period + thank her"
+  ],
+  "modelAnswer": "Mei, thanks for coming over. I wanted to talk to you about Dad, and I know you've got a lot on your plate, so I'll keep it short.\n\nI'm getting really worried about him driving. You saw the scrape on his car, right? He says he just misjudged the pillar, but his eyesight is clearly getting worse, and I don't think it's safe for him to drive to all these appointments on his own. The thing is, he has four or five a month, and with my shifts at the hospital, I simply can't cover all of them.\n\nI'm not asking you to take over, just to share the load. What if I take the early-morning appointments, since I'm usually free before nine, and you take the afternoon ones? Most of them are only an hour, and his clinic is ten minutes from your place. You could even bring your laptop and work in the waiting room.\n\nCould we try it for a month and see how it goes? I'd really appreciate it.",
+  "usefulExpressions": [
+    {
+      "expression": "I know you've got a lot on your plate.",
+      "usageVi": "Thành ngữ 'have a lot on your plate' = có nhiều việc phải lo; thể hiện sự thông cảm."
+    },
+    {
+      "expression": "The thing is, …",
+      "usageVi": "Cách tự nhiên để chuyển sang giải thích khó khăn của mình."
+    },
+    {
+      "expression": "I'm not asking you to take over, just to share the load.",
+      "usageVi": "Làm rõ yêu cầu là công bằng, giảm sự phòng thủ của người nghe."
+    },
+    {
+      "expression": "What if I…, and you…?",
+      "usageVi": "Đề xuất chia việc cụ thể dưới dạng câu hỏi, tôn trọng ý kiến người kia."
+    },
+    {
+      "expression": "Could we try it for a month and see how it goes?",
+      "usageVi": "Đề nghị thử nghiệm ngắn hạn — dễ được đồng ý hơn một cam kết lâu dài."
+    }
+  ],
+  "commonMistakes": [
+    "Trách chị/em gái ích kỷ ('You never help!'). Lời trách làm mất điểm về giọng điệu; hãy nêu sự thật và đề xuất công bằng.",
+    "Chỉ nói 'Dad's eyes are bad' mà không có bằng chứng. Nêu chi tiết cụ thể (vết trầy trên xe) giúp lập luận thuyết phục hơn.",
+    "Thiếu mạo từ: 'He has appointment at clinic' → 'He has an appointment at the clinic'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked Option A/B shape, direct address to the sister (Option B), specific evidence, fair split and trial period, length (~173 words); no medical or licensing claims stated as fact. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

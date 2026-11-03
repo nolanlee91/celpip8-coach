@@ -1,0 +1,171 @@
+{
+  "id": "r2-full-05",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "recreation",
+  "title": "Choosing rec centre passes for a parent and daughter",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independent re-review of the rewritten set (the rewriter had self-approved it). Blind-solved all 8 and recomputed every number from the table: 25% senior discount, $48 x 0.75 = $36, $76.50 / 10 = $7.65 (distractor $5.74 = senior rate), 4 x $145 = $580 = $20 more than $560, 12 x $62 = $744; keys match. Fix: Q3 option 'doesn't include fitness classes' was arguably defensible, so the email now says 'I'd only use the gym', leaving the off-peak hours as the only reason. Centre is fictional; no duplicate title." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Pass prices",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Riverbend Aquatic & Fitness Centre, Langley — Adult Passes. Seniors (65+) and full-time students pay 25% less on any pass. Off-peak means weekdays from 10:00 a.m. to 3:00 p.m.",
+        "headers": ["Pass", "Price", "Valid for", "Hours", "Includes", "Notes"],
+        "rows": [
+          ["Drop-in", "$8.50 per visit", "One visit", "All hours", "Pool, gym and fitness classes", "Pay at the front desk"],
+          ["10-Visit Card", "$76.50", "10 visits within 12 months", "All hours", "Pool, gym and fitness classes", "Can be shared by family members"],
+          ["Off-Peak Monthly", "$39 per month", "1 month", "Off-peak only", "Pool and gym (no classes)", "No contract"],
+          ["Monthly Unlimited", "$62 per month", "1 month", "All hours", "Pool, gym and fitness classes", "No contract"],
+          ["Annual Unlimited", "$560", "12 months", "All hours", "Pool, gym and fitness classes", "Can be paid in 4 instalments of $145"],
+          ["Aquafit Plus", "$48 per month", "1 month", "All hours", "Pool and aquafit classes only (no gym)", "Free swim lesson assessment"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Karim,\n\nI stopped by Riverbend yesterday to sort out passes for Dad and me. Since he turned 67 in the spring, he gets [[1]] on whatever he buys, which helps.\n\nDad only wants to swim and do aquafit, and his physiotherapist told him to stay away from the weights, so Aquafit Plus is the obvious pick for him. With his discount, it comes to [[2]] a month.\n\nI'm trickier. I'd only use the gym, about four times a week, usually after work at six, so the off-peak pass [[3]]. Paying at the door would be silly at that rate, and even the ten-visit card works out to [[4]] a visit, which still adds up fast.\n\nThe annual pass is the best deal if I stick with it, but I can't hand over $560 all at once right now. Luckily, they let you [[5]], so I'll start that way in January.\n\nCould you drive Dad on Tuesdays? His aquafit class is at ten, and I'll be at work.\n\nFarida",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "a free swim assessment", "trap": "word_match", "whyVi": "Đánh giá bơi miễn phí chỉ là ưu đãi của gói Aquafit Plus, không phải ưu đãi cho mọi thứ ông mua." },
+        { "text": "half price", "trap": "wrong_detail", "whyVi": "Người cao tuổi chỉ được giảm 25%, không phải 50%." },
+        { "text": "a quarter off", "trap": "none", "whyVi": "Đúng: người từ 65 tuổi trở lên được giảm 25% (một phần tư) cho mọi loại vé; bố cô 67 tuổi." },
+        { "text": "free fitness classes", "trap": "not_mentioned", "whyVi": "Bảng không nói người cao tuổi được học lớp thể dục miễn phí." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Seniors (65+) and full-time students pay 25% less on any pass.",
+      "explanationVi": "'turned 67' → thuộc nhóm 'Seniors (65+)'. Caption: 'pay 25% less on any pass'. 25% = một phần tư → 'a quarter off'. 'on whatever he buys' khớp với 'on any pass'.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "$36", "trap": "none", "whyVi": "Đúng: Aquafit Plus $48 × 0.75 = $36." },
+        { "text": "$48", "trap": "partially_true", "whyVi": "Đây là giá gốc của Aquafit Plus; câu nói rõ 'With his discount', nên phải trừ 25%." },
+        { "text": "$29.25", "trap": "wrong_detail", "whyVi": "$29.25 là giá Off-Peak Monthly ($39) sau khi giảm 25%, không phải Aquafit Plus." },
+        { "text": "$46.50", "trap": "wrong_detail", "whyVi": "$46.50 là giá Monthly Unlimited ($62) sau khi giảm 25%." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "$48 per month",
+      "explanationVi": "Hai bước: (1) tìm giá Aquafit Plus trong bảng: $48/tháng; (2) áp dụng giảm 25% cho người cao tuổi: $48 × 0.75 = $36. Bẫy là quên giảm giá hoặc lấy giá của hàng khác.",
+      "vocabulary": ["come to"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "would cost more than the monthly pass", "trap": "opposite", "whyVi": "Off-Peak Monthly ($39) rẻ hơn Monthly Unlimited ($62)." },
+        { "text": "wouldn't cover the times I go", "trap": "none", "whyVi": "Đúng: giờ thấp điểm chỉ là 10 giờ sáng–3 giờ chiều ngày thường; Farida đi tập lúc 6 giờ tối." },
+        { "text": "doesn't include fitness classes", "trap": "partially_true", "whyVi": "Đúng là gói này không có lớp, nhưng Farida chỉ dùng phòng gym; câu nối 'at six, so' cho thấy lý do là giờ giấc." },
+        { "text": "only lasts for one week", "trap": "wrong_detail", "whyVi": "Gói này có hiệu lực 1 tháng, không phải 1 tuần." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Off-peak means weekdays from 10:00 a.m. to 3:00 p.m.",
+      "explanationVi": "Câu nêu thời gian 'usually after work at six' rồi dùng 'so' → lý do liên quan đến giờ. Caption định nghĩa off-peak là 10:00–3:00 ngày thường → 6 giờ tối không thuộc khung giờ này.",
+      "vocabulary": ["off-peak"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "$8.50", "trap": "wrong_detail", "whyVi": "$8.50 là giá vé lẻ (Drop-in), không phải giá mỗi lần của thẻ 10 lần." },
+        { "text": "$76.50", "trap": "partially_true", "whyVi": "$76.50 là giá của cả thẻ; câu hỏi giá 'a visit' (mỗi lần)." },
+        { "text": "about $5.74", "trap": "wrong_detail", "whyVi": "Đây là $7.65 sau khi giảm 25% — nhưng Farida không phải người cao tuổi hay sinh viên." },
+        { "text": "$7.65", "trap": "none", "whyVi": "Đúng: $76.50 ÷ 10 lần = $7.65 mỗi lần." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "10 visits within 12 months",
+      "explanationVi": "'works out to … a visit' = tính ra mỗi lần. Thẻ giá $76.50 cho 10 lần → $76.50 ÷ 10 = $7.65. 'even' cho thấy dù rẻ hơn vé lẻ $8.50 một chút, đi 4 lần/tuần vẫn tốn nhiều.",
+      "vocabulary": ["work out to", "add up"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "share one pass with family", "trap": "word_match", "whyVi": "Chỉ thẻ 10 lần mới dùng chung được trong gia đình; câu đang nói về vé năm." },
+        { "text": "split the cost into four payments", "trap": "none", "whyVi": "Đúng: vé năm 'Can be paid in 4 instalments of $145' — trả làm bốn lần." },
+        { "text": "pay the student rate", "trap": "wrong_detail", "whyVi": "Farida đi làm, không phải sinh viên toàn thời gian." },
+        { "text": "try it free for a month", "trap": "not_mentioned", "whyVi": "Bảng không có chương trình dùng thử miễn phí." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Can be paid in 4 instalments of $145",
+      "explanationVi": "Vấn đề: 'can't hand over $560 all at once'. Giải pháp trong cột Notes của Annual Unlimited: '4 instalments' → 'split the cost into four payments'.",
+      "vocabulary": ["instalment"]
+    },
+    {
+      "number": 6,
+      "prompt": "Why is Aquafit Plus a good choice for Farida's father?",
+      "options": [
+        { "text": "It is the cheapest pass on the list.", "trap": "wrong_detail", "whyVi": "Không đúng: Off-Peak Monthly ($39) rẻ hơn Aquafit Plus ($48)." },
+        { "text": "It comes with free swimming lessons.", "trap": "word_match", "whyVi": "Gói này chỉ có đánh giá bơi miễn phí ('swim lesson assessment'), không phải lớp bơi miễn phí." },
+        { "text": "It covers what he wants to do and leaves out what he should avoid.", "trap": "none", "whyVi": "Đúng: gói có hồ bơi và lớp aquafit, không có phòng gym — đúng với lời khuyên tránh tạ." },
+        { "text": "It is only sold to seniors.", "trap": "not_mentioned", "whyVi": "Bảng không nói gói này chỉ dành cho người cao tuổi." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Pool and aquafit classes only (no gym)",
+      "explanationVi": "Email: ông chỉ muốn bơi và tập aquafit, và được dặn 'stay away from the weights'. Bảng: Aquafit Plus gồm 'Pool and aquafit classes only (no gym)' → vừa đủ nhu cầu, vừa không có phần phải tránh.",
+      "vocabulary": ["stay away from"]
+    },
+    {
+      "number": 7,
+      "prompt": "What does Farida mean when she says the annual pass is the best deal \"if I stick with it\"?",
+      "options": [
+        { "text": "If she keeps going regularly for the whole year", "trap": "none", "whyVi": "Đúng: 'stick with something' = kiên trì, tiếp tục làm việc gì đó." },
+        { "text": "If the centre keeps the same price", "trap": "not_mentioned", "whyVi": "Email không nói về việc tăng giá." },
+        { "text": "If she only goes during off-peak hours", "trap": "word_match", "whyVi": "Vé năm dùng được mọi giờ; 'stick' không liên quan đến giờ thấp điểm." },
+        { "text": "If her father agrees to share it", "trap": "wrong_detail", "whyVi": "Vé năm không được dùng chung, và bố cô đã chọn gói riêng." }
+      ],
+      "answerIndex": 0,
+      "category": "vocabulary",
+      "evidence": "The annual pass is the best deal if I stick with it",
+      "explanationVi": "Thành ngữ 'stick with it' = không bỏ cuộc giữa chừng. Vé năm chỉ có lợi nếu cô đi tập đều cả năm; nếu bỏ sau vài tháng thì vé tháng rẻ hơn.",
+      "vocabulary": ["stick with"]
+    },
+    {
+      "number": 8,
+      "prompt": "Based on the table, how will Farida's payment plan for the annual pass compare with paying all at once?",
+      "options": [
+        { "text": "It will cost exactly the same.", "trap": "wrong_detail", "whyVi": "4 × $145 = $580, không bằng $560." },
+        { "text": "It will save her $20.", "trap": "opposite", "whyVi": "Ngược lại: trả góp tốn hơn $20." },
+        { "text": "It will cost her $20 more in total.", "trap": "none", "whyVi": "Đúng: 4 × $145 = $580; $580 − $560 = $20 nhiều hơn." },
+        { "text": "It will cost as much as twelve monthly passes.", "trap": "wrong_detail", "whyVi": "12 × $62 = $744, cao hơn nhiều so với $580." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Can be paid in 4 instalments of $145",
+      "explanationVi": "Email nói cô sẽ trả theo cách 'that way' (trả góp). Tính: 4 × $145 = $580, so với giá trả một lần $560 → đắt hơn $20. Đây là thông tin phải tự suy ra từ bảng.",
+      "vocabulary": ["instalment"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "off-peak", "vi": "giờ thấp điểm", "definition": "at a time when fewer people use a service, often with a lower price", "example": "The off-peak pass is cheaper, but it only works on weekday mornings." },
+    { "term": "work out to", "vi": "tính ra là", "definition": "to equal a certain amount after you calculate it", "example": "The card works out to $7.65 a visit." },
+    { "term": "add up", "vi": "cộng dồn lại (thành nhiều)", "definition": "to increase gradually to a large total", "example": "Small fees add up fast." },
+    { "term": "instalment", "vi": "lần trả góp", "definition": "one of several payments made over time to pay for something", "example": "You can pay for the annual pass in four instalments." },
+    { "term": "stick with", "vi": "kiên trì, tiếp tục", "definition": "to continue doing something and not give up", "example": "The annual pass only makes sense if you stick with it." },
+    { "term": "stay away from", "vi": "tránh xa", "definition": "to avoid something", "example": "His doctor told him to stay away from heavy weights." },
+    { "term": "come to", "vi": "tổng cộng là", "definition": "to add up to a total amount", "example": "With the discount, it comes to $36 a month." },
+    { "term": "hand over", "vi": "giao, đưa (tiền)", "definition": "to give something, often money, to someone", "example": "I can't hand over $560 all at once." }
+  ]
+}

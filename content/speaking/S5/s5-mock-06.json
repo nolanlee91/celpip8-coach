@@ -1,0 +1,77 @@
+{
+  "id": "s5-mock-06",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "government",
+  "title": "Voting on a neighbourhood budget project",
+  "prompt": "Your city in BC is letting residents vote on how to spend $1.2 million in your neighbourhood. There are two projects on the ballot. Choose the project you prefer. Then persuade your neighbour, who plans to vote for the other project, to support yours instead.",
+  "svg": null,
+  "options": [
+    {
+      "title": "Covered sport court and skate park in Cedar Park",
+      "details": [
+        "$1.2 million CAD; roof allows year-round use in rain",
+        "Lights until 10:00 p.m.; free drop-in basketball and skating",
+        "Ready in 18 months",
+        "City must pay about $40,000 CAD a year for maintenance"
+      ]
+    },
+    {
+      "title": "Safer sidewalks and crosswalks near Alder Elementary",
+      "details": [
+        "$1.1 million CAD for 2.5 km of new sidewalks",
+        "Three new crosswalks with flashing lights, including one beside a seniors' residence",
+        "14 near-miss incidents with pedestrians on these streets reported to the city last year",
+        "Completed in 8 months; leftover $100,000 CAD returns to the city budget"
+      ]
+    }
+  ],
+  "structure": [
+    "Show genuine respect for the neighbour's reasons (teens need somewhere to go) and state your choice.",
+    "Reason 1: safety and urgency — 14 near misses, children and seniors; what could happen if nothing changes.",
+    "Reason 2: who benefits and long-term cost (everyone walks; no $40,000 yearly maintenance; done in 8 months).",
+    "Turn the neighbour's argument around (teens walk too) and propose a path for the skate park later; ask for their vote."
+  ],
+  "modelAnswer": "Raj, I know how much a covered court would mean to your boys, and you're right that teenagers around here have nowhere to go on a rainy evening. But I'd really urge you to vote for the sidewalk project. Here's what keeps me up at night: fourteen near misses near Alder Elementary in a single year. That's not a statistic, that's fourteen times someone, maybe a kid or a senior, almost got hit. Sooner or later, our luck's going to run out, and no skate park is worth that. Beyond safety, think about who actually benefits. Not everyone plays basketball, but every single one of us walks those streets, your boys included. It'd also be finished in eight months instead of a year and a half, with no forty-thousand-dollar maintenance bill hanging over the city every year. And the hundred thousand left over could go back into the budget. I'm not dismissing the skate park. If this passes, I'd gladly help you collect signatures to put it on next year's ballot. Can I count on your vote?",
+  "usefulExpressions": [
+    {
+      "expression": "I know how much… would mean to…, and you're right that…",
+      "usageVi": "Đồng cảm thật sự với người kia trước khi phản bác — rất quan trọng ở Level 9"
+    },
+    {
+      "expression": "Here's what keeps me up at night: …",
+      "usageVi": "'Keep someone up at night' = khiến ai lo lắng mất ngủ; giới thiệu lý do nghiêm trọng nhất"
+    },
+    {
+      "expression": "That's not a statistic, that's…",
+      "usageVi": "Biến con số khô khan thành hình ảnh cụ thể, gây cảm xúc"
+    },
+    {
+      "expression": "Sooner or later, our luck's going to run out.",
+      "usageVi": "'Luck runs out' = hết may mắn; nhấn mạnh rủi ro nếu không hành động"
+    },
+    {
+      "expression": "…your boys included…",
+      "usageVi": "Quay lập luận của người kia lại: chính con họ cũng được lợi từ lựa chọn của bạn"
+    },
+    {
+      "expression": "Can I count on your vote?",
+      "usageVi": "'Count on' = trông cậy vào; kết bài bằng lời đề nghị rõ ràng"
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ đọc lại '14 near-miss incidents' mà không giải thích ý nghĩa; hãy biến con số thành hình ảnh (một đứa trẻ suýt bị xe đâm).",
+    "Coi thường mong muốn của người hàng xóm ('skate parks are useless'); thuyết phục Level 9 cần tôn trọng và đưa ra hướng giải quyết cho phương án kia (ví dụ: đề xuất lại vào năm sau).",
+    "Nhầm 'ballot' (lá phiếu, danh sách lựa chọn khi bầu) với 'balloon'; và nói '1.2 million dollars' chứ không phải '1.2 millions dollars'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Verified $1.2M vs $1.1M (+$100,000 returned), 18 vs 8 months, $40,000/yr maintenance. Tied the 14 near misses to 'these streets' on the card (the answer located them there) and softened 'fourteen times a kid or a senior almost got hit' to avoid overclaiming; trimmed 187 -> 177 words."
+  },
+  "createdAt": "2026-11-03"
+}

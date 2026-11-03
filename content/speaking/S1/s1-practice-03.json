@@ -1,0 +1,55 @@
+{
+  "id": "s1-practice-03",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "banking",
+  "title": "Advice for a friend with growing credit card debt",
+  "prompt": "Your friend Carlos recently told you that his credit card balance has grown to about $6,000 over the past year. He only pays the minimum amount each month, and he is starting to worry that the debt will keep getting bigger.\n\nGive Carlos some advice about how to deal with his credit card debt.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Reassure your friend + praise him for facing the problem",
+    "Advice 1: stop the debt from growing (track spending, put the card away)",
+    "Advice 2: pay more than the minimum, with a reason (interest)",
+    "Advice 3: talk to the bank about a lower-interest option",
+    "Practical next step + encouragement"
+  ],
+  "modelAnswer": "Hey Carlos, thanks for trusting me with this. Honestly, a lot of people end up in the same boat, and the fact that you're dealing with it now is a really good sign.\n\nThe first thing I'd do is stop the balance from getting any bigger. For the next month, try leaving the card at home and paying for everyday things with your debit card instead. It's also worth going through your last few statements to see where the money actually goes. In my case, it was mostly takeout and subscriptions I'd forgotten about.\n\nSecond, I really think you need to pay more than the minimum. Most cards charge around twenty percent interest, so if you only pay the minimum, you'll be paying it off for years. Even an extra hundred and fifty dollars a month would make a huge difference.\n\nAnother option is to call your bank and ask whether they can move the balance to a line of credit or a card with a lower rate. Banks don't always advertise these options, so it really doesn't hurt to ask.\n\nIf I were you, I'd sit down this weekend and make a simple budget with a fixed amount for the debt every payday. Once you see the balance going down, you'll feel so much better. Let me know if you want a hand setting it up!",
+  "usefulExpressions": [
+    {
+      "expression": "be in the same boat",
+      "usageVi": "Thành ngữ: 'cùng chung hoàn cảnh'. Dùng để trấn an người nghe rằng họ không phải người duy nhất gặp vấn đề."
+    },
+    {
+      "expression": "The first thing I'd do is…",
+      "usageVi": "Mở lời khuyên đầu tiên tự nhiên hơn 'Firstly, you should…'."
+    },
+    {
+      "expression": "It's also worth + V-ing…",
+      "usageVi": "'Cũng đáng để…' — gợi ý thêm một việc nhỏ có ích, nghe nhẹ nhàng."
+    },
+    {
+      "expression": "pay something off",
+      "usageVi": "Cụm động từ: trả hết (nợ). Rất hay dùng khi nói về tài chính."
+    },
+    {
+      "expression": "Another option is to…",
+      "usageVi": "Giới thiệu một hướng giải quyết khác, giúp bài nói có nhiều lựa chọn."
+    },
+    {
+      "expression": "Let me know if you want a hand + V-ing…",
+      "usageVi": "'want a hand' = muốn được giúp; câu kết thân thiện, thể hiện bạn sẵn lòng hỗ trợ."
+    }
+  ],
+  "commonMistakes": [
+    "Trách móc người bạn ('You spend too much money'). Ở S1 nên đồng cảm trước, sau đó mới đưa lời khuyên.",
+    "Lời khuyên chung chung như 'Save more money'. Hãy nói cụ thể: để thẻ ở nhà, trả thêm bao nhiêu, gọi cho ngân hàng hỏi gì.",
+    "Nói sai số tiền và phần trăm: 'six thousand dollar', 'twenty percents'. Đúng là 'six thousand dollars', 'twenty percent'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {"status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Checked advice covers growth, minimum payments and lower-rate options; ~20% card interest is realistic for Canada; length ~229 words for 90 s. Softened the claim that banks are 'usually willing to help' to 'it doesn't hurt to ask'."},
+  "createdAt": "2026-11-03"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "w2-practice-06",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "healthcare",
+  "title": "Clinic expansion: evening walk-in hours or virtual appointments",
+  "situation": "Riverbend Family Health Clinic in Kamloops has received extra provincial funding to improve access for patients. The clinic can afford only one of the changes below and is asking its patients to vote.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Open the clinic for in-person walk-in visits on weekday evenings until 9 p.m.",
+  "optionB": "Option B: Offer video and phone appointments seven days a week, booked online, for health concerns that do not need a physical examination.",
+  "structure": [
+    "Opening: state your choice + overall reason (more patients helped, less disruption)",
+    "Reason 1: many visits do not need an exam + personal example",
+    "Reason 2: flexibility for specific groups (parents, people without cars) + keeping sick patients out of the waiting room",
+    "Concession: when the other option is better, then why yours still wins",
+    "Conclusion"
+  ],
+  "modelResponse": "I would prefer that Riverbend Clinic offer video and phone appointments, as I think this option would help more patients get care without disrupting their daily lives.\n\nTo begin with, many medical issues do not require a physical exam. Prescription renewals, test results and follow-up questions can easily be handled over the phone. Last winter, I had to take half a day off work just to hear that my blood test was normal, which was a five-minute conversation. A virtual appointment would have saved me time and lost wages.\n\nIn addition, online booking seven days a week is more flexible than evening hours. Parents with sick children, people without a car and those who live far from the clinic could all see a doctor from home, which would also keep contagious patients out of the waiting room.\n\nAdmittedly, evening walk-in hours would be valuable for injuries or symptoms that a doctor needs to examine in person. Even so, these cases could still be booked during the day, while virtual care would reduce pressure on the clinic overall.\n\nFor these reasons, I believe virtual appointments are the more efficient choice.",
+  "usefulExpressions": [
+    {
+      "expression": "I would prefer that + subject + base verb",
+      "usageVi": "Cấu trúc giả định: 'prefer that the clinic offer…' (không thêm -s) — dấu hiệu ngữ pháp nâng cao."
+    },
+    {
+      "expression": "without disrupting their daily lives",
+      "usageVi": "Không làm xáo trộn cuộc sống hằng ngày — cụm lập luận hữu ích cho nhiều đề."
+    },
+    {
+      "expression": "can easily be handled over the phone",
+      "usageVi": "Bị động + 'over the phone' (qua điện thoại) — cách nói tự nhiên nhất khi nói việc được giải quyết bằng điện thoại."
+    },
+    {
+      "expression": "would have saved me time",
+      "usageVi": "Câu điều kiện loại 3 rút gọn để nói về quá khứ — ví dụ cá nhân trở nên thuyết phục hơn."
+    },
+    {
+      "expression": "Admittedly, … Even so, …",
+      "usageVi": "Cặp từ nhượng bộ – phản bác; thay thế cho 'Yes… but…'."
+    },
+    {
+      "expression": "reduce pressure on…",
+      "usageVi": "Giảm tải cho (hệ thống, phòng khám) — từ vựng chủ đề y tế."
+    }
+  ],
+  "commonMistakes": [
+    "Viết 'online appointment is more better' → 'online appointments are better/more convenient'. Không dùng 'more' với so sánh hơn đã có -er.",
+    "Thiếu mạo từ: 'make an appointment with doctor' → 'make an appointment with a doctor'; 'go to clinic' → 'go to the clinic'.",
+    "Lý do chung chung ('it is convenient'). Hãy nói rõ ai được lợi (phụ huynh, người không có xe) và vì sao.",
+    "Phủ nhận hoàn toàn phương án A. Thừa nhận rằng chấn thương cần khám trực tiếp cho thấy bạn suy nghĩ cân bằng."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked options balance, model answer (choice, personal example, groups who benefit, concession on in-person exams), medical claims hedged, word count 189. Fixed two inaccurate notes: 'take a day off from work' is not actually wrong (replaced with an article mistake), and softened the claim that 'on the phone' is an error."
+  },
+  "createdAt": "2026-11-03"
+}

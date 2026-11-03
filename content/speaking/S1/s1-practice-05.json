@@ -1,0 +1,55 @@
+{
+  "id": "s1-practice-05",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "education",
+  "title": "Advice for a friend returning to college while working",
+  "prompt": "Your friend Minh works full-time as a dental office receptionist. He wants to become a dental hygienist, but the program at a local college takes two years, and he is not sure he can afford to stop working or manage school and a job at the same time.\n\nGive Minh some advice about how to reach his goal.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Encourage the goal + show you see both concerns (money, time)",
+    "Advice 1: research the program (take prerequisites part-time while still working)",
+    "Advice 2: money — student aid, grants, talk to his employer",
+    "Advice 3: test the workload with one course before committing",
+    "Summary + a concrete first step"
+  ],
+  "modelAnswer": "Minh, I think that's a fantastic goal, and honestly, you're already halfway there because you know the dental world so well. I get why you're nervous, though, so let me throw out a few ideas.\n\nFirst of all, find out exactly what the program involves before you rule anything out. Some colleges let you take the prerequisite courses, like biology or chemistry, part-time in the evenings or online. If you knock those out while you're still working, you'll be ready to apply, and you won't have to stop working until the main program starts.\n\nWhen it comes to money, definitely look into StudentAid BC. A lot of people assume they won't qualify, but depending on your income, you might be eligible for a mix of loans and grants. It's also worth having a chat with your boss. A lot of clinics are short of hygienists, so your clinic might be willing to offer flexible hours, or even help with tuition, if you agree to work there after you graduate.\n\nAnother thing I'd suggest is signing up for just one evening course next term to test the waters. You'll get a realistic sense of how much studying you can handle on top of work, without risking your income.\n\nSo basically, I wouldn't see it as quitting your job versus giving up your dream. There's usually a middle path. Why don't you book an appointment with the college's advisor this week and take it from there?",
+  "usefulExpressions": [
+    {
+      "expression": "rule something out",
+      "usageVi": "Cụm động từ: loại bỏ một khả năng. 'Before you rule anything out' = trước khi bạn gạt bỏ lựa chọn nào."
+    },
+    {
+      "expression": "knock something out",
+      "usageVi": "Cách nói thân mật: làm xong nhanh một việc (ví dụ hoàn thành các môn học)."
+    },
+    {
+      "expression": "When it comes to…",
+      "usageVi": "'Nói về…' — chuyển sang một khía cạnh mới (tiền bạc, thời gian) một cách mạch lạc."
+    },
+    {
+      "expression": "test the waters",
+      "usageVi": "Thành ngữ: thử trước một chút để xem tình hình trước khi quyết định lớn."
+    },
+    {
+      "expression": "on top of…",
+      "usageVi": "'Thêm vào, ngoài ra' — 'studying on top of work' = vừa học vừa làm."
+    },
+    {
+      "expression": "take it from there",
+      "usageVi": "'Rồi tính tiếp từ đó' — câu kết tự nhiên sau khi đưa ra bước đầu tiên."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ khuyên 'Quit your job and study' hoặc 'Don't go to school'. Đề có hai lo lắng (tiền và thời gian); câu trả lời tốt đưa ra giải pháp trung gian.",
+    "Thiếu từ nối giữa các ý. Dùng 'First of all', 'When it comes to money', 'Another thing I'd suggest' để giám khảo dễ theo dõi bố cục.",
+    "Nói 'I suggest you to sign up…' — sai ngữ pháp. Đúng: 'I'd suggest signing up…' hoặc 'I suggest that you sign up…'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {"status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Verified StudentAid BC is the correct real provincial program (loans and grants); softened 'adult students often get' to income-dependent eligibility, removed the unsupported claim that prerequisites shorten the two-year program, and changed 'always short of hygienists' to 'a lot of clinics'. Both concerns (money, time) answered; ~230 words."},
+  "createdAt": "2026-11-03"
+}

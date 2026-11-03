@@ -151,6 +151,8 @@ async function main() {
     check("exam mode strips answer keys", rc.data.questions.every((q: { answerIndex: number; explanationVi: string }) => q.answerIndex === -1 && !q.explanationVi));
     const fin = await call(`/api/mock/${mock.data.id}/finish`, {});
     check("mock finishes without waiting on AI", fin.status === 200 && fin.data.status === "done");
+    const nsm = await call(`/api/next-step?after=mock&mockId=${mock.data.id}`);
+    check("mock report ends with a next step", nsm.status === 200 && Boolean(nsm.data.route && nsm.data.cta), nsm.data.title);
   } else {
     check("mock packages report why they are unavailable", (pk.data as { problems: string[] }[]).every((p) => p.problems.length > 0));
   }

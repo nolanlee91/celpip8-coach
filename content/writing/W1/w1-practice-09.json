@@ -1,0 +1,65 @@
+{
+  "id": "w1-practice-09",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "education",
+  "title": "Asking an instructor for a project extension",
+  "situation": "You are taking an evening course in project management at a college in Victoria while working full-time. Your final project is due next Friday and is worth 40% of your grade. A few days ago your father in Vietnam was admitted to hospital, and you will be flying there for about ten days. You decide to email your instructor.",
+  "instructions": [
+    "Explain your situation.",
+    "Describe how much of the project you have already completed.",
+    "Propose a new deadline and offer something to show your commitment."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting (Dear Professor + surname) + the request in the first sentence",
+    "Instruction 1: the emergency, travel dates, and an offer of proof",
+    "Instruction 2: the sections already finished vs. what remains, with a time estimate",
+    "Instruction 3: an exact new date as a polite question + 1–2 concrete commitments",
+    "Thank-you line + Kind regards + full name"
+  ],
+  "modelResponse": "Dear Professor Whitfield,\n\nI am writing to ask whether it would be possible to extend the deadline for my final project in Project Management Fundamentals. Last Tuesday my father was admitted to hospital in Da Nang after a serious fall, and I am flying out this Sunday to be with my family for about ten days. I can provide a copy of my flight booking or a note from the hospital if required.\n\nI want to assure you that I have not left the project until the last minute. I have already completed the stakeholder analysis and the project timeline, and I am roughly two-thirds of the way through the risk management section. What remains is the budget and the final reflection, which I estimate will take another eight to ten hours.\n\nWould you consider allowing me to submit the project by Monday, December 7? To show that I am taking this seriously, I would be happy to email you my current draft before I leave, so that you can see my progress. I also plan to keep up with the recorded lectures while I am away.\n\nThank you very much for your understanding.\n\nKind regards,\nThanh Pham",
+  "usefulExpressions": [
+    {
+      "expression": "I am writing to ask whether it would be possible to…",
+      "usageVi": "Câu xin phép rất lịch sự, dùng câu hỏi gián tiếp với 'whether'."
+    },
+    {
+      "expression": "I can provide … if required.",
+      "usageVi": "Chủ động đề nghị bằng chứng – làm tăng độ tin cậy."
+    },
+    {
+      "expression": "I have not left the project until the last minute.",
+      "usageVi": "'leave something until the last minute' = để nước đến chân mới nhảy; phủ định để chứng minh bạn có trách nhiệm."
+    },
+    {
+      "expression": "roughly two-thirds of the way through…",
+      "usageVi": "Diễn tả tiến độ cụ thể, tự nhiên hơn 'I did 66%'."
+    },
+    {
+      "expression": "Would you consider allowing me to…?",
+      "usageVi": "Đề xuất dưới dạng câu hỏi, giữ quyền quyết định cho người nhận – rất phù hợp với giảng viên."
+    },
+    {
+      "expression": "keep up with the recorded lectures",
+      "usageVi": "'keep up with' = theo kịp; cho thấy cam kết học tập."
+    }
+  ],
+  "commonMistakes": [
+    "Kể quá dài về bệnh tình của người thân mà quên ý 2 và ý 3. Mỗi ý nên khoảng 1 đoạn cân bằng.",
+    "Ra lệnh hoặc mặc định được gia hạn ('I will submit it next month'). Hãy đề xuất một ngày cụ thể dưới dạng câu hỏi lịch sự.",
+    "Không nói rõ đã làm được bao nhiêu (chỉ viết 'I have done a lot'). Giám khảo cần chi tiết: phần nào xong, phần nào còn lại.",
+    "Lỗi cấu trúc: 'I want to ask you extend the deadline' → 'I want to ask you to extend the deadline'; 'consider to allow' → 'consider allowing'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets (situation + proof offer, progress, new date + commitments), 198 words, expressions. Fixed: proposed date weekday was wrong for the 2026 calendar used elsewhere (Monday, December 8 -> Monday, December 7)."
+  },
+  "createdAt": "2026-11-03"
+}

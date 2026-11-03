@@ -1,0 +1,185 @@
+{
+  "id": "l1-full-03",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "recreation",
+  "title": "A cancelled long-weekend campsite",
+  "context": "You will hear a couple in Abbotsford trying to find somewhere else to camp after their long-weekend campground booking is cancelled.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Omar", "voice": "male_b", "text": "Lena, did you see the email from the park? They've closed the campground at Alder Lake. Well, our whole loop, anyway." },
+        { "speaker": "Lena", "voice": "female_b", "text": "Closed? Omar, we leave Friday. What happened?" },
+        { "speaker": "Omar", "voice": "male_b", "text": "A black bear's been getting into coolers at the walk-in sites, and apparently it got pretty bold with a family last weekend. Nobody was hurt, but they've shut the lakeside loop until the conservation officers deal with it. Could be a week, could be longer, they don't know." },
+        { "speaker": "Lena", "voice": "female_b", "text": "Ugh. And the Nguyens are bringing the kids. Mai's been talking about nothing else for a month." },
+        { "speaker": "Omar", "voice": "male_b", "text": "I know. The email says the refund goes back on our card automatically, so at least we're not out any money. But that doesn't exactly help us find somewhere else for this weekend." },
+        { "speaker": "Lena", "voice": "female_b", "text": "On the August long weekend? Everything decent was booked solid months ago. That's why we jumped on Alder Lake the minute reservations opened." },
+        { "speaker": "Omar", "voice": "male_b", "text": "Yeah. I'll take another look at the other provincial parks tonight, but I'm not holding my breath." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why has part of the campground been closed?",
+          "options": [
+            { "text": "A family was injured by a bear at a walk-in site.", "trap": "opposite", "whyVi": "Omar nói rõ 'Nobody was hurt' – không ai bị thương." },
+            { "text": "An animal's behaviour has made the area unsafe for campers.", "trap": "none", "whyVi": "Đúng: con gấu đen lục thùng đá và trở nên quá bạo dạn với một gia đình." },
+            { "text": "Campers left their coolers open at the lakeside sites.", "trap": "word_match", "whyVi": "Có từ 'coolers' nhưng lý do đóng cửa là con gấu, không phải người cắm trại để mở thùng." },
+            { "text": "Conservation officers are repairing the lakeside loop.", "trap": "wrong_detail", "whyVi": "Nhân viên bảo tồn đến để xử lý con gấu, không phải sửa chữa khu cắm trại." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "A black bear's been getting into coolers at the walk-in sites, and apparently it got pretty bold with a family last weekend.",
+          "explanationVi": "'Getting into coolers' và 'got pretty bold' mô tả hành vi nguy hiểm của con gấu. Đáp án B nói chung thành 'an animal's behaviour has made the area unsafe'.",
+          "vocabulary": ["get into something"]
+        },
+        {
+          "number": 2,
+          "prompt": "What does Omar say about the money they paid?",
+          "options": [
+            { "text": "They have to apply to get their money back.", "trap": "opposite", "whyVi": "Tiền được hoàn 'automatically' – không cần làm đơn." },
+            { "text": "Only part of the booking fee will be returned.", "trap": "not_mentioned", "whyVi": "Omar nói 'not out any money' – không mất đồng nào, tức là hoàn toàn bộ." },
+            { "text": "They can move the payment to a different park.", "trap": "not_mentioned", "whyVi": "Bài không nói có thể chuyển đặt chỗ sang công viên khác." },
+            { "text": "They will be reimbursed in full without doing anything.", "trap": "none", "whyVi": "Đúng: tiền tự động trả về thẻ và họ không mất gì." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "the refund goes back on our card automatically, so at least we're not out any money",
+          "explanationVi": "'Goes back on our card automatically' = hoàn tiền mà không phải làm gì; 'not out any money' = không mất đồng nào. Đáp án D diễn đạt lại thành 'reimbursed in full without doing anything'.",
+          "vocabulary": ["be out (money)"]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Omar mean when he says he is not holding his breath?",
+          "options": [
+            { "text": "He doubts he will find space at another provincial park.", "trap": "none", "whyVi": "Đúng: 'not holding my breath' = không trông mong gì nhiều." },
+            { "text": "He refuses to camp at a provincial park again.", "trap": "too_broad", "whyVi": "Omar vẫn sẽ tìm công viên khác tối nay; anh chỉ không hy vọng nhiều." },
+            { "text": "He is nervous about meeting bears at other parks.", "trap": "not_mentioned", "whyVi": "Omar không nói lo gặp gấu ở nơi khác." },
+            { "text": "He expects the Alder Lake loop to reopen soon.", "trap": "opposite", "whyVi": "Anh nói có thể đóng một tuần hoặc lâu hơn, không ai biết." }
+          ],
+          "answerIndex": 0,
+          "category": "vocabulary",
+          "evidence": "I'll take another look at the other provincial parks tonight, but I'm not holding my breath.",
+          "explanationVi": "Thành ngữ 'I'm not holding my breath' nghĩa là không kỳ vọng điều đó xảy ra. Kết hợp với câu của Lena 'everything decent was booked solid', ý là khó còn chỗ trống.",
+          "vocabulary": ["not hold your breath"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Lena", "voice": "female_b", "text": "Okay, so what about private campgrounds? There's that RV place near Hope." },
+        { "speaker": "Omar", "voice": "male_b", "text": "I checked. They've got space, but it's basically a gravel lot right next to the highway, with trucks going by all night. The kids would be fine, but you'd be miserable, and so would Thuy." },
+        { "speaker": "Lena", "voice": "female_b", "text": "Fair. What about a cabin instead? Split it with the Nguyens." },
+        { "speaker": "Omar", "voice": "male_b", "text": "I looked at that too. There's a place on Harrison Lake with two units left, but it's three hundred and forty a night. Over three nights, split two ways, that's five hundred and ten each. We were paying forty bucks a night for the campsite." },
+        { "speaker": "Lena", "voice": "female_b", "text": "Hmm. Okay, here's a thought. Recreation sites, the forestry ones. Most of them are first come, first served, so nobody books them months ahead. My cousin goes to one up past Chilliwack Lake every summer." },
+        { "speaker": "Omar", "voice": "male_b", "text": "Aren't those pretty rough, though? No showers, outhouses, no running water?" },
+        { "speaker": "Lena", "voice": "female_b", "text": "Pretty much. But we've got the water jugs and the filter, and honestly, the kids won't care about showers for three days. What I'm not sure about is whether we'll actually get a spot if we just turn up." }
+      ],
+      "questions": [
+        {
+          "number": 4,
+          "prompt": "Why does Omar reject the RV campground near Hope?",
+          "options": [
+            { "text": "It has no sites left for the weekend.", "trap": "opposite", "whyVi": "Omar nói 'They've got space' – vẫn còn chỗ." },
+            { "text": "He thinks the children would not enjoy it.", "trap": "opposite", "whyVi": "Anh nói 'The kids would be fine'." },
+            { "text": "It costs much more than their original site.", "trap": "wrong_detail", "whyVi": "Giá đắt là vấn đề của cabin ở Harrison Lake, không phải bãi RV." },
+            { "text": "The noisy, unattractive setting would bother the adults.", "trap": "none", "whyVi": "Đúng: bãi sỏi sát đường cao tốc, xe tải chạy suốt đêm; Lena và Thuy sẽ khổ sở." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "it's basically a gravel lot right next to the highway, with trucks going by all night. The kids would be fine, but you'd be miserable, and so would Thuy.",
+          "explanationVi": "'Trucks going by all night' = ồn; 'gravel lot' = không đẹp; 'you'd be miserable, and so would Thuy' = người lớn sẽ khó chịu. Đáp án D gộp các ý này.",
+          "vocabulary": []
+        },
+        {
+          "number": 5,
+          "prompt": "What is the main drawback of the cabin on Harrison Lake?",
+          "options": [
+            { "text": "There is only one unit still available.", "trap": "wrong_detail", "whyVi": "Còn hai căn ('two units left'), không phải một." },
+            { "text": "It would cost each family far more than they planned to spend.", "trap": "none", "whyVi": "Đúng: 510 đô mỗi gia đình so với 40 đô một đêm cho chỗ cắm trại." },
+            { "text": "The Nguyens are unwilling to share it.", "trap": "not_mentioned", "whyVi": "Bài không nói nhà Nguyen từ chối ở chung." },
+            { "text": "It is only available for one night.", "trap": "not_mentioned", "whyVi": "Omar tính giá cho ba đêm, không nói chỉ còn một đêm." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "Over three nights, split two ways, that's five hundred and ten each. We were paying forty bucks a night for the campsite.",
+          "explanationVi": "Omar so sánh 510 đô mỗi nhà với 40 đô một đêm để cho thấy cabin quá đắt, dù anh không nói thẳng 'too expensive'. Đáp án B là suy luận từ phép so sánh đó.",
+          "vocabulary": ["split something two ways"]
+        },
+        {
+          "number": 6,
+          "prompt": "What is Lena uncertain about regarding the recreation sites?",
+          "options": [
+            { "text": "Whether the children can manage without showers.", "trap": "wrong_speaker", "whyVi": "Thiếu nhà tắm là lo ngại của Omar; Lena nói bọn trẻ sẽ không quan tâm." },
+            { "text": "Whether they will bring enough drinking water.", "trap": "partially_true", "whyVi": "Có nói đến nước, nhưng Lena đã giải quyết bằng can nước và bộ lọc." },
+            { "text": "Whether a site will be free since they can't reserve one.", "trap": "none", "whyVi": "Đúng: không đặt trước được nên không chắc có chỗ khi đến." },
+            { "text": "Whether her cousin will be using the same site.", "trap": "not_mentioned", "whyVi": "Lena chỉ nói anh họ hay đến đó mỗi hè, không lo về việc gặp anh ấy." }
+          ],
+          "answerIndex": 2,
+          "category": "similar_choices",
+          "evidence": "What I'm not sure about is whether we'll actually get a spot if we just turn up.",
+          "explanationVi": "'Just turn up' = đến mà không đặt trước (vì 'first come, first served'). Đáp án C diễn đạt lại; A và B là những lo ngại khác đã được nhắc rồi bị gạt đi.",
+          "vocabulary": ["first come, first served", "turn up"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Omar", "voice": "male_b", "text": "So I texted your cousin. He says the site past Chilliwack Lake fills up by noon on Friday on long weekends, but there's a second one about twenty minutes further up the road that hardly anyone knows about." },
+        { "speaker": "Lena", "voice": "female_b", "text": "Further up the road meaning a logging road?" },
+        { "speaker": "Omar", "voice": "male_b", "text": "Yeah. He says a regular car can handle it when it's dry, but he wouldn't take anything low up there right after a rainstorm. The forecast says sunny all weekend, so I think we're okay." },
+        { "speaker": "Lena", "voice": "female_b", "text": "Alright. So what if one of us goes up early on Friday and holds the spot, and the others come after work?" },
+        { "speaker": "Omar", "voice": "male_b", "text": "That's what I was going to suggest. I can take Friday off, no problem, I've got a pile of vacation days I haven't touched. I'll head up with Tuan at dawn, and you and Thuy bring the kids in the afternoon." },
+        { "speaker": "Lena", "voice": "female_b", "text": "Perfect. Just, please, check the wildlife advisories for that area before you go. I'd rather not have a repeat of this week." }
+      ],
+      "questions": [
+        {
+          "number": 7,
+          "prompt": "According to Lena's cousin, when is the logging road suitable for an ordinary car?",
+          "options": [
+            { "text": "Only before noon on Fridays.", "trap": "word_match", "whyVi": "'Noon on Friday' là lúc khu thứ nhất hết chỗ, không liên quan đến con đường." },
+            { "text": "Only with a four-wheel-drive vehicle.", "trap": "opposite", "whyVi": "Anh họ nói xe thường đi được khi đường khô." },
+            { "text": "When there hasn't been heavy rain recently.", "trap": "none", "whyVi": "Đúng: xe thường đi được 'when it's dry', không nên đi ngay sau mưa bão." },
+            { "text": "When the forecast calls for sunny weather all week.", "trap": "wrong_speaker", "whyVi": "Dự báo nắng là thông tin Omar tự kiểm tra, không phải điều kiện anh họ đặt ra." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "a regular car can handle it when it's dry, but he wouldn't take anything low up there right after a rainstorm",
+          "explanationVi": "'When it's dry' và 'not right after a rainstorm' cùng chỉ một điều kiện: đường không ướt do mưa. Đáp án C diễn đạt lại thành 'there hasn't been heavy rain recently'.",
+          "vocabulary": ["logging road"]
+        },
+        {
+          "number": 8,
+          "prompt": "What is the final plan for the weekend?",
+          "options": [
+            { "text": "Both families will leave together at dawn on Friday.", "trap": "partially_true", "whyVi": "Chỉ Omar và Tuan đi lúc bình minh; Lena, Thuy và bọn trẻ đi buổi chiều." },
+            { "text": "Lena will take Friday off to claim a campsite.", "trap": "wrong_speaker", "whyVi": "Người nghỉ thứ Sáu là Omar, không phải Lena." },
+            { "text": "They will try to reach the Chilliwack Lake site before it fills up.", "trap": "wrong_detail", "whyVi": "Họ nhắm tới khu thứ hai xa hơn 20 phút, ít người biết, không phải khu gần hồ Chilliwack." },
+            { "text": "Omar and a friend will go ahead early, and the rest will follow later.", "trap": "none", "whyVi": "Đúng: Omar và Tuan đi sớm giữ chỗ, những người còn lại đến buổi chiều." }
+          ],
+          "answerIndex": 3,
+          "category": "long_conversation",
+          "evidence": "I'll head up with Tuan at dawn, and you and Thuy bring the kids in the afternoon.",
+          "explanationVi": "Cần ghép ý của Lena ('one of us goes up early ... and holds the spot') với chi tiết của Omar ('head up with Tuan at dawn'). 'Go ahead early' = 'head up at dawn'; 'follow later' = 'in the afternoon'.",
+          "vocabulary": ["hold a spot"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "get into something", "vi": "lục lọi, phá vào (thùng, túi...)", "definition": "to open or break into something to take what is inside", "example": "A bear has been getting into coolers at the campsite." },
+    { "term": "be out (money)", "vi": "bị mất (tiền)", "definition": "to have lost an amount of money", "example": "With the automatic refund, we're not out any money." },
+    { "term": "not hold your breath", "vi": "đừng/không trông mong gì", "definition": "to not expect something to happen soon or at all", "example": "I'll check other parks, but I'm not holding my breath." },
+    { "term": "split something two ways", "vi": "chia đôi (chi phí)", "definition": "to divide a cost equally between two people or groups", "example": "If we split the cabin two ways, it's still five hundred each." },
+    { "term": "first come, first served", "vi": "ai đến trước được phục vụ trước", "definition": "given to people in the order they arrive, without reservations", "example": "Forestry recreation sites are first come, first served." },
+    { "term": "turn up", "vi": "xuất hiện, đến (thường không báo trước)", "definition": "to arrive somewhere, often without arranging it in advance", "example": "We can't reserve, so we'll just have to turn up early." },
+    { "term": "logging road", "vi": "đường khai thác gỗ (đường đất trong rừng)", "definition": "an unpaved road built for trucks that carry cut trees", "example": "The second site is twenty minutes up a logging road." },
+    { "term": "hold a spot", "vi": "giữ chỗ", "definition": "to stay in a place so that nobody else takes it", "example": "Omar will go early and hold the spot for everyone." }
+  ],
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; keys matched; cabin arithmetic (340 x 3 / 2 = 510) checked; evidence in correct chunks. Fixed: Omar's name now spoken in the audio; removed the specific 'booked in March' timing (BC Parks booking windows differ) and hedged recreation sites to 'most of them are first come, first served'." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

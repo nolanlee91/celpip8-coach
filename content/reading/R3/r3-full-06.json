@@ -1,0 +1,422 @@
+{
+  "id": "r3-full-06",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "shopping",
+  "title": "The Repair Café That Refuses to Throw Things Away",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 9 independently; keys match; Q4 E verified (no training requirement anywhere; 'safety' in C is the industry argument). Fixed a false real-world claim in Paragraph C: Quebec has already legislated repairability, so 'no government has committed to a date' was replaced with an attributed, BC-specific line ('advocates say ... no firm date has been set'); Q8 evidence, explanation and whyVi updated."},
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "On the second Saturday of every month, the basement of St. Aidan's Hall in Victoria fills up with broken things: toasters that no longer pop, jeans with split seams, a vacuum cleaner that smells of burning. The Mend & Make Collective, which runs the event, pairs each visitor with a volunteer fixer, and the two of them work on the item side by side. Founder Ruth Abernathy insists on that last part. \"We are not a free repair shop,\" she says. \"If you walk out knowing how to change a fuse yourself, that's a far bigger win than one working kettle.\" Roughly seven in ten items that come through the door leave in working order.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "The fixers are a mixed crowd. Some are retired electricians and tailors; others are university students who picked up soldering from online videos. What they share, Abernathy says, is a stubborn refusal to accept that something is finished just because it has stopped working. Oddly, the toughest jobs are not the old appliances but the new ones. Many modern devices are glued shut rather than screwed together, and manufacturers often refuse to sell spare parts to anyone outside their own authorised service centres. A volunteer can sometimes track down the problem with a cordless drill in five minutes and still be unable to do anything about it, simply because the part cannot be bought.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Advocates hope that will change. So-called right-to-repair rules, which would require manufacturers to make parts, tools and repair manuals available to independent shops and ordinary owners at a fair price, have been debated across Canada for several years. Industry groups have pushed back, arguing that amateur repairs could create safety hazards, particularly with lithium batteries, and could expose their designs to copying. Repair advocates reply that safety is a fair concern but a weak excuse, since the same companies already share that information with their own technicians. For now, advocates say, the details of any rules for British Columbia remain unclear, and no firm date has been set for bringing them in.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "For many visitors, the motivation has less to do with the planet than with their wallets. Tomás Herrera brought in a $160 espresso machine that a big-box store had told him would cost $95 just to diagnose. A volunteer found a cracked hose in twenty minutes, and Herrera paid nothing beyond the $4 replacement part and a voluntary donation to the collective. Still, Abernathy is careful not to oversell what the events can do. Some items really are beyond saving, and volunteers will say so honestly rather than let someone pin their hopes on a repair that will fail within a month. \"Sometimes the most useful thing we do,\" she says, \"is tell people it's time to let go.\"",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "The organiser cares more about passing on skills than about simply getting things working again.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: Abernathy coi việc khách học được cách tự sửa là thành công lớn hơn việc sửa xong một món đồ."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói tình nguyện viên học hàn qua video — có nói về kỹ năng, nhưng là kỹ năng của người sửa, không phải mục tiêu dạy khách."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về luật quyền sửa chữa."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn D có lời Abernathy, nhưng là về việc nói thật khi đồ không sửa được."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "main_idea",
+      "evidence": "\"If you walk out knowing how to change a fuse yourself, that's a far bigger win than one working kettle.\"",
+      "explanationVi": "Ruth Abernathy nói nếu khách ra về mà biết tự thay cầu chì thì đó là 'a far bigger win than one working kettle'. Ý chính: dạy kỹ năng quan trọng hơn sửa được một món đồ. Câu 'We are not a free repair shop' cũng củng cố ý này."
+    },
+    {
+      "number": 2,
+      "prompt": "Companies claim that letting outsiders fix their products could put people in danger.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về ý kiến của các công ty."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói nhà sản xuất không bán linh kiện cho người ngoài, nhưng không nêu lý do an toàn."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: các nhóm ngành cho rằng sửa chữa nghiệp dư có thể gây nguy hiểm, đặc biệt với pin lithium."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không có ý kiến của công ty về an toàn."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Industry groups have pushed back, arguing that amateur repairs could create safety hazards",
+      "explanationVi": "Đoạn C: các nhóm ngành công nghiệp 'pushed back' (phản đối), cho rằng sửa nghiệp dư 'could create safety hazards'. 'Put people in danger' = 'create safety hazards'; 'outsiders' = người không phải kỹ thuật viên của hãng.",
+      "vocabulary": [
+        "push back"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "Recently made products tend to be harder to repair than older ones.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A liệt kê máy nướng bánh, quần jeans, máy hút bụi hỏng, nhưng không so sánh đồ mới và đồ cũ."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Đoạn B nói việc khó nhất là sửa đồ mới chứ không phải đồ cũ."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về luật, không so sánh độ khó."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D kể một máy pha cà phê được sửa dễ dàng, không so sánh mới cũ."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Oddly, the toughest jobs are not the old appliances but the new ones.",
+      "explanationVi": "Đoạn B: 'the toughest jobs are not the old appliances but the new ones'. 'Harder to repair' = 'the toughest jobs'; 'recently made products' = 'the new ones'. Lý do: đồ mới bị dán keo kín và không mua được linh kiện."
+    },
+    {
+      "number": 4,
+      "prompt": "Volunteers must pass a safety course before working on electrical items.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A chỉ nói mỗi khách được ghép với một tình nguyện viên."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B mô tả xuất thân của tình nguyện viên nhưng không nói yêu cầu khoá học."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'safety hazards' nhưng đó là lập luận của ngành công nghiệp về luật, không phải yêu cầu với tình nguyện viên."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về đào tạo."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: không đoạn nào nói tình nguyện viên phải qua khoá an toàn."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "Some are retired electricians and tailors; others are university students who picked up soldering from online videos.",
+      "explanationVi": "Câu gần nhất ở Đoạn B mô tả tình nguyện viên: có thợ điện về hưu, có sinh viên tự học hàn qua video. Không đoạn nào nói họ phải qua khoá an toàn. Từ 'safety' ở Đoạn C là lập luận của các công ty → E."
+    },
+    {
+      "number": 5,
+      "prompt": "One visitor's repair cost much less than a store had asked simply to find out what was wrong.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không có giá cả cụ thể."
+        },
+        {
+          "text": "B",
+          "trap": "word_match",
+          "whyVi": "Đoạn B có 'in five minutes' và việc tìm ra lỗi, nhưng không có so sánh giá."
+        },
+        {
+          "text": "C",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn C nói 'at a fair price' cho linh kiện theo luật đề xuất, không phải chi phí của một khách."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: ông Herrera chỉ trả $4 thay vì $95 phí kiểm tra lỗi ở cửa hàng."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "a big-box store had told him would cost $95 just to diagnose",
+      "explanationVi": "Đoạn D: cửa hàng báo phí 'just to diagnose' (chỉ để kiểm tra lỗi) là $95, còn ở buổi sửa chữa ông chỉ trả $4 tiền linh kiện cộng tiền quyên góp tự nguyện. 'Find out what was wrong' = 'diagnose'.",
+      "vocabulary": [
+        "diagnose"
+      ]
+    },
+    {
+      "number": 6,
+      "prompt": "Helpers sometimes know exactly what is broken but cannot complete the repair.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A chỉ nói 7/10 món sửa được, không nói lý do không sửa được."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: tình nguyện viên tìm ra lỗi nhưng không sửa được vì không mua được linh kiện."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói về luật bắt hãng cung cấp linh kiện, nhưng không mô tả tình nguyện viên tìm ra lỗi mà không sửa được."
+        },
+        {
+          "text": "D",
+          "trap": "opposite",
+          "whyVi": "Đoạn D kể trường hợp tìm ra lỗi và sửa được ngay (ống nứt), ngược với câu đề."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "A volunteer can sometimes track down the problem with a cordless drill in five minutes and still be unable to do anything about it",
+      "explanationVi": "Đoạn B: tình nguyện viên 'track down the problem' (tìm ra lỗi) trong 5 phút nhưng 'unable to do anything about it' vì không mua được linh kiện. 'Know exactly what is broken' = 'track down the problem'.",
+      "vocabulary": [
+        "track down"
+      ]
+    },
+    {
+      "number": 7,
+      "prompt": "Visitors are told plainly when an item isn't worth trying to fix.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "opposite",
+          "whyVi": "Đoạn A nói phần lớn đồ sửa được, không nói về việc báo thật khi không sửa được."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói có lúc không sửa được vì thiếu linh kiện, nhưng không nói tình nguyện viên khuyên khách bỏ đồ."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nói về khách đến sửa đồ."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: tình nguyện viên nói thật khi một món không thể cứu."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Some items really are beyond saving, and volunteers will say so honestly",
+      "explanationVi": "Đoạn D: một số món 'beyond saving' (không cứu được) và tình nguyện viên 'will say so honestly'. 'Told plainly' = 'say so honestly'; 'isn't worth trying to fix' = 'beyond saving'.",
+      "vocabulary": [
+        "beyond saving"
+      ]
+    },
+    {
+      "number": 8,
+      "prompt": "It is not yet known when new repair rules might take effect.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về luật."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói chuyện thiếu linh kiện — lý do cần luật, nhưng không nói thời điểm."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: chưa có ngày cụ thể để áp dụng quy định ở BC."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về luật."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "no firm date has been set for bringing them in",
+      "explanationVi": "Đoạn C: theo những người ủng hộ, quy định cho BC còn chưa rõ và 'no firm date has been set for bringing them in' — chưa có ngày áp dụng cụ thể. 'Not yet known when' = 'no firm date has been set'; 'take effect' = 'bringing them in'.",
+      "vocabulary": [
+        "bring in"
+      ]
+    },
+    {
+      "number": 9,
+      "prompt": "Most of the items brought to the events are successfully fixed.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: khoảng 7/10 món đồ ra về trong tình trạng hoạt động được."
+        },
+        {
+          "text": "B",
+          "trap": "opposite",
+          "whyVi": "Đoạn B nhấn mạnh có món không sửa được do thiếu linh kiện."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không có số liệu sửa chữa."
+        },
+        {
+          "text": "D",
+          "trap": "partially_true",
+          "whyVi": "Đoạn D kể một máy pha cà phê sửa thành công, nhưng chỉ là một ví dụ, không nói đa số."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "Roughly seven in ten items that come through the door leave in working order.",
+      "explanationVi": "Đoạn A: 'Roughly seven in ten items ... leave in working order' — khoảng 70% đồ được sửa. 'Most' = hơn một nửa; 'successfully fixed' = 'leave in working order'."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "diagnose",
+      "vi": "chẩn đoán, tìm ra lỗi",
+      "definition": "to find out what is wrong with something",
+      "example": "The store charges $95 to diagnose a broken machine."
+    },
+    {
+      "term": "push back",
+      "vi": "phản đối, chống lại",
+      "definition": "to resist or argue against a plan or idea",
+      "example": "Industry groups pushed back against the new rules."
+    },
+    {
+      "term": "track down",
+      "vi": "tìm ra (sau khi tìm kiếm)",
+      "definition": "to find something after looking carefully",
+      "example": "She tracked down the fault in five minutes."
+    },
+    {
+      "term": "beyond saving",
+      "vi": "không thể cứu vãn, không sửa được nữa",
+      "definition": "too damaged or broken to be fixed",
+      "example": "The old printer was beyond saving."
+    },
+    {
+      "term": "bring in",
+      "vi": "đưa vào áp dụng (luật, quy định)",
+      "definition": "to introduce a new law or rule",
+      "example": "No province has said when it will bring in the rules."
+    },
+    {
+      "term": "oversell",
+      "vi": "quảng cáo quá mức, nói quá lên",
+      "definition": "to describe something as better than it really is",
+      "example": "She is careful not to oversell what volunteers can do."
+    },
+    {
+      "term": "pin your hopes on",
+      "vi": "đặt hết hy vọng vào",
+      "definition": "to depend on something to succeed",
+      "example": "Don't pin your hopes on a cheap repair."
+    },
+    {
+      "term": "let go",
+      "vi": "buông bỏ, chấp nhận từ bỏ",
+      "definition": "to stop holding on to something you cannot keep",
+      "example": "Sometimes it is time to let go of an old appliance."
+    }
+  ]
+}

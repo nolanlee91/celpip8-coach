@@ -1,0 +1,59 @@
+{
+  "id": "s7-mock-06",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "social",
+  "title": "Drinking alcohol in public parks",
+  "prompt": "Several cities in Metro Vancouver have run pilot programs that allow adults to drink alcohol in designated areas of certain public parks. One city council is now deciding whether to make its program permanent and expand it to all city parks.\n\nDo you think adults should be allowed to drink alcohol in public parks? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Nuanced position: yes in designated areas, but not in every park",
+    "Reason for: responsible use, people without private outdoor space, rules better than ignoring reality",
+    "Reason against full expansion: family spaces, litter, noise, cost to taxpayers",
+    "Targeted alternative with specific conditions",
+    "Conclusion with conditions (limited, managed, reviewed)"
+  ],
+  "modelAnswer": "My view is that allowing drinking in designated areas of some parks makes sense, but I'd stop short of expanding it to every park in the city.\n\nOn the positive side, the pilot programs suggest that most adults can enjoy a drink outdoors responsibly. For people who live in small condos without a balcony or a backyard, a park is essentially their only outdoor space. Having a glass of wine with a picnic is a pretty modest freedom, and it's something people in many European cities take for granted. Frankly, plenty of people were already doing it quietly, so a clear set of rules is arguably better than pretending it isn't happening.\n\nThat said, rolling it out to all parks would be a step too far. Many parks are centred on playgrounds, spray parks or youth sports fields, and parents have every right to expect those spaces to stay family-friendly. There are also practical concerns, like extra litter, noise late at night and the cost of cleaning up after big gatherings, and those costs ultimately land on taxpayers.\n\nSo rather than an all-or-nothing approach, I'd suggest a targeted one. The city could limit alcohol to specific zones near washrooms and garbage bins, set clear hours, say until nine p.m., and keep those zones well away from children's areas.\n\nIn a nutshell, I'm in favour of keeping the program, as long as it remains limited, well managed and regularly reviewed.",
+  "usefulExpressions": [
+    {
+      "expression": "I'd stop short of (doing something)",
+      "usageVi": "= tôi sẽ không đi xa đến mức…; đặt giới hạn cho quan điểm ủng hộ."
+    },
+    {
+      "expression": "take (something) for granted",
+      "usageVi": "= coi là điều hiển nhiên."
+    },
+    {
+      "expression": "…is arguably better than pretending it isn't happening",
+      "usageVi": "'arguably' là cách rào đón khéo; lập luận thực tế, mạnh ở mức 9."
+    },
+    {
+      "expression": "a step too far",
+      "usageVi": "= đi quá xa, vượt quá mức chấp nhận được."
+    },
+    {
+      "expression": "rather than an all-or-nothing approach",
+      "usageVi": "Đề xuất giải pháp trung dung thay vì chọn hoàn toàn có hoặc không."
+    },
+    {
+      "expression": "In a nutshell, …",
+      "usageVi": "= tóm lại; mở đầu kết luận tự nhiên."
+    }
+  ],
+  "commonMistakes": [
+    "Trả lời 'yes' hoặc 'no' tuyệt đối mà bỏ qua ý 'expand it to all city parks' trong đề. Đề có hai ý — hãy phản hồi cả hai.",
+    "Nói 'drink alcohol is dangerous' → chủ ngữ phải là danh động từ: 'Drinking alcohol can be risky'.",
+    "Phát âm sai 'alcohol' /ˈæl.kə.hɑːl/ (trọng âm ở âm đầu) và nói nhanh làm 'park' nghe giống 'parking'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked nuanced position addressing both parts of the prompt (keep program / expand to all parks), pilot programs framed accurately as pilots in 'several' Metro Vancouver cities, no claim about current BC liquor law as settled, length now 239. Trimmed two short phrases from the 252-word answer for speakability."
+  },
+  "createdAt": "2026-11-03"
+}

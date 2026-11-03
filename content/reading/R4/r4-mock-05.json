@@ -1,0 +1,397 @@
+{
+  "id": "r4-mock-05",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "banking",
+  "title": "A Small Town Loses Its Last Bank Branch",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Near-duplicate of r4-full-06 (same batch): coastal small town's last credit-union branch (opened 1970s) closing, video teller in the community hall, converted-vehicle mobile branch, visits down 'more than 60 per cent', near-identical 'We're a co-operative. Every dollar...' quote. Keep only one. Content otherwise passes: all 10 keys solved independently and match; fixed blank 8 option B ('open every second Thursday' was defensible because the mobile branch visits then) -> 'only ten minutes down the road'. Can be approved if r4-full-06 is dropped or rewritten. 2026-11-03: the duplicate counterpart (r4-full / r4-drill-03) was rewritten with a different scenario, so the duplication no longer applies; approved on the reviewer’s item-quality findings."
+  },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "When Coastline Savings Credit Union opened its branch on Main Street in Halfmoon Crossing in 1978, it was the first financial institution the town had ever had. Now it is set to be the last one to leave. The credit union announced last week that the branch will close on January 31, leaving the community of about 3,800 people without a single place to bank in person. In its place, Coastline will install a video banking machine at the community hall and send a mobile branch, a converted van, to town every second Thursday.\n\nArjun Mehta, Coastline's vice-president of member services, says the decision came down to numbers the credit union could no longer ignore. Counter transactions at the branch have fallen by more than 60 per cent in five years, and the building needs a new roof and heating system estimated at $400,000. \"We're a co-operative. Every dollar we spend propping up an empty branch comes out of our members' pockets,\" he said. Mehta stresses that nobody will lose their job; the branch's four employees have been offered positions elsewhere.\n\nMayor Colleen Barrette is not convinced the numbers tell the whole story. Fewer people may be visiting the counter, she says, but those who still do are often the ones with the fewest alternatives: seniors, newcomers who need help in person, and people with patchy internet at home. \"A branch isn't only a place where money changes hands. It's where someone notices your account looks strange and asks if you're all right.\" Barrette has asked the credit union to hold off for a year while the town looks for a partner to share the building.\n\nFor business owners, the problem is more practical. Emeka Obi, who runs the hardware store across the street, deposits cash every afternoon, and the nearest branch after January will be in Port Halsey, a forty-minute drive each way. \"I'm told the machine at the hall takes deposits, but I'm not comfortable feeding two thousand dollars into a box,\" he said. \"So I'll end up keeping more cash in the store, and that's a risk of its own.\"\n\nNot every member is upset. Brianna Seto, 26, who works remotely for a Vancouver firm, hasn't set foot in the branch since she opened her account. Even so, she hesitates to make her own habits the measure. \"It's easy for me to shrug. My grandmother would tell you a very different story.\"\n\nGwen Tatsumi, who teaches online banking to seniors at the library, sees both sides. Most of her students pick up the basics within a few weeks, she says; what holds them back is fear of being scammed, not a lack of skill. \"If the credit union wants people banking online, it should be in this room with them, not just handing out brochures.\" Coastline says it will run free workshops in town before the closure.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "My late husband and I opened our first joint account at the Main Street branch, so this news hit me hard. Still, I'll admit Mr. Mehta has a point: with counter visits down [[6]], I can see why the credit union is worried. What I can't accept is the timing. Mayor Barrette's request to [[7]] seems more than reasonable, especially since the town might find someone to share the costs. I also feel for Mr. Obi. Telling a shopkeeper to trust a machine he's uneasy about, when the nearest branch is [[8]], is not a real solution. And while I'm glad Coastline has promised [[9]], Ms. Tatsumi is right that a few sessions and some brochures won't [[10]]. People my age don't need to be told online banking is easy. We need someone to show us it's safe.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Why is Coastline closing the Halfmoon Crossing branch?",
+      "options": [
+        {
+          "text": "It can no longer find enough staff to run the branch.",
+          "trap": "opposite",
+          "whyVi": "Không thiếu nhân viên; bốn nhân viên còn được mời làm ở nơi khác."
+        },
+        {
+          "text": "Most members voted in favour of closing it.",
+          "trap": "not_mentioned",
+          "whyVi": "Bài không nói thành viên bỏ phiếu đóng cửa chi nhánh."
+        },
+        {
+          "text": "It wants to move the branch into the community hall.",
+          "trap": "word_match",
+          "whyVi": "Nhà cộng đồng chỉ có máy giao dịch video, không phải chi nhánh mới."
+        },
+        {
+          "text": "Far fewer people use it, and the building needs costly work.",
+          "trap": "none",
+          "whyVi": "Đúng: Giao dịch tại quầy giảm hơn 60% và tòa nhà cần sửa mái, hệ thống sưởi ước tính $400,000."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Counter transactions at the branch have fallen by more than 60 per cent in five years, and the building needs a new roof and heating system estimated at $400,000.",
+      "explanationVi": "'Numbers the credit union could no longer ignore' gồm hai con số: giao dịch giảm hơn 60% ('far fewer people use it') và $400,000 sửa chữa ('costly work'). Đáp án D gộp cả hai bằng từ khác."
+    },
+    {
+      "number": 2,
+      "prompt": "What does Mayor Barrette mean when she says a branch \"isn't only a place where money changes hands\"?",
+      "options": [
+        {
+          "text": "Branch staff should do more to investigate fraud.",
+          "trap": "word_match",
+          "whyVi": "Câu 'your account looks strange' gợi ý gian lận, nhưng bà không yêu cầu nhân viên điều tra thêm."
+        },
+        {
+          "text": "Branches offer a kind of personal attention that machines cannot.",
+          "trap": "none",
+          "whyVi": "Đúng: Ở chi nhánh, có người 'notices ... and asks if you're all right' – sự quan tâm trực tiếp mà máy không làm được."
+        },
+        {
+          "text": "The branch building should become a community centre.",
+          "trap": "partially_true",
+          "whyVi": "Bà muốn tìm đối tác dùng chung tòa nhà, nhưng câu nói này nói về vai trò của chi nhánh, không phải biến nó thành trung tâm cộng đồng."
+        },
+        {
+          "text": "Online banking is unsafe for most people.",
+          "trap": "too_broad",
+          "whyVi": "Bà không nói ngân hàng trực tuyến không an toàn cho đa số mọi người."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"A branch isn't only a place where money changes hands. It's where someone notices your account looks strange and asks if you're all right.\"",
+      "explanationVi": "Câu thứ hai giải thích câu thứ nhất: ngoài giao dịch tiền, chi nhánh có con người chú ý và quan tâm đến khách. Phải suy ra rằng máy móc thay thế không làm được điều này."
+    },
+    {
+      "number": 3,
+      "prompt": "Why does Emeka Obi expect to keep more cash in his store?",
+      "options": [
+        {
+          "text": "He is reluctant to put large deposits into the new machine.",
+          "trap": "none",
+          "whyVi": "Đúng: 'I'm not comfortable feeding two thousand dollars into a box' – ông ngại gửi khoản lớn vào máy."
+        },
+        {
+          "text": "The new machine will not accept cash deposits.",
+          "trap": "opposite",
+          "whyVi": "Ông được báo là máy có nhận tiền gửi ('takes deposits')."
+        },
+        {
+          "text": "He plans to drive to Port Halsey every afternoon.",
+          "trap": "opposite",
+          "whyVi": "Nếu ông lái xe đi gửi mỗi chiều thì không cần giữ thêm tiền mặt; ông chỉ nói chi nhánh gần nhất xa 40 phút."
+        },
+        {
+          "text": "He wants to avoid the fees charged by the mobile branch.",
+          "trap": "not_mentioned",
+          "whyVi": "Bài không nhắc phí của chi nhánh lưu động."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"I'm told the machine at the hall takes deposits, but I'm not comfortable feeding two thousand dollars into a box,\" he said. \"So I'll end up keeping more cash in the store, and that's a risk of its own.\"",
+      "explanationVi": "Từ nối 'So' cho thấy nguyên nhân nằm ở câu trước: ông không yên tâm cho $2,000 vào máy. Chi nhánh thật thì xa 40 phút mỗi chiều. Vì vậy ông sẽ giữ tiền ở cửa hàng. 'Not comfortable' = 'reluctant'.",
+      "vocabulary": [
+        "end up"
+      ]
+    },
+    {
+      "number": 4,
+      "prompt": "What does Brianna Seto's comment about her grandmother show?",
+      "options": [
+        {
+          "text": "She thinks the closure should be stopped.",
+          "trap": "too_broad",
+          "whyVi": "Cô không nói nên dừng việc đóng cửa; cô chỉ nhận ra người khác có thể bị ảnh hưởng nhiều hơn."
+        },
+        {
+          "text": "Her grandmother already does all her banking online.",
+          "trap": "opposite",
+          "whyVi": "Câu nói ngụ ý bà của cô sẽ có câu chuyện 'very different', tức là bà cần chi nhánh."
+        },
+        {
+          "text": "She knows her experience may not reflect that of other members.",
+          "trap": "none",
+          "whyVi": "Đúng: Cô 'hesitates to make her own habits the measure' và nói bà mình sẽ nghĩ khác."
+        },
+        {
+          "text": "She regrets never having visited the branch.",
+          "trap": "not_mentioned",
+          "whyVi": "Cô không bày tỏ sự hối tiếc."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Even so, she hesitates to make her own habits the measure.",
+      "explanationVi": "Dù bản thân không cần chi nhánh, cô không muốn lấy thói quen của mình làm thước đo ('the measure'). Câu về bà ngoại là ví dụ: người lớn tuổi sẽ bị ảnh hưởng khác hẳn. 'Easy for me to shrug' = dễ cho tôi tỏ ra không quan tâm.",
+      "vocabulary": [
+        "shrug"
+      ]
+    },
+    {
+      "number": 5,
+      "prompt": "According to Gwen Tatsumi, what mainly stops seniors from banking online?",
+      "options": [
+        {
+          "text": "They do not have reliable internet at home.",
+          "trap": "wrong_speaker",
+          "whyVi": "Internet chập chờn là ý của Thị trưởng Barrette."
+        },
+        {
+          "text": "They find the technology too difficult to learn.",
+          "trap": "opposite",
+          "whyVi": "Tatsumi nói hầu hết học viên nắm cơ bản trong vài tuần."
+        },
+        {
+          "text": "The credit union has not offered any workshops.",
+          "trap": "wrong_detail",
+          "whyVi": "Coastline có hứa tổ chức hội thảo miễn phí; đây cũng không phải rào cản bà nêu."
+        },
+        {
+          "text": "They worry about falling victim to fraud.",
+          "trap": "none",
+          "whyVi": "Đúng: 'what holds them back is fear of being scammed, not a lack of skill'."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "what holds them back is fear of being scammed, not a lack of skill",
+      "explanationVi": "'Hold back' = ngăn cản. 'Fear of being scammed' = 'worry about falling victim to fraud'. Đáp án B là bẫy ngược vì bà nói rõ 'not a lack of skill'.",
+      "vocabulary": [
+        "hold back",
+        "scam"
+      ]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        {
+          "text": "by about a quarter since last year",
+          "trap": "wrong_detail",
+          "whyVi": "Con số và thời gian sai; bài nói giảm hơn 60% trong năm năm."
+        },
+        {
+          "text": "by well over half in five years",
+          "trap": "none",
+          "whyVi": "Đúng: 'fallen by more than 60 per cent in five years'."
+        },
+        {
+          "text": "to just four visits a day",
+          "trap": "word_match",
+          "whyVi": "Số 4 trong bài là số nhân viên, không phải số lượt khách."
+        },
+        {
+          "text": "since the branch opened in 1978",
+          "trap": "wrong_detail",
+          "whyVi": "1978 là năm mở chi nhánh; mức giảm được tính trong năm năm gần đây."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Counter transactions at the branch have fallen by more than 60 per cent in five years",
+      "explanationVi": "'Counter visits down' = 'counter transactions have fallen'. 'More than 60 per cent' = 'well over half'. Cần đổi phần trăm sang cách nói khác."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        {
+          "text": "put off the closure for twelve months",
+          "trap": "none",
+          "whyVi": "Đúng: Bà yêu cầu credit union 'hold off for a year' trong khi tìm đối tác."
+        },
+        {
+          "text": "cancel the closure for good",
+          "trap": "too_broad",
+          "whyVi": "Bà chỉ xin hoãn một năm, không yêu cầu hủy hẳn."
+        },
+        {
+          "text": "move the branch into the community hall",
+          "trap": "word_match",
+          "whyVi": "Nhà cộng đồng là nơi đặt máy video, không phải đề nghị của thị trưởng."
+        },
+        {
+          "text": "hire more staff for the branch",
+          "trap": "not_mentioned",
+          "whyVi": "Không ai đề nghị thuê thêm nhân viên."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "Barrette has asked the credit union to hold off for a year while the town looks for a partner to share the building.",
+      "explanationVi": "'Hold off for a year' = 'put off ... for twelve months' (hoãn). Vế sau trong bình luận 'the town might find someone to share the costs' khớp với 'looks for a partner to share the building'. Câu trước 'What I can't accept is the timing' cũng cho thấy vấn đề là thời điểm, không phải hủy hẳn.",
+      "vocabulary": [
+        "hold off"
+      ]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        {
+          "text": "right across the street",
+          "trap": "word_match",
+          "whyVi": "'Across the street' là vị trí cửa hàng của ông so với chi nhánh cũ, nhưng sau tháng Một chi nhánh đó đóng cửa."
+        },
+        {
+          "text": "only ten minutes down the road",
+          "trap": "opposite",
+          "whyVi": "Sai: chi nhánh gần nhất ở Port Halsey, cách 40 phút lái xe mỗi chiều; nếu gần như vậy thì người viết đã không chê là 'not a real solution'."
+        },
+        {
+          "text": "a forty-minute drive away",
+          "trap": "none",
+          "whyVi": "Đúng: 'the nearest branch after January will be in Port Halsey, a forty-minute drive each way'."
+        },
+        {
+          "text": "inside the community hall",
+          "trap": "wrong_detail",
+          "whyVi": "Nhà cộng đồng chỉ có máy giao dịch video."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "the nearest branch after January will be in Port Halsey, a forty-minute drive each way",
+      "explanationVi": "Từ khóa 'the nearest branch' xuất hiện y hệt trong đoạn 4. Chi nhánh gần nhất ở Port Halsey, cách 40 phút lái xe. Logic câu: đã không tin máy, chi nhánh lại xa → 'not a real solution'."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        {
+          "text": "to keep all four employees in town",
+          "trap": "opposite",
+          "whyVi": "Bốn nhân viên được mời làm ở nơi khác, không ở lại thị trấn."
+        },
+        {
+          "text": "a new roof and heating system",
+          "trap": "word_match",
+          "whyVi": "Đây là phần sửa chữa tòa nhà cần làm, không phải điều Coastline hứa."
+        },
+        {
+          "text": "lower fees for its senior members",
+          "trap": "not_mentioned",
+          "whyVi": "Bài không nói giảm phí cho người cao tuổi."
+        },
+        {
+          "text": "to hold free classes before the branch shuts",
+          "trap": "none",
+          "whyVi": "Đúng: 'Coastline says it will run free workshops in town before the closure.'"
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Coastline says it will run free workshops in town before the closure.",
+      "explanationVi": "'Has promised' → tìm lời hứa của Coastline ở câu cuối bài. 'Run free workshops' = 'hold free classes'; 'before the closure' = 'before the branch shuts'. Vế sau 'a few sessions' cũng chỉ các buổi hội thảo này."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        {
+          "text": "teach people the basic steps",
+          "trap": "opposite",
+          "whyVi": "Tatsumi nói người cao tuổi học cơ bản rất nhanh; vấn đề không phải kỹ năng."
+        },
+        {
+          "text": "ease the worries that keep many seniors offline",
+          "trap": "none",
+          "whyVi": "Đúng: Rào cản chính là nỗi sợ bị lừa; câu cuối 'show us it's safe' xác nhận."
+        },
+        {
+          "text": "replace a branch for business owners",
+          "trap": "partially_true",
+          "whyVi": "Vấn đề của doanh nghiệp được nhắc trước đó, nhưng câu này nói về ý của Tatsumi và người cao tuổi."
+        },
+        {
+          "text": "convince younger members like Ms. Seto",
+          "trap": "wrong_speaker",
+          "whyVi": "Seto vốn đã dùng ngân hàng trực tuyến; Tatsumi nói về người cao tuổi."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "what holds them back is fear of being scammed, not a lack of skill",
+      "explanationVi": "Người viết đồng ý với Tatsumi, và hai câu cuối giải thích: 'don't need to be told ... easy', 'need someone to show us it's safe'. Vậy vài buổi học không giải quyết được nỗi sợ – 'ease the worries'. Đáp án A trái với lời Tatsumi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "credit union",
+      "vi": "hợp tác xã tín dụng",
+      "definition": "a financial co-operative owned by its members",
+      "example": "Coastline Savings Credit Union is closing its Main Street branch."
+    },
+    {
+      "term": "prop up",
+      "vi": "chống đỡ, duy trì (thứ đang yếu)",
+      "definition": "to keep something going that would otherwise fail",
+      "example": "Propping up an empty branch costs members money."
+    },
+    {
+      "term": "patchy",
+      "vi": "chập chờn, không đều",
+      "definition": "not reliable or not available everywhere",
+      "example": "Some residents have patchy internet at home."
+    },
+    {
+      "term": "hold off",
+      "vi": "hoãn lại",
+      "definition": "to delay doing something",
+      "example": "The mayor asked the credit union to hold off for a year."
+    },
+    {
+      "term": "end up",
+      "vi": "rốt cuộc phải",
+      "definition": "to finally be in a situation you did not plan",
+      "example": "He will end up keeping more cash in the store."
+    },
+    {
+      "term": "shrug",
+      "vi": "nhún vai, tỏ ra không quan tâm",
+      "definition": "to show that something does not matter much to you",
+      "example": "It's easy for young members to shrug at the closure."
+    },
+    {
+      "term": "hold back",
+      "vi": "cản trở, kìm lại",
+      "definition": "to stop someone from doing something or making progress",
+      "example": "Fear of fraud holds many seniors back."
+    },
+    {
+      "term": "scam",
+      "vi": "lừa đảo",
+      "definition": "a dishonest trick to get someone's money",
+      "example": "Many seniors are afraid of being scammed online."
+    }
+  ]
+}

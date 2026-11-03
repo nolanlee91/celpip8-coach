@@ -1,11 +1,12 @@
 # CELPIP 8 Coach: audit report
 
-This is the single, current audit document for the repository. It replaces all earlier audit files. It is written for an independent reviewer (Codex) and covers the whole app as of the latest commit on `main`, built in four stages:
+This is the single, current audit document for the repository. It replaces all earlier audit files. It is written for an independent reviewer (Codex) and covers the whole app as of the latest commit on `main`, built in five stages:
 
 1. offline-first content library;
 2. Learn Mode with coaching;
 3. interface redesign and mobile support;
-4. guided onboarding and clear learning navigation.
+4. guided onboarding and clear learning navigation;
+5. a tripled practice library (288 items, 6 mock exams), read-aloud audio and Vietnamese translations for every passage (§13).
 
 | | |
 |---|---|
@@ -24,7 +25,7 @@ This is the single, current audit document for the repository. It replaces all e
 
 | Area | Status |
 |---|---|
-| **Practice Mode:** Reading, Listening, Writing, Speaking, mock exams | Works offline from a prebuilt library of 96 items + 1,000 vocabulary entries |
+| **Practice Mode:** Reading, Listening, Writing, Speaking, mock exams | Works offline from a prebuilt library of 288 items (tripled in stage 5) + 1,000 vocabulary entries + 6 mock-exam packages |
 | **Learn Mode:** structured curriculum | 60 lessons (15 per skill), 715 exercises, all approved and valid |
 | **Coach:** what to learn next, daily plan | Rule-based, no AI; explains each choice in Vietnamese |
 | **Mastery and spaced review** | SM-2 for lessons, mistakes and vocabulary |
@@ -32,7 +33,7 @@ This is the single, current audit document for the repository. It replaces all e
 | **AI (Gemini)** | Optional. Used only for the AI Tutor, Writing/Speaking evaluation on request, and admin content generation. |
 | **Interface** | Redesigned; bottom tab navigation on phones; no horizontal scroll at 375 px |
 | **Guided navigation** | 3-step onboarding for new learners; one dominant "do this now" action on the dashboard; a "next step" on every result screen; dismissible first-visit help; a "Bắt đầu từ đâu?" page |
-| **Tests** | Typecheck OK; `test:learn` 30/30; `test:smoke` 54/54; content validation 0 errors / 0 warnings; build OK |
+| **Tests** | Typecheck OK; `test:learn` 30/30; `test:smoke` 55/55; content validation 0 errors / 0 warnings; build OK |
 
 **Not yet done:**
 - No human has reviewed the content or listened to the audio.
@@ -106,21 +107,21 @@ All counts come from `npm run content:validate` (0 errors, 0 warnings) and count
 
 | Item | Count | Detail |
 |---|---|---|
-| Reading sets | **28** | R1–R4: each part has 3 full, 2 mock and 2 drill sets. **238 questions.** |
-| Listening sets | **24** | L1–L6: each part has 1 full, 2 mock and 1 drill set. **139 questions.** |
-| Writing prompts | **12** | W1/W2: 4 practice + 2 mock each, with model response, structure, expressions and common mistakes |
-| Speaking prompts | **32** | S1–S8: 2 practice + 2 mock each; 12 hand-drawn SVG scenes (S3/S4/S8) |
+| Reading sets | **84** | R1–R4: each part has 9 full, 6 mock and 6 drill sets. **716 questions.** |
+| Listening sets | **72** | L1–L6: each part has 4 full, 6 mock and 2 drill sets. **436 questions.** |
+| Writing prompts | **36** | W1/W2: 12 practice + 6 mock each, with model response, structure, expressions and common mistakes |
+| Speaking prompts | **96** | S1–S8: 6 practice + 6 mock each; 36 hand-drawn SVG scenes (S3/S4/S8) |
 | Vocabulary entries | **1,000** | 13 topics, 76–77 each; difficulty 5: 70, 6: 273, 7: 350, 8: 239, 9: 68; 1,000 unique terms |
-| Mock-exam packages | **2** | Each has 6 L + 4 R + 2 W + 8 S |
+| Mock-exam packages | **6** | Each has 6 L + 4 R + 2 W + 8 S |
 
 **Progress toward long-term targets:**
 
 | Skill | Current | Target |
 |---|---|---|
-| Reading sets | 28 | 200 |
-| Listening sets | 24 | 150 |
-| Writing prompts | 12 | 100 |
-| Speaking prompts | 32 | 160 |
+| Reading sets | 84 | 200 |
+| Listening sets | 72 | 150 |
+| Writing prompts | 36 | 100 |
+| Speaking prompts | 96 | 160 |
 | Vocabulary | 1,000 | 2,000 |
 
 ### 3.2 Learn Mode curriculum (60/60 active)
@@ -610,7 +611,7 @@ It is reachable from the sidebar, the mobile **Thêm** tab and **Cài đặt**.
    - lesson mastery is not a CELPIP score;
    - Reading/Listening practice estimates are heuristics;
    - the coach weights are hand-set, not tuned on data.
-7. Content volume is small compared with the targets (§3.1). Listening practice has only 1 full set per part outside the mock packages.
+7. Content volume is still below the long-term targets (§3.1), though tripled in stage 5. Listening practice has 6 non-mock sets per part (4 full + 2 drill).
 8. Lessons are authored as files; the admin generation pipeline produces practice items only.
 9. Guided navigation is rule-based wording over the coach. The new-learner flow was checked by an automated click-through, not by a real first-time user.
 10. The Mock exam report does not yet end with a "next step" card; it links back to the dashboard as before.
@@ -640,3 +641,37 @@ npm run test:learn && npm run test:smoke
 Then:
 - Open `/learn/rd-08`, `/learn/ls-07` and `/learn/sp-13` and complete a pass.
 - Read the `review.notes` field of any content file.
+
+---
+
+## 13. Stage 5: tripled content, read-aloud and translations (2026-11-03)
+
+**Content (all counts from `npm run content:validate`, 0 errors / 0 warnings):**
+
+| | Before | After |
+|---|---|---|
+| Reading sets | 28 | 84 (716 questions) |
+| Listening sets | 24 | 72 (436 questions) |
+| Writing prompts | 12 | 36 |
+| Speaking prompts | 32 | 96 (36 SVG scenes) |
+| Mock-exam packages | 2 | 6 (all valid, all listening audio present) |
+
+- Library difficulty is now 6: 29, 7: 94, 8: 125, 9: 40 items. New items target 8–9, the learner's new goal range.
+- **Process:** 24 author agents (one per part) wrote drafts from `CONTENT_GUIDE.md`; a different agent reviewed every file, solving each question before reading the key, recomputing every number, checking facts about BC/Canada, SVGs against model answers, and word counts. Items were approved only after `content:validate` was clean.
+- **What reviews caught:** distractors that were also defensible; dates on the wrong weekday; real organisations or places attached to invented events (renamed to fictional ones); legal/medical/financial claims stated as fact (hedged or removed, e.g. a BC Residential Tenancy Act conflict, a false graduation requirement); model answers describing details not drawn in the SVG; and listening questions naming speakers whose names were never spoken. That last issue also existed in 13 older listening sets, which were fixed the same way (names added to the dialogue).
+- **Duplicates:** parallel authors picked the same scenario in a few places (e.g. R4 full vs R4 mock, R2 full vs R2 mock). The duplicates were rewritten and re-reviewed independently; a final scan of all 314 titles found no same-skill near-duplicates.
+- **Answer keys:** no approved key was found wrong; reviewers changed keys only when re-ordering options or rewriting a whole set.
+
+**Media:**
+- Listening audio: 175 MP3 files in `audio-assets/` (practice sets 72/72 and lesson clips 83/83 complete; manifest and files match, no orphans).
+- "Nghe bài đọc": 361 read-aloud MP3 files (`tts-<hash>.mp3`, en-CA Clara) for every reading passage, table and text lesson stimulus, bundled in `audio-assets/`.
+- Vietnamese translations: 2,006/2,006 study texts in `content/translations/vi.json` (passages, transcripts, prompts, lesson stimuli; questions stay English).
+- `audio-assets/` is now about 200 MB.
+
+**Code in this stage:**
+- AI prompts (evaluation and tutor) read the official scores and `targetLevel` from Settings instead of a fixed "Level 8".
+- `content:validate` prints a "Generated media" section that flags listening sets without audio, passages without bundled read-aloud audio and texts without a translation.
+- The mock-exam report ends with a "next step" card (`/api/next-step?after=mock&mockId=…`), chosen from the weakest question type across the whole mock.
+- Paragraphs are no longer capped at 75ch; a "Cấu trúc bài thi" page explains the test format.
+
+**Not yet verified:** no human has read the new items or listened to the new audio; the AI review is careful but not expert certification.

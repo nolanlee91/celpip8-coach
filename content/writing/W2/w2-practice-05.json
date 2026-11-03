@@ -1,0 +1,64 @@
+{
+  "id": "w2-practice-05",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "housing",
+  "title": "Strata improvement: secure bike room or rooftop garden",
+  "situation": "You own a condo in a 60-unit building in New Westminster. The strata council has $40,000 available for one improvement project this year and has sent the following survey to all owners.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Convert part of the underground parkade into a secure bike room with key-fob access, racks for 80 bicycles and a small repair stand.",
+  "optionB": "Option B: Turn the unused rooftop into a shared garden with planter boxes, seating and a barbecue area for residents.",
+  "structure": [
+    "Opening: state your choice + the main reason (it solves a daily problem)",
+    "Reason 1: the current problem (theft, bikes in elevators) + concrete example",
+    "Reason 2: wider benefit (location near SkyTrain, less driving)",
+    "Concession: the appeal of the other option, then its limits (seasonal use, maintenance)",
+    "One-sentence conclusion restating the choice in different words"
+  ],
+  "modelResponse": "Of the two proposals, I would support converting part of the parkade into a secure bike room, because it addresses a real problem that residents face every day.\n\nAt the moment, bike theft is a constant worry in our building. Several neighbours have had bikes stolen from the parkade over the past year, and many others now keep their bikes on their balconies or squeeze them into the elevator, which scratches the walls and annoys other residents. A locked room with proper racks would put an end to this and protect property worth thousands of dollars.\n\nMoreover, a bike room would make cycling a realistic option for more of us. We are only a ten-minute ride from the SkyTrain station, so safer storage could help residents cut down on driving and save on gas and parking.\n\nI can certainly see the appeal of a rooftop garden, especially for families without outdoor space. However, it would only be usable for a few months a year, and the planters and barbecue area would need ongoing maintenance and supervision.\n\nIn short, the bike room is the more practical, year-round investment.",
+  "usefulExpressions": [
+    {
+      "expression": "Of the two proposals, I would support…",
+      "usageVi": "Mở bài nêu lựa chọn rõ ràng, giọng trang trọng phù hợp khảo sát của ban quản trị (strata)."
+    },
+    {
+      "expression": "addresses a real problem that residents face every day",
+      "usageVi": "'address a problem' = giải quyết vấn đề; tự nhiên hơn 'solve the problem' khi viết trang trọng."
+    },
+    {
+      "expression": "put an end to…",
+      "usageVi": "Chấm dứt một tình trạng xấu — cụm động từ mạnh, gọn."
+    },
+    {
+      "expression": "cut down on driving",
+      "usageVi": "Phrasal verb 'cut down on' = giảm bớt; rất hay dùng trong văn nói và viết tự nhiên."
+    },
+    {
+      "expression": "I can certainly see the appeal of…",
+      "usageVi": "Thừa nhận ưu điểm của phương án kia một cách lịch sự trước khi phản bác."
+    },
+    {
+      "expression": "year-round investment",
+      "usageVi": "Tính từ ghép 'year-round' (quanh năm) — nhấn mạnh lợi ích lâu dài so với phương án theo mùa."
+    }
+  ],
+  "commonMistakes": [
+    "Viết 'parking' thay cho 'parkade'/'parking garage' khi nói về bãi đỗ xe ngầm — ở BC 'parkade' là từ tự nhiên.",
+    "Chỉ nói 'bike room is safe' mà không có ví dụ (xe bị trộm, xe mang vào thang máy). Lý do cần có chi tiết cụ thể.",
+    "Quên số nhiều: 'many neighbour have bike' → 'many neighbours have bikes'.",
+    "Không nhắc đến phương án còn lại. Một câu thừa nhận ('I can see the appeal of…') rồi phản bác giúp bài cân bằng hơn."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked W2 instructions, balance of options (both fit the $40,000 budget), choice + concrete theft/elevator example, SkyTrain benefit, concession on seasonal use, Canadian usage ('parkade'), word count 187. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

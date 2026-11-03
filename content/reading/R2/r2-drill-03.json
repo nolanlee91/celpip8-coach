@@ -1,0 +1,139 @@
+{
+  "id": "r2-drill-03",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "Detail drill: Taking the coach to Kelowna with skis",
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independent re-review of the rewritten drill (the rewriter had self-approved it). Blind-solved all 6 and recomputed: skis Express-only, Express 2 arrives 7:30 vs 5:00 = 2.5 h late, $79 x 0.7 = $55.30 (mother is 65 by Dec 30; $23.70 and $41.30 distractors check), $20 per pair each, 24 h before 8:30 a.m. Dec 30 = 8:30 a.m. Dec 29; keys match, 5/6 detail items. Changed difficulty 8 -> 7 because the items are table look-ups with one or two arithmetic steps, not inference. Coach line is fictional; no duplicate title." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Timetable",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Okanagan Link Coaches — Vancouver to Kelowna, Winter Timetable. Fares are one way. Seniors (65+) and children (2–11) pay 30% less. Each passenger may check 1 bag free; a second bag costs $15. Skis and bikes: $20 per item, on Express trips only, and must be booked at least 24 hours before departure.",
+        "headers": ["Trip", "Departs Vancouver", "Arrives Kelowna", "Stops", "Adult fare", "On board"],
+        "rows": [
+          ["Early Bird", "6:15 a.m.", "12:05 p.m.", "Hope, Merritt", "$59", "Wi-Fi"],
+          ["Express 1", "8:30 a.m.", "1:15 p.m.", "None", "$79", "Wi-Fi, power outlets"],
+          ["Valley Local", "10:00 a.m.", "5:40 p.m.", "Chilliwack, Hope, Merritt, West Kelowna", "$54", "None"],
+          ["Express 2", "2:45 p.m.", "7:30 p.m.", "None", "$79", "Wi-Fi, power outlets"],
+          ["Night Coach", "11:50 p.m.", "5:45 a.m. (next day)", "Hope, Merritt", "$49", "Reclining seats"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Marcus,\n\nI've worked out how Mom and I will get to Kelowna for New Year's. We're bringing our skis, so we'll have to take [[1]]. That rules out the cheap Night Coach, which is a shame, but Mom wouldn't sleep a wink on it anyway.\n\nYour housewarming starts at five, so Express 2 would get us there [[2]]. That means Express 1 it is. Mom turns 65 on December 12, so by the time we travel, her ticket will only be [[3]]. Mine is the full $79.\n\nOn top of the fares, we'll each pay [[4]] for our skis, and since we leave at 8:30 a.m. on December 30, I'll have to book them by [[5]] at the latest.\n\nMom also insists on bringing two suitcases, which will cost her another $15. I told her one is plenty for four days, but you know what she's like!\n\nCould you pick us up at the Kelowna depot? We get in at a quarter past one.\n\nInes",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "the Early Bird", "trap": "wrong_detail", "whyVi": "Early Bird không phải chuyến Express; ván trượt chỉ được mang trên chuyến Express." },
+        { "text": "the Valley Local", "trap": "wrong_detail", "whyVi": "Valley Local cũng không phải chuyến Express." },
+        { "text": "an Express coach", "trap": "none", "whyVi": "Đúng: ván trượt chỉ được chở trên chuyến Express (Express 1 hoặc Express 2)." },
+        { "text": "the Night Coach", "trap": "opposite", "whyVi": "Câu sau nói rõ việc mang ván trượt loại chuyến Night Coach." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "Skis and bikes: $20 per item, on Express trips only",
+      "explanationVi": "'We're bringing our skis, so…' → tìm quy định về ván trượt trong caption: 'on Express trips only'. Vì vậy chỉ còn Express 1 hoặc Express 2; Early Bird, Valley Local và Night Coach đều bị loại.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "two and a half hours late", "trap": "none", "whyVi": "Đúng: Express 2 đến Kelowna lúc 7:30 tối, tiệc bắt đầu lúc 5:00 → trễ 2 tiếng rưỡi." },
+        { "text": "just in time", "trap": "opposite", "whyVi": "7:30 tối là sau 5 giờ rất lâu; 'That means Express 1 it is' cho thấy Express 2 không ổn." },
+        { "text": "nearly five hours late", "trap": "wrong_detail", "whyVi": "4 tiếng 45 phút là thời gian đi của chuyến Express, không phải thời gian trễ tiệc." },
+        { "text": "half an hour early", "trap": "wrong_detail", "whyVi": "Express 2 đến lúc 7:30, không phải 4:30." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "7:30 p.m.",
+      "explanationVi": "Hàng Express 2, cột Arrives Kelowna: 7:30 p.m. So với giờ tiệc 'starts at five' → trễ 2,5 giờ. Bẫy: nhầm thời gian đi (2:45 → 7:30 = 4 giờ 45) với thời gian trễ.",
+      "vocabulary": ["housewarming"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "$23.70", "trap": "partially_true", "whyVi": "$23.70 là số tiền được giảm (30% của $79), không phải giá vé." },
+        { "text": "$41.30", "trap": "wrong_detail", "whyVi": "$41.30 là giá vé Early Bird ($59) sau khi giảm 30%; họ đi Express 1." },
+        { "text": "$79", "trap": "opposite", "whyVi": "Đây là giá vé người lớn của Ines; mẹ cô được giảm giá ('only')." },
+        { "text": "$55.30", "trap": "none", "whyVi": "Đúng: $79 × 0.7 = $55.30, vì đến ngày đi mẹ cô đã 65 tuổi." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "Seniors (65+) and children (2–11) pay 30% less.",
+      "explanationVi": "Mẹ tròn 65 tuổi ngày 12/12, trước chuyến đi 30/12 → thuộc nhóm 'Seniors (65+)'. Giá Express 1 là $79; giảm 30% → $79 × 0.7 = $55.30.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "$15", "trap": "wrong_detail", "whyVi": "$15 là phí cho vali thứ hai, không phải ván trượt." },
+        { "text": "$20", "trap": "none", "whyVi": "Đúng: ván trượt tính $20 mỗi bộ ('per item'); mỗi người mang một bộ." },
+        { "text": "$40", "trap": "partially_true", "whyVi": "$40 là tổng của hai bộ ván trượt; câu nói 'we'll each pay' — mỗi người." },
+        { "text": "$35", "trap": "wrong_detail", "whyVi": "$35 là $20 + $15 — cộng nhầm phí vali vào phí ván trượt." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "Skis and bikes: $20 per item",
+      "explanationVi": "'we'll each pay … for our skis' → giá cho mỗi người. Caption: '$20 per item' → mỗi người $20. Chú ý chữ 'each' để không chọn tổng $40.",
+      "vocabulary": ["on top of"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "the morning we leave", "trap": "opposite", "whyVi": "Phải đặt trước ít nhất 24 giờ, nên không thể đợi đến sáng ngày đi." },
+        { "text": "11:00 p.m. on December 29", "trap": "wrong_detail", "whyVi": "11 giờ tối 29/12 chỉ cách giờ khởi hành 9 tiếng rưỡi — chưa đủ 24 giờ." },
+        { "text": "8:30 a.m. on December 29", "trap": "none", "whyVi": "Đúng: khởi hành 8:30 sáng 30/12; trừ 24 giờ → hạn chót là 8:30 sáng 29/12." },
+        { "text": "December 28", "trap": "wrong_detail", "whyVi": "Đặt trước 28/12 thì vẫn được, nhưng đó không phải hạn muộn nhất ('at the latest')." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "must be booked at least 24 hours before departure",
+      "explanationVi": "Giờ khởi hành: '8:30 a.m. on December 30'. Quy định: đặt 'at least 24 hours before departure' → lùi đúng 24 giờ: 8:30 sáng 29/12. 'at the latest' = muộn nhất.",
+      "vocabulary": ["at the latest"]
+    },
+    {
+      "number": 6,
+      "prompt": "What does Ines mean when she says her mother \"wouldn't sleep a wink\" on the Night Coach?",
+      "options": [
+        { "text": "Her mother would get no sleep at all.", "trap": "none", "whyVi": "Đúng: 'not sleep a wink' = không chợp mắt được chút nào." },
+        { "text": "Her mother would sleep the whole way.", "trap": "opposite", "whyVi": "Ngược nghĩa với thành ngữ." },
+        { "text": "The reclining seats would be uncomfortable.", "trap": "word_match", "whyVi": "Bảng có ghi 'Reclining seats', nhưng Ines không nói gì về chất lượng ghế." },
+        { "text": "Her mother would miss her stop in Merritt.", "trap": "not_mentioned", "whyVi": "Họ đi đến Kelowna; email không nói về việc lỡ trạm." }
+      ],
+      "answerIndex": 0,
+      "category": "vocabulary",
+      "evidence": "Mom wouldn't sleep a wink on it anyway",
+      "explanationVi": "Thành ngữ 'not sleep a wink' nghĩa là thức suốt, không ngủ được chút nào. 'anyway' cho thấy dù không mang ván trượt thì chuyến đêm cũng không hợp với mẹ.",
+      "vocabulary": ["not sleep a wink"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "not sleep a wink", "vi": "không chợp mắt được chút nào", "definition": "to not sleep at all", "example": "I didn't sleep a wink on the night bus." },
+    { "term": "housewarming", "vi": "tiệc tân gia", "definition": "a party to celebrate moving into a new home", "example": "Their housewarming starts at five." },
+    { "term": "on top of", "vi": "ngoài ra, cộng thêm", "definition": "in addition to something", "example": "On top of the fare, you pay $20 for skis." },
+    { "term": "at the latest", "vi": "muộn nhất là", "definition": "no later than the time mentioned", "example": "Book your skis by Tuesday at the latest." },
+    { "term": "rule out", "vi": "loại trừ", "definition": "to decide that something is not possible or suitable", "example": "Bringing skis rules out the night bus." },
+    { "term": "depot", "vi": "bến xe", "definition": "a station where buses or coaches stop and start", "example": "Meet us at the bus depot." },
+    { "term": "insist on", "vi": "khăng khăng đòi", "definition": "to say firmly that you will do or have something", "example": "She insists on bringing two suitcases." }
+  ]
+}

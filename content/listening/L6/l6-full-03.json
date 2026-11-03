@@ -1,0 +1,297 @@
+{
+  "id": "l6-full-03",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "education",
+  "title": "Viewpoints: Locking up phones for the whole school day",
+  "context": "You will hear a radio commentary by a high school teacher about a school district's plan to lock students' phones in pouches for the entire school day.",
+  "estimatedMinutes": 7,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Leah Fontaine, radio host",
+          "voice": "female_b",
+          "text": "The Fraser Ridge School District is weighing a plan to have every secondary student seal their phone in a magnetic pouch from the first bell to the last, lunch included. Today's commentary comes from Daniel Okafor, who has taught English and social studies in the district for sixteen years."
+        },
+        {
+          "speaker": "Daniel Okafor, high school teacher",
+          "voice": "male_b",
+          "text": "I should say at the outset that I'm no fan of phones in class. When the province told schools to keep them out of lessons, the difference in my room was obvious within a month. Kids who used to sneak a look under the desk every few minutes were getting through a whole chapter without coming up for air. So if you're expecting a teacher to stick up for TikTok, you've tuned in to the wrong segment."
+        },
+        {
+          "speaker": "Daniel Okafor, high school teacher",
+          "voice": "male_b",
+          "text": "My objection is to the pouches, and to the lunch hour in particular. Supporters of the plan say students spend their breaks hunched over screens instead of talking to each other. Some do, no question. But I supervise the cafeteria twice a week, and what I mostly see is a bunch of kids crowded around one phone, laughing at the same video or arguing over a game. That's social, even if it doesn't look the way it did when we were sixteen."
+        },
+        {
+          "speaker": "Daniel Okafor, high school teacher",
+          "voice": "male_b",
+          "text": "There's a money question too. The pouches would cost about thirty dollars per student, which adds up to roughly a quarter of a million dollars across the district. Meanwhile our school library hasn't had a budget for new books in three years. I'd love to hear someone explain why locking devices away is a better use of that money than putting books in front of the very same kids."
+        },
+        {
+          "speaker": "Daniel Okafor, high school teacher",
+          "voice": "male_b",
+          "text": "And here's what really keeps me up at night. In two or three years, these students will be at college or at work, with a phone in their pocket and nobody to take it off them. If the only thing that ever kept them off it was a magnet, we haven't taught them a thing. Knowing when to put the phone down is a skill, and skills need practice."
+        },
+        {
+          "speaker": "Daniel Okafor, high school teacher",
+          "voice": "male_b",
+          "text": "I'm not pretending the other side has nothing to say. Several parents have told me their kids feel they have to answer every message instantly, even at lunch, and that a pouch would give them a break they can't give themselves. I don't dismiss that. But it's an argument for letting students choose a pouch if they want one, not for a blanket rule that assumes no teenager can be trusted."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What does Daniel say about the provincial rule keeping phones out of lessons?",
+          "options": [
+            {
+              "text": "Most students quickly found ways to get around it.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'sneak a look under the desk', nhưng đó là thói quen trước khi có quy định, không phải cách lách luật."
+            },
+            {
+              "text": "It noticeably improved his students' ability to concentrate.",
+              "trap": "none",
+              "whyVi": "Đúng: chỉ sau một tháng, học sinh đọc hết cả chương mà không bị phân tâm."
+            },
+            {
+              "text": "It went too far and should be relaxed.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông nói ông không hề thích điện thoại trong lớp và ủng hộ quy định này."
+            },
+            {
+              "text": "It helped weaker students more than strong ones.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không so sánh học sinh yếu và học sinh giỏi."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "Kids who used to sneak a look under the desk every few minutes were getting through a whole chapter without coming up for air.",
+          "explanationVi": "'the difference in my room was obvious' = cải thiện rõ rệt; 'getting through a whole chapter without coming up for air' = đọc liền một mạch, tức là tập trung tốt hơn. Đáp án B diễn đạt lại bằng 'noticeably improved... ability to concentrate'.",
+          "vocabulary": [
+            "come up for air"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "What has Daniel noticed while supervising students at lunch?",
+          "options": [
+            {
+              "text": "Most students sit alone, staring at their own screens.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là nhận xét của những người ủng hộ kế hoạch, không phải điều Daniel thấy."
+            },
+            {
+              "text": "Students behave much the same way his generation did.",
+              "trap": "opposite",
+              "whyVi": "Ông nói cách giao tiếp này 'doesn't look the way it did when we were sixteen' — khác với thế hệ của ông."
+            },
+            {
+              "text": "Students are often using their phones together in groups.",
+              "trap": "none",
+              "whyVi": "Đúng: ông thấy nhiều nhóm học sinh tụ quanh một chiếc điện thoại, cùng cười, cùng tranh luận."
+            },
+            {
+              "text": "Students spend more time on games than on eating.",
+              "trap": "word_match",
+              "whyVi": "Bài có từ 'game', nhưng không so sánh thời gian chơi game với thời gian ăn."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "what I mostly see is a bunch of kids crowded around one phone, laughing at the same video or arguing over a game",
+          "explanationVi": "Cụm 'Some do, no question. But...' cho thấy ông thừa nhận một phần rồi phản bác. Điều ông thực sự thấy là 'kids crowded around one phone' — dùng điện thoại cùng nhau. Đáp án A là ý của phía ủng hộ kế hoạch.",
+          "vocabulary": [
+            "hunched over"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "Why does Daniel bring up the school library?",
+          "options": [
+            {
+              "text": "To suggest that the pouch money could be spent on something more useful",
+              "trap": "none",
+              "whyVi": "Đúng: ông đối chiếu 250.000 đô cho túi khóa điện thoại với việc thư viện không có ngân sách mua sách mới."
+            },
+            {
+              "text": "To propose that phones be stored in the library during the day",
+              "trap": "word_match",
+              "whyVi": "Có từ 'library' và 'locking devices away', nhưng ông không đề nghị cất điện thoại ở thư viện."
+            },
+            {
+              "text": "To show that students read far less than they used to",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không nói học sinh đọc ít hơn trước."
+            },
+            {
+              "text": "To claim the pouches will cost more than the district says",
+              "trap": "wrong_detail",
+              "whyVi": "Ông nêu con số chi phí nhưng không nói chi phí thật cao hơn con số học khu đưa ra."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "I'd love to hear someone explain why locking devices away is a better use of that money than putting books in front of the very same kids.",
+          "explanationVi": "Câu 'I'd love to hear someone explain why...' là cách hỏi mỉa mai, ngụ ý ông không tin có lời giải thích nào hợp lý. Ông nhắc thư viện để cho thấy số tiền đó nên dùng vào việc hữu ích hơn.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "What worries Daniel most about the pouch plan?",
+          "options": [
+            {
+              "text": "Parents will not be able to reach their children in an emergency.",
+              "trap": "not_mentioned",
+              "whyVi": "Đây là lập luận phổ biến ngoài đời nhưng Daniel không hề nhắc đến."
+            },
+            {
+              "text": "Colleges and employers will expect students to have no phones.",
+              "trap": "word_match",
+              "whyVi": "Bài nhắc 'college' và 'work', nhưng ông nói học sinh sẽ có điện thoại trong túi ở đó, không phải bị cấm."
+            },
+            {
+              "text": "Students will start bringing a second phone to school.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không đề cập việc mang điện thoại thứ hai."
+            },
+            {
+              "text": "Students will never learn to manage their phone use on their own.",
+              "trap": "none",
+              "whyVi": "Đúng: nếu chỉ có nam châm giữ họ tránh xa điện thoại thì nhà trường chẳng dạy được gì."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "If the only thing that ever kept them off it was a magnet, we haven't taught them a thing.",
+          "explanationVi": "'what really keeps me up at night' = điều làm ông lo nhất. Ông lo học sinh không tự học được kỹ năng 'knowing when to put the phone down'. Đáp án D diễn đạt lại thành 'manage their phone use on their own'.",
+          "vocabulary": [
+            "keep someone up at night"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "How does Daniel respond to the parents who support the pouches?",
+          "options": [
+            {
+              "text": "He thinks they are exaggerating the pressure their children feel.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông nói 'I don't dismiss that' — ông coi trọng mối lo này."
+            },
+            {
+              "text": "He accepts their concern but thinks it supports a voluntary option.",
+              "trap": "none",
+              "whyVi": "Đúng: ông công nhận vấn đề, nhưng cho rằng nên để học sinh tự chọn dùng túi nếu muốn."
+            },
+            {
+              "text": "He agrees that the pouches should be used only during lunch.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: giờ ăn trưa chính là thời gian ông phản đối nhất việc khóa điện thoại."
+            },
+            {
+              "text": "He tells them to limit phone use at home instead.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không khuyên phụ huynh hạn chế điện thoại ở nhà."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "But it's an argument for letting students choose a pouch if they want one, not for a blanket rule that assumes no teenager can be trusted.",
+          "explanationVi": "Cấu trúc 'I don't dismiss that. But...' = thừa nhận rồi giới hạn. 'letting students choose a pouch if they want one' được diễn đạt lại thành 'a voluntary option' (lựa chọn tự nguyện).",
+          "vocabulary": [
+            "blanket rule"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Daniel imply with the remark \"you've tuned in to the wrong segment\"?",
+          "options": [
+            {
+              "text": "Listeners should switch to another program about technology.",
+              "trap": "word_match",
+              "whyVi": "Hiểu theo nghĩa đen là sai; ông không thật sự bảo người nghe chuyển kênh."
+            },
+            {
+              "text": "He will mostly talk about social media rather than schools.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông nói ngay rằng ông sẽ không bênh vực mạng xã hội."
+            },
+            {
+              "text": "His argument is not a defence of phones or social media.",
+              "trap": "none",
+              "whyVi": "Đúng: ông nói rõ mình không thích điện thoại trong lớp, nên phản đối của ông không phải để bảo vệ TikTok."
+            },
+            {
+              "text": "Most teachers disagree with his view on the pouches.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không nói gì về ý kiến của các giáo viên khác."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "vocabulary",
+          "evidence": "So if you're expecting a teacher to stick up for TikTok, you've tuned in to the wrong segment.",
+          "explanationVi": "Đây là câu nói đùa: nếu bạn mong một giáo viên 'stick up for' (bênh vực) TikTok thì bạn sẽ thất vọng. Ông muốn người nghe hiểu rằng phản đối túi khóa không đồng nghĩa với ủng hộ điện thoại.",
+          "vocabulary": [
+            "stick up for"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "at the outset",
+      "vi": "ngay từ đầu",
+      "definition": "at the beginning",
+      "example": "I should say at the outset that I'm no fan of phones in class."
+    },
+    {
+      "term": "come up for air",
+      "vi": "ngừng lại để nghỉ (sau khi tập trung liên tục)",
+      "definition": "to take a short break after being very busy or focused",
+      "example": "They read a whole chapter without coming up for air."
+    },
+    {
+      "term": "stick up for",
+      "vi": "bênh vực, bảo vệ",
+      "definition": "to defend or support someone or something",
+      "example": "Don't expect a teacher to stick up for TikTok."
+    },
+    {
+      "term": "hunched over",
+      "vi": "cúi gập người (về phía cái gì)",
+      "definition": "bent forward with rounded shoulders",
+      "example": "Students were hunched over their screens."
+    },
+    {
+      "term": "keep someone up at night",
+      "vi": "khiến ai lo lắng mất ngủ",
+      "definition": "to worry someone a great deal",
+      "example": "What really keeps me up at night is the long-term effect."
+    },
+    {
+      "term": "blanket rule",
+      "vi": "quy định áp dụng chung cho tất cả",
+      "definition": "a rule that applies to everyone, with no exceptions",
+      "example": "A blanket rule assumes no teenager can be trusted."
+    },
+    {
+      "term": "weigh a plan",
+      "vi": "cân nhắc một kế hoạch",
+      "definition": "to think carefully about a plan before deciding",
+      "example": "The district is weighing a plan to lock up phones."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 items independently; keys match, one defensible answer each, concession/rebuttal (parents' argument) tested. BC fact checked: the province's 2024 direction restricting phones during instructional time is described accurately; district is fictional. No edits needed; 'Daniel' is introduced by the host."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

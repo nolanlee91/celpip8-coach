@@ -1,0 +1,276 @@
+{
+  "id": "l4-mock-06",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "shopping",
+  "title": "News: Downtown Squamish loses its only grocery store",
+  "context": "You will hear a local radio news report about a grocery store closing in Squamish.",
+  "estimatedMinutes": 5,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Shoppers in downtown Squamish are bracing for life without a grocery store. Cleveland Fresh Market, which has anchored the corner of Cleveland Avenue and Victoria Street for nearly thirty years, will close its doors on January thirty-first after its owners failed to reach a deal on a new lease."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The building's owner, Tantalus Holdings, plans to redevelop the site into a six-storey building with rental apartments upstairs and shops on the ground floor. The company says a grocer would be welcome back once construction wraps up, but it couldn't say when that might be, or whether rents would be within reach for an independent store."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "For many downtown residents, the closure is more than an inconvenience. Ivana Kostić, who runs a seniors' walking group, says plenty of her members don't own cars, and the nearest supermarket is a forty-minute walk along the highway. She says the redevelopment is being sold as progress, but for people without a vehicle it amounts to two steps back."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Some residents aren't waiting for someone else to fix it. A group calling itself the Howe Sound Food Co-op has signed up more than four hundred households, each pledging two hundred dollars toward a member-owned store. Organizer Benoit Tremblay admits that's a far cry from the roughly one point five million dollars they'll need, but says the response proves the demand is there."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The district says it's exploring a free weekly shuttle to the highway shopping centres, starting in February."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why is Cleveland Fresh Market closing?",
+          "options": [
+            {
+              "text": "Its owners have decided to retire.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói chủ cửa hàng nghỉ hưu."
+            },
+            {
+              "text": "It could not agree on terms to stay in the building.",
+              "trap": "none",
+              "whyVi": "Đúng: 'failed to reach a deal on a new lease' = không thỏa thuận được hợp đồng thuê mới."
+            },
+            {
+              "text": "Its sales fell after a supermarket opened nearby.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài chỉ nói siêu thị gần nhất cách 40 phút đi bộ, không nói doanh số giảm."
+            },
+            {
+              "text": "The site will be turned into apartments with no shops.",
+              "trap": "partially_true",
+              "whyVi": "Chỉ đúng một phần: tòa nhà mới có căn hộ nhưng tầng trệt vẫn có cửa hàng."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "after its owners failed to reach a deal on a new lease",
+          "explanationVi": "'failed to reach a deal on a new lease' được diễn đạt lại thành 'could not agree on terms to stay in the building'.",
+          "vocabulary": [
+            "lease"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "What can be inferred about a grocery store returning to the site?",
+          "options": [
+            {
+              "text": "A grocer has already agreed to move into the new building.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: công ty chỉ nói 'would be welcome back', chưa có ai ký."
+            },
+            {
+              "text": "Tantalus Holdings will not rent space to grocery stores.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: công ty nói sẽ chào đón cửa hàng tạp hóa quay lại."
+            },
+            {
+              "text": "The new building will be ready within a year.",
+              "trap": "not_mentioned",
+              "whyVi": "Công ty 'couldn't say when' – không nói thời gian."
+            },
+            {
+              "text": "It is far from certain that an independent shop could afford to come back.",
+              "trap": "none",
+              "whyVi": "Đúng: công ty không chắc tiền thuê có 'within reach' (trong khả năng) của cửa hàng độc lập."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "whether rents would be within reach for an independent store",
+          "explanationVi": "Câu suy luận: lời nói tích cực 'welcome back' đi kèm hai điều không chắc (thời điểm, giá thuê). 'within reach' = có thể chi trả được. Đáp án D là suy luận hợp lý duy nhất.",
+          "vocabulary": [
+            "within reach",
+            "wrap up"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What is Ivana Kostić's view of the redevelopment?",
+          "options": [
+            {
+              "text": "It is presented as an improvement but would actually leave some residents worse off.",
+              "trap": "none",
+              "whyVi": "Đúng: 'being sold as progress' nhưng với người không có xe thì 'two steps back' (thụt lùi)."
+            },
+            {
+              "text": "She opposes building new rental housing downtown.",
+              "trap": "too_broad",
+              "whyVi": "Quá rộng: bà không phản đối nhà cho thuê, chỉ lo về việc mất cửa hàng tạp hóa."
+            },
+            {
+              "text": "A long walk to the supermarket is good exercise for her group.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'walking group' và 'forty-minute walk' nhưng bà xem đó là khó khăn."
+            },
+            {
+              "text": "She believes the project is real progress for the town.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: 'being sold as progress' cho thấy bà hoài nghi lời quảng bá này."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "the redevelopment is being sold as progress, but for people without a vehicle it amounts to two steps back",
+          "explanationVi": "Thái độ ngầm: 'being sold as' = được quảng bá là (nhưng chưa chắc đúng). 'two steps back' = thụt lùi. Đáp án A diễn đạt lại thành 'presented as an improvement... worse off'.",
+          "vocabulary": [
+            "be sold as",
+            "amount to"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What does Benoit Tremblay mean when he talks about the money pledged?",
+          "options": [
+            {
+              "text": "The co-op has nearly reached its fundraising goal.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: 'a far cry from' = còn rất xa."
+            },
+            {
+              "text": "The co-op has raised about two hundred thousand dollars.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: 400 hộ x 200 đô = khoảng 80.000 đô, và 200 là số tiền mỗi hộ."
+            },
+            {
+              "text": "The amount promised so far falls well short of what is required.",
+              "trap": "none",
+              "whyVi": "Đúng: số tiền cam kết còn cách rất xa 1,5 triệu đô cần có."
+            },
+            {
+              "text": "The co-op will have to borrow one point five million dollars.",
+              "trap": "word_match",
+              "whyVi": "Bài có con số 1,5 triệu nhưng đó là tổng chi phí cần, không nói phải vay."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "vocabulary",
+          "evidence": "admits that's a far cry from the roughly one point five million dollars they'll need",
+          "explanationVi": "Thành ngữ 'a far cry from' = khác xa, còn rất xa so với. Đáp án C diễn đạt lại thành 'falls well short of'. Ông vẫn lạc quan vì 'the demand is there'.",
+          "vocabulary": [
+            "a far cry from",
+            "pledge"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What does the report say about the shuttle?",
+          "options": [
+            {
+              "text": "It has already started running every day.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: mới đang được xem xét ('exploring'), dự kiến hằng tuần, bắt đầu tháng 2."
+            },
+            {
+              "text": "It is being considered as a weekly service at no cost to riders.",
+              "trap": "none",
+              "whyVi": "Đúng: 'exploring a free weekly shuttle' = đang cân nhắc xe đưa đón miễn phí hằng tuần."
+            },
+            {
+              "text": "It will take residents to the new co-op store.",
+              "trap": "word_match",
+              "whyVi": "Xe đưa đón đi tới các trung tâm mua sắm trên đường cao tốc, không phải cửa hàng co-op."
+            },
+            {
+              "text": "It will be paid for by Tantalus Holdings.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài nói quận (the district) đang xem xét, không nhắc ai trả tiền."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "The district says it's exploring a free weekly shuttle to the highway shopping centres",
+          "explanationVi": "'exploring' = đang xem xét, chưa chắc chắn ('being considered'); 'free' = 'at no cost'. Lựa chọn A bẫy vì bỏ qua từ 'exploring'.",
+          "vocabulary": [
+            "shuttle"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "anchor",
+      "vi": "là điểm trụ cột",
+      "definition": "be the most important or central part of a place",
+      "example": "The market has anchored the corner for thirty years."
+    },
+    {
+      "term": "lease",
+      "vi": "hợp đồng thuê",
+      "definition": "a legal agreement to rent a property",
+      "example": "The owners could not agree on a new lease."
+    },
+    {
+      "term": "wrap up",
+      "vi": "kết thúc, hoàn tất",
+      "definition": "finish something",
+      "example": "A grocer is welcome back once construction wraps up."
+    },
+    {
+      "term": "within reach",
+      "vi": "trong khả năng",
+      "definition": "possible to afford or achieve",
+      "example": "Rents may not be within reach for a small store."
+    },
+    {
+      "term": "be sold as",
+      "vi": "được quảng bá là",
+      "definition": "be presented to people as something positive",
+      "example": "The project is being sold as progress."
+    },
+    {
+      "term": "amount to",
+      "vi": "tương đương với",
+      "definition": "be the same as, in effect",
+      "example": "For people without cars, it amounts to two steps back."
+    },
+    {
+      "term": "a far cry from",
+      "vi": "khác xa, còn rất xa",
+      "definition": "very different from; much less than",
+      "example": "The pledges are a far cry from the total they need."
+    },
+    {
+      "term": "pledge",
+      "vi": "cam kết đóng góp",
+      "definition": "promise to give money or support",
+      "example": "Each household pledged two hundred dollars."
+    },
+    {
+      "term": "shuttle",
+      "vi": "xe đưa đón",
+      "definition": "a vehicle that makes regular short trips between two places",
+      "example": "A free shuttle may run to the shopping centres."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 5 independently; keys match (BDACB); pledge maths (400 x $200 = $80,000 vs $1.5M) supports Q4. Renamed the developer from \"Stawamus Holdings\" (a Squamish Nation place name) to the fictional Tantalus Holdings."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

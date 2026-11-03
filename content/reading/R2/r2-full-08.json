@@ -1,0 +1,172 @@
+{
+  "id": "r2-full-08",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "full",
+  "difficulty": 9,
+  "topic": "community-services",
+  "title": "Finding a volunteer role that leads to a reference",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all items independently; keys match. Recomputed front desk 3.5 x 12 = 42 < 45 h and kitchen 4 x 12 = 48 h. Fixed the author-flagged conflict: Carmen now says she will stay into May to meet the four-month minimum while reaching 45 h by end of March; moved kitchen first shift to Sat Jan 9 and Tech Helper to Wed Jan 13 so dates fall on the listed weekdays (12 Saturdays Jan 9-Mar 27). Reworded 'at that many hours' to 'with so few hours'; Q5 explanation updated." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Volunteer opportunities",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Eastside Neighbourhood House, Vancouver — Volunteer Opportunities, Winter Intake. Criminal record checks are free through the House but take 3–4 weeks to process. Reference letters are available after 45 hours of service.",
+        "headers": ["Role", "Time commitment", "Shift", "Requirements", "First shift"],
+        "rows": [
+          ["Food Bank Sorter", "3 hrs/week for at least 3 months", "Tue or Thu, 9:00 a.m.–12:00 p.m.", "Able to lift 15 kg", "Any week"],
+          ["Seniors' Tech Helper", "2 hrs/week for at least 6 months", "Wed, 1:00–3:00 p.m.", "Criminal record check", "Jan 13"],
+          ["Settlement Interpreter", "4 hrs/month for at least 6 months", "By appointment", "Fluent English plus Vietnamese, Arabic or Tagalog; criminal record check", "After orientation (Jan 10 or Feb 7)"],
+          ["Community Kitchen Assistant", "4 hrs/week for at least 4 months", "Sat, 10:00 a.m.–2:00 p.m.", "FOODSAFE Level 1 certificate", "Jan 9"],
+          ["Front Desk Greeter", "3.5 hrs/week for at least 3 months", "Mon–Fri, 9:00 a.m.–12:30 p.m. or 1:30–5:00 p.m. (choose one)", "Basic computer skills; criminal record check", "Jan 6"],
+          ["Youth Homework Club Tutor", "4 hrs/week for at least 5 months", "Mon and Wed, 3:30–5:30 p.m.", "Criminal record check; Grade 12 English or math", "Jan 13"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Duc,\n\nI went through the Eastside volunteer list carefully, because what I really need is a reference letter before I start job hunting in April, and that gives me roughly twelve weeks.\n\nMy bakery shifts run from six to eleven on weekdays, so the food bank is out, since it [[1]]. I'd have loved to put my Spanish to use as an interpreter, but they [[2]]. The afternoon front desk shift would fit around work, but even if my paperwork came through in time, with so few hours a week I'd [[3]].\n\nThe homework club was the one I really had my eye on. Unfortunately, it needs [[4]], and since I only started that process last week, I won't have one until mid-January at the earliest. It's a shame, but there's no point kicking myself over it now.\n\nSo the community kitchen it is. I already have the food safety certificate from the bakery, and I'm happy to stay into May to meet the four-month minimum. By the end of March, twelve Saturdays would leave me with [[5]] for the letter.\n\nCould you put in a good word for me with the kitchen coordinator?\n\nCarmen",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "needs a three-month commitment", "trap": "partially_true", "whyVi": "Đúng là cần cam kết 3 tháng, nhưng câu đang nói về giờ làm ở tiệm bánh, nên lý do phải là trùng giờ." },
+        { "text": "overlaps with my hours at the bakery", "trap": "none", "whyVi": "Đúng: ca phân loại thực phẩm 9:00–12:00 sáng thứ Ba/Năm, trùng với ca 6:00–11:00 của Carmen." },
+        { "text": "only runs on weekends", "trap": "wrong_detail", "whyVi": "Ca này vào thứ Ba hoặc thứ Năm, không phải cuối tuần." },
+        { "text": "requires a criminal record check", "trap": "wrong_detail", "whyVi": "Food Bank Sorter chỉ yêu cầu nâng được 15 kg, không cần kiểm tra lý lịch." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Tue or Thu, 9:00 a.m.–12:00 p.m.",
+      "explanationVi": "Câu mở đầu bằng giờ làm 'six to eleven on weekdays' rồi dùng 'so' → lý do là thời gian. Bảng: Food Bank Sorter 9:00–12:00 ngày thường → trùng giờ. 'overlap with' = chồng lên nhau về thời gian.",
+      "vocabulary": ["overlap with"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "only book volunteers four hours a month", "trap": "word_match", "whyVi": "'4 hrs/month' có trong bảng, nhưng ít giờ không phải lý do cô không làm được vai trò này." },
+        { "text": "expect a commitment of at least a year", "trap": "wrong_detail", "whyVi": "Cam kết tối thiểu chỉ 6 tháng." },
+        { "text": "aren't recruiting for my language", "trap": "none", "whyVi": "Đúng: chỉ tuyển người nói tiếng Việt, Ả Rập hoặc Tagalog; Carmen nói tiếng Tây Ban Nha." },
+        { "text": "hold their orientation on Saturdays", "trap": "not_mentioned", "whyVi": "Bảng chỉ ghi ngày định hướng (Jan 10 hoặc Feb 7), không nói là thứ Bảy." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Fluent English plus Vietnamese, Arabic or Tagalog",
+      "explanationVi": "'put my Spanish to use' cho biết ngôn ngữ của cô. Cột Requirements của Settlement Interpreter không có tiếng Tây Ban Nha → không đủ điều kiện. Đáp án diễn đạt chung là 'aren't recruiting for my language'.",
+      "vocabulary": ["put something to use"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "still end up a few hours short", "trap": "none", "whyVi": "Đúng: 3.5 giờ × 12 tuần = 42 giờ, chưa đủ 45 giờ để được thư giới thiệu." },
+        { "text": "just reach the hours I need", "trap": "wrong_detail", "whyVi": "42 giờ chưa đạt 45 giờ." },
+        { "text": "earn the letter in under two months", "trap": "opposite", "whyVi": "Ngược lại: ngay cả sau 12 tuần cô vẫn chưa đủ giờ." },
+        { "text": "have to switch to the morning shift", "trap": "not_mentioned", "whyVi": "Ca sáng trùng giờ làm ở tiệm bánh; email không đề cập việc đổi ca." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Reference letters are available after 45 hours of service.",
+      "explanationVi": "Cần ghép ba thông tin: 'roughly twelve weeks' (email), '3.5 hrs/week' (bảng), '45 hours' (caption). 12 × 3.5 = 42 < 45 → thiếu vài giờ. 'even if my paperwork came through in time' cho thấy lý do chính không phải giấy tờ mà là số giờ.",
+      "vocabulary": ["end up"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "a five-month commitment", "trap": "partially_true", "whyVi": "Đúng là cần 5 tháng, nhưng câu sau nói về giấy tờ cô 'won't have until mid-January' — đó không phải cam kết thời gian." },
+        { "text": "a food safety certificate", "trap": "wrong_detail", "whyVi": "Chứng chỉ an toàn thực phẩm là yêu cầu của Community Kitchen, và cô đã có rồi." },
+        { "text": "Grade 12 English or math", "trap": "partially_true", "whyVi": "Đây là một yêu cầu thật, nhưng không phải thứ cần 'process' và mất vài tuần." },
+        { "text": "a police background check", "trap": "none", "whyVi": "Đúng: lớp kèm bài cần 'criminal record check', mất 3–4 tuần xử lý; cô mới nộp tuần trước." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Criminal record checks are free through the House but take 3–4 weeks to process.",
+      "explanationVi": "Manh mối là 'started that process last week' và 'won't have one until mid-January'. Trong các yêu cầu của Homework Club, chỉ kiểm tra lý lịch tư pháp mới có 'process' mất 3–4 tuần (caption). 'police background check' là cách diễn đạt khác của 'criminal record check'.",
+      "vocabulary": ["criminal record check"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "just under what I need", "trap": "opposite", "whyVi": "12 × 4 = 48 giờ, vượt 45 giờ chứ không thiếu." },
+        { "text": "a few hours more than I need", "trap": "none", "whyVi": "Đúng: 12 thứ Bảy × 4 giờ = 48 giờ, hơn 45 giờ một chút." },
+        { "text": "exactly the hours I need", "trap": "wrong_detail", "whyVi": "48 không bằng 45." },
+        { "text": "twice the hours I need", "trap": "wrong_detail", "whyVi": "Gấp đôi phải là 90 giờ." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "4 hrs/week for at least 4 months",
+      "explanationVi": "Community Kitchen: 4 giờ mỗi tuần × 12 thứ Bảy = 48 giờ. So với mức 45 giờ trong caption → dư 3 giờ, đủ để xin thư giới thiệu trước tháng Tư. Cam kết tối thiểu 4 tháng không mâu thuẫn: Carmen nói sẽ tiếp tục làm đến tháng Năm, nhưng thư có thể nhận ngay khi đủ 45 giờ.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "What is Carmen's main reason for volunteering?",
+      "options": [
+        { "text": "To earn a food safety certificate", "trap": "opposite", "whyVi": "Cô đã có chứng chỉ từ công việc ở tiệm bánh." },
+        { "text": "To keep her Spanish skills sharp", "trap": "word_match", "whyVi": "Cô nhắc tiếng Tây Ban Nha, nhưng chỉ khi nói về vai trò phiên dịch không phù hợp." },
+        { "text": "To have someone vouch for her when she looks for work", "trap": "none", "whyVi": "Đúng: cô cần thư giới thiệu trước khi đi tìm việc vào tháng Tư." },
+        { "text": "To spend more time with young people", "trap": "not_mentioned", "whyVi": "Cô thích lớp kèm bài nhưng không nói đó là lý do đi tình nguyện." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "what I really need is a reference letter before I start job hunting in April",
+      "explanationVi": "'reference letter' = thư của người xác nhận năng lực của bạn → 'someone vouch for her'. 'job hunting' = 'looks for work'. Mọi lựa chọn trong email đều xoay quanh việc đủ giờ để có thư.",
+      "vocabulary": ["vouch for", "job hunting"]
+    },
+    {
+      "number": 7,
+      "prompt": "What does Carmen mean when she says \"there's no point kicking myself over it now\"?",
+      "options": [
+        { "text": "She never really wanted the homework club role.", "trap": "opposite", "whyVi": "Ngược lại: 'the one I really had my eye on' — cô rất muốn vai trò này." },
+        { "text": "Blaming herself for the delay won't change anything.", "trap": "none", "whyVi": "Đúng: 'kick yourself' = tự trách mình; 'no point' = vô ích." },
+        { "text": "She plans to join the homework club in the spring.", "trap": "not_mentioned", "whyVi": "Email không nói cô sẽ thử lại sau." },
+        { "text": "She is upset with the House for being so slow.", "trap": "wrong_speaker", "whyVi": "Cô tự trách mình (kicking myself), không trách Neighbourhood House." }
+      ],
+      "answerIndex": 1,
+      "category": "vocabulary",
+      "evidence": "It's a shame, but there's no point kicking myself over it now.",
+      "explanationVi": "'kick yourself' nghĩa là tự trách vì đã làm (hoặc không làm) điều gì — ở đây là nộp hồ sơ kiểm tra lý lịch quá muộn. 'there's no point' = làm vậy cũng vô ích. Thái độ: tiếc nhưng chấp nhận.",
+      "vocabulary": ["kick yourself"]
+    },
+    {
+      "number": 8,
+      "prompt": "What does Carmen ask Duc to do?",
+      "options": [
+        { "text": "Find out when the kitchen's first shift is", "trap": "not_mentioned", "whyVi": "Ngày bắt đầu (Jan 9) đã có trong bảng; cô không hỏi điều này." },
+        { "text": "Help her speed up her record check", "trap": "not_mentioned", "whyVi": "Cô đã chấp nhận việc chậm trễ và không nhờ Duc giúp." },
+        { "text": "Lend her his food safety certificate", "trap": "word_match", "whyVi": "Email có 'food safety certificate' nhưng cô đã có chứng chỉ của mình." },
+        { "text": "Recommend her to the person who runs the kitchen", "trap": "none", "whyVi": "Đúng: 'put in a good word for me' = nói tốt, giới thiệu giúp." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Could you put in a good word for me with the kitchen coordinator?",
+      "explanationVi": "'put in a good word for someone' = nói tốt về ai đó với người có quyền quyết định. 'kitchen coordinator' = 'the person who runs the kitchen'.",
+      "vocabulary": ["put in a good word"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "put in a good word", "vi": "nói tốt (giới thiệu) cho ai", "definition": "to say positive things about someone to help them get something", "example": "Could you put in a good word for me with the manager?" },
+    { "term": "kick yourself", "vi": "tự trách mình", "definition": "to feel annoyed with yourself for a mistake", "example": "I could kick myself for applying so late." },
+    { "term": "have your eye on", "vi": "để ý, nhắm tới", "definition": "to want something and hope to get it", "example": "She had her eye on the tutoring position." },
+    { "term": "overlap with", "vi": "trùng (giờ) với", "definition": "to happen partly at the same time as something else", "example": "The shift overlaps with my hours at work." },
+    { "term": "vouch for", "vi": "bảo đảm, xác nhận (cho ai)", "definition": "to say that someone is reliable or good at something", "example": "My supervisor can vouch for my work." },
+    { "term": "criminal record check", "vi": "kiểm tra lý lịch tư pháp", "definition": "an official search to see whether a person has a criminal record", "example": "Tutors need a criminal record check before they start." },
+    { "term": "job hunting", "vi": "tìm việc", "definition": "the activity of looking for a job", "example": "I'll start job hunting in April." },
+    { "term": "put something to use", "vi": "tận dụng, sử dụng (kỹ năng)", "definition": "to use a skill or thing for a purpose", "example": "She wants to put her Spanish to use." },
+    { "term": "end up", "vi": "rốt cuộc, cuối cùng thì", "definition": "to reach a situation, often without planning it", "example": "At that rate, I'd end up a few hours short." }
+  ]
+}

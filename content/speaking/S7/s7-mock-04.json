@@ -1,0 +1,60 @@
+{
+  "id": "s7-mock-04",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "recreation",
+  "title": "Reservation passes for busy provincial parks",
+  "prompt": "To reduce overcrowding, some of the busiest provincial parks in British Columbia have required visitors to reserve a free day-use pass online before they arrive. In recent summers, passes have been released two days in advance and have often run out within minutes.\n\nDo you think a reservation system is a good way to manage popular parks? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Qualified position: yes, but the system needs fine-tuning",
+    "Reason 1: protecting nature + vivid personal example",
+    "Reason 2: better experience for visitors",
+    "Concede the system's weaknesses (fairness)",
+    "Concrete improvements",
+    "Conclusion: keep it, but adjust it"
+  ],
+  "modelAnswer": "Overall, I think a reservation system is a good idea, although the way passes are released definitely needs some fine-tuning.\n\nThe main benefit is protecting the parks themselves. Before passes were introduced, people at some popular lakes and trails were parking along the highway, trampling the plants and leaving garbage everywhere. When I hiked a well-known trail near Squamish a few summers ago, it felt more like a shopping mall on Boxing Day than a wilderness area. Limiting numbers gives nature a chance to recover.\n\nOn top of that, it actually improves the experience for visitors. If you do get a pass, you know you'll find a parking spot and won't be stuck in a line of hikers the whole way up. That's a far cry from driving two hours only to be turned away at the gate.\n\nHaving said that, the current system isn't perfect. When passes run out in a few minutes, it favours people who are glued to their phones the moment passes are released, and it's tough on shift workers or tourists who plan further ahead. To make it fairer, the province could release some passes weeks in advance, hold back a share for visitors who arrive by shuttle or transit, and add more shuttle buses from nearby towns.\n\nSo, all things considered, I'd keep the reservation system, but tweak it so that it doesn't feel like a lottery.",
+  "usefulExpressions": [
+    {
+      "expression": "needs some fine-tuning",
+      "usageVi": "= cần điều chỉnh nhỏ; vừa ủng hộ vừa góp ý."
+    },
+    {
+      "expression": "it felt more like X than Y",
+      "usageVi": "Phép so sánh sinh động giúp ví dụ cá nhân dễ nhớ."
+    },
+    {
+      "expression": "That's a far cry from…",
+      "usageVi": "Thành ngữ = khác xa hoàn toàn với…"
+    },
+    {
+      "expression": "be turned away",
+      "usageVi": "Phrasal verb ở dạng bị động = bị từ chối, không cho vào."
+    },
+    {
+      "expression": "glued to their phones",
+      "usageVi": "Thành ngữ = dán mắt vào điện thoại."
+    },
+    {
+      "expression": "so that it doesn't feel like a lottery",
+      "usageVi": "Câu kết có hình ảnh: hệ thống không nên giống xổ số, hên xui."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ phàn nàn khó đặt vé mà không trả lời câu hỏi 'đây có phải cách tốt không'. Luôn nêu rõ quan điểm trước, góp ý sau.",
+    "Nói 'the park is very crowd' → 'crowd' là danh từ; đúng: 'very crowded'.",
+    "Nuốt âm cuối /s/ và /d/ trong 'passes', 'released', 'introduced'. Người Việt hay bỏ âm cuối — nói chậm lại ở các từ khóa."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked qualified position, reasons, fairness concession and concrete fixes, length 233. Fixed: prompt reworded from 'must now reserve… passes are released two days in advance' to past/recent framing ('have required… in recent summers'), since BC Parks pass rules change by season; removed the specific '7 a.m.' release time from the answer."
+  },
+  "createdAt": "2026-11-03"
+}

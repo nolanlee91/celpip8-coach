@@ -19,7 +19,7 @@
         { "speaker": "Kwame", "voice": "male_a", "text": "Ouch. I paid almost three hundred for it. I bought it before the sale started." },
         { "speaker": "Sophie", "voice": "female_b", "text": "Right. But hang on, did you pay by card? If you've got the card with you, I can search for the transaction. If it comes up, it's as good as a receipt." },
         { "speaker": "Kwame", "voice": "male_a", "text": "I think so. I used my debit card, I'm pretty sure. Here you go." },
-        { "speaker": "Sophie", "voice": "female_b", "text": "Thanks. And do you remember roughly which day?" },
+        { "speaker": "Sophie", "voice": "female_b", "text": "Thanks, Kwame. And do you remember roughly which day?" },
         { "speaker": "Kwame", "voice": "male_a", "text": "It was a Saturday, the first weekend of November. Or maybe the second." },
         { "speaker": "Sophie", "voice": "female_b", "text": "Okay, give me a sec. There it is. November eighth, two eighty-nine ninety-nine. Perfect. So now you've got options. Because it's a defect, I can do a full refund back to your card, or I can exchange it for a new one." },
         { "speaker": "Kwame", "voice": "male_a", "text": "I actually really like the jacket. It's warm. I just want one with a zipper that works." },
@@ -116,7 +116,7 @@
   ],
   "estimatedMinutes": 6,
   "source": "curated",
-  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. Q3 ('two eighty-nine ninety-nine' = $289.99 -> 'a little under $290') verified as the only defensible answer against $229 / ~$300 / $299. Nov 8 = second weekend of November is consistent with the 'first or second' hesitation. No changes needed." },
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. Q3 ('two eighty-nine ninety-nine' = $289.99 -> 'a little under $290') verified as the only defensible answer against $229 / ~$300 / $299. Nov 8 = second weekend of November is consistent with the 'first or second' hesitation. No changes needed. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)." },
   "createdAt": "2026-10-26",
   "focus": []
 }

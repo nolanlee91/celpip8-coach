@@ -1,0 +1,54 @@
+{
+  "id": "s2-practice-04",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "Supporting a family member through a health problem",
+  "prompt": "Talk about a time when you or someone close to you had an unexpected health problem. What happened, how did you handle the situation, and how did it affect you?",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Who, when, and what happened suddenly",
+    "Your immediate actions (two or three steps)",
+    "Difficulties along the way (waiting, language, worry)",
+    "How it affected you + what you do differently now"
+  ],
+  "modelAnswer": "Last spring, my father, who was visiting us from Vietnam, suddenly started having chest pains in the middle of the night. He's normally really healthy, so it caught all of us off guard.\n\nI didn't want to waste any time, so I called 911, and the paramedics took him to Royal Columbian Hospital. The hardest part was that he barely speaks English, so I ended up staying by his side for almost fourteen hours, translating everything the doctors and nurses said. Fortunately, it turned out to be a minor heart problem that could be treated with medication, but they kept him overnight just to be safe.\n\nAnother thing that worried me was the cost, because he's not covered by MSP. Luckily, we'd bought visitor insurance before his trip, and that covered almost all of the bills.\n\nThat experience really opened my eyes. I realized how quickly things can go wrong, and how important it is to be prepared. These days, I always make sure that anyone visiting us has proper insurance, and I've also taken a first-aid course.",
+  "usefulExpressions": [
+    {
+      "expression": "it caught all of us off guard",
+      "usageVi": "'Catch someone off guard' = khiến ai bất ngờ, không kịp chuẩn bị — thành ngữ rất tự nhiên."
+    },
+    {
+      "expression": "I ended up + V-ing",
+      "usageVi": "Cuối cùng phải làm gì (không định trước) — 'I ended up staying… translating…'."
+    },
+    {
+      "expression": "it turned out to be…",
+      "usageVi": "Hóa ra là… — giới thiệu kết quả sau thời gian lo lắng."
+    },
+    {
+      "expression": "just to be safe",
+      "usageVi": "Cho chắc ăn, phòng ngừa — cụm ngắn, tự nhiên trong văn nói."
+    },
+    {
+      "expression": "That experience really opened my eyes.",
+      "usageVi": "Mở phần ảnh hưởng/bài học, nghe sâu sắc hơn \"I learned a lot\"."
+    }
+  ],
+  "commonMistakes": [
+    "Dùng sai cấu trúc: 'I called to 911' — đúng là 'I called 911' (không có 'to'). Ngoài ra, người Canada thường nói 'took him to the hospital' (có 'the'), còn 'to hospital' nghe kiểu Anh-Anh.",
+    "Nhầm 'he/she' khi kể về bố mẹ — giữ đúng 'he/his' cho bố suốt câu trả lời.",
+    "Kể quá nhiều chi tiết y khoa mà quên phần \"how did it affect you\". Dành 15 giây cuối cho ảnh hưởng và thay đổi của bản thân."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked all 3 prompt parts and length (178); facts are safe (visitors are not covered by MSP, visitor insurance, Royal Columbian is a real hospital named correctly, no medical absolutes). Fixed commonMistakes[0], which wrongly implied 'brought' was an error; it now targets 'called to 911' and 'to the hospital'."
+  },
+  "createdAt": "2026-11-03"
+}

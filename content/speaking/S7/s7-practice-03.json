@@ -1,0 +1,60 @@
+{
+  "id": "s7-practice-03",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "workplace",
+  "title": "Ordering staff back to the office full-time",
+  "prompt": "A large insurance company in Vancouver has announced that, starting in January, all office employees must work at the office five days a week. Until now, most staff have worked from home two or three days a week.\n\nDo you think companies should require their office employees to return to the office full-time? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Clear position in the first sentence (no + what you prefer instead)",
+    "Reason 1: productivity + example of someone you know",
+    "Reason 2: commute time and family life",
+    "Reason 3: keeping good employees",
+    "Acknowledge the employer's view, then respond",
+    "Conclusion restating your position"
+  ],
+  "modelAnswer": "Honestly, no. I don't think companies should force everyone back five days a week, especially when a hybrid schedule has been working well for years.\n\nMy main reason is productivity. For a lot of office tasks, like writing reports or answering emails, people actually get more done at home because there are fewer interruptions. A friend of mine who works in claims told me she gets through her files much faster on her home days, simply because nobody drops by her desk to chat.\n\nAnother reason is the commute. In Metro Vancouver, many workers can't afford to live near downtown, so they travel an hour or more each way. Making them do that five days a week adds up to ten hours on the road or on transit, and that time comes straight out of their family life.\n\nOn top of that, flexibility helps companies hang on to good people. If one employer insists on full-time office work and a competitor offers two days at home, it's pretty obvious where talented staff will end up.\n\nThat said, I do understand the employer's point of view. Face-to-face time is valuable for training new hires and building team spirit. But a hybrid model already gives you that, since teams can plan their office days together.\n\nSo, to sum up, I believe a balanced hybrid schedule is the smarter choice for both employees and the company.",
+  "usefulExpressions": [
+    {
+      "expression": "Honestly, no. I don't think…",
+      "usageVi": "Trả lời thẳng câu hỏi ngay câu đầu — giám khảo biết ngay quan điểm của bạn."
+    },
+    {
+      "expression": "get more done",
+      "usageVi": "Cụm tự nhiên = làm được nhiều việc hơn; hay hơn lặp lại 'more productive'."
+    },
+    {
+      "expression": "adds up to…",
+      "usageVi": "= cộng dồn lại thành…; dùng khi đưa con số để lập luận thuyết phục hơn."
+    },
+    {
+      "expression": "hang on to (good people)",
+      "usageVi": "Phrasal verb = giữ chân (nhân viên giỏi), thay cho 'keep' hoặc 'retain'."
+    },
+    {
+      "expression": "it's pretty obvious where… will end up",
+      "usageVi": "Câu chốt ý tự nhiên: ai cũng thấy rõ kết quả sẽ ra sao."
+    },
+    {
+      "expression": "That said, I do understand…",
+      "usageVi": "Chuyển sang thừa nhận ý kiến trái chiều; 'do' nhấn mạnh sự thông cảm."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ nói 'I like working from home' (sở thích cá nhân). S7 cần lý do có tính thuyết phục chung: năng suất, thời gian đi lại, giữ chân nhân viên.",
+    "Nói 'work from home make me more productive' → sai chủ ngữ và thiếu 's': 'Working from home makes me more productive'.",
+    "Phát âm sai 'hybrid' /ˈhaɪ.brɪd/ và 'commute' /kəˈmjuːt/ — 'commute' có trọng âm ở âm tiết thứ hai."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked clear position, three distinct reasons (productivity, commute, retention) + employer view, no legal claims, length 233 words (speakable in 90 s). No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "w1-mock-04",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "recreation",
+  "title": "Swimming lessons cancelled halfway through",
+  "situation": "You registered your eight-year-old son for a ten-week swimming program at a city recreation centre in Surrey and paid $185. After four lessons, the centre cancelled the rest of the program because the instructor had left. It offered families a credit that can only be used at the same centre within three months. You decide to email the centre's program supervisor.",
+  "instructions": [
+    "Explain the situation.",
+    "Explain why the credit offered is not suitable for your family.",
+    "Suggest what the centre could do instead."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting + program name, child, date of registration and amount paid",
+    "Instruction 1: what was cancelled, when, why, and what was offered",
+    "Instruction 2: politely acknowledge the offer (While I appreciate…), then 2 practical reasons it does not work",
+    "Instruction 3: a main request with the exact amount + an alternative + one extra question",
+    "Polite closing + sign-off"
+  ],
+  "modelResponse": "Dear Program Supervisor,\n\nI am writing about the Level 3 children's swimming program at Kingsbrook Recreation Centre, for which I registered my eight-year-old son, Ethan. I paid $185 for ten Saturday lessons. However, after only four classes, parents received an email saying that the remaining six lessons had been cancelled because the instructor had left. Families were offered a credit, valid only at Kingsbrook and only for the next three months.\n\nWhile I appreciate the gesture, this credit is of little use to my family. Ethan plays hockey on weekday evenings, and the only Level 3 classes left at Kingsbrook this fall are on Tuesday and Thursday nights. On top of that, the three-month limit includes the busy holiday season, so realistically we would have very few chances to use it.\n\nInstead, I would like to request a refund of $111 for the six missed lessons. Alternatively, if a refund is not possible, could the credit be made valid at any Surrey recreation centre for a full year? Several of them offer Saturday classes. I would also appreciate knowing whether the program will restart with a new instructor.\n\nThank you for considering my request.\n\nKind regards,\nAnita Desai",
+  "usefulExpressions": [
+    {
+      "expression": "for which I registered my son…",
+      "usageVi": "Mệnh đề quan hệ trang trọng với giới từ đứng trước 'which' – thể hiện ngữ pháp nâng cao."
+    },
+    {
+      "expression": "While I appreciate the gesture, …",
+      "usageVi": "Ghi nhận thiện chí của bên kia trước khi từ chối đề nghị – rất lịch sự."
+    },
+    {
+      "expression": "is of little use to my family",
+      "usageVi": "Cách nói trang trọng của 'không giúp ích nhiều'."
+    },
+    {
+      "expression": "On top of that, …",
+      "usageVi": "Từ nối thêm lý do thứ hai, tự nhiên và đa dạng hơn 'Also'."
+    },
+    {
+      "expression": "realistically, we would have very few chances to…",
+      "usageVi": "Lập luận thực tế, thuyết phục."
+    },
+    {
+      "expression": "Alternatively, if… is not possible, could…?",
+      "usageVi": "Đưa phương án thay thế dưới dạng câu hỏi lịch sự."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ nói 'The credit is not good for us' mà không giải thích. Ý 2 cần lý do cụ thể: lịch học trùng, thời hạn quá ngắn.",
+    "Không tính số tiền hoàn lại. Đưa con số rõ ràng ($185 ÷ 10 × 6 = $111) làm yêu cầu thuyết phục hơn.",
+    "Giọng trách móc nhân viên ('Your staff are unprofessional'). Việc giáo viên nghỉ không phải lỗi của người nhận thư.",
+    "Sai mạo từ và số nhiều: 'my son take swimming lesson' → 'my son takes swimming lessons'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets, refund maths ($185/10 x 6 = $111), 198 words. Fixed: replaced the real Surrey facility name (Fleetwood) with a fictional one (Kingsbrook) so no real organisation is tied to an invented incident."
+  },
+  "createdAt": "2026-11-03"
+}

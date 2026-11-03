@@ -10,8 +10,8 @@
   "chunks": [
     {
       "segments": [
-        { "speaker": "Andrés", "voice": "male_a", "text": "Thanks for seeing me. So, I'm working in a warehouse office right now, mostly receiving and invoicing, and my manager suggested I look into bookkeeping. I saw your part-time certificate online, but honestly, the website was a bit confusing." },
-        { "speaker": "Fiona", "voice": "female_b", "text": "You're not the first person to say that. Let me give you the short version. The certificate is eight courses. Seven are required, and you pick one elective, usually either payroll or small business taxation." },
+        { "speaker": "Andrés", "voice": "male_a", "text": "Thanks for seeing me. I'm Andrés. So, I'm working in a warehouse office right now, mostly receiving and invoicing, and my manager suggested I look into bookkeeping. I saw your part-time certificate online, but honestly, the website was a bit confusing." },
+        { "speaker": "Fiona", "voice": "female_b", "text": "Nice to meet you, Andrés. I'm Fiona. You're not the first person to say that. Let me give you the short version. The certificate is eight courses. Seven are required, and you pick one elective, usually either payroll or small business taxation." },
         { "speaker": "Andrés", "voice": "male_a", "text": "And it's all evenings?" },
         { "speaker": "Fiona", "voice": "female_b", "text": "Mostly. Classes run Tuesday and Thursday evenings, six-thirty to nine-thirty, live online. But the final exams are written in person, on campus, on Saturdays. So you'd need to come in roughly twice a term." },
         { "speaker": "Andrés", "voice": "male_a", "text": "That's fine. How long does the whole thing take?" },
@@ -136,7 +136,7 @@
   ],
   "estimatedMinutes": 7,
   "source": "curated",
-  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; key matched. Checked number distractors ($45 assessment vs $150 challenge vs $520 course, 5-year transfer window vs 9 years). Changed: Q3 correct option said 'dropping out' but Fiona talks about dropping a course - reworded to match the transcript." },
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; key matched. Checked number distractors ($45 assessment vs $150 challenge vs $520 course, 5-year transfer window vs 9 years). Changed: Q3 correct option said 'dropping out' but Fiona talks about dropping a course - reworded to match the transcript. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)." },
   "createdAt": "2026-10-26",
   "focus": []
 }

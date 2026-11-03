@@ -1,0 +1,308 @@
+{
+  "id": "r3-drill-03",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "recreation",
+  "title": "Paraphrase drill: The Pickleball Noise Debate",
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 6 independently; keys match; 5/6 items are paraphrase, meeting the drill's 70% target. Q5 E verified (C limits hours but mentions no fines). Checked trap labels and Vietnamese; no changes needed."},
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "When the District of Linden Bay turned two little-used tennis courts in Maple Hollow Park into six pickleball courts in 2023, it expected a modest response. Within weeks, players were lining up before 8 a.m., and on summer evenings the wait for a court often topped an hour. The sport's appeal is easy to see. The court is small, the rules can be picked up in a single afternoon, and older players can hold their own against people half their age without wrecking their knees. Local club president Evelyn Moreau-Tan, 68, says some of her members had not played any sport in decades before they gave it a try.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "The neighbours see things differently. Pickleball is played with a hard plastic ball and a solid paddle, and every hit makes a sharp popping sound that carries much further than the softer thud of a tennis ball. Residents whose homes back onto the park say the noise starts early, goes on until dusk and makes it impossible to relax in their own gardens. Retired teacher Gordon Lindqvist has measured it with a phone app and says it regularly tops 70 decibels at his back fence. \"It isn't the volume so much as the rhythm,\" he says. \"You can tune out traffic. You can't tune out a pop every two seconds.\"",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "The district has tried several fixes. Since last spring, play has been limited to between 9 a.m. and 8 p.m., and sound-dampening panels have been fixed to the fence on the side facing the houses. Staff say the panels cut the noise by about a third, although Lindqvist describes the improvement as \"noticeable but nowhere near enough.\" The club has also asked members to switch to quieter foam balls during early sessions, with mixed results: many players complain that the foam balls bounce unpredictably and take some of the fun out of the game.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "A longer-term answer may be to move the courts altogether. The district is looking at a site next to its works yard, about 400 metres from the nearest house, but building there would cost an estimated $1.2 million, and some players worry that the location is too far from the nearest bus stop. Councillor Priya Raman says council would rather spend the money once than keep paying for temporary measures that satisfy nobody. A public meeting on the proposal is planned for the fall, and both residents and players have been encouraged to come and make their case.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "A change in equipment has not been popular with everyone who plays.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A nói về sân nhỏ, luật dễ học, không nói về việc đổi dụng cụ."
+        },
+        {
+          "text": "B",
+          "trap": "word_match",
+          "whyVi": "Đoạn B mô tả bóng nhựa cứng và vợt — có nhắc dụng cụ, nhưng không nói về việc thay đổi chúng."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: việc đổi sang bóng xốp bị nhiều người chơi phàn nàn."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về việc dời sân, không phải đổi dụng cụ."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "with mixed results: many players complain that the foam balls bounce unpredictably",
+      "explanationVi": "Đoạn C: câu lạc bộ đề nghị đổi sang bóng xốp và kết quả 'mixed results' — nhiều người chơi 'complain' vì bóng nảy khó đoán. 'A change in equipment' = đổi sang 'foam balls'; 'not popular with everyone' = 'mixed results ... many players complain'.",
+      "vocabulary": [
+        "mixed results"
+      ]
+    },
+    {
+      "number": 2,
+      "prompt": "Newcomers can learn how to play the game very quickly.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: luật chơi có thể học xong trong một buổi chiều."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về tiếng ồn."
+        },
+        {
+          "text": "C",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn C nói người chơi đổi sang bóng xốp, không nói về việc học chơi."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về địa điểm mới."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "the rules can be picked up in a single afternoon",
+      "explanationVi": "Đoạn A: 'the rules can be picked up in a single afternoon'. 'Learn ... very quickly' = 'picked up in a single afternoon' ('pick up' = học được một cách dễ dàng).",
+      "vocabulary": [
+        "pick up"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "A possible new site might be difficult to reach without a car.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về địa điểm mới."
+        },
+        {
+          "text": "B",
+          "trap": "word_match",
+          "whyVi": "Đoạn B có 'You can tune out traffic' (giao thông) nhưng nói về tiếng ồn."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về các biện pháp hiện tại."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: người chơi lo địa điểm mới quá xa trạm xe buýt."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "some players worry that the location is too far from the nearest bus stop",
+      "explanationVi": "Đoạn D: một số người chơi lo địa điểm mới 'too far from the nearest bus stop'. Câu đề diễn đạt lại: xa trạm xe buýt → khó đến nếu không có xe hơi."
+    },
+    {
+      "number": 4,
+      "prompt": "One resident is bothered more by the repeated pattern of the sound than by how loud it is.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về tiếng ồn."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Lindqvist nói điều làm ông khó chịu là nhịp lặp lại, không hẳn là âm lượng."
+        },
+        {
+          "text": "C",
+          "trap": "wrong_speaker",
+          "whyVi": "Đoạn C cũng có lời Lindqvist, nhưng ông nói về hiệu quả của tấm cách âm, không nói về nhịp âm thanh."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về kế hoạch dời sân."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "\"It isn't the volume so much as the rhythm,\" he says.",
+      "explanationVi": "Lindqvist: 'It isn't the volume so much as the rhythm' — vấn đề không hẳn là âm lượng mà là nhịp đều đặn (một tiếng 'pop' mỗi hai giây). 'Repeated pattern' = 'rhythm'; 'how loud it is' = 'volume'. Cấu trúc 'not X so much as Y' = Y quan trọng hơn X.",
+      "vocabulary": [
+        "tune out"
+      ]
+    },
+    {
+      "number": 5,
+      "prompt": "Players who use the courts outside permitted hours can be fined.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'before 8 a.m.' nhưng chỉ nói người chơi xếp hàng sớm lúc mới mở sân."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói tiếng ồn bắt đầu từ sáng sớm, không nói phạt."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói giờ chơi bị giới hạn, nhưng không nói vi phạm sẽ bị phạt."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về chi phí xây sân mới, không phải tiền phạt."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: không đoạn nào nói người chơi ngoài giờ bị phạt."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "Since last spring, play has been limited to between 9 a.m. and 8 p.m.",
+      "explanationVi": "Câu gần nhất ở Đoạn C chỉ nói giờ chơi được giới hạn từ 9 giờ sáng đến 8 giờ tối. Bài không nói chơi ngoài giờ sẽ bị phạt tiền → E. Chú ý Đoạn A có '8 a.m.' (người xếp hàng trước 8 giờ) — đó là trước khi có quy định."
+    },
+    {
+      "number": 6,
+      "prompt": "Council prefers a permanent solution to a series of stopgap ones.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không có ý kiến của hội đồng."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B là ý kiến của cư dân."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C liệt kê các biện pháp tạm thời, nhưng không nói hội đồng muốn giải pháp lâu dài."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: hội đồng muốn chi một lần thay vì liên tục trả cho giải pháp tạm."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "council would rather spend the money once than keep paying for temporary measures that satisfy nobody",
+      "explanationVi": "Đoạn D: hội đồng 'would rather spend the money once than keep paying for temporary measures'. 'Permanent solution' = 'spend the money once'; 'stopgap ones' (giải pháp tạm thời) = 'temporary measures'.",
+      "vocabulary": [
+        "stopgap"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "pick up",
+      "vi": "học được (một cách dễ dàng)",
+      "definition": "to learn something without much effort",
+      "example": "You can pick up the rules in one afternoon."
+    },
+    {
+      "term": "hold your own",
+      "vi": "không thua kém, đủ sức đọ",
+      "definition": "to do as well as others in a competition",
+      "example": "Older players can hold their own against younger ones."
+    },
+    {
+      "term": "tune out",
+      "vi": "lờ đi, không để ý đến (âm thanh)",
+      "definition": "to stop paying attention to a sound or person",
+      "example": "It is hard to tune out a pop every two seconds."
+    },
+    {
+      "term": "mixed results",
+      "vi": "kết quả lẫn lộn (tốt xấu đều có)",
+      "definition": "results that are partly good and partly bad",
+      "example": "The foam balls had mixed results."
+    },
+    {
+      "term": "stopgap",
+      "vi": "giải pháp tạm thời",
+      "definition": "something used for a short time until a better solution is found",
+      "example": "The panels are only a stopgap measure."
+    },
+    {
+      "term": "make your case",
+      "vi": "trình bày lý lẽ của mình",
+      "definition": "to give reasons why you think something is right",
+      "example": "Residents can make their case at the public meeting."
+    },
+    {
+      "term": "back onto",
+      "vi": "phía sau giáp với",
+      "definition": "to have the back side facing something",
+      "example": "Their homes back onto the park."
+    }
+  ]
+}

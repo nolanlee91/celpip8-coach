@@ -1,0 +1,425 @@
+{
+  "id": "r3-full-05",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "banking",
+  "title": "When Your Credit Union Puts a Payment on Hold",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 9 independently; keys match. Q4 (E) vs Q9 share the Paragraph C sentence: C states legitimate payments were held up (Q9) but says nothing about compensation (Q4), so both hold; Q1's Paragraph A near-miss is fine (Fenwick is saved by the teller's questions, not by a delay). Reworded Q6 to 'A staff member believes...' because the lack-of-awareness reason is Arruda's opinion, not a fact; explanation updated. Note: scenario overlaps strongly with r3-mock-04 (credit-union tellers stopping elder fraud, seniors feeling patronised)."},
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "Last March, Harold Fenwick, an 81-year-old retired machinist in Nanaimo, walked into his branch of Coastline Savings Credit Union and asked to wire $18,000 to an account in Ontario. A man claiming to be from the Canada Revenue Agency had phoned him that morning and warned that police would be at his door unless he settled an overdue tax bill by the end of the day. The teller, who had been trained to recognise exactly this kind of story, asked a few gentle questions and then quietly called over her manager. Fenwick was irritated at first. By the time he left, though, he had realised the call was a hoax, and his savings were still in his account.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "Stories like Fenwick's are why many Canadian banks and credit unions now place temporary holds on transactions that look out of character for a customer. A pensioner who normally withdraws a few hundred dollars a month and suddenly asks for a five-figure transfer to a stranger is the textbook example. Staff cannot refuse a customer's instructions indefinitely, but they can delay a payment for a few days while they try to confirm that it is genuine. Coastline's fraud manager, Leticia Arruda, says the pause itself often does the job: once the deadline the caller invented has come and gone, most victims see through the scam on their own.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Not everyone is comfortable with the practice. Advocates for older adults point out that a hold can feel deeply patronising to someone who has managed their own money for sixty years, especially when staff seem to assume that age alone makes a person vulnerable. There have also been cases where legitimate payments, such as a down payment on a condo or a gift to a grandchild, were held up long enough to cause real problems. Moira Delacroix of the Island Seniors' Advocacy Council argues that financial institutions should explain clearly why a payment is being held, rather than leaving customers to guess, and that any decision should be based on behaviour, not birth dates.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "One tool that both sides tend to support is the trusted contact person. Customers can name a relative or friend whom the institution may call if it has concerns about possible fraud or about the customer's ability to manage their affairs. The contact cannot see account balances or approve transactions; their role is simply to be someone staff can talk to. Fewer than one in ten Coastline members over 65 have named one, which Arruda puts down to a lack of awareness rather than any resistance to the idea. She suggests setting it up during a routine branch visit, long before anything goes wrong, since the paperwork takes about ten minutes.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Simply slowing a payment down can give a victim the time they need to realise they are being tricked.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A: ông Fenwick nhận ra trò lừa, nhưng là nhờ nhân viên hỏi han trong cùng buổi, không nói việc trì hoãn thanh toán giúp ông."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Đoạn B nói việc tạm dừng giúp nạn nhân tự nhận ra trò lừa khi hạn chót giả đã qua."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'held up' (bị giữ lại) nhưng nói về khoản thanh toán thật bị chậm, gây rắc rối."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về người liên hệ tin cậy, không nói về tác dụng của việc trì hoãn."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "the pause itself often does the job: once the deadline the caller invented has come and gone, most victims see through the scam on their own",
+      "explanationVi": "Đoạn B: chỉ riêng việc tạm dừng ('the pause itself') thường đủ hiệu quả; khi hạn chót giả qua đi, nạn nhân tự 'see through the scam' (nhận ra trò lừa). 'Slowing a payment down' = 'the pause'; 'realise they are being tricked' = 'see through the scam'. Đoạn A cũng có nạn nhân nhận ra, nhưng nhờ nhân viên hỏi chuyện ngay tại quầy, không phải nhờ trì hoãn giao dịch.",
+      "vocabulary": [
+        "see through"
+      ]
+    },
+    {
+      "number": 2,
+      "prompt": "A customer did not initially welcome staff stepping in.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: ông Fenwick ban đầu bực bội khi nhân viên hỏi và gọi quản lý."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói chung về chính sách, không kể phản ứng của một khách hàng cụ thể."
+        },
+        {
+          "text": "C",
+          "trap": "too_broad",
+          "whyVi": "Đoạn C nói nhiều người lớn tuổi có thể thấy bị coi thường, nhưng đó là nhận xét chung của người bênh vực, không phải phản ứng của một khách hàng."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói ai phản ứng tiêu cực."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "Fenwick was irritated at first.",
+      "explanationVi": "Đoạn A: 'Fenwick was irritated at first' — ban đầu ông khó chịu khi nhân viên can thiệp. 'Did not initially welcome' = 'irritated at first'."
+    },
+    {
+      "number": 3,
+      "prompt": "The person a customer names has no power to authorise any spending.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về người được chỉ định."
+        },
+        {
+          "text": "B",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn B nói nhân viên không được từ chối mãi lệnh của khách — đó là giới hạn của nhân viên, không phải của người liên hệ."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nhắc người liên hệ tin cậy."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: người liên hệ không xem được số dư và không duyệt được giao dịch."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "The contact cannot see account balances or approve transactions",
+      "explanationVi": "Đoạn D: người liên hệ tin cậy 'cannot ... approve transactions'. 'No power to authorise any spending' = 'cannot approve transactions'.",
+      "vocabulary": [
+        "trusted contact person"
+      ]
+    },
+    {
+      "number": 4,
+      "prompt": "Customers whose payments are wrongly held can claim compensation for any losses.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A: tiền của ông Fenwick vẫn an toàn, không có bồi thường."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về việc giữ giao dịch vài ngày, không nói bồi thường."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói giao dịch thật bị giữ gây rắc rối, nhưng không nói khách được đòi bồi thường."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về tổn thất hay bồi thường."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: không đoạn nào nói khách được bồi thường khi bị giữ tiền nhầm."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "legitimate payments, such as a down payment on a condo or a gift to a grandchild, were held up long enough to cause real problems",
+      "explanationVi": "Câu gần nhất ở Đoạn C: có khoản thanh toán hợp lệ bị giữ lâu 'long enough to cause real problems'. Đoạn này chỉ nói có thiệt hại và đề nghị giải thích rõ lý do, không hề nói khách được bồi thường (compensation) → E."
+    },
+    {
+      "number": 5,
+      "prompt": "Decisions to hold a payment should depend on how a customer acts, not on their age.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có nêu tuổi ông Fenwick (81) nhưng không ai nói quyết định nên dựa vào hành vi."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B mô tả giao dịch 'out of character' (khác thói quen) — gần với hành vi, nhưng không có ý phản đối việc dựa vào tuổi."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Đoạn C nói quyết định nên dựa vào hành vi chứ không phải ngày sinh."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không bàn về tiêu chí giữ giao dịch."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "any decision should be based on behaviour, not birth dates",
+      "explanationVi": "Moira Delacroix cho rằng quyết định 'should be based on behaviour, not birth dates'. 'How a customer acts' = 'behaviour'; 'their age' = 'birth dates' (ngày sinh → tuổi)."
+    },
+    {
+      "number": 6,
+      "prompt": "A staff member believes most older members have not used an available option simply because they do not know about it.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về lựa chọn nào mà khách chưa dùng."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về việc giữ giao dịch, không có số liệu thành viên."
+        },
+        {
+          "text": "C",
+          "trap": "opposite",
+          "whyVi": "Đoạn C nói một số người lớn tuổi khó chịu với việc giữ tiền — đó là phản đối, ngược với ý 'chỉ vì không biết'."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: Arruda cho rằng ít người chỉ định người liên hệ vì không biết đến dịch vụ."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "which Arruda puts down to a lack of awareness rather than any resistance to the idea",
+      "explanationVi": "Đoạn D: chưa đến 1/10 thành viên trên 65 tuổi chỉ định người liên hệ, và Arruda 'puts down to' (cho là do) 'a lack of awareness' (không biết đến) chứ không phải phản đối. 'Do not know about it' = 'lack of awareness'; 'a staff member believes' = 'Arruda puts down to' (đây là nhận định của Arruda, không phải số liệu).",
+      "vocabulary": [
+        "put down to"
+      ]
+    },
+    {
+      "number": 7,
+      "prompt": "Staff are not permitted to stop a customer's payment permanently.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A: nhân viên can thiệp vào giao dịch của ông Fenwick, nhưng không nói giới hạn quyền của nhân viên."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: nhân viên không thể từ chối lệnh của khách mãi mãi, chỉ được tạm hoãn vài ngày."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói giao dịch bị giữ gây rắc rối, không nói nhân viên không được giữ mãi."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn D nói người liên hệ không duyệt được giao dịch — đó là giới hạn của người liên hệ, không phải nhân viên."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Staff cannot refuse a customer's instructions indefinitely",
+      "explanationVi": "Đoạn B: nhân viên 'cannot refuse a customer's instructions indefinitely' (không thể từ chối vô thời hạn), chỉ được trì hoãn vài ngày. 'Permanently' = 'indefinitely'.",
+      "vocabulary": [
+        "indefinitely"
+      ]
+    },
+    {
+      "number": 8,
+      "prompt": "A fraudster used the threat of arrest to rush his target into paying.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: kẻ gian dọa cảnh sát đến nhà và ép trả trong ngày."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nhắc 'the deadline the caller invented' (hạn chót bịa ra), nhưng không nói đến việc dọa bắt."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nói về thủ đoạn của kẻ lừa đảo."
+        },
+        {
+          "text": "D",
+          "trap": "word_match",
+          "whyVi": "Đoạn D có từ 'fraud' nhưng nói về người liên hệ tin cậy."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "warned that police would be at his door unless he settled an overdue tax bill by the end of the day",
+      "explanationVi": "Đoạn A: kẻ gian dọa 'police would be at his door' (cảnh sát sẽ đến nhà = sẽ bị bắt) nếu không trả trước cuối ngày. 'Rush ... into paying' = hạn chót 'by the end of the day'. Đoạn B có 'the deadline the caller invented' nhưng nói chung, không nhắc đến lời dọa bắt.",
+      "vocabulary": [
+        "hoax"
+      ]
+    },
+    {
+      "number": 9,
+      "prompt": "Some genuine purchases have been delayed as a result of these checks.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "opposite",
+          "whyVi": "Đoạn A kể một giao dịch lừa đảo bị chặn — không phải giao dịch thật bị chậm."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói nhân viên có thể hoãn giao dịch vài ngày để xác minh, nhưng không nói giao dịch thật đã bị ảnh hưởng."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Đoạn C nói một số khoản thanh toán hợp lệ đã bị giữ lại, gây rắc rối thật."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về giao dịch bị chậm."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "legitimate payments, such as a down payment on a condo or a gift to a grandchild, were held up long enough to cause real problems",
+      "explanationVi": "Đoạn C: 'legitimate payments ... were held up'. 'Genuine' = 'legitimate'; 'delayed' = 'held up'. Ví dụ là tiền đặt cọc mua căn hộ.",
+      "vocabulary": [
+        "hold up"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "hoax",
+      "vi": "trò lừa bịp",
+      "definition": "a trick that makes people believe something false",
+      "example": "He soon realised the call was a hoax."
+    },
+    {
+      "term": "out of character",
+      "vi": "khác thường, không giống thói quen",
+      "definition": "not typical of the way someone usually behaves",
+      "example": "The large transfer was out of character for him."
+    },
+    {
+      "term": "indefinitely",
+      "vi": "vô thời hạn",
+      "definition": "for a period of time with no fixed end",
+      "example": "Staff cannot hold a payment indefinitely."
+    },
+    {
+      "term": "see through",
+      "vi": "nhìn thấu, nhận ra (trò lừa)",
+      "definition": "to realise that something is a trick or a lie",
+      "example": "Most victims see through the scam once the deadline passes."
+    },
+    {
+      "term": "patronising",
+      "vi": "kẻ cả, coi thường (như với trẻ con)",
+      "definition": "treating someone as if they are less intelligent or capable",
+      "example": "A hold can feel patronising to an experienced customer."
+    },
+    {
+      "term": "hold up",
+      "vi": "làm chậm trễ, trì hoãn",
+      "definition": "to delay something",
+      "example": "Extra checks can hold up a payment for three days."
+    },
+    {
+      "term": "put down to",
+      "vi": "cho là do, quy cho",
+      "definition": "to say that something is caused by something",
+      "example": "She puts the low numbers down to a lack of awareness."
+    },
+    {
+      "term": "trusted contact person",
+      "vi": "người liên hệ tin cậy (do khách chỉ định)",
+      "definition": "someone a customer names whom the bank may call if it has concerns",
+      "example": "You can name your daughter as your trusted contact person."
+    }
+  ]
+}

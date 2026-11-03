@@ -1,0 +1,54 @@
+{
+  "id": "s2-mock-03",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "recreation",
+  "title": "Trying a new outdoor activity",
+  "prompt": "Talk about a time when you tried an outdoor activity for the first time. What was the activity, what was challenging about it, and would you do it again?",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "When, where, with whom + the activity",
+    "What was challenging (physical or mental)",
+    "A memorable moment",
+    "Would you do it again + why"
+  ],
+  "modelAnswer": "Last July, a co-worker invited me to go kayaking with her group at Deep Cove in North Vancouver. I'd never been in a kayak before, and to be honest, I'm not a very confident swimmer, so I was pretty nervous.\n\nThe first challenge was simply getting into the kayak without tipping it over. Then, once we were out on the water, I found it really hard to paddle in a straight line. I kept drifting off to the side while everyone else glided ahead. Luckily, our guide, Marco, paddled next to me and showed me how to use my core instead of just my arms, and after that it got much easier.\n\nThe best moment came about an hour in, when a couple of seals popped their heads out of the water right beside us. It was absolutely magical.\n\nSo, would I do it again? Definitely. My shoulders were sore for two days, but I loved being out in nature, and I've already signed up for a beginner course next summer so I can go out on my own.",
+  "usefulExpressions": [
+    {
+      "expression": "I'd never been in a kayak before",
+      "usageVi": "Quá khứ hoàn thành để nhấn mạnh đây là lần đầu tiên."
+    },
+    {
+      "expression": "The first challenge was simply + V-ing",
+      "usageVi": "Liệt kê khó khăn có thứ tự, giúp câu trả lời mạch lạc."
+    },
+    {
+      "expression": "I kept drifting off to the side",
+      "usageVi": "'Kept + V-ing' = cứ liên tục bị… — diễn tả khó khăn lặp lại."
+    },
+    {
+      "expression": "popped their heads out of the water",
+      "usageVi": "'Pop out' = bất chợt nhô ra — động từ sinh động thay cho 'appeared'."
+    },
+    {
+      "expression": "So, would I do it again? Definitely.",
+      "usageVi": "Tự hỏi lại câu hỏi của đề để chuyển sang phần kết — kỹ thuật rất hiệu quả trong 60 giây."
+    }
+  ],
+  "commonMistakes": [
+    "Quên trả lời 'would you do it again' hoặc chỉ nói 'Yes' — cần thêm một lý do và một kế hoạch cụ thể.",
+    "Nói 'I played kayak' — trong tiếng Anh dùng 'go kayaking', 'go hiking', 'go skiing'.",
+    "Liệt kê hoạt động như danh sách mà không có cảm xúc. Thêm cảm giác (nervous, magical, sore) để câu chuyện sống động."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked activity, challenges and 'would you do it again' with a reason and plan; length 179. Deep Cove kayaking with seals is realistic and safe. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

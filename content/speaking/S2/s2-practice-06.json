@@ -1,0 +1,54 @@
+{
+  "id": "s2-practice-06",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "practice",
+  "difficulty": 9,
+  "topic": "banking",
+  "title": "A money decision you learned from",
+  "prompt": "Talk about a time when you made a financial decision that did not turn out as you had hoped. What did you decide and why, what went wrong, and how has the experience changed the way you manage money?",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "The decision and your reasoning at the time",
+    "What went wrong (cause → consequence)",
+    "How you recovered from it",
+    "Lasting change in your money habits — contrast \"before\" and \"now\""
+  ],
+  "modelAnswer": "About three years after I arrived in Canada, I was offered a store credit card at an electronics shop in Richmond. They promised no interest for the first twelve months, so I used it to buy a new laptop and a TV, about twenty-four hundred dollars. At the time, it seemed like a smart move, because I assumed I'd pay it off well before the promotion ended.\n\nWhat I hadn't taken into account was the fine print. If you didn't clear the whole balance by the deadline, they charged interest going all the way back to the purchase date. Then my hours at work got cut, I fell behind, and I was suddenly hit with almost four hundred dollars in interest.\n\nIt took me about six months of tight budgeting to dig myself out of that hole.\n\nSince then, I've completely changed the way I handle money. I read every agreement carefully before I sign, I only buy big items once I've saved for them, and I keep three months of expenses in a high-interest savings account. It was an expensive lesson, but it made me far more disciplined.",
+  "usefulExpressions": [
+    {
+      "expression": "At the time, it seemed like a smart move",
+      "usageVi": "Giải thích lý do quyết định ban đầu — cho thấy bạn nhìn lại có suy xét."
+    },
+    {
+      "expression": "What I hadn't taken into account was…",
+      "usageVi": "Câu chẻ + quá khứ hoàn thành — cấu trúc nâng cao, rất phù hợp Level 9."
+    },
+    {
+      "expression": "the fine print",
+      "usageVi": "Điều khoản in nhỏ trong hợp đồng — từ vựng tài chính thông dụng ở Canada."
+    },
+    {
+      "expression": "I fell behind / dig myself out of that hole",
+      "usageVi": "'Fall behind' = bị chậm trả; 'dig oneself out of a hole' = thoát khỏi tình thế nợ nần."
+    },
+    {
+      "expression": "Since then, I've completely changed…",
+      "usageVi": "Hiện tại hoàn thành nối quá khứ với hiện tại — trả lời ý \"how has it changed\"."
+    }
+  ],
+  "commonMistakes": [
+    "Ý cuối hỏi 'how has the experience changed…' — phải dùng hiện tại hoàn thành / hiện tại đơn cho thói quen mới, không kể tiếp bằng quá khứ.",
+    "Nói số tiền không tự nhiên: 'two thousand four hundred dollar'. Nói 'twenty-four hundred dollars' hoặc 'two thousand four hundred dollars' (có -s).",
+    "Chỉ nói 'I lost money' chung chung. Đề Level 9 cần chuỗi nguyên nhân → hậu quả rõ ràng (khuyến mãi → điều khoản → bị cắt giờ → lãi phạt)."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked all 3 prompt parts (decision + reason, what went wrong, lasting change), cause-and-effect chain and Level 9 structures; length 189 (inside 190). The deferred-interest store-card scenario is realistic and gives no personalised financial advice. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

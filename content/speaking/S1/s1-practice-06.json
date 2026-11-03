@@ -1,0 +1,55 @@
+{
+  "id": "s1-practice-06",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "practice",
+  "difficulty": 9,
+  "topic": "social",
+  "title": "Advice for a friend whose friend keeps borrowing money",
+  "prompt": "Your friend Grace has a close friend who has borrowed money from her several times over the past year, about $1,200 in total. He has not paid any of it back, and now he has asked to borrow another $500. Grace values the friendship, but she is starting to feel taken advantage of.\n\nGive Grace some advice about how to handle this situation.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Validate her feelings without judging the friend",
+    "Advice 1: it is fine to say no to the new loan — how to phrase it kindly",
+    "Advice 2: raise the old debt calmly and suggest a realistic repayment plan",
+    "Advice 3: set a clear rule for the future (no cash; offer other kinds of help)",
+    "Balanced conclusion: a real friend will respect boundaries + support"
+  ],
+  "modelAnswer": "Grace, first of all, what you're feeling is completely understandable. Twelve hundred dollars is a lot of money, and wanting it back doesn't make you a bad friend.\n\nAs for the new request, I honestly think you're entitled to say no. You don't need a long excuse, either. You could simply tell him, \"I care about you, but I'm not comfortable lending any more until we've sorted out what's already owed.\" That way, you're turning down the loan without turning him down as a person.\n\nThen I'd bring up the existing debt, ideally face to face rather than over text, where things can easily come across the wrong way. Try not to make it sound like an accusation. Instead, you could suggest something manageable, like a hundred dollars a month. If he's genuinely struggling, a small, regular amount takes the pressure off both of you.\n\nGoing forward, it might help to set a simple rule for yourself, like only lending what you could afford to lose. And if he's in a tough spot, there are other ways to support him, such as helping him update his résumé or covering a grocery run.\n\nAt the end of the day, a real friend should respect your boundaries. If he reacts badly when you're being fair, that tells you something too, but my guess is he'll appreciate your honesty. Either way, I've got your back.",
+  "usefulExpressions": [
+    {
+      "expression": "be entitled to + V",
+      "usageVi": "'Có quyền chính đáng để…' — khẳng định người nghe không sai khi làm vậy."
+    },
+    {
+      "expression": "sort something out",
+      "usageVi": "Cụm động từ: giải quyết, thu xếp ổn thỏa (một vấn đề, khoản nợ)."
+    },
+    {
+      "expression": "turn something/someone down",
+      "usageVi": "Cụm động từ: từ chối. Câu trong bài chơi chữ: từ chối khoản vay nhưng không từ chối con người."
+    },
+    {
+      "expression": "come across the wrong way",
+      "usageVi": "'Bị hiểu sai ý / nghe có vẻ không hay' — dùng khi nói về cách truyền đạt."
+    },
+    {
+      "expression": "take the pressure off (someone)",
+      "usageVi": "'Giảm áp lực cho ai' — giải thích lợi ích của lời khuyên."
+    },
+    {
+      "expression": "I've got your back.",
+      "usageVi": "Thành ngữ thân mật: 'Mình luôn ủng hộ bạn'. Câu kết ấm áp."
+    }
+  ],
+  "commonMistakes": [
+    "Khuyên cực đoan: 'Stop being his friend' hoặc 'Just give him the money'. Lời khuyên mức 9 cân bằng: bảo vệ tiền của Grace nhưng vẫn giữ tình bạn.",
+    "Chỉ trả lời một phần đề (khoản vay mới) mà quên khoản nợ cũ $1,200. Hãy xử lý cả hai và cả cách phòng tránh về sau.",
+    "Không có câu mẫu cụ thể. Đưa ra một câu Grace có thể nói ('You could simply tell him, …') giúp bài nói sinh động và thuyết phục hơn."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {"status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Checked new loan, old $1,200 debt and future boundaries are all addressed with balanced, Level 9 language; ~232 words; expressions and Vietnamese accurate. No changes needed."},
+  "createdAt": "2026-11-03"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "w2-mock-03",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "Summer ferry travel: reservations or extra sailings",
+  "situation": "Coastline Ferries operates the route between Port Garland and Kestrel Island. Last summer, drivers often waited up to three hours to board. The company is planning changes for next summer and has asked passengers to complete the following survey.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Require reservations for all vehicles in July and August. Each booking would cost $12 per trip, but it would guarantee a spot on the chosen sailing.",
+  "optionB": "Option B: Keep the first-come, first-served system with no booking fee, and add two extra sailings per day in July and August.",
+  "structure": [
+    "Opening: state your choice + main reason (planning with confidence)",
+    "Reason 1: the problem with the current system + personal example",
+    "Reason 2: benefit for local residents (less traffic near the terminal)",
+    "Concession: the fee and the appeal of extra sailings, then why your option is still better",
+    "Conclusion"
+  ],
+  "modelResponse": "I would prefer to make reservations mandatory during the summer, mainly because it would allow travellers to plan their trips with confidence.\n\nUnder the current system, nobody knows whether they will get on the next sailing. Last August, my family arrived at the terminal an hour early and still had to wait three hours in the sun with two restless children. With a guaranteed spot, we could have arrived just before departure and spent that time at the beach instead.\n\nReservations would also reduce the long lineups that block local roads near the terminal. Residents of Port Garland often complain that ferry traffic makes it difficult to get to work or appointments in the summer.\n\nOn the other hand, I understand that a $12 fee is an extra cost, and extra sailings would help without charging passengers anything. However, two additional sailings may not be enough on long weekends, when demand is highest, while $12 is a small price to pay to avoid a three-hour wait.\n\nFor these reasons, I believe a reservation system is the better solution.",
+  "usefulExpressions": [
+    {
+      "expression": "plan their trips with confidence",
+      "usageVi": "Lên kế hoạch một cách chắc chắn — cụm lập luận gọn, tự nhiên."
+    },
+    {
+      "expression": "Under the current system, …",
+      "usageVi": "Mở đầu đoạn nêu vấn đề hiện tại — dùng được cho nhiều đề W2."
+    },
+    {
+      "expression": "With a guaranteed spot, we could have…",
+      "usageVi": "Kết hợp ví dụ cá nhân với câu điều kiện quá khứ — chứng minh lợi ích cụ thể."
+    },
+    {
+      "expression": "long lineups",
+      "usageVi": "Tiếng Anh Canada dùng 'lineup' (hàng chờ) thay cho 'queue'."
+    },
+    {
+      "expression": "a small price to pay to…",
+      "usageVi": "Cái giá nhỏ để đổi lấy… — thành ngữ hữu ích khi biện hộ cho một chi phí."
+    },
+    {
+      "expression": "when demand is highest",
+      "usageVi": "Khi nhu cầu cao nhất — từ vựng chủ đề giao thông, dịch vụ."
+    }
+  ],
+  "commonMistakes": [
+    "Viết 'travelers' theo chính tả Mỹ. Trong tiếng Anh Canada thường viết 'travellers', 'travelling'.",
+    "Nhầm 'reserve' (động từ) và 'reservation' (danh từ): 'make a reserve' → 'make a reservation'.",
+    "Chỉ kể chuyện cá nhân mà không nêu lợi ích cho người khác (cư dân địa phương, giao thông).",
+    "Không giải thích vì sao phí $12 là chấp nhận được — người chấm sẽ thấy bạn bỏ qua nhược điểm rõ ràng nhất."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked fictional ferry company, balanced options ($12 guaranteed booking vs free extra sailings), personal example consistent with the 'up to three hours' situation, concession addresses both the fee and extra sailings, word count 178. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "l3-full-02",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "Picking up a new blood pressure prescription",
+  "context": "You will hear a pharmacist at a neighbourhood pharmacy in Surrey explaining a new prescription to a customer.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Elena", "voice": "female_b", "text": "Hi, Arjun? I'm Elena, one of the pharmacists here. I've got your prescription ready. Since it's a brand-new medication for you, I'd like to take a couple of minutes to go over it, if that's okay." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Sure, go ahead. My doctor kind of rushed through it, to be honest." },
+        { "speaker": "Elena", "voice": "female_b", "text": "That happens. So, it's one tablet every morning, but for the first week your doctor wants you on half a tablet. The tablets are scored down the middle, so they snap in two pretty easily. Starting low gives your body a chance to adjust, and after seven days you move up to the whole thing." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Okay. And what if I forget? I'm not exactly a morning person." },
+        { "speaker": "Elena", "voice": "female_b", "text": "If it comes to you before about noon, go ahead and take it. If it's later than that, just skip it and carry on as usual the next morning. Whatever you do, don't take two to make up for it." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Got it. Anything I should watch out for?" },
+        { "speaker": "Elena", "voice": "female_b", "text": "For the first few days, you might feel a bit light-headed if you get up too quickly, say, out of bed. That's pretty common and it usually settles down on its own. Just take your time standing up. What I'd want you to mention to your doctor is any swelling around your ankles. It's not an emergency, but it's worth a phone call." },
+        { "speaker": "Elena", "voice": "female_b", "text": "Oh, and steer clear of grapefruit and grapefruit juice. It can make the medication stronger than it's meant to be." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Good thing I'm more of an orange juice guy. Now, the total here says fourteen sixty. I was expecting closer to forty bucks. Did PharmaCare kick in?" },
+        { "speaker": "Elena", "voice": "female_b", "text": "Not yet, I'm afraid. You haven't reached your deductible for the year. The difference is that I filled it with the generic version. It's exactly the same active ingredient as the brand name, just made by a different company. If you'd rather have the brand, I can switch it, but you'd be paying the full thirty-eight dollars." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "No, no, generic is fine. What about refills?" },
+        { "speaker": "Elena", "voice": "female_b", "text": "You've got two refills on this, so three months in total. Book a follow-up with your doctor before you're on the last one. If you can't get in on time, I can extend it once, for up to a month, but that's really meant as a safety net, not a plan." },
+        { "speaker": "Elena", "voice": "female_b", "text": "One last thing. Your doctor will want to see how your numbers are doing. We've got a free blood pressure machine by the front door, so if you check once a week and jot the readings down, bring that log to your next appointment." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "I'm in here every Saturday for groceries anyway, so that's easy." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why will Arjun take only half a tablet at first?",
+          "options": [
+            { "text": "The full tablets are too large to swallow whole.", "trap": "word_match", "whyVi": "Bài nói viên thuốc có rãnh để bẻ đôi dễ dàng, không nói viên quá to khó nuốt." },
+            { "text": "His doctor wants to see whether the medication works.", "trap": "not_mentioned", "whyVi": "Bài không nói liều nửa viên là để thử xem thuốc có hiệu quả không." },
+            { "text": "Easing in gradually helps his body get used to the drug.", "trap": "none", "whyVi": "Đúng: 'Starting low gives your body a chance to adjust' – bắt đầu liều thấp để cơ thể thích nghi." },
+            { "text": "He has been prescribed only one week of medication.", "trap": "wrong_detail", "whyVi": "Một tuần chỉ là thời gian uống nửa viên; đơn thuốc đủ cho ba tháng kể cả lần lấy thêm." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "Starting low gives your body a chance to adjust, and after seven days you move up to the whole thing.",
+          "explanationVi": "'Starting low' = bắt đầu với liều thấp; 'a chance to adjust' được diễn đạt lại thành 'get used to'. Đáp án C dùng 'easing in gradually' thay cho 'starting low'.",
+          "vocabulary": ["adjust"]
+        },
+        {
+          "number": 2,
+          "prompt": "Arjun forgets his morning dose and remembers at dinner time. What should he do?",
+          "options": [
+            { "text": "Leave out that dose and take his normal one the next day.", "trap": "none", "whyVi": "Đúng: sau khoảng trưa thì bỏ qua liều đó và uống như bình thường vào sáng hôm sau." },
+            { "text": "Take the missed tablet as soon as he remembers.", "trap": "partially_true", "whyVi": "Chỉ đúng nếu anh nhớ ra trước khoảng 12 giờ trưa; giờ ăn tối thì đã quá muộn." },
+            { "text": "Take two tablets the following morning.", "trap": "opposite", "whyVi": "Elena dặn rõ không được uống gấp đôi để bù." },
+            { "text": "Call the pharmacy to ask for advice.", "trap": "not_mentioned", "whyVi": "Elena không bảo anh gọi nhà thuốc khi quên liều." }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "If it's later than that, just skip it and carry on as usual the next morning.",
+          "explanationVi": "Mốc quan trọng là 'before about noon'. Giờ ăn tối là sau mốc đó nên áp dụng câu 'skip it and carry on as usual'. 'Skip' được diễn đạt lại thành 'leave out'.",
+          "vocabulary": ["carry on"]
+        },
+        {
+          "number": 3,
+          "prompt": "According to Elena, which effect is a reason to contact the doctor?",
+          "options": [
+            { "text": "Feeling dizzy when he gets out of bed.", "trap": "wrong_detail", "whyVi": "Chóng mặt khi đứng dậy là phổ biến và thường tự hết; chỉ cần đứng dậy từ từ." },
+            { "text": "Puffiness in his lower legs.", "trap": "none", "whyVi": "Đúng: Elena muốn anh báo bác sĩ nếu bị sưng quanh mắt cá chân." },
+            { "text": "Any sudden symptom that feels like an emergency.", "trap": "not_mentioned", "whyVi": "Elena nói sưng mắt cá 'not an emergency', chỉ cần gọi điện." },
+            { "text": "A stronger effect after drinking orange juice.", "trap": "word_match", "whyVi": "Loại nước cần tránh là bưởi (grapefruit); nước cam chỉ là sở thích của Arjun." }
+          ],
+          "answerIndex": 1,
+          "category": "similar_choices",
+          "evidence": "What I'd want you to mention to your doctor is any swelling around your ankles.",
+          "explanationVi": "Elena nhắc hai triệu chứng: chóng mặt (bình thường, tự hết) và sưng mắt cá (cần báo bác sĩ). 'Swelling around your ankles' được diễn đạt lại thành 'puffiness in his lower legs'.",
+          "vocabulary": ["light-headed"]
+        },
+        {
+          "number": 4,
+          "prompt": "Why does Arjun pay less than he expected?",
+          "options": [
+            { "text": "PharmaCare has started covering part of the cost.", "trap": "word_match", "whyVi": "Arjun hỏi về PharmaCare nhưng Elena nói 'Not yet' vì anh chưa đạt mức khấu trừ." },
+            { "text": "Elena gave him a smaller supply for the first week.", "trap": "wrong_detail", "whyVi": "Tuần đầu chỉ là uống nửa viên; giá thấp không vì số lượng ít hơn." },
+            { "text": "The brand-name drug is on sale this month.", "trap": "not_mentioned", "whyVi": "Không có khuyến mãi; thuốc biệt dược vẫn giá đầy đủ 38 đô." },
+            { "text": "He was given a cheaper equivalent made by another manufacturer.", "trap": "none", "whyVi": "Đúng: Elena dùng thuốc generic – cùng hoạt chất, do công ty khác sản xuất." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "The difference is that I filled it with the generic version. It's exactly the same active ingredient as the brand name, just made by a different company.",
+          "explanationVi": "Lý do giá thấp là 'generic version'. Đáp án D diễn đạt 'same active ingredient' thành 'equivalent' và 'a different company' thành 'another manufacturer'.",
+          "vocabulary": ["generic", "deductible"]
+        },
+        {
+          "number": 5,
+          "prompt": "What does Elena suggest about extending the prescription herself?",
+          "options": [
+            { "text": "It is the easiest way to avoid seeing the doctor.", "trap": "opposite", "whyVi": "Elena muốn anh đặt lịch tái khám với bác sĩ; gia hạn không phải cách để tránh gặp bác sĩ." },
+            { "text": "Arjun should not count on it as his normal arrangement.", "trap": "none", "whyVi": "Đúng: 'a safety net, not a plan' – chỉ là phương án dự phòng, đừng dựa vào nó." },
+            { "text": "She can do it as many times as he needs.", "trap": "opposite", "whyVi": "Cô nói chỉ gia hạn được một lần ('once')." },
+            { "text": "It will give him three more months of medication.", "trap": "wrong_detail", "whyVi": "Ba tháng là tổng của đơn hiện tại; gia hạn chỉ tối đa một tháng." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "If you can't get in on time, I can extend it once, for up to a month, but that's really meant as a safety net, not a plan.",
+          "explanationVi": "Thái độ được ngụ ý qua 'a safety net, not a plan': gia hạn chỉ dùng khi bất đắc dĩ. Đáp án B diễn đạt lại thành 'should not count on it'.",
+          "vocabulary": ["safety net"]
+        },
+        {
+          "number": 6,
+          "prompt": "What will Arjun most likely do at the pharmacy on Saturdays?",
+          "options": [
+            { "text": "Pick up his refills.", "trap": "wrong_detail", "whyVi": "Có nhắc tới việc lấy thêm thuốc, nhưng mỗi lần đủ một tháng, không phải mỗi thứ Bảy." },
+            { "text": "Ask Elena to look at his readings.", "trap": "wrong_speaker", "whyVi": "Người cần xem sổ ghi là bác sĩ, không phải Elena." },
+            { "text": "Measure his blood pressure and write down the results.", "trap": "none", "whyVi": "Đúng: anh đến mua đồ mỗi thứ Bảy nên tiện đo huyết áp bằng máy miễn phí và ghi lại." },
+            { "text": "Buy the brand-name version of his medication.", "trap": "opposite", "whyVi": "Arjun đã nói 'generic is fine'." }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "I'm in here every Saturday for groceries anyway, so that's easy.",
+          "explanationVi": "Phải nối câu cuối của Arjun với lời khuyên trước đó: đo huyết áp mỗi tuần một lần bằng máy ở cửa và ghi lại ('jot the readings down'). Câu 'that's easy' cho thấy anh sẽ làm việc này vào thứ Bảy.",
+          "vocabulary": ["jot down"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "adjust", "vi": "thích nghi, điều chỉnh", "definition": "to get used to a new situation or condition", "example": "Starting low gives your body a chance to adjust." },
+    { "term": "carry on", "vi": "tiếp tục (như bình thường)", "definition": "to continue doing something", "example": "Just skip it and carry on as usual the next morning." },
+    { "term": "light-headed", "vi": "choáng váng, chóng mặt nhẹ", "definition": "feeling slightly dizzy or faint", "example": "You might feel a bit light-headed if you get up too quickly." },
+    { "term": "steer clear of", "vi": "tránh xa", "definition": "to avoid something", "example": "Steer clear of grapefruit juice while you take this." },
+    { "term": "deductible", "vi": "mức khấu trừ (số tiền tự trả trước khi bảo hiểm chi trả)", "definition": "the amount you pay yourself before a plan starts paying", "example": "You haven't reached your deductible for the year." },
+    { "term": "generic", "vi": "thuốc gốc / thuốc không mang tên biệt dược", "definition": "a cheaper drug with the same active ingredient as a brand-name drug", "example": "I filled it with the generic version." },
+    { "term": "safety net", "vi": "phương án dự phòng", "definition": "something that helps you if your normal plan fails", "example": "The extension is a safety net, not a plan." },
+    { "term": "jot down", "vi": "ghi nhanh, ghi lại", "definition": "to write something quickly", "example": "Jot the readings down and bring the log." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; keys matched. Medical check: every instruction (half-tablet start, noon missed-dose cut-off, grapefruit, ankle swelling) is framed as this pharmacist's advice for this specific prescription, side effects are hedged ('might', 'usually', 'can'), and generic = same active ingredient is accurate; no universal medical claims found. Only fix: Q6 option A trap changed from not_mentioned to wrong_detail (refills are mentioned) with matching whyVi. Speaker names used in questions are now spoken in the audio (self-introductions/greetings added)." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

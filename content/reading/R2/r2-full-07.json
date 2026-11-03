@@ -1,0 +1,170 @@
+{
+  "id": "r2-full-07",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "community-services",
+  "title": "Finding child care for two young children",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independent re-review of the rewritten set (the rewriter had self-approved it). Blind-solved all 8 and recomputed: sibling 10% on the lower fee $620 -> $558, $850 + $558 = $1,408 (distractors $1,470 / $1,385 / $1,323 all check), 6:12 vs 6:00 = $12 (the $42 trap uses the 5:30 toddler closing, irrelevant on a Thursday); keys match. Real-world fix: BC parents at licensed centres usually pay much less than the listed rate because of provincial fee reductions, so the caption now states the fees are before any government fee reduction or subsidy; the centre is fictional. No duplicate title." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Fee chart",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Little Cedars Child Care Society, Surrey — Programs and Monthly Fees, September 2027 intake. New families pay a one-time $100 registration fee. Siblings enrolled at the same time get 10% off the lower of the two monthly fees. Late pick-up: $1 per minute after closing time. Fees shown are before any government fee reduction or subsidy.",
+        "headers": ["Program", "Ages", "Days", "Hours", "Monthly fee", "Spaces left"],
+        "rows": [
+          ["Infant Room", "6–18 months", "Mon–Fri", "7:30 a.m.–5:30 p.m.", "$1,150", "Waitlist only"],
+          ["Toddler Full-Time", "18 months–3 years", "Mon–Fri", "7:30 a.m.–5:30 p.m.", "$980", "2"],
+          ["Toddler Part-Time", "18 months–3 years", "Mon, Wed, Fri", "7:30 a.m.–5:30 p.m.", "$620", "3"],
+          ["Preschool Mornings", "3–5 years", "Mon–Fri", "8:30–11:30 a.m.", "$450", "5"],
+          ["3–5 Full Day", "3–5 years", "Mon–Fri", "7:30 a.m.–6:00 p.m.", "$850", "1"],
+          ["Before & After School", "5–12 years", "School days", "7:00–8:30 a.m. and 3:00–6:00 p.m.", "$420", "6"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Mi-rae,\n\nI toured Little Cedars this morning and picked up their fee sheet. Leo turns four in June, so in September he'd go into [[1]]. Preschool Mornings would be cheaper, but it ends before lunch, and neither of us can leave work that early.\n\nHana will be two by then, and full-time toddler care is more than we need, since your mom has her on Tuesdays and Thursdays. The part-time option [[2]], and there are still a few spots.\n\nBecause we'd be starting both kids together, we'd get ten percent off [[3]], which brings our monthly total to [[4]], plus the registration fee.\n\nThe only thing that worries me is pick-up. Leo's program closes at six, and my bus home is often late. Last Thursday it was so late that I'd have reached the centre at 6:12, which would have cost us [[5]].\n\nCould you come with me to Saturday's open house so we can register both kids before Leo's space is gone?\n\nJoon-ho",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "the before- and after-school program", "trap": "wrong_detail", "whyVi": "Chương trình này dành cho trẻ 5–12 tuổi; Leo mới 4 tuổi." },
+        { "text": "the full-day program for three- to five-year-olds", "trap": "none", "whyVi": "Đúng: Leo 4 tuổi vào tháng 9, thuộc nhóm 3–5 tuổi; cả hai bố mẹ đi làm nên cần chương trình cả ngày." },
+        { "text": "the morning preschool", "trap": "opposite", "whyVi": "Câu sau loại chương trình này: nó kết thúc trước giờ trưa, bố mẹ không đón kịp." },
+        { "text": "the full-time toddler room", "trap": "wrong_detail", "whyVi": "Phòng toddler dành cho 18 tháng–3 tuổi; Leo đã 4 tuổi." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Preschool Mornings would be cheaper, but it ends before lunch, and neither of us can leave work that early.",
+      "explanationVi": "Leo 'turns four in June' → tháng 9 bé 4 tuổi, thuộc cột Ages '3–5 years'. Có hai chương trình 3–5 tuổi; câu sau loại Preschool Mornings (8:30–11:30) → còn '3–5 Full Day'.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "covers Tuesdays and Thursdays", "trap": "opposite", "whyVi": "Ngược lại: thứ Ba và thứ Năm là ngày bà trông Hana; chương trình bán thời gian học thứ Hai, Tư, Sáu." },
+        { "text": "runs only in the mornings", "trap": "wrong_detail", "whyVi": "Chỉ học buổi sáng là Preschool Mornings; toddler part-time học 7:30–5:30." },
+        { "text": "covers the other three weekdays", "trap": "none", "whyVi": "Đúng: Toddler Part-Time học thứ Hai, Tư, Sáu — đúng ba ngày còn lại khi bà không trông Hana." },
+        { "text": "stays open until six", "trap": "wrong_detail", "whyVi": "Chương trình toddler đóng cửa lúc 5:30; 6:00 là giờ đóng của chương trình 3–5 Full Day." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Mon, Wed, Fri",
+      "explanationVi": "Email: bà trông Hana 'on Tuesdays and Thursdays'. Bảng: Toddler Part-Time 'Mon, Wed, Fri' → bù đúng ba ngày còn lại trong tuần. Hana 2 tuổi nằm trong nhóm '18 months–3 years'.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "Hana's fee", "trap": "none", "whyVi": "Đúng: giảm 10% áp dụng cho mức phí thấp hơn; phí của Hana ($620) thấp hơn của Leo ($850)." },
+        { "text": "Leo's fee", "trap": "wrong_detail", "whyVi": "Phí của Leo ($850) là mức cao hơn, nên không được giảm." },
+        { "text": "both fees", "trap": "too_broad", "whyVi": "Chỉ giảm cho một mức phí — 'the lower of the two'." },
+        { "text": "the registration fee", "trap": "word_match", "whyVi": "Phí đăng ký $100 không được giảm; câu sau còn nói 'plus the registration fee'." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Siblings enrolled at the same time get 10% off the lower of the two monthly fees.",
+      "explanationVi": "'starting both kids together' = 'enrolled at the same time'. Caption: giảm 10% cho 'the lower of the two monthly fees'. So sánh $850 (Leo) và $620 (Hana) → giảm cho Hana.",
+      "vocabulary": ["sibling"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "$1,470", "trap": "partially_true", "whyVi": "$850 + $620 = $1,470 là tổng trước khi giảm giá." },
+        { "text": "$1,385", "trap": "wrong_detail", "whyVi": "Đây là giảm 10% cho phí của Leo ($765 + $620) — sai vì phải giảm cho mức phí thấp hơn." },
+        { "text": "$1,323", "trap": "too_broad", "whyVi": "Đây là giảm 10% trên tổng cả hai phí; ưu đãi chỉ áp dụng cho một mức phí." },
+        { "text": "$1,408", "trap": "none", "whyVi": "Đúng: $850 + ($620 × 0.9 = $558) = $1,408." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "get 10% off the lower of the two monthly fees",
+      "explanationVi": "Ba bước: phí của Leo $850; phí của Hana $620 giảm 10% còn $558; cộng lại $1,408. Phí đăng ký tính riêng ('plus the registration fee'), không cộng vào tổng hằng tháng.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "$42", "trap": "wrong_detail", "whyVi": "$42 là tính thêm 30 phút trễ của phòng toddler (đóng lúc 5:30) — nhưng thứ Năm Hana ở với bà, không ở trung tâm." },
+        { "text": "$12", "trap": "none", "whyVi": "Đúng: chương trình của Leo đóng lúc 6:00; đến lúc 6:12 → trễ 12 phút × $1 = $12." },
+        { "text": "$1", "trap": "partially_true", "whyVi": "$1 chỉ là phí cho mỗi phút, không phải tổng số tiền khi trễ 12 phút." },
+        { "text": "$100", "trap": "word_match", "whyVi": "$100 là phí đăng ký một lần, không liên quan đến đón trễ." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Late pick-up: $1 per minute after closing time. Fees shown are before any government fee reduction or subsidy.",
+      "explanationVi": "Leo học '3–5 Full Day', đóng lúc 6:00. Trễ từ 6:00 đến 6:12 = 12 phút × $1 = $12. Bẫy: hôm đó là thứ Năm — ngày bà trông Hana — nên không tính phí trễ cho phòng toddler (đóng 5:30).",
+      "vocabulary": ["pick-up"]
+    },
+    {
+      "number": 6,
+      "prompt": "Why won't Preschool Mornings work for Leo?",
+      "options": [
+        { "text": "Leo is too young for it.", "trap": "wrong_detail", "whyVi": "Chương trình dành cho 3–5 tuổi; Leo 4 tuổi vẫn phù hợp." },
+        { "text": "It has no spaces left.", "trap": "wrong_detail", "whyVi": "Preschool Mornings còn 5 chỗ." },
+        { "text": "It finishes before either parent could collect him.", "trap": "none", "whyVi": "Đúng: lớp kết thúc 11:30 sáng, nhưng cả hai bố mẹ không thể rời chỗ làm sớm như vậy." },
+        { "text": "It costs more than the full-day program.", "trap": "opposite", "whyVi": "Ngược lại: $450 rẻ hơn $850 — email cũng nói 'would be cheaper'." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "it ends before lunch, and neither of us can leave work that early",
+      "explanationVi": "'ends before lunch' khớp với giờ 8:30–11:30 a.m. trong bảng; 'neither of us can leave work that early' = không ai đón kịp. 'collect' = 'pick up' (đón trẻ).",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Why does Joon-ho want to register at Saturday's open house?",
+      "options": [
+        { "text": "The registration fee will go up after Saturday.", "trap": "not_mentioned", "whyVi": "Không có thông tin phí đăng ký sẽ tăng." },
+        { "text": "Leo's program has only one space left.", "trap": "none", "whyVi": "Đúng: bảng cho thấy '3–5 Full Day' chỉ còn 1 chỗ, nên anh sợ mất chỗ của Leo." },
+        { "text": "Hana's program is already full.", "trap": "opposite", "whyVi": "Toddler Part-Time vẫn còn 3 chỗ ('still a few spots')." },
+        { "text": "The siblings' discount ends on Saturday.", "trap": "not_mentioned", "whyVi": "Bảng không nói ưu đãi anh chị em có hạn chót." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "so we can register both kids before Leo's space is gone",
+      "explanationVi": "'before Leo's space is gone' gợi ý chỗ sắp hết. Đối chiếu cột Spaces left: '3–5 Full Day' chỉ còn '1' → cần đăng ký ngay.",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "How does Joon-ho feel about picking Leo up?",
+      "options": [
+        { "text": "He is confident his bus will get him there on time.", "trap": "opposite", "whyVi": "Ngược lại: xe buýt của anh 'often late'." },
+        { "text": "He is worried about Hana's earlier closing time.", "trap": "wrong_detail", "whyVi": "Anh chỉ nhắc giờ đóng cửa của chương trình Leo ('Leo's program closes at six')." },
+        { "text": "He thinks the late fee is unfair.", "trap": "not_mentioned", "whyVi": "Anh chỉ tính thử số tiền, không nói phí trễ là bất công." },
+        { "text": "He is concerned he may sometimes arrive after closing.", "trap": "none", "whyVi": "Đúng: 'The only thing that worries me is pick-up' — anh lo có lúc đến sau giờ đóng cửa." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "The only thing that worries me is pick-up.",
+      "explanationVi": "Câu hỏi về thái độ. 'worries me' = lo lắng; ví dụ 'reached the centre at 6:12' cho thấy anh có thể đến sau 6 giờ → đáp án diễn đạt lại thành 'concerned he may sometimes arrive after closing'.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "intake", "vi": "đợt nhận (trẻ, học viên)", "definition": "the group of people accepted into a program at one time", "example": "Spaces for the September intake are filling fast." },
+    { "term": "registration fee", "vi": "phí đăng ký", "definition": "money you pay once to sign up for a program", "example": "New families pay a $100 registration fee." },
+    { "term": "sibling", "vi": "anh chị em ruột", "definition": "a brother or sister", "example": "Siblings get 10% off the lower fee." },
+    { "term": "pick-up", "vi": "việc đón (trẻ)", "definition": "the act of collecting a child from a place", "example": "Late pick-up costs $1 a minute." },
+    { "term": "open house", "vi": "ngày mở cửa tham quan", "definition": "an event when a place is open for visitors to look around", "example": "The centre has an open house on Saturday." },
+    { "term": "tour", "vi": "tham quan", "definition": "to visit a place and look around it", "example": "I toured the daycare this morning." },
+    { "term": "spot", "vi": "chỗ (trống)", "definition": "an available place in a program or group", "example": "There are still a few spots in the part-time program." }
+  ]
+}

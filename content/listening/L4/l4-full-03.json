@@ -1,0 +1,262 @@
+{
+  "id": "l4-full-03",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "News: Arrowsmith urgent care to close overnight",
+  "context": "You will hear a local radio news report about changes at an urgent care centre on Vancouver Island.",
+  "estimatedMinutes": 5,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Residents of Parksville and Qualicum Beach will need to plan ahead if they get sick at night this winter. Island Coast Health says the Arrowsmith Urgent Care Centre will close between ten p.m. and eight a.m., starting December first, for what it describes as a temporary period."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The health authority says it simply doesn't have enough doctors and nurses to staff the overnight shift safely. Two physicians retired this fall, and so far recruitment efforts haven't turned up any replacements."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Medical director Dr. Tomás Echeverría stressed that the change shouldn't stop anyone from getting emergency care. People with chest pain, trouble breathing or a serious injury should call nine-one-one or head straight to Nanaimo Regional General Hospital, about forty minutes down the highway. For less urgent problems, he's urging people to call the eight-one-one nurse line before getting in the car, since many issues can be sorted out over the phone."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Local reaction has been mixed. Retired paramedic Ruth Okonkwo, who volunteers with a seniors' group in Qualicum Beach, says many of her members don't drive after dark and worry about making that trip in bad weather. Still, she admits a centre that's open with proper staff is better than one that's open in name only."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Island Coast Health says it will review the situation in March, and it's offering housing support of up to two thousand dollars a month to attract new physicians to the area."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What change is being announced?",
+          "options": [
+            {
+              "text": "The centre will shut down permanently in December.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: việc đóng cửa ban đêm được mô tả là 'temporary' (tạm thời)."
+            },
+            {
+              "text": "The centre will stop providing night-time care for a while.",
+              "trap": "none",
+              "whyVi": "Đúng: đóng từ 10 giờ tối đến 8 giờ sáng, trong một thời gian tạm thời."
+            },
+            {
+              "text": "Patients will be transferred to Nanaimo Regional General Hospital.",
+              "trap": "word_match",
+              "whyVi": "Bài có nhắc bệnh viện Nanaimo, nhưng chỉ là nơi nên đến khi cấp cứu, không phải chuyển bệnh nhân."
+            },
+            {
+              "text": "The centre will open later in the morning on weekends.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói gì về giờ mở cửa cuối tuần."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "will close between ten p.m. and eight a.m., starting December first, for what it describes as a temporary period",
+          "explanationVi": "'close between ten p.m. and eight a.m.' được diễn đạt lại thành 'stop providing night-time care', 'temporary period' thành 'for a while'.",
+          "vocabulary": [
+            "temporary"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "Why is the health authority making this change?",
+          "options": [
+            {
+              "text": "Very few patients use the centre at night.",
+              "trap": "not_mentioned",
+              "whyVi": "Nghe hợp lý nhưng bài không nói số bệnh nhân ban đêm ít."
+            },
+            {
+              "text": "Two doctors were moved to the hospital in Nanaimo.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: hai bác sĩ đã nghỉ hưu, không phải bị chuyển đi."
+            },
+            {
+              "text": "It needs to reduce its spending this winter.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc tới cắt giảm chi phí."
+            },
+            {
+              "text": "It cannot find enough medical workers to cover those hours.",
+              "trap": "none",
+              "whyVi": "Đúng: không đủ bác sĩ và y tá cho ca đêm, việc tuyển người chưa có kết quả."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "it simply doesn't have enough doctors and nurses to staff the overnight shift safely",
+          "explanationVi": "'doesn't have enough doctors and nurses' = 'cannot find enough medical workers'; 'overnight shift' = 'those hours'. Lựa chọn B dùng lại chi tiết 'two physicians' nhưng sai lý do.",
+          "vocabulary": [
+            "staff a shift",
+            "turn up"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Dr. Echeverría advise people with minor health problems to do?",
+          "options": [
+            {
+              "text": "Get advice by phone before travelling anywhere.",
+              "trap": "none",
+              "whyVi": "Đúng: gọi đường dây y tá 811 trước khi lên xe."
+            },
+            {
+              "text": "Drive directly to Nanaimo Regional General Hospital.",
+              "trap": "wrong_detail",
+              "whyVi": "Đây là lời khuyên cho trường hợp nghiêm trọng như đau ngực, khó thở."
+            },
+            {
+              "text": "Call nine-one-one right away.",
+              "trap": "wrong_detail",
+              "whyVi": "911 chỉ dành cho trường hợp khẩn cấp."
+            },
+            {
+              "text": "Wait until the centre reopens in the morning.",
+              "trap": "not_mentioned",
+              "whyVi": "Bác sĩ không khuyên chờ đến sáng."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "he's urging people to call the eight-one-one nurse line before getting in the car",
+          "explanationVi": "Bài đưa hai lời khuyên khác nhau: trường hợp nặng (911, bệnh viện) và trường hợp nhẹ ('less urgent problems'). 'call the nurse line before getting in the car' được diễn đạt lại thành 'get advice by phone before travelling'.",
+          "vocabulary": [
+            "sort out"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What is Ruth Okonkwo's view of the change?",
+          "options": [
+            {
+              "text": "She fully supports it and has no concerns.",
+              "trap": "partially_true",
+              "whyVi": "Chỉ đúng một phần: bà chấp nhận lý do nhưng vẫn lo về việc người già phải lái xe ban đêm."
+            },
+            {
+              "text": "She thinks seniors should move closer to Nanaimo.",
+              "trap": "not_mentioned",
+              "whyVi": "Bà không đề xuất điều này."
+            },
+            {
+              "text": "She is worried, but accepts that safe staffing matters more.",
+              "trap": "none",
+              "whyVi": "Đúng: bà lo cho thành viên nhóm, nhưng thừa nhận trung tâm có đủ nhân viên tốt hơn trung tâm chỉ mở trên danh nghĩa."
+            },
+            {
+              "text": "She believes the centre is already open in name only.",
+              "trap": "word_match",
+              "whyVi": "Bài có cụm 'open in name only' nhưng bà dùng nó để so sánh, không nói trung tâm hiện đang như vậy."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "Still, she admits a centre that's open with proper staff is better than one that's open in name only.",
+          "explanationVi": "Từ 'Still' và 'admits' cho thấy bà nhượng bộ sau khi nêu mối lo. 'in name only' = chỉ trên danh nghĩa. Đáp án C gộp cả lo lắng và sự chấp nhận.",
+          "vocabulary": [
+            "in name only"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What is Island Coast Health doing to solve the problem in the longer term?",
+          "options": [
+            {
+              "text": "Reopening the centre overnight in March",
+              "trap": "wrong_detail",
+              "whyVi": "Tháng 3 chỉ là lúc xem xét lại tình hình, không phải ngày mở lại."
+            },
+            {
+              "text": "Helping new doctors pay for a place to live",
+              "trap": "none",
+              "whyVi": "Đúng: hỗ trợ nhà ở tới 2.000 đô mỗi tháng để thu hút bác sĩ mới."
+            },
+            {
+              "text": "Hiring retired paramedics to work night shifts",
+              "trap": "word_match",
+              "whyVi": "Bài có 'retired paramedic' nhưng đó là bà Okonkwo, một tình nguyện viên."
+            },
+            {
+              "text": "Raising doctors' salaries by two thousand dollars a month",
+              "trap": "wrong_detail",
+              "whyVi": "Gần giống nhưng sai: 2.000 đô là hỗ trợ nhà ở, không phải tăng lương."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "it's offering housing support of up to two thousand dollars a month to attract new physicians to the area",
+          "explanationVi": "'housing support' được diễn đạt lại thành 'help pay for a place to live'. Chú ý phân biệt hỗ trợ nhà ở với tiền lương.",
+          "vocabulary": [
+            "recruitment"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "temporary",
+      "vi": "tạm thời",
+      "definition": "lasting for a limited time only",
+      "example": "The overnight closure is described as temporary."
+    },
+    {
+      "term": "staff a shift",
+      "vi": "bố trí người cho một ca làm",
+      "definition": "provide enough workers for a period of work",
+      "example": "They can't staff the overnight shift safely."
+    },
+    {
+      "term": "turn up",
+      "vi": "tìm ra, xuất hiện",
+      "definition": "be found, especially after searching",
+      "example": "Recruitment hasn't turned up any replacements."
+    },
+    {
+      "term": "recruitment",
+      "vi": "việc tuyển dụng",
+      "definition": "the process of finding new people to join an organization",
+      "example": "Recruitment of doctors is difficult in small towns."
+    },
+    {
+      "term": "sort out",
+      "vi": "giải quyết",
+      "definition": "deal with a problem successfully",
+      "example": "Many issues can be sorted out over the phone."
+    },
+    {
+      "term": "in name only",
+      "vi": "chỉ trên danh nghĩa",
+      "definition": "officially called something but not really functioning as it",
+      "example": "A centre without staff is open in name only."
+    },
+    {
+      "term": "plan ahead",
+      "vi": "lên kế hoạch trước",
+      "definition": "think about and prepare for the future",
+      "example": "Residents need to plan ahead if they get sick at night."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 5 independently; keys match (BDACB), evidence and whyVi accurate. Renamed the real Oceanside Urgent Care Centre to the fictional Arrowsmith Urgent Care Centre (health authority already fictional) and corrected the real hospital name to Nanaimo Regional General Hospital; 911/811 advice is accurate for BC."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

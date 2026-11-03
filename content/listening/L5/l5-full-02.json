@@ -1,0 +1,426 @@
+{
+  "id": "l5-full-02",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "community-services",
+  "title": "Discussion: Spending a one-time grant at the neighbourhood house",
+  "context": "You will hear staff and a board member at a neighbourhood house in Surrey discussing how to spend a one-time provincial grant.",
+  "estimatedMinutes": 10,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Aisha, executive director",
+          "voice": "female_a",
+          "text": "Right, so the good news is official. The province came through with the forty-thousand-dollar community grant, but it's one-time money, and it has to be spent by next March. I've heard three or four different ideas floating around the office, so let's put them all on the table."
+        },
+        {
+          "speaker": "Ravi, programs coordinator",
+          "voice": "male_a",
+          "text": "Well, I'll be upfront about mine. Our Saturday homework club has a waitlist of almost sixty kids, and most of them are from newcomer families who can't afford private tutors. If we hired two part-time tutors, we could practically clear that list by the spring."
+        },
+        {
+          "speaker": "Colleen, board member",
+          "voice": "female_b",
+          "text": "I don't doubt the need, Ravi, but my worry is what happens in April. The money runs out, the tutors leave, and we're the ones telling sixty families the program's shrinking again. I've sat on this board long enough to see that happen twice, and it does real damage to people's trust in us."
+        },
+        {
+          "speaker": "Ravi, programs coordinator",
+          "voice": "male_a",
+          "text": "So we just leave them on the waitlist, Colleen? That hardly seems better."
+        },
+        {
+          "speaker": "Joel, facilities lead",
+          "voice": "male_b",
+          "text": "Can I throw something else into the mix? The wheelchair ramp at the side entrance is cracked, and the accessible washroom door still doesn't open automatically. Two seniors from the lunch program told me they've stopped coming because getting in is such a hassle. A repair like that gets done once, and it lasts."
+        },
+        {
+          "speaker": "Aisha, executive director",
+          "voice": "female_a",
+          "text": "Do you have a number for that, Joel?"
+        },
+        {
+          "speaker": "Joel, facilities lead",
+          "voice": "male_b",
+          "text": "The contractor quoted about twenty-two thousand for both jobs. That's with the city permit included."
+        },
+        {
+          "speaker": "Colleen, board member",
+          "voice": "female_b",
+          "text": "Now that's the kind of spending I'm comfortable with. It doesn't leave us with a cost we can't cover next year."
+        },
+        {
+          "speaker": "Ravi, programs coordinator",
+          "voice": "male_a",
+          "text": "Sure, but nobody's going to see a ramp in our annual report and get excited about it. Funders want to see programs and faces."
+        },
+        {
+          "speaker": "Aisha, executive director",
+          "voice": "female_a",
+          "text": "I wouldn't be so quick to say that. Accessibility is one of the priorities the province actually listed in the grant guidelines. If anything, it might strengthen our renewal application rather than weaken it."
+        },
+        {
+          "speaker": "Colleen, board member",
+          "voice": "female_b",
+          "text": "And if the repairs come in at twenty-two, that still leaves eighteen thousand. What if we used that part differently? Instead of paid tutors, we train volunteers. Plenty of high school students want volunteer hours for scholarship applications anyway."
+        },
+        {
+          "speaker": "Ravi, programs coordinator",
+          "voice": "male_a",
+          "text": "Volunteers are great, but they disappear in exam season, which is exactly when the kids need help the most. I'd want at least one paid person holding it all together."
+        },
+        {
+          "speaker": "Aisha, executive director",
+          "voice": "female_a",
+          "text": "That seems reasonable to me. One paid lead tutor through to March, supervising a team of trained student volunteers. That way, when the funding dries up, the volunteer side doesn't disappear with it."
+        },
+        {
+          "speaker": "Ravi, programs coordinator",
+          "voice": "male_a",
+          "text": "Okay, Aisha. It's not what I came in asking for, but I can work with that. I'd need to recruit fast, though. September's only a few weeks away."
+        },
+        {
+          "speaker": "Joel, facilities lead",
+          "voice": "male_b",
+          "text": "One thing before we finalize anything. The contractor's quote is only good until the end of the month. After that, he said material prices could go up by ten percent or more."
+        },
+        {
+          "speaker": "Aisha, executive director",
+          "voice": "female_a",
+          "text": "Then the repairs get approved today, and I'll sign the contract this week. Ravi, put together a job posting for the lead tutor and get it to me by Friday. Colleen, could you reach out to the high school counsellors about volunteer hours?"
+        },
+        {
+          "speaker": "Colleen, board member",
+          "voice": "female_b",
+          "text": "Happy to. I know the counsellor at Fraser Heights Secondary, so I'll start there."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is Colleen's main concern about hiring two tutors?",
+          "options": [
+            {
+              "text": "The tutors might not be qualified to work with newcomer children.",
+              "trap": "not_mentioned",
+              "whyVi": "Colleen không hề nói về trình độ của gia sư."
+            },
+            {
+              "text": "Families could be disappointed again once the money is gone.",
+              "trap": "none",
+              "whyVi": "Đúng: cô lo chuyện tháng 4 khi hết tiền, gia sư nghỉ và các gia đình lại bị thu hẹp chương trình, làm mất lòng tin."
+            },
+            {
+              "text": "The waitlist is probably shorter than Ravi says.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô nói 'I don't doubt the need', tức là cô tin nhu cầu có thật."
+            },
+            {
+              "text": "The board has already turned down the idea twice.",
+              "trap": "word_match",
+              "whyVi": "Bài có từ 'twice', nhưng đó là số lần cô chứng kiến chương trình bị thu hẹp, không phải hội đồng từ chối ý tưởng."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "my worry is what happens in April",
+          "explanationVi": "Colleen nói 'my worry is what happens in April': tiền hết, gia sư rời đi, gia đình bị báo chương trình thu hẹp, gây 'damage to people's trust'. Đáp án B diễn đạt lại thành 'disappointed again once the money is gone'.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "According to Joel, why have some seniors stopped coming to the lunch program?",
+          "options": [
+            {
+              "text": "The lunch program was moved to the side entrance.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'side entrance' nhưng đó là nơi đặt dốc xe lăn bị nứt, không phải chương trình bị chuyển chỗ."
+            },
+            {
+              "text": "The accessible washroom has been closed for repairs.",
+              "trap": "wrong_detail",
+              "whyVi": "Cửa nhà vệ sinh chỉ chưa tự động mở được, không phải bị đóng cửa sửa chữa."
+            },
+            {
+              "text": "They can no longer afford the program.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nhắc đến chi phí của chương trình bữa trưa."
+            },
+            {
+              "text": "Entering the building has become too difficult for them.",
+              "trap": "none",
+              "whyVi": "Đúng: họ bỏ không đến vì việc vào tòa nhà quá phiền phức."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "they've stopped coming because getting in is such a hassle",
+          "explanationVi": "'getting in is such a hassle' được diễn đạt lại thành 'Entering the building has become too difficult'. 'Hassle' = việc phiền toái, khó khăn.",
+          "vocabulary": [
+            "hassle"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What did the contractor's quote include?",
+          "options": [
+            {
+              "text": "About $18,000 for both jobs, including the permit",
+              "trap": "wrong_detail",
+              "whyVi": "18.000 đô là số tiền còn lại sau sửa chữa, không phải báo giá."
+            },
+            {
+              "text": "About $22,000 for the ramp only, plus the permit",
+              "trap": "partially_true",
+              "whyVi": "Đúng con số 22.000 nhưng báo giá là cho cả hai việc và đã bao gồm giấy phép."
+            },
+            {
+              "text": "About $22,000 for both repairs, with the permit already counted",
+              "trap": "none",
+              "whyVi": "Đúng: khoảng 22.000 đô cho cả hai việc, đã gồm giấy phép của thành phố."
+            },
+            {
+              "text": "About $40,000 for both jobs and the permit",
+              "trap": "wrong_detail",
+              "whyVi": "40.000 đô là tổng tiền tài trợ, không phải báo giá sửa chữa."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "similar_choices",
+          "evidence": "The contractor quoted about twenty-two thousand for both jobs. That's with the city permit included.",
+          "explanationVi": "Bài có nhiều con số: 40.000 (tài trợ), 22.000 (báo giá), 18.000 (phần còn lại). Báo giá 22.000 là 'for both jobs' và 'with the city permit included'. Phương án B sai ở hai chi tiết nhỏ, cần nghe kỹ.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "How does Aisha respond to Ravi's claim that funders want to see programs, not repairs?",
+          "options": [
+            {
+              "text": "She suggests the repairs could actually help the centre get funding again.",
+              "trap": "none",
+              "whyVi": "Đúng: tiếp cận người khuyết tật là ưu tiên của tỉnh, nên việc sửa chữa có thể giúp hồ sơ xin gia hạn mạnh hơn."
+            },
+            {
+              "text": "She agrees that the repairs will not impress funders.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô nói 'I wouldn't be so quick to say that', tức là không đồng ý với Ravi."
+            },
+            {
+              "text": "She says the ramp should be left out of the annual report.",
+              "trap": "word_match",
+              "whyVi": "'Annual report' là từ của Ravi; Aisha không đề nghị bỏ thông tin nào ra khỏi báo cáo."
+            },
+            {
+              "text": "She says the province will only fund accessibility projects.",
+              "trap": "too_broad",
+              "whyVi": "Cô chỉ nói tiếp cận là một trong các ưu tiên, không phải ưu tiên duy nhất."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "it might strengthen our renewal application rather than weaken it",
+          "explanationVi": "Aisha phản bác nhẹ nhàng ('I wouldn't be so quick to say that') và nói việc sửa chữa 'might strengthen our renewal application'. 'Renewal application' được diễn đạt lại thành 'get funding again'.",
+          "vocabulary": [
+            "renewal application"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What does Aisha mean when she says \"when the funding dries up\"?",
+          "options": [
+            {
+              "text": "When the grant is reduced slightly",
+              "trap": "partially_true",
+              "whyVi": "'Dry up' nghĩa là cạn hẳn, không phải chỉ giảm một chút."
+            },
+            {
+              "text": "When the volunteers stop coming",
+              "trap": "wrong_detail",
+              "whyVi": "Ý của cô là phần tình nguyện viên sẽ KHÔNG biến mất khi hết tiền; cụm này nói về tiền, không phải tình nguyện viên."
+            },
+            {
+              "text": "When the renewal application is rejected",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói hồ sơ bị từ chối; cụm này chỉ việc khoản tiền một lần hết hạn vào tháng 3."
+            },
+            {
+              "text": "When there is no more money available",
+              "trap": "none",
+              "whyVi": "Đúng: 'dry up' = cạn kiệt, không còn nữa."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "vocabulary",
+          "evidence": "when the funding dries up, the volunteer side doesn't disappear with it",
+          "explanationVi": "'Funding dries up' là cách nói thông dụng: nguồn tiền cạn. Ngữ cảnh: tiền tài trợ chỉ có một lần, dùng đến tháng 3.",
+          "vocabulary": [
+            "dry up"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "How does Ravi feel about the final tutoring plan?",
+          "options": [
+            {
+              "text": "He is pleased because the plan was his idea from the start.",
+              "trap": "wrong_speaker",
+              "whyVi": "Ý tưởng dùng tình nguyện viên là của Colleen và Aisha; Ravi ban đầu muốn hai gia sư trả lương."
+            },
+            {
+              "text": "He accepts it, even though it is less than he hoped for.",
+              "trap": "none",
+              "whyVi": "Đúng: anh nói kế hoạch không phải điều anh đề xuất lúc đầu nhưng vẫn làm được."
+            },
+            {
+              "text": "He rejects it because volunteers are unreliable during exams.",
+              "trap": "partially_true",
+              "whyVi": "Anh có nói tình nguyện viên hay vắng mùa thi, nhưng đó là trước khi có giải pháp một gia sư trả lương; cuối cùng anh đồng ý."
+            },
+            {
+              "text": "He is worried that the plan will make the waitlist longer.",
+              "trap": "not_mentioned",
+              "whyVi": "Ravi không nói kế hoạch sẽ làm danh sách chờ dài thêm."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "It's not what I came in asking for, but I can work with that.",
+          "explanationVi": "'Not what I came in asking for, but I can work with that' thể hiện thái độ chấp nhận dù chưa hoàn toàn hài lòng. Đáp án B diễn đạt lại ý này.",
+          "vocabulary": [
+            "work with"
+          ]
+        },
+        {
+          "number": 7,
+          "prompt": "Why does Aisha decide to approve the repairs immediately?",
+          "options": [
+            {
+              "text": "Delaying could make the work more expensive.",
+              "trap": "none",
+              "whyVi": "Đúng: báo giá chỉ có hiệu lực đến cuối tháng, sau đó giá vật liệu có thể tăng 10% trở lên."
+            },
+            {
+              "text": "The city permit will expire at the end of the month.",
+              "trap": "wrong_detail",
+              "whyVi": "Thứ hết hạn cuối tháng là báo giá của nhà thầu, không phải giấy phép."
+            },
+            {
+              "text": "The grant must be spent before September.",
+              "trap": "wrong_detail",
+              "whyVi": "Hạn chi tiêu là tháng 3; tháng 9 là lúc Ravi cần tuyển gia sư."
+            },
+            {
+              "text": "The seniors have complained to the board.",
+              "trap": "not_mentioned",
+              "whyVi": "Người cao tuổi chỉ nói với Joel, không có chuyện khiếu nại lên hội đồng."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "long_conversation",
+          "evidence": "After that, he said material prices could go up by ten percent or more.",
+          "explanationVi": "Câu cuối của Joel giải thích lý do: báo giá chỉ giữ đến cuối tháng, sau đó giá có thể tăng. Ngay sau đó Aisha nói 'Then the repairs get approved today'. 'Go up by ten percent' được diễn đạt lại thành 'more expensive'.",
+          "vocabulary": []
+        },
+        {
+          "number": 8,
+          "prompt": "What has Colleen agreed to do next?",
+          "options": [
+            {
+              "text": "Write a job posting for the lead tutor",
+              "trap": "wrong_speaker",
+              "whyVi": "Việc viết tin tuyển dụng được giao cho Ravi."
+            },
+            {
+              "text": "Sign the contract with the builder",
+              "trap": "wrong_speaker",
+              "whyVi": "Aisha mới là người ký hợp đồng trong tuần này."
+            },
+            {
+              "text": "Contact school staff about students looking for volunteer hours",
+              "trap": "none",
+              "whyVi": "Đúng: cô sẽ liên hệ các cố vấn trường trung học, bắt đầu từ Fraser Heights."
+            },
+            {
+              "text": "Train the student volunteers herself",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai giao cho Colleen việc tự đào tạo tình nguyện viên."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "Colleen, could you reach out to the high school counsellors about volunteer hours?",
+          "explanationVi": "Cuối cuộc họp Aisha giao việc cho từng người; cần gắn đúng việc với đúng người. 'Reach out to the high school counsellors' được diễn đạt lại thành 'Contact school staff'.",
+          "vocabulary": [
+            "reach out to"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "come through",
+      "vi": "mang lại (điều đã hứa/được mong đợi)",
+      "definition": "provide something that was hoped for or promised",
+      "example": "The province came through with the community grant."
+    },
+    {
+      "term": "put on the table",
+      "vi": "đưa ra để bàn bạc",
+      "definition": "present ideas or options so everyone can discuss them",
+      "example": "Let's put all the ideas on the table."
+    },
+    {
+      "term": "upfront",
+      "vi": "thẳng thắn, nói rõ ngay từ đầu",
+      "definition": "honest and open about something from the beginning",
+      "example": "I'll be upfront about my idea."
+    },
+    {
+      "term": "throw into the mix",
+      "vi": "đưa thêm (một ý/lựa chọn) vào cuộc bàn bạc",
+      "definition": "add another idea or option to a discussion",
+      "example": "Can I throw something else into the mix?"
+    },
+    {
+      "term": "hassle",
+      "vi": "việc phiền toái, rắc rối",
+      "definition": "something annoying that takes effort",
+      "example": "Getting into the building is such a hassle."
+    },
+    {
+      "term": "renewal application",
+      "vi": "hồ sơ xin gia hạn (tài trợ)",
+      "definition": "a request to receive funding or a permit again",
+      "example": "Accessibility could strengthen our renewal application."
+    },
+    {
+      "term": "dry up",
+      "vi": "cạn kiệt, không còn nữa",
+      "definition": "stop being available",
+      "example": "When the funding dries up, the program may shrink."
+    },
+    {
+      "term": "work with",
+      "vi": "chấp nhận, xoay xở được với",
+      "definition": "accept something and make it succeed even if it is not ideal",
+      "example": "It's not what I wanted, but I can work with that."
+    },
+    {
+      "term": "reach out to",
+      "vi": "liên hệ với",
+      "definition": "contact someone, often to ask for help",
+      "example": "Could you reach out to the school counsellors?"
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 8 items independently; keys match and each has one defensible answer. Removed a risky BC fact (students 'need volunteer hours to graduate' is not a current BC requirement) by rewording to scholarship applications, and adjusted Q8 option C to match. Added name cues (Ravi addresses Colleen, Ravi addresses Aisha) so speaker-specific questions are answerable by voice + name."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

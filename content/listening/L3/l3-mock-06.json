@@ -1,0 +1,137 @@
+{
+  "id": "l3-mock-06",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "community-services",
+  "title": "First day as a food bank volunteer",
+  "context": "You will hear a volunteer coordinator at a community food bank in Nanaimo giving an orientation to a new volunteer.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Marisol", "voice": "female_b", "text": "So, Kwame, I'm Marisol, the volunteer coordinator. Thanks for coming in. I know the online form asked you a hundred questions, so I'll try not to repeat them. Mostly I want to get you set up with the right shifts." },
+        { "speaker": "Kwame", "voice": "male_b", "text": "Sounds good. I put down that I'm flexible, but realistically, mornings work best for me." },
+        { "speaker": "Marisol", "voice": "female_b", "text": "Then the warehouse might suit you. Sorting is Tuesday and Thursday mornings, nine to noon. You'd be checking donations, boxing them up by category, that sort of thing. Saturdays are distribution, which is when clients actually come in, and that's where we're always short-handed." },
+        { "speaker": "Kwame", "voice": "male_b", "text": "Could I do a bit of both? I'd actually like to meet the people we're helping." },
+        { "speaker": "Marisol", "voice": "female_b", "text": "Absolutely. The only thing we ask is two shifts a month for at least three months. It takes a while to learn the ropes, and training someone who leaves after two weeks, well, it stretches us thin." },
+        { "speaker": "Marisol", "voice": "female_b", "text": "Now, you mentioned you used to have a FoodSafe certificate?" },
+        { "speaker": "Kwame", "voice": "male_b", "text": "Yeah, from a restaurant job, but it expired a couple of years ago." },
+        { "speaker": "Marisol", "voice": "female_b", "text": "That's fine for sorting and distribution. You'd only need a current one for the community kitchen. If you ever want to help there, we'll cover the course fee, so keep it in the back of your mind." },
+        { "speaker": "Marisol", "voice": "female_b", "text": "When you're sorting, you'll see two kinds of dates. Best before is about quality, not safety, so canned goods and dry pasta can still go out for a while after that date. We've got a chart on the wall that tells you how long. Expiry dates are different. Baby formula, some nutritional supplements, once they're past that date, they're out, no exceptions." },
+        { "speaker": "Kwame", "voice": "male_b", "text": "I honestly didn't know there was a difference." },
+        { "speaker": "Marisol", "voice": "female_b", "text": "Most people don't. On Saturdays, the other thing I'd stress is how we treat clients. They pick their own items, like a grocery store. We don't ask why they need help, and we don't comment on what they choose. Even well-meaning remarks, like, oh, that's a lot of cereal, can make someone feel judged, and some people only came in after working up the courage for weeks." },
+        { "speaker": "Kwame", "voice": "male_b", "text": "That makes sense. And no photos, I assume?" },
+        { "speaker": "Marisol", "voice": "female_b", "text": "Never of clients, not even for our social media. Last thing, if you can't make a shift, cancel in the app at least forty-eight hours ahead, so we can find a replacement. Oh, and closed-toe shoes in the warehouse. Pallet jacks and sandals don't mix." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What does Marisol suggest about the Saturday shift?",
+          "options": [
+            { "text": "It is the best choice for someone who prefers mornings.", "trap": "wrong_detail", "whyVi": "Marisol gợi ý ca phân loại buổi sáng thứ Ba, thứ Năm cho người thích buổi sáng." },
+            { "text": "It is the shift that most needs more volunteers.", "trap": "none", "whyVi": "Đúng: 'that's where we're always short-handed' – luôn thiếu người." },
+            { "text": "Volunteers mostly sort donations during that shift.", "trap": "wrong_detail", "whyVi": "Phân loại là việc của thứ Ba, thứ Năm; thứ Bảy là phát thực phẩm." },
+            { "text": "It requires a current FoodSafe certificate.", "trap": "opposite", "whyVi": "Chứng chỉ chỉ cần cho bếp cộng đồng." }
+          ],
+          "answerIndex": 1,
+          "category": "vocabulary",
+          "evidence": "Saturdays are distribution, which is when clients actually come in, and that's where we're always short-handed.",
+          "explanationVi": "'Short-handed' = thiếu người làm. Đáp án B diễn đạt lại thành 'most needs more volunteers'.",
+          "vocabulary": ["short-handed"]
+        },
+        {
+          "number": 2,
+          "prompt": "Why does the food bank ask for a minimum commitment?",
+          "options": [
+            { "text": "Volunteers must complete a three-month training course.", "trap": "word_match", "whyVi": "'Three months' là thời gian cam kết tối thiểu, không phải khóa đào tạo." },
+            { "text": "Clients prefer to see the same faces every week.", "trap": "not_mentioned", "whyVi": "Không nhắc lý do này." },
+            { "text": "The coordinator wants volunteers to try both kinds of shifts.", "trap": "not_mentioned", "whyVi": "Kwame tự muốn làm cả hai; đó không phải lý do của quy định." },
+            { "text": "Short-term volunteers use up limited staff time without staying long enough.", "trap": "none", "whyVi": "Đúng: học việc mất thời gian, đào tạo người bỏ sau hai tuần làm họ quá tải." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "It takes a while to learn the ropes, and training someone who leaves after two weeks, well, it stretches us thin.",
+          "explanationVi": "'Stretches us thin' = làm nguồn lực bị quá tải. Câu trả lời được ngụ ý, không nói thẳng 'staff time'. 'Learn the ropes' = học cách làm việc.",
+          "vocabulary": ["learn the ropes", "stretch thin"]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Marisol imply about Kwame's expired certificate?",
+          "options": [
+            { "text": "He should renew it before his first shift.", "trap": "opposite", "whyVi": "Cô nói chứng chỉ hết hạn không ảnh hưởng ca phân loại và phát thực phẩm." },
+            { "text": "Renewing it could open up another volunteer role for him later on.", "trap": "none", "whyVi": "Đúng: nếu học lại (được trả phí), anh có thể giúp ở bếp cộng đồng – 'keep it in the back of your mind'." },
+            { "text": "The food bank cannot accept him without it.", "trap": "opposite", "whyVi": "Không cần chứng chỉ cho các ca anh đăng ký." },
+            { "text": "He will have to pay for the course himself.", "trap": "opposite", "whyVi": "Ngân hàng thực phẩm sẽ trả học phí." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "If you ever want to help there, we'll cover the course fee, so keep it in the back of your mind.",
+          "explanationVi": "'Keep it in the back of your mind' = cứ ghi nhớ để sau này cân nhắc. Marisol ngụ ý khuyến khích nhẹ nhàng anh học lại để làm ở bếp, chứ không bắt buộc.",
+          "vocabulary": ["keep in the back of your mind", "cover"]
+        },
+        {
+          "number": 4,
+          "prompt": "A can of soup is a month past its best-before date. What should Kwame do?",
+          "options": [
+            { "text": "Throw it out immediately.", "trap": "wrong_detail", "whyVi": "Loại bỏ ngay là quy định cho hàng quá 'expiry date', như sữa công thức." },
+            { "text": "Set it aside for the community kitchen.", "trap": "not_mentioned", "whyVi": "Không có quy định chuyển đồ quá hạn sang bếp." },
+            { "text": "Check the wall chart to see if it can still be given out.", "trap": "none", "whyVi": "Đúng: đồ hộp có thể vẫn phát được một thời gian; bảng trên tường cho biết bao lâu." },
+            { "text": "Ask the client if they still want it.", "trap": "not_mentioned", "whyVi": "Bài không nói hỏi ý khách." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "We've got a chart on the wall that tells you how long.",
+          "explanationVi": "Cần phân biệt 'best before' (chất lượng, đồ hộp vẫn phát được một thời gian, xem bảng) và 'expiry' (loại bỏ ngay). Marisol không nói đồ hộp được phát vô thời hạn, nên phải kiểm tra bảng.",
+          "vocabulary": ["best before", "expiry date"]
+        },
+        {
+          "number": 5,
+          "prompt": "Why does Marisol give the example about the cereal?",
+          "options": [
+            { "text": "To show that friendly comments can still hurt clients.", "trap": "none", "whyVi": "Đúng: kể cả lời nói có ý tốt cũng có thể làm khách cảm thấy bị phán xét." },
+            { "text": "To explain that clients may only take a limited amount.", "trap": "not_mentioned", "whyVi": "Không có giới hạn số lượng được nhắc tới." },
+            { "text": "To point out that cereal is the most popular item.", "trap": "word_match", "whyVi": "'Cereal' chỉ là ví dụ về lời bình luận, không nói nó phổ biến nhất." },
+            { "text": "To warn volunteers that some clients take too much.", "trap": "opposite", "whyVi": "Ngược lại: cô dặn không bình luận về lựa chọn của khách." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "Even well-meaning remarks, like, oh, that's a lot of cereal, can make someone feel judged",
+          "explanationVi": "'Well-meaning remarks' ↔ 'friendly comments'; 'feel judged' ↔ 'hurt'. Ví dụ ngũ cốc minh họa cho quy tắc không bình luận.",
+          "vocabulary": ["well-meaning", "work up the courage"]
+        },
+        {
+          "number": 6,
+          "prompt": "Which statement about the food bank's rules is accurate?",
+          "options": [
+            { "text": "Photos of clients are allowed if they are only used on social media.", "trap": "opposite", "whyVi": "Không bao giờ chụp khách, kể cả cho mạng xã hội." },
+            { "text": "Volunteers can cancel a shift up to the day before.", "trap": "wrong_detail", "whyVi": "Phải hủy trước ít nhất 48 tiếng, không phải một ngày." },
+            { "text": "Sandals are allowed except during distribution.", "trap": "wrong_detail", "whyVi": "Quy định giày kín mũi áp dụng ở kho; không nói dép được phép khi phát thực phẩm." },
+            { "text": "Volunteers must give two days' notice if they cannot come.", "trap": "none", "whyVi": "Đúng: hủy trên app trước ít nhất 48 giờ = hai ngày." }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "Last thing, if you can't make a shift, cancel in the app at least forty-eight hours ahead, so we can find a replacement.",
+          "explanationVi": "'Forty-eight hours ahead' = 'two days' notice'. Các đáp án khác thay đổi chi tiết nhỏ (24 giờ, mạng xã hội, dép) nên dễ nhầm.",
+          "vocabulary": ["give notice"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "short-handed", "vi": "thiếu người", "definition": "not having enough workers or helpers", "example": "Saturdays are when we're always short-handed." },
+    { "term": "learn the ropes", "vi": "học cách làm việc, làm quen công việc", "definition": "to learn how to do a job", "example": "It takes a while to learn the ropes." },
+    { "term": "stretch thin", "vi": "làm quá tải, dàn mỏng nguồn lực", "definition": "to use resources so much that there is not enough", "example": "Training people who leave stretches us thin." },
+    { "term": "keep in the back of your mind", "vi": "ghi nhớ để sau này cân nhắc", "definition": "to remember something for possible use later", "example": "Keep the kitchen in the back of your mind." },
+    { "term": "best before", "vi": "hạn sử dụng tốt nhất (về chất lượng)", "definition": "a date after which food may lose quality but is often still safe", "example": "Best before is about quality, not safety." },
+    { "term": "expiry date", "vi": "ngày hết hạn (không được dùng nữa)", "definition": "the date after which a product should not be used", "example": "Baby formula past its expiry date goes out." },
+    { "term": "well-meaning", "vi": "có ý tốt", "definition": "intending to be kind or helpful", "example": "Even well-meaning remarks can hurt." },
+    { "term": "work up the courage", "vi": "lấy hết can đảm", "definition": "to slowly become brave enough to do something", "example": "Some people work up the courage for weeks before coming in." },
+    { "term": "give notice", "vi": "báo trước", "definition": "to tell someone in advance", "example": "Please give at least two days' notice if you can't come." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; keys matched. Facts verified: best-before vs expiry (infant formula, supplements) matches Canadian labelling; FoodSafe is the real BC program. Q3 key reworded to 'Renewing it could open up another role' (the expired certificate itself opens nothing). Difficulty 9 -> 8 (Q1, Q4, Q6 are explicit detail items). Speaker names used in questions are now spoken in the audio (self-introductions/greetings added)." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

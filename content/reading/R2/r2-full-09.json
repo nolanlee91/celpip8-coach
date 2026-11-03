@@ -1,0 +1,170 @@
+{
+  "id": "r2-full-09",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "social",
+  "title": "Booking a private room for an anniversary dinner",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all items independently; keys match. Recomputed 22 x $68 = $1,496, just under the $1,500 Fri-Sat minimum, and $250 / 2 = $125; Harbour is the only room meeting size, access, season and window conditions. Changed the party date to Saturday, March 13 (March 14, 2027 is a Sunday, which would have switched the minimum to Sun-Thu) in text and explanation; difficulty lowered 9 -> 8 to match calibration." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Private dining",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Saltwater Kitchen, Victoria — Private Dining Rooms. Minimum spend covers food and drinks before tax and the 18% service charge. A $250 non-refundable deposit holds a room and is credited to the final bill. Groups of 15 or more must order a set menu ($68 or $85 per person).",
+        "headers": ["Room", "Seats", "Minimum spend (Fri–Sat)", "Minimum spend (Sun–Thu)", "Features"],
+        "rows": [
+          ["The Snug", "8–12", "$600", "$400", "Fireplace; no audio-visual equipment"],
+          ["Captain's Table", "12–26", "$1,300", "$900", "Upstairs, reached by stairs only; built-in screen"],
+          ["Harbour Room", "14–24", "$1,500", "$1,000", "Ocean view; wheelchair accessible; screen and microphone"],
+          ["Cellar Room", "18–30", "$1,800", "$1,200", "Below street level with elevator access; screen; no windows"],
+          ["Garden Terrace", "20–40", "$2,200", "$1,600", "Covered patio with heaters; open May to September only"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Ravi,\n\nI called Saltwater Kitchen about Mom and Dad's 35th, and with twenty-two people now confirmed, The Snug is obviously out. Since Dad will still be in his wheelchair after the hip surgery, so is the Captain's Table, because it [[1]]. The Garden Terrace would have been gorgeous, but [[2]], and the party is on Saturday, March 13.\n\nThat leaves Harbour and Cellar. Both have a screen for your slideshow, and the Cellar has more space, but Mom would hate spending the evening somewhere with [[3]]. So Harbour it is.\n\nI'd rather not push the boat out with the $85 menu, so I'm thinking the $68 one. Even then, food alone would [[4]] the Saturday minimum, and once drinks are added we'll clear it easily.\n\nTo hold the room, the two of us would each put [[5]] toward the deposit, which comes off the bill on the night. It's non-refundable, though, so let's double-check the date with Auntie Priya before we pay.\n\nSound OK?\n\nAnjali",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "can't seat twenty-two people", "trap": "wrong_detail", "whyVi": "Captain's Table có 12–26 chỗ, đủ cho 22 người." },
+        { "text": "has no screen for the slideshow", "trap": "wrong_detail", "whyVi": "Phòng này có màn hình gắn sẵn ('built-in screen')." },
+        { "text": "has no step-free way in", "trap": "none", "whyVi": "Đúng: phòng ở tầng trên, chỉ lên bằng cầu thang — xe lăn không vào được." },
+        { "text": "is below street level", "trap": "wrong_detail", "whyVi": "'Below street level' là đặc điểm của Cellar Room." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Upstairs, reached by stairs only; built-in screen",
+      "explanationVi": "Lý do gắn với 'wheelchair'. Bảng: Captain's Table 'reached by stairs only' → không có lối đi không bậc thang. 'step-free' = không có bậc, phù hợp xe lăn. Sức chứa và màn hình đều ổn nên không phải lý do.",
+      "vocabulary": ["step-free"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "it only opens in the warmer months", "trap": "none", "whyVi": "Đúng: Garden Terrace chỉ mở từ tháng 5 đến tháng 9; tiệc vào tháng 3." },
+        { "text": "it only seats up to twenty", "trap": "wrong_detail", "whyVi": "20 là sức chứa tối thiểu; phòng chứa được tới 40 người." },
+        { "text": "it isn't heated", "trap": "opposite", "whyVi": "Bảng ghi rõ có máy sưởi ('with heaters')." },
+        { "text": "it's booked every Saturday", "trap": "not_mentioned", "whyVi": "Bảng không nói gì về lịch đặt phòng." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "open May to September only",
+      "explanationVi": "Vế sau 'the party is on Saturday, March 13' là manh mối thời gian. Bảng: 'open May to September only' → tháng 3 chưa mở. Đáp án diễn đạt lại thành 'only opens in the warmer months'.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "no way down except the stairs", "trap": "opposite", "whyVi": "Cellar Room có thang máy ('elevator access')." },
+        { "text": "no audio-visual equipment", "trap": "wrong_detail", "whyVi": "Không có thiết bị nghe nhìn là The Snug; Cellar có màn hình." },
+        { "text": "a view of the parking lot", "trap": "not_mentioned", "whyVi": "Bảng không nói gì về bãi đỗ xe; thực ra phòng này không có cửa sổ." },
+        { "text": "no natural light", "trap": "none", "whyVi": "Đúng: Cellar ở dưới mặt đường và 'no windows' — không có ánh sáng tự nhiên." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Below street level with elevator access; screen; no windows",
+      "explanationVi": "Anjali so sánh Harbour (có 'Ocean view') với Cellar ('no windows'). Mẹ sẽ không thích phòng không có cửa sổ → 'no natural light' là cách diễn đạt lại.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "be well over", "trap": "opposite", "whyVi": "22 × $68 = $1,496, chưa tới $1,500, nên không thể 'well over'." },
+        { "text": "fall just short of", "trap": "none", "whyVi": "Đúng: 22 × $68 = $1,496, thiếu $4 so với mức tối thiểu $1,500 tối thứ Bảy." },
+        { "text": "be about $500 over", "trap": "wrong_detail", "whyVi": "$1,496 − $1,000 ≈ $500 là so với mức tối thiểu Chủ nhật–thứ Năm, không phải thứ Bảy." },
+        { "text": "come to exactly", "trap": "wrong_detail", "whyVi": "$1,496 không bằng đúng $1,500." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Minimum spend (Fri–Sat)",
+      "explanationVi": "Tính: 22 khách × $68 = $1,496. Mức tối thiểu của Harbour Room vào Fri–Sat là $1,500 → thiếu $4. Vế sau 'once drinks are added we'll clear it easily' xác nhận: phải thêm đồ uống mới vượt mức.",
+      "vocabulary": ["clear"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "$250", "trap": "partially_true", "whyVi": "$250 là toàn bộ tiền đặt cọc; hai người chia đôi thì mỗi người $125." },
+        { "text": "$270", "trap": "wrong_detail", "whyVi": "$270 là 18% phí phục vụ tính trên $1,500, không liên quan đến tiền cọc." },
+        { "text": "$125", "trap": "none", "whyVi": "Đúng: tiền cọc $250 chia cho hai người = $125 mỗi người." },
+        { "text": "$68", "trap": "wrong_detail", "whyVi": "$68 là giá thực đơn mỗi người." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "A $250 non-refundable deposit holds a room and is credited to the final bill.",
+      "explanationVi": "'the two of us would each put' → chia đôi. Caption: tiền cọc $250 → mỗi người $125. 'comes off the bill' = 'credited to the final bill'.",
+      "vocabulary": ["deposit"]
+    },
+    {
+      "number": 6,
+      "prompt": "Why does Anjali want to check the date with Auntie Priya before paying?",
+      "options": [
+        { "text": "The restaurant may raise its prices in March.", "trap": "not_mentioned", "whyVi": "Không có thông tin về việc tăng giá." },
+        { "text": "The money cannot be returned if plans change.", "trap": "none", "whyVi": "Đúng: tiền cọc 'non-refundable' — đổi ngày thì mất tiền." },
+        { "text": "The Harbour Room might be too small for the family.", "trap": "wrong_detail", "whyVi": "Harbour chứa 14–24 người, đủ cho 22 người." },
+        { "text": "The deposit is not taken off the final bill.", "trap": "opposite", "whyVi": "Ngược lại: tiền cọc được trừ vào hóa đơn cuối cùng." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "It's non-refundable, though, so let's double-check the date with Auntie Priya before we pay.",
+      "explanationVi": "'though' + 'so' nối nguyên nhân và hành động: vì không được hoàn tiền nên cần chắc chắn ngày trước khi trả. 'non-refundable' được diễn đạt lại thành 'cannot be returned'.",
+      "vocabulary": ["non-refundable"]
+    },
+    {
+      "number": 7,
+      "prompt": "What does Anjali mean when she says she would rather not \"push the boat out\" with the $85 menu?",
+      "options": [
+        { "text": "She doesn't want to spend more than necessary.", "trap": "none", "whyVi": "Đúng: 'push the boat out' = chi tiêu mạnh tay cho dịp đặc biệt; 'rather not' = không muốn." },
+        { "text": "She thinks the guests prefer seafood.", "trap": "word_match", "whyVi": "'boat' và nhà hàng ven biển gây nhầm, nhưng thành ngữ không nói về món ăn." },
+        { "text": "She wants to choose the more expensive menu.", "trap": "opposite", "whyVi": "Ngược lại, cô chọn thực đơn $68." },
+        { "text": "She is worried the dinner will run too late.", "trap": "not_mentioned", "whyVi": "Email không nhắc giờ kết thúc." }
+      ],
+      "answerIndex": 0,
+      "category": "vocabulary",
+      "evidence": "I'd rather not push the boat out with the $85 menu, so I'm thinking the $68 one.",
+      "explanationVi": "Thành ngữ 'push the boat out' = tiêu nhiều tiền để ăn mừng. 'I'd rather not' + chọn thực đơn rẻ hơn ($68) → cô không muốn chi quá tay.",
+      "vocabulary": ["push the boat out"]
+    },
+    {
+      "number": 8,
+      "prompt": "What is the main purpose of Anjali's email?",
+      "options": [
+        { "text": "To ask Ravi to choose between two rooms", "trap": "partially_true", "whyVi": "Cô có so sánh hai phòng nhưng đã tự quyết 'So Harbour it is'." },
+        { "text": "To complain about the restaurant's minimum spend", "trap": "not_mentioned", "whyVi": "Cô không phàn nàn; cô nói đồ uống sẽ giúp vượt mức dễ dàng." },
+        { "text": "To invite Ravi to their parents' anniversary", "trap": "word_match", "whyVi": "Ravi là người cùng tổ chức (làm slideshow, góp tiền cọc), không phải khách được mời." },
+        { "text": "To explain her choice of room and agree on the next steps", "trap": "none", "whyVi": "Đúng: cô loại dần các phòng, chọn Harbour, rồi đề nghị chia tiền cọc và kiểm tra ngày." }
+      ],
+      "answerIndex": 3,
+      "category": "main_idea",
+      "evidence": "That leaves Harbour and Cellar.",
+      "explanationVi": "Email đi theo trình tự loại trừ → chọn Harbour → kế hoạch đặt cọc → hỏi 'Sound OK?'. Đáp án D bao quát cả quyết định và bước tiếp theo.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "push the boat out", "vi": "chi tiêu mạnh tay (cho dịp đặc biệt)", "definition": "to spend a lot of money to celebrate something", "example": "It's their 35th anniversary, so we could push the boat out." },
+    { "term": "step-free", "vi": "không có bậc thang (thuận tiện cho xe lăn)", "definition": "able to be entered without using any steps", "example": "The restaurant has step-free access at the side door." },
+    { "term": "non-refundable", "vi": "không được hoàn lại", "definition": "not able to be paid back", "example": "The $250 deposit is non-refundable." },
+    { "term": "clear", "vi": "vượt qua (mức)", "definition": "to go above a required amount or level", "example": "With drinks, we'll clear the minimum easily." },
+    { "term": "deposit", "vi": "tiền đặt cọc", "definition": "money paid in advance to hold a booking", "example": "We paid a deposit to hold the room." },
+    { "term": "minimum spend", "vi": "mức chi tiêu tối thiểu", "definition": "the lowest amount a group must pay for food and drinks", "example": "The room has a $1,500 minimum spend on Saturdays." },
+    { "term": "double-check", "vi": "kiểm tra lại", "definition": "to check something again to be sure", "example": "Let's double-check the date before we pay." },
+    { "term": "come off", "vi": "được trừ vào", "definition": "to be taken away from a total", "example": "The deposit comes off the final bill." }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "r2-full-04",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "education",
+  "title": "Picking a work-funded evening course",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 8 items before checking keys; all keys match. Recomputed: Business Writing 15 h/no certificate; Bookkeeping $455 x 0.9 = $409.50 > $400; Project Coordination 8 Thursdays x 2.5 h = 20 h, $395. Fixed all course dates (they fell on the wrong weekdays for 2027; every row now matches its days and stated hours), made the refund rule '7 or more days' so 'a week before it starts' is exact, and added lines ruling out Excel II and Presentation Skills (Fri afternoons) so Project Coordination is the only course meeting every condition; email trimmed to about 195 words." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Course calendar",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Fraser Bend College, North Vancouver — Continuing Studies, Winter 2027. Register by January 5 for a 10% early-bird discount. Withdrawals made 7 or more days before the start date receive a full refund minus a $35 fee.",
+        "headers": ["Course", "Format", "Schedule", "Hours", "Fee", "Certificate"],
+        "rows": [
+          ["Excel for Business I", "In person", "Mon & Wed 6:00–8:30 p.m., Jan 11–Feb 3", "20", "$385", "Yes"],
+          ["Excel for Business II", "Online (live)", "Tue 7:00–9:00 p.m., Jan 12–Mar 16", "20", "$410", "Yes (Level I or skills test required)"],
+          ["Intro to Bookkeeping", "In person", "Sat 9:00 a.m.–1:00 p.m., Jan 16–Feb 20", "24", "$455", "Yes"],
+          ["Business Writing Essentials", "Online (self-paced)", "Any time, 8 weeks of access", "15", "$260", "No"],
+          ["Project Coordination Basics", "Hybrid (4 online, 4 on campus)", "Thu 6:30–9:00 p.m., Jan 14–Mar 4", "20", "$395", "Yes"],
+          ["Workplace Presentation Skills", "In person", "Fri 1:00–4:00 p.m., Jan 15–Feb 19", "18", "$340", "Yes"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Rosa,\n\nI went through the Fraser Bend winter calendar last night with our training policy in mind. HR will reimburse up to $400, but only for courses of at least 18 hours that lead to a certificate, so Business Writing is out, as it [[1]].\n\nI'd love to do Excel II, since that's what I actually use every day. The catch is that I've never taken Level I, and it runs on the two evenings I work until eight, so I'd need to [[2]] to get in, and I doubt I'd pass. Presentation Skills is out too, as I work Friday afternoons. Bookkeeping sounds useful, but even with the early-bird discount it's [[3]] the limit, and Saturday mornings are the kids' swimming lessons anyway.\n\nThat leaves Project Coordination. It's on Thursday evenings, which are always free for me, and because it's hybrid, I'd only [[4]]. And if something comes up, I can back out up to [[5]] and lose just $35.\n\nI'm signing up this week before I talk myself out of it. You mentioned wanting to brush up on your own skills, so why not join me?\n\nDaniel",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "is self-paced, so HR can't track attendance", "trap": "not_mentioned", "whyVi": "Bảng có ghi 'self-paced' nhưng chính sách của HR không nói gì về việc theo dõi điểm danh." },
+        { "text": "costs more than HR will pay back", "trap": "opposite", "whyVi": "Phí chỉ $260, thấp hơn nhiều so với mức $400." },
+        { "text": "falls short on both of those requirements", "trap": "none", "whyVi": "Đúng: khóa này chỉ có 15 giờ (cần ít nhất 18) và cột Certificate ghi 'No'." },
+        { "text": "meets the hours requirement but not the other one", "trap": "partially_true", "whyVi": "Chỉ đúng một nửa: đúng là không có chứng chỉ, nhưng 15 giờ cũng chưa đủ 18 giờ." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "only for courses of at least 18 hours that lead to a certificate",
+      "explanationVi": "Daniel nêu hai điều kiện: ít nhất 18 giờ và có chứng chỉ. Tra hàng Business Writing: Hours = 15, Certificate = No → không đạt cả hai. 'falls short on' = không đạt, thiếu.",
+      "vocabulary": ["fall short"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "finish Level I", "trap": "partially_true", "whyVi": "Bảng cho phép học Level I trước, nhưng Daniel vừa nói Level I trùng hai buổi tối anh phải làm đến 8 giờ." },
+        { "text": "prove what I know on a test", "trap": "none", "whyVi": "Đúng: Excel II yêu cầu 'Level I or skills test'; vì không học được Level I, anh phải làm bài kiểm tra kỹ năng." },
+        { "text": "get my manager to sign off", "trap": "not_mentioned", "whyVi": "Bảng và email không nói khóa này cần quản lý duyệt." },
+        { "text": "register before January 5", "trap": "wrong_detail", "whyVi": "Ngày 5/1 là hạn để được giảm giá sớm, không phải điều kiện vào học Excel II." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Yes (Level I or skills test required)",
+      "explanationVi": "Excel II có hai cách vào học: đã học Level I hoặc qua bài 'skills test'. Level I học thứ Hai và thứ Tư 6:00–8:30 — đúng 'the two evenings I work until eight' → chỉ còn cách làm bài kiểm tra. Đáp án diễn đạt lại 'skills test' thành 'prove what I know on a test'.",
+      "vocabulary": ["the catch is"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "fifty-five dollars over", "trap": "partially_true", "whyVi": "$455 − $400 = $55 là giá gốc; câu nói rõ 'even with the early-bird discount', nên phải trừ 10% trước." },
+        { "text": "comfortably under", "trap": "opposite", "whyVi": "Dù giảm 10% thì giá vẫn khoảng $409.50, cao hơn $400." },
+        { "text": "still slightly over", "trap": "none", "whyVi": "Đúng: $455 giảm 10% = $409.50, vẫn vượt $400 một chút (khoảng $10)." },
+        { "text": "exactly at", "trap": "wrong_detail", "whyVi": "Không có phép tính nào cho ra đúng $400." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Register by January 5 for a 10% early-bird discount.",
+      "explanationVi": "Cụm 'even with the early-bird discount' buộc bạn tính giá sau giảm: $455 × 0.9 = $409.50 → vẫn vượt mức $400 khoảng $10. Bẫy là quên áp dụng giảm giá và chọn $55.",
+      "vocabulary": ["early-bird discount"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "have to be on campus four times", "trap": "none", "whyVi": "Đúng: khóa hybrid có 4 buổi online và 4 buổi tại trường." },
+        { "text": "need to commute every Thursday", "trap": "opposite", "whyVi": "Vì là hybrid nên một nửa số buổi học online; anh không phải đến trường mỗi thứ Năm." },
+        { "text": "attend eight sessions online", "trap": "wrong_detail", "whyVi": "Chỉ có 4 buổi online, không phải 8." },
+        { "text": "pay for half of the course", "trap": "word_match", "whyVi": "Ý 'một nửa' là về số buổi học online, không liên quan đến học phí." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "Hybrid (4 online, 4 on campus)",
+      "explanationVi": "Từ 'because it's hybrid' và 'only' cho thấy lợi ích là ít phải đi lại. Cột Format của Project Coordination ghi '4 online, 4 on campus' → chỉ đến trường 4 lần.",
+      "vocabulary": ["hybrid"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "January 5", "trap": "word_match", "whyVi": "January 5 là hạn đăng ký giảm giá sớm, không phải hạn rút tên." },
+        { "text": "the night of the first class", "trap": "wrong_detail", "whyVi": "Chính sách yêu cầu rút tên ít nhất 7 ngày trước ngày bắt đầu, không phải ngay buổi học đầu." },
+        { "text": "the halfway point of the course", "trap": "not_mentioned", "whyVi": "Bảng không nói có thể rút giữa khóa." },
+        { "text": "a week before it starts", "trap": "none", "whyVi": "Đúng: rút tên từ 7 ngày trở lên trước ngày bắt đầu thì được hoàn tiền, chỉ mất $35." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Withdrawals made 7 or more days before the start date receive a full refund minus a $35 fee.",
+      "explanationVi": "'back out' = 'withdraw' (rút lui). 'lose just $35' khớp với 'full refund minus a $35 fee'. '7 or more days before the start date' được diễn đạt lại thành 'a week before it starts'.",
+      "vocabulary": ["back out"]
+    },
+    {
+      "number": 6,
+      "prompt": "Why is Excel for Business I not a realistic option for Daniel?",
+      "options": [
+        { "text": "It is above the amount HR will reimburse.", "trap": "opposite", "whyVi": "Phí $385, thấp hơn mức $400." },
+        { "text": "It meets on the evenings he works late.", "trap": "none", "whyVi": "Đúng: Level I học thứ Hai và thứ Tư buổi tối — hai tối Daniel làm đến 8 giờ." },
+        { "text": "It does not lead to a certificate.", "trap": "wrong_detail", "whyVi": "Cột Certificate của Excel I ghi 'Yes'." },
+        { "text": "It is offered only online.", "trap": "wrong_detail", "whyVi": "Excel I học trực tiếp ('In person'); khóa online là Excel II." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "it runs on the two evenings I work until eight",
+      "explanationVi": "Email không nêu tên ngày, chỉ nói 'the two evenings I work until eight'. Bảng cho thấy Excel I học 'Mon & Wed 6:00–8:30 p.m.' → trùng giờ làm. Cần ghép thông tin email với bảng.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "What does Daniel mean when he says he is signing up \"before I talk myself out of it\"?",
+      "options": [
+        { "text": "He wants to register before the course fills up.", "trap": "not_mentioned", "whyVi": "Bảng không nói về số chỗ còn lại; anh lo về chính mình, không lo hết chỗ." },
+        { "text": "He needs to discuss the course with HR first.", "trap": "wrong_speaker", "whyVi": "'talk' ở đây là tự nói với bản thân, không phải nói chuyện với HR." },
+        { "text": "He is worried he might change his mind if he waits.", "trap": "none", "whyVi": "Đúng: 'talk yourself out of something' = tự thuyết phục mình không làm nữa." },
+        { "text": "He has already decided the course is a mistake.", "trap": "opposite", "whyVi": "Ngược lại, anh đang quyết tâm đăng ký." }
+      ],
+      "answerIndex": 2,
+      "category": "vocabulary",
+      "evidence": "I'm signing up this week before I talk myself out of it.",
+      "explanationVi": "Thành ngữ 'talk yourself out of (doing) something' nghĩa là tự tìm lý do để không làm việc gì đó. Daniel muốn đăng ký ngay để không đổi ý.",
+      "vocabulary": ["talk yourself out of"]
+    },
+    {
+      "number": 8,
+      "prompt": "What is the main purpose of Daniel's email?",
+      "options": [
+        { "text": "To explain how he chose a course and invite Rosa to take it too", "trap": "none", "whyVi": "Đúng: anh loại dần từng khóa, chọn Project Coordination và rủ Rosa học cùng." },
+        { "text": "To ask Rosa which course she thinks he should take", "trap": "opposite", "whyVi": "Daniel đã tự quyết định rồi; anh không xin ý kiến Rosa." },
+        { "text": "To complain that HR's training policy is too strict", "trap": "not_mentioned", "whyVi": "Anh chỉ áp dụng chính sách, không phàn nàn về nó." },
+        { "text": "To recommend that Rosa sign up for Excel II", "trap": "word_match", "whyVi": "Excel II là khóa Daniel muốn học nhưng không học được; anh rủ Rosa học khóa của mình." }
+      ],
+      "answerIndex": 0,
+      "category": "main_idea",
+      "evidence": "You mentioned wanting to brush up on your own skills, so why not join me?",
+      "explanationVi": "Phần lớn email là quá trình loại trừ các khóa; đoạn cuối là lời mời 'why not join me?'. Đáp án A bao quát cả hai phần.",
+      "vocabulary": ["brush up on"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "fall short", "vi": "không đạt, thiếu (so với yêu cầu)", "definition": "to fail to reach a required amount or standard", "example": "The course falls short of the 18-hour minimum." },
+    { "term": "the catch is", "vi": "vấn đề (bất lợi) là", "definition": "used to introduce a hidden problem or difficulty", "example": "The plan is cheap. The catch is that you have to sign a two-year contract." },
+    { "term": "early-bird discount", "vi": "giảm giá đăng ký sớm", "definition": "a lower price for people who book or pay before a certain date", "example": "Register by Friday to get the early-bird discount." },
+    { "term": "hybrid", "vi": "kết hợp (trực tuyến và trực tiếp)", "definition": "partly online and partly in person", "example": "The workshop is hybrid, so half the sessions are online." },
+    { "term": "back out", "vi": "rút lui, hủy tham gia", "definition": "to decide not to do something you agreed to do", "example": "He backed out of the course a week before it began." },
+    { "term": "talk yourself out of", "vi": "tự thuyết phục mình không làm nữa", "definition": "to persuade yourself not to do something", "example": "Don't talk yourself out of applying for the job." },
+    { "term": "brush up on", "vi": "ôn lại, trau dồi lại", "definition": "to improve a skill you have not used for a while", "example": "I need to brush up on my spreadsheet skills." },
+    { "term": "reimburse", "vi": "hoàn trả (chi phí)", "definition": "to pay back money that someone has spent", "example": "The company will reimburse up to $400 for training." }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "s2-mock-06",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "government",
+  "title": "Dealing with a frustrating official process",
+  "prompt": "Talk about a time when you had to deal with a complicated official process, such as renewing a document or applying for a permit. What made it difficult, how did you finally get it done, and what advice would you give someone in the same situation?",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "The document/process + why you needed it urgently",
+    "What made it difficult (two specific obstacles)",
+    "How you finally got it done",
+    "Advice for others (two clear tips)"
+  ],
+  "modelAnswer": "Last year, I needed to renew my permanent resident card because I had a family trip to Vietnam coming up, and without a valid card I wouldn't have been able to fly back to Canada easily.\n\nThe process turned out to be much more complicated than I'd expected. First, my application was sent back to me after six weeks because my photo didn't meet the size requirements, even though I'd had it taken at a pharmacy. Then, when I resubmitted, the online tracker just said \"in progress\" for months, and I couldn't get a real person on the phone.\n\nWith my departure date getting closer, I eventually contacted my MP's constituency office in Surrey. A staff member there made an enquiry on my behalf, and about two weeks later, my card finally arrived in the mail, just ten days before my flight.\n\nSo, my advice would be, first, apply as early as you're allowed to, and check every requirement twice, especially the photo. And second, if you get stuck, don't hesitate to reach out to your MP's office. Their staff can follow up on a stuck file.",
+  "usefulExpressions": [
+    {
+      "expression": "without a valid card I wouldn't have been able to…",
+      "usageVi": "Câu điều kiện loại 3 rút gọn — giải thích vì sao việc này gấp, cấu trúc nâng cao."
+    },
+    {
+      "expression": "much more complicated than I'd expected",
+      "usageVi": "So sánh + quá khứ hoàn thành — rất tự nhiên khi kể sự việc vượt dự tính."
+    },
+    {
+      "expression": "With my departure date getting closer, …",
+      "usageVi": "Cấu trúc 'With + N + V-ing' tạo áp lực thời gian — đa dạng ngữ pháp."
+    },
+    {
+      "expression": "on my behalf",
+      "usageVi": "Thay mặt tôi — từ vựng hay dùng khi nói về thủ tục giấy tờ."
+    },
+    {
+      "expression": "don't hesitate to reach out to…",
+      "usageVi": "Lời khuyên lịch sự; 'reach out to' = liên hệ — phù hợp phần advice."
+    }
+  ],
+  "commonMistakes": [
+    "Quên phần 'advice' ở cuối vì kể chuyện quá dài. Hãy giữ khoảng 15 giây cuối cho 2 lời khuyên rõ ràng (first… second…).",
+    "Nói 'I renewed my PR card' rồi dừng — chưa giải thích 'what made it difficult'. Cần ít nhất hai trở ngại cụ thể.",
+    "Lẫn lộn 'advice' (danh từ, không đếm được) và 'advise' (động từ): nói 'my advice would be…' hoặc 'I'd advise them to…', không nói 'an advice'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked all 3 prompt parts and length (187, inside 190). Facts checked: without a valid PR card a PR generally needs a travel document (PRTD) to board a flight home, so 'wouldn't have been able to fly back easily' is accurate; MP constituency offices can make case enquiries with IRCC. Toned down overclaims: the card arriving is no longer presented as a direct result of the MP's enquiry, the advice now says MP staff can follow up on a stuck file, and the invented 'six months' rule became 'apply as early as you're allowed to'."
+  },
+  "createdAt": "2026-11-03"
+}

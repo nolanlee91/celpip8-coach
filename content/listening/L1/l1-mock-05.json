@@ -1,0 +1,189 @@
+{
+  "id": "l1-mock-05",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "shopping",
+  "title": "A new sofa that won't fit in the elevator",
+  "context": "You will hear a couple in a Vancouver high-rise dealing with a furniture delivery that cannot be brought up to their condo.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Arjun", "voice": "male_a", "text": "Ingrid, you'd better come down here. The delivery guys are in the lobby with the sofa, and it's not going to fit in the elevator." },
+        { "speaker": "Ingrid", "voice": "female_b", "text": "What do you mean, not going to fit, Arjun? I measured the elevator. Twice." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "You measured the inside. The problem's the door. The opening's narrower than the elevator itself, and the long piece of the sectional is about five centimetres too wide to tip in." },
+        { "speaker": "Ingrid", "voice": "female_b", "text": "Can't they just take it up the stairs?" },
+        { "speaker": "Arjun", "voice": "male_a", "text": "I asked. We're on the fourteenth floor, and their company won't let them carry anything up more than three flights. They're not budging on that. And they can't leave it down here either, because the strata won't allow furniture in the lobby." },
+        { "speaker": "Ingrid", "voice": "female_b", "text": "So they're taking it back." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Looks like it. The guy in charge, Marco, was decent about it, though. He said this happens all the time with condos, it usually gets sorted out, and we shouldn't panic. He gave me a number to call." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why can't the sofa be taken up in the elevator?",
+          "options": [
+            { "text": "The sofa is longer than the inside of the elevator.", "trap": "wrong_detail", "whyVi": "Bên trong thang máy đủ chỗ; vấn đề là cửa thang hẹp hơn." },
+            { "text": "Part of it is too wide for the elevator's entrance.", "trap": "none", "whyVi": "Đúng: khoang cửa hẹp hơn thang máy, và phần dài của bộ sofa rộng hơn khoảng 5 cm." },
+            { "text": "The elevator is temporarily out of service.", "trap": "not_mentioned", "whyVi": "Bài không nói thang máy bị hỏng." },
+            { "text": "Ingrid ordered a larger model than she meant to.", "trap": "not_mentioned", "whyVi": "Không có thông tin Ingrid đặt nhầm cỡ." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "The opening's narrower than the elevator itself, and the long piece of the sectional is about five centimetres too wide to tip in.",
+          "explanationVi": "'The opening's narrower' = cửa thang hẹp. Đáp án B diễn đạt 'opening' thành 'entrance' và 'the long piece' thành 'part of it'. Đáp án A là bẫy vì Ingrid đo đúng bên trong thang máy.",
+          "vocabulary": ["sectional"]
+        },
+        {
+          "number": 2,
+          "prompt": "Why won't the delivery crew carry the sofa up the stairs?",
+          "options": [
+            { "text": "The building's strata does not allow it.", "trap": "word_match", "whyVi": "'Strata' được nhắc, nhưng là về việc cấm để đồ ở sảnh, không phải về cầu thang." },
+            { "text": "The sofa is too heavy for two people.", "trap": "not_mentioned", "whyVi": "Không ai nói sofa quá nặng." },
+            { "text": "Their employer limits how many floors they can climb with an item.", "trap": "none", "whyVi": "Đúng: công ty không cho khiêng quá ba tầng lầu." },
+            { "text": "They have other deliveries waiting.", "trap": "not_mentioned", "whyVi": "Không nhắc đến lịch giao hàng khác." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "their company won't let them carry anything up more than three flights",
+          "explanationVi": "'Their company won't let them ... more than three flights' = công ty giới hạn số tầng. Đáp án C diễn đạt lại bằng 'employer limits'.",
+          "vocabulary": ["flight (of stairs)", "strata"]
+        },
+        {
+          "number": 3,
+          "prompt": "How did Marco respond to the situation?",
+          "options": [
+            { "text": "He blamed the couple for measuring incorrectly.", "trap": "not_mentioned", "whyVi": "Marco không trách ai." },
+            { "text": "He seemed irritated about wasting a trip.", "trap": "opposite", "whyVi": "Arjun nói Marco 'decent about it' – cư xử tử tế." },
+            { "text": "He said it was the store's problem, not his.", "trap": "not_mentioned", "whyVi": "Marco không nói như vậy; anh còn cho số điện thoại để gọi." },
+            { "text": "He was reassuring and suggested it could be resolved.", "trap": "none", "whyVi": "Đúng: anh nói chuyện này thường gặp, thường được giải quyết, đừng hoảng." }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "He said this happens all the time with condos, it usually gets sorted out, and we shouldn't panic.",
+          "explanationVi": "'Happens all the time', 'usually gets sorted out', 'shouldn't panic' đều mang ý trấn an. Đáp án D: 'reassuring'.",
+          "vocabulary": ["sort out"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Ingrid", "voice": "female_b", "text": "Okay, I called the number. It's the store's customer care line, and, well, it's a mixed bag." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Go on." },
+        { "speaker": "Ingrid", "voice": "female_b", "text": "Because it's custom upholstery, they won't give us a refund. They'll only do an exchange, and only for something of equal or higher value. And there's a fifteen percent restocking fee, unless the problem was their fault." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Fifteen percent of twenty-eight hundred? That's over four hundred bucks." },
+        { "speaker": "Ingrid", "voice": "female_b", "text": "Four twenty. But here's the thing. When we ordered, the salesperson asked about our building, and I told her it was a high-rise. She said this model comes apart for tight spaces. I remember, because that's what sold me on it." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Does it?" },
+        { "speaker": "Ingrid", "voice": "female_b", "text": "Some versions do, with a detachable arm, but apparently ours isn't one of them. So I told the agent we'd relied on what their own employee said. She's checking the notes on our order. If the salesperson wrote anything down, they might waive the fee." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "And if she didn't?" },
+        { "speaker": "Ingrid", "voice": "female_b", "text": "Then it's our word against hers, I guess." }
+      ],
+      "questions": [
+        {
+          "number": 4,
+          "prompt": "What is the store's policy for this sofa?",
+          "options": [
+            { "text": "It can be swapped only for an item that costs the same or more.", "trap": "none", "whyVi": "Đúng: chỉ đổi lấy món có giá trị bằng hoặc cao hơn." },
+            { "text": "It can be returned for a refund minus a fee.", "trap": "opposite", "whyVi": "Vì là bọc nệm đặt riêng, cửa hàng KHÔNG hoàn tiền." },
+            { "text": "It can be exchanged for any cheaper model.", "trap": "opposite", "whyVi": "Chỉ đổi lấy món 'equal or higher value', không phải rẻ hơn." },
+            { "text": "It can be returned free within thirty days.", "trap": "not_mentioned", "whyVi": "Không có thông tin về thời hạn 30 ngày." }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "They'll only do an exchange, and only for something of equal or higher value.",
+          "explanationVi": "'Exchange ... equal or higher value' được diễn đạt lại thành 'swapped only for an item that costs the same or more'.",
+          "vocabulary": ["restocking fee"]
+        },
+        {
+          "number": 5,
+          "prompt": "Why does Ingrid believe the fee should be waived?",
+          "options": [
+            { "text": "The delivery crew damaged the sofa.", "trap": "not_mentioned", "whyVi": "Không ai nói sofa bị hư hại." },
+            { "text": "She had measured the elevator carefully.", "trap": "partially_true", "whyVi": "Cô có đo thang máy, nhưng lý do cô đưa ra với tổng đài là lời tư vấn của nhân viên bán hàng." },
+            { "text": "A store employee gave her inaccurate information when she bought it.", "trap": "none", "whyVi": "Đúng: nhân viên bán hàng nói mẫu này tháo rời được, nhưng thực ra không phải." },
+            { "text": "The agent promised her a discount.", "trap": "opposite", "whyVi": "Tổng đài viên chỉ đang kiểm tra ghi chú, chưa hứa gì." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "So I told the agent we'd relied on what their own employee said.",
+          "explanationVi": "Ingrid lập luận rằng lỗi thuộc về cửa hàng ('unless the problem was their fault'): nhân viên nói 'this model comes apart', nhưng 'ours isn't one of them'. Đáp án C diễn đạt thành 'inaccurate information'.",
+          "vocabulary": ["waive", "detachable"]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Ingrid suggest by saying it would be their word against the salesperson's?",
+          "options": [
+            { "text": "She is certain the salesperson lied on purpose.", "trap": "not_mentioned", "whyVi": "Ingrid không nói nhân viên cố ý nói dối." },
+            { "text": "Without a written record, their claim would be hard to prove.", "trap": "none", "whyVi": "Đúng: nếu không có ghi chú, chỉ còn lời họ đối chọi với lời nhân viên." },
+            { "text": "She plans to take the store to small claims court.", "trap": "not_mentioned", "whyVi": "Không nhắc đến kiện tụng." },
+            { "text": "The agent has already agreed with her side of the story.", "trap": "opposite", "whyVi": "Tổng đài viên vẫn đang kiểm tra; chưa đồng ý gì." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "Then it's our word against hers, I guess.",
+          "explanationVi": "'Our word against hers' = không có bằng chứng, chỉ là lời nói của hai bên. Câu trả lời cho 'And if she didn't [write anything down]?' nên đáp án B nói về việc thiếu bằng chứng viết.",
+          "vocabulary": []
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Ingrid", "voice": "female_b", "text": "Good news. The salesperson did write a note. It says, customer in high-rise, confirmed detachable configuration. So they're treating it as their mistake." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "So no fee?" },
+        { "speaker": "Ingrid", "voice": "female_b", "text": "No fee. And they're offering us the same sectional in the version that actually comes apart, same fabric and everything. It's a hundred and sixty dollars more, but they're covering the difference as a goodwill gesture." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Okay, that's more than fair. What's the catch?" },
+        { "speaker": "Ingrid", "voice": "female_b", "text": "The wait. It's made to order at their factory back east, so it's eight to ten weeks before it even ships. We'll be sitting on folding chairs until, well, sometime in the new year, unless we borrow your parents' old futon." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "I can live with that. Honestly, the folding chairs aren't that bad. But before they build anything, let's get them to send the exact dimensions of the biggest piece, and this time I'll measure the elevator door myself." },
+        { "speaker": "Ingrid", "voice": "female_b", "text": "Ouch. Fair enough, though." }
+      ],
+      "questions": [
+        {
+          "number": 7,
+          "prompt": "What has the store agreed to do?",
+          "options": [
+            { "text": "Refund the full price of the original sofa.", "trap": "not_mentioned", "whyVi": "Cửa hàng đổi hàng, không hoàn tiền." },
+            { "text": "Provide the same sofa in a different fabric.", "trap": "wrong_detail", "whyVi": "Vải vẫn giữ nguyên ('same fabric and everything')." },
+            { "text": "Supply a more expensive version without charging them extra.", "trap": "none", "whyVi": "Đúng: phiên bản tháo rời đắt hơn 160 đô nhưng cửa hàng chịu phần chênh lệch." },
+            { "text": "Deliver a replacement within a couple of weeks.", "trap": "opposite", "whyVi": "Phải chờ 8 đến 10 tuần vì làm theo đơn đặt hàng." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "It's a hundred and sixty dollars more, but they're covering the difference as a goodwill gesture.",
+          "explanationVi": "'A hundred and sixty dollars more' = đắt hơn; 'covering the difference' = họ trả phần chênh lệch. Đáp án C diễn đạt lại.",
+          "vocabulary": ["goodwill gesture", "made to order"]
+        },
+        {
+          "number": 8,
+          "prompt": "Why does Ingrid say 'Ouch'?",
+          "options": [
+            { "text": "She is disappointed about the long wait.", "trap": "partially_true", "whyVi": "Cô có nhắc đến việc chờ lâu, nhưng 'Ouch' là phản ứng với câu Arjun vừa nói." },
+            { "text": "She thinks Arjun does not trust the store's measurements.", "trap": "wrong_detail", "whyVi": "Arjun muốn tự đo cửa thang máy, ngụ ý về lần đo trước của Ingrid, không phải về số đo của cửa hàng." },
+            { "text": "She hurt herself on one of the folding chairs.", "trap": "word_match", "whyVi": "Hiểu 'Ouch' theo nghĩa đen; 'folding chairs' chỉ được nhắc khi nói về thời gian chờ." },
+            { "text": "She feels Arjun is hinting that her measuring caused the problem.", "trap": "none", "whyVi": "Đúng: 'this time I'll measure ... myself' ngụ ý lần trước Ingrid đo chưa đúng; cô thấy 'đau' nhưng chấp nhận ('Fair enough')." }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "this time I'll measure the elevator door myself",
+          "explanationVi": "Cụm 'this time ... myself' là lời chê nhẹ: lần trước Ingrid chỉ đo bên trong thang máy. 'Ouch. Fair enough, though.' = câu đó hơi đau, nhưng công bằng.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "sectional", "vi": "ghế sofa góc (ghép nhiều khối)", "definition": "a large sofa made of several separate pieces that fit together", "example": "The long piece of the sectional won't fit through the door." },
+    { "term": "flight (of stairs)", "vi": "một đợt cầu thang (giữa hai tầng)", "definition": "a set of stairs between two floors", "example": "They won't carry anything up more than three flights." },
+    { "term": "strata", "vi": "ban quản lý chung cư (ở BC)", "definition": "in B.C., the corporation of owners that runs a condo building", "example": "The strata won't allow furniture in the lobby." },
+    { "term": "sort out", "vi": "giải quyết, thu xếp", "definition": "to deal with a problem successfully", "example": "This kind of thing usually gets sorted out." },
+    { "term": "restocking fee", "vi": "phí nhập lại kho (khi trả hàng)", "definition": "a charge a store makes when it takes back an item", "example": "There's a fifteen percent restocking fee." },
+    { "term": "waive", "vi": "miễn (phí, quy định)", "definition": "to decide not to charge a fee or apply a rule", "example": "They might waive the fee if it was their mistake." },
+    { "term": "detachable", "vi": "có thể tháo rời", "definition": "able to be removed and put back again", "example": "Some versions come with a detachable arm." },
+    { "term": "goodwill gesture", "vi": "cử chỉ thiện chí", "definition": "something done to show you want to keep a good relationship", "example": "They covered the difference as a goodwill gesture." },
+    { "term": "made to order", "vi": "làm theo đơn đặt hàng", "definition": "produced specially after a customer orders it", "example": "The sofa is made to order, so it takes eight weeks." }
+  ],
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; keys matched; fee maths (15% of 2,800 = 420) checked. Fixed: Arjun's name now spoken in the audio; 'around Christmas' changed to 'sometime in the new year' because 8-10 weeks before shipping from November cannot arrive by Christmas." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

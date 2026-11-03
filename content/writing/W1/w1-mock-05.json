@@ -1,0 +1,65 @@
+{
+  "id": "w1-mock-05",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "government",
+  "title": "Disputing a parking ticket under a hidden sign",
+  "situation": "You received a $70 parking ticket from the City of New Westminster for parking in a loading zone. When you parked, the loading zone sign was almost completely hidden behind tree branches, and you later took photos of it. You must either pay the ticket within 14 days or ask the city to review it. You decide to email the city's bylaw services department.",
+  "instructions": [
+    "Explain when and where you received the ticket.",
+    "Explain why you believe the ticket should be cancelled.",
+    "Suggest what the city could do to prevent this problem in the future."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting + request for a review with the ticket number",
+    "Instruction 1: date, time, exact location, why you were there and for how long",
+    "Instruction 2: a calm, evidence-based argument (you checked, the sign was hidden, photos attached)",
+    "Instruction 3: 2–3 practical, low-cost fixes for the city",
+    "Formal closing + sign-off"
+  ],
+  "modelResponse": "Dear Bylaw Services,\n\nI am writing to request a review of parking ticket NW-772415, which I received on Thursday, October 29, at around 2:30 p.m. I had parked on the 700 block of Sixth Avenue, right outside the public library, for about twenty minutes while I returned some books. When I came back, I found a $70 ticket on my windshield for parking in a loading zone.\n\nI respectfully believe this ticket should be cancelled. Before parking, I looked carefully for signs, but the only one on that stretch of the street is almost entirely covered by the branches of a large maple tree. From the driver's seat, it is impossible to read. I have attached three photos, taken from the road and the sidewalk, which clearly show that the sign is hidden. Since I had no reasonable way of knowing about the restriction, I hope you will agree that the fine is unjustified.\n\nTo prevent this from happening to other drivers, I would suggest trimming the tree or moving the sign closer to the curb. Painting the curb yellow would also make the zone far more visible.\n\nThank you for your time and consideration.\n\nSincerely,\nHiroshi Tanaka",
+  "usefulExpressions": [
+    {
+      "expression": "I am writing to request a review of…",
+      "usageVi": "Mở đầu thư gửi cơ quan nhà nước để xin xem xét lại một quyết định."
+    },
+    {
+      "expression": "I respectfully believe this ticket should be cancelled.",
+      "usageVi": "Phản đối trang trọng, tôn trọng – hợp với thư gửi chính quyền."
+    },
+    {
+      "expression": "almost entirely covered by…",
+      "usageVi": "Mô tả mức độ chính xác ('gần như hoàn toàn bị che')."
+    },
+    {
+      "expression": "I have attached three photos, …, which clearly show that…",
+      "usageVi": "Đề cập bằng chứng – làm lập luận vững chắc."
+    },
+    {
+      "expression": "Since I had no reasonable way of knowing about…",
+      "usageVi": "Lập luận logic dẫn tới kết luận; 'no reasonable way' là cách nói hay."
+    },
+    {
+      "expression": "To prevent this from happening to other drivers, I would suggest…",
+      "usageVi": "Chuyển sang ý 3, cho thấy bạn nghĩ cho cộng đồng chứ không chỉ cho mình."
+    }
+  ],
+  "commonMistakes": [
+    "Phủ nhận hoàn toàn mà không có bằng chứng ('I did nothing wrong'). Nêu chi tiết bạn đã kiểm tra biển báo và có ảnh chụp.",
+    "Nói giọng mỉa mai về thành phố ('The city just wants money'). Thư gửi cơ quan cần khách quan và tôn trọng.",
+    "Ý 3 chỉ nói 'Fix the sign'. Hãy đưa giải pháp cụ thể: tỉa cây, dời biển, sơn vạch.",
+    "Sai cấu trúc 'suggest': 'I suggest the city to trim the tree' → 'I suggest trimming the tree' hoặc 'I suggest that the city trim the tree'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets (when/where, evidence-based reason, prevention ideas), $70 fine and 14-day review option are plausible and framed by the prompt, 198 words. Fixed: the New Westminster Public Library is on Sixth Avenue, not Carnarvon Street, so the location was corrected."
+  },
+  "createdAt": "2026-11-03"
+}

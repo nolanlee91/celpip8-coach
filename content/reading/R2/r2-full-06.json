@@ -1,0 +1,171 @@
+{
+  "id": "r2-full-06",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "Applying for a community garden plot",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Independent re-review of the rewritten set (the rewriter had self-approved it). Blind-solved all 8 and recomputed: $45 / 2 = $22.50, + one $40 volunteer fee = $62.50 (under $65), half plot distractor $17.50, 2027 season + about 2-year waitlist = 2029; keys match. Fix: caption said 'Every member must volunteer', which with two people (Grace and Wen) could mean two $40 fees and break the 'under $65' total, so it now says 'Every plot holder'; Q7 whyVi updated. Garden is fictional; title differs from the L4 community-garden news item." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Plot list",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Maplewood Commons Community Garden, Coquitlam — 2027 Season Plots. Residents of the Maplewood Commons buildings pay half the plot fee. Every plot holder must volunteer 6 hours per season or pay a $40 fee instead. Applications close February 28.",
+        "headers": ["Plot", "Size", "Season fee", "Location", "Watering", "Notes"],
+        "rows": [
+          ["Ground plot", "3 m × 6 m", "$60", "Main field", "Shared taps", "Waitlist of about 2 years"],
+          ["Half plot", "3 m × 3 m", "$35", "Main field", "Shared taps", "4 available"],
+          ["Raised bed", "1.2 m × 2.4 m", "$45", "Beside the tool shed", "Drip irrigation on a timer", "Waist height; wheelchair accessible"],
+          ["Shared herb bed", "Share of 1 bed", "$15", "Courtyard", "Watered by volunteers", "No plants taller than 30 cm"],
+          ["Greenhouse shelf", "1 shelf", "$30", "Greenhouse", "Hand watering", "Seedlings only; must be cleared by May 31"],
+          ["Orchard row", "2 fruit trees", "$80", "North edge", "Shared taps", "2-season minimum commitment"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Wen,\n\nGood news: the Maplewood garden is taking applications for next season, and because we live in Building C, we only pay [[1]].\n\nI'd love a full ground plot, but with a waitlist that long, we'd [[2]]. There are still half plots left, but after my back surgery I really shouldn't be kneeling in the dirt. That's why the raised bed appeals to me. It's [[3]], and the watering takes care of itself, which matters because we're away for most of July.\n\nWith our discount, the bed would cost [[4]]. The herb bed is even cheaper, but we want to grow tomatoes and pole beans, and those [[5]].\n\nThen there's the volunteer requirement. Neither of us has six spare hours this summer, so I'll just pay the fee. Even then, we'll be under $65 for the whole season, which seems fair to me.\n\nI'll send in the form this weekend, well before the deadline. Could you keep an eye out for a cheap trellis for the beans?\n\nGrace",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "half the usual plot fee", "trap": "none", "whyVi": "Đúng: cư dân các tòa nhà Maplewood Commons trả một nửa phí ô đất." },
+        { "text": "$40 less than other members", "trap": "word_match", "whyVi": "$40 là phí thay cho 6 giờ tình nguyện, không phải mức giảm cho cư dân." },
+        { "text": "nothing for the first season", "trap": "not_mentioned", "whyVi": "Bảng không nói cư dân được miễn phí mùa đầu." },
+        { "text": "the herb bed rate", "trap": "wrong_detail", "whyVi": "$15 là giá luống thảo mộc; ưu đãi cư dân là giảm một nửa cho mọi loại ô." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "Residents of the Maplewood Commons buildings pay half the plot fee.",
+      "explanationVi": "'because we live in Building C' là manh mối: họ là cư dân của khu nhà. Caption: 'Residents … pay half the plot fee' → đáp án diễn đạt lại thành 'half the usual plot fee'.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "need to commit for two seasons", "trap": "word_match", "whyVi": "Cam kết tối thiểu 2 mùa là điều kiện của Orchard row, không phải ô đất lớn." },
+        { "text": "have to apply before February 28", "trap": "partially_true", "whyVi": "Đúng là hạn nộp đơn là 28/2, nhưng đó không phải hậu quả của danh sách chờ dài." },
+        { "text": "probably not get one until 2029", "trap": "none", "whyVi": "Đúng: danh sách chờ khoảng 2 năm, tính từ mùa 2027 → khoảng 2029 mới có." },
+        { "text": "have to share it with another family", "trap": "not_mentioned", "whyVi": "Bảng không nói phải chia ô đất với người khác." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Waitlist of about 2 years",
+      "explanationVi": "'with a waitlist that long' chỉ đến cột Notes của Ground plot: 'Waitlist of about 2 years'. Bảng dành cho mùa 2027, cộng khoảng 2 năm → khoảng 2029. Phải kết hợp năm trong caption với thời gian chờ.",
+      "vocabulary": ["waitlist"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "right next to the greenhouse", "trap": "wrong_detail", "whyVi": "Luống nâng nằm cạnh kho dụng cụ ('Beside the tool shed'), không phải nhà kính." },
+        { "text": "big enough for two fruit trees", "trap": "wrong_detail", "whyVi": "Hai cây ăn quả là của Orchard row." },
+        { "text": "watered by the volunteers", "trap": "wrong_detail", "whyVi": "Tình nguyện viên tưới luống thảo mộc; luống nâng có hệ thống tưới nhỏ giọt." },
+        { "text": "built high enough that I won't have to bend down", "trap": "none", "whyVi": "Đúng: luống nâng cao ngang thắt lưng ('Waist height'), nên Grace không phải quỳ hay cúi." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Waist height; wheelchair accessible",
+      "explanationVi": "Vấn đề của Grace: không nên quỳ sau phẫu thuật lưng. Cột Notes của Raised bed: 'Waist height' → không phải cúi xuống. Phần 'watering takes care of itself' ở vế sau nói về tưới nhỏ giọt, nên chỗ trống phải là ý về độ cao.",
+      "vocabulary": ["raised bed"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "$45", "trap": "partially_true", "whyVi": "$45 là giá gốc; câu nói rõ 'With our discount', nên phải giảm một nửa." },
+        { "text": "$22.50", "trap": "none", "whyVi": "Đúng: $45 ÷ 2 = $22.50 nhờ ưu đãi cư dân." },
+        { "text": "$62.50", "trap": "wrong_detail", "whyVi": "$62.50 là tổng sau khi cộng phí tình nguyện $40 — đoạn sau mới nhắc đến khoản đó." },
+        { "text": "$17.50", "trap": "wrong_detail", "whyVi": "$17.50 là một nửa giá của Half plot ($35), không phải luống nâng." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Residents of the Maplewood Commons buildings pay half the plot fee.",
+      "explanationVi": "Raised bed giá $45; cư dân trả một nửa → $22.50. Kiểm tra lại với câu sau: $22.50 + phí tình nguyện $40 = $62.50, đúng là 'under $65 for the whole season'.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "need more water than volunteers can give", "trap": "not_mentioned", "whyVi": "Bảng không nói gì về lượng nước tình nguyện viên tưới." },
+        { "text": "grow far taller than that bed allows", "trap": "none", "whyVi": "Đúng: luống thảo mộc không cho cây cao quá 30 cm; cà chua và đậu leo cao hơn nhiều (vì vậy cô cần giàn leo)." },
+        { "text": "must be cleared out by May 31", "trap": "wrong_detail", "whyVi": "Hạn dọn trước 31/5 là quy định của kệ nhà kính." },
+        { "text": "can only be started as seedlings", "trap": "word_match", "whyVi": "'Seedlings only' là quy định của Greenhouse shelf, không liên quan đến luống thảo mộc." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "No plants taller than 30 cm",
+      "explanationVi": "'but' cho thấy luống thảo mộc không hợp. Cột Notes: 'No plants taller than 30 cm'. Cà chua và đậu leo ('pole beans') mọc cao; câu cuối nhờ tìm 'trellis' (giàn leo) cho đậu xác nhận cây sẽ cao.",
+      "vocabulary": ["trellis"]
+    },
+    {
+      "number": 6,
+      "prompt": "Why does the raised bed's watering system matter to Grace?",
+      "options": [
+        { "text": "The shared taps are too far from the courtyard.", "trap": "not_mentioned", "whyVi": "Email và bảng không nói vòi nước chung ở xa." },
+        { "text": "She and Wen will be away for much of the summer.", "trap": "none", "whyVi": "Đúng: họ đi vắng gần hết tháng Bảy, nên cần hệ thống tưới tự động theo giờ." },
+        { "text": "Her back surgery means she cannot carry water.", "trap": "partially_true", "whyVi": "Cô nhắc phẫu thuật lưng để giải thích việc không quỳ được, không phải lý do cần tưới tự động." },
+        { "text": "Volunteers only water the greenhouse.", "trap": "wrong_detail", "whyVi": "Tình nguyện viên tưới luống thảo mộc; kệ nhà kính tưới bằng tay." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "the watering takes care of itself, which matters because we're away for most of July",
+      "explanationVi": "Cụm 'which matters because' nêu thẳng lý do: 'we're away for most of July'. Bảng: 'Drip irrigation on a timer' → tự tưới khi họ vắng nhà. 'most of July' được diễn đạt lại thành 'much of the summer'.",
+      "vocabulary": ["take care of itself"]
+    },
+    {
+      "number": 7,
+      "prompt": "What does Grace decide about the volunteer requirement?",
+      "options": [
+        { "text": "Wen will do the hours for both of them.", "trap": "wrong_speaker", "whyVi": "Cô nói cả hai đều không có 6 giờ rảnh; không ai đi làm tình nguyện." },
+        { "text": "She will volunteer in the fall instead.", "trap": "not_mentioned", "whyVi": "Email không nói sẽ làm tình nguyện vào mùa thu." },
+        { "text": "Building residents do not have to do it.", "trap": "wrong_detail", "whyVi": "Cư dân chỉ được giảm phí ô đất; yêu cầu tình nguyện áp dụng cho mọi người thuê ô." },
+        { "text": "She will pay the charge rather than give her time.", "trap": "none", "whyVi": "Đúng: 'I'll just pay the fee' — trả $40 thay cho 6 giờ tình nguyện." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Neither of us has six spare hours this summer, so I'll just pay the fee.",
+      "explanationVi": "Caption: 'volunteer 6 hours per season or pay a $40 fee instead'. Grace chọn cách thứ hai: 'pay the fee' = 'pay the charge rather than give her time'.",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "What does Grace ask Wen to do?",
+      "options": [
+        { "text": "Look for an inexpensive frame for the beans to climb", "trap": "none", "whyVi": "Đúng: 'keep an eye out for a cheap trellis' — để ý tìm một giàn leo rẻ." },
+        { "text": "Send in the application form this weekend", "trap": "wrong_speaker", "whyVi": "Chính Grace sẽ nộp đơn ('I'll send in the form')." },
+        { "text": "Water the bed while they are away", "trap": "opposite", "whyVi": "Không cần: hệ thống tưới tự động lo việc đó." },
+        { "text": "Pay the volunteer fee for both of them", "trap": "wrong_speaker", "whyVi": "Grace nói chính cô sẽ trả phí." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "Could you keep an eye out for a cheap trellis for the beans?",
+      "explanationVi": "'keep an eye out for' = để ý tìm; 'cheap' = 'inexpensive'; 'trellis' = khung/giàn cho cây leo → 'frame for the beans to climb'.",
+      "vocabulary": ["keep an eye out for", "trellis"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "waitlist", "vi": "danh sách chờ", "definition": "a list of people waiting for something to become available", "example": "The ground plots have a two-year waitlist." },
+    { "term": "raised bed", "vi": "luống trồng nâng cao", "definition": "a garden bed built above the ground inside a frame", "example": "A raised bed is easier on your back." },
+    { "term": "drip irrigation", "vi": "tưới nhỏ giọt", "definition": "a system that slowly waters plants through small tubes", "example": "Drip irrigation keeps the soil moist while you're away." },
+    { "term": "take care of itself", "vi": "tự lo được, không cần người làm", "definition": "to happen or be dealt with without anyone's help", "example": "With a timer, the watering takes care of itself." },
+    { "term": "trellis", "vi": "giàn cho cây leo", "definition": "a frame that climbing plants grow up", "example": "Pole beans need a trellis to climb." },
+    { "term": "keep an eye out for", "vi": "để ý tìm", "definition": "to watch or look for something", "example": "Keep an eye out for a cheap trellis at the garage sale." },
+    { "term": "appeal to", "vi": "hấp dẫn (ai)", "definition": "to be attractive or interesting to someone", "example": "The raised bed really appeals to me." },
+    { "term": "spare", "vi": "rảnh, dư", "definition": "not being used or needed for anything else", "example": "I don't have six spare hours this summer." }
+  ]
+}

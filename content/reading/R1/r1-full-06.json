@@ -1,0 +1,206 @@
+{
+  "id": "r1-full-06",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "recreation",
+  "title": "A hockey captain questions the late-night schedule",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 11 items independently; keys unchanged. Fixed Q9 distractor A ('trade two of their early games with you' was defensible, since two teams trading two each gives 8 - 4 = 4) to 'each trade one early game with you' (8 - 2 = 6). Renamed the real venue Brookswood Twin Rinks to fictional Brookswood Twin Rinks and removed a doubled 'still' in the reply." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a team captain",
+      "kind": "text",
+      "text": "Hi Lena,\n\nI hope the new season is treating you well. I'm writing on behalf of the Cloverdale Chill about the winter schedule that went up last week. I'll try to keep this constructive, though I'll be honest: a few of the guys are pretty fired up.\n\nEight of our twelve games are in the 10:45 p.m. Sunday slot at Brookswood Twin Rinks. I went through the whole schedule, and no other team in our division has more than four. I'm sure it wasn't intentional. I know putting together a schedule for sixteen teams is a thankless job, but it does feel like we drew the short straw. Most of our roster starts work at 6 or 7 on Monday mornings. We've got two paramedics, a baker and a couple of guys who drive for a moving company. Getting off the ice at midnight and home by 12:45 isn't sustainable for eight weeks.\n\nIt's already had consequences. Our backup goalie, Felix, told me he's going to sit out the session rather than show up exhausted to his shifts, and I'm worried about a couple of others. If we're short on numbers, we'll end up forfeiting games, and you know how hard it is to find a spare goalie at that hour.\n\nI'm not asking for special treatment. If the late slots were spread evenly, we'd take our share without complaint. Would it be possible to swap some of our games with teams that have mostly early slots? If the schedule is locked in, could the league at least consider a partial refund for players who decide to withdraw? Everyone paid $385, and that's a lot to lose for a season you can't realistically play.\n\nThanks for hearing me out. I'm happy to jump on a call if that's easier.\n\nRavi Menon\nCaptain, Cloverdale Chill",
+      "table": null
+    },
+    {
+      "label": "Reply from the league",
+      "kind": "text",
+      "text": "Hi Ravi,\n\nThanks for raising this so calmly. I've had a few emails this week that were [[7]]. You're absolutely right about the numbers. When I rechecked the schedule, I found that a formula error had [[8]], which is why your team ended up with so many late games.\n\nI can't redo the whole schedule because the rink bookings are final, but I've talked to the captains of the Aldergrove Owls and the Walnut Grove Rush, and they've agreed to [[9]]. That brings you down to four late games, the same as the busiest teams in your division.\n\nSince the problem has been fixed, the league won't be offering a special refund. However, if Felix [[10]], he can get his money back under our usual policy, as long as he applies before the first game on January 11.\n\nAlso, our spare goalie list is now online, so you won't [[11]] at the last minute.\n\nCheers,\nLena Kowalczyk\nScheduling Coordinator, Fraser Valley Rec Hockey",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is Ravi mainly asking for?",
+      "options": [
+        { "text": "A refund for every player on his team", "trap": "partially_true", "whyVi": "Anh chỉ hỏi hoàn tiền một phần cho người rút lui, và chỉ khi lịch không thể đổi — đây là phương án dự phòng." },
+        { "text": "A fairer share of the late-night games", "trap": "none", "whyVi": "Đúng: 'If the late slots were spread evenly, we'd take our share' — anh muốn chia đều các trận khuya." },
+        { "text": "Only early games for the rest of the season", "trap": "opposite", "whyVi": "Ravi nói 'I'm not asking for special treatment' và chấp nhận phần trận khuya của mình." },
+        { "text": "Help finding a new backup goalie", "trap": "not_mentioned", "whyVi": "Anh có nói khó tìm thủ môn dự bị, nhưng không nhờ Lena tìm người." }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "If the late slots were spread evenly, we'd take our share without complaint.",
+      "explanationVi": "Yêu cầu chính nằm ở đoạn 4: đổi trận để các suất khuya được chia đều. 'spread evenly... take our share' = 'a fairer share'. Hoàn tiền chỉ là phương án 'at least' nếu lịch đã chốt.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "What does Ravi mean when he says his team \"drew the short straw\"?",
+      "options": [
+        { "text": "They were given a smaller rink than other teams.", "trap": "not_mentioned", "whyVi": "Không có thông tin về kích thước sân." },
+        { "text": "They chose the late slot themselves.", "trap": "opposite", "whyVi": "Đội không tự chọn; lịch do ban tổ chức xếp." },
+        { "text": "Their games are shorter than other teams' games.", "trap": "word_match", "whyVi": "Đánh lừa bằng chữ 'short', nhưng thành ngữ không nói về độ dài trận đấu." },
+        { "text": "They ended up with the worst deal, apparently by chance.", "trap": "none", "whyVi": "Đúng: 'draw the short straw' = không may bị phần thiệt nhất; 'I'm sure it wasn't intentional' cho thấy là do tình cờ." }
+      ],
+      "answerIndex": 3,
+      "category": "vocabulary",
+      "evidence": "it does feel like we drew the short straw",
+      "explanationVi": "Thành ngữ 'draw the short straw' (rút phải que ngắn) = gặp phần xui/thiệt nhất. Ngữ cảnh: 8 trận khuya so với tối đa 4 của đội khác, và Ravi tin đó không phải cố ý → do tình cờ.",
+      "vocabulary": ["draw the short straw"]
+    },
+    {
+      "number": 3,
+      "prompt": "Why does Ravi list some of his teammates' jobs?",
+      "options": [
+        { "text": "To show how hard late games are on people who start work early", "trap": "none", "whyVi": "Đúng: các nghề này bắt đầu từ 6–7 giờ sáng thứ Hai, nên về nhà lúc 12:45 đêm là không chịu nổi." },
+        { "text": "To explain why his team cannot afford the registration fee", "trap": "not_mentioned", "whyVi": "Anh không nói đội không đủ tiền đóng phí." },
+        { "text": "To suggest the league should move games to weekday mornings", "trap": "not_mentioned", "whyVi": "Không có đề xuất đổi sang buổi sáng ngày thường." },
+        { "text": "To prove that his players are more important than other teams'", "trap": "opposite", "whyVi": "Anh nhấn mạnh 'I'm not asking for special treatment'." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Most of our roster starts work at 6 or 7 on Monday mornings.",
+      "explanationVi": "Danh sách nghề nghiệp nằm giữa câu 'starts work at 6 or 7 on Monday mornings' và 'isn't sustainable for eight weeks' → mục đích là minh họa vì sao trận 10:45 tối Chủ nhật gây khó khăn. Đây là câu hỏi về mục đích của người viết.",
+      "vocabulary": ["roster", "sustainable"]
+    },
+    {
+      "number": 4,
+      "prompt": "How does Ravi seem to view the person who made the schedule?",
+      "options": [
+        { "text": "He shares his teammates' anger at her.", "trap": "wrong_speaker", "whyVi": "Những người 'fired up' (bực tức) là các đồng đội; Ravi cố giữ thái độ xây dựng." },
+        { "text": "He suspects she favoured certain teams.", "trap": "opposite", "whyVi": "Ravi nói 'I'm sure it wasn't intentional' — không nghi ngờ thiên vị." },
+        { "text": "He believes she made an honest mistake in a difficult job.", "trap": "none", "whyVi": "Đúng: 'wasn't intentional' + 'a thankless job' — anh tin đây là sai sót không cố ý của một công việc vất vả." },
+        { "text": "He thinks she should be replaced as coordinator.", "trap": "not_mentioned", "whyVi": "Bài không có ý nào như vậy." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "I'm sure it wasn't intentional. I know putting together a schedule for sixteen teams is a thankless job",
+      "explanationVi": "Câu hỏi về thái độ. 'wasn't intentional' (không cố ý) = 'an honest mistake'; 'a thankless job' (việc vất vả mà chẳng ai cảm ơn) = 'a difficult job'. Bẫy wrong_speaker: người tức giận là đồng đội, không phải Ravi.",
+      "vocabulary": ["thankless", "fired up"]
+    },
+    {
+      "number": 5,
+      "prompt": "What does Ravi imply could happen if more players leave the team?",
+      "options": [
+        { "text": "The league might move them to another division.", "trap": "not_mentioned", "whyVi": "Không nhắc đến chuyện đổi bảng đấu." },
+        { "text": "They might lose games without playing them.", "trap": "none", "whyVi": "Đúng: 'forfeiting games' = bị xử thua vì không đủ người ra sân." },
+        { "text": "Felix might have to play every game in goal.", "trap": "wrong_detail", "whyVi": "Felix chính là người sẽ nghỉ mùa này." },
+        { "text": "The remaining players would have to pay more.", "trap": "not_mentioned", "whyVi": "Không có thông tin về việc đóng thêm tiền." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "If we're short on numbers, we'll end up forfeiting games",
+      "explanationVi": "'short on numbers' = thiếu người; 'forfeit a game' = bỏ trận/bị xử thua mà không thi đấu. Đáp án B diễn đạt lại 'forfeiting' thành 'lose games without playing them'.",
+      "vocabulary": ["forfeit"]
+    },
+    {
+      "number": 6,
+      "prompt": "What has Felix decided to do?",
+      "options": [
+        { "text": "Show up to his shifts after late games", "trap": "word_match", "whyVi": "Dùng lại 'show up... to his shifts', nhưng Felix chọn nghỉ chơi chính là để KHÔNG phải đi làm trong tình trạng kiệt sức sau trận khuya." },
+        { "text": "Play only the early games", "trap": "not_mentioned", "whyVi": "Không có chi tiết này." },
+        { "text": "Join a different team", "trap": "not_mentioned", "whyVi": "Bài không nói Felix chuyển đội." },
+        { "text": "Skip the winter session", "trap": "none", "whyVi": "Đúng: 'he's going to sit out the session' = không tham gia mùa giải này." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "he's going to sit out the session rather than show up exhausted to his shifts",
+      "explanationVi": "Cụm động từ 'sit out' = không tham gia (một hoạt động). 'sit out the session' = 'skip the winter session'.",
+      "vocabulary": ["sit out"]
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "a lot less polite", "trap": "none", "whyVi": "Đúng: Lena cảm ơn Ravi vì bình tĩnh, ngụ ý các email khác thì không lịch sự bằng." },
+        { "text": "full of thanks for the new schedule", "trap": "opposite", "whyVi": "Lịch đang có lỗi, và câu khen Ravi 'calmly' cho thấy các email khác thì gay gắt." },
+        { "text": "about the price of ice time", "trap": "not_mentioned", "whyVi": "Không ai nói đến giá thuê sân." },
+        { "text": "signed by your backup goalie", "trap": "word_match", "whyVi": "Felix được nhắc trong thư Ravi, nhưng không có chi tiết anh ấy gửi email." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "I'll try to keep this constructive, though I'll be honest: a few of the guys are pretty fired up.",
+      "explanationVi": "'Thanks for raising this so calmly' rồi mới nói về 'a few emails' khác → sự đối lập: các email khác không bình tĩnh/lịch sự bằng. Ravi cũng đã nói các đồng đội đang 'fired up'.",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "put sixteen teams into one division", "trap": "word_match", "whyVi": "Dùng lại 'sixteen teams', nhưng đó là tổng số đội của giải, không phải lỗi gây ra nhiều trận khuya." },
+        { "text": "cancelled four of your games", "trap": "not_mentioned", "whyVi": "Không có trận nào bị hủy; vấn đề là giờ thi đấu." },
+        { "text": "kept giving your team the same late slot", "trap": "none", "whyVi": "Đúng: lỗi công thức khiến đội liên tục bị xếp suất 10:45 tối — 'which is why your team ended up with so many late games'." },
+        { "text": "doubled the registration fee", "trap": "not_mentioned", "whyVi": "Không ai nhắc đến việc tăng phí." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Eight of our twelve games are in the 10:45 p.m. Sunday slot at Brookswood Twin Rinks.",
+      "explanationVi": "Mệnh đề sau chỗ trống 'which is why your team ended up with so many late games' cho biết lỗi phải giải thích việc đội có quá nhiều trận khuya → công thức cứ lặp lại suất muộn cho đội này.",
+      "vocabulary": []
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "each trade one early game with you", "trap": "wrong_detail", "whyVi": "Mỗi đội đổi một trận thì tổng cộng chỉ đổi 2 trận: 8 − 2 = 6 trận khuya, không phải 4." },
+        { "text": "move their own games to Brookswood Twin Rinks", "trap": "word_match", "whyVi": "Dùng lại tên sân, nhưng việc đổi sân không làm giảm số trận khuya." },
+        { "text": "play your late games in your place", "trap": "partially_true", "whyVi": "Có ý nhận trận khuya giúp, nhưng đội khác không thể thi đấu thay đội Chill; họ chỉ có thể đổi suất giờ." },
+        { "text": "swap four of their earlier games for your late ones", "trap": "none", "whyVi": "Đúng: 8 trận khuya − 4 trận đổi = 4 trận, khớp với 'brings you down to four late games'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Would it be possible to swap some of our games with teams that have mostly early slots?",
+      "explanationVi": "Ghép hai thông tin: đội có 8 trận khuya (thư Ravi), sau khi đổi còn 4 ('brings you down to four'). Vậy hai đội kia đã đổi tổng cộng 4 trận sớm lấy 4 trận khuya — đúng đề xuất 'swap some of our games' của Ravi.",
+      "vocabulary": []
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "plays at least one game", "trap": "opposite", "whyVi": "Phải nộp đơn 'before the first game' — tức là trước khi chơi trận nào." },
+        { "text": "still decides to withdraw", "trap": "none", "whyVi": "Đúng: dù lịch đã sửa, nếu Felix vẫn quyết định rút lui thì được hoàn tiền theo chính sách thông thường." },
+        { "text": "finds another goalie to replace him", "trap": "not_mentioned", "whyVi": "Không có điều kiện như vậy trong thư." },
+        { "text": "changes his Monday shifts", "trap": "not_mentioned", "whyVi": "Chính sách hoàn tiền không liên quan đến ca làm." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "could the league at least consider a partial refund for players who decide to withdraw?",
+      "explanationVi": "'However' đối lập với 'won't be offering a special refund': không có hoàn tiền đặc biệt, NHƯNG nếu Felix vẫn rút lui thì vẫn được hoàn theo chính sách thường. 'still' quan trọng vì lịch đã sửa, có thể Felix sẽ đổi ý.",
+      "vocabulary": ["withdraw"]
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "need to pay a spare goalie yourselves", "trap": "not_mentioned", "whyVi": "Không có thông tin về việc trả tiền cho thủ môn dự bị." },
+        { "text": "have to play without a referee", "trap": "not_mentioned", "whyVi": "Không ai nhắc đến trọng tài; danh sách mới là danh sách thủ môn dự bị." },
+        { "text": "have to scramble to find a replacement", "trap": "none", "whyVi": "Đúng: có danh sách thủ môn dự bị online thì không phải cuống cuồng tìm người thay vào phút chót." },
+        { "text": "be able to call the rink after 10 p.m.", "trap": "not_mentioned", "whyVi": "Không liên quan đến danh sách thủ môn." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "you know how hard it is to find a spare goalie at that hour",
+      "explanationVi": "Danh sách 'spare goalie list' trả lời nỗi lo của Ravi 'how hard it is to find a spare goalie'. 'scramble to find' = vội vã, chật vật tìm; 'at the last minute' = vào phút chót.",
+      "vocabulary": ["scramble"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "draw the short straw", "vi": "không may nhận phần thiệt nhất", "definition": "to be the unlucky person or group chosen to get something unpleasant", "example": "Our team drew the short straw and got all the late games." },
+    { "term": "fired up", "vi": "bực tức, sôi máu (hoặc hào hứng)", "definition": "very angry or very excited about something", "example": "The players were fired up about the new schedule." },
+    { "term": "thankless", "vi": "vất vả mà không ai ghi nhận", "definition": "difficult or unpleasant, and not appreciated by others", "example": "Organizing the league schedule is a thankless job." },
+    { "term": "roster", "vi": "danh sách thành viên (đội)", "definition": "a list of the people on a team", "example": "Most of the roster works early shifts." },
+    { "term": "sustainable", "vi": "có thể duy trì lâu dài", "definition": "able to continue for a long time without causing problems", "example": "Working twelve-hour days isn't sustainable." },
+    { "term": "sit out", "vi": "không tham gia, nghỉ (một đợt)", "definition": "to not take part in an activity", "example": "I'm going to sit out this session because of my knee." },
+    { "term": "forfeit", "vi": "bỏ cuộc/bị xử thua", "definition": "to lose a game because you cannot or do not play", "example": "We had to forfeit the game because only six players came." },
+    { "term": "withdraw", "vi": "rút lui, rút tên", "definition": "to stop taking part in something", "example": "Players who withdraw before January 11 can get a refund." },
+    { "term": "scramble", "vi": "vội vã, cuống cuồng (để làm gì)", "definition": "to rush to do something difficult, usually at the last minute", "example": "We had to scramble to find a goalie on Sunday night." }
+  ]
+}

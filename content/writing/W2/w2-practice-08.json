@@ -1,0 +1,64 @@
+{
+  "id": "w2-practice-08",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "banking",
+  "title": "Credit union branch: part-time hours or mobile advisors",
+  "situation": "Fraser Ridge Credit Union says its small branch in the town of Cedar Falls is losing money because fewer members visit in person. To reduce costs, it is considering two plans and has mailed this survey to all local members.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Keep the branch open, but only three days a week (Tuesday, Thursday and Saturday), with full teller and advisor services on those days.",
+  "optionB": "Option B: Close the branch, install a 24-hour ATM inside the local grocery store, and have a financial advisor visit the community hall twice a month. Phone support hours would also be extended.",
+  "structure": [
+    "Opening: show you understand the credit union's situation, then state your choice",
+    "Reason 1: who depends on in-person service (seniors) + a consequence (fraud risk)",
+    "Reason 2: limits of the other option for specific needs (business deposits, urgent issues)",
+    "Concession: what the other option does better, then why your option is still enough",
+    "Conclusion: present your choice as a sensible compromise"
+  ],
+  "modelResponse": "While I understand that the credit union needs to reduce costs, I would choose to keep the branch open three days a week, because face-to-face service is still essential for many members in Cedar Falls.\n\nA large share of our town's population is retired, and many seniors are not comfortable managing their money online or over the phone. They rely on tellers to deposit cheques, ask questions about their accounts and, increasingly, check whether a suspicious call or email is a scam. Losing that personal contact could leave them vulnerable to fraud.\n\nFurthermore, local business owners need somewhere to deposit cash and coins regularly. An ATM inside a grocery store cannot handle large deposits, and an advisor who visits only twice a month would not be available when urgent issues come up, such as a frozen account or a mortgage renewal.\n\nAdmittedly, a 24-hour ATM would be more convenient for basic withdrawals. However, three full days of service, including Saturday, would still allow most working members to visit the branch when they need to.\n\nFor these reasons, I believe a part-time branch is the better compromise.",
+  "usefulExpressions": [
+    {
+      "expression": "While I understand that…, I would choose to…",
+      "usageVi": "Thể hiện bạn hiểu lý do của tổ chức trước khi đưa ra ý kiến — giọng điềm tĩnh, thuyết phục."
+    },
+    {
+      "expression": "face-to-face service",
+      "usageVi": "Dịch vụ trực tiếp — tính từ ghép thay cho 'in person service'."
+    },
+    {
+      "expression": "a large share of…",
+      "usageVi": "Một tỷ lệ lớn — cách nói trang trọng hơn 'a lot of'."
+    },
+    {
+      "expression": "leave them vulnerable to fraud",
+      "usageVi": "'leave + O + adj' = khiến ai rơi vào tình trạng… — cấu trúc nâng cao."
+    },
+    {
+      "expression": "when urgent issues come up",
+      "usageVi": "Phrasal verb 'come up' = phát sinh (vấn đề) — rất tự nhiên."
+    },
+    {
+      "expression": "the better compromise",
+      "usageVi": "Giải pháp dung hòa tốt hơn — phù hợp khi phương án bạn chọn cũng có hy sinh."
+    }
+  ],
+  "commonMistakes": [
+    "Viết 'check' theo kiểu Mỹ khi nói về séc. Trong tiếng Anh Canada viết 'cheque' (séc), 'check' là kiểm tra.",
+    "Viết 'old people' nghe thiếu lịch sự → dùng 'seniors' hoặc 'older members'.",
+    "Lập luận chỉ dựa vào bản thân ('I like talking to tellers'). Hãy nói về các nhóm thành viên khác nhau trong cộng đồng.",
+    "Nhầm 'advice' (danh từ) và 'advise' (động từ): 'an advisor can advice you' → 'an advisor can advise you'."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked balance (part-time branch vs ATM + visiting advisor + longer phone hours), model addresses seniors/fraud, business deposits and the other option's 24-hour ATM, 'cheque' spelling note is correct for Canada, word count 186. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

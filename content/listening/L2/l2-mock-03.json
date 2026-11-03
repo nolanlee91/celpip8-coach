@@ -1,0 +1,120 @@
+{
+  "id": "l2-mock-03",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "social",
+  "title": "Looking after a neighbour's dog for the long weekend",
+  "context": "You will hear two neighbours in a townhouse complex in Nanaimo talking about caring for a dog.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Tomasz", "voice": "male_b", "text": "Hey, Priya, got a minute? It's Tomasz, from number twelve. I have a huge favour to ask, and feel free to say no." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Hi, Tomasz. Sure, what's up?" },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "We're driving to Tofino on Friday for the long weekend, and the kennel we always use just called. They double-booked, so they can't take Biscuit after all. Is there any chance you could look in on him while we're away?" },
+        { "speaker": "Priya", "voice": "female_a", "text": "I'd be glad to. My kids are always begging to walk him anyway. What would I need to do?" },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "Not much, honestly. One scoop of food in the morning and one at night, and a walk around the block twice a day. The only tricky part is his pills. They're for his joints, and he'll spit them out unless you hide them in a bit of cheese." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Sounds like my youngest with vitamins. Where will the key be?" },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "In a lockbox by the back door. I'll text you the code tonight. And please keep him on the leash near the creek. Last summer he chased a duck into the water, and it took me an hour to get him out." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Noted. No creek adventures. What if he gets sick?" },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "The vet's number is on the fridge, and I've told them you can make decisions for him. I'd cover any bills, of course. And I want to pay you for your time, too." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Absolutely not. You shovelled our whole driveway in January when I had the flu. Bring me back some smoked salmon from Tofino and we're even." },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "Deal. You're a lifesaver. I was starting to think we'd have to cancel the whole trip." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Well, now you don't. Actually, why don't you bring Biscuit over tomorrow evening for half an hour, so he can get used to us before you leave?" },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "Good idea. We'll come by after dinner." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why does Tomasz need Priya's help?",
+          "options": [
+            { "text": "His dog is too sick to travel to Tofino.", "trap": "word_match", "whyVi": "Có nhắc 'pills' và 'sick', nhưng chó uống thuốc khớp; không ai nói nó ốm không đi được." },
+            { "text": "The kennel is closed for the long weekend.", "trap": "partially_true", "whyVi": "Đúng là trại không nhận chó, nhưng lý do là nhận trùng chỗ, không phải đóng cửa." },
+            { "text": "The place that usually boards his dog has no room for it.", "trap": "none", "whyVi": "Đúng: trại chó quen nhận trùng lịch ('double-booked') nên không còn chỗ cho Biscuit." },
+            { "text": "Priya's children asked to take care of his dog.", "trap": "wrong_speaker", "whyVi": "Các con Priya thích dắt chó, nhưng đó không phải lý do Tomasz nhờ giúp." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "They double-booked, so they can't take Biscuit after all.",
+          "explanationVi": "'Double-booked' = nhận trùng lịch, nên 'can't take Biscuit'. Đáp án C diễn đạt lại: nơi thường gửi chó 'has no room for it'.",
+          "vocabulary": ["double-booked", "look in on"]
+        },
+        {
+          "number": 2,
+          "prompt": "What does Tomasz say about Biscuit's medication?",
+          "options": [
+            { "text": "It has to be disguised in food or the dog will refuse it.", "trap": "none", "whyVi": "Đúng: phải giấu thuốc trong miếng phô mai, nếu không chó sẽ nhổ ra." },
+            { "text": "It should be given with each scoop of food.", "trap": "wrong_detail", "whyVi": "Một muỗng thức ăn sáng và tối là chuyện cho ăn; Tomasz không nói thuốc uống theo mỗi bữa." },
+            { "text": "It is a vitamin for his joints.", "trap": "word_match", "whyVi": "'Vitamins' là chuyện con út của Priya; thuốc của chó là 'pills' cho khớp." },
+            { "text": "The vet will deliver it on Friday.", "trap": "not_mentioned", "whyVi": "Không ai nói bác sĩ thú y mang thuốc tới." }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "he'll spit them out unless you hide them in a bit of cheese",
+          "explanationVi": "'Hide them in a bit of cheese' ↔ 'disguised in food'; 'spit them out' ↔ 'refuse it'. Đáp án A.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "Why does Tomasz mention what happened last summer?",
+          "options": [
+            { "text": "To explain why Biscuit is afraid of water.", "trap": "opposite", "whyVi": "Chó tự lao xuống nước đuổi vịt, tức là không sợ nước." },
+            { "text": "To suggest that Priya walk him near the creek.", "trap": "opposite", "whyVi": "Tomasz muốn tránh rủi ro ở gần con lạch, không khuyến khích đi đó." },
+            { "text": "To show that the dog needs two walks a day.", "trap": "word_match", "whyVi": "Hai lần đi dạo mỗi ngày là thông tin riêng, không liên quan chuyện hè năm ngoái." },
+            { "text": "To explain why the dog must not be allowed to run free there.", "trap": "none", "whyVi": "Đúng: Biscuit từng đuổi vịt xuống nước, nên phải giữ dây xích gần con lạch." }
+          ],
+          "answerIndex": 3,
+          "category": "long_conversation",
+          "evidence": "And please keep him on the leash near the creek. Last summer he chased a duck into the water, and it took me an hour to get him out.",
+          "explanationVi": "Câu chuyện hè năm ngoái là lý do cho lời dặn 'keep him on the leash near the creek'. 'Must not be allowed to run free' = phải giữ dây xích. Đáp án D.",
+          "vocabulary": ["on the leash"]
+        },
+        {
+          "number": 4,
+          "prompt": "How does Priya respond to Tomasz's offer to pay her?",
+          "options": [
+            { "text": "She accepts but asks for less money.", "trap": "opposite", "whyVi": "Cô từ chối thẳng: 'Absolutely not'." },
+            { "text": "She firmly refuses because she wants to repay an earlier kindness.", "trap": "none", "whyVi": "Đúng: Tomasz từng xúc tuyết cả lối xe cho nhà cô khi cô bị cúm." },
+            { "text": "She is offended that he would offer money.", "trap": "not_mentioned", "whyVi": "Cô từ chối dứt khoát nhưng không có lời nào cho thấy bị xúc phạm; cô còn đùa xin cá hồi." },
+            { "text": "She says she will decide after the weekend.", "trap": "not_mentioned", "whyVi": "Cô không hoãn quyết định." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "Absolutely not. You shovelled our whole driveway in January when I had the flu.",
+          "explanationVi": "'Absolutely not' = từ chối dứt khoát. Câu tiếp theo nêu lý do: anh từng giúp cô hồi tháng Một. 'We're even' cho thấy cô coi đây là trả ơn. Đáp án B.",
+          "vocabulary": ["we're even"]
+        },
+        {
+          "number": 5,
+          "prompt": "What will Tomasz most likely do tomorrow evening?",
+          "options": [
+            { "text": "Text Priya the code for the lockbox.", "trap": "wrong_detail", "whyVi": "Anh nhắn mã khóa vào tối nay ('tonight'), không phải tối mai." },
+            { "text": "Drive to Tofino with his family.", "trap": "wrong_detail", "whyVi": "Gia đình anh đi vào thứ Sáu." },
+            { "text": "Take his dog to Priya's place for a short visit.", "trap": "none", "whyVi": "Đúng: Priya đề nghị đưa Biscuit sang nửa tiếng để quen nhà, Tomasz đồng ý sang sau bữa tối." },
+            { "text": "Buy smoked salmon for Priya.", "trap": "word_match", "whyVi": "Cá hồi hun khói anh sẽ mua ở Tofino khi về, không phải tối mai." }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "why don't you bring Biscuit over tomorrow evening for half an hour, so he can get used to us before you leave?",
+          "explanationVi": "Priya đề nghị 'bring Biscuit over tomorrow evening for half an hour', Tomasz trả lời 'We'll come by after dinner'. 'For half an hour' ↔ 'a short visit'. Đáp án C.",
+          "vocabulary": ["get used to"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "double-booked", "vi": "nhận trùng lịch, đặt trùng chỗ", "definition": "having accepted two bookings for the same time or space", "example": "The kennel double-booked, so they can't take our dog." },
+    { "term": "look in on", "vi": "ghé qua trông chừng", "definition": "to visit someone or something briefly to check that everything is fine", "example": "Could you look in on him while we're away?" },
+    { "term": "lockbox", "vi": "hộp khóa (đựng chìa khóa, mở bằng mã số)", "definition": "a small locked box, opened with a code, that holds a key", "example": "The key is in a lockbox by the back door." },
+    { "term": "on the leash", "vi": "đeo dây xích (chó)", "definition": "held by a strap or rope attached to the dog's collar", "example": "Please keep him on the leash near the creek." },
+    { "term": "we're even", "vi": "huề nhau, không ai nợ ai", "definition": "used to say that nobody owes the other person anything any more", "example": "Bring me back some smoked salmon and we're even." },
+    { "term": "lifesaver", "vi": "vị cứu tinh", "definition": "a person who helps you out of a difficult situation", "example": "Thanks so much, you're a lifesaver." },
+    { "term": "get used to", "vi": "làm quen với", "definition": "to become familiar with someone or something", "example": "Bring him over so he can get used to us." }
+  ],
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; keys match (C, A, D, B, C) and each has one defensible answer. Both speaker names are spoken in the dialogue; Q4 attitude ('Absolutely not' + the driveway favour + 'we're even') is recoverable from the words alone. Only fix: Q4 option C trap relabelled too_broad -> not_mentioned. Scenario (dog-sitting for a neighbour) does not duplicate any existing title." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

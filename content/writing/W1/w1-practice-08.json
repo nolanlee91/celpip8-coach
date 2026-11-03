@@ -1,0 +1,65 @@
+{
+  "id": "w1-practice-08",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "An abnormal test result nobody followed up",
+  "situation": "Six weeks ago your family doctor at a medical clinic in Kamloops sent you for blood tests and said the clinic would call you if anything needed attention. You heard nothing. Last week, when you checked your results online yourself, one result was marked \"abnormal\". When you phoned the clinic, the receptionist could not explain why nobody had contacted you. You decide to email the clinic manager.",
+  "instructions": [
+    "Explain what happened.",
+    "Describe how this situation made you feel.",
+    "Suggest changes the clinic could make so this does not happen to other patients."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting + purpose: raise a concern about how results were handled",
+    "Instruction 1: a clear timeline — the test, the promise, what you discovered, the phone call",
+    "Instruction 2: your feelings, linked to a concrete detail (symptoms you ignored, worry)",
+    "Instruction 3: acknowledge the staff are busy, then 2 specific system changes (First / Second)",
+    "One extra polite request (appointment) + formal sign-off"
+  ],
+  "modelResponse": "Dear Clinic Manager,\n\nI am writing to raise a concern about how my recent test results were handled. On September 22, Dr. Harris sent me for blood tests and assured me that the clinic would contact me if anything needed attention. As I heard nothing, I assumed everything was fine. Last week, however, I logged in to the online health portal and discovered that my iron level had been flagged as abnormal weeks earlier. When I phoned the clinic, the receptionist apologized but could not explain why nobody had followed up.\n\nTo be honest, I was quite shaken. I had been feeling unusually tired for weeks and had put it down to stress at work. Learning that the result had been sitting in my file all along was frustrating, and it has left me wondering what else might slip through the cracks.\n\nI realize your staff are extremely busy, but I would suggest two changes. First, each abnormal result could be assigned to a specific staff member who confirms that the patient has been contacted. Second, patients could receive a text message whenever new results arrive.\n\nI would also appreciate an appointment with Dr. Harris soon.\n\nSincerely,\nAhmed Rahimi",
+  "usefulExpressions": [
+    {
+      "expression": "I am writing to raise a concern about…",
+      "usageVi": "Mở đầu phàn nàn nhẹ nhàng, phù hợp với cơ sở y tế – nghiêm túc nhưng không gay gắt."
+    },
+    {
+      "expression": "assured me that…",
+      "usageVi": "'assure' = cam đoan; làm nổi bật lời hứa chưa được thực hiện."
+    },
+    {
+      "expression": "had put it down to stress at work",
+      "usageVi": "Cụm 'put something down to' = cho rằng nguyên nhân là… (phrasal verb mức 8–9)."
+    },
+    {
+      "expression": "To be honest, I was quite shaken.",
+      "usageVi": "Diễn tả cảm xúc (ý 2) chân thật; 'shaken' = bàng hoàng, lo lắng."
+    },
+    {
+      "expression": "slip through the cracks",
+      "usageVi": "Thành ngữ: bị bỏ sót do hệ thống có lỗ hổng."
+    },
+    {
+      "expression": "I realize your staff are extremely busy, but I would suggest…",
+      "usageVi": "Thể hiện thông cảm trước khi góp ý, giữ giọng tôn trọng."
+    }
+  ],
+  "commonMistakes": [
+    "Trình bày sự việc lộn xộn, không theo thời gian. Ý 1 nên đi theo trình tự: xét nghiệm → lời hứa → phát hiện → gọi điện.",
+    "Ý 2 chỉ viết 'I was angry'. Nên dùng từ vựng cảm xúc đa dạng hơn (shaken, frustrating, worried) và nối với chi tiết cụ thể.",
+    "Đổ lỗi cá nhân cho bác sĩ hay lễ tân. Thư mức cao tập trung vào việc cải thiện quy trình, không công kích người.",
+    "Sai thì quá khứ hoàn thành: 'my result was flagged a month before I check' → 'had been flagged a month before I checked'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets (timeline, feelings, system changes), 199 words, expressions. Fixed: removed the implied medical claim that the abnormal iron result was definitely the cause of the tiredness (\"the answer\" -> \"the result\")."
+  },
+  "createdAt": "2026-11-03"
+}

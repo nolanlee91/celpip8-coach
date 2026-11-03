@@ -1,0 +1,120 @@
+{
+  "id": "l2-mock-05",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "A bear in the garbage cart",
+  "context": "You will hear two neighbours talking in the lane behind their houses in Squamish.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Olivia", "voice": "female_b", "text": "Morning, Hamid. Oh, wow. Did something get into your cart last night?" },
+        { "speaker": "Hamid", "voice": "male_b", "text": "Yeah, take a guess. There's garbage all the way down to the Petersons' fence. And a bylaw officer left this note on my door. Apparently I'm on a warning." },
+        { "speaker": "Olivia", "voice": "female_b", "text": "A bear, then. They've been all over the neighbourhood this month. Did you put your cart out the night before?" },
+        { "speaker": "Hamid", "voice": "male_b", "text": "I did. I start work at six, so it's the only way I can make sure it's out for pickup. I've been doing it for years, and nothing ever happened." },
+        { "speaker": "Olivia", "voice": "female_b", "text": "I know, it's a pain. But the rules changed in the spring. Carts can only go out after five in the morning on collection day now. The second time, it's a fine, and I think it's a few hundred dollars." },
+        { "speaker": "Hamid", "voice": "male_b", "text": "A few hundred? You're kidding me. For leaving a bin out?" },
+        { "speaker": "Olivia", "voice": "female_b", "text": "Well, it's not really about the bin. Once a bear figures out there's food on a street, it keeps coming back, and if it gets too comfortable around people, the conservation officers end up having to put it down. That's what happened to the one near the school last fall." },
+        { "speaker": "Hamid", "voice": "male_b", "text": "Huh. I didn't know that. That's grim." },
+        { "speaker": "Olivia", "voice": "female_b", "text": "Here's what I do. I keep my food scraps in a container in the freezer until the morning of pickup, so the cart doesn't smell. And you can apply for a bear-resistant cart from the district. There's a waitlist, but it's worth getting on." },
+        { "speaker": "Hamid", "voice": "male_b", "text": "Food scraps in the freezer, huh. My wife's going to love that. She already says there's no room in there for anything. Okay, but the timing's still a problem for me." },
+        { "speaker": "Olivia", "voice": "female_b", "text": "Tell you what. I'm up early anyway to walk the dog. Leave it by your garage, and I'll roll it out when I go past." },
+        { "speaker": "Hamid", "voice": "male_b", "text": "Really, Olivia? You'd do that? Okay, I owe you one. I'll get on that waitlist today." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why did Hamid put his cart out the night before?",
+          "options": [
+            { "text": "He was not sure which day the pickup was.", "trap": "not_mentioned", "whyVi": "Anh không nói nhầm ngày thu gom." },
+            { "text": "His working hours make it hard to do it in the morning.", "trap": "none", "whyVi": "Đúng: anh bắt đầu làm lúc 6 giờ sáng." },
+            { "text": "The rules allow carts out the evening before.", "trap": "opposite", "whyVi": "Quy định mới chỉ cho đưa thùng ra sau 5 giờ sáng ngày thu gom." },
+            { "text": "A bylaw officer told him it was fine.", "trap": "wrong_detail", "whyVi": "Nhân viên bylaw để lại giấy cảnh cáo, không cho phép." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "I start work at six, so it's the only way I can make sure it's out for pickup.",
+          "explanationVi": "'I start work at six' = giờ làm sớm, buổi sáng không kịp. Đáp án B diễn đạt lại thành 'working hours make it hard'.",
+          "vocabulary": ["pickup"]
+        },
+        {
+          "number": 2,
+          "prompt": "How does Hamid react when he hears about the fine?",
+          "options": [
+            { "text": "He is relieved that he only got a warning.", "trap": "partially_true", "whyVi": "Anh đúng là chỉ bị cảnh cáo, nhưng phản ứng của anh là sốc, không phải nhẹ nhõm." },
+            { "text": "He says he has already paid one.", "trap": "not_mentioned", "whyVi": "Anh chưa bị phạt lần nào." },
+            { "text": "He thinks it is far too harsh for the offence.", "trap": "none", "whyVi": "Đúng: 'You're kidding me. For leaving a bin out?' = anh thấy mức phạt quá nặng." },
+            { "text": "He agrees that the fine is fair.", "trap": "opposite", "whyVi": "Anh phản đối, không đồng ý." }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "A few hundred? You're kidding me. For leaving a bin out?",
+          "explanationVi": "Câu hỏi lặp lại 'A few hundred?' và 'For leaving a bin out?' thể hiện sự bất bình: phạt quá nặng cho lỗi nhỏ. Đáp án C.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "According to Olivia, what is the real reason for the strict rule?",
+          "options": [
+            { "text": "Bears that get used to garbage may end up being killed.", "trap": "none", "whyVi": "Đúng: 'put it down' = giết (động vật). Gấu quen với rác có thể bị tiêu hủy." },
+            { "text": "Spilled garbage makes the street look messy.", "trap": "too_broad", "whyVi": "Rác vương vãi là hậu quả, nhưng Olivia nói 'it's not really about the bin'." },
+            { "text": "A bear attacked someone near the school last fall.", "trap": "word_match", "whyVi": "Con gấu gần trường bị tiêu hủy, không ai nói nó tấn công người." },
+            { "text": "Garbage collectors were injured by bears.", "trap": "not_mentioned", "whyVi": "Không nhắc đến nhân viên thu gom bị thương." }
+          ],
+          "answerIndex": 0,
+          "category": "vocabulary",
+          "evidence": "if it gets too comfortable around people, the conservation officers end up having to put it down",
+          "explanationVi": "'Put an animal down' = giết động vật (thường vì lý do an toàn). Đáp án A diễn đạt lại thành 'end up being killed'.",
+          "vocabulary": ["put down", "conservation officer"]
+        },
+        {
+          "number": 4,
+          "prompt": "What does Hamid mean when he talks about his wife?",
+          "options": [
+            { "text": "His wife already keeps food scraps in the freezer.", "trap": "not_mentioned", "whyVi": "Không có thông tin này." },
+            { "text": "His wife will be pleased with Olivia's idea.", "trap": "opposite", "whyVi": "Đây là câu mỉa mai; nghĩa thật là ngược lại." },
+            { "text": "His wife is the one who takes out the garbage.", "trap": "not_mentioned", "whyVi": "Không ai nói vợ anh đổ rác." },
+            { "text": "He expects his wife to dislike the idea.", "trap": "none", "whyVi": "Đúng: 'My wife's going to love that' là nói mỉa; câu sau 'there's no room in there for anything' cho thấy vợ anh sẽ không thích để rác trong tủ đông vốn đã chật." }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "My wife's going to love that. She already says there's no room in there for anything.",
+          "explanationVi": "'Going to love that' sau một ý kiến khó chịu là cách nói mỉa (sarcasm). Câu tiếp theo xác nhận: vợ anh vốn đã than tủ đông hết chỗ, nên cô ấy sẽ KHÔNG thích. Đáp án D.",
+          "vocabulary": ["food scraps"]
+        },
+        {
+          "number": 5,
+          "prompt": "What does Olivia offer to do for Hamid?",
+          "options": [
+            { "text": "Apply for a bear-resistant cart on his behalf.", "trap": "wrong_speaker", "whyVi": "Chính Hamid nói sẽ tự đăng ký vào danh sách chờ." },
+            { "text": "Put his cart out for collection on pickup mornings.", "trap": "none", "whyVi": "Đúng: cô dậy sớm dắt chó nên sẽ đẩy thùng ra giúp." },
+            { "text": "Lend him a container for his food scraps.", "trap": "not_mentioned", "whyVi": "Cô chỉ kể cách mình làm, không đề nghị cho mượn hộp." },
+            { "text": "Walk his dog early in the morning.", "trap": "word_match", "whyVi": "Có nhắc 'walk the dog' nhưng đó là chó của Olivia." }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "Leave it by your garage, and I'll roll it out when I go past.",
+          "explanationVi": "'Roll it out when I go past' = đẩy thùng ra khi đi ngang qua. Đáp án B diễn đạt lại.",
+          "vocabulary": ["owe someone one"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "pickup", "vi": "việc thu gom (rác)", "definition": "the collection of garbage or recycling", "example": "I make sure my cart is out for pickup." },
+    { "term": "on a warning", "vi": "bị cảnh cáo", "definition": "officially told that you will be punished if you do something again", "example": "A bylaw officer says I'm on a warning." },
+    { "term": "a pain", "vi": "phiền phức", "definition": "something annoying or inconvenient", "example": "I know the new rule is a pain." },
+    { "term": "put down", "vi": "giết (động vật) một cách nhân đạo", "definition": "to kill an animal, usually because it is dangerous, sick or old", "example": "Officers sometimes have to put a bear down." },
+    { "term": "conservation officer", "vi": "nhân viên bảo tồn (kiểm lâm)", "definition": "a government officer who deals with wildlife and nature laws", "example": "The conservation officers came to deal with the bear." },
+    { "term": "food scraps", "vi": "thức ăn thừa", "definition": "small pieces of leftover or unused food", "example": "I keep my food scraps in the freezer." },
+    { "term": "bear-resistant", "vi": "chống gấu", "definition": "designed so that bears cannot open it", "example": "You can apply for a bear-resistant cart." },
+    { "term": "owe someone one", "vi": "nợ ai một lần (cảm ơn)", "definition": "to say you will repay someone's favour later", "example": "Thanks for the help. I owe you one." }
+  ],
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. Changed: the Q4 sarcasm ('My wife's going to love that') depended on intonation, so Hamid adds that his wife already says the freezer has no room; evidence and Vietnamese updated. Added Olivia's name to the audio. Bear/bylaw details are hedged by the speaker ('I think')." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

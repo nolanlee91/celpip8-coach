@@ -1,0 +1,206 @@
+{
+  "id": "r1-full-09",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "customer-service",
+  "title": "A loyal phone customer moved to a pricier plan",
+  "estimatedMinutes": 12,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 11 items independently; keys unchanged; checked $7 x 8 months (March-October) = $56 and $48 < $55. The original opening (long-time customer, two-year promo rate ended in September, no warning) nearly duplicated r1-drill-04, so the trigger was changed to the old plan being retired, with Q1 option B, Q6 evidence/whyVi, Q8 option A and the 'promotional rate' vocabulary entry updated to match. Difficulty lowered from 9 to 8 (most answers are fairly explicit)." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a mobile customer",
+      "kind": "text",
+      "text": "To whom it may concern,\n\nI've been with Northstream for nine years, so I don't write letters like this lightly. I'm writing because the past month has tested my loyalty more than I'd like.\n\nIn September, you retired the Everyday 15 plan I'd been on for years at $55 a month. I understand that plans get discontinued, and I fully expected to pay a little more for whatever replaced it. What I didn't expect was to be moved, without so much as an email, onto your \"Unlimited Plus\" plan at $85, which comes with a hotspot allowance I've never touched and international roaming I have no plans to need. When I raised this through your online chat on October 3, the agent, Marco, was sympathetic and told me I was \"definitely eligible\" for a loyalty rate. He said someone from the retention team would call me within 48 hours. I'm still waiting, and I've kept a copy of the chat transcript.\n\nWhile going through my old bills to prepare for that call, I also noticed a $7 monthly charge labelled \"Device Protect.\" I've never signed up for it, and as far as I can tell it's been on my account since March. I'd like those charges refunded in full.\n\nTo be clear, I'm not asking to keep my old plan. I'd simply like what Marco offered: a plan that suits how I actually use my phone, at a price that reflects nine years of paying on time. I'd prefer to stay. I'd rather not spend an afternoon comparing other providers' offers and transferring my number, but if I haven't heard from someone with the authority to resolve this by October 31, I'll take that as my answer.\n\nI look forward to hearing from you.\n\nFarida Haidari\nAccount #NS-5530-1187",
+      "table": null
+    },
+    {
+      "label": "Reply from the company",
+      "kind": "text",
+      "text": "Dear Ms. Haidari,\n\nThank you for your patience, and for nine years with Northstream. I'm sorry that the call you were promised [[7]]. That's not the experience we want any customer to have, let alone one who has been with us as long as you have.\n\nI've reviewed your account and the chat transcript. You're right that you should have been notified before your plan changed, and the \"Device Protect\" add-on [[8]]. I've removed it and credited $56 to your account for the eight months you were charged.\n\nAs for your plan, I'd like to offer you our Essentials 20 plan, which includes the data you actually use and [[9]], at a loyalty rate of $48 a month for the next 24 months. That is less than you were paying on your old plan, and [[10]], so there won't be any surprises this time.\n\nIf this works for you, simply reply to this email and I'll [[11]] from your next billing cycle.\n\nWarm regards,\nNadia Kovacs\nCustomer Relations, Northstream Mobile",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the main purpose of Farida's email?",
+      "options": [
+        { "text": "To cancel her account and move to another provider", "trap": "opposite", "whyVi": "Cô nói 'I'd prefer to stay' — chỉ chuyển mạng nếu không ai giải quyết trước 31/10." },
+        { "text": "To have her old plan reinstated", "trap": "opposite", "whyVi": "Cô nói rõ 'I'm not asking to keep my old plan'." },
+        { "text": "To complain about the chat agent who handled her case", "trap": "opposite", "whyVi": "Marco 'was sympathetic'; cô còn muốn đúng điều anh ấy đã hứa." },
+        { "text": "To get a fair resolution before deciding whether to leave", "trap": "none", "whyVi": "Đúng: cô muốn gói cước hợp lý, hoàn tiền phí sai, và đặt hạn 31/10 trước khi quyết định có ở lại hay không." }
+      ],
+      "answerIndex": 3,
+      "category": "main_idea",
+      "evidence": "I'd prefer to stay.",
+      "explanationVi": "Thư có ba ý: bị chuyển gói không báo trước, phí 'Device Protect' không đăng ký, và hạn chót 31/10. Gom lại: cô muốn được giải quyết công bằng, nếu không sẽ rời đi. 'I'd prefer to stay... but if I haven't heard... I'll take that as my answer'.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "What does Farida suggest about the \"Unlimited Plus\" plan?",
+      "options": [
+        { "text": "It is the plan Marco recommended to her.", "trap": "wrong_speaker", "whyVi": "Marco chỉ nói cô đủ điều kiện nhận giá ưu đãi; không ai giới thiệu Unlimited Plus — cô bị chuyển sang tự động." },
+        { "text": "It is packed with features she has no use for.", "trap": "none", "whyVi": "Đúng: phát sóng hotspot 'I've never touched' và chuyển vùng quốc tế 'I have no plans to need'." },
+        { "text": "Its price is reasonable for what it offers.", "trap": "opposite", "whyVi": "Cô phản đối vì trả $85 cho những thứ không dùng." },
+        { "text": "She chose it when her promotion ended.", "trap": "opposite", "whyVi": "Cô bị chuyển 'without so much as an email' — không phải tự chọn." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "which comes with a hotspot allowance I've never touched and international roaming I have no plans to need",
+      "explanationVi": "Giọng hơi châm biếm: 'never touched' (chưa từng dùng), 'no plans to need' (không có ý định cần đến). Ý ngầm: gói này có nhiều tính năng thừa với cô → 'packed with features she has no use for'.",
+      "vocabulary": ["roaming", "hotspot"]
+    },
+    {
+      "number": 3,
+      "prompt": "Why does Farida mention that she kept a copy of the chat transcript?",
+      "options": [
+        { "text": "To prove that Marco was rude to her", "trap": "opposite", "whyVi": "Marco 'was sympathetic' — không thô lỗ." },
+        { "text": "To show she has proof of what she was told", "trap": "none", "whyVi": "Đúng: bản ghi là bằng chứng cho lời hứa 'definitely eligible' và cuộc gọi trong 48 giờ." },
+        { "text": "To ask the company to delete her personal data", "trap": "not_mentioned", "whyVi": "Không có yêu cầu nào về dữ liệu cá nhân." },
+        { "text": "Because the retention team asked her to send it", "trap": "not_mentioned", "whyVi": "Đội giữ chân khách hàng chưa hề liên lạc với cô." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I'm still waiting, and I've kept a copy of the chat transcript.",
+      "explanationVi": "Chi tiết này đặt ngay sau lời hứa của Marco và câu 'I'm still waiting'. Ý ngầm: cô có bằng chứng bằng văn bản về lời hứa, nên công ty khó chối. Đây là cách gây áp lực một cách lịch sự.",
+      "vocabulary": ["transcript"]
+    },
+    {
+      "number": 4,
+      "prompt": "How did Farida discover the \"Device Protect\" charge?",
+      "options": [
+        { "text": "Marco pointed it out during the online chat.", "trap": "wrong_speaker", "whyVi": "Marco không nhắc đến khoản này; chính Farida tự phát hiện." },
+        { "text": "She received a notice when it was added in March.", "trap": "opposite", "whyVi": "Cô không hề được báo; cô chỉ đoán nó có từ tháng 3 ('as far as I can tell')." },
+        { "text": "It appeared for the first time on her October bill.", "trap": "wrong_detail", "whyVi": "Khoản phí đã có từ tháng 3, không phải mới xuất hiện tháng 10." },
+        { "text": "She came across it while reviewing past statements.", "trap": "none", "whyVi": "Đúng: 'While going through my old bills to prepare for that call, I also noticed...'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "While going through my old bills to prepare for that call, I also noticed a $7 monthly charge labelled \"Device Protect.\"",
+      "explanationVi": "'going through my old bills' = 'reviewing past statements'; 'noticed' = 'came across'. Cô xem lại hóa đơn để chuẩn bị cho cuộc gọi đã hứa.",
+      "vocabulary": ["go through"]
+    },
+    {
+      "number": 5,
+      "prompt": "What does Farida mean by \"I'll take that as my answer\"?",
+      "options": [
+        { "text": "She will accept the $85 plan if no one calls.", "trap": "opposite", "whyVi": "Câu đi kèm với việc so sánh nhà mạng khác và chuyển số — tức là rời đi, không phải chấp nhận." },
+        { "text": "She will treat silence as a sign she should switch providers.", "trap": "none", "whyVi": "Đúng: nếu không ai có thẩm quyền liên hệ trước 31/10, cô hiểu là công ty không quan tâm và sẽ chuyển mạng." },
+        { "text": "She will call the retention team herself on October 31.", "trap": "not_mentioned", "whyVi": "Không có chi tiết cô tự gọi." },
+        { "text": "She will wait for Marco's answer before doing anything.", "trap": "wrong_detail", "whyVi": "Cô cần 'someone with the authority to resolve this', không phải chờ Marco." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "if I haven't heard from someone with the authority to resolve this by October 31, I'll take that as my answer",
+      "explanationVi": "'that' = việc không ai liên lạc. 'take that as my answer' = coi sự im lặng là câu trả lời. Câu trước đó nhắc đến 'comparing other providers' offers and transferring my number', nên câu trả lời đó dẫn đến việc chuyển mạng. Đây là lời cảnh báo ngầm.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "Which best describes the tone of Farida's email?",
+      "options": [
+        { "text": "Firm and disappointed, but still open to staying", "trap": "none", "whyVi": "Đúng: cô đặt hạn chót rõ ràng (firm), thất vọng ('tested my loyalty'), nhưng 'I'd prefer to stay'." },
+        { "text": "Furious and determined to leave no matter what", "trap": "too_broad", "whyVi": "Quá mạnh: cô kiềm chế và vẫn muốn ở lại nếu được giải quyết." },
+        { "text": "Grateful and fully satisfied with the service", "trap": "partially_true", "whyVi": "Cô là khách hàng chín năm và khen Marco 'sympathetic', nhưng hiện cô không hài lòng — 'fully satisfied' là sai." },
+        { "text": "Uncertain about what she wants from the company", "trap": "opposite", "whyVi": "Cô nói rất rõ cô muốn gì: 'To be clear... I'd simply like what Marco offered'." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "I'm writing because the past month has tested my loyalty more than I'd like.",
+      "explanationVi": "Câu hỏi về giọng điệu: 'tested my loyalty' (lòng trung thành bị thử thách) → thất vọng; hạn 31/10 → cứng rắn; 'I'd prefer to stay' → vẫn muốn ở lại. Không có từ ngữ giận dữ, nên 'furious' là quá mức.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "never happened", "trap": "none", "whyVi": "Đúng: Farida nói 'I'm still waiting' — cuộc gọi không bao giờ đến." },
+        { "text": "was cut short", "trap": "not_mentioned", "whyVi": "Không có cuộc gọi nào diễn ra để bị ngắt." },
+        { "text": "came a day late", "trap": "wrong_detail", "whyVi": "Cuộc gọi chưa hề đến, không phải đến trễ một ngày." },
+        { "text": "was with Marco", "trap": "wrong_speaker", "whyVi": "Marco là nhân viên chat; cuộc gọi được hứa là từ đội giữ chân khách hàng." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "He said someone from the retention team would call me within 48 hours. I'm still waiting",
+      "explanationVi": "Hứa gọi trong 48 giờ từ 3/10, nhưng đến khi viết thư cô vẫn 'still waiting' → cuộc gọi chưa bao giờ diễn ra ('never happened').",
+      "vocabulary": ["retention team"]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "was included in your old plan", "trap": "wrong_detail", "whyVi": "Đây là khoản thu thêm $7/tháng ngoài giá gói cước; nếu nằm sẵn trong gói thì công ty đã không cần gỡ bỏ và hoàn tiền." },
+        { "text": "was added at Marco's suggestion", "trap": "wrong_speaker", "whyVi": "Phí có từ tháng 3, trước cuộc chat với Marco vào tháng 10." },
+        { "text": "should never have been on your account", "trap": "none", "whyVi": "Đúng: công ty thừa nhận lỗi, gỡ bỏ và hoàn $56." },
+        { "text": "will cost less next year", "trap": "not_mentioned", "whyVi": "Không có thông tin về giá năm sau; khoản phí đã bị gỡ bỏ." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "I've never signed up for it",
+      "explanationVi": "Câu 'You're right that...' xác nhận cả hai phàn nàn. Câu sau 'I've removed it and credited $56' cho thấy công ty thừa nhận khoản phí là sai → 'should never have been on your account'.",
+      "vocabulary": ["add-on"]
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "unlimited international roaming", "trap": "word_match", "whyVi": "Dùng lại 'international roaming' — chính là tính năng Farida không cần." },
+        { "text": "the same hotspot allowance as Unlimited Plus", "trap": "opposite", "whyVi": "Farida chưa bao giờ dùng hotspot; gói mới được thiết kế để bỏ những thứ đó." },
+        { "text": "a free replacement phone", "trap": "not_mentioned", "whyVi": "Không có điện thoại miễn phí nào được nhắc đến." },
+        { "text": "none of the extras you said you don't need", "trap": "none", "whyVi": "Đúng: gói hợp với cách cô thực sự dùng điện thoại — có data, không có tính năng thừa." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "a plan that suits how I actually use my phone",
+      "explanationVi": "Gói Essentials 20 'includes the data you actually use and...' — vế sau phải tiếp tục ý 'phù hợp với nhu cầu thực'. Farida phàn nàn về hotspot và roaming không dùng, nên gói mới không có những thứ đó.",
+      "vocabulary": []
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "it includes Device Protect at no extra cost", "trap": "word_match", "whyVi": "Dùng lại tên 'Device Protect', nhưng khoản này vừa bị gỡ bỏ vì Farida không đăng ký." },
+        { "text": "we'll email you a month before the rate ends", "trap": "none", "whyVi": "Đúng: 'so there won't be any surprises this time' — lần trước cô bị đổi gói mà không được báo." },
+        { "text": "it will go up to $85 after the first year", "trap": "opposite", "whyVi": "Giá $48 áp dụng cho 'the next 24 months', không tăng sau một năm." },
+        { "text": "it is only available to new customers", "trap": "opposite", "whyVi": "Đây là giá dành cho khách hàng trung thành ('loyalty rate'), không phải khách mới." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "without so much as an email",
+      "explanationVi": "'so there won't be any surprises this time' — 'this time' đối lập với lần trước, khi cô bị chuyển gói 'without so much as an email'. Vì vậy công ty hứa sẽ báo trước bằng email khi ưu đãi kết thúc.",
+      "vocabulary": []
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "switch you over to the new plan", "trap": "none", "whyVi": "Đúng: nếu cô đồng ý, nhân viên sẽ chuyển cô sang gói Essentials 20 từ kỳ hóa đơn sau." },
+        { "text": "transfer your number to another provider", "trap": "opposite", "whyVi": "Công ty muốn giữ cô lại, không giúp cô chuyển mạng." },
+        { "text": "bring back your $55 rate", "trap": "wrong_detail", "whyVi": "Giá đề nghị là $48, và Farida không đòi lại giá $55." },
+        { "text": "close your account", "trap": "opposite", "whyVi": "Ngược lại với mục đích của thư trả lời." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "I'd like to offer you our Essentials 20 plan",
+      "explanationVi": "'If this works for you' = nếu cô chấp nhận đề nghị gói Essentials 20, thì 'from your next billing cycle' nhân viên sẽ chuyển gói. 'switch over' = chuyển sang.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "discontinue", "vi": "ngừng cung cấp (một gói cước, sản phẩm)", "definition": "to stop offering a product or service", "example": "The company discontinued my old plan and moved me to a more expensive one." },
+    { "term": "without so much as", "vi": "thậm chí không có cả (một...)", "definition": "used to show surprise or anger that someone did not do even a small thing", "example": "They changed my plan without so much as an email." },
+    { "term": "roaming", "vi": "chuyển vùng quốc tế (dùng điện thoại ở nước ngoài)", "definition": "using your mobile phone on another company's network, usually abroad", "example": "International roaming can be very expensive." },
+    { "term": "hotspot", "vi": "phát Wi-Fi từ điện thoại", "definition": "a feature that lets your phone share its internet connection with other devices", "example": "I use my phone as a hotspot for my laptop." },
+    { "term": "retention team", "vi": "bộ phận giữ chân khách hàng", "definition": "the department that tries to stop customers from leaving", "example": "The retention team offered me a lower price." },
+    { "term": "transcript", "vi": "bản ghi (nội dung cuộc trò chuyện)", "definition": "a written record of a conversation", "example": "I saved the chat transcript as proof." },
+    { "term": "go through", "vi": "xem xét kỹ, rà soát", "definition": "to look at something carefully, item by item", "example": "I went through my bills and found an extra charge." },
+    { "term": "add-on", "vi": "dịch vụ cộng thêm", "definition": "an extra service added to a basic plan for an extra charge", "example": "The device protection add-on costs $7 a month." },
+    { "term": "billing cycle", "vi": "kỳ thanh toán hóa đơn", "definition": "the regular period of time covered by one bill", "example": "The new price starts from your next billing cycle." }
+  ]
+}

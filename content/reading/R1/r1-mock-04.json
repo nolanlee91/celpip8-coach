@@ -1,0 +1,205 @@
+{
+  "id": "r1-mock-04",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "shopping",
+  "title": "A cracked table sold as 'final sale'",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 11 items independently; all keys matched, and Q11 has only one defensible blank filler (the other three contradict the offer to talk, the December technician, or the writer's role). To avoid repeating r1-full-07's 'signed the delivery slip before unwrapping' beat, removed the tablet signature from the letter and changed the reply to 'required to [[9]] before they leave' (Q2 evidence/whyVi and Q9 explanation updated). Q8 evidence now quotes the reply's 'discontinued' sentence, Q10 explanation quote fixed, Q11 C trap relabelled wrong_detail; options reordered in Q5–Q8 to break the B-D-A-C pattern (new keys B D A C A C D B D B A)." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Letter from a customer",
+      "kind": "text",
+      "text": "To the Customer Care team,\n\nI'm writing about order #CL-48817, a walnut extension table I bought from your Coquitlam showroom on September 28. It was a floor model marked down from $1,890 to $1,320, and the tag said 'Final sale — no returns or exchanges.' I accepted that at the time, and I'm not trying to back out of the purchase.\n\nThe table was delivered on October 9. The two delivery workers carried it into my dining room still in its plastic wrap and were gone within five minutes. They said they were running behind and that I could check everything later. When I unwrapped the table that evening, I found a crack about ten centimetres long running up the inside of one leg. It isn't visible when you walk past, but the leg shifts slightly when the table is extended, and I'm not comfortable seating a family of six around it.\n\nI called the showroom the next morning and was told that because the table was final sale, there was nothing they could do. With respect, I think that misreads your own policy. I understood 'final sale' to mean I couldn't bring the table back because I'd changed my mind about the colour or the size. It surely can't mean that a store may sell a damaged product and wash its hands of it. Your website also states that customers have 48 hours to report delivery damage, and I called well within that window.\n\nI'm not asking for my money back. I'd be satisfied if you either repaired or replaced the leg at no cost, or, if that isn't possible, refunded the $129 delivery fee along with a fair portion of the price so that I can have it fixed myself.\n\nI have photos of the crack and can send them today. I'd appreciate a reply by the end of next week.\n\nRegards,\nOluwaseun Adeyemi",
+      "table": null
+    },
+    {
+      "label": "Reply from Customer Care",
+      "kind": "text",
+      "text": "Dear Ms. Adeyemi,\n\nThank you for your letter and photos. I'm sorry this has been so frustrating.\n\nYou are quite right about our policy. 'Final sale' covers change-of-mind returns only, and the staff member you spoke to should not have [[7]]. I've shared your letter with our showroom manager so that this is made clear to the whole team.\n\nOur workshop has looked at your photos. Unfortunately, the manufacturer has discontinued this model, so a matching leg is [[8]], and our only technician for your area is booked until December. Rather than make you wait, we'd like to offer the second option you proposed: a refund of the $129 delivery fee plus $350 toward a local repair.\n\nI also apologize for our delivery partner. Drivers are required to [[9]] before they leave, and that clearly didn't happen.\n\nIf you [[10]], simply reply, and the refund will reach your card within five business days. If you'd like to talk it over first, I'm [[11]].\n\nSincerely,\nMarguerite Lavoie\nCustomer Care Lead, Cedar & Loom Furniture",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the main purpose of Oluwaseun's letter?",
+      "options": [
+        { "text": "To return the table and get her money back", "trap": "opposite", "whyVi": "Cô nói rõ 'I'm not asking for my money back' và không muốn hủy giao dịch." },
+        { "text": "To have a defect dealt with while keeping the table", "trap": "none", "whyVi": "Đúng: cô giữ bàn ('not trying to back out') nhưng muốn sửa/thay chân bàn hoặc được bồi hoàn một phần." },
+        { "text": "To complain that her delivery arrived late", "trap": "word_match", "whyVi": "Thợ giao hàng nói 'running behind', nhưng cô không phàn nàn giao trễ; vấn đề là họ đi quá nhanh." },
+        { "text": "To argue that floor models should never be sold as final sale", "trap": "too_broad", "whyVi": "Cô chấp nhận điều kiện 'final sale'; cô chỉ phản đối cách cửa hàng hiểu nó trong trường hợp hàng hỏng." }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "I'd be satisfied if you either repaired or replaced the leg at no cost",
+      "explanationVi": "Cần kết hợp hai ý: cô không muốn trả lại hàng ('not trying to back out of the purchase') và muốn xử lý vết nứt ('repaired or replaced the leg'). Đáp án B tóm tắt cả hai: 'a defect dealt with while keeping the table'.",
+      "vocabulary": ["back out of"]
+    },
+    {
+      "number": 2,
+      "prompt": "Why did Oluwaseun not notice the damage at the time of delivery?",
+      "options": [
+        { "text": "The crack only appeared after she extended the table.", "trap": "partially_true", "whyVi": "Khi kéo dài bàn thì chân bàn lung lay, nhưng vết nứt đã có sẵn và cô thấy ngay khi mở bọc." },
+        { "text": "She was not at home when the table arrived.", "trap": "opposite", "whyVi": "Cô có ở nhà: thợ khiêng bàn vào phòng ăn của cô và bảo cô kiểm tra sau." },
+        { "text": "The showroom tag was covering the leg.", "trap": "not_mentioned", "whyVi": "Tấm thẻ chỉ ghi 'Final sale'; không có chi tiết nó che chân bàn." },
+        { "text": "The workers left before the table had been unwrapped.", "trap": "none", "whyVi": "Đúng: bàn vẫn còn bọc nhựa, thợ đi trong năm phút, và chỉ tối hôm đó cô mới mở ra." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "carried it into my dining room still in its plastic wrap and were gone within five minutes",
+      "explanationVi": "Không có câu nào nói thẳng lý do; phải suy ra từ chuỗi sự việc: bàn 'still in its plastic wrap', thợ 'gone within five minutes', và 'When I unwrapped the table that evening' cô mới thấy vết nứt.",
+      "vocabulary": ["run behind"]
+    },
+    {
+      "number": 3,
+      "prompt": "What does Oluwaseun say about the crack?",
+      "options": [
+        { "text": "It is easy to miss but makes the table less stable.", "trap": "none", "whyVi": "Đúng: 'isn't visible when you walk past' nhưng 'the leg shifts slightly'." },
+        { "text": "It runs across the top of the table.", "trap": "wrong_detail", "whyVi": "Vết nứt ở mặt trong một chân bàn, không phải mặt bàn." },
+        { "text": "She noticed it in the showroom before buying.", "trap": "not_mentioned", "whyVi": "Cô chỉ phát hiện khi mở bọc ở nhà." },
+        { "text": "It makes the table impossible to extend.", "trap": "too_broad", "whyVi": "Bàn vẫn kéo dài được; chỉ là chân bàn hơi lung lay khi kéo." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "It isn't visible when you walk past, but the leg shifts slightly when the table is extended",
+      "explanationVi": "'isn't visible when you walk past' = 'easy to miss'; 'the leg shifts slightly' = 'less stable'. Bẫy D phóng đại: 'shifts slightly' không có nghĩa là không thể kéo dài.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "According to Oluwaseun, what does 'final sale' mean?",
+      "options": [
+        { "text": "Delivery is not included in the price.", "trap": "not_mentioned", "whyVi": "Phí giao hàng $129 là khoản riêng nhưng không liên quan đến nghĩa của 'final sale'." },
+        { "text": "Exchanges are allowed, but refunds are not.", "trap": "opposite", "whyVi": "Thẻ ghi rõ 'no returns or exchanges'." },
+        { "text": "A buyer cannot return an item simply for personal reasons, but faults are different.", "trap": "none", "whyVi": "Đúng: cô hiểu là không được trả vì đổi ý về màu/kích thước, chứ không phải cửa hàng được bán hàng hỏng." },
+        { "text": "It applies only to items bought online.", "trap": "not_mentioned", "whyVi": "Cô mua tại showroom; bài không nói chính sách chỉ áp dụng cho hàng mua trực tuyến." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "I understood 'final sale' to mean I couldn't bring the table back because I'd changed my mind about the colour or the size.",
+      "explanationVi": "'changed my mind about the colour or the size' = 'personal reasons'. Câu tiếp theo 'It surely can't mean that a store may sell a damaged product' cho thấy hàng lỗi thì khác ('faults are different').",
+      "vocabulary": ["wash one's hands of"]
+    },
+    {
+      "number": 5,
+      "prompt": "In the letter, what does 'back out of the purchase' mean?",
+      "options": [
+        { "text": "Withdraw from an agreement she had made", "trap": "none", "whyVi": "Đúng: 'back out of' = rút lui khỏi một cam kết/thỏa thuận đã đồng ý." },
+        { "text": "Carry the table back to the showroom herself", "trap": "word_match", "whyVi": "'back' gợi nghĩa mang trả lại, nhưng 'back out of' là cụm động từ có nghĩa khác." },
+        { "text": "Pay less than the agreed price", "trap": "not_mentioned", "whyVi": "Không phải nghĩa của cụm từ; ở câu này cô không nói đến giá." },
+        { "text": "Delay paying the rest of the bill", "trap": "not_mentioned", "whyVi": "Bài không nhắc khoản tiền nào còn nợ." }
+      ],
+      "answerIndex": 0,
+      "category": "vocabulary",
+      "evidence": "I accepted that at the time, and I'm not trying to back out of the purchase.",
+      "explanationVi": "Cô vừa nói đã chấp nhận điều kiện 'final sale'. 'I'm not trying to back out of' = tôi không cố rút lại giao dịch, tức không đòi hủy mua hàng.",
+      "vocabulary": ["back out of"]
+    },
+    {
+      "number": 6,
+      "prompt": "Which outcome does Oluwaseun say she would accept?",
+      "options": [
+        { "text": "A full refund of $1,320", "trap": "opposite", "whyVi": "Cô nói 'I'm not asking for my money back'." },
+        { "text": "A different table at the original price", "trap": "not_mentioned", "whyVi": "Cô không đề nghị đổi sang bàn khác." },
+        { "text": "Some money back so she can arrange a repair herself", "trap": "none", "whyVi": "Đúng: phương án hai là hoàn phí giao hàng và một phần giá 'so that I can have it fixed myself'." },
+        { "text": "A refund of the delivery fee only", "trap": "partially_true", "whyVi": "Cô muốn phí giao hàng CỘNG một phần giá bàn, không chỉ phí giao hàng." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "refunded the $129 delivery fee along with a fair portion of the price so that I can have it fixed myself",
+      "explanationVi": "Cô đưa hai phương án: sửa/thay chân miễn phí, hoặc hoàn tiền một phần để tự sửa. Đáp án C diễn đạt phương án hai. Bẫy D chỉ đúng một nửa vì bỏ mất 'a fair portion of the price'.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "offered you a discount", "trap": "not_mentioned", "whyVi": "Nhân viên qua điện thoại không đề nghị giảm giá." },
+        { "text": "sold you a floor model", "trap": "word_match", "whyVi": "'floor model' có trong thư, nhưng bán hàng trưng bày không phải là lỗi." },
+        { "text": "charged you for delivery", "trap": "wrong_detail", "whyVi": "Phí giao hàng là hợp lệ; câu đang nói về cách hiểu sai chính sách 'final sale'." },
+        { "text": "refused to help you on that basis", "trap": "none", "whyVi": "Đúng: nhân viên đã nói 'there was nothing they could do' vì là hàng 'final sale' — đó là cách hiểu sai chính sách." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "I called the showroom the next morning and was told that because the table was final sale, there was nothing they could do.",
+      "explanationVi": "Câu trước xác nhận 'Final sale covers change-of-mind returns only', nên lỗi của nhân viên là dùng lý do 'final sale' để từ chối. 'there was nothing they could do' = 'refused to help you on that basis'.",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "already on its way to you", "trap": "opposite", "whyVi": "Mẫu đã ngừng sản xuất, nên không thể có chân bàn đang được gửi đi." },
+        { "text": "no longer possible to obtain", "trap": "none", "whyVi": "Đúng: 'discontinued this model' → không còn chân bàn cùng loại để thay." },
+        { "text": "available in walnut only", "trap": "word_match", "whyVi": "'walnut' có trong thư, nhưng không giải thích vì sao công ty đề nghị hoàn tiền thay vì thay chân." },
+        { "text": "included in the original price", "trap": "not_mentioned", "whyVi": "Không liên quan; câu nói về việc tìm chân bàn thay thế." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "the manufacturer has discontinued this model",
+      "explanationVi": "'Unfortunately, the manufacturer has discontinued this model' báo tin xấu → không còn chân bàn cùng loại để thay ('no longer possible to obtain'). Đó là lý do công ty chọn 'the second option you proposed', tức phương án Oluwaseun nêu cho trường hợp 'if that isn't possible'.",
+      "vocabulary": ["discontinue"]
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "carry each item into the customer's home", "trap": "partially_true", "whyVi": "Thợ đã khiêng bàn vào phòng ăn; việc họ không làm là cho khách kiểm tra hàng." },
+        { "text": "call the customer an hour ahead", "trap": "not_mentioned", "whyVi": "Oluwaseun không phàn nàn về việc gọi trước." },
+        { "text": "take photos of any cracks", "trap": "word_match", "whyVi": "'photos' và 'crack' có trong thư, nhưng chính khách hàng là người chụp ảnh sau đó." },
+        { "text": "unwrap the item and let the customer look it over", "trap": "none", "whyVi": "Đúng: thợ để bàn còn nguyên bọc nhựa và bảo cô kiểm tra sau — đó là điều 'clearly didn't happen'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "They said they were running behind and that I could check everything later.",
+      "explanationVi": "Việc bắt buộc 'before they leave' mà 'clearly didn't happen' phải là việc thợ đã bỏ qua: họ bảo cô 'check everything later'. 'look it over' = kiểm tra.",
+      "vocabulary": ["run behind"]
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "still want a full refund", "trap": "opposite", "whyVi": "Cô không đòi hoàn toàn bộ tiền, và thư trả lời chỉ đề nghị hoàn $129 + $350." },
+        { "text": "are happy with this arrangement", "trap": "none", "whyVi": "Đúng: trả lời email để chấp nhận đề nghị thì tiền hoàn sẽ về thẻ." },
+        { "text": "have any more photos", "trap": "word_match", "whyVi": "Cô đã gửi ảnh; gửi thêm ảnh không dẫn đến việc hoàn tiền." },
+        { "text": "can wait until December", "trap": "wrong_detail", "whyVi": "Tháng 12 là lịch của kỹ thuật viên, phương án mà công ty đã không chọn." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "we'd like to offer the second option you proposed",
+      "explanationVi": "Công ty vừa đưa ra một đề nghị; 'simply reply ... and the refund will reach your card' là bước chấp nhận. Vậy chỗ trống là điều kiện 'nếu cô đồng ý'.",
+      "vocabulary": []
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "available at 604-555-0182 on weekdays", "trap": "none", "whyVi": "Đúng: 'If you'd like to talk it over first' → cho cách liên hệ để trao đổi." },
+        { "text": "afraid that won't be possible", "trap": "opposite", "whyVi": "Câu mời khách trao đổi thêm, không từ chối." },
+        { "text": "sending a technician tomorrow", "trap": "wrong_detail", "whyVi": "Kỹ thuật viên bận đến tháng 12." },
+        { "text": "the showroom manager", "trap": "wrong_speaker", "whyVi": "Marguerite là trưởng bộ phận chăm sóc khách hàng; quản lý showroom là người khác." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "If you'd like to talk it over first",
+      "explanationVi": "'talk it over' = trao đổi, nên câu cần một cách liên lạc. Bẫy D sai người: chính thư nói 'I've shared your letter with our showroom manager', tức người viết không phải quản lý showroom.",
+      "vocabulary": ["talk over"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "back out of", "vi": "rút lui, nuốt lời (khỏi thỏa thuận)", "definition": "to decide not to do something you agreed to do", "example": "She didn't want to back out of the purchase after paying." },
+    { "term": "mark down", "vi": "giảm giá", "definition": "to reduce the price of an item", "example": "The sofa was marked down by 30 percent." },
+    { "term": "floor model", "vi": "hàng trưng bày", "definition": "an item that was displayed in a store and is sold at a lower price", "example": "We saved $400 by buying the floor model." },
+    { "term": "run behind", "vi": "bị trễ lịch", "definition": "to be later than planned", "example": "The movers were running behind and arrived at four." },
+    { "term": "wash one's hands of", "vi": "phủi tay, không chịu trách nhiệm", "definition": "to refuse to take any more responsibility for something", "example": "The seller can't simply wash its hands of a faulty product." },
+    { "term": "discontinue", "vi": "ngừng sản xuất, ngừng bán", "definition": "to stop making or selling a product", "example": "That model has been discontinued, so parts are hard to find." },
+    { "term": "talk over", "vi": "bàn bạc, trao đổi", "definition": "to discuss something before making a decision", "example": "Let's talk it over before you sign anything." },
+    { "term": "change of mind", "vi": "đổi ý", "definition": "a decision to do something different from what you planned", "example": "Change-of-mind returns are not accepted on sale items." }
+  ]
+}

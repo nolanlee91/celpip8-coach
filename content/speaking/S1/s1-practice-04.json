@@ -1,0 +1,55 @@
+{
+  "id": "s1-practice-04",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "Advice for a coworker adjusting to night shifts",
+  "prompt": "Your coworker Aisha has just been moved to the night shift at the warehouse where you both work. After two weeks, she is sleeping badly during the day, feeling tired all the time, and finding it hard to see her family.\n\nGive Aisha some advice about how to cope with working night shifts.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Empathy: show you understand how draining the change is",
+    "Advice 1: set up a sleep routine and a dark, quiet bedroom",
+    "Advice 2: manage caffeine and meals during the shift",
+    "Advice 3: protect family time with a planned schedule",
+    "Know when to get help (doctor / supervisor) + encouragement"
+  ],
+  "modelAnswer": "Aisha, I'm sorry it's been so rough. Switching to nights really takes a toll, and the first few weeks are usually the hardest, so please don't be too hard on yourself.\n\nThe biggest thing, I think, is to treat your daytime sleep like it's non-negotiable. Try to go to bed at the same time every morning, even on your days off, so your body can adjust. It also helps to make your room as dark as possible. Blackout curtains aren't expensive, and a pair of earplugs can block out a lot of the daytime noise.\n\nI'd also keep an eye on caffeine. A coffee at the start of the shift is fine, but if you're still drinking it at four in the morning, you'll be wide awake when you're supposed to be sleeping. Packing a proper meal instead of grabbing snacks from the vending machine can keep your energy more stable, too.\n\nAs for your family, why not sit down with them and plan a couple of fixed times together, like breakfast before you go to bed or dinner before your shift? That way you're not just hoping to squeeze them in.\n\nFinally, if things haven't improved in another month or so, it might be worth seeing your doctor, or asking our supervisor whether a different rotation is possible. You shouldn't have to just put up with feeling exhausted. Hang in there!",
+  "usefulExpressions": [
+    {
+      "expression": "take a toll (on someone)",
+      "usageVi": "Thành ngữ: gây ảnh hưởng xấu, làm hao mòn (sức khỏe, tinh thần). Nghe tự nhiên hơn 'make you very tired'."
+    },
+    {
+      "expression": "keep an eye on…",
+      "usageVi": "'Để ý, theo dõi' một thứ gì đó — thay cho 'be careful about'."
+    },
+    {
+      "expression": "Why not + V (nguyên mẫu)…?",
+      "usageVi": "Gợi ý nhẹ nhàng dạng câu hỏi; sau 'Why not' dùng động từ nguyên mẫu, không có 'to'."
+    },
+    {
+      "expression": "squeeze something/someone in",
+      "usageVi": "Cụm động từ: cố chen/sắp xếp thời gian cho việc gì khi lịch rất kín."
+    },
+    {
+      "expression": "put up with…",
+      "usageVi": "Cụm động từ: chịu đựng. 'You shouldn't have to put up with…' = bạn không cần phải cam chịu…"
+    },
+    {
+      "expression": "Hang in there!",
+      "usageVi": "Câu động viên thân mật: 'Cố lên nhé, rồi sẽ ổn'."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ khuyên 'Go to sleep early' — quá đơn giản. Mức 8–9 cần lý do và chi tiết: rèm cản sáng, giờ ngủ cố định, hạn chế cà phê sau một giờ nhất định.",
+    "Bỏ qua một phần của đề bài. Đề có 3 vấn đề (ngủ kém, mệt, ít gặp gia đình) — hãy trả lời cả ba.",
+    "Dùng sai 'Why not to plan…'. Đúng là 'Why not plan…' hoặc 'Why don't you plan…'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {"status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Checked all three problems in the prompt (sleep, fatigue, family time) are addressed with specific, non-absolute health advice and a 'see your doctor' fallback; ~232 words; Vietnamese notes accurate. No changes needed."},
+  "createdAt": "2026-11-03"
+}

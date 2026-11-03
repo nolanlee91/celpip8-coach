@@ -1,0 +1,58 @@
+{
+  "id": "s8-practice-04",
+  "kind": "speaking",
+  "taskType": "S8",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "A walking cane with too many extras",
+  "prompt": "Your grandfather's physiotherapist has suggested that he start using a walking cane. At a medical supply store in Burnaby, you notice this unusual cane. Call your aunt, who is helping you choose one, describe the cane in detail, and say whether you think it would suit your grandfather.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='#f1f5f9'/><rect y='450' width='800' height='50' fill='#cbd5e1'/><polygon points='490,121 465,200 515,200' fill='#fde68a' opacity='0.8'/><rect x='394' y='120' width='12' height='282' fill='#b0bec5'/><path d='M400 128 Q400 70 450 70 Q490 70 490 105' stroke='#8d5524' stroke-width='18' fill='none' stroke-linecap='round'/><rect x='481' y='103' width='18' height='20' rx='3' fill='#212121'/><line x1='384' y1='140' x2='394' y2='140' stroke='#7f8c8d' stroke-width='3'/><path d='M372 160 Q372 138 384 138 Q396 138 396 160 Z' fill='#f1c40f'/><circle cx='384' cy='163' r='3' fill='#b7950b'/><rect x='372' y='192' width='56' height='36' rx='6' fill='#263238'/><path d='M386 205 Q386 199 391 199 Q395 199 395 204 Q395 199 399 199 Q404 199 404 205 Q404 211 395 217 Q386 211 386 205 Z' fill='#e74c3c'/><text x='416' y='216' font-family='Arial' font-size='14' font-weight='bold' fill='#ffffff' text-anchor='middle'>72</text><line x1='500' y1='286' x2='406' y2='340' stroke='#90a4ae' stroke-width='6'/><rect x='406' y='272' width='110' height='14' rx='5' fill='#1565c0'/><circle cx='375' cy='310' r='20' fill='#e74c3c'/><rect x='371' y='298' width='8' height='24' fill='#ffffff'/><rect x='363' y='306' width='24' height='8' fill='#ffffff'/><rect x='360' y='400' width='80' height='14' rx='4' fill='#1565c0'/><g stroke='#90a4ae' stroke-width='6' stroke-linecap='round'><line x1='370' y1='414' x2='352' y2='440'/><line x1='390' y1='414' x2='385' y2='440'/><line x1='410' y1='414' x2='415' y2='440'/><line x1='430' y1='414' x2='448' y2='440'/></g><g fill='#212121'><ellipse cx='352' cy='444' rx='9' ry='5'/><ellipse cx='385' cy='444' rx='9' ry='5'/><ellipse cx='415' cy='444' rx='9' ry='5'/><ellipse cx='448' cy='444' rx='9' ry='5'/></g><rect x='100' y='395' width='120' height='42' rx='4' fill='#ffffff' stroke='#999999'/><text x='160' y='423' font-family='Arial' font-size='20' font-weight='bold' fill='#d63031' text-anchor='middle'>$64.99</text></svg>",
+  "options": null,
+  "structure": [
+    "Explain where you are and admit the cane is unusual.",
+    "Describe from the top down: the curved handle, the flashlight, the bell and the small screen.",
+    "Describe the middle and the bottom: the fold-out seat, the red box and the four legs.",
+    "Weigh up whether it suits Grandpa (practical vs. too complicated) and ask your aunt."
+  ],
+  "modelAnswer": "Hi Auntie, it's me. I'm at the medical supply store in Burnaby, and I've come across a cane that's a bit over the top, so let me walk you through it. It's a thin silver pole with a curved brown handle, like polished wood. At the end of the handle, there's a tiny black flashlight shining a yellow beam downwards, which would come in handy at night. Just below the handle, a little gold bell hangs off the left side. Below that, there's a small black screen with a red heart and the number 72, so I assume it keeps track of his heart rate. Around halfway down, a blue seat folds out to the right, propped up by a metal bar, and on the other side, there's a round red box with a white cross, probably for his pills. At the bottom, there are four short legs with black feet, so it won't topple over. It's $64.99. To be honest, the gadgets might confuse Grandpa, but the seat and the legs are genuinely useful. What do you reckon?",
+  "usefulExpressions": [
+    {
+      "expression": "…a bit over the top",
+      "usageVi": "Hơi quá đà, nhiều thứ không cần thiết — nhận xét khéo léo"
+    },
+    {
+      "expression": "let me walk you through it",
+      "usageVi": "Để tôi tả lần lượt cho bạn nghe — mở đầu phần mô tả"
+    },
+    {
+      "expression": "…would come in handy…",
+      "usageVi": "Sẽ có ích, tiện dụng (thành ngữ thông dụng)"
+    },
+    {
+      "expression": "…is propped up by…",
+      "usageVi": "Được đỡ/chống bởi — tả cấu trúc của bộ phận"
+    },
+    {
+      "expression": "…so it won't topple over",
+      "usageVi": "Để nó không bị đổ — giải thích công dụng"
+    },
+    {
+      "expression": "To be honest, …, but…",
+      "usageVi": "Đưa ra nhận xét cân bằng: nhược điểm và ưu điểm"
+    }
+  ],
+  "commonMistakes": [
+    "Không biết từ 'brace' hay 'quad base'; hãy diễn đạt vòng: 'a metal bar holding the seat up', 'four short legs at the bottom'.",
+    "Tả theo thứ tự lộn xộn (chân rồi tay cầm rồi ghế); nên đi từ trên xuống dưới để người nghe theo kịp.",
+    "Khẳng định chắc chắn công dụng ('It measures heart rate') khi chỉ đoán; dùng 'I assume', 'probably' nghe tự nhiên và chính xác hơn."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked every detail against the SVG markup (brown curved handle, black flashlight with yellow beam, gold bell on the left, dark screen with red heart and 72, blue fold-out seat with brace on the right, red box with white cross on the left, four legs with black feet, $64.99) and SVG rules. The heart-rate screen and pill box are only hedged guesses ('I assume', 'probably'), with no health claims. Trimmed 2 words to 179."
+  },
+  "createdAt": "2026-11-03"
+}

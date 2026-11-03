@@ -1,0 +1,65 @@
+{
+  "id": "w1-practice-10",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "banking",
+  "title": "An unexpected monthly fee from the credit union",
+  "situation": "You have had a chequing account with Pacific Shore Credit Union for eight years and have never paid a monthly fee. Last month you noticed a $16.95 monthly fee on your statement. You later found out that the credit union had moved you to a different account package, and the notice had been mailed to your old address, even though you had updated your contact details. You decide to email your branch manager.",
+  "instructions": [
+    "Describe the problem you noticed.",
+    "Explain why you feel the credit union should take responsibility.",
+    "Ask for a specific solution and say what you will do if the problem is not resolved."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting (Dear Mr./Ms. + surname) + purpose: an unexpected charge",
+    "Instruction 1: what you saw, when, how much, and what you found out",
+    "Instruction 2: acknowledge the bank's right to change products (I understand… However…), then show the error was theirs",
+    "Instruction 3: an exact request (refund amount + account change) + a firm but polite consequence",
+    "Thank-you line + Sincerely + full name"
+  ],
+  "modelResponse": "Dear Mr. Kowalski,\n\nI am writing about an unexpected charge on my chequing account, which ends in 4471. When I reviewed my October statement, I noticed a monthly fee of $16.95, even though I have never paid a fee in the eight years I have banked with Pacific Shore. Looking back, I found the same charge in August and September. When I called member services, I learned that my account had been switched to a new \"Everyday Plus\" package.\n\nI understand that financial institutions need to update their products. However, the notice about this change was mailed to my previous address, even though I updated my contact details at your branch over a year ago and have received e-statements ever since. Since I was never properly informed, I do not believe I should be held responsible for these charges.\n\nI would therefore ask you to refund the three fees, totalling $50.85, and to move my account back to a no-fee option. I have always been satisfied with your service, but if this cannot be resolved, I will have to consider transferring my accounts, including my mortgage, to another institution.\n\nThank you for looking into this.\n\nSincerely,\nGrace Adeyemi",
+  "usefulExpressions": [
+    {
+      "expression": "I am writing about an unexpected charge on my … account",
+      "usageVi": "Mở đầu thư gửi ngân hàng, nêu thẳng vấn đề về khoản phí."
+    },
+    {
+      "expression": "Looking back, I found…",
+      "usageVi": "Cụm phân từ mở đầu câu, giúp nối ý mượt và tăng độ đa dạng ngữ pháp."
+    },
+    {
+      "expression": "I understand that…. However, …",
+      "usageVi": "Công nhận quan điểm bên kia trước khi phản biện – kỹ năng quan trọng ở mức 9."
+    },
+    {
+      "expression": "I do not believe I should be held responsible for…",
+      "usageVi": "'be held responsible' = bị bắt chịu trách nhiệm; lập luận trang trọng."
+    },
+    {
+      "expression": "totalling $50.85",
+      "usageVi": "Nêu con số chính xác (Canadian spelling: 'totalling'), làm yêu cầu rõ ràng."
+    },
+    {
+      "expression": "if this cannot be resolved, I will have to consider…",
+      "usageVi": "Nêu hệ quả một cách lịch sự nhưng cương quyết, không mang tính đe dọa."
+    }
+  ],
+  "commonMistakes": [
+    "Đe dọa thô lỗ ('I will close my account today and tell everyone'). Hãy nói hệ quả nhẹ nhàng: 'I will have to consider…'.",
+    "Ý 3 thiếu yêu cầu cụ thể. Nêu rõ số tiền hoàn lại và loại tài khoản mong muốn.",
+    "Viết nhầm số tiền hoặc tính sai tổng. Kiểm tra lại các con số – sai số liệu làm giảm độ tin cậy của thư.",
+    "Sai giới từ: 'a fee in my account' → 'a fee on my account'; 'I updated my address since one year' → 'over a year ago'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets (problem, why the credit union is responsible, specific refund + consequence), arithmetic (3 x $16.95 = $50.85), realistic fee, 198 words. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

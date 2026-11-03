@@ -1,0 +1,428 @@
+{
+  "id": "r3-full-08",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "full",
+  "difficulty": 9,
+  "topic": "customer-service",
+  "title": "Pressing Zero: The Fight to Reach a Real Person",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 9 independently; keys match. Both E items checked against every paragraph: Q6 (scrapping the assistant) is not stated - C shows the company adjusting and defending it; Q9 (extra training) is not stated - C only says agents get more time for complex cases. No changes needed; difficulty 9 fits the inference/attitude load."},
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "Ask almost anyone about their last call to a phone company and you will probably hear the same complaint: it was next to impossible to reach a real person. When Pacific Crest Mobile rolled out an automated assistant in 2023, it promised shorter waits and round-the-clock help. On paper, it delivered: average hold times fell from 22 minutes to under six. Yet the company's own satisfaction scores barely budged. Customers with routine requests, like checking a bill or switching plans, were happy enough. The trouble lay with people whose problems did not fit neatly into a menu, who found themselves going around in circles with a system that kept cheerfully offering the same three options.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "Consumer advocate Sabrina Oyelaran has heard more of these stories than she can count. In her view, the problem is rarely the technology itself but the way companies choose to use it. Automated systems are fine as a first stop, she says, but many firms seem to design them as a wall rather than a door, burying the route to a human agent in the hope that frustrated customers will simply give up. She is especially critical of systems that hang up after a set number of failed attempts. \"If a customer has said 'agent' four times,\" she says, \"that isn't confusion. That's someone telling you, very clearly, what they want.\"",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Pacific Crest insists it has listened. Last spring the company added what it calls an \"escape hatch\": saying \"I need a person\" at any point now moves callers into a queue staffed by agents, although waits in that queue can stretch past half an hour at busy times. Douglas Achterberg, vice-president of customer care, concedes that the original design was too rigid. He also argues that the assistant frees agents to spend more time on complicated cases, and that callers who do get through now have their problems solved on the first call more often than before. No independent figures backing up that claim, however, have been made public.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "For customers, a few habits can make the experience less painful. Calling mid-morning on a Tuesday or Wednesday usually means shorter queues than on Mondays or in the hour after work. Keeping account numbers and recent bills within reach avoids being bounced back to the start. And if an agent cannot solve the problem, asking politely for a supervisor or a ticket number creates a record that is hard to ignore later. Oyelaran adds one more piece of advice: write down the date, time and name of everyone you speak to. \"It feels like overkill,\" she admits, \"right up until the day you need to prove that somebody promised you a refund.\"",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Cutting waiting times did not, on its own, make customers noticeably more satisfied.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: thời gian chờ giảm mạnh nhưng điểm hài lòng 'barely budged'."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B phê phán cách thiết kế hệ thống, không nói về thời gian chờ và điểm hài lòng."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C có nhắc thời gian chờ trong hàng đợi mới, nhưng không nói về mức độ hài lòng của khách."
+        },
+        {
+          "text": "D",
+          "trap": "word_match",
+          "whyVi": "Đoạn D có 'shorter queues' nhưng là mẹo gọi điện vào giờ vắng."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Yet the company's own satisfaction scores barely budged.",
+      "explanationVi": "Đoạn A: thời gian chờ giảm từ 22 phút xuống dưới 6 phút, 'Yet the company's own satisfaction scores barely budged' (điểm hài lòng gần như không nhúc nhích). 'Barely budged' = không thay đổi đáng kể. Người đọc phải nối hai câu: chờ ít hơn nhưng không hài lòng hơn.",
+      "vocabulary": [
+        "budge"
+      ]
+    },
+    {
+      "number": 2,
+      "prompt": "One person suspects that some firms make it hard to reach a human on purpose.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A nói rất khó gặp người thật, nhưng không cho rằng công ty cố ý làm vậy."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Oyelaran cho rằng công ty cố tình giấu đường đến nhân viên để khách bỏ cuộc."
+        },
+        {
+          "text": "C",
+          "trap": "opposite",
+          "whyVi": "Đoạn C: công ty thêm 'escape hatch' để dễ gặp người thật hơn — ngược với ý cố tình gây khó."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D là mẹo cho khách hàng, không bàn về ý đồ của công ty."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "burying the route to a human agent in the hope that frustrated customers will simply give up",
+      "explanationVi": "Oyelaran cho rằng nhiều công ty thiết kế hệ thống 'as a wall rather than a door', 'burying the route to a human agent' (giấu đường đến nhân viên thật) với hy vọng khách bỏ cuộc. 'On purpose' tương ứng với 'in the hope that' — có chủ đích.",
+      "vocabulary": [
+        "give up"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "Requesting a reference number can stop a complaint from being brushed aside.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về mã số khiếu nại."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về thiết kế hệ thống, không có mẹo này."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'first call' và 'queue' nhưng không nói về số tham chiếu."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: xin số ticket tạo bằng chứng khó bị phớt lờ sau này."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "asking politely for a supervisor or a ticket number creates a record that is hard to ignore later",
+      "explanationVi": "Đoạn D: xin 'a ticket number' tạo ra 'a record that is hard to ignore later'. 'Reference number' = 'ticket number'; 'brushed aside' (bị gạt đi) = 'ignore'.",
+      "vocabulary": [
+        "brush aside"
+      ]
+    },
+    {
+      "number": 4,
+      "prompt": "A company's claim of better results has not been verified by any outside source.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn A có số liệu thời gian chờ ('On paper, it delivered'), nhưng không nói số liệu đó chưa được kiểm chứng."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B không nhắc tuyên bố của công ty."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: chưa có số liệu độc lập nào chứng minh lời công ty."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về số liệu."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "No independent figures backing up that claim, however, have been made public.",
+      "explanationVi": "Đoạn C: Achterberg nói khách được giải quyết ngay lần gọi đầu nhiều hơn, nhưng 'No independent figures backing up that claim ... have been made public'. 'Verified by any outside source' = 'independent figures backing up'.",
+      "vocabulary": [
+        "back up"
+      ]
+    },
+    {
+      "number": 5,
+      "prompt": "People with straightforward tasks were generally content with the automated system.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: khách có yêu cầu đơn giản thấy khá hài lòng."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói hệ thống tự động 'fine as a first stop', đó là ý kiến của Oyelaran, không phải cảm nhận của khách có việc đơn giản."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về trường hợp phức tạp, không về khách có việc đơn giản."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không đánh giá hệ thống."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "Customers with routine requests, like checking a bill or switching plans, were happy enough.",
+      "explanationVi": "Đoạn A: 'Customers with routine requests ... were happy enough'. 'Straightforward tasks' = 'routine requests'; 'generally content' = 'happy enough'.",
+      "vocabulary": [
+        "routine"
+      ]
+    },
+    {
+      "number": 6,
+      "prompt": "The company intends to scrap its automated assistant if complaints continue.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A kể lúc ra mắt hệ thống, không có kế hoạch bỏ."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B là ý kiến của người bảo vệ người tiêu dùng, không phải kế hoạch công ty."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C có thừa nhận thiết kế cứng nhắc, nhưng công ty chỉ sửa đổi và còn bảo vệ hệ thống, không nói sẽ bỏ nó."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về kế hoạch công ty."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: không đoạn nào nói công ty sẽ bỏ trợ lý tự động."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "inference",
+      "evidence": "Douglas Achterberg, vice-president of customer care, concedes that the original design was too rigid.",
+      "explanationVi": "Câu gần nhất ở Đoạn C: phó chủ tịch thừa nhận thiết kế ban đầu 'too rigid' (quá cứng nhắc). Nhưng công ty chỉ điều chỉnh (thêm 'escape hatch') và còn bảo vệ hệ thống; không đoạn nào nói sẽ bỏ hẳn trợ lý tự động → E.",
+      "vocabulary": [
+        "concede"
+      ]
+    },
+    {
+      "number": 7,
+      "prompt": "Repeatedly asking for a person should be read as a clear signal, not a misunderstanding.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'going around in circles' (lặp đi lặp lại) nhưng là hệ thống lặp lại lựa chọn, không phải khách xin gặp người."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Oyelaran nói khách nói 'agent' nhiều lần là thông điệp rõ ràng, không phải bối rối."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói câu 'I need a person' giờ đưa khách vào hàng đợi, nhưng không bàn việc hiểu yêu cầu lặp lại như thế nào."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về việc xin gặp nhân viên nhiều lần."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "\"If a customer has said 'agent' four times,\" she says, \"that isn't confusion. That's someone telling you, very clearly, what they want.\"",
+      "explanationVi": "Oyelaran: nói 'agent' bốn lần 'isn't confusion' mà là 'telling you, very clearly, what they want'. 'Repeatedly asking for a person' = nói 'agent' bốn lần; 'misunderstanding' = 'confusion'."
+    },
+    {
+      "number": 8,
+      "prompt": "Keeping a detailed log of calls may seem excessive but can turn out to be worthwhile.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không có lời khuyên ghi chép."
+        },
+        {
+          "text": "B",
+          "trap": "wrong_speaker",
+          "whyVi": "Đoạn B cũng là lời Oyelaran nhưng về thiết kế hệ thống, không phải lời khuyên ghi chép."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nói về ghi chép."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: ghi chép có vẻ thừa nhưng sẽ có ích khi cần chứng minh lời hứa hoàn tiền."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "\"It feels like overkill,\" she admits, \"right up until the day you need to prove that somebody promised you a refund.\"",
+      "explanationVi": "Đoạn D: ghi lại ngày, giờ, tên người nói chuyện 'feels like overkill' (có vẻ thừa) cho đến ngày bạn cần chứng minh ai đó hứa hoàn tiền. 'Excessive' = 'overkill'; 'worthwhile' = hữu ích khi cần bằng chứng.",
+      "vocabulary": [
+        "overkill"
+      ]
+    },
+    {
+      "number": 9,
+      "prompt": "Agents now receive additional training so they can deal with complex problems.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về nhân viên."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về thiết kế hệ thống."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'complicated cases' nhưng chỉ nói nhân viên có thêm thời gian, không nói được đào tạo."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D có 'supervisor' nhưng không nói về đào tạo."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: không đoạn nào nói nhân viên được đào tạo thêm."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "the assistant frees agents to spend more time on complicated cases",
+      "explanationVi": "Câu gần nhất ở Đoạn C: trợ lý tự động giúp nhân viên 'spend more time on complicated cases'. Đây là có thêm thời gian, không phải được đào tạo thêm. Không đoạn nào nhắc đến việc đào tạo → E."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "budge",
+      "vi": "nhúc nhích, thay đổi (thường dùng phủ định)",
+      "definition": "to move or change, even a little",
+      "example": "Satisfaction scores barely budged after the change."
+    },
+    {
+      "term": "give up",
+      "vi": "bỏ cuộc",
+      "definition": "to stop trying",
+      "example": "Many callers give up before they reach a person."
+    },
+    {
+      "term": "brush aside",
+      "vi": "gạt đi, phớt lờ",
+      "definition": "to refuse to pay attention to something",
+      "example": "A ticket number makes it harder to brush aside your complaint."
+    },
+    {
+      "term": "back up",
+      "vi": "chứng minh, ủng hộ (bằng bằng chứng)",
+      "definition": "to show that a claim is true",
+      "example": "No data backs up the company's claim."
+    },
+    {
+      "term": "concede",
+      "vi": "thừa nhận (miễn cưỡng)",
+      "definition": "to admit that something is true, often unwillingly",
+      "example": "He conceded that the design was too rigid."
+    },
+    {
+      "term": "routine",
+      "vi": "thông thường, thường ngày",
+      "definition": "ordinary and done regularly",
+      "example": "Routine requests like checking a bill are easy."
+    },
+    {
+      "term": "overkill",
+      "vi": "quá mức cần thiết",
+      "definition": "more than is needed",
+      "example": "Writing down every call feels like overkill."
+    },
+    {
+      "term": "go around in circles",
+      "vi": "loanh quanh, lặp lại không có kết quả",
+      "definition": "to keep repeating the same thing without making progress",
+      "example": "Callers often go around in circles with the automated menu."
+    }
+  ]
+}

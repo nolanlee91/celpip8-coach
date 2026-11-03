@@ -1,0 +1,185 @@
+{
+  "id": "r4-full-09",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "full",
+  "difficulty": 9,
+  "topic": "social",
+  "title": "Spare Rooms, Shared Lives: Homesharing in Greater Victoria",
+  "estimatedMinutes": 14,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 10 independently; keys match. Blank 10: replaced distractor 'the lack of protection for homeowners in a dispute' (a legal-rights worry Halvorsen did voice, arguably defensible) with 'young housemates becoming unpaid caregivers' (wrong_speaker, Leblanc); explanation now states the competition concern is attributed to 'other critics' and the writer infers it of Halvorsen's members. Q7 evidence changed to the 'unpaid caregiver' quote; RTA claim is hedged ('generally') and accurate." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "When Dorothy Pennington's husband died three years ago, the four-bedroom house in Oak Bay that had once held five children suddenly felt enormous. Her daughter in Calgary suggested a condo. Instead, Pennington, now 81, signed up with HomeShare Capital, a small non-profit that matches older homeowners who have spare rooms with students and young workers struggling to find affordable rent in Greater Victoria. Since last fall, Ama Owusu-Bekoe, a nursing student from Ghana, has lived in the back bedroom. She pays $450 a month, well under half the going rate, and in exchange spends about seven hours a week helping with groceries, snow shovelling and the occasional battle with the television remote.\n\nThe program, which has arranged 64 matches since 2021, is now asking the province for $300,000 a year to expand across Vancouver Island. Its director, Callum Fitzgerald-Ng, argues that homesharing tackles two problems at once. \"We have thousands of empty bedrooms in this region and thousands of young people sleeping on friends' couches,\" he said. \"Matching them isn't a housing solution on its own, but it's one of the cheapest ones on the table.\"\n\nFor Pennington, the arrangement has less to do with chores than with company. \"I can change my own light bulbs, thank you very much,\" she said with a laugh. \"What I couldn't manage was the silence.\"\n\nNot everyone is convinced the model is as simple as it sounds. Joanne Leblanc, a social worker who has supported seniors for two decades, says she has seen informal arrangements go badly wrong, from unpaid rent to tenants who slowly slip into the role of unpaid caregiver without anyone noticing. \"Seven hours of help can quietly become twenty,\" she said. \"When the older person's health declines, the young person may feel they can't leave, and the family may assume someone else is keeping an eye on things.\" She stresses that she is not against the program, but she wants any public money to come with regular check-ins by trained staff and clear limits on what housemates can be asked to do.\n\nFitzgerald-Ng says the program already visits every match at least twice a year, and housemates sign a written agreement listing their duties. He acknowledges, though, that with only two part-time staff, follow-up has sometimes slipped.\n\nLandlords' groups have raised a different objection. Trevor Halvorsen of the Island Rental Owners' Association notes that homeshare arrangements are generally not covered by the Residential Tenancy Act. \"If a dispute comes up, the student has very few protections, and neither does the homeowner,\" he said. Other critics have questioned whether it is fair to spend public money on below-market rooms that compete with landlords renting at full price.\n\nOwusu-Bekoe, for her part, says she knew exactly what she was signing. \"I read the agreement three times,\" she said. \"The rent matters, of course. But honestly, I didn't expect to gain a grandmother.\"",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "My father took part in a homeshare arrangement in Saanich for two years, so I read this article with a mix of warmth and worry. Mrs. Pennington's remark about the silence was exactly my dad's experience; what he needed most was [[6]], not help around the house. But Ms. Leblanc describes what happened next almost word for word. When Dad's memory started to slip, his housemate ended up [[7]], and none of us realized how much she was doing until she burned out. So I'd support provincial funding only if it [[8]]. I was glad to see Mr. Fitzgerald-Ng admit that [[9]], because honesty like that makes me trust the program more, not less. As for Mr. Halvorsen, I can't help suspecting that what really worries his members is [[10]], not the students' legal rights.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the main purpose of the article?",
+      "options": [
+        { "text": "To profile a nursing student's experience of moving to Canada", "trap": "partially_true", "whyVi": "Owusu-Bekoe là một nhân vật trong bài, nhưng bài không kể về hành trình đến Canada của cô." },
+        { "text": "To weigh the benefits of a home-sharing program against concerns raised as it seeks public money", "trap": "none", "whyVi": "Đúng: Chương trình xin tỉnh $300,000/năm; bài nêu lợi ích (Fitzgerald-Ng, Pennington) và lo ngại (Leblanc, Halvorsen)." },
+        { "text": "To encourage seniors to sell large homes and move into condos", "trap": "opposite", "whyVi": "Pennington chọn ở lại nhà thay vì mua căn hộ như con gái gợi ý; bài không khuyến khích bán nhà." },
+        { "text": "To explain recent changes to the Residential Tenancy Act", "trap": "word_match", "whyVi": "Đạo luật chỉ được nhắc để nói nó thường không áp dụng; bài không nói về thay đổi luật." }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "is now asking the province for $300,000 a year to expand across Vancouver Island",
+      "explanationVi": "Bối cảnh tranh luận là chương trình đang xin tiền tỉnh để mở rộng. Bài cân nhắc hai phía: lợi ích (phòng trống + người trẻ thiếu nhà, bầu bạn cho người già) và rủi ro (người ở cùng thành người chăm sóc không lương, thiếu bảo vệ pháp lý). 'Weigh... against' = cân nhắc giữa.",
+      "vocabulary": ["going rate"]
+    },
+    {
+      "number": 2,
+      "prompt": "What does Dorothy Pennington suggest with her remark about light bulbs?",
+      "options": [
+        { "text": "Her housemate does not help around the house as much as agreed.", "trap": "opposite", "whyVi": "Bà không phàn nàn về Ama; câu nói là về bản thân bà." },
+        { "text": "She finds household tasks harder than she admits.", "trap": "not_mentioned", "whyVi": "Bài không có dấu hiệu bà gặp khó khăn với việc nhà; bà khẳng định điều ngược lại." },
+        { "text": "She would rather be living in a condo.", "trap": "wrong_speaker", "whyVi": "Căn hộ là đề xuất của con gái bà, và bà đã không chọn." },
+        { "text": "She does not see herself as someone who needs looking after.", "trap": "none", "whyVi": "Đúng: 'I can change my own light bulbs, thank you very much' — bà tự lo được việc nhà; điều bà cần là bầu bạn." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "\"I can change my own light bulbs, thank you very much,\" she said with a laugh.",
+      "explanationVi": "'Thank you very much' ở cuối câu là cách nói hơi tự ái, vui vẻ: 'tôi tự làm được, khỏi lo'. Cộng với 'has less to do with chores than with company' → bà không coi mình là người cần được chăm sóc.",
+      "vocabulary": ["thank you very much"]
+    },
+    {
+      "number": 3,
+      "prompt": "How does Callum Fitzgerald-Ng present homesharing?",
+      "options": [
+        { "text": "As an inexpensive measure that helps with housing but cannot fix it alone", "trap": "none", "whyVi": "Đúng: 'isn't a housing solution on its own, but it's one of the cheapest ones on the table'." },
+        { "text": "As the most effective answer to the region's housing crisis", "trap": "too_broad", "whyVi": "Ông nói rõ nó 'isn't a housing solution on its own'." },
+        { "text": "As a way for seniors to earn extra income from empty rooms", "trap": "not_mentioned", "whyVi": "Ông nói về việc ghép người, không nói về thu nhập cho người già; tiền thuê lại thấp hơn giá thị trường." },
+        { "text": "As a program that can grow without government support", "trap": "opposite", "whyVi": "Chương trình đang xin tỉnh $300,000 mỗi năm để mở rộng." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "\"Matching them isn't a housing solution on its own, but it's one of the cheapest ones on the table.\"",
+      "explanationVi": "'On its own' = một mình nó → 'cannot fix it alone'. 'One of the cheapest ones on the table' (một trong những phương án rẻ nhất đang được xem xét) → 'an inexpensive measure'.",
+      "vocabulary": ["on the table"]
+    },
+    {
+      "number": 4,
+      "prompt": "What does Joanne Leblanc mean when she says, \"Seven hours of help can quietly become twenty\"?",
+      "options": [
+        { "text": "Students often refuse to do their agreed weekly hours.", "trap": "opposite", "whyVi": "Bà lo người trẻ làm nhiều hơn, không phải ít hơn." },
+        { "text": "A housemate's duties can grow little by little without anyone deciding they should.", "trap": "none", "whyVi": "Đúng: 'Quietly' = âm thầm; công việc tăng dần mà không ai để ý hay thỏa thuận lại." },
+        { "text": "The program should require twenty hours of help a week.", "trap": "word_match", "whyVi": "Dùng lại con số 'twenty', nhưng bà cảnh báo, không đề xuất." },
+        { "text": "Most seniors need far more help than they ask for at first.", "trap": "partially_true", "whyVi": "Sức khỏe người già có thể giảm, nhưng ý chính là gánh nặng chuyển sang người ở cùng mà không ai nhận ra, không phải người già đòi hỏi ít." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "tenants who slowly slip into the role of unpaid caregiver without anyone noticing",
+      "explanationVi": "'Slip into the role of' = dần dần rơi vào vai trò. 'Without anyone noticing' + 'quietly' → nhiệm vụ tăng dần ('little by little') mà không có quyết định hay thỏa thuận nào.",
+      "vocabulary": ["slip into"]
+    },
+    {
+      "number": 5,
+      "prompt": "According to Trevor Halvorsen, why are homeshare arrangements risky?",
+      "options": [
+        { "text": "Students frequently fail to pay their rent.", "trap": "wrong_speaker", "whyVi": "Tiền thuê không trả là ví dụ của Leblanc, không phải Halvorsen." },
+        { "text": "Homeowners can make students leave without any notice.", "trap": "not_mentioned", "whyVi": "Ông nói cả hai bên đều thiếu bảo vệ, không nói chủ nhà có quyền đuổi ngay." },
+        { "text": "They are unfair to landlords who charge full rent.", "trap": "wrong_speaker", "whyVi": "Ý này là của 'other critics', không phải điều Halvorsen nói trực tiếp." },
+        { "text": "Neither side can easily rely on the usual rental law if things go wrong.", "trap": "none", "whyVi": "Đúng: Đạo luật thuê nhà thường không áp dụng, nên khi tranh chấp 'the student has very few protections, and neither does the homeowner'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "\"If a dispute comes up, the student has very few protections, and neither does the homeowner,\"",
+      "explanationVi": "'Not covered by the Residential Tenancy Act' = luật thuê nhà thông thường không áp dụng. 'Neither does the homeowner' → cả hai bên ('neither side'). 'If a dispute comes up' = 'if things go wrong'. Cẩn thận: ý 'unfair to landlords' thuộc về 'other critics'."
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "a cheaper place to live", "trap": "wrong_speaker", "whyVi": "Nhà rẻ là nhu cầu của sinh viên, không phải của người cha (chủ nhà)." },
+        { "text": "someone to share his days with", "trap": "none", "whyVi": "Đúng: Giống Pennington — 'What I couldn't manage was the silence' → cần bầu bạn." },
+        { "text": "someone to change his light bulbs", "trap": "opposite", "whyVi": "Đây chính là 'help around the house' mà người viết nói là không quan trọng bằng." },
+        { "text": "a smaller home that was easier to manage", "trap": "wrong_detail", "whyVi": "Gợi ý chuyển sang căn hộ là của con gái Pennington, không liên quan đến 'the silence'." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"What I couldn't manage was the silence.\"",
+      "explanationVi": "Người viết nói lời của Pennington về sự im lặng đúng như trải nghiệm của cha mình. Thứ đối lập với 'help around the house' và chữa được 'the silence' là có người bên cạnh ('someone to share his days with')."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "paying no rent at all", "trap": "word_match", "whyVi": "Leblanc có nhắc 'unpaid rent', nhưng câu chuyện ở đây là người ở cùng làm quá nhiều đến kiệt sức." },
+        { "text": "calling the family every day", "trap": "not_mentioned", "whyVi": "Gia đình 'none of us realized' — tức là họ không được báo." },
+        { "text": "looking after him without being paid for it", "trap": "none", "whyVi": "Đúng: Khớp với cảnh báo của Leblanc về người ở cùng thành 'unpaid caregiver' mà không ai biết." },
+        { "text": "moving out without warning", "trap": "opposite", "whyVi": "Leblanc nói người trẻ 'may feel they can't leave'; cô ấy ở lại đến khi kiệt sức." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "tenants who slowly slip into the role of unpaid caregiver without anyone noticing",
+      "explanationVi": "'Leblanc describes what happened next almost word for word' → chỗ trống phải khớp với mô tả của Leblanc. 'Unpaid caregiver' = 'looking after him without being paid'. 'None of us realized... until she burned out' khớp với 'the family may assume someone else is keeping an eye on things'."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "came with trained staff checking in and limits on housemates' duties", "trap": "none", "whyVi": "Đúng: Đúng điều kiện Leblanc đặt ra cho tiền công." },
+        { "text": "went directly to the homeowners", "trap": "not_mentioned", "whyVi": "Không ai đề xuất trao tiền trực tiếp cho chủ nhà." },
+        { "text": "brought homeshares under the Residential Tenancy Act", "trap": "wrong_speaker", "whyVi": "Vấn đề luật thuê nhà là của Halvorsen; người viết lo về việc người ở cùng bị quá tải." },
+        { "text": "doubled the number of matches", "trap": "not_mentioned", "whyVi": "Câu 'only if' cần điều kiện bảo vệ, không phải mục tiêu số lượng." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "she wants any public money to come with regular check-ins by trained staff and clear limits on what housemates can be asked to do",
+      "explanationVi": "Từ 'So' nối với trải nghiệm vừa kể (người ở cùng kiệt sức) → người viết đặt điều kiện giống Leblanc. 'Public money' = 'provincial funding'; 'come with' = đi kèm với."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "housemates never sign written agreements", "trap": "opposite", "whyVi": "Ông nói người ở cùng có ký thỏa thuận ghi rõ nhiệm vụ." },
+        { "text": "follow-up visits have not always happened as planned", "trap": "none", "whyVi": "Đúng: Ông thừa nhận 'follow-up has sometimes slipped' vì chỉ có hai nhân viên bán thời gian." },
+        { "text": "the program has made only a few matches", "trap": "wrong_detail", "whyVi": "Chương trình đã ghép 64 cặp và ông không 'thừa nhận' điều này như một điểm yếu." },
+        { "text": "the rents charged are far too low", "trap": "not_mentioned", "whyVi": "Ông không nói tiền thuê quá thấp; đó gần với ý của 'other critics'." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "He acknowledges, though, that with only two part-time staff, follow-up has sometimes slipped.",
+      "explanationVi": "'Admit' = 'acknowledges'. 'Follow-up has sometimes slipped' (việc theo dõi đôi khi bị lơ là) → 'have not always happened as planned'. Sự thừa nhận điểm yếu này khiến người viết tin chương trình hơn."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "the safety of older homeowners", "trap": "not_mentioned", "whyVi": "Halvorsen và nhóm chủ nhà cho thuê không nói về an toàn của người già." },
+        { "text": "young housemates becoming unpaid caregivers", "trap": "wrong_speaker", "whyVi": "Đây là mối lo của Leblanc (nhân viên xã hội), không phải của Halvorsen hay các chủ nhà cho thuê." },
+        { "text": "the shortage of empty bedrooms", "trap": "opposite", "whyVi": "Bài nói có 'thousands of empty bedrooms', không thiếu." },
+        { "text": "cheap rooms drawing tenants away from them", "trap": "none", "whyVi": "Đúng: Bài gán ý phòng giá rẻ 'compete with landlords renting at full price' cho 'other critics', không phải Halvorsen; nhưng người viết bình luận nghi rằng đây mới là mối lo thật của hội viên ông (các chủ nhà cho thuê)." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Other critics have questioned whether it is fair to spend public money on below-market rooms that compete with landlords renting at full price.",
+      "explanationVi": "'Can't help suspecting... what really worries his members' = nghi động cơ thật sự đằng sau. Hội viên của Halvorsen là chủ nhà cho thuê; phòng homeshare giá rẻ 'compete with landlords' → họ sợ mất khách thuê. Lưu ý: trong bài, ý cạnh tranh này là của 'other critics'; Halvorsen chỉ nói công khai về quyền pháp lý. Người viết bình luận tự suy luận động cơ ẩn, đối lập với 'the students' legal rights'. B là mối lo của Leblanc, không phải của chủ nhà cho thuê."
+    }
+  ],
+  "vocabulary": [
+    { "term": "going rate", "vi": "giá thị trường hiện hành", "definition": "the usual price that people pay for something at the moment", "example": "She pays well under half the going rate." },
+    { "term": "on the table", "vi": "đang được xem xét", "definition": "being considered or offered as an option", "example": "Homesharing is one of the cheapest options on the table." },
+    { "term": "thank you very much", "vi": "(mỉa nhẹ) tôi tự lo được, khỏi cần", "definition": "said after a statement to show you don't need anyone's help", "example": "I can change my own light bulbs, thank you very much." },
+    { "term": "slip into", "vi": "dần dần rơi vào (vai trò, tình trạng)", "definition": "to gradually start being in a role or situation without noticing", "example": "Some tenants slip into the role of caregiver." },
+    { "term": "keep an eye on", "vi": "để mắt, trông chừng", "definition": "to watch someone or something to make sure they are safe", "example": "The family assumed someone was keeping an eye on him." },
+    { "term": "below-market", "vi": "thấp hơn giá thị trường", "definition": "cheaper than the usual price", "example": "The program offers below-market rooms." },
+    { "term": "burn out", "vi": "kiệt sức", "definition": "to become extremely tired from working too hard", "example": "The housemate burned out after months of extra care." },
+    { "term": "can't help", "vi": "không thể không", "definition": "to be unable to stop yourself from doing or feeling something", "example": "I can't help suspecting there is another reason." },
+    { "term": "word for word", "vi": "y hệt từng chữ", "definition": "in exactly the same words", "example": "She described our situation almost word for word." }
+  ]
+}

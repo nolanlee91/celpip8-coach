@@ -1,0 +1,428 @@
+{
+  "id": "r3-full-09",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "full",
+  "difficulty": 9,
+  "topic": "community-services",
+  "title": "Borrowing a Pressure Washer from the Library",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 9 independently; keys match. Both E items verified: Q5 (funding to hire technicians) - D only says the two technicians are stretched thin; Q9 (children borrowing without an adult) - B only sets an 18+ rule for power tools, nothing about other items. Q6 vs D ('rarely needed and awkward to store' is the library's selection criterion) is distinct enough. No changes needed."},
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "Nobody at the Cedar Valley Regional Library expected a pressure washer to become its most requested item. When the library launched its Library of Things collection in Kelowna two years ago, staff assumed that sewing machines and board games would lead the way. Instead, the waitlist for the pressure washer stretched to eleven weeks by its first summer, closely followed by a carpet cleaner and a thermal camera that helps people find drafts around windows. Collections librarian Ifeoma Chukwu says the pattern makes sense in hindsight. \"People don't want to own a carpet cleaner,\" she says. \"They want a clean carpet twice a year, and they'd rather not store a bulky machine for the other fifty weeks.\"",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "Borrowing works much like borrowing a book, with a few extra conditions. Members must be at least eighteen to take out power tools, and equipment is lent for one week rather than the usual three. Cedar Valley dropped late fees on books years ago, but the policy is different here: equipment returned late costs $2 a day, a rule the library brought back after finding that its most popular items were sitting in garages long past their due dates. Damage is handled case by case. Staff accept that normal wear and tear comes with the territory, and Chukwu says they have billed borrowers only twice, both times for items that came back in pieces.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "The collection has its critics. Brent Kowalczyk, who owns a local hardware store, told city council that the library was using tax dollars to compete with businesses that rent out the same equipment. Chukwu disputes that. Most of the library's tools, she says, are things people would never have rented in the first place; they would simply have gone without, or bought something cheap that broke within a year. Kowalczyk is not entirely convinced, but he has since agreed to run free tool-safety workshops at the library, which he admits have brought a few new customers through his own doors. \"I still think they've wandered onto my turf,\" he says, \"but it's hard to stay mad at people who keep sending me business.\"",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "The library now plans to grow the collection, though not without careful thought. Every item costs more to manage than a book: it has to be cleaned, tested and sometimes repaired between loans, and the library's two part-time technicians are already stretched thin. Rather than simply buying more equipment, Chukwu wants to focus on items that are expensive, rarely needed and awkward to store, which she calls the \"sweet spot\" for a lending library. Donations from the public are welcome, but only after a technician has checked them over, since staff have learned the hard way that a donated tool which hasn't run in years can cost more to fix than to replace.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Staff misjudged which items the public would be most eager to borrow.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: nhân viên tưởng máy may và board game sẽ đắt khách nhất, nhưng thực tế là máy rửa áp lực."
+        },
+        {
+          "text": "B",
+          "trap": "word_match",
+          "whyVi": "Đoạn B có 'most popular items' nhưng nói về việc trả trễ, không nói nhân viên đoán sai."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về tranh cãi với cửa hàng, không nói về dự đoán của nhân viên."
+        },
+        {
+          "text": "D",
+          "trap": "partially_true",
+          "whyVi": "Đoạn D nói thư viện đã rút kinh nghiệm 'the hard way' — nhưng là về đồ quyên góp, không phải đoán sai món được ưa chuộng."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "staff assumed that sewing machines and board games would lead the way",
+      "explanationVi": "Đoạn A: nhân viên 'assumed that sewing machines and board games would lead the way', nhưng thực tế máy rửa áp lực mới được mượn nhiều nhất. 'Misjudged' = đoán sai; 'most eager to borrow' = 'most requested'. Câu đầu 'Nobody ... expected' cũng cho thấy điều này."
+    },
+    {
+      "number": 2,
+      "prompt": "A business owner's attitude toward the program has softened, though he still has reservations.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không có chủ doanh nghiệp nào."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về quy định mượn đồ."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Kowalczyk vẫn chưa hoàn toàn đồng ý nhưng không còn giận vì thư viện gửi khách cho ông."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về kế hoạch mở rộng, không có ý kiến của chủ cửa hàng."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "\"I still think they've wandered onto my turf,\" he says, \"but it's hard to stay mad at people who keep sending me business.\"",
+      "explanationVi": "Kowalczyk vẫn nghĩ thư viện 'wandered onto my turf' (lấn sân của ông) — còn dè dặt; nhưng 'hard to stay mad' vì thư viện mang khách đến cho ông — thái độ đã dịu lại. 'Softened' = 'hard to stay mad'; 'still has reservations' = 'not entirely convinced'.",
+      "vocabulary": [
+        "turf"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "Charges for overdue equipment were reintroduced because items were not coming back on time.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'waitlist ... eleven weeks' — chờ lâu, nhưng không nói về phí trả trễ."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: phí trả trễ được áp dụng lại vì đồ bị giữ quá hạn."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nói về phí."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn D nói chi phí quản lý mỗi món đồ, không phải phí phạt trả trễ."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "a rule the library brought back after finding that its most popular items were sitting in garages long past their due dates",
+      "explanationVi": "Đoạn B: phí trả trễ $2/ngày là quy định thư viện 'brought back' (đưa trở lại) sau khi thấy đồ nằm trong gara 'long past their due dates'. 'Reintroduced' = 'brought back'; 'not coming back on time' = quá hạn trả.",
+      "vocabulary": [
+        "due date"
+      ]
+    },
+    {
+      "number": 4,
+      "prompt": "Accepting donated equipment without checking it first can end up costing the library money.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về đồ quyên góp."
+        },
+        {
+          "text": "B",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn B nói về đồ người mượn làm hỏng, không phải đồ quyên góp."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'free tool-safety workshops' — có từ 'tool' và 'free', nhưng không nói về quyên góp."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: đồ quyên góp hỏng lâu năm có thể tốn tiền sửa hơn mua mới."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "a donated tool which hasn't run in years can cost more to fix than to replace",
+      "explanationVi": "Đoạn D: đồ quyên góp chỉ được nhận sau khi kỹ thuật viên kiểm tra, vì món đồ lâu không chạy 'can cost more to fix than to replace'. Suy ra nhận đồ quyên góp mà không kiểm tra có thể gây tốn kém.",
+      "vocabulary": [
+        "the hard way"
+      ]
+    },
+    {
+      "number": 5,
+      "prompt": "The library has secured extra funding to hire more technical staff.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về nhân sự."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B không nói về tuyển dụng."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'tax dollars' (tiền thuế) nhưng là lời chỉ trích, không nói về tiền tuyển người."
+        },
+        {
+          "text": "D",
+          "trap": "partially_true",
+          "whyVi": "Đoạn D nói kỹ thuật viên quá tải và thư viện muốn mở rộng, nhưng không nói có tiền tuyển thêm người."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: không đoạn nào nói thư viện có ngân sách tuyển thêm kỹ thuật viên."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "the library's two part-time technicians are already stretched thin",
+      "explanationVi": "Câu gần nhất ở Đoạn D: hai kỹ thuật viên bán thời gian 'are already stretched thin' (đã quá tải). Bài chỉ nói họ quá tải, không nói thư viện có thêm ngân sách để tuyển người → E.",
+      "vocabulary": [
+        "stretched thin"
+      ]
+    },
+    {
+      "number": 6,
+      "prompt": "Many people would rather have occasional use of something than keep one at home.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: Chukwu nói người ta chỉ cần dùng vài lần mỗi năm và không muốn cất máy cồng kềnh."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về quy định mượn, không nói người ta thích mượn hơn sở hữu."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói nhiều người lẽ ra sẽ không thuê hoặc mua đồ rẻ — gần ý, nhưng không nói họ thích dùng thỉnh thoảng hơn sở hữu."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn D có 'rarely needed and awkward to store' nhưng đó là tiêu chí chọn món của thư viện, không phải mong muốn của người dân."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "They want a clean carpet twice a year, and they'd rather not store a bulky machine for the other fifty weeks.",
+      "explanationVi": "Chukwu: người ta muốn thảm sạch 'twice a year' nhưng 'they'd rather not store a bulky machine'. 'Occasional use' = 'twice a year'; 'keep one at home' = 'store a bulky machine'. Đoạn D cũng nói 'rarely needed and awkward to store' nhưng đó là tiêu chí chọn đồ của thư viện.",
+      "vocabulary": [
+        "bulky"
+      ]
+    },
+    {
+      "number": 7,
+      "prompt": "Borrowers are seldom asked to pay for damage to the equipment.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về hư hỏng."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: thư viện chỉ bắt người mượn trả tiền hai lần, cho đồ bị vỡ nát."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'broke within a year' nhưng nói về đồ rẻ người ta tự mua."
+        },
+        {
+          "text": "D",
+          "trap": "partially_true",
+          "whyVi": "Đoạn D nói đồ phải được sửa giữa các lần mượn, nhưng không nói ai trả tiền."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Chukwu says they have billed borrowers only twice, both times for items that came back in pieces",
+      "explanationVi": "Đoạn B: thư viện chấp nhận hao mòn thông thường và 'billed borrowers only twice'. 'Seldom asked to pay' = 'billed ... only twice'.",
+      "vocabulary": [
+        "wear and tear"
+      ]
+    },
+    {
+      "number": 8,
+      "prompt": "Without the library, many users would never have paid a business to rent the equipment.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A giải thích vì sao người ta mượn thay vì mua, nhưng không nói họ sẽ không thuê từ cửa hàng."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về quy định mượn."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Chukwu nói nhiều người lẽ ra sẽ không bao giờ thuê dụng cụ đó."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về kế hoạch mở rộng."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Most of the library's tools, she says, are things people would never have rented in the first place",
+      "explanationVi": "Đoạn C: Chukwu nói phần lớn dụng cụ là thứ 'people would never have rented in the first place'; họ sẽ 'gone without' (chịu không có). Đây là lý lẽ phản bác việc thư viện cạnh tranh với cửa hàng cho thuê.",
+      "vocabulary": [
+        "go without"
+      ]
+    },
+    {
+      "number": 9,
+      "prompt": "Children may borrow board games and sewing machines without an adult present.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'sewing machines and board games' nhưng chỉ nói nhân viên tưởng chúng sẽ được mượn nhiều nhất."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói phải đủ 18 tuổi để mượn dụng cụ điện, nhưng không nói trẻ em được mượn đồ khác một mình."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nói về trẻ em."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về độ tuổi."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: không đoạn nào nói trẻ em được mượn board game hay máy may mà không có người lớn."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "Members must be at least eighteen to take out power tools",
+      "explanationVi": "Câu gần nhất ở Đoạn B chỉ nói giới hạn tuổi (18) cho dụng cụ điện. Bài không nói trẻ em được mượn board game hay máy may một mình. Không được suy luận ngược 'không phải dụng cụ điện thì trẻ em được mượn' → E. Đoạn A có nhắc máy may và board game nhưng chỉ là dự đoán của nhân viên."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "in hindsight",
+      "vi": "nhìn lại thì, sau khi sự việc đã xảy ra",
+      "definition": "when you think about something after it has happened",
+      "example": "In hindsight, the pressure washer was an obvious choice."
+    },
+    {
+      "term": "bulky",
+      "vi": "cồng kềnh",
+      "definition": "large and taking up a lot of space",
+      "example": "Nobody wants to store a bulky carpet cleaner."
+    },
+    {
+      "term": "due date",
+      "vi": "hạn trả",
+      "definition": "the date by which something must be returned or paid",
+      "example": "Equipment kept past its due date costs $2 a day."
+    },
+    {
+      "term": "wear and tear",
+      "vi": "hao mòn thông thường",
+      "definition": "damage that happens naturally from normal use",
+      "example": "Normal wear and tear is not charged to borrowers."
+    },
+    {
+      "term": "go without",
+      "vi": "chịu không có, nhịn",
+      "definition": "to manage without something you want or need",
+      "example": "Many people would simply go without a pressure washer."
+    },
+    {
+      "term": "turf",
+      "vi": "địa bàn, lãnh địa (nghĩa bóng)",
+      "definition": "an area of business or activity that someone sees as their own",
+      "example": "He feels the library has moved onto his turf."
+    },
+    {
+      "term": "stretched thin",
+      "vi": "quá tải, phải lo quá nhiều việc",
+      "definition": "having too much work for the time or people available",
+      "example": "The two technicians are already stretched thin."
+    },
+    {
+      "term": "the hard way",
+      "vi": "qua kinh nghiệm đắt giá",
+      "definition": "by having a bad experience",
+      "example": "Staff learned the hard way to test donated tools."
+    }
+  ]
+}

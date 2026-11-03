@@ -1,0 +1,58 @@
+{
+  "id": "s8-practice-03",
+  "kind": "speaking",
+  "taskType": "S8",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "recreation",
+  "title": "A hiking backpack that stands on its own legs",
+  "prompt": "Your friend is planning a weekend camping trip to Garibaldi Provincial Park and has asked you to look for a new backpack for her. At an outdoor gear store in Squamish, you see this unusual backpack. Call your friend, describe it in as much detail as you can, and tell her whether you think she should buy it.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='#eef3ee'/><rect y='440' width='800' height='60' fill='#b9c4b0'/><g stroke='#b2bec3' stroke-width='8' stroke-linecap='round'><line x1='335' y1='370' x2='290' y2='437'/><line x1='400' y1='375' x2='400' y2='437'/><line x1='465' y1='370' x2='510' y2='437'/></g><g fill='#2d3436'><ellipse cx='290' cy='440' rx='13' ry='5'/><ellipse cx='400' cy='440' rx='13' ry='5'/><ellipse cx='510' cy='440' rx='13' ry='5'/></g><rect x='325' y='100' width='22' height='60' rx='8' fill='#2d3436'/><rect x='453' y='100' width='22' height='60' rx='8' fill='#2d3436'/><rect x='300' y='130' width='200' height='250' rx='40' fill='#2e7d32'/><path d='M300 178 Q300 120 400 120 Q500 120 500 178 Z' fill='#e67e22'/><rect x='355' y='133' width='90' height='32' fill='#1e3a8a' stroke='#cbd5e1' stroke-width='2'/><path d='M385 133 V165 M415 133 V165 M355 149 H445' stroke='#cbd5e1' stroke-width='2'/><rect x='330' y='240' width='140' height='110' rx='18' fill='#1f2a5a'/><line x1='345' y1='258' x2='455' y2='258' stroke='#b2bec3' stroke-width='4' stroke-dasharray='5 2'/><rect x='448' y='254' width='10' height='20' rx='3' fill='#d63031'/><rect x='270' y='210' width='36' height='110' rx='10' fill='#81d4fa' stroke='#4fa3d1' stroke-width='2'/><rect x='276' y='196' width='24' height='16' rx='3' fill='#455a64'/><rect x='264' y='262' width='46' height='72' rx='8' fill='#1b5e20'/><rect x='495' y='170' width='40' height='190' rx='20' fill='#8e44ad'/><rect x='490' y='210' width='50' height='9' fill='#2d3436'/><rect x='490' y='310' width='50' height='9' fill='#2d3436'/><rect x='620' y='380' width='120' height='42' rx='4' fill='#ffffff' stroke='#999999'/><text x='680' y='408' font-family='Arial' font-size='20' font-weight='bold' fill='#d63031' text-anchor='middle'>$149</text></svg>",
+  "options": null,
+  "structure": [
+    "Say where you are and give a one-sentence overview: a backpack with legs.",
+    "Describe the main body from top to bottom: straps, orange flap with the solar panel, front pocket.",
+    "Describe the sides (water bottle, purple mat) and then the strangest part: the three metal legs.",
+    "Guess what the legs are for, give the price and recommend buying it or not."
+  ],
+  "modelAnswer": "Hey Priya, it's me. I'm at the outdoor store in Squamish, and I've just spotted the strangest backpack, so I had to call you. Basically, it's a hiking backpack with legs. The main part is dark green and nicely rounded, and you can see two black shoulder straps sticking up behind it. The top flap is bright orange, and built into it there's a small dark blue solar panel, probably for charging your phone. On the front, there's a big navy pocket with a grey zipper and a little red pull tab. On the left side, a light blue water bottle is tucked into a dark green side pocket, and on the right, a purple rolled-up mat is held in place by two black straps. But here's the funny part: underneath, there are three silver metal legs with black rubber feet, so the whole thing stands up by itself. I bet you could even sit on it like a stool. It's $149. Honestly, I think it's worth it, because you'd have a seat wherever you stop. Should I grab it?",
+  "usefulExpressions": [
+    {
+      "expression": "Basically, it's a… with…",
+      "usageVi": "Câu tổng quan ngắn gọn giúp người nghe hình dung ngay từ đầu"
+    },
+    {
+      "expression": "…is tucked into…",
+      "usageVi": "Tả một vật được nhét gọn vào chỗ khác (chai nước trong túi bên)"
+    },
+    {
+      "expression": "…is held in place by…",
+      "usageVi": "Tả cách một bộ phận được giữ cố định"
+    },
+    {
+      "expression": "But here's the funny part: …",
+      "usageVi": "Báo hiệu chi tiết lạ nhất của đồ vật"
+    },
+    {
+      "expression": "I bet you could even…",
+      "usageVi": "Đoán công dụng một cách tự nhiên, thân mật"
+    },
+    {
+      "expression": "Should I grab it?",
+      "usageVi": "Kết thúc cuộc gọi bằng câu hỏi ý kiến (grab = mua nhanh)"
+    }
+  ],
+  "commonMistakes": [
+    "Bắt đầu bằng chi tiết nhỏ (khóa kéo, quai) trước khi nói đây là cái ba lô có chân — người nghe sẽ không hình dung được.",
+    "Nói 'a green color bag' thay vì 'a dark green backpack'; màu là tính từ đứng trước danh từ, không cần 'color'.",
+    "Bỏ qua chi tiết lạ nhất (ba cái chân kim loại) hoặc nói quá muộn khi đã hết giờ."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Read the SVG markup and matched every detail of the model answer (black straps behind, orange flap with dark blue solar panel, navy pocket with grey zipper and red pull tab, light blue bottle in green side pocket on the left, purple mat with two black straps on the right, three silver legs with black feet, $149 sign). SVG rules OK (800x500, no script/handlers/href/foreignObject, only a price sign). Length 180 words; no changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

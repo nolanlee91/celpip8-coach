@@ -11,7 +11,7 @@
     {
       "segments": [
         { "speaker": "Teresa", "voice": "female_a", "text": "Arjun, got a sec? I just got off the phone with Northbrook Home, and they're, well, not happy. Their container was supposed to be at their warehouse in Langley yesterday." },
-        { "speaker": "Arjun", "voice": "male_a", "text": "The one from Shanghai? Yeah, I was just about to come find you. It's been flagged for a customs exam at Deltaport." },
+        { "speaker": "Arjun", "voice": "male_a", "text": "Hi, Teresa. The one from Shanghai? Yeah, I was just about to come find you. It's been flagged for a customs exam at Deltaport." },
         { "speaker": "Teresa", "voice": "female_a", "text": "An exam? Since when?" },
         { "speaker": "Arjun", "voice": "male_a", "text": "The notice came in Tuesday night, but it went to Kevin's inbox, and he's been off sick all week. So nobody saw it until this morning. That's on us, not on customs." },
         { "speaker": "Teresa", "voice": "female_a", "text": "Oh, fantastic. So how long does an exam usually take?" },
@@ -184,7 +184,7 @@
   ],
   "estimatedMinutes": 10,
   "source": "curated",
-  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; key matched. Number-heavy distractors (1-2 days / 5-7 business days / $1,800 / 10 days) verified unambiguous. Changed: Q7 correct option said 'her manager' but the transcript never says Linda is Teresa's manager - now names Linda." },
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; key matched. Number-heavy distractors (1-2 days / 5-7 business days / $1,800 / 10 days) verified unambiguous. Changed: Q7 correct option said 'her manager' but the transcript never says Linda is Teresa's manager - now names Linda. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)." },
   "createdAt": "2026-10-26",
   "focus": []
 }

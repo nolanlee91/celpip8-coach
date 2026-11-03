@@ -1,0 +1,192 @@
+{
+  "id": "l1-full-04",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "banking",
+  "title": "A damage deposit sent to the wrong address",
+  "context": "You will hear a couple in Victoria who have just discovered that an online money transfer for their new apartment's damage deposit went to the wrong email address.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Ravi", "voice": "male_b", "text": "Sofia, do you remember the email address the new landlord gave us? The one for the damage deposit?" },
+        { "speaker": "Sofia", "voice": "female_a", "text": "It's in the lease, why? You sent it this morning, didn't you?" },
+        { "speaker": "Ravi", "voice": "male_b", "text": "I did. Or, well, I thought I did. He just texted asking when it's coming. So I went into my banking app, and the transfer went to a Gmail address. The lease says Hotmail." },
+        { "speaker": "Sofia", "voice": "female_a", "text": "Oh, Ravi. How much was it again? Twelve hundred?" },
+        { "speaker": "Ravi", "voice": "male_b", "text": "Twelve fifty. And before you say it, yes, I typed it in from memory instead of copying it off the lease. I was rushing to catch the bus." },
+        { "speaker": "Sofia", "voice": "female_a", "text": "I wasn't going to say a word. Okay, what does the app say? Has it been deposited?" },
+        { "speaker": "Ravi", "voice": "male_b", "text": "It says pending. So whoever owns that Gmail address hasn't accepted it yet. Or, I mean, it might not even be a real account." },
+        { "speaker": "Sofia", "voice": "female_a", "text": "Then there's still a window. If nobody's touched it, you can cancel it yourself, right? There should be a button for that." },
+        { "speaker": "Ravi", "voice": "male_b", "text": "There is. I just didn't want to press anything before I'd talked to you, in case I made things worse." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What mistake did Ravi make?",
+          "options": [
+            { "text": "He sent more money than the lease required.", "trap": "wrong_detail", "whyVi": "Số tiền 1.250 đô không bị nói là sai; Sofia chỉ nhớ nhầm là 1.200." },
+            { "text": "He copied the wrong address from the lease.", "trap": "opposite", "whyVi": "Ravi nói anh gõ theo trí nhớ, KHÔNG chép từ hợp đồng ('instead of copying it off the lease')." },
+            { "text": "He relied on his memory and entered an incorrect address.", "trap": "none", "whyVi": "Đúng: anh gõ địa chỉ theo trí nhớ nên gửi nhầm sang Gmail thay vì Hotmail." },
+            { "text": "He forgot to send the deposit before catching the bus.", "trap": "opposite", "whyVi": "Anh đã gửi buổi sáng; vấn đề là gửi nhầm địa chỉ." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "I typed it in from memory instead of copying it off the lease",
+          "explanationVi": "Ghép hai chi tiết: tiền đi tới 'a Gmail address' trong khi hợp đồng ghi 'Hotmail', và anh 'typed it in from memory'. Đáp án C diễn đạt lại; đáp án B là bẫy đảo nghĩa của 'instead of copying'.",
+          "vocabulary": ["damage deposit"]
+        },
+        {
+          "number": 2,
+          "prompt": "What does Sofia mean when she says she wasn't going to say a word?",
+          "options": [
+            { "text": "She had no intention of criticizing him for the mistake.", "trap": "none", "whyVi": "Đúng: Ravi đoán trước cô sẽ trách ('before you say it'), cô đáp rằng mình không định nói gì." },
+            { "text": "She plans to keep the problem from the landlord.", "trap": "word_match", "whyVi": "'Not say a word' có thể hiểu là giữ bí mật, nhưng ở đây cô đang trả lời câu 'before you say it' của Ravi." },
+            { "text": "She is too upset to talk about it.", "trap": "opposite", "whyVi": "Cô bình tĩnh hỏi ngay app hiển thị gì; không hề quá buồn để nói chuyện." },
+            { "text": "She was annoyed that he hadn't told her sooner.", "trap": "not_mentioned", "whyVi": "Bài không có chi tiết nào cho thấy Sofia trách anh báo muộn." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "I wasn't going to say a word.",
+          "explanationVi": "Câu này đáp lại 'before you say it, yes, I typed it in from memory'. Sofia ngụ ý cô sẽ không trách anh, rồi chuyển ngay sang giải quyết vấn đề.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "What does the word 'pending' tell Ravi about the transfer?",
+          "options": [
+            { "text": "The bank has frozen it as suspicious.", "trap": "not_mentioned", "whyVi": "Bài không nói ngân hàng đóng băng giao dịch." },
+            { "text": "The landlord has already received the money.", "trap": "opposite", "whyVi": "Chủ nhà đang hỏi khi nào tiền đến, và tiền gửi sang địa chỉ khác." },
+            { "text": "It has been sent back to his account.", "trap": "not_mentioned", "whyVi": "Không có thông tin tiền đã được trả lại." },
+            { "text": "Nobody has claimed the money yet.", "trap": "none", "whyVi": "Đúng: chủ địa chỉ Gmail 'hasn't accepted it yet'." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "So whoever owns that Gmail address hasn't accepted it yet.",
+          "explanationVi": "Ravi giải thích ý nghĩa của 'pending': 'hasn't accepted it yet'. Đáp án D đổi 'accepted' thành 'claimed'.",
+          "vocabulary": ["pending"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Ravi", "voice": "male_b", "text": "Okay, I pressed cancel, and it threw up an error. Something like, this transfer can't be cancelled online, please contact us." },
+        { "speaker": "Sofia", "voice": "female_a", "text": "Of course it did. Call them, then. The number's on the back of your card." },
+        { "speaker": "Ravi", "voice": "male_b", "text": "I'm on hold. Twenty-two minutes, it says. Meanwhile, the landlord's waiting. Should I just send him another twelve fifty from the line of credit and sort out the first one later?" },
+        { "speaker": "Sofia", "voice": "female_a", "text": "I'd hold off on that. If the first one does end up with some stranger, we're down twenty-five hundred instead of twelve fifty, and we'd be paying interest on half of it." },
+        { "speaker": "Ravi", "voice": "male_b", "text": "But if we don't pay today, he'll give the place to the next people on his list." },
+        { "speaker": "Sofia", "voice": "female_a", "text": "Did he actually say that, or is that you assuming the worst?" },
+        { "speaker": "Ravi", "voice": "male_b", "text": "He said, and I quote, I've got other people interested." },
+        { "speaker": "Sofia", "voice": "female_a", "text": "That's not the same thing at all. Text him the truth. Tell him you made a mistake with the address, you're on the phone with the bank, and if it isn't sorted by tonight, you'll drop off a bank draft first thing tomorrow. Landlords like a paper trail." }
+      ],
+      "questions": [
+        {
+          "number": 4,
+          "prompt": "Why does Sofia advise against sending a second payment right away?",
+          "options": [
+            { "text": "The line of credit does not have enough room left.", "trap": "not_mentioned", "whyVi": "Bài không nói hạn mức tín dụng không đủ." },
+            { "text": "The bank told them to wait until the first transfer was cancelled.", "trap": "wrong_speaker", "whyVi": "Ravi vẫn đang chờ máy; lời khuyên chờ là của Sofia, không phải của ngân hàng." },
+            { "text": "They could lose twice the amount, partly on borrowed money.", "trap": "none", "whyVi": "Đúng: nếu khoản đầu bị người lạ nhận, họ mất 2.500 đô, và phải trả lãi cho phần vay từ hạn mức tín dụng." },
+            { "text": "The landlord has already agreed to wait until next week.", "trap": "not_mentioned", "whyVi": "Chủ nhà chưa đồng ý chờ; anh ta chỉ nói có người khác quan tâm." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "If the first one does end up with some stranger, we're down twenty-five hundred instead of twelve fifty, and we'd be paying interest on half of it.",
+          "explanationVi": "'Down twenty-five hundred instead of twelve fifty' = mất gấp đôi; 'paying interest on half of it' = một nửa là tiền vay. Đáp án C diễn đạt lại thành 'lose twice the amount, partly on borrowed money'.",
+          "vocabulary": ["line of credit", "hold off"]
+        },
+        {
+          "number": 5,
+          "prompt": "How does Sofia react to Ravi's fear about losing the apartment?",
+          "options": [
+            { "text": "She agrees that the apartment is probably lost.", "trap": "opposite", "whyVi": "Sofia cho rằng Ravi đang nghĩ quá xa, không đồng ý là mất nhà." },
+            { "text": "She thinks he is reading too much into the landlord's words.", "trap": "none", "whyVi": "Đúng: 'assuming the worst' và 'That's not the same thing at all' – câu của chủ nhà không phải lời đe dọa." },
+            { "text": "She suggests they start looking for another place.", "trap": "not_mentioned", "whyVi": "Cô không đề nghị tìm nhà khác." },
+            { "text": "She is angry that the landlord is pressuring them.", "trap": "not_mentioned", "whyVi": "Cô không tỏ ra giận chủ nhà; cô còn khuyên nói thật với ông ta." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "Did he actually say that, or is that you assuming the worst?",
+          "explanationVi": "Sofia nghi ngờ Ravi đang 'assuming the worst', và khi nghe câu thật của chủ nhà, cô nói 'That's not the same thing at all'. Đáp án B: Ravi suy diễn quá mức ('reading too much into').",
+          "vocabulary": ["assume the worst"]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Sofia suggest Ravi tell the landlord?",
+          "options": [
+            { "text": "That the bank caused the delay with the transfer.", "trap": "opposite", "whyVi": "Sofia bảo nói thật: chính Ravi nhập sai địa chỉ ('you made a mistake')." },
+            { "text": "That they will pay in cash when they pick up the keys.", "trap": "not_mentioned", "whyVi": "Không ai nhắc đến tiền mặt hay nhận chìa khóa." },
+            { "text": "That he needs another week to send the money.", "trap": "wrong_detail", "whyVi": "Phương án dự phòng là sáng mai, không phải một tuần nữa." },
+            { "text": "What went wrong, and that a more secure form of payment will follow if needed.", "trap": "none", "whyVi": "Đúng: nói thật về lỗi, và nếu tối nay chưa xong thì sáng mai mang hối phiếu ngân hàng tới." }
+          ],
+          "answerIndex": 3,
+          "category": "long_conversation",
+          "evidence": "Tell him you made a mistake with the address, you're on the phone with the bank, and if it isn't sorted by tonight, you'll drop off a bank draft first thing tomorrow.",
+          "explanationVi": "Lời khuyên có hai phần: thành thật ('Text him the truth ... you made a mistake') và phương án dự phòng ('a bank draft first thing tomorrow'). 'Bank draft' được diễn đạt là 'a more secure form of payment'.",
+          "vocabulary": ["bank draft", "paper trail"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Ravi", "voice": "male_b", "text": "Okay, I finally got through. Long story short, she's put a stop on it." },
+        { "speaker": "Sofia", "voice": "female_a", "text": "So the money's coming back?" },
+        { "speaker": "Ravi", "voice": "male_b", "text": "Eventually. Because nobody had accepted it, she could stop it from their side, but it can take up to thirty days to land back in my account. Something about the transfer having to expire first." },
+        { "speaker": "Sofia", "voice": "female_a", "text": "Thirty days. Okay, that's annoying, but it's not gone. And the landlord?" },
+        { "speaker": "Ravi", "voice": "male_b", "text": "He wrote back while I was on hold. He says a bank draft is fine, and he'll swing by our place tomorrow at eight to pick it up, which saves us a trip." },
+        { "speaker": "Sofia", "voice": "female_a", "text": "See? So you just pop into the branch first thing tomorrow." },
+        { "speaker": "Ravi", "voice": "male_b", "text": "It opens at nine-thirty on Saturdays. He's coming at eight." },
+        { "speaker": "Sofia", "voice": "female_a", "text": "Ah. Then go after work today. They're open till five on Fridays. And this time, copy and paste his address when you set him up for next month's rent." },
+        { "speaker": "Ravi", "voice": "male_b", "text": "Trust me, I'm never typing an email address from memory again." }
+      ],
+      "questions": [
+        {
+          "number": 7,
+          "prompt": "What did the bank agent tell Ravi about his money?",
+          "options": [
+            { "text": "It will return to him, but only after some delay.", "trap": "none", "whyVi": "Đúng: tiền sẽ về lại tài khoản nhưng có thể mất tới 30 ngày." },
+            { "text": "It will be back in his account by tomorrow.", "trap": "opposite", "whyVi": "Có thể mất tới 30 ngày, không phải ngày mai." },
+            { "text": "He must wait for the stranger to send it back.", "trap": "wrong_detail", "whyVi": "Vì chưa ai nhận, ngân hàng tự chặn giao dịch; không cần người lạ gửi lại." },
+            { "text": "He will be charged a fee for stopping it.", "trap": "not_mentioned", "whyVi": "Không có thông tin về phí." }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "it can take up to thirty days to land back in my account",
+          "explanationVi": "'Eventually' và 'up to thirty days to land back in my account' = tiền sẽ về nhưng chậm. Đáp án A diễn đạt lại thành 'only after some delay'.",
+          "vocabulary": ["put a stop on"]
+        },
+        {
+          "number": 8,
+          "prompt": "Why does Ravi need to get the bank draft today?",
+          "options": [
+            { "text": "The landlord insists on receiving it this evening.", "trap": "wrong_detail", "whyVi": "Chủ nhà sẽ đến lấy lúc 8 giờ sáng mai, không phải tối nay." },
+            { "text": "The branch will be closed for the whole weekend.", "trap": "opposite", "whyVi": "Chi nhánh có mở thứ Bảy, nhưng từ 9 giờ 30." },
+            { "text": "He has to cancel the first transfer in person.", "trap": "partially_true", "whyVi": "Giao dịch đầu đã được chặn qua điện thoại rồi; không cần đến chi nhánh để huỷ." },
+            { "text": "The branch won't be open in time for the landlord's visit.", "trap": "none", "whyVi": "Đúng: thứ Bảy chi nhánh mở 9 giờ 30, mà chủ nhà đến lúc 8 giờ." }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "It opens at nine-thirty on Saturdays. He's coming at eight.",
+          "explanationVi": "Phải so sánh hai mốc giờ: chi nhánh mở 9:30 sáng thứ Bảy, chủ nhà đến 8:00. Vì vậy Sofia bảo đi chiều nay. Đáp án D là suy luận từ hai con số này.",
+          "vocabulary": ["swing by"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "damage deposit", "vi": "tiền đặt cọc thiệt hại (khi thuê nhà)", "definition": "money a tenant pays a landlord to cover possible damage, returned at the end of the tenancy", "example": "We sent the damage deposit to the wrong email address." },
+    { "term": "pending", "vi": "đang chờ xử lý", "definition": "waiting to be completed or decided", "example": "The app says the transfer is still pending." },
+    { "term": "line of credit", "vi": "hạn mức tín dụng (khoản vay linh hoạt)", "definition": "an arrangement that lets you borrow money up to a limit when you need it", "example": "I could send another payment from the line of credit." },
+    { "term": "hold off", "vi": "tạm hoãn, khoan làm", "definition": "to delay doing something", "example": "I'd hold off on sending a second payment." },
+    { "term": "assume the worst", "vi": "nghĩ đến tình huống tệ nhất", "definition": "to believe that the worst possible thing has happened or will happen", "example": "He didn't threaten you; you're just assuming the worst." },
+    { "term": "bank draft", "vi": "hối phiếu ngân hàng", "definition": "a cheque guaranteed by a bank, often used for large payments", "example": "I'll drop off a bank draft first thing tomorrow." },
+    { "term": "paper trail", "vi": "giấy tờ/chứng từ làm bằng chứng", "definition": "written records that show what was done and when", "example": "Landlords like a paper trail for deposits." },
+    { "term": "put a stop on", "vi": "chặn, đình chỉ (giao dịch)", "definition": "to officially prevent a payment from being completed", "example": "The bank agent put a stop on the transfer." },
+    { "term": "swing by", "vi": "ghé qua", "definition": "to visit a place briefly, usually on the way somewhere else", "example": "He'll swing by our place at eight to pick it up." }
+  ],
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; keys matched; timeline (Friday, branch closed till 9:30 Saturday, landlord at 8) is consistent. E-transfer cancel/stop and up-to-30-day return are voiced as one agent's explanation, bank unnamed, so not presented as a universal rule; bank draft use is plausible. Both names are spoken. Changed difficulty 9 -> 8 (everyday register; inference load similar to other level-8 sets)." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

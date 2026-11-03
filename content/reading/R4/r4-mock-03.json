@@ -1,0 +1,396 @@
+{
+  "id": "r4-mock-03",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "healthcare",
+  "title": "Clinic Swaps Its Sidewalk Lineup for Morning Bookings",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Near-duplicate scenario of r4-full-04 (same batch): walk-in clinic of 20+ years replacing its 8 a.m. sidewalk line with 7 a.m. same-day online/phone bookings, a drop-in worker calling held-back in-person slots 'a start', a night-shift worker who wants to book from home, 'booking doesn't add doctors', later review. Keep only one of the pair. Content otherwise passes: all 10 keys solved independently and match; fixed blank 8 option C ('no choice but to hire more doctors' was arguably logical) -> 'kept its promise to shorten the wait'. Can be approved if r4-full-04 is dropped or rewritten. 2026-11-03: the duplicate counterpart (r4-full / r4-drill-03) was rewritten with a different scenario, so the duplication no longer applies; approved on the reviewer’s item-quality findings."
+  },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "For more than twenty years, patients at the Harbourview Medical Clinic in Port Alder have known the routine: arrive well before the doors open at 8 a.m., join the line on the sidewalk, and hope to be among the first thirty people seen. That routine is about to end. Starting March 3, the clinic will replace its walk-in lineup with same-day bookings. Appointments will be released online and by phone at 7 a.m. each weekday, and patients will be given a time slot instead of a place in line.\n\nClinic director Dr. Priya Raghunathan says the change is long overdue. Last winter, staff regularly turned away people who had waited outside in the rain for over an hour. \"We had elderly patients standing in the cold, only to be told we were full,\" she said. \"Nobody should have to earn a doctor's visit by being the toughest person on the sidewalk.\" She expects booked slots to ease crowding in the waiting room, but she is frank about the limits. \"We're not adding doctors. We're making the wait fairer, not shorter.\"\n\nNot everyone believes the new system will be fairer. Glenn Moberly, who runs a drop-in centre two blocks from the clinic, says many of the people he serves have no smartphone, no reliable data plan, or no phone at all. \"The lineup was miserable, but it was open to anyone who could show up,\" he said. \"Now the first patients will be the ones with the fastest thumbs.\" The clinic has responded by holding back five appointments each morning for people who come to the front desk in person, an arrangement Moberly calls \"a start, but not a solution.\"\n\nSome patients are cautiously optimistic. Lucia Ferrante, a nurse who works night shifts, says she has often given up on the clinic because she couldn't face standing in line after a twelve-hour shift. \"If I can book from my kitchen at seven and sleep until my appointment, that changes everything for me,\" she said. Still, she wonders about Monday mornings, when demand is highest. \"If the slots are gone by 7:05, we've just moved the lineup online.\"\n\nOther clinics have tried similar systems with mixed results. In Comox Ridge, a clinic that switched two years ago saw fewer complaints about waiting but was flooded with calls in the first minutes of each day, which overwhelmed its reception staff. It later added an automated callback service. Harbourview says it has learned from that experience and will have two extra staff answering phones during the first hour.\n\nThe clinic will review the system in September, using patient surveys and data on who is getting appointments. Raghunathan says she is prepared to increase the number of in-person slots if the figures show that some groups are being left out.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I've been a patient at Harbourview for fifteen years, and I'm relieved the sidewalk lineup is finally ending. Last February I waited outside for an hour with a sick toddler, only to be [[6]]. Even so, Mr. Moberly raises a point the clinic can't ignore. Setting aside five appointments for people who [[7]] is helpful, but on a busy morning that won't go far. I also share Ms. Ferrante's worry about Mondays. If every slot disappears within minutes, the clinic will have [[8]]. Judging by what happened in Comox Ridge, Harbourview is wise to [[9]] when the lines first open. My one request is that the September review looks beyond complaints. If the data show that people without phones are missing out, the clinic should [[10]], just as Dr. Raghunathan has promised.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What will be different for patients after March 3?",
+      "options": [
+        {
+          "text": "They will be able to see a doctor without any waiting.",
+          "trap": "opposite",
+          "whyVi": "Bác sĩ Raghunathan nói rõ việc chờ chỉ 'fairer, not shorter' – không phải hết chờ."
+        },
+        {
+          "text": "They will have to arrive at the clinic before 7 a.m.",
+          "trap": "word_match",
+          "whyVi": "Bài có '7 a.m.' nhưng đó là giờ mở đặt lịch qua mạng/điện thoại, không phải giờ phải có mặt."
+        },
+        {
+          "text": "They will reserve a specific appointment time rather than queue.",
+          "trap": "none",
+          "whyVi": "Đúng: 'patients will be given a time slot instead of a place in line' – được giờ hẹn cụ thể thay vì xếp hàng."
+        },
+        {
+          "text": "They will be seen only if they book through the clinic's website.",
+          "trap": "partially_true",
+          "whyVi": "Có đặt online, nhưng cũng đặt qua điện thoại và có 5 suất cho người đến trực tiếp."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "patients will be given a time slot instead of a place in line",
+      "explanationVi": "'Time slot' = 'specific appointment time'; 'instead of a place in line' = 'rather than queue'. Đáp án D quá hẹp vì bỏ qua đặt qua điện thoại và suất trực tiếp.",
+      "vocabulary": [
+        "time slot"
+      ]
+    },
+    {
+      "number": 2,
+      "prompt": "What does Dr. Raghunathan admit about the new system?",
+      "options": [
+        {
+          "text": "It will not let the clinic treat more patients than before.",
+          "trap": "none",
+          "whyVi": "Đúng: 'We're not adding doctors' – số bác sĩ không đổi nên số bệnh nhân được khám cũng không tăng."
+        },
+        {
+          "text": "It may leave elderly patients standing in the cold.",
+          "trap": "opposite",
+          "whyVi": "Đây là vấn đề của hệ thống cũ mà bà muốn chấm dứt."
+        },
+        {
+          "text": "It was introduced too quickly to be tested properly.",
+          "trap": "not_mentioned",
+          "whyVi": "Bài không nói hệ thống được đưa vào quá vội."
+        },
+        {
+          "text": "It will make the waiting room more crowded at first.",
+          "trap": "opposite",
+          "whyVi": "Bà mong đặt lịch sẽ 'ease crowding' – giảm đông đúc."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"We're not adding doctors. We're making the wait fairer, not shorter.\"",
+      "explanationVi": "'Frank about the limits' báo hiệu bà thừa nhận một hạn chế. Không thêm bác sĩ và thời gian chờ không ngắn hơn → phòng khám không khám được nhiều người hơn. Đây là suy luận từ hai câu nói của bà.",
+      "vocabulary": [
+        "frank"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "What does Glenn Moberly mean when he says the first patients will be \"the ones with the fastest thumbs\"?",
+      "options": [
+        {
+          "text": "Patients who arrive early on foot will still be seen first.",
+          "trap": "opposite",
+          "whyVi": "Ông nói hệ thống mới không còn ưu tiên người đến xếp hàng sớm."
+        },
+        {
+          "text": "Staff will answer the phone too slowly in the morning.",
+          "trap": "wrong_detail",
+          "whyVi": "Vấn đề tổng đài quá tải là chuyện ở Comox Ridge, không phải ý của Moberly."
+        },
+        {
+          "text": "People who visit his drop-in centre will be given priority.",
+          "trap": "word_match",
+          "whyVi": "Bài có nhắc trung tâm của ông nhưng không ai được ưu tiên vì đến đó."
+        },
+        {
+          "text": "People who are quick and comfortable with phones will have an advantage.",
+          "trap": "none",
+          "whyVi": "Đúng: 'fastest thumbs' = người bấm điện thoại nhanh – lợi thế cho người có và giỏi dùng điện thoại."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "\"Now the first patients will be the ones with the fastest thumbs.\"",
+      "explanationVi": "Câu này là hình ảnh ẩn dụ: đặt lịch bằng điện thoại thì ai bấm nhanh sẽ được trước. Câu trước đó nói nhiều người ông phục vụ 'no smartphone' → họ bị thiệt. Phải suy luận nghĩa bóng, không hiểu theo nghĩa đen.",
+      "vocabulary": [
+        "drop-in centre"
+      ]
+    },
+    {
+      "number": 4,
+      "prompt": "How does Lucia Ferrante feel about the change?",
+      "options": [
+        {
+          "text": "She is sure it will solve her problems with the clinic.",
+          "trap": "partially_true",
+          "whyVi": "Bà thấy có lợi cho mình nhưng vẫn lo về sáng thứ Hai, nên không 'chắc chắn'."
+        },
+        {
+          "text": "She is hopeful but suspects heavy demand could cause a similar problem.",
+          "trap": "none",
+          "whyVi": "Đúng: 'cautiously optimistic' – lạc quan nhưng sợ suất hẹn hết trong vài phút, như 'moved the lineup online'."
+        },
+        {
+          "text": "She thinks night-shift workers should get special appointments.",
+          "trap": "not_mentioned",
+          "whyVi": "Bà không đề nghị suất riêng cho người làm ca đêm."
+        },
+        {
+          "text": "She would prefer the clinic to keep the walk-in lineup.",
+          "trap": "opposite",
+          "whyVi": "Bà từng bỏ không đi khám vì không chịu nổi việc xếp hàng; bà ủng hộ đặt lịch."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"If the slots are gone by 7:05, we've just moved the lineup online.\"",
+      "explanationVi": "Câu hỏi về thái độ. Bài mô tả nhóm này là 'cautiously optimistic'. Ferrante vui vì được đặt từ nhà ('that changes everything for me') nhưng lo rằng nếu suất hết lúc 7:05 thì chỉ là 'xếp hàng trên mạng'. Đáp án B gói cả hai ý.",
+      "vocabulary": [
+        "cautiously optimistic"
+      ]
+    },
+    {
+      "number": 5,
+      "prompt": "What has Harbourview done as a result of the Comox Ridge experience?",
+      "options": [
+        {
+          "text": "It has set up an automated callback service.",
+          "trap": "wrong_speaker",
+          "whyVi": "Dịch vụ gọi lại tự động là việc phòng khám Comox Ridge làm, không phải Harbourview."
+        },
+        {
+          "text": "It has delayed the start of the new system until September.",
+          "trap": "wrong_detail",
+          "whyVi": "Tháng Chín là lúc đánh giá; hệ thống bắt đầu từ 3/3."
+        },
+        {
+          "text": "It is adding phone staff for the busiest part of the morning.",
+          "trap": "none",
+          "whyVi": "Đúng: 'two extra staff answering phones during the first hour' – giờ đầu là lúc nhiều cuộc gọi nhất."
+        },
+        {
+          "text": "It will stop taking bookings by phone.",
+          "trap": "opposite",
+          "whyVi": "Ngược lại, phòng khám tăng người nghe điện thoại."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Harbourview says it has learned from that experience and will have two extra staff answering phones during the first hour.",
+      "explanationVi": "'Learned from that experience' nối với Comox Ridge. 'Two extra staff answering phones' = 'adding phone staff'; 'the first hour' là lúc cuộc gọi dồn dập nhất ('flooded with calls in the first minutes') = 'busiest part of the morning'."
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        {
+          "text": "given a time slot for later that afternoon",
+          "trap": "not_mentioned",
+          "whyVi": "Tháng Hai năm ngoái chưa có hệ thống đặt giờ; bài không nói có hẹn lại."
+        },
+        {
+          "text": "sent home without seeing anyone",
+          "trap": "none",
+          "whyVi": "Đúng: Mùa đông năm ngoái nhân viên 'turned away' những người đã chờ ngoài mưa hơn một giờ."
+        },
+        {
+          "text": "sent to the drop-in centre down the street",
+          "trap": "word_match",
+          "whyVi": "Trung tâm của Moberly ở gần phòng khám, nhưng không ai nói bệnh nhân bị chuyển sang đó."
+        },
+        {
+          "text": "asked to book online the next morning",
+          "trap": "wrong_detail",
+          "whyVi": "Đặt lịch online chỉ bắt đầu từ 3/3, sau tháng Hai."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Last winter, staff regularly turned away people who had waited outside in the rain for over an hour.",
+      "explanationVi": "Người viết kể chờ ngoài trời một giờ hồi tháng Hai (mùa đông năm ngoái). Bài nói những người như vậy bị 'turned away' và 'told we were full' → 'sent home without seeing anyone'. Cấu trúc 'only to be + V3' = rốt cuộc lại bị…"
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        {
+          "text": "phone the clinic at exactly 7 a.m.",
+          "trap": "opposite",
+          "whyVi": "Năm suất được giữ cho người không đặt qua điện thoại."
+        },
+        {
+          "text": "work long night shifts",
+          "trap": "wrong_speaker",
+          "whyVi": "Đây là hoàn cảnh của Ferrante, không liên quan tới năm suất giữ lại."
+        },
+        {
+          "text": "have the fastest thumbs",
+          "trap": "word_match",
+          "whyVi": "Dùng lại cụm từ của Moberly nhưng ngược nghĩa: suất trực tiếp dành cho người không dùng điện thoại."
+        },
+        {
+          "text": "turn up at the reception desk themselves",
+          "trap": "none",
+          "whyVi": "Đúng: năm suất dành cho 'people who come to the front desk in person'."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "holding back five appointments each morning for people who come to the front desk in person",
+      "explanationVi": "'Setting aside' = 'holding back'. 'Turn up at the reception desk themselves' là cách nói lại của 'come to the front desk in person'."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        {
+          "text": "simply shifted the queue to the internet",
+          "trap": "none",
+          "whyVi": "Đúng: Đây là ý của Ferrante – 'we've just moved the lineup online'."
+        },
+        {
+          "text": "finally solved the problem of waiting",
+          "trap": "opposite",
+          "whyVi": "Nếu suất hết trong vài phút thì vấn đề chưa được giải quyết."
+        },
+        {
+          "text": "kept its promise to shorten the wait",
+          "trap": "opposite",
+          "whyVi": "Phòng khám chưa bao giờ hứa giảm thời gian chờ – bác sĩ Raghunathan nói rõ 'fairer, not shorter'; hơn nữa, câu điều kiện này nói về một kết quả xấu."
+        },
+        {
+          "text": "made Monday mornings much quieter",
+          "trap": "opposite",
+          "whyVi": "Sáng thứ Hai là lúc nhu cầu cao nhất; câu này trái logic."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"If the slots are gone by 7:05, we've just moved the lineup online.\"",
+      "explanationVi": "Câu trước nhắc 'Ms. Ferrante's worry about Mondays', nên chỗ trống phải là nỗi lo của bà. 'Moved the lineup online' = 'shifted the queue to the internet'. Lưu ý 'will have + V3' (thì tương lai hoàn thành) khớp với 'shifted'."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        {
+          "text": "offer an automated callback service",
+          "trap": "wrong_detail",
+          "whyVi": "Comox Ridge có dịch vụ này; Harbourview không nói sẽ làm."
+        },
+        {
+          "text": "keep the old lineup for one more year",
+          "trap": "not_mentioned",
+          "whyVi": "Không có kế hoạch giữ hàng chờ cũ."
+        },
+        {
+          "text": "put extra people on the phones",
+          "trap": "none",
+          "whyVi": "Đúng: Harbourview sẽ có 'two extra staff answering phones during the first hour'."
+        },
+        {
+          "text": "close reception for the first hour",
+          "trap": "opposite",
+          "whyVi": "Ngược lại, giờ đầu là lúc phòng khám tăng thêm người."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "will have two extra staff answering phones during the first hour",
+      "explanationVi": "'Judging by what happened in Comox Ridge' → bài học về tổng đài quá tải. 'When the lines first open' = 'during the first hour'. 'Put extra people on the phones' = 'two extra staff answering phones'. Đáp án A là việc Comox Ridge làm."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        {
+          "text": "bring back the sidewalk lineup",
+          "trap": "not_mentioned",
+          "whyVi": "Giám đốc không hứa quay lại xếp hàng; người viết cũng mừng vì hàng chờ chấm dứt."
+        },
+        {
+          "text": "offer more appointments to people who come in person",
+          "trap": "none",
+          "whyVi": "Đúng: Bà Raghunathan sẵn sàng 'increase the number of in-person slots'."
+        },
+        {
+          "text": "add more doctors to the morning schedule",
+          "trap": "opposite",
+          "whyVi": "Bà nói rõ 'We're not adding doctors'."
+        },
+        {
+          "text": "postpone the review until next year",
+          "trap": "wrong_detail",
+          "whyVi": "Đánh giá diễn ra vào tháng Chín; không ai hứa hoãn."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "Raghunathan says she is prepared to increase the number of in-person slots if the figures show that some groups are being left out.",
+      "explanationVi": "'Just as Dr. Raghunathan has promised' → tìm lời hứa của bà ở đoạn cuối. 'People without phones are missing out' = 'some groups are being left out'; 'increase the number of in-person slots' = 'offer more appointments to people who come in person'."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "time slot",
+      "vi": "khung giờ hẹn",
+      "definition": "a fixed period of time given to someone for an appointment",
+      "example": "Patients will be given a time slot instead of a place in line."
+    },
+    {
+      "term": "turn away",
+      "vi": "từ chối, không cho vào",
+      "definition": "to refuse to let someone enter or be served",
+      "example": "Staff regularly turned away people who had waited for over an hour."
+    },
+    {
+      "term": "long overdue",
+      "vi": "lẽ ra phải làm từ lâu",
+      "definition": "something that should have happened much earlier",
+      "example": "The director says the change is long overdue."
+    },
+    {
+      "term": "frank",
+      "vi": "thẳng thắn",
+      "definition": "honest and direct, even about unpleasant facts",
+      "example": "She is frank about the limits of the new system."
+    },
+    {
+      "term": "drop-in centre",
+      "vi": "trung tâm hỗ trợ không cần hẹn",
+      "definition": "a place where people can come for help without an appointment",
+      "example": "He runs a drop-in centre two blocks from the clinic."
+    },
+    {
+      "term": "cautiously optimistic",
+      "vi": "lạc quan một cách dè dặt",
+      "definition": "hopeful, but aware that things could go wrong",
+      "example": "Some patients are cautiously optimistic about the bookings."
+    },
+    {
+      "term": "hold back",
+      "vi": "giữ lại (để dành)",
+      "definition": "to keep something in reserve instead of using or giving it all",
+      "example": "The clinic is holding back five appointments each morning."
+    },
+    {
+      "term": "miss out",
+      "vi": "bị thiệt, bỏ lỡ",
+      "definition": "to fail to get a benefit that others get",
+      "example": "People without phones may miss out on appointments."
+    }
+  ]
+}

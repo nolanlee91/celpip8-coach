@@ -1,0 +1,119 @@
+{
+  "id": "l1-drill-02",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "environment",
+  "title": "Paraphrase drill: Raccoons and the green bins",
+  "context": "You will hear two neighbours in Port Moody talking in their back lane after the city leaves warning stickers on their compost bins.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Derek", "voice": "male_a", "text": "Morning, Marisol. Did you get one of these orange stickers on your green bin too?" },
+        { "speaker": "Marisol", "voice": "female_b", "text": "I did, Derek. Apparently there was food scattered all over the lane on Tuesday, and the city says if it happens again, they'll stop picking up our organics until we sort it out." },
+        { "speaker": "Derek", "voice": "male_a", "text": "That's the raccoons, though, not us. They've figured out how to flip the lids. I watched one do it at two in the morning, like it'd been practising for weeks." },
+        { "speaker": "Marisol", "voice": "female_b", "text": "Oh, I believe it. But the city doesn't really care whose fault it is. The sticker basically says the bin's our responsibility, full stop." },
+        { "speaker": "Derek", "voice": "male_a", "text": "So what are we supposed to do, sit up all night guarding the compost?" },
+        { "speaker": "Marisol", "voice": "female_b", "text": "No, but there are a few things. The city sells a locking clip for the green bins. It goes over the handle. My sister in Coquitlam has one, and she says the raccoons gave up on her place within a week." },
+        { "speaker": "Derek", "voice": "male_a", "text": "How much?" },
+        { "speaker": "Marisol", "voice": "female_b", "text": "Twenty-two dollars, I think, at the works yard. You can order one online, but that takes about two weeks to arrive, and our next pickup's on Monday." },
+        { "speaker": "Derek", "voice": "male_a", "text": "Two weeks is no good. I'll drive over on Saturday. Want me to grab one for you?" },
+        { "speaker": "Marisol", "voice": "female_b", "text": "Yes, please, I'll e-transfer you. And in the meantime, I'm keeping my bin in the garage until the morning of pickup. It smells a bit, but it beats losing collection." },
+        { "speaker": "Derek", "voice": "male_a", "text": "My garage is packed with my brother's furniture until the end of the month, so that's out for me. I'll just freeze the meat scraps and toss them in on Sunday night." },
+        { "speaker": "Marisol", "voice": "female_b", "text": "Smart. Raccoons can't smell much through a frozen block." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What has the city warned the neighbours about?",
+          "options": [
+            { "text": "They will be fined if food is left in the lane.", "trap": "not_mentioned", "whyVi": "Bài không nhắc đến tiền phạt." },
+            { "text": "The city has already stopped collecting their compost.", "trap": "opposite", "whyVi": "Việc ngừng thu gom chỉ xảy ra NẾU sự việc lặp lại ('if it happens again')." },
+            { "text": "Their organic waste may not be collected if the mess happens again.", "trap": "none", "whyVi": "Đúng: nếu rác vương vãi lần nữa, thành phố sẽ ngừng thu gom rác hữu cơ." },
+            { "text": "The city will set traps for the raccoons.", "trap": "word_match", "whyVi": "Gấu mèo được nhắc, nhưng thành phố không nói gì về bẫy." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "if it happens again, they'll stop picking up our organics until we sort it out",
+          "explanationVi": "'Stop picking up our organics' được diễn đạt lại thành 'organic waste may not be collected'; 'if it happens again' = 'if the mess happens again'.",
+          "vocabulary": ["organics"]
+        },
+        {
+          "number": 2,
+          "prompt": "According to Marisol, what is the city's position?",
+          "options": [
+            { "text": "Residents are accountable for their bins no matter what caused the problem.", "trap": "none", "whyVi": "Đúng: thành phố không quan tâm lỗi của ai; thùng rác là trách nhiệm của cư dân." },
+            { "text": "The raccoons, not the residents, are to blame.", "trap": "wrong_speaker", "whyVi": "Đây là ý của Derek ('That's the raccoons, though, not us'), không phải quan điểm của thành phố." },
+            { "text": "The city will investigate who left the food out.", "trap": "opposite", "whyVi": "Marisol nói thành phố 'doesn't really care whose fault it is'." },
+            { "text": "Residents should watch their bins overnight.", "trap": "word_match", "whyVi": "Canh thùng rác cả đêm là câu đùa của Derek, không phải yêu cầu của thành phố." }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "the city doesn't really care whose fault it is. The sticker basically says the bin's our responsibility, full stop.",
+          "explanationVi": "'Doesn't care whose fault it is' = 'no matter what caused the problem'; 'our responsibility, full stop' = 'residents are accountable'. 'Full stop' nhấn mạnh không có ngoại lệ.",
+          "vocabulary": ["full stop"]
+        },
+        {
+          "number": 3,
+          "prompt": "What happened after Marisol's sister started using a locking clip?",
+          "options": [
+            { "text": "She needed to buy a second clip.", "trap": "not_mentioned", "whyVi": "Không nhắc đến việc mua thêm." },
+            { "text": "The raccoons still managed to open her bin.", "trap": "opposite", "whyVi": "Gấu mèo đã bỏ cuộc ('gave up on her place')." },
+            { "text": "She ordered clips for the whole street online.", "trap": "not_mentioned", "whyVi": "Không có thông tin này." },
+            { "text": "The animals soon stopped bothering her bin.", "trap": "none", "whyVi": "Đúng: trong vòng một tuần gấu mèo không đến nữa." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "she says the raccoons gave up on her place within a week",
+          "explanationVi": "'Gave up on her place' = bỏ cuộc, không đến nữa; 'within a week' = 'soon'. Đáp án D diễn đạt lại.",
+          "vocabulary": ["give up on"]
+        },
+        {
+          "number": 4,
+          "prompt": "Why will Derek go to the works yard in person?",
+          "options": [
+            { "text": "The clip is cheaper there than online.", "trap": "not_mentioned", "whyVi": "Không có so sánh giá giữa hai nơi." },
+            { "text": "A clip ordered online would not arrive before the next collection.", "trap": "none", "whyVi": "Đúng: đặt online mất khoảng hai tuần, mà lần thu gom tới là thứ Hai." },
+            { "text": "Marisol asked him to pick up the clip for her.", "trap": "wrong_speaker", "whyVi": "Chính Derek đề nghị mua giúp ('Want me to grab one for you?'); đó không phải lý do anh tự đi." },
+            { "text": "The works yard is only open on Saturdays.", "trap": "not_mentioned", "whyVi": "Không nói giờ mở cửa của bãi công trình." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "You can order one online, but that takes about two weeks to arrive, and our next pickup's on Monday.",
+          "explanationVi": "Derek nói 'Two weeks is no good' sau khi nghe hai mốc thời gian. Đáp án B diễn đạt 'pickup' thành 'collection' và nối hai thông tin này.",
+          "vocabulary": ["works yard"]
+        },
+        {
+          "number": 5,
+          "prompt": "Why can't Derek keep his bin in the garage?",
+          "options": [
+            { "text": "He is worried about the bad smell.", "trap": "wrong_speaker", "whyVi": "Mùi hôi là điều Marisol nhắc về thùng rác của cô, không phải lý do của Derek." },
+            { "text": "His house does not have a garage.", "trap": "opposite", "whyVi": "Derek có gara, chỉ là đang chật." },
+            { "text": "It is temporarily full of a family member's belongings.", "trap": "none", "whyVi": "Đúng: gara đầy đồ đạc của anh trai đến cuối tháng." },
+            { "text": "Raccoons have got into his garage before.", "trap": "not_mentioned", "whyVi": "Không có thông tin gấu mèo vào gara." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "My garage is packed with my brother's furniture until the end of the month",
+          "explanationVi": "'Packed with my brother's furniture' = đầy đồ của người thân; 'until the end of the month' = tạm thời. Đáp án C diễn đạt lại cả hai ý.",
+          "vocabulary": ["that's out"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "organics", "vi": "rác hữu cơ (thức ăn thừa, rác vườn)", "definition": "food scraps and yard waste collected separately for composting", "example": "The city will stop picking up our organics if it happens again." },
+    { "term": "full stop", "vi": "chấm hết, không bàn cãi", "definition": "used to show that there is nothing more to say or no exception", "example": "The bin is your responsibility, full stop." },
+    { "term": "give up on", "vi": "bỏ cuộc với, thôi không cố nữa", "definition": "to stop trying to do or get something", "example": "The raccoons gave up on her place within a week." },
+    { "term": "works yard", "vi": "bãi công trình (của thành phố)", "definition": "a city site where public works equipment and supplies are kept", "example": "You can buy a locking clip at the works yard." },
+    { "term": "sort out", "vi": "giải quyết", "definition": "to deal with a problem successfully", "example": "They'll stop collection until we sort it out." },
+    { "term": "that's out", "vi": "cách đó không được", "definition": "an informal way of saying an option is not possible", "example": "My garage is full, so that's out for me." },
+    { "term": "scraps", "vi": "đồ thừa, mẩu vụn (thức ăn)", "definition": "small leftover pieces, especially of food", "example": "I'll freeze the meat scraps until Sunday night." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; keys matched; all items test paraphrase as the title says. Fixed: Derek's name now spoken in the audio; difficulty 8 -> 7 (answers are explicit statements with light-to-moderate paraphrase)." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

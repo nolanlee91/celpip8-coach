@@ -1,0 +1,262 @@
+{
+  "id": "l4-mock-04",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "government",
+  "title": "News: Richmond draft budget proposes property tax hike",
+  "context": "You will hear a local radio news report about the City of Richmond's draft budget.",
+  "estimatedMinutes": 5,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Homeowners in Richmond are being told to brace for another sizeable jump in their property tax bill. The city's draft budget, released this morning, calls for an increase of six point eight percent next year, which works out to roughly two hundred and ten dollars for the average home."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Finance director Wei Ling Tran says most of that increase isn't new spending. More than half covers wage increases for firefighters and police that were negotiated last year, and another chunk comes from the rising cost of insurance and fuel. The only significant new item is the hiring of six bylaw officers to work through a backlog of complaints about illegal suites and noise."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Council is divided. Councillor Aaron Fitzgerald says residents are already stretched thin by grocery and mortgage costs, and he plans to push for the bylaw hires to be phased in over two years, which would shave about one percentage point off the increase. Councillor Nadia Sorensen counters that complaints have doubled since 2023, and that putting off enforcement would only kick the problem down the road."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The city is also reminding seniors and people with disabilities that they may qualify for the provincial property tax deferment program, which lets eligible homeowners postpone paying until they sell their home."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Residents can comment on the draft budget online until December twelfth. Council will vote on the final version in late January."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "According to Wei Ling Tran, what is mainly behind the increase?",
+          "options": [
+            {
+              "text": "Costs the city had already committed to",
+              "trap": "none",
+              "whyVi": "Đúng: hơn một nửa là tăng lương đã thương lượng từ năm ngoái, cộng với bảo hiểm và nhiên liệu – không phải chi tiêu mới."
+            },
+            {
+              "text": "Hiring more police officers and firefighters",
+              "trap": "word_match",
+              "whyVi": "Bài có 'firefighters and police' nhưng là tăng lương cho người hiện có, không phải tuyển thêm."
+            },
+            {
+              "text": "Several new programs for residents",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà nói phần lớn mức tăng 'isn't new spending'."
+            },
+            {
+              "text": "The cost of the six new bylaw officers",
+              "trap": "wrong_detail",
+              "whyVi": "Đây là khoản mới duy nhất, nhưng không phải phần lớn mức tăng."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "More than half covers wage increases for firefighters and police that were negotiated last year",
+          "explanationVi": "Ý chính: 'most of that increase isn't new spending' và lương 'negotiated last year'. Đáp án A khái quát thành 'costs already committed to'.",
+          "vocabulary": [
+            "chunk"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "What are the new bylaw officers expected to do?",
+          "options": [
+            {
+              "text": "Inspect homes for insurance purposes",
+              "trap": "word_match",
+              "whyVi": "Bài có 'insurance' nhưng nói về chi phí bảo hiểm tăng."
+            },
+            {
+              "text": "Collect unpaid property taxes",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói nhân viên bylaw thu thuế."
+            },
+            {
+              "text": "Patrol the city for parking violations",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc tới đỗ xe."
+            },
+            {
+              "text": "Deal with a build-up of unresolved complaints",
+              "trap": "none",
+              "whyVi": "Đúng: 'work through a backlog of complaints' = giải quyết khiếu nại tồn đọng."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "vocabulary",
+          "evidence": "to work through a backlog of complaints about illegal suites and noise",
+          "explanationVi": "Cần biết 'backlog' = việc tồn đọng. Đáp án D diễn đạt lại 'work through a backlog' thành 'deal with a build-up of unresolved complaints'.",
+          "vocabulary": [
+            "backlog"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Councillor Fitzgerald want to do?",
+          "options": [
+            {
+              "text": "Cancel the bylaw officer positions completely",
+              "trap": "too_broad",
+              "whyVi": "Quá mức: ông chỉ muốn chia ra hai năm, không hủy hẳn."
+            },
+            {
+              "text": "Cut the raises negotiated for police",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không đề xuất cắt tăng lương."
+            },
+            {
+              "text": "Spread the new hires out to ease the burden on taxpayers",
+              "trap": "none",
+              "whyVi": "Đúng: tuyển dần trong hai năm để giảm khoảng 1 điểm phần trăm, vì người dân đang chật vật."
+            },
+            {
+              "text": "Limit the tax increase to one percent",
+              "trap": "wrong_detail",
+              "whyVi": "Sai số liệu: giảm BỚT khoảng 1 điểm phần trăm (từ 6,8%), không phải giới hạn ở 1%."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "he plans to push for the bylaw hires to be phased in over two years",
+          "explanationVi": "'phased in over two years' được diễn đạt lại thành 'spread the new hires out'; 'stretched thin' (chật vật về tài chính) giải thích lý do. Lựa chọn D bẫy với con số 'one percentage point'.",
+          "vocabulary": [
+            "phase in",
+            "stretched thin"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What is Councillor Sorensen's position?",
+          "options": [
+            {
+              "text": "Complaints have dropped since 2023.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: số khiếu nại đã tăng gấp đôi."
+            },
+            {
+              "text": "Delaying enforcement would only push the problem into the future.",
+              "trap": "none",
+              "whyVi": "Đúng: 'kick the problem down the road' = đẩy vấn đề sang sau."
+            },
+            {
+              "text": "Residents cannot afford a larger tax increase.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là lập luận của Fitzgerald."
+            },
+            {
+              "text": "The officers should be hired gradually over two years.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là đề xuất của Fitzgerald, bà phản đối điều này."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "putting off enforcement would only kick the problem down the road",
+          "explanationVi": "'counters' cho thấy bà phản bác Fitzgerald. Thành ngữ 'kick the problem down the road' = trì hoãn vấn đề thay vì giải quyết.",
+          "vocabulary": [
+            "kick the problem down the road"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What is true about the property tax deferment program?",
+          "options": [
+            {
+              "text": "It reduces property taxes for all seniors.",
+              "trap": "too_broad",
+              "whyVi": "Sai: chương trình cho hoãn trả, không giảm thuế, và chỉ dành cho người đủ điều kiện."
+            },
+            {
+              "text": "It is run by the City of Richmond.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: đây là chương trình của tỉnh ('provincial')."
+            },
+            {
+              "text": "Qualifying owners can delay payment until their property is sold.",
+              "trap": "none",
+              "whyVi": "Đúng: 'postpone paying until they sell their home'."
+            },
+            {
+              "text": "Applications must be made by December twelfth.",
+              "trap": "word_match",
+              "whyVi": "Ngày 12/12 là hạn góp ý ngân sách, không liên quan chương trình hoãn thuế."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "lets eligible homeowners postpone paying until they sell their home",
+          "explanationVi": "'eligible' = 'qualifying', 'postpone' = 'delay', 'sell their home' = 'property is sold'. Cả câu được diễn đạt lại.",
+          "vocabulary": [
+            "deferment"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "brace for",
+      "vi": "chuẩn bị tinh thần cho",
+      "definition": "prepare yourself for something unpleasant",
+      "example": "Homeowners should brace for a higher tax bill."
+    },
+    {
+      "term": "chunk",
+      "vi": "một phần lớn",
+      "definition": "a large part of something",
+      "example": "Another chunk of the increase comes from fuel costs."
+    },
+    {
+      "term": "backlog",
+      "vi": "việc tồn đọng",
+      "definition": "a build-up of work that has not been done yet",
+      "example": "There is a backlog of noise complaints."
+    },
+    {
+      "term": "stretched thin",
+      "vi": "chật vật, cạn kiệt",
+      "definition": "having almost no money or resources left",
+      "example": "Families are stretched thin by grocery costs."
+    },
+    {
+      "term": "phase in",
+      "vi": "áp dụng dần dần",
+      "definition": "introduce something gradually over a period",
+      "example": "The hires could be phased in over two years."
+    },
+    {
+      "term": "kick the problem down the road",
+      "vi": "trì hoãn giải quyết vấn đề",
+      "definition": "delay dealing with a problem instead of solving it",
+      "example": "Putting off enforcement would only kick the problem down the road."
+    },
+    {
+      "term": "deferment",
+      "vi": "sự hoãn lại",
+      "definition": "an arrangement to do or pay something later",
+      "example": "The tax deferment program helps seniors."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 5 independently; keys match (ADCBC); the provincial property tax deferment description (eligible owners, incl. seniors and people with disabilities, defer until sale) is accurate. Tightened Q4 correct option so it no longer adds an unstated claim (\"make it harder later\")."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

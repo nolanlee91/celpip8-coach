@@ -1,0 +1,315 @@
+{
+  "id": "r3-drill-05",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "customer-service",
+  "title": "Distractor drill: Harbourline Ferries' New Booking Rules",
+  "estimatedMinutes": 8,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 independently; keys match. Confirmed the three E answers (Q1 no proof requirement for medical spots, Q3 no extra long-weekend sailings, Q5 the $9 early fee applies to anyone, not commuters) and the three stated items (Q2 C standby at no extra charge, Q4 B company admits some pay more, Q6 D publish results). No changes."
+  },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "Starting April 1, Harbourline Ferries will change how it handles reservations on its three busiest routes between the Lower Mainland and Vancouver Island. Until now, about a third of the space on each sailing has been kept for drivers who simply turn up at the terminal. Under the new system, nearly all vehicle space will be bookable in advance, with only ten spots per sailing held back for medical travel and emergencies. The company says the change responds to years of complaints from travellers who arrived two hours early on long weekends only to watch several sailings leave without them. Foot passengers are not affected and still do not need a reservation.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "Booking fees are also changing. The current flat fee of $22 will be replaced by a sliding scale: $9 for bookings made more than a month ahead, rising to $25 for bookings made within forty-eight hours of departure. Customers who change their booking more than a week before sailing can do so for free, but later changes cost $10 each. The company admits that some regular travellers will end up paying more than they do now, especially those who tend to decide at the last minute. It argues, however, that the new fees reward planning ahead and will help spread demand more evenly across the week.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Missed sailings have long been a sore point. Under the new rules, drivers who arrive after the check-in deadline, thirty minutes before departure, will lose their reserved spot but will be placed on standby for the next sailing at no extra charge. If they do not show up at all, the booking fee is forfeited, although the fare itself is refunded. Customer service manager Lorraine Whitfield says staff will have some discretion. A driver delayed by a highway closure, for instance, would not be treated the same way as one who simply overslept. She concedes that this leaves room for inconsistency and promises that guidelines will be published.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Reaction has been mixed. Business groups on the Gulf Islands, many of whose customers are day-trippers, worry that visitors will be put off if they cannot be sure of getting a spot on short notice. Commuters, on the other hand, have largely welcomed the change, saying a guaranteed space is worth a few extra dollars. Harbourline has said it will review the system after six months and publish the results, including how often sailings left with empty reserved spaces. Travellers who want to comment before the changes take effect can complete an online survey, which closes on February 28.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Travellers who use the spots set aside for medical reasons will have to show proof.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A nói có 10 chỗ dành cho đi chữa bệnh và khẩn cấp, nhưng không nói phải chứng minh."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về phí đặt chỗ."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói nhân viên được linh động ('discretion') với người đến trễ — không liên quan giấy tờ y tế."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về phản ứng của công chúng."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: Không đoạn nào nói người dùng chỗ dành cho y tế phải chứng minh."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "only ten spots per sailing held back for medical travel and emergencies",
+      "explanationVi": "Đoạn A gần nhất: 'held back for medical travel and emergencies'. Bài không hề nói phải có giấy tờ chứng minh. Đừng tự suy luận theo kinh nghiệm ngoài đời — chỉ dựa vào bài đọc. → E.",
+      "vocabulary": [
+        "hold back"
+      ]
+    },
+    {
+      "number": 2,
+      "prompt": "Arriving late will not necessarily mean having to pay again to travel.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A nói hành khách từng phải chờ nhiều chuyến vào cuối tuần dài — chuyện cũ, không nói về người đến trễ."
+        },
+        {
+          "text": "B",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn B có phí đổi vé $10 — dễ tưởng là phải trả thêm, nhưng đó là phí đổi booking, không phải đến trễ."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Người đến trễ được chờ chuyến sau 'at no extra charge'."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về người đến trễ."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có ở Đoạn C (được diễn đạt khác) nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "distractor",
+      "evidence": "will be placed on standby for the next sailing at no extra charge",
+      "explanationVi": "Câu này nghe như 'not given', nhưng Đoạn C nói người đến sau giờ check-in được xếp 'standby for the next sailing at no extra charge' = không phải trả thêm. Bẫy: đọc lướt thấy 'lose their reserved spot' và nghĩ là mất tiền.",
+      "vocabulary": [
+        "standby"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "Harbourline will add extra sailings on long weekends.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'long weekends' và 'sailings', nhưng nói về lời phàn nàn, không nói thêm chuyến."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói phí mới giúp 'spread demand more evenly' — giãn nhu cầu ra, không phải thêm chuyến."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về người lỡ chuyến."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về phản ứng và khảo sát."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: Không đoạn nào nói sẽ có thêm chuyến phà."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "arrived two hours early on long weekends only to watch several sailings leave without them",
+      "explanationVi": "'Long weekends' và 'sailings' đều có ở Đoạn A, nhưng chỉ để mô tả lời phàn nàn trước đây. Công ty giải quyết bằng cách cho đặt chỗ trước, không phải thêm chuyến. → E."
+    },
+    {
+      "number": 4,
+      "prompt": "The company does not claim that every traveller will be better off financially.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A nói lý do thay đổi là lời phàn nàn của khách, không nói ai phải trả thêm."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Công ty thừa nhận một số khách quen sẽ phải trả nhiều hơn."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về người lỡ chuyến."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_speaker",
+          "whyVi": "Đoạn D có ý người đi làm thấy 'worth a few extra dollars' — đó là ý kiến khách hàng, không phải công ty."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có ở Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "distractor",
+      "evidence": "The company admits that some regular travellers will end up paying more than they do now",
+      "explanationVi": "Câu dùng phủ định ('does not claim ... every') nên dễ tưởng là không có thông tin. Đoạn B: công ty 'admits that some regular travellers will end up paying more' → tức là công ty thừa nhận không phải ai cũng có lợi về tiền.",
+      "vocabulary": [
+        "sliding scale"
+      ]
+    },
+    {
+      "number": 5,
+      "prompt": "Regular commuters will be offered discounted booking fees.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về người đi làm."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B có mức phí $9 cho người đặt sớm — giảm cho ai đặt sớm, không riêng người đi làm."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về người lỡ chuyến."
+        },
+        {
+          "text": "D",
+          "trap": "word_match",
+          "whyVi": "Đoạn D có 'Commuters', nhưng chỉ nói họ ủng hộ và sẵn sàng trả thêm."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: Không đoạn nào nói người đi làm được giảm phí."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "saying a guaranteed space is worth a few extra dollars",
+      "explanationVi": "Phí thấp nhất ($9) dành cho bất kỳ ai đặt trước hơn một tháng. Đoạn D chỉ nói người đi làm ủng hộ và chấp nhận trả thêm. Không có giảm giá riêng cho người đi làm → E."
+    },
+    {
+      "number": 6,
+      "prompt": "Harbourline intends to make public how well the new system works in practice.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A giới thiệu thay đổi, không nói đánh giá."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về phí."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'guidelines will be published' — công bố hướng dẫn, không phải kết quả hoạt động của hệ thống."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: Công ty sẽ xem xét sau sáu tháng và 'publish the results'."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có ở Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "distractor",
+      "evidence": "will review the system after six months and publish the results",
+      "explanationVi": "'Make public' = 'publish'; 'how well the system works' = 'the results, including how often sailings left with empty reserved spaces'. Bẫy: Đoạn C cũng có 'published', nhưng đó là hướng dẫn xử lý người đến trễ."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "turn up",
+      "vi": "xuất hiện, đến (không báo trước)",
+      "definition": "to arrive somewhere, often without planning",
+      "example": "Space was kept for drivers who simply turn up at the terminal."
+    },
+    {
+      "term": "hold back",
+      "vi": "giữ lại, để dành",
+      "definition": "to keep something for later or for a special use",
+      "example": "Ten spots per sailing are held back for emergencies."
+    },
+    {
+      "term": "sliding scale",
+      "vi": "thang giá thay đổi theo điều kiện",
+      "definition": "a system where the price changes depending on something",
+      "example": "The flat fee will be replaced by a sliding scale."
+    },
+    {
+      "term": "sore point",
+      "vi": "chuyện gây bực bội",
+      "definition": "a subject that makes people annoyed",
+      "example": "Missed sailings have long been a sore point."
+    },
+    {
+      "term": "standby",
+      "vi": "danh sách chờ (chỗ trống)",
+      "definition": "waiting for a place that may become free",
+      "example": "Late drivers will be placed on standby for the next sailing."
+    },
+    {
+      "term": "forfeit",
+      "vi": "bị mất (tiền, quyền) do vi phạm",
+      "definition": "to lose something because you broke a rule",
+      "example": "If they do not show up, the booking fee is forfeited."
+    },
+    {
+      "term": "discretion",
+      "vi": "quyền tự quyết, linh động",
+      "definition": "the freedom to decide what to do in a situation",
+      "example": "Staff will have some discretion."
+    },
+    {
+      "term": "put off",
+      "vi": "làm ai nản, không muốn đến",
+      "definition": "to make someone not want to do something",
+      "example": "Visitors may be put off if they cannot get a spot."
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "id": "l5-full-03",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "transportation",
+  "title": "Discussion: Getting Dad around without a driver's licence",
+  "context": "You will hear a family in Kelowna discussing how their father will get to his appointments after his driver's licence is suspended for medical reasons.",
+  "estimatedMinutes": 10,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Ivana, daughter",
+          "voice": "female_a",
+          "text": "Okay, Dad, I know you don't want to talk about this, but the letter from the licensing office came yesterday, and your licence is suspended until you pass the road assessment. So we need a plan for getting you around, at least for the next few months."
+        },
+        {
+          "speaker": "Frank, father",
+          "voice": "male_b",
+          "text": "A few months, Ivana? I'll pass that test in no time. I've been driving since before any of you were born."
+        },
+        {
+          "speaker": "Marko, son",
+          "voice": "male_a",
+          "text": "Nobody's saying you're a bad driver, Dad. But the assessment isn't for another eleven weeks, and in the meantime you've got physio twice a week, plus the heart specialist in Vernon next month."
+        },
+        {
+          "speaker": "Frank, father",
+          "voice": "male_b",
+          "text": "I can take the bus to physio. The number eight stops right outside the clinic."
+        },
+        {
+          "speaker": "Tess, daughter-in-law",
+          "voice": "female_b",
+          "text": "It does, but the stop on your end is at the bottom of the hill. With your knee, I'm not sure that walk back up is a good idea, especially once the snow comes. Have you looked into handyDART? It's a door-to-door service for people who can't easily use the regular buses."
+        },
+        {
+          "speaker": "Frank, father",
+          "voice": "male_b",
+          "text": "That's for people in wheelchairs, Tess."
+        },
+        {
+          "speaker": "Tess, daughter-in-law",
+          "voice": "female_b",
+          "text": "Not only. From what I read on their website, you apply with a form your doctor signs, and if you're approved, a trip costs the same as a regular bus fare. The catch is you have to book at least a day ahead, and they give you a half-hour pickup window rather than an exact time."
+        },
+        {
+          "speaker": "Ivana, daughter",
+          "voice": "female_a",
+          "text": "That would cover physio, then, since it's on a fixed schedule. Vernon's a different story, though. I can drive him, but I'd have to take a whole day off, and I've already burned through most of my vacation."
+        },
+        {
+          "speaker": "Marko, son",
+          "voice": "male_a",
+          "text": "What if I pay for a taxi for that one? It's maybe ninety bucks each way. I can't be here, so I'd like to at least chip in somehow."
+        },
+        {
+          "speaker": "Ivana, daughter",
+          "voice": "female_a",
+          "text": "That's generous, Marko, but honestly, money isn't the issue. What I need is someone to share the actual driving once in a while. Mom's sister lives ten minutes away, and she keeps offering."
+        },
+        {
+          "speaker": "Frank, father",
+          "voice": "male_b",
+          "text": "I'm not having Rosa drive me around. She talks the whole way, and she drives like a snail."
+        },
+        {
+          "speaker": "Tess, daughter-in-law",
+          "voice": "female_b",
+          "text": "Frank, a snail gets you there in one piece."
+        },
+        {
+          "speaker": "Frank, father",
+          "voice": "male_b",
+          "text": "Fine, fine. For Vernon, then. But only that once."
+        },
+        {
+          "speaker": "Marko, son",
+          "voice": "male_a",
+          "text": "There's something else we haven't talked about, which is the car. If it's just going to sit in the driveway all winter, the insurance is still costing you about a hundred and sixty a month."
+        },
+        {
+          "speaker": "Ivana, daughter",
+          "voice": "female_a",
+          "text": "You can't just cancel it, though. If he passes in February, he'll want it back on the road right away."
+        },
+        {
+          "speaker": "Tess, daughter-in-law",
+          "voice": "female_b",
+          "text": "Actually, when our truck sat all winter, our broker switched us to storage coverage. It still protects against things like theft or a tree coming down on it, and it's a fraction of the price. And they put our regular coverage back the same day we needed it."
+        },
+        {
+          "speaker": "Frank, father",
+          "voice": "male_b",
+          "text": "Well, Tess, that's the first sensible thing I've heard tonight."
+        },
+        {
+          "speaker": "Tess, daughter-in-law",
+          "voice": "female_b",
+          "text": "I'll take that as a compliment."
+        },
+        {
+          "speaker": "Marko, son",
+          "voice": "male_a",
+          "text": "Okay, so, handyDART for physio, Aunt Rosa for Vernon, and storage insurance on the car. Ivana, can you get Dr. Sandhu to sign the handyDART form?"
+        },
+        {
+          "speaker": "Ivana, daughter",
+          "voice": "female_a",
+          "text": "I'll drop it off on Monday. And Dad, you're filling in your part tonight, before you change your mind."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How does Frank first react to the news about his licence?",
+          "options": [
+            {
+              "text": "He accepts that he should stop driving for good.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông tin mình sẽ lấy lại bằng rất nhanh."
+            },
+            {
+              "text": "He is worried about missing his physio appointments.",
+              "trap": "wrong_detail",
+              "whyVi": "Lịch vật lý trị liệu là do Marko nhắc đến; Frank không tỏ ra lo lắng về chuyện này."
+            },
+            {
+              "text": "He is sure it will only be a short-term problem.",
+              "trap": "none",
+              "whyVi": "Đúng: ông nói sẽ qua bài kiểm tra 'in no time' vì đã lái xe rất lâu."
+            },
+            {
+              "text": "He blames his doctor for the suspension.",
+              "trap": "not_mentioned",
+              "whyVi": "Frank không trách bác sĩ Sandhu."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "I'll pass that test in no time.",
+          "explanationVi": "Frank nói 'I'll pass that test in no time' và nhấn mạnh kinh nghiệm lái xe lâu năm, cho thấy ông tự tin, coi đây chỉ là chuyện tạm thời. Đáp án C diễn đạt lại thái độ này.",
+          "vocabulary": [
+            "in no time"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "Why does Tess think the bus to physio is not a good option?",
+          "options": [
+            {
+              "text": "The walk home from the stop would be hard on Frank's knee.",
+              "trap": "none",
+              "whyVi": "Đúng: trạm gần nhà ông ở chân đồi, đi bộ lên dốc sẽ khó với đầu gối của ông, nhất là khi có tuyết."
+            },
+            {
+              "text": "The bus does not stop close to the clinic.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: xe buýt số 8 dừng ngay trước phòng khám."
+            },
+            {
+              "text": "Frank would have to book the bus a day in advance.",
+              "trap": "wrong_detail",
+              "whyVi": "Việc đặt trước một ngày là quy định của handyDART, không phải xe buýt thường."
+            },
+            {
+              "text": "The number eight bus stops running in winter.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói xe buýt ngừng chạy vào mùa đông; Tess chỉ nhắc tuyết làm việc đi bộ khó hơn."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "With your knee, I'm not sure that walk back up is a good idea",
+          "explanationVi": "Vấn đề không nằm ở phòng khám mà ở 'the stop on your end is at the bottom of the hill'. 'That walk back up' được diễn đạt lại thành 'the walk home from the stop'.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "Which statement about handyDART is correct, according to Tess?",
+          "options": [
+            {
+              "text": "Only people who use wheelchairs can qualify.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là điều Frank nghĩ; Tess sửa lại 'Not only'."
+            },
+            {
+              "text": "Trips are free once a doctor signs the form.",
+              "trap": "partially_true",
+              "whyVi": "Đúng là cần bác sĩ ký, nhưng chuyến đi không miễn phí: giá bằng vé xe buýt thường."
+            },
+            {
+              "text": "Riders choose an exact pickup time when they book.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: họ chỉ cho khung đón nửa tiếng, không phải giờ chính xác."
+            },
+            {
+              "text": "Rides cost the usual bus fare but must be reserved ahead of time.",
+              "trap": "none",
+              "whyVi": "Đúng: giá bằng vé xe buýt thường và phải đặt trước ít nhất một ngày."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "a trip costs the same as a regular bus fare. The catch is you have to book at least a day ahead",
+          "explanationVi": "Các phương án đều nghe có vẻ hợp lý. Tess nói hai điều: giá 'the same as a regular bus fare' và 'book at least a day ahead'. Đáp án D gộp cả hai ý bằng từ khác ('usual bus fare', 'reserved ahead of time').",
+          "vocabulary": [
+            "the catch"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What does Ivana mean in her reply to Marko's taxi offer?",
+          "options": [
+            {
+              "text": "She feels a taxi to Vernon would cost too much.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô nói 'money isn't the issue'."
+            },
+            {
+              "text": "She would rather have practical help with driving than money.",
+              "trap": "none",
+              "whyVi": "Đúng: cô cần người chia sẻ việc lái xe, không cần tiền."
+            },
+            {
+              "text": "She expects Marko to drive their father to Vernon himself.",
+              "trap": "wrong_detail",
+              "whyVi": "Marko nói rõ anh không thể có mặt ở đây."
+            },
+            {
+              "text": "She has already arranged for her aunt to do the driving.",
+              "trap": "partially_true",
+              "whyVi": "Dì Rosa có ngỏ ý giúp nhiều lần, nhưng lúc đó chưa sắp xếp gì cả."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "money isn't the issue. What I need is someone to share the actual driving once in a while.",
+          "explanationVi": "Ivana cảm ơn ('That's generous') nhưng từ chối khéo: vấn đề không phải tiền mà là 'someone to share the actual driving'. Đáp án B diễn đạt lại thành 'practical help with driving'.",
+          "vocabulary": []
+        },
+        {
+          "number": 5,
+          "prompt": "When Marko says he would like to \"chip in somehow\", what does he mean?",
+          "options": [
+            {
+              "text": "He wants to contribute in some way.",
+              "trap": "none",
+              "whyVi": "Đúng: 'chip in' = góp phần, đóng góp (thường là tiền)."
+            },
+            {
+              "text": "He wants to take over the planning completely.",
+              "trap": "too_broad",
+              "whyVi": "'Chip in' chỉ là góp một phần, không phải đảm nhận toàn bộ."
+            },
+            {
+              "text": "He wants to visit his father more often.",
+              "trap": "not_mentioned",
+              "whyVi": "Marko không nói sẽ về thăm nhiều hơn; anh nói mình không thể ở đây."
+            },
+            {
+              "text": "He wants to find a cheaper way to travel.",
+              "trap": "wrong_detail",
+              "whyVi": "Anh đề nghị trả tiền taxi, không tìm cách đi rẻ hơn."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "vocabulary",
+          "evidence": "I can't be here, so I'd like to at least chip in somehow.",
+          "explanationVi": "Ngữ cảnh: Marko không ở gần nên muốn 'at least chip in' bằng cách trả tiền taxi. 'Chip in' = đóng góp một phần.",
+          "vocabulary": [
+            "chip in"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Tess imply when she says \"a snail gets you there in one piece\"?",
+          "options": [
+            {
+              "text": "Rosa should learn to drive faster.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: Tess cho rằng lái chậm là điều tốt."
+            },
+            {
+              "text": "Frank should take the bus to Vernon instead.",
+              "trap": "wrong_detail",
+              "whyVi": "Tess không đề nghị đi xe buýt đến Vernon."
+            },
+            {
+              "text": "Driving slowly is safe, so it is a weak reason to refuse Rosa's help.",
+              "trap": "none",
+              "whyVi": "Đúng: lái chậm thì đến nơi an toàn, nên đó không phải lý do chính đáng để từ chối."
+            },
+            {
+              "text": "Frank is taking too long to make up his mind.",
+              "trap": "word_match",
+              "whyVi": "'Snail' (con ốc sên) gợi sự chậm chạp, nhưng Tess nói về cách lái xe của Rosa, không nói Frank chậm quyết định."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "Frank, a snail gets you there in one piece.",
+          "explanationVi": "'In one piece' = an toàn, không bị thương. Tess dùng lại hình ảnh 'snail' của Frank để phản bác một cách hài hước: lái chậm thì an toàn. Ngay sau đó Frank đồng ý.",
+          "vocabulary": [
+            "in one piece"
+          ]
+        },
+        {
+          "number": 7,
+          "prompt": "What does Tess say about storage coverage?",
+          "options": [
+            {
+              "text": "It cancels the car's insurance until Frank passes the assessment.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: xe vẫn được bảo hiểm, chỉ chuyển sang loại bảo hiểm khi cất xe."
+            },
+            {
+              "text": "It takes several weeks to switch back to regular coverage.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: Tess kể người môi giới đã chuyển lại bảo hiểm thường ngay trong ngày họ cần."
+            },
+            {
+              "text": "It costs about $160 a month.",
+              "trap": "wrong_detail",
+              "whyVi": "160 đô/tháng là chi phí bảo hiểm hiện tại mà Marko nhắc đến."
+            },
+            {
+              "text": "It keeps the parked car protected against some risks for much less money.",
+              "trap": "none",
+              "whyVi": "Đúng: vẫn bảo vệ trước trộm cắp hay cây đổ, với giá chỉ bằng một phần nhỏ."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "It still protects against things like theft or a tree coming down on it, and it's a fraction of the price.",
+          "explanationVi": "'A fraction of the price' được diễn đạt lại thành 'much less money'; 'theft or a tree coming down on it' thành 'some risks'.",
+          "vocabulary": [
+            "a fraction of"
+          ]
+        },
+        {
+          "number": 8,
+          "prompt": "How does Frank's attitude change over the course of the discussion?",
+          "options": [
+            {
+              "text": "He becomes more upset with each suggestion.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: về cuối ông dịu lại và khen ý kiến của Tess."
+            },
+            {
+              "text": "He resists at first but gradually accepts parts of the plan.",
+              "trap": "none",
+              "whyVi": "Đúng: ban đầu ông gạt đi, sau đó đồng ý để Rosa chở đi Vernon và khen ý tưởng bảo hiểm."
+            },
+            {
+              "text": "He agrees with everything from the very beginning.",
+              "trap": "opposite",
+              "whyVi": "Sai: lúc đầu ông phản đối handyDART và không muốn Rosa chở."
+            },
+            {
+              "text": "He refuses Rosa's help right up to the end.",
+              "trap": "wrong_detail",
+              "whyVi": "Ông đã đồng ý để Rosa chở đi Vernon một lần ('For Vernon, then')."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "that's the first sensible thing I've heard tonight.",
+          "explanationVi": "Cần theo dõi cả cuộc nói chuyện: Frank bắt đầu bằng sự tự tin và phản đối ('That's for people in wheelchairs', 'I'm not having Rosa drive me'), rồi chuyển sang 'Fine, fine' và cuối cùng khen ý kiến của Tess.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "in no time",
+      "vi": "rất nhanh",
+      "definition": "very quickly",
+      "example": "I'll pass that test in no time."
+    },
+    {
+      "term": "the catch",
+      "vi": "điểm bất lợi, cái khó",
+      "definition": "a hidden problem or condition",
+      "example": "The catch is you have to book a day ahead."
+    },
+    {
+      "term": "burn through",
+      "vi": "dùng hết nhanh",
+      "definition": "use up something quickly",
+      "example": "I've already burned through most of my vacation."
+    },
+    {
+      "term": "chip in",
+      "vi": "góp phần, đóng góp",
+      "definition": "give money or help as part of a shared effort",
+      "example": "I'd like to at least chip in somehow."
+    },
+    {
+      "term": "in one piece",
+      "vi": "an toàn, nguyên vẹn",
+      "definition": "safely, without being hurt or damaged",
+      "example": "A slow driver gets you there in one piece."
+    },
+    {
+      "term": "a fraction of",
+      "vi": "một phần nhỏ của",
+      "definition": "a small part of something",
+      "example": "Storage coverage is a fraction of the price."
+    },
+    {
+      "term": "pickup window",
+      "vi": "khung giờ đón",
+      "definition": "a period of time during which a vehicle will arrive",
+      "example": "They give you a half-hour pickup window."
+    },
+    {
+      "term": "door-to-door",
+      "vi": "đưa đón tận nơi",
+      "definition": "going directly from one person's home to the destination",
+      "example": "handyDART is a door-to-door service."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 8 items independently; keys match. Removed legal/insurance rules stated as fact: the suspension now comes from 'the licensing office' (not a doctor's letter), handyDART details are framed as what Tess read on their website, and storage coverage is told as Tess's own experience with a broker (Q7 B whyVi updated). Added name cues for Ivana and Tess (Tess was never named although 4 questions ask about her); Q8 evidence and Q1 option D adjusted accordingly."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

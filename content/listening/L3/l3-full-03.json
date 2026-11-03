@@ -1,0 +1,138 @@
+{
+  "id": "l3-full-03",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "government",
+  "title": "Permit questions for a new deck and fence",
+  "context": "You will hear a homeowner asking a clerk at the permit counter of a city hall in the Lower Mainland about building a deck and a fence.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Tomasz", "voice": "male_b", "text": "Hi there, my name's Tomasz. I'm planning to replace the old deck at the back of my house, and while I'm at it, put up a new fence. My brother-in-law swears I don't need a permit for either, but I'd rather hear it from you." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Nice to meet you, Tomasz. I'm Priya. And good call. Let's start with the fence, it's simpler. In a back yard, you can build up to one point eight metres without a permit. In a front yard, the limit is one point two." },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "Perfect, so I'm fine. It's all along the back and the side." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Let me check your address. Ah. You're on a corner lot. That changes things a bit. Within six metres of the corner, nothing can be taller than one metre, so drivers can see around it. That includes hedges, by the way." },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "Huh. My brother-in-law didn't mention that. And the deck?" },
+        { "speaker": "Priya", "voice": "female_a", "text": "Any deck more than sixty centimetres off the ground needs a permit. How high is yours?" },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "About a metre, I'd say. Maybe a bit more at the far end where the yard slopes." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Then you'll need one. The application fee is two hundred and ten dollars. And I'd strongly advise against starting before it's approved. If an inspector finds work already under way, the fee doubles, and they can make you open things up so they can see what's underneath." },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "Message received. What do I have to submit? Do I need an architect?" },
+        { "speaker": "Priya", "voice": "female_a", "text": "Not for a deck that size. You'll need a site plan showing where the deck sits on the property, and a drawing of how it's built, the posts, the beams, that kind of thing. Hand-drawn is perfectly acceptable, as long as it's to scale and the measurements are labelled." },
+        { "speaker": "Priya", "voice": "female_a", "text": "As for timing, regular applications are taking four to six weeks right now. But simple residential projects like yours qualify for our fast-track stream if you apply online, and that's about ten business days. The catch is, it has to be complete. If anything's missing, it gets bumped out of the fast track and goes to the back of the regular line." },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "So it pays to get it right the first time." },
+        { "speaker": "Priya", "voice": "female_a", "text": "Exactly. Once you've got the permit, there are two inspections. The first is after you've dug the holes for the footings, but before any concrete goes in. The second is when everything's finished. You book them online, by three p.m. the day before." },
+        { "speaker": "Tomasz", "voice": "male_b", "text": "Got it. Last thing, the fence on the side is shared with my neighbour. Does the city need to sign off on that?" },
+        { "speaker": "Priya", "voice": "female_a", "text": "No, that's between the two of you. I'd sort out who's paying for what before the first post goes in, though. We don't get involved if there's a disagreement." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why might Tomasz's fence plan need to change?",
+          "options": [
+            { "text": "Part of the fence is in his front yard.", "trap": "wrong_detail", "whyVi": "Tomasz nói hàng rào chỉ ở phía sau và bên hông, không có ở sân trước." },
+            { "text": "His property is located where two streets meet.", "trap": "none", "whyVi": "Đúng: nhà anh nằm ở lô góc (corner lot), nên gần góc đường hàng rào không được cao quá 1 mét." },
+            { "text": "Fences on shared property lines require approval.", "trap": "opposite", "whyVi": "Priya nói thành phố không cần duyệt hàng rào chung với hàng xóm." },
+            { "text": "His hedge is already taller than the limit.", "trap": "word_match", "whyVi": "Priya chỉ nói quy định cũng áp dụng cho hàng rào cây; bài không nói Tomasz có hàng rào cây quá cao." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "You're on a corner lot. That changes things a bit.",
+          "explanationVi": "'Corner lot' = lô đất ở góc, nơi hai con đường giao nhau. Đáp án B diễn đạt lại mà không lặp từ 'corner'.",
+          "vocabulary": ["corner lot"]
+        },
+        {
+          "number": 2,
+          "prompt": "What is Priya's main concern about the deck?",
+          "options": [
+            { "text": "Tomasz might begin construction before getting approval.", "trap": "none", "whyVi": "Đúng: cô khuyên mạnh mẽ không bắt đầu trước khi được duyệt, vì phí tăng gấp đôi và có thể phải tháo ra." },
+            { "text": "The deck is too high to be built without an architect.", "trap": "opposite", "whyVi": "Priya nói sàn cỡ đó không cần kiến trúc sư." },
+            { "text": "The slope of the yard makes the deck unsafe.", "trap": "word_match", "whyVi": "Tomasz nhắc sân dốc chỉ để nói chiều cao; Priya không nói là không an toàn." },
+            { "text": "The application fee may increase next year.", "trap": "word_match", "whyVi": "Phí chỉ tăng gấp đôi nếu làm trước khi có giấy phép, không phải tăng vào năm sau." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "And I'd strongly advise against starting before it's approved.",
+          "explanationVi": "'I'd strongly advise against' cho thấy mối lo lớn nhất của Priya. Tomasz đáp 'Message received' – anh hiểu lời cảnh báo.",
+          "vocabulary": ["advise against"]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Priya say about the drawings Tomasz must submit?",
+          "options": [
+            { "text": "They must be prepared by a professional.", "trap": "opposite", "whyVi": "Vẽ tay hoàn toàn được chấp nhận." },
+            { "text": "They only need to show where the deck will be.", "trap": "partially_true", "whyVi": "Cần cả sơ đồ vị trí lẫn bản vẽ kết cấu (cột, dầm)." },
+            { "text": "They may be drawn by hand if the proportions are accurate and the measurements are marked.", "trap": "none", "whyVi": "Đúng: vẽ tay được, miễn đúng tỉ lệ và có ghi số đo." },
+            { "text": "They must be submitted in person at the counter.", "trap": "not_mentioned", "whyVi": "Không có yêu cầu nộp trực tiếp; thậm chí nộp online còn được xét nhanh." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "Hand-drawn is perfectly acceptable, as long as it's to scale and the measurements are labelled.",
+          "explanationVi": "'To scale' = đúng tỉ lệ ('the proportions are accurate'); 'measurements are labelled' = có ghi số đo ('the measurements are marked'); 'hand-drawn' ↔ 'drawn by hand'.",
+          "vocabulary": ["to scale", "site plan"]
+        },
+        {
+          "number": 4,
+          "prompt": "What happens if Tomasz's online application is missing something?",
+          "options": [
+            { "text": "It will be rejected and he must pay the fee again.", "trap": "not_mentioned", "whyVi": "Không nói hồ sơ bị từ chối hay phải nộp phí lại." },
+            { "text": "It will be processed in about ten business days.", "trap": "wrong_detail", "whyVi": "Mười ngày làm việc chỉ dành cho hồ sơ đầy đủ ở diện xét nhanh." },
+            { "text": "The clerk will call him to ask for the missing item.", "trap": "not_mentioned", "whyVi": "Priya không nói sẽ gọi điện cho anh." },
+            { "text": "It could take more than a month to be approved.", "trap": "none", "whyVi": "Đúng: hồ sơ thiếu bị chuyển sang hàng chờ thường, hiện mất 4–6 tuần, và còn bị xếp cuối hàng." }
+          ],
+          "answerIndex": 3,
+          "category": "long_conversation",
+          "evidence": "If anything's missing, it gets bumped out of the fast track and goes to the back of the regular line.",
+          "explanationVi": "Phải kết hợp hai thông tin: hồ sơ thiếu bị đưa về 'the back of the regular line', và hàng chờ thường mất 'four to six weeks'. Vậy có thể mất hơn một tháng.",
+          "vocabulary": ["fast track"]
+        },
+        {
+          "number": 5,
+          "prompt": "When should the first inspection take place?",
+          "options": [
+            { "text": "Before Tomasz applies for the permit.", "trap": "opposite", "whyVi": "Kiểm tra chỉ diễn ra sau khi đã có giấy phép." },
+            { "text": "Once the holes are dug but not yet filled with concrete.", "trap": "none", "whyVi": "Đúng: sau khi đào hố móng nhưng trước khi đổ bê tông." },
+            { "text": "After the concrete for the footings has been poured.", "trap": "opposite", "whyVi": "Priya nói 'before any concrete goes in'." },
+            { "text": "By three p.m. on the day the work is finished.", "trap": "wrong_detail", "whyVi": "3 giờ chiều hôm trước là hạn đặt lịch kiểm tra, không phải thời điểm kiểm tra." }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "The first is after you've dug the holes for the footings, but before any concrete goes in.",
+          "explanationVi": "Cần nghe cả 'after' và 'but before'. Đáp án B diễn đạt 'before any concrete goes in' thành 'not yet filled with concrete'.",
+          "vocabulary": ["footing"]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Priya recommend regarding the shared fence?",
+          "options": [
+            { "text": "Asking the city to settle any disagreement.", "trap": "opposite", "whyVi": "Thành phố không can thiệp nếu có bất đồng." },
+            { "text": "Getting the neighbour's signature on the permit form.", "trap": "not_mentioned", "whyVi": "Hàng rào không cần giấy phép và không cần chữ ký hàng xóm." },
+            { "text": "Agreeing on how to split the costs before construction begins.", "trap": "none", "whyVi": "Đúng: thống nhất ai trả phần nào trước khi dựng cột đầu tiên." },
+            { "text": "Building it no higher than one metre.", "trap": "wrong_detail", "whyVi": "Giới hạn 1 mét chỉ áp dụng trong 6 mét gần góc đường." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "I'd sort out who's paying for what before the first post goes in, though.",
+          "explanationVi": "'Sort out who's paying for what' = thống nhất chia chi phí; 'before the first post goes in' = trước khi bắt đầu xây.",
+          "vocabulary": ["sort out", "sign off on"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "corner lot", "vi": "lô đất ở góc đường", "definition": "a piece of land where two streets meet", "example": "You're on a corner lot, so different rules apply." },
+    { "term": "advise against", "vi": "khuyên không nên", "definition": "to recommend that someone not do something", "example": "I'd strongly advise against starting before it's approved." },
+    { "term": "site plan", "vi": "sơ đồ vị trí trên lô đất", "definition": "a drawing showing where a building sits on a property", "example": "You'll need a site plan showing where the deck sits." },
+    { "term": "to scale", "vi": "đúng tỉ lệ", "definition": "drawn so that sizes match real sizes in the same proportion", "example": "Hand-drawn is fine, as long as it's to scale." },
+    { "term": "fast track", "vi": "diện xét duyệt nhanh", "definition": "a quicker process for simple cases", "example": "Simple projects qualify for the fast track." },
+    { "term": "footing", "vi": "móng (chân cột)", "definition": "the concrete base that supports a post or wall", "example": "Dig the holes for the footings before the inspection." },
+    { "term": "sign off on", "vi": "phê duyệt, đồng ý chính thức", "definition": "to give official approval for something", "example": "Does the city need to sign off on the fence?" },
+    { "term": "sort out", "vi": "giải quyết, thu xếp", "definition": "to deal with a problem or arrangement", "example": "Sort out who's paying for what first." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; keys matched. Q1 prompt softened to 'might ... need to change' (the speaker never confirms the fence is within 6 m of the corner); Q3 key reworded so 'to scale' is paraphrased as accurate proportions rather than 'accurate in size', explanationVi updated; Q4 option B trap relabelled wrong_detail. Municipal rules are for an unnamed city and plausible. Speaker names used in questions are now spoken in the audio (self-introductions/greetings added)." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

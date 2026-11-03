@@ -1,0 +1,266 @@
+{
+  "id": "l4-drill-02",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "customer-service",
+  "title": "Paraphrase drill: Ferry booking outage before the long weekend",
+  "context": "You will hear a local radio news report about a problem with a ferry company's online booking system.",
+  "estimatedMinutes": 4,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Travellers hoping to get a jump on the BC Day long weekend ran into a wall this morning, when the online booking system for Salish Sea Ferries went down for close to five hours. The outage hit just as reservations opened for the busiest sailings between Tsawwassen and Swartz Bay."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The company says a software update installed overnight was to blame, not a cyberattack, and that no customer payment information was exposed. Some customers, however, were charged twice for the same booking when the system came back online."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Customer care manager Sunita Rao says anyone who was double-billed doesn't need to call in. The extra charges will be reversed automatically within five business days. She's asking people to hold off on contacting their banks, since disputing the charge can actually slow the refund down."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Rao also acknowledged that the timing couldn't have been worse. To make up for it, the company is waiving its usual twelve-dollar change fee for any booking on the long weekend, and adding two extra sailings on Friday afternoon."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Frequent traveller Owen MacLeod, who commutes to Victoria for work, says he's heard apologies before. He says he'd rather see the company test its updates on a quiet Tuesday night than promise it won't happen again. The company says it is reviewing how and when updates are rolled out."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What caused the booking system to fail?",
+          "options": [
+            {
+              "text": "Hackers attacked the company's website.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: công ty nói rõ 'not a cyberattack'."
+            },
+            {
+              "text": "Too many people tried to book at the same time.",
+              "trap": "not_mentioned",
+              "whyVi": "Nghe hợp lý vì là giờ cao điểm đặt vé, nhưng bài không nói đây là nguyên nhân."
+            },
+            {
+              "text": "Customers' payment details were stolen.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: không có thông tin thanh toán nào bị lộ."
+            },
+            {
+              "text": "A change made to the system's software during the night",
+              "trap": "none",
+              "whyVi": "Đúng: 'a software update installed overnight was to blame'."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "a software update installed overnight was to blame, not a cyberattack",
+          "explanationVi": "'was to blame' = là nguyên nhân. 'software update installed overnight' được diễn đạt lại thành 'a change made to the system's software during the night'.",
+          "vocabulary": [
+            "be to blame"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "What should customers who were charged twice do?",
+          "options": [
+            {
+              "text": "Phone customer care to request a refund",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: Rao nói họ 'doesn't need to call in'."
+            },
+            {
+              "text": "Simply wait, because the money will be returned without any action",
+              "trap": "none",
+              "whyVi": "Đúng: tiền bị trừ thêm sẽ được hoàn tự động trong 5 ngày làm việc."
+            },
+            {
+              "text": "Ask their bank to cancel the payment",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà khuyên đừng liên hệ ngân hàng."
+            },
+            {
+              "text": "Cancel the booking and make a new one online",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không khuyên hủy và đặt lại."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "The extra charges will be reversed automatically within five business days.",
+          "explanationVi": "'reversed automatically' được diễn đạt lại thành 'returned without any action'. 'double-billed' = 'charged twice'.",
+          "vocabulary": [
+            "double-billed",
+            "reverse a charge"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "Why does Sunita Rao ask people not to contact their banks?",
+          "options": [
+            {
+              "text": "Doing so could delay getting their money back.",
+              "trap": "none",
+              "whyVi": "Đúng: 'disputing the charge can actually slow the refund down'."
+            },
+            {
+              "text": "Banks charge a fee for disputing a payment.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc tới phí ngân hàng."
+            },
+            {
+              "text": "Banks cannot see the charge for five business days.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'five business days' nhưng đó là thời gian hoàn tiền."
+            },
+            {
+              "text": "Customers' bank information may have been exposed.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: không có thông tin thanh toán nào bị lộ."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "disputing the charge can actually slow the refund down",
+          "explanationVi": "'slow the refund down' được diễn đạt lại thành 'delay getting their money back'. 'hold off on' = tạm hoãn, chưa làm.",
+          "vocabulary": [
+            "hold off on"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What is the company offering to make up for the problem?",
+          "options": [
+            {
+              "text": "A twelve-dollar refund for every customer",
+              "trap": "word_match",
+              "whyVi": "Bài có '12 đô' nhưng đó là phí đổi vé được miễn, không phải tiền hoàn."
+            },
+            {
+              "text": "Extra sailings throughout the whole weekend",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: chỉ thêm hai chuyến vào chiều thứ Sáu."
+            },
+            {
+              "text": "Free changes to long-weekend bookings and additional departures",
+              "trap": "none",
+              "whyVi": "Đúng: miễn phí đổi vé cho kỳ nghỉ dài và thêm hai chuyến phà."
+            },
+            {
+              "text": "Free travel for anyone sailing on Friday",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói đi phà miễn phí."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "the company is waiving its usual twelve-dollar change fee for any booking on the long weekend, and adding two extra sailings",
+          "explanationVi": "'waiving the change fee' = 'free changes'; 'extra sailings' = 'additional departures'. Đây là hai cặp paraphrase quen thuộc trong CELPIP.",
+          "vocabulary": [
+            "waive",
+            "make up for"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What is Owen MacLeod's attitude?",
+          "options": [
+            {
+              "text": "He is satisfied with the company's apology.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: 'he's heard apologies before' cho thấy ông chán lời xin lỗi."
+            },
+            {
+              "text": "He thinks updates should be done on long weekends.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ông muốn cập nhật vào tối thứ Ba vắng khách."
+            },
+            {
+              "text": "He plans to stop taking the ferry to work.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không nói sẽ thôi đi phà."
+            },
+            {
+              "text": "He wants practical changes rather than more promises.",
+              "trap": "none",
+              "whyVi": "Đúng: ông muốn công ty thử nghiệm cập nhật vào lúc vắng thay vì hứa hẹn."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "he'd rather see the company test its updates on a quiet Tuesday night than promise it won't happen again",
+          "explanationVi": "'he's heard apologies before' thể hiện sự hoài nghi. 'would rather... than promise' được diễn đạt lại thành 'practical changes rather than more promises'."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "get a jump on",
+      "vi": "làm sớm để giành lợi thế",
+      "definition": "start something early to gain an advantage",
+      "example": "Travellers tried to get a jump on the long weekend."
+    },
+    {
+      "term": "run into a wall",
+      "vi": "gặp trở ngại không vượt qua được",
+      "definition": "meet a problem that stops progress",
+      "example": "Customers ran into a wall when the site went down."
+    },
+    {
+      "term": "be to blame",
+      "vi": "là nguyên nhân, có lỗi",
+      "definition": "be responsible for something bad",
+      "example": "A software update was to blame."
+    },
+    {
+      "term": "double-billed",
+      "vi": "bị tính tiền hai lần",
+      "definition": "charged twice for the same thing",
+      "example": "Some customers were double-billed."
+    },
+    {
+      "term": "reverse a charge",
+      "vi": "hoàn lại khoản thu",
+      "definition": "cancel a payment and return the money",
+      "example": "The company will reverse the charge automatically."
+    },
+    {
+      "term": "hold off on",
+      "vi": "tạm hoãn",
+      "definition": "delay doing something",
+      "example": "Please hold off on calling your bank."
+    },
+    {
+      "term": "waive",
+      "vi": "miễn (phí)",
+      "definition": "officially not require a payment or rule",
+      "example": "They are waiving the change fee."
+    },
+    {
+      "term": "make up for",
+      "vi": "bù đắp",
+      "definition": "do something good to correct a bad situation",
+      "example": "Extra sailings will make up for the outage."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 5 independently; keys match (DBACD); 4 of 5 items are paraphrase, meeting the drill target. Changed \"Remembrance Day long weekend\" to \"BC Day long weekend\" because Nov 11 is not always a long weekend; ferry company is fictional."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

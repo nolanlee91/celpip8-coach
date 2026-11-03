@@ -1,0 +1,55 @@
+{
+  "id": "s6-practice-06",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "practice",
+  "difficulty": 9,
+  "topic": "community-services",
+  "title": "A long-time food bank volunteer upsetting clients",
+  "prompt": "You coordinate volunteers at a neighbourhood food bank. Gerald, a retired volunteer who has helped there for more than ten years, has recently been short-tempered with clients. This month, two clients complained that he spoke to them rudely in front of others, and one of them said she will not come back. The food bank's director, Ms. Laurent, is a close friend of Gerald's and says he is just having a bad month.\n\nChoose ONE of the following options:\n\nOption A: Talk to Gerald. Tell him about the complaints and suggest a way forward.\n\nOption B: Talk to Ms. Laurent. Explain why the situation needs to be addressed and suggest a fair approach.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Respectful opener + link to the earlier conversation",
+    "Acknowledge Gerald's value and the director's friendship",
+    "Explain, with facts, why it cannot be ignored (impact on clients)",
+    "Propose a gentle, non-disciplinary solution with options",
+    "Ask for her agreement"
+  ],
+  "modelAnswer": "Ms. Laurent, thanks for taking a few minutes. I'd like to follow up on what we discussed about Gerald, because I've been giving it a lot of thought.\n\nLet me say first that I really value him. He's put in more hours here than anyone, and I know how much he means to you. But I don't think we can write this off as a bad month anymore. We've now had two complaints, and one woman told me she won't be coming back. For someone who's already struggling, being embarrassed in a lineup is a big deal, and it reflects on all of us.\n\nSo, rather than anything disciplinary, I'd suggest a quiet, private conversation. I'm happy to lead it, or we could do it together if you'd feel more comfortable. Something may be going on in his life, and he might just need a break. In the meantime, perhaps he could sort donations in the back, where he's still contributing but under less pressure.\n\nWould you be open to that?",
+  "usefulExpressions": [
+    {
+      "expression": "I'd like to follow up on what we discussed…",
+      "usageVi": "'follow up on' = tiếp tục bàn về điều đã nói; mở đầu chuyên nghiệp với cấp trên."
+    },
+    {
+      "expression": "Let me say first that I really value him.",
+      "usageVi": "Khẳng định điểm tốt trước khi nêu vấn đề — giảm căng thẳng khi người nghe có quan hệ thân thiết."
+    },
+    {
+      "expression": "We can't write this off as…",
+      "usageVi": "'write off as' = gạt đi, coi là chuyện nhỏ; phản bác nhẹ nhàng ý kiến của giám đốc."
+    },
+    {
+      "expression": "It reflects on all of us.",
+      "usageVi": "Nhấn mạnh ảnh hưởng đến cả tổ chức chứ không chỉ một cá nhân."
+    },
+    {
+      "expression": "rather than anything disciplinary, I'd suggest…",
+      "usageVi": "Đề xuất giải pháp mềm, cho thấy bạn công bằng và không nhắm vào ai."
+    }
+  ],
+  "commonMistakes": [
+    "Phủ nhận thẳng ý kiến cấp trên ('You're wrong, he's rude'). Hãy công nhận tình cảm của bà trước, rồi dùng sự thật để thuyết phục.",
+    "Đề xuất quá gắt ('We should fire him'). Đề bài yêu cầu 'a fair approach' — giải pháp cần cân bằng giữa khách hàng và tình nguyện viên.",
+    "Lẫn lộn thì: 'Two clients complain this month' → 'Two clients have complained this month'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked Option A/B shape, direct address to Ms. Laurent (Option B), acknowledgement of the friendship, facts from the prompt, non-disciplinary fair approach, length (~171 words). No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

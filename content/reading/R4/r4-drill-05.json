@@ -1,0 +1,277 @@
+{
+  "id": "r4-drill-05",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "Paraphrase drill: Should Rental E-Scooters Stay?",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Near-duplicate of r4-drill-03 (same batch): same operator 'ZipLane', 400 scooters, 18-month pilot, 310,000 trips, about a third replacing car trips, blind resident who 'tripped over three' scooters. Keep only one. Content otherwise passes: all 6 keys solved independently and match; lengthened comment to ~121 words (Dr. Voss clause, 'week after week'); difficulty 8 -> 7 (paraphrases are explicit). Can be approved if r4-drill-03 is dropped or rewritten. 2026-11-03: the duplicate counterpart (r4-full / r4-drill-03) was rewritten with a different scenario, so the duplication no longer applies; approved on the reviewer’s item-quality findings."
+  },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "Eighteen months after rental e-scooters first appeared on the streets of Kelridge, city council must decide whether the pilot program becomes permanent. The 400 scooters, operated by a company called ZipLane, have logged more than 310,000 trips, most of them shorter than three kilometres. Supporters say they have plugged a gap in the city's transit network. Critics say they have created a whole new set of hazards.\n\nFor Councillor Devika Rao, the trip data speak for themselves. A ZipLane survey found that about a third of riders would otherwise have driven, and many said they used a scooter to get to or from a bus stop. \"We've spent years trying to crack the last-kilometre problem,\" she said. \"These scooters are doing it without a cent of city money.\"\n\nSidewalk safety is another story. Ian Prendergast, who has been blind since birth, says scooters left lying across sidewalks have become a daily obstacle. \"I've tripped over three this year alone,\" he said. \"Every time I complain, the company tells me it will look into it.\" ZipLane says riders who leave scooters outside marked parking zones are now fined $15, but Prendergast says he has yet to notice any difference.\n\nEmergency physician Dr. Helena Voss has seen the hazards up close. Her hospital treated more than 90 scooter-related injuries last summer, mostly to heads and wrists, and few of the patients had been wearing helmets. She doesn't want the program scrapped, but she would like a lower speed limit downtown and a helmet attached to every scooter. \"Most of these injuries are preventable. People just don't think of a scooter as a vehicle.\"\n\nCity staff have recommended making the program permanent with three changes: designated parking corrals on every downtown block, a top speed of 15 km/h in the downtown core, and a fee per trip that ZipLane would pay the city to fund enforcement. Council will vote on the recommendation next month.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I ride a ZipLane scooter to the bus loop almost every day, so I'm exactly the kind of rider Councillor Rao is talking about. Before the pilot, I [[5]], and I certainly don't miss paying for parking. That said, I was shocked to read about Mr. Prendergast. A $15 fine clearly isn't enough if scooters are still being dumped across sidewalks week after week. I also agree with Dr. Voss that many of these injuries could easily be prevented. Most riders I see go far too fast downtown, and hardly anyone wears a helmet. The staff recommendation looks like a sensible compromise, especially the [[6]], because it means the company, not taxpayers, will cover the cost of keeping riders in line.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "According to the ZipLane survey, how did many riders use the scooters?",
+      "options": [
+        {
+          "text": "To travel long distances across the city",
+          "trap": "opposite",
+          "whyVi": "Phần lớn chuyến đi ngắn hơn 3 km."
+        },
+        {
+          "text": "To connect with public transit",
+          "trap": "none",
+          "whyVi": "Đúng: 'used a scooter to get to or from a bus stop' – đi tới/từ trạm xe buýt = nối với giao thông công cộng."
+        },
+        {
+          "text": "To replace taxis late at night",
+          "trap": "not_mentioned",
+          "whyVi": "Bài không nhắc taxi hay ban đêm."
+        },
+        {
+          "text": "To avoid paying bus fares",
+          "trap": "opposite",
+          "whyVi": "Người dùng đi scooter để tới trạm xe buýt, tức là vẫn đi xe buýt."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "many said they used a scooter to get to or from a bus stop",
+      "explanationVi": "'Get to or from a bus stop' được diễn đạt lại thành 'connect with public transit'. Câu hỏi đòi hỏi nhận ra 'bus stop' thuộc nhóm 'public transit'.",
+      "vocabulary": [
+        "last-kilometre problem"
+      ]
+    },
+    {
+      "number": 2,
+      "prompt": "What does Councillor Rao mean when she says the scooters work \"without a cent of city money\"?",
+      "options": [
+        {
+          "text": "Riders can use the scooters free of charge.",
+          "trap": "word_match",
+          "whyVi": "'Without a cent' gợi ý miễn phí, nhưng câu nói về tiền của thành phố, không phải tiền người đi."
+        },
+        {
+          "text": "The city plans to stop funding buses.",
+          "trap": "not_mentioned",
+          "whyVi": "Không ai nói cắt ngân sách xe buýt."
+        },
+        {
+          "text": "ZipLane pays the city for every trip.",
+          "trap": "wrong_detail",
+          "whyVi": "Phí theo chuyến chỉ là đề xuất của nhân viên thành phố cho tương lai."
+        },
+        {
+          "text": "The service is not costing taxpayers anything.",
+          "trap": "none",
+          "whyVi": "Đúng: 'without a cent of city money' = thành phố (tức người đóng thuế) không phải chi đồng nào."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "\"These scooters are doing it without a cent of city money.\"",
+      "explanationVi": "'City money' là tiền ngân sách, tức tiền thuế. 'Without a cent' = không tốn đồng nào. Đáp án D nói lại bằng 'not costing taxpayers anything'.",
+      "vocabulary": [
+        "not a cent"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "What is Ian Prendergast's complaint about ZipLane?",
+      "options": [
+        {
+          "text": "It promises to act, but nothing seems to change.",
+          "trap": "none",
+          "whyVi": "Đúng: Công ty nói 'will look into it', và ông 'has yet to notice any difference'."
+        },
+        {
+          "text": "It refuses to respond to his complaints.",
+          "trap": "opposite",
+          "whyVi": "Công ty có trả lời mỗi lần ông phàn nàn."
+        },
+        {
+          "text": "It charges riders too much for parking.",
+          "trap": "word_match",
+          "whyVi": "Bài có 'fined $15' và 'parking zones' nhưng ông không nói phạt quá nặng."
+        },
+        {
+          "text": "It has removed scooters from sidewalks too slowly after accidents.",
+          "trap": "not_mentioned",
+          "whyVi": "Bài không nói về tốc độ dọn xe sau tai nạn."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "\"Every time I complain, the company tells me it will look into it.\"",
+      "explanationVi": "'Will look into it' = sẽ xem xét (lời hứa chung chung). 'Has yet to notice any difference' = chưa thấy gì thay đổi. Đáp án A ghép hai ý thành 'promises to act, but nothing seems to change'.",
+      "vocabulary": [
+        "look into",
+        "has yet to"
+      ]
+    },
+    {
+      "number": 4,
+      "prompt": "Which statement best reflects Dr. Voss's position?",
+      "options": [
+        {
+          "text": "The scooter program should be cancelled immediately.",
+          "trap": "opposite",
+          "whyVi": "Bà nói rõ 'doesn't want the program scrapped'."
+        },
+        {
+          "text": "Most scooter injuries are caused by drivers of cars.",
+          "trap": "not_mentioned",
+          "whyVi": "Bài không nói ô tô gây ra tai nạn."
+        },
+        {
+          "text": "The program should continue, but with steps to make riding safer.",
+          "trap": "none",
+          "whyVi": "Đúng: Bà không muốn bỏ chương trình nhưng muốn giảm tốc độ và có mũ bảo hiểm."
+        },
+        {
+          "text": "Riders should be fined for not wearing helmets.",
+          "trap": "partially_true",
+          "whyVi": "Bà muốn có mũ gắn sẵn trên xe, không đề nghị phạt."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "She doesn't want the program scrapped, but she would like a lower speed limit downtown and a helmet attached to every scooter.",
+      "explanationVi": "'Doesn't want the program scrapped' = 'should continue'; 'lower speed limit' và 'helmet' = 'steps to make riding safer'. Đáp án D thêm ý 'phạt' không có trong bài.",
+      "vocabulary": [
+        "scrap"
+      ]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        {
+          "text": "walked the whole way to the bus loop",
+          "trap": "word_match",
+          "whyVi": "Dùng lại 'bus loop' nhưng không khớp với vế sau 'don't miss paying for parking' – đi bộ không tốn tiền đỗ xe."
+        },
+        {
+          "text": "took a taxi to work most days",
+          "trap": "not_mentioned",
+          "whyVi": "Taxi không phải trả tiền đỗ xe, và bài không nhắc taxi."
+        },
+        {
+          "text": "rode my own bicycle downtown",
+          "trap": "not_mentioned",
+          "whyVi": "Không liên quan tới việc trả tiền đỗ xe; khảo sát cũng không nhắc xe đạp."
+        },
+        {
+          "text": "used to drive instead",
+          "trap": "none",
+          "whyVi": "Đúng: Người viết là kiểu người Rao nói đến – 'would otherwise have driven' – và không còn phải trả tiền đỗ xe."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "about a third of riders would otherwise have driven",
+      "explanationVi": "Hai manh mối: 'exactly the kind of rider Councillor Rao is talking about' (người lẽ ra đã lái xe) và 'don't miss paying for parking' (trước đây phải trả tiền đỗ xe). 'Would otherwise have driven' được nói lại thành 'used to drive instead'."
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        {
+          "text": "lower speed limit in the downtown core",
+          "trap": "wrong_detail",
+          "whyVi": "Đúng là một đề xuất, nhưng không giải thích được 'the company, not taxpayers, will cover the cost'."
+        },
+        {
+          "text": "charge ZipLane would owe the city for each ride",
+          "trap": "none",
+          "whyVi": "Đúng: 'a fee per trip that ZipLane would pay the city to fund enforcement' – công ty trả tiền cho việc thực thi."
+        },
+        {
+          "text": "parking corrals on every downtown block",
+          "trap": "wrong_detail",
+          "whyVi": "Là một đề xuất, nhưng bài không nói ai trả tiền cho khu đỗ xe."
+        },
+        {
+          "text": "$15 fine for careless riders",
+          "trap": "wrong_detail",
+          "whyVi": "Tiền phạt do người đi trả, không phải công ty, và đây không phải đề xuất mới của nhân viên thành phố."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "a fee per trip that ZipLane would pay the city to fund enforcement",
+      "explanationVi": "Mệnh đề 'because it means the company, not taxpayers, will cover the cost of keeping riders in line' chỉ khớp với phí theo chuyến. 'Fee per trip' = 'charge ... for each ride'; 'fund enforcement' = 'cover the cost of keeping riders in line'. Ba đề xuất khác đều có thật nhưng không khớp lý do."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "pilot program",
+      "vi": "chương trình thí điểm",
+      "definition": "a small trial run before deciding whether to continue",
+      "example": "Council must decide whether the pilot program becomes permanent."
+    },
+    {
+      "term": "plug a gap",
+      "vi": "lấp chỗ trống",
+      "definition": "to provide something that was missing",
+      "example": "Supporters say the scooters have plugged a gap in transit."
+    },
+    {
+      "term": "last-kilometre problem",
+      "vi": "bài toán chặng cuối",
+      "definition": "the difficulty of getting people between a transit stop and their final destination",
+      "example": "Scooters may help crack the last-kilometre problem."
+    },
+    {
+      "term": "not a cent",
+      "vi": "không một xu",
+      "definition": "no money at all",
+      "example": "The program has cost the city not a cent."
+    },
+    {
+      "term": "look into",
+      "vi": "xem xét, điều tra",
+      "definition": "to examine or investigate a problem",
+      "example": "The company says it will look into every complaint."
+    },
+    {
+      "term": "has yet to",
+      "vi": "vẫn chưa",
+      "definition": "has not done something so far",
+      "example": "He has yet to notice any difference."
+    },
+    {
+      "term": "scrap",
+      "vi": "hủy bỏ",
+      "definition": "to get rid of a plan or system",
+      "example": "She doesn't want the program scrapped."
+    },
+    {
+      "term": "keep someone in line",
+      "vi": "giữ ai tuân thủ quy định",
+      "definition": "to make sure people follow the rules",
+      "example": "Enforcement is needed to keep riders in line."
+    }
+  ]
+}

@@ -10,8 +10,8 @@
   "chunks": [
     {
       "segments": [
-        { "speaker": "Mai", "voice": "female_a", "text": "Hi. I've got about eight thousand dollars sitting in my chequing account, and my friend says I'm basically wasting it. I'm trying to decide between your high-interest savings account and a TFSA." },
-        { "speaker": "Samuel", "voice": "male_b", "text": "Your friend's right, chequing pays almost nothing. So, the high-interest savings account pays three point one percent right now. You can put in as much as you like and take money out any time, no fees." },
+        { "speaker": "Mai", "voice": "female_a", "text": "Hi, I'm Mai. I've got about eight thousand dollars sitting in my chequing account, and my friend says I'm basically wasting it. I'm trying to decide between your high-interest savings account and a TFSA." },
+        { "speaker": "Samuel", "voice": "male_b", "text": "Nice to meet you, Mai. I'm Samuel. Your friend's right, chequing pays almost nothing. So, the high-interest savings account pays three point one percent right now. You can put in as much as you like and take money out any time, no fees." },
         { "speaker": "Samuel", "voice": "male_b", "text": "The catch is that the interest counts as income, so you pay tax on it." },
         { "speaker": "Mai", "voice": "female_a", "text": "And the TFSA?" },
         { "speaker": "Samuel", "voice": "male_b", "text": "Our TFSA savings account pays a bit less, two point seven five percent. But whatever it earns is tax-free. You never report it on your tax return." },
@@ -99,7 +99,7 @@
   ],
   "estimatedMinutes": 4,
   "source": "curated",
-  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 4 Qs; key matched; all 4 paraphrase. TFSA facts verified: 1%/month on excess, room accrues from year of residency (18+), withdrawals restored the following Jan 1, HISA interest taxable; rates flagged as fictional. No changes needed." },
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 4 Qs; key matched; all 4 paraphrase. TFSA facts verified: 1%/month on excess, room accrues from year of residency (18+), withdrawals restored the following Jan 1, HISA interest taxable; rates flagged as fictional. No changes needed. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)." },
   "createdAt": "2026-10-26",
   "focus": []
 }

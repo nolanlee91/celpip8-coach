@@ -1,0 +1,131 @@
+{
+  "id": "r1-drill-05",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "Vocabulary drill: A creek clean-up behind the townhouses",
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 6 vocabulary items independently; keys matched and each idiom (get your hands dirty, die back, sugar-coat, short-handed, do my bit, lend a hand) is the only fit in context. Fixed the date (November 15, 2026 is a Sunday, now Saturday, November 14, and 'the 14th' in the reply), renamed 'Maple Creek Streamkeepers' to the fictional 'Larkin Creek Streamkeepers' because a real group uses that name, and replaced high-school 'exams' on a weekend with 'away at a tournament' (Q4 evidence/whyVi updated). Added one natural closing question so the short reply (now about 90 words) reads like a real answer." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a neighbour",
+      "kind": "text",
+      "text": "Hi Arjun,\n\nI'm reaching out because you mentioned at the block party that you'd like to get more involved in the neighbourhood, and I think I've found the perfect opportunity, as long as you don't mind getting your hands dirty.\n\nThe Larkin Creek Streamkeepers are holding a work party on Saturday, November 14, to pull out the Himalayan blackberry and English ivy that have taken over the bank behind our townhouses. Over the last few years, the ivy has crept so far up the alders that a couple of them are starting to die back, and the blackberry is so thick that the volunteers who count spawning salmon can barely get down to the water.\n\nI won't sugar-coat it: it's tough work, and the forecast looks soggy. But the group provides gloves and tools, and there's hot chili afterwards. They're also short-handed this year because the high school club that usually pitches in is away at a tournament that weekend.\n\nIf you're on board, let me know by Wednesday so I can give the organizer a head count. And if you can't make it this time, no hard feelings. There's another session in the spring.\n\nBest,\nSiobhan",
+      "table": null
+    },
+    {
+      "label": "Reply",
+      "kind": "text",
+      "text": "Hi Siobhan,\n\nThanks for thinking of me, and count me in! I've walked past that tangle of blackberry every morning for two years, and I've been meaning to [[5]] for ages, so the timing is perfect. My brother-in-law is staying with us that weekend, and he's offered to [[6]] too, so please add two to your head count. Neither of us minds a bit of rain, and the chili sealed the deal. Is there anything we should bring apart from rubber boots?\n\nSee you on the 14th,\nArjun",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "In the email, what does 'getting your hands dirty' mean?",
+      "options": [
+        { "text": "Becoming involved in something dishonest", "trap": "word_match", "whyVi": "Thành ngữ này đôi khi mang nghĩa 'nhúng tay vào việc xấu', nhưng ngữ cảnh là công việc tình nguyện ngoài trời." },
+        { "text": "Doing hard, practical work yourself", "trap": "none", "whyVi": "Đúng: nhổ cây bụi gai và dây thường xuân bên bờ suối là việc chân tay nặng nhọc." },
+        { "text": "Cleaning up after the block party", "trap": "not_mentioned", "whyVi": "Tiệc khu phố chỉ là nơi Arjun nói muốn tham gia; không có việc dọn dẹp sau tiệc." },
+        { "text": "Planting new trees along the creek", "trap": "not_mentioned", "whyVi": "Buổi làm việc là nhổ cây xâm lấn, không trồng cây mới." }
+      ],
+      "answerIndex": 1,
+      "category": "vocabulary",
+      "evidence": "as long as you don't mind getting your hands dirty",
+      "explanationVi": "Đọc tiếp đoạn sau để hiểu nghĩa: 'pull out the Himalayan blackberry', 'it's tough work', 'provides gloves and tools'. Vậy 'get your hands dirty' = tự tay làm việc chân tay.",
+      "vocabulary": ["get one's hands dirty"]
+    },
+    {
+      "number": 2,
+      "prompt": "The phrase 'starting to die back' suggests that the alder trees are",
+      "options": [
+        { "text": "being cut down by the volunteers", "trap": "not_mentioned", "whyVi": "Không ai chặt cây alder; tình nguyện viên nhổ dây thường xuân." },
+        { "text": "growing back after a hard winter", "trap": "word_match", "whyVi": "'back' dễ khiến người đọc nghĩ đến 'grow back' (mọc lại), ngược với nghĩa thật." },
+        { "text": "already completely dead", "trap": "too_broad", "whyVi": "'starting to' cho thấy mới bắt đầu, chưa chết hẳn." },
+        { "text": "losing some of their growth and getting weaker", "trap": "none", "whyVi": "Đúng: 'die back' = cành/ngọn bắt đầu chết dần, cây yếu đi, do dây thường xuân leo lên." }
+      ],
+      "answerIndex": 3,
+      "category": "vocabulary",
+      "evidence": "the ivy has crept so far up the alders that a couple of them are starting to die back",
+      "explanationVi": "'die back' (cây) = phần ngọn, cành chết dần. Cấu trúc 'so far ... that' cho thấy đây là hậu quả của dây leo, và 'starting to' loại bỏ ý 'chết hoàn toàn'.",
+      "vocabulary": ["die back", "creep"]
+    },
+    {
+      "number": 3,
+      "prompt": "What does Siobhan mean by 'I won't sugar-coat it'?",
+      "options": [
+        { "text": "I'll be honest about how unpleasant it may be.", "trap": "none", "whyVi": "Đúng: ngay sau đó cô nói thật 'it's tough work, and the forecast looks soggy'." },
+        { "text": "I won't be bringing any dessert.", "trap": "word_match", "whyVi": "'sugar' gợi đồ ngọt, nhưng đây là thành ngữ; đồ ăn được nhắc là chili." },
+        { "text": "I can't promise the weather will be good.", "trap": "partially_true", "whyVi": "Dự báo mưa là một phần điều cô nói thẳng, nhưng thành ngữ có nghĩa rộng hơn: không tô vẽ cho đẹp." },
+        { "text": "I won't make the job sound harder than it is.", "trap": "opposite", "whyVi": "Ngược lại: 'sugar-coat' là làm cho nghe dễ chịu hơn; cô từ chối làm thế và nói đúng là việc vất vả." }
+      ],
+      "answerIndex": 0,
+      "category": "vocabulary",
+      "evidence": "I won't sugar-coat it: it's tough work, and the forecast looks soggy.",
+      "explanationVi": "'sugar-coat' = bọc đường, làm điều khó nghe trở nên dễ chịu. 'I won't sugar-coat it' = tôi nói thẳng. Dấu hai chấm sau cụm này giới thiệu chính sự thật không dễ chịu.",
+      "vocabulary": ["sugar-coat"]
+    },
+    {
+      "number": 4,
+      "prompt": "In the email, the word 'short-handed' means",
+      "options": [
+        { "text": "unable to work for long hours", "trap": "word_match", "whyVi": "'short' gợi 'ngắn' (thời gian), nhưng 'short-handed' nói về số người." },
+        { "text": "missing some of their tools", "trap": "wrong_detail", "whyVi": "Nhóm còn cung cấp găng tay và dụng cụ; thứ thiếu là người." },
+        { "text": "without as many helpers as they need", "trap": "none", "whyVi": "Đúng: nhóm học sinh thường giúp đi thi đấu, nên thiếu người làm." },
+        { "text": "led by a new organizer", "trap": "not_mentioned", "whyVi": "Không có thông tin về người tổ chức mới." }
+      ],
+      "answerIndex": 2,
+      "category": "vocabulary",
+      "evidence": "They're also short-handed this year because the high school club that usually pitches in is away at a tournament that weekend.",
+      "explanationVi": "Lý do được giải thích ngay sau 'because': nhóm học sinh thường đến giúp ('pitches in') vắng mặt. Vậy 'short-handed' = thiếu nhân lực ('hands' = người làm).",
+      "vocabulary": ["short-handed", "pitch in"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "cut back on my volunteering", "trap": "opposite", "whyVi": "Arjun muốn tham gia nhiều hơn, không phải giảm bớt." },
+        { "text": "move out of the neighbourhood", "trap": "not_mentioned", "whyVi": "Không ai nói chuyển nhà; ngược với 'the timing is perfect'." },
+        { "text": "count the salmon in the creek", "trap": "word_match", "whyVi": "Đếm cá hồi là việc của nhóm tình nguyện khác; Arjun nói về bụi gai anh đi ngang mỗi sáng." },
+        { "text": "do my bit for the area", "trap": "none", "whyVi": "Đúng: 'do my bit' = góp phần; khớp với việc Arjun muốn 'get more involved in the neighbourhood'." }
+      ],
+      "answerIndex": 3,
+      "category": "vocabulary",
+      "evidence": "you'd like to get more involved in the neighbourhood",
+      "explanationVi": "'I've been meaning to ... for ages, so the timing is perfect' → điều Arjun muốn làm từ lâu. Siobhan đã nhắc anh muốn 'get more involved in the neighbourhood'. 'do my bit for the area' = góp phần cho khu phố.",
+      "vocabulary": ["do one's bit"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "back out", "trap": "opposite", "whyVi": "'back out' = rút lui; mâu thuẫn với 'please add two to your head count'." },
+        { "text": "lend a hand", "trap": "none", "whyVi": "Đúng: 'lend a hand' = giúp một tay, đồng nghĩa với 'pitch in' trong thư Siobhan." },
+        { "text": "hold off", "trap": "wrong_detail", "whyVi": "'hold off' = hoãn lại; không hợp với việc thêm anh ấy vào số người tham gia." },
+        { "text": "take over", "trap": "word_match", "whyVi": "'taken over' có trong thư (cây dại lấn chiếm); 'take over' = tiếp quản, không hợp ngữ cảnh." }
+      ],
+      "answerIndex": 1,
+      "category": "vocabulary",
+      "evidence": "the high school club that usually pitches in",
+      "explanationVi": "Vì anh rể được tính vào 'head count', chỗ trống phải có nghĩa 'tham gia giúp'. 'lend a hand' = 'pitch in'. Chú ý bẫy: 'take over' cũng có trong bài nhưng với nghĩa khác.",
+      "vocabulary": ["lend a hand", "pitch in"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "get one's hands dirty", "vi": "tự tay làm việc chân tay", "definition": "to do practical, physical work yourself", "example": "The manager isn't afraid to get her hands dirty when the team is busy." },
+    { "term": "die back", "vi": "(cây) chết dần từ ngọn/cành", "definition": "for a plant to lose leaves or branches and become weaker", "example": "The roses died back after the frost but recovered in spring." },
+    { "term": "creep", "vi": "(cây leo) bò, lan dần", "definition": "for a plant to grow slowly along or up something", "example": "Ivy crept up the side of the garage." },
+    { "term": "sugar-coat", "vi": "nói giảm nói tránh, tô hồng", "definition": "to make something unpleasant sound better than it really is", "example": "The doctor didn't sugar-coat the news." },
+    { "term": "short-handed", "vi": "thiếu người, thiếu nhân lực", "definition": "not having enough workers or helpers", "example": "The food bank is short-handed over the holidays." },
+    { "term": "pitch in", "vi": "góp sức, chung tay", "definition": "to join others in helping with a task", "example": "Everyone pitched in to clean the park." },
+    { "term": "do one's bit", "vi": "góp phần mình", "definition": "to do your share of work for a shared goal", "example": "I want to do my bit for the community garden." },
+    { "term": "lend a hand", "vi": "giúp một tay", "definition": "to help someone", "example": "Could you lend a hand with these boxes?" },
+    { "term": "head count", "vi": "số người tham gia", "definition": "the number of people who will attend something", "example": "I need a head count by Friday to order food." }
+  ]
+}

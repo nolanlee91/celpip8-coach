@@ -1,0 +1,415 @@
+{
+  "id": "l5-full-04",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "full",
+  "difficulty": 9,
+  "topic": "environment",
+  "title": "Discussion: A developer's offer to sponsor the salmon hatchery",
+  "context": "You will hear members of a volunteer creek stewardship group in Maple Ridge discussing whether to accept money from a housing developer.",
+  "estimatedMinutes": 10,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Hannah, chair",
+          "voice": "female_a",
+          "text": "Let's get to the item everyone's been emailing me about. Ridgeview Homes has offered us fifteen thousand dollars over three years. In return, they'd like their logo on our hatchery sign and a mention in the newsletter. I told them I'd bring it to the group before giving them any kind of answer."
+        },
+        {
+          "speaker": "Gord, long-time volunteer",
+          "voice": "male_b",
+          "text": "Then I'll say what half the people in this room are thinking, Hannah. These are the same folks clearing land for sixty townhouses two hundred metres up the slope from the creek. Taking their money and putting their name on our sign is like letting the fox sponsor the henhouse."
+        },
+        {
+          "speaker": "Kiran, treasurer",
+          "voice": "male_a",
+          "text": "I hear you, Gord, but let's be realistic about where we are. The hatchery pump is on its last legs, our insurance went up again, and the city grant we've counted on for nine years was cut in half. Without some new source of money, we're not just tightening our belts. We're looking at closing the hatchery by next fall."
+        },
+        {
+          "speaker": "Simone, biologist and volunteer",
+          "voice": "female_b",
+          "text": "Can I add something from the science side? The real risk from that site isn't the houses themselves, it's sediment. When they strip the vegetation and it rains, silt washes downhill and smothers the gravel where the coho lay their eggs. Whether Ridgeview pays us or not, that's going to happen unless their erosion controls actually work."
+        },
+        {
+          "speaker": "Gord, long-time volunteer",
+          "voice": "male_b",
+          "text": "Which is exactly why we shouldn't be in their pocket, Simone. If we spot muddy water coming off that site in November, are we really going to report it to the province when that same company is paying for our pump?"
+        },
+        {
+          "speaker": "Hannah, chair",
+          "voice": "female_a",
+          "text": "That's a fair question, and I don't want to brush it aside."
+        },
+        {
+          "speaker": "Simone, biologist and volunteer",
+          "voice": "female_b",
+          "text": "Honestly, I'd turn it around. What if we made the money conditional? We accept it only if the agreement says, in writing, that we keep monitoring the creek independently and we publish the water-quality readings, whatever they show. If they won't sign that, then we have our answer."
+        },
+        {
+          "speaker": "Kiran, treasurer",
+          "voice": "male_a",
+          "text": "I could live with that. And I'd add a clause that they can't use our name in their marketing. A logo on a sign at the hatchery is one thing. Seeing proud partner of the creek stewards on a billboard selling townhouses is something else entirely."
+        },
+        {
+          "speaker": "Gord, long-time volunteer",
+          "voice": "male_b",
+          "text": "Kiran, Simone, you're both assuming they'll stick to whatever they sign. I've been doing this for twenty-six years. Companies come and go, and the people who made the promises move on."
+        },
+        {
+          "speaker": "Hannah, chair",
+          "voice": "female_a",
+          "text": "Maybe so, but saying no doesn't make that development go away. It's going ahead either way. The only real question is whether there's a working hatchery and a monitoring program on the creek while it does."
+        },
+        {
+          "speaker": "Gord, long-time volunteer",
+          "voice": "male_b",
+          "text": "Well, I'm not going to pretend I'm happy about it. But if the monitoring clause is airtight, I won't stand in the way. Just don't ask me to shake anybody's hand at the cheque presentation."
+        },
+        {
+          "speaker": "Kiran, treasurer",
+          "voice": "male_a",
+          "text": "Noted. No photo ops for Gord."
+        },
+        {
+          "speaker": "Simone, biologist and volunteer",
+          "voice": "female_b",
+          "text": "I can draft the monitoring language this weekend. I'll base it on the agreement a stream group in Mission signed with a gravel company a few years back. It held up pretty well."
+        },
+        {
+          "speaker": "Hannah, chair",
+          "voice": "female_a",
+          "text": "Good. Kiran, you'll take care of the marketing clause, and I'll tell Ridgeview we're interested in principle, but that there are conditions, and nothing gets signed until the membership votes at the March meeting."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is Gord suggesting when he compares the offer to \"letting the fox sponsor the henhouse\"?",
+          "options": [
+            {
+              "text": "Ridgeview is likely to back out of the deal later.",
+              "trap": "wrong_detail",
+              "whyVi": "Gord có nghi ngờ công ty giữ lời, nhưng đó là ý anh nói sau, không phải nghĩa của phép so sánh này."
+            },
+            {
+              "text": "The hatchery has been having problems with wild animals.",
+              "trap": "word_match",
+              "whyVi": "'Fox' và 'henhouse' chỉ là hình ảnh so sánh, không nói về động vật thật."
+            },
+            {
+              "text": "The group should ask the company for more money.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai đề nghị đòi thêm tiền."
+            },
+            {
+              "text": "The group would be backed by a company whose project threatens what it protects.",
+              "trap": "none",
+              "whyVi": "Đúng: công ty đang xây nhà ngay trên dốc gần con suối mà nhóm bảo vệ, như cáo tài trợ chuồng gà."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "Taking their money and putting their name on our sign is like letting the fox sponsor the henhouse.",
+          "explanationVi": "Gord nhắc rằng công ty đang 'clearing land ... up the slope from the creek', rồi so sánh với 'the fox sponsor the henhouse': kẻ có thể gây hại lại đứng ra tài trợ. Đây là câu hỏi về thái độ ngầm, cần hiểu hình ảnh so sánh.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "According to Kiran, what will happen if the group finds no new funding?",
+          "options": [
+            {
+              "text": "The group will only need to make a few small cuts.",
+              "trap": "word_match",
+              "whyVi": "Kiran dùng cụm 'tightening our belts' nhưng nói rõ 'not just', tức là tình hình nghiêm trọng hơn nhiều."
+            },
+            {
+              "text": "The hatchery may have to shut down within about a year.",
+              "trap": "none",
+              "whyVi": "Đúng: anh nói họ có thể phải đóng cửa trại cá vào mùa thu năm sau."
+            },
+            {
+              "text": "The city will cut its grant in half.",
+              "trap": "wrong_detail",
+              "whyVi": "Việc tài trợ bị cắt một nửa đã xảy ra rồi, không phải hậu quả trong tương lai."
+            },
+            {
+              "text": "Their insurance will be cancelled.",
+              "trap": "not_mentioned",
+              "whyVi": "Anh chỉ nói phí bảo hiểm tăng, không nói bị hủy."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "We're looking at closing the hatchery by next fall.",
+          "explanationVi": "'Closing the hatchery by next fall' được diễn đạt lại thành 'shut down within about a year'. Bẫy: 'tightening our belts' (thắt lưng buộc bụng) đi kèm 'not just', nên chỉ cắt giảm nhỏ là sai.",
+          "vocabulary": [
+            "on its last legs",
+            "tighten one's belt"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "According to Simone, what is the main danger to the fish?",
+          "options": [
+            {
+              "text": "Soil washing off the cleared land and covering the spawning areas",
+              "trap": "none",
+              "whyVi": "Đúng: khi bóc lớp thực vật và trời mưa, bùn đất trôi xuống phủ lên lớp sỏi nơi cá hồi đẻ trứng."
+            },
+            {
+              "text": "Pollution from the people who will live in the townhouses",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô nói 'isn't the houses themselves'."
+            },
+            {
+              "text": "A shortage of gravel in the creek",
+              "trap": "word_match",
+              "whyVi": "Bài có từ 'gravel', nhưng vấn đề là sỏi bị bùn phủ lên, không phải thiếu sỏi."
+            },
+            {
+              "text": "The failure of the hatchery pump",
+              "trap": "wrong_detail",
+              "whyVi": "Máy bơm hỏng là vấn đề tài chính Kiran nhắc đến, không phải nguy cơ khoa học Simone nêu."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "silt washes downhill and smothers the gravel where the coho lay their eggs",
+          "explanationVi": "'Silt washes downhill and smothers the gravel where the coho lay their eggs' được diễn đạt lại thành 'soil washing off ... covering the spawning areas'. 'Spawning areas' = nơi cá đẻ trứng.",
+          "vocabulary": [
+            "smother"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "When Gord says the group \"shouldn't be in their pocket\", what does he mean?",
+          "options": [
+            {
+              "text": "The group should not borrow money from the company.",
+              "trap": "wrong_detail",
+              "whyVi": "Đây là tài trợ, không phải vay tiền; cụm từ nói về sự lệ thuộc."
+            },
+            {
+              "text": "The group should not let the company's money influence its decisions.",
+              "trap": "none",
+              "whyVi": "Đúng: 'in someone's pocket' = bị người đó chi phối vì nhận tiền của họ."
+            },
+            {
+              "text": "The group should not become paid staff of the company.",
+              "trap": "partially_true",
+              "whyVi": "Có liên quan đến tiền của công ty, nhưng không ai nói về việc làm nhân viên."
+            },
+            {
+              "text": "The group should keep the company's plans secret.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói về việc giữ bí mật."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "vocabulary",
+          "evidence": "Which is exactly why we shouldn't be in their pocket",
+          "explanationVi": "Gord giải thích ngay sau đó: liệu họ có dám báo cáo nước đục lên tỉnh khi chính công ty đó trả tiền máy bơm? Vậy 'in their pocket' = bị chi phối, mất tính độc lập.",
+          "vocabulary": [
+            "in someone's pocket"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What condition does Kiran want to add to the agreement?",
+          "options": [
+            {
+              "text": "The group must publish all of its water readings.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là điều kiện của Simone, không phải của Kiran."
+            },
+            {
+              "text": "Ridgeview's logo must be removed from the hatchery sign.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: anh chấp nhận logo trên biển ở trại cá ('is one thing')."
+            },
+            {
+              "text": "The company may not use the group's name to promote its homes.",
+              "trap": "none",
+              "whyVi": "Đúng: anh muốn điều khoản cấm công ty dùng tên nhóm trong quảng cáo bán nhà."
+            },
+            {
+              "text": "The money must be paid all at once instead of over three years.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai bàn về cách chia đợt thanh toán."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "similar_choices",
+          "evidence": "I'd add a clause that they can't use our name in their marketing.",
+          "explanationVi": "Có hai điều kiện được nêu, của hai người khác nhau: Simone (giám sát độc lập, công bố số liệu) và Kiran (không dùng tên nhóm trong marketing). 'Marketing' được diễn đạt lại thành 'promote its homes'.",
+          "vocabulary": [
+            "clause"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "What is Hannah's position when she responds to Gord's doubts about companies keeping promises?",
+          "options": [
+            {
+              "text": "She trusts Ridgeview to honour the agreement.",
+              "trap": "not_mentioned",
+              "whyVi": "Hannah không nói cô tin công ty; cô chỉ nói 'Maybe so'."
+            },
+            {
+              "text": "She thinks the group should try to stop the development.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô nói dự án sẽ tiến hành dù thế nào."
+            },
+            {
+              "text": "She agrees companies cannot be trusted, so the offer should be refused.",
+              "trap": "partially_true",
+              "whyVi": "Cô thừa nhận phần nào ('Maybe so') nhưng không kết luận là nên từ chối."
+            },
+            {
+              "text": "Refusing would not stop the building, so the group should focus on what it can protect.",
+              "trap": "none",
+              "whyVi": "Đúng: từ chối không làm dự án biến mất; câu hỏi thật là có trại cá và chương trình giám sát hay không."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "Maybe so, but saying no doesn't make that development go away.",
+          "explanationVi": "Hannah nhượng bộ nhẹ ('Maybe so') rồi chuyển hướng ('but'): từ chối không thay đổi được việc xây dựng, nên điều quan trọng là duy trì trại cá và giám sát. Đáp án D diễn đạt lại lập luận thực dụng này.",
+          "vocabulary": []
+        },
+        {
+          "number": 7,
+          "prompt": "By the end of the discussion, how does Gord feel about accepting the money?",
+          "options": [
+            {
+              "text": "He is still unhappy but will not block it if one key condition is met.",
+              "trap": "none",
+              "whyVi": "Đúng: anh không vui nhưng sẽ không cản trở nếu điều khoản giám sát chặt chẽ."
+            },
+            {
+              "text": "He has been completely won over by Simone's argument.",
+              "trap": "opposite",
+              "whyVi": "Sai: anh nói rõ 'I'm not going to pretend I'm happy about it'."
+            },
+            {
+              "text": "He will support it only if the company stays out of the group's marketing.",
+              "trap": "wrong_speaker",
+              "whyVi": "Điều kiện về marketing là của Kiran; điều kiện của Gord là điều khoản giám sát."
+            },
+            {
+              "text": "He wants to attend the cheque presentation to keep an eye on the company.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'cheque presentation', nhưng anh muốn tránh, không muốn bắt tay ai cả."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "But if the monitoring clause is airtight, I won't stand in the way.",
+          "explanationVi": "'I won't stand in the way' = sẽ không ngăn cản; 'airtight' = chặt chẽ, không có kẽ hở. Thái độ của Gord là chấp nhận miễn cưỡng có điều kiện.",
+          "vocabulary": [
+            "airtight",
+            "stand in the way"
+          ]
+        },
+        {
+          "number": 8,
+          "prompt": "What must happen before any agreement is signed?",
+          "options": [
+            {
+              "text": "Gord must meet the company to negotiate.",
+              "trap": "wrong_speaker",
+              "whyVi": "Gord không muốn gặp công ty; Hannah là người sẽ liên lạc với Ridgeview."
+            },
+            {
+              "text": "The stream group in Mission must approve the wording.",
+              "trap": "word_match",
+              "whyVi": "Nhóm bảo vệ suối ở Mission chỉ là mẫu tham khảo cho Simone, không phải bên duyệt."
+            },
+            {
+              "text": "The group's members must vote on it.",
+              "trap": "none",
+              "whyVi": "Đúng: không ký gì cho đến khi các thành viên bỏ phiếu ở cuộc họp tháng 3."
+            },
+            {
+              "text": "The province must inspect the erosion controls.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói tỉnh phải kiểm tra trước khi ký."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "nothing gets signed until the membership votes at the March meeting",
+          "explanationVi": "Câu cuối của Hannah tóm tắt các bước: Simone soạn điều khoản giám sát, Kiran lo điều khoản marketing, và 'nothing gets signed until the membership votes'. 'Membership votes' được diễn đạt lại thành 'members must vote'.",
+          "vocabulary": [
+            "in principle"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "on its last legs",
+      "vi": "sắp hỏng, sắp không dùng được nữa",
+      "definition": "about to stop working because it is old or worn out",
+      "example": "The hatchery pump is on its last legs."
+    },
+    {
+      "term": "tighten one's belt",
+      "vi": "thắt lưng buộc bụng, cắt giảm chi tiêu",
+      "definition": "spend less money than before",
+      "example": "We're not just tightening our belts."
+    },
+    {
+      "term": "smother",
+      "vi": "phủ kín, làm nghẹt",
+      "definition": "cover something completely so it cannot breathe or grow",
+      "example": "Silt smothers the gravel where the fish lay eggs."
+    },
+    {
+      "term": "in someone's pocket",
+      "vi": "bị ai đó chi phối (vì nhận tiền)",
+      "definition": "controlled or influenced by someone, usually because of money",
+      "example": "We shouldn't be in their pocket."
+    },
+    {
+      "term": "brush aside",
+      "vi": "gạt đi, phớt lờ",
+      "definition": "refuse to consider something seriously",
+      "example": "I don't want to brush that question aside."
+    },
+    {
+      "term": "clause",
+      "vi": "điều khoản",
+      "definition": "a section of a legal agreement",
+      "example": "I'd add a clause about marketing."
+    },
+    {
+      "term": "airtight",
+      "vi": "chặt chẽ, không có kẽ hở",
+      "definition": "so carefully made that no one can find a weakness in it",
+      "example": "The monitoring clause must be airtight."
+    },
+    {
+      "term": "stand in the way",
+      "vi": "cản trở, ngăn cản",
+      "definition": "try to stop something from happening",
+      "example": "I won't stand in the way."
+    },
+    {
+      "term": "in principle",
+      "vi": "về nguyên tắc",
+      "definition": "in general, but without agreeing to details yet",
+      "example": "We're interested in principle."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 8 items independently; keys match, attitude items (Q1, Q6, Q7) recoverable from wording. Hannah and Simone were never named and Kiran only at the end, so added address cues (Gord to Hannah and Simone, Gord to Kiran and Simone); Q4 evidence trimmed to fit. Replaced an invented agreement attributed to a real-sounding Alouette River group with a generic 'stream group in Mission' (Q8 option B and whyVi updated)."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

@@ -1,0 +1,144 @@
+{
+  "id": "r1-drill-06",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "banking",
+  "title": "Detail drill: Managing a parent's banking after surgery",
+  "estimatedMinutes": 8,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 7 items independently; keys matched. Q7's two-slot blank ('mailed [[7]] before the expiry date') left 'only on request' arguable and the options awkward, so the reply now reads 'replacements are [[7]], so there's nothing he needs to do' with four single-phrase options and only the automatic-mailing option defensible (key still D). Power-of-attorney and joint-account content stays as the fictional credit union's own recommendation and Marisol's 'I've read' hearsay, with no rules stated as fact; difficulty lowered to 7 because the detail items are explicit." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a member's daughter",
+      "kind": "text",
+      "text": "Dear Ms. Nakamura,\n\nMy father, Teodoro Reyes, has been a member of Fraserview Credit Union since 1987 and banks at your Main Street branch. Since his hip surgery in August, he hasn't been able to get to the branch, and his eyesight is too poor for online banking, so I've been helping him keep on top of his bills.\n\nAt the moment, I'm paying his hydro and property tax from my own account, and he pays me back by cheque, which is getting complicated. A friend suggested simply adding me to his chequing account as a joint holder, but I've read that this can cause problems when an estate is settled. My brother in Calgary thinks a power of attorney would be the better route, but we don't know whether you'd accept one drawn up by a notary rather than a lawyer.\n\nCould you tell me which option you'd recommend and what we'd need to bring? I imagine Dad would have to come in person at least once, so I'd like to arrange it on a Thursday, when my partner can drive us.\n\nAlso, his debit card expires at the end of November. Will a new one be mailed automatically?\n\nThank you,\nMarisol Reyes",
+      "table": null
+    },
+    {
+      "label": "Reply from the credit union",
+      "kind": "text",
+      "text": "Dear Ms. Reyes,\n\nThank you for your email, and please pass on my best wishes to your father for his recovery.\n\nIn situations like yours, we generally recommend a power of attorney rather than a joint account, for exactly the reason you mentioned. We're happy to accept one prepared by a notary, provided you bring the [[5]], not a photocopy.\n\nYour father will need to visit once so that we can confirm his identity and his wishes. Please bring two pieces of ID for each of you. I'm at the branch from Tuesday to Friday, so [[6]] would suit me well.\n\nAs for his debit card, replacements are [[7]], so there's nothing he needs to do. He should receive the new card within the next few weeks.\n\nWarm regards,\nYumi Nakamura\nMember Services, Fraserview Credit Union",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Why is Teodoro unable to do his own banking at present?",
+      "options": [
+        { "text": "He has trouble getting around and cannot see well enough to bank online.", "trap": "none", "whyVi": "Đúng: sau phẫu thuật hông ông không đến chi nhánh được, và mắt kém nên không dùng ngân hàng trực tuyến." },
+        { "text": "He has moved away from the Main Street branch.", "trap": "not_mentioned", "whyVi": "Ông vẫn giao dịch ở chi nhánh Main Street; không có chuyện chuyển nhà." },
+        { "text": "He prefers not to trust online banking.", "trap": "partially_true", "whyVi": "Ông không dùng ngân hàng trực tuyến, nhưng lý do là thị lực, không phải không tin tưởng." },
+        { "text": "He lives in Calgary with his son.", "trap": "wrong_speaker", "whyVi": "Người sống ở Calgary là anh trai của Marisol." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "Since his hip surgery in August, he hasn't been able to get to the branch, and his eyesight is too poor for online banking",
+      "explanationVi": "Có hai lý do và đáp án đúng phải gồm cả hai: 'hip surgery ... hasn't been able to get to the branch' = 'trouble getting around'; 'eyesight is too poor' = 'cannot see well enough'.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "How are Teodoro's bills being paid at the moment?",
+      "options": [
+        { "text": "Directly from his chequing account each month", "trap": "not_mentioned", "whyVi": "Không có thanh toán tự động từ tài khoản của ông." },
+        { "text": "By cheques he mails to the utility company", "trap": "word_match", "whyVi": "Ông có viết séc, nhưng là để trả lại tiền cho Marisol, không phải gửi cho công ty điện." },
+        { "text": "Marisol pays them, and her father reimburses her.", "trap": "none", "whyVi": "Đúng: cô trả từ tài khoản riêng và ông 'pays me back by cheque'." },
+        { "text": "Her brother transfers the money from Calgary.", "trap": "wrong_speaker", "whyVi": "Anh trai chỉ đưa ý kiến về giấy ủy quyền, không trả hóa đơn." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "I'm paying his hydro and property tax from my own account, and he pays me back by cheque",
+      "explanationVi": "'pays me back' = 'reimburses'. Bẫy B lấy từ 'cheque' nhưng đổi người nhận séc.",
+      "vocabulary": ["reimburse"]
+    },
+    {
+      "number": 3,
+      "prompt": "What concern does Marisol have about becoming a joint account holder?",
+      "options": [
+        { "text": "Her friend would also be able to use the account.", "trap": "word_match", "whyVi": "Người bạn chỉ là người gợi ý; không ai nói bạn cô được dùng tài khoản." },
+        { "text": "It could make things harder when her father's estate is dealt with.", "trap": "none", "whyVi": "Đúng: 'this can cause problems when an estate is settled'." },
+        { "text": "It would cost more than a power of attorney.", "trap": "not_mentioned", "whyVi": "Không có thông tin chi phí." },
+        { "text": "Her brother refuses to agree to it.", "trap": "partially_true", "whyVi": "Anh trai thích giấy ủy quyền hơn, nhưng không nói anh từ chối; và đó không phải lo ngại của Marisol." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "I've read that this can cause problems when an estate is settled",
+      "explanationVi": "'cause problems' = 'make things harder'; 'when an estate is settled' = 'when ... estate is dealt with' (khi giải quyết di sản/thừa kế).",
+      "vocabulary": ["estate", "joint holder"]
+    },
+    {
+      "number": 4,
+      "prompt": "What does Marisol need to know about the power of attorney?",
+      "options": [
+        { "text": "How much a lawyer would charge to prepare it", "trap": "word_match", "whyVi": "Có từ 'lawyer', nhưng cô không hỏi về giá." },
+        { "text": "Whether her brother could sign it from Calgary", "trap": "not_mentioned", "whyVi": "Không ai hỏi anh trai có ký từ xa được không." },
+        { "text": "How long it takes to register", "trap": "not_mentioned", "whyVi": "Không nhắc thời gian đăng ký." },
+        { "text": "If the credit union would accept one prepared by a notary", "trap": "none", "whyVi": "Đúng: 'we don't know whether you'd accept one drawn up by a notary rather than a lawyer'." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "we don't know whether you'd accept one drawn up by a notary rather than a lawyer",
+      "explanationVi": "'drawn up by' = 'prepared by'. Câu hỏi gián tiếp 'we don't know whether...' chính là điều cô muốn hỏi.",
+      "vocabulary": ["draw up", "power of attorney"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "lawyer's version", "trap": "opposite", "whyVi": "Credit union vừa nói chấp nhận bản do công chứng viên lập, nên không cần bản của luật sư." },
+        { "text": "original signed document", "trap": "none", "whyVi": "Đúng: đối lập với 'not a photocopy' là bản gốc có chữ ký." },
+        { "text": "joint account form", "trap": "wrong_detail", "whyVi": "Credit union khuyên dùng giấy ủy quyền, không phải tài khoản chung." },
+        { "text": "notary's business card", "trap": "word_match", "whyVi": "Có từ 'notary', nhưng danh thiếp không thay cho giấy ủy quyền." }
+      ],
+      "answerIndex": 1,
+      "category": "detail",
+      "evidence": "We're happy to accept one prepared by a notary",
+      "explanationVi": "Cấu trúc 'the ..., not a photocopy' cho thấy chỗ trống là thứ đối lập với bản sao → bản gốc. Câu bắt đầu bằng 'We're happy to accept one prepared by a notary' nên bản gốc ấy là giấy ủy quyền do công chứng viên lập.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "any Monday morning", "trap": "opposite", "whyVi": "Bà Nakamura chỉ làm từ thứ Ba đến thứ Sáu." },
+        { "text": "a video call", "trap": "opposite", "whyVi": "Ông Teodoro phải 'visit once' để xác nhận danh tính trực tiếp." },
+        { "text": "the Thursday you suggested", "trap": "none", "whyVi": "Đúng: Marisol muốn đến vào thứ Năm, và thứ Năm nằm trong lịch làm việc thứ Ba – thứ Sáu." },
+        { "text": "a weekend appointment", "trap": "not_mentioned", "whyVi": "Không ai đề nghị cuối tuần, và nó nằm ngoài lịch làm việc." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "I'd like to arrange it on a Thursday, when my partner can drive us",
+      "explanationVi": "Đối chiếu hai lịch: Marisol muốn thứ Năm (vì người bạn đời có thể chở), bà Nakamura làm thứ Ba – thứ Sáu → thứ Năm phù hợp ('would suit me well').",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "issued only when a member asks for one", "trap": "opposite", "whyVi": "Mâu thuẫn với 'there's nothing he needs to do': nếu phải yêu cầu thì ông vẫn phải làm gì đó." },
+        { "text": "ready for pickup at the Main Street branch", "trap": "word_match", "whyVi": "'Main Street' có trong thư, nhưng ông không thể đến chi nhánh, và câu sau nói ông không cần làm gì mà vẫn nhận được thẻ." },
+        { "text": "sent to the joint account holder", "trap": "wrong_detail", "whyVi": "Credit union khuyên dùng giấy ủy quyền chứ không mở tài khoản chung, nên không có người đồng sở hữu nào." },
+        { "text": "sent out automatically before the old card runs out", "trap": "none", "whyVi": "Đúng: trả lời câu hỏi 'Will a new one be mailed automatically?', và 'there's nothing he needs to do' xác nhận thẻ được gửi tự động." }
+      ],
+      "answerIndex": 3,
+      "category": "detail",
+      "evidence": "Will a new one be mailed automatically?",
+      "explanationVi": "Chỗ trống trả lời câu hỏi cuối của Marisol. Manh mối: 'so there's nothing he needs to do' (không cần yêu cầu hay đến chi nhánh) và 'He should receive the new card within the next few weeks', tức trước khi thẻ cũ hết hạn cuối tháng 11. 'runs out' = 'expires'.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "power of attorney", "vi": "giấy ủy quyền (quản lý tài chính/pháp lý)", "definition": "a legal document that lets one person act for another in money or legal matters", "example": "She has power of attorney for her mother's bank accounts." },
+    { "term": "joint holder", "vi": "đồng chủ tài khoản", "definition": "one of two or more people who share ownership of an account", "example": "As a joint holder, he can write cheques on the account." },
+    { "term": "estate", "vi": "di sản, tài sản để lại", "definition": "all the money and property a person leaves when they die", "example": "It took a year to settle her father's estate." },
+    { "term": "reimburse", "vi": "hoàn trả tiền", "definition": "to pay back money that someone has spent", "example": "The company will reimburse you for the taxi." },
+    { "term": "draw up", "vi": "soạn thảo (văn bản)", "definition": "to prepare a written document, such as a contract", "example": "A notary drew up the agreement in an hour." },
+    { "term": "keep on top of", "vi": "theo dõi sát, không để tồn đọng", "definition": "to manage something well so it does not become a problem", "example": "I use reminders to keep on top of my bills." },
+    { "term": "notary", "vi": "công chứng viên", "definition": "a person authorized to prepare and certify legal documents", "example": "In BC, a notary can prepare a power of attorney." }
+  ]
+}

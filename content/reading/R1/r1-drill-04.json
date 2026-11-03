@@ -1,0 +1,130 @@
+{
+  "id": "r1-drill-04",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "customer-service",
+  "title": "Paraphrase drill: A surprise bill and a no-show technician",
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 6 items independently; keys matched. The original bill complaint (two-year promotional rate ended in September without notice) duplicated r1-full-09, so it was replaced with a fee for an 'unreturned' TV receiver that had in fact been returned but never scanned back in; Q2 and Q4 options, evidence and explanations, the reply's first paragraph and three vocabulary entries were rewritten to match (keys unchanged: C A D B C A). Fixed the appointment date (November 8, 2026 is a Sunday, so it is now Saturday, November 7) and lowered difficulty to 7 because most answers are explicit with light paraphrase." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a customer",
+      "kind": "text",
+      "text": "Hello,\n\nI've been a Westwave Mobile & Home customer for six years, and until recently I've had no complaints. Two issues have come up this month, and after forty minutes on hold yesterday, I've decided to put them in writing.\n\nFirst, my bill jumped from $85 to $132 without any warning. I've since learned that the extra $47 is a fee for an unreturned TV receiver, even though I returned it to your Metrotown store in August. I still have the receipt, but it seems the store never scanned the box back in, so I'm now being charged for equipment that's sitting in your warehouse.\n\nSecond, I booked a technician to look at my modem on October 21 between 8 a.m. and noon. I took the morning off work, unpaid, and no one showed up or called. When I phoned at 12:30, I was told the appointment had been cancelled in the system the day before, though no one had bothered to pass that on to me.\n\nI'd like the difference on this month's bill credited to my account, a new appointment that fits around my work schedule, and some form of compensation for the wasted morning. Otherwise, I'll be taking my business elsewhere as soon as my contract allows.\n\nThank you,\nRamón Iturbide",
+      "table": null
+    },
+    {
+      "label": "Reply from Westwave",
+      "kind": "text",
+      "text": "Dear Mr. Iturbide,\n\nThank you for your patience, and I'm sorry about both problems. Our Metrotown store has confirmed that your receiver came back on August 14, but it [[4]], so our billing system charged you for it. I've applied a credit of $47 to your account, and the fee won't appear again.\n\nAs for October 21, the cancellation was caused by a scheduling error on our side. I've booked a senior technician for a time that [[5]]: Saturday, November 7, at 9 a.m.\n\nTo make up for your lost morning, I've also added a further $60 credit, which you'll see [[6]].\n\nKind regards,\nLeilani Kahale\nCustomer Relations, Westwave Mobile & Home",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Why did Ramón decide to write instead of phoning again?",
+      "options": [
+        { "text": "He has had problems with Westwave for six years.", "trap": "opposite", "whyVi": "Anh nói sáu năm qua 'I've had no complaints' cho đến gần đây." },
+        { "text": "His phone line had been cancelled.", "trap": "word_match", "whyVi": "Thứ bị hủy là lịch hẹn kỹ thuật viên, không phải đường dây điện thoại." },
+        { "text": "He spent a long time waiting to speak to someone.", "trap": "none", "whyVi": "Đúng: 'after forty minutes on hold yesterday' anh quyết định viết thư." },
+        { "text": "He needed written proof for a complaint to a regulator.", "trap": "not_mentioned", "whyVi": "Không nhắc cơ quan quản lý nào." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "after forty minutes on hold yesterday, I've decided to put them in writing",
+      "explanationVi": "'on hold' = chờ máy khi gọi tổng đài. 'forty minutes on hold' = 'a long time waiting to speak to someone'; 'put them in writing' = viết thư thay vì gọi.",
+      "vocabulary": ["on hold"]
+    },
+    {
+      "number": 2,
+      "prompt": "What is Ramón's complaint about his bill?",
+      "options": [
+        { "text": "He is being billed for equipment he has already given back.", "trap": "none", "whyVi": "Đúng: khoản $47 là phí 'unreturned TV receiver', dù anh đã trả đầu thu cho cửa hàng Metrotown hồi tháng 8." },
+        { "text": "He was charged for a plan he never chose.", "trap": "not_mentioned", "whyVi": "Anh không nói bị chuyển sang gói khác; khoản tăng là phí thiết bị bị coi là chưa trả." },
+        { "text": "His monthly rate went up in August.", "trap": "wrong_detail", "whyVi": "Tháng 8 là lúc anh trả lại đầu thu, không phải lúc giá cước tăng." },
+        { "text": "He pays more than other customers on the same plan.", "trap": "not_mentioned", "whyVi": "Không có so sánh với khách hàng khác." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "the extra $47 is a fee for an unreturned TV receiver, even though I returned it to your Metrotown store in August",
+      "explanationVi": "'a fee for an unreturned TV receiver' = bị tính phí ('being billed'); 'even though I returned it' = 'he has already given back'. Câu sau nhấn mạnh điều vô lý: thiết bị đang 'sitting in your warehouse'.",
+      "vocabulary": ["unreturned"]
+    },
+    {
+      "number": 3,
+      "prompt": "What happened with the technician's visit?",
+      "options": [
+        { "text": "The technician arrived after noon.", "trap": "wrong_detail", "whyVi": "12:30 là lúc Ramón gọi điện; kỹ thuật viên không hề đến." },
+        { "text": "Ramón cancelled it the day before.", "trap": "wrong_speaker", "whyVi": "Lịch hẹn bị hủy 'in the system', không phải do Ramón." },
+        { "text": "The technician could not fix the modem.", "trap": "not_mentioned", "whyVi": "Không ai đến nên không có việc sửa." },
+        { "text": "It was called off without anyone telling Ramón.", "trap": "none", "whyVi": "Đúng: hủy từ hôm trước nhưng 'no one had bothered to pass that on to me'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "the appointment had been cancelled in the system the day before, though no one had bothered to pass that on to me",
+      "explanationVi": "'cancelled' = 'called off'; 'no one had bothered to pass that on to me' = 'without anyone telling Ramón'. Từ 'bothered' còn cho thấy anh bực bội.",
+      "vocabulary": ["pass on", "call off"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "was sitting in your home", "trap": "word_match", "whyVi": "'sitting' có trong thư ('sitting in your warehouse'), nhưng cửa hàng đã xác nhận nhận lại đầu thu, nên nó không thể ở nhà anh." },
+        { "text": "was never logged as returned", "trap": "none", "whyVi": "Đúng: Ramón nói cửa hàng 'never scanned the box back in'; vì không được ghi nhận nên hệ thống vẫn tính phí." },
+        { "text": "had already been taken off your bill", "trap": "opposite", "whyVi": "Nếu đã được bỏ khỏi hóa đơn thì hệ thống đã không 'charged you for it'." },
+        { "text": "is still under warranty", "trap": "not_mentioned", "whyVi": "Bài không nhắc bảo hành, và chi tiết này không giải thích vì sao anh vẫn bị tính phí." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "it seems the store never scanned the box back in",
+      "explanationVi": "Cấu trúc 'came back ..., but it ..., so our billing system charged you for it' → chỗ trống là lý do vẫn bị tính phí dù đã trả hàng. 'never scanned the box back in' = 'never logged as returned'. Khoản hoàn $47 (= $132 − $85) xác nhận công ty nhận lỗi.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "falls inside your original window", "trap": "word_match", "whyVi": "Khung giờ cũ là 8 giờ – trưa ngày thường, buộc anh nghỉ làm; Ramón muốn giờ phù hợp lịch làm việc." },
+        { "text": "suits our technicians best", "trap": "opposite", "whyVi": "Ramón yêu cầu giờ hợp với anh, không phải với công ty." },
+        { "text": "won't require you to miss work", "trap": "none", "whyVi": "Đúng: Ramón muốn 'a new appointment that fits around my work schedule'; lịch thứ Bảy đáp ứng điều đó." },
+        { "text": "is free only on weekdays", "trap": "not_mentioned", "whyVi": "Vô lý vì lịch hẹn là thứ Bảy, và bài không nói gì về phí." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "a new appointment that fits around my work schedule",
+      "explanationVi": "'fits around my work schedule' = 'won't require you to miss work'. Lịch vào thứ Bảy là bằng chứng phụ: không đụng giờ làm, khác với lần trước anh phải 'took the morning off work'.",
+      "vocabulary": ["fit around"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "on your next bill", "trap": "none", "whyVi": "Đúng: khoản bồi thường được trừ vào tài khoản và sẽ hiện trên hóa đơn tới." },
+        { "text": "when your contract ends", "trap": "word_match", "whyVi": "'contract' có trong thư Ramón, nhưng chờ đến hết hợp đồng thì không hợp lý với một khoản bồi thường." },
+        { "text": "once you switch providers", "trap": "opposite", "whyVi": "Công ty bồi thường để giữ khách, không phải khi khách rời đi." },
+        { "text": "after the technician leaves", "trap": "not_mentioned", "whyVi": "Khoản $60 là cho buổi sáng đã mất, không phụ thuộc vào buổi hẹn mới." }
+      ],
+      "answerIndex": 0,
+      "category": "detail",
+      "evidence": "some form of compensation for the wasted morning",
+      "explanationVi": "'credit' là khoản ghi có vào tài khoản, nên khách sẽ thấy nó trên hóa đơn. Câu này trả lời yêu cầu 'compensation for the wasted morning' ('To make up for your lost morning').",
+      "vocabulary": ["make up for"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "on hold", "vi": "đang chờ máy (điện thoại)", "definition": "waiting on the phone to speak to someone", "example": "I was on hold for forty minutes before anyone answered." },
+    { "term": "unreturned", "vi": "chưa được trả lại", "definition": "not yet given or sent back to the owner", "example": "The company charges a fee for unreturned equipment." },
+    { "term": "without any warning", "vi": "không hề báo trước", "definition": "suddenly, with no notice given beforehand", "example": "The price went up without any warning." },
+    { "term": "pass on", "vi": "chuyển lời, báo lại", "definition": "to give information to another person", "example": "Please pass on the message to your manager." },
+    { "term": "call off", "vi": "hủy bỏ", "definition": "to cancel a planned event", "example": "They called off the appointment because of a scheduling error." },
+    { "term": "fit around", "vi": "sắp xếp cho phù hợp với", "definition": "to arrange something so that it works with other commitments", "example": "I need a class that fits around my shifts." },
+    { "term": "make up for", "vi": "bù đắp", "definition": "to do something good to reduce the effect of something bad", "example": "They offered a credit to make up for the delay." },
+    { "term": "take your business elsewhere", "vi": "chuyển sang dùng dịch vụ của nơi khác", "definition": "to stop being a customer of one company and go to a competitor", "example": "If the service doesn't improve, I'll take my business elsewhere." }
+  ]
+}

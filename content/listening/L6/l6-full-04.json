@@ -1,0 +1,314 @@
+{
+  "id": "l6-full-04",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "full",
+  "difficulty": 9,
+  "topic": "healthcare",
+  "title": "Viewpoints: A family doctor on pharmacist prescribing",
+  "context": "You will hear a family doctor from Nanaimo speaking on a health podcast about pharmacists prescribing treatment for minor ailments.",
+  "estimatedMinutes": 7,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Dr. Hana Kowalczyk, family physician",
+          "voice": "female_b",
+          "text": "I'm Dr. Hana Kowalczyk, a family doctor in Nanaimo. When the province first let pharmacists prescribe for minor ailments, a lot of my colleagues reacted as if someone had parked in their spot. I'll be honest, I was one of them. I wrote a rather pompous letter to my professional association about patient safety, and these days I'd like to take most of it back."
+        },
+        {
+          "speaker": "Dr. Hana Kowalczyk, family physician",
+          "voice": "female_b",
+          "text": "Here's what changed my mind. Roughly one in five of my patients can't get in to see me for two or three weeks. For a bladder infection or a nasty case of pink eye, that isn't a wait, it's a punishment. Now they walk into a pharmacy, spend fifteen minutes with someone who has years of training in medications, and leave with treatment the same afternoon. It would be a bit rich for doctors to grumble about that when we can't offer anything faster ourselves."
+        },
+        {
+          "speaker": "Dr. Hana Kowalczyk, family physician",
+          "voice": "female_b",
+          "text": "So I'm not here to argue that the program should be rolled back. My concern is narrower, and I think it's being glossed over. Medicine isn't only about treating the problem in front of you. It's about noticing patterns. A woman who gets three bladder infections in a year might have something else going on, something no single visit will catch. If each infection is treated at a different pharmacy and nobody connects the dots, the third prescription looks every bit as routine as the first."
+        },
+        {
+          "speaker": "Dr. Hana Kowalczyk, family physician",
+          "voice": "female_b",
+          "text": "Pharmacy groups tell me this is already taken care of, because they send a note to the family doctor after every assessment. On paper, yes. In practice, those notes reach me by fax, sometimes a week later, and they land in a pile with two hundred other documents. That isn't the pharmacists' fault. It's a system that was designed for paper and never caught up."
+        },
+        {
+          "speaker": "Dr. Hana Kowalczyk, family physician",
+          "voice": "female_b",
+          "text": "Some of my colleagues would happily use that as ammunition to shut the whole thing down. I think that's exactly backwards. Pharmacists can already see which drugs a patient has been dispensed, but not the reasons behind them. What we need is a shared clinical record that both of us can see in real time, so a pharmacist in Parksville can read why I treated someone last month, and I can read her assessment from yesterday. The technology exists. What's missing is the money to pay for it, and a willingness among the different professions to stop guarding their own turf."
+        },
+        {
+          "speaker": "Dr. Hana Kowalczyk, family physician",
+          "voice": "female_b",
+          "text": "Patients, meanwhile, have already voted with their feet. Pharmacists here handled hundreds of thousands of these visits last year. So the real question isn't whether this stays. It's whether we make it safe enough to deserve the trust people have already given it."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How has Dr. Kowalczyk's view of pharmacist prescribing changed?",
+          "options": [
+            {
+              "text": "She welcomed it at first but has since become more doubtful.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: lúc đầu bà phản đối, bây giờ bà mới ủng hộ."
+            },
+            {
+              "text": "She has dropped every concern she once had about it.",
+              "trap": "too_broad",
+              "whyVi": "Quá tuyệt đối: bà chỉ muốn rút lại 'most of it' và vẫn còn một mối lo cụ thể về việc theo dõi bệnh."
+            },
+            {
+              "text": "She complained to the province, and it changed the program.",
+              "trap": "wrong_detail",
+              "whyVi": "Bà viết thư cho hiệp hội nghề nghiệp, không phải cho tỉnh, và chương trình không bị thay đổi vì thư đó."
+            },
+            {
+              "text": "She opposed it at first and now regrets much of what she said.",
+              "trap": "none",
+              "whyVi": "Đúng: bà từng phản đối, viết thư khá 'pompous', và giờ muốn rút lại phần lớn nội dung."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "I wrote a rather pompous letter to my professional association about patient safety, and these days I'd like to take most of it back.",
+          "explanationVi": "'I was one of them' = bà cũng từng phản đối; 'take most of it back' = rút lại phần lớn. Chữ 'most' rất quan trọng: không phải tất cả, nên đáp án B sai vì quá tuyệt đối.",
+          "vocabulary": [
+            "take something back",
+            "pompous"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "When Dr. Kowalczyk says some doctors acted \"as if someone had parked in their spot\", what does she mean?",
+          "options": [
+            {
+              "text": "They were annoyed about losing parking near their clinics.",
+              "trap": "word_match",
+              "whyVi": "Hiểu theo nghĩa đen về chỗ đậu xe là sai; đây là cách nói hình ảnh."
+            },
+            {
+              "text": "They felt their professional territory was being taken over.",
+              "trap": "none",
+              "whyVi": "Đúng: các bác sĩ cảm thấy dược sĩ đang lấn vào phần việc vốn thuộc về họ."
+            },
+            {
+              "text": "They were relieved to hand over some of their work.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: họ khó chịu, không phải nhẹ nhõm."
+            },
+            {
+              "text": "They worried that patients would be seen too quickly.",
+              "trap": "partially_true",
+              "whyVi": "Bà có lo về an toàn bệnh nhân, nhưng hình ảnh 'parked in their spot' nói về cảm giác bị chiếm chỗ, không phải tốc độ khám."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "vocabulary",
+          "evidence": "a lot of my colleagues reacted as if someone had parked in their spot",
+          "explanationVi": "Bị ai đó đậu xe vào chỗ của mình = cảm giác bị xâm phạm 'lãnh thổ'. Ý này được nhắc lại ở cuối bài với cụm 'stop guarding their own turf' (thôi bảo vệ địa bàn của mình).",
+          "vocabulary": [
+            "turf"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What is Dr. Kowalczyk suggesting when she says it would be \"a bit rich\" for doctors to grumble?",
+          "options": [
+            {
+              "text": "Doctors are in no position to object, since they cannot see patients sooner.",
+              "trap": "none",
+              "whyVi": "Đúng: 'a bit rich' = hơi vô lý, khó nghe; bác sĩ không thể phàn nàn khi chính họ không cung cấp được dịch vụ nhanh hơn."
+            },
+            {
+              "text": "Doctors are paid far more than pharmacists for the same work.",
+              "trap": "word_match",
+              "whyVi": "Bài có từ 'rich' nhưng không nói về thu nhập."
+            },
+            {
+              "text": "Pharmacists should charge patients for these visits.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc chuyện thu phí."
+            },
+            {
+              "text": "Doctors ought to start offering same-day appointments.",
+              "trap": "wrong_detail",
+              "whyVi": "Bà chỉ nói bác sĩ hiện không thể khám nhanh hơn; bà không đề xuất mở lịch hẹn trong ngày."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "It would be a bit rich for doctors to grumble about that when we can't offer anything faster ourselves.",
+          "explanationVi": "Thành ngữ 'a bit rich' dùng để chê ai đó chỉ trích người khác trong khi bản thân cũng không làm tốt hơn. Đáp án A diễn đạt lại 'we can't offer anything faster ourselves' thành 'cannot see patients sooner'.",
+          "vocabulary": [
+            "a bit rich",
+            "grumble"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What risk does Dr. Kowalczyk believe is being overlooked?",
+          "options": [
+            {
+              "text": "Pharmacists do not have enough training to treat infections.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà khen dược sĩ có 'years of training in medications'."
+            },
+            {
+              "text": "Patients are being given more prescriptions than they need.",
+              "trap": "partially_true",
+              "whyVi": "Bài có nói đến đơn thuốc thứ ba, nhưng vấn đề là bệnh lý tiềm ẩn bị bỏ sót, không phải kê đơn quá nhiều."
+            },
+            {
+              "text": "Pharmacies are too busy to spend enough time with each patient.",
+              "trap": "not_mentioned",
+              "whyVi": "Bà không phàn nàn thời gian khám ở nhà thuốc quá ngắn."
+            },
+            {
+              "text": "A repeated problem may go unnoticed when it is treated in different places.",
+              "trap": "none",
+              "whyVi": "Đúng: nếu mỗi lần nhiễm trùng được điều trị ở một nhà thuốc khác và không ai 'connects the dots', vấn đề sâu xa sẽ bị bỏ qua."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "If each infection is treated at a different pharmacy and nobody connects the dots, the third prescription looks every bit as routine as the first.",
+          "explanationVi": "'being glossed over' = bị lướt qua, bị xem nhẹ — tương đương 'overlooked' trong câu hỏi. 'nobody connects the dots' (không ai nối các dữ kiện lại) được diễn đạt lại thành 'go unnoticed when it is treated in different places'.",
+          "vocabulary": [
+            "gloss over",
+            "connect the dots"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "According to Dr. Kowalczyk, what is the main reason pharmacy notes are not useful to her?",
+          "options": [
+            {
+              "text": "Pharmacists often forget to send them.",
+              "trap": "opposite",
+              "whyVi": "Bà nói rõ 'That isn't the pharmacists' fault' và các ghi chú vẫn được gửi."
+            },
+            {
+              "text": "The information arrives in an outdated way and too late.",
+              "trap": "none",
+              "whyVi": "Đúng: ghi chú đến bằng fax, có khi chậm một tuần, do hệ thống được thiết kế cho giấy tờ."
+            },
+            {
+              "text": "She is too busy to read most of her documents.",
+              "trap": "partially_true",
+              "whyVi": "Bà có nói ghi chú lẫn vào đống 200 tài liệu, nhưng nguyên nhân bà nêu là hệ thống lỗi thời, không phải sự bận rộn của bà."
+            },
+            {
+              "text": "The notes leave out what was prescribed.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói ghi chú thiếu thông tin về thuốc."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "similar_choices",
+          "evidence": "It's a system that was designed for paper and never caught up.",
+          "explanationVi": "Bà phân biệt rõ: không phải lỗi của dược sĩ mà của 'a system that was designed for paper and never caught up' (hệ thống làm cho giấy tờ và chưa theo kịp). Kết hợp với 'by fax, sometimes a week later' → đáp án B. Các lựa chọn A và C đều gần đúng một phần nhưng đổ lỗi sai đối tượng.",
+          "vocabulary": [
+            "catch up"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "What is Dr. Kowalczyk's overall conclusion?",
+          "options": [
+            {
+              "text": "The program should be paused until a shared record is ready.",
+              "trap": "opposite",
+              "whyVi": "Bà gọi việc dùng vấn đề này để dừng chương trình là 'exactly backwards'."
+            },
+            {
+              "text": "Patients have started to lose confidence in pharmacists.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bệnh nhân đã tin tưởng và sử dụng dịch vụ rất nhiều."
+            },
+            {
+              "text": "Since the program is clearly here to stay, the priority is to make it safer.",
+              "trap": "none",
+              "whyVi": "Đúng: câu hỏi thực sự không phải là chương trình có tồn tại không, mà là làm cho nó đủ an toàn."
+            },
+            {
+              "text": "Pharmacists should take over most of the work of family doctors.",
+              "trap": "too_broad",
+              "whyVi": "Quá rộng: bà chỉ nói về bệnh nhẹ, không đề xuất dược sĩ đảm nhận phần lớn công việc của bác sĩ."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "So the real question isn't whether this stays. It's whether we make it safe enough to deserve the trust people have already given it.",
+          "explanationVi": "'voted with their feet' = bệnh nhân đã thể hiện lựa chọn bằng hành động (đến nhà thuốc). Vì vậy chương trình sẽ tồn tại; điều cần làm là tăng độ an toàn, cụ thể là hồ sơ dùng chung. Đáp án C tóm tắt ý kết luận.",
+          "vocabulary": [
+            "vote with your feet"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "pompous",
+      "vi": "kênh kiệu, ra vẻ quan trọng",
+      "definition": "too serious and full of self-importance",
+      "example": "I wrote a rather pompous letter about patient safety."
+    },
+    {
+      "term": "take something back",
+      "vi": "rút lại (lời đã nói)",
+      "definition": "to admit that something you said was wrong",
+      "example": "I'd like to take most of it back."
+    },
+    {
+      "term": "a bit rich",
+      "vi": "hơi trơ, nói thì dễ (chê người không có tư cách phàn nàn)",
+      "definition": "unreasonable, especially when someone criticizes others for something they also do",
+      "example": "It's a bit rich for him to complain about lateness."
+    },
+    {
+      "term": "grumble",
+      "vi": "càu nhàu, phàn nàn",
+      "definition": "to complain in a quiet, bad-tempered way",
+      "example": "Doctors grumbled about the new program."
+    },
+    {
+      "term": "gloss over",
+      "vi": "lướt qua, che lấp",
+      "definition": "to avoid dealing with something properly by treating it as unimportant",
+      "example": "This concern is being glossed over."
+    },
+    {
+      "term": "connect the dots",
+      "vi": "nối các dữ kiện lại để thấy vấn đề",
+      "definition": "to see how separate pieces of information are related",
+      "example": "Nobody connected the dots between the three infections."
+    },
+    {
+      "term": "turf",
+      "vi": "địa bàn, lãnh thổ (về quyền hạn, công việc)",
+      "definition": "an area of work or control that a person or group sees as their own",
+      "example": "The professions need to stop guarding their own turf."
+    },
+    {
+      "term": "vote with your feet",
+      "vi": "thể hiện lựa chọn bằng hành động",
+      "definition": "to show your opinion by going somewhere or using something",
+      "example": "Patients have voted with their feet and gone to pharmacies."
+    },
+    {
+      "term": "catch up",
+      "vi": "theo kịp",
+      "definition": "to reach the same level or standard as others",
+      "example": "The system was designed for paper and never caught up."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 items independently; keys match. BC pharmacist minor-ailment prescribing (UTI, pink eye) described accurately. Fixed a factual problem: PharmaNet already lets pharmacists see dispensed drugs, so the 'shared record' line now asks for shared clinical notes/reasons and acknowledges dispensing history is visible. Added a self-introduction ('I'm Dr. Hana Kowalczyk, a family doctor in Nanaimo') because the monologue never said the name used in every question."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

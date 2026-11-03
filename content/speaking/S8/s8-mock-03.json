@@ -1,0 +1,58 @@
+{
+  "id": "s8-mock-03",
+  "kind": "speaking",
+  "taskType": "S8",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "community-services",
+  "title": "An umbrella in the lost-and-found box",
+  "prompt": "You volunteer at the front desk of a community centre in Surrey. A friend has told you that she left her umbrella at the centre last week. In the lost-and-found box, you find this unusual umbrella. Call your friend, describe it in detail, and ask whether it belongs to her.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='#e8f0f7'/><path d='M400 90 Q240 110 200 240 Q250 222 300 240 Q320 130 400 90 Z' fill='#fdcb6e' stroke='#555555' stroke-width='2'/><path d='M400 90 Q320 130 300 240 Q350 222 400 240 Z' fill='#00a8a8' stroke='#555555' stroke-width='2'/><path d='M400 90 L400 240 Q450 222 500 240 Q480 130 400 90 Z' fill='#d6ecfa' fill-opacity='0.6' stroke='#555555' stroke-width='2'/><path d='M400 90 Q480 130 500 240 Q550 222 600 240 Q560 110 400 90 Z' fill='#00a8a8' stroke='#555555' stroke-width='2'/><g fill='#ffffff' stroke='#f1c40f' stroke-width='2'><circle cx='215' cy='236' r='5'/><circle cx='250' cy='232' r='5'/><circle cx='285' cy='236' r='5'/><circle cx='315' cy='236' r='5'/><circle cx='350' cy='232' r='5'/><circle cx='385' cy='236' r='5'/><circle cx='415' cy='236' r='5'/><circle cx='450' cy='232' r='5'/><circle cx='485' cy='236' r='5'/><circle cx='515' cy='236' r='5'/><circle cx='550' cy='232' r='5'/><circle cx='585' cy='236' r='5'/></g><circle cx='400' cy='82' r='9' fill='#d63031'/><rect x='396' y='240' width='8' height='132' fill='#2d3436'/><line x1='404' y1='320' x2='418' y2='320' stroke='#b2bec3' stroke-width='5'/><ellipse cx='442' cy='320' rx='24' ry='8' fill='none' stroke='#b2bec3' stroke-width='5'/><rect x='388' y='370' width='24' height='62' rx='10' fill='#6c5ce7'/><path d='M400 430 Q382 478 400 478 Q418 478 400 430' stroke='#2d3436' stroke-width='4' fill='none'/></svg>",
+  "options": null,
+  "structure": [
+    "Say where you are and why you are calling (you may have found her umbrella).",
+    "Describe the canopy: the four coloured sections, the lights along the edge and the red tip.",
+    "Describe the lower part: the black pole, the silver ring, the purple handle and the strap.",
+    "Ask if it is hers and suggest how she can pick it up."
+  ],
+  "modelAnswer": "Hi Sofia, it's me, calling from the community centre. You said you left your umbrella here last week, right? Well, I'm looking at one in the lost-and-found box, and it's pretty unusual, so let me describe it. It's open right now, and the top is shaped like a dome. It's divided into four sections. From left to right, the first one is yellow, the second is teal, the third is clear, so you can see right through it, and the last one is teal again. All along the bottom edge, there's a row of tiny white lights, a bit like Christmas lights. On the very top, there's a small red ball. The pole is black, and about halfway down, there's a silver ring sticking out to the right. I think it's a cup holder for your coffee. The handle is straight, not curved, and it's purple, with a black loop hanging from the end for your wrist. Does that sound like yours? If it is, I can keep it at the front desk until you come by.",
+  "usefulExpressions": [
+    {
+      "expression": "You said…, right?",
+      "usageVi": "Nhắc lại thông tin trước đó để mở đầu cuộc gọi"
+    },
+    {
+      "expression": "It's divided into…",
+      "usageVi": "Tả cấu trúc chia phần của đồ vật"
+    },
+    {
+      "expression": "From left to right, the first one is…",
+      "usageVi": "Tả lần lượt theo thứ tự rõ ràng"
+    },
+    {
+      "expression": "All along the bottom edge, there's…",
+      "usageVi": "Tả chi tiết chạy dọc theo viền"
+    },
+    {
+      "expression": "…, not curved",
+      "usageVi": "So sánh với dạng thông thường để làm nổi bật điểm lạ"
+    },
+    {
+      "expression": "Does that sound like yours?",
+      "usageVi": "Hỏi xác nhận ở cuối cuộc gọi"
+    }
+  ],
+  "commonMistakes": [
+    "Nói 'transparent color' cho phần trong suốt; tự nhiên hơn là 'clear, so you can see right through it'.",
+    "Nhầm 'pole/shaft' (cán) với 'handle' (tay cầm); nếu không chắc hãy nói 'the long black part'.",
+    "Quên mục đích cuộc gọi: phải hỏi bạn xem có phải ô của bạn không và hẹn cách lấy lại."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked the canopy order against the SVG paths (yellow, teal, clear, teal from left to right), white lights along the edge, red tip, black pole, silver ring sticking out to the right, straight purple handle and black wrist loop; SVG rules OK, no sign text. 177 words, answers both parts (describe + ask if it is hers). No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

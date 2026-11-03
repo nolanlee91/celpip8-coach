@@ -1,0 +1,320 @@
+{
+  "id": "r3-drill-04",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "social",
+  "title": "Main idea drill: The Men's Shed Comes to Prince George",
+  "estimatedMinutes": 8,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 independently; keys match; Q5 E verified (no comparative study). Loneliness theme overlaps r3-full-07 but the scenario (Men's Shed workshop vs supper club) is clearly different. No changes."
+  },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "When Doug Halvorsen retired from the pulp mill after thirty-four years, he discovered that his social life had quietly disappeared along with his job. \"I didn't realize how much of my week was the lunchroom,\" he says. His experience is common. Studies of older Canadians suggest that men, in particular, tend to rely on work for friendship and struggle to replace it once they stop. That is the gap the Men's Shed movement, which started in Australia in the 1990s, sets out to fill. Prince George's first shed opened in a rented warehouse unit last year, and Halvorsen, now sixty-eight, was one of its first members.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "There is no formal program. Members drop in when they like, usually three or four mornings a week, and work on whatever interests them: repairing donated bicycles, building birdhouses for a local school, or simply restoring an old chair. Organizers say the woodwork is, in a sense, beside the point. Many men find it awkward to sit across from someone and talk about their feelings, but they will chat easily while standing side by side at a workbench. \"Nobody comes here to talk about loneliness,\" says coordinator Rajinder Sandhu. \"They come to fix a lawnmower, and somewhere along the way they make a friend.\"",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Running the shed has not been straightforward. Liability insurance alone costs the group about $2,800 a year, and members had to pool their own tools before a hardware chain donated a table saw and a set of clamps. Space is also tight; on busy mornings, the warehouse unit can barely fit everyone. A more delicate question came up when two women asked to join. After a long discussion, members agreed to open the shed to everyone on Tuesday and Thursday afternoons, while keeping the mornings men-only. Not everybody was happy with the compromise, but Sandhu says the shed has lost no members over it.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Members and their families describe changes that are hard to put into numbers. Halvorsen's daughter says her father now phones her to talk about his projects instead of complaining that the days are long. Local physician Dr. Amara Nwosu has started suggesting the shed to older male patients who seem isolated, describing it as \"a prescription with no side effects.\" The group hopes to move into a larger building within two years and is applying for a provincial community grant to help with rent. Sandhu would also like to see sheds open in smaller towns along Highway 16, where, he says, the need may be even greater.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "This paragraph is mainly about the practical obstacles the group has had to deal with.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A nói về nỗi cô đơn của đàn ông về hưu — đó là vấn đề xã hội, không phải khó khăn khi vận hành nhóm."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B mô tả hoạt động hằng ngày, không nói khó khăn."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Câu chủ đề 'Running the shed has not been straightforward', sau đó là bảo hiểm, dụng cụ, chỗ chật."
+        },
+        {
+          "text": "D",
+          "trap": "partially_true",
+          "whyVi": "Đoạn D có nhắc xin trợ cấp tiền thuê, nhưng ý chính là lợi ích và kế hoạch tương lai."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "Running the shed has not been straightforward.",
+      "explanationVi": "Câu đầu Đoạn C là câu chủ đề: 'not straightforward' = có nhiều khó khăn. Các chi tiết sau (bảo hiểm $2,800, thiếu dụng cụ, chật chỗ, tranh luận về thành viên nữ) đều minh hoạ ý đó.",
+      "vocabulary": [
+        "liability insurance",
+        "pool"
+      ]
+    },
+    {
+      "number": 2,
+      "prompt": "This paragraph mainly describes the need that the organization was created to meet.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: Đoạn A nêu vấn đề (đàn ông mất bạn bè khi nghỉ hưu) và nói phong trào ra đời để lấp khoảng trống này."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B có câu 'Nobody comes here to talk about loneliness' — có nhắc nỗi cô đơn, nhưng ý chính là cách nhóm hoạt động."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về khó khăn khi vận hành."
+        },
+        {
+          "text": "D",
+          "trap": "partially_true",
+          "whyVi": "Đoạn D nói nhu cầu có thể lớn hơn ở các thị trấn nhỏ, nhưng ý chính là lợi ích và kế hoạch, không phải lý do ra đời."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "main_idea",
+      "evidence": "That is the gap the Men's Shed movement, which started in Australia in the 1990s, sets out to fill.",
+      "explanationVi": "'The need' = 'the gap' (khoảng trống: mất bạn bè khi về hưu); 'created to meet' = 'sets out to fill'. Câu chuyện của Doug là ví dụ cho vấn đề đó.",
+      "vocabulary": [
+        "gap"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "This paragraph suggests that the hands-on projects are a means to an end rather than the real purpose.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về các dự án làm đồ."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Ban tổ chức nói việc làm đồ mộc 'beside the point'; điều chính là các thành viên kết bạn."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'table saw' và 'clamps' — liên quan đồ mộc, nhưng là chuyện thiếu dụng cụ."
+        },
+        {
+          "text": "D",
+          "trap": "partially_true",
+          "whyVi": "Đoạn D nói ông Doug gọi con gái để kể về 'his projects', nhưng không nói công việc chỉ là phương tiện."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "Organizers say the woodwork is, in a sense, beside the point.",
+      "explanationVi": "'Beside the point' = không phải điều quan trọng nhất. Mục đích thật là kết bạn: 'They come to fix a lawnmower, and somewhere along the way they make a friend.' 'A means to an end' = phương tiện để đạt mục đích khác.",
+      "vocabulary": [
+        "beside the point",
+        "side by side"
+      ]
+    },
+    {
+      "number": 4,
+      "prompt": "This paragraph focuses on the difference the group has made and its hopes for the future.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A kể chuyện Doug trước khi tham gia — đó là vấn đề, không phải sự thay đổi."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B có ý thành viên 'make a friend' — một lợi ích, nhưng không nói kế hoạch tương lai."
+        },
+        {
+          "text": "C",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn C nói thoả hiệp về thành viên nữ — là quyết định nội bộ, không phải lợi ích hay kế hoạch phát triển."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: Đoạn D nói về những thay đổi ở thành viên và kế hoạch mở rộng."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "main_idea",
+      "evidence": "Members and their families describe changes that are hard to put into numbers.",
+      "explanationVi": "Đoạn D có hai phần: thay đổi tích cực (con gái Doug, bác sĩ Nwosu) và kế hoạch (chuyển chỗ lớn hơn, mở thêm shed dọc Highway 16). Đáp án đúng phải bao được cả hai ý."
+    },
+    {
+      "number": 5,
+      "prompt": "This paragraph is mainly about a study comparing the health of members with that of non-members.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'Studies of older Canadians' nhưng chỉ nói đàn ông dựa vào công việc để có bạn — không so sánh sức khoẻ thành viên."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B mô tả hoạt động hằng ngày."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về khó khăn khi vận hành."
+        },
+        {
+          "text": "D",
+          "trap": "partially_true",
+          "whyVi": "Đoạn D nói về thay đổi ở thành viên, nhưng nói rõ là 'hard to put into numbers' — không có nghiên cứu."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: Không đoạn nào chủ yếu nói về một nghiên cứu so sánh."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "main_idea",
+      "evidence": "Studies of older Canadians suggest that men, in particular, tend to rely on work for friendship",
+      "explanationVi": "Không đoạn nào có nghiên cứu so sánh thành viên với người ngoài. Đoạn A có 'Studies' nhưng chỉ là một câu phụ; Đoạn D còn nói thay đổi 'hard to put into numbers' (khó đo bằng số). → E."
+    },
+    {
+      "number": 6,
+      "prompt": "A medical professional regards the group as a form of treatment.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không có ý kiến của nhân viên y tế."
+        },
+        {
+          "text": "B",
+          "trap": "wrong_speaker",
+          "whyVi": "Đoạn B có lời của điều phối viên Sandhu, không phải chuyên gia y tế."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về khó khăn khi vận hành."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: Bác sĩ Nwosu gọi shed là 'a prescription with no side effects'."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "a prescription with no side effects",
+      "explanationVi": "'A medical professional' = 'Local physician Dr. Amara Nwosu'; 'a form of treatment' = 'a prescription' (đơn thuốc). Bà giới thiệu shed cho bệnh nhân lớn tuổi bị cô lập.",
+      "vocabulary": [
+        "isolated"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "gap",
+      "vi": "khoảng trống, sự thiếu hụt",
+      "definition": "something missing that is needed",
+      "example": "That is the gap the movement sets out to fill."
+    },
+    {
+      "term": "drop in",
+      "vi": "ghé qua (không cần hẹn)",
+      "definition": "to visit informally without arranging it first",
+      "example": "Members drop in when they like."
+    },
+    {
+      "term": "beside the point",
+      "vi": "không phải điều chính, không quan trọng",
+      "definition": "not important to the main purpose",
+      "example": "The woodwork is, in a sense, beside the point."
+    },
+    {
+      "term": "side by side",
+      "vi": "đứng cạnh nhau",
+      "definition": "next to each other",
+      "example": "They chat while standing side by side at a workbench."
+    },
+    {
+      "term": "liability insurance",
+      "vi": "bảo hiểm trách nhiệm",
+      "definition": "insurance that pays if someone is hurt and blames you",
+      "example": "Liability insurance costs about $2,800 a year."
+    },
+    {
+      "term": "pool",
+      "vi": "góp chung (tiền, đồ)",
+      "definition": "to put things together so a group can share them",
+      "example": "Members had to pool their own tools."
+    },
+    {
+      "term": "compromise",
+      "vi": "sự thoả hiệp",
+      "definition": "an agreement where each side gives up something",
+      "example": "Not everybody was happy with the compromise."
+    },
+    {
+      "term": "isolated",
+      "vi": "bị cô lập, ít tiếp xúc",
+      "definition": "having little contact with other people",
+      "example": "She suggests the shed to patients who seem isolated."
+    }
+  ]
+}

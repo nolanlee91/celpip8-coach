@@ -1,0 +1,263 @@
+{
+  "id": "l4-full-04",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "full",
+  "difficulty": 9,
+  "topic": "banking",
+  "title": "News: Okanagan credit unions narrowly approve merger",
+  "context": "You will hear a local radio news report about two credit unions in the Okanagan.",
+  "estimatedMinutes": 5,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Members of two Okanagan credit unions have voted to join forces, but the result was far closer than either board had hoped. Fifty-four percent of Sunridge Credit Union members, and just over fifty-one percent at Monashee Savings, backed the merger, which will create one of the largest member-owned financial institutions in the Interior."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The combined credit union will keep the Sunridge name and be headquartered in Kelowna. Executives say the deal gives them the scale to invest in better online banking, something younger members have been asking for for years."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "But the slim margin reflects real unease, especially in smaller communities. Monashee Savings has long been the only place to bank in Lumby, and while the new organization has promised not to close any branch for at least two years, it has stopped short of saying what happens after that. Desmond Achterberg, who runs a hardware store in Lumby, says two years goes by in the blink of an eye, and he wants the commitment in writing, not just in a press release."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Chief executive Leena Varghese told us she understands the skepticism. She says rural branches are part of the reason people chose a credit union in the first place, and that any future decisions will be based on how members actually bank, not on a spreadsheet in Kelowna."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Members won't notice much right away. Account numbers, cards and cheques stay the same until the two computer systems are combined, which is expected sometime next fall, and members will get at least sixty days' notice before anything changes."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What does the vote result suggest?",
+          "options": [
+            {
+              "text": "Most Monashee Savings members were against the merger.",
+              "trap": "opposite",
+              "whyVi": "Sai: hơn 51% thành viên Monashee ủng hộ, tức đa số đồng ý."
+            },
+            {
+              "text": "Both boards were pleased with the level of support.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: kết quả 'far closer than either board had hoped' – sát hơn mong đợi."
+            },
+            {
+              "text": "Sunridge members were less enthusiastic than Monashee members.",
+              "trap": "wrong_detail",
+              "whyVi": "Ngược số liệu: Sunridge 54%, Monashee chỉ hơn 51%, nên Monashee mới là bên ít ủng hộ hơn."
+            },
+            {
+              "text": "A large share of members had doubts about the deal.",
+              "trap": "none",
+              "whyVi": "Đúng: tỷ lệ sát nút 'slim margin' phản ánh 'real unease' – nhiều người còn băn khoăn."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "the slim margin reflects real unease, especially in smaller communities",
+          "explanationVi": "Câu hỏi suy luận: kết quả sát nút (54% và 51%) cho thấy gần một nửa không đồng ý. 'real unease' được diễn đạt lại thành 'had doubts'. Cẩn thận so sánh hai con số ở lựa chọn C.",
+          "vocabulary": [
+            "slim margin",
+            "unease"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "According to the executives, what is the main benefit of the merger?",
+          "options": [
+            {
+              "text": "A bigger organization can afford to improve its digital services.",
+              "trap": "none",
+              "whyVi": "Đúng: 'the scale to invest in better online banking' = quy mô đủ lớn để đầu tư ngân hàng trực tuyến."
+            },
+            {
+              "text": "It will allow them to open new branches across the Interior.",
+              "trap": "word_match",
+              "whyVi": "Bài có từ 'Interior' nhưng không nói sẽ mở chi nhánh mới."
+            },
+            {
+              "text": "Younger members voted strongly in favour of it.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'younger members' nhưng chỉ nói họ muốn ngân hàng trực tuyến tốt hơn, không nói về phiếu bầu."
+            },
+            {
+              "text": "Members will pay lower fees on their accounts.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc tới phí."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "the deal gives them the scale to invest in better online banking",
+          "explanationVi": "'the scale' = quy mô lớn hơn ('a bigger organization'), 'online banking' = 'digital services'. Đây là cặp paraphrase điển hình.",
+          "vocabulary": [
+            "scale"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What is Desmond Achterberg's attitude toward the branch promise?",
+          "options": [
+            {
+              "text": "He is satisfied that two years is long enough.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: 'two years goes by in the blink of an eye' – ông cho rằng hai năm trôi qua rất nhanh."
+            },
+            {
+              "text": "He expects the Lumby branch to close right away.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: tổ chức mới hứa không đóng chi nhánh nào trong ít nhất hai năm; ông lo cho giai đoạn sau đó."
+            },
+            {
+              "text": "He doubts it offers lasting protection and wants a formal guarantee.",
+              "trap": "none",
+              "whyVi": "Đúng: ông thấy hai năm là quá ngắn và muốn cam kết bằng văn bản."
+            },
+            {
+              "text": "He accuses the credit union of lying in its press release.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'press release' nhưng ông chỉ muốn cam kết chính thức hơn, không cáo buộc nói dối."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "two years goes by in the blink of an eye, and he wants the commitment in writing, not just in a press release",
+          "explanationVi": "Thái độ hoài nghi được thể hiện qua thành ngữ 'in the blink of an eye' (trong nháy mắt). 'in writing' được diễn đạt lại thành 'a formal guarantee'.",
+          "vocabulary": [
+            "in the blink of an eye",
+            "stop short of"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What does Leena Varghese say about decisions on branches?",
+          "options": [
+            {
+              "text": "All rural branches will be protected permanently.",
+              "trap": "too_broad",
+              "whyVi": "Quá rộng: bà không hứa giữ mọi chi nhánh mãi mãi, chỉ nói quyết định sẽ dựa trên thực tế."
+            },
+            {
+              "text": "They will reflect how customers really use them, not just figures at head office.",
+              "trap": "none",
+              "whyVi": "Đúng: quyết định dựa trên cách thành viên thực sự giao dịch, không dựa vào bảng tính ở Kelowna."
+            },
+            {
+              "text": "They will be made by the board in Kelowna.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'Kelowna' nhưng bà nói ngược lại: không quyết bằng 'a spreadsheet in Kelowna'."
+            },
+            {
+              "text": "Branches that lose money will be closed first.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói về lợi nhuận của chi nhánh."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "any future decisions will be based on how members actually bank, not on a spreadsheet in Kelowna",
+          "explanationVi": "'a spreadsheet in Kelowna' là cách nói hình ảnh cho 'con số ở trụ sở chính'. Đáp án B diễn đạt lại toàn bộ ý; A là bẫy quá rộng.",
+          "vocabulary": [
+            "skepticism"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What will happen to members' accounts?",
+          "options": [
+            {
+              "text": "New cards will be mailed to members this fall.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'fall' nhưng đó là thời điểm gộp hệ thống máy tính vào năm sau, không phải gửi thẻ mới."
+            },
+            {
+              "text": "Account numbers will change in sixty days.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: 60 ngày là thời gian báo trước tối thiểu, không phải lúc số tài khoản thay đổi."
+            },
+            {
+              "text": "Members will need to open new accounts with Sunridge.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói phải mở tài khoản mới."
+            },
+            {
+              "text": "Nothing changes for now, and members will be warned well before any change.",
+              "trap": "none",
+              "whyVi": "Đúng: số tài khoản, thẻ, séc giữ nguyên, và có thông báo ít nhất 60 ngày trước."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "Account numbers, cards and cheques stay the same until the two computer systems are combined",
+          "explanationVi": "'stay the same' được diễn đạt lại thành 'nothing changes for now', 'at least sixty days' notice' thành 'warned well before any change'. Hai con số (fall, sixty days) đều là bẫy.",
+          "vocabulary": [
+            "join forces"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "join forces",
+      "vi": "hợp lực, sáp nhập",
+      "definition": "work together or combine to achieve something",
+      "example": "The two credit unions voted to join forces."
+    },
+    {
+      "term": "slim margin",
+      "vi": "cách biệt sát nút",
+      "definition": "a very small difference in a vote or result",
+      "example": "The merger passed by a slim margin."
+    },
+    {
+      "term": "unease",
+      "vi": "sự bất an, lo lắng",
+      "definition": "a feeling of worry or doubt",
+      "example": "The close vote showed real unease among members."
+    },
+    {
+      "term": "scale",
+      "vi": "quy mô",
+      "definition": "the size or level of something",
+      "example": "The merger gives them the scale to invest in technology."
+    },
+    {
+      "term": "stop short of",
+      "vi": "không đi xa đến mức",
+      "definition": "almost do something but decide not to",
+      "example": "The credit union stopped short of guaranteeing the branch."
+    },
+    {
+      "term": "in the blink of an eye",
+      "vi": "trong nháy mắt",
+      "definition": "very quickly",
+      "example": "Two years goes by in the blink of an eye."
+    },
+    {
+      "term": "skepticism",
+      "vi": "sự hoài nghi",
+      "definition": "doubt about whether something is true or will happen",
+      "example": "The CEO said she understands the skepticism."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 5 independently; keys match (DACBD), percentages and inference item consistent. Changed the invented \"Lumby mayor\" to a Lumby hardware-store owner (real office no longer misattributed), softened \"the largest\" to \"one of the largest\" credit unions in the Interior, and updated the Q3 prompt accordingly."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

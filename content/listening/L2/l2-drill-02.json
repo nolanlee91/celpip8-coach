@@ -1,0 +1,121 @@
+{
+  "id": "l2-drill-02",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "government",
+  "title": "Speaker attitude drill: Getting ready for the citizenship test",
+  "context": "You will hear two friends at a coffee shop in Surrey talking about the Canadian citizenship test.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Thuy", "voice": "female_a", "text": "Okay, Gurpreet, be honest with me. Three weeks. Is that enough time to get ready for the citizenship test?" },
+        { "speaker": "Gurpreet", "voice": "male_b", "text": "Three weeks? That's plenty. I crammed for about ten days, and I still passed." },
+        { "speaker": "Thuy", "voice": "female_a", "text": "Yeah, but you're good at that kind of thing. You remember dates. I read about the War of 1812 last night, and by this morning it was just gone." },
+        { "speaker": "Gurpreet", "voice": "male_b", "text": "Thuy, nobody remembers it the first time. That's normal. What are you using to study?" },
+        { "speaker": "Thuy", "voice": "female_a", "text": "The official study guide, and this app I found. It was nineteen dollars and ninety-nine cents, but it's got, like, five hundred practice questions." },
+        { "speaker": "Gurpreet", "voice": "male_b", "text": "Twenty bucks? For questions you can find for free online? Well, I suppose if it gets you studying, it's money well spent. Sort of." },
+        { "speaker": "Thuy", "voice": "female_a", "text": "Hey, it's really good! It tells you why you got things wrong. Anyway, I was thinking of asking to reschedule. Just to give myself a bit more breathing room." },
+        { "speaker": "Gurpreet", "voice": "male_b", "text": "Hmm. Can I say something, and you promise you won't get mad?" },
+        { "speaker": "Thuy", "voice": "female_a", "text": "That depends on what it is." },
+        { "speaker": "Gurpreet", "voice": "male_b", "text": "You've been saying you're not ready since, what, the spring? I think if you push it back, you'll just spend another three months worrying about it. You know more than you give yourself credit for. Remember that quiz we did at my place? You got almost everything." },
+        { "speaker": "Thuy", "voice": "female_a", "text": "That was the easy stuff. Provinces and capitals." },
+        { "speaker": "Gurpreet", "voice": "male_b", "text": "Look, tell you what. Come over Sunday, I'll quiz you on the history chapters, and if you still feel shaky after that, then reschedule. Deal?" },
+        { "speaker": "Thuy", "voice": "female_a", "text": "Okay, fine. Deal. But if I fail, I'm blaming you." },
+        { "speaker": "Gurpreet", "voice": "male_b", "text": "Ha! If you fail, I'll buy you another app." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How does Thuy feel about her ability to prepare?",
+          "options": [
+            { "text": "She is confident because she remembers dates easily.", "trap": "wrong_speaker", "whyVi": "Thuy nói chính Gurpreet mới là người nhớ ngày tháng giỏi." },
+            { "text": "She doubts she can keep the information in her head.", "trap": "none", "whyVi": "Đúng: đọc tối qua, sáng nay đã quên hết." },
+            { "text": "She thinks three weeks is far more time than she needs.", "trap": "wrong_speaker", "whyVi": "Gurpreet nói 'That's plenty', không phải Thuy." },
+            { "text": "She feels the history section is easier than expected.", "trap": "opposite", "whyVi": "Cô thấy phần lịch sử khó nhớ." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "I read about the War of 1812 last night, and by this morning it was just gone.",
+          "explanationVi": "'By this morning it was just gone' = quên sạch. Thuy tự so sánh với Gurpreet và thiếu tự tin vào trí nhớ của mình. Đáp án B.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "What is Gurpreet's opinion of the app Thuy bought?",
+          "options": [
+            { "text": "He is impressed by the number of questions it has.", "trap": "word_match", "whyVi": "Thuy là người khoe 500 câu hỏi; Gurpreet không ấn tượng." },
+            { "text": "He thinks it is useless and she should ask for a refund.", "trap": "too_broad", "whyVi": "Anh chê đắt nhưng vẫn thừa nhận nó có thể có ích; không nói đòi hoàn tiền." },
+            { "text": "He would like to buy it for himself.", "trap": "not_mentioned", "whyVi": "Anh đã thi đậu rồi và không muốn mua." },
+            { "text": "He finds it overpriced but admits it may be of some use.", "trap": "none", "whyVi": "Đúng: 'Twenty bucks? ... free' (chê đắt) + 'money well spent. Sort of.' (miễn cưỡng công nhận)." }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "Twenty bucks? For questions you can find for free online? Well, I suppose if it gets you studying, it's money well spent. Sort of.",
+          "explanationVi": "Giọng hoài nghi ('Twenty bucks?') rồi nhượng bộ nửa vời ('I suppose... Sort of.'). Đáp án D thể hiện đúng hai mặt này.",
+          "vocabulary": ["money well spent"]
+        },
+        {
+          "number": 3,
+          "prompt": "How does Thuy respond to Gurpreet's comment about the app?",
+          "options": [
+            { "text": "She defends her choice by pointing out a useful feature.", "trap": "none", "whyVi": "Đúng: 'Hey, it's really good! It tells you why you got things wrong.'" },
+            { "text": "She agrees that she wasted her money.", "trap": "opposite", "whyVi": "Cô bênh vực ứng dụng, không đồng ý." },
+            { "text": "She ignores his comment and says nothing about the app.", "trap": "opposite", "whyVi": "Cô phản ứng ngay và nói về ưu điểm của ứng dụng." },
+            { "text": "She admits she has not used it yet.", "trap": "not_mentioned", "whyVi": "Cô có vẻ đã dùng vì biết nó giải thích lỗi sai." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "Hey, it's really good! It tells you why you got things wrong.",
+          "explanationVi": "'Hey!' là lời phản đối nhẹ, tiếp theo là lý do ứng dụng tốt. Đáp án A: bênh vực lựa chọn bằng một tính năng hữu ích.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "What is Gurpreet's view about rescheduling the test?",
+          "options": [
+            { "text": "Thuy should reschedule because she started studying too late.", "trap": "opposite", "whyVi": "Anh khuyên không nên dời lịch vội." },
+            { "text": "Rescheduling is difficult and costs extra money.", "trap": "not_mentioned", "whyVi": "Không ai nói dời lịch khó hay tốn tiền." },
+            { "text": "Putting it off would only make her worry for longer.", "trap": "none", "whyVi": "Đúng: dời lại thì chỉ lo thêm ba tháng nữa." },
+            { "text": "She should never reschedule under any circumstances.", "trap": "too_broad", "whyVi": "Anh vẫn nói nếu sau Chủ nhật vẫn chưa vững thì có thể dời." }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "I think if you push it back, you'll just spend another three months worrying about it.",
+          "explanationVi": "'Push it back' = 'put it off' (hoãn lại); 'spend another three months worrying' = lo lắng lâu hơn. Đáp án C diễn đạt lại.",
+          "vocabulary": ["push back", "breathing room"]
+        },
+        {
+          "number": 5,
+          "prompt": "How does Thuy feel at the end of the conversation?",
+          "options": [
+            { "text": "Completely confident that she will pass.", "trap": "opposite", "whyVi": "Cô vẫn còn lo: 'if I fail'." },
+            { "text": "Willing to go along with the plan, though still a little nervous.", "trap": "none", "whyVi": "Đúng: 'Okay, fine. Deal.' (đồng ý, hơi miễn cưỡng) + câu đùa 'if I fail' (vẫn lo)." },
+            { "text": "Annoyed that Gurpreet won't let her reschedule.", "trap": "partially_true", "whyVi": "Gurpreet không cấm dời lịch; câu 'I'm blaming you' chỉ là đùa." },
+            { "text": "Eager to buy another study app.", "trap": "wrong_speaker", "whyVi": "Gurpreet nói đùa sẽ mua app khác cho cô; Thuy không nói vậy." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "Okay, fine. Deal. But if I fail, I'm blaming you.",
+          "explanationVi": "'Okay, fine' = đồng ý một cách miễn cưỡng; 'if I fail, I'm blaming you' là câu đùa che giấu sự lo lắng. Đáp án B.",
+          "vocabulary": ["shaky"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "cram", "vi": "học nhồi, học cấp tốc", "definition": "to study a lot in a short time before a test", "example": "I crammed for about ten days and still passed." },
+    { "term": "money well spent", "vi": "đáng đồng tiền", "definition": "money spent on something that is worth the cost", "example": "If it gets you studying, it's money well spent." },
+    { "term": "breathing room", "vi": "thêm thời gian, khoảng thở", "definition": "extra time or space so you feel less pressure", "example": "I want to reschedule to give myself more breathing room." },
+    { "term": "push back", "vi": "dời lại, hoãn", "definition": "to move an event to a later time", "example": "If you push the test back, you'll keep worrying." },
+    { "term": "give yourself credit", "vi": "ghi nhận khả năng của bản thân", "definition": "to recognize your own abilities or achievements", "example": "You know more than you give yourself credit for." },
+    { "term": "shaky", "vi": "chưa vững, lung lay", "definition": "not confident or not well prepared", "example": "If you still feel shaky, then reschedule." },
+    { "term": "tell you what", "vi": "thế này nhé (mở đầu một đề nghị)", "definition": "used to introduce a suggestion or offer", "example": "Tell you what, come over Sunday and I'll quiz you." }
+  ],
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched, and all 5 are speaker_attitude, recoverable from the words ('For questions you can find for free online?', 'Sort of', 'Okay, fine'). Changed: added both names to the audio; replaced 'nineteen ninety-nine' (a TTS listener could hear it as the year 1999 right after 'War of 1812') with 'nineteen dollars and ninety-nine cents'." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

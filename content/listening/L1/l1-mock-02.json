@@ -11,7 +11,7 @@
     {
       "segments": [
         { "speaker": "Chloe", "voice": "female_a", "text": "Farid, have you seen my fob? The blue one. I swear I put it in my jacket pocket last night." },
-        { "speaker": "Farid", "voice": "male_a", "text": "The building fob? No. Did you check your gym bag? You had it at the pool yesterday, right?" },
+        { "speaker": "Farid", "voice": "male_a", "text": "Morning, Chloe. The building fob? No. Did you check your gym bag? You had it at the pool yesterday, right?" },
         { "speaker": "Chloe", "voice": "female_a", "text": "I checked everywhere. Gym bag, the car, the couch. Honestly, I think it fell out when I was taking my phone out at the bus stop on Kingsway." },
         { "speaker": "Farid", "voice": "male_a", "text": "Okay, that's not great. Anyone who finds it can get into the parkade and the bike room. Remember that email from strata last spring about bikes going missing?" },
         { "speaker": "Chloe", "voice": "female_a", "text": "Don't remind me. Okay, so I need to report it. Who do we even contact, the building manager?" },
@@ -182,7 +182,7 @@
   ],
   "estimatedMinutes": 10,
   "source": "curated",
-  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; key matched. Changed: softened Chloe's line about the landlord simply deducting from the damage deposit and corrected the vocab definition (in BC a landlord needs written consent or an RTB order); Q2 option B whyVi said 'last year' while transcript says 'last spring' - fixed." },
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; key matched. Changed: softened Chloe's line about the landlord simply deducting from the damage deposit and corrected the vocab definition (in BC a landlord needs written consent or an RTB order); Q2 option B whyVi said 'last year' while transcript says 'last spring' - fixed. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)." },
   "createdAt": "2026-10-26",
   "focus": []
 }

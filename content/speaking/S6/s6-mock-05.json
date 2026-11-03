@@ -1,0 +1,54 @@
+{
+  "id": "s6-mock-05",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "banking",
+  "title": "Asked to co-sign your brother's car loan",
+  "prompt": "Your younger brother has just started a new job and needs a car to get there. He has asked you to co-sign a $15,000 car loan at your credit union. You want to help him, but he has missed credit card payments in the past, and if he cannot pay, you would be responsible for the debt. Your spouse is strongly against the idea.\n\nChoose ONE of the following options:\n\nOption A: Talk to your brother. Explain why you will not co-sign the loan and suggest another way to help him.\n\nOption B: Talk to your spouse. Explain why you want to help your brother and suggest a way to reduce the risk.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Warm opener + recognise his good news",
+    "Give a clear decision and an honest, non-judgmental reason",
+    "Offer 2 practical alternatives",
+    "Reassure him of your support"
+  ],
+  "modelAnswer": "Jamal, thanks for meeting me. I've thought a lot about the car loan, and I wanted to tell you in person rather than over text.\n\nI know how much you need a reliable car for the new job, and I'm really proud of you for landing it. But I've decided I can't co-sign. It's not that I don't trust you. It's just that if anything went wrong, the credit union would come after me, and Nadia and I are saving for a down payment on a house. I can't put that at risk right now.\n\nThat said, I'd still like to help you get on the road. One option is a cheaper used car. I could lend you two thousand dollars toward it, and you could pay me back a little each month, interest-free. Another idea is to ask the credit union about a secured credit card, so you can start rebuilding your credit and maybe qualify on your own down the road.\n\nI hope you understand. I'm still in your corner.",
+  "usefulExpressions": [
+    {
+      "expression": "I wanted to tell you in person rather than over text.",
+      "usageVi": "Thể hiện sự tôn trọng khi báo một quyết định khó."
+    },
+    {
+      "expression": "It's not that I don't trust you. It's just that…",
+      "usageVi": "Cấu trúc từ chối khéo: phủ nhận lý do gây tổn thương, rồi nêu lý do thật."
+    },
+    {
+      "expression": "I can't put that at risk right now.",
+      "usageVi": "Giải thích giới hạn của bản thân một cách rõ ràng, không đổ lỗi."
+    },
+    {
+      "expression": "That said, …",
+      "usageVi": "Chuyển ý 'tuy vậy' — dẫn sang giải pháp thay thế."
+    },
+    {
+      "expression": "I'm still in your corner.",
+      "usageVi": "Thành ngữ = tôi vẫn luôn ủng hộ em; kết thúc ấm áp."
+    }
+  ],
+  "commonMistakes": [
+    "Nhắc lại lỗi cũ một cách gay gắt ('You never pay your bills'). Hãy tập trung vào hoàn cảnh của bạn thay vì phán xét em.",
+    "Đổ hết cho vợ/chồng ('My wife doesn't allow me'). Nói 'I've decided' để thể hiện bạn chịu trách nhiệm về quyết định.",
+    "Nhầm từ: 'borrow you money' → 'lend you money'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked Option A/B shape, direct address to the brother, non-judgmental refusal, length (~169 words); co-signer liability matches the prompt. Removed an implied promise that a secured card would let him 'qualify on your own next year' (now 'start rebuilding… maybe qualify on your own down the road') so no financial outcome is stated as fact."
+  },
+  "createdAt": "2026-11-03"
+}

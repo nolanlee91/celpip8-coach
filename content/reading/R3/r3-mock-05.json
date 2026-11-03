@@ -1,0 +1,424 @@
+{
+  "id": "r3-mock-05",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "shopping",
+  "title": "Second-Hand Goes Mainstream",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 9 independently; keys match. Q4 and Q8 E verified (no online-sales plan, no customer refund policy). Changed Q8 option D trap from partially_true to not_mentioned. Different scenario from r3-full-06/r3-full-09."
+  },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "A decade ago, Mei-Ling Tsao's consignment boutique on Main Street in Vancouver relied mostly on bargain hunters and university students. Today, her customers include lawyers on their lunch breaks and parents outfitting entire families. Tsao, who opened Second Spin in 2014, says sales have roughly tripled since 2020. She credits several factors: rising prices for new clothing, a growing unease about how much textile waste ends up in landfills, and, perhaps surprisingly, social media, where \"thrift hauls\" have become a popular genre. \"Ten years ago people would whisper that their jacket was second-hand,\" she says. \"Now they brag about it.\"",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "The way consignment works has not changed much. Sellers bring in clean, undamaged items, and Tsao's staff choose what they think will sell, typically accepting fewer than half of the pieces offered. Accepted items are priced and displayed for up to ninety days. When something sells, the seller receives forty per cent of the price, either as cash or as store credit worth fifty per cent. Unsold items can be picked up at the end of the period; anything left uncollected after a further two weeks is donated to a women's shelter in East Vancouver. Tsao says the biggest complaint she hears is from sellers who think their items are worth more.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Online resale platforms have widened the market but also crowded it. Apps that let people list clothing from their phones have made it easy for anyone to become a seller, and some full-time \"resellers\" now scour thrift stores for underpriced designer pieces to flip online at a profit. Charity thrift shops, which depend on donated goods, have responded by raising prices on brand-name items, a move that has drawn criticism from shoppers on low incomes who once relied on those stores for affordable basics. One manager at a Burnaby thrift shop said the store had little choice, as its own rent had risen by a third in two years.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Not everyone is convinced the boom is as green as it looks. Kofi Mensah, who researches consumer behaviour at a Lower Mainland college, points out that cheap second-hand clothing can encourage people to buy more than they need, simply because it feels guilt-free. He also notes that a large share of donated clothing is never sold locally; much of it is baled and shipped overseas, where it can overwhelm local markets. Mensah does not argue against buying used, but he suggests shoppers ask themselves the same question they would ask in any store: will I actually wear this? Tsao, for her part, agrees.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Online trends have played an unexpected part in one shop's success.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: Bà Tsao cho rằng một lý do doanh số tăng là, 'perhaps surprisingly, social media'."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói cách ký gửi hoạt động, không nói lý do thành công."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C nói ứng dụng bán đồ online làm thị trường 'crowded' (đông đúc hơn) — không phải lý do cửa hàng thành công."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về những nghi ngờ đối với trào lưu đồ cũ."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "perhaps surprisingly, social media",
+      "explanationVi": "'Online trends' = 'social media, where thrift hauls have become a popular genre'; 'unexpected' = 'perhaps surprisingly'; 'success' = 'sales have roughly tripled'."
+    },
+    {
+      "number": 2,
+      "prompt": "Sellers can earn more if they agree to spend their earnings in the shop.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn A nói doanh số tăng gấp ba — đó là chuyện của cửa hàng, không phải tiền người gửi bán nhận."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Nhận tiền mặt được 40%, nhận tín dụng cửa hàng được 50%."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói người 'flip online at a profit' kiếm lời bằng cách bán lại online, không liên quan đến tín dụng cửa hàng."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về tiền của người bán."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "either as cash or as store credit worth fifty per cent",
+      "explanationVi": "Tiền mặt = 40% giá bán, còn 'store credit' (tín dụng mua hàng tại cửa hàng) = 50%. Vậy chịu tiêu tiền ở cửa hàng thì được nhiều hơn. Phải so sánh hai con số mới thấy.",
+      "vocabulary": [
+        "store credit"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "Some people buy used goods with the aim of reselling them at a higher price.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A nói khách hàng mua để dùng (luật sư, phụ huynh)."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói người bán gửi đồ của chính họ để ký gửi — không phải mua đồ cũ để bán lại."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: 'resellers' lùng đồ hiệu giá rẻ 'to flip online at a profit'."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói mua quá nhiều, không nói mua để bán lại."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "vocabulary",
+      "evidence": "scour thrift stores for underpriced designer pieces to flip online at a profit",
+      "explanationVi": "'Flip ... at a profit' = mua rồi bán lại để kiếm lời; 'underpriced' = giá thấp hơn giá trị thật. 'Reselling at a higher price' diễn đạt lại ý này.",
+      "vocabulary": [
+        "scour",
+        "flip"
+      ]
+    },
+    {
+      "number": 4,
+      "prompt": "Second Spin is planning to start selling its stock online.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A nói về Second Spin và mạng xã hội, nhưng không nói cửa hàng định bán online."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B chỉ nói cách ký gửi tại cửa hàng."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C nói về ứng dụng bán đồ online nói chung, không nói Second Spin sẽ dùng."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nhắc kế hoạch kinh doanh."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: Không đoạn nào nói Second Spin định bán hàng online."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "Apps that let people list clothing from their phones have made it easy for anyone to become a seller",
+      "explanationVi": "Đoạn C có nói về bán hàng online, nhưng là người bán cá nhân và 'resellers', không phải Second Spin. Đoạn A chỉ nói Second Spin được lợi từ mạng xã hội. Không có kế hoạch nào → E."
+    },
+    {
+      "number": 5,
+      "prompt": "The low cost of used items may tempt shoppers into buying excessively.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A nói giá đồ mới tăng khiến người ta chuyển sang đồ cũ — không nói mua quá nhiều."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về ký gửi."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'affordable basics' (đồ cơ bản giá rẻ) cho người thu nhập thấp — không nói mua thừa."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: Ông Mensah nói đồ cũ rẻ 'can encourage people to buy more than they need'."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "cheap second-hand clothing can encourage people to buy more than they need",
+      "explanationVi": "'Low cost' = 'cheap'; 'tempt into buying excessively' = 'encourage people to buy more than they need'. Lý do: 'it feels guilt-free' (không thấy áy náy).",
+      "vocabulary": [
+        "guilt-free"
+      ]
+    },
+    {
+      "number": 6,
+      "prompt": "One store raised some of its prices partly because its own costs had gone up.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn A nói giá quần áo mới tăng — không phải một cửa hàng tăng giá vì chi phí của họ."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B không nói tăng giá."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Cửa hàng ở Burnaby tăng giá vì 'its own rent had risen by a third'."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về tác động môi trường."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "its own rent had risen by a third in two years",
+      "explanationVi": "Cửa hàng từ thiện tăng giá đồ hàng hiệu; quản lý ở Burnaby nói 'had little choice' vì 'rent had risen by a third'. 'Costs had gone up' = 'rent had risen'."
+    },
+    {
+      "number": 7,
+      "prompt": "The boutique turns down the majority of items that people bring in.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A nói về khách hàng và doanh số."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Nhân viên 'typically accepting fewer than half of the pieces offered'."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói cửa hàng từ thiện sống nhờ đồ quyên góp, không nói từ chối nhận đồ."
+        },
+        {
+          "text": "D",
+          "trap": "word_match",
+          "whyVi": "Đoạn D nói phần lớn đồ quyên góp 'never sold locally' — là đồ không bán được, không phải bị từ chối nhận."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "typically accepting fewer than half of the pieces offered",
+      "explanationVi": "'Turns down the majority' = 'accepting fewer than half' (nhận ít hơn một nửa → từ chối phần lớn). Đây là cách diễn đạt ngược chiều — rất hay gặp trong CELPIP."
+    },
+    {
+      "number": 8,
+      "prompt": "Shoppers can bring back items they have bought and get their money back.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về trả hàng."
+        },
+        {
+          "text": "B",
+          "trap": "word_match",
+          "whyVi": "Đoạn B nói người gửi bán có thể lấy lại đồ chưa bán — không phải khách mua mang trả."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về thị trường bán lại online."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D khuyên tự hỏi 'will I actually wear this?' trước khi mua, không nói chuyện trả hàng."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: Bài không nói gì về việc khách trả hàng lấy lại tiền."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "Unsold items can be picked up at the end of the period",
+      "explanationVi": "Không đoạn nào nói về chính sách trả hàng hoàn tiền. Đoạn B gần nhất nhưng nói người gửi bán ('sellers') đến lấy lại đồ chưa bán được — không phải khách mua trả hàng. → E."
+    },
+    {
+      "number": 9,
+      "prompt": "An academic recommends applying the same judgement to used purchases as to new ones.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A chỉ có ý kiến của chủ cửa hàng."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về quy trình ký gửi."
+        },
+        {
+          "text": "C",
+          "trap": "wrong_speaker",
+          "whyVi": "Đoạn C có lời của quản lý một cửa hàng ở Burnaby — không phải nhà nghiên cứu, và không đưa lời khuyên mua sắm."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: Ông Mensah khuyên người mua tự hỏi cùng câu hỏi như khi mua ở bất kỳ cửa hàng nào."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "he suggests shoppers ask themselves the same question they would ask in any store",
+      "explanationVi": "'An academic' = Kofi Mensah 'who researches consumer behaviour at a ... college'; 'same judgement' = 'the same question they would ask in any store' (Mình có thật sự mặc không?).",
+      "vocabulary": [
+        "for her part"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "consignment",
+      "vi": "ký gửi (bán hộ, chia tiền khi bán được)",
+      "definition": "an arrangement where a shop sells your goods and pays you part of the price",
+      "example": "Her consignment boutique is on Main Street."
+    },
+    {
+      "term": "bargain hunter",
+      "vi": "người săn hàng giá rẻ",
+      "definition": "a person who looks for things at low prices",
+      "example": "The shop once relied on bargain hunters and students."
+    },
+    {
+      "term": "store credit",
+      "vi": "tín dụng mua hàng tại cửa hàng",
+      "definition": "money you can only spend in one particular shop",
+      "example": "Sellers can take store credit worth fifty per cent."
+    },
+    {
+      "term": "scour",
+      "vi": "lùng sục, tìm kỹ",
+      "definition": "to search a place very carefully",
+      "example": "Resellers scour thrift stores for designer pieces."
+    },
+    {
+      "term": "flip",
+      "vi": "mua đi bán lại kiếm lời",
+      "definition": "to buy something and quickly sell it for more",
+      "example": "They flip the pieces online at a profit."
+    },
+    {
+      "term": "underpriced",
+      "vi": "bị định giá thấp",
+      "definition": "sold for less than it is really worth",
+      "example": "They look for underpriced designer pieces."
+    },
+    {
+      "term": "guilt-free",
+      "vi": "không thấy áy náy",
+      "definition": "not making you feel you have done something wrong",
+      "example": "Cheap used clothing feels guilt-free."
+    },
+    {
+      "term": "for her part",
+      "vi": "về phần cô ấy",
+      "definition": "used to give one person's opinion or action",
+      "example": "Tsao, for her part, agrees."
+    }
+  ]
+}

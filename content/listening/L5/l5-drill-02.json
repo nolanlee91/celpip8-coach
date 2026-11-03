@@ -1,0 +1,306 @@
+{
+  "id": "l5-drill-02",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "banking",
+  "title": "Speaker attitude drill: Renewing the mortgage",
+  "context": "You will hear a couple meeting with an adviser at a credit union in Victoria about how to renew their mortgage.",
+  "estimatedMinutes": 7,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Bernard, mortgage adviser",
+          "voice": "male_b",
+          "text": "So your current term ends in February, and the balance is about four hundred and ten thousand. The two options we talked about on the phone were a five-year fixed at four point four percent, or a variable starting at four point one. Have you had a chance to think it over?"
+        },
+        {
+          "speaker": "Joanne",
+          "voice": "female_a",
+          "text": "We have, Bernard, and to be honest, we haven't exactly agreed. I'm leaning toward fixed. When rates jumped a few years ago, our friends on variable saw their payments go up by six hundred a month, practically overnight. I don't want to be lying awake doing that math."
+        },
+        {
+          "speaker": "Nikhil",
+          "voice": "male_a",
+          "text": "And I get that, Joanne, I really do. But point three percent on four hundred thousand isn't pocket change. Over five years, that adds up to several thousand dollars. Most of the forecasts I've read say rates are more likely to drift down than up."
+        },
+        {
+          "speaker": "Bernard, mortgage adviser",
+          "voice": "male_b",
+          "text": "Forecasts are worth about what you pay for them, I'm afraid. I've watched economists get it wrong in both directions. What I'd ask instead is, how much room is there in your budget? If the payment went up by, say, three hundred a month, could you absorb that?"
+        },
+        {
+          "speaker": "Nikhil",
+          "voice": "male_a",
+          "text": "Comfortably? Probably not. Not with daycare for another two years."
+        },
+        {
+          "speaker": "Joanne",
+          "voice": "female_a",
+          "text": "Thank you. That's my whole point."
+        },
+        {
+          "speaker": "Nikhil",
+          "voice": "male_a",
+          "text": "Okay, okay. But is there anything in between? I'd hate to lock in for five years and then watch rates fall."
+        },
+        {
+          "speaker": "Bernard, mortgage adviser",
+          "voice": "male_b",
+          "text": "There is, actually, Nikhil. You could split the mortgage, half fixed and half variable. Or you could go fixed for a shorter term, three years instead of five. The rate's a touch higher, four point six, but you'd be renewing again right around the time the daycare costs are behind you."
+        },
+        {
+          "speaker": "Joanne",
+          "voice": "female_a",
+          "text": "Three years. Hmm. I hadn't thought of that. That actually doesn't sound bad at all."
+        },
+        {
+          "speaker": "Nikhil",
+          "voice": "male_a",
+          "text": "The split sounds a bit complicated to me. Two rates, two sets of numbers. I can barely keep track of one."
+        },
+        {
+          "speaker": "Bernard, mortgage adviser",
+          "voice": "male_b",
+          "text": "Fair enough. Simpler is often better. One more thing: whichever you pick, our mortgages let you pay down up to fifteen percent of the original balance each year without a penalty. If Nikhil's bonus comes through, that's a good place for it."
+        },
+        {
+          "speaker": "Joanne",
+          "voice": "female_a",
+          "text": "See, that's the kind of plan I can sleep with. A steady payment, and we chip away at the balance when we can."
+        },
+        {
+          "speaker": "Nikhil",
+          "voice": "male_a",
+          "text": "Fine. I still think we're leaving some money on the table, but I'd rather do that than have the two of us arguing every time the Bank of Canada makes an announcement."
+        },
+        {
+          "speaker": "Bernard, mortgage adviser",
+          "voice": "male_b",
+          "text": "That's a better reason than most people give me. I'll write up the three-year fixed and email it to you by Thursday."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why does Joanne prefer a fixed rate?",
+          "options": [
+            {
+              "text": "She is sure that rates will rise again soon.",
+              "trap": "not_mentioned",
+              "whyVi": "Joanne không dự đoán lãi suất; cô chỉ sợ rủi ro khoản trả góp tăng đột ngột."
+            },
+            {
+              "text": "Her friends advised her to choose a fixed rate.",
+              "trap": "word_match",
+              "whyVi": "Bài có nhắc bạn bè của cô, nhưng đó là ví dụ về người bị tăng khoản trả, không phải lời khuyên."
+            },
+            {
+              "text": "She wants to avoid worrying about a sudden jump in payments.",
+              "trap": "none",
+              "whyVi": "Đúng: cô không muốn mất ngủ vì lo tính toán khi khoản trả tăng vọt."
+            },
+            {
+              "text": "She believes the fixed rate is the cheaper option.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: lãi suất cố định (4,4%) cao hơn lãi suất thả nổi (4,1%)."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "I don't want to be lying awake doing that math.",
+          "explanationVi": "'Lying awake doing that math' = mất ngủ vì lo. Thái độ của Joanne là ưu tiên sự yên tâm hơn tiết kiệm. Đáp án C diễn đạt lại thành 'avoid worrying about a sudden jump'.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "What is Bernard's attitude toward interest-rate forecasts?",
+          "options": [
+            {
+              "text": "He thinks they are unreliable and should not guide the decision.",
+              "trap": "none",
+              "whyVi": "Đúng: ông nói dự báo chẳng đáng tin, các nhà kinh tế sai cả hai chiều, nên hỏi về ngân sách thay vào đó."
+            },
+            {
+              "text": "He agrees that rates are likely to drift down.",
+              "trap": "wrong_speaker",
+              "whyVi": "Đây là ý của Nikhil, không phải của Bernard."
+            },
+            {
+              "text": "He trusts economists more than banks.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không so sánh nhà kinh tế với ngân hàng."
+            },
+            {
+              "text": "He thinks forecasts cost too much to buy.",
+              "trap": "word_match",
+              "whyVi": "Câu 'worth about what you pay for them' là cách nói mỉa (dự báo miễn phí nên chẳng đáng giá), không phải nói về giá mua."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "Forecasts are worth about what you pay for them, I'm afraid.",
+          "explanationVi": "'Worth about what you pay for them' là câu thành ngữ mỉa mai: thứ miễn phí thì không có giá trị. Ông còn nói 'economists get it wrong in both directions' và chuyển sang hỏi về ngân sách.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "How does Joanne react when Bernard mentions a three-year term?",
+          "options": [
+            {
+              "text": "She worries that it is too complicated.",
+              "trap": "wrong_speaker",
+              "whyVi": "Người thấy phức tạp là Nikhil, và anh nói về phương án chia đôi khoản vay."
+            },
+            {
+              "text": "She dislikes it because the rate is higher.",
+              "trap": "not_mentioned",
+              "whyVi": "Cô không phàn nàn về mức lãi 4,6%."
+            },
+            {
+              "text": "She says she was planning to ask about it anyway.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô nói 'I hadn't thought of that'."
+            },
+            {
+              "text": "She is pleasantly surprised and open to it.",
+              "trap": "none",
+              "whyVi": "Đúng: cô chưa nghĩ tới và thấy phương án này 'doesn't sound bad at all'."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "I hadn't thought of that. That actually doesn't sound bad at all.",
+          "explanationVi": "'I hadn't thought of that' cho thấy ngạc nhiên; 'doesn't sound bad at all' là cách nói tích cực (= khá hay). Đáp án D diễn đạt lại thành 'pleasantly surprised and open to it'.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "Why might the three-year term suit the couple, according to Bernard?",
+          "options": [
+            {
+              "text": "It has the lowest interest rate of all the options.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: 4,6% là mức cao nhất trong các phương án."
+            },
+            {
+              "text": "They would renew once their childcare costs have ended.",
+              "trap": "none",
+              "whyVi": "Đúng: họ sẽ gia hạn lại đúng lúc chi phí nhà trẻ không còn nữa."
+            },
+            {
+              "text": "It lets them make larger extra payments.",
+              "trap": "wrong_detail",
+              "whyVi": "Quyền trả thêm 15% áp dụng cho mọi phương án ('whichever you pick')."
+            },
+            {
+              "text": "It splits the mortgage into fixed and variable parts.",
+              "trap": "wrong_detail",
+              "whyVi": "Chia đôi khoản vay là một phương án khác."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "you'd be renewing again right around the time the daycare costs are behind you",
+          "explanationVi": "'The daycare costs are behind you' được diễn đạt lại thành 'their childcare costs have ended'. Cần phân biệt ba phương án: cố định 5 năm, chia đôi, cố định 3 năm.",
+          "vocabulary": [
+            "behind you"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "How does Nikhil feel about the final decision?",
+          "options": [
+            {
+              "text": "He is convinced it is the cheapest choice.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: anh vẫn nghĩ họ đang bỏ lỡ một khoản tiền."
+            },
+            {
+              "text": "He plans to switch to a variable rate next year.",
+              "trap": "not_mentioned",
+              "whyVi": "Anh không nói sẽ đổi sang lãi suất thả nổi."
+            },
+            {
+              "text": "He accepts it mainly to keep the peace, though he thinks it may cost them.",
+              "trap": "none",
+              "whyVi": "Đúng: anh cho rằng sẽ tốn thêm tiền nhưng thà vậy còn hơn hai vợ chồng cãi nhau."
+            },
+            {
+              "text": "He is mostly worried about the Bank of Canada's next announcement.",
+              "trap": "word_match",
+              "whyVi": "Bài có nhắc Bank of Canada, nhưng anh lo về chuyện cãi nhau, không phải bản thân thông báo."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "I still think we're leaving some money on the table, but I'd rather do that than have the two of us arguing",
+          "explanationVi": "'Leaving money on the table' = bỏ lỡ khoản lợi có thể có. Anh nhượng bộ ('Fine') vì muốn tránh cãi nhau. Thái độ: chấp nhận miễn cưỡng để giữ hòa khí.",
+          "vocabulary": [
+            "leave money on the table"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "lean toward",
+      "vi": "nghiêng về (một lựa chọn)",
+      "definition": "be more likely to choose one option",
+      "example": "I'm leaning toward a fixed rate."
+    },
+    {
+      "term": "pocket change",
+      "vi": "số tiền nhỏ, tiền lẻ",
+      "definition": "a small, unimportant amount of money",
+      "example": "Point three percent isn't pocket change."
+    },
+    {
+      "term": "drift down",
+      "vi": "giảm dần",
+      "definition": "fall slowly over time",
+      "example": "Rates are more likely to drift down than up."
+    },
+    {
+      "term": "absorb",
+      "vi": "gánh được, chịu được (chi phí)",
+      "definition": "deal with an extra cost without serious problems",
+      "example": "Could you absorb a higher payment?"
+    },
+    {
+      "term": "lock in",
+      "vi": "chốt, khóa (mức lãi suất)",
+      "definition": "fix a rate or price for a period of time",
+      "example": "I'd hate to lock in for five years."
+    },
+    {
+      "term": "behind you",
+      "vi": "đã qua, không còn nữa",
+      "definition": "finished and no longer a problem",
+      "example": "You'll renew once the daycare costs are behind you."
+    },
+    {
+      "term": "chip away at",
+      "vi": "giảm dần từng chút",
+      "definition": "reduce something gradually",
+      "example": "We chip away at the balance when we can."
+    },
+    {
+      "term": "leave money on the table",
+      "vi": "bỏ lỡ khoản tiền có thể có",
+      "definition": "miss a chance to get or save money",
+      "example": "I think we're leaving some money on the table."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 5 items independently; keys match, 4/5 are attitude items, all recoverable from words. The 15% penalty-free prepayment was stated as a general rule; reframed as this credit union's product ('our mortgages let you'); rates are presented as offers, not market facts. Added name cues for Bernard, Joanne and Nikhil (none were addressed early)."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

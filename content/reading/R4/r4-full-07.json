@@ -1,0 +1,185 @@
+{
+  "id": "r4-full-07",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "Garbage Day, Every Other Week",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 10 independently; keys match. Checked the attitude items (Mendoza, Hossain's conditional support, Whitfield) and that bear-storage/garbage rules are presented only as the fictional city's bylaws. No changes." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "Starting in April, garbage trucks in the City of Alder Point will stop coming every week. Under a plan approved by council on Monday, black-bin garbage will be picked up every two weeks, while green bins for food scraps and yard waste will still be collected weekly. Blue-bin recycling stays on its current every-other-week schedule.\n\nCity engineer Farah Qureshi says the change follows a simple logic. An audit of residents' garbage last year found that nearly 40 per cent of what went into black bins was food that belonged in the green bin. \"Weekly garbage pickup tells people it doesn't matter where the chicken bones go,\" she said. \"When the black bin fills up faster, people start paying attention.\" Other municipalities that made the switch saw the amount of garbage sent to the landfill fall by between a fifth and a third, she says, and Alder Point expects to save about $600,000 a year in collection and landfill costs.\n\nNot everyone is buying the argument. Carlos Mendoza, a father of four, says his family produces far more garbage than a single person and that diapers alone fill half his bin. \"It's easy to talk about chicken bones when you don't have twins in diapers,\" he said. \"Two weeks of that in a hot July isn't a recycling problem. It's a health problem.\" The city says large families and households with medical waste can request a bigger black bin at no extra charge, but Mendoza says he only learned that from a reporter.\n\nSome residents worry about a different kind of visitor. Bev Thorsteinson, who has lived on the edge of town for thirty years, says bears already come through her neighbourhood every fall. \"If people are keeping garbage in their carports for an extra week, we're going to be feeding bears,\" she said. The city's bylaw officer says residents must still keep bins in a garage or shed until collection day, and that fines will apply to those who don't.\n\nEnvironmental groups have welcomed the plan, with one important condition. Tanvir Hossain, of the local group Zero Waste Alder Point, says the change will only work if residents understand how to use their green bins. \"You can't just take away a service and hope people figure it out,\" he said. \"The city needs to spend some of that $600,000 on education, or we'll just see more garbage dumped on logging roads.\" He would like to see free kitchen containers handed out and stickers on every bin explaining what goes where.\n\nCouncil voted 5 to 2 in favour. Councillor Nora Whitfield, who voted against, said she supports the goal but thinks the city is moving too quickly. \"We're asking residents to change their habits in four months,\" she said. \"I would have preferred a pilot in one neighbourhood first.\"\n\nResidents can send questions to the city through its website until the end of February.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I'll admit my first reaction to this news was irritation, but after reading the whole article I'm more open to the idea. If Ms. Qureshi is right that so much of our garbage [[6]], then the city has good reason to give us a nudge. Still, I share Mr. Mendoza's frustration. The bigger-bin option sounds helpful, yet it's worrying that a parent of four had to [[7]]. Living near the river, I also take Ms. Thorsteinson's concern seriously; a storage rule only works if people [[8]]. I think Mr. Hossain offers the most useful advice in the whole piece. If the city put part of its savings into [[9]], the rest of the plan would go much more smoothly. And frankly, Councillor Whitfield's idea of [[10]] would have been a sensible way to begin.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Which headline best fits the article?",
+      "options": [
+        { "text": "Green-Bin Collection to End in April", "trap": "opposite", "whyVi": "Thùng xanh lá vẫn được thu gom hằng tuần; chỉ thùng rác đen chuyển sang hai tuần một lần." },
+        { "text": "Bears Force Alder Point to Change Garbage Schedule", "trap": "word_match", "whyVi": "Gấu chỉ là mối lo của Thorsteinson, không phải lý do thay đổi." },
+        { "text": "Alder Point Halves Garbage Pickups, Drawing Both Support and Concern", "trap": "none", "whyVi": "Đúng: Rác đen chuyển từ hằng tuần sang hai tuần một lần; bài nêu người ủng hộ (Qureshi, Hossain) và người lo ngại (Mendoza, Thorsteinson, Whitfield)." },
+        { "text": "Province Orders Cities to Send Less Waste to Landfills", "trap": "not_mentioned", "whyVi": "Đây là quyết định của hội đồng thành phố, không phải lệnh của tỉnh." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "black-bin garbage will be picked up every two weeks, while green bins for food scraps and yard waste will still be collected weekly",
+      "explanationVi": "Tiêu đề cần có sự kiện (giảm một nửa số lần thu rác đen) và phản ứng trái chiều. 'Halves' = giảm một nửa (từ mỗi tuần thành hai tuần một lần).",
+      "vocabulary": ["every other week"]
+    },
+    {
+      "number": 2,
+      "prompt": "What does Farah Qureshi mean when she says weekly pickup \"tells people it doesn't matter where the chicken bones go\"?",
+      "options": [
+        { "text": "Frequent collection gives residents little reason to sort their waste carefully.", "trap": "none", "whyVi": "Đúng: Thu rác hằng tuần thì người dân không cần quan tâm bỏ thức ăn vào thùng nào; khi thùng đen nhanh đầy, họ mới chú ý." },
+        { "text": "Food scraps attract bears to residential areas.", "trap": "wrong_speaker", "whyVi": "Mối lo về gấu là của Thorsteinson." },
+        { "text": "Garbage trucks cannot handle food waste.", "trap": "not_mentioned", "whyVi": "Bà không nói gì về khả năng của xe rác." },
+        { "text": "Most residents already put their food scraps in the right bin.", "trap": "opposite", "whyVi": "Khảo sát cho thấy gần 40% rác đen là thức ăn lẽ ra phải bỏ thùng xanh lá." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"When the black bin fills up faster, people start paying attention.\"",
+      "explanationVi": "'Chicken bones' là ví dụ cho rác thức ăn. Ý bà: khi rác đen được lấy thường xuyên, không có động lực phân loại. Câu sau 'people start paying attention' xác nhận điều đó.",
+      "vocabulary": ["audit"]
+    },
+    {
+      "number": 3,
+      "prompt": "What is Carlos Mendoza's attitude toward the city's reasoning?",
+      "options": [
+        { "text": "He accepts it now that he knows about the bigger bins.", "trap": "not_mentioned", "whyVi": "Bài không nói ông đổi ý; ông chỉ phàn nàn vì biết tin từ phóng viên." },
+        { "text": "He feels it ignores the situation of families like his.", "trap": "none", "whyVi": "Đúng: 'It's easy to talk about chicken bones when you don't have twins in diapers' — lập luận của thành phố không tính đến gia đình đông con." },
+        { "text": "He blames his neighbours for not sorting their waste.", "trap": "not_mentioned", "whyVi": "Ông không nhắc đến hàng xóm." },
+        { "text": "He thinks recycling is a waste of time.", "trap": "too_broad", "whyVi": "Ông nói vấn đề của ông 'isn't a recycling problem', không nói tái chế là vô ích." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"It's easy to talk about chicken bones when you don't have twins in diapers,\"",
+      "explanationVi": "Câu hỏi thái độ. 'It's easy to talk about X when you don't...' = dễ nói khi không ở hoàn cảnh của tôi → ông cho rằng lập luận của thành phố xa rời thực tế gia đình đông con.",
+      "vocabulary": ["buy an argument"]
+    },
+    {
+      "number": 4,
+      "prompt": "Which best describes Tanvir Hossain's view of the plan?",
+      "options": [
+        { "text": "He opposes it because it will cause illegal dumping.", "trap": "partially_true", "whyVi": "Ông có cảnh báo về đổ rác trái phép, nhưng nhóm của ông 'welcomed the plan'." },
+        { "text": "He expects residents to adjust without any help.", "trap": "opposite", "whyVi": "Ông nói 'You can't just take away a service and hope people figure it out'." },
+        { "text": "He wants weekly garbage pickup to continue.", "trap": "opposite", "whyVi": "Ông ủng hộ kế hoạch thu rác hai tuần một lần." },
+        { "text": "He supports it but believes it could fail without public education.", "trap": "none", "whyVi": "Đúng: Ủng hộ 'with one important condition': thành phố phải chi tiền cho giáo dục người dân." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "\"The city needs to spend some of that $600,000 on education, or we'll just see more garbage dumped on logging roads.\"",
+      "explanationVi": "'Welcomed the plan, with one important condition' = ủng hộ có điều kiện. 'Or we'll just see more garbage dumped' = nếu không giáo dục thì kế hoạch thất bại.",
+      "vocabulary": ["figure out"]
+    },
+    {
+      "number": 5,
+      "prompt": "Why did Councillor Whitfield vote against the plan?",
+      "options": [
+        { "text": "She agrees with its aim but thinks it is being rushed.", "trap": "none", "whyVi": "Đúng: 'supports the goal but thinks the city is moving too quickly'." },
+        { "text": "She doubts it will save any money.", "trap": "not_mentioned", "whyVi": "Bà không nhắc đến khoản tiết kiệm." },
+        { "text": "She wants recycling to be collected every week.", "trap": "not_mentioned", "whyVi": "Bà không nói về thùng tái chế." },
+        { "text": "She believes residents will never change their habits.", "trap": "too_broad", "whyVi": "Bà chỉ nói bốn tháng là quá ngắn, không nói người dân không bao giờ thay đổi." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "said she supports the goal but thinks the city is moving too quickly",
+      "explanationVi": "'Supports the goal' = 'agrees with its aim'; 'moving too quickly' = 'being rushed'. Bằng chứng thêm: 'change their habits in four months'.",
+      "vocabulary": ["pilot"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "is plastic that could be recycled", "trap": "not_mentioned", "whyVi": "Khảo sát nói về thức ăn, không phải nhựa." },
+        { "text": "ends up on logging roads", "trap": "word_match", "whyVi": "'Logging roads' là lời cảnh báo của Hossain về tương lai, không phải kết quả khảo sát của Qureshi." },
+        { "text": "should really go in the green bin", "trap": "none", "whyVi": "Đúng: Gần 40% rác đen là 'food that belonged in the green bin'." },
+        { "text": "comes from large families", "trap": "not_mentioned", "whyVi": "Khảo sát không phân tích theo quy mô gia đình." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "nearly 40 per cent of what went into black bins was food that belonged in the green bin",
+      "explanationVi": "'If Ms. Qureshi is right that so much of our garbage...' → kết quả khảo sát của Qureshi. 'Belonged in' = 'should really go in'."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "pay extra for a larger bin", "trap": "opposite", "whyVi": "Thùng lớn hơn 'at no extra charge' — miễn phí." },
+        { "text": "find out about it from a journalist", "trap": "none", "whyVi": "Đúng: Mendoza 'only learned that from a reporter'." },
+        { "text": "apply for it in person at City Hall", "trap": "not_mentioned", "whyVi": "Bài không nói phải đến nộp đơn trực tiếp." },
+        { "text": "wait until April to ask", "trap": "not_mentioned", "whyVi": "Người dân có thể gửi câu hỏi đến cuối tháng Hai; không ai phải đợi đến tháng Tư." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "but Mendoza says he only learned that from a reporter",
+      "explanationVi": "'It's worrying that...' → điều đáng lo là thành phố không thông báo rõ: một người cha bốn con chỉ biết về thùng lớn qua phóng viên. 'Reporter' = 'journalist'."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "own a carport", "trap": "word_match", "whyVi": "Dùng lại 'carports', nhưng để thùng rác ở carport chính là điều gây nguy cơ gấu." },
+        { "text": "have fewer than four children", "trap": "wrong_detail", "whyVi": "Số con là chuyện của Mendoza, không liên quan đến quy định cất thùng." },
+        { "text": "live on the edge of town", "trap": "word_match", "whyVi": "Đây là nơi Thorsteinson sống, không phải điều kiện để quy định có hiệu quả." },
+        { "text": "actually follow it", "trap": "none", "whyVi": "Đúng: Quy định bắt cất thùng trong ga-ra hoặc kho chỉ có tác dụng khi người dân tuân thủ." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "residents must still keep bins in a garage or shed until collection day, and that fines will apply to those who don't",
+      "explanationVi": "'A storage rule' = quy định cất thùng rác trong ga-ra/kho. Thorsteinson lo người dân để rác ở carport thêm một tuần. Vì vậy quy định chỉ hiệu quả nếu mọi người thực sự làm theo ('actually follow it')."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "teaching residents how to sort their waste", "trap": "none", "whyVi": "Đúng: Hossain muốn chi một phần $600,000 cho giáo dục: phát hộp đựng thức ăn, dán nhãn hướng dẫn trên thùng." },
+        { "text": "bigger black bins for every home", "trap": "too_broad", "whyVi": "Thùng lớn chỉ dành cho gia đình đông người hoặc có rác y tế; Hossain không đề xuất điều này." },
+        { "text": "hiring more bylaw officers", "trap": "not_mentioned", "whyVi": "Không ai đề xuất tuyển thêm nhân viên thực thi." },
+        { "text": "keeping weekly garbage pickup", "trap": "opposite", "whyVi": "Điều này đi ngược lại chính kế hoạch." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "He would like to see free kitchen containers handed out and stickers on every bin explaining what goes where.",
+      "explanationVi": "'Put part of its savings into...' = 'spend some of that $600,000 on...'. Hossain nói 'education' và nhãn 'explaining what goes where' → dạy người dân cách phân loại rác."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "delaying the vote until February", "trap": "wrong_detail", "whyVi": "Tháng Hai là hạn gửi câu hỏi; Whitfield không đề xuất hoãn bỏ phiếu." },
+        { "text": "letting people keep bins in carports", "trap": "word_match", "whyVi": "Dùng lại 'carports', nhưng đó là điều cần tránh vì gấu." },
+        { "text": "trying the change in one area first", "trap": "none", "whyVi": "Đúng: 'I would have preferred a pilot in one neighbourhood first.'" },
+        { "text": "collecting green bins every two weeks", "trap": "opposite", "whyVi": "Thùng xanh lá vẫn thu hằng tuần; không ai muốn giảm." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "\"I would have preferred a pilot in one neighbourhood first.\"",
+      "explanationVi": "'A pilot in one neighbourhood' = thử nghiệm ở một khu → 'trying the change in one area first'. 'A sensible way to begin' khớp với 'first'."
+    }
+  ],
+  "vocabulary": [
+    { "term": "every other week", "vi": "hai tuần một lần", "definition": "once every two weeks", "example": "Recycling is collected every other week." },
+    { "term": "audit", "vi": "cuộc kiểm tra, khảo sát chi tiết", "definition": "a careful check of something to see what it contains or how it works", "example": "An audit found food in the black bins." },
+    { "term": "buy an argument", "vi": "tin vào lập luận", "definition": "to accept that a reason or explanation is true", "example": "Not everyone is buying the city's argument." },
+    { "term": "figure out", "vi": "tự tìm ra, hiểu ra", "definition": "to understand or solve something by thinking", "example": "You can't hope people will figure it out alone." },
+    { "term": "pilot", "vi": "thí điểm", "definition": "a small test of a plan before using it everywhere", "example": "She wanted a pilot in one neighbourhood first." },
+    { "term": "no extra charge", "vi": "không tính thêm phí", "definition": "without having to pay more", "example": "Large families can get a bigger bin at no extra charge." },
+    { "term": "give someone a nudge", "vi": "thúc nhẹ, khuyến khích", "definition": "to gently encourage someone to do something", "example": "The new schedule gives residents a nudge to sort their waste." },
+    { "term": "dump", "vi": "đổ (rác) bừa bãi", "definition": "to leave rubbish somewhere it is not allowed", "example": "People may dump garbage on logging roads." }
+  ]
+}

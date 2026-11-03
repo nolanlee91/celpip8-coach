@@ -1,0 +1,55 @@
+{
+  "id": "s1-mock-06",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "community-services",
+  "title": "Advice for a friend asked to lead a food bank volunteer team",
+  "prompt": "Your friend Kwame has volunteered at the Riverside Community Food Bank every Saturday for two years. The coordinator is retiring, and the board has asked Kwame to take over the role. It is unpaid and would take about ten hours a week. Kwame cares deeply about the food bank, but he already works full-time and has a young daughter.\n\nGive Kwame some advice about whether he should accept the role.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Acknowledge the honour + the real conflict (passion vs. limited time)",
+    "Advice 1: work out honestly where ten extra hours a week would come from",
+    "Advice 2: negotiate the role — share it, delegate, or set a trial period",
+    "Advice 3: think about the cost of burnout and his family",
+    "Balanced recommendation (accept only on clear conditions) + support"
+  ],
+  "modelAnswer": "Kwame, first of all, congratulations. Being asked to take over says a lot about how much people there trust you. But I can also see why you're torn, so here's how I'd think it through.\n\nBefore you say yes, try to be really honest about where those ten hours would come from. Sit down with your calendar and map out an actual week. If the only way to fit it in is by giving up your evenings with your daughter or your sleep, that's a pretty clear warning sign.\n\nThat said, I don't think it has to be all or nothing. You could go back to the board and suggest splitting the role with another experienced volunteer, or handing off some tasks, like the scheduling or the grocery pickups. Another option is to agree to a three-month trial, so everyone knows it's open to review. Boards usually appreciate someone who's upfront about their limits.\n\nThe other thing to weigh up is burnout. I've seen people take on too much for a cause they love, and a year later they quit completely. That wouldn't help the food bank or you. Sometimes staying a reliable Saturday volunteer is the bigger contribution in the long run.\n\nSo if I were in your shoes, I'd only accept if the board agrees to share the workload. If they can't, it's perfectly okay to turn it down and help them find someone else. Whatever you decide, I'm behind you.",
+  "usefulExpressions": [
+    {
+      "expression": "be torn (between…)",
+      "usageVi": "'Phân vân, giằng xé' giữa hai lựa chọn — thể hiện bạn hiểu tâm trạng người nghe."
+    },
+    {
+      "expression": "think something through",
+      "usageVi": "Cụm động từ: suy nghĩ thấu đáo trước khi quyết định."
+    },
+    {
+      "expression": "That said, …",
+      "usageVi": "'Tuy vậy…' — chuyển sang góc nhìn khác, giúp lời khuyên cân bằng (dấu hiệu mức 9)."
+    },
+    {
+      "expression": "It doesn't have to be all or nothing.",
+      "usageVi": "'Không nhất thiết phải hoặc tất cả hoặc không gì cả' — mở ra giải pháp trung gian."
+    },
+    {
+      "expression": "weigh something up",
+      "usageVi": "Cụm động từ: cân nhắc kỹ ưu và nhược điểm."
+    },
+    {
+      "expression": "If I were in your shoes, I'd…",
+      "usageVi": "Biến thể tự nhiên của 'If I were you' — 'nếu mình ở vào hoàn cảnh của bạn'."
+    }
+  ],
+  "commonMistakes": [
+    "Trả lời đơn giản 'Yes, accept it' hoặc 'No, you're too busy' rồi hết ý. Mức 9 cần lập luận hai chiều và đưa ra điều kiện cụ thể.",
+    "Bỏ qua chi tiết quan trọng của đề: công việc không lương, 10 giờ/tuần, làm toàn thời gian và có con nhỏ. Hãy lồng các chi tiết này vào lời khuyên.",
+    "Kết thúc đột ngột khi hết giờ. Hãy để dành 10–15 giây cuối cho một câu tóm tắt rõ ràng ('So if I were in your shoes, I'd…')."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {"status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Checked the answer weighs time, family and burnout and gives a clear conditional recommendation as the prompt asks; ~243 words; fictional food bank; expressions accurate. No changes needed."},
+  "createdAt": "2026-11-03"
+}

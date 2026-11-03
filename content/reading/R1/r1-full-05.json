@@ -1,0 +1,205 @@
+{
+  "id": "r1-full-05",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "A bear-attractant ticket for a night-shift worker",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 11 items independently; all keys match. Recomputed Q8 ($85 - $40 rebate = $45) and checked Q9/Q10 against the night-before rule and the attached order form. Municipality, bylaw details and cart program are fictional (City of Coldwater Ridge), so no real BC bylaw is misstated. No changes needed." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a resident",
+      "kind": "text",
+      "text": "Dear Bylaw Services,\n\nI received a $150 ticket on Tuesday for \"wildlife attractant: cart placed out before permitted time,\" and while I'm not trying to wriggle out of it, I'd like to explain the circumstances and ask a couple of questions.\n\nI work night shifts at the Mountview distribution centre, leaving home at 9 p.m. and getting back around 7:30 a.m. Collection on Larch Crescent is on Wednesdays, and the bylaw says carts can't go out before 5 a.m. on collection day. That works for most people, but it means I'd either have to set an alarm for 5 a.m. in the middle of the only sleep I get, or bring the cart out after my shift and hope the truck hasn't already been by. Twice last month it had, and I ended up with a week's worth of food scraps sitting in my garage in July, which is hardly better when it comes to bears.\n\nSo, on Monday night I wheeled the cart out before leaving for work. I'll be the first to admit that a bear did get into it. My neighbour sent me a photo of coffee grounds scattered across her lawn, and I've since apologised to her and cleaned up.\n\nWhat I'd really like is a solution rather than another ticket. I've read that some municipalities offer bear-resistant carts with a locking lid. Does the City have such a program, and if so, what does it cost? I'd also be grateful if the fine could be reduced, given that this is my first offence and I'm actively looking for a fix. If that isn't possible, I'll pay it, but I wanted to ask first.\n\nFinally, is there any flexibility on the 5 a.m. rule for shift workers? I can't be the only person in this situation.\n\nRegards,\nTomasz Nowak\n42 Larch Crescent",
+      "table": null
+    },
+    {
+      "label": "Reply from the City",
+      "kind": "text",
+      "text": "Dear Mr. Nowak,\n\nThank you for your candid email; it isn't often that someone [[7]] so openly. Our officers would much rather prevent conflicts with bears than hand out tickets, so I'm glad you got in touch.\n\nThe City does run a bear-resistant cart program. The locking carts normally cost $85, but because Larch Crescent is in a high-activity bear zone, you qualify for a $40 rebate, which brings your cost down to [[8]]. Please note that a locking cart may be put out the night before collection, so it would [[9]].\n\nAs for the ticket, a first-offence fine can be reduced to $50 if [[10]] within 30 days. I've attached the order form.\n\nUnfortunately, the 5 a.m. rule applies to everyone, and changing it would require council approval. If you'd like to [[11]], you can speak during the public input period at the council meeting on November 18.\n\nSincerely,\nPriya Ramaswamy\nBylaw Services, City of Coldwater Ridge",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the main purpose of Tomasz's email?",
+      "options": [
+        { "text": "To argue that the ticket was issued by mistake", "trap": "opposite", "whyVi": "Tomasz thừa nhận lỗi ('I'll be the first to admit') và nói không định trốn tránh — không cho rằng phạt nhầm." },
+        { "text": "To explain why he broke a rule and look for a lasting fix", "trap": "none", "whyVi": "Đúng: anh giải thích hoàn cảnh làm ca đêm và nói 'What I'd really like is a solution rather than another ticket'." },
+        { "text": "To report that a bear has been visiting his street", "trap": "word_match", "whyVi": "Bài có nhắc gấu lục thùng rác, nhưng đó chỉ là chi tiết, không phải mục đích viết thư." },
+        { "text": "To complain about his neighbour's attitude", "trap": "not_mentioned", "whyVi": "Người hàng xóm chỉ gửi ảnh; Tomasz không phàn nàn gì về cô ấy, ngược lại còn xin lỗi cô." }
+      ],
+      "answerIndex": 1,
+      "category": "main_idea",
+      "evidence": "What I'd really like is a solution rather than another ticket.",
+      "explanationVi": "Câu mở đầu: 'explain the circumstances and ask a couple of questions'; câu 'What I'd really like is a solution' nêu mục tiêu chính. 'a solution rather than another ticket' = 'a lasting fix' (giải pháp lâu dài).",
+      "vocabulary": ["circumstances"]
+    },
+    {
+      "number": 2,
+      "prompt": "In the first paragraph, what does Tomasz mean when he says he is \"not trying to wriggle out of it\"?",
+      "options": [
+        { "text": "He does not want to discuss the ticket by email.", "trap": "not_mentioned", "whyVi": "Anh vẫn đang thảo luận về vé phạt trong chính email này." },
+        { "text": "He has not yet had time to read the ticket.", "trap": "not_mentioned", "whyVi": "Anh còn trích nguyên văn nội dung vé phạt, nên đã đọc rồi." },
+        { "text": "He is not attempting to escape responsibility.", "trap": "none", "whyVi": "Đúng: 'wriggle out of something' = tìm cách thoát khỏi trách nhiệm/nghĩa vụ." },
+        { "text": "He refuses to accept the amount of the fine.", "trap": "opposite", "whyVi": "Anh nói 'If that isn't possible, I'll pay it' — anh chấp nhận trả nếu cần." }
+      ],
+      "answerIndex": 2,
+      "category": "vocabulary",
+      "evidence": "while I'm not trying to wriggle out of it, I'd like to explain the circumstances",
+      "explanationVi": "Cụm động từ 'wriggle out of' = né tránh, lách khỏi (trách nhiệm). Câu 'while I'm not trying to..., I'd like to explain...' nghĩa là: tôi không né tránh, chỉ muốn giải thích. Phần cuối thư ('I'll pay it') xác nhận nghĩa này.",
+      "vocabulary": ["wriggle out of"]
+    },
+    {
+      "number": 3,
+      "prompt": "Why can't Tomasz simply put his cart out when he gets home from work?",
+      "options": [
+        { "text": "The collection truck sometimes comes before he is back.", "trap": "none", "whyVi": "Đúng: 'hope the truck hasn't already been by. Twice last month it had' — xe rác đôi khi đã đi qua trước khi anh về." },
+        { "text": "His garage is too full to store the cart.", "trap": "word_match", "whyVi": "Có từ 'garage', nhưng đó là nơi rác bị để lại một tuần, không phải lý do này." },
+        { "text": "The bylaw does not allow carts out after 7 a.m.", "trap": "not_mentioned", "whyVi": "Quy định chỉ cấm đưa thùng ra trước 5 giờ sáng; không có giới hạn 7 giờ." },
+        { "text": "He has to sleep as soon as he returns.", "trap": "wrong_detail", "whyVi": "Vấn đề giấc ngủ liên quan đến việc dậy lúc 5 giờ sáng, không phải lúc anh về nhà." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "bring the cart out after my shift and hope the truck hasn't already been by. Twice last month it had",
+      "explanationVi": "'hope the truck hasn't already been by' (mong xe chưa đi qua) + 'Twice last month it had' (tháng trước đã hai lần xe đi rồi) → anh không thể dựa vào việc đưa thùng ra sau ca. 'been by' = đã ghé qua.",
+      "vocabulary": ["be by"]
+    },
+    {
+      "number": 4,
+      "prompt": "What does Tomasz suggest by saying that keeping food scraps in his garage \"is hardly better when it comes to bears\"?",
+      "options": [
+        { "text": "Bears had already broken into his garage.", "trap": "not_mentioned", "whyVi": "Bài không nói gấu vào gara; gấu chỉ lục thùng rác ngoài đường." },
+        { "text": "Storing waste at home also creates a risk of attracting wildlife.", "trap": "none", "whyVi": "Đúng: 'hardly better' = cũng chẳng tốt hơn — rác để lâu trong nhà vẫn có thể thu hút gấu." },
+        { "text": "The City's rule is better for bears than for people.", "trap": "not_mentioned", "whyVi": "Anh không so sánh lợi ích giữa gấu và người." },
+        { "text": "He prefers keeping scraps in the garage to paying fines.", "trap": "opposite", "whyVi": "Anh không ưa giải pháp này; anh nói nó 'hardly better', tức là không tốt." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I ended up with a week's worth of food scraps sitting in my garage in July, which is hardly better when it comes to bears",
+      "explanationVi": "'hardly' = hầu như không. 'hardly better' → không tốt hơn bao nhiêu. Ý ngầm: tuân thủ luật 5 giờ sáng khiến rác thực phẩm nằm trong gara giữa mùa hè, điều này cũng nguy hiểm vì thu hút gấu. Anh dùng ý này để biện minh vì sao luật hiện tại không hiệu quả với người làm ca đêm.",
+      "vocabulary": ["food scraps"]
+    },
+    {
+      "number": 5,
+      "prompt": "What has Tomasz already done since the incident?",
+      "options": [
+        { "text": "He has paid the $150 ticket.", "trap": "opposite", "whyVi": "Anh vẫn đang xin giảm tiền phạt và nói sẽ trả 'if that isn't possible' — chưa trả." },
+        { "text": "He has ordered a cart with a locking lid.", "trap": "partially_true", "whyVi": "Anh có hỏi về thùng có khóa, nhưng mới chỉ hỏi giá, chưa đặt mua." },
+        { "text": "He has made things right with the person affected.", "trap": "none", "whyVi": "Đúng: 'I've since apologised to her and cleaned up' — anh xin lỗi và dọn dẹp cho hàng xóm." },
+        { "text": "He has photographed the mess on the lawn.", "trap": "wrong_speaker", "whyVi": "Người chụp ảnh là hàng xóm, không phải Tomasz." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "I've since apologised to her and cleaned up",
+      "explanationVi": "Thì hiện tại hoàn thành 'I've since apologised... and cleaned up' = việc đã làm. Đáp án diễn đạt lại: 'made things right' (sửa sai, chuộc lỗi) với 'the person affected' (người hàng xóm có bãi cỏ bị bới).",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "What is Tomasz's attitude toward paying the fine?",
+      "options": [
+        { "text": "He is prepared to pay it if his request is turned down.", "trap": "none", "whyVi": "Đúng: 'If that isn't possible, I'll pay it, but I wanted to ask first.'" },
+        { "text": "He will only pay it if the City changes the 5 a.m. rule.", "trap": "wrong_detail", "whyVi": "Anh không đặt điều kiện này; việc đổi luật 5 giờ là một câu hỏi riêng." },
+        { "text": "He thinks other shift workers should share the cost.", "trap": "word_match", "whyVi": "Anh có nhắc 'shift workers', nhưng chỉ để hỏi về sự linh hoạt của luật, không phải chia tiền phạt." },
+        { "text": "He believes it is unfair and plans to fight it.", "trap": "opposite", "whyVi": "Anh không định khiếu nại; anh chỉ xin giảm và sẵn sàng trả." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "If that isn't possible, I'll pay it, but I wanted to ask first.",
+      "explanationVi": "'If that isn't possible' = nếu yêu cầu giảm tiền phạt không được chấp nhận ('turned down'), 'I'll pay it' = anh sẽ trả. Thái độ: hợp tác, chỉ thử xin trước.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "disputes a ticket", "trap": "opposite", "whyVi": "Tomasz không phản bác vé phạt; anh thừa nhận lỗi." },
+        { "text": "reports a neighbour", "trap": "not_mentioned", "whyVi": "Anh không tố cáo hàng xóm nào." },
+        { "text": "owns up to a mistake", "trap": "none", "whyVi": "Đúng: 'own up to' = thừa nhận lỗi; khớp với 'candid' (thẳng thắn) và 'I'll be the first to admit'." },
+        { "text": "sends a photo of a bear", "trap": "wrong_speaker", "whyVi": "Người gửi ảnh là hàng xóm, và ảnh chụp bã cà phê chứ không phải con gấu." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "I'll be the first to admit that a bear did get into it.",
+      "explanationVi": "'candid' (thẳng thắn) và 'so openly' cho thấy cần điều mà người ta hiếm khi làm công khai: thừa nhận lỗi. 'own up to a mistake' = 'I'll be the first to admit'.",
+      "vocabulary": ["own up to"]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "$85", "trap": "partially_true", "whyVi": "Đây là giá gốc, chưa trừ khoản hoàn $40." },
+        { "text": "$125", "trap": "wrong_detail", "whyVi": "Đây là $85 + $40 — cộng thay vì trừ." },
+        { "text": "$150", "trap": "word_match", "whyVi": "$150 là tiền phạt, không phải giá thùng rác." },
+        { "text": "$45", "trap": "none", "whyVi": "Đúng: $85 − $40 tiền hoàn ('rebate') = $45." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "The locking carts normally cost $85, but because Larch Crescent is in a high-activity bear zone, you qualify for a $40 rebate",
+      "explanationVi": "'rebate' = tiền được hoàn lại/giảm. 'brings your cost down to' → phải trừ: $85 − $40 = $45. Bẫy: $85 (giá gốc), $150 (tiền phạt).",
+      "vocabulary": ["rebate"]
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "still have to wait until 5 a.m. on collection day", "trap": "opposite", "whyVi": "Câu trước nói thùng có khóa được để ra từ tối hôm trước, nên không phải chờ đến 5 giờ." },
+        { "text": "also take care of your timing problem", "trap": "none", "whyVi": "Đúng: để thùng ra trước khi đi làm buổi tối là được → giải quyết vấn đề giờ giấc của người làm ca đêm." },
+        { "text": "be collected on a different day of the week", "trap": "not_mentioned", "whyVi": "Không có thông tin về việc đổi ngày thu gom." },
+        { "text": "need to stay in your garage until the truck arrives", "trap": "opposite", "whyVi": "Ngược nghĩa: mục đích là được để thùng ra ngoài từ tối hôm trước." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "on Monday night I wheeled the cart out before leaving for work",
+      "explanationVi": "Thùng có khóa 'may be put out the night before collection' → Tomasz có thể để thùng ra tối thứ Hai trước khi đi làm, đúng như anh vẫn làm. Vì vậy thùng mới cũng giải quyết luôn vấn đề giờ giấc ('take care of' = giải quyết).",
+      "vocabulary": []
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "you order a locking cart", "trap": "none", "whyVi": "Đúng: câu tiếp theo 'I've attached the order form' cho thấy điều kiện giảm phạt là đặt mua thùng có khóa." },
+        { "text": "you pay the full amount", "trap": "opposite", "whyVi": "Vô lý: trả đủ $150 thì không thể là điều kiện để giảm xuống $50." },
+        { "text": "your neighbour agrees", "trap": "not_mentioned", "whyVi": "Không có quy định nào cần hàng xóm đồng ý." },
+        { "text": "you speak to council", "trap": "wrong_detail", "whyVi": "Phát biểu tại hội đồng liên quan đến luật 5 giờ sáng, không phải vé phạt." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "I'm actively looking for a fix",
+      "explanationVi": "Đọc câu ngay sau chỗ trống: 'I've attached the order form' (mẫu đơn đặt hàng). Vậy điều kiện giảm phạt liên quan đến việc đặt mua thùng chống gấu — đúng với 'actively looking for a fix' mà Tomasz nói.",
+      "vocabulary": []
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "apply for the bear-zone rebate", "trap": "word_match", "whyVi": "Khoản hoàn tiền được nhắc ở đoạn trên và không cần đến cuộc họp hội đồng." },
+        { "text": "pay your ticket in person", "trap": "not_mentioned", "whyVi": "Cuộc họp hội đồng không phải nơi trả tiền phạt." },
+        { "text": "complain about our officers", "trap": "not_mentioned", "whyVi": "Tomasz không hề phàn nàn về nhân viên." },
+        { "text": "push for an exception for shift workers", "trap": "none", "whyVi": "Đúng: đổi luật cần 'council approval', nên muốn vận động thì phát biểu tại cuộc họp hội đồng." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "is there any flexibility on the 5 a.m. rule for shift workers?",
+      "explanationVi": "Đoạn này trả lời câu hỏi cuối của Tomasz về 'flexibility on the 5 a.m. rule for shift workers'. Thay đổi cần hội đồng phê duyệt, nên nếu muốn 'push for' (vận động, thúc đẩy) một ngoại lệ, anh nên phát biểu tại cuộc họp.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "wriggle out of", "vi": "lách khỏi, né tránh (trách nhiệm)", "definition": "to avoid doing something you should do, often in a clever or dishonest way", "example": "He tried to wriggle out of paying the parking ticket." },
+    { "term": "circumstances", "vi": "hoàn cảnh, tình huống", "definition": "the facts or conditions connected with an event", "example": "Please explain the circumstances that led to the late payment." },
+    { "term": "food scraps", "vi": "rác thức ăn thừa", "definition": "leftover bits of food that are thrown away", "example": "Put your food scraps in the green cart." },
+    { "term": "be by", "vi": "ghé qua, đi qua (rồi)", "definition": "to have visited or passed a place", "example": "Has the mail carrier been by yet today?" },
+    { "term": "own up to", "vi": "thừa nhận (lỗi)", "definition": "to admit that you have done something wrong", "example": "She owned up to the mistake and offered to fix it." },
+    { "term": "rebate", "vi": "khoản tiền hoàn lại, trợ giá", "definition": "an amount of money returned to you after you pay for something", "example": "You can get a $40 rebate on a bear-resistant cart." },
+    { "term": "candid", "vi": "thẳng thắn, thật lòng", "definition": "honest and direct, even about something difficult", "example": "Thank you for your candid feedback." },
+    { "term": "first offence", "vi": "vi phạm lần đầu", "definition": "the first time someone breaks a particular rule or law", "example": "The fine is lower for a first offence." }
+  ]
+}

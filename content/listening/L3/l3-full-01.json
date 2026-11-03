@@ -11,7 +11,7 @@
     {
       "segments": [
         { "speaker": "Nadia", "voice": "female_b", "text": "Okay, Marcus, welcome aboard. This is usually the least exciting part of orientation, but it's the part people ask me about most later, so bear with me." },
-        { "speaker": "Marcus", "voice": "male_a", "text": "No, it's fine. Honestly, getting paid is the part I care about most." },
+        { "speaker": "Marcus", "voice": "male_a", "text": "Thanks, Nadia. No, it's fine. Honestly, getting paid is the part I care about most." },
         { "speaker": "Nadia", "voice": "female_b", "text": "Ha, fair enough. So, we pay every two weeks, on Fridays. Each pay period runs two weeks, Sunday to Saturday, and you're paid the Friday after it ends. So there's always about a week's delay." },
         { "speaker": "Nadia", "voice": "female_b", "text": "Your first pay date will be November twentieth." },
         { "speaker": "Marcus", "voice": "male_a", "text": "The twentieth. And that covers my first full two weeks?" },
@@ -138,7 +138,7 @@
   ],
   "estimatedMinutes": 7,
   "source": "curated",
-  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; key matched. Fixed a timeline error: start on a Wednesday with a 4-day first cheque paid Fri Nov 20 means a start date of ~Nov 11, so 'after three months' could not be Feb 1. Benefits now start the first of the month after 3 months (March 1); transcript, Marcus's recap, Q4 options B/D, evidence, whyVi and explanationVi updated." },
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; key matched. Fixed a timeline error: start on a Wednesday with a 4-day first cheque paid Fri Nov 20 means a start date of ~Nov 11, so 'after three months' could not be Feb 1. Benefits now start the first of the month after 3 months (March 1); transcript, Marcus's recap, Q4 options B/D, evidence, whyVi and explanationVi updated. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)." },
   "createdAt": "2026-10-26",
   "focus": []
 }

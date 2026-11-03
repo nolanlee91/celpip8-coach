@@ -1,0 +1,207 @@
+{
+  "id": "r1-mock-06",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "recreation",
+  "title": "Second thoughts on the paddling club's new rules",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 11 items independently; all keys matched, and the idiomatic, attitude-heavy letter justifies difficulty 9. Checked every blank filler against the reply's paragraph topics, evidence quotes, trap labels and Vietnamese. Fix: Q10 option C whyVi rewritten to rely on the paragraph topic (fees) rather than a timing argument that did not actually rule it out." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Letter from a club member",
+      "kind": "text",
+      "text": "Dear Callum,\n\nI've been mulling over the proposals you circulated ahead of next month's general meeting, and since I won't be able to attend in person, I thought I'd put my thoughts in writing.\n\nLet me say first that I appreciate the work the board has put into this. Nobody who has watched three people squabble over one double kayak on a sunny Saturday would claim the current first-come, first-served system is working. So I'm not opposed to online booking in principle. What gives me pause is the detail. Requiring members to reserve boats at least 72 hours ahead may suit the racing crews, who train on a fixed schedule, but most recreational paddlers decide to go out when they see the forecast. Under the new rules, a member who wakes up to a calm Sunday morning would find every boat spoken for by people who booked on Thursday and may or may not turn up.\n\nThat brings me to no-shows, which the proposal doesn't address at all. Unless there's some consequence for booking a boat and leaving it on the rack, I suspect we'll simply have traded one kind of frustration for another.\n\nOn fees, I take the board's point that the dock repairs have to be paid for. Still, a flat $90 increase for every member, regardless of how often they use the facilities, strikes me as a blunt instrument. Several of our older members paddle only a handful of times a summer, and I know of at least two who have quietly said they'd let their memberships lapse rather than pay $385 a year.\n\nI'd like to put forward two alternatives for the board's consideration: keep a share of the fleet, say a third, available for same-day use, and look at a tiered fee, so that those who use the club most contribute the most.\n\nI hope this comes across in the spirit it's intended. I've been a member for fourteen years, and I want the club to work for everyone.\n\nWarm regards,\nHana Kobayashi-Reid",
+      "table": null
+    },
+    {
+      "label": "Reply from the club president",
+      "kind": "text",
+      "text": "Dear Hana,\n\nThanks for taking the time to write. Your letter was a good deal more useful than some of the comments I've had in the parking lot, and I'll make sure every director reads it before the meeting.\n\nYou've put your finger on something we had [[7]]. Several directors have since admitted that the 72-hour rule was drafted with the racing calendar in mind. Your idea of [[8]] is now on the agenda, and I suspect it will have broad support.\n\nOn no-shows, we're considering a simple rule: any member who [[9]] three times in a season would lose online booking privileges for a month.\n\nThe fee question is harder. The dock work can't wait another year, and a fair tiered system would take time to design. What I can promise is that [[10]] will be looked at properly before next season. In the meantime, members facing hardship can apply to have part of their fee [[11]], no questions asked.\n\nHope to see you on the water soon.\n\nCallum",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the main purpose of Hana's letter?",
+      "options": [
+        { "text": "To argue that the club should keep its present booking system", "trap": "opposite", "whyVi": "Hana nói hệ thống 'first-come, first-served' không hiệu quả và cô không phản đối đặt chỗ trực tuyến." },
+        { "text": "To accuse the racing crews of controlling the board", "trap": "too_broad", "whyVi": "Cô chỉ nói quy định 72 giờ hợp với đội đua; cô không cáo buộc họ kiểm soát ban điều hành." },
+        { "text": "To explain why she is giving up her membership", "trap": "wrong_speaker", "whyVi": "Người có thể bỏ hội viên là hai hội viên lớn tuổi khác; Hana muốn câu lạc bộ tốt cho mọi người." },
+        { "text": "To back the general aims of the proposals while pushing for changes to how they work", "trap": "none", "whyVi": "Đúng: cô đánh giá cao công sức của ban, đồng ý về nguyên tắc, nhưng phản đối chi tiết và đưa ra hai phương án thay thế." }
+      ],
+      "answerIndex": 3,
+      "category": "main_idea",
+      "evidence": "So I'm not opposed to online booking in principle. What gives me pause is the detail.",
+      "explanationVi": "Cụm 'not opposed ... in principle' + 'What gives me pause is the detail' là xương sống của thư: ủng hộ ý tưởng chung, lo ngại cách thực hiện. Phần cuối 'put forward two alternatives' xác nhận cô muốn điều chỉnh.",
+      "vocabulary": ["give someone pause"]
+    },
+    {
+      "number": 2,
+      "prompt": "What does Hana suggest about the current system for using boats?",
+      "options": [
+        { "text": "It gives the racing crews an unfair advantage.", "trap": "wrong_detail", "whyVi": "Điều có lợi cho đội đua là quy định 72 giờ mới, không phải hệ thống hiện tại." },
+        { "text": "It causes conflict among members when demand is high.", "trap": "none", "whyVi": "Đúng: ba người cãi nhau vì một chiếc kayak vào ngày thứ Bảy nắng đẹp." },
+        { "text": "It suits recreational paddlers perfectly.", "trap": "opposite", "whyVi": "Cô nói không ai có thể khẳng định hệ thống hiện tại 'is working'." },
+        { "text": "It was introduced by the current board.", "trap": "not_mentioned", "whyVi": "Không có thông tin ai lập ra hệ thống cũ." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Nobody who has watched three people squabble over one double kayak on a sunny Saturday would claim the current first-come, first-served system is working.",
+      "explanationVi": "Câu dùng hình ảnh thay vì nói thẳng: 'squabble' = cãi vã ('conflict'); 'on a sunny Saturday' = lúc đông người ('when demand is high'). Cấu trúc 'Nobody ... would claim ... is working' = hệ thống rõ ràng không hiệu quả.",
+      "vocabulary": ["squabble"]
+    },
+    {
+      "number": 3,
+      "prompt": "According to Hana, why would the 72-hour rule disadvantage recreational paddlers?",
+      "options": [
+        { "text": "Their plans depend on conditions that are hard to know days in advance.", "trap": "none", "whyVi": "Đúng: họ quyết định đi khi thấy dự báo thời tiết, mà trước 72 giờ thì chưa biết." },
+        { "text": "They are less experienced than the racing crews.", "trap": "not_mentioned", "whyVi": "Không có so sánh kỹ năng." },
+        { "text": "They are only able to paddle on Sundays.", "trap": "word_match", "whyVi": "'Sunday' chỉ là ví dụ; không ai nói họ chỉ đi Chủ nhật." },
+        { "text": "They cannot use the online booking system.", "trap": "not_mentioned", "whyVi": "Không có chi tiết họ không biết hoặc không dùng được hệ thống." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "most recreational paddlers decide to go out when they see the forecast",
+      "explanationVi": "Đặt cạnh 'reserve boats at least 72 hours ahead': người đi chơi quyết định theo 'the forecast', mà thời tiết khó biết trước ba ngày. 'conditions that are hard to know days in advance' diễn đạt lại ý đó.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "What does Hana mean when she calls the fee increase 'a blunt instrument'?",
+      "options": [
+        { "text": "It is a rude way of announcing bad news.", "trap": "word_match", "whyVi": "'blunt' cũng có nghĩa 'thẳng thừng', nhưng ở đây cô nói về bản chất của mức tăng phí, không phải cách thông báo." },
+        { "text": "It is a carefully targeted solution.", "trap": "opposite", "whyVi": "Ngược nghĩa: cô chê nó áp dụng giống nhau cho mọi người." },
+        { "text": "It treats everyone the same without considering their differences.", "trap": "none", "whyVi": "Đúng: tăng đồng loạt $90 'regardless of how often they use the facilities'." },
+        { "text": "It is an unfair penalty for not showing up.", "trap": "wrong_detail", "whyVi": "Phạt người không đến là chủ đề khác trong thư; tăng phí không liên quan." }
+      ],
+      "answerIndex": 2,
+      "category": "vocabulary",
+      "evidence": "a flat $90 increase for every member, regardless of how often they use the facilities, strikes me as a blunt instrument",
+      "explanationVi": "'blunt instrument' (nghĩa bóng) = biện pháp thô, không phân biệt. Ngữ cảnh giải thích nghĩa: 'flat ... for every member, regardless of how often...'.",
+      "vocabulary": ["blunt instrument"]
+    },
+    {
+      "number": 5,
+      "prompt": "Why does Hana mention the two members who might let their memberships lapse?",
+      "options": [
+        { "text": "To report that they have already left the club", "trap": "opposite", "whyVi": "Họ mới chỉ nói 'they'd let their memberships lapse rather than pay' — đây là khả năng, chưa xảy ra." },
+        { "text": "To argue that older members should paddle for free", "trap": "too_broad", "whyVi": "Cô đề nghị phí theo mức sử dụng, không đòi miễn phí cho người lớn tuổi." },
+        { "text": "To criticize them for not raising their concerns openly", "trap": "word_match", "whyVi": "Từ 'quietly' dễ gây hiểu nhầm, nhưng cô không trách họ." },
+        { "text": "To show that the increase could drive away people who use the club least", "trap": "none", "whyVi": "Đúng: những người chỉ đi 'a handful of times a summer' có thể bỏ câu lạc bộ vì phí $385." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Several of our older members paddle only a handful of times a summer, and I know of at least two who have quietly said they'd let their memberships lapse rather than pay $385 a year.",
+      "explanationVi": "Câu hỏi 'Why mention...' → tìm vai trò của ví dụ trong lập luận. Ví dụ hỗ trợ ý 'blunt instrument': người ít dùng ('a handful of times') có thể bỏ đi ('let their memberships lapse' = 'drive away').",
+      "vocabulary": ["lapse"]
+    },
+    {
+      "number": 6,
+      "prompt": "Which best describes the tone of Hana's letter?",
+      "options": [
+        { "text": "Resigned to the proposals passing whatever members say", "trap": "not_mentioned", "whyVi": "Cô đưa ra phương án thay thế vì tin ý kiến có thể thay đổi kết quả, không phải cam chịu." },
+        { "text": "Constructive and respectful, though unconvinced by parts of the plan", "trap": "none", "whyVi": "Đúng: cô cảm ơn ban, đưa ra đề xuất cụ thể, và mong thư được hiểu 'in the spirit it's intended'." },
+        { "text": "Hostile to the way the board handled the dock repairs", "trap": "wrong_detail", "whyVi": "Cô chấp nhận việc sửa bến cần tiền ('I take the board's point'); cô chỉ phản đối cách chia phí." },
+        { "text": "Concerned mostly with her own access to the boats", "trap": "too_broad", "whyVi": "Cô nói về hội viên đi chơi và hội viên lớn tuổi, và muốn câu lạc bộ 'work for everyone'." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I hope this comes across in the spirit it's intended.",
+      "explanationVi": "Thái độ được thể hiện qua các cụm như 'I appreciate the work', 'I take the board's point' (tôn trọng), 'put forward two alternatives' (xây dựng), và 'What gives me pause' (chưa bị thuyết phục). Câu 'in the spirit it's intended' cho thấy cô muốn góp ý thiện chí.",
+      "vocabulary": ["take someone's point"]
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "already fixed", "trap": "opposite", "whyVi": "Các thành viên ban 'have since admitted' sai sót, nên vấn đề chưa được sửa." },
+        { "text": "agreed on from the start", "trap": "opposite", "whyVi": "Câu sau cho thấy ban đã bỏ sót, không phải đồng ý từ đầu." },
+        { "text": "decided to drop altogether", "trap": "too_broad", "whyVi": "Không ai nói bỏ hẳn quy định; ban chỉ thừa nhận nó được soạn theo lịch của đội đua." },
+        { "text": "honestly overlooked", "trap": "none", "whyVi": "Đúng: 'put your finger on' = chỉ ra đúng vấn đề; các thành viên thừa nhận quy định chỉ tính đến đội đua." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Requiring members to reserve boats at least 72 hours ahead may suit the racing crews, who train on a fixed schedule",
+      "explanationVi": "'You've put your finger on something' = bạn đã chỉ ra đúng điều... Câu sau 'Several directors have since admitted' cho thấy đó là điều ban đã không nhận ra ('overlooked'), khớp với nhận xét của Hana về đội đua.",
+      "vocabulary": ["put one's finger on"]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "holding back some boats for people who decide on the day", "trap": "none", "whyVi": "Đúng: đề xuất của Hana giữ khoảng một phần ba số thuyền cho người đi trong ngày." },
+        { "text": "charging members according to how often they paddle", "trap": "wrong_detail", "whyVi": "Đây là ý tưởng thứ hai của Hana, nhưng Callum nói vấn đề phí 'is harder' và phải đợi mùa sau." },
+        { "text": "getting rid of online booking", "trap": "opposite", "whyVi": "Hana ủng hộ đặt chỗ trực tuyến về nguyên tắc." },
+        { "text": "holding the general meeting online", "trap": "not_mentioned", "whyVi": "Không ai đề nghị họp trực tuyến." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "keep a share of the fleet, say a third, available for same-day use",
+      "explanationVi": "Đoạn này đang bàn về quy định 72 giờ, nên ý tưởng liên quan là giữ thuyền cho người đi trong ngày. 'keep a share of the fleet ... available' = 'holding back some boats'; 'same-day use' = 'people who decide on the day'.",
+      "vocabulary": []
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "books a boat on a Thursday", "trap": "word_match", "whyVi": "'Thursday' có trong thư Hana, nhưng đặt vào thứ Năm không phải vi phạm." },
+        { "text": "misses the general meeting", "trap": "word_match", "whyVi": "'general meeting' có trong thư, nhưng quy định đang bàn là về người đặt thuyền không đến." },
+        { "text": "pays the annual fee late", "trap": "not_mentioned", "whyVi": "Không liên quan đến chủ đề 'no-shows'." },
+        { "text": "reserves a boat and then fails to appear", "trap": "none", "whyVi": "Đúng: đây là định nghĩa 'no-show' mà Hana mô tả — đặt thuyền rồi để nó nằm trên giá." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Unless there's some consequence for booking a boat and leaving it on the rack",
+      "explanationVi": "'On no-shows' cho biết chủ đề. 'booking a boat and leaving it on the rack' = 'reserves a boat and then fails to appear'. Hình phạt mất quyền đặt chỗ chính là 'consequence' mà Hana yêu cầu.",
+      "vocabulary": ["no-show"]
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "postponing the dock repairs", "trap": "opposite", "whyVi": "Callum vừa nói 'The dock work can't wait another year'." },
+        { "text": "linking fees to how much members use the club", "trap": "none", "whyVi": "Đúng: hệ thống phí theo bậc của Hana cần thời gian thiết kế, nên sẽ được xem xét trước mùa sau." },
+        { "text": "the 72-hour booking rule", "trap": "wrong_detail", "whyVi": "Đoạn này đang bàn về phí ('The fee question is harder'); quy định 72 giờ đã được nói ở đoạn trước và đã đưa vào chương trình họp." },
+        { "text": "free membership for older paddlers", "trap": "not_mentioned", "whyVi": "Không ai đề nghị miễn phí cho người lớn tuổi." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "look at a tiered fee, so that those who use the club most contribute the most",
+      "explanationVi": "'The fee question is harder ... a fair tiered system would take time to design' → điều được hứa xem xét sau là phí theo bậc. 'those who use the club most contribute the most' = 'linking fees to how much members use the club'.",
+      "vocabulary": ["tiered"]
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "waived", "trap": "none", "whyVi": "Đúng: người gặp khó khăn tài chính có thể xin miễn một phần phí." },
+        { "text": "raised to $385", "trap": "word_match", "whyVi": "'$385' có trong thư Hana nhưng là mức phí mới, không phải sự hỗ trợ." },
+        { "text": "increased", "trap": "opposite", "whyVi": "Không ai 'facing hardship' lại xin tăng phí." },
+        { "text": "reviewed by the racing crews", "trap": "not_mentioned", "whyVi": "Đội đua không có vai trò gì trong việc xét phí; 'no questions asked' cũng cho thấy không có xét duyệt." }
+      ],
+      "answerIndex": 0,
+      "category": "vocabulary",
+      "evidence": "I know of at least two who have quietly said they'd let their memberships lapse rather than pay $385 a year",
+      "explanationVi": "'In the meantime' báo hiệu biện pháp tạm thời giúp người khó khăn — trả lời nỗi lo của Hana về hội viên có thể bỏ đi. 'waive' = miễn (phí). 'no questions asked' = không cần giải thích.",
+      "vocabulary": ["waive"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "mull over", "vi": "cân nhắc kỹ, nghiền ngẫm", "definition": "to think carefully about something for a period of time", "example": "I've been mulling over the board's proposal all week." },
+    { "term": "give someone pause", "vi": "khiến ai phải dè dặt, đắn đo", "definition": "to make someone hesitate or have doubts", "example": "The cost of the new rule gave several members pause." },
+    { "term": "squabble", "vi": "cãi vặt, tranh cãi", "definition": "to argue noisily about something unimportant", "example": "The kids squabbled over who got the front seat." },
+    { "term": "blunt instrument", "vi": "biện pháp thô, không phân biệt", "definition": "a method that affects everyone the same way and is not precise", "example": "A flat fee is a blunt instrument for funding repairs." },
+    { "term": "lapse", "vi": "hết hiệu lực (do không gia hạn)", "definition": "to end because it is not renewed", "example": "She let her gym membership lapse over the winter." },
+    { "term": "tiered", "vi": "theo bậc, nhiều mức", "definition": "having several levels, for example of price", "example": "The club is considering a tiered fee for heavy and light users." },
+    { "term": "put one's finger on", "vi": "chỉ ra chính xác (vấn đề)", "definition": "to identify something exactly", "example": "She put her finger on the main weakness of the plan." },
+    { "term": "no-show", "vi": "người đặt chỗ nhưng không đến", "definition": "a person who books something but does not come", "example": "No-shows leave boats sitting empty on busy days." },
+    { "term": "waive", "vi": "miễn (phí, quy định)", "definition": "to choose not to require a payment or rule", "example": "The club will waive part of the fee for members facing hardship." },
+    { "term": "take someone's point", "vi": "công nhận ý kiến của ai", "definition": "to accept that someone's argument is fair", "example": "I take your point about the cost, but safety comes first." }
+  ]
+}

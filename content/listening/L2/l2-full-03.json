@@ -1,0 +1,122 @@
+{
+  "id": "l2-full-03",
+  "kind": "listening",
+  "taskType": "L2",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "recreation",
+  "title": "A full swim class at the community centre",
+  "context": "You will hear a father talking to a front-desk clerk at a community recreation centre in Richmond.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Arash", "voice": "male_a", "text": "Hi there. My name's Arash Karimi. I'm trying to sign my daughter up for the Tuesday swim lessons, the four thirty ones, but the website keeps telling me the class is full. I was hoping it's just a glitch." },
+        { "speaker": "Lena", "voice": "female_b", "text": "I wish I could say it was, Mr. Karimi. I'm Lena, by the way. Those after-school spots go in about ten minutes once registration opens. Let me pull it up. Yeah, it's full, and there are already six names on the waitlist." },
+        { "speaker": "Arash", "voice": "male_a", "text": "Six. Okay. So, realistically, she's not getting in." },
+        { "speaker": "Lena", "voice": "female_b", "text": "I wouldn't hold my breath, no. Kids hardly ever drop out of that time slot. But I've got a couple of other options for you. What level is she in?" },
+        { "speaker": "Arash", "voice": "male_a", "text": "Level three, I think. She finished level two at a pool in Surrey last spring." },
+        { "speaker": "Lena", "voice": "female_b", "text": "Then we'd need her to do a quick swim assessment first. Different centres sometimes mean slightly different things by the same level, so we like to see the kids in the water ourselves. It's free, and it only takes about fifteen minutes." },
+        { "speaker": "Arash", "voice": "male_a", "text": "Fair enough. And the other options?" },
+        { "speaker": "Lena", "voice": "female_b", "text": "There's a Saturday morning class at the Minoru pool, nine o'clock, with three spots left. Same program, same price, eighty-four dollars for eight weeks." },
+        { "speaker": "Arash", "voice": "male_a", "text": "Saturdays are tricky. She's got Mandarin school until noon. Anything else?" },
+        { "speaker": "Lena", "voice": "female_b", "text": "Private lessons. They're more flexible, since you'd book times directly with an instructor, but they run about thirty-two dollars a lesson, so it adds up fast." },
+        { "speaker": "Arash", "voice": "male_a", "text": "Yeah, that's a lot steeper. Hmm. I'll talk it over with my wife, but I think we'll just have to wait for the winter session. When does registration for that open?" },
+        { "speaker": "Lena", "voice": "female_b", "text": "December fifth at nine. And honestly, if you want that Tuesday spot, be online at five to nine with your account already logged in. That's what the parents who get in do." },
+        { "speaker": "Arash", "voice": "male_a", "text": "Good to know. Can we at least get the assessment out of the way now?" },
+        { "speaker": "Lena", "voice": "female_b", "text": "Sure, I can book her in for next Thursday after school." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What does Lena think about the waitlist for the Tuesday class?",
+          "options": [
+            { "text": "Several children are likely to drop out soon.", "trap": "opposite", "whyVi": "Lena nói trẻ em 'hardly ever drop out' khung giờ đó." },
+            { "text": "The website is showing the wrong information.", "trap": "word_match", "whyVi": "Arash hy vọng là 'glitch', nhưng Lena xác nhận lớp thật sự đã đầy." },
+            { "text": "Arash's daughter has little chance of getting a place from it.", "trap": "none", "whyVi": "Đúng: 'I wouldn't hold my breath' = đừng trông mong." },
+            { "text": "Arash should add his daughter's name anyway.", "trap": "not_mentioned", "whyVi": "Lena không khuyên ghi tên vào danh sách chờ." }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "I wouldn't hold my breath, no. Kids hardly ever drop out of that time slot.",
+          "explanationVi": "Thành ngữ 'I wouldn't hold my breath' nghĩa là đừng hy vọng. Đáp án C diễn đạt lại thành 'little chance of getting a place'.",
+          "vocabulary": ["not hold your breath", "waitlist"]
+        },
+        {
+          "number": 2,
+          "prompt": "Why does the daughter need a swim assessment?",
+          "options": [
+            { "text": "Swim levels are not always the same from one centre to another.", "trap": "none", "whyVi": "Đúng: các trung tâm khác nhau có thể hiểu cùng một cấp độ hơi khác nhau." },
+            { "text": "She did not pass level two in Surrey.", "trap": "opposite", "whyVi": "Arash nói cô bé đã hoàn thành level 2." },
+            { "text": "Every child in the program must take one each session.", "trap": "too_broad", "whyVi": "Lena chỉ yêu cầu vì cô bé học ở hồ bơi khác, không phải mọi trẻ mỗi khóa." },
+            { "text": "Her records from the other pool were lost.", "trap": "not_mentioned", "whyVi": "Không ai nói hồ sơ bị mất." }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "Different centres sometimes mean slightly different things by the same level, so we like to see the kids in the water ourselves.",
+          "explanationVi": "'Different centres sometimes mean slightly different things by the same level' được diễn đạt lại thành 'levels are not always the same from one centre to another'.",
+          "vocabulary": ["assessment"]
+        },
+        {
+          "number": 3,
+          "prompt": "Why is the Saturday class not a good fit?",
+          "options": [
+            { "text": "It costs more than the Tuesday class.", "trap": "opposite", "whyVi": "Lena nói 'same price'." },
+            { "text": "It only has a few spots left.", "trap": "partially_true", "whyVi": "Đúng là còn 3 chỗ, nhưng đó không phải lý do Arash từ chối." },
+            { "text": "The Minoru pool is too far from their home.", "trap": "not_mentioned", "whyVi": "Không ai nói hồ Minoru xa." },
+            { "text": "His daughter has another class at that time.", "trap": "none", "whyVi": "Đúng: cô bé học tiếng Quan Thoại đến trưa thứ Bảy." }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "Saturdays are tricky. She's got Mandarin school until noon.",
+          "explanationVi": "'She's got Mandarin school until noon' = cô bé có lớp khác, trùng giờ 9 giờ sáng. Đáp án D diễn đạt lại.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "What does Arash say he will probably do?",
+          "options": [
+            { "text": "Book private lessons with an instructor.", "trap": "opposite", "whyVi": "Anh thấy học riêng 'a lot steeper' (đắt hơn nhiều)." },
+            { "text": "Try to get a place in the next session.", "trap": "none", "whyVi": "Đúng: 'we'll just have to wait for the winter session'." },
+            { "text": "Stay on the waitlist for the current Tuesday class.", "trap": "partially_true", "whyVi": "Anh vẫn muốn lớp thứ Ba, nhưng ở khóa mùa đông, không phải chờ ở khóa này." },
+            { "text": "Sign up for the Saturday class after talking to his wife.", "trap": "wrong_detail", "whyVi": "Anh sẽ bàn với vợ, nhưng thứ Bảy không phù hợp." }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "I'll talk it over with my wife, but I think we'll just have to wait for the winter session.",
+          "explanationVi": "Sau khi loại cả lớp thứ Bảy và học riêng, Arash nói sẽ chờ 'the winter session' = khóa tiếp theo. Đáp án B.",
+          "vocabulary": ["talk it over", "steep"]
+        },
+        {
+          "number": 5,
+          "prompt": "What advice does Lena give about registering for the winter session?",
+          "options": [
+            { "text": "Come to the front desk in person on December fifth.", "trap": "not_mentioned", "whyVi": "Lena nói đăng ký trực tuyến, không nói đến quầy." },
+            { "text": "Create an online account on the day registration opens.", "trap": "wrong_detail", "whyVi": "Tài khoản phải đăng nhập sẵn từ trước, không phải tạo vào ngày đó." },
+            { "text": "Be fully prepared before registration actually begins.", "trap": "none", "whyVi": "Đúng: vào mạng lúc 8:55 với tài khoản đã đăng nhập sẵn." },
+            { "text": "Put the daughter on several waitlists at once.", "trap": "not_mentioned", "whyVi": "Không có lời khuyên này." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "be online at five to nine with your account already logged in",
+          "explanationVi": "'Five to nine' = 8:55, trước giờ mở đăng ký; 'already logged in' = chuẩn bị sẵn. Đáp án C tóm lại thành 'fully prepared before registration begins'.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "glitch", "vi": "lỗi kỹ thuật nhỏ", "definition": "a small technical problem that stops something working properly", "example": "I was hoping the 'class full' message was just a glitch." },
+    { "term": "waitlist", "vi": "danh sách chờ", "definition": "a list of people waiting for a place to become available", "example": "There are already six names on the waitlist." },
+    { "term": "not hold your breath", "vi": "đừng trông mong", "definition": "used to say that something is unlikely to happen soon", "example": "I wouldn't hold my breath for a spot in that class." },
+    { "term": "drop out", "vi": "bỏ ngang, rút lui", "definition": "to stop taking part in a class or activity", "example": "Kids hardly ever drop out of that time slot." },
+    { "term": "assessment", "vi": "bài đánh giá năng lực", "definition": "a test to find out someone's level or ability", "example": "She needs a quick swim assessment first." },
+    { "term": "steep", "vi": "đắt, cao (giá)", "definition": "(of a price) very high", "example": "Thirty-two dollars a lesson is a lot steeper." },
+    { "term": "talk it over", "vi": "bàn bạc", "definition": "to discuss something before making a decision", "example": "I'll talk it over with my wife." },
+    { "term": "get something out of the way", "vi": "làm cho xong việc gì", "definition": "to finish a task so that you no longer need to think about it", "example": "Can we get the assessment out of the way now?" }
+  ],
+  "estimatedMinutes": 6,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 5 Qs; key matched. Changed: neither Arash nor Lena was named in the audio although the questions use both names; added self-introductions in the opening lines. Attitude item rests on the spoken idiom 'I wouldn't hold my breath', not on tone." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

@@ -19,7 +19,7 @@
         {
           "speaker": "Sofia, council member",
           "voice": "female_b",
-          "text": "Sure. The assessment says our electrical service can't handle a charger in every stall if everyone charges at once. But with a load management system, the chargers share the power and take turns, so all eighty-four stalls could be EV-ready without upgrading the main service. Honestly, that surprised me. I'd assumed we'd need a whole new transformer."
+          "text": "Sure. Thanks, Deborah. The assessment says our electrical service can't handle a charger in every stall if everyone charges at once. But with a load management system, the chargers share the power and take turns, so all eighty-four stalls could be EV-ready without upgrading the main service. Honestly, that surprised me. I'd assumed we'd need a whole new transformer."
         },
         {
           "speaker": "Rajiv, treasurer",
@@ -419,7 +419,7 @@
   "review": {
     "status": "approved",
     "reviewedBy": "independent AI review (Claude)",
-    "notes": "Solved all 8 items independently; keys match, figures consistent (130k backbone, half rebate -> 65k from reserve). Fixed a factual risk: script said reserve spending \"needs a three-quarter vote\", but BC's 2023 Strata Property Act amendments allow CRF spending on EV charging infrastructure by majority vote; line now just says owners must vote at the AGM (no item depended on it). 4 voices, ~525 words."
+    "notes": "Solved all 8 items independently; keys match, figures consistent (130k backbone, half rebate -> 65k from reserve). Fixed a factual risk: script said reserve spending \"needs a three-quarter vote\", but BC's 2023 Strata Property Act amendments allow CRF spending on EV charging infrastructure by majority vote; line now just says owners must vote at the AGM (no item depended on it). 4 voices, ~525 words. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)."
   },
   "createdAt": "2026-10-26",
   "focus": []

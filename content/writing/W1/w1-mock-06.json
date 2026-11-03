@@ -1,0 +1,69 @@
+{
+  "id": "w1-mock-06",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "social",
+  "title": "Saying no to a friend who needs a co-signer",
+  "situation": "Your close friend Tomás has recently separated from his partner and needs to rent an apartment in Vancouver quickly. Because his credit history is weak, the landlord will only rent to him if someone co-signs the lease, and he has asked you. You value the friendship, but you and your spouse are in the middle of applying for a mortgage, and your mortgage broker has told you not to take on any new financial obligations. You decide to email him.",
+  "instructions": [
+    "Show that you understand his situation.",
+    "Explain why you cannot co-sign the lease.",
+    "Offer other ways you could help him."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Warm, informal greeting + empathy for what he is going through",
+    "Instruction 2: a clear, kind refusal + reassurance that it is not about trust",
+    "The real reason, explained simply (mortgage application, broker's advice, risk)",
+    "Instruction 3: 2–3 concrete, generous alternatives (reference letter, help searching, a place to stay)",
+    "Friendly closing that keeps the friendship strong (Let's grab a coffee…)"
+  ],
+  "modelResponse": "Hi Tomás,\n\nThanks for trusting me with this. I know the last few months have been incredibly hard, and having to find a new place on top of everything else must feel overwhelming. Please know that I want to help you get back on your feet.\n\nI've thought about it a lot and talked it over with Hana, and I'm truly sorry, but I can't co-sign the lease. This has nothing to do with whether I trust you; I know you would never leave me in a difficult spot. The problem is that we're in the middle of applying for a mortgage, and our broker has told us clearly not to take on any new financial commitments until it's approved. Lenders may count a co-signed lease as debt, so it could put the whole application at risk.\n\nThat said, there are other ways I can help. I'd be glad to write a reference letter for any landlord, describing the reliable person I've known for twelve years. I could also help you view places this weekend, and you're welcome to stay in our basement suite while you look.\n\nLet's grab a coffee soon and talk it through.\n\nTake care,\nMinh",
+  "usefulExpressions": [
+    {
+      "expression": "Thanks for trusting me with this.",
+      "usageVi": "Mở đầu ấm áp, ghi nhận việc bạn bè tin tưởng mình khi nhờ vả."
+    },
+    {
+      "expression": "on top of everything else",
+      "usageVi": "Thể hiện thấu hiểu áp lực chồng chất của người kia."
+    },
+    {
+      "expression": "get back on your feet",
+      "usageVi": "Thành ngữ: vượt qua khó khăn, ổn định lại cuộc sống."
+    },
+    {
+      "expression": "I'm truly sorry, but I can't…",
+      "usageVi": "Từ chối rõ ràng nhưng chân thành – không vòng vo."
+    },
+    {
+      "expression": "This has nothing to do with whether I trust you",
+      "usageVi": "Trấn an để lời từ chối không làm tổn thương tình bạn."
+    },
+    {
+      "expression": "That said, there are other ways I can help.",
+      "usageVi": "'That said' = dù vậy; chuyển sang phần giúp đỡ thay thế (ý 3) rất tự nhiên."
+    },
+    {
+      "expression": "talk it through",
+      "usageVi": "Phrasal verb: nói chuyện kỹ để giải quyết vấn đề."
+    }
+  ],
+  "commonMistakes": [
+    "Viết quá trang trọng với bạn thân ('Dear Mr. Tomás, I regret to inform you…'). Thư cho bạn bè nên dùng giọng thân mật nhưng vẫn đúng ngữ pháp.",
+    "Từ chối vòng vo, không rõ ràng khiến người đọc tưởng bạn vẫn có thể đồng ý. Hãy nói thẳng 'I can't co-sign' rồi giải thích.",
+    "Lý do nghe như không tin bạn ('I'm afraid you won't pay'). Phải nhấn mạnh lý do khách quan (hồ sơ vay thế chấp).",
+    "Đề nghị giúp đỡ chung chung ('Let me know if you need anything'). Ý 3 cần những cách giúp cụ thể, thiết thực."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets (empathy, clear refusal + reason, concrete alternatives), informal register, 199 words. Fixed: softened an absolute financial claim (\"Lenders treat a co-signed lease as a debt\" -> \"Lenders may count ... as debt\")."
+  },
+  "createdAt": "2026-11-03"
+}

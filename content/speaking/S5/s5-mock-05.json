@@ -1,0 +1,77 @@
+{
+  "id": "s5-mock-05",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "customer-service",
+  "title": "Choosing a home internet plan to share",
+  "prompt": "You share an apartment in Victoria with a roommate, and you need to sign up for home internet. You work from home three days a week, uploading large video files. You have found two plans. Choose the plan you prefer. Then persuade your roommate, who prefers the other plan, that your choice is better for both of you.",
+  "svg": null,
+  "options": [
+    {
+      "title": "Coastline Fibre 1 Gig",
+      "details": [
+        "$95 CAD per month; speeds up to 1,000 Mbps for uploads and downloads",
+        "Two-year contract; $300 fee to cancel early",
+        "Contract can be moved to a new address anywhere in BC at no cost",
+        "Installation in 10 days; free router"
+      ]
+    },
+    {
+      "title": "Pacific Spark Cable 300",
+      "details": [
+        "$70 CAD per month for the first year, then $85; download up to 300 Mbps, upload up to 20 Mbps",
+        "No contract; cancel any time",
+        "$120 CAD one-time setup fee",
+        "Installation in 2 days; customer support by chat only"
+      ]
+    }
+  ],
+  "structure": [
+    "Acknowledge the roommate's concerns (cheaper, no contract) and state your choice.",
+    "Reason 1: upload speed is the real bottleneck for your job (1,000 vs 20 Mbps); explain the impact.",
+    "Reason 2: the price gap is smaller than it looks over two years; offer to pay more of the bill.",
+    "Remove the contract worry (it moves with you) and suggest a solution for the 10-day wait."
+  ],
+  "modelAnswer": "Jordan, I totally get why the Spark plan looks tempting. It's cheaper up front and there's no contract. But hear me out on Coastline. The number that matters for me isn't the download speed, it's the upload. Spark only gives us twenty megabits up, while Coastline gives us a thousand. For my work, that's night and day. A file that would take me an hour to send on Spark would go through in a couple of minutes. And if I'm uploading all afternoon, your streaming and gaming are going to crawl, too. As for the price, Spark goes up to eighty-five after the first year, and there's a hundred-and-twenty-dollar setup fee. So over two years, the real gap is only three hundred dollars. Since I'm the one who needs the speed, I'm happy to cover that difference myself. I know you're nervous about the contract because our lease ends next fall, but Coastline lets us move it to a new address in BC for free. And for the ten-day wait, I can just work from the library. Deal?",
+  "usefulExpressions": [
+    {
+      "expression": "I totally get why… looks tempting. But hear me out on…",
+      "usageVi": "'Hear me out' = nghe tôi nói hết đã; cách mở lời thân mật với bạn cùng phòng"
+    },
+    {
+      "expression": "The number that matters for me isn't…, it's…",
+      "usageVi": "Chỉ ra tiêu chí quan trọng thật sự, chuyển trọng tâm so sánh"
+    },
+    {
+      "expression": "…that's night and day.",
+      "usageVi": "Thành ngữ: khác nhau một trời một vực"
+    },
+    {
+      "expression": "…are going to crawl.",
+      "usageVi": "'Crawl' = chạy chậm như rùa (dùng cho mạng, giao thông)"
+    },
+    {
+      "expression": "…the real gap is only…",
+      "usageVi": "Tính lại chênh lệch thực tế để chứng minh phương án mình không đắt như người kia nghĩ"
+    },
+    {
+      "expression": "I'm happy to cover that difference myself.",
+      "usageVi": "Nhượng bộ cụ thể giúp lời thuyết phục khó bị từ chối"
+    }
+  ],
+  "commonMistakes": [
+    "So sánh chỉ giá tháng đầu ($95 vs $70) mà quên giá tăng lên $85 sau năm đầu và phí lắp đặt $120. Trong 24 tháng: $2,280 so với $1,980 — chỉ chênh $300.",
+    "Nhầm 'download' và 'upload'; với người làm video, tốc độ tải lên (upload) mới là điểm quyết định.",
+    "Quên trả lời nỗi lo hợp đồng 2 năm, trong khi thẻ ghi rõ có thể chuyển hợp đồng sang địa chỉ mới miễn phí — đây là chi tiết then chốt để phản bác."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Verified 24-month totals ($2,280 vs 12x$70 + 12x$85 + $120 = $1,980, gap $300) and 1,000 vs 20 Mbps upload (1 hour -> ~1-2 minutes is consistent). Replaced 'for a video editor' (not stated in the prompt) with 'for my work', aligned an expression with the answer, trimmed 180 -> 178 words."
+  },
+  "createdAt": "2026-11-03"
+}

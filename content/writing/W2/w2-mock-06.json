@@ -1,0 +1,69 @@
+{
+  "id": "w2-mock-06",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "workplace",
+  "title": "Office relocation: downtown hub or suburban business park",
+  "situation": "You work at Lumen Analytics, a data-analysis firm with 120 employees in Vancouver. The lease on the current office ends next year, and staff now work in a hybrid model. Leadership has narrowed the search to two locations and wants every employee's input before signing a ten-year lease.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: A smaller office in downtown Vancouver, two minutes' walk from a SkyTrain station. Desks would not be assigned; employees would book a desk online for each office day. Staff would come in two days a week. There would be no parking, but the company would cover half the cost of a monthly transit pass.",
+  "optionB": "Option B: A larger office in a business park in Coquitlam, about a 20-minute walk from the nearest SkyTrain station. Every employee would have an assigned desk, and there would be private focus rooms and free parking. Staff would come in three days a week.",
+  "structure": [
+    "Opening: signal that you have weighed both, then state your choice + the main principle (a workspace suited to focused work)",
+    "Reason 1: the hidden cost of hot-desking for the type of work you do",
+    "Reason 2: where colleagues actually live, and how parking offsets the extra office day",
+    "Concession: the transit and sustainability case for the other option + a counter-argument with a practical fix",
+    "Conclusion linking back to how the team actually works"
+  ],
+  "modelResponse": "Having weighed up the two proposals, I would lean towards the larger office in Coquitlam, chiefly because it would give us a workspace that is suited to focused work.\n\nMuch of what we do as analysts requires long stretches of concentration, and hot-desking tends to undermine that. Having to book a desk, carry everything home each evening and sit beside different colleagues may seem minor, but in practice it chips away at productivity. Assigned desks and private focus rooms would make our office days far more worthwhile, which matters if we come in three days a week.\n\nLocation matters too. Many of my colleagues have moved to the Tri-Cities or the Fraser Valley because of housing costs. For them, free parking and a shorter drive would more than make up for the extra day in the office.\n\nI appreciate that the downtown hub would be easier to reach by SkyTrain and would encourage greener commuting. Nonetheless, a transit subsidy is of little use to employees who live far from a station, and the company could still run a shuttle from the nearest one.\n\nOn balance, the Coquitlam office is the better long-term fit for how we actually work.",
+  "usefulExpressions": [
+    {
+      "expression": "Having weighed up the two proposals, …",
+      "usageVi": "Mệnh đề phân từ hoàn thành ở đầu câu — cho thấy bạn đã cân nhắc kỹ trước khi chọn; rất phù hợp Level 9."
+    },
+    {
+      "expression": "I would lean towards…",
+      "usageVi": "Nghiêng về… — cách nêu lựa chọn khiêm tốn mà vẫn rõ ràng."
+    },
+    {
+      "expression": "tends to undermine that",
+      "usageVi": "'undermine' = làm suy yếu dần — động từ học thuật nhưng phổ biến nơi công sở."
+    },
+    {
+      "expression": "chips away at productivity",
+      "usageVi": "Phrasal verb 'chip away at' = bào mòn dần — diễn đạt tác động nhỏ nhưng tích tụ."
+    },
+    {
+      "expression": "more than make up for…",
+      "usageVi": "Bù đắp dư dả cho… — lập luận rằng lợi ích lớn hơn chi phí."
+    },
+    {
+      "expression": "is of little use to…",
+      "usageVi": "Hầu như vô ích đối với… — cấu trúc 'of + N' trang trọng."
+    },
+    {
+      "expression": "the better long-term fit",
+      "usageVi": "Lựa chọn phù hợp hơn về lâu dài — kết nối với hợp đồng thuê 10 năm trong đề."
+    }
+  ],
+  "commonMistakes": [
+    "Lập luận chỉ dựa vào hoàn cảnh riêng ('I live in Coquitlam'). Ở Level 9, hãy nói đến nhu cầu của cả nhóm và tính chất công việc.",
+    "Bỏ qua sự khác biệt 2 ngày và 3 ngày lên văn phòng — đây là chi tiết quan trọng mà phương án bạn chọn phải giải thích.",
+    "Dùng 'hot-desking' mà không giải thích hệ quả cụ thể (đặt bàn, mang đồ về nhà mỗi tối). Nêu cơ chế thì lập luận mới thuyết phục.",
+    "Viết 'more far' → 'farther/further'; 'more near' → 'closer'.",
+    "Dùng 'Nonetheless' như 'but' nối hai mệnh đề bằng dấu phẩy ('…, nonetheless it…'). Đặt ở đầu câu mới ('Nonetheless, …') hoặc sau dấu chấm phẩy ('…; nonetheless, …')."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked geography (Coquitlam SkyTrain, Tri-Cities, Fraser Valley), balanced options (2 days downtown hot-desking + transit subsidy vs 3 days with assigned desks + parking), model addresses the 2-vs-3-day difference and the transit case, word count 198. Clarified the 'Nonetheless' punctuation note (it can also follow a semicolon)."
+  },
+  "createdAt": "2026-11-03"
+}

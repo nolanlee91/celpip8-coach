@@ -1,0 +1,431 @@
+{
+  "id": "l5-mock-05",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "shopping",
+  "title": "Discussion: Roommates sharing a warehouse store membership",
+  "context": "You will hear four roommates in Vancouver discussing whether to buy household items together at a bulk warehouse store.",
+  "estimatedMinutes": 10,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Sofia",
+          "voice": "female_a",
+          "text": "Okay, house meeting. I added up everyone's grocery receipts for October, and between the four of us we spent just over fourteen hundred dollars. A lot of that is the same stuff bought four times. Four jugs of olive oil, four bags of rice, four different brands of dish soap."
+        },
+        {
+          "speaker": "Kwame",
+          "voice": "male_a",
+          "text": "Guilty on the dish soap, Sofia. But in my defence, nobody labels anything, so I never know what's mine."
+        },
+        {
+          "speaker": "Anjali",
+          "voice": "female_b",
+          "text": "That's kind of the point, though, isn't it? If we shared the basics, we wouldn't need labels. I've been thinking we should get a BulkWay membership. It's sixty-five dollars a year, and toilet paper alone is something like a third cheaper there."
+        },
+        {
+          "speaker": "Ethan",
+          "voice": "male_b",
+          "text": "I'm all for saving money, but where are we going to put it all? Our pantry is one shelf above the fridge. If we bring home a forty-eight pack of paper towels, it ends up living in my room, and I'm not okay with that."
+        },
+        {
+          "speaker": "Anjali",
+          "voice": "female_b",
+          "text": "We could use the hall closet. It's full of Kwame's bike gear right now."
+        },
+        {
+          "speaker": "Kwame",
+          "voice": "male_a",
+          "text": "Hey, my bike gear has to go somewhere. But fine, I can hang the bike up in the storage locker downstairs if someone helps me put up a hook."
+        },
+        {
+          "speaker": "Sofia",
+          "voice": "female_a",
+          "text": "Can I raise the real issue? It's not storage, it's fairness. I eat a lot of rice and beans, and Ethan basically lives on protein shakes and chicken. If we split everything equally, someone's going to end up paying for someone else's dinner."
+        },
+        {
+          "speaker": "Ethan",
+          "voice": "male_b",
+          "text": "To be fair, I'd be paying for your rice too."
+        },
+        {
+          "speaker": "Sofia",
+          "voice": "female_a",
+          "text": "Rice is two dollars a kilo, Ethan. Your chicken isn't."
+        },
+        {
+          "speaker": "Anjali",
+          "voice": "female_b",
+          "text": "So we don't share actual food. We share the things everyone goes through at about the same rate: cleaning supplies, toilet paper, cooking oil, coffee, maybe spices. Everything else stays personal."
+        },
+        {
+          "speaker": "Kwame",
+          "voice": "male_a",
+          "text": "Coffee's a stretch. I have one cup a day, and Sofia goes through a whole pot before noon."
+        },
+        {
+          "speaker": "Sofia",
+          "voice": "female_a",
+          "text": "Okay, that's fair. Coffee goes on the personal list."
+        },
+        {
+          "speaker": "Ethan",
+          "voice": "male_b",
+          "text": "And how do we actually split the bill, Anjali? I don't want to be chasing people for eleven dollars every week."
+        },
+        {
+          "speaker": "Anjali",
+          "voice": "female_b",
+          "text": "There's an app called SplitPot. Whoever pays uploads the receipt, and it keeps a running balance. We settle up once a month."
+        },
+        {
+          "speaker": "Kwame",
+          "voice": "male_a",
+          "text": "Who's driving, though? Only Ethan has a car, and BulkWay is out in Burnaby."
+        },
+        {
+          "speaker": "Ethan",
+          "voice": "male_b",
+          "text": "I don't mind driving once a month, but then my gas should count as a shared cost too. It's twenty-five minutes each way."
+        },
+        {
+          "speaker": "Sofia",
+          "voice": "female_a",
+          "text": "That seems more than reasonable. Okay, so: one membership, shared household stuff only, a monthly trip with Ethan driving, and gas goes into the app."
+        },
+        {
+          "speaker": "Anjali",
+          "voice": "female_b",
+          "text": "The membership will be in my name, but I can add one extra cardholder for free, so let's add Ethan, since he's the one going."
+        },
+        {
+          "speaker": "Kwame",
+          "voice": "male_a",
+          "text": "Great. I'll clear out the closet this weekend. Someone just remind me to buy that hook."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What problem does Sofia point out at the beginning?",
+          "options": [
+            {
+              "text": "Each roommate spent more than $1,400 in October.",
+              "trap": "wrong_detail",
+              "whyVi": "1.400 đô là tổng của cả bốn người, không phải mỗi người."
+            },
+            {
+              "text": "Someone has been using other people's dish soap.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'dish soap', nhưng vấn đề là mỗi người mua riêng một chai, không phải dùng trộm."
+            },
+            {
+              "text": "The pantry is too small for all their groceries.",
+              "trap": "wrong_speaker",
+              "whyVi": "Ethan mới là người nói tủ đồ quá nhỏ, và nói sau đó."
+            },
+            {
+              "text": "They keep buying the same products separately.",
+              "trap": "none",
+              "whyVi": "Đúng: cùng một món được mua bốn lần (dầu ô liu, gạo, nước rửa chén)."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "A lot of that is the same stuff bought four times.",
+          "explanationVi": "'The same stuff bought four times' được diễn đạt lại thành 'buying the same products separately'.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "How does Ethan feel about buying in bulk at first?",
+          "options": [
+            {
+              "text": "He thinks the membership is too expensive.",
+              "trap": "not_mentioned",
+              "whyVi": "Ethan không phàn nàn về giá 65 đô."
+            },
+            {
+              "text": "He likes saving money but does not want bulk items stored in his room.",
+              "trap": "none",
+              "whyVi": "Đúng: anh ủng hộ tiết kiệm nhưng không chấp nhận đồ để trong phòng mình."
+            },
+            {
+              "text": "He refuses to share anything with his roommates.",
+              "trap": "opposite",
+              "whyVi": "Sai: anh nói 'I'm all for saving money' và cuối cùng còn nhận lái xe."
+            },
+            {
+              "text": "He worries that the store is too far away.",
+              "trap": "wrong_speaker",
+              "whyVi": "Kwame là người nhắc BulkWay ở tận Burnaby."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "it ends up living in my room, and I'm not okay with that",
+          "explanationVi": "'I'm all for saving money, but...' cho thấy đồng ý về nguyên tắc nhưng có điều kiện. Mối lo thực sự của anh là chỗ để đồ.",
+          "vocabulary": [
+            "be all for"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Kwame agree to do to make space?",
+          "options": [
+            {
+              "text": "Move his bike into a storage area in the building",
+              "trap": "none",
+              "whyVi": "Đúng: anh sẽ treo xe đạp trong kho chứa đồ ở tầng dưới."
+            },
+            {
+              "text": "Sell some of his bike gear",
+              "trap": "not_mentioned",
+              "whyVi": "Kwame không nói sẽ bán đồ."
+            },
+            {
+              "text": "Keep the paper towels in his own room",
+              "trap": "wrong_speaker",
+              "whyVi": "Chuyện khăn giấy trong phòng là của Ethan, và anh không đồng ý."
+            },
+            {
+              "text": "Build shelves inside the hall closet",
+              "trap": "word_match",
+              "whyVi": "Bài có 'put up a hook' (gắn móc) chứ không phải đóng kệ trong tủ."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "I can hang the bike up in the storage locker downstairs",
+          "explanationVi": "'The storage locker downstairs' được diễn đạt lại thành 'a storage area in the building'.",
+          "vocabulary": [
+            "clear out"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What is Sofia's main concern?",
+          "options": [
+            {
+              "text": "Ethan should eat healthier food.",
+              "trap": "not_mentioned",
+              "whyVi": "Cô không bình luận về sức khỏe."
+            },
+            {
+              "text": "Rice should be bought in bulk to save money.",
+              "trap": "word_match",
+              "whyVi": "Cô nhắc 'rice' để so sánh giá, không đề nghị mua gạo số lượng lớn."
+            },
+            {
+              "text": "Splitting all costs equally would be unfair because they eat differently.",
+              "trap": "none",
+              "whyVi": "Đúng: mỗi người ăn khác nhau nên chia đều sẽ có người trả tiền bữa tối cho người khác."
+            },
+            {
+              "text": "Storage is the biggest problem for the group.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: cô nói 'It's not storage, it's fairness'."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "It's not storage, it's fairness.",
+          "explanationVi": "Sofia chuyển trọng tâm ('Can I raise the real issue?'): vấn đề là công bằng. Lý do: cô ăn gạo và đậu rẻ, Ethan ăn gà và sữa protein đắt hơn.",
+          "vocabulary": []
+        },
+        {
+          "number": 5,
+          "prompt": "When Kwame says \"Coffee's a stretch\", what does he mean?",
+          "options": [
+            {
+              "text": "Coffee takes too long to make every morning.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói pha cà phê mất thời gian."
+            },
+            {
+              "text": "Including coffee in the shared items goes too far.",
+              "trap": "none",
+              "whyVi": "Đúng: 'a stretch' = hơi quá, khó chấp nhận, vì mỗi người uống lượng rất khác nhau."
+            },
+            {
+              "text": "Coffee is something everyone uses equally.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: anh uống một ly, Sofia uống cả bình."
+            },
+            {
+              "text": "Coffee is too expensive at BulkWay.",
+              "trap": "wrong_detail",
+              "whyVi": "Anh không nói về giá cà phê ở cửa hàng."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "vocabulary",
+          "evidence": "Coffee's a stretch. I have one cup a day, and Sofia goes through a whole pot before noon.",
+          "explanationVi": "'That's a stretch' = điều đó hơi quá, khó coi là hợp lý. Anh giải thích ngay sau: lượng dùng của mỗi người chênh nhau quá nhiều.",
+          "vocabulary": [
+            "a stretch",
+            "go through"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "Which items will the roommates share in the end?",
+          "options": [
+            {
+              "text": "Coffee and spices",
+              "trap": "partially_true",
+              "whyVi": "Gia vị có thể chia chung, nhưng cà phê đã bị chuyển sang danh sách riêng."
+            },
+            {
+              "text": "Chicken and rice",
+              "trap": "opposite",
+              "whyVi": "Đồ ăn thật sự được giữ riêng ('we don't share actual food')."
+            },
+            {
+              "text": "Protein shakes and toilet paper",
+              "trap": "partially_true",
+              "whyVi": "Giấy vệ sinh thì chung, nhưng sữa protein là đồ ăn riêng của Ethan."
+            },
+            {
+              "text": "Toilet paper and products for cleaning",
+              "trap": "none",
+              "whyVi": "Đúng: giấy vệ sinh và đồ dùng lau dọn nằm trong danh sách đồ chung."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "We share the things everyone goes through at about the same rate: cleaning supplies, toilet paper, cooking oil, coffee, maybe spices.",
+          "explanationVi": "Danh sách ban đầu có cà phê, nhưng sau đó Sofia đồng ý 'Coffee goes on the personal list'. Cần nghe đến cuối để loại bỏ cà phê. 'Cleaning supplies' được diễn đạt lại thành 'products for cleaning'.",
+          "vocabulary": []
+        },
+        {
+          "number": 7,
+          "prompt": "Why will Ethan be added to the membership?",
+          "options": [
+            {
+              "text": "He will be the one doing the shopping trips.",
+              "trap": "none",
+              "whyVi": "Đúng: Anjali thêm Ethan vì anh là người lái xe đi mua."
+            },
+            {
+              "text": "He will pay the yearly fee.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói Ethan trả phí thành viên; thẻ đứng tên Anjali."
+            },
+            {
+              "text": "The card must be in the driver's name.",
+              "trap": "wrong_detail",
+              "whyVi": "Thẻ chính đứng tên Anjali, không phải người lái xe."
+            },
+            {
+              "text": "He uses the most shared household items.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói Ethan dùng đồ chung nhiều nhất."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "long_conversation",
+          "evidence": "let's add Ethan, since he's the one going",
+          "explanationVi": "'Since he's the one going' (vì anh là người đi) được diễn đạt lại thành 'doing the shopping trips'. Cần nhớ trước đó Ethan nhận lái xe mỗi tháng.",
+          "vocabulary": [
+            "cardholder"
+          ]
+        },
+        {
+          "number": 8,
+          "prompt": "What does Ethan ask for in return for driving?",
+          "options": [
+            {
+              "text": "He wants someone else to drive every second month.",
+              "trap": "wrong_detail",
+              "whyVi": "Anh nói 'I don't mind driving once a month', không yêu cầu thay phiên."
+            },
+            {
+              "text": "He wants to be paid for his time.",
+              "trap": "too_broad",
+              "whyVi": "Anh chỉ muốn chia tiền xăng, không đòi trả công cho thời gian."
+            },
+            {
+              "text": "He wants his fuel costs to be shared by everyone.",
+              "trap": "none",
+              "whyVi": "Đúng: tiền xăng phải được tính là chi phí chung."
+            },
+            {
+              "text": "He wants to skip paying for the membership.",
+              "trap": "not_mentioned",
+              "whyVi": "Anh không nhắc đến phí thành viên."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "my gas should count as a shared cost too",
+          "explanationVi": "'My gas should count as a shared cost' được diễn đạt lại thành 'fuel costs to be shared by everyone'. Sau đó Sofia tóm tắt: 'gas goes into the app'.",
+          "vocabulary": [
+            "settle up"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "in my defence",
+      "vi": "để bào chữa cho tôi",
+      "definition": "used before giving a reason that makes your mistake seem less bad",
+      "example": "Guilty on the dish soap, but in my defence, nobody labels anything."
+    },
+    {
+      "term": "be all for",
+      "vi": "hoàn toàn ủng hộ",
+      "definition": "strongly support something",
+      "example": "I'm all for saving money."
+    },
+    {
+      "term": "clear out",
+      "vi": "dọn sạch, dọn trống",
+      "definition": "remove everything from a place",
+      "example": "I'll clear out the closet this weekend."
+    },
+    {
+      "term": "a stretch",
+      "vi": "điều hơi quá, khó chấp nhận",
+      "definition": "something that goes beyond what is reasonable",
+      "example": "Sharing coffee is a stretch."
+    },
+    {
+      "term": "go through",
+      "vi": "dùng hết, tiêu thụ",
+      "definition": "use up a supply of something",
+      "example": "Sofia goes through a whole pot before noon."
+    },
+    {
+      "term": "running balance",
+      "vi": "số dư cập nhật liên tục",
+      "definition": "a total that changes each time something is added",
+      "example": "The app keeps a running balance."
+    },
+    {
+      "term": "settle up",
+      "vi": "thanh toán, chia lại tiền cho xong",
+      "definition": "pay what you owe so that everyone is even",
+      "example": "We settle up once a month."
+    },
+    {
+      "term": "cardholder",
+      "vi": "người đứng tên thẻ",
+      "definition": "a person who has the right to use a membership or bank card",
+      "example": "I can add one extra cardholder for free."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 8 items independently; keys match, one defensible answer each (Q6 correctly requires noticing coffee was moved to the personal list). Added name cues for Sofia and Anjali (Anjali was never named). Lowered difficulty 8 -> 7: answers are mostly explicit with light paraphrase and two idioms."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

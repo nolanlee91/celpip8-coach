@@ -1,0 +1,68 @@
+{
+  "id": "w2-mock-04",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "education",
+  "title": "Free English classes: online evenings or in-person Saturdays",
+  "situation": "Pacific Gateway Settlement Services in Richmond offers free English classes for newcomers. Due to limited funding, it can run its intermediate program in only one format next term, and it is asking current and future students which they prefer.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Online classes by video on Monday and Wednesday evenings from 7 to 9 p.m. Every class would be recorded so students could watch it later if they miss a session.",
+  "optionB": "Option B: In-person classes on Saturday mornings from 9 a.m. to 1 p.m. at the centre, with free on-site childcare for students' children.",
+  "structure": [
+    "Opening: concede the convenience of the other option, then state your choice",
+    "Reason 1: language learning needs real interaction + personal example + contrast with online classes",
+    "Reason 2: the childcare benefit and who it helps",
+    "Concession: who would prefer the other option and why, then your counter-argument",
+    "Conclusion"
+  ],
+  "modelResponse": "Although online evening classes would be easier to attend, I believe in-person Saturday classes would do far more to help newcomers improve their English.\n\nLearning a language is not only about grammar; it is about building the confidence to speak. In a classroom, students chat during breaks, practise everyday conversations together and make friends who share similar experiences. When I took a similar course after arriving in Canada, those informal conversations improved my speaking more than any lesson did. Online, by contrast, many learners turn off their cameras and hardly say a word.\n\nThe free childcare is another major advantage. Many newcomer parents simply cannot concentrate on an evening class at home while their children need attention. With trained staff looking after the kids on site, they could focus fully on learning for four hours.\n\nI do recognize that some students work on weekends or live far from the centre, and recordings would let them catch up whenever they miss a session. Still, the centre is easy to reach by transit, and for most learners the benefits of face-to-face learning clearly outweigh the inconvenience.\n\nOverall, in-person classes offer a richer and more supportive learning environment.",
+  "usefulExpressions": [
+    {
+      "expression": "would do far more to help…",
+      "usageVi": "'do far more to + V' = giúp ích nhiều hơn hẳn — cách so sánh mạnh, tự nhiên."
+    },
+    {
+      "expression": "not only about…; it is about…",
+      "usageVi": "Định nghĩa lại vấn đề — kỹ thuật lập luận tinh tế."
+    },
+    {
+      "expression": "hardly say a word",
+      "usageVi": "Hầu như không nói lời nào — 'hardly' mang nghĩa phủ định."
+    },
+    {
+      "expression": "looking after the kids on site",
+      "usageVi": "'look after' = trông nom; 'on site' = tại chỗ."
+    },
+    {
+      "expression": "I do recognize that…",
+      "usageVi": "Trợ động từ 'do' nhấn mạnh sự thừa nhận chân thành."
+    },
+    {
+      "expression": "outweigh the inconvenience",
+      "usageVi": "'outweigh' = lớn hơn, nặng ký hơn — động từ quan trọng cho bài so sánh lợi/hại."
+    },
+    {
+      "expression": "catch up",
+      "usageVi": "Phrasal verb: theo kịp phần đã bỏ lỡ."
+    }
+  ],
+  "commonMistakes": [
+    "Nhầm 'practise' (động từ, chính tả Canada) và 'practice' (danh từ): 'I practice English every day' → 'I practise English every day'.",
+    "Viết 'childcare' thành 'child care service for the children of students' quá dài dòng. Dùng gọn: 'on-site childcare'.",
+    "Viết 'online class is not good' — cần giải thích cơ chế: học viên tắt camera, ít nói, thiếu tương tác.",
+    "Quên mạo từ: 'centre is easy to reach' → 'the centre is easy to reach'."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked balance (recorded weekday evening classes vs Saturday classes with childcare, both 4 hours a week), 'practise/practice' note correct for Canadian spelling. Slightly hedged the rebuttal ('for most learners') because the concession about weekend workers was not otherwise answered. Word count 195."
+  },
+  "createdAt": "2026-11-03"
+}

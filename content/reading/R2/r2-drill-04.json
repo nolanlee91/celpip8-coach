@@ -1,0 +1,139 @@
+{
+  "id": "r2-drill-04",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "community-services",
+  "title": "Inference drill: Finding a food bank role for a parent and teen",
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 6 inference items independently; all keys match. Verified age rule (15 = needs parent on same shift), driver age 21+, garden kneeling vs knee, greeter's 3-week record check as the only 'paperwork to wait on', and Dec 1-20 evening hamper shifts fitting their weekday-morning conflict. Rewrote the Q5 explanation, which wrongly implied only Rafael is busy on weekday mornings." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Volunteer roles",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Harbourside Community Food Bank, Nanaimo — Volunteer Roles (all volunteers attend a 90-minute orientation; minimum age 16, or 14 with a parent or guardian volunteering on the same shift)",
+        "headers": ["Role", "When", "Commitment", "Requirements", "Physical demands"],
+        "rows": [
+          ["Warehouse sorter", "Mon–Fri 9 a.m.–12 p.m.", "One shift per week for 3 months", "None beyond orientation", "Lifting up to 20 kg; standing"],
+          ["Delivery driver", "Saturdays 10 a.m.–2 p.m.", "Two Saturdays per month", "Own vehicle; clean driver's abstract; age 21+", "Carrying boxes to doors"],
+          ["Client intake greeter", "Tue and Thu 4–7 p.m.", "One shift per week for 6 months", "Criminal record check (free through us; takes about 3 weeks)", "Mostly seated"],
+          ["Community garden helper", "Sundays 8–11 a.m., April to October", "Drop in whenever you like", "None beyond orientation", "Kneeling, bending, outdoor work"],
+          ["Holiday hamper packer", "December 1–20, evenings 5–8 p.m.", "At least 3 evenings", "None beyond orientation", "Lifting up to 10 kg; standing"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Joyce,\n\nThanks for forwarding the Harbourside volunteer list. Ana and I have been poring over it, and it's turned into a bit of a puzzle.\n\nSince Ana is only fifteen, [[1]], which is fine by me, since that was the whole idea anyway. Driving is out: I sold the car when we moved downtown, and [[2]].\n\nThe garden would have been lovely, and I know it's shut for the winter, but even in the spring, with my knee the way it is, [[3]]. The warehouse is a no-go as well, because we're both tied up on weekday mornings.\n\nSo we've put our names down for hamper packing. It's short-term, and there's no paperwork to wait on, unlike [[4]]. Ana is already talking about carrying on after the holidays, so we might look at something longer once she turns sixteen.\n\nRafael",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "she can't volunteer at all yet", "trap": "opposite", "whyVi": "Từ 14 tuổi đã được tham gia nếu có cha/mẹ làm cùng ca." },
+        { "text": "she needs a criminal record check", "trap": "wrong_detail", "whyVi": "Kiểm tra lý lịch là yêu cầu riêng của vị trí greeter, không liên quan tới tuổi." },
+        { "text": "I'll need to be on the same shifts as her", "trap": "none", "whyVi": "Đúng: 15 tuổi < 16, nên chỉ được tham gia khi 'a parent or guardian volunteering on the same shift'." },
+        { "text": "she can only help in the garden", "trap": "not_mentioned", "whyVi": "Bảng không giới hạn người 14–15 tuổi vào một vị trí cụ thể." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "minimum age 16, or 14 with a parent or guardian volunteering on the same shift",
+      "explanationVi": "Ana 15 tuổi: chưa đủ 16 nhưng đã trên 14 → được tham gia nếu bố làm cùng ca. 'which is fine by me, since that was the whole idea anyway' cho thấy Rafael vốn đã định đi cùng con.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "Ana would be years too young for it in any case", "trap": "none", "whyVi": "Đúng: tài xế phải từ 21 tuổi trở lên; Ana mới 15." },
+        { "text": "the shifts are on Sunday mornings", "trap": "wrong_detail", "whyVi": "Giao hàng vào thứ Bảy; sáng Chủ nhật là ca làm vườn." },
+        { "text": "it requires a criminal record check", "trap": "wrong_detail", "whyVi": "Tài xế cần 'driver's abstract' (lý lịch lái xe), không phải kiểm tra lý lịch tư pháp." },
+        { "text": "the role only runs in December", "trap": "wrong_detail", "whyVi": "Chỉ đóng gói giỏ quà là vào tháng 12." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "Own vehicle; clean driver's abstract; age 21+",
+      "explanationVi": "Có hai điều kiện loại trừ trong cột Requirements: 'Own vehicle' (Rafael đã bán xe) và 'age 21+'. Vế sau chữ 'and' phải là lý do thứ hai → tuổi của Ana. 'years too young' = còn thiếu nhiều năm tuổi.",
+      "vocabulary": ["driver's abstract"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "we'd have to lift 20 kg boxes", "trap": "wrong_detail", "whyVi": "Nâng 20 kg là yêu cầu của kho phân loại, không phải vườn." },
+        { "text": "all that kneeling would be too much for me", "trap": "none", "whyVi": "Đúng: công việc vườn đòi hỏi 'Kneeling, bending' — không hợp với đầu gối đau của Rafael." },
+        { "text": "we'd have to commit for six months", "trap": "wrong_detail", "whyVi": "Vườn là 'Drop in whenever you like', không cần cam kết; 6 tháng là của greeter." },
+        { "text": "the Sunday start time would be too early", "trap": "not_mentioned", "whyVi": "Rafael không phàn nàn về giờ giấc; lý do anh nêu là đầu gối ('my knee')." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Kneeling, bending, outdoor work",
+      "explanationVi": "'with my knee the way it is' (với tình trạng đầu gối như hiện nay) → lý do liên quan tới thể lực. Cột 'Physical demands' của vườn: 'Kneeling' (quỳ gối). Bài không nói thẳng 'quỳ gối làm đau chân', phải suy luận.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "the warehouse job", "trap": "wrong_detail", "whyVi": "Kho phân loại chỉ cần buổi định hướng ('None beyond orientation')." },
+        { "text": "the 90-minute orientation", "trap": "partially_true", "whyVi": "Buổi định hướng bắt buộc với mọi người, kể cả đóng gói giỏ quà; nó không phải giấy tờ phải chờ." },
+        { "text": "the garden role", "trap": "wrong_detail", "whyVi": "Vườn cũng không cần giấy tờ gì ngoài buổi định hướng." },
+        { "text": "the greeter position at the front desk", "trap": "none", "whyVi": "Đúng: greeter cần 'Criminal record check' mất 'about 3 weeks' — đó là giấy tờ phải chờ." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "Criminal record check (free through us; takes about 3 weeks)",
+      "explanationVi": "'no paperwork to wait on' (không có giấy tờ phải chờ) → tìm vai trò có thủ tục mất thời gian. Chỉ greeter có ghi 'takes about 3 weeks'. 'Client intake greeter' được diễn đạt lại thành 'greeter position at the front desk'.",
+      "vocabulary": ["criminal record check"]
+    },
+    {
+      "number": 5,
+      "prompt": "Why does Rafael mention that they might look at something longer once Ana turns sixteen?",
+      "options": [
+        { "text": "She will be old enough to drive deliveries.", "trap": "wrong_detail", "whyVi": "Lái xe giao hàng cần 21 tuổi trở lên." },
+        { "text": "The hamper role is only open to people under sixteen.", "trap": "not_mentioned", "whyVi": "Bảng không có quy định này." },
+        { "text": "She will then be able to volunteer without him.", "trap": "none", "whyVi": "Đúng: từ 16 tuổi không cần cha/mẹ làm cùng ca, nên cô có thể nhận vai trò dài hạn mà không phụ thuộc lịch của bố." },
+        { "text": "Longer roles offer a small payment to older teens.", "trap": "not_mentioned", "whyVi": "Không có thông tin nào về tiền công." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "Ana is already talking about carrying on after the holidays, so we might look at something longer once she turns sixteen.",
+      "explanationVi": "Mốc 16 tuổi trong chú thích là 'minimum age 16' — từ đó không cần người lớn đi kèm. Khi đủ 16, Ana có thể tự đăng ký một vai trò dài hạn mà không phụ thuộc vào lịch của bố. Các phương án khác sai vì lái xe cần 21 tuổi, và bảng không nói gì về giới hạn dưới 16 hay tiền công.",
+      "vocabulary": ["carry on"]
+    },
+    {
+      "number": 6,
+      "prompt": "Why does Rafael say choosing a role has become 'a bit of a puzzle'?",
+      "options": [
+        { "text": "Joyce sent him an out-of-date list.", "trap": "not_mentioned", "whyVi": "Không có chi tiết nào nói danh sách đã cũ." },
+        { "text": "Nearly every role has a condition that doesn't fit their situation.", "trap": "none", "whyVi": "Đúng: lái xe (tuổi, xe), vườn (đầu gối), kho (giờ), greeter (giấy tờ) đều có trở ngại — chỉ còn đóng gói giỏ quà." },
+        { "text": "He and Ana disagree about which role to pick.", "trap": "not_mentioned", "whyVi": "Hai bố con xem cùng nhau và không có bất đồng nào." },
+        { "text": "The list doesn't explain what each role involves.", "trap": "opposite", "whyVi": "Bảng mô tả khá chi tiết thời gian, yêu cầu và thể lực." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Ana and I have been poring over it, and it's turned into a bit of a puzzle.",
+      "explanationVi": "'a puzzle' = một câu đố khó. Phần còn lại của email lần lượt loại từng vai trò vì một lý do khác nhau. Suy ra: khó tìm được vai trò phù hợp với cả hai.",
+      "vocabulary": ["pore over"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "pore over", "vi": "nghiền ngẫm, đọc kỹ", "definition": "to read or study something very carefully", "example": "We pored over the volunteer list for an hour." },
+    { "term": "driver's abstract", "vi": "bản tóm tắt lý lịch lái xe", "definition": "an official record of a person's driving history", "example": "Delivery drivers must provide a clean driver's abstract." },
+    { "term": "criminal record check", "vi": "kiểm tra lý lịch tư pháp", "definition": "a police check to see whether someone has a criminal history", "example": "The greeter role requires a criminal record check." },
+    { "term": "no-go", "vi": "không thể, bị loại", "definition": "something that is not possible or not allowed", "example": "Weekday mornings are a no-go for us." },
+    { "term": "tied up", "vi": "bận rộn", "definition": "busy and unable to do anything else", "example": "I'm tied up at work until noon." },
+    { "term": "put your name down", "vi": "đăng ký, ghi tên", "definition": "to sign up for something", "example": "We put our names down for hamper packing." },
+    { "term": "carry on", "vi": "tiếp tục", "definition": "to continue doing something", "example": "She wants to carry on volunteering after the holidays." }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "s7-practice-06",
+  "kind": "speaking",
+  "taskType": "S7",
+  "setType": "practice",
+  "difficulty": 9,
+  "topic": "government",
+  "title": "Lowering the municipal voting age to 16",
+  "prompt": "A city councillor in British Columbia has proposed asking the province to lower the voting age for municipal elections from 18 to 16. She argues that young people are directly affected by local decisions on transit, parks and housing. Critics say most 16-year-olds are not ready to vote.\n\nDo you think 16- and 17-year-olds should be allowed to vote in municipal elections? Explain your reasons.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Confident position that also signals you have weighed the other side",
+    "Reason 1: local decisions affect teenagers directly (concrete examples)",
+    "Reason 2: voting as a lifelong habit (international examples, hedged)",
+    "Rebut the main criticism with a logical comparison",
+    "Add a positive consequence",
+    "Conclusion with a condition (civics education)"
+  ],
+  "modelAnswer": "I'd argue yes. Letting sixteen- and seventeen-year-olds vote in local elections is a reasonable step, and frankly, I think the arguments against it are weaker than they first appear.\n\nTo begin with, municipal decisions hit young people directly. City councils decide on bus routes, rec centre hours, skate parks and even how much new housing gets built, which shapes whether these teenagers can afford to stay in their hometown later on. It seems odd that they have no say at all, especially since many of them already have part-time jobs and pay sales tax like everyone else.\n\nBeyond that, there's the question of habit. Research from places like Austria and Scotland suggests that people who vote in their first eligible election tend to keep voting for life. At sixteen, most teens are still living at home and studying civics in school, so it's actually an ideal moment to build that habit, rather than at eighteen, when many have just moved away.\n\nOf course, critics say teenagers aren't mature enough or will simply copy their parents. But I'd point out that we don't test adults on their political knowledge before they vote, and plenty of grown-ups follow their family's views too. If anything, young voters might push candidates to take long-term issues, like climate and housing affordability, more seriously.\n\nSo, on balance, I'm convinced the benefits outweigh the risks, particularly if the change comes with stronger civics education in high schools.",
+  "usefulExpressions": [
+    {
+      "expression": "…the arguments against it are weaker than they first appear",
+      "usageVi": "Câu mở đầu tự tin, báo trước rằng bạn sẽ phản bác — phong cách Level 9."
+    },
+    {
+      "expression": "have no say (in something)",
+      "usageVi": "= không có tiếng nói, không có quyền quyết định; collocation quan trọng cho chủ đề chính quyền."
+    },
+    {
+      "expression": "Research from… suggests that…",
+      "usageVi": "Dẫn chứng có rào đón ('suggests'), không khẳng định quá mức."
+    },
+    {
+      "expression": "But I'd point out that…",
+      "usageVi": "Phản bác lịch sự bằng một phép so sánh hợp lý."
+    },
+    {
+      "expression": "If anything, …",
+      "usageVi": "= thậm chí ngược lại; dùng để lật ngược lập luận của phía bên kia."
+    },
+    {
+      "expression": "on balance",
+      "usageVi": "= xét tổng thể mọi mặt; mở đầu kết luận trang trọng."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ nói 'young people are smart now' — lý do chung chung. Hãy nêu quyết định cụ thể của hội đồng thành phố (xe buýt, công viên, nhà ở) ảnh hưởng thế nào đến tuổi teen.",
+    "Nói kết quả nghiên cứu như sự thật tuyệt đối. Dùng từ rào đón: 'suggests', 'tend to', 'might'.",
+    "Phát âm sai 'municipal' /mjuːˈnɪs.ɪ.pəl/ — trọng âm ở âm tiết thứ hai; và nuốt âm cuối của 'vote' /voʊt/."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked prompt accuracy (BC municipal voting age is 18 and set by the province; framed as a proposal), hedged research claim (Austria/Scotland), rebuttal, length 240. Fixed: replaced 'pay taxes on their wages' (many teen earners pay no net income tax) with 'pay sales tax like everyone else'."
+  },
+  "createdAt": "2026-11-03"
+}

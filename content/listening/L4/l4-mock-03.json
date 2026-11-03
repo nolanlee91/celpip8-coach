@@ -1,0 +1,255 @@
+{
+  "id": "l4-mock-03",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "education",
+  "title": "News: Later start time proposed for Prince George high schools",
+  "context": "You will hear a local radio news report about a proposed change to school hours in Prince George.",
+  "estimatedMinutes": 5,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "High school students in Prince George could soon be getting a little more sleep. The Northern Spruce School District is proposing to move the start of the secondary school day from eight-thirty to nine-fifteen, beginning next September."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Superintendent Carla Mbeki says the idea is backed by research showing that teenagers' body clocks naturally shift later. She says teachers have told her that their first-period classes are often half asleep, and attendance in that block is the lowest of the day."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "There's a practical side too. Because elementary and secondary students currently share the same buses, staggering the start times would let the district run fewer buses and use each one twice every morning. The district estimates savings of about three hundred and forty thousand dollars a year."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Not all families are convinced. Parent Jordan Whitehorse says a later finish would make it harder for his daughter to get to her part-time job and her hockey practices, which start at four. Other parents worry that younger children would end up home alone after elementary school lets out earlier."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The district is collecting feedback through an online survey until November twenty-eighth, and will hold an in-person meeting at Duchess Park Secondary on December third. Mbeki says nothing is final until the community has had its say, and trustees are expected to make a decision in January."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is the school district proposing?",
+          "options": [
+            {
+              "text": "Starting elementary classes later in the morning",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: thay đổi dành cho trường trung học (secondary), không phải tiểu học."
+            },
+            {
+              "text": "Shortening the school day for teenagers",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói rút ngắn ngày học, chỉ dời giờ bắt đầu."
+            },
+            {
+              "text": "Starting high school classes forty-five minutes later",
+              "trap": "none",
+              "whyVi": "Đúng: từ 8:30 dời sang 9:15, tức muộn hơn 45 phút."
+            },
+            {
+              "text": "Starting high school at eight-thirty from September",
+              "trap": "word_match",
+              "whyVi": "Bài có '8:30' và 'September' nhưng 8:30 là giờ hiện tại, không phải giờ mới."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "move the start of the secondary school day from eight-thirty to nine-fifteen",
+          "explanationVi": "Phải tự tính: 8:30 đến 9:15 là 45 phút. 'secondary school' được diễn đạt lại thành 'high school'.",
+          "vocabulary": [
+            "secondary school"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "What have teachers told the superintendent?",
+          "options": [
+            {
+              "text": "Students most often skip the last class of the day.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: tỷ lệ đi học thấp nhất là tiết ĐẦU tiên."
+            },
+            {
+              "text": "Teachers would also like to start work later.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói giáo viên muốn bắt đầu muộn."
+            },
+            {
+              "text": "Half of the students miss their first class.",
+              "trap": "word_match",
+              "whyVi": "Bài có từ 'half' trong 'half asleep' (ngái ngủ), không phải một nửa học sinh vắng."
+            },
+            {
+              "text": "Students in their first class are often not fully awake.",
+              "trap": "none",
+              "whyVi": "Đúng: 'half asleep' = buồn ngủ, chưa tỉnh hẳn."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "their first-period classes are often half asleep",
+          "explanationVi": "'half asleep' là thành ngữ = ngái ngủ. Đáp án D diễn đạt lại thành 'not fully awake'. Lựa chọn C bẫy bằng cách hiểu sai chữ 'half'.",
+          "vocabulary": [
+            "half asleep"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "How would the change save the district money?",
+          "options": [
+            {
+              "text": "The district would stop busing high school students.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói ngừng xe buýt cho học sinh trung học."
+            },
+            {
+              "text": "Each bus could be used for more than one trip in the morning.",
+              "trap": "none",
+              "whyVi": "Đúng: lệch giờ bắt đầu giúp mỗi xe chạy hai lượt mỗi sáng, nên cần ít xe hơn."
+            },
+            {
+              "text": "Buses would only run in the afternoon.",
+              "trap": "wrong_detail",
+              "whyVi": "Sai: bài nói xe dùng hai lần mỗi buổi sáng."
+            },
+            {
+              "text": "Elementary and secondary students would start sharing buses.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: hiện tại hai nhóm đã đi chung xe; thay đổi sẽ tách lượt chạy."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "staggering the start times would let the district run fewer buses and use each one twice every morning",
+          "explanationVi": "'stagger' = xếp lệch giờ. 'use each one twice every morning' được diễn đạt lại thành 'more than one trip in the morning'.",
+          "vocabulary": [
+            "stagger"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What is Jordan Whitehorse concerned about?",
+          "options": [
+            {
+              "text": "A later end to the school day would clash with his daughter's activities.",
+              "trap": "none",
+              "whyVi": "Đúng: tan học muộn khiến con gái khó kịp đi làm thêm và tập hockey lúc 4 giờ."
+            },
+            {
+              "text": "His daughter would have to look after younger children.",
+              "trap": "wrong_speaker",
+              "whyVi": "Mối lo về trẻ nhỏ ở nhà một mình là của các phụ huynh khác."
+            },
+            {
+              "text": "His daughter's hockey practices would be cancelled.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'hockey practices' nhưng không nói bị hủy."
+            },
+            {
+              "text": "His daughter would not get enough sleep.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: đề xuất nhằm giúp học sinh ngủ nhiều hơn; ông không lo về giấc ngủ."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "a later finish would make it harder for his daughter to get to her part-time job and her hockey practices",
+          "explanationVi": "'a later finish' = tan học muộn hơn; 'make it harder to get to' được diễn đạt lại thành 'clash with' (trùng giờ, xung đột).",
+          "vocabulary": [
+            "let out"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "When will a final decision be made?",
+          "options": [
+            {
+              "text": "On December third",
+              "trap": "wrong_detail",
+              "whyVi": "Ngày 3/12 là buổi họp trực tiếp với cộng đồng."
+            },
+            {
+              "text": "On November twenty-eighth",
+              "trap": "wrong_detail",
+              "whyVi": "Đây là hạn chót của khảo sát trực tuyến."
+            },
+            {
+              "text": "In the new year, after the public has been consulted",
+              "trap": "none",
+              "whyVi": "Đúng: hội đồng quyết định vào tháng 1, sau khi cộng đồng góp ý."
+            },
+            {
+              "text": "Next September",
+              "trap": "wrong_detail",
+              "whyVi": "Tháng 9 là lúc giờ học mới có thể bắt đầu, không phải lúc quyết định."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "trustees are expected to make a decision in January",
+          "explanationVi": "Bài có bốn mốc thời gian. Chỉ 'January' là lúc ra quyết định; đáp án C diễn đạt lại thành 'in the new year' và 'nothing is final until the community has had its say' thành 'after the public has been consulted'.",
+          "vocabulary": [
+            "have a say"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "secondary school",
+      "vi": "trường trung học",
+      "definition": "a school for students aged about 12 to 18",
+      "example": "The secondary school day would start at nine-fifteen."
+    },
+    {
+      "term": "half asleep",
+      "vi": "ngái ngủ",
+      "definition": "very tired and not fully awake",
+      "example": "First-period classes are often half asleep."
+    },
+    {
+      "term": "stagger",
+      "vi": "xếp lệch giờ",
+      "definition": "arrange events so they do not all happen at the same time",
+      "example": "Staggering start times lets buses make two trips."
+    },
+    {
+      "term": "let out",
+      "vi": "tan học, tan làm",
+      "definition": "finish, so that people can leave",
+      "example": "Elementary school lets out earlier in the afternoon."
+    },
+    {
+      "term": "have a say",
+      "vi": "có tiếng nói, được góp ý",
+      "definition": "have the right to give your opinion on a decision",
+      "example": "Residents want to have a say before trustees decide."
+    },
+    {
+      "term": "body clock",
+      "vi": "đồng hồ sinh học",
+      "definition": "the natural system that controls when you feel sleepy or awake",
+      "example": "Teenagers' body clocks shift later."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 5 independently; keys match (CDBAC); 8:30 to 9:15 = 45 minutes checks out, bus-staggering logic and timeline consistent. School district is fictional; Duchess Park Secondary used only as a meeting venue. No changes needed."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

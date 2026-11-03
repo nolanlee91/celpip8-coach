@@ -1,0 +1,263 @@
+{
+  "id": "l4-mock-05",
+  "kind": "listening",
+  "taskType": "L4",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "workplace",
+  "title": "News: Prince Rupert seafood plant to close its processing line",
+  "context": "You will hear a local radio news report about job losses at a seafood plant in Prince Rupert.",
+  "estimatedMinutes": 5,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "About a hundred and eighty workers at North Coast Seafoods in Prince Rupert learned yesterday that this season will be their last. The company says it will shut its salmon processing line for good in February, blaming several years of weak salmon returns and the high cost of shipping its product to markets overseas."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The plant has been one of the city's biggest private employers for more than forty years, and many of the people on the line are second or even third-generation cannery workers. Union representative Marlene Gosnell says the news didn't come entirely out of the blue, since shifts have been shrinking for a while, but she says the company owes its workers more than the minimum severance required by law."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "There may be some good news on the horizon. Terminal operators at the port are in the middle of a major expansion, and expect to hire around two hundred people over the next eighteen months, mostly in equipment operation and logistics. Skeena Coast College has agreed to offer free twelve-week training courses for laid-off plant employees, starting in March."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "Not everyone sees that as a good fit. Plant worker Reggie Sampson, who is fifty-eight, says learning to run a crane at his age isn't what he had in mind, and he's worried the port jobs will go to younger applicants."
+        },
+        {
+          "speaker": "News reader",
+          "voice": "narrator",
+          "text": "The company says it will keep a crew of about twenty to run its smaller seafood freezing operation."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why is North Coast Seafoods closing its processing line?",
+          "options": [
+            {
+              "text": "It cannot find enough workers to staff the plant.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói thiếu công nhân."
+            },
+            {
+              "text": "The new port terminal needs the land.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài nhắc tới cảng mở rộng nhưng không liên quan việc nhà máy đóng cửa."
+            },
+            {
+              "text": "Low fish numbers and expensive export costs have hurt the business.",
+              "trap": "none",
+              "whyVi": "Đúng: 'weak salmon returns' (cá hồi về ít) và 'high cost of shipping... overseas' (chi phí xuất khẩu cao)."
+            },
+            {
+              "text": "The union demanded higher severance payments.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'severance' nhưng là yêu cầu SAU khi có tin đóng cửa, không phải nguyên nhân."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "blaming several years of weak salmon returns and the high cost of shipping its product to markets overseas",
+          "explanationVi": "'blaming' báo hiệu nguyên nhân. 'weak salmon returns' = 'low fish numbers', 'shipping to markets overseas' = 'export costs'.",
+          "vocabulary": [
+            "for good"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "How did Marlene Gosnell react to the news?",
+          "options": [
+            {
+              "text": "She was not completely surprised, but thinks workers deserve more.",
+              "trap": "none",
+              "whyVi": "Đúng: 'didn't come entirely out of the blue' = không hoàn toàn bất ngờ; công ty nợ công nhân nhiều hơn mức tối thiểu."
+            },
+            {
+              "text": "She was shocked because shifts had been increasing.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: ca làm đã giảm dần nên bà không quá bất ngờ."
+            },
+            {
+              "text": "She is satisfied with the severance the company is offering.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà cho rằng mức trợ cấp tối thiểu là chưa đủ."
+            },
+            {
+              "text": "She blames the workers for refusing extra shifts.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói công nhân từ chối ca làm."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "the news didn't come entirely out of the blue, since shifts have been shrinking for a while",
+          "explanationVi": "Thành ngữ 'out of the blue' = bất ngờ; 'didn't come entirely out of the blue' = không hoàn toàn bất ngờ. Kết hợp với ý 'owes its workers more' để chọn A.",
+          "vocabulary": [
+            "out of the blue",
+            "severance"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does the report say about the port jobs?",
+          "options": [
+            {
+              "text": "The port will hire all of the laid-off plant workers.",
+              "trap": "too_broad",
+              "whyVi": "Quá rộng: cảng tuyển khoảng 200 người nói chung, không hứa nhận tất cả công nhân nhà máy."
+            },
+            {
+              "text": "The jobs will be available within twelve weeks.",
+              "trap": "wrong_detail",
+              "whyVi": "12 tuần là độ dài khóa đào tạo, việc tuyển kéo dài 18 tháng."
+            },
+            {
+              "text": "The port employers will train workers for free.",
+              "trap": "wrong_speaker",
+              "whyVi": "Khóa học miễn phí do trường Skeena Coast College tổ chức, không phải cảng."
+            },
+            {
+              "text": "Most of the positions involve running machinery or moving goods.",
+              "trap": "none",
+              "whyVi": "Đúng: 'mostly in equipment operation and logistics'."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "expect to hire around two hundred people over the next eighteen months, mostly in equipment operation and logistics",
+          "explanationVi": "'equipment operation' = 'running machinery', 'logistics' = 'moving goods'. Nhiều con số (200, 18 tháng, 12 tuần) dễ gây nhầm.",
+          "vocabulary": [
+            "logistics",
+            "on the horizon"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "How does Reggie Sampson feel about the new opportunities?",
+          "options": [
+            {
+              "text": "He is excited to learn how to operate a crane.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: 'isn't what he had in mind' = không phải điều ông mong muốn."
+            },
+            {
+              "text": "He doubts they suit him and fears his age will count against him.",
+              "trap": "none",
+              "whyVi": "Đúng: ông không muốn học lái cần cẩu ở tuổi này và lo việc làm sẽ dành cho người trẻ."
+            },
+            {
+              "text": "He plans to retire when the plant closes.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông không nói sẽ nghỉ hưu."
+            },
+            {
+              "text": "He thinks the port jobs will not pay enough.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc tới lương ở cảng."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "learning to run a crane at his age isn't what he had in mind, and he's worried the port jobs will go to younger applicants",
+          "explanationVi": "'isn't what he had in mind' = không đúng ý muốn; 'jobs will go to younger applicants' được diễn đạt lại thành 'his age will count against him'.",
+          "vocabulary": [
+            "have in mind"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What part of the company's operations will continue?",
+          "options": [
+            {
+              "text": "The salmon processing line, with a smaller staff",
+              "trap": "word_match",
+              "whyVi": "Sai: dây chuyền chế biến cá hồi đóng cửa vĩnh viễn; bộ phận còn lại là cấp đông."
+            },
+            {
+              "text": "A training program for new cannery workers",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói công ty đào tạo công nhân mới."
+            },
+            {
+              "text": "A limited freezing operation with a small team",
+              "trap": "none",
+              "whyVi": "Đúng: giữ khoảng 20 người để vận hành bộ phận cấp đông hải sản nhỏ hơn."
+            },
+            {
+              "text": "The whole plant, once salmon numbers recover",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói nhà máy sẽ mở lại khi cá hồi phục hồi."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "missed_info",
+          "evidence": "it will keep a crew of about twenty to run its smaller seafood freezing operation",
+          "explanationVi": "Câu cuối dễ bị bỏ lỡ. 'a crew of about twenty' = 'a small team', 'smaller seafood freezing operation' = 'a limited freezing operation'.",
+          "vocabulary": [
+            "crew"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "for good",
+      "vi": "vĩnh viễn",
+      "definition": "permanently",
+      "example": "The processing line will close for good in February."
+    },
+    {
+      "term": "out of the blue",
+      "vi": "bất ngờ, không báo trước",
+      "definition": "suddenly and unexpectedly",
+      "example": "The news didn't come entirely out of the blue."
+    },
+    {
+      "term": "severance",
+      "vi": "trợ cấp thôi việc",
+      "definition": "money paid to a worker who loses their job",
+      "example": "The union wants more than the minimum severance."
+    },
+    {
+      "term": "on the horizon",
+      "vi": "sắp tới",
+      "definition": "likely to happen soon",
+      "example": "There may be good news on the horizon."
+    },
+    {
+      "term": "logistics",
+      "vi": "hậu cần, vận chuyển hàng hóa",
+      "definition": "the organization of moving and storing goods",
+      "example": "Many port jobs are in logistics."
+    },
+    {
+      "term": "have in mind",
+      "vi": "dự định, mong muốn",
+      "definition": "be thinking of or planning something",
+      "example": "Running a crane isn't what he had in mind."
+    },
+    {
+      "term": "crew",
+      "vi": "nhóm công nhân",
+      "definition": "a group of people who work together",
+      "example": "A crew of twenty will run the freezer."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 5 independently; keys match (CADBC), evidence and whyVi accurate. Replaced the claim that the real Prince Rupert port authority is hiring 200 people with unnamed \"terminal operators at the port\", updating Q3 evidence and option C; company and college are fictional."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

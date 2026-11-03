@@ -1,0 +1,78 @@
+{
+  "id": "s5-practice-06",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "practice",
+  "difficulty": 9,
+  "topic": "community-services",
+  "title": "Choosing an English program for a newcomer cousin",
+  "prompt": "Your cousin Linh has just moved to Kelowna as a permanent resident. She wants to improve her English quickly so she can find work as an accountant. You have found two programs for her. Choose the program you prefer. Then persuade your uncle, Linh's father, who prefers the other program, that your choice is better for her.",
+  "svg": null,
+  "options": [
+    {
+      "title": "Free settlement English classes at the Okanagan Newcomer Centre",
+      "details": [
+        "Free for permanent residents (government-funded)",
+        "Monday to Thursday, 6:00–8:30 p.m.; 14-week term; up to 22 students per class",
+        "Includes free resumé and job-search workshops",
+        "Waitlist: next available spot is in January (about 10 weeks away)"
+      ]
+    },
+    {
+      "title": "Intensive English at Okanagan Valley College",
+      "details": [
+        "$2,850 CAD per 10-week term",
+        "Monday to Friday, 9:00 a.m.–1:00 p.m.; maximum 12 students per class",
+        "Certificate accepted for admission to the college's accounting diploma",
+        "Starts next Monday"
+      ]
+    }
+  ],
+  "structure": [
+    "Respect your uncle's view (cost, job workshops) and state your choice clearly.",
+    "Reason 1: time — starting now and 20 hours a week vs waiting 10 weeks for 10 hours a week; compare the total hours.",
+    "Reason 2: the certificate links directly to her career goal (accounting diploma); smaller classes.",
+    "Neutralise the cost argument (an investment that pays off) and the workshop advantage with a compromise; end with a clear request."
+  ],
+  "modelAnswer": "Uncle Hai, I completely understand why the free classes appeal to you, and I'd never suggest spending money lightly. But for Linh, I genuinely believe the college program is worth every penny. The real issue here is time. With the free classes, she'd wait ten weeks for a spot, and even then it's only ten hours a week. The college starts on Monday, and it's twenty hours a week, so by January she'd already have finished a whole term. Every month she isn't working as an accountant is a month of lost income, which, frankly, dwarfs twenty-eight fifty. More importantly, the certificate is her ticket into the college's accounting diploma, and that's exactly the Canadian credential employers here look for. In a class of twelve rather than twenty-two, she'd also get far more speaking practice. I know the job-search workshops are a big draw, but couldn't she put her name on the waitlist anyway and join them in January? That way, she gets the best of both worlds. Would you be willing to give it a shot?",
+  "usefulExpressions": [
+    {
+      "expression": "I'd never suggest spending money lightly. But…",
+      "usageVi": "Cho người kia thấy bạn tôn trọng nỗi lo về tiền trước khi khuyên chi tiền"
+    },
+    {
+      "expression": "…is worth every penny.",
+      "usageVi": "Thành ngữ: đáng đồng tiền bát gạo — khẳng định giá trị của lựa chọn đắt hơn"
+    },
+    {
+      "expression": "The real issue here is…",
+      "usageVi": "Chuyển trọng tâm cuộc tranh luận sang điểm mạnh nhất của bạn"
+    },
+    {
+      "expression": "…which, frankly, dwarfs…",
+      "usageVi": "'Dwarf' (động từ) = làm cho cái kia trở nên nhỏ bé; so sánh mạnh ở Level 9"
+    },
+    {
+      "expression": "…is her ticket into…",
+      "usageVi": "'Ticket into' = tấm vé, con đường dẫn tới (cơ hội); cách nói hình ảnh, tự nhiên"
+    },
+    {
+      "expression": "That way, she gets the best of both worlds.",
+      "usageVi": "Đưa ra giải pháp kết hợp ưu điểm của cả hai phương án"
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ nói 'free is bad' hoặc chê lớp miễn phí; người nghe là bác của bạn, nên cần tôn trọng và công nhận ưu điểm (miễn phí, có hội thảo tìm việc) trước.",
+    "Không so sánh tổng số giờ học: 4 giờ × 5 ngày = 20 giờ/tuần so với 2,5 giờ × 4 ngày = 10 giờ/tuần. Phép tính đơn giản này làm lập luận thuyết phục hơn nhiều.",
+    "Bỏ quên mục tiêu nghề nghiệp của Linh (kế toán). Lý do mạnh nhất luôn gắn với mục tiêu nêu trong đề bài.",
+    "Phát âm 'résumé' sai thành 'resume' (/rɪˈzuːm/ = tiếp tục); danh từ 'sơ yếu lý lịch' đọc là /ˈrez.ə.meɪ/."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Verified hours (Mon-Thu 2.5 h = 10 h/week vs Mon-Fri 4 h = 20 h/week), 10-week term finishing by January, and that free LINC-style classes for PRs are realistic. Corrected the cost figure ('twenty-eight hundred' -> 'twenty-eight fifty' to match $2,850) and trimmed 184 -> 177 words."
+  },
+  "createdAt": "2026-11-03"
+}

@@ -1,0 +1,139 @@
+{
+  "id": "l3-mock-04",
+  "kind": "listening",
+  "taskType": "L3",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "housing",
+  "title": "Move-in rules at a condo building",
+  "context": "You will hear a new tenant talking to the resident manager of a condo building in New Westminster, who also manages her rental unit for the owner, about her upcoming move.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Ama", "voice": "female_a", "text": "Hi, Rick. I signed the lease on Monday, and I'm trying to nail down the details for moving day. My movers are pencilled in for Saturday the fourteenth." },
+        { "speaker": "Rick", "voice": "male_b", "text": "Welcome to the building, Ama. Okay, so let's talk about the elevator first, because that's where people usually run into trouble. You'll need to book the freight elevator. Bookings are in two-hour blocks, weekdays between nine and five." },
+        { "speaker": "Ama", "voice": "female_a", "text": "Weekdays only? Oh no." },
+        { "speaker": "Rick", "voice": "male_b", "text": "Saturdays are possible, but only between ten and noon, and the strata charges fifty dollars, because I have to come in to unlock it. If your movers can't fit into that window, you'd honestly be better off moving on a weekday." },
+        { "speaker": "Ama", "voice": "female_a", "text": "I'll check with them. Is there a deposit for the elevator?" },
+        { "speaker": "Rick", "voice": "male_b", "text": "Yes, the strata requires a two-hundred-dollar move-in deposit, sent by e-transfer. Keep in mind it's separate from the damage deposit you paid the owner. You get it back once I've checked that the elevator and the hallways are in the same shape they were before." },
+        { "speaker": "Rick", "voice": "male_b", "text": "Before you bring anything in, we'll do the move-in inspection together. We go room by room, note anything that's already damaged, and we both sign the condition report. I'd also take your own photos. If there's ever a disagreement when you move out, that report is what we go by." },
+        { "speaker": "Ama", "voice": "female_a", "text": "Okay. And keys?" },
+        { "speaker": "Rick", "voice": "male_b", "text": "You get one key for the suite and two fobs, which open the front door, the parkade and the bike room. Extra fobs are seventy-five dollars each. If you lose one, let me know right away so I can deactivate it." },
+        { "speaker": "Ama", "voice": "female_a", "text": "Speaking of the parkade, I didn't see parking in my lease." },
+        { "speaker": "Rick", "voice": "male_b", "text": "That's right, it's not included. Stalls are sixty-five a month, but there's a waitlist. It's moving, but slowly, so I'd put your name down today. In the meantime, there's street parking, and visitor parking is for guests only, three hours max. Tenants who park there do get towed." },
+        { "speaker": "Ama", "voice": "female_a", "text": "Good to know. Anything else I need before I get the keys?" },
+        { "speaker": "Rick", "voice": "male_b", "text": "Tenant insurance. It's a condition of the lease, and it has to include at least a million dollars in liability coverage. Email me the certificate before move-in day, and please don't leave it to the last minute. I'm really strict about that one, because if a pipe bursts in your unit, the damage downstairs adds up fast." },
+        { "speaker": "Ama", "voice": "female_a", "text": "Right. I'll call my insurance company this afternoon." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What problem does Ama's original moving plan have?",
+          "options": [
+            { "text": "Her movers are not available on weekdays.", "trap": "not_mentioned", "whyVi": "Ama chưa biết lịch của thợ chuyển nhà; cô nói sẽ hỏi lại họ." },
+            { "text": "The freight elevator is normally reserved for weekday moves.", "trap": "none", "whyVi": "Đúng: cô định chuyển vào thứ Bảy, nhưng thang máy hàng chủ yếu cho đặt vào ngày thường." },
+            { "text": "Elevator bookings must be made two weeks in advance.", "trap": "word_match", "whyVi": "'Two' trong bài là khung 2 giờ, không phải 2 tuần đặt trước." },
+            { "text": "She has not yet signed her lease.", "trap": "opposite", "whyVi": "Cô đã ký hợp đồng vào thứ Hai." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "Bookings are in two-hour blocks, weekdays between nine and five.",
+          "explanationVi": "Ama định chuyển 'Saturday the fourteenth', nhưng thang máy đặt theo 'weekdays'. Phản ứng 'Weekdays only? Oh no.' xác nhận đây là vấn đề.",
+          "vocabulary": ["freight elevator", "pencil in"]
+        },
+        {
+          "number": 2,
+          "prompt": "What does Rick imply about moving on a Saturday?",
+          "options": [
+            { "text": "It is not allowed under any circumstances.", "trap": "opposite", "whyVi": "Rick nói thứ Bảy vẫn được, từ 10 giờ đến trưa." },
+            { "text": "It is free if the move is finished by noon.", "trap": "opposite", "whyVi": "Thứ Bảy luôn tốn thêm 50 đô." },
+            { "text": "It costs extra because the elevator is serviced on weekends.", "trap": "wrong_detail", "whyVi": "Phí 50 đô là vì Rick phải đến mở khóa thang máy, không phải vì bảo trì thang máy." },
+            { "text": "It may be more trouble than it's worth because of the short time slot.", "trap": "none", "whyVi": "Đúng: chỉ có 2 tiếng và tốn 50 đô; anh nói nếu không kịp thì nên chuyển vào ngày thường." }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "If your movers can't fit into that window, you'd honestly be better off moving on a weekday.",
+          "explanationVi": "'You'd honestly be better off' là lời khuyên gián tiếp cho thấy anh không ủng hộ chuyển vào thứ Bảy vì khung giờ ngắn (10 giờ–trưa) và phí 50 đô.",
+          "vocabulary": ["be better off"]
+        },
+        {
+          "number": 3,
+          "prompt": "What will determine whether Ama gets her two hundred dollars back?",
+          "options": [
+            { "text": "The condition of the shared areas after her move.", "trap": "none", "whyVi": "Đúng: tiền được trả khi thang máy và hành lang vẫn nguyên như trước." },
+            { "text": "The results of the room-by-room inspection.", "trap": "wrong_detail", "whyVi": "Biên bản kiểm tra từng phòng liên quan đến căn hộ và tiền cọc hư hại, không phải khoản 200 đô." },
+            { "text": "Whether she pays her damage deposit on time.", "trap": "word_match", "whyVi": "Khoản này tách riêng với tiền cọc hư hại." },
+            { "text": "Whether she sends the money by e-transfer.", "trap": "word_match", "whyVi": "E-transfer chỉ là cách gửi tiền, không phải điều kiện hoàn tiền." }
+          ],
+          "answerIndex": 0,
+          "category": "similar_choices",
+          "evidence": "You get it back once I've checked that the elevator and the hallways are in the same shape they were before.",
+          "explanationVi": "'The elevator and the hallways' = khu vực chung ('shared areas'); 'in the same shape' = tình trạng như cũ. Cần phân biệt với biên bản kiểm tra căn hộ.",
+          "vocabulary": ["move-in deposit", "damage deposit"]
+        },
+        {
+          "number": 4,
+          "prompt": "Why does Rick mention the condition report?",
+          "options": [
+            { "text": "Ama must fill it out alone after she moves in.", "trap": "opposite", "whyVi": "Họ làm cùng nhau và cả hai cùng ký." },
+            { "text": "It replaces the need for Ama to take photos.", "trap": "opposite", "whyVi": "Rick vẫn khuyên cô tự chụp ảnh." },
+            { "text": "It will be used to settle disputes at the end of the tenancy.", "trap": "none", "whyVi": "Đúng: khi trả nhà nếu có tranh chấp thì căn cứ vào biên bản đó." },
+            { "text": "It lists the repairs he plans to do before she arrives.", "trap": "not_mentioned", "whyVi": "Không nói về sửa chữa." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "If there's ever a disagreement when you move out, that report is what we go by.",
+          "explanationVi": "'Disagreement when you move out' ↔ 'disputes at the end of the tenancy'; 'what we go by' = căn cứ để giải quyết.",
+          "vocabulary": ["condition report", "go by"]
+        },
+        {
+          "number": 5,
+          "prompt": "What does Rick recommend about parking?",
+          "options": [
+            { "text": "Using the visitor spaces until a stall is free.", "trap": "opposite", "whyVi": "Chỗ khách chỉ cho khách; người thuê đỗ ở đó sẽ bị kéo xe." },
+            { "text": "Joining the waiting list without delay.", "trap": "none", "whyVi": "Đúng: 'I'd put your name down today' – đăng ký danh sách chờ ngay hôm nay." },
+            { "text": "Adding a parking stall to her lease.", "trap": "not_mentioned", "whyVi": "Không nói có thể thêm vào hợp đồng; chỗ đỗ phải chờ." },
+            { "text": "Buying an extra fob for the parkade.", "trap": "word_match", "whyVi": "Fob đã mở được hầm đỗ xe; mua thêm fob không liên quan." }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "It's moving, but slowly, so I'd put your name down today.",
+          "explanationVi": "'Put your name down' = ghi tên vào danh sách chờ; 'today' ↔ 'without delay'.",
+          "vocabulary": ["waitlist", "put your name down"]
+        },
+        {
+          "number": 6,
+          "prompt": "Why is Rick strict about tenant insurance?",
+          "options": [
+            { "text": "The building's own insurance has recently gone up.", "trap": "not_mentioned", "whyVi": "Không nhắc tới bảo hiểm của tòa nhà tăng giá." },
+            { "text": "Tenants often lose their keys and fobs.", "trap": "word_match", "whyVi": "Chuyện mất fob được nói ở phần khác, không liên quan bảo hiểm." },
+            { "text": "Ama has told him she does not have a policy.", "trap": "not_mentioned", "whyVi": "Ama không nói cô không có bảo hiểm; cô chỉ nói sẽ gọi công ty bảo hiểm." },
+            { "text": "A problem in one unit can cause costly damage to others.", "trap": "none", "whyVi": "Đúng: nếu ống nước vỡ, thiệt hại ở căn bên dưới tăng rất nhanh." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "I'm really strict about that one, because if a pipe bursts in your unit, the damage downstairs adds up fast.",
+          "explanationVi": "Lý do nằm sau 'because': ống vỡ trong căn hộ gây thiệt hại cho tầng dưới. 'Adds up fast' ↔ 'costly'; 'downstairs' ↔ 'others'.",
+          "vocabulary": ["liability coverage", "add up"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "pencil in", "vi": "xếp lịch tạm thời", "definition": "to arrange something that may change later", "example": "My movers are pencilled in for Saturday." },
+    { "term": "freight elevator", "vi": "thang máy chở hàng", "definition": "a large elevator used for moving goods and furniture", "example": "You'll need to book the freight elevator." },
+    { "term": "be better off", "vi": "sẽ tốt hơn (nếu làm khác)", "definition": "to be in a better situation by choosing something", "example": "You'd be better off moving on a weekday." },
+    { "term": "damage deposit", "vi": "tiền cọc hư hại", "definition": "money a tenant pays that is returned if the unit is not damaged", "example": "The move-in deposit is separate from your damage deposit." },
+    { "term": "move-in deposit", "vi": "tiền cọc chuyển nhà vào", "definition": "a refundable payment that covers damage to common areas during a move", "example": "There's a two-hundred-dollar move-in deposit." },
+    { "term": "condition report", "vi": "biên bản tình trạng nhà", "definition": "a written record of a unit's condition at move-in or move-out", "example": "We both sign the condition report." },
+    { "term": "go by", "vi": "căn cứ vào", "definition": "to use something as a guide for a decision", "example": "That report is what we go by." },
+    { "term": "put your name down", "vi": "ghi tên đăng ký", "definition": "to add yourself to a list", "example": "I'd put your name down on the waitlist today." },
+    { "term": "liability coverage", "vi": "bảo hiểm trách nhiệm dân sự", "definition": "insurance that pays if you cause damage or injury to others", "example": "It must include a million dollars in liability coverage." },
+    { "term": "add up", "vi": "cộng dồn lại, tăng lên", "definition": "to increase gradually to a large amount", "example": "The damage downstairs adds up fast." }
+  ],
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 6 Qs; keys matched. BC legal fix: a landlord-collected refundable move-in deposit and Saturday fee would conflict with the Residential Tenancy Act, so the setting is now a condo (strata) building whose manager also manages the unit for the owner, and the deposit/fee come from the strata. Softened 'No certificate, no keys' (withholding keys is legally risky) to 'I'm really strict about that one'; Q6 evidence updated; Q3 option D trap relabelled word_match. Speaker names used in questions are now spoken in the audio (self-introductions/greetings added)." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

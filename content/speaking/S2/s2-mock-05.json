@@ -1,0 +1,54 @@
+{
+  "id": "s2-mock-05",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "Changing a habit for the environment",
+  "prompt": "Talk about a time when you changed one of your daily habits to help the environment. What made you decide to change, how difficult was it, and what difference has it made?",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "The old habit + the trigger that made you change",
+    "How you changed (practical steps)",
+    "What was difficult and how you got used to it",
+    "The difference it has made (environment, money, health)"
+  ],
+  "modelAnswer": "Up until about two years ago, I drove to work every single day, even though my office in downtown Vancouver is only about eight kilometres from my place. What finally made me change was the summer of the wildfires. For nearly a week, the sky was orange and the air was so smoky that my daughter couldn't play outside. That really hit home for me.\n\nSo, I decided to start cycling to work at least three days a week. I picked up a second-hand bike for around three hundred dollars, and I found a route that mostly follows the bike lanes along the seawall.\n\nHonestly, the first few weeks were tough. I'd arrive sweaty, and riding in the rain was miserable. But once my company installed showers, and I invested in a decent rain jacket, it became part of my routine.\n\nNow, I hardly ever use the car on weekdays. I'm saving roughly a hundred and fifty dollars a month on gas and parking, I've lost a few kilos, and I feel like I'm doing my small part to cut down on emissions.",
+  "usefulExpressions": [
+    {
+      "expression": "Up until about two years ago, …",
+      "usageVi": "Mở đầu bằng thói quen cũ — tạo đối lập rõ với hiện tại."
+    },
+    {
+      "expression": "That really hit home for me.",
+      "usageVi": "'Hit home' = khiến mình thấm thía, nhận ra thật sự — thành ngữ rất tự nhiên."
+    },
+    {
+      "expression": "I picked up a second-hand bike",
+      "usageVi": "'Pick up' = mua (thường với giá rẻ) — phrasal verb thông dụng."
+    },
+    {
+      "expression": "it became part of my routine",
+      "usageVi": "Diễn tả quá trình quen dần với thói quen mới."
+    },
+    {
+      "expression": "doing my small part to cut down on emissions",
+      "usageVi": "'Do my part' = góp phần; 'cut down on' = cắt giảm — kết thúc khiêm tốn, tự nhiên."
+    }
+  ],
+  "commonMistakes": [
+    "Nói chung chung 'I care about the environment' mà không có sự kiện cụ thể làm mình thay đổi (trigger). Đề hỏi 'what made you decide'.",
+    "Dùng sai thì ở phần kết: ý 'what difference has it made' cần hiện tại hoàn thành/hiện tại ('I've lost', 'I'm saving').",
+    "Nói 'I go to work by bicycle' cũng đúng nhưng hơi cứng; 'I cycle to work' hoặc 'I bike to work' tự nhiên hơn."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked trigger (wildfire smoke, realistic for BC), difficulty and difference made, with present perfect in the result part; length 183; figures plausible. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

@@ -1,0 +1,205 @@
+{
+  "id": "r1-mock-03",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "Thinking of trading the car for an e-bike",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 11 items independently before checking keys; all keys matched and each blank was tested with every option for grammar and meaning. Checked evidence, trap labels, Vietnamese explanations, word counts (286/169) and Victoria-area details (Langford, Colwood crawl, Galloping Goose, ICBC). Only change: reordered options in Q5, Q6, Q7, Q10 and Q11 to break the repeating C-A-D-B key pattern (new keys C A D B B D A B C D A); no wording changed." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a friend",
+      "kind": "text",
+      "text": "Hi Tomás,\n\nI hope the new job at the brewery is treating you well. I've been meaning to write for weeks, but things have been hectic since my car insurance renewal arrived. ICBC wants $2,140 for the year, which is about $400 more than last time, and that was the push I needed to finally think seriously about selling the Corolla.\n\nHere's my situation. I live in Langford and work near the legislature, so it's roughly 18 kilometres each way. Driving takes me 35 minutes on a good day and closer to an hour when the Colwood crawl is at its worst. Parking downtown costs me another $160 a month. The bus is an option, but I'd have to transfer at the exchange, and the last time I tried it, the whole trip took well over an hour.\n\nYou've been riding your e-bike to work for two years now, so you're the person I trust most on this. I've read that the Galloping Goose trail goes almost the whole way, but I'm honestly not sure I could face it in November when it's pouring and dark by five. Do you actually ride all winter, or do you give in and take the bus some days? I'm also wondering about theft. My office has a locked bike cage, but I've heard horror stories about batteries being stolen.\n\nOne more thing: I saw that there's a program offering a rebate on e-bikes for people who scrap or sell an older vehicle. Did you get anything like that when you bought yours?\n\nI don't want to rush into this and regret it in February, so any honest advice would be welcome, the good and the bad.\n\nTake care,\nIngrid",
+      "table": null
+    },
+    {
+      "label": "Reply",
+      "kind": "text",
+      "text": "Hi Ingrid,\n\nGreat to hear from you! Honestly, selling the van was the best decision I've made, but you asked for the bad as well, so here it is.\n\nYes, I ride all year, though I'd be lying if I said I never [[7]]. On the very worst mornings, maybe five or six a winter, I leave the bike at home. Good rain pants and bright lights make the rest bearable, and the trail is lit along most of your route anyway.\n\nAs for theft, the cage at your office is a good start, but I'd also recommend that you [[8]]. Mine slides out in two seconds and sits under my desk all day.\n\nAbout the rebate: I bought my bike a month before I got rid of my old van, so I [[9]]. Read the rules carefully before you do anything with the Corolla.\n\nMy advice? Before you [[10]], borrow my spare bike for a week in November. If you can [[11]], you'll know you're ready.\n\nCheers,\nTomás",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Why is Ingrid writing to Tomás?",
+      "options": [
+        { "text": "To ask Tomás to help her find a buyer for her car", "trap": "word_match", "whyVi": "Thư có nhắc 'selling the Corolla', nhưng Ingrid không nhờ Tomás tìm người mua." },
+        { "text": "To complain about how much ICBC is charging her", "trap": "partially_true", "whyVi": "Phí bảo hiểm tăng chỉ là lý do khiến cô bắt đầu suy nghĩ, không phải mục đích chính của thư." },
+        { "text": "To get a frank opinion from someone experienced before she decides", "trap": "none", "whyVi": "Đúng: cô viết cho Tomás vì anh đã đi xe đạp điện hai năm ('the person I trust most') và xin 'any honest advice'." },
+        { "text": "To invite Tomás to ride the Galloping Goose trail with her", "trap": "not_mentioned", "whyVi": "Cô chỉ nhắc con đường mòn như một lộ trình có thể đi, không mời ai đi cùng." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "I don't want to rush into this and regret it in February, so any honest advice would be welcome, the good and the bad.",
+      "explanationVi": "Mục đích thư thường được nói rõ ở cuối. 'any honest advice' = 'a frank opinion'; việc cô chọn Tomás vì anh có kinh nghiệm ('riding your e-bike to work for two years') = 'someone experienced'. 'before she decides' diễn đạt lại 'I don't want to rush into this'.",
+      "vocabulary": ["rush into"]
+    },
+    {
+      "number": 2,
+      "prompt": "What finally made Ingrid start thinking seriously about selling her car?",
+      "options": [
+        { "text": "A big increase in the cost of insuring it", "trap": "none", "whyVi": "Đúng: phí ICBC tăng khoảng $400 và 'that was the push I needed'." },
+        { "text": "The monthly cost of parking downtown", "trap": "wrong_detail", "whyVi": "Phí đỗ xe $160 có được nhắc, nhưng đó là chi tiết phụ, không phải điều thúc đẩy cô." },
+        { "text": "The heavy traffic on her drive home", "trap": "wrong_detail", "whyVi": "Kẹt xe 'Colwood crawl' là một bất tiện, nhưng cô không nói đó là lý do quyết định." },
+        { "text": "A suggestion from Tomás", "trap": "not_mentioned", "whyVi": "Tomás chưa gợi ý gì; chính Ingrid đang hỏi ý kiến anh." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "ICBC wants $2,140 for the year, which is about $400 more than last time, and that was the push I needed",
+      "explanationVi": "'the push I needed' = điều cuối cùng thúc đẩy. Điều đó là hóa đơn bảo hiểm cao hơn '$400 more than last time' → 'a big increase in the cost of insuring it'. Bẫy: bài có nhiều chi phí khác (đỗ xe, thời gian), nhưng chỉ bảo hiểm gắn với 'the push'.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "What can be inferred about Ingrid's experience with the bus?",
+      "options": [
+        { "text": "There is no bus service between Langford and downtown.", "trap": "opposite", "whyVi": "Cô nói 'The bus is an option', tức là có xe buýt." },
+        { "text": "It costs more than her downtown parking.", "trap": "not_mentioned", "whyVi": "Bài không nói giá vé xe buýt." },
+        { "text": "She prefers it to driving on winter days.", "trap": "wrong_speaker", "whyVi": "Cô hỏi Tomás có đi xe buýt vào mùa đông không; đó không phải thói quen của cô." },
+        { "text": "When she used it before, it was even slower than her worst drive.", "trap": "none", "whyVi": "Đúng: lái xe tệ nhất 'closer to an hour', còn xe buýt 'well over an hour'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "the last time I tried it, the whole trip took well over an hour",
+      "explanationVi": "Phải ghép hai chi tiết: lái xe lúc kẹt nhất 'closer to an hour' và xe buýt 'well over an hour'. Suy ra xe buýt còn chậm hơn cả lúc lái xe tệ nhất. 'the last time I tried it' = 'when she used it before'.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "In the email, what does Ingrid mean by 'give in' when she asks about the bus?",
+      "options": [
+        { "text": "Hand the bike over to someone else", "trap": "word_match", "whyVi": "'give' gợi nghĩa 'đưa cho', nhưng trong ngữ cảnh 'give in' là cụm động từ khác nghĩa." },
+        { "text": "Stop resisting and choose the easier option", "trap": "none", "whyVi": "Đúng: 'give in' = chịu thua, thôi cố gắng; ở đây là bỏ đạp xe và đi xe buýt cho dễ." },
+        { "text": "Arrive at work later than usual", "trap": "not_mentioned", "whyVi": "Không có nghĩa này; cũng không có chi tiết nào về đến muộn." },
+        { "text": "Pay for a monthly bus pass", "trap": "not_mentioned", "whyVi": "Bài không nhắc vé tháng; 'give in' không liên quan đến trả tiền." }
+      ],
+      "answerIndex": 1,
+      "category": "vocabulary",
+      "evidence": "Do you actually ride all winter, or do you give in and take the bus some days?",
+      "explanationVi": "Cấu trúc 'ride all winter, or ... give in' đối lập kiên trì với bỏ cuộc. Vậy 'give in' = ngừng chống lại khó khăn (mưa, tối) và chọn cách dễ hơn.",
+      "vocabulary": ["give in"]
+    },
+    {
+      "number": 5,
+      "prompt": "What is Ingrid's concern about security?",
+      "options": [
+        { "text": "Her workplace has nowhere safe to store a bike.", "trap": "opposite", "whyVi": "Văn phòng cô có 'a locked bike cage'." },
+        { "text": "A costly part of the bike could be taken even from a locked area.", "trap": "none", "whyVi": "Đúng: dù có lồng khóa, cô đã nghe chuyện pin bị lấy cắp." },
+        { "text": "The trail is not safe to ride after dark.", "trap": "wrong_detail", "whyVi": "Cô lo trời tối và mưa vì khó đạp xe, không phải về an ninh trên đường mòn." },
+        { "text": "Her insurance will not cover a stolen e-bike.", "trap": "not_mentioned", "whyVi": "Bài không nói bảo hiểm có chi trả cho xe đạp hay không." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "My office has a locked bike cage, but I've heard horror stories about batteries being stolen.",
+      "explanationVi": "Từ 'but' cho thấy dù có lồng khóa, cô vẫn lo. 'batteries being stolen' = 'a costly part ... could be taken'; 'locked bike cage' = 'a locked area'.",
+      "vocabulary": ["horror story"]
+    },
+    {
+      "number": 6,
+      "prompt": "Which best describes Ingrid's attitude toward selling her car?",
+      "options": [
+        { "text": "She is worried that Tomás will criticize her plan.", "trap": "not_mentioned", "whyVi": "Không có dấu hiệu cô sợ Tomás chê; cô tin tưởng anh nhất." },
+        { "text": "She has already made up her mind to sell it.", "trap": "opposite", "whyVi": "Cô vẫn đang cân nhắc và xin lời khuyên, chưa quyết định." },
+        { "text": "She believes cycling in winter is impossible.", "trap": "too_broad", "whyVi": "Cô chỉ 'not sure I could face it', không nói là không thể." },
+        { "text": "She is tempted by the idea but wary of making a hasty choice.", "trap": "none", "whyVi": "Đúng: cô đang nghĩ nghiêm túc nhưng 'I don't want to rush into this and regret it'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "that was the push I needed to finally think seriously about selling the Corolla",
+      "explanationVi": "Thái độ có hai mặt: hứng thú ('think seriously about selling') nhưng thận trọng ('I don't want to rush into this'). 'wary of making a hasty choice' diễn đạt lại 'rush into this'.",
+      "vocabulary": ["rush into"]
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "cheat and hop on the bus", "trap": "none", "whyVi": "Đúng: trả lời câu hỏi 'or do you give in and take the bus some days?' và khớp với câu sau 'I leave the bike at home'." },
+        { "text": "wear rain pants", "trap": "word_match", "whyVi": "'rain pants' xuất hiện ở câu sau như thứ giúp anh tiếp tục đạp xe, không phải điều anh ngại thừa nhận." },
+        { "text": "ride on weekends", "trap": "not_mentioned", "whyVi": "Không liên quan đến câu hỏi của Ingrid về việc đi làm mùa đông." },
+        { "text": "ride when it's dark", "trap": "word_match", "whyVi": "Ingrid có nhắc trời tối, nhưng Tomás nói đường có đèn nên anh vẫn đi khi tối." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "or do you give in and take the bus some days?",
+      "explanationVi": "'I'd be lying if I said I never ...' = anh thừa nhận đôi khi có làm. Câu sau 'I leave the bike at home' cho thấy đó là việc bỏ xe đạp. 'hop on the bus' = 'take the bus'; 'cheat' = 'give in'.",
+      "vocabulary": ["give in"]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "leave the bike in the cage overnight", "trap": "word_match", "whyVi": "Có từ 'cage', nhưng để xe qua đêm không giải quyết nỗi lo pin bị trộm." },
+        { "text": "take the battery inside", "trap": "none", "whyVi": "Đúng: câu sau 'Mine slides out in two seconds and sits under my desk' — pin tháo ra và mang vào trong." },
+        { "text": "keep the bike at home on weekdays", "trap": "opposite", "whyVi": "Mục đích là đạp xe đi làm, nên để xe ở nhà ngược với lời khuyên." },
+        { "text": "buy a cheaper bike that no one wants", "trap": "not_mentioned", "whyVi": "Không có ý này; câu sau nói về thứ có thể tháo ra trong hai giây." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I've heard horror stories about batteries being stolen",
+      "explanationVi": "'Mine slides out in two seconds' — thứ có thể trượt ra và để dưới bàn là pin. Vậy lời khuyên là mang pin vào trong, trả lời đúng nỗi lo 'batteries being stolen'.",
+      "vocabulary": []
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "got the full amount", "trap": "opposite", "whyVi": "Câu sau khuyên đọc kỹ quy định, cho thấy Tomás gặp vấn đề, không được nhận." },
+        { "text": "received two rebates", "trap": "not_mentioned", "whyVi": "Không có chi tiết nào về hai khoản hoàn tiền." },
+        { "text": "missed out on it", "trap": "none", "whyVi": "Đúng: mua xe đạp trước khi bỏ xe van nên không đủ điều kiện; vì vậy anh nhắc Ingrid đọc kỹ quy định." },
+        { "text": "spent it on rain gear", "trap": "word_match", "whyVi": "'rain pants' có ở đoạn trên nhưng không liên quan đến khoản hoàn tiền." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "there's a program offering a rebate on e-bikes for people who scrap or sell an older vehicle",
+      "explanationVi": "Chương trình dành cho người 'scrap or sell an older vehicle'. Tomás mua xe đạp trước khi bỏ xe van, và câu sau cảnh báo 'Read the rules carefully' → anh đã không được nhận ('missed out on it').",
+      "vocabulary": ["miss out on"]
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "move closer to the legislature", "trap": "not_mentioned", "whyVi": "Không ai nhắc đến chuyện chuyển nhà." },
+        { "text": "start your new job at the brewery", "trap": "wrong_speaker", "whyVi": "Người có việc mới ở nhà máy bia là Tomás, không phải Ingrid." },
+        { "text": "transfer at the bus exchange", "trap": "word_match", "whyVi": "'exchange' có trong thư của Ingrid, nhưng không hợp với lời khuyên mượn xe đạp." },
+        { "text": "put the Corolla up for sale", "trap": "none", "whyVi": "Đúng: Ingrid sợ hối hận; thử xe một tuần trước khi bán xe hơi là cách tránh vội vàng." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "think seriously about selling the Corolla",
+      "explanationVi": "Lời khuyên 'Before you ..., borrow my spare bike' trả lời nỗi lo 'rush into this'. Điều không nên làm vội là bán xe. 'put ... up for sale' = 'selling'.",
+      "vocabulary": ["rush into"]
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "still enjoy it after a wet, dark week", "trap": "none", "whyVi": "Đúng: tuần thử vào tháng 11 kiểm tra đúng nỗi lo 'pouring and dark by five'." },
+        { "text": "find the bike cage at your office", "trap": "word_match", "whyVi": "Có từ 'bike cage', nhưng tìm được lồng xe không chứng tỏ cô sẵn sàng." },
+        { "text": "beat my time to the legislature", "trap": "not_mentioned", "whyVi": "Không có cuộc thi nào; Tomás không nói thời gian của anh." },
+        { "text": "afford the parking for that month", "trap": "wrong_detail", "whyVi": "Tiền đỗ xe không liên quan đến việc thử đạp xe trong một tuần." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "I'm honestly not sure I could face it in November when it's pouring and dark by five",
+      "explanationVi": "Tomás chọn tháng 11 vì đó là điều Ingrid lo nhất: mưa và tối sớm. Nếu qua được tuần đó mà vẫn thấy ổn thì cô đã sẵn sàng. 'pouring and dark' = 'wet, dark'.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "rush into", "vi": "làm vội, quyết định hấp tấp", "definition": "to do something too quickly without thinking carefully", "example": "Don't rush into selling your car before you've tried the bus." },
+    { "term": "give in", "vi": "chịu thua, nhượng bộ", "definition": "to stop trying to resist something", "example": "After three wet days, I gave in and took the bus." },
+    { "term": "horror story", "vi": "chuyện kinh hoàng (trải nghiệm tồi tệ)", "definition": "an account of a very bad experience", "example": "Everyone at the bike shop had a horror story about stolen wheels." },
+    { "term": "miss out on", "vi": "bỏ lỡ (cơ hội, quyền lợi)", "definition": "to fail to get a benefit or opportunity", "example": "He missed out on the rebate because he applied too late." },
+    { "term": "rebate", "vi": "khoản hoàn tiền", "definition": "money paid back to a buyer, often by a program or manufacturer", "example": "She received a $350 rebate on her new e-bike." },
+    { "term": "hectic", "vi": "bận rộn, rối rít", "definition": "very busy and full of activity", "example": "Work has been hectic since the new manager started." },
+    { "term": "transfer", "vi": "chuyển tuyến (xe buýt)", "definition": "to change from one bus or train to another during a trip", "example": "You'll have to transfer at the downtown exchange." },
+    { "term": "bearable", "vi": "có thể chịu đựng được", "definition": "not pleasant, but possible to accept", "example": "Good gloves make winter riding bearable." }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "s8-practice-05",
+  "kind": "speaking",
+  "taskType": "S8",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "education",
+  "title": "A desk lamp built for students",
+  "prompt": "Your younger brother is starting his first year at UBC and needs a lamp for his desk in residence. At the campus bookstore, you find this unusual desk lamp. Call your brother, describe the lamp in as much detail as possible, and tell him what you think of it.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='#fdf6e3'/><rect y='400' width='800' height='100' fill='#a47148'/><polygon points='345,150 495,150 470,345 370,345' fill='#fff3a3' opacity='0.45'/><path d='M400 352 L360 225 L420 128' stroke='#e67e22' stroke-width='14' fill='none' stroke-linecap='round' stroke-linejoin='round'/><circle cx='360' cy='225' r='9' fill='#7f8c8d'/><path d='M338 160 L420 128 L502 160 L502 168 L420 138 L338 168 Z' fill='#ffffff' stroke='#bdc3c7' stroke-width='1'/><path d='M330 150 L420 108 L510 150 L510 162 L420 124 L330 162 Z' fill='#c0392b'/><rect x='280' y='330' width='8' height='22' fill='#7f8c8d'/><rect x='240' y='265' width='88' height='68' fill='#ffffff' stroke='#7f8c8d' stroke-width='4'/><text x='284' y='305' font-family='Arial' font-size='15' font-weight='bold' fill='#2980b9' text-anchor='middle'>TEST FRI</text><g stroke-width='7' stroke-linecap='round'><line x1='493' y1='292' x2='490' y2='250' stroke='#e74c3c'/><line x1='505' y1='292' x2='507' y2='240' stroke='#f1c40f'/><line x1='517' y1='292' x2='522' y2='252' stroke='#27ae60'/></g><rect x='480' y='290' width='50' height='62' rx='4' fill='#2980b9'/><rect x='250' y='350' width='300' height='55' rx='10' fill='#7f8c8d'/><rect x='270' y='362' width='80' height='32' rx='4' fill='#111111'/><text x='310' y='386' font-family='Arial' font-size='20' font-weight='bold' fill='#2ecc71' text-anchor='middle'>7:45</text><circle cx='420' cy='378' r='16' fill='#2c3e50'/><g fill='#95a5a6'><circle cx='414' cy='372' r='2'/><circle cx='426' cy='372' r='2'/><circle cx='420' cy='378' r='2'/><circle cx='414' cy='384' r='2'/><circle cx='426' cy='384' r='2'/></g><rect x='620' y='440' width='120' height='42' rx='4' fill='#ffffff' stroke='#999999'/><text x='680' y='468' font-family='Arial' font-size='20' font-weight='bold' fill='#d63031' text-anchor='middle'>$59.99</text></svg>",
+  "options": null,
+  "structure": [
+    "Say why you are calling and summarize the lamp in one sentence.",
+    "Describe the base: the clock, the speaker, the pencil holder and the whiteboard.",
+    "Describe the orange arm and the book-shaped lampshade with the light.",
+    "Give your opinion (useful or cluttered), the price, and ask what he thinks."
+  ],
+  "modelAnswer": "Hey Minh, it's me. I'm at the UBC Bookstore, and I've found a desk lamp that's basically a whole study station. Let me describe it. It sits on a long, rectangular grey base. On the front of the base, on the left, there's a black digital clock with green numbers showing 7:45, and next to it there's a round dark speaker, I think for music. On the right end of the base, there's a blue pencil holder with three pencils sticking out: red, yellow and green. On the left end, a tiny whiteboard is mounted on a short post, and someone's written 'TEST FRI' on it in blue, so it's for reminders. Now, the lamp itself has an orange arm that bends in the middle like an elbow. The best part is the shade: it's shaped like a red book lying open and face down, so it looks like a little roof, with a soft yellow light shining down from underneath. It's $59.99. It's a bit cluttered, but it'd save space on a small desk. What do you think?",
+  "usefulExpressions": [
+    {
+      "expression": "…that's basically a whole…",
+      "usageVi": "Tóm tắt đồ vật bằng một hình ảnh dễ hiểu"
+    },
+    {
+      "expression": "On the front of the base, on the left, there's…",
+      "usageVi": "Định vị chính xác bằng hai cụm giới từ"
+    },
+    {
+      "expression": "…is mounted on…",
+      "usageVi": "Được gắn trên (một cái giá, cái cột)"
+    },
+    {
+      "expression": "…bends in the middle like an elbow",
+      "usageVi": "So sánh với bộ phận cơ thể để tả hình dạng"
+    },
+    {
+      "expression": "…it's shaped like…",
+      "usageVi": "Tả hình dạng bằng phép so sánh — rất hữu ích ở Task 8"
+    },
+    {
+      "expression": "It's a bit…, but it'd…",
+      "usageVi": "Nhận xét cân bằng: nhược điểm rồi ưu điểm"
+    }
+  ],
+  "commonMistakes": [
+    "Không biết gọi chao đèn là 'lampshade' rồi bỏ qua; có thể nói 'the part where the light comes out'.",
+    "Đọc chữ trên bảng trắng mà không giải thích ý nghĩa; nên nói thêm 'so it's for reminders'.",
+    "Nhầm 'on the left' của mình với bên trái của đồ vật; hãy tả theo góc nhìn của bạn và giữ nhất quán."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked the answer against the SVG markup: clock 7:45 front-left of the base, round speaker, blue pencil holder with red/yellow/green pencils at the right end, whiteboard 'TEST FRI' on a post at the left end, orange bent arm, red open-book shade with yellow light, $59.99. SVG rules OK. Trimmed 'picking up a few things' to bring it to 179 words."
+  },
+  "createdAt": "2026-11-03"
+}

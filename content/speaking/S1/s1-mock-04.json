@@ -1,0 +1,55 @@
+{
+  "id": "s1-mock-04",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "Advice for a family wanting to cut household waste",
+  "prompt": "Your neighbours, the Nakamura family, have noticed that their garbage bin is full every week. They have two young children and busy work schedules, but they would like to reduce the amount of waste their household produces.\n\nGive the Nakamura family some advice about how to reduce their household waste.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Friendly opening + acknowledge they are busy (keep tips realistic)",
+    "Advice 1: sort food scraps and recycling properly",
+    "Advice 2: cut waste at the source — shopping habits, reusable items",
+    "Advice 3: involve the children and pass on items instead of throwing them out",
+    "Start small + encouragement"
+  ],
+  "modelAnswer": "Hi there! I think it's great that you want to cut down on waste, and the good news is it doesn't have to take up a lot of your time.\n\nTo start with, I'd take a look at what's actually filling the bin. In most homes, a big chunk of it is food scraps, and those should really go in the green bin. If you keep a small container with a lid next to the sink, it becomes a habit pretty quickly. The same goes for recycling. Rinsing out containers and flattening boxes frees up a surprising amount of space.\n\nThe next step is to stop some of that waste from coming into the house in the first place. Since you're busy, I'd suggest planning meals for the week, so you're not buying food that ends up going bad. Swapping single-use stuff, like juice boxes and plastic bags, for reusable bottles and containers also makes a real difference with kids.\n\nSpeaking of the kids, why not get them involved? Kids love having a job, so they could be in charge of sorting the recycling. And when they outgrow their clothes or toys, you can pass them on through a local buy-nothing group instead of tossing them out.\n\nMy advice is not to change everything at once. Pick one or two of these ideas, and once they stick, add another. You'll probably be amazed at how quickly that bin gets lighter.",
+  "usefulExpressions": [
+    {
+      "expression": "cut down on…",
+      "usageVi": "Cụm động từ: giảm bớt (rác, chi tiêu, đường…). Tự nhiên hơn 'reduce' trong văn nói."
+    },
+    {
+      "expression": "in the first place",
+      "usageVi": "'Ngay từ đầu' — nhấn mạnh ngăn chặn vấn đề từ gốc."
+    },
+    {
+      "expression": "end up + V-ing",
+      "usageVi": "'Rốt cuộc lại…' — diễn tả kết quả không mong muốn (thức ăn bị hỏng)."
+    },
+    {
+      "expression": "Speaking of…, …",
+      "usageVi": "Chuyển ý mượt mà dựa vào điều vừa nhắc đến."
+    },
+    {
+      "expression": "pass something on",
+      "usageVi": "Cụm động từ: chuyển lại đồ cho người khác dùng thay vì vứt đi."
+    },
+    {
+      "expression": "once they stick",
+      "usageVi": "'stick' ở đây = (thói quen) được duy trì, trở thành nếp."
+    }
+  ],
+  "commonMistakes": [
+    "Đưa ra lời khuyên không thực tế cho gia đình bận rộn ('Make everything yourself'). Đề nhấn mạnh 'busy work schedules' — lời khuyên phải dễ làm.",
+    "Quên chi tiết 'two young children'. Lời khuyên mức 8 tận dụng mọi chi tiết của đề, ví dụ cho trẻ tham gia phân loại rác.",
+    "Nói chuyện với một người ('you, Mr. Nakamura') rồi lại chuyển sang 'they'. Hãy nói trực tiếp với cả gia đình bằng 'you' xuyên suốt."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {"status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Checked advice fits a busy family with young children (green bin, meal planning, reusables, kids sorting, buy-nothing groups) and addresses the family as 'you' throughout; ~240 words. No changes needed."},
+  "createdAt": "2026-11-03"
+}

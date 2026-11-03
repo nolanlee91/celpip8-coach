@@ -1,0 +1,145 @@
+{
+  "id": "r1-drill-03",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "housing",
+  "title": "Inference drill: New faces downstairs every weekend",
+  "estimatedMinutes": 8,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 7 items independently; all keys match; 6/7 items are inference, meeting the drill target. Checked that a 30-day minimum-rental strata bylaw is consistent with BC law (strata corporations may still restrict short-term rentals after the 2022 amendments) and that names are fictional. Only fix: Q4 option B trap relabelled from too_broad to not_mentioned." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a condo owner",
+      "kind": "text",
+      "text": "Dear Strata Council,\n\nI'm writing about Unit 205, directly below mine. Since the end of August, I've seen a different set of people there almost every weekend, usually arriving with rolling suitcases late on Friday and gone by Sunday afternoon. One group knocked on my door to ask for the Wi-Fi password, and another couldn't find the recycling room and left six bags of garbage beside the elevator.\n\nI've never actually met the owner. The unit changed hands in the summer, and the combination lockbox that appeared on the bike-room fence around the same time is still there.\n\nI'm not trying to start a feud. Most of the visitors have been perfectly pleasant, and the noise has been tolerable apart from one Saturday that went well past 2 a.m. But I was under the impression that our bylaws require rentals to be at least 30 days, and I'd hate for us to deal with this only after someone props the lobby door open and our insurance takes a hit.\n\nCould the council look into it? I'd rather my name not be mentioned to the owner, at least for now.\n\nThanks,\nAbena Mensah\nUnit 305, Larkspur Court",
+      "table": null
+    },
+    {
+      "label": "Reply from the strata council",
+      "kind": "text",
+      "text": "Dear Ms. Mensah,\n\nThank you for letting us know. You're correct that Bylaw 12.4 [[5]], so what you describe would be a breach if the unit is being rented by the night.\n\nThe council will send the owner a formal letter asking for a response within 14 days. Rest assured that [[6]]; the letter will simply refer to \"reports from residents.\"\n\nIn the meantime, if guests cause a specific problem, such as [[7]], please note the date and time and send us a photo if you can. A record like this makes it much easier to issue a fine later.\n\nRegards,\nTariq Hassan\nPresident, Larkspur Court Strata Council",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What does Abena seem to suspect about Unit 205?",
+      "options": [
+        { "text": "The new owner has moved in with a large family.", "trap": "opposite", "whyVi": "Mỗi cuối tuần là một nhóm khác nhau, và cô chưa từng gặp chủ nhà — không phải một gia đình sống cố định." },
+        { "text": "It is being rented out to short-term visitors.", "trap": "none", "whyVi": "Đúng: khách mới mỗi cuối tuần, mang vali, đến tối thứ Sáu và đi chiều Chủ nhật — dấu hiệu cho thuê ngắn ngày." },
+        { "text": "The owner is hosting parties every weekend.", "trap": "partially_true", "whyVi": "Chỉ có một tối thứ Bảy ồn đến sau 2 giờ sáng; phần lớn khách đều 'perfectly pleasant'." },
+        { "text": "It has been left empty since it was sold.", "trap": "opposite", "whyVi": "Căn hộ có người ở gần như mỗi cuối tuần." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I've seen a different set of people there almost every weekend, usually arriving with rolling suitcases late on Friday and gone by Sunday afternoon",
+      "explanationVi": "Abena không nói thẳng 'Airbnb', nhưng các manh mối cộng lại: 'a different set of people' + 'rolling suitcases' + đến thứ Sáu, đi Chủ nhật + quy định 'at least 30 days' → cô nghi căn hộ đang cho thuê ngắn ngày.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "Why does Abena mention the lockbox on the bike-room fence?",
+      "options": [
+        { "text": "It suggests guests pick up keys without meeting anyone.", "trap": "none", "whyVi": "Đúng: hộp khóa số xuất hiện cùng lúc căn hộ đổi chủ — cách thường dùng để khách tự lấy chìa khóa mà không gặp chủ." },
+        { "text": "She wants permission to store her bike there.", "trap": "word_match", "whyVi": "Có từ 'bike-room', nhưng cô không xin gì về chỗ để xe đạp." },
+        { "text": "It was installed by the strata council.", "trap": "not_mentioned", "whyVi": "Không có thông tin ai lắp; ý cô là nó liên quan đến chủ căn 205." },
+        { "text": "Someone used it to steal a bicycle.", "trap": "not_mentioned", "whyVi": "Không có chuyện mất trộm nào." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "The unit changed hands in the summer, and the combination lockbox that appeared on the bike-room fence around the same time is still there.",
+      "explanationVi": "'around the same time' nối hộp khóa với việc căn hộ đổi chủ. Ghép với 'I've never actually met the owner': chủ không có mặt, khách tự lấy chìa từ hộp khóa số. Đây là bằng chứng gián tiếp cho việc cho thuê ngắn ngày.",
+      "vocabulary": ["lockbox", "change hands"]
+    },
+    {
+      "number": 3,
+      "prompt": "What is Abena's main concern?",
+      "options": [
+        { "text": "The guests are rude to other residents.", "trap": "opposite", "whyVi": "Cô nói 'Most of the visitors have been perfectly pleasant'." },
+        { "text": "The noise keeps her awake every weekend.", "trap": "opposite", "whyVi": "Tiếng ồn 'tolerable' (chịu được), chỉ trừ một tối." },
+        { "text": "A possible rule breach could lead to security and insurance problems.", "trap": "none", "whyVi": "Đúng: vi phạm quy định 30 ngày, và lo người lạ chèn cửa sảnh mở khiến bảo hiểm tòa nhà bị ảnh hưởng." },
+        { "text": "She wants the owner to pay for her insurance.", "trap": "word_match", "whyVi": "Có từ 'insurance', nhưng đó là bảo hiểm chung của tòa nhà, và cô không đòi ai trả tiền." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "I'd hate for us to deal with this only after someone props the lobby door open and our insurance takes a hit",
+      "explanationVi": "Cấu trúc 'I'm not trying to... Most... But...' — điều sau 'But' là mối lo thật sự: quy định 'at least 30 days' và rủi ro 'props the lobby door open' (chèn cửa sảnh để mở → mất an ninh) và 'insurance takes a hit' (bảo hiểm bị ảnh hưởng/tăng phí).",
+      "vocabulary": ["take a hit"]
+    },
+    {
+      "number": 4,
+      "prompt": "Why does Abena ask that her name not be given to the owner?",
+      "options": [
+        { "text": "She is planning to sell her own unit soon.", "trap": "not_mentioned", "whyVi": "Không có thông tin cô định bán nhà." },
+        { "text": "She is afraid the guests might hurt her.", "trap": "not_mentioned", "whyVi": "Quá mức: cô nói khách 'perfectly pleasant'; cô chỉ muốn tránh mâu thuẫn." },
+        { "text": "She has already argued with the owner.", "trap": "opposite", "whyVi": "Cô chưa từng gặp chủ nhà ('I've never actually met the owner')." },
+        { "text": "She wants to avoid bad feelings with a neighbour.", "trap": "none", "whyVi": "Đúng: 'I'm not trying to start a feud' — cô không muốn gây hiềm khích với hàng xóm dưới nhà." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "I'm not trying to start a feud.",
+      "explanationVi": "'feud' = mối hiềm khích kéo dài giữa hai bên. Cô sống ngay trên căn 205, nên giấu tên giúp tránh căng thẳng với chủ căn hộ. 'at least for now' cho thấy cô vẫn có thể công khai sau này nếu cần.",
+      "vocabulary": ["feud"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "bans all rentals in the building", "trap": "too_broad", "whyVi": "Quy định chỉ yêu cầu thuê tối thiểu 30 ngày, không cấm mọi hình thức cho thuê." },
+        { "text": "sets a minimum rental period of 30 days", "trap": "none", "whyVi": "Đúng: diễn đạt lại 'require rentals to be at least 30 days'." },
+        { "text": "limits noise after 2 a.m.", "trap": "word_match", "whyVi": "'2 a.m.' có trong thư, nhưng nói về một tối ồn ào, không phải nội dung Bylaw 12.4." },
+        { "text": "requires owners to live in their units", "trap": "not_mentioned", "whyVi": "Không có quy định nào như vậy được nhắc đến." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "our bylaws require rentals to be at least 30 days",
+      "explanationVi": "'You're correct that...' xác nhận điều Abena nghĩ: 'require rentals to be at least 30 days' = 'sets a minimum rental period of 30 days'. Câu sau 'rented by the night' sẽ vi phạm quy định này.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "the owner will be fined right away", "trap": "opposite", "whyVi": "Hội đồng chỉ gửi thư và chờ phản hồi 14 ngày; phạt là chuyện sau." },
+        { "text": "you will be asked to attend a hearing", "trap": "not_mentioned", "whyVi": "Không có buổi điều trần nào được nhắc đến." },
+        { "text": "the lockbox will be removed today", "trap": "not_mentioned", "whyVi": "Thư trả lời không nói gì về hộp khóa." },
+        { "text": "you will not be identified", "trap": "none", "whyVi": "Đúng: thư chỉ ghi 'reports from residents', không nêu tên Abena." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "I'd rather my name not be mentioned to the owner, at least for now.",
+      "explanationVi": "'Rest assured that...' (xin yên tâm rằng) dùng để trấn an về điều người viết lo. Vế sau 'the letter will simply refer to reports from residents' cho thấy tên cô sẽ không bị nêu → đáp ứng yêu cầu giấu tên.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "leaving garbage in a common area", "trap": "none", "whyVi": "Đúng: giống chuyện khách để sáu túi rác cạnh thang máy — một vấn đề cụ thể có thể chụp ảnh và phạt." },
+        { "text": "arriving with rolling suitcases", "trap": "word_match", "whyVi": "Dùng lại 'rolling suitcases', nhưng mang vali không phải là vi phạm có thể bị phạt." },
+        { "text": "paying their rent late", "trap": "not_mentioned", "whyVi": "Tiền thuê là chuyện giữa khách và chủ, cư dân không thể chụp ảnh hay ghi lại." },
+        { "text": "being pleasant to neighbours", "trap": "opposite", "whyVi": "Thân thiện không phải là 'a specific problem'." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "left six bags of garbage beside the elevator",
+      "explanationVi": "'a specific problem' + 'note the date and time and send us a photo' → phải là hành vi gây phiền, có thể chụp lại. Trong thư, Abena kể khách để rác cạnh thang máy (khu vực chung) → 'leaving garbage in a common area'.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "strata council", "vi": "ban quản trị chung cư (BC)", "definition": "the elected group of owners who manage a condo building in BC", "example": "I sent a complaint to the strata council." },
+    { "term": "change hands", "vi": "đổi chủ", "definition": "to be sold or passed to a new owner", "example": "The unit changed hands last summer." },
+    { "term": "lockbox", "vi": "hộp khóa số (đựng chìa khóa)", "definition": "a small locked box that holds a key, opened with a code", "example": "Guests got the key from a lockbox by the door." },
+    { "term": "feud", "vi": "mối hiềm khích, xích mích kéo dài", "definition": "a long and bitter argument between people", "example": "I don't want to start a feud with my neighbours." },
+    { "term": "tolerable", "vi": "chịu đựng được", "definition": "acceptable, although not very good", "example": "The noise was tolerable most nights." },
+    { "term": "prop open", "vi": "chèn (cửa) cho mở", "definition": "to keep a door open by putting something against it", "example": "Please don't prop the lobby door open." },
+    { "term": "take a hit", "vi": "bị ảnh hưởng xấu, chịu thiệt", "definition": "to be damaged or reduced, often financially", "example": "Our insurance could take a hit after a break-in." },
+    { "term": "breach", "vi": "sự vi phạm (quy định, hợp đồng)", "definition": "an act of breaking a rule or agreement", "example": "Short-term rentals would be a breach of the bylaws." }
+  ]
+}

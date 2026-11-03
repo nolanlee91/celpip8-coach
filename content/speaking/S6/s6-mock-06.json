@@ -1,0 +1,55 @@
+{
+  "id": "s6-mock-06",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "government",
+  "title": "An unrealistic budget in a city grant application",
+  "prompt": "You volunteer with your neighbourhood association, which is applying for a $40,000 city grant to build a new playground. You are responsible for the budget section. The association's president wants to submit a cost estimate of $32,000 so that the project looks more affordable, but the quotes you received from contractors total about $45,000. The application is due on Friday, and the president is a respected community member who has led the association for many years.\n\nChoose ONE of the following options:\n\nOption A: Talk to the president. Explain your concerns about the estimate and suggest a better approach.\n\nOption B: Talk to the city's grant coordinator. Explain the situation and ask about your options before the deadline.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Respectful opener + acknowledge the deadline pressure",
+    "Show you understand his reasoning",
+    "Explain the risks with specific figures",
+    "Propose a realistic alternative (phasing)",
+    "Offer to do the work + suggest a next step"
+  ],
+  "modelAnswer": "Harjit, thanks for making time for me. I know Friday's deadline is weighing on all of us, so I'll get straight to the point about the budget.\n\nI understand why you'd like to keep the number low. A smaller figure probably does look more appealing to the city. The thing is, the contractor quotes I've got add up to about forty-five thousand. If we put down thirty-two and we're approved, we'd be thirteen thousand short halfway through construction, and the city might have serious concerns about the whole project. After everything you've done for this association, I'd hate to see our reputation take that kind of hit.\n\nSo here's what I'd propose. We submit the real figures, but we split the project into two phases. Phase one, the main play structure and safety surfacing, should fit within the forty-thousand limit, based on the quotes. We could cover the benches and shade later through a fundraiser.\n\nI'm happy to redo the numbers tonight. Would you be willing to look them over tomorrow morning?",
+  "usefulExpressions": [
+    {
+      "expression": "…is weighing on all of us",
+      "usageVi": "'weigh on someone' = gây áp lực, khiến lo lắng; thể hiện sự đồng cảm."
+    },
+    {
+      "expression": "I'll get straight to the point.",
+      "usageVi": "Tôn trọng thời gian của người nghe trong tình huống gấp."
+    },
+    {
+      "expression": "I understand why you'd like to…",
+      "usageVi": "Công nhận lý do của người kia trước khi phản đối."
+    },
+    {
+      "expression": "I'd hate to see our reputation take that kind of hit.",
+      "usageVi": "'take a hit' = bị ảnh hưởng xấu; nêu rủi ro mà không buộc tội ai không trung thực."
+    },
+    {
+      "expression": "Would you be willing to look them over…?",
+      "usageVi": "'look over' = xem qua; kết thúc bằng đề nghị hành động cụ thể, lịch sự."
+    }
+  ],
+  "commonMistakes": [
+    "Gọi con số $32,000 là 'lying' hoặc 'cheating'. Với người được kính trọng, hãy nói về rủi ro và hậu quả, không buộc tội.",
+    "Chỉ phản đối mà không có phương án thay thế. Ở mức 9 cần một giải pháp khả thi (chia giai đoạn) kèm con số cụ thể.",
+    "Đọc số sai: '$45,000' đọc là 'forty-five thousand dollars', không phải 'forty-five thousands'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked Option A/B shape, direct address to the president, risks with figures and a phased alternative, length (~166 words). Hedged two claims stated as fact (phase one 'should fit' the limit; the city 'could' have concerns about repayment) so the answer gives no grant-rule or legal claims as certainties."
+  },
+  "createdAt": "2026-11-03"
+}

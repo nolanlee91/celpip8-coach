@@ -1,0 +1,186 @@
+{
+  "id": "r4-full-06",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "workplace",
+  "title": "Back to the Office, Three Days a Week",
+  "estimatedMinutes": 13,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 10 independently; keys match. Blank 8 distractor 'be paid for his travel time' also fit 'what he will ___' and was arguably defensible, so replaced it with 'spend on gas each week' (not_mentioned). Changed 'Five years later' to 'More than five years later' to stay true over time. No overlap with r4-full-01 (four-day week)." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "When Fraserline Insurance sent its 1,200 Burnaby employees home in 2020, few expected the arrangement to last. More than five years later, most of them still work from home four or five days a week. That will change in February, when the company will require staff to be in the office at least three days a week, on days chosen by each team.\n\nChief operating officer Melissa Thornbury says the decision was not made lightly. Productivity, by most of the company's measures, has held up well. What worries her is what the numbers don't capture. \"Our newest employees have never really met their teams,\" she said. \"They're doing the work, but they're not learning the way people used to learn, by overhearing a colleague handle a difficult call or asking a quick question across a desk.\" The company has spent $2 million redesigning two floors with more meeting rooms and fewer assigned desks.\n\nMany employees are unconvinced. Claims adjuster Rubén Castillo, who has worked at Fraserline for eleven years, moved to Chilliwack during the pandemic, when he could finally afford a house with a yard. The drive to Burnaby takes him about ninety minutes each way. \"Three days a week is nine hours in my car,\" he said. \"Nobody's offering to pay me for that time, and nobody's explained what I'll be doing in the office that I can't do at home.\" He says several colleagues have quietly started updating their résumés.\n\nNot all of the reaction has been negative. Priyanka Nair, who joined the company as a junior underwriter eighteen months ago, welcomes the change, though she would not have put it the way management did. \"I've had three different managers, and I've met one of them in person,\" she said. \"I don't need to be there every day. But I do need to be there sometimes.\"\n\nUnion representative Gordon Fitzpatrick says the company's approach is more reasonable than some. Teams can choose their own days, and employees with disabilities or caregiving duties can apply for exceptions. His concern is how those requests will be handled. \"A policy is only as fair as the person reading the application,\" he said. \"We'll be watching to see whether exceptions are granted consistently or depend on which manager you happen to have.\"\n\nWorkplace researcher Dr. Ingrid Solberg, who studies hybrid work at a Vancouver university, says companies often underestimate how much employees value flexibility. In surveys, she notes, many workers say they would accept a pay cut to keep working from home. \"Firms that call people back without a clear reason risk losing exactly the experienced staff they can least afford to lose,\" she said. \"The ones that succeed treat office days as having a purpose, not just as a rule.\"\n\nFraserline says it will review the policy after six months.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I manage a small team at a different insurance company, and we went through the same debate last year. Ms. Thornbury's worry about new staff is real; on a screen, junior people rarely get the chance to [[6]] the way I did when I started out. Ms. Nair's comments back her up, and I suspect many younger employees feel the same. Still, Mr. Castillo's situation shows the cost. For someone who left the city during the pandemic, three office days could mean [[7]]. If Fraserline can't answer his question about what he will [[8]], it shouldn't be surprised when people walk out the door. That is exactly the danger Dr. Solberg describes: losing [[9]]. As for exceptions, Mr. Fitzpatrick is right that fairness will depend on [[10]], not just on the wording of the policy.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the main purpose of the article?",
+      "options": [
+        { "text": "To report that productivity at Fraserline has fallen", "trap": "opposite", "whyVi": "Năng suất 'has held up well' — vẫn giữ tốt." },
+        { "text": "To argue that office workers should return full-time", "trap": "too_broad", "whyVi": "Chính sách chỉ yêu cầu ba ngày, và bài trình bày nhiều quan điểm chứ không lập luận một chiều." },
+        { "text": "To describe how Fraserline redesigned its office floors", "trap": "partially_true", "whyVi": "Việc cải tạo hai tầng chỉ được nhắc một câu." },
+        { "text": "To present different views on a company's plan to bring staff back part of the week", "trap": "none", "whyVi": "Đúng: Bài nêu chính sách ba ngày tại văn phòng và quan điểm của ban lãnh đạo, nhân viên, công đoàn và nhà nghiên cứu." }
+      ],
+      "answerIndex": 3,
+      "category": "main_idea",
+      "evidence": "That will change in February, when the company will require staff to be in the office at least three days a week, on days chosen by each team.",
+      "explanationVi": "Đoạn đầu nêu thay đổi (ba ngày/tuần ở văn phòng); các đoạn sau là phản ứng: Thornbury (lý do), Castillo (phản đối), Nair (ủng hộ), Fitzpatrick (lo về ngoại lệ), Solberg (cảnh báo). 'Part of the week' = 'at least three days a week'.",
+      "vocabulary": ["hybrid work"]
+    },
+    {
+      "number": 2,
+      "prompt": "What is Melissa Thornbury's main reason for the change?",
+      "options": [
+        { "text": "The company needs to make use of its newly redesigned floors.", "trap": "partially_true", "whyVi": "Công ty có chi $2 triệu cải tạo, nhưng bà không nói đó là lý do thay đổi." },
+        { "text": "Working remotely makes it harder for new staff to learn informally from colleagues.", "trap": "none", "whyVi": "Đúng: Nhân viên mới không học được bằng cách nghe đồng nghiệp xử lý cuộc gọi khó hay hỏi nhanh qua bàn." },
+        { "text": "Productivity has dropped since employees started working from home.", "trap": "opposite", "whyVi": "Năng suất vẫn giữ tốt; điều bà lo là thứ 'the numbers don't capture'." },
+        { "text": "Managers want to watch employees more closely.", "trap": "not_mentioned", "whyVi": "Bà không nói đến việc giám sát nhân viên." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "\"They're doing the work, but they're not learning the way people used to learn, by overhearing a colleague handle a difficult call or asking a quick question across a desk.\"",
+      "explanationVi": "'Overhearing a colleague' và 'asking a quick question across a desk' là cách học không chính thức ('learn informally'). Bà nói số liệu năng suất ổn nhưng không đo được điều này.",
+      "vocabulary": ["overhear"]
+    },
+    {
+      "number": 3,
+      "prompt": "What can be inferred about Rubén Castillo?",
+      "options": [
+        { "text": "His decision to live in Chilliwack depended on not having to commute often.", "trap": "none", "whyVi": "Đúng: Ông chuyển đi trong đại dịch (khi làm tại nhà) và giờ mất 90 phút mỗi chiều — suy ra nơi ở hiện tại chỉ hợp lý khi ít phải đến văn phòng." },
+        { "text": "He has already accepted a job at another company.", "trap": "not_mentioned", "whyVi": "Ông chỉ nói đồng nghiệp đang cập nhật hồ sơ xin việc." },
+        { "text": "He currently drives to Burnaby four days a week.", "trap": "wrong_detail", "whyVi": "Hiện ông làm chủ yếu tại nhà; chính sách mới mới yêu cầu ba ngày." },
+        { "text": "He would accept a pay cut to keep working from home.", "trap": "wrong_speaker", "whyVi": "Đây là kết quả khảo sát Solberg nhắc đến, không phải điều Castillo nói." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "moved to Chilliwack during the pandemic, when he could finally afford a house with a yard",
+      "explanationVi": "Bài không nói thẳng, nhưng ông chuyển nhà khi mọi người làm tại nhà, và giờ ba ngày đi lại = 'nine hours in my car'. Vậy việc sống xa phụ thuộc vào việc ít phải đi làm.",
+      "vocabulary": ["commute"]
+    },
+    {
+      "number": 4,
+      "prompt": "What does Priyanka Nair's experience suggest?",
+      "options": [
+        { "text": "Junior staff would prefer to be in the office every day.", "trap": "too_broad", "whyVi": "Cô nói 'I don't need to be there every day'." },
+        { "text": "She has never met any of her managers.", "trap": "wrong_detail", "whyVi": "Cô đã gặp trực tiếp một trong ba người quản lý." },
+        { "text": "Newer employees may benefit from at least some face-to-face contact.", "trap": "none", "whyVi": "Đúng: Ba người quản lý mà chỉ gặp một người; cô cần đến văn phòng 'sometimes'." },
+        { "text": "She disagrees with Thornbury's concern about new employees.", "trap": "opposite", "whyVi": "Trải nghiệm của cô ủng hộ đúng mối lo của Thornbury." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "\"I don't need to be there every day. But I do need to be there sometimes.\"",
+      "explanationVi": "Nair là nhân viên mới ('joined... eighteen months ago'). Cô không cần lên văn phòng hằng ngày nhưng 'do need to be there sometimes' → nhân viên mới có lợi khi gặp mặt trực tiếp một phần thời gian.",
+      "vocabulary": ["face-to-face"]
+    },
+    {
+      "number": 5,
+      "prompt": "What does Gordon Fitzpatrick mean when he says, \"A policy is only as fair as the person reading the application\"?",
+      "options": [
+        { "text": "The union is against allowing any exceptions.", "trap": "opposite", "whyVi": "Công đoàn muốn ngoại lệ được xét công bằng, không phản đối ngoại lệ." },
+        { "text": "Employees should read the policy carefully before applying.", "trap": "word_match", "whyVi": "Dùng lại 'reading', nhưng người 'đọc đơn' là người quản lý, không phải nhân viên." },
+        { "text": "Most managers at Fraserline treat their staff unfairly.", "trap": "too_broad", "whyVi": "Ông không cáo buộc đa số quản lý; ông chỉ nói sẽ theo dõi." },
+        { "text": "A fair rule on paper can still be applied unevenly in practice.", "trap": "none", "whyVi": "Đúng: Kết quả có thể phụ thuộc vào 'which manager you happen to have'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "\"We'll be watching to see whether exceptions are granted consistently or depend on which manager you happen to have.\"",
+      "explanationVi": "'Only as fair as...' = chỉ công bằng đến mức của... Chính sách có thể hợp lý trên giấy, nhưng nếu mỗi quản lý xét đơn khác nhau thì không công bằng ('granted consistently' ↔ 'applied unevenly').",
+      "vocabulary": ["consistently"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "choose which days they work at home", "trap": "wrong_detail", "whyVi": "Các nhóm chọn ngày lên văn phòng; điều này không liên quan đến việc học của nhân viên mới." },
+        { "text": "pick up skills by listening to colleagues", "trap": "none", "whyVi": "Đúng: Thornbury nói người mới không học được 'by overhearing a colleague handle a difficult call'." },
+        { "text": "meet the chief operating officer", "trap": "not_mentioned", "whyVi": "Không ai nói nhân viên mới cần gặp giám đốc điều hành." },
+        { "text": "redesign the office floors", "trap": "word_match", "whyVi": "Việc cải tạo tầng làm việc là của công ty, không phải cơ hội học tập." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "by overhearing a colleague handle a difficult call or asking a quick question across a desk",
+      "explanationVi": "'Ms. Thornbury's worry about new staff' + 'on a screen' (làm từ xa) → người mới không có cơ hội học bằng cách nghe đồng nghiệp. 'Pick up skills' = học được kỹ năng một cách tự nhiên."
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "many unpaid hours on the road each week", "trap": "none", "whyVi": "Đúng: 'Three days a week is nine hours in my car' và 'Nobody's offering to pay me for that time'." },
+        { "text": "selling the house he just bought", "trap": "not_mentioned", "whyVi": "Ông không nói sẽ bán nhà." },
+        { "text": "accepting a pay cut", "trap": "wrong_speaker", "whyVi": "Chấp nhận giảm lương là kết quả khảo sát của Solberg." },
+        { "text": "losing the yard he wanted", "trap": "word_match", "whyVi": "Dùng lại 'yard', nhưng ông không mất sân vườn." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "\"Three days a week is nine hours in my car,\"",
+      "explanationVi": "'Nine hours in my car' = nhiều giờ trên đường; 'Nobody's offering to pay me for that time' = không được trả tiền ('unpaid')."
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "learn from his new manager", "trap": "not_mentioned", "whyVi": "Castillo làm 11 năm; ông không hỏi về việc học từ quản lý." },
+        { "text": "spend on gas each week", "trap": "not_mentioned", "whyVi": "Castillo không nhắc tiền xăng; ông than thời gian lái xe không được trả công, còn 'question' mà chưa ai trả lời là ông sẽ làm gì ở văn phòng mà ở nhà không làm được." },
+        { "text": "do in the office that he can't do from home", "trap": "none", "whyVi": "Đúng: 'nobody's explained what I'll be doing in the office that I can't do at home'." },
+        { "text": "achieve on the redesigned floors", "trap": "word_match", "whyVi": "Dùng ý 'redesigned floors' của Thornbury, không phải câu hỏi của Castillo." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "nobody's explained what I'll be doing in the office that I can't do at home",
+      "explanationVi": "'His question about what he will...' → điều chưa ai giải thích ('nobody's explained'): ông sẽ làm gì ở văn phòng mà không làm được ở nhà. Câu này cũng nối với ý Solberg: gọi người về mà 'without a clear reason'."
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "the $2 million spent on new floors", "trap": "word_match", "whyVi": "Số tiền cải tạo có trong bài nhưng không phải 'danger' Solberg mô tả." },
+        { "text": "junior staff who want more time in the office", "trap": "opposite", "whyVi": "Nhân viên mới như Nair lại ủng hộ thay đổi." },
+        { "text": "the productivity gains of remote work", "trap": "not_mentioned", "whyVi": "Solberg không nói về mất năng suất." },
+        { "text": "the experienced people a company most needs", "trap": "none", "whyVi": "Đúng: Solberg cảnh báo mất 'exactly the experienced staff they can least afford to lose'." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "risk losing exactly the experienced staff they can least afford to lose",
+      "explanationVi": "'Can least afford to lose' = ít có khả năng chịu mất nhất → 'most needs'. Castillo (11 năm kinh nghiệm) là ví dụ cho nhóm này."
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "how individual managers handle each request", "trap": "none", "whyVi": "Đúng: Fitzpatrick lo ngoại lệ phụ thuộc vào 'which manager you happen to have'." },
+        { "text": "which days each team chooses", "trap": "wrong_detail", "whyVi": "Việc nhóm chọn ngày là điểm Fitzpatrick khen, không phải mối lo về công bằng." },
+        { "text": "the size of the new meeting rooms", "trap": "not_mentioned", "whyVi": "Không liên quan đến xét ngoại lệ." },
+        { "text": "the results of the six-month review", "trap": "partially_true", "whyVi": "Có đánh giá sau sáu tháng, nhưng Fitzpatrick nói sự công bằng phụ thuộc vào người đọc đơn." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "\"A policy is only as fair as the person reading the application,\"",
+      "explanationVi": "'Not just on the wording of the policy' đối lập với người áp dụng chính sách. 'The person reading the application' = quản lý xét đơn → 'how individual managers handle each request'."
+    }
+  ],
+  "vocabulary": [
+    { "term": "hybrid work", "vi": "làm việc kết hợp (văn phòng và tại nhà)", "definition": "a way of working partly in the office and partly at home", "example": "She studies hybrid work at a Vancouver university." },
+    { "term": "hold up", "vi": "vẫn giữ vững", "definition": "to stay strong or at the same level", "example": "Productivity has held up well." },
+    { "term": "overhear", "vi": "tình cờ nghe được", "definition": "to hear what others are saying without trying to", "example": "New staff learn by overhearing a colleague's call." },
+    { "term": "commute", "vi": "quãng đường đi làm hằng ngày", "definition": "the regular trip between home and work", "example": "His commute takes ninety minutes each way." },
+    { "term": "face-to-face", "vi": "trực tiếp, mặt đối mặt", "definition": "in person, not online", "example": "New employees need some face-to-face contact." },
+    { "term": "consistently", "vi": "một cách nhất quán", "definition": "in the same way every time", "example": "Exceptions should be granted consistently." },
+    { "term": "can least afford to", "vi": "ít có khả năng chịu được nhất", "definition": "to be in the worst position to accept a loss or cost", "example": "They may lose the staff they can least afford to lose." },
+    { "term": "back up", "vi": "ủng hộ, củng cố (ý kiến)", "definition": "to support what someone says", "example": "Her comments back up the manager's concern." },
+    { "term": "walk out the door", "vi": "nghỉ việc, bỏ đi", "definition": "to leave a job", "example": "Experienced staff may walk out the door." }
+  ]
+}

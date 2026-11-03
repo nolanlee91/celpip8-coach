@@ -1,0 +1,54 @@
+{
+  "id": "s6-practice-04",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "education",
+  "title": "A group member who keeps missing meetings",
+  "prompt": "You are taking an evening business course at a local college. Your instructor has put you in a group of four for a final presentation that is worth 30% of your mark. One group member, Jordan, has missed the last three group meetings and has not started his section of the research. The presentation is in eight days, and the other two members want you to deal with it because you are the group leader.\n\nChoose ONE of the following options:\n\nOption A: Talk to Jordan. Explain how his absence is affecting the group and encourage him to contribute.\n\nOption B: Talk to your instructor. Explain the situation and ask for advice on how to handle it fairly.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Open with concern for the person, not blame",
+    "State the facts and the impact on the whole group",
+    "Offer flexible, concrete ways for him to contribute + a clear deadline",
+    "Close firmly but warmly (hint at the next step if nothing changes)"
+  ],
+  "modelAnswer": "Hi Jordan, thanks for picking up. I'm calling about the presentation, but first, I just want to check that everything's okay. You've missed the last three meetings, and that's not like you.\n\nI'll be honest with you, though. The rest of us are getting a bit anxious. We present in eight days, and the market research section is still blank. Since it's worth thirty percent, it affects all four of our marks, not just yours.\n\nSo here's what I'd suggest. If your schedule has changed, we can move Thursday's meeting online so you can join from home. I'd also be happy to split your section with you. You could take the competitor analysis, and I'll handle the survey data. Could you send us your notes by Sunday night so we can see where things stand?\n\nI really don't want to bring the instructor into this. I'd much rather we sort it out ourselves. Does that sound doable?",
+  "usefulExpressions": [
+    {
+      "expression": "I just want to check that everything's okay.",
+      "usageVi": "Mở đầu bằng sự quan tâm thay vì trách móc — giọng điệu khéo léo mà giám khảo đánh giá cao."
+    },
+    {
+      "expression": "That's not like you.",
+      "usageVi": "Cách nói tế nhị rằng hành vi này bất thường, ngầm khen người kia vốn đáng tin."
+    },
+    {
+      "expression": "I'll be honest with you, though.",
+      "usageVi": "Báo hiệu chuyển sang phần nói thẳng vấn đề, nhưng vẫn lịch sự."
+    },
+    {
+      "expression": "…so we can see where things stand",
+      "usageVi": "'where things stand' = tình hình hiện tại ra sao; cụm từ tự nhiên của người bản xứ."
+    },
+    {
+      "expression": "I'd much rather we sort it out ourselves.",
+      "usageVi": "'sort out' = giải quyết; 'I'd rather' ngầm nhắc hậu quả mà không đe dọa."
+    }
+  ],
+  "commonMistakes": [
+    "Trách móc ngay câu đầu ('Why are you always absent?'). Ở mức 9, hãy hỏi thăm trước rồi mới nêu vấn đề.",
+    "Không có deadline cụ thể. 'Please help more' quá mơ hồ — hãy nói rõ việc gì và hạn chót ('by Sunday night').",
+    "Dùng 'must' quá nhiều ('You must come'). Dùng 'Could you…?', 'I'd suggest…' để giữ giọng mềm mỏng."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked Option A/B shape, direct address to Jordan with concern-first tone, concrete split of work and a deadline, length (~157 words), Vietnamese notes. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

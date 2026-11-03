@@ -1,0 +1,188 @@
+{
+  "id": "l1-mock-06",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "government",
+  "title": "A rejected passport photo before a family trip",
+  "context": "You will hear a couple in Richmond working out how to get their daughter's passport in time for a family trip to Japan after her application is sent back.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Yuki", "voice": "female_a", "text": "Ben, Service Canada called while you were out. They've sent back Hana's passport application." },
+        { "speaker": "Ben", "voice": "male_b", "text": "Sent it back? Why? Yuki, we went over that form three times." },
+        { "speaker": "Yuki", "voice": "female_a", "text": "It's not the form, it's the photo. They said there's a shadow behind her head, and it doesn't meet the specifications. We have to send new ones." },
+        { "speaker": "Ben", "voice": "male_b", "text": "From the drugstore that swore up and down they do passport photos every single day? Unbelievable. Okay, how far does that set us back?" },
+        { "speaker": "Yuki", "voice": "female_a", "text": "That's the thing. If we mail in new photos, it goes back in the queue, and standard processing is twenty business days. We fly on the twelfth. That's four weeks from tomorrow." },
+        { "speaker": "Ben", "voice": "male_b", "text": "So we'd be cutting it razor thin, and that's assuming nothing else goes wrong. Which, knowing our luck this month." },
+        { "speaker": "Yuki", "voice": "female_a", "text": "Right. And the woman on the phone more or less hinted that mailing it in again wasn't the way to go. She never said it outright, but she kept repeating, if you have travel booked, you may want to look at your other options." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why was Hana's application returned?",
+          "options": [
+            { "text": "A section of the form had been filled in incorrectly.", "trap": "opposite", "whyVi": "Yuki nói rõ 'It's not the form' – lỗi không nằm ở mẫu đơn." },
+            { "text": "Her picture did not satisfy the official requirements.", "trap": "none", "whyVi": "Đúng: ảnh có bóng phía sau đầu nên không đạt tiêu chuẩn." },
+            { "text": "The drugstore forgot to include the photos.", "trap": "word_match", "whyVi": "Nhà thuốc có được nhắc, nhưng họ đã chụp ảnh; vấn đề là chất lượng ảnh." },
+            { "text": "It arrived after the processing deadline.", "trap": "not_mentioned", "whyVi": "Không có hạn chót nào bị lỡ." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "there's a shadow behind her head, and it doesn't meet the specifications",
+          "explanationVi": "'Doesn't meet the specifications' = không đạt tiêu chuẩn kỹ thuật. Đáp án B diễn đạt lại thành 'did not satisfy the official requirements'.",
+          "vocabulary": ["specifications"]
+        },
+        {
+          "number": 2,
+          "prompt": "How does Ben feel about the drugstore?",
+          "options": [
+            { "text": "Annoyed, because it had claimed to be experienced with passport photos.", "trap": "none", "whyVi": "Đúng: 'swore up and down they do passport photos every single day' và 'Unbelievable' thể hiện sự bực tức." },
+            { "text": "Grateful that it will retake the photos for free.", "trap": "not_mentioned", "whyVi": "Không có thông tin nhà thuốc chụp lại miễn phí." },
+            { "text": "Unsurprised, because he never trusted it.", "trap": "opposite", "whyVi": "'Unbelievable' cho thấy anh bất ngờ, không phải đã đoán trước." },
+            { "text": "Worried that it lost Hana's documents.", "trap": "not_mentioned", "whyVi": "Không ai nói nhà thuốc làm mất giấy tờ." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "From the drugstore that swore up and down they do passport photos every single day? Unbelievable.",
+          "explanationVi": "'Swore up and down' = khẳng định chắc nịch. Ben bực vì nơi tự nhận là chuyên nghiệp lại làm hỏng. Đáp án A nêu cả cảm xúc lẫn lý do.",
+          "vocabulary": ["swear up and down"]
+        },
+        {
+          "number": 3,
+          "prompt": "What did the Service Canada agent imply?",
+          "options": [
+            { "text": "They should postpone their trip to Japan.", "trap": "too_broad", "whyVi": "Nhân viên không bảo hoãn chuyến đi; chỉ gợi ý xem các lựa chọn khác." },
+            { "text": "Mailing the application again was the safest choice.", "trap": "opposite", "whyVi": "Ngược lại, cô ngụ ý gửi thư lại KHÔNG phải cách hay." },
+            { "text": "They should consider a faster way than sending it by mail.", "trap": "none", "whyVi": "Đúng: 'if you have travel booked, you may want to look at your other options' ngụ ý dùng dịch vụ nhanh hơn." },
+            { "text": "The passport would definitely arrive before the twelfth.", "trap": "not_mentioned", "whyVi": "Cô không hứa điều gì; Ben còn lo sẽ rất sát giờ." }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "She never said it outright, but she kept repeating, if you have travel booked, you may want to look at your other options.",
+          "explanationVi": "'Never said it outright' cho biết đây là ẩn ý. Kết hợp với 'mailing it in again wasn't the way to go', ý là nên chọn cách nhanh hơn gửi thư.",
+          "vocabulary": ["outright"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Ben", "voice": "male_b", "text": "Okay, so what are the options? Can we pay to speed it up?" },
+        { "speaker": "Yuki", "voice": "female_a", "text": "There's urgent service, which is next day, and express, which is two to nine business days. But for either one, you have to apply in person at a passport office, and you need proof that you're travelling." },
+        { "speaker": "Ben", "voice": "male_b", "text": "Which office? Please don't say downtown. Last time I went there, I stood in line for three hours, and they stopped handing out tickets ten people ahead of me." },
+        { "speaker": "Yuki", "voice": "female_a", "text": "There's one in Surrey, too. And you can book appointments online now, which wasn't a thing back then. The earliest slot there is next Thursday at ten-fifteen." },
+        { "speaker": "Ben", "voice": "male_b", "text": "Next Thursday. Would express still get it to us before the twelfth?" },
+        { "speaker": "Yuki", "voice": "female_a", "text": "Just about, yes, even at the slow end. But it's not cheap. Express has its own fee on top of the regular one." },
+        { "speaker": "Ben", "voice": "male_b", "text": "I'd pay that twice over to avoid telling your mother that Hana's missing her eightieth." },
+        { "speaker": "Yuki", "voice": "female_a", "text": "Ha. Same. And we need new photos regardless. Somewhere else this time." }
+      ],
+      "questions": [
+        {
+          "number": 4,
+          "prompt": "What do they need in order to get faster service?",
+          "options": [
+            { "text": "An online application and an extra fee.", "trap": "opposite", "whyVi": "Dịch vụ nhanh phải nộp trực tiếp ('in person'); chỉ việc đặt lịch hẹn mới làm online." },
+            { "text": "A letter from Hana's grandmother in Japan.", "trap": "not_mentioned", "whyVi": "Không có yêu cầu thư từ bà ngoại." },
+            { "text": "An appointment at the downtown office only.", "trap": "wrong_detail", "whyVi": "Có văn phòng ở Surrey nữa; không bắt buộc phải là văn phòng trung tâm." },
+            { "text": "To go to an office themselves and show evidence of their trip.", "trap": "none", "whyVi": "Đúng: phải nộp trực tiếp tại văn phòng hộ chiếu và có bằng chứng sắp đi du lịch." }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "you have to apply in person at a passport office, and you need proof that you're travelling",
+          "explanationVi": "'Apply in person' = 'go to an office themselves'; 'proof that you're travelling' = 'evidence of their trip'. Đáp án D diễn đạt lại cả hai điều kiện.",
+          "vocabulary": ["in person", "proof of travel"]
+        },
+        {
+          "number": 5,
+          "prompt": "Why doesn't Ben want to go to the downtown office?",
+          "options": [
+            { "text": "It no longer offers express service.", "trap": "not_mentioned", "whyVi": "Không nói văn phòng trung tâm ngừng dịch vụ nhanh." },
+            { "text": "On an earlier visit, he waited for hours and still wasn't served.", "trap": "none", "whyVi": "Đúng: lần trước anh xếp hàng ba tiếng mà vẫn hết số trước khi tới lượt." },
+            { "text": "It does not take appointments online.", "trap": "wrong_detail", "whyVi": "Đặt lịch online được nhắc khi nói về văn phòng Surrey; không nói văn phòng trung tâm không có." },
+            { "text": "It is too far from where they live.", "trap": "not_mentioned", "whyVi": "Ben không nói về khoảng cách." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "I stood in line for three hours, and they stopped handing out tickets ten people ahead of me",
+          "explanationVi": "'Stopped handing out tickets ten people ahead of me' = hết số trước khi đến lượt anh, tức là không được phục vụ. Đáp án B diễn đạt lại thành 'waited for hours and still wasn't served'.",
+          "vocabulary": []
+        },
+        {
+          "number": 6,
+          "prompt": "What does Ben suggest about the cost of express service?",
+          "options": [
+            { "text": "It is unimportant compared with letting the family down.", "trap": "none", "whyVi": "Đúng: anh sẵn sàng trả gấp đôi để khỏi phải báo với mẹ vợ rằng Hana lỡ sinh nhật 80 tuổi của bà." },
+            { "text": "It is more than they can afford this month.", "trap": "opposite", "whyVi": "Anh nói sẵn sàng trả gấp đôi, không phải không có tiền." },
+            { "text": "Yuki's mother should help pay for it.", "trap": "word_match", "whyVi": "Mẹ của Yuki được nhắc, nhưng không phải để chia tiền." },
+            { "text": "Urgent service would be better value.", "trap": "not_mentioned", "whyVi": "Không ai so sánh giá dịch vụ urgent." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "I'd pay that twice over to avoid telling your mother that Hana's missing her eightieth.",
+          "explanationVi": "'I'd pay that twice over' cho thấy tiền không quan trọng; 'avoid telling your mother' = tránh làm gia đình thất vọng. Đây là thái độ ngầm, không nói thẳng.",
+          "vocabulary": []
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Ben", "voice": "male_b", "text": "So I booked the Thursday slot. But here's a wrinkle. The confirmation email says Hana should come along to the appointment, and Thursday's her class trip to the aquarium." },
+        { "speaker": "Yuki", "voice": "female_a", "text": "Oh no. She's been counting down the days for that. She'll be heartbroken." },
+        { "speaker": "Ben", "voice": "male_b", "text": "She won't have to miss it. I called the school, and her teacher said I can drop her off at the aquarium at noon and she'll join the group for the afternoon. She'll only miss the bus ride and the morning snack." },
+        { "speaker": "Yuki", "voice": "female_a", "text": "Okay, that works. And the photos?" },
+        { "speaker": "Ben", "voice": "male_b", "text": "Saturday morning. There's a studio near the SkyTrain station that guarantees them. If they're rejected, they reshoot and refund you. It's twenty-five instead of fifteen, but after this week, I'm not taking any chances." },
+        { "speaker": "Yuki", "voice": "female_a", "text": "Good call. Oh, and bring the plane tickets. Printed. Don't just show them on your phone." },
+        { "speaker": "Ben", "voice": "male_b", "text": "Already in the folder, along with the letter they sent back, in case they want to see it." },
+        { "speaker": "Yuki", "voice": "female_a", "text": "Look at you. Who are you, and what have you done with my husband?" }
+      ],
+      "questions": [
+        {
+          "number": 7,
+          "prompt": "How will Ben deal with the conflict on Thursday?",
+          "options": [
+            { "text": "He will reschedule the appointment for after the class trip.", "trap": "not_mentioned", "whyVi": "Ben giữ lịch hẹn thứ Năm, không đổi lịch." },
+            { "text": "He will take Hana to the appointment and then bring her to join her class.", "trap": "none", "whyVi": "Đúng: sau buổi hẹn, anh đưa Hana đến thủy cung lúc trưa để nhập đoàn." },
+            { "text": "Hana will skip the class trip completely.", "trap": "opposite", "whyVi": "Ben nói 'She won't have to miss it'." },
+            { "text": "Hana will go on the school bus, and Ben will attend alone.", "trap": "wrong_detail", "whyVi": "Hana chỉ lỡ chuyến xe buýt và bữa ăn nhẹ buổi sáng; cô bé đi cùng Ben đến buổi hẹn." }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "I can drop her off at the aquarium at noon and she'll join the group for the afternoon",
+          "explanationVi": "Ghép hai thông tin: Hana phải có mặt ở buổi hẹn lúc 10:15, và Ben 'drop her off at the aquarium at noon'. Đáp án B diễn đạt 'join the group' thành 'join her class'.",
+          "vocabulary": ["wrinkle"]
+        },
+        {
+          "number": 8,
+          "prompt": "What does Yuki's final comment suggest?",
+          "options": [
+            { "text": "She suspects Ben has forgotten something important.", "trap": "opposite", "whyVi": "Ngược lại, Ben đã chuẩn bị đầy đủ mọi thứ." },
+            { "text": "She is annoyed that Ben did everything without her.", "trap": "not_mentioned", "whyVi": "Không có dấu hiệu cô bực bội." },
+            { "text": "She is surprised and amused by how organized Ben is being.", "trap": "none", "whyVi": "Đúng: câu đùa 'Who are you, and what have you done with my husband?' nghĩa là anh hôm nay chu đáo khác thường." },
+            { "text": "She doesn't recognize the folder Ben has prepared.", "trap": "word_match", "whyVi": "Hiểu câu đùa theo nghĩa đen; 'folder' chỉ là nơi Ben để vé và giấy tờ." }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "Look at you. Who are you, and what have you done with my husband?",
+          "explanationVi": "Đây là câu đùa quen thuộc trong tiếng Anh khi ai đó cư xử khác hẳn thường ngày. Ben đã chuẩn bị vé in sẵn và thư bị trả lại trước khi Yuki nhắc, nên cô vừa ngạc nhiên vừa trêu.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "specifications", "vi": "tiêu chuẩn kỹ thuật, quy cách", "definition": "exact details that something must match", "example": "The photo doesn't meet the passport specifications." },
+    { "term": "swear up and down", "vi": "thề sống thề chết, khẳng định chắc nịch", "definition": "to insist very strongly that something is true", "example": "The drugstore swore up and down that the photos were fine." },
+    { "term": "outright", "vi": "thẳng thừng, trực tiếp", "definition": "openly and directly", "example": "She never said it outright, but she hinted at it." },
+    { "term": "in person", "vi": "trực tiếp (có mặt)", "definition": "by being physically present", "example": "You have to apply in person for urgent service." },
+    { "term": "proof of travel", "vi": "bằng chứng sắp đi du lịch", "definition": "documents such as tickets that show you have a trip booked", "example": "Bring your plane tickets as proof of travel." },
+    { "term": "wrinkle", "vi": "trục trặc nhỏ, vấn đề phát sinh", "definition": "a small problem or difficulty", "example": "Here's a wrinkle: the appointment is on her class trip day." },
+    { "term": "razor thin", "vi": "sát nút, mỏng như dao cạo", "definition": "extremely small, especially a margin of time", "example": "Mailing it again would be cutting it razor thin." },
+    { "term": "take chances", "vi": "liều, mạo hiểm", "definition": "to do something risky", "example": "After this week, I'm not taking any chances." }
+  ],
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; keys matched. Passport process kept plausible (Service Canada named correctly; urgent next day / express 2-9 business days in person with proof of travel; 20 business days by mail). Fixed: Yuki's name now spoken; 'three weeks from tomorrow' contradicted 'cutting it razor thin' with 20 business days, changed to four weeks; removed the wrong express surcharge ($110 is the urgent fee) and rephrased Ben's reply and Q6 evidence." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

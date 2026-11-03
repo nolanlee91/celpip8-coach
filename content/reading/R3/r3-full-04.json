@@ -1,0 +1,196 @@
+{
+  "id": "r3-full-04",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "housing",
+  "title": "Before You Buy: What a Home Inspection Can and Can't Tell You",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 9 statements; keys match (A, C, B, E, D, C, B, E, D), E used twice with closest-sentence evidence. Fixed Q7: the prompt said reports 'usually' make the distinction, but Paragraph B only says 'A good report' does, so it was reworded to 'A well-written inspection report...' to avoid an E argument. Fact-checked: BC home inspectors are licensed by Consumer Protection BC with an online licence lookup; $450-$700 for a detached-house inspection and $250-$400 for a sewer camera scan are realistic, hedged ranges; people and places in the story are fictional. No duplicate title." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "When Marcus and Leilani Okafor finally had an offer accepted on a 1970s split-level in Kamloops last spring, it was their fifth try in four months. Each of the first four times, they had lost out to buyers who waived every condition, including the home inspection. This time they held firm, and they are glad they did. The inspector, who spent nearly three hours in the house, found water stains in the crawl space and signs that the perimeter drain had failed. A drainage contractor later quoted $24,000 for the repair, and the couple used the report to negotiate $20,000 off the price. \"We almost skipped the inspection to look better to the seller,\" Leilani says. \"It would have been the most expensive shortcut of our lives.\"",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "In British Columbia, home inspectors must be licensed by Consumer Protection BC, and buyers can check online whether an inspector's licence is valid. A standard inspection of a detached house usually costs between $450 and $700, depending on its size and age, and takes two to four hours. The inspector looks at the roof, foundation, plumbing, heating, electrical panel, windows and attic, and tests things like taps, outlets and smoke alarms. Buyers are encouraged to come along and ask questions as they go. Most inspectors send a written report, often with photographs, within a day or two. A good report separates problems that need urgent attention from those that are simply normal wear for a house of that age.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "What an inspection cannot do is see through walls. Inspectors carry out a visual, non-invasive assessment, which means they will not cut into drywall, pull up carpets or move the owner's furniture. Problems hidden behind finished surfaces, such as outdated wiring or a slow leak, can easily go unnoticed. For that reason, Kelowna inspector Theo Baranski urges buyers of older homes to pay for extra tests. A camera inspection of the sewer line, typically $250 to $400, can reveal tree roots or a collapsed pipe that would cost many times more to fix after moving in. In some neighbourhoods, he also suggests a scan for an old buried heating-oil tank. \"The standard inspection is a starting point,\" he says, \"not a guarantee.\"",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "In a hot market, many buyers feel pressure to drop the inspection condition altogether. Some sellers now pay for a pre-listing inspection and share the report with anyone interested, which can give buyers the confidence to make a firm offer. Abbotsford realtor Simran Gill is wary of relying on these reports. A document paid for by the seller, she notes, is not written with the buyer's interests in mind, and the buyer usually has no contract with the inspector who wrote it. Her advice to clients who want to stay competitive is to book their own inspection before submitting an offer. She admits this can mean paying several hundred dollars for homes they never end up buying, but she considers it money well spent.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "A couple used defects found during an inspection to bring down the price they paid.",
+      "options": [
+        { "text": "A", "trap": "none", "whyVi": "Đúng: vợ chồng Okafor dùng báo cáo kiểm tra để thương lượng giảm 20.000 đô." },
+        { "text": "B", "trap": "word_match", "whyVi": "Đoạn B có 'report' và 'problems', nhưng chỉ mô tả báo cáo nói chung, không có ai thương lượng giá." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C nói về giới hạn của việc kiểm tra và các xét nghiệm thêm." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D nói về việc đưa ra lời đề nghị mua cạnh tranh, nhưng không có ai được giảm giá nhờ báo cáo." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn A nên không chọn E." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "the couple used the report to negotiate $20,000 off the price",
+      "explanationVi": "'Negotiate $20,000 off the price' ↔ 'bring down the price they paid'; 'the report' ghi lại lỗi thoát nước ('defects'). Đáp án A.",
+      "vocabulary": []
+    },
+    {
+      "number": 2,
+      "prompt": "During a standard visit, inspectors will not open up walls or lift floor coverings.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A kể việc kiểm tra tìm ra vết nước, không nói người kiểm tra không được làm gì." },
+        { "text": "B", "trap": "partially_true", "whyVi": "Đoạn B liệt kê những gì được kiểm tra, nhưng không nói những gì họ không làm." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: kiểm tra bằng mắt, không xâm lấn – không cắt tường thạch cao, không lật thảm." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D nói về báo cáo của người bán." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "they will not cut into drywall, pull up carpets or move the owner's furniture",
+      "explanationVi": "'Cut into drywall' ↔ 'open up walls'; 'pull up carpets' ↔ 'lift floor coverings'. Đáp án C.",
+      "vocabulary": ["non-invasive"]
+    },
+    {
+      "number": 3,
+      "prompt": "Buyers can confirm for themselves that an inspector is allowed to work in the province.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không nhắc tới giấy phép." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: người mua có thể kiểm tra online giấy phép của người kiểm tra nhà." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C giới thiệu một người kiểm tra ở Kelowna, nhưng không nói cách xác minh giấy phép." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D nói người mua thường không có hợp đồng với người kiểm tra của bên bán – không liên quan tới giấy phép." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "home inspectors must be licensed by Consumer Protection BC, and buyers can check online whether an inspector's licence is valid",
+      "explanationVi": "Vì người kiểm tra phải có giấy phép mới được hành nghề, nên kiểm tra 'licence is valid' = xác nhận họ 'allowed to work in the province'. 'Check online' ↔ 'confirm for themselves'. Đáp án B.",
+      "vocabulary": []
+    },
+    {
+      "number": 4,
+      "prompt": "The inspector in Kamloops recommended a particular company to repair the drain.",
+      "options": [
+        { "text": "A", "trap": "partially_true", "whyVi": "Đoạn A có nhắc một nhà thầu thoát nước báo giá, nhưng không nói người kiểm tra giới thiệu công ty đó." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B không nói về sửa chữa." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'inspector' và 'pipe', nhưng là lời khuyên kiểm tra ống cống, không giới thiệu công ty sửa." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D không nói về sửa chữa." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: không đoạn nào nói người kiểm tra giới thiệu nhà thầu." }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "A drainage contractor later quoted $24,000 for the repair",
+      "explanationVi": "Câu gần nhất ở Đoạn A chỉ nói 'a drainage contractor later quoted' – một nhà thầu báo giá sau đó. Không nói ai giới thiệu nhà thầu này, càng không nói người kiểm tra giới thiệu. → E.",
+      "vocabulary": ["perimeter drain"]
+    },
+    {
+      "number": 5,
+      "prompt": "A professional warns that an inspection arranged by the seller may not protect the buyer.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A: người mua tự kiểm tra, không có báo cáo của bên bán." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B mô tả việc kiểm tra thông thường." },
+        { "text": "C", "trap": "partially_true", "whyVi": "Baranski nói kiểm tra 'not a guarantee', nhưng ý ông là giới hạn của mọi cuộc kiểm tra, không phải báo cáo do người bán đặt." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Simran Gill nói báo cáo do người bán trả tiền không viết vì lợi ích người mua." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "A document paid for by the seller, she notes, is not written with the buyer's interests in mind",
+      "explanationVi": "'Paid for by the seller' ↔ 'arranged by the seller'; 'not written with the buyer's interests in mind' ↔ 'may not protect the buyer'. Đáp án D. Đoạn C là bẫy vì có 'not a guarantee'.",
+      "vocabulary": ["pre-listing inspection"]
+    },
+    {
+      "number": 6,
+      "prompt": "Paying for additional tests is especially worthwhile when the house is not new.",
+      "options": [
+        { "text": "A", "trap": "word_match", "whyVi": "Nhà ở Đoạn A xây từ thập niên 1970, nhưng đoạn này không khuyên làm xét nghiệm thêm." },
+        { "text": "B", "trap": "partially_true", "whyVi": "Đoạn B nói giá phụ thuộc tuổi nhà, nhưng không khuyên làm thêm kiểm tra." },
+        { "text": "C", "trap": "none", "whyVi": "Đúng: Baranski khuyên người mua nhà cũ trả tiền làm thêm kiểm tra." },
+        { "text": "D", "trap": "not_mentioned", "whyVi": "Đoạn D không nói về xét nghiệm thêm." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn C nên không chọn E." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Kelowna inspector Theo Baranski urges buyers of older homes to pay for extra tests",
+      "explanationVi": "'Older homes' ↔ 'the house is not new'; 'extra tests' ↔ 'additional tests'; 'urges' cho thấy ông coi việc này rất đáng làm. Đáp án C.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "A well-written inspection report distinguishes serious issues from the expected effects of age.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A chỉ nêu lỗi cụ thể của một ngôi nhà." },
+        { "text": "B", "trap": "none", "whyVi": "Đúng: báo cáo tốt tách vấn đề cần xử lý gấp khỏi hao mòn bình thường." },
+        { "text": "C", "trap": "word_match", "whyVi": "Đoạn C có 'older homes', nhưng không nói báo cáo phân loại vấn đề." },
+        { "text": "D", "trap": "word_match", "whyVi": "Đoạn D có 'report' nhưng nói về báo cáo của người bán." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn B nên không chọn E." }
+      ],
+      "answerIndex": 1,
+      "category": "vocabulary",
+      "evidence": "A good report separates problems that need urgent attention from those that are simply normal wear for a house of that age.",
+      "explanationVi": "'Separates' ↔ 'distinguish'; 'need urgent attention' ↔ 'serious issues'; 'normal wear for a house of that age' ↔ 'expected effects of age'. Đáp án B.",
+      "vocabulary": ["normal wear"]
+    },
+    {
+      "number": 8,
+      "prompt": "Homes with a seller's inspection report tend to sell for higher prices.",
+      "options": [
+        { "text": "A", "trap": "not_mentioned", "whyVi": "Đoạn A không có báo cáo của người bán." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B không nói về giá bán nhà." },
+        { "text": "C", "trap": "not_mentioned", "whyVi": "Đoạn C không nói về giá bán nhà." },
+        { "text": "D", "trap": "partially_true", "whyVi": "Đoạn D nói báo cáo của người bán giúp người mua tự tin đưa ra lời đề nghị chắc chắn, nhưng không nói nhà bán được giá cao hơn." },
+        { "text": "E — Not given in any paragraph", "trap": "none", "whyVi": "Đúng: không đoạn nào nói về giá bán cao hơn." }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "which can give buyers the confidence to make a firm offer",
+      "explanationVi": "Câu gần nhất ở Đoạn D chỉ nói báo cáo giúp người mua tự tin đưa ra 'a firm offer' (lời đề nghị không điều kiện). Tự tin hơn không có nghĩa là trả giá cao hơn; bài không nói gì về giá. → E.",
+      "vocabulary": ["firm offer"]
+    },
+    {
+      "number": 9,
+      "prompt": "One person accepts that her approach may cost buyers money for nothing in return, but still recommends it.",
+      "options": [
+        { "text": "A", "trap": "wrong_detail", "whyVi": "Leilani nói bỏ qua kiểm tra mới là 'expensive shortcut'; cô không nói về tiền bỏ ra mà không được gì." },
+        { "text": "B", "trap": "not_mentioned", "whyVi": "Đoạn B chỉ nêu giá kiểm tra, không có ý kiến cá nhân." },
+        { "text": "C", "trap": "partially_true", "whyVi": "Baranski khuyên trả thêm tiền kiểm tra, nhưng không thừa nhận khoản tiền đó có thể phí." },
+        { "text": "D", "trap": "none", "whyVi": "Đúng: Gill thừa nhận khách có thể mất vài trăm đô cho những căn không mua, nhưng vẫn cho là đáng." },
+        { "text": "E — Not given in any paragraph", "trap": "not_mentioned", "whyVi": "Thông tin có trong Đoạn D nên không chọn E." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "She admits this can mean paying several hundred dollars for homes they never end up buying, but she considers it money well spent.",
+      "explanationVi": "'Admits' ↔ 'accepts'; 'paying ... for homes they never end up buying' ↔ 'cost money for nothing in return'; 'money well spent' ↔ 'still recommends it'. Đáp án D.",
+      "vocabulary": ["end up"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "waive a condition", "vi": "bỏ điều kiện (trong lời đề nghị mua nhà)", "definition": "to give up a requirement, such as an inspection, that must be met before a sale is final", "example": "They lost out to buyers who waived every condition." },
+    { "term": "hold firm", "vi": "giữ vững lập trường", "definition": "to refuse to change your position", "example": "This time they held firm and kept the inspection." },
+    { "term": "perimeter drain", "vi": "ống thoát nước quanh móng nhà", "definition": "a pipe around a house's foundation that carries groundwater away", "example": "The inspector found signs that the perimeter drain had failed." },
+    { "term": "non-invasive", "vi": "không xâm lấn, không phá dỡ", "definition": "done without cutting, opening or damaging anything", "example": "Inspectors carry out a visual, non-invasive assessment." },
+    { "term": "normal wear", "vi": "hao mòn bình thường", "definition": "the ordinary damage that happens to something over time through use", "example": "Some problems are simply normal wear for a house of that age." },
+    { "term": "pre-listing inspection", "vi": "kiểm tra nhà trước khi rao bán (do người bán đặt)", "definition": "an inspection a seller pays for before putting a home on the market", "example": "Some sellers now pay for a pre-listing inspection." },
+    { "term": "firm offer", "vi": "lời đề nghị mua không kèm điều kiện", "definition": "an offer to buy with no conditions attached", "example": "The report can give buyers the confidence to make a firm offer." },
+    { "term": "end up", "vi": "rốt cuộc, cuối cùng thì", "definition": "to finally be in a situation, often without planning it", "example": "They paid for homes they never end up buying." }
+  ]
+}

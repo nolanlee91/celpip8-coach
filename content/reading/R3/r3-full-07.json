@@ -1,0 +1,422 @@
+{
+  "id": "r3-full-07",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "social",
+  "title": "Dinner with Strangers: A Supper Club for the Lonely",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": {"status":"approved","reviewedBy":"independent AI review (Claude)","notes":"Solved all 9 independently; keys match; Q7 E verified (D says members pay nothing and volunteers run it; no city grant). Reworded Q2 from 'feel she belonged' to 'did little to ease one person's loneliness', which Paragraph A supports more directly; explanation adjusted."},
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "The rules of the Long Table Supper Club are simple. Once a month, eight people who have never met sit down in someone's home in Surrey or Langley for a potluck dinner. Nobody may bring a friend, and the host is assigned by a volunteer coordinator rather than picked by the guests. Co-founder Nadia Haddad, who moved to Canada from Lebanon in 2016, came up with the idea after spending her first winter here barely speaking to anyone outside work. \"People kept telling me Canadians were friendly,\" she says, \"and they were, for about thirty seconds at a bus stop. What I needed was a reason to sit at the same table for three hours.\"",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "The club now has about 300 members, and Haddad is quick to point out that only around half of them are recent immigrants. The rest include retirees whose children have moved away, young workers who relocated for jobs, and recently divorced parents whose social circles had shrunk. Mixing these groups was deliberate. Haddad noticed early on that dinners made up only of newcomers tended to turn into long conversations about work permits and job searches, which were useful but rarely led to lasting friendships. When a table includes a seventy-year-old gardener and a nursing student from Manila, she says, people stop swapping advice and start actually getting to know each other.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Researchers who study loneliness are not surprised that the format works. Dr. Kenji Watanabe, a sociologist who has surveyed isolated adults across the Lower Mainland, says friendships tend to grow out of repeated, casual contact rather than one deep conversation. That is the weak spot of many well-meaning programs: they offer one great evening and then nothing. To its credit, the club encourages members who hit it off to meet again on their own, and several walking groups and book clubs have sprung up as a result. Watanabe's one caution is that the most isolated people are often the least likely to sign up for anything, so clubs like this may miss those who need them most.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Running the club has not been without its headaches. Finding hosts is the hardest part, since many members live in small apartments that cannot seat eight, and a handful of dinners have had to move to a community centre kitchen as a result. Dietary needs also take careful planning; a typical table might include someone who eats only halal food, a vegetarian and a guest with a nut allergy. Coordinators now send out a short form a week ahead so that dishes can be planned in advance. Members pay nothing to join, but Haddad admits the club leans heavily on three volunteers who are, in her words, \"running on coffee and good intentions.\"",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Groups made up entirely of new arrivals tended to focus on practical matters.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A kể Nadia là người mới đến và cô đơn, nhưng không nói các nhóm toàn người mới hay nói chuyện gì."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: các bàn chỉ có người mới đến hay xoay quanh chuyện giấy tờ, tìm việc."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về cách tình bạn hình thành, không nói nội dung trò chuyện của người mới."
+        },
+        {
+          "text": "D",
+          "trap": "word_match",
+          "whyVi": "Đoạn D có chuyện lên kế hoạch thực tế (món ăn, dị ứng) nhưng đó là việc của điều phối viên, không phải chủ đề trò chuyện."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "dinners made up only of newcomers tended to turn into long conversations about work permits and job searches",
+      "explanationVi": "Đoạn B: những bữa ăn chỉ có người mới đến 'tended to turn into long conversations about work permits and job searches'. 'New arrivals' = 'newcomers'; 'practical matters' = giấy phép lao động, tìm việc."
+    },
+    {
+      "number": 2,
+      "prompt": "Brief, polite encounters did little to ease one person's loneliness.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: Nadia thấy những lần thân thiện ngắn ngủi ở trạm xe buýt chưa đủ, cô cần những buổi ngồi lâu cùng nhau."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về thành phần thành viên, không có ai nói về những cuộc gặp ngắn."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói tình bạn cần tiếp xúc lặp lại, nhưng không nói về cảm nhận của một người cụ thể với các cuộc gặp ngắn."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về khó khăn tổ chức."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "\"and they were, for about thirty seconds at a bus stop. What I needed was a reason to sit at the same table for three hours.\"",
+      "explanationVi": "Nadia nói người Canada thân thiện 'for about thirty seconds at a bus stop' (chỉ vài giây xã giao), còn cô cần 'a reason to sit at the same table for three hours'. Suy ra: những cuộc gặp ngắn, lịch sự không giúp cô bớt cô đơn. Câu đề không trích lại từ nào trong bài — phải suy luận."
+    },
+    {
+      "number": 3,
+      "prompt": "Limited space in members' homes has sometimes forced a change of location.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'in someone's home' nhưng chỉ mô tả nơi ăn tối thông thường."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B không nói về địa điểm."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nói về nhà của thành viên."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: một số bữa phải chuyển sang bếp trung tâm cộng đồng vì nhà quá nhỏ."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "many members live in small apartments that cannot seat eight, and a handful of dinners have had to move to a community centre kitchen as a result",
+      "explanationVi": "Đoạn D: nhiều thành viên sống trong căn hộ nhỏ 'cannot seat eight', nên vài bữa phải 'move to a community centre kitchen'. 'Limited space' = 'small apartments'; 'change of location' = chuyển đến trung tâm cộng đồng."
+    },
+    {
+      "number": 4,
+      "prompt": "A single social occasion is unlikely, by itself, to produce a lasting friendship.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "opposite",
+          "whyVi": "Đoạn A: Nadia muốn ngồi lâu cùng một bàn — đề cao một buổi dài, không nói một buổi thì chưa đủ."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói bàn toàn người mới 'rarely led to lasting friendships', nhưng lý do là thành phần nhóm, không phải vì chỉ gặp một lần."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: nhà xã hội học nói tình bạn cần tiếp xúc lặp lại, một buổi tối hay thôi chưa đủ."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về hậu cần."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "friendships tend to grow out of repeated, casual contact rather than one deep conversation",
+      "explanationVi": "Dr. Watanabe: tình bạn 'grow out of repeated, casual contact rather than one deep conversation', và điểm yếu của nhiều chương trình là chỉ có 'one great evening and then nothing'. 'A single social occasion' = 'one great evening'.",
+      "vocabulary": [
+        "isolated"
+      ]
+    },
+    {
+      "number": 5,
+      "prompt": "The club may not be reaching the people who would benefit from it most.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói ai bị bỏ sót."
+        },
+        {
+          "text": "B",
+          "trap": "too_broad",
+          "whyVi": "Đoạn B liệt kê nhiều nhóm người tham gia, không nói nhóm nào bị bỏ sót."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Watanabe lo rằng người cô đơn nhất lại ít đăng ký nhất."
+        },
+        {
+          "text": "D",
+          "trap": "word_match",
+          "whyVi": "Đoạn D có 'Members pay nothing to join' — nói về đăng ký, nhưng không nói ai không tham gia."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "so clubs like this may miss those who need them most",
+      "explanationVi": "Đoạn C: những người cô lập nhất 'are often the least likely to sign up', nên câu lạc bộ 'may miss those who need them most'. 'Not reaching' = 'miss'; 'benefit from it most' = 'need them most'.",
+      "vocabulary": [
+        "sign up for"
+      ]
+    },
+    {
+      "number": 6,
+      "prompt": "Guests have no say in whose home they will eat in.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: chủ nhà do điều phối viên chỉ định, khách không được chọn."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B không nói về cách chọn chủ nhà."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nói về chủ nhà."
+        },
+        {
+          "text": "D",
+          "trap": "word_match",
+          "whyVi": "Đoạn D có 'Finding hosts is the hardest part', nhưng nói về khó tìm chủ nhà, không nói khách có được chọn không."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "the host is assigned by a volunteer coordinator rather than picked by the guests",
+      "explanationVi": "Đoạn A: chủ nhà 'is assigned by a volunteer coordinator rather than picked by the guests'. 'Have no say' = không được chọn."
+    },
+    {
+      "number": 7,
+      "prompt": "The club receives a grant from the city to cover its running costs.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A nói về luật lệ và người sáng lập."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về thành phần thành viên."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về nghiên cứu, không có tiền bạc."
+        },
+        {
+          "text": "D",
+          "trap": "word_match",
+          "whyVi": "Đoạn D có 'community centre' và chuyện phí tham gia, nhưng không nói thành phố cấp tiền."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: không đoạn nào nói câu lạc bộ nhận tài trợ của thành phố."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "detail",
+      "evidence": "Members pay nothing to join, but Haddad admits the club leans heavily on three volunteers",
+      "explanationVi": "Câu gần nhất ở Đoạn D: thành viên không trả phí và câu lạc bộ dựa vào ba tình nguyện viên. Bài không nói câu lạc bộ có nguồn tài trợ từ thành phố. 'Community centre kitchen' chỉ là nơi tổ chức, không phải tiền tài trợ → E.",
+      "vocabulary": [
+        "lean on"
+      ]
+    },
+    {
+      "number": 8,
+      "prompt": "Guests are asked ahead of time about what they can and cannot eat.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'potluck dinner' nhưng không nói về hỏi trước chế độ ăn."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B không nói về món ăn."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nói về món ăn."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: điều phối viên gửi phiếu hỏi trước một tuần để lên kế hoạch món ăn."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Coordinators now send out a short form a week ahead so that dishes can be planned in advance.",
+      "explanationVi": "Đoạn D: vì có người ăn halal, ăn chay, dị ứng hạt, điều phối viên 'send out a short form a week ahead'. 'Asked ahead of time' = 'form a week ahead'; 'what they can and cannot eat' = 'dietary needs'.",
+      "vocabulary": [
+        "dietary needs"
+      ]
+    },
+    {
+      "number": 9,
+      "prompt": "Bringing together people at different stages of life was a planned feature of the club.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A nói 8 người lạ được xếp chung bàn, nhưng không nói việc trộn các nhóm tuổi là có chủ đích."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Đoạn B nói việc trộn lẫn các nhóm người khác nhau là cố ý."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nói về thành phần nhóm."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn D nói một bàn có người ăn halal, ăn chay — đó là chế độ ăn, không phải giai đoạn cuộc sống."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Mixing these groups was deliberate.",
+      "explanationVi": "Đoạn B liệt kê người về hưu, người trẻ chuyển chỗ làm, cha mẹ mới ly hôn rồi nói 'Mixing these groups was deliberate'. 'Planned' = 'deliberate'; 'different stages of life' = các nhóm tuổi, hoàn cảnh khác nhau.",
+      "vocabulary": [
+        "deliberate"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "deliberate",
+      "vi": "có chủ đích, cố ý",
+      "definition": "done on purpose, after careful thought",
+      "example": "Mixing different age groups was deliberate."
+    },
+    {
+      "term": "hit it off",
+      "vi": "hợp nhau ngay, nhanh chóng thân",
+      "definition": "to like each other and get along well from the start",
+      "example": "The two neighbours hit it off at their first dinner."
+    },
+    {
+      "term": "isolated",
+      "vi": "cô lập, ít giao tiếp",
+      "definition": "having little contact with other people",
+      "example": "Many isolated adults rarely leave home."
+    },
+    {
+      "term": "sign up for",
+      "vi": "đăng ký tham gia",
+      "definition": "to agree to take part in something by giving your name",
+      "example": "The most lonely people rarely sign up for programs."
+    },
+    {
+      "term": "spring up",
+      "vi": "mọc lên, xuất hiện nhanh",
+      "definition": "to appear or develop suddenly",
+      "example": "New book clubs often spring up after the dinners."
+    },
+    {
+      "term": "dietary needs",
+      "vi": "nhu cầu ăn uống đặc biệt",
+      "definition": "the foods a person must or must not eat",
+      "example": "The form asks guests about their dietary needs."
+    },
+    {
+      "term": "lean on",
+      "vi": "dựa vào",
+      "definition": "to depend on someone for help",
+      "example": "The club leans heavily on three volunteers."
+    },
+    {
+      "term": "swap",
+      "vi": "trao đổi, đổi cho nhau",
+      "definition": "to give something and receive something in return",
+      "example": "At first, people just swapped advice."
+    }
+  ]
+}

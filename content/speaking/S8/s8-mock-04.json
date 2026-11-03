@@ -1,0 +1,58 @@
+{
+  "id": "s8-mock-04",
+  "kind": "speaking",
+  "taskType": "S8",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "banking",
+  "title": "A piggy bank with a roof and three slots",
+  "prompt": "Your eight-year-old niece has just opened her first savings account, and you would like to buy her a gift that teaches her about money. At a toy store in Victoria, you see this unusual piggy bank. Call your sister, describe it in detail, and explain why you think it would or would not be a good gift.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='#fff5f8'/><rect y='415' width='800' height='85' fill='#d4a373'/><g fill='#f78fb3'><rect x='300' y='360' width='26' height='57' rx='6'/><rect x='340' y='360' width='26' height='57' rx='6'/><rect x='440' y='360' width='26' height='57' rx='6'/><rect x='480' y='360' width='26' height='57' rx='6'/></g><path d='M548 292 q22 -8 18 -26 q-5 -14 -16 -3 q-9 12 8 17' stroke='#f78fb3' stroke-width='4' fill='none'/><rect x='440' y='145' width='22' height='60' fill='#a5b1c2'/><rect x='443' y='143' width='16' height='4' fill='#2d3436'/><ellipse cx='451' cy='136' rx='4' ry='10' fill='#f1c40f'/><ellipse cx='400' cy='300' rx='150' ry='95' fill='#f8a5c2'/><polygon points='320,222 400,160 480,222' fill='#3867d6'/><polygon points='290,222 318,212 304,252' fill='#f78fb3'/><circle cx='292' cy='275' r='7' fill='#2d3436'/><ellipse cx='252' cy='310' rx='22' ry='30' fill='#f78fb3'/><ellipse cx='246' cy='302' rx='4' ry='7' fill='#c44569'/><ellipse cx='246' cy='320' rx='4' ry='7' fill='#c44569'/><g fill='#2d3436'><rect x='340' y='285' width='40' height='6' rx='2'/><rect x='410' y='285' width='40' height='6' rx='2'/><rect x='480' y='285' width='40' height='6' rx='2'/></g><g font-family='Arial' font-size='14' font-weight='bold' text-anchor='middle'><text x='360' y='310' fill='#20bf6b'>SAVE</text><text x='430' y='310' fill='#fa8231'>SPEND</text><text x='500' y='310' fill='#3867d6'>GIVE</text></g><circle cx='320' cy='345' r='16' fill='#d1d8e0' stroke='#4b6584' stroke-width='3'/><line x1='320' y1='345' x2='320' y2='333' stroke='#4b6584' stroke-width='3'/><rect x='380' y='366' width='80' height='22' rx='4' fill='#fed330'/><circle cx='420' cy='377' r='4' fill='#a5791f'/><rect x='620' y='440' width='120' height='42' rx='4' fill='#ffffff' stroke='#999999'/><text x='680' y='468' font-family='Arial' font-size='20' font-weight='bold' fill='#d63031' text-anchor='middle'>$34.99</text></svg>",
+  "options": null,
+  "structure": [
+    "Say why you are calling and give a one-line overview (a pig with a house roof).",
+    "Describe the pig itself: colour, face, legs, tail, then the roof and chimney with the coin.",
+    "Describe the money features: the three labelled slots, the dial and the drawer.",
+    "Explain how it teaches money skills, mention the price and ask your sister."
+  ],
+  "modelAnswer": "Hi Grace, it's me. I'm at a toy store downtown, and I think I've found the perfect gift for Lily now that she's got her own savings account. It's a piggy bank, but a pretty unusual one. The pig itself is pink and round, with four short legs, a big snout, a pointy ear and a curly tail. The funny thing is, it's got a blue house roof on its back, with a grey chimney, and there's a gold coin poking out of the top of the chimney, so I guess coins go in there. On its side, there are three separate slots, each with a label underneath: 'SAVE' in green, 'SPEND' in orange and 'GIVE' in blue. On its chest, just below its face, there's a round grey dial, like the lock on a safe, and underneath its belly there's a little yellow drawer with a knob, which is probably how you get the money out. It's $34.99. I like it because it'd get her thinking about splitting her money into different goals. Do you think she'd like it?",
+  "usefulExpressions": [
+    {
+      "expression": "now that…",
+      "usageVi": "Vì giờ đây… — nối lý do với sự kiện mới"
+    },
+    {
+      "expression": "The funny thing is, …",
+      "usageVi": "Giới thiệu chi tiết bất ngờ, hài hước"
+    },
+    {
+      "expression": "…poking out of…",
+      "usageVi": "Thò ra khỏi — tả vật nhô ra một phần"
+    },
+    {
+      "expression": "…, each with a label underneath",
+      "usageVi": "Tả nhiều bộ phận giống nhau một cách gọn gàng"
+    },
+    {
+      "expression": "…, like the lock on a safe",
+      "usageVi": "So sánh để tả bộ phận khó gọi tên"
+    },
+    {
+      "expression": "It'd get her thinking about…",
+      "usageVi": "Giải thích lợi ích giáo dục của món quà"
+    }
+  ],
+  "commonMistakes": [
+    "Không biết từ 'snout' hay 'dial'; có thể nói 'its nose' và 'a round thing you turn, like on a safe'.",
+    "Chỉ đọc ba nhãn SAVE, SPEND, GIVE mà không giải thích vì sao nó giúp bé học về tiền.",
+    "Dùng sai giới từ: 'in its back' thay vì 'on its back', 'in the side' thay vì 'on its side'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked the answer against the SVG markup: pink pig, four legs, snout, one pointy ear, curly tail, blue roof with grey chimney and gold coin above it, SAVE/SPEND/GIVE slots with green/orange/blue labels, grey dial, yellow drawer with knob, $34.99. SVG rules OK. Trimmed 6 words to 180."
+  },
+  "createdAt": "2026-11-03"
+}

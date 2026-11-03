@@ -1,0 +1,73 @@
+{
+  "id": "s5-mock-04",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "social",
+  "title": "Choosing a venue for your parents' anniversary party",
+  "prompt": "Your parents are celebrating their 40th wedding anniversary, and you and your sister are organizing a surprise party for about 50 guests. You have found two possible venues in Richmond. Choose the venue you prefer. Then persuade your sister, who prefers the other venue, that your choice is better.",
+  "svg": null,
+  "options": [
+    {
+      "title": "Banquet room at Golden Harbour Restaurant",
+      "details": [
+        "$65 CAD per guest for an eight-course set dinner",
+        "Restaurant staff handle setup, serving and cleanup",
+        "Room holds up to 60 guests; party must end by 10:00 p.m.",
+        "No outside decorations allowed"
+      ]
+    },
+    {
+      "title": "Hall at Steveston Community Centre",
+      "details": [
+        "$450 CAD rental for the evening; open until midnight",
+        "Bring your own caterer (about $30 CAD per guest)",
+        "Family must set up, decorate and clean up",
+        "Includes a small stage, a karaoke system and a projector"
+      ]
+    }
+  ],
+  "structure": [
+    "Acknowledge your sister's reasons (lower cost, karaoke, decorations) and state your choice.",
+    "Reason 1: the hosts should enjoy the night — no setup or cleanup for the family.",
+    "Reason 2: put the price difference in perspective with numbers (about $3,250 vs $1,950).",
+    "Offer solutions for the restaurant's limits (10 p.m. end, no decorations, slideshow) and close."
+  ],
+  "modelAnswer": "Mai, I know the community hall works out cheaper, and Mom would love the karaoke, but I really think we should book Golden Harbour. Here's my thinking. If we go with the hall, it's not just the rental. We'd have to decorate all afternoon, then stay until midnight stacking chairs and mopping floors. We'd spend the whole party running around instead of actually celebrating with Mom and Dad. At the restaurant, the staff take care of everything, so we can just sit down and enjoy it. Now, about the money. For fifty guests, the restaurant comes to around thirty-two fifty, and the hall with catering is about nineteen fifty. That's thirteen hundred dollars, but split between the two of us, it's six fifty each for a once-in-a-lifetime fortieth. Besides, an eight-course dinner is exactly what their friends would expect. As for the ten o'clock finish, most of their friends are in their sixties anyway. And instead of decorations, we could play a photo slideshow on a laptop. So, can I call them tomorrow and put down a deposit?",
+  "usefulExpressions": [
+    {
+      "expression": "…works out cheaper, but I really think we should…",
+      "usageVi": "'Work out cheaper' = tính ra rẻ hơn; thừa nhận ưu điểm của phương án kia"
+    },
+    {
+      "expression": "Here's my thinking.",
+      "usageVi": "Câu chuyển ý tự nhiên trước khi giải thích lý do"
+    },
+    {
+      "expression": "We'd spend the whole… running around instead of actually…",
+      "usageVi": "Vẽ ra hậu quả cụ thể của phương án kia để người nghe hình dung"
+    },
+    {
+      "expression": "…split between the two of us, it's… each",
+      "usageVi": "Chia nhỏ chi phí để chênh lệch nghe hợp lý hơn"
+    },
+    {
+      "expression": "…for a once-in-a-lifetime…",
+      "usageVi": "'Once-in-a-lifetime' = một lần trong đời; nhấn mạnh ý nghĩa của dịp đặc biệt"
+    }
+  ],
+  "commonMistakes": [
+    "Tính sai: 50 × $65 = $3,250; 50 × $30 + $450 = $1,950. Nếu nói số tiền hãy tính chính xác, vì sai số làm mất uy tín lập luận.",
+    "Đọc số tiền không tự nhiên: người bản xứ hay nói 'thirty-two fifty' cho $3,250 và 'six fifty' cho $650. Có thể dùng 'three thousand two hundred fifty' nếu chưa quen, miễn là rõ ràng.",
+    "Không xử lý giới hạn của nhà hàng (phải kết thúc lúc 10 giờ, không mang đồ trang trí); hãy đưa ra lý do hoặc giải pháp cho từng điểm."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Verified 50 x $65 = $3,250, 50 x $30 + $450 = $1,950, gap $1,300 = $650 each. Fixed a contradiction ('stay until past midnight' when the hall closes at midnight), added a response to the no-decorations rule, trimmed 185 -> 178 words."
+  },
+  "createdAt": "2026-11-03"
+}

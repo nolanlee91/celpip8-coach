@@ -1,0 +1,72 @@
+{
+  "id": "w2-practice-12",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 9,
+  "topic": "customer-service",
+  "title": "Internet provider support: 24/7 AI chat or live phone agents",
+  "situation": "Your internet and mobile provider, Northwave Telecom, is restructuring its customer support to control costs. It can maintain only one of the two support models below and has emailed this survey to all customers.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: 24/7 support through an AI chat assistant in the app and on the website. It can handle billing, outages and basic troubleshooting, and it transfers complex cases to a human specialist, who would call back within 48 hours.",
+  "optionB": "Option B: Support by live phone agents only, available Monday to Saturday from 7 a.m. to 10 p.m. The company promises an average wait time of under ten minutes and a dedicated team for customers with repeat problems.",
+  "structure": [
+    "Opening: concede the surface appeal of the other option, then state your choice and principle (quality over availability)",
+    "Reason 1: real problems are rarely simple — vivid personal example + weakness of the 48-hour callback",
+    "Reason 2: specific features of your option (short wait, dedicated team) and why they matter",
+    "Concession with 'Granted': the gap in your option (overnight) and why it matters less",
+    "Conclusion"
+  ],
+  "modelResponse": "While round-the-clock chat support sounds appealing on paper, I would opt for live phone agents, as I believe reliable human help matters more than constant availability.\n\nIn my experience, the problems that drive customers to contact their provider are rarely simple. When my internet kept dropping out last spring, I spent hours going around in circles with an automated system that kept telling me to restart my modem. What finally solved the issue was a technician on the phone who spotted a fault in the line within minutes. An AI assistant may handle routine billing questions, but waiting 48 hours for a callback on anything complex would be frustrating, particularly for people who work from home.\n\nMoreover, a wait of under ten minutes would remove the main reason customers dread calling in the first place. A dedicated team for repeat problems also means not having to explain the same issue from scratch every time.\n\nGranted, an outage at midnight would have to wait until morning. However, outages are usually posted on the company's website, so few customers would truly need help overnight.\n\nOverall, live agents offer the kind of service that actually resolves problems rather than simply responding to them.",
+  "usefulExpressions": [
+    {
+      "expression": "sounds appealing on paper",
+      "usageVi": "'on paper' = trên lý thuyết (nhưng thực tế có thể khác) — nhượng bộ tinh tế ngay câu đầu."
+    },
+    {
+      "expression": "I would opt for…",
+      "usageVi": "'opt for' = chọn — trang trọng và đa dạng hơn 'choose'."
+    },
+    {
+      "expression": "going around in circles",
+      "usageVi": "Thành ngữ: loay hoay mãi không đi đến đâu — làm ví dụ cá nhân sinh động."
+    },
+    {
+      "expression": "What finally solved the issue was…",
+      "usageVi": "Câu chẻ với 'What' để nhấn mạnh — cấu trúc ngữ pháp Level 9."
+    },
+    {
+      "expression": "dread calling",
+      "usageVi": "'dread + V-ing' = rất ngại/sợ làm gì — từ vựng biểu cảm chính xác."
+    },
+    {
+      "expression": "from scratch",
+      "usageVi": "Từ đầu — thành ngữ phổ biến."
+    },
+    {
+      "expression": "Granted, … However, …",
+      "usageVi": "'Granted' = phải thừa nhận rằng — từ nhượng bộ ở mức cao."
+    },
+    {
+      "expression": "resolves problems rather than simply responding to them",
+      "usageVi": "Đối lập 'giải quyết' và 'chỉ phản hồi' — câu kết sắc, đáng nhớ."
+    }
+  ],
+  "commonMistakes": [
+    "Viết 'AI is bad' một cách cảm tính. Ở Level 9, hãy chỉ ra điểm yếu cụ thể trong đề (gọi lại sau 48 giờ) và hậu quả của nó.",
+    "Nhầm 'wait' và 'waiting time': 'the wait is ten minutes' hoặc 'the waiting time is ten minutes' đều đúng, nhưng không viết 'the waiting is ten minutes'.",
+    "Ví dụ cá nhân quá dài (5–6 câu) làm mất chỗ cho lý do thứ hai và phần nhượng bộ. Giữ ví dụ khoảng 2–3 câu.",
+    "Quên chủ ngữ giả: 'Is frustrating to wait' → 'It is frustrating to wait'."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked balance (24/7 AI chat with 48-hour human callback vs live agents Mon–Sat with short waits), model answer uses the specific 48-hour and ten-minute details, overnight-gap concession, word count 200 (at the limit, within range). No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

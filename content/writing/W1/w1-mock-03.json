@@ -1,0 +1,65 @@
+{
+  "id": "w1-mock-03",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "A cancelled ferry sailing and a missed wedding",
+  "situation": "You had a reservation with Coastline Ferries from Horseshoe Bay to Nanaimo to attend your cousin's wedding on Vancouver Island. Your morning sailing was cancelled only 30 minutes before departure, and you had to wait about four hours for the next one. As a result, you missed the wedding ceremony. You decide to email the ferry company.",
+  "instructions": [
+    "Describe what happened on the day.",
+    "Explain how the cancellation affected you.",
+    "Say what you would like the company to do."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Formal greeting + purpose: complaint about a specific sailing (date, time, route)",
+    "Instruction 1: reservation details, when you arrived, the announcement, how long you waited",
+    "Instruction 2: the personal consequence (missed ceremony) + costs",
+    "Instruction 3: acknowledge that problems happen, then a specific request + one improvement",
+    "Formal closing + sign-off"
+  ],
+  "modelResponse": "Dear Customer Relations Team,\n\nI am writing to complain about the cancellation of the 9:20 a.m. sailing from Horseshoe Bay to Nanaimo on Saturday, October 24. I had a reservation for this sailing, booking number CF-30958, and arrived at the terminal more than an hour early. However, at 8:50 a.m., an announcement informed passengers that the sailing had been cancelled because of a mechanical problem. No staff member could tell us when the next available sailing would be, and in the end I did not leave until 1:15 p.m.\n\nThis delay had serious consequences for me. I was travelling to my cousin's wedding in Parksville, and because of the four-hour wait, I missed the entire ceremony. I had also paid for a hotel and bought a new suit for the occasion, so I was extremely disappointed to miss such an important family event.\n\nI understand that mechanical problems can happen. However, I would like a full refund of my $92 fare and reservation fee. I would also suggest that your company send text alerts to passengers as early as possible, so that they can make other arrangements.\n\nI look forward to your response.\n\nYours sincerely,\nOlivia Brooks",
+  "usefulExpressions": [
+    {
+      "expression": "I am writing to complain about…",
+      "usageVi": "Mở đầu thư khiếu nại trang trọng, nêu mục đích ngay câu đầu."
+    },
+    {
+      "expression": "an announcement informed passengers that…",
+      "usageVi": "Cách kể lại sự việc khách quan, trang trọng."
+    },
+    {
+      "expression": "in the end I did not leave until 1:15 p.m.",
+      "usageVi": "Cấu trúc 'not… until' nhấn mạnh sự chậm trễ."
+    },
+    {
+      "expression": "This delay had serious consequences for me.",
+      "usageVi": "Câu chuyển ý sang phần ảnh hưởng (ý 2)."
+    },
+    {
+      "expression": "I understand that…. However, I would like…",
+      "usageVi": "Thông cảm trước, yêu cầu sau – giữ giọng lịch sự."
+    },
+    {
+      "expression": "make other arrangements",
+      "usageVi": "Cụm trang trọng: sắp xếp phương án khác."
+    }
+  ],
+  "commonMistakes": [
+    "Thiếu chi tiết cụ thể (giờ, tuyến, mã đặt chỗ). Giám khảo đánh giá cao thư có thông tin chính xác.",
+    "Yêu cầu bồi thường quá đáng, không hợp lý (ví dụ đòi trả tiền cả đám cưới). Yêu cầu cần tương xứng với sự cố.",
+    "Sai thì: 'the sailing was cancel' → 'had been cancelled'; 'I wait four hours' → 'I waited about four hours'.",
+    "Dùng 'Dear Sir' rồi kết 'Cheers'. Giữ giọng trang trọng nhất quán từ đầu đến cuối."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets (what happened, effect, request + improvement), timeline consistency (8:50 cancellation, 1:15 departure, ~4 h), fictional ferry company, realistic $92 fare + fee, 197 words. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

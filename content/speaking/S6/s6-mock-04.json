@@ -1,0 +1,54 @@
+{
+  "id": "s6-mock-04",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "Recycling fines and a plan to name residents",
+  "prompt": "You are a member of your apartment building's strata council. For several months, residents have been putting garbage and food waste into the recycling bins. The city has now fined the building $300 and warned that it may stop collecting the recycling. You have noticed that your elderly neighbour, Mrs. Okafor, often puts garbage in the wrong bin. She is very friendly but does not read English well. Another council member, Darren, wants to post a notice in the lobby naming residents who break the rules.\n\nChoose ONE of the following options:\n\nOption A: Talk to Mrs. Okafor. Explain the problem kindly and help her sort her waste correctly.\n\nOption B: Talk to Darren. Explain why you disagree with naming residents and suggest a better solution.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Open + agree that the problem is serious",
+    "Explain your concern about naming residents, with a reason",
+    "Propose 2–3 practical alternatives",
+    "Offer a compromise (review later) + ask for agreement"
+  ],
+  "modelAnswer": "Hi Darren, have you got a minute before the meeting? I wanted to talk about your idea of posting names for the recycling problem.\n\nI completely agree that we need to act. A three-hundred-dollar fine is serious, and if the city stops picking up our recycling, everyone loses. But I'm a bit worried that naming people could backfire. Some of our residents are seniors or newcomers who may not be able to read the signs, so for them it isn't really about breaking the rules on purpose. Shaming them in the lobby might just create bad feelings without fixing anything.\n\nWhat if we tried a different approach first? We could replace the text-only signs with picture-based ones, maybe in three or four languages. We could also hold a short sorting demo in the lobby on a Saturday morning. And I'd be happy to knock on a few doors to help residents who need a bit of extra support.\n\nIf things haven't improved in a month, we can always revisit your idea. Would that be fair?",
+  "usefulExpressions": [
+    {
+      "expression": "I completely agree that we need to act. But…",
+      "usageVi": "Đồng ý với mục tiêu trước rồi mới phản đối cách làm — kỹ thuật bất đồng khéo léo."
+    },
+    {
+      "expression": "…could backfire",
+      "usageVi": "'backfire' = phản tác dụng; từ vựng mạnh, tự nhiên."
+    },
+    {
+      "expression": "it isn't really about breaking the rules on purpose",
+      "usageVi": "Phân biệt nguyên nhân thật của vấn đề để bảo vệ người yếu thế."
+    },
+    {
+      "expression": "What if we tried a different approach first?",
+      "usageVi": "Đề xuất thay thế một cách mềm mỏng, dùng 'we' để thể hiện tinh thần hợp tác."
+    },
+    {
+      "expression": "we can always revisit your idea",
+      "usageVi": "Nhượng bộ một phần — giữ thể diện cho người kia, tăng khả năng được đồng ý."
+    }
+  ],
+  "commonMistakes": [
+    "Chê ý tưởng của Darren là 'stupid' hoặc 'mean'. Hãy nói về hậu quả ('could backfire') thay vì phê phán con người.",
+    "Nêu tên bà Okafor trước mặt Darren như một ví dụ xấu. Giữ thông tin chung chung để thể hiện sự tế nhị.",
+    "Dùng sai 'recycle': 'put garbage in recycle bin' → 'put garbage in the recycling bin'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked Option A/B shape, direct address to Darren, Mrs. Okafor not named, alternatives plus compromise, length (~171 words). Softened an overgeneralisation ('a lot of our residents simply can't read the signs') to 'some… may not be able to', since the prompt only supports one such resident."
+  },
+  "createdAt": "2026-11-03"
+}

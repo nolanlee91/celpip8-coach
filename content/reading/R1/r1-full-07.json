@@ -1,0 +1,206 @@
+{
+  "id": "r1-full-07",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "shopping",
+  "title": "The wrong sofa colour and a signature on the delivery slip",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 11 items independently; all keys match. Checked the date comparison in Q9 (in-laws arrive December 20, replacement January 9), evidence, Vietnamese and word counts; store is fictional. Only fix: Q10 option D trap relabelled from partially_true to word_match (it reuses 'photos'/'scuff' but nothing in it is partly true)." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a customer",
+      "kind": "text",
+      "text": "Dear Harbourline Customer Care,\n\nI'm following up on my phone call of November 2 with Shawn at your Surrey showroom, because I came away from it feeling that we'd been talking at cross purposes.\n\nOn October 30, your delivery team dropped off the Bowen three-piece sectional I ordered in August (order #HH-20931, $2,349 including tax). The fabric I chose, and the one printed on my order confirmation, was \"Harbour Mist,\" a pale grey-blue. What arrived is \"Slate,\" which is close to charcoal. The crew were in a hurry and asked me to sign the delivery slip before I'd had a chance to take the plastic off, so I only noticed the colour once they'd left. I also found a scuff about the size of a loonie on the back of the corner piece.\n\nWhen I called, Shawn offered me a 15% store credit if I kept the sofa as it is. I appreciate the gesture, but it misses the point. The whole reason I chose that fabric was to match the curtains and rug I'd already bought, and a credit I can only spend at your store doesn't make a dark sofa any lighter. He also suggested that, by signing the slip, I'd accepted the delivery \"as is.\" I'd gently point out that I signed at the crew's request, without being able to see what I was signing for.\n\nWhat I'm asking for is simple: an exchange for the sectional I actually paid for, with the one I received picked up at no cost to me. I realize fabric orders can take time, so I'd appreciate a realistic delivery date. My in-laws are staying with us from December 20, and if the new sofa can't arrive before then, I'd rather hang on to this one until it does than have nowhere to sit.\n\nI've attached photos of the colour and the scuff, along with my order confirmation.\n\nRegards,\nAiko Tanaka-Reid",
+      "table": null
+    },
+    {
+      "label": "Reply from the store",
+      "kind": "text",
+      "text": "Dear Ms. Tanaka-Reid,\n\nThank you for your email and the photos, which made the situation very clear. I'm sorry that your call with our showroom [[7]]. Your confirmation shows \"Harbour Mist,\" so the mistake was ours, and signing the delivery slip does not change that.\n\nWe will replace the sectional with the correct fabric and [[8]]. The Bowen is made to order in Ontario, and the earliest delivery date the factory can give us is January 9. I know that is [[9]], so, as you suggested, our crew will leave the current sofa with you until the replacement arrives and take it away on the same visit.\n\nIn the meantime, please [[10]], since damage beyond the existing scuff could affect the exchange.\n\nFinally, I've passed your comments about the signature on to our delivery manager. Our crews are supposed to [[11]] before asking for a signature.\n\nSincerely,\nGloria Mbeki\nCustomer Care Manager, Harbourline Home Furnishings",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What does Aiko suggest about her phone call with Shawn?",
+      "options": [
+        { "text": "Shawn was rude and refused to help her.", "trap": "opposite", "whyVi": "Shawn có đưa ra đề nghị (tín dụng 15%), và Aiko còn 'appreciate the gesture' — không có chuyện thô lỗ." },
+        { "text": "The call was cut off before they could finish.", "trap": "not_mentioned", "whyVi": "Không có chi tiết cuộc gọi bị ngắt." },
+        { "text": "They each had a different idea of what the problem was.", "trap": "none", "whyVi": "Đúng: 'talking at cross purposes' = hai người nói chuyện mà không hiểu ý nhau, mỗi người nghĩ một hướng." },
+        { "text": "Shawn agreed to exchange the sofa but never followed up.", "trap": "not_mentioned", "whyVi": "Shawn không đồng ý đổi sofa; anh chỉ đề nghị tín dụng cửa hàng." }
+      ],
+      "answerIndex": 2,
+      "category": "vocabulary",
+      "evidence": "I came away from it feeling that we'd been talking at cross purposes",
+      "explanationVi": "Thành ngữ 'talk at cross purposes' = nói chuyện mà hiểu lầm nhau vì mỗi bên nói về một điều khác. Ngữ cảnh xác nhận: Shawn nghĩ tín dụng là đủ, còn Aiko cần đúng màu sofa.",
+      "vocabulary": ["talk at cross purposes"]
+    },
+    {
+      "number": 2,
+      "prompt": "Why didn't Aiko notice the problem with the colour at the time of delivery?",
+      "options": [
+        { "text": "The sofa was still wrapped when she signed for it.", "trap": "none", "whyVi": "Đúng: cô ký 'before I'd had a chance to take the plastic off' — sofa vẫn còn bọc nilon." },
+        { "text": "The delivery happened after dark.", "trap": "not_mentioned", "whyVi": "Không có thông tin về thời gian giao hàng trong ngày." },
+        { "text": "The two fabrics look almost the same.", "trap": "opposite", "whyVi": "Một màu xanh xám nhạt, một màu gần như than chì — khác hẳn nhau." },
+        { "text": "She was not at home when the crew arrived.", "trap": "opposite", "whyVi": "Cô có ở nhà vì chính cô ký phiếu giao hàng." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "asked me to sign the delivery slip before I'd had a chance to take the plastic off",
+      "explanationVi": "'before I'd had a chance to take the plastic off' (trước khi kịp gỡ lớp nilon) = sofa 'still wrapped'. Đây là diễn đạt lại, không dùng cùng từ.",
+      "vocabulary": ["delivery slip"]
+    },
+    {
+      "number": 3,
+      "prompt": "Why does Aiko turn down the store credit?",
+      "options": [
+        { "text": "She would prefer a cash discount instead.", "trap": "not_mentioned", "whyVi": "Cô không đòi giảm giá tiền mặt; cô muốn đổi đúng sofa." },
+        { "text": "It would not fix the mismatch with her other furnishings.", "trap": "none", "whyVi": "Đúng: cô chọn vải để hợp với rèm và thảm; tín dụng 'doesn't make a dark sofa any lighter'." },
+        { "text": "The 15% offered is less than the cost of the scuff repair.", "trap": "not_mentioned", "whyVi": "Không có so sánh nào với chi phí sửa vết trầy." },
+        { "text": "She never plans to shop at Harbourline again.", "trap": "too_broad", "whyVi": "Cô chỉ nói tín dụng chỉ dùng được ở cửa hàng này; không nói sẽ không bao giờ mua nữa." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "The whole reason I chose that fabric was to match the curtains and rug I'd already bought",
+      "explanationVi": "'it misses the point' = không đúng trọng tâm. Trọng tâm là màu phải hợp với 'curtains and rug' (rèm và thảm) — tức 'other furnishings'. Câu châm biếm nhẹ 'doesn't make a dark sofa any lighter' nghĩa là tiền không giải quyết được vấn đề màu sắc.",
+      "vocabulary": ["miss the point"]
+    },
+    {
+      "number": 4,
+      "prompt": "Why does Aiko point out that she signed \"at the crew's request\"?",
+      "options": [
+        { "text": "To complain that the crew was impolite to her", "trap": "not_mentioned", "whyVi": "Cô chỉ nói đội giao hàng vội, không nói họ bất lịch sự." },
+        { "text": "To admit that the signature was her own mistake", "trap": "opposite", "whyVi": "Cô dùng chi tiết này để chứng minh chữ ký không có giá trị, không phải nhận lỗi." },
+        { "text": "To show that her signature should not count as accepting the sofa", "trap": "none", "whyVi": "Đúng: cô phản bác lập luận 'accepted the delivery as is' vì lúc ký cô không thể xem hàng." },
+        { "text": "To ask for the delivery crew to be disciplined", "trap": "not_mentioned", "whyVi": "Cô không yêu cầu kỷ luật ai." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "I signed at the crew's request, without being able to see what I was signing for",
+      "explanationVi": "Câu này trả lời trực tiếp ý của Shawn 'by signing the slip, I'd accepted the delivery as is'. 'I'd gently point out' là cách phản bác lịch sự. Ý ngầm: chữ ký khi chưa được kiểm tra hàng thì không thể coi là chấp nhận.",
+      "vocabulary": ["as is"]
+    },
+    {
+      "number": 5,
+      "prompt": "What does Aiko want the store to do?",
+      "options": [
+        { "text": "Repair the scuff and give her a 15% credit", "trap": "wrong_speaker", "whyVi": "Tín dụng 15% là đề nghị của Shawn; Aiko đã từ chối." },
+        { "text": "Refund the full $2,349 and collect the sofa", "trap": "not_mentioned", "whyVi": "Cô không đòi hoàn tiền; cô muốn đổi hàng." },
+        { "text": "Fix the scuff on the corner piece", "trap": "partially_true", "whyVi": "Cô có nhắc vết trầy, nhưng yêu cầu chính là đổi cả bộ sofa đúng màu." },
+        { "text": "Swap it for the right one and remove the wrong one for free", "trap": "none", "whyVi": "Đúng: 'an exchange for the sectional I actually paid for, with the one I received picked up at no cost to me'." }
+      ],
+      "answerIndex": 3,
+      "category": "main_idea",
+      "evidence": "What I'm asking for is simple: an exchange for the sectional I actually paid for, with the one I received picked up at no cost to me.",
+      "explanationVi": "'What I'm asking for is...' nêu yêu cầu chính. 'an exchange' = 'swap it'; 'the sectional I actually paid for' = 'the right one'; 'picked up at no cost to me' = 'remove... for free'.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "What would Aiko prefer if the new sofa cannot arrive before December 20?",
+      "options": [
+        { "text": "To keep the wrong sofa for the time being", "trap": "none", "whyVi": "Đúng: 'I'd rather hang on to this one until it does than have nowhere to sit'." },
+        { "text": "To cancel the order and buy elsewhere", "trap": "not_mentioned", "whyVi": "Cô không đề cập hủy đơn." },
+        { "text": "To accept the store credit after all", "trap": "opposite", "whyVi": "Cô đã nói rõ tín dụng không giải quyết được vấn đề." },
+        { "text": "To have her in-laws stay somewhere else", "trap": "word_match", "whyVi": "Có nhắc 'in-laws', nhưng cô không đề nghị cho bố mẹ chồng ở chỗ khác." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "I'd rather hang on to this one until it does than have nowhere to sit",
+      "explanationVi": "Cụm động từ 'hang on to' = giữ lại. 'until it does' (cho đến khi sofa mới đến) = 'for the time being' (tạm thời). Cấu trúc 'I'd rather A than B' cho biết lựa chọn ưu tiên.",
+      "vocabulary": ["hang on to"]
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "solved the problem so quickly", "trap": "opposite", "whyVi": "Cuộc gọi không giải quyết được gì — đó là lý do Aiko viết thư." },
+        { "text": "left you feeling misunderstood", "trap": "none", "whyVi": "Đúng: diễn đạt lại 'talking at cross purposes' — cô cảm thấy không được hiểu." },
+        { "text": "ended with a full refund", "trap": "not_mentioned", "whyVi": "Không có hoàn tiền nào được nhắc đến." },
+        { "text": "was about the curtains and rug", "trap": "word_match", "whyVi": "Rèm và thảm có trong thư, nhưng cuộc gọi là về sofa." }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "I came away from it feeling that we'd been talking at cross purposes",
+      "explanationVi": "'I'm sorry that...' cần một điều tiêu cực. Aiko kể cuộc gọi khiến cô thấy hai bên nói không cùng ý → 'left you feeling misunderstood'.",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "add a 15% store credit to your account", "trap": "wrong_speaker", "whyVi": "Đây là đề nghị cũ của Shawn mà Aiko đã từ chối; Gloria đang đáp ứng yêu cầu đổi hàng." },
+        { "text": "repair the scuff on the corner piece", "trap": "partially_true", "whyVi": "Vết trầy có thật, nhưng sofa sẽ bị thay hoàn toàn nên không cần sửa." },
+        { "text": "collect the one you received free of charge", "trap": "none", "whyVi": "Đúng: đáp ứng phần thứ hai của yêu cầu 'picked up at no cost to me'." },
+        { "text": "charge a small fee for the pickup", "trap": "opposite", "whyVi": "Aiko yêu cầu thu hồi miễn phí, và cửa hàng đã nhận lỗi." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "with the one I received picked up at no cost to me",
+      "explanationVi": "Thư trả lời chấp nhận cả hai phần của yêu cầu: (1) thay bằng vải đúng, (2) thu hồi sofa sai miễn phí. 'at no cost to me' = 'free of charge'.",
+      "vocabulary": []
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "in good time for the holidays", "trap": "opposite", "whyVi": "Ngày 9/1 là sau kỳ nghỉ lễ, không phải kịp lễ." },
+        { "text": "the date on your order confirmation", "trap": "not_mentioned", "whyVi": "Xác nhận đơn hàng chỉ ghi tên vải, không có ngày giao." },
+        { "text": "earlier than you were expecting", "trap": "opposite", "whyVi": "'I know that is...' rồi 'so... as you suggested' cho thấy đây là tin không vui — muộn chứ không sớm." },
+        { "text": "after your family arrives", "trap": "none", "whyVi": "Đúng: bố mẹ chồng đến từ 20/12, còn sofa mới ngày 9/1 → đến sau khi gia đình đến." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "My in-laws are staying with us from December 20",
+      "explanationVi": "So sánh hai ngày: khách đến 20/12, sofa mới đến 9/1 → muộn hơn. Vì vậy cửa hàng làm theo phương án Aiko đề xuất ('as you suggested'): để sofa cũ lại cho đến khi có sofa mới.",
+      "vocabulary": []
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "take good care of the sofa you have now", "trap": "none", "whyVi": "Đúng: 'damage beyond the existing scuff could affect the exchange' — cần giữ gìn sofa hiện tại." },
+        { "text": "keep the plastic on until January", "trap": "word_match", "whyVi": "Dùng lại 'plastic', nhưng Aiko đã gỡ nilon và vẫn dùng sofa; cửa hàng không yêu cầu điều này." },
+        { "text": "return the curtains and rug", "trap": "word_match", "whyVi": "Rèm và thảm được mua trước và không liên quan đến việc đổi sofa." },
+        { "text": "send us more photos of the scuff", "trap": "word_match", "whyVi": "Gloria nói ảnh đã 'made the situation very clear' nên không cần thêm." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "I'd rather hang on to this one until it does than have nowhere to sit",
+      "explanationVi": "Vì Aiko sẽ dùng sofa sai màu đến tháng 1, cửa hàng nhắc cô giữ gìn nó: mệnh đề 'since damage beyond the existing scuff could affect the exchange' giải thích lý do.",
+      "vocabulary": []
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "collect payment in full", "trap": "not_mentioned", "whyVi": "Không liên quan đến vấn đề chữ ký Aiko nêu." },
+        { "text": "leave before the customer unwraps anything", "trap": "opposite", "whyVi": "Đó chính là điều đã xảy ra và bị phàn nàn; quy trình đúng phải ngược lại." },
+        { "text": "give customers a chance to inspect their order", "trap": "none", "whyVi": "Đúng: trả lời phàn nàn 'without being able to see what I was signing for'." },
+        { "text": "take photos of the colour and the scuff", "trap": "wrong_speaker", "whyVi": "Người chụp ảnh là Aiko, không phải đội giao hàng." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "without being able to see what I was signing for",
+      "explanationVi": "'supposed to... before asking for a signature' = quy trình đúng trước khi xin chữ ký. Aiko phàn nàn cô ký mà không được xem hàng, nên quy trình đúng là cho khách kiểm tra hàng ('inspect').",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "talk at cross purposes", "vi": "nói chuyện mà hiểu lầm nhau, ông nói gà bà nói vịt", "definition": "to misunderstand each other because each person is talking about something different", "example": "We were talking at cross purposes: he meant Friday, and I meant next week." },
+    { "term": "sectional", "vi": "bộ sofa ghép nhiều khối", "definition": "a large sofa made of several pieces that fit together", "example": "The sectional is too big for our living room." },
+    { "term": "delivery slip", "vi": "phiếu giao hàng", "definition": "a document you sign to show you received a delivery", "example": "Check the item before you sign the delivery slip." },
+    { "term": "scuff", "vi": "vết trầy, vết xước nhẹ", "definition": "a mark made by rubbing or scraping a surface", "example": "There was a scuff on the back of the chair." },
+    { "term": "miss the point", "vi": "không đúng trọng tâm", "definition": "to fail to understand or deal with the most important part of something", "example": "Offering me a discount misses the point; I need the right size." },
+    { "term": "as is", "vi": "nguyên trạng (không bảo hành, không đổi trả)", "definition": "in its present condition, with any faults it has", "example": "The floor model is sold as is." },
+    { "term": "hang on to", "vi": "giữ lại", "definition": "to keep something", "example": "Hang on to your receipt in case you need to return it." },
+    { "term": "made to order", "vi": "sản xuất theo đơn đặt hàng", "definition": "produced only after a customer orders it", "example": "The table is made to order, so delivery takes eight weeks." },
+    { "term": "store credit", "vi": "tín dụng mua hàng (chỉ dùng tại cửa hàng)", "definition": "an amount of money you can spend only at that store", "example": "They offered me store credit instead of a refund." }
+  ]
+}

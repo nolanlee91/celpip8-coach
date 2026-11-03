@@ -5,7 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { AUDIO_DIR, load, replaceDb, resetDb, save, today, uid } from "./db";
 import { AiError, aiConfigured, availability, MODEL, onUsage, streamChat, TTS_MODEL } from "./ai";
-import { enrichVocab, evaluateSpeaking, evaluateWriting, TUTOR_SYSTEM, type RawEvaluation } from "./prompts";
+import { enrichVocab, evaluateSpeaking, evaluateWriting, tutorSystem, type RawEvaluation } from "./prompts";
 import {
   adaptDifficulty, adjustedWeights, analytics, buildPlan, categoryStats, dashboard, dueMistakes,
   isDue, logStudy, mistakePriority, newSrs, repeatCountFor as repeatCount, reviewSrs, skillSummaries, weaknessProfileText,
@@ -881,7 +881,7 @@ app.post("/api/tutor", h(async (req, res) => {
   const lessonCtx = typeof c.lessonId === "string" ? lessonTutorContext(db, c.lessonId, typeof c.exerciseId === "string" ? c.exerciseId : null) : null;
   const ctx = `<context>\n${lessonCtx ? `Learn Mode lesson (teach within this lesson):\n${lessonCtx}\n\nPage state:\n` : "Current exercise:\n"}${JSON.stringify(context ?? { page: "general" }, null, 1)}\n\nWeakness profile:\n${weaknessProfileText(db)}\n</context>\n\n`;
   const msgs = messages.map((m, i) => ({ role: m.role, content: i === 0 ? ctx + m.content : m.content }));
-  await streamChat(res, TUTOR_SYSTEM, msgs);
+  await streamChat(res, tutorSystem(), msgs);
 }));
 
 // ---------------- routes: AI usage ----------------

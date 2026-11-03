@@ -1,0 +1,65 @@
+{
+  "id": "w1-practice-06",
+  "kind": "writing",
+  "taskType": "W1",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "environment",
+  "title": "Thanking the organizer of a beach cleanup",
+  "situation": "Last Saturday you took part in a volunteer beach cleanup in Comox organized by a local environmental group called Clean Coast Comox. It was your first time volunteering with them. You decide to email the organizer, Daniel Okafor.",
+  "instructions": [
+    "Thank the organizer and say what you enjoyed most.",
+    "Describe something you learned or noticed during the event.",
+    "Suggest one way to make the next cleanup even better."
+  ],
+  "optionA": null,
+  "optionB": null,
+  "structure": [
+    "Friendly but polite greeting (Hi Daniel,) + thank-you as the purpose",
+    "Instruction 1: what you enjoyed most, with a specific moment or person",
+    "Instruction 2: one surprising thing you noticed + how it changed your thinking or habits",
+    "Instruction 3: one realistic suggestion, softened (If I may make one suggestion…), with a practical detail",
+    "Warm closing (Thanks again… count me in) + sign-off"
+  ],
+  "modelResponse": "Hi Daniel,\n\nI just wanted to thank you for organizing Saturday's cleanup at Goose Spit. It was my first time volunteering with Clean Coast Comox, and I had a wonderful morning. What I enjoyed most was how welcoming everyone was. You took the time to explain the safety rules clearly, and I was paired with two long-time volunteers who made me feel like part of the team right away.\n\nI was also surprised by what we found. I had expected mostly plastic bottles, but most of what my group picked up was tiny pieces of foam and cigarette butts hidden among the rocks. Seeing 140 kilograms of garbage on the scale at the end really opened my eyes, and since then I have been much more careful about what I throw away.\n\nIf I may make one suggestion, it would be great to have more gloves in smaller sizes. Several of the teenagers and I struggled with gloves that were far too big. Perhaps a local hardware store would be willing to donate a few boxes.\n\nThanks again, and count me in for next month!\n\nWarm regards,\nPriya Sharma",
+  "usefulExpressions": [
+    {
+      "expression": "I just wanted to thank you for…",
+      "usageVi": "Câu mở đầu thân thiện, tự nhiên cho thư cảm ơn bán trang trọng."
+    },
+    {
+      "expression": "What I enjoyed most was…",
+      "usageVi": "Câu chẻ (cleft sentence) nhấn mạnh điều bạn thích nhất – trả lời thẳng ý 1."
+    },
+    {
+      "expression": "made me feel like part of the team right away",
+      "usageVi": "Diễn tả cảm giác được chào đón; 'right away' = ngay lập tức."
+    },
+    {
+      "expression": "really opened my eyes",
+      "usageVi": "Thành ngữ: giúp tôi nhận ra điều mới. Hay hơn 'I learned a lot'."
+    },
+    {
+      "expression": "If I may make one suggestion, it would be great to…",
+      "usageVi": "Đưa góp ý nhẹ nhàng, không làm người nhận thấy bị chê."
+    },
+    {
+      "expression": "count me in",
+      "usageVi": "Cách nói thân mật: 'tôi sẽ tham gia', kết thư tích cực."
+    }
+  ],
+  "commonMistakes": [
+    "Viết quá suồng sã ('Hey Dan!!! It was super cool lol'). Thư bán trang trọng vẫn cần câu đầy đủ và ngữ pháp chuẩn.",
+    "Lời góp ý nghe như chỉ trích ('The gloves were bad'). Nên làm mềm bằng 'If I may make one suggestion…' và đưa giải pháp cụ thể.",
+    "Ý 2 chỉ nói 'I learned that pollution is bad'. Cần chi tiết cụ thể (loại rác, số lượng) và ảnh hưởng tới bạn.",
+    "Nhầm thì: 'Last Saturday I join the cleanup' → 'Last Saturday I joined the cleanup'; 'since then I am more careful' → 'since then I have been more careful'."
+  ],
+  "estimatedMinutes": 27,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked all 3 bullets (thanks + what was enjoyed, what was learned, one softened suggestion), semi-formal register, 189 words, expressions and Vietnamese notes. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

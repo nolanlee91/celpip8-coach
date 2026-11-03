@@ -1,0 +1,414 @@
+{
+  "id": "l5-mock-03",
+  "kind": "listening",
+  "taskType": "L5",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "recreation",
+  "title": "Discussion: Higher field rental fees for the adult soccer league",
+  "context": "You will hear the organizers of an adult recreational soccer league in Abbotsford discussing how to deal with a rise in field rental costs.",
+  "estimatedMinutes": 9,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Tomás, league president",
+          "voice": "male_a",
+          "text": "Thanks for coming, everyone. I'll get straight to it. The city is raising the rental rate for the turf fields at Rotary Stadium from forty-five to sixty dollars an hour, starting in April. We need to decide how we're handling that before registration opens."
+        },
+        {
+          "speaker": "Brenda, treasurer",
+          "voice": "female_a",
+          "text": "I ran the numbers last night. If we keep the same schedule, it adds about four thousand two hundred dollars to our season. Split across our twenty-eight teams, that's roughly a hundred and fifty more per team."
+        },
+        {
+          "speaker": "Jun, team captains' representative",
+          "voice": "male_b",
+          "text": "That's going to be a tough sell. A lot of our players are students or newcomers, and the fee's already a hundred and ten each. Some teams can barely fill a roster as it is. I'm worried we'll lose a few teams entirely."
+        },
+        {
+          "speaker": "Nadia, referee coordinator",
+          "voice": "female_b",
+          "text": "What about moving some games to grass fields? The ones at Matsqui Park are still thirty an hour."
+        },
+        {
+          "speaker": "Tomás, league president",
+          "voice": "male_a",
+          "text": "We thought about that, Nadia. The trouble is, grass fields close whenever it rains hard, and this is the Fraser Valley. Last spring we had to cancel almost a third of the games that were scheduled on grass."
+        },
+        {
+          "speaker": "Jun, team captains' representative",
+          "voice": "male_b",
+          "text": "Okay, Tomás, but what if we only used grass from late May onward? By then it's usually dry, and it would cut our turf hours in half for that stretch."
+        },
+        {
+          "speaker": "Brenda, treasurer",
+          "voice": "female_a",
+          "text": "That's not bad, Jun. By my math, that would save close to fifteen hundred dollars. It doesn't cover everything, but it's a big chunk."
+        },
+        {
+          "speaker": "Nadia, referee coordinator",
+          "voice": "female_b",
+          "text": "And there's another piece. Right now we pay referees for every game, but a lot of the lower divisions are pretty relaxed. Could teams in Division Three referee their own games, like some leagues do?"
+        },
+        {
+          "speaker": "Jun, team captains' representative",
+          "voice": "male_b",
+          "text": "I'd be careful there, Nadia. Even in the lower divisions, games can get heated. When nobody neutral is making the calls, arguments start, and people get hurt. I'd hate to save a few dollars and end up with injuries."
+        },
+        {
+          "speaker": "Nadia, referee coordinator",
+          "voice": "female_b",
+          "text": "Fair enough. I'm a ref myself, so I know how quickly things can go sideways."
+        },
+        {
+          "speaker": "Tomás, league president",
+          "voice": "male_a",
+          "text": "Let's keep paid referees, then. Brenda, what's left to cover if we go with the grass plan?"
+        },
+        {
+          "speaker": "Brenda, treasurer",
+          "voice": "female_a",
+          "text": "About twenty-seven hundred. If we put that on registration, it's just under a hundred dollars per team, which works out to maybe six or seven dollars per player."
+        },
+        {
+          "speaker": "Jun, team captains' representative",
+          "voice": "male_b",
+          "text": "That I can explain to people. Six dollars is a coffee and a muffin. A hundred and fifty per team would have started a revolt."
+        },
+        {
+          "speaker": "Tomás, league president",
+          "voice": "male_a",
+          "text": "Then here's what I'll propose to the board: turf until late May, grass after that, referees stay, and a small fee increase. Brenda, can you also look into a sponsor? Maybe a local business would put its name on the jerseys."
+        },
+        {
+          "speaker": "Brenda, treasurer",
+          "voice": "female_a",
+          "text": "I already have one lead, a sporting goods shop on South Fraser Way. I'll give them a call this week."
+        },
+        {
+          "speaker": "Nadia, referee coordinator",
+          "voice": "female_b",
+          "text": "And I'll check with the city about the rain-out rules at Matsqui, just so we know who pays if a grass game gets cancelled."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What will the new hourly rate be for the turf fields?",
+          "options": [
+            {
+              "text": "$45",
+              "trap": "wrong_detail",
+              "whyVi": "45 đô là giá cũ trước tháng 4."
+            },
+            {
+              "text": "$60",
+              "trap": "none",
+              "whyVi": "Đúng: giá tăng từ 45 lên 60 đô một giờ."
+            },
+            {
+              "text": "$30",
+              "trap": "wrong_detail",
+              "whyVi": "30 đô là giá sân cỏ tự nhiên ở Matsqui Park."
+            },
+            {
+              "text": "$110",
+              "trap": "wrong_detail",
+              "whyVi": "110 đô là phí đăng ký hiện tại của mỗi cầu thủ."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "similar_choices",
+          "evidence": "from forty-five to sixty dollars an hour",
+          "explanationVi": "Bài có nhiều con số dễ lẫn: 45 (giá cũ), 60 (giá mới), 30 (sân cỏ), 110 (phí cầu thủ). Chú ý cấu trúc 'from ... to ...': số sau 'to' là giá mới.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "Why is Jun worried about adding $150 to each team's fee?",
+          "options": [
+            {
+              "text": "Some teams might not be able to keep playing.",
+              "trap": "none",
+              "whyVi": "Đúng: anh lo sẽ mất hẳn một vài đội vì nhiều cầu thủ là sinh viên hoặc người mới đến."
+            },
+            {
+              "text": "The league already has more teams than it needs.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: anh lo mất đội, và một số đội còn khó đủ người."
+            },
+            {
+              "text": "Players would rather play on grass fields.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói cầu thủ thích sân cỏ hơn."
+            },
+            {
+              "text": "Students cannot play during the spring season.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói sinh viên không chơi được mùa xuân."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "I'm worried we'll lose a few teams entirely.",
+          "explanationVi": "Jun nói 'a tough sell' (khó thuyết phục) và 'I'm worried we'll lose a few teams entirely'. Đáp án A diễn đạt lại thành 'might not be able to keep playing'.",
+          "vocabulary": [
+            "a tough sell",
+            "roster"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "Why does Tomás not want to use grass fields for the whole season?",
+          "options": [
+            {
+              "text": "They cost more than the turf fields.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: sân cỏ rẻ hơn (30 đô so với 60 đô)."
+            },
+            {
+              "text": "They are too far from Rotary Stadium.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nhắc khoảng cách."
+            },
+            {
+              "text": "Wet weather often makes them unusable.",
+              "trap": "none",
+              "whyVi": "Đúng: sân cỏ đóng cửa mỗi khi mưa to, và năm ngoái gần một phần ba số trận phải hủy."
+            },
+            {
+              "text": "Several players were injured on them last spring.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'last spring' nhưng nói về trận bị hủy, không phải chấn thương."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "grass fields close whenever it rains hard",
+          "explanationVi": "'Close whenever it rains hard' được diễn đạt lại thành 'wet weather often makes them unusable'. Câu 'this is the Fraser Valley' ngụ ý vùng này mưa nhiều.",
+          "vocabulary": []
+        },
+        {
+          "number": 4,
+          "prompt": "About how much money would Jun's grass plan save?",
+          "options": [
+            {
+              "text": "$4,200",
+              "trap": "wrong_detail",
+              "whyVi": "4.200 đô là tổng chi phí tăng thêm cả mùa."
+            },
+            {
+              "text": "$2,700",
+              "trap": "wrong_detail",
+              "whyVi": "2.700 đô là phần còn lại sau khi tiết kiệm."
+            },
+            {
+              "text": "Half the cost of the season",
+              "trap": "too_broad",
+              "whyVi": "Kế hoạch chỉ giảm một nửa giờ sân nhân tạo trong giai đoạn cuối mùa, không phải nửa chi phí cả mùa."
+            },
+            {
+              "text": "$1,500",
+              "trap": "none",
+              "whyVi": "Đúng: Brenda tính sẽ tiết kiệm gần 1.500 đô."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "missed_info",
+          "evidence": "that would save close to fifteen hundred dollars",
+          "explanationVi": "'Close to fifteen hundred' = gần 1.500. Chú ý 'fifteen hundred' là cách nói 1.500 và 'twenty-seven hundred' là 2.700.",
+          "vocabulary": []
+        },
+        {
+          "number": 5,
+          "prompt": "What is Jun's opinion about teams refereeing their own games?",
+          "options": [
+            {
+              "text": "He thinks it could make games less safe.",
+              "trap": "none",
+              "whyVi": "Đúng: không có trọng tài trung lập thì dễ cãi nhau và có người bị thương."
+            },
+            {
+              "text": "He thinks it would save the league a lot of money.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: anh nói chỉ tiết kiệm 'a few dollars'."
+            },
+            {
+              "text": "He supports it for Division Three only.",
+              "trap": "wrong_speaker",
+              "whyVi": "Ý tưởng cho Division Three tự làm trọng tài là của Nadia."
+            },
+            {
+              "text": "He doubts that players know the rules well enough.",
+              "trap": "not_mentioned",
+              "whyVi": "Anh không nói cầu thủ không rành luật."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "When nobody neutral is making the calls, arguments start, and people get hurt.",
+          "explanationVi": "Jun nói 'I'd be careful there' và lo 'end up with injuries'. Thái độ: phản đối vì lý do an toàn. Đáp án A diễn đạt lại thành 'less safe'.",
+          "vocabulary": [
+            "make the call"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "When Nadia says \"things can go sideways\", what does she mean?",
+          "options": [
+            {
+              "text": "Games can be moved to a different field.",
+              "trap": "wrong_detail",
+              "whyVi": "Câu này không nói về việc đổi sân."
+            },
+            {
+              "text": "A situation can suddenly go wrong.",
+              "trap": "none",
+              "whyVi": "Đúng: 'go sideways' = trở nên tồi tệ, mất kiểm soát."
+            },
+            {
+              "text": "Referees sometimes make unfair calls.",
+              "trap": "not_mentioned",
+              "whyVi": "Cô không nói trọng tài thiên vị."
+            },
+            {
+              "text": "Games are often cancelled at the last minute.",
+              "trap": "wrong_detail",
+              "whyVi": "Việc hủy trận là chuyện sân cỏ khi mưa, không phải nghĩa của cụm từ này."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "vocabulary",
+          "evidence": "I know how quickly things can go sideways",
+          "explanationVi": "Nadia đồng ý với Jun rằng trận đấu có thể 'get heated'. 'Go sideways' là thành ngữ = diễn biến xấu đi.",
+          "vocabulary": [
+            "go sideways"
+          ]
+        },
+        {
+          "number": 7,
+          "prompt": "What does Jun mean when he says \"Six dollars is a coffee and a muffin\"?",
+          "options": [
+            {
+              "text": "The league should sell snacks at games.",
+              "trap": "word_match",
+              "whyVi": "Anh nhắc 'coffee and a muffin' chỉ để so sánh mức tiền, không đề xuất bán đồ ăn."
+            },
+            {
+              "text": "Players spend too much money on food.",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói cầu thủ tiêu nhiều tiền cho đồ ăn."
+            },
+            {
+              "text": "Even six dollars is too much for students.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: anh nói 'That I can explain to people'."
+            },
+            {
+              "text": "The increase is small enough that players will accept it.",
+              "trap": "none",
+              "whyVi": "Đúng: anh so sánh 6 đô với giá một ly cà phê và bánh, tức là khoản tăng nhỏ, dễ chấp nhận."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "That I can explain to people. Six dollars is a coffee and a muffin.",
+          "explanationVi": "Jun dùng phép so sánh để nói khoản tăng rất nhỏ, khác với 150 đô 'would have started a revolt'. Thái độ: đồng ý, thấy hợp lý.",
+          "vocabulary": []
+        },
+        {
+          "number": 8,
+          "prompt": "What will Nadia do next?",
+          "options": [
+            {
+              "text": "Call a sporting goods shop about sponsorship",
+              "trap": "wrong_speaker",
+              "whyVi": "Brenda là người gọi cho cửa hàng đồ thể thao."
+            },
+            {
+              "text": "Present the plan to the board",
+              "trap": "wrong_speaker",
+              "whyVi": "Tomás sẽ trình kế hoạch lên ban điều hành."
+            },
+            {
+              "text": "Find out who covers the cost when a grass game is rained out",
+              "trap": "none",
+              "whyVi": "Đúng: cô sẽ hỏi thành phố về quy định khi trận bị hủy vì mưa."
+            },
+            {
+              "text": "Recruit more referees for the lower divisions",
+              "trap": "not_mentioned",
+              "whyVi": "Không ai nói sẽ tuyển thêm trọng tài."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "I'll check with the city about the rain-out rules at Matsqui, just so we know who pays if a grass game gets cancelled.",
+          "explanationVi": "Cuối cuộc họp có ba việc của ba người: Tomás trình ban điều hành, Brenda tìm nhà tài trợ, Nadia hỏi quy định 'rain-out'. 'Who pays' được diễn đạt lại thành 'who covers the cost'.",
+          "vocabulary": [
+            "rain-out"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "a tough sell",
+      "vi": "điều khó thuyết phục người khác chấp nhận",
+      "definition": "something that is difficult to persuade people to accept",
+      "example": "A higher fee is going to be a tough sell."
+    },
+    {
+      "term": "roster",
+      "vi": "danh sách cầu thủ của đội",
+      "definition": "a list of the players on a team",
+      "example": "Some teams can barely fill a roster."
+    },
+    {
+      "term": "run the numbers",
+      "vi": "tính toán số liệu",
+      "definition": "do the calculations to check costs or results",
+      "example": "I ran the numbers last night."
+    },
+    {
+      "term": "a big chunk",
+      "vi": "một phần lớn",
+      "definition": "a large part of something",
+      "example": "It doesn't cover everything, but it's a big chunk."
+    },
+    {
+      "term": "make the call",
+      "vi": "ra quyết định (trọng tài thổi phạt)",
+      "definition": "make a decision, for example about a rule in a game",
+      "example": "When nobody neutral is making the calls, arguments start."
+    },
+    {
+      "term": "go sideways",
+      "vi": "trở nên tồi tệ, mất kiểm soát",
+      "definition": "start to go wrong",
+      "example": "Things can go sideways very quickly."
+    },
+    {
+      "term": "rain-out",
+      "vi": "trận bị hủy vì mưa",
+      "definition": "an event cancelled because of rain",
+      "example": "Who pays for a rain-out at Matsqui?"
+    },
+    {
+      "term": "lead",
+      "vi": "đầu mối, khả năng (khách/nhà tài trợ)",
+      "definition": "a piece of information that may lead to a sale or sponsor",
+      "example": "I already have one lead for a sponsor."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 8 items independently; keys match and the figures are consistent (4,200/28 teams = 150; 2,700/28 just under 100). Tomás, Jun and Nadia were never addressed by name although several questions ask about Jun and Nadia, so added short address cues in four turns; no answer keys changed."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

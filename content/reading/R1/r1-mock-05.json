@@ -1,0 +1,205 @@
+{
+  "id": "r1-mock-05",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "government",
+  "title": "A food-truck permit lost in the system",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 11 items independently; all keys matched, and each blank was checked against every option (Q8/Q10/Q11 distractors contradict the reply). Dates are consistent (Feb 3 submission, Mar 10 re-send, Mar 15 lottery, Mar 17 completion) and the city's process is presented only as this fictional case. Fix: Q7 evidence now quotes the reply's 'should never have been flagged as incomplete', which directly supports 'there all along'." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Letter from a business owner",
+      "kind": "text",
+      "text": "Dear Licensing Services,\n\nI'm writing about my application for a 2027 mobile vending permit at Rocky Point Park, reference MV-2027-0193. I own Kai Bowl, a food truck that has operated in Port Moody for three seasons, and I'm hoping you can clear up what has become a very confusing situation.\n\nI submitted my application online on February 3, well ahead of the February 28 deadline, and paid the $475 fee the same day. On March 10, I received an automated email saying my file was incomplete because the fire-safety inspection certificate was missing. That surprised me, since I had uploaded it along with everything else. I re-sent it that afternoon, and a clerk confirmed by phone that it had come through.\n\nThen, last week, I heard from another vendor, not from the City, that the park spots were assigned by lottery on March 15 and that I hadn't been included. When I called, I was told my application had been marked complete only on March 17, two days too late, and that I'm now fourth on the waitlist.\n\nI'm not accusing anyone of carelessness, and I know your office handles hundreds of files at this time of year. But I did everything that was asked of me, on time, and it seems I've lost my spot because of a problem on the City's end. If the certificate was in fact missing from my original upload, I'd like to see some record of that. If it wasn't, I think my application should be treated as complete as of February 3.\n\nEither way, I'd ask that you add me to the lottery results or refund my fee, so that I can still apply to other municipalities before their intake closes. I've already had to turn down a catering booking for a June festival because I couldn't say where I'd be operating.\n\nFinally, an online page where applicants could check the status of their file would save everyone a great deal of confusion.\n\nYours truly,\nAna Folau",
+      "table": null
+    },
+    {
+      "label": "Reply from the City",
+      "kind": "text",
+      "text": "Dear Ms. Folau,\n\nThank you for your detailed letter, and please accept my apologies for the confusion. After reviewing your file, I can confirm that your fire-safety certificate was [[7]]. A fault in our upload system in early March stopped a number of documents from appearing in staff records, and your application should never have been flagged as incomplete.\n\nBecause the lottery has already taken place, we can't [[8]] without being unfair to the vendors who were selected. However, one successful applicant has since withdrawn, and as the person most affected by our error, you have been [[9]]. A confirmation letter will follow by email this week.\n\nIf you'd rather not take the spot, we will [[10]], as you requested, and I'll make sure it's processed quickly.\n\nAs for your suggestion, an online status page is [[11]], but it hasn't been funded yet. Feedback like yours helps make the case for it.\n\nSincerely,\nDevinder Sahota\nSupervisor, Licensing Services\nCity of Port Moody",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is Ana's main purpose in writing?",
+      "options": [
+        { "text": "To complain about another food-truck owner", "trap": "wrong_speaker", "whyVi": "Người bán hàng khác chỉ là người báo tin cho Ana; cô không phàn nàn về họ." },
+        { "text": "To find out how the City's lottery works", "trap": "not_mentioned", "whyVi": "Cô không hỏi cách tổ chức bốc thăm." },
+        { "text": "To challenge an outcome she believes was caused by an administrative mistake", "trap": "none", "whyVi": "Đúng: cô cho rằng mất suất 'because of a problem on the City's end' và yêu cầu được xếp vào kết quả hoặc hoàn phí." },
+        { "text": "To apply for a vending permit in another city", "trap": "partially_true", "whyVi": "Cô nhắc việc nộp đơn nơi khác chỉ như hệ quả nếu được hoàn phí, không phải mục đích thư." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "it seems I've lost my spot because of a problem on the City's end",
+      "explanationVi": "Ý chính: Ana đã làm đúng hạn nhưng bị loại do lỗi phía thành phố, và cô muốn sửa kết quả. 'a problem on the City's end' = 'an administrative mistake'; 'challenge an outcome' = đòi xem xét lại việc bị loại.",
+      "vocabulary": ["on someone's end"]
+    },
+    {
+      "number": 2,
+      "prompt": "How did Ana learn that she had not been included in the lottery?",
+      "options": [
+        { "text": "Someone in the same line of business told her.", "trap": "none", "whyVi": "Đúng: 'I heard from another vendor, not from the City'." },
+        { "text": "She received an automated email.", "trap": "word_match", "whyVi": "Email tự động là thư báo hồ sơ thiếu giấy tờ ngày 10/3, không phải tin về kết quả bốc thăm." },
+        { "text": "A clerk phoned to let her know.", "trap": "wrong_detail", "whyVi": "Thư ký chỉ xác nhận đã nhận giấy chứng nhận; chính Ana gọi điện sau khi nghe tin." },
+        { "text": "She saw the results posted online.", "trap": "not_mentioned", "whyVi": "Không có trang kết quả trực tuyến nào; cô còn đề nghị thành phố làm trang theo dõi hồ sơ." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "I heard from another vendor, not from the City, that the park spots were assigned by lottery on March 15",
+      "explanationVi": "'another vendor' = 'someone in the same line of business' (người bán hàng khác). Chú ý chi tiết 'not from the City' cũng ngầm phê bình thành phố không thông báo.",
+      "vocabulary": ["vendor"]
+    },
+    {
+      "number": 3,
+      "prompt": "Why does Ana mention that a clerk confirmed the certificate by phone?",
+      "options": [
+        { "text": "To complain that the clerk gave her wrong information", "trap": "opposite", "whyVi": "Thư ký xác nhận đúng là đã nhận được; Ana không chê thư ký." },
+        { "text": "To show that the City had the document before the lottery took place", "trap": "none", "whyVi": "Đúng: giấy được xác nhận ngày 10/3, trước buổi bốc thăm 15/3, nhưng hồ sơ chỉ được đánh dấu hoàn tất ngày 17/3." },
+        { "text": "To prove that her food truck passed its inspection", "trap": "partially_true", "whyVi": "Giấy chứng nhận đúng là về kiểm tra an toàn cháy nổ, nhưng điểm cô muốn chứng minh là thời điểm thành phố nhận giấy." },
+        { "text": "To explain why she missed the February deadline", "trap": "opposite", "whyVi": "Cô nộp đơn ngày 3/2, trước hạn 28/2." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I re-sent it that afternoon, and a clerk confirmed by phone that it had come through.",
+      "explanationVi": "Đặt các ngày cạnh nhau: 10/3 thư ký xác nhận đã nhận → 15/3 bốc thăm → 17/3 mới đánh dấu hoàn tất. Chi tiết cuộc gọi chứng minh lỗi chậm trễ nằm ở phía thành phố.",
+      "vocabulary": ["come through"]
+    },
+    {
+      "number": 4,
+      "prompt": "Which best describes Ana's tone toward the licensing office?",
+      "options": [
+        { "text": "Angry and accusing staff of laziness", "trap": "opposite", "whyVi": "Cô viết rõ 'I'm not accusing anyone of carelessness'." },
+        { "text": "Apologetic for creating extra work", "trap": "not_mentioned", "whyVi": "Cô không xin lỗi; cô cho rằng mình đã làm đúng mọi việc." },
+        { "text": "Mainly grateful for the clerk's help", "trap": "partially_true", "whyVi": "Thư ký có giúp, nhưng đó chỉ là một chi tiết, không phải giọng điệu chung." },
+        { "text": "Firm about her case while recognizing the office is busy", "trap": "none", "whyVi": "Đúng: cô thừa nhận 'your office handles hundreds of files' nhưng vẫn khẳng định 'I did everything that was asked of me'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "I'm not accusing anyone of carelessness, and I know your office handles hundreds of files at this time of year. But I did everything that was asked of me, on time",
+      "explanationVi": "Mẫu 'I know ... But ...' = thông cảm nhưng vẫn kiên quyết. 'I know your office handles hundreds of files' = 'recognizing the office is busy'; 'But I did everything...' = 'firm about her case'.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "What does Ana ask the City to do about her original upload?",
+      "options": [
+        { "text": "Produce evidence if it claims the certificate was not there", "trap": "none", "whyVi": "Đúng: 'If the certificate was in fact missing ... I'd like to see some record of that'." },
+        { "text": "Inspect her food truck again", "trap": "word_match", "whyVi": "Có từ 'inspection' nhưng cô không yêu cầu kiểm tra lại xe." },
+        { "text": "Delete it and accept a new application", "trap": "not_mentioned", "whyVi": "Cô muốn hồ sơ được tính là hoàn tất từ ngày 3/2, không phải nộp lại." },
+        { "text": "Move her to the top of the waitlist", "trap": "wrong_detail", "whyVi": "Cô biết mình đứng thứ tư nhưng không yêu cầu lên đầu danh sách; cô xin được thêm vào kết quả hoặc hoàn phí." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "If the certificate was in fact missing from my original upload, I'd like to see some record of that.",
+      "explanationVi": "'I'd like to see some record of that' = yêu cầu đưa ra bằng chứng ('produce evidence'). Điều kiện 'If ... in fact missing' = 'if it claims the certificate was not there'.",
+      "vocabulary": []
+    },
+    {
+      "number": 6,
+      "prompt": "Why does Ana want a quick refund if she cannot get a spot?",
+      "options": [
+        { "text": "To pay for the catering booking she lost", "trap": "word_match", "whyVi": "Hợp đồng catering bị cô từ chối, không phải khoản cô phải trả." },
+        { "text": "Because her season starts in March", "trap": "not_mentioned", "whyVi": "Không có thông tin về ngày bắt đầu mùa bán hàng." },
+        { "text": "So she has time to seek a permit elsewhere", "trap": "none", "whyVi": "Đúng: 'so that I can still apply to other municipalities before their intake closes'." },
+        { "text": "Because the fee has gone up since last year", "trap": "not_mentioned", "whyVi": "Bài không so sánh phí năm nay với năm trước." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "so that I can still apply to other municipalities before their intake closes",
+      "explanationVi": "'so that' chỉ mục đích. 'apply to other municipalities' = 'seek a permit elsewhere'; 'before their intake closes' cho thấy yếu tố thời gian ('time').",
+      "vocabulary": ["intake"]
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "missing from your upload", "trap": "opposite", "whyVi": "Câu sau nói hồ sơ 'should never have been flagged as incomplete', tức giấy tờ không hề thiếu." },
+        { "text": "out of date when you sent it", "trap": "not_mentioned", "whyVi": "Không có thông tin giấy chứng nhận hết hạn." },
+        { "text": "forwarded to the fire department", "trap": "word_match", "whyVi": "Có từ 'fire-safety', nhưng không ai nói đến sở cứu hỏa." },
+        { "text": "there all along", "trap": "none", "whyVi": "Đúng: lỗi hệ thống khiến tài liệu không hiện lên, nên giấy đã có từ lần nộp đầu ngày 3/2." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "your application should never have been flagged as incomplete",
+      "explanationVi": "Thư trả lời xin lỗi và giải thích lỗi hệ thống 'stopped a number of documents from appearing'. Vậy giấy chứng nhận vốn đã nằm trong hồ sơ — 'there all along' — đúng với trường hợp 'If it wasn't [missing]' mà Ana nêu.",
+      "vocabulary": ["all along"]
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "return your $475 fee", "trap": "opposite", "whyVi": "Đoạn sau cho biết thành phố vẫn sẵn sàng hoàn phí, nên đây không phải việc 'can't'." },
+        { "text": "simply add your name to the results", "trap": "none", "whyVi": "Đúng: đây là yêu cầu của Ana; làm vậy sau khi đã bốc thăm sẽ bất công với những người được chọn." },
+        { "text": "accept applications after the deadline", "trap": "wrong_detail", "whyVi": "Ana không nộp trễ; vấn đề không phải nộp sau hạn." },
+        { "text": "post the results online", "trap": "word_match", "whyVi": "'online' có trong thư, nhưng đăng kết quả không gây bất công cho ai." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I'd ask that you add me to the lottery results or refund my fee",
+      "explanationVi": "Ana đưa hai yêu cầu: thêm vào kết quả, hoặc hoàn phí. 'without being unfair to the vendors who were selected' chỉ hợp với yêu cầu thứ nhất — thêm một người vào danh sách đã chốt.",
+      "vocabulary": []
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "offered the place that has opened up", "trap": "none", "whyVi": "Đúng: một người trúng thăm đã rút lui, và Ana được ưu tiên nhận suất đó." },
+        { "text": "kept in fourth place on the waitlist", "trap": "wrong_detail", "whyVi": "Vị trí thứ tư là thông tin cũ; câu bắt đầu bằng 'However' báo hiệu tin tốt." },
+        { "text": "charged a small late fee", "trap": "not_mentioned", "whyVi": "Không có phí trễ hạn; lỗi thuộc về thành phố." },
+        { "text": "entered in next year's lottery", "trap": "not_mentioned", "whyVi": "Không nhắc đến năm sau; câu sau nói thư xác nhận gửi trong tuần này." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "one successful applicant has since withdrawn",
+      "explanationVi": "'withdrawn' = rút lui → có một suất trống. 'as the person most affected by our error' giải thích vì sao Ana được nhận. 'the place that has opened up' diễn đạt lại suất bị bỏ trống.",
+      "vocabulary": ["withdraw"]
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "add you to the lottery results", "trap": "opposite", "whyVi": "Thành phố đã nói không thể thêm cô vào kết quả." },
+        { "text": "cover the catering booking you lost", "trap": "word_match", "whyVi": "Ana nhắc hợp đồng catering nhưng không yêu cầu bồi thường, và thư trả lời cũng không hứa." },
+        { "text": "refund your application fee", "trap": "none", "whyVi": "Đúng: 'as you requested' → Ana yêu cầu 'refund my fee' nếu không được vào." },
+        { "text": "keep your file open for next season", "trap": "not_mentioned", "whyVi": "Không ai đề cập mùa sau." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "refund my fee, so that I can still apply to other municipalities",
+      "explanationVi": "'as you requested' báo hiệu quay lại yêu cầu của Ana. Lựa chọn thay thế cho việc nhận suất chính là hoàn phí. 'refund my fee' = 'refund your application fee'.",
+      "vocabulary": []
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "already available on our website", "trap": "opposite", "whyVi": "Nếu đã có thì không cần 'make the case for it' và không thể 'hasn't been funded yet'." },
+        { "text": "not something the City will consider", "trap": "opposite", "whyVi": "Câu sau nói ý kiến của Ana giúp thúc đẩy dự án, nên thành phố có xem xét." },
+        { "text": "the reason the upload system failed", "trap": "word_match", "whyVi": "Có liên quan đến 'upload system' nhưng vô lý: trang theo dõi chưa tồn tại." },
+        { "text": "an idea we would like to introduce", "trap": "none", "whyVi": "Đúng: thành phố muốn làm nhưng chưa có kinh phí ('hasn't been funded yet')." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "an online page where applicants could check the status of their file would save everyone a great deal of confusion",
+      "explanationVi": "Hai manh mối: 'but it hasn't been funded yet' (đối lập với điều tích cực đứng trước) và 'helps make the case for it' (giúp thuyết phục cấp trên). Vậy thành phố ủng hộ ý tưởng nhưng chưa thực hiện.",
+      "vocabulary": ["make the case for"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "vendor", "vi": "người bán hàng, nhà cung cấp", "definition": "a person or business that sells something, often outdoors", "example": "Twelve food vendors will be at the market this weekend." },
+    { "term": "on someone's end", "vi": "về phía ai (lỗi do bên nào)", "definition": "on the side of a particular person or organization", "example": "The delay was caused by a problem on our end, not yours." },
+    { "term": "come through", "vi": "đến nơi, được nhận (tin nhắn, tài liệu)", "definition": "to arrive or be received, especially a message or document", "example": "Your payment has come through, so the permit is ready." },
+    { "term": "intake", "vi": "đợt tiếp nhận (hồ sơ)", "definition": "the period when an organization accepts new applications", "example": "Surrey's intake for summer permits closes on April 1." },
+    { "term": "all along", "vi": "từ đầu đến giờ", "definition": "from the beginning, the whole time", "example": "The form was in my bag all along." },
+    { "term": "withdraw", "vi": "rút lui, rút đơn", "definition": "to stop taking part in something", "example": "Two applicants withdrew, so more spots became available." },
+    { "term": "make the case for", "vi": "lập luận ủng hộ, thuyết phục cho", "definition": "to give reasons why something should happen", "example": "Residents made the case for a new crosswalk at council." },
+    { "term": "flag", "vi": "đánh dấu (có vấn đề)", "definition": "to mark something as needing attention", "example": "The system flagged my application as incomplete." }
+  ]
+}

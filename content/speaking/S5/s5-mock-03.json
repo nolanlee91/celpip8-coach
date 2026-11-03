@@ -1,0 +1,69 @@
+{
+  "id": "s5-mock-03",
+  "kind": "speaking",
+  "taskType": "S5",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "shopping",
+  "title": "Choosing a new refrigerator for the family",
+  "prompt": "Your family of five needs a new refrigerator. The old one still works, but it is noisy and too small. You have found two models at an appliance store in Surrey. Choose the refrigerator you prefer. Then persuade your wife, who prefers the other model, that your choice is better for the family.",
+  "svg": null,
+  "options": [
+    {
+      "title": "Nordvale French-door refrigerator",
+      "details": [
+        "$2,499 CAD",
+        "28 cubic feet; ice and water dispenser",
+        "Energy Star: about $55 a year in electricity",
+        "Delivery in 6 weeks; 1-year warranty"
+      ]
+    },
+    {
+      "title": "Kelso top-freezer refrigerator",
+      "details": [
+        "$1,149 CAD",
+        "18 cubic feet; no dispenser",
+        "About $70 a year in electricity",
+        "Free delivery tomorrow and free removal of the old fridge; 10-year warranty on the compressor"
+      ]
+    }
+  ],
+  "structure": [
+    "Address your wife, acknowledge the savings of her option, and give your choice.",
+    "Reason 1: space for a family of five (28 vs 18 cubic feet) — the main reason you are replacing the fridge.",
+    "Reason 2: long-term value (lower electricity, fewer trips to the store, built-in water).",
+    "Answer her points (price, delivery wait, warranty) and close."
+  ],
+  "modelAnswer": "Sarah, I know the Kelso is much cheaper, and free delivery tomorrow sounds great, but I think the Nordvale is the one we'll be happy with. Think about why we're replacing the fridge in the first place. It's too small for five people. The Kelso is eighteen cubic feet, which is barely bigger than what we have now, so we'd still be cramming leftovers onto every shelf. The Nordvale gives us twenty-eight, which is over fifty percent more space. That means one big grocery trip a week instead of running to the store every other day. It's also cheaper to run, and with the water dispenser, we'd finally stop buying bottled water. Now, I know it's thirteen hundred and fifty dollars more. But a good fridge lasts about fifteen years, so that's less than a hundred dollars a year for something we use every single day. If the short warranty worries you, we can add an extended one. And since our old fridge still works, waiting six weeks really isn't a problem. Shall we go see it this weekend?",
+  "usefulExpressions": [
+    {
+      "expression": "Think about why we're… in the first place.",
+      "usageVi": "Nhắc lại mục đích ban đầu (lý do mua) để dẫn tới lập luận mạnh nhất"
+    },
+    {
+      "expression": "…which is barely bigger than…",
+      "usageVi": "'Barely' = hầu như không; cho thấy lựa chọn kia không giải quyết được vấn đề"
+    },
+    {
+      "expression": "…that's less than… a year for something we use every single day.",
+      "usageVi": "Chia chi phí ra theo năm để số tiền chênh lệch nghe nhỏ hơn"
+    },
+    {
+      "expression": "…really isn't a problem.",
+      "usageVi": "Giảm nhẹ nhược điểm (phải chờ 6 tuần) bằng một lý do cụ thể"
+    }
+  ],
+  "commonMistakes": [
+    "Nói 'cubic feet' sai thành 'cubic foots' hoặc bỏ đơn vị; nhớ 'twenty-eight cubic feet'.",
+    "Chỉ tả tính năng ('it has an ice dispenser') mà không nói lợi ích ('so we'd stop buying bottled water').",
+    "Không trả lời điểm mạnh của Kelso (rẻ hơn $1,350, giao ngay, bảo hành 10 năm); bài thuyết phục tốt phải giải quyết lý do người kia thích phương án đó."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Verified $1,350 gap, 28 vs 18 cu ft (+55%), $1,350 / 15 years < $100/year. The model answer ignored the Kelso's 10-year compressor warranty (a key strength the structure says to answer), so added a rebuttal; softened the fridge-lifespan claim; trimmed 182 -> 179 words."
+  },
+  "createdAt": "2026-11-03"
+}

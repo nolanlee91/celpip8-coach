@@ -1,0 +1,58 @@
+{
+  "id": "s8-mock-05",
+  "kind": "speaking",
+  "taskType": "S8",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "environment",
+  "title": "A robot-shaped recycling bin",
+  "prompt": "Your apartment building's strata council is looking for a new recycling bin for the lobby, and you offered to help. At an environmental fair in Kelowna, you see this unusual bin. Call another council member, describe the bin in as much detail as you can, and say whether you think it would work in your building.",
+  "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><rect width='800' height='500' fill='#eaf4ea'/><rect y='450' width='800' height='50' fill='#95a5a6'/><line x1='400' y1='120' x2='400' y2='96' stroke='#2d3436' stroke-width='4'/><circle cx='400' cy='90' r='7' fill='#d63031'/><rect x='390' y='192' width='20' height='10' fill='#636e72'/><rect x='345' y='120' width='110' height='75' rx='20' fill='#dfe6e9' stroke='#636e72' stroke-width='2'/><rect x='360' y='135' width='80' height='42' rx='8' fill='#2d3436'/><g fill='#55efc4'><circle cx='382' cy='151' r='7'/><circle cx='418' cy='151' r='7'/></g><path d='M385 165 Q400 174 415 165' stroke='#55efc4' stroke-width='3' fill='none'/><path d='M510 260 L570 238 L592 298' stroke='#636e72' stroke-width='10' fill='none' stroke-linejoin='round' stroke-linecap='round'/><path d='M592 298 L580 318 M592 298 L606 316' stroke='#636e72' stroke-width='6' stroke-linecap='round'/><rect x='290' y='200' width='74' height='230' fill='#0984e3'/><rect x='364' y='200' width='73' height='230' fill='#00b894'/><rect x='437' y='200' width='73' height='230' fill='#fdcb6e'/><rect x='290' y='200' width='220' height='230' rx='4' fill='none' stroke='#2d3436' stroke-width='3'/><circle cx='327' cy='237' r='18' fill='#2d3436'/><rect x='375' y='232' width='50' height='9' fill='#2d3436'/><rect x='455' y='219' width='37' height='37' fill='#2d3436'/><g fill='#ffffff'><rect x='319' y='300' width='16' height='40' rx='5'/><rect x='323' y='290' width='8' height='12'/><rect x='385' y='292' width='30' height='40'/><rect x='461' y='296' width='26' height='38' rx='4'/></g><g stroke='#00b894' stroke-width='2'><line x1='390' y1='302' x2='410' y2='302'/><line x1='390' y1='311' x2='410' y2='311'/><line x1='390' y1='320' x2='410' y2='320'/></g><rect x='380' y='430' width='40' height='10' fill='#636e72'/><circle cx='320' cy='438' r='14' fill='#2d3436'/><circle cx='480' cy='438' r='14' fill='#2d3436'/><rect x='620' y='380' width='120' height='42' rx='4' fill='#ffffff' stroke='#999999'/><text x='680' y='408' font-family='Arial' font-size='20' font-weight='bold' fill='#d63031' text-anchor='middle'>$1,250</text></svg>",
+  "options": null,
+  "structure": [
+    "Explain where you are and summarize: a recycling bin that looks like a robot.",
+    "Describe the head (screen face, antenna) and the three coloured sections with their openings and pictures.",
+    "Describe the arm, the pedal and the wheels.",
+    "Evaluate it for the lobby (sorting, kids, price) and propose a next step."
+  ],
+  "modelAnswer": "Hi Mr. Okafor, it's Ana. I'm at the environmental fair, and I've found a recycling bin that you really have to hear about. It's shaped like a robot. On top, there's a grey head with a dark screen for a face, showing two green eyes and a smile, and a thin antenna with a red light sticking up from it. The body is a box split into three vertical sections. The left one is blue, with a round hole at the top and a picture of a bottle. The middle one is green, with a narrow slot and a picture of a sheet of paper. The right one is yellow, with a square opening and what looks like a can. On the right, there's a grey metal arm with a claw at the end. At the bottom, there's a small pedal in the middle and two black wheels. It's $1,250, which is steep, but the shaped holes would make sorting almost foolproof, and the kids here would love it. Maybe we could bring it up at the next meeting?",
+  "usefulExpressions": [
+    {
+      "expression": "you really have to hear about",
+      "usageVi": "Gây tò mò ở đầu cuộc gọi"
+    },
+    {
+      "expression": "…split into three vertical sections",
+      "usageVi": "Tả cấu trúc chia ngăn theo chiều dọc"
+    },
+    {
+      "expression": "The left one…, The middle one…, The right one…",
+      "usageVi": "Tả song song các phần giống nhau theo thứ tự"
+    },
+    {
+      "expression": "what looks like…",
+      "usageVi": "Tả thứ mình không chắc chắn — rất hữu ích ở Task 8"
+    },
+    {
+      "expression": "…, which is steep, but…",
+      "usageVi": "Nhận xét giá cao ('steep') rồi đưa ưu điểm"
+    },
+    {
+      "expression": "…would make… almost foolproof",
+      "usageVi": "Làm cho việc gì gần như không thể sai"
+    }
+  ],
+  "commonMistakes": [
+    "Tả ba ngăn nhưng trộn lẫn màu, lỗ và hình vẽ giữa các ngăn; hãy tả trọn vẹn từng ngăn một.",
+    "Không biết từ 'antenna', 'claw'; có thể nói 'a thin stick on its head', 'something like a hand that can grab'.",
+    "Quên phần đánh giá cho tòa nhà (giá, tiện lợi, an toàn cho trẻ em) mà đề bài yêu cầu."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked the answer against the SVG markup: grey head with dark screen, green eyes and smile, antenna with red tip, blue/green/yellow sections with round hole + bottle, slot + paper, square opening + can, grey claw arm on the right, pedal and two wheels, $1,250. Added 'really' so the answer matches the listed expression and trimmed to 179 words."
+  },
+  "createdAt": "2026-11-03"
+}

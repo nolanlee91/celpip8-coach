@@ -1,0 +1,303 @@
+{
+  "id": "l6-mock-06",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "community-services",
+  "title": "Viewpoints: When the library becomes the last open door",
+  "context": "You will hear a retired librarian giving a radio commentary about a library board's decision to hire outreach workers at a public library in a B.C. city.",
+  "estimatedMinutes": 7,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Raj Malhotra, radio host",
+          "voice": "male_b",
+          "text": "Last week the Riverside Public Library board voted to hire two outreach workers for its downtown branch, where staff say they're increasingly dealing with people in crisis. Adwoa Mensah worked at that branch for twenty-six years before retiring, and she has mixed feelings."
+        },
+        {
+          "speaker": "Adwoa Mensah, retired librarian",
+          "voice": "female_a",
+          "text": "Mixed is the right word, Raj. Let me start with the part I'm glad about. Libraries have always been the one public building where you don't have to buy anything, prove anything or explain why you're there. On a January afternoon, that might mean a student, a retired logger reading the paper, and a man who slept outside the night before, all at the same table. Nobody asked any of them for a reason. I've always thought that was the best thing about the place, not a problem to be managed."
+        },
+        {
+          "speaker": "Adwoa Mensah, retired librarian",
+          "voice": "female_a",
+          "text": "And I'll be frank, my former colleagues have been out of their depth for years. A librarian can help you find a tenancy form, but she isn't trained to talk someone through an overdose or a mental health crisis, and she shouldn't have to learn on the job. So having people with the right skills on the floor is overdue."
+        },
+        {
+          "speaker": "Adwoa Mensah, retired librarian",
+          "voice": "female_a",
+          "text": "What sits less comfortably with me is how we got here. In the last few years, the drop-in centre two blocks away cut its hours, and the nearest mental health clinic now has a waiting list of several months. People didn't stop needing help. They just came to the last door that was still open. And now a library board, funded mostly through property taxes, is quietly picking up the tab for services that were never its job to provide. I'm not sure anyone in Victoria has noticed, and that's rather the point."
+        },
+        {
+          "speaker": "Adwoa Mensah, retired librarian",
+          "voice": "female_a",
+          "text": "I've heard from parents who say they no longer feel comfortable bringing toddlers to story time, and I don't wave that away. Feeling uneasy in a public space is real, whatever the cause. But the answer some people are proposing, security guards at the entrance, would turn a welcoming building into a checkpoint. The outreach workers are a far better bet, because they deal with the situation rather than just moving it out onto the sidewalk."
+        },
+        {
+          "speaker": "Adwoa Mensah, retired librarian",
+          "voice": "female_a",
+          "text": "So yes, I support the board's decision. I'd just like it to be the start of a conversation rather than the end of one. Someone in government needs to ask why a library is doing this work at all. The library should keep its doors open to everyone. It just shouldn't be the only door left."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What does Adwoa value most about public libraries?",
+          "options": [
+            {
+              "text": "They offer quiet study space for students.",
+              "trap": "partially_true",
+              "whyVi": "Có nhắc đến sinh viên, nhưng đó chỉ là một ví dụ; điều bà trân trọng là thư viện mở cửa cho mọi người."
+            },
+            {
+              "text": "They help people fill out government forms.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'tenancy form', nhưng đó là ví dụ về việc thủ thư có thể làm, không phải điều bà quý nhất."
+            },
+            {
+              "text": "Anyone can use them without having to justify being there.",
+              "trap": "none",
+              "whyVi": "Đúng: không cần mua gì, chứng minh gì hay giải thích lý do có mặt."
+            },
+            {
+              "text": "They are the warmest buildings downtown in winter.",
+              "trap": "not_mentioned",
+              "whyVi": "Bà nhắc 'a January afternoon' nhưng không nói thư viện là nơi ấm nhất."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "Libraries have always been the one public building where you don't have to buy anything, prove anything or explain why you're there.",
+          "explanationVi": "'don't have to... prove anything or explain why you're there' được diễn đạt lại thành 'without having to justify being there'. Câu 'the best thing about the place' xác nhận đây là điều bà coi trọng nhất.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "What does Adwoa suggest about the library staff she used to work with?",
+          "options": [
+            {
+              "text": "They were handling situations they had not been prepared for.",
+              "trap": "none",
+              "whyVi": "Đúng: 'out of their depth' = vượt quá khả năng; họ không được đào tạo để xử lý khủng hoảng."
+            },
+            {
+              "text": "They refused to help people who were in crisis.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói họ từ chối; vấn đề là họ phải tự xoay xở dù không được đào tạo."
+            },
+            {
+              "text": "They should be given mental health training immediately.",
+              "trap": "opposite",
+              "whyVi": "Bà nói thủ thư 'shouldn't have to learn on the job' — bà muốn có người chuyên môn, không phải đào tạo thủ thư."
+            },
+            {
+              "text": "They complained to the board about their working conditions.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói nhân viên khiếu nại lên hội đồng."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "vocabulary",
+          "evidence": "And I'll be frank, my former colleagues have been out of their depth for years.",
+          "explanationVi": "Thành ngữ 'out of their depth' (như bị đuối nước ở chỗ sâu) = phải làm việc vượt quá kiến thức, kỹ năng của mình. Câu sau giải thích: thủ thư 'isn't trained to talk someone through an overdose'. Đáp án C là bẫy vì nghe hợp lý nhưng ngược với ý bà.",
+          "vocabulary": [
+            "out of your depth",
+            "learn on the job"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "According to Adwoa, why are more people in crisis coming to the library?",
+          "options": [
+            {
+              "text": "The library recently extended its opening hours.",
+              "trap": "wrong_detail",
+              "whyVi": "Người cắt giờ mở cửa là trung tâm tiếp nhận gần đó, không phải thư viện kéo dài giờ."
+            },
+            {
+              "text": "Outreach workers have started inviting them in.",
+              "trap": "not_mentioned",
+              "whyVi": "Nhân viên hỗ trợ cộng đồng mới chỉ vừa được quyết định tuyển, không phải nguyên nhân."
+            },
+            {
+              "text": "The number of homeless people in the city has doubled.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không đưa ra số liệu về người vô gia cư."
+            },
+            {
+              "text": "Other places that used to help them have become harder to access.",
+              "trap": "none",
+              "whyVi": "Đúng: trung tâm tiếp nhận cắt giờ, phòng khám tâm thần phải chờ nhiều tháng."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "People didn't stop needing help. They just came to the last door that was still open.",
+          "explanationVi": "Bà kể trung tâm tiếp nhận 'cut its hours' và phòng khám có 'a waiting list of several months'. Kết luận 'came to the last door that was still open' = các dịch vụ khác khó tiếp cận hơn nên người ta tìm đến thư viện.",
+          "vocabulary": [
+            "drop-in centre"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What is Adwoa implying when she says she is not sure anyone in Victoria has noticed, \"and that's rather the point\"?",
+          "options": [
+            {
+              "text": "Provincial officials are planning to fund the outreach workers.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: bà ngụ ý tỉnh không để ý và không chi trả."
+            },
+            {
+              "text": "The province can ignore the problem because the library is quietly paying for it.",
+              "trap": "none",
+              "whyVi": "Đúng: thư viện lặng lẽ gánh chi phí cho dịch vụ đáng lẽ của tỉnh, nên tỉnh không phải chịu áp lực — đó chính là vấn đề."
+            },
+            {
+              "text": "Few people in Victoria know that Riverside has a library.",
+              "trap": "word_match",
+              "whyVi": "Hiểu theo nghĩa đen là sai; 'Victoria' ở đây là chính quyền tỉnh."
+            },
+            {
+              "text": "The library board has kept its decision secret from the public.",
+              "trap": "partially_true",
+              "whyVi": "Bài có từ 'quietly', nhưng quyết định của hội đồng đã được công bố; 'quietly' nói về việc gánh chi phí một cách âm thầm."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "And now a library board, funded mostly through property taxes, is quietly picking up the tab for services that were never its job to provide. I'm not sure anyone in Victoria has noticed, and that's rather the point.",
+          "explanationVi": "'Victoria' là thủ phủ tỉnh B.C., dùng để chỉ chính quyền tỉnh. 'picking up the tab' = trả tiền thay người khác. 'that's rather the point' ngụ ý: vì thư viện âm thầm gánh vác nên tỉnh không cần để ý và không phải bỏ tiền — bà phê phán việc đẩy trách nhiệm này một cách gián tiếp.",
+          "vocabulary": [
+            "pick up the tab"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "How does Adwoa respond to parents who feel uncomfortable bringing young children to the library?",
+          "options": [
+            {
+              "text": "She thinks their concerns are based on prejudice.",
+              "trap": "opposite",
+              "whyVi": "Bà nói 'I don't wave that away' và cảm giác bất an là có thật."
+            },
+            {
+              "text": "She agrees that security guards would solve the problem.",
+              "trap": "wrong_speaker",
+              "whyVi": "Bảo vệ ở cửa là đề xuất của một số người khác, và bà phản đối."
+            },
+            {
+              "text": "She takes their feelings seriously but rejects one proposed solution.",
+              "trap": "none",
+              "whyVi": "Đúng: bà công nhận cảm giác của họ nhưng phản đối việc đặt bảo vệ ở cửa."
+            },
+            {
+              "text": "She suggests moving story time to another location.",
+              "trap": "not_mentioned",
+              "whyVi": "Bà không đề xuất chuyển giờ kể chuyện sang nơi khác."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "But the answer some people are proposing, security guards at the entrance, would turn a welcoming building into a checkpoint.",
+          "explanationVi": "'I don't wave that away' = tôi không gạt bỏ điều đó. Sau đó 'But...' bác bỏ giải pháp bảo vệ vì sẽ biến thư viện thành 'a checkpoint' (trạm kiểm soát). Đáp án C nêu đủ cả hai vế.",
+          "vocabulary": [
+            "wave away",
+            "checkpoint"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "Which statement best sums up Adwoa's final position?",
+          "options": [
+            {
+              "text": "She backs the hiring but wants wider services restored as well.",
+              "trap": "none",
+              "whyVi": "Đúng: bà ủng hộ quyết định, nhưng muốn đó là khởi đầu, và thư viện không nên là 'cánh cửa' duy nhất còn mở."
+            },
+            {
+              "text": "She opposes the hiring because it is not the library's job.",
+              "trap": "opposite",
+              "whyVi": "Bà nói rõ 'So yes, I support the board's decision.'"
+            },
+            {
+              "text": "She thinks the library should limit who can come inside.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: 'The library should keep its doors open to everyone.'"
+            },
+            {
+              "text": "She believes the outreach workers will fix the problem on their own.",
+              "trap": "too_broad",
+              "whyVi": "Bà muốn đây là 'the start of a conversation', ngụ ý chừng đó chưa đủ."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "The library should keep its doors open to everyone. It just shouldn't be the only door left.",
+          "explanationVi": "Câu kết dùng hình ảnh 'door': thư viện nên mở cửa cho tất cả, nhưng không nên là cánh cửa duy nhất còn lại — tức các dịch vụ xã hội khác cũng phải được khôi phục. 'the start of a conversation rather than the end of one' cho thấy bà ủng hộ nhưng chưa hài lòng hoàn toàn.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "mixed feelings",
+      "vi": "cảm xúc lẫn lộn",
+      "definition": "a mixture of positive and negative feelings about something",
+      "example": "She has mixed feelings about the board's decision."
+    },
+    {
+      "term": "out of your depth",
+      "vi": "vượt quá khả năng, không đủ sức xử lý",
+      "definition": "in a situation that is too difficult for your knowledge or skills",
+      "example": "Library staff have been out of their depth for years."
+    },
+    {
+      "term": "learn on the job",
+      "vi": "vừa làm vừa học",
+      "definition": "to gain skills while doing a job, without formal training",
+      "example": "She shouldn't have to learn crisis care on the job."
+    },
+    {
+      "term": "overdue",
+      "vi": "lẽ ra phải có từ lâu",
+      "definition": "happening later than it should have",
+      "example": "Having trained workers on the floor is overdue."
+    },
+    {
+      "term": "pick up the tab",
+      "vi": "trả tiền, gánh chi phí (thay người khác)",
+      "definition": "to pay for something, often for someone else",
+      "example": "The library is picking up the tab for social services."
+    },
+    {
+      "term": "wave away",
+      "vi": "gạt đi, xem nhẹ",
+      "definition": "to dismiss an idea or concern as unimportant",
+      "example": "I don't wave that concern away."
+    },
+    {
+      "term": "checkpoint",
+      "vi": "trạm kiểm soát",
+      "definition": "a place where people are stopped and checked",
+      "example": "Guards would turn the library into a checkpoint."
+    },
+    {
+      "term": "drop-in centre",
+      "vi": "trung tâm tiếp nhận (không cần hẹn trước)",
+      "definition": "a place where people can come for help without an appointment",
+      "example": "The drop-in centre cut its hours."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 items independently; keys match, implied attitude in Q4 ('that's rather the point') is recoverable from the words. Chilliwack is served by the real Fraser Valley Regional Library, so the invented board vote was moved to a fictional 'Riverside Public Library' with no real city named (context and Q4 option C updated). Library funding mostly via property tax is accurate."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

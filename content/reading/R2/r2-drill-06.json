@@ -1,0 +1,138 @@
+{
+  "id": "r2-drill-06",
+  "kind": "reading",
+  "taskType": "R2",
+  "setType": "drill",
+  "difficulty": 8,
+  "topic": "transportation",
+  "title": "Distractor drill: A car co-op plan for trips up-island",
+  "estimatedMinutes": 7,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 6 items independently; all keys match. Recomputed: only Commuter waives the $50 fee, Saturday $55 vs Regular $75 = $20 less, 60-day booking window, (440 - 200) x $0.25 = $60, Pay-as-you-go has the highest deductible ($1,500); Victoria-Courtenay ~220 km each way is realistic. Retitled to distinguish it from r2-drill-03 (another car-share drill where Weekender also wins); the scenario still overlaps that drill." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Membership plans",
+      "kind": "table",
+      "text": "",
+      "table": {
+        "caption": "Cityloop Car Co-op, Victoria — Membership Plans (every plan includes gas, insurance and 200 free km per booking; extra kilometres cost $0.25 each; one-time registration fee of $50, waived on the Commuter plan only)",
+        "headers": ["Plan", "Monthly fee", "Hourly rate", "Day rate (24 hours)", "Damage deductible", "Booking window"],
+        "rows": [
+          ["Pay-as-you-go", "$0", "$13", "$95", "$1,500", "Up to 7 days ahead"],
+          ["Regular", "$12", "$9", "$75", "$1,000", "Up to 30 days ahead"],
+          ["Commuter", "$35", "$7 weekdays 6–9 a.m. and 3–7 p.m.; $9 at other times", "$75", "$500", "Up to 30 days ahead; repeat bookings allowed"],
+          ["Weekender", "$20", "$11", "$55 Friday to Sunday; $85 Monday to Thursday", "$1,000", "Up to 60 days ahead"]
+        ]
+      }
+    },
+    {
+      "label": "Email",
+      "kind": "text",
+      "text": "Hi Noor,\n\nI've gone back and forth on the Cityloop plans, but I think I've finally cracked it.\n\nThe Commuter plan looked tempting at first, since it's the only one that [[1]], so that's fifty bucks we'd keep in our pockets. But we don't drive to work. We'd mostly use a car for weekend trips up-island to see your parents, plus the odd big grocery run.\n\nFor the Courtenay trips, the Weekender comes out on top. A Saturday booking would cost us [[2]] than on Regular, and we could reserve a car [[3]], which matters on long weekends when every vehicle gets snapped up.\n\nIt's not perfect, though. The round trip to your parents' place is about 440 km, so we'd pay [[4]] for the extra distance each time. Still, that beats renting from the airport by a mile.\n\nShall I sign us up?\n\nMateo",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Choose the best option for blank 1.",
+      "options": [
+        { "text": "has a $500 deductible", "trap": "partially_true", "whyVi": "Đúng là chỉ Commuter có mức khấu trừ $500, nhưng điều đó không giúp 'keep fifty bucks in our pockets'." },
+        { "text": "lets you skip the sign-up fee", "trap": "none", "whyVi": "Đúng: phí đăng ký $50 'waived on the Commuter plan only' → giữ lại được $50." },
+        { "text": "includes gas and insurance", "trap": "too_broad", "whyVi": "Mọi gói đều bao gồm xăng và bảo hiểm ('every plan includes'), nên không phải 'the only one'." },
+        { "text": "has no monthly fee", "trap": "wrong_detail", "whyVi": "Gói không có phí tháng là Pay-as-you-go; Commuter có phí $35/tháng — cao nhất." }
+      ],
+      "answerIndex": 1,
+      "category": "distractor",
+      "evidence": "one-time registration fee of $50, waived on the Commuter plan only",
+      "explanationVi": "Hai manh mối phải khớp cùng lúc: 'the only one' và 'fifty bucks we'd keep'. Phương án A cũng là đặc điểm riêng của Commuter nhưng không liên quan tới $50. 'registration fee' → 'sign-up fee'; 'waived' → 'skip'.",
+      "vocabulary": ["waive"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "$20 more", "trap": "opposite", "whyVi": "Weekender rẻ hơn ($55 so với $75), không phải đắt hơn." },
+        { "text": "$30 less", "trap": "wrong_detail", "whyVi": "$30 = $85 − $55, tức chênh lệch giữa hai mức giá của chính Weekender." },
+        { "text": "$40 less", "trap": "wrong_detail", "whyVi": "$40 = $95 − $55, so với Pay-as-you-go chứ không phải Regular." },
+        { "text": "$20 less", "trap": "none", "whyVi": "Đúng: thứ Bảy Weekender $55/ngày; Regular $75/ngày → rẻ hơn $20." }
+      ],
+      "answerIndex": 3,
+      "category": "distractor",
+      "evidence": "$55 Friday to Sunday; $85 Monday to Thursday",
+      "explanationVi": "Thứ Bảy nằm trong 'Friday to Sunday' → $55. So với cột Day rate của Regular ($75). Bẫy: lấy nhầm giá $85 (thứ Hai–thứ Năm) hoặc so với gói khác.",
+      "vocabulary": []
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "up to two months in advance", "trap": "none", "whyVi": "Đúng: Weekender cho đặt 'Up to 60 days ahead' ≈ hai tháng." },
+        { "text": "up to a month in advance", "trap": "wrong_detail", "whyVi": "30 ngày là của Regular và Commuter." },
+        { "text": "on a repeating basis", "trap": "wrong_detail", "whyVi": "Đặt lặp lại ('repeat bookings') chỉ có ở Commuter." },
+        { "text": "any day of the week for $55", "trap": "partially_true", "whyVi": "$55 chỉ áp dụng từ thứ Sáu đến Chủ nhật; ngày thường là $85." }
+      ],
+      "answerIndex": 0,
+      "category": "distractor",
+      "evidence": "Up to 60 days ahead",
+      "explanationVi": "'which matters on long weekends when every vehicle gets snapped up' (xe bị đặt hết nhanh) → điều quan trọng là đặt được sớm. Cột 'Booking window': '60 days' → 'two months in advance'.",
+      "vocabulary": ["snap up", "booking window"]
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "nothing", "trap": "opposite", "whyVi": "200 km miễn phí không đủ cho chuyến 440 km." },
+        { "text": "about $110", "trap": "partially_true", "whyVi": "$110 = 440 × $0.25 — quên trừ 200 km miễn phí." },
+        { "text": "about $60", "trap": "none", "whyVi": "Đúng: 440 − 200 = 240 km × $0.25 = $60." },
+        { "text": "about $50", "trap": "word_match", "whyVi": "$50 là phí đăng ký một lần, không liên quan tới quãng đường." }
+      ],
+      "answerIndex": 2,
+      "category": "distractor",
+      "evidence": "200 free km per booking; extra kilometres cost $0.25 each",
+      "explanationVi": "'for the extra distance' → chỉ tính phần vượt 200 km miễn phí. 440 − 200 = 240 km; 240 × $0.25 = $60.",
+      "vocabulary": []
+    },
+    {
+      "number": 5,
+      "prompt": "Which statement about the Pay-as-you-go plan is true?",
+      "options": [
+        { "text": "It is the cheapest plan for a Saturday trip.", "trap": "opposite", "whyVi": "Giá ngày $95 là cao nhất trong bảng." },
+        { "text": "It leaves members paying the most if they damage a car.", "trap": "none", "whyVi": "Đúng: mức khấu trừ thiệt hại $1,500 — cao nhất." },
+        { "text": "It allows bookings a month ahead.", "trap": "wrong_detail", "whyVi": "Chỉ được đặt trước tối đa 7 ngày." },
+        { "text": "It does not include insurance.", "trap": "opposite", "whyVi": "Chú thích: 'every plan includes gas, insurance'." }
+      ],
+      "answerIndex": 1,
+      "category": "distractor",
+      "evidence": "Damage deductible",
+      "explanationVi": "'Damage deductible' là số tiền thành viên tự trả khi xe bị hư hỏng. Pay-as-you-go: $1,500, cao nhất. Đáp án diễn đạt lại thay vì dùng từ 'deductible'.",
+      "vocabulary": ["deductible"]
+    },
+    {
+      "number": 6,
+      "prompt": "Why does Mateo decide against the Commuter plan?",
+      "options": [
+        { "text": "Its monthly fee is the highest of all.", "trap": "partially_true", "whyVi": "Đúng là phí $35 cao nhất, nhưng Mateo không nêu lý do này." },
+        { "text": "It does not allow weekend bookings.", "trap": "not_mentioned", "whyVi": "Bảng không cấm đặt xe cuối tuần với Commuter." },
+        { "text": "Its day rate is higher than Regular's.", "trap": "wrong_detail", "whyVi": "Cả hai đều $75/ngày." },
+        { "text": "Its cheapest rates are for times they wouldn't use a car.", "trap": "none", "whyVi": "Đúng: giá $7 chỉ vào giờ đi làm ngày thường, mà họ 'don't drive to work'." }
+      ],
+      "answerIndex": 3,
+      "category": "distractor",
+      "evidence": "But we don't drive to work.",
+      "explanationVi": "Chữ 'But' ngay sau phần khen Commuter cho biết lý do loại. Giá ưu đãi $7 của Commuter là 'weekdays 6–9 a.m. and 3–7 p.m.' — giờ đi làm. Họ không lái xe đi làm nên lợi thế này vô dụng. Phương án A đúng sự thật nhưng không phải lý do Mateo nêu.",
+      "vocabulary": []
+    }
+  ],
+  "vocabulary": [
+    { "term": "deductible", "vi": "mức khấu trừ (số tiền tự trả khi có thiệt hại)", "definition": "the amount you must pay yourself before insurance pays the rest", "example": "If you scratch the car, the deductible is $1,000." },
+    { "term": "waive", "vi": "miễn (phí)", "definition": "to not charge a fee", "example": "The registration fee is waived for commuters." },
+    { "term": "snap up", "vi": "giành lấy nhanh", "definition": "to buy or book something quickly before others do", "example": "Cars get snapped up fast on long weekends." },
+    { "term": "booking window", "vi": "khoảng thời gian cho phép đặt trước", "definition": "how far ahead you are allowed to make a reservation", "example": "The Weekender plan has a 60-day booking window." },
+    { "term": "come out on top", "vi": "thắng thế, tốt nhất", "definition": "to be the best or most successful option", "example": "After comparing prices, the Weekender came out on top." },
+    { "term": "by a mile", "vi": "hơn hẳn, vượt xa", "definition": "by a very large amount", "example": "Car sharing beats renting by a mile." },
+    { "term": "go back and forth", "vi": "phân vân, đắn đo qua lại", "definition": "to keep changing your mind between choices", "example": "I went back and forth on which plan to choose." }
+  ]
+}

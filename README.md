@@ -47,9 +47,9 @@ If you have not answered yet, it gives hints without revealing the answer.
 | **B. Learning engine** | Exercise selection, local scoring, explanations, mistake tracking, SM-2 spaced repetition, adaptive difficulty, daily plan, analytics, vocabulary review, mock exams | No |
 | C. AI assistance | Writing/Speaking evaluation (**only when the learner presses the button**), AI Tutor, and the admin tools for generating content | Gemini |
 | **A2. Curriculum** | `content/lessons/` — `curriculum.json` (modules and order) plus one JSON file per lesson. Validated by `shared/validate-lesson.ts`. Only lessons that are approved and error-free are shown. | No |
-| **D. Listening audio** | 30 MP3 files (24 sets) + 83 lesson clips (17 lessons) generated once with Edge TTS neural voices (en-CA Clara/Liam + en-US Jenny/Guy) and **committed in `audio-assets/`**, so a fresh deploy plays immediately | No |
+| **D. Listening audio** | 92 MP3 files (72 sets) + 83 lesson clips (17 lessons), plus 361 "Nghe bài đọc" read-aloud files for reading passages, generated once with Edge TTS neural voices (en-CA Clara/Liam + en-US Jenny/Guy) and **committed in `audio-assets/`**, so a fresh deploy plays immediately | No |
 
-**Without a Gemini key** you can still practise Reading, Listening (all 24 sets ship with audio), vocabulary, the mistake notebook, the study plan and the prebuilt mock exams. Writing and Speaking work too: the learner sees the model answer straight away, and AI evaluation can be requested later.
+**Without a Gemini key** you can still practise Reading, Listening (all 72 sets ship with audio), vocabulary, the mistake notebook, the study plan and the prebuilt mock exams. Writing and Speaking work too: the learner sees the model answer straight away, and AI evaluation can be requested later.
 
 ### Storage
 
@@ -58,7 +58,7 @@ If you have not answered yet, it gives hints without revealing the answer.
 | Static content (A) | `content/` (curated) + `$DATA_DIR/library/` (approved through the admin page) | `content/` yes |
 | Learning progress (B), including Learn Mode lesson progress (`lessons`) | `$DATA_DIR/progress.json` | no |
 | AI results, pending submissions, usage log, cache (C) | `$DATA_DIR/ai.json` | no |
-| Listening audio (D) | `audio-assets/` (bundled, read-only) + `$DATA_DIR/audio-assets/` (generated later on the server) | bundled: yes (~45 MB: 30 practice + 83 lesson clips) |
+| Listening audio (D) | `audio-assets/` (bundled, read-only) + `$DATA_DIR/audio-assets/` (generated later on the server) | bundled: yes (~200 MB: listening practice + lesson clips + read-aloud) |
 | Speaking recordings | `$DATA_DIR/audio/` | no |
 | Generation drafts | `$DATA_DIR/content-drafts/<job>/` | no |
 
@@ -91,7 +91,7 @@ npm run dev                 # http://localhost:5173 — use Edge/Chrome
 
 The same actions (validation, audio, generation, approval, AI usage) are on the **Admin** page (`/admin`).
 
-> **Listening needs audio.** All 24 current sets ship with audio. Any future set without audio is marked "pending audio" and excluded from practice and mock exams. It is **never** silently turned into a text exercise. The learner can turn on *browser voice* in Settings, and any set using it is clearly labelled.
+> **Listening needs audio.** All 72 current sets ship with audio. Any future set without audio is marked "pending audio" and excluded from practice and mock exams. It is **never** silently turned into a text exercise. The learner can turn on *browser voice* in Settings, and any set using it is clearly labelled.
 >
 > Edge TTS is an unofficial Microsoft service, so it may change or stop working. The files already generated keep working because they are stored in the repo.
 
@@ -109,7 +109,7 @@ The same actions (validation, audio, generation, approval, AI usage) are on the 
 
 3. **Attach Volume** with mount path `/data`. Progress, AI results and audio live there and survive redeploys.
 4. **Generate Domain** to get HTTPS (needed for the microphone).
-5. Nothing else is needed for audio: the 30 bundled MP3 files play straight away. Only listening sets added later need audio, which you can generate from `/admin` → *Audio Listening*; it is stored on the volume.
+5. Nothing else is needed for audio: the bundled MP3 files in `audio-assets/` play straight away. Only listening sets added later need audio, which you can generate from `/admin` → *Audio Listening*; it is stored on the volume.
 
 ## Limitations
 

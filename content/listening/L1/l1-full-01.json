@@ -11,7 +11,7 @@
     {
       "segments": [
         { "speaker": "Mei", "voice": "female_a", "text": "Daniel, why are we slowing down? We've only got forty minutes to get to Horseshoe Bay." },
-        { "speaker": "Daniel", "voice": "male_a", "text": "I know, I know. But look at the dashboard. That red light just came on, the one shaped like a thermometer." },
+        { "speaker": "Daniel", "voice": "male_a", "text": "Sorry, Mei. I know, I know. But look at the dashboard. That red light just came on, the one shaped like a thermometer." },
         { "speaker": "Daniel", "voice": "male_a", "text": "And there's steam, see? It's coming out from under the hood." },
         { "speaker": "Mei", "voice": "female_a", "text": "Oh no. Okay, pull over there, by the lookout. Don't keep driving if it's overheating. My dad wrecked an engine that way." },
         { "speaker": "Daniel", "voice": "male_a", "text": "Yeah, I'm pulling in. Alright, engine's off. I'll take a look, but honestly, I'm not a mechanic." },
@@ -186,7 +186,7 @@
   ],
   "estimatedMinutes": 10,
   "source": "curated",
-  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; key matched on every item. Checked evidence/chunk placement, traps, Vietnamese, BC Ferries/BCAA details (plausible). Changed: Q8 correct option reworded (dropped inaccurate 'partly'; Daniel takes full blame); Q5 explanationVi quoted a phrase not in the option - fixed." },
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; key matched on every item. Checked evidence/chunk placement, traps, Vietnamese, BC Ferries/BCAA details (plausible). Changed: Q8 correct option reworded (dropped inaccurate 'partly'; Daniel takes full blame); Q5 explanationVi quoted a phrase not in the option - fixed. Speaker names added to the dialogue so they are heard before questions use them (2026-11-03)." },
   "createdAt": "2026-10-26",
   "focus": []
 }

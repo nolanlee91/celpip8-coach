@@ -1,0 +1,54 @@
+{
+  "id": "s6-mock-03",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "recreation",
+  "title": "Concert tickets clash with mandatory training",
+  "prompt": "You and your close friend Leila bought two non-refundable tickets for a concert in Vancouver next Friday evening. You paid $180 for each ticket, and Leila has been looking forward to it for months. Today, your manager announced a mandatory safety training session on the same evening. You need this training to renew your work certification.\n\nChoose ONE of the following options:\n\nOption A: Talk to Leila. Explain why you cannot go to the concert and suggest how to make the situation better.\n\nOption B: Talk to your manager. Explain the situation and ask whether you could attend the training at another time.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Gentle opener + apologise early",
+    "Explain why the training cannot be skipped",
+    "Offer practical solutions for the ticket",
+    "Offer to make it up to her + close warmly"
+  ],
+  "modelAnswer": "Leila, do you have a minute? I've got some bad news about Friday, and I'm really sorry. My manager just told us there's a mandatory safety training that evening, and I need it to renew my forklift certification. Without it, I'm not allowed to work on the floor, so I honestly can't skip it.\n\nI know how long we've been looking forward to this concert, and I hate letting you down. So here's what I'm thinking. Since the tickets are non-refundable, why don't you take my ticket and invite someone else? Your cousin loves this band, doesn't she? She wouldn't need to pay me back. Or, if you'd rather, I can check whether the ticket can be resold or transferred, and give you half of whatever I get.\n\nAnd to make it up to you, let me take you out for dinner next weekend, anywhere you like. I'll also ask my manager tomorrow if there's another training date, just in case. Again, I'm so sorry about this.",
+  "usefulExpressions": [
+    {
+      "expression": "I hate letting you down.",
+      "usageVi": "'let someone down' = làm ai thất vọng; thể hiện sự áy náy chân thành."
+    },
+    {
+      "expression": "So here's what I'm thinking.",
+      "usageVi": "Câu chuyển tự nhiên sang phần giải pháp."
+    },
+    {
+      "expression": "Your cousin loves this band, doesn't she?",
+      "usageVi": "Câu hỏi đuôi giúp đề xuất nghe thân thiện, gợi ý thay vì áp đặt."
+    },
+    {
+      "expression": "if you'd rather, …",
+      "usageVi": "Đưa ra phương án thứ hai, để người kia chọn."
+    },
+    {
+      "expression": "to make it up to you, …",
+      "usageVi": "'make it up to someone' = bù đắp cho ai; kết thúc tích cực."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ xin lỗi liên tục mà không giải quyết chuyện vé $180. Hãy đề xuất cách xử lý cụ thể (tặng vé, bán lại).",
+    "Không giải thích vì sao buổi đào tạo bắt buộc. Lý do rõ ràng ('need it to renew my certification') giúp lời từ chối hợp lý.",
+    "Sai cấu trúc: 'I'm looking forward to go' → 'looking forward to going'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked Option A/B shape, direct address to Leila, clear reason, practical ticket solutions and make-up offer, length (~163 words). Softened the resale offer to note the ticket may not be transferable."
+  },
+  "createdAt": "2026-11-03"
+}

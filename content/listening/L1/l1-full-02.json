@@ -1,0 +1,188 @@
+{
+  "id": "l1-full-02",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "full",
+  "difficulty": 8,
+  "topic": "healthcare",
+  "title": "A prescription that ran out before a trip",
+  "context": "You will hear a couple in North Vancouver talking about how to get the husband's blood pressure medication renewed before they leave on a long trip overseas.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Anita", "voice": "female_a", "text": "Joel, did you ever pick up your refill? We fly to Lisbon on Thursday, and I just saw the bottle on the counter. There can't be more than a handful of pills left in there." },
+        { "speaker": "Joel", "voice": "male_a", "text": "Yeah, about that, Anita. I went by the pharmacy at lunch, and they wouldn't fill it. Apparently the prescription ran out. Dr. Okafor only wrote it for six months back in May, and I sort of let it slide." },
+        { "speaker": "Anita", "voice": "female_a", "text": "Okay, so you call her office and get it renewed. That's a two-minute thing, isn't it?" },
+        { "speaker": "Joel", "voice": "male_a", "text": "That's what I figured. But the receptionist said Dr. Okafor's on leave until the middle of the month, and the doctor covering for her is booked solid until next week. I'd be somewhere over the Atlantic by then." },
+        { "speaker": "Anita", "voice": "female_a", "text": "And they can't just send something over to the pharmacy? You've been on the same pill for, what, three years?" },
+        { "speaker": "Joel", "voice": "male_a", "text": "I asked. She said they don't renew anything without an appointment anymore. It's a clinic policy, not her call. She was nice about it, but there was no budging her." },
+        { "speaker": "Anita", "voice": "female_a", "text": "Well, we're not going to Portugal for three weeks with you running out on day four. That's not happening." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why couldn't Joel get his medication at lunch?",
+          "options": [
+            { "text": "The pharmacy had run out of his medication.", "trap": "word_match", "whyVi": "Bài có cụm 'ran out' nhưng chủ ngữ là 'the prescription' (toa thuốc hết hạn), không phải nhà thuốc hết thuốc." },
+            { "text": "He had forgotten to bring his empty bottle.", "trap": "not_mentioned", "whyVi": "Bài không nói Joel quên mang lọ thuốc; lọ thuốc đang ở trên quầy nhà." },
+            { "text": "The doctor's authorization for the pills was no longer valid.", "trap": "none", "whyVi": "Đúng: toa thuốc chỉ có hiệu lực sáu tháng từ tháng Năm và nay đã hết." },
+            { "text": "The pharmacist wanted to call his doctor first.", "trap": "wrong_detail", "whyVi": "Joel tự gọi phòng khám; bài không nói dược sĩ muốn gọi bác sĩ trước." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "Apparently the prescription ran out.",
+          "explanationVi": "'The prescription ran out' = toa thuốc đã hết hạn/hết lượt. Đáp án C diễn đạt lại thành 'the doctor's authorization ... was no longer valid'. Đừng nhầm với nghĩa 'nhà thuốc hết hàng'.",
+          "vocabulary": ["prescription", "let something slide"]
+        },
+        {
+          "number": 2,
+          "prompt": "Why can't Joel see a doctor at his clinic before the trip?",
+          "options": [
+            { "text": "His doctor is away, and her replacement has no openings in time.", "trap": "none", "whyVi": "Đúng: bác sĩ Okafor nghỉ đến giữa tháng, bác sĩ thay thế kín lịch đến tuần sau." },
+            { "text": "The clinic has stopped accepting new patients.", "trap": "not_mentioned", "whyVi": "Bài không nói phòng khám ngừng nhận bệnh nhân mới; Joel là bệnh nhân cũ." },
+            { "text": "His doctor has retired from the clinic.", "trap": "opposite", "whyVi": "Bác sĩ chỉ nghỉ phép ('on leave') đến giữa tháng, không phải nghỉ hưu." },
+            { "text": "He will be flying over the Atlantic when the clinic reopens.", "trap": "word_match", "whyVi": "Có cụm 'over the Atlantic' nhưng phòng khám không đóng cửa; vấn đề là lịch bác sĩ kín." }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "the receptionist said Dr. Okafor's on leave until the middle of the month, and the doctor covering for her is booked solid until next week",
+          "explanationVi": "Có hai thông tin cần nghe đủ: 'on leave' (đang nghỉ phép) và 'the doctor covering for her is booked solid' (bác sĩ thay thế kín lịch). Đáp án A gộp cả hai.",
+          "vocabulary": ["on leave", "booked solid"]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Joel suggest about the receptionist?",
+          "options": [
+            { "text": "She was rude when he asked for an exception.", "trap": "opposite", "whyVi": "Joel nói 'She was nice about it' – cô ấy lịch sự." },
+            { "text": "She personally disagreed with the clinic's rule.", "trap": "not_mentioned", "whyVi": "'Not her call' chỉ có nghĩa là không phải cô ấy quyết định; không nói cô phản đối quy định." },
+            { "text": "She promised to ask the doctor to make an exception.", "trap": "opposite", "whyVi": "'No budging her' – cô ấy không nhượng bộ chút nào." },
+            { "text": "She was polite but would not change her answer.", "trap": "none", "whyVi": "Đúng: 'nice about it' = lịch sự; 'no budging her' = không thay đổi ý." }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "She was nice about it, but there was no budging her.",
+          "explanationVi": "'There was no budging her' là thành ngữ: không thể làm cô ấy đổi ý. Kết hợp với 'nice about it' ta có đáp án D: lịch sự nhưng kiên quyết.",
+          "vocabulary": ["no budging someone"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Joel", "voice": "male_a", "text": "So what are the options? I was thinking the walk-in clinic. There's one in the mall on Lonsdale." },
+        { "speaker": "Anita", "voice": "female_a", "text": "Have you seen the lineup there? People are waiting outside before it opens, and they still get turned away by ten. Hang on, what about the pharmacist? My sister said pharmacists in B.C. can renew some prescriptions themselves now, without a doctor." },
+        { "speaker": "Joel", "voice": "male_a", "text": "Really? Since when?" },
+        { "speaker": "Anita", "voice": "female_a", "text": "A while, I think. It's for ongoing stuff, like blood pressure or cholesterol, as long as you've been stable on it. They might not give you the full six months, but even a month's supply would get you through the trip." },
+        { "speaker": "Joel", "voice": "male_a", "text": "Huh. The guy at the counter never mentioned that. Then again, it was the lunch rush, and he seemed pretty swamped." },
+        { "speaker": "Anita", "voice": "female_a", "text": "Or there's the virtual option. My work benefits include one of those video-doctor apps. I could add you, it's covered for spouses." },
+        { "speaker": "Joel", "voice": "male_a", "text": "I'd rather try the pharmacy first, honestly. I can't stand those video calls, the picture always freezes halfway through. But okay, if the pharmacy says no, I'll do the app. Anything's better than burning a whole morning in a waiting room." }
+      ],
+      "questions": [
+        {
+          "number": 4,
+          "prompt": "What does Anita say about the walk-in clinic?",
+          "options": [
+            { "text": "It does not open early enough for Joel.", "trap": "wrong_detail", "whyVi": "Anita nói người ta xếp hàng trước giờ mở cửa, không nói giờ mở cửa quá muộn với Joel." },
+            { "text": "It often cannot see everyone who shows up.", "trap": "none", "whyVi": "Đúng: người xếp hàng từ sớm mà đến 10 giờ vẫn bị từ chối." },
+            { "text": "It is too far from their home.", "trap": "not_mentioned", "whyVi": "Bài không nói phòng khám ở xa; nó ở trung tâm mua sắm trên đường Lonsdale." },
+            { "text": "It no longer renews prescriptions.", "trap": "word_match", "whyVi": "'Renew prescriptions' được nhắc nhưng là về dược sĩ, không phải về phòng khám walk-in." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "People are waiting outside before it opens, and they still get turned away by ten.",
+          "explanationVi": "'Get turned away' = bị từ chối, không được khám. Đáp án B diễn đạt lại thành 'cannot see everyone who shows up'.",
+          "vocabulary": ["turn away", "walk-in clinic"]
+        },
+        {
+          "number": 5,
+          "prompt": "According to Anita, when can a pharmacist renew a prescription?",
+          "options": [
+            { "text": "Only when the patient is about to travel.", "trap": "not_mentioned", "whyVi": "Chuyến đi chỉ là hoàn cảnh của Joel; Anita không nói đó là điều kiện." },
+            { "text": "Only when a doctor approves it by phone.", "trap": "opposite", "whyVi": "Anita nói rõ dược sĩ có thể gia hạn 'without a doctor'." },
+            { "text": "When the medication has been working well for an ongoing condition.", "trap": "none", "whyVi": "Đúng: cho bệnh lâu dài như huyết áp, với điều kiện bệnh nhân 'stable on it'." },
+            { "text": "When the patient asks for a full six-month supply.", "trap": "wrong_detail", "whyVi": "Anita nói ngược lại: họ có thể KHÔNG cho đủ sáu tháng." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "It's for ongoing stuff, like blood pressure or cholesterol, as long as you've been stable on it.",
+          "explanationVi": "'Ongoing stuff' = bệnh mãn tính/lâu dài; 'as long as you've been stable on it' = với điều kiện thuốc giữ bệnh ổn định. Đáp án C diễn đạt lại cả hai ý.",
+          "vocabulary": ["stable on (a medication)"]
+        },
+        {
+          "number": 6,
+          "prompt": "Why does Joel want to try the pharmacy before the video app?",
+          "options": [
+            { "text": "He finds online appointments technically frustrating.", "trap": "none", "whyVi": "Đúng: anh ghét gọi video vì hình 'always freezes'." },
+            { "text": "The app is not covered by his benefits.", "trap": "opposite", "whyVi": "Anita nói app được bảo hiểm chi trả cho vợ/chồng ('covered for spouses')." },
+            { "text": "He would prefer to wait at the walk-in clinic.", "trap": "opposite", "whyVi": "Joel nói ngồi phòng chờ cả buổi sáng là điều tệ nhất ('Anything's better than...')." },
+            { "text": "The pharmacist at the counter recommended it.", "trap": "opposite", "whyVi": "Người ở quầy KHÔNG hề nhắc đến chuyện này ('never mentioned that')." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "I can't stand those video calls, the picture always freezes halfway through.",
+          "explanationVi": "'I can't stand' = rất ghét; 'the picture always freezes' = sự cố kỹ thuật. Đáp án A diễn đạt lại thành 'technically frustrating'.",
+          "vocabulary": []
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Joel", "voice": "male_a", "text": "Okay, I'm back from the pharmacy. Good news, mostly." },
+        { "speaker": "Anita", "voice": "female_a", "text": "Mostly?" },
+        { "speaker": "Joel", "voice": "male_a", "text": "The pharmacist, a different one this time, went through my history and said I qualify. But she'll only extend it for one month, not three. She doesn't want me going any longer than that without a doctor taking a look." },
+        { "speaker": "Anita", "voice": "female_a", "text": "We're gone for three weeks, so a month covers it, doesn't it?" },
+        { "speaker": "Joel", "voice": "male_a", "text": "It does, just barely. The catch is it won't be ready till tomorrow afternoon. They're backed up." },
+        { "speaker": "Anita", "voice": "female_a", "text": "Tomorrow afternoon still leaves us a day and a half before the flight. So that's it? We're done?" },
+        { "speaker": "Joel", "voice": "male_a", "text": "Not quite. She said I have to book in with Dr. Okafor for when we get back, and she'll send the clinic a note explaining exactly what she's done and why. So I still need that appointment, but at least there's no rush now." },
+        { "speaker": "Anita", "voice": "female_a", "text": "Then book it tonight, before you let that slide too." }
+      ],
+      "questions": [
+        {
+          "number": 7,
+          "prompt": "What limit does the pharmacist put on the renewal?",
+          "options": [
+            { "text": "She will renew it for three months only.", "trap": "wrong_detail", "whyVi": "Joel nói rõ 'one month, not three' – chỉ một tháng." },
+            { "text": "She will renew it only if his insurance pays.", "trap": "not_mentioned", "whyVi": "Bài không nhắc bảo hiểm trong đoạn này." },
+            { "text": "She will renew it after the doctor calls her.", "trap": "opposite", "whyVi": "Chính dược sĩ sẽ gửi ghi chú cho phòng khám; cô không chờ bác sĩ gọi." },
+            { "text": "She will extend it for roughly four weeks and no longer.", "trap": "none", "whyVi": "Đúng: chỉ gia hạn một tháng, vừa đủ cho chuyến đi ba tuần." }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "But she'll only extend it for one month, not three.",
+          "explanationVi": "Nghe kỹ 'one month, not three'. Đáp án D diễn đạt 'one month' thành 'roughly four weeks and no longer'; đáp án A dùng con số bị phủ định.",
+          "vocabulary": []
+        },
+        {
+          "number": 8,
+          "prompt": "What does Anita imply in her last comment?",
+          "options": [
+            { "text": "She is worried the medication will not be ready in time.", "trap": "opposite", "whyVi": "Anita vừa nói thuốc có trước chuyến bay một ngày rưỡi, nên cô không lo việc này." },
+            { "text": "She suspects Joel might put off the appointment as he did the refill.", "trap": "none", "whyVi": "Đúng: 'let that slide too' nhắc lại việc Joel từng lơ là ('let it slide') với toa thuốc." },
+            { "text": "She wants to go to the appointment with Joel.", "trap": "not_mentioned", "whyVi": "Anita không nói muốn đi cùng." },
+            { "text": "She thinks the pharmacist should have given him more pills.", "trap": "not_mentioned", "whyVi": "Anita đã đồng ý một tháng là đủ ('a month covers it')." }
+          ],
+          "answerIndex": 1,
+          "category": "long_conversation",
+          "evidence": "Then book it tonight, before you let that slide too.",
+          "explanationVi": "Phải nối với đoạn 1, khi Joel thừa nhận 'I sort of let it slide'. Chữ 'too' cho thấy Anita sợ anh lại trì hoãn lần nữa. 'Put off' = 'let slide'.",
+          "vocabulary": ["let something slide"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "prescription", "vi": "toa thuốc, đơn thuốc", "definition": "a doctor's written permission for a patient to get a specific medicine", "example": "My prescription ran out, so the pharmacy couldn't refill it." },
+    { "term": "let something slide", "vi": "lơ là, để mặc cho trôi qua", "definition": "to fail to deal with something you should have dealt with", "example": "I knew the renewal was due, but I let it slide." },
+    { "term": "on leave", "vi": "đang nghỉ phép", "definition": "officially away from work for a period of time", "example": "Dr. Okafor is on leave until the middle of the month." },
+    { "term": "booked solid", "vi": "kín lịch hoàn toàn", "definition": "having no free appointments or space at all", "example": "The covering doctor is booked solid until next week." },
+    { "term": "no budging someone", "vi": "không thể làm ai đổi ý", "definition": "used to say that a person will not change their decision", "example": "I begged for an exception, but there was no budging her." },
+    { "term": "turn away", "vi": "từ chối không cho vào/không phục vụ", "definition": "to refuse to let someone enter or be served", "example": "By ten o'clock the clinic was turning people away." },
+    { "term": "walk-in clinic", "vi": "phòng khám không cần hẹn trước", "definition": "a medical clinic where you can see a doctor without an appointment", "example": "There's a walk-in clinic in the mall on Lonsdale." },
+    { "term": "stable on (a medication)", "vi": "ổn định khi dùng (một loại thuốc)", "definition": "having a condition that is well controlled by a medicine", "example": "He's been stable on the same pill for three years." },
+    { "term": "swamped", "vi": "ngập đầu (việc), quá bận", "definition": "extremely busy, with too much to do", "example": "The pharmacist was swamped during the lunch rush." }
+  ],
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; keys matched. Evidence sits in each question's own chunk. Pharmacist-renewal content is hedged (Anita's sister, 'some prescriptions', stable chronic meds, pharmacist notifies the clinic) and plausible for B.C. Fixed: Anita's name now spoken in the audio; Q7 key reworded to a cleaner paraphrase of 'one month'; removed an irrelevant vocab tag on Q6." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

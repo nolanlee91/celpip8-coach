@@ -8,7 +8,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { CONTENT_DIR, library } from "./library";
 import { curriculum } from "./lessons";
-import { tableSpeech } from "../shared/read-aloud";
+import { speechText, tableSpeech } from "../shared/read-aloud";
 import type { ListeningSet, ReadingSet, SpeakingPrompt, WritingPrompt } from "../shared/types";
 
 export const TRANSLATIONS_FILE = path.join(CONTENT_DIR, "translations", "vi.json");
@@ -44,5 +44,19 @@ export function translatableTexts(): string[] {
   }
   for (const l of curriculum().lessons.values())
     for (const st of Object.values(l.stimuli ?? {})) { add(st.text); for (const seg of st.audio ?? []) add(seg.text); }
+  return [...out];
+}
+
+/**
+ * Every text the "Nghe bài đọc" button can send, normalised as the client sends it: library reading
+ * passages (also used by mocks and review) and lesson stimuli that have text but no audio of their own.
+ */
+export function readAloudTexts(): string[] {
+  const out = new Set<string>();
+  const add = (raw: string) => { const t = speechText(raw); if (t) out.add(t); };
+  for (const item of library().items.values())
+    if (item.kind === "reading") for (const s of (item as ReadingSet).sections) add(s.kind === "table" && s.table ? tableSpeech(s.table) : s.text);
+  for (const l of curriculum().lessons.values())
+    for (const st of Object.values(l.stimuli ?? {})) if (st.text && !st.audio?.length && !st.audioRef) add(st.text);
   return [...out];
 }

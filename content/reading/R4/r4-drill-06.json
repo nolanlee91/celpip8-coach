@@ -1,0 +1,127 @@
+{
+  "id": "r4-drill-06",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "social",
+  "title": "Grammar drill: Teens at the Seniors' Centre",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": {"status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Checked every blank for grammar AND logic: 2 'it would be a shame to V', 3 second conditional 'If the teens had...', 4 'Rather than leaving...', 5 'have someone + bare infinitive', 6 first conditional 'if the grant covers'; each has exactly one option that is both grammatical and logical (distractors are either ungrammatical or contradict the text). Q1 inference key correct. Difficulty 8 -> 7 to match a moderate grammar drill. No other edits."},
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "For thirty years, the Elk Harbour Seniors' Activity Centre has been a quiet place on weekday afternoons: a few card tables, a knitting circle, the occasional exercise class. Starting in September, it could get a lot livelier. The centre's board has proposed opening the building to local teenagers from 3 to 6 p.m. on weekdays, offering homework space, a games room and, eventually, shared activities with older members.\n\nBoard chair Rosalind Achterberg says the idea came from members themselves. Several have grandchildren living far away and miss having young people around. Meanwhile, the town's only youth drop-in closed last spring when its lease ran out. \"We have an empty building every afternoon, and the town has teenagers with nowhere to go,\" she said. \"It seemed silly not to put those two facts together.\"\n\nSome members are less enthusiastic. Ernest Lavoie, who has played cribbage at the centre every Tuesday for twelve years, says he has nothing against young people but worries about noise and about losing a space that was designed with seniors in mind. \"This is one of the few places in town where nobody is in a hurry,\" he said. \"Once it's shared, it's not ours in quite the same way.\" He would back the plan if the teens were given a separate room.\n\nYouth worker Tavita Faleolo, who ran the closed drop-in, says shared spaces work best when they are planned rather than left to chance. In her experience, teens and seniors rarely mix on their own; they need structured activities such as tech help sessions, cooking nights or recorded interviews about local history. She also warns that the project will need at least one trained youth worker on site. \"Volunteers are wonderful, but you can't run a youth program on goodwill alone.\"\n\nThe board estimates the program would cost about $38,000 a year, mostly for staffing. It has applied for a provincial community grant and will hold an open meeting for members on June 12.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I've been a member of the centre for six years, and I was surprised by how much I liked this idea. Ms. Achterberg is right: it would be a shame [[2]] while teenagers have nowhere to go. I understand Mr. Lavoie's worries, though. If the teens [[3]], his cribbage group could carry on in peace. Ms. Faleolo's advice also makes sense to me. Rather than [[4]], the board should plan activities that give both groups a reason to sit at the same table. My granddaughter lives in Ontario, so I would love the chance to teach a teenager to cook, or to have one [[5]] my new phone. The plan will only work, however, if the grant [[6]]. Without proper staff, I doubt it will last a year.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What does Tavita Faleolo suggest when she says \"you can't run a youth program on goodwill alone\"?",
+      "options": [
+        { "text": "Volunteers at the centre are not friendly enough to teenagers.", "trap": "opposite", "whyVi": "Bà khen 'Volunteers are wonderful'; vấn đề không phải thái độ." },
+        { "text": "Teenagers should pay a fee to use the building.", "trap": "not_mentioned", "whyVi": "Không ai đề nghị thu phí thanh thiếu niên." },
+        { "text": "The program needs paid, trained staff, not just willing helpers.", "trap": "none", "whyVi": "Đúng: Bà cảnh báo cần 'at least one trained youth worker on site'; 'goodwill' (thiện chí của tình nguyện viên) là chưa đủ." },
+        { "text": "The closed drop-in failed because it had too few volunteers.", "trap": "wrong_detail", "whyVi": "Trung tâm cũ đóng cửa vì hết hợp đồng thuê ('lease ran out')." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "She also warns that the project will need at least one trained youth worker on site.",
+      "explanationVi": "Câu nói đứng ngay sau lời cảnh báo cần 'trained youth worker'. 'Goodwill alone' = chỉ có thiện chí. Kết hợp với chi phí '$38,000 a year, mostly for staffing', ta suy ra cần nhân viên được đào tạo và trả lương.",
+      "vocabulary": ["goodwill"]
+    },
+    {
+      "number": 2,
+      "prompt": "Choose the best option for blank 2.",
+      "options": [
+        { "text": "to leave the building sitting empty every afternoon", "trap": "none", "whyVi": "Đúng: 'It would be a shame + to V' là cấu trúc chuẩn; nội dung khớp với 'We have an empty building every afternoon'." },
+        { "text": "the building stays empty every afternoon", "trap": "word_match", "whyVi": "Đúng ý nhưng sai ngữ pháp: sau 'it would be a shame' cần 'to V' hoặc 'if...', và thì hiện tại 'stays' không hợp với 'would'." },
+        { "text": "to keep the teenagers away from town", "trap": "opposite", "whyVi": "Đúng ngữ pháp nhưng sai logic: ý của Achterberg là đưa thanh thiếu niên vào, không đuổi đi." },
+        { "text": "if the knitting circle met more often", "trap": "not_mentioned", "whyVi": "Đúng ngữ pháp nhưng không liên quan đến vế 'while teenagers have nowhere to go'." }
+      ],
+      "answerIndex": 0,
+      "category": "grammar",
+      "evidence": "\"We have an empty building every afternoon, and the town has teenagers with nowhere to go,\" she said.",
+      "explanationVi": "Cần hai điều kiện: (1) ngữ pháp: 'it would be a shame to + V'; (2) logic: đối lập 'tòa nhà trống' ↔ 'teenagers have nowhere to go', đúng câu của Achterberg. Chỉ A thỏa cả hai.",
+      "vocabulary": ["it would be a shame to"]
+    },
+    {
+      "number": 3,
+      "prompt": "Choose the best option for blank 3.",
+      "options": [
+        { "text": "will have a room of their own", "trap": "word_match", "whyVi": "Đúng ý nhưng sai thì: mệnh đề 'if' trong câu điều kiện loại 2 (đi với 'could') không dùng 'will'." },
+        { "text": "joined his cribbage group", "trap": "opposite", "whyVi": "Đúng ngữ pháp nhưng sai logic: nếu teen tham gia nhóm thì nhóm không còn 'in peace' như ông muốn." },
+        { "text": "stayed until 6 p.m.", "trap": "wrong_detail", "whyVi": "Đúng ngữ pháp, và 6 p.m. có trong bài, nhưng không giải thích vì sao nhóm của ông được yên tĩnh." },
+        { "text": "had a room to themselves", "trap": "none", "whyVi": "Đúng: Câu điều kiện loại 2 (if + quá khứ, could + V); 'a room to themselves' = 'a separate room', đúng điều kiện ông Lavoie đặt ra." }
+      ],
+      "answerIndex": 3,
+      "category": "grammar",
+      "evidence": "He would back the plan if the teens were given a separate room.",
+      "explanationVi": "Vế chính 'could carry on' → câu điều kiện loại 2, mệnh đề if dùng quá khứ ('had'). Nội dung lấy từ điều kiện của Lavoie: 'if the teens were given a separate room' → 'had a room to themselves'. Đáp án A đúng ý nhưng sai thì."
+    },
+    {
+      "number": 4,
+      "prompt": "Choose the best option for blank 4.",
+      "options": [
+        { "text": "left the two groups alone", "trap": "word_match", "whyVi": "Đúng ý nhưng sai ngữ pháp: sau 'rather than' (song song với 'should plan') cần 'leave' hoặc 'leaving', không dùng quá khứ 'left'." },
+        { "text": "leaving it to chance whether the two groups mix", "trap": "none", "whyVi": "Đúng: 'Rather than + V-ing' đúng ngữ pháp; nội dung khớp với 'planned rather than left to chance'." },
+        { "text": "planning structured activities", "trap": "opposite", "whyVi": "Đúng ngữ pháp nhưng mâu thuẫn: câu đang nói hội đồng NÊN lên kế hoạch hoạt động." },
+        { "text": "to hire a trained youth worker", "trap": "partially_true", "whyVi": "Faleolo có nói cần nhân viên, nhưng 'rather than to hire' sai ngữ pháp và trái logic (đây là điều nên làm)." }
+      ],
+      "answerIndex": 1,
+      "category": "grammar",
+      "evidence": "says shared spaces work best when they are planned rather than left to chance",
+      "explanationVi": "'Rather than' thường đi với V-ing ở đầu câu. Về logic, câu đối lập 'để mặc may rủi' với 'plan activities', đúng ý Faleolo: 'planned rather than left to chance'. 'Leave it to chance' = phó mặc cho may rủi."
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "show me how to use", "trap": "none", "whyVi": "Đúng: Cấu trúc nhờ vả 'have + somebody + V nguyên mẫu' → 'have one show me'; khớp với hoạt động 'tech help sessions'." },
+        { "text": "shown me how to use", "trap": "word_match", "whyVi": "Sai ngữ pháp: 'have + người + V3' không đúng; V3 chỉ dùng khi tân ngữ là vật ('have my phone fixed')." },
+        { "text": "explain me how to use", "trap": "word_match", "whyVi": "Sai ngữ pháp: 'explain' không đi trực tiếp với tân ngữ chỉ người; phải là 'explain to me'." },
+        { "text": "to show me using", "trap": "word_match", "whyVi": "Sai ngữ pháp: sau 'have + người' không dùng 'to V', và 'show me using' không đúng cấu trúc." }
+      ],
+      "answerIndex": 0,
+      "category": "grammar",
+      "evidence": "they need structured activities such as tech help sessions, cooking nights or recorded interviews about local history",
+      "explanationVi": "Cả bốn đáp án cùng ý 'giúp tôi dùng điện thoại', nên đây là câu ngữ pháp thuần túy: 'have + someone + bare infinitive' (nhờ ai làm gì). Nội dung khớp với 'tech help sessions' trong bài.",
+      "vocabulary": ["have someone do something"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "will pay for new card tables", "trap": "word_match", "whyVi": "Sai cả hai: mệnh đề 'if' không dùng 'will', và bàn chơi bài không liên quan đến 'proper staff'." },
+        { "text": "is announced at the June 12 meeting", "trap": "wrong_detail", "whyVi": "Đúng ngữ pháp nhưng sai chi tiết: buổi họp 12/6 là để thảo luận với thành viên, không phải công bố tài trợ; cũng không khớp với câu cuối về nhân viên." },
+        { "text": "covers the cost of a trained youth worker", "trap": "none", "whyVi": "Đúng: Câu điều kiện loại 1 (will only work ... if + hiện tại đơn); nội dung khớp 'mostly for staffing' và câu sau 'Without proper staff'." },
+        { "text": "covered the rent for the old drop-in", "trap": "wrong_detail", "whyVi": "Sai thì (quá khứ) và sai logic: trung tâm cũ đã đóng; bài không nói khoản tài trợ dành cho tiền thuê." }
+      ],
+      "answerIndex": 2,
+      "category": "grammar",
+      "evidence": "The board estimates the program would cost about $38,000 a year, mostly for staffing.",
+      "explanationVi": "Câu điều kiện loại 1: 'will only work ... if + hiện tại đơn' → 'covers'. Câu tiếp theo 'Without proper staff, I doubt it will last a year' cho biết khoản tài trợ phải trả cho nhân viên, khớp với 'mostly for staffing' trong bài."
+    }
+  ],
+  "vocabulary": [
+    { "term": "lease", "vi": "hợp đồng thuê", "definition": "a legal agreement to rent a building or property for a period of time", "example": "The youth drop-in closed when its lease ran out." },
+    { "term": "put together", "vi": "kết hợp, ghép lại", "definition": "to combine separate things so they work as one", "example": "It seemed silly not to put those two facts together." },
+    { "term": "with someone in mind", "vi": "dành cho ai, nghĩ đến ai", "definition": "designed or planned for a particular group of people", "example": "The space was designed with seniors in mind." },
+    { "term": "leave something to chance", "vi": "phó mặc cho may rủi", "definition": "to not plan something and just hope it works out", "example": "Shared spaces should be planned, not left to chance." },
+    { "term": "goodwill", "vi": "thiện chí", "definition": "friendly, helpful feelings and willingness to help", "example": "You can't run a youth program on goodwill alone." },
+    { "term": "it would be a shame to", "vi": "thật đáng tiếc nếu", "definition": "used to say that doing something would be a pity or a waste", "example": "It would be a shame to leave the building empty every afternoon." },
+    { "term": "have someone do something", "vi": "nhờ/để ai làm gì", "definition": "to arrange for or allow someone to do something for you", "example": "I'd love to have a teenager show me how to use my phone." },
+    { "term": "carry on", "vi": "tiếp tục", "definition": "to continue doing something", "example": "His cribbage group could carry on in peace." }
+  ]
+}

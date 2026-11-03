@@ -1,0 +1,32 @@
+{
+  "id": "mock-06",
+  "title": "Mock Exam 6",
+  "listening": [
+    "l1-mock-06",
+    "l2-mock-06",
+    "l3-mock-06",
+    "l4-mock-06",
+    "l5-mock-06",
+    "l6-mock-06"
+  ],
+  "reading": [
+    "r1-mock-06",
+    "r2-mock-06",
+    "r3-mock-06",
+    "r4-mock-06"
+  ],
+  "writing": [
+    "w1-mock-06",
+    "w2-mock-06"
+  ],
+  "speaking": [
+    "s1-mock-06",
+    "s2-mock-06",
+    "s3-mock-06",
+    "s4-mock-06",
+    "s5-mock-06",
+    "s6-mock-06",
+    "s7-mock-06",
+    "s8-mock-06"
+  ]
+}

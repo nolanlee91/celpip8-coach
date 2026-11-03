@@ -1,0 +1,306 @@
+{
+  "id": "l6-mock-04",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "recreation",
+  "title": "Viewpoints: Booking a day pass to go hiking",
+  "context": "You will hear the organizer of a hiking club giving a commentary on a community radio station about the online day-pass system for popular provincial park trails.",
+  "estimatedMinutes": 7,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Mei-Lin Chow, hiking club organizer",
+          "voice": "female_a",
+          "text": "Hi, I'm Mei-Lin Chow. I've been leading weekend hikes with the Coquitlam Trailbreakers for almost twelve years, so I remember what some of our busiest provincial park trails looked like before the day-pass system came in. On a sunny Saturday, cars were parked along the highway for over a kilometre, people were trampling the meadows to get around each other, and the outhouses were, let's just say, not coping. Nobody who saw that wants to go back to it."
+        },
+        {
+          "speaker": "Mei-Lin Chow, hiking club organizer",
+          "voice": "female_a",
+          "text": "So let me be clear: I'm not against limiting numbers. The trails have recovered remarkably well, and I'll take a quiet lakeshore over a crowded one any day. My problem is with how the passes are handed out, and who ends up missing out as a result."
+        },
+        {
+          "speaker": "Mei-Lin Chow, hiking club organizer",
+          "voice": "female_a",
+          "text": "Right now, passes for the next day are released online at seven in the morning, and the good ones can be gone within minutes. If you can sit at a laptop at seven sharp and refresh the page like your life depends on it, you're fine. If you're a nurse coming off a night shift, or a parent getting three kids out the door, you're out of luck. In practice, the system rewards people with flexible mornings, and those people were never the ones having trouble getting outdoors."
+        },
+        {
+          "speaker": "Mei-Lin Chow, hiking club organizer",
+          "voice": "female_a",
+          "text": "There's another group I worry about. Our club runs beginner hikes for newcomers to Canada, and many of them have never heard of a day pass. They drive two hours, get turned away at the trailhead by a ranger, and conclude that the backcountry simply isn't for people like them. Some of them had borrowed boots and packed a lunch the night before. That's a terrible first impression to leave someone with."
+        },
+        {
+          "speaker": "Mei-Lin Chow, hiking club organizer",
+          "voice": "female_a",
+          "text": "I keep hearing that alternatives, such as a lottery, would be too complicated. I'd gently suggest that nobody has looked very hard. Plenty of campgrounds already hold back a share of their sites for people who just show up. Setting aside even a quarter of the trail passes for same-day visitors would go a long way, and so would a shuttle from the nearest town, which would cut the parking problem at the same time."
+        },
+        {
+          "speaker": "Mei-Lin Chow, hiking club organizer",
+          "voice": "female_a",
+          "text": "I'm not asking for the gates to be thrown open. The limits are working, and I'd defend them to anyone. I'm asking that the way we share a limited thing be fair to the people who can't play the seven a.m. game. That doesn't seem like a lot to ask."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "How does Mei-Lin feel about limiting the number of hikers on popular trails?",
+          "options": [
+            {
+              "text": "She thinks the limits have been set far too low.",
+              "trap": "not_mentioned",
+              "whyVi": "Bà không nói con số giới hạn quá thấp; bà chỉ phản đối cách phân phát vé."
+            },
+            {
+              "text": "She accepts them only as a temporary measure.",
+              "trap": "not_mentioned",
+              "whyVi": "Bà không nói giới hạn chỉ là tạm thời; ngược lại, bà nói sẽ bảo vệ chúng."
+            },
+            {
+              "text": "She believes they have clearly benefited the parks.",
+              "trap": "none",
+              "whyVi": "Đúng: các con đường mòn đã phục hồi rất tốt và bà sẵn sàng bảo vệ việc giới hạn."
+            },
+            {
+              "text": "She wants the parks opened to everyone again.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại: 'I'm not asking for the gates to be thrown open'."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "speaker_attitude",
+          "evidence": "The trails have recovered remarkably well, and I'll take a quiet lakeshore over a crowded one any day.",
+          "explanationVi": "'I'm not against limiting numbers', 'The trails have recovered remarkably well' và 'I'd defend them to anyone' đều thể hiện thái độ ủng hộ. Đáp án C diễn đạt lại thành 'clearly benefited the parks'.",
+          "vocabulary": [
+            "I'll take A over B any day"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "Why does Mei-Lin describe the trails before the pass system began?",
+          "options": [
+            {
+              "text": "To explain why she supports the idea of controlling visitor numbers",
+              "trap": "none",
+              "whyVi": "Đúng: mô tả cảnh xe đậu dài, đồng cỏ bị giẫm nát dẫn tới câu 'Nobody who saw that wants to go back to it'."
+            },
+            {
+              "text": "To show that her club caused much of the damage",
+              "trap": "not_mentioned",
+              "whyVi": "Bà không nói câu lạc bộ của mình gây ra thiệt hại."
+            },
+            {
+              "text": "To complain that the province built too few outhouses",
+              "trap": "word_match",
+              "whyVi": "Bà có nhắc nhà vệ sinh ngoài trời 'not coping', nhưng đó là một chi tiết minh họa, không phải mục đích."
+            },
+            {
+              "text": "To argue that parking along the highway should be allowed",
+              "trap": "opposite",
+              "whyVi": "Việc đậu xe dọc đường cao tốc là một phần của tình trạng hỗn loạn mà bà không muốn quay lại."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "similar_choices",
+          "evidence": "Nobody who saw that wants to go back to it.",
+          "explanationVi": "Đoạn mở đầu dựng lại khung cảnh quá tải để chuẩn bị cho ý 'So let me be clear: I'm not against limiting numbers.' Từ 'So' nối hai ý: vì từng thấy cảnh đó nên bà ủng hộ việc giới hạn.",
+          "vocabulary": [
+            "trample",
+            "cope"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What is Mei-Lin's main criticism of the current booking system?",
+          "options": [
+            {
+              "text": "The passes cost more than most families can afford.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói gì về giá vé."
+            },
+            {
+              "text": "The website often crashes when the passes are released.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'refresh the page', nhưng không nói trang web bị sập."
+            },
+            {
+              "text": "Nurses and parents are banned from booking passes.",
+              "trap": "too_broad",
+              "whyVi": "Họ không bị cấm; họ chỉ khó đặt được vé vì không rảnh lúc 7 giờ sáng."
+            },
+            {
+              "text": "It favours people who happen to be free at a particular time.",
+              "trap": "none",
+              "whyVi": "Đúng: hệ thống có lợi cho những người có buổi sáng linh hoạt."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "In practice, the system rewards people with flexible mornings, and those people were never the ones having trouble getting outdoors.",
+          "explanationVi": "'rewards people with flexible mornings' được diễn đạt lại thành 'favours people who happen to be free at a particular time' (7 giờ sáng). Bà còn ngụ ý rằng hệ thống giúp nhầm người: những người vốn đã dễ dàng đi chơi ngoài trời.",
+          "vocabulary": [
+            "out of luck"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What concerns Mei-Lin about newcomers to Canada who are turned away at the trailhead?",
+          "options": [
+            {
+              "text": "They may be fined by park rangers.",
+              "trap": "word_match",
+              "whyVi": "Có từ 'ranger', nhưng bài chỉ nói họ bị từ chối cho vào, không bị phạt."
+            },
+            {
+              "text": "They may decide that outdoor recreation is not meant for them.",
+              "trap": "none",
+              "whyVi": "Đúng: họ kết luận rằng vùng hoang dã 'isn't for people like them'."
+            },
+            {
+              "text": "They may stop attending the club's beginner hikes.",
+              "trap": "partially_true",
+              "whyVi": "Bài có nhắc các chuyến đi cho người mới của câu lạc bộ, nhưng bà lo về ấn tượng của họ với thiên nhiên nói chung, không nói họ bỏ câu lạc bộ."
+            },
+            {
+              "text": "They may get lost on the long drive to the park.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài chỉ nói họ lái xe hai tiếng, không nói bị lạc."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "They drive two hours, get turned away at the trailhead by a ranger, and conclude that the backcountry simply isn't for people like them.",
+          "explanationVi": "'conclude that the backcountry simply isn't for people like them' được diễn đạt lại thành 'decide that outdoor recreation is not meant for them'. Bà gọi đây là 'a terrible first impression'.",
+          "vocabulary": [
+            "trailhead",
+            "backcountry"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "What is Mei-Lin's attitude toward the claim that alternatives such as a lottery would be too complicated?",
+          "options": [
+            {
+              "text": "She politely suggests that little real effort has gone into finding one.",
+              "trap": "none",
+              "whyVi": "Đúng: 'I'd gently suggest that nobody has looked very hard' — một lời chỉ trích được nói nhẹ nhàng."
+            },
+            {
+              "text": "She agrees that a lottery would be too difficult to run.",
+              "trap": "opposite",
+              "whyVi": "Bà không đồng ý; bà còn đưa ví dụ các khu cắm trại đã làm được."
+            },
+            {
+              "text": "She accuses park staff of lying to the public.",
+              "trap": "too_broad",
+              "whyVi": "Quá mạnh: bà chỉ nói chưa ai tìm hiểu kỹ, không cáo buộc ai nói dối."
+            },
+            {
+              "text": "She thinks the decision should be left to campground operators.",
+              "trap": "word_match",
+              "whyVi": "Bài có nhắc 'campgrounds' như một ví dụ, không phải đề xuất giao quyền cho họ."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "I'd gently suggest that nobody has looked very hard.",
+          "explanationVi": "Câu 'I'd gently suggest...' là cách phê phán lịch sự, giảm nhẹ. Ý thật: chưa ai thực sự cố gắng tìm giải pháp thay thế. Đáp án C sai vì quá nặng.",
+          "vocabulary": []
+        },
+        {
+          "number": 6,
+          "prompt": "Which change to the system does Mei-Lin propose?",
+          "options": [
+            {
+              "text": "Releasing all passes later in the morning",
+              "trap": "not_mentioned",
+              "whyVi": "Bà không đề nghị đổi giờ phát vé."
+            },
+            {
+              "text": "Raising the daily limit by about a quarter",
+              "trap": "word_match",
+              "whyVi": "'a quarter' là tỉ lệ vé dành cho khách đến trong ngày, không phải tăng giới hạn."
+            },
+            {
+              "text": "Charging a fee to pay for a shuttle bus",
+              "trap": "partially_true",
+              "whyVi": "Bà có đề xuất xe đưa đón, nhưng không nói thu phí để trả cho nó."
+            },
+            {
+              "text": "Keeping some passes for people who arrive without booking",
+              "trap": "none",
+              "whyVi": "Đúng: dành ít nhất một phần tư số vé cho người đến trong ngày."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "paraphrase",
+          "evidence": "Setting aside even a quarter of the trail passes for same-day visitors would go a long way",
+          "explanationVi": "'setting aside... for same-day visitors' = giữ lại cho người đến trong ngày, được diễn đạt lại thành 'keeping some passes for people who arrive without booking'. 'would go a long way' = sẽ giúp ích rất nhiều.",
+          "vocabulary": [
+            "set aside",
+            "go a long way"
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "trample",
+      "vi": "giẫm đạp",
+      "definition": "to damage something by walking heavily on it",
+      "example": "People were trampling the meadows."
+    },
+    {
+      "term": "cope",
+      "vi": "đối phó, chịu đựng nổi",
+      "definition": "to deal successfully with a difficult situation",
+      "example": "The outhouses were not coping with the crowds."
+    },
+    {
+      "term": "I'll take A over B any day",
+      "vi": "tôi luôn chọn A hơn B",
+      "definition": "used to say you strongly prefer one thing to another",
+      "example": "I'll take a quiet lakeshore over a crowded one any day."
+    },
+    {
+      "term": "out of luck",
+      "vi": "hết cơ hội, không gặp may",
+      "definition": "unable to get what you want",
+      "example": "If you work night shifts, you're out of luck."
+    },
+    {
+      "term": "trailhead",
+      "vi": "điểm bắt đầu đường mòn",
+      "definition": "the place where a hiking trail begins",
+      "example": "A ranger turned them away at the trailhead."
+    },
+    {
+      "term": "backcountry",
+      "vi": "vùng hoang dã, xa khu dân cư",
+      "definition": "remote natural areas away from roads and towns",
+      "example": "They felt the backcountry wasn't for them."
+    },
+    {
+      "term": "set aside",
+      "vi": "dành riêng, để dành",
+      "definition": "to keep something for a particular purpose",
+      "example": "Set aside a quarter of the passes for same-day visitors."
+    },
+    {
+      "term": "go a long way",
+      "vi": "giúp ích rất nhiều",
+      "definition": "to be very helpful in achieving something",
+      "example": "A shuttle bus would go a long way."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 items independently; keys match. BC Parks day-use pass release at 7 a.m. the day before is accurate; softened 'gone in under five minutes' to 'within minutes' and removed the invented claim that the park service rejected a lottery as too complicated (now 'I keep hearing...'; Q5 prompt, option A, evidence and explanation updated, key unchanged). Added 'Hi, I'm Mei-Lin Chow' since the solo talk never spoke the name used in the questions."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "w2-mock-05",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "recreation",
+  "title": "Busy trailhead: bigger parking lot or day-use passes",
+  "situation": "Eagle Bluff Regional Park near Squamish has become so popular that its trailhead parking lot is full by 8 a.m. on summer weekends, and many visitors park illegally along the highway. The regional district is considering two solutions and has posted this survey online.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Expand the parking lot by 150 spaces, which would require clearing part of a forested area next to the trailhead. Parking would cost $5 per day.",
+  "optionB": "Option B: Introduce free but mandatory day-use passes on weekends and holidays, released online 48 hours in advance in limited numbers. A $4 return shuttle from downtown Squamish would also run, and shuttle passengers would not need a pass.",
+  "structure": [
+    "Opening: state your choice + reframe the problem (too many visitors, not too few spaces)",
+    "Reason 1: why more parking is only a temporary fix + environmental cost",
+    "Reason 2: what the pass system and shuttle achieve",
+    "Concession: the inconvenience of booking ahead, then why it is acceptable",
+    "Conclusion"
+  ],
+  "modelResponse": "I would support introducing free day-use passes, because the real problem at Eagle Bluff is not a lack of parking but too many visitors arriving at the same time.\n\nExpanding the parking lot would probably offer only temporary relief. Experience at other popular parks shows that when more spaces are added, more people come, and within a few seasons the lot would likely be full by 8 a.m. again. Meanwhile, the trails themselves would become even more crowded and eroded. Clearing part of the forest for parking also seems to defeat the purpose of a park that people visit to enjoy nature.\n\nA pass system, by contrast, would control the number of hikers and keep the trails pleasant and safe. The shuttle from downtown is a sensible addition too, since it would give visitors without a car, or without a pass, another way to get there.\n\nAdmittedly, booking 48 hours in advance would make spontaneous trips harder, and some visitors may find the online system inconvenient. Even so, the passes would be free, and weekday visits would remain unrestricted.\n\nAll in all, day-use passes are the more sustainable way to protect both the park and the visitor experience.",
+  "usefulExpressions": [
+    {
+      "expression": "the real problem is not X but Y",
+      "usageVi": "Định nghĩa lại vấn đề — cách mở bài thông minh, gây ấn tượng với giám khảo."
+    },
+    {
+      "expression": "offer only temporary relief",
+      "usageVi": "Chỉ giải quyết tạm thời — cụm từ lập luận hữu ích."
+    },
+    {
+      "expression": "defeat the purpose of…",
+      "usageVi": "Đi ngược lại mục đích của… — thành ngữ quan trọng ở mức 8+."
+    },
+    {
+      "expression": "a sensible addition",
+      "usageVi": "Một bổ sung hợp lý — dùng khi nhắc đến chi tiết phụ của phương án."
+    },
+    {
+      "expression": "make spontaneous trips harder",
+      "usageVi": "Khiến các chuyến đi ngẫu hứng khó hơn — thừa nhận nhược điểm chính xác."
+    },
+    {
+      "expression": "All in all, …",
+      "usageVi": "Nhìn chung — mở đầu kết luận tự nhiên."
+    }
+  ],
+  "commonMistakes": [
+    "Nhầm 'parking' (không đếm được) với 'parking spaces/spots': 'add 150 parkings' → 'add 150 parking spaces'.",
+    "Viết 'hiking trail are crowded' thiếu hòa hợp chủ–vị → 'hiking trails are crowded'.",
+    "Bỏ qua chi tiết xe đưa đón (shuttle) và miễn vé cho người đi xe đưa đón — đây là chi tiết giúp bạn bảo vệ phương án B.",
+    "Lặp lại cụm 'I think' ở mọi đoạn. Đa dạng hóa: 'I would support', 'seems to', 'Even so', 'All in all'."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked balance (forest clearing + $5 parking vs free timed passes + $4 shuttle), model answer reframes the problem, uses the shuttle/no-pass detail and weekday-unrestricted inference correctly, claims about induced demand are hedged, word count 198. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

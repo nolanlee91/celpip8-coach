@@ -1,0 +1,206 @@
+{
+  "id": "r1-full-04",
+  "kind": "reading",
+  "taskType": "R1",
+  "setType": "full",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "A cancelled ferry sailing and a reservation that didn't help",
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 11 items from the text before checking keys; all keys match and each blank has one defensible option. Checked evidence, trap labels, Vietnamese, word counts (letter 271, reply 149) and that the ferry company, terminals and Reservation Guarantee are fictional (Strait Coast Ferries, not BC Ferries). No changes needed." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Email from a ferry passenger",
+      "kind": "text",
+      "text": "Dear Customer Care Team,\n\nI'm writing about my reservation on the 3:10 p.m. sailing from Cormorant Landing to Port Ellis on Friday, August 14 (booking reference SCF-48817). I'd paid the $22.50 reservation fee specifically so I wouldn't have to sit in a lineup on a long-weekend Friday, and I arrived at the terminal forty minutes early, as your website recommends.\n\nAt about 2:45, an announcement said the sailing had been cancelled because of a mechanical problem with the vessel. Staff told us that reserved vehicles would be \"given priority\" on the next sailing, but nobody could say what that meant in practice. In the end, the 5:30 sailing filled up with standby traffic that had been waiting since the morning, and I wasn't loaded until the 8:15. By the time I reached Port Ellis, I'd missed my father's eightieth birthday dinner, which the whole family had been planning since spring.\n\nI understand that mechanical problems happen, and I'm not blaming the crew, who were clearly doing their best under pressure. What frustrates me is that the reservation I'd paid for made no difference at all. I'd like the reservation fee refunded. I'd also like to know whether you'll cover the $64 I spent on a meal for myself and my two children at the terminal, since we'd expected to eat at the dinner.\n\nFinally, I noticed that your app kept showing the 3:10 sailing as \"on time\" until 2:50, five minutes after the announcement. If I'd known earlier, I could have taken the longer route through Halden Point and still arrived in time. Perhaps that's worth looking into.\n\nSincerely,\nMarisol Fuentes",
+      "table": null
+    },
+    {
+      "label": "Reply from the ferry company",
+      "kind": "text",
+      "text": "Dear Ms. Fuentes,\n\nThank you for taking the time to write, and I'm sorry your long-weekend plans were [[7]]. Missing a parent's eightieth birthday is not something a refund can make up for.\n\nYou're right that your reservation should have counted for something. Under our Reservation Guarantee, customers whose booked sailing is cancelled are [[8]], so I've refunded your $22.50 to the card you used. Because the cancellation was caused by a mechanical issue rather than the weather, we are also able to [[9]]; please send copies of your receipts to the address below.\n\nI've shared your comments about the app with our digital team. It appears the sailing status [[10]], and they are working on a fix.\n\nAs a small apology, I've added a $25 travel credit to your account, which you can [[11]] within the next twelve months.\n\nKind regards,\nDevinder Brar\nCustomer Care, Strait Coast Ferries",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What is the main reason Marisol is writing?",
+      "options": [
+        { "text": "To complain that the ferry crew handled the cancellation badly", "trap": "opposite", "whyVi": "Marisol nói rõ 'I'm not blaming the crew' — cô ấy không trách nhân viên." },
+        { "text": "To ask the company to pay for her father's birthday dinner", "trap": "word_match", "whyVi": "Bài có nhắc 'birthday dinner', nhưng cô ấy chỉ hỏi về bữa ăn $64 ở bến phà, không đòi trả tiền tiệc sinh nhật." },
+        { "text": "To point out that a service she paid extra for was useless when it mattered", "trap": "none", "whyVi": "Đúng: ý chính là 'the reservation I'd paid for made no difference at all', nên cô đòi hoàn phí đặt chỗ." },
+        { "text": "To book a reserved spot on a sailing for the next long weekend", "trap": "not_mentioned", "whyVi": "Thư không hề nói đến việc đặt chỗ cho chuyến đi sau." }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "What frustrates me is that the reservation I'd paid for made no difference at all.",
+      "explanationVi": "Cấu trúc 'What frustrates me is that...' cho biết điều cốt lõi người viết bức xúc. 'the reservation I'd paid for' = 'a service she paid extra for', 'made no difference at all' = 'was useless'. Các yêu cầu hoàn tiền phía sau đều xuất phát từ ý chính này.",
+      "vocabulary": ["make no difference"]
+    },
+    {
+      "number": 2,
+      "prompt": "Why had Marisol made a reservation?",
+      "options": [
+        { "text": "She wanted to avoid a long wait on a busy travel day.", "trap": "none", "whyVi": "Đúng: 'so I wouldn't have to sit in a lineup on a long-weekend Friday' — tránh xếp hàng chờ vào ngày đông khách." },
+        { "text": "The website said reservations were required on long weekends.", "trap": "wrong_detail", "whyVi": "Website chỉ khuyên đến sớm 40 phút, không nói bắt buộc phải đặt chỗ." },
+        { "text": "Reserved vehicles were always loaded before standby traffic.", "trap": "word_match", "whyVi": "Bài có 'standby traffic' và 'priority', nhưng đó là lời nhân viên nói sau khi chuyến bị hủy, và thực tế không đúng." },
+        { "text": "She needed a cheaper fare for herself and her children.", "trap": "not_mentioned", "whyVi": "Phí đặt chỗ là tiền trả thêm, không phải để có giá vé rẻ hơn." }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "I'd paid the $22.50 reservation fee specifically so I wouldn't have to sit in a lineup on a long-weekend Friday",
+      "explanationVi": "Tìm mệnh đề mục đích 'so I wouldn't have to...'. 'sit in a lineup' (ngồi xếp hàng) = 'a long wait'; 'a long-weekend Friday' = 'a busy travel day'.",
+      "vocabulary": ["lineup"]
+    },
+    {
+      "number": 3,
+      "prompt": "What does Marisol suggest about the promise that reserved vehicles would be \"given priority\"?",
+      "options": [
+        { "text": "It meant reserved drivers could board a different vessel.", "trap": "not_mentioned", "whyVi": "Không có chi tiết nào về việc lên một con tàu khác." },
+        { "text": "Staff refused to explain it because of company policy.", "trap": "wrong_detail", "whyVi": "Nhân viên không từ chối giải thích; họ chỉ không biết nó nghĩa là gì ('nobody could say')." },
+        { "text": "It was kept, since she was loaded on the next sailing.", "trap": "opposite", "whyVi": "Chuyến kế tiếp là 5:30 nhưng cô chỉ lên được chuyến 8:15, nên lời hứa không được giữ." },
+        { "text": "It was vague and turned out to mean very little.", "trap": "none", "whyVi": "Đúng: không ai giải thích được nó nghĩa là gì, và cuối cùng xe chờ standby vẫn lên trước cô." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "nobody could say what that meant in practice",
+      "explanationVi": "Đây là câu suy luận. 'nobody could say what that meant in practice' → lời hứa mơ hồ (vague). Sau đó chuyến 5:30 đầy xe standby và cô phải chờ đến 8:15 → lời hứa gần như vô nghĩa. Dấu ngoặc kép quanh \"given priority\" cũng thể hiện thái độ hoài nghi.",
+      "vocabulary": ["in practice", "standby"]
+    },
+    {
+      "number": 4,
+      "prompt": "How does Marisol feel about the ferry staff?",
+      "options": [
+        { "text": "She thinks they should have warned passengers sooner.", "trap": "wrong_detail", "whyVi": "Cô phàn nàn việc thông báo chậm, nhưng lỗi đó là của ứng dụng (app), không phải của nhân viên." },
+        { "text": "She is sympathetic toward them despite her frustration.", "trap": "none", "whyVi": "Đúng: 'I'm not blaming the crew, who were clearly doing their best under pressure' — cô thông cảm với họ." },
+        { "text": "She believes they let standby drivers on first by mistake.", "trap": "not_mentioned", "whyVi": "Cô không nói nhân viên làm sai; chỉ nói kết quả là xe standby lên trước." },
+        { "text": "She blames them for the mechanical problem.", "trap": "opposite", "whyVi": "Ngược lại: 'I understand that mechanical problems happen, and I'm not blaming the crew'." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "I'm not blaming the crew, who were clearly doing their best under pressure",
+      "explanationVi": "Câu hỏi về thái độ. 'not blaming' + 'doing their best under pressure' (cố hết sức khi bị áp lực) = thông cảm (sympathetic). 'despite her frustration' khớp với câu ngay sau: 'What frustrates me is...'.",
+      "vocabulary": ["under pressure"]
+    },
+    {
+      "number": 5,
+      "prompt": "What extra cost does Marisol ask the company about?",
+      "options": [
+        { "text": "The fuel she used driving through Halden Point", "trap": "wrong_detail", "whyVi": "Cô không đi đường Halden Point; cô chỉ nói lẽ ra có thể đi đường đó nếu biết sớm." },
+        { "text": "A second reservation fee for the 8:15 sailing", "trap": "not_mentioned", "whyVi": "Thư không nhắc đến phí đặt chỗ thứ hai." },
+        { "text": "Food for her family while they were stuck at the terminal", "trap": "none", "whyVi": "Đúng: '$64 I spent on a meal for myself and my two children at the terminal'." },
+        { "text": "The cost of the birthday dinner she missed", "trap": "word_match", "whyVi": "Có từ 'dinner' trong bài, nhưng khoản cô hỏi là bữa ăn tại bến phà, không phải bữa tiệc." }
+      ],
+      "answerIndex": 2,
+      "category": "detail",
+      "evidence": "I'd also like to know whether you'll cover the $64 I spent on a meal for myself and my two children at the terminal",
+      "explanationVi": "Từ khóa 'I'd also like to know whether you'll cover...' (chi trả). 'a meal for myself and my two children' = 'food for her family'; 'at the terminal' = 'while they were stuck at the terminal'.",
+      "vocabulary": ["cover"]
+    },
+    {
+      "number": 6,
+      "prompt": "What can be inferred from Marisol's comments about the app?",
+      "options": [
+        { "text": "The app showed the sailing as cancelled before staff announced it.", "trap": "opposite", "whyVi": "Ngược lại: app vẫn ghi 'on time' cho đến 2:50, năm phút sau thông báo." },
+        { "text": "Timely information could have allowed her to avoid the delay.", "trap": "none", "whyVi": "Đúng: 'If I'd known earlier, I could have taken the longer route ... and still arrived in time'." },
+        { "text": "She would have cancelled her trip if the app had been accurate.", "trap": "not_mentioned", "whyVi": "Cô nói sẽ đi đường khác, không phải hủy chuyến." },
+        { "text": "The app stopped working during the long weekend.", "trap": "not_mentioned", "whyVi": "App vẫn hoạt động, chỉ cập nhật chậm; bài không nói nó bị sập." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "If I'd known earlier, I could have taken the longer route through Halden Point and still arrived in time.",
+      "explanationVi": "Câu điều kiện loại 3 'If I'd known earlier, I could have...' nói về điều đã không xảy ra: nếu biết sớm, cô đã đi đường khác và kịp giờ. Vậy thông tin kịp thời (timely information) đã có thể giúp cô tránh bị trễ.",
+      "vocabulary": []
+    },
+    {
+      "number": 7,
+      "prompt": "Choose the best option for blank 7.",
+      "options": [
+        { "text": "turned upside down", "trap": "none", "whyVi": "Đúng: thành ngữ 'turned upside down' = bị đảo lộn, phù hợp với việc cô đến trễ và lỡ tiệc sinh nhật." },
+        { "text": "cancelled altogether", "trap": "wrong_detail", "whyVi": "Chuyến đi không bị hủy hẳn; cô vẫn đến Port Ellis, chỉ là trễ." },
+        { "text": "moved to an earlier day", "trap": "not_mentioned", "whyVi": "Không có chuyện dời kế hoạch sang ngày sớm hơn." },
+        { "text": "made easier by the delay", "trap": "opposite", "whyVi": "Việc trễ chuyến khiến kế hoạch tệ hơn chứ không dễ hơn." }
+      ],
+      "answerIndex": 0,
+      "category": "vocabulary",
+      "evidence": "By the time I reached Port Ellis, I'd missed my father's eightieth birthday dinner",
+      "explanationVi": "Câu xin lỗi cần một từ diễn tả kế hoạch bị phá hỏng. Cô vẫn đến nơi nhưng lỡ bữa tiệc → kế hoạch 'bị đảo lộn' (turned upside down), không phải 'bị hủy hoàn toàn'.",
+      "vocabulary": []
+    },
+    {
+      "number": 8,
+      "prompt": "Choose the best option for blank 8.",
+      "options": [
+        { "text": "charged a small rebooking fee", "trap": "opposite", "whyVi": "Câu sau nói 'so I've refunded your $22.50' — công ty trả lại tiền, không thu thêm." },
+        { "text": "offered a free hotel room nearby", "trap": "not_mentioned", "whyVi": "Không ai nhắc đến khách sạn." },
+        { "text": "loaded ahead of all standby traffic", "trap": "word_match", "whyVi": "Dùng lại 'standby traffic' từ thư, nhưng không giải thích được vì sao 'so I've refunded'." },
+        { "text": "entitled to get the reservation fee back", "trap": "none", "whyVi": "Đúng: 'entitled to' (có quyền được) hoàn phí, nên 'so I've refunded your $22.50'." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "I'd like the reservation fee refunded.",
+      "explanationVi": "Chú ý liên từ 'so' sau chỗ trống: vì chính sách cho phép X, nên tôi đã hoàn $22.50. Vậy X phải là quyền được hoàn phí đặt chỗ — đáp ứng đúng yêu cầu 'I'd like the reservation fee refunded'.",
+      "vocabulary": ["be entitled to"]
+    },
+    {
+      "number": 9,
+      "prompt": "Choose the best option for blank 9.",
+      "options": [
+        { "text": "pay for your father's birthday dinner", "trap": "word_match", "whyVi": "Bữa tiệc được nhắc đến, nhưng Marisol không đòi và công ty không thể chi trả bữa tiệc của gia đình." },
+        { "text": "reimburse reasonable meal expenses", "trap": "none", "whyVi": "Đúng: trả lời câu hỏi về $64 tiền ăn, và yêu cầu gửi hóa đơn ('receipts')." },
+        { "text": "refund the full fare for all three of you", "trap": "too_broad", "whyVi": "Marisol chỉ hỏi phí đặt chỗ và tiền ăn; hoàn toàn bộ vé là quá rộng so với yêu cầu." },
+        { "text": "cover the cost of driving through Halden Point", "trap": "wrong_detail", "whyVi": "Cô không đi đường Halden Point nên không có chi phí này." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "whether you'll cover the $64 I spent on a meal",
+      "explanationVi": "Thư trả lời đáp lại từng yêu cầu theo thứ tự: phí đặt chỗ (blank 8), rồi tiền ăn $64. Gợi ý 'please send copies of your receipts' cho thấy công ty sẽ hoàn lại một khoản chi đã có hóa đơn → 'reimburse meal expenses' (= 'cover the $64 I spent on a meal').",
+      "vocabulary": ["reimburse"]
+    },
+    {
+      "number": 10,
+      "prompt": "Choose the best option for blank 10.",
+      "options": [
+        { "text": "was changed before the announcement was made", "trap": "opposite", "whyVi": "Ngược lại: app đổi trạng thái sau thông báo (2:50 so với 2:45)." },
+        { "text": "showed the 8:15 sailing as fully booked", "trap": "wrong_detail", "whyVi": "Vấn đề Marisol nêu là chuyến 3:10 vẫn ghi 'on time', không liên quan chuyến 8:15." },
+        { "text": "did not update as soon as the sailing was cancelled", "trap": "none", "whyVi": "Đúng: diễn đạt lại việc app vẫn ghi 'on time' đến 2:50, sau khi đã hủy lúc 2:45." },
+        { "text": "was correct, but your phone was offline", "trap": "not_mentioned", "whyVi": "Không có thông tin nào nói điện thoại của cô mất kết nối; và câu sau nói đội kỹ thuật đang sửa lỗi." }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "your app kept showing the 3:10 sailing as \"on time\" until 2:50, five minutes after the announcement",
+      "explanationVi": "'they are working on a fix' cho thấy app thật sự có lỗi. Lỗi đó là trạng thái vẫn 'on time' đến 2:50, tức là không cập nhật ngay khi chuyến bị hủy (2:45).",
+      "vocabulary": []
+    },
+    {
+      "number": 11,
+      "prompt": "Choose the best option for blank 11.",
+      "options": [
+        { "text": "put toward any future booking", "trap": "none", "whyVi": "Đúng: 'travel credit' trong 12 tháng → dùng cho lần đặt vé sau." },
+        { "text": "exchange for cash at the terminal", "trap": "not_mentioned", "whyVi": "'travel credit' là tín dụng đi lại, không có chi tiết đổi ra tiền mặt." },
+        { "text": "spend on meals at the terminal", "trap": "word_match", "whyVi": "Dùng lại 'meal' và 'terminal' trong thư, nhưng tiền ăn đã được giải quyết riêng; đây là 'travel credit'." },
+        { "text": "use only on the 3:10 sailing", "trap": "wrong_detail", "whyVi": "Không có giới hạn chuyến 3:10; câu nói 'within the next twelve months'." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "I've added a $25 travel credit to your account",
+      "explanationVi": "'travel credit' (tín dụng đi lại) + 'within the next twelve months' → khoản này dùng để trả cho chuyến đi sau. 'put toward' = dùng để trả một phần cho.",
+      "vocabulary": ["travel credit"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "lineup", "vi": "hàng người/xe xếp hàng chờ", "definition": "a line of people or vehicles waiting for something (Canadian English)", "example": "The lineup at the ferry terminal was two hours long." },
+    { "term": "standby", "vi": "chờ chỗ trống (không đặt trước)", "definition": "waiting to travel if space becomes available, without a reservation", "example": "Standby traffic is loaded only if there is room left." },
+    { "term": "in practice", "vi": "trên thực tế", "definition": "what really happens, as opposed to what is promised or planned", "example": "The rule sounds fair, but in practice it rarely helps anyone." },
+    { "term": "under pressure", "vi": "dưới áp lực", "definition": "in a stressful situation where you must work quickly", "example": "The crew stayed calm under pressure." },
+    { "term": "make no difference", "vi": "chẳng thay đổi được gì", "definition": "to have no effect on a situation", "example": "Arriving early made no difference because the sailing was cancelled." },
+    { "term": "be entitled to", "vi": "có quyền được (hưởng)", "definition": "to have the right to have or do something", "example": "Passengers are entitled to a refund if their sailing is cancelled." },
+    { "term": "reimburse", "vi": "hoàn trả (chi phí đã bỏ ra)", "definition": "to pay back money that someone has spent", "example": "The company will reimburse your meal if you send the receipt." },
+    { "term": "travel credit", "vi": "tín dụng đi lại (dùng cho chuyến sau)", "definition": "an amount saved on your account that you can use to pay for a future trip", "example": "I used my travel credit to book a sailing in October." },
+    { "term": "cover", "vi": "chi trả (một khoản tiền)", "definition": "to pay for something", "example": "Will the insurance cover the cost of the repair?" }
+  ]
+}

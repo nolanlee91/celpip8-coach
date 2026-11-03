@@ -1,0 +1,54 @@
+{
+  "id": "s6-practice-03",
+  "kind": "speaking",
+  "taskType": "S6",
+  "setType": "practice",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "A schedule change that ends your carpool",
+  "prompt": "For the past year, you have driven your co-worker Priya to work every morning, and she gives you $60 a month for gas. She does not have a car, and the bus from her neighbourhood takes more than an hour. Your manager has just moved your shift from 8:30 a.m. to 6:30 a.m., starting in two weeks. Priya's shift will still start at 8:30.\n\nChoose ONE of the following options:\n\nOption A: Talk to Priya. Explain the change and help her find another way to get to work.\n\nOption B: Talk to your manager. Explain the situation and ask whether your schedule could be adjusted.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Friendly opener + signal that the news is not good",
+    "Explain the change clearly and show you understand how it affects her",
+    "Offer 2–3 concrete alternatives (people, days, routes)",
+    "Suggest a next step + apologise briefly"
+  ],
+  "modelAnswer": "Hey Priya, have you got a second before we head in? I've got some news, and I'm afraid it's not great. Linda has moved my shift to six-thirty starting the week after next, so I won't be able to drive you in for eight-thirty anymore. I feel really bad about it, because I know how long the bus takes from your place.\n\nBut I don't want to leave you stuck, so I've been thinking about a few options. First, Marco lives about ten minutes from you, and he starts at eight-thirty too. I could ask him if he'd be open to carpooling, and you could offer him the gas money instead. Second, I'm off on Thursdays, so I could still pick you up on those days. And finally, I checked, and there's an express bus on Kingsway that might cut your trip down to about forty minutes.\n\nWhy don't we sit down at lunch and figure out which one works best? I'm really sorry about the timing.",
+  "usefulExpressions": [
+    {
+      "expression": "I've got some news, and I'm afraid it's not great.",
+      "usageVi": "Báo trước tin xấu một cách nhẹ nhàng để người nghe chuẩn bị tâm lý."
+    },
+    {
+      "expression": "I don't want to leave you stuck, so…",
+      "usageVi": "'leave someone stuck' = bỏ mặc ai trong tình huống khó; câu chuyển sang giải pháp."
+    },
+    {
+      "expression": "if he'd be open to…",
+      "usageVi": "'be open to' = sẵn lòng cân nhắc; hỏi xem người khác có đồng ý không một cách mềm mỏng."
+    },
+    {
+      "expression": "cut your trip down to…",
+      "usageVi": "Phrasal verb 'cut down' = rút ngắn/giảm bớt; nghe tự nhiên hơn 'make shorter'."
+    },
+    {
+      "expression": "Why don't we sit down and figure out…?",
+      "usageVi": "Đề nghị cùng nhau giải quyết, kết thúc có bước tiếp theo rõ ràng."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ báo tin rồi xin lỗi mà không đưa phương án. Đề bài yêu cầu 'help her find another way' — cần ít nhất 2 giải pháp cụ thể.",
+    "Sai giới từ thời gian: 'drive you in at 8:30' nghĩa là 8:30 mới bắt đầu chở đi; muốn nói kịp giờ vào ca 8:30 thì dùng 'drive you in for 8:30'; 'starting from next two weeks' → 'starting in two weeks'.",
+    "Nói như đọc thông báo ('Your ride is cancelled.'). Hãy thể hiện cảm xúc: 'I feel really bad about it'."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Checked Option A/B shape, direct address to Priya, three concrete alternatives, length (~167 words). Fixed a wrong explanation in commonMistakes ('at 8:30' means the pickup time, not the arrival time) and aligned a useful expression with the model answer ('if he'd be open to…')."
+  },
+  "createdAt": "2026-11-03"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "s2-practice-05",
+  "kind": "speaking",
+  "taskType": "S2",
+  "setType": "practice",
+  "difficulty": 8,
+  "topic": "housing",
+  "title": "A disagreement with a neighbour",
+  "prompt": "Talk about a time when you had a problem with a neighbour or a landlord. What was the problem, what steps did you take to solve it, and what would you do differently next time?",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Where you lived + the problem (be specific)",
+    "First attempt to solve it and why it did not work",
+    "The step that finally worked",
+    "What you would do differently next time (use \"I would…\" / \"I wouldn't have…\")"
+  ],
+  "modelAnswer": "When I first moved into a basement suite in Burnaby, the family upstairs had a teenage son who played the drums almost every night until about midnight. Since I start work at six, I was running on four or five hours of sleep and I was exhausted.\n\nAt first, I didn't want to make things awkward, so I just put up with it and bought earplugs. Of course, that didn't really help. After about a month, I lost my patience and left a rather blunt note on their door, which, looking back, was a mistake. They were offended, and for a while they barely said hello.\n\nIn the end, I knocked on their door one weekend and just talked to the parents face to face. I explained my work schedule, and they were actually very understanding. They agreed that he'd finish practising by nine, and they even moved the drum kit to the other side of the house.\n\nNext time, I'd definitely have that conversation right away. A friendly chat is far more effective than a note, and it would have saved me a month of sleepless nights.",
+  "usefulExpressions": [
+    {
+      "expression": "I was running on four or five hours of sleep",
+      "usageVi": "'Running on + ít giờ ngủ' = phải hoạt động khi thiếu ngủ — cách nói rất bản xứ."
+    },
+    {
+      "expression": "I just put up with it",
+      "usageVi": "'Put up with' = chịu đựng — phrasal verb hay dùng khi kể về sự phiền toái."
+    },
+    {
+      "expression": "which, looking back, was a mistake",
+      "usageVi": "Mệnh đề quan hệ bổ sung để tự nhận xét hành động của mình — thể hiện ngữ pháp phức tạp."
+    },
+    {
+      "expression": "face to face",
+      "usageVi": "Trực tiếp gặp mặt — đối lập với việc để lại giấy nhắn."
+    },
+    {
+      "expression": "Next time, I'd… / it would have saved me…",
+      "usageVi": "Câu điều kiện để trả lời ý \"what would you do differently\" — phần nhiều bạn bỏ quên."
+    }
+  ],
+  "commonMistakes": [
+    "Đề có ý thứ ba 'what would you do differently' — cần dùng 'I would…' hoặc 'I would have…', không kể tiếp bằng quá khứ đơn.",
+    "Nói 'my neighbour is very noisy' rồi dừng. Cần chi tiết cụ thể (trống, nửa đêm, đi làm lúc 6 giờ) để câu chuyện thuyết phục.",
+    "Phát âm sai 'neighbour': đọc cả âm /g/ của 'gh' hoặc nuốt mất âm /b/. Chữ 'gh' là âm câm — đọc là /ˈneɪbər/ ('nây-bơr'), với âm /r/ nhẹ ở cuối như giọng Canada."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked the problem, the steps (failed note, then face-to-face talk) and the 'what would you do differently' part with conditionals; length 188 (inside 190). Fixed the pronunciation tip, which wrongly called a final /r/ an error (Canadian English is rhotic); it now targets the silent 'gh' and the /b/."
+  },
+  "createdAt": "2026-11-03"
+}

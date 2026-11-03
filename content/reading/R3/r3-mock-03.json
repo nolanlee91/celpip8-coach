@@ -1,0 +1,424 @@
+{
+  "id": "r3-mock-03",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "housing",
+  "title": "Living Together, Apart: A Co-housing Community in Saanich",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 9 independently; keys match. Q6 E verified (no penalty for missed kitchen duty; 'nobody keeps track' refers to diners). Distinct from other housing sets (co-housing, not laneway). No changes."
+  },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "When the twenty-two households of Garry Oak Commons moved into their new homes in Saanich last spring, most of them had already spent four years meeting in each other's living rooms. Co-housing, a model that began in Denmark in the 1970s, gives each family a private, self-contained unit but places it around shared spaces such as a large kitchen, a workshop and a guest suite. Residents design the project together before construction starts, which is one reason it takes so long. Founding member Priya Raghavan admits that several early members dropped out along the way, worn down by monthly planning meetings that sometimes ran past eleven at night.",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "Money was the biggest hurdle. Because banks were unfamiliar with the model, the group struggled to secure a construction loan until a local credit union, Islandview Savings, agreed to finance the project in 2023. Each household then bought its unit outright, at prices ranging from $485,000 for a one-bedroom flat to $910,000 for a three-bedroom townhouse. Raghavan says these figures are roughly in line with similar homes nearby, so co-housing is not a shortcut to affordability. What buyers get for the money is different: the common house, with its dining room for forty people, is owned jointly, and its upkeep is covered by a monthly strata fee of about $390.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "Daily life revolves around a few shared commitments. Residents cook dinner for the whole community three evenings a week, working in rotating teams, so each adult is on kitchen duty only about once a month. Attendance is optional, and nobody keeps track of who shows up. Decisions are made by consensus rather than majority vote, a process that retired teacher Harold Beaumont calls \"slow, occasionally maddening, but worth it.\" Last winter, for example, it took three meetings to agree on whether dogs should be allowed in the common house. The final compromise allowed them in the workshop and on the patio, but not in the dining room.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Interest in the model is growing. Garry Oak Commons receives several enquiries a week, and its waiting list now has more than sixty names, even though units rarely come up for sale. The community runs an open house on the first Saturday of each month, and Raghavan encourages anyone curious to attend a shared dinner before making any decisions. \"People imagine it's like a commune,\" she says. \"It isn't. You can close your front door whenever you like.\" Two other groups, one in Nanaimo and one in Courtenay, are now at the planning stage and have asked the Saanich residents to share their experience.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Buying a home in this kind of community will not necessarily save you money compared with buying elsewhere.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A giải thích mô hình co-housing và thời gian chuẩn bị, không so sánh giá nhà."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Giá nhà 'roughly in line with similar homes nearby' và 'not a shortcut to affordability'."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về sinh hoạt hằng ngày (nấu ăn, ra quyết định), không nói về giá."
+        },
+        {
+          "text": "D",
+          "trap": "word_match",
+          "whyVi": "Đoạn D có ý về mua bán ('rarely come up for sale') nhưng không nói nhà rẻ hay đắt."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "co-housing is not a shortcut to affordability",
+      "explanationVi": "'Not necessarily save money' = 'not a shortcut to affordability' (không phải lối tắt để có nhà giá phải chăng). Đoạn B còn nói giá 'roughly in line with similar homes nearby' (tương đương nhà gần đó).",
+      "vocabulary": [
+        "in line with"
+      ]
+    },
+    {
+      "number": 2,
+      "prompt": "The lengthy planning process caused some people to abandon the project.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: 'several early members dropped out along the way, worn down by monthly planning meetings'."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói khó khăn về vay tiền, không nói có ai bỏ cuộc."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C có 'three meetings' về chuyện nuôi chó, nhưng không ai rời nhóm vì chuyện đó."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói sự quan tâm ngày càng tăng, không nói ai bỏ cuộc."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "several early members dropped out along the way, worn down by monthly planning meetings",
+      "explanationVi": "'Abandon the project' = 'dropped out'; 'lengthy planning process' = bốn năm họp với 'monthly planning meetings that sometimes ran past eleven at night'. 'Worn down' = mệt mỏi, kiệt sức.",
+      "vocabulary": [
+        "drop out",
+        "worn down"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "Taking part in the shared meals is a matter of personal choice.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'a large kitchen' trong không gian chung, nhưng không nói việc ăn chung có bắt buộc hay không."
+        },
+        {
+          "text": "B",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn B nói phòng ăn chứa 40 người và phí strata, không nói việc tham gia có tự nguyện không."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: 'Attendance is optional, and nobody keeps track of who shows up'."
+        },
+        {
+          "text": "D",
+          "trap": "partially_true",
+          "whyVi": "Đoạn D mời người ngoài đến dự 'a shared dinner', không nói cư dân có bắt buộc ăn chung không."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "paraphrase",
+      "evidence": "Attendance is optional, and nobody keeps track of who shows up.",
+      "explanationVi": "'A matter of personal choice' = 'optional'. Chú ý: nấu ăn theo ca là việc mỗi người phải làm, nhưng đến ăn hay không là tự do."
+    },
+    {
+      "number": 4,
+      "prompt": "People thinking of joining are encouraged to try out community life first.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A nói thành viên sáng lập họp nhiều năm trước khi dọn vào — đó không phải lời khuyên cho người muốn tham gia."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về tài chính."
+        },
+        {
+          "text": "C",
+          "trap": "word_match",
+          "whyVi": "Đoạn C nói cư dân nấu bữa tối cho cả cộng đồng, nhưng không mời người ngoài đến thử."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: Raghavan khuyên người quan tâm 'attend a shared dinner before making any decisions'."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "Raghavan encourages anyone curious to attend a shared dinner before making any decisions",
+      "explanationVi": "'Try out community life first' = 'attend a shared dinner before making any decisions'; 'people thinking of joining' = 'anyone curious'."
+    },
+    {
+      "number": 5,
+      "prompt": "Traditional lenders were reluctant to get involved because they did not understand the housing model.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A nói nguồn gốc mô hình (Đan Mạch), không nhắc ngân hàng."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: 'Because banks were unfamiliar with the model, the group struggled to secure a construction loan'."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C không nói về tiền vay."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn D nói người ta hiểu sai mô hình ('People imagine it's like a commune') — đó là công chúng, không phải ngân hàng."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "Because banks were unfamiliar with the model, the group struggled to secure a construction loan",
+      "explanationVi": "'Traditional lenders' = 'banks'; 'did not understand' = 'unfamiliar with'; 'reluctant' suy ra từ việc nhóm 'struggled to secure a construction loan' cho đến khi một credit union đồng ý.",
+      "vocabulary": [
+        "secure a loan"
+      ]
+    },
+    {
+      "number": 6,
+      "prompt": "Residents who miss their turn on kitchen duty have to pay a penalty.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về ca nấu ăn."
+        },
+        {
+          "text": "B",
+          "trap": "word_match",
+          "whyVi": "Đoạn B có khoản 'monthly strata fee', nhưng đó là phí bảo trì nhà chung, không phải tiền phạt."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói về ca nấu ăn ('kitchen duty') nhưng không nói gì về việc phạt người bỏ ca."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D không nói về nghĩa vụ của cư dân."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: Không đoạn nào nói về tiền phạt khi bỏ ca nấu ăn."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "each adult is on kitchen duty only about once a month",
+      "explanationVi": "Đoạn C gần nhất: 'each adult is on kitchen duty only about once a month' — chỉ nói tần suất, không nói hình phạt. 'Nobody keeps track of who shows up' là nói về người đến ăn, không phải người nấu. Không có thông tin → E."
+    },
+    {
+      "number": 7,
+      "prompt": "Even a fairly minor issue can take a long time to resolve.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có các cuộc họp kéo dài 'past eleven at night', nhưng đó là việc thiết kế cả dự án — không phải vấn đề nhỏ."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về tài chính."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Chỉ chuyện cho chó vào nhà chung mà mất ba cuộc họp mới thống nhất."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về sự quan tâm và danh sách chờ."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "it took three meetings to agree on whether dogs should be allowed in the common house",
+      "explanationVi": "Chuyện có cho chó vào nhà chung hay không là việc nhỏ, nhưng 'it took three meetings to agree'. Ông Beaumont cũng gọi cách ra quyết định đồng thuận là 'slow, occasionally maddening'.",
+      "vocabulary": [
+        "consensus"
+      ]
+    },
+    {
+      "number": 8,
+      "prompt": "A founding member feels that outsiders often misunderstand what this way of life involves.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A giới thiệu Raghavan là thành viên sáng lập, nhưng không nói người ngoài hiểu sai."
+        },
+        {
+          "text": "B",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn B nói ngân hàng không quen mô hình — đó là chuyện vay tiền, không phải ý kiến của Raghavan về cách người ta nhìn lối sống này."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về sinh hoạt bên trong cộng đồng."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: Raghavan nói 'People imagine it's like a commune... It isn't'."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "People imagine it's like a commune",
+      "explanationVi": "'Outsiders misunderstand' = 'People imagine it's like a commune' + 'It isn't'. Người nói là Raghavan — thành viên sáng lập (theo Đoạn A)."
+    },
+    {
+      "number": 9,
+      "prompt": "The future residents shaped the design of the homes themselves.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: 'Residents design the project together before construction starts'."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói mỗi hộ tự mua căn của mình và giá bao nhiêu, không nói ai thiết kế."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói cách ra quyết định trong sinh hoạt sau khi đã dọn vào."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn D nói hai nhóm khác ở Nanaimo và Courtenay đang lập kế hoạch — không phải cư dân Saanich thiết kế nhà."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "paraphrase",
+      "evidence": "Residents design the project together before construction starts",
+      "explanationVi": "'Shaped the design themselves' = 'Residents design the project together before construction starts'. Đây cũng là lý do dự án mất nhiều thời gian."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "self-contained",
+      "vi": "khép kín, có đủ tiện nghi riêng",
+      "definition": "having its own kitchen, bathroom and entrance",
+      "example": "Each family has a private, self-contained unit."
+    },
+    {
+      "term": "drop out",
+      "vi": "bỏ cuộc, rút lui",
+      "definition": "to stop taking part in something before it is finished",
+      "example": "Long meetings led some members to drop out along the way."
+    },
+    {
+      "term": "worn down",
+      "vi": "mệt mỏi, kiệt sức (vì kéo dài)",
+      "definition": "tired and less determined after a long effort",
+      "example": "They were worn down by monthly planning meetings."
+    },
+    {
+      "term": "secure a loan",
+      "vi": "xin được khoản vay",
+      "definition": "to succeed in getting money lent to you",
+      "example": "The group struggled to secure a loan for construction."
+    },
+    {
+      "term": "in line with",
+      "vi": "tương đương, phù hợp với",
+      "definition": "similar to or at the same level as",
+      "example": "Prices are roughly in line with similar homes nearby."
+    },
+    {
+      "term": "strata fee",
+      "vi": "phí quản lý chung cư/nhà liên kế (BC)",
+      "definition": "a regular payment owners make for shared building costs",
+      "example": "Upkeep is covered by a monthly strata fee of about $390."
+    },
+    {
+      "term": "consensus",
+      "vi": "sự đồng thuận",
+      "definition": "agreement among everyone in a group",
+      "example": "Decisions are made by consensus rather than majority vote."
+    },
+    {
+      "term": "come up for sale",
+      "vi": "được rao bán",
+      "definition": "to become available to buy",
+      "example": "Units rarely come up for sale."
+    }
+  ]
+}

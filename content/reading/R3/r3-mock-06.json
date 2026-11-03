@@ -1,0 +1,436 @@
+{
+  "id": "r3-mock-06",
+  "kind": "reading",
+  "taskType": "R3",
+  "setType": "mock",
+  "difficulty": 9,
+  "topic": "community-services",
+  "title": "Getting Ready for the Big One, Block by Block",
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 9 independently; keys match; Q4 and Q8 E verified. Replaced the unsourced statistic 'fewer than one in three households has an emergency kit' with a hedged 'many households have still not assembled an emergency kit' (Q4 evidence and whyVi updated). No safety advice is presented as official guidance; the neighbour-rescue research is hedged ('suggesting')."
+  },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Paragraph A",
+      "kind": "text",
+      "text": "Ask most Vancouverites whether they are prepared for a major earthquake and you will likely get a sheepish grin. Surveys suggest that many households in the Lower Mainland have still not assembled an emergency kit, despite years of public-awareness campaigns. Organizers of the Kitsilano Neighbourhood Ready project think they know why. Generic advice to \"be prepared\", they argue, is easy to nod along to and just as easy to put off. So rather than handing out brochures, their volunteers knock on doors with a far more pointed question: if the bridges were closed and the power were out for a week, who on this block would you check on first?",
+      "table": null
+    },
+    {
+      "label": "Paragraph B",
+      "kind": "text",
+      "text": "The answers often catch residents off guard. Many realize they barely know the people living next door, let alone who might be housebound, have a medical condition or speak little English. Volunteers help each block draw up a simple map showing where vulnerable neighbours live, who owns a generator or has first-aid training, and which yards could serve as gathering spots. The maps are kept on paper, deliberately, and stored by two \"block captains\". Coordinator Arjun Mehta concedes that this approach seems old-fashioned, but points out that phones and the internet may be the first things to fail in a serious quake.",
+      "table": null
+    },
+    {
+      "label": "Paragraph C",
+      "kind": "text",
+      "text": "The project has its sceptics. Some residents have bristled at the idea of strangers asking about their neighbours' health, and a few have refused to be included on any map. Mehta takes these objections seriously: nobody's information is recorded without their consent, and residents can ask to be removed at any time. A more stubborn problem is turnover. Kitsilano has a large renter population, and on some blocks a third of households change every year, so maps can be out of date within months. Volunteers now revisit each block every spring, a commitment Mehta compares to painting a bridge: by the time you finish, you have to start again.",
+      "table": null
+    },
+    {
+      "label": "Paragraph D",
+      "kind": "text",
+      "text": "Whether the effort would pay off in a real disaster is, by its nature, impossible to prove in advance. Emergency planners point to research from Japan and New Zealand suggesting that in the first seventy-two hours after a major earthquake, most people are rescued not by professional crews but by neighbours. Mehta finds that statistic sobering rather than discouraging. The project has so far mapped 140 blocks, roughly a quarter of the neighbourhood, on an annual budget of under $20,000, most of it spent on printing and snacks for meetings. A city grant covers half; the rest comes from local businesses and a yearly pancake breakfast.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "Organizers believe that broad, impersonal warnings rarely lead people to act.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: Ban tổ chức cho rằng lời khuyên chung chung 'is easy to nod along to and just as easy to put off'."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về việc lập bản đồ."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói một số cư dân phản đối dự án — không phải vì lời cảnh báo chung chung kém hiệu quả."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn D nói hiệu quả của dự án không thể chứng minh trước — không nói về lời khuyên chung chung."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "is easy to nod along to and just as easy to put off",
+      "explanationVi": "'Nod along to' = gật gù đồng ý; 'put off' = trì hoãn. Ý là lời khuyên chung chung ('Generic advice') ai cũng đồng ý nhưng chẳng ai làm. 'Rarely lead people to act' diễn đạt lại ý đó.",
+      "vocabulary": [
+        "nod along",
+        "put off"
+      ]
+    },
+    {
+      "number": 2,
+      "prompt": "Keeping the project's information accurate is a never-ending task.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A nói cách tiếp cận cư dân."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói cách lập và cất giữ bản đồ, chưa nói chuyện bản đồ bị lỗi thời."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Bản đồ nhanh cũ vì người thuê nhà thay đổi; như sơn cầu, 'by the time you finish, you have to start again'."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn D nói đã lập bản đồ 140 khu — là tiến độ, không phải việc cập nhật liên tục."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "main_idea",
+      "evidence": "by the time you finish, you have to start again",
+      "explanationVi": "Người thuê nhà chuyển đi liên tục nên 'maps can be out of date within months'; tình nguyện viên phải 'revisit each block every spring'. Hình ảnh sơn cây cầu ('painting a bridge') = việc không bao giờ xong.",
+      "vocabulary": [
+        "turnover"
+      ]
+    },
+    {
+      "number": 3,
+      "prompt": "The project deliberately relies on a low-tech method in case modern communications break down.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'the power were out for a week' (mất điện) — đó là câu hỏi tình huống cho cư dân, không nói về cách lưu thông tin."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Bản đồ để trên giấy có chủ ý vì điện thoại và internet có thể hỏng trước tiên."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về sự đồng ý và cập nhật thông tin."
+        },
+        {
+          "text": "D",
+          "trap": "partially_true",
+          "whyVi": "Đoạn D nói tiền chủ yếu dùng để in ấn ('printing') nhưng không giải thích vì sao dùng giấy."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "phones and the internet may be the first things to fail in a serious quake",
+      "explanationVi": "'Low-tech method' = bản đồ 'kept on paper, deliberately'; 'in case modern communications break down' = 'phones and the internet may be the first things to fail'.",
+      "vocabulary": [
+        "concede"
+      ]
+    },
+    {
+      "number": 4,
+      "prompt": "Households that sign up are given a free emergency kit.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "word_match",
+          "whyVi": "Đoạn A có 'emergency kit' nhưng chỉ nói nhiều hộ gia đình vẫn chưa chuẩn bị bộ đồ dùng khẩn cấp, không nói dự án phát miễn phí."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói bản đồ ghi ai có máy phát điện hay biết sơ cứu — không phát đồ gì."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về sự phản đối và việc cập nhật."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn D nói ngân sách chi cho in ấn và đồ ăn nhẹ, không có bộ đồ khẩn cấp."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: Không đoạn nào nói người tham gia được tặng bộ đồ dùng khẩn cấp."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "many households in the Lower Mainland have still not assembled an emergency kit",
+      "explanationVi": "Từ 'emergency kit' chỉ xuất hiện ở Đoạn A trong số liệu khảo sát. Không đoạn nào nói dự án tặng bộ đồ dùng khẩn cấp; ngân sách ở Đoạn D chỉ dùng cho in ấn và đồ ăn nhẹ. → E."
+    },
+    {
+      "number": 5,
+      "prompt": "According to studies abroad, ordinary residents carry out most of the early rescues after a major earthquake.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A hỏi bạn sẽ đi xem ai trước — gợi ý vai trò hàng xóm, nhưng không dẫn nghiên cứu nào."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B nói về bản đồ khu phố."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về sự phản đối và người thuê nhà."
+        },
+        {
+          "text": "D",
+          "trap": "none",
+          "whyVi": "Đúng: Nghiên cứu ở Nhật và New Zealand cho thấy phần lớn người được cứu bởi hàng xóm."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn D nên không chọn E."
+        }
+      ],
+      "answerIndex": 3,
+      "category": "paraphrase",
+      "evidence": "most people are rescued not by professional crews but by neighbours",
+      "explanationVi": "'Studies abroad' = 'research from Japan and New Zealand'; 'early' = 'in the first seventy-two hours'; 'ordinary residents' = 'neighbours' (đối lập với 'professional crews').",
+      "vocabulary": [
+        "sobering"
+      ]
+    },
+    {
+      "number": 6,
+      "prompt": "Some people saw the project as an intrusion into others' private lives.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói ai phản đối."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói bản đồ ghi ai sống một mình hay có bệnh — là thông tin nhạy cảm, nhưng không nói ai phản đối."
+        },
+        {
+          "text": "C",
+          "trap": "none",
+          "whyVi": "Đúng: Một số cư dân 'bristled at the idea of strangers asking about their neighbours' health'."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về hiệu quả và ngân sách."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn C nên không chọn E."
+        }
+      ],
+      "answerIndex": 2,
+      "category": "vocabulary",
+      "evidence": "Some residents have bristled at the idea of strangers asking about their neighbours' health",
+      "explanationVi": "'Bristled at' = tỏ ra bực bội, phản đối. Họ khó chịu vì người lạ hỏi về sức khoẻ của hàng xóm, và một số 'refused to be included on any map' → coi đó là xâm phạm đời tư ('intrusion into private lives').",
+      "vocabulary": [
+        "bristle at"
+      ]
+    },
+    {
+      "number": 7,
+      "prompt": "Taking part makes many residents aware of how disconnected they are from the people nearby.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "partially_true",
+          "whyVi": "Đoạn A đặt câu hỏi 'who ... would you check on first?', nhưng việc cư dân nhận ra mình không biết hàng xóm nằm ở Đoạn B."
+        },
+        {
+          "text": "B",
+          "trap": "none",
+          "whyVi": "Đúng: Nhiều người 'realize they barely know the people living next door'."
+        },
+        {
+          "text": "C",
+          "trap": "wrong_detail",
+          "whyVi": "Đoạn C nói người thuê nhà thay đổi liên tục — đó là lý do bản đồ cũ đi, không phải điều cư dân nhận ra."
+        },
+        {
+          "text": "D",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn D nói về nghiên cứu và ngân sách."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn B nên không chọn E."
+        }
+      ],
+      "answerIndex": 1,
+      "category": "paraphrase",
+      "evidence": "Many realize they barely know the people living next door",
+      "explanationVi": "'Aware of how disconnected they are' = 'realize they barely know the people living next door'. 'Catch residents off guard' = khiến họ bất ngờ.",
+      "vocabulary": [
+        "catch off guard"
+      ]
+    },
+    {
+      "number": 8,
+      "prompt": "The city has agreed to increase its funding if the project proves successful.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn A không nói về tài chính."
+        },
+        {
+          "text": "B",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn B không nói về tài chính."
+        },
+        {
+          "text": "C",
+          "trap": "partially_true",
+          "whyVi": "Đoạn C nói tình nguyện viên trở lại mỗi mùa xuân — là cam kết của tình nguyện viên, không phải của thành phố."
+        },
+        {
+          "text": "D",
+          "trap": "word_match",
+          "whyVi": "Đoạn D có 'A city grant covers half' — thành phố đang tài trợ một nửa, không hứa tăng thêm."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "none",
+          "whyVi": "Đúng: Không đoạn nào nói thành phố hứa tăng tài trợ."
+        }
+      ],
+      "answerIndex": 4,
+      "category": "distractor",
+      "evidence": "A city grant covers half",
+      "explanationVi": "Đoạn D chỉ nói hiện nay thành phố tài trợ một nửa ngân sách. Không có lời hứa tăng tiền; Đoạn D còn nói hiệu quả 'impossible to prove in advance'. → E."
+    },
+    {
+      "number": 9,
+      "prompt": "Volunteers try to make the danger feel personal rather than abstract.",
+      "options": [
+        {
+          "text": "A",
+          "trap": "none",
+          "whyVi": "Đúng: Tình nguyện viên hỏi một câu cụ thể về chính khu phố của người nghe thay vì phát tờ rơi."
+        },
+        {
+          "text": "B",
+          "trap": "partially_true",
+          "whyVi": "Đoạn B nói việc vẽ bản đồ sau khi trò chuyện — là bước tiếp theo, không phải cách đặt vấn đề."
+        },
+        {
+          "text": "C",
+          "trap": "not_mentioned",
+          "whyVi": "Đoạn C nói về sự phản đối và việc cập nhật."
+        },
+        {
+          "text": "D",
+          "trap": "wrong_speaker",
+          "whyVi": "Đoạn D nói ông Mehta thấy con số 'sobering' — đó là cảm nhận của ông, không phải cách tình nguyện viên tiếp cận cư dân."
+        },
+        {
+          "text": "E — Not given in any paragraph",
+          "trap": "not_mentioned",
+          "whyVi": "Thông tin có trong Đoạn A nên không chọn E."
+        }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "who on this block would you check on first?",
+      "explanationVi": "Thay vì phát tờ rơi chung chung, tình nguyện viên hỏi 'a far more pointed question' về chính khu phố của cư dân: 'who on this block would you check on first?' → biến rủi ro trừu tượng thành chuyện cụ thể, gần gũi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "sheepish",
+      "vi": "ngượng ngùng, bẽn lẽn (vì biết mình chưa làm)",
+      "definition": "embarrassed because you know you have done something wrong or silly",
+      "example": "Most people answer with a sheepish grin."
+    },
+    {
+      "term": "nod along",
+      "vi": "gật gù đồng ý (mà không thật sự làm)",
+      "definition": "to agree with something without really thinking or acting on it",
+      "example": "Generic advice is easy to nod along to."
+    },
+    {
+      "term": "put off",
+      "vi": "trì hoãn",
+      "definition": "to delay doing something",
+      "example": "It is just as easy to put off."
+    },
+    {
+      "term": "catch off guard",
+      "vi": "làm ai bất ngờ, không kịp chuẩn bị",
+      "definition": "to surprise someone who is not ready",
+      "example": "The answers often catch residents off guard."
+    },
+    {
+      "term": "housebound",
+      "vi": "không ra khỏi nhà được (vì bệnh, tuổi già)",
+      "definition": "unable to leave home because of illness or age",
+      "example": "Some neighbours might be housebound."
+    },
+    {
+      "term": "concede",
+      "vi": "thừa nhận (điểm yếu)",
+      "definition": "to admit that something is true, often unwillingly",
+      "example": "Mehta concedes that this approach seems old-fashioned."
+    },
+    {
+      "term": "bristle at",
+      "vi": "tỏ ra bực bội, phản ứng gay gắt",
+      "definition": "to react with anger or annoyance to something",
+      "example": "Some residents have bristled at the idea."
+    },
+    {
+      "term": "turnover",
+      "vi": "sự thay đổi người (chuyển đến, chuyển đi)",
+      "definition": "the rate at which people leave and are replaced",
+      "example": "A more stubborn problem is turnover."
+    },
+    {
+      "term": "sobering",
+      "vi": "khiến phải suy nghĩ nghiêm túc",
+      "definition": "making you think seriously about something",
+      "example": "Mehta finds that statistic sobering."
+    }
+  ]
+}

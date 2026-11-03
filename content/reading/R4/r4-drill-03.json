@@ -1,0 +1,130 @@
+{
+  "id": "r4-drill-03",
+  "kind": "reading",
+  "taskType": "R4",
+  "setType": "drill",
+  "difficulty": 7,
+  "topic": "shopping",
+  "title": "Inference drill (writers' attitudes): Digital Price Tags at Valleyfresh",
+  "estimatedMinutes": 9,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Solved all 6 independently; keys match; all items target attitude/inference as the title says. Lowered difficulty 8 → 7 (short, mostly explicit text; blank items are single-word attitude adjectives). No other changes." },
+  "createdAt": "2026-11-03",
+  "focus": [],
+  "sections": [
+    {
+      "label": "Article",
+      "kind": "text",
+      "text": "Shoppers at the three Valleyfresh Market grocery stores in Kamloops may soon notice something new on the shelves: small digital screens instead of paper price tags. The family-owned chain plans to install electronic shelf labels in all three stores by spring, at a cost of about $400,000.\n\nOwner Graham Lindberg says the labels will save staff hundreds of hours a year. \"Right now, every Tuesday night, two people walk the aisles changing paper tags by hand,\" he said. \"I'd much rather have them helping customers find the gluten-free crackers.\" Because the screens can be updated instantly, he adds, the stores will also be able to mark down bread and produce late in the day instead of throwing it out.\n\nNot everyone is reassured. Consumer columnist Patricia Okonkwo points out that the same technology lets retailers change prices as often as they like, and that some chains overseas have experimented with raising prices during busy hours. \"Valleyfresh says it would never do that, and I'm sure they mean it today,\" she said. \"But the shelf doesn't care who owns the store next year.\" She would like the province to ban price increases within a single business day.\n\nLindberg insists the fear is misplaced. \"We've been in this town for forty years. If we started charging more for milk at five o'clock, people would notice by five-fifteen, and they'd be right to shop somewhere else.\"\n\nSome longtime customers simply prefer things the way they are. Retired teacher Harold Mbeki, who shops at the North Shore store twice a week, finds the small screens hard to read without his glasses. \"Paper tags were never broken,\" he said. \"Not everything needs to be plugged in.\"\n\nStaff member Lucy Tran, who has changed paper tags for six years, sees it differently. \"Honestly? I won't miss it,\" she said. \"Tuesday nights were the worst shift in the building.\"\n\nValleyfresh says customers will always be able to ask staff to check a price, and that receipts will continue to show the shelf price at the moment an item is scanned.",
+      "table": null
+    },
+    {
+      "label": "Reader comment",
+      "kind": "text",
+      "text": "I've shopped at Valleyfresh for years, and this article made me smile more than once. I can't blame Ms. Tran for being [[5]] to see the back of those Tuesday nights. Mr. Lindberg also sounds genuinely sure of himself when he says shoppers would catch any price games within minutes, and given the store's long history in town, I'm inclined to believe him. Still, I think Ms. Okonkwo is wise to be [[6]]. Good intentions are only as reliable as the people who hold them, and owners do change. A simple provincial rule wouldn't hurt an honest store at all, and it would give the rest of us some peace of mind. In the meantime, I'll keep my reading glasses handy for those little screens, just like Mr. Mbeki.",
+      "table": null
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "What does Graham Lindberg's remark about the gluten-free crackers suggest?",
+      "options": [
+        { "text": "He plans to reduce the number of employees.", "trap": "not_mentioned", "whyVi": "Dễ bị bẫy vì công nghệ tiết kiệm giờ làm, nhưng ông nói muốn nhân viên làm việc khác, không nói cắt giảm người." },
+        { "text": "He sees the labels as freeing staff for more useful work.", "trap": "none", "whyVi": "Đúng: Ông muốn nhân viên giúp khách tìm hàng thay vì thay thẻ giá bằng tay." },
+        { "text": "He wants to sell more gluten-free products.", "trap": "word_match", "whyVi": "'Gluten-free crackers' chỉ là ví dụ về việc giúp khách, không phải kế hoạch kinh doanh." },
+        { "text": "He thinks customers rarely need help in the store.", "trap": "opposite", "whyVi": "Ông muốn nhân viên dành thời gian 'helping customers', tức khách có cần giúp." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "\"I'd much rather have them helping customers find the gluten-free crackers.\"",
+      "explanationVi": "'I'd much rather have them...' = tôi muốn họ làm việc này hơn. So sánh với việc 'walk the aisles changing paper tags by hand' → nhãn điện tử giải phóng thời gian cho việc hữu ích hơn.",
+      "vocabulary": ["would rather"]
+    },
+    {
+      "number": 2,
+      "prompt": "What does Patricia Okonkwo imply by saying \"the shelf doesn't care who owns the store next year\"?",
+      "options": [
+        { "text": "Valleyfresh is planning to sell its stores.", "trap": "not_mentioned", "whyVi": "Bà không nói Valleyfresh định bán; 'next year' chỉ là ví dụ giả định." },
+        { "text": "The current owner is being dishonest.", "trap": "opposite", "whyVi": "Bà nói 'I'm sure they mean it today' — tin họ thành thật lúc này." },
+        { "text": "The electronic labels are unreliable technology.", "trap": "not_mentioned", "whyVi": "Bà không chê công nghệ hỏng hóc; bà lo về cách sử dụng nó." },
+        { "text": "Today's promise cannot protect shoppers from what a future owner might do.", "trap": "none", "whyVi": "Đúng: Công nghệ vẫn cho phép đổi giá liên tục, dù ai làm chủ; lời hứa hôm nay không ràng buộc chủ sau này." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "\"Valleyfresh says it would never do that, and I'm sure they mean it today,\"",
+      "explanationVi": "Từ 'today' là chìa khóa: bà tin lời hứa hiện tại nhưng nghi ngờ tương lai. 'The shelf doesn't care' = công nghệ không phân biệt người tốt hay xấu → cần luật bảo vệ, như bà đề xuất.",
+      "vocabulary": ["mean it"]
+    },
+    {
+      "number": 3,
+      "prompt": "Which best describes Lindberg's tone when he responds to the price concerns?",
+      "options": [
+        { "text": "Confident that customers' reactions would stop any such practice", "trap": "none", "whyVi": "Đúng: Ông nói khách sẽ phát hiện trong 15 phút và có lý khi đi chỗ khác — tức thị trường sẽ ngăn chặn." },
+        { "text": "Worried that customers already distrust the store", "trap": "not_mentioned", "whyVi": "Ông nhấn mạnh 40 năm uy tín, không tỏ ra lo khách mất lòng tin." },
+        { "text": "Admitting that raising prices during the day is common", "trap": "opposite", "whyVi": "Ông gọi nỗi sợ là 'misplaced' (đặt sai chỗ), không thừa nhận." },
+        { "text": "Unsure whether the screens can change prices quickly", "trap": "opposite", "whyVi": "Ông chính là người nói màn hình 'can be updated instantly'." }
+      ],
+      "answerIndex": 0,
+      "category": "inference",
+      "evidence": "If we started charging more for milk at five o'clock, people would notice by five-fifteen, and they'd be right to shop somewhere else.\"",
+      "explanationVi": "'Insists the fear is misplaced' = khẳng định nỗi lo vô căn cứ. Ví dụ 'notice by five-fifteen' thể hiện sự tự tin: khách hàng phản ứng nhanh nên cửa hàng không dám làm vậy. Bình luận cũng nói 'sounds genuinely sure of himself'.",
+      "vocabulary": ["misplaced"]
+    },
+    {
+      "number": 4,
+      "prompt": "What does Harold Mbeki mean when he says \"Paper tags were never broken\"?",
+      "options": [
+        { "text": "Paper tags often fell off the shelves.", "trap": "opposite", "whyVi": "Ông ngụ ý thẻ giấy hoạt động tốt, không có vấn đề." },
+        { "text": "He wants the store to repair broken screens.", "trap": "word_match", "whyVi": "Dùng lại từ 'broken' nhưng màn hình chưa hỏng; ông nói về thẻ giấy." },
+        { "text": "He sees no need to replace a system that worked well.", "trap": "none", "whyVi": "Đúng: Ý giống thành ngữ 'If it ain't broke, don't fix it' — cái gì không hỏng thì đừng thay." },
+        { "text": "He dislikes every kind of modern technology.", "trap": "too_broad", "whyVi": "Ông nói 'Not everything needs to be plugged in' — không phải mọi thứ, chứ không chống mọi công nghệ." }
+      ],
+      "answerIndex": 2,
+      "category": "inference",
+      "evidence": "\"Paper tags were never broken,\" he said. \"Not everything needs to be plugged in.\"",
+      "explanationVi": "Câu nói gợi thành ngữ 'If it isn't broken, don't fix it'. Thẻ giấy chưa từng có vấn đề → không cần thay. 'Not everything' cho thấy ông không phản đối mọi công nghệ, nên D quá rộng.",
+      "vocabulary": ["plugged in"]
+    },
+    {
+      "number": 5,
+      "prompt": "Choose the best option for blank 5.",
+      "options": [
+        { "text": "sorry", "trap": "opposite", "whyVi": "Tran nói 'I won't miss it' — cô không tiếc." },
+        { "text": "nervous", "trap": "not_mentioned", "whyVi": "Không có dấu hiệu cô lo lắng." },
+        { "text": "surprised", "trap": "not_mentioned", "whyVi": "Cô không tỏ ra ngạc nhiên; cô đã biết ca tối thứ Ba rất tệ." },
+        { "text": "glad", "trap": "none", "whyVi": "Đúng: 'Be glad to see the back of something' = mừng vì thoát được điều gì khó chịu." }
+      ],
+      "answerIndex": 3,
+      "category": "inference",
+      "evidence": "\"Honestly? I won't miss it,\" she said. \"Tuesday nights were the worst shift in the building.\"",
+      "explanationVi": "'See the back of' = thoát khỏi, không phải gặp lại. Tran nói 'I won't miss it' và gọi đó là 'the worst shift' → cô vui mừng. 'Sorry to see the back of' đúng ngữ pháp nhưng trái nghĩa.",
+      "vocabulary": ["see the back of"]
+    },
+    {
+      "number": 6,
+      "prompt": "Choose the best option for blank 6.",
+      "options": [
+        { "text": "relaxed", "trap": "opposite", "whyVi": "Okonkwo không thoải mái; bà muốn tỉnh ra luật." },
+        { "text": "wary", "trap": "none", "whyVi": "Đúng: 'Wary' = thận trọng, đề phòng. Bà tin hiện tại nhưng đề phòng tương lai." },
+        { "text": "furious", "trap": "too_broad", "whyVi": "Bà bình tĩnh, còn nói 'I'm sure they mean it today' — không giận dữ." },
+        { "text": "dismissive", "trap": "opposite", "whyVi": "Bà không gạt bỏ vấn đề; bà coi nó đủ nghiêm trọng để cần luật." }
+      ],
+      "answerIndex": 1,
+      "category": "inference",
+      "evidence": "She would like the province to ban price increases within a single business day.",
+      "explanationVi": "Câu sau 'Good intentions are only as reliable as the people who hold them, and owners do change' giải thích vì sao bà khôn ngoan khi đề phòng. Bà không tức giận mà chỉ muốn có luật bảo vệ → 'wary'.",
+      "vocabulary": ["wary"]
+    }
+  ],
+  "vocabulary": [
+    { "term": "electronic shelf label", "vi": "nhãn giá điện tử trên kệ", "definition": "a small digital screen that shows a product's price", "example": "The store will install electronic shelf labels by spring." },
+    { "term": "would rather", "vi": "thích (làm gì) hơn", "definition": "to prefer to do or have something", "example": "I'd much rather have staff helping customers." },
+    { "term": "mark down", "vi": "giảm giá", "definition": "to reduce the price of something", "example": "They will mark down bread late in the day." },
+    { "term": "mean it", "vi": "nói thật lòng", "definition": "to be sincere about what you say", "example": "I'm sure they mean it today." },
+    { "term": "misplaced", "vi": "đặt không đúng chỗ, vô căn cứ", "definition": "not suitable or not based on the facts", "example": "He insists the fear is misplaced." },
+    { "term": "plugged in", "vi": "cắm điện, dùng điện", "definition": "connected to electricity", "example": "Not everything needs to be plugged in." },
+    { "term": "see the back of", "vi": "thoát khỏi, mừng vì không phải gặp lại", "definition": "to be happy that something unpleasant has gone", "example": "She was glad to see the back of Tuesday nights." },
+    { "term": "wary", "vi": "thận trọng, đề phòng", "definition": "careful because something might cause a problem", "example": "Shoppers are wary of changing prices." }
+  ]
+}

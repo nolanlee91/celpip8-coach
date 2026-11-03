@@ -1,0 +1,302 @@
+{
+  "id": "l6-mock-03",
+  "kind": "listening",
+  "taskType": "L6",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "Viewpoints: Should Kamloops make its buses free?",
+  "context": "You will hear a radio commentary by a retired transit planner about the idea of making city buses in Kamloops free for all riders.",
+  "estimatedMinutes": 7,
+  "chunks": [
+    {
+      "segments": [
+        {
+          "speaker": "Nicole Tran, radio host",
+          "voice": "female_a",
+          "text": "Free transit keeps coming up in local politics, and some people in Kamloops would like the city to scrap bus fares altogether, saying it would get cars off the road and help families struggling with the cost of living. This morning we hear from Gurpreet Sandhu, who spent twenty-two years planning transit routes in the B.C. Interior."
+        },
+        {
+          "speaker": "Gurpreet Sandhu, retired transit planner",
+          "voice": "male_b",
+          "text": "Thanks, Nicole. I want to start by saying that I understand why free transit is so appealing. It's simple, it's fair, and it sends a strong message that the city takes climate change seriously. If I were running for council, I'd probably want my name on it too."
+        },
+        {
+          "speaker": "Gurpreet Sandhu, retired transit planner",
+          "voice": "male_b",
+          "text": "But after two decades of asking people why they don't take the bus, I can tell you that the fare almost never comes up first. What comes up is time. People tell me the bus only comes every forty minutes, or it stops running at seven in the evening, or a ten-minute drive takes an hour with a transfer. Making that same service free doesn't fix any of it. A slow bus is still a slow bus, even if you don't pay for it."
+        },
+        {
+          "speaker": "Gurpreet Sandhu, retired transit planner",
+          "voice": "male_b",
+          "text": "And here's the part that often gets left out. Even in a city the size of Kamloops, fares bring in millions of dollars a year. If that money disappears, it has to be found somewhere else, and the easiest place to find it is usually the service itself. I've seen cities go fare-free and then quietly cut evening routes two years later. That's a terrible trade for the shift workers who depend on them."
+        },
+        {
+          "speaker": "Gurpreet Sandhu, retired transit planner",
+          "voice": "male_b",
+          "text": "Supporters point to cities where ridership jumped after fares were dropped, and that's true. When you look closely, though, a lot of those new riders were people who used to walk or cycle short distances. That's not a bad thing, but it isn't the same as taking cars off the road."
+        },
+        {
+          "speaker": "Gurpreet Sandhu, retired transit planner",
+          "voice": "male_b",
+          "text": "Now, I don't want to pretend cost doesn't matter to anyone. For a low-income family, a monthly pass can be a real burden, and I fully support making transit free or nearly free for them. Most transit systems already offer cheaper fares for seniors. Expanding something like that to low-income households would cost a fraction of what full fare-free transit would."
+        },
+        {
+          "speaker": "Gurpreet Sandhu, retired transit planner",
+          "voice": "male_b",
+          "text": "So my advice to council is this. Put the money where the complaints are. Run buses every fifteen minutes on the busiest routes and keep them going until eleven at night. Do that, and people will ride, whether they're paying or not."
+        }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is Gurpreet Sandhu's attitude toward the idea of free transit?",
+          "options": [
+            {
+              "text": "He sees why it is attractive but doubts it would work well.",
+              "trap": "none",
+              "whyVi": "Đúng: ông hiểu vì sao ý tưởng này hấp dẫn, nhưng cho rằng nó không giải quyết vấn đề thật."
+            },
+            {
+              "text": "He thinks it is a cynical trick by councillors to win votes.",
+              "trap": "partially_true",
+              "whyVi": "Ông có nói đùa rằng nếu tranh cử ông cũng muốn ủng hộ nó, nhưng không cáo buộc hội đồng lừa dối."
+            },
+            {
+              "text": "He supports it fully because of its climate benefits.",
+              "trap": "opposite",
+              "whyVi": "Ông công nhận thông điệp về khí hậu nhưng không ủng hộ đề xuất này."
+            },
+            {
+              "text": "He believes it would mostly benefit seniors.",
+              "trap": "word_match",
+              "whyVi": "Bài có nhắc người cao tuổi, nhưng đó là giá vé ưu đãi hiện có, không liên quan đến lợi ích của xe buýt miễn phí."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "I want to start by saying that I understand why free transit is so appealing.",
+          "explanationVi": "Mở đầu ông nói 'I understand why free transit is so appealing', rồi chuyển ý bằng 'But after two decades...'. Đây là thái độ hiểu nhưng không đồng ý. 'appealing' được diễn đạt lại thành 'attractive'.",
+          "vocabulary": [
+            "appealing"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "According to Gurpreet, what is the main reason people give for not taking the bus?",
+          "options": [
+            {
+              "text": "The cost of a monthly pass is too high.",
+              "trap": "opposite",
+              "whyVi": "Ông nói giá vé hầu như không bao giờ là lý do đầu tiên."
+            },
+            {
+              "text": "The buses are too crowded at rush hour.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nói xe buýt quá đông."
+            },
+            {
+              "text": "Bus trips take too long and service is limited.",
+              "trap": "none",
+              "whyVi": "Đúng: xe 40 phút mới có một chuyến, ngừng chạy lúc 7 giờ tối, đi 10 phút mất cả tiếng."
+            },
+            {
+              "text": "Bus stops are too far from people's homes.",
+              "trap": "not_mentioned",
+              "whyVi": "Bài không nhắc khoảng cách đến trạm xe buýt."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "But after two decades of asking people why they don't take the bus, I can tell you that the fare almost never comes up first. What comes up is time.",
+          "explanationVi": "Từ khóa 'What comes up is time' và các ví dụ (chuyến thưa, ngừng sớm, phải chuyển tuyến) được tóm lại trong đáp án C: chuyến đi lâu và dịch vụ hạn chế.",
+          "vocabulary": [
+            "come up"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Gurpreet fear might happen if the city loses its fare revenue?",
+          "options": [
+            {
+              "text": "Property taxes would rise sharply for homeowners.",
+              "trap": "not_mentioned",
+              "whyVi": "Ông nói tiền phải lấy từ nơi khác nhưng không nhắc đến thuế nhà đất."
+            },
+            {
+              "text": "Bus service, especially in the evening, could be reduced.",
+              "trap": "none",
+              "whyVi": "Đúng: ông từng thấy các thành phố bỏ vé rồi lặng lẽ cắt tuyến buổi tối hai năm sau."
+            },
+            {
+              "text": "Shift workers would stop using the bus entirely.",
+              "trap": "partially_true",
+              "whyVi": "Ông nói người làm ca sẽ bị thiệt, nhưng không nói họ sẽ bỏ hẳn xe buýt."
+            },
+            {
+              "text": "The city would have to raise fares again within two years.",
+              "trap": "word_match",
+              "whyVi": "Bài có 'two years later', nhưng đó là thời điểm cắt tuyến, không phải tăng giá vé lại."
+            }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "I've seen cities go fare-free and then quietly cut evening routes two years later.",
+          "explanationVi": "'the easiest place to find it is usually the service itself' = chỗ dễ lấy tiền nhất là cắt giảm dịch vụ. Ví dụ 'quietly cut evening routes' xác nhận đáp án B.",
+          "vocabulary": [
+            "revenue"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "What point does Gurpreet make about the rise in ridership in other cities?",
+          "options": [
+            {
+              "text": "The numbers were exaggerated by supporters.",
+              "trap": "opposite",
+              "whyVi": "Ông thừa nhận số liệu là đúng ('that's true')."
+            },
+            {
+              "text": "It led to fewer cyclists being injured.",
+              "trap": "word_match",
+              "whyVi": "Bài có từ 'cycle', nhưng không nói về tai nạn."
+            },
+            {
+              "text": "It proves that fares are the biggest barrier for riders.",
+              "trap": "opposite",
+              "whyVi": "Ngược lại với quan điểm của ông rằng thời gian, không phải giá vé, là rào cản chính."
+            },
+            {
+              "text": "Many new riders had not been driving before.",
+              "trap": "none",
+              "whyVi": "Đúng: phần lớn hành khách mới trước đây đi bộ hoặc đạp xe quãng ngắn, nên không giảm được xe hơi."
+            }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "a lot of those new riders were people who used to walk or cycle short distances",
+          "explanationVi": "Ông dùng 'that's true... though' để thừa nhận rồi giới hạn. Người đi bộ hoặc đạp xe chuyển sang xe buýt = 'had not been driving before', nên 'it isn't the same as taking cars off the road'.",
+          "vocabulary": [
+            "ridership"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "Which group does Gurpreet think should get free or nearly free transit?",
+          "options": [
+            {
+              "text": "Low-income households",
+              "trap": "none",
+              "whyVi": "Đúng: ông hoàn toàn ủng hộ miễn phí hoặc gần như miễn phí cho gia đình thu nhập thấp."
+            },
+            {
+              "text": "Seniors who do not drive",
+              "trap": "wrong_detail",
+              "whyVi": "Người cao tuổi vốn đã có giá vé ưu đãi; ông muốn mở rộng mô hình đó cho nhóm khác."
+            },
+            {
+              "text": "Shift workers who travel at night",
+              "trap": "word_match",
+              "whyVi": "Ông nhắc người làm ca khi nói về việc cắt tuyến, không phải khi nói về vé miễn phí."
+            },
+            {
+              "text": "Everyone who lives in Kamloops",
+              "trap": "too_broad",
+              "whyVi": "Đây chính là đề xuất ông phản đối."
+            }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "For a low-income family, a monthly pass can be a real burden, and I fully support making transit free or nearly free for them.",
+          "explanationVi": "Ông nói rõ 'I fully support making transit free or nearly free for them', với 'them' là các gia đình thu nhập thấp. Đáp án B là bẫy vì người cao tuổi chỉ được nhắc như một ví dụ có sẵn.",
+          "vocabulary": [
+            "burden"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "What does Gurpreet mean by \"Put the money where the complaints are\"?",
+          "options": [
+            {
+              "text": "Spend money on handling riders' complaints faster.",
+              "trap": "word_match",
+              "whyVi": "Hiểu theo nghĩa đen là sai; ông không nói về bộ phận giải quyết khiếu nại."
+            },
+            {
+              "text": "Lower fares on the routes people complain about most.",
+              "trap": "opposite",
+              "whyVi": "Ông không muốn tập trung vào giá vé mà vào tần suất và giờ chạy."
+            },
+            {
+              "text": "Invest in fixing the problems riders actually mention.",
+              "trap": "none",
+              "whyVi": "Đúng: người dân phàn nàn về thời gian và giờ chạy, nên tiền nên dùng để tăng chuyến và kéo dài giờ phục vụ."
+            },
+            {
+              "text": "Ask councillors to pay for the service themselves.",
+              "trap": "not_mentioned",
+              "whyVi": "Không có ý này trong bài."
+            }
+          ],
+          "answerIndex": 2,
+          "category": "vocabulary",
+          "evidence": "Put the money where the complaints are. Run buses every fifteen minutes on the busiest routes and keep them going until eleven at night.",
+          "explanationVi": "Câu này nối với phần đầu: người dân than phiền về thời gian ('What comes up is time'). Vì thế ông khuyên đầu tư vào xe 15 phút một chuyến và chạy đến 11 giờ đêm — tức là giải quyết đúng điều người đi xe phàn nàn.",
+          "vocabulary": []
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "scrap",
+      "vi": "bãi bỏ, hủy bỏ",
+      "definition": "to get rid of a plan, system or charge completely",
+      "example": "Councillors want to scrap bus fares altogether."
+    },
+    {
+      "term": "appealing",
+      "vi": "hấp dẫn, lôi cuốn",
+      "definition": "attractive or interesting",
+      "example": "I understand why free transit is so appealing."
+    },
+    {
+      "term": "come up",
+      "vi": "được nhắc đến, nảy ra",
+      "definition": "to be mentioned or raised in a conversation",
+      "example": "The fare almost never comes up first."
+    },
+    {
+      "term": "revenue",
+      "vi": "doanh thu, nguồn thu",
+      "definition": "money that an organization receives",
+      "example": "Fare revenue adds up to millions of dollars a year."
+    },
+    {
+      "term": "ridership",
+      "vi": "số lượng hành khách",
+      "definition": "the number of people who use a transit service",
+      "example": "Ridership jumped after fares were dropped."
+    },
+    {
+      "term": "burden",
+      "vi": "gánh nặng",
+      "definition": "something difficult that you have to deal with or pay for",
+      "example": "A monthly pass can be a real burden for a low-income family."
+    },
+    {
+      "term": "a fraction of",
+      "vi": "một phần nhỏ của",
+      "definition": "a small part or amount of something",
+      "example": "It would cost a fraction of full fare-free transit."
+    }
+  ],
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Solved all 6 items independently; keys match. Removed unverifiable claims about real institutions: no longer says a group of Kamloops councillors proposed free buses (now a general idea some residents want), Kamloops fare revenue 'roughly four million' -> 'millions of dollars', city seniors discount program -> 'most transit systems already offer cheaper fares for seniors' (whyVi updated). Q2 prompt reworded to 'the main reason people give'."
+  },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

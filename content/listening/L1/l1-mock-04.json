@@ -1,0 +1,187 @@
+{
+  "id": "l1-mock-04",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "mock",
+  "difficulty": 8,
+  "topic": "community-services",
+  "title": "A food bank's broken-down cooler truck",
+  "context": "You will hear two coordinators at a food bank in Surrey trying to collect a large donation of dairy products after their refrigerated truck breaks down.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Kwame", "voice": "male_b", "text": "Nadia, bad news. The cooler truck won't start. Dmitri's been at it for half an hour, and he thinks it's the alternator." },
+        { "speaker": "Nadia", "voice": "female_a", "text": "Today, Kwame? We're supposed to be at FreshWay at two to collect that whole dairy donation. They're clearing out their stock before the new shipment arrives." },
+        { "speaker": "Kwame", "voice": "male_b", "text": "I know. That's what worries me. It's eight pallets of yogurt and milk. We can't exactly throw that in the back of somebody's minivan." },
+        { "speaker": "Nadia", "voice": "female_a", "text": "No, it has to stay cold the whole way, or the health inspector would have our heads. Did you call FreshWay? Maybe they could hang on to it till tomorrow." },
+        { "speaker": "Kwame", "voice": "male_b", "text": "I did. The manager was apologetic but pretty clear. Their walk-in cooler has to be empty by six tonight for the delivery, and anything still sitting there goes in the dumpster." },
+        { "speaker": "Nadia", "voice": "female_a", "text": "In the dumpster. Eight pallets. With families lined up for Saturday's hamper day." },
+        { "speaker": "Kwame", "voice": "male_b", "text": "Yeah. And after we spent months talking them into donating instead of tossing it, that would be a real slap in the face." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "What is the problem at the beginning of the conversation?",
+          "options": [
+            { "text": "FreshWay has cancelled its donation.", "trap": "not_mentioned", "whyVi": "FreshWay vẫn muốn tặng; họ chỉ không thể giữ hàng lâu hơn." },
+            { "text": "The store's cooler has stopped working.", "trap": "word_match", "whyVi": "'Cooler' được nhắc, nhưng cái hỏng là xe tải lạnh của ngân hàng thực phẩm." },
+            { "text": "The food bank's refrigerated vehicle has a mechanical fault.", "trap": "none", "whyVi": "Đúng: xe tải lạnh không nổ máy, có thể do máy phát điện (alternator)." },
+            { "text": "Their usual driver, Dmitri, is not available.", "trap": "wrong_detail", "whyVi": "Dmitri đang có mặt và cố sửa xe." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "The cooler truck won't start. Dmitri's been at it for half an hour, and he thinks it's the alternator.",
+          "explanationVi": "'Cooler truck won't start' và 'it's the alternator' = xe lạnh bị hỏng máy. Đáp án C diễn đạt lại thành 'refrigerated vehicle has a mechanical fault'.",
+          "vocabulary": ["be at it"]
+        },
+        {
+          "number": 2,
+          "prompt": "Why can't FreshWay keep the products until tomorrow?",
+          "options": [
+            { "text": "It needs the storage space for incoming goods.", "trap": "none", "whyVi": "Đúng: kho lạnh phải trống trước 6 giờ tối để nhận hàng mới." },
+            { "text": "The health inspector will not allow it.", "trap": "wrong_detail", "whyVi": "Thanh tra y tế là mối lo của Nadia về việc giữ lạnh khi vận chuyển, không phải lý do của FreshWay." },
+            { "text": "The manager did not want to help them.", "trap": "opposite", "whyVi": "Người quản lý 'apologetic' – có ý xin lỗi, không phải không muốn giúp." },
+            { "text": "The products will expire tonight.", "trap": "not_mentioned", "whyVi": "Bài không nói hàng hết hạn tối nay." }
+          ],
+          "answerIndex": 0,
+          "category": "paraphrase",
+          "evidence": "Their walk-in cooler has to be empty by six tonight for the delivery",
+          "explanationVi": "'Has to be empty ... for the delivery' = cần chỗ cho lô hàng mới. Đáp án A diễn đạt lại thành 'needs the storage space for incoming goods'.",
+          "vocabulary": ["walk-in cooler"]
+        },
+        {
+          "number": 3,
+          "prompt": "What does Kwame mean when he calls the situation a slap in the face?",
+          "options": [
+            { "text": "He feels the FreshWay manager's refusal was a deliberate insult.", "trap": "word_match", "whyVi": "Hiểu theo nghĩa đen 'slap in the face' là bị xúc phạm; nhưng người quản lý còn tỏ ra áy náy ('apologetic')." },
+            { "text": "Losing the food would be especially discouraging after their efforts.", "trap": "none", "whyVi": "Đúng: họ đã mất nhiều tháng thuyết phục cửa hàng tặng thay vì vứt đi, giờ đồ lại vào thùng rác." },
+            { "text": "He expects FreshWay to stop donating in the future.", "trap": "not_mentioned", "whyVi": "Kwame không dự đoán FreshWay sẽ ngừng tặng." },
+            { "text": "He blames Nadia for not checking the truck.", "trap": "not_mentioned", "whyVi": "Không ai trách Nadia." }
+          ],
+          "answerIndex": 1,
+          "category": "speaker_attitude",
+          "evidence": "after we spent months talking them into donating instead of tossing it, that would be a real slap in the face",
+          "explanationVi": "'A slap in the face' là thành ngữ chỉ điều gây thất vọng, như bị phủ nhận công sức. Kwame nối nó với 'spent months talking them into donating'.",
+          "vocabulary": ["a slap in the face", "talk someone into something"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Nadia", "voice": "female_a", "text": "Okay. Options. Can we rent a refrigerated truck for the afternoon?" },
+        { "speaker": "Kwame", "voice": "male_b", "text": "I tried two places. One's completely booked, and the other needs a commercial licence for anything that size. Dmitri doesn't have one, and neither do I." },
+        { "speaker": "Nadia", "voice": "female_a", "text": "What about the church on Eighty-Eighth? They run that hot-lunch program. Don't they have a refrigerated van?" },
+        { "speaker": "Kwame", "voice": "male_b", "text": "They do, but it's small. Maybe two pallets at a time. That's four trips, and FreshWay's forty minutes each way in afternoon traffic." },
+        { "speaker": "Nadia", "voice": "female_a", "text": "Four round trips. We'd be cutting it way too close. Hmm, but what if we don't bring it all back here? Half the dairy's going to the Newton site anyway, isn't it? And Newton's only ten minutes from FreshWay." },
+        { "speaker": "Kwame", "voice": "male_b", "text": "Huh. That's true. And their walk-in has room, I was there on Tuesday." },
+        { "speaker": "Nadia", "voice": "female_a", "text": "So the van does short runs to Newton, and only the last load comes back here. That's doable." },
+        { "speaker": "Kwame", "voice": "male_b", "text": "If the church says yes. Pastor Lim's usually great, but that van does the seniors' lunch run on Thursdays, and today's Thursday." }
+      ],
+      "questions": [
+        {
+          "number": 4,
+          "prompt": "Why can't they rent a refrigerated truck?",
+          "options": [
+            { "text": "Both rental companies were fully booked.", "trap": "partially_true", "whyVi": "Chỉ một nơi hết xe; nơi kia còn xe nhưng cần bằng lái thương mại." },
+            { "text": "Renting a truck would cost too much.", "trap": "not_mentioned", "whyVi": "Giá thuê không được nhắc tới." },
+            { "text": "Dmitri is the only person who can drive one.", "trap": "opposite", "whyVi": "Dmitri cũng KHÔNG có bằng thương mại." },
+            { "text": "One had nothing available, and the other required a licence they lack.", "trap": "none", "whyVi": "Đúng: một nơi kín chỗ, nơi kia yêu cầu bằng lái thương mại mà cả hai đều không có." }
+          ],
+          "answerIndex": 3,
+          "category": "similar_choices",
+          "evidence": "One's completely booked, and the other needs a commercial licence for anything that size. Dmitri doesn't have one, and neither do I.",
+          "explanationVi": "Có hai lý do khác nhau cho hai công ty. Đáp án A chỉ đúng một nửa. 'Neither do I' = tôi cũng không có.",
+          "vocabulary": ["commercial licence"]
+        },
+        {
+          "number": 5,
+          "prompt": "Why does Nadia suggest sending most of the dairy to Newton?",
+          "options": [
+            { "text": "Newton's cooler is larger than theirs.", "trap": "not_mentioned", "whyVi": "Kwame chỉ nói kho ở Newton còn chỗ, không nói nó lớn hơn." },
+            { "text": "Newton is much closer to the store, so each trip would be shorter.", "trap": "none", "whyVi": "Đúng: Newton chỉ cách FreshWay 10 phút, so với 40 phút về kho chính." },
+            { "text": "Newton has asked for all of the donation.", "trap": "too_broad", "whyVi": "Chỉ một nửa số sữa vốn dành cho Newton, không phải toàn bộ." },
+            { "text": "Kwame will be at Newton that afternoon.", "trap": "word_match", "whyVi": "Kwame có đến Newton hôm thứ Ba, không phải chiều nay." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "And Newton's only ten minutes from FreshWay.",
+          "explanationVi": "Nadia so sánh 40 phút mỗi chiều với 10 phút đến Newton. Đáp án B diễn đạt thành 'much closer ... each trip would be shorter'.",
+          "vocabulary": ["cut it close"]
+        },
+        {
+          "number": 6,
+          "prompt": "What doubt does Kwame raise about Nadia's plan?",
+          "options": [
+            { "text": "The church's van may already be needed that day.", "trap": "none", "whyVi": "Đúng: xe chạy tuyến cơm trưa cho người cao tuổi vào thứ Năm, mà hôm nay là thứ Năm." },
+            { "text": "Pastor Lim does not usually cooperate.", "trap": "opposite", "whyVi": "Kwame nói 'Pastor Lim's usually great'." },
+            { "text": "The Newton site has no room in its cooler.", "trap": "opposite", "whyVi": "Kwame xác nhận kho Newton 'has room'." },
+            { "text": "The van can carry only two pallets at a time.", "trap": "partially_true", "whyVi": "Đúng là xe nhỏ, nhưng kế hoạch Newton đã giải quyết điều này; nỗi lo cuối của Kwame là lịch của xe." }
+          ],
+          "answerIndex": 0,
+          "category": "speaker_attitude",
+          "evidence": "that van does the seniors' lunch run on Thursdays, and today's Thursday",
+          "explanationVi": "'If the church says yes ... but' cho thấy nghi ngại. Lý do: xe đã có lịch chạy hôm nay. Đáp án A diễn đạt lại thành 'may already be needed that day'.",
+          "vocabulary": []
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Kwame", "voice": "male_b", "text": "Okay, Pastor Lim called back. The seniors' lunch run wraps up around one-thirty, so we can have the van from two until we're done." },
+        { "speaker": "Nadia", "voice": "female_a", "text": "Perfect. Who's driving?" },
+        { "speaker": "Kwame", "voice": "male_b", "text": "Their usual driver, Gerald. The church's insurance only covers him and the pastor, so nobody else can get behind the wheel. Which is fine by me, honestly. He knows that van inside out. I'll ride along and handle the paperwork at FreshWay." },
+        { "speaker": "Nadia", "voice": "female_a", "text": "Good. I'll call Newton right now and warn them to expect a lot of yogurt. I'd better ask if they can spare a couple of volunteers to unload on their end, too." },
+        { "speaker": "Kwame", "voice": "male_b", "text": "One more thing. Pastor Lim wouldn't take any money, but I think we should do something for them. Maybe set aside a few cases for their lunch program?" },
+        { "speaker": "Nadia", "voice": "female_a", "text": "Absolutely, that's the least we can do. Put it on the list for Saturday, and I'll send him a proper thank-you once the dust settles." }
+      ],
+      "questions": [
+        {
+          "number": 7,
+          "prompt": "Why will Gerald drive the church's van?",
+          "options": [
+            { "text": "Kwame does not know the route to FreshWay.", "trap": "not_mentioned", "whyVi": "Bài không nói Kwame không biết đường." },
+            { "text": "Pastor Lim is busy with the lunch program.", "trap": "not_mentioned", "whyVi": "Không có thông tin mục sư bận." },
+            { "text": "He is one of the few people the church's coverage allows to drive.", "trap": "none", "whyVi": "Đúng: bảo hiểm của nhà thờ chỉ cho Gerald và mục sư lái." },
+            { "text": "He has the commercial licence that the van requires.", "trap": "wrong_detail", "whyVi": "Bằng lái thương mại liên quan đến xe tải thuê ở đoạn 2, không phải xe của nhà thờ." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "The church's insurance only covers him and the pastor, so nobody else can get behind the wheel.",
+          "explanationVi": "'Insurance only covers him and the pastor' = chỉ hai người được phép lái. Đáp án C diễn đạt 'insurance' thành 'coverage' và 'get behind the wheel' thành 'drive'.",
+          "vocabulary": ["get behind the wheel"]
+        },
+        {
+          "number": 8,
+          "prompt": "How do Nadia and Kwame plan to thank the church?",
+          "options": [
+            { "text": "By paying Pastor Lim for the use of the van.", "trap": "opposite", "whyVi": "Mục sư không nhận tiền ('wouldn't take any money')." },
+            { "text": "By inviting the church to Saturday's hamper day.", "trap": "word_match", "whyVi": "'Saturday' được nhắc nhưng là thời điểm chuẩn bị quà, không phải lời mời." },
+            { "text": "By sending a thank-you note only.", "trap": "partially_true", "whyVi": "Có gửi thư cảm ơn, nhưng họ còn để dành vài thùng sữa chua cho nhà thờ." },
+            { "text": "By giving part of the donation to the church's meal program.", "trap": "none", "whyVi": "Đúng: để riêng vài thùng cho chương trình cơm trưa, và gửi lời cảm ơn." }
+          ],
+          "answerIndex": 3,
+          "category": "long_conversation",
+          "evidence": "Maybe set aside a few cases for their lunch program?",
+          "explanationVi": "'Set aside a few cases for their lunch program' = để dành một phần hàng cho chương trình bữa ăn. Đáp án C là bẫy vì chữ 'only' bỏ mất phần quà chính.",
+          "vocabulary": ["set aside", "once the dust settles"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "be at it", "vi": "đang loay hoay làm việc gì", "definition": "to be busy working on something", "example": "Dmitri's been at it for half an hour." },
+    { "term": "walk-in cooler", "vi": "kho lạnh (đi vào được)", "definition": "a refrigerated room large enough to walk into", "example": "Their walk-in cooler has to be empty by six." },
+    { "term": "a slap in the face", "vi": "một cú tát vào mặt (điều gây tổn thương/thất vọng)", "definition": "something that seems to show no respect for your efforts", "example": "Throwing the food away would be a slap in the face." },
+    { "term": "talk someone into something", "vi": "thuyết phục ai làm gì", "definition": "to persuade someone to do something", "example": "We talked the store into donating instead of tossing food." },
+    { "term": "commercial licence", "vi": "bằng lái xe thương mại", "definition": "a driver's licence needed to drive large trucks or vehicles for business", "example": "You need a commercial licence for a truck that size." },
+    { "term": "cut it close", "vi": "sát giờ, suýt soát", "definition": "to leave very little time or margin", "example": "Four round trips would be cutting it way too close." },
+    { "term": "get behind the wheel", "vi": "cầm lái", "definition": "to drive a vehicle", "example": "Only Gerald can get behind the wheel of the church van." },
+    { "term": "set aside", "vi": "để dành riêng", "definition": "to keep something for a particular purpose", "example": "Let's set aside a few cases for their lunch program." },
+    { "term": "once the dust settles", "vi": "khi mọi chuyện lắng xuống", "definition": "when a busy or confused situation has calmed down", "example": "I'll send a thank-you once the dust settles." }
+  ],
+  "estimatedMinutes": 11,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; keys matched; trip logic (2 pallets per load, Newton 10 min vs 40 min) and traps checked; FreshWay is fictional. Fixed: Kwame's name was never spoken in the audio; added it to Nadia's first line." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

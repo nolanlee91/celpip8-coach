@@ -1,0 +1,187 @@
+{
+  "id": "l1-mock-03",
+  "kind": "listening",
+  "taskType": "L1",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "education",
+  "title": "A school bus route that is being cut",
+  "context": "You will hear two parents in Maple Ridge discussing how their son will get to school after the district changes his bus route.",
+  "chunks": [
+    {
+      "segments": [
+        { "speaker": "Grace", "voice": "female_b", "text": "Hamid, did you see the letter that came home in Leo's backpack? The school district's cutting the bus route that goes past our street." },
+        { "speaker": "Hamid", "voice": "male_a", "text": "What? Starting when, Grace?" },
+        { "speaker": "Grace", "voice": "female_b", "text": "Next Monday. They say they can't find enough drivers, so they're combining two routes into one. The closest stop is now the community centre on Cedar Road." },
+        { "speaker": "Hamid", "voice": "male_a", "text": "Cedar Road? That's a twenty-five-minute walk for a seven-year-old. Along the main road, with no sidewalk for half of it." },
+        { "speaker": "Grace", "voice": "female_b", "text": "Exactly. And the bus comes at seven-forty now instead of eight-ten, because the route's so much longer." },
+        { "speaker": "Hamid", "voice": "male_a", "text": "Seven-forty. He's barely awake at seven-forty. Okay, did they say anything about families who can't get to the new stop?" },
+        { "speaker": "Grace", "voice": "female_b", "text": "Just that we can apply for an exception if there's a safety issue, and they'll review it. But it says reviews take four to six weeks." },
+        { "speaker": "Hamid", "voice": "male_a", "text": "So it'll be November before we hear anything. That's no help to us next week." }
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "Why is the school district changing the bus route?",
+          "options": [
+            { "text": "Too few students were taking the bus.", "trap": "not_mentioned", "whyVi": "Bài không nói số học sinh đi xe buýt ít." },
+            { "text": "It does not have enough staff to drive the buses.", "trap": "none", "whyVi": "Đúng: 'they can't find enough drivers' – thiếu tài xế." },
+            { "text": "The district has cut its transportation budget.", "trap": "not_mentioned", "whyVi": "Không có thông tin về cắt giảm ngân sách." },
+            { "text": "The community centre asked for a new stop.", "trap": "word_match", "whyVi": "Trung tâm cộng đồng chỉ là vị trí trạm mới, không phải bên yêu cầu thay đổi." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "They say they can't find enough drivers, so they're combining two routes into one.",
+          "explanationVi": "'Can't find enough drivers' được diễn đạt lại thành 'does not have enough staff to drive the buses'.",
+          "vocabulary": []
+        },
+        {
+          "number": 2,
+          "prompt": "What will be different about the bus from next Monday?",
+          "options": [
+            { "text": "It will pick students up earlier than before.", "trap": "none", "whyVi": "Đúng: xe đến lúc 7:40 thay vì 8:10." },
+            { "text": "It will arrive at the stop at eight-ten.", "trap": "wrong_detail", "whyVi": "8:10 là giờ cũ; giờ mới là 7:40." },
+            { "text": "It will stop directly outside their house.", "trap": "opposite", "whyVi": "Trạm gần nhất giờ ở trung tâm cộng đồng, đi bộ 25 phút." },
+            { "text": "It will no longer run on Mondays.", "trap": "word_match", "whyVi": "'Next Monday' là ngày bắt đầu thay đổi, không phải ngày xe ngừng chạy." }
+          ],
+          "answerIndex": 0,
+          "category": "missed_info",
+          "evidence": "the bus comes at seven-forty now instead of eight-ten",
+          "explanationVi": "Nghe hai con số: 'seven-forty now instead of eight-ten'. Giờ mới sớm hơn 30 phút, nên đáp án A đúng. Đáp án B dùng giờ cũ.",
+          "vocabulary": []
+        },
+        {
+          "number": 3,
+          "prompt": "What is Hamid's concern about applying for an exception?",
+          "options": [
+            { "text": "The district is unlikely to accept it.", "trap": "not_mentioned", "whyVi": "Hamid không đoán kết quả; anh chỉ lo về thời gian." },
+            { "text": "The form asks for too much information.", "trap": "not_mentioned", "whyVi": "Bài không nói gì về độ dài của đơn." },
+            { "text": "Only families with safety issues can apply.", "trap": "partially_true", "whyVi": "Đúng là điều kiện là vấn đề an toàn, nhưng Hamid không lo điều đó vì con đường không có vỉa hè." },
+            { "text": "A decision will not come in time to solve the immediate problem.", "trap": "none", "whyVi": "Đúng: xét duyệt mất 4–6 tuần, nhưng thay đổi bắt đầu tuần sau." }
+          ],
+          "answerIndex": 3,
+          "category": "speaker_attitude",
+          "evidence": "So it'll be November before we hear anything. That's no help to us next week.",
+          "explanationVi": "'November before we hear anything' và 'no help to us next week' cho thấy Hamid lo rằng kết quả đến quá muộn. Đáp án D diễn đạt lại thành 'not come in time'.",
+          "vocabulary": ["exception"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Hamid", "voice": "male_a", "text": "Alright. What if I just drive him? I could drop him off on my way to the depot." },
+        { "speaker": "Grace", "voice": "female_b", "text": "You start at seven, though. The school doesn't open its doors until eight-twenty. You can't leave him in the parking lot for an hour." },
+        { "speaker": "Hamid", "voice": "male_a", "text": "Right. What about the before-school program? The one in the gym?" },
+        { "speaker": "Grace", "voice": "female_b", "text": "I called this morning. It's full, and there's a waitlist of about fifteen kids. The woman I spoke to was honest, she said she wouldn't count on a spot this year." },
+        { "speaker": "Hamid", "voice": "male_a", "text": "Hmm. Okay, what about the Petrovs? Their girl's in Leo's class, and Elena works from home, doesn't she?" },
+        { "speaker": "Grace", "voice": "female_b", "text": "She does. I actually ran into her at the grocery store, and she got the same letter. She was talking about walking Anya to school herself, since it's only ten minutes on foot if you take the trail." },
+        { "speaker": "Hamid", "voice": "male_a", "text": "Then why don't we ask if Leo can walk with them? We could take turns. She does mornings, and I do the afternoon pickup on my early days." },
+        { "speaker": "Grace", "voice": "female_b", "text": "I like that. She seemed pretty stressed about it too, so I think she'd welcome the help." }
+      ],
+      "questions": [
+        {
+          "number": 4,
+          "prompt": "Why can't Hamid drive Leo to school?",
+          "options": [
+            { "text": "He does not have a car on weekdays.", "trap": "not_mentioned", "whyVi": "Bài không nói Hamid không có xe." },
+            { "text": "The school does not allow parents to drop children off.", "trap": "wrong_detail", "whyVi": "Vấn đề là trường mở cửa muộn, không phải cấm phụ huynh đưa con." },
+            { "text": "His workday begins long before the school opens.", "trap": "none", "whyVi": "Đúng: anh bắt đầu làm lúc 7 giờ, trường mở cửa lúc 8:20." },
+            { "text": "The depot is in the opposite direction from the school.", "trap": "opposite", "whyVi": "Hamid nói có thể đưa con 'on my way to the depot', tức là cùng đường." }
+          ],
+          "answerIndex": 2,
+          "category": "paraphrase",
+          "evidence": "You start at seven, though. The school doesn't open its doors until eight-twenty.",
+          "explanationVi": "So sánh hai mốc giờ: 7:00 và 8:20. Đáp án C diễn đạt lại thành 'workday begins long before the school opens'.",
+          "vocabulary": ["drop someone off"]
+        },
+        {
+          "number": 5,
+          "prompt": "What did Grace find out about the before-school program?",
+          "options": [
+            { "text": "It has space for Leo starting next week.", "trap": "opposite", "whyVi": "Chương trình đã đầy và có danh sách chờ khoảng 15 em." },
+            { "text": "Leo is unlikely to get a place in it this year.", "trap": "none", "whyVi": "Đúng: người phụ trách nói 'wouldn't count on a spot this year'." },
+            { "text": "It costs too much for their family.", "trap": "not_mentioned", "whyVi": "Không nhắc đến học phí." },
+            { "text": "It is only for students in older grades.", "trap": "not_mentioned", "whyVi": "Không có thông tin về độ tuổi." }
+          ],
+          "answerIndex": 1,
+          "category": "paraphrase",
+          "evidence": "she said she wouldn't count on a spot this year",
+          "explanationVi": "'Wouldn't count on a spot' = đừng trông chờ có chỗ. Đáp án B diễn đạt lại thành 'unlikely to get a place'.",
+          "vocabulary": ["waitlist", "count on"]
+        },
+        {
+          "number": 6,
+          "prompt": "What do Grace and Hamid decide to suggest to Elena?",
+          "options": [
+            { "text": "That she drive both children to school each morning.", "trap": "wrong_detail", "whyVi": "Elena định đi bộ đưa con qua đường mòn, không phải lái xe." },
+            { "text": "That Hamid take both children in the mornings.", "trap": "wrong_speaker", "whyVi": "Theo đề xuất, Elena lo buổi sáng, Hamid lo buổi chiều." },
+            { "text": "That they apply for an exception together.", "trap": "not_mentioned", "whyVi": "Họ không bàn việc nộp đơn chung." },
+            { "text": "That the two families share the job of taking the children to and from school.", "trap": "none", "whyVi": "Đúng: 'We could take turns' – Elena buổi sáng, Hamid đón buổi chiều." }
+          ],
+          "answerIndex": 3,
+          "category": "long_conversation",
+          "evidence": "We could take turns. She does mornings, and I do the afternoon pickup on my early days.",
+          "explanationVi": "'Take turns' = thay phiên nhau. Đáp án D diễn đạt lại thành 'share the job'.",
+          "vocabulary": ["take turns"]
+        }
+      ]
+    },
+    {
+      "segments": [
+        { "speaker": "Grace", "voice": "female_b", "text": "So I texted Elena, and she's in. She'll walk them both every morning, and she said she's happy to do Wednesday afternoons too, since that's my late day." },
+        { "speaker": "Hamid", "voice": "male_a", "text": "That's great. So I'd cover Monday, Tuesday and Thursday afternoons? And Friday?" },
+        { "speaker": "Grace", "voice": "female_b", "text": "Fridays are early dismissal, so I can grab them on my lunch break. That leaves you three days, and you're off at three anyway." },
+        { "speaker": "Hamid", "voice": "male_a", "text": "Done. Should we still apply for the exception, though? If this works, maybe we don't need it." },
+        { "speaker": "Grace", "voice": "female_b", "text": "I'd still send it in. Elena might not be able to do this forever, and if they approve a closer stop, we've got a backup. Plus, the more families who complain about that stretch of road, the better the chance the city actually puts in a sidewalk." },
+        { "speaker": "Hamid", "voice": "male_a", "text": "Fair point. I'll fill out the form tonight and take a few photos of the road where there's no sidewalk. Pictures are harder to ignore than a letter." }
+      ],
+      "questions": [
+        {
+          "number": 7,
+          "prompt": "Who will pick the children up on Fridays?",
+          "options": [
+            { "text": "Elena, after she finishes work.", "trap": "wrong_detail", "whyVi": "Elena đón chiều thứ Tư, không phải thứ Sáu." },
+            { "text": "Grace, during her midday break.", "trap": "none", "whyVi": "Đúng: thứ Sáu tan học sớm, Grace đón trong giờ nghỉ trưa." },
+            { "text": "Hamid, because he finishes at three.", "trap": "partially_true", "whyVi": "Hamid đúng là xong việc lúc 3 giờ, nhưng anh lo thứ Hai, Ba, Năm." },
+            { "text": "The children will take the new bus.", "trap": "not_mentioned", "whyVi": "Không có kế hoạch cho trẻ đi xe buýt mới." }
+          ],
+          "answerIndex": 1,
+          "category": "missed_info",
+          "evidence": "Fridays are early dismissal, so I can grab them on my lunch break.",
+          "explanationVi": "'Grab them on my lunch break' = đón trong giờ nghỉ trưa. Đáp án B diễn đạt 'lunch break' thành 'midday break'. Chú ý phân biệt lịch của từng người.",
+          "vocabulary": ["early dismissal"]
+        },
+        {
+          "number": 8,
+          "prompt": "Why does Grace want to apply for the exception anyway?",
+          "options": [
+            { "text": "Elena asked them to apply on her behalf.", "trap": "not_mentioned", "whyVi": "Elena không yêu cầu điều này." },
+            { "text": "The walking plan cannot start until November.", "trap": "word_match", "whyVi": "'November' được nhắc ở đoạn 1 về kết quả xét duyệt, không phải thời điểm bắt đầu đi bộ." },
+            { "text": "It would give them a fallback and could push for a safer road.", "trap": "none", "whyVi": "Đúng: có phương án dự phòng nếu Elena không tiếp tục được, và nhiều gia đình phàn nàn thì có thể có vỉa hè." },
+            { "text": "Hamid insisted that they apply.", "trap": "wrong_speaker", "whyVi": "Hamid còn hỏi có cần nộp nữa không; chính Grace muốn nộp." }
+          ],
+          "answerIndex": 2,
+          "category": "long_conversation",
+          "evidence": "if they approve a closer stop, we've got a backup. Plus, the more families who complain about that stretch of road, the better the chance the city actually puts in a sidewalk",
+          "explanationVi": "Grace nêu hai lý do: 'a backup' (dự phòng = fallback) và nhiều người phàn nàn thì thành phố có thể làm vỉa hè (a safer road). Đáp án C gộp cả hai.",
+          "vocabulary": ["backup"]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "term": "exception", "vi": "ngoại lệ", "definition": "a case where a rule does not apply", "example": "Families can apply for an exception if there's a safety issue." },
+    { "term": "drop someone off", "vi": "thả ai xuống, đưa ai đến nơi", "definition": "to take someone somewhere in a car and leave them there", "example": "I could drop him off on my way to work." },
+    { "term": "waitlist", "vi": "danh sách chờ", "definition": "a list of people waiting for a place that is not available yet", "example": "There's a waitlist of about fifteen kids." },
+    { "term": "count on", "vi": "trông cậy vào, tin chắc", "definition": "to expect something to happen and depend on it", "example": "I wouldn't count on getting a spot this year." },
+    { "term": "take turns", "vi": "thay phiên nhau", "definition": "to do something one after another, sharing a task", "example": "We could take turns walking the kids to school." },
+    { "term": "early dismissal", "vi": "tan học sớm", "definition": "a day when students are allowed to leave school earlier than usual", "example": "Fridays are early dismissal at Leo's school." },
+    { "term": "backup", "vi": "phương án dự phòng", "definition": "something you can use if your main plan does not work", "example": "If they approve a closer stop, we've got a backup." },
+    { "term": "stretch of road", "vi": "một đoạn đường", "definition": "a section of a road", "example": "Families have complained about that stretch of road." }
+  ],
+  "estimatedMinutes": 10,
+  "source": "curated",
+  "review": { "status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Blind-solved all 8 Qs; keys matched; schedule details (7:00 start, 8:20 doors, Friday pickup) consistent across chunks. Fixed: Grace's name now spoken in the audio; Q4 option D trap changed to 'opposite' since 'on my way to the depot' contradicts it." },
+  "createdAt": "2026-11-03",
+  "focus": []
+}

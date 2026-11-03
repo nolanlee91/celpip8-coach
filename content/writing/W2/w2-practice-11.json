@@ -1,0 +1,72 @@
+{
+  "id": "w2-practice-11",
+  "kind": "writing",
+  "taskType": "W2",
+  "setType": "practice",
+  "difficulty": 9,
+  "topic": "social",
+  "title": "Cultural society budget: one summer festival or monthly gatherings",
+  "situation": "You are a member of the Harbourview Multicultural Society in Nanaimo, which helps newcomers settle in and celebrates the cultures of its members. This year, the society has $18,000 for events. The board has narrowed the plan down to two options and is asking members to vote.",
+  "instructions": [
+    "Choose the option you prefer. Explain the reasons for your choice.",
+    "Write about 150–200 words."
+  ],
+  "optionA": "Option A: Spend the entire budget on one large weekend festival in Bayside Park in August, with live performances, food vendors and a cultural parade. It would be open to the public and could attract up to 5,000 visitors, raising the society's profile with the city and potential sponsors.",
+  "optionB": "Option B: Hold ten smaller monthly gatherings in rented community halls, such as potlucks, language exchanges, cooking workshops and holiday celebrations. These would be open mainly to members and their families, with about 60 to 80 people at each event.",
+  "structure": [
+    "Opening: concede the other option's main strength, then state your choice with a 'budget would go further' argument",
+    "Reason 1: the society's real purpose (long-term connections) — contrast one-off vs. recurring contact, with a personal example",
+    "Reason 2: risk — the festival depends on weather and volunteers",
+    "Nuanced concession: visibility matters + a small idea that keeps your choice intact",
+    "Conclusion tying the choice to the members who fund the society"
+  ],
+  "modelResponse": "Although a summer festival would raise our society's profile, I would argue that the budget would go further if it were spread across monthly gatherings.\n\nIn my view, the real value of our society lies in the connections it builds over time. A single weekend, however memorable, offers little chance for people to get to know one another; most visitors would watch a performance, buy some food and go home. Regular potlucks and language exchanges, on the other hand, give newcomers a reason to come back each month, and those repeated contacts are what turn strangers into friends. When my family first moved to Nanaimo, it was exactly this kind of small, recurring event that helped us feel at home.\n\nThere is also a practical consideration. A large outdoor festival hinges on good weather and dozens of volunteers, so one rainy weekend could wipe out the year's budget in one go.\n\nThat is not to say visibility does not matter. Perhaps one of the monthly gatherings could be a public open house, giving the wider community a taste of what we offer.\n\nOn balance, smaller, sustained events would better serve the members who make the society what it is.",
+  "usefulExpressions": [
+    {
+      "expression": "I would argue that the budget would go further if…",
+      "usageVi": "'go further' = được dùng hiệu quả hơn (tiền); 'I would argue' là cách nêu quan điểm học thuật, tinh tế."
+    },
+    {
+      "expression": "the real value of… lies in…",
+      "usageVi": "Giá trị thật sự nằm ở… — cấu trúc nhấn mạnh trang trọng."
+    },
+    {
+      "expression": "however memorable",
+      "usageVi": "Dù đáng nhớ đến đâu — mệnh đề nhượng bộ rút gọn, dấu hiệu của Level 9."
+    },
+    {
+      "expression": "it was exactly this kind of… that…",
+      "usageVi": "Câu chẻ (cleft sentence) để nhấn mạnh trải nghiệm cá nhân."
+    },
+    {
+      "expression": "hinges on…",
+      "usageVi": "Phụ thuộc hoàn toàn vào — thay thế nâng cao cho 'depends on'."
+    },
+    {
+      "expression": "wipe out… in one go",
+      "usageVi": "Xóa sạch/mất trắng chỉ trong một lần — thành ngữ tự nhiên, sinh động."
+    },
+    {
+      "expression": "That is not to say (that)…",
+      "usageVi": "Nhượng bộ khéo: 'Điều đó không có nghĩa là…' — giúp bài cân bằng mà không yếu lập trường."
+    },
+    {
+      "expression": "On balance, …",
+      "usageVi": "Cân nhắc mọi mặt thì… — mở đầu kết luận ở mức cao."
+    }
+  ],
+  "commonMistakes": [
+    "Đề xuất chia đôi ngân sách (vừa lễ hội vừa họp mặt). Có thể gợi ý một ý nhỏ bổ sung, nhưng lựa chọn chính phải là A hoặc B.",
+    "Dùng 'make friend with' → 'make friends with' (luôn số nhiều).",
+    "Lặp lại 'festival' và 'gathering' quá nhiều lần. Ở Level 9 cần thay thế: 'a single weekend', 'regular potlucks', 'small, recurring events'.",
+    "Câu dài nhưng sai cấu trúc 'Although…, but…'. Trong tiếng Anh không dùng cả 'although' và 'but' trong cùng một câu."
+  ],
+  "estimatedMinutes": 26,
+  "source": "curated",
+  "review": {
+    "status": "approved",
+    "reviewedBy": "independent AI review (Claude)",
+    "notes": "Independent review: checked balance (one high-profile festival vs ten member gatherings, same $18,000), Level 9 features (cleft sentence, 'however memorable', 'hinges on'), concession with a small idea that keeps the choice intact, word count 199. No changes needed."
+  },
+  "createdAt": "2026-11-03"
+}

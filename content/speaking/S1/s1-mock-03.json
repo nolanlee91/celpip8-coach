@@ -1,0 +1,55 @@
+{
+  "id": "s1-mock-03",
+  "kind": "speaking",
+  "taskType": "S1",
+  "setType": "mock",
+  "difficulty": 7,
+  "topic": "transportation",
+  "title": "Advice for a friend buying a first car",
+  "prompt": "Your friend Olena has just started a new job in Surrey, and the bus trip from her home takes almost ninety minutes. She has decided to buy her first car, but she has a budget of only $15,000 and does not know much about cars.\n\nGive Olena some advice about buying her first car.",
+  "svg": null,
+  "options": null,
+  "structure": [
+    "Congratulate + show you understand the budget concern",
+    "Advice 1: consider a reliable used car and research models",
+    "Advice 2: get an inspection and check the vehicle history before paying",
+    "Advice 3: budget for insurance and running costs, not just the price",
+    "Offer help + encouragement"
+  ],
+  "modelAnswer": "Hi Olena, congratulations on the new job! Ninety minutes on the bus each way sounds exhausting, so I totally get why you want a car. Here are a few things I learned when I bought mine.\n\nFirst, with fifteen thousand dollars, I'd suggest looking at a good used car rather than a new one. Models like the Corolla or the Civic hold up really well, and if you're flexible about the age and the mileage, you can usually find a decent one within your budget. Do a bit of research online first so you know what a fair price looks like.\n\nSecond, and this is really important, never buy a car without getting it checked. Ask a mechanic to do a pre-purchase inspection. It usually costs around a hundred and fifty dollars, but it could save you thousands. You should also get a vehicle history report to make sure it hasn't been in a serious accident.\n\nThe last thing to keep in mind is that the price of the car is only the beginning. Insurance in BC can be quite expensive for new drivers, so get a quote before you buy. Don't forget about gas, parking and regular maintenance, either.\n\nIf you'd like, I'm happy to come along when you test-drive a few cars. Two sets of eyes are better than one. Good luck with the search!",
+  "usefulExpressions": [
+    {
+      "expression": "I'd suggest + V-ing… rather than…",
+      "usageVi": "So sánh hai lựa chọn và chỉ ra lựa chọn tốt hơn một cách lịch sự."
+    },
+    {
+      "expression": "hold up (well)",
+      "usageVi": "Cụm động từ: bền, dùng tốt lâu dài (xe, đồ dùng)."
+    },
+    {
+      "expression": "and this is really important, …",
+      "usageVi": "Nhấn mạnh lời khuyên quan trọng nhất — giúp bài nói có trọng tâm."
+    },
+    {
+      "expression": "The last thing to keep in mind is…",
+      "usageVi": "Báo hiệu ý cuối; 'keep in mind' = ghi nhớ, lưu ý."
+    },
+    {
+      "expression": "Don't forget about…, either.",
+      "usageVi": "Nhắc thêm chi phí phụ; 'either' dùng ở cuối câu phủ định."
+    },
+    {
+      "expression": "Two sets of eyes are better than one.",
+      "usageVi": "Câu nói thông dụng: hai người cùng xem thì tốt hơn một người."
+    }
+  ],
+  "commonMistakes": [
+    "Chỉ nói về giá xe mà quên chi phí khác. Ở BC bảo hiểm cho tài xế mới rất đắt — nêu ra cho thấy bạn hiểu tình huống thực tế.",
+    "Lặp lại 'You should' ở mọi câu. Thay bằng 'I'd suggest…', 'Ask a mechanic to…', 'The last thing to keep in mind is…'.",
+    "Đọc số tiền không rõ: 'fifteen thousand' và 'fifty thousand' rất dễ nghe nhầm. Nhấn âm cuối '-teen' rõ ràng."
+  ],
+  "estimatedMinutes": 3,
+  "source": "curated",
+  "review": {"status": "approved", "reviewedBy": "independent AI review (Claude)", "notes": "Checked used-car, inspection (~$150 is a realistic BC range), history report and BC insurance cost advice; removed the overclaim that a 4–5-year-old Corolla/Civic fits a $15,000 budget (now 'flexible about age and mileage'). ~225 words."},
+  "createdAt": "2026-11-03"
+}
