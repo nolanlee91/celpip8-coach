@@ -14,6 +14,7 @@
     "content:review": "tsx scripts/content-review.ts",
     "content:import": "tsx scripts/content-import.ts",
     "audio:generate": "tsx scripts/audio-generate.ts",
+    "translations": "tsx scripts/translations.ts",
     "test:smoke": "tsx scripts/smoke-test.ts",
     "test:learn": "tsx scripts/learn-test.ts",
     "test": "tsx scripts/learn-test.ts && tsx scripts/smoke-test.ts"

@@ -5,6 +5,8 @@ import { Badge, Markdown, TimerPill, useCountdown } from "./ui";
 import { SceneImage } from "./SpeakingRunner";
 import { startRecognition, sttSupported } from "../lib/speech";
 import { wordCount } from "../api";
+import { ReadAloud } from "./ReadAloud";
+import { Translation } from "./Translation";
 
 export type PublicStimulus = Stimulus & {
   audioUrl?: string | null;
@@ -25,7 +27,7 @@ export function StimulusView({ stim, revealed }: { stim: PublicStimulus | undefi
   return (
     <div className="stimulus">
       {stim.title && <div className="passage-label">{stim.title}</div>}
-      {stim.text && <div className="passage lesson-text"><Markdown text={stim.text} /></div>}
+      {stim.text && <div className="passage lesson-text">{!hasAudio && <ReadAloud text={stim.text} />}<Markdown text={stim.text} /><Translation texts={[stim.text]} /></div>}
       {stim.svg && <SceneImage svg={stim.svg} />}
       {hasAudio && (
         stim.audioUrl
@@ -38,6 +40,7 @@ export function StimulusView({ stim, revealed }: { stim: PublicStimulus | undefi
       {hasAudio && transcriptVisible && stim.transcript && (
         <div className="transcript small">
           {stim.transcript.map((t, i) => <p key={i}><strong>{t.speaker}:</strong> {t.text}</p>)}
+          <Translation texts={stim.transcript.map((t) => t.text)} labels={stim.transcript.map((t) => t.speaker)} />
         </div>
       )}
     </div>

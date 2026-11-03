@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import type { SpeakingPrompt } from "../../shared/types";
 import { SPEAKING_TASKS } from "../../shared/spec";
 import { startRecognition, startRecorder, sttSupported, uploadAudio } from "../lib/speech";
+import { Translation } from "./Translation";
 import { Card, TimerPill, useCountdown } from "./ui";
 
 export interface SpeakingOutput {
@@ -99,6 +100,7 @@ export function SpeakingRunner({ prompt, exam, onComplete }: { prompt: SpeakingP
         phase === "speak" ? <span className="row gap-s"><span className="badge bad rec">● Đang ghi âm</span><TimerPill seconds={speakLeft} warnAt={10} /></span> : null
       }>
         <p className="prompt-text">{prompt.prompt}</p>
+        <Translation texts={[prompt.prompt, ...(prompt.options ?? []).flatMap((o) => [o.title, ...o.details])]} />
         {prompt.svg && <SceneImage svg={prompt.svg} />}
         {prompt.options && (
           <div className="opt-cards">

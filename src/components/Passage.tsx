@@ -1,6 +1,8 @@
 import { useMemo, useRef, useState } from "react";
 import type { ReadingSection } from "../../shared/types";
 import { post } from "../api";
+import { ReadAloud, tableSpeech } from "./ReadAloud";
+import { Translation } from "./Translation";
 
 interface Highlight { start: number; end: number; note: string }
 
@@ -39,6 +41,7 @@ export function Passage({
     return (
       <div className="passage">
         <div className="passage-label">{section.label}</div>
+        <ReadAloud text={tableSpeech(t)} />
         <div className="table-wrap">
           <table className="diagram">
             <caption>{t.caption}</caption>
@@ -46,6 +49,7 @@ export function Passage({
             <tbody>{t.rows.map((r, i) => <tr key={i}>{r.map((c, j) => <td key={j}>{c}</td>)}</tr>)}</tbody>
           </table>
         </div>
+        <Translation texts={[tableSpeech(t)]} />
       </div>
     );
   }
@@ -99,6 +103,7 @@ export function Passage({
   return (
     <div className="passage">
       <div className="passage-label">{section.label}</div>
+      <ReadAloud text={section.text} />
       {sel && (
         <div className="sel-toolbar">
           <span className="muted small">“{sel.text.slice(0, 40)}{sel.text.length > 40 ? "…" : ""}”</span>
@@ -123,6 +128,7 @@ export function Passage({
           return cls ? <mark key={i} className={cls} title={hl?.note || (ev ? "Bằng chứng cho đáp án" : undefined)}>{text}</mark> : <span key={i}>{text}</span>;
         })}
       </div>
+      <Translation texts={[section.text]} />
       {highlights.some((h) => h.note) && (
         <ul className="notes">
           {highlights.filter((h) => h.note).map((h, i) => (

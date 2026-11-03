@@ -8,6 +8,7 @@ import { Badge, Card, ErrorBox, Loading, TimerPill, Unofficial, useCountdown } f
 import { History } from "../components/Practice";
 import { LibraryBrowser, PickReason, useLibraryPick } from "../components/Library";
 import { SubmissionPanel } from "../components/Productive";
+import { Translation } from "../components/Translation";
 import { useTutorContext } from "../components/Tutor";
 
 const draftKey = (id: string) => `celpip8-draft-${id}`;
@@ -125,6 +126,7 @@ function WritingSession({ prompt, banner, onNext, onRepeat, onExit }: { prompt: 
                 </div>
               )}
               <ul>{prompt.instructions.map((x, i) => <li key={i}>{x}</li>)}</ul>
+              <Translation texts={[prompt.situation, prompt.optionA, prompt.optionB, ...prompt.instructions]} labels={["", prompt.optionA ? "A" : "", prompt.optionB ? "B" : ""]} />
               <p className="muted small">Viết {spec.minWords}–{spec.maxWords} từ.</p>
             </Card>
             {prompt.structure?.length ? (

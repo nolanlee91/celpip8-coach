@@ -1,6 +1,7 @@
 import { Icon } from "./Icon";
 import { useEffect, useRef, useState } from "react";
 import type { ListeningSegment } from "../../shared/types";
+import { Translation } from "./Translation";
 import { loadVoices, speak, splitSentences, stopSpeaking, type VoiceRole } from "../lib/speech";
 
 /**
@@ -169,6 +170,7 @@ export function AudioTranscript({ segments, audio, evidence }: { segments: Liste
           ))}
         </div>
       ))}
+      <Translation texts={segments.map((s) => s.text)} labels={segments.map((s) => s.speaker)} />
       <p className="muted tiny">Bấm vào một câu để nghe lại {audio.segments ? "" : "(vị trí ≈ ước lượng theo độ dài câu)"}. Câu tô vàng là bằng chứng cho đáp án.</p>
     </div>
   );
@@ -194,6 +196,7 @@ export function Transcript({ segments, evidence, preferredVoice }: { segments: L
           ))}
         </div>
       ))}
+      <Translation texts={segments.map((s) => s.text)} labels={segments.map((s) => s.speaker)} />
       <p className="muted tiny">Bấm vào bất kỳ câu nào để nghe lại. Câu tô vàng là bằng chứng cho đáp án.</p>
     </div>
   );

@@ -361,3 +361,68 @@ export function lessonAudioStatus(l: Lesson): { ready: boolean; chunks: { key: s
   const st = audioStatus(lessonAudioSet(l));
   return { ready: st.ready, chunks: st.chunks.map((c, i) => ({ ...c, key: keys[i] })) };
 }
+
+// ---------- Read-aloud for reading passages ----------
+// Pre-generated with `npm run audio:generate -- --reading` into the bundled audio-assets/ folder
+// (committed to git). A passage without a bundled file is synthesized on first request and cached
+// in $DATA_DIR/audio-assets. Files are named tts-<hash>.mp3 after the voice and the exact text.
+
+const READ_VOICE = process.env.READ_ALOUD_VOICE || "en-CA-ClaraNeural";
+const pendingReads = new Map<string, Promise<string>>();
+
+export const readAloudName = (text: string) =>
+  `tts-${crypto.createHash("sha256").update(JSON.stringify({ v: 1, voice: READ_VOICE, clean: text.trim() })).digest("hex").slice(0, 16)}.mp3`;
+
+/** Full path of a read-aloud file in the bundled or generated store (null if missing). */
+export function readAloudFile(name: string): string | null {
+  const file = path.basename(name);
+  for (const dir of [BUNDLED_AUDIO_DIR, AUDIO_ASSETS_DIR]) if (fs.existsSync(path.join(dir, file))) return path.join(dir, file);
+  return null;
+}
+
+/**
+ * Splits long text at paragraph/sentence boundaries so each Edge request stays small. Short paragraphs
+ * (titles, greetings, sign-offs) are packed together: on their own Edge returns near-empty audio.
+ */
+function readChunks(text: string, max = 900): string[] {
+  const out: string[] = [];
+  let cur = "";
+  const push = (piece: string, sep: string) => {
+    if (cur && cur.length + piece.length > max) { out.push(cur.trim()); cur = ""; }
+    cur += (cur ? sep : "") + piece;
+  };
+  for (const para of text.split(/\n\s*\n/).map((p) => p.replace(/\s+/g, " ").trim()).filter((p) => /[a-z0-9]/i.test(p))) {
+    const sents = para.match(/[^.!?]+[.!?]+["')\]]*\s*|[^.!?]+$/g) ?? [para];
+    sents.forEach((s, i) => push(s.trim(), i === 0 ? "\n\n" : " "));
+  }
+  if (cur.trim()) out.push(cur.trim());
+  return out;
+}
+
+/** Returns the MP3 file name for `text`, generating it with Edge TTS into `outDir` if no file exists. */
+export async function readAloud(text: string, outDir = AUDIO_ASSETS_DIR): Promise<string> {
+  const clean = text.trim();
+  if (!clean) throw new AiError("Không có nội dung để đọc.", 400);
+  if (clean.length > 20000) throw new AiError("Đoạn văn quá dài để đọc.", 400);
+  const file = readAloudName(clean);
+  if (outDir === AUDIO_ASSETS_DIR ? readAloudFile(file) : fs.existsSync(path.join(outDir, file))) return file;
+  const pending = pendingReads.get(file);
+  if (pending) return pending;
+  const job = (async () => {
+    const edge = new EdgeClient();
+    try {
+      const parts: Buffer[] = [];
+      for (const c of readChunks(clean)) parts.push(await edge.synth(c, READ_VOICE), silence(0.35));
+      fs.mkdirSync(outDir, { recursive: true });
+      const tmp = path.join(outDir, file + ".tmp");
+      fs.writeFileSync(tmp, Buffer.concat(parts));
+      fs.renameSync(tmp, path.join(outDir, file));
+      return file;
+    } finally {
+      edge.close();
+      pendingReads.delete(file);
+    }
+  })();
+  pendingReads.set(file, job);
+  return job;
+}

@@ -16,7 +16,8 @@ import { AUDIO_PROVIDER, audioFilePath, audioJob, audioProviderReady, audioStatu
 import { learnRouter, learningSummary, lessonTutorContext, curView } from "./learn-routes";
 import { afterPrimaryVi, buildLearningPlan, isNewLearner, primaryAction } from "./coach";
 import { curriculum, reloadCurriculum } from "./lessons";
-import { lessonAudioSet } from "./audio";
+import { lessonAudioSet, readAloud, readAloudFile } from "./audio";
+import { translate } from "./translations";
 import { createJob, decide, getJob, importApproved, listJobs, readDraft, runJob, type JobSkill } from "./pipeline";
 import { CATEGORIES, SKILLS, TRAPS, type Skill } from "../shared/spec";
 import { TOPIC_LABEL, type VocabEntry } from "../shared/content";
@@ -434,6 +435,27 @@ app.get("/api/audio-assets/:file", (req, res) => {
   const full = /.(wav|mp3)$/.test(file) ? audioFilePath(file) : null;
   if (!full) return res.status(404).end();
   res.setHeader("Cache-Control", "private, max-age=31536000, immutable"); // file names contain the script hash
+  res.sendFile(full);
+});
+
+/** Pre-made Vietnamese translations for a list of English texts (null where none exists). */
+app.post("/api/translations", h((req, res) => {
+  const texts = (req.body as { texts?: unknown }).texts;
+  if (!Array.isArray(texts) || texts.length > 200) throw new AiError("Danh sách văn bản không hợp lệ.", 400);
+  res.json({ vi: texts.map((t) => (typeof t === "string" ? translate(t) : null)) });
+}));
+
+/** Read-aloud for reading passages: Edge TTS on first request, cached afterwards. */
+app.post("/api/read-aloud", h(async (req, res) => {
+  const file = await readAloud(String((req.body as { text?: string }).text ?? ""));
+  res.json({ url: `/api/read-aloud/${file}` });
+}));
+
+app.get("/api/read-aloud/:file", (req, res) => {
+  const file = path.basename(String(req.params.file));
+  const full = /^tts-[0-9a-f]+\.mp3$/.test(file) ? readAloudFile(file) : null;
+  if (!full) return res.status(404).end();
+  res.setHeader("Cache-Control", "private, max-age=31536000, immutable");
   res.sendFile(full);
 });
 

@@ -6,6 +6,7 @@ import { CATEGORIES, LISTENING_PARTS, READING_PARTS, SKILL_LABEL, SPEAKING_TASKS
 import { api, post, wordCount } from "../api";
 import { Badge, Card, Empty, ErrorBox, Loading, TimerPill, Unofficial, useCountdown } from "../components/ui";
 import { Passage } from "../components/Passage";
+import { Translation } from "../components/Translation";
 import { McqList } from "../components/Mcq";
 import { AudioChunkPlayer, SegmentPlayer } from "../components/ListeningPlayer";
 import { SpeakingRunner } from "../components/SpeakingRunner";
@@ -348,6 +349,7 @@ function ExamWriting({ mockId, contentId, onDone }: { mockId: string; contentId:
             </label>
           ))}
           <ul>{p.instructions.map((x, i) => <li key={i}>{x}</li>)}</ul>
+          <Translation texts={[p.situation, p.optionA, p.optionB, ...p.instructions]} labels={["", p.optionA ? "A" : "", p.optionB ? "B" : ""]} />
         </Card>
       </div>
       <div className="split-right">
