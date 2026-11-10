@@ -86,6 +86,14 @@ export function AiTrackPage() {
       <section className="card">
         <h3>{AI_TRACK_INTRO.nextLevelVi.title}</h3>
         <p className="muted">{AI_TRACK_INTRO.nextLevelVi.text}</p>
+        <ul className="level2-list">
+          {AI_TRACK_INTRO.nextLevelVi.courses.map((c) => (
+            <li key={c.url}>
+              <a href={c.url} target="_blank" rel="noreferrer"><strong>{c.label}</strong> <Icon name="external-link" size={14} /></a>
+              <p className="muted small">{c.noteVi}</p>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <NotePad id="ai-general" title="AI · Ghi chú chung" heading="Ghi chú chung về AI" placeholder="Ý tưởng, câu hỏi muốn hỏi, mục tiêu nghề nghiệp, việc muốn thử ở công ty…" />

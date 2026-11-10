@@ -45,6 +45,18 @@ export const AI_TRACK_INTRO = {
   nextLevelVi: {
     title: "Sau 8 tuần: Level 2 · System Design & Production AI Architecture (4–8 tuần)",
     text: "Biết tạo subagents chưa phải là AI Solutions Architect. Level 2 học thiết kế kiến trúc tổng thể, cân nhắc phương án kỹ thuật, bảo mật, chi phí và độ tin cậy khi đưa AI vào production. Sẽ soạn chi tiết khi xong Level 1.",
+    courses: [
+      {
+        label: "Microsoft · Core AI Solution Design (Coursera)",
+        url: "https://www.coursera.org/learn/core-ai-solution-design",
+        noteVi: "Gần nhất với vai trò kiến trúc sư: RAG, evaluation, chọn fine-tuning/RAG/prompt, có capstone tài liệu kiến trúc. Nằm trong Coursera Plus (trả phí, có thể xin financial aid); lab cần Azure AI Search gói Basic trở lên, tức là tốn tiền Azure.",
+      },
+      {
+        label: "IBM · Building AI Agents and Agentic Workflows (Coursera)",
+        url: "https://www.coursera.org/specializations/building-ai-agents-and-agentic-workflows",
+        noteVi: "3 khóa, khoảng 34 giờ: LangChain, LangGraph, CrewAI, AutoGen. Cần biết Python. Chứng chỉ IBM qua Coursera (trả phí). Dùng làm tài liệu tham khảo cho phần B, không bắt buộc.",
+      },
+    ],
   },
 };
 
@@ -147,6 +159,14 @@ export const AI_WEEKS: AiWeek[] = [
     week: 4, track: "A", title: "Bài kiểm tra A: tự điều hành team",
     goalVi: "Tự giao một tính năng thật cho team agent, không hỏi AI cách làm.",
     items: [
+      {
+        id: "ai-w4-sdlc", kind: "course", provider: "Anthropic", title: "Đọc: The AI-Native SDLC Playbook", durationVi: "~1–2 giờ",
+        certificateVi: "Bài viết + PDF, không có chứng chỉ.",
+        links: [{ label: "Đọc trên claude.com", url: "https://claude.com/blog/the-ai-native-sdlc-playbook" }],
+        whyVi: "Anthropic mô tả vòng đời phát triển phần mềm khi AI viết phần lớn code: Plan, Design, Build, Test, Deploy, Maintain. Mỗi giai đoạn để lại một tài liệu cho giai đoạn sau đọc. Đọc trước Technical Lead Challenge để dùng đúng khung này.",
+        checklist: ["Đọc hết bài (hoặc PDF)", "Tóm tắt 6 giai đoạn vào vở, mỗi giai đoạn 1–2 dòng", "Ghi lại: KDE Core đang thiếu tài liệu ở giai đoạn nào?"],
+        selfCheck: ["Khi viết code không còn là việc chậm nhất, thì việc gì chậm nhất trong quy trình của bạn?"],
+      },
       {
         id: "ai-w4-capstone-a", kind: "exam", title: "Technical Lead Challenge: KDE Core", durationVi: "~4–5 giờ",
         links: [],

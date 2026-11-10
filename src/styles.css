@@ -820,3 +820,5 @@ div.notepad-paper { display: flex; align-items: center; }
 .copy-block pre { width: 100%; box-sizing: border-box; margin: 0; padding: 12px; background: var(--panel-2); border: 1px solid var(--line); border-radius: var(--radius-s); font-size: 0.82rem; white-space: pre-wrap; overflow-wrap: anywhere; }
 .note-excerpt { min-width: 0; }
 .note-excerpt .small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.level2-list { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.level2-list p { margin: 2px 0 0; }
