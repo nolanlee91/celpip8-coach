@@ -325,6 +325,14 @@ export interface AiUsageEntry {
   cached: boolean;
 }
 
+/** A page in the learner's notebook: free text plus the ticked checklist lines of that section. */
+export interface NotebookEntry {
+  text: string;
+  title?: string;   // shown in the notebook index
+  checks: number[]; // indexes of ticked checklist lines (AI track items)
+  updatedAt: string;
+}
+
 export interface Db {
   version: 1;
   settings: Settings;
@@ -338,6 +346,7 @@ export interface Db {
   weekly: WeeklyAssessment[];
   planCompletions: Record<string, string[]>; // date -> completed block ids
   lessons: Record<string, LessonProgress>; // Learn Mode progress, keyed by lesson id
+  notebook: Record<string, NotebookEntry>; // learner's own notes ("quyển vở"), keyed by section id
   // Stored in ai.json (Layer C), separate from progress.json:
   submissions: Submission[];
   aiUsage: AiUsageEntry[];

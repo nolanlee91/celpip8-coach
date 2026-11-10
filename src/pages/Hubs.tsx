@@ -53,6 +53,8 @@ export function MorePage() {
     <div className="page">
       <div className="page-head"><h1>Thêm</h1></div>
       <EntryList entries={[
+        { to: "/notebook", icon: "notebook", title: "Vở ghi", text: "Mọi ghi chú CELPIP và AI ở một chỗ, có tìm kiếm" },
+        { to: "/ai", icon: "bot", title: "Lộ trình AI Agents", text: "8 tuần học Claude Code, subagents, Hugging Face" },
         { to: "/help", icon: "lightbulb", title: "Bắt đầu từ đâu?", text: "Cách học với ứng dụng, xem lại hướng dẫn bắt đầu" },
         { to: "/exam", icon: "list-checks", title: "Cấu trúc bài thi", text: "4 kỹ năng, từng part, số câu và thời gian khi đi thi" },
         { to: "/mistakes", icon: "notebook-pen", title: "Sổ lỗi", text: "Lỗi cần ôn hôm nay và hồ sơ điểm yếu" },

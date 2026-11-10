@@ -234,6 +234,18 @@ async function main() {
     check("server still healthy after tutor error", (await call("/api/health")).status === 200);
   }
 
+  // Notebook ("vở ghi"): notes and checklist ticks per section, saved in progress.json.
+  const nb = await call("/api/notebook/ai-w1-cc-action", { text: "CLAUDE.md = bộ nhớ dự án", checks: [2, 0, 0, -1, 500], title: "AI · Claude Code in Action" }, "PUT");
+  check("notebook page saved with clean checklist", nb.status === 200 && nb.data.text.startsWith("CLAUDE.md") && JSON.stringify(nb.data.checks) === "[0,2]", JSON.stringify(nb.data.checks));
+  const nbChecksOnly = await call("/api/notebook/ai-w1-cc-action", { checks: [1] }, "PUT");
+  check("ticking a checklist keeps the note text", nbChecksOnly.data.text.startsWith("CLAUDE.md") && nbChecksOnly.data.title === "AI · Claude Code in Action");
+  check("invalid notebook id rejected", (await call("/api/notebook/..%2Fhack", { text: "x" }, "PUT")).status === 400);
+  const nbAll = await call("/api/notebook");
+  const onDisk = JSON.parse(fs.readFileSync(path.join(dataDir, "progress.json"), "utf8"));
+  check("notebook listed and stored in progress.json", Boolean(nbAll.data["ai-w1-cc-action"]) && Boolean(onDisk.notebook?.["ai-w1-cc-action"]));
+  await call("/api/notebook/ai-w1-cc-action", { text: "", checks: [] }, "PUT");
+  check("emptied notebook page is removed", !(await call("/api/notebook")).data["ai-w1-cc-action"]);
+
   await stop();
   console.log(`\n${passed} passed, ${failed} failed. Temp data: ${dataDir}`);
   if (!failed) fs.rmSync(dataDir, { recursive: true, force: true });

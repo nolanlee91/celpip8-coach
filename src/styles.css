@@ -602,7 +602,7 @@ blockquote { border-left: none; background: var(--panel-2); border-radius: var(-
   .topbar .icon-btn { color: var(--rail-ink); width: 40px; height: 40px; }
   .topbar .icon-btn:hover { background: var(--rail-hover); color: #fff; }
   .tabbar {
-    display: grid; grid-template-columns: repeat(5, 1fr);
+    display: grid; grid-template-columns: repeat(6, 1fr);
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
     background: var(--panel); border-top: 1px solid var(--line);
     padding: 4px 4px calc(4px + env(safe-area-inset-bottom));
@@ -776,3 +776,47 @@ details.more summary { cursor: pointer; color: var(--accent); font-size: 0.9rem;
 .exam-tips li { display: flex; gap: 8px; align-items: flex-start; }
 .exam-tips .icon { flex-shrink: 0; margin-top: 3px; color: var(--warn); }
 @media (max-width: 760px) { .exam-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* ---------- Notebook ("vở ghi") ---------- */
+.notepad { display: flex; flex-direction: column; gap: 8px; }
+.notepad-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.notepad-head h3 { display: inline-flex; align-items: center; gap: 8px; margin: 0; }
+.notepad-status { font-size: 0.8rem; color: var(--muted); }
+.notepad-status.warn { color: var(--warn); }
+/* Ruled paper: lines follow the text's line height so writing sits on them. */
+.notepad-paper {
+  --lh: 1.75rem;
+  width: 100%; min-height: calc(var(--lh) * 6); box-sizing: border-box;
+  padding: calc(var(--lh) * 0.35) 14px 0 46px;
+  font-family: var(--serif); font-size: 1.02rem; line-height: var(--lh); color: var(--ink);
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background-color: var(--panel);
+  background-image:
+    linear-gradient(to right, transparent 34px, color-mix(in srgb, var(--bad) 35%, transparent) 34px, color-mix(in srgb, var(--bad) 35%, transparent) 35px, transparent 35px),
+    repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--lh) - 1px), var(--line) calc(var(--lh) - 1px), var(--line) var(--lh));
+  background-position: 0 0, 0 calc(var(--lh) * 0.35);
+  background-attachment: local;
+}
+.notepad-paper:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.notepad-paper::placeholder { color: var(--muted); opacity: 0.75; }
+div.notepad-paper { display: flex; align-items: center; }
+
+/* ---------- AI track ---------- */
+.ai-week { display: flex; flex-direction: column; gap: 10px; }
+.ai-week-head { display: flex; gap: 12px; align-items: flex-start; }
+.ai-week-head h2 { margin: 0; }
+.ai-week-head p { margin: 2px 0 0; }
+.ai-week-no { flex-shrink: 0; font-size: 0.78rem; font-weight: 650; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 3px 10px; margin-top: 3px; }
+.ai-track-tag { display: inline-block; margin-left: 4px; font-size: 0.75rem; color: var(--muted); }
+.ai-principles summary { cursor: pointer; }
+.ai-principles ul { margin: 10px 0 6px; padding-left: 20px; }
+.hub-icon.done { color: var(--good); background: var(--good-soft); }
+.checklist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+.checklist label { display: flex; gap: 10px; align-items: flex-start; padding: 8px 6px; border-radius: var(--radius-s); cursor: pointer; min-height: 40px; }
+.checklist label:hover { background: var(--panel-2); }
+.checklist input { width: 20px; height: 20px; margin: 1px 0 0; accent-color: var(--accent); flex-shrink: 0; }
+.checklist label.done span { color: var(--muted); text-decoration: line-through; }
+.copy-block { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.copy-block pre { width: 100%; box-sizing: border-box; margin: 0; padding: 12px; background: var(--panel-2); border: 1px solid var(--line); border-radius: var(--radius-s); font-size: 0.82rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+.note-excerpt { min-width: 0; }
+.note-excerpt .small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

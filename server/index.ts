@@ -369,6 +369,26 @@ app.post("/api/plan/complete", h(async (req, res) => {
   res.json({ ok: true });
 }));
 
+// Notebook: the learner's own notes per section (AI track items, CELPIP lessons, free pages).
+const NOTE_ID = /^[a-z0-9][a-z0-9_-]{0,79}$/i;
+app.get("/api/notebook", (_req, res) => res.json(load().notebook));
+app.put("/api/notebook/:id", h(async (req, res) => {
+  const id = String(req.params.id);
+  if (!NOTE_ID.test(id)) return res.status(400).json({ error: "Mã trang vở không hợp lệ" });
+  const db = load();
+  const prev = db.notebook[id] ?? { text: "", checks: [], updatedAt: now() };
+  const text = typeof req.body?.text === "string" ? req.body.text : prev.text;
+  if (text.length > 100_000) return res.status(413).json({ error: "Ghi chú quá dài (tối đa 100.000 ký tự)" });
+  const checks = Array.isArray(req.body?.checks)
+    ? [...new Set((req.body.checks as unknown[]).filter((n): n is number => Number.isInteger(n) && (n as number) >= 0 && (n as number) < 100))].sort((a, b) => a - b)
+    : prev.checks;
+  const title = typeof req.body?.title === "string" ? req.body.title.slice(0, 200) : prev.title;
+  if (!text.trim() && checks.length === 0) delete db.notebook[id];
+  else db.notebook[id] = { text, checks, ...(title ? { title } : {}), updatedAt: now() };
+  await save();
+  res.json(db.notebook[id] ?? { text: "", checks: [], updatedAt: now() });
+}));
+
 app.get("/api/settings", (_req, res) => res.json(load().settings));
 
 app.put("/api/settings", h(async (req, res) => {

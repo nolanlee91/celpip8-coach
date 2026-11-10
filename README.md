@@ -141,3 +141,8 @@ The same actions (validation, audio, generation, approval, AI usage) are on the 
 - **The dashboard** leads with one action: what to do now, why, how long, and what comes next. The rest of today's plan, due reviews and progress toward Level 8 sit below it.
 - **Every result screen** (lesson, practice, review) ends with one recommended next step and a way back to the dashboard.
 - **First visits** to Learn, Practice and Review show a short help note that you can dismiss.
+
+## Notebook and AI track
+
+- **Vở ghi (`/notebook`):** each CELPIP lesson and each AI item has its own notebook page with autosave. Notes are stored in `progress.json` (`notebook`), and a draft is kept in the browser if the server cannot be reached.
+- **Lộ trình AI Agents (`/ai`):** an 8-week plan for designing and running teams of AI agents (Claude Code, subagents, skills, MCP, Hugging Face Agents and Context). Each item has course links, its certificate condition, a checklist, self-check questions and a notebook page. Content lives in `shared/ai-track.ts`.

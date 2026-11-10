@@ -675,3 +675,31 @@ Then:
 - Paragraphs are no longer capped at 75ch; a "Cấu trúc bài thi" page explains the test format.
 
 **Not yet verified:** no human has read the new items or listened to the new audio; the AI review is careful but not expert certification.
+
+## 14. Notebook and AI Agents track (2026-11-10)
+
+**What was added**
+- **Vở ghi (notebook).** Every CELPIP lesson, every AI track item and two general pages have a ruled notebook page with autosave. Notes are stored in `progress.json` under `notebook` (`{ text, checks, title, updatedAt }` keyed by section id). While typing, a draft is also kept in `localStorage`. If the server cannot be reached, the draft survives and is pushed on the next save. `/notebook` lists every page, newest first, with search.
+- **Lộ trình AI Agents (`/ai`).** An 8-week plan in `shared/ai-track.ts`.
+  - Weeks 1–4 (track A, a team of agents that write software): Anthropic Academy (Claude Code in Action, Introduction to subagents, agent skills, MCP), plus hands-on practice on the learner's own system.
+  - Weeks 5–8 (track B, agents that run business operations): the Hugging Face Agents and Context courses, Building with the Claude API, and a portfolio (C4, ADR, 30 test cases).
+  - Each item has links, its certificate condition, a checklist (ticks saved in the notebook entry), self-check questions and a notebook page. Progress is derived from the ticks.
+- **Navigation.** On desktop, the sidebar gains a "Vở ghi" link (under Ôn tập) and a new "AI" section. On mobile, the tab bar now has 6 tabs (AI added), and "Thêm" lists both new pages.
+
+**API.**
+- `GET /api/notebook` returns all pages.
+- `PUT /api/notebook/:id` takes `{ text?, checks?, title? }` and only updates the fields sent.
+- The id must match `^[a-z0-9][a-z0-9_-]{0,79}$`. Text is capped at 100,000 characters. `checks` is de-duplicated and limited to integers 0–99. A page with no text and no ticks is deleted.
+
+**Verified.**
+- Typecheck and build pass. `npm test` gives 30/30 learn and 60/60 smoke; the smoke run includes 5 new notebook checks.
+- At 375 px in Chromium mobile emulation:
+  - Ticking a checklist line and typing a note both save to the server.
+  - Notes reload correctly when switching between AI items, lessons and `/notebook`.
+  - There is no horizontal scroll.
+- A bug that left the editor stuck on "Đang mở vở…" when the notebook was already cached was found and fixed during this check.
+
+**Not verified.**
+- Offline draft recovery was not tested by actually cutting the network.
+- Course links and certificate rules were checked on 2026-11-10 and may change; the items say "kiểm tra lại" where the rules were not confirmed on the course page.
+- There is no rich text, export or attachments in the notebook; it is plain text only.

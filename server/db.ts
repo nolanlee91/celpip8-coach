@@ -80,6 +80,7 @@ function emptyDb(): Db {
     weekly: [],
     planCompletions: {},
     lessons: {},
+    notebook: {},
     submissions: [],
     aiUsage: [],
     aiCache: {},

@@ -1,4 +1,5 @@
 import { NextStep } from "../components/NextStep";
+import { NotePad } from "../components/Notebook";
 import { LEARN_HELP } from "../components/helpText";
 import { HelpTip } from "../components/Guide";
 import { Icon } from "../components/Icon";
@@ -212,6 +213,8 @@ export function LessonPage() {
         <LessonResultView lesson={lesson} run={lastRun} progress={progress!} analysis={result?.analysis} mistakesAdded={result?.mistakesAdded}
           onRestart={() => void restart()} onAskTutor={askTutor(null)} onNext={(to) => nav(to)} />
       )}
+
+      <NotePad id={`lesson-${lesson.id}`} title={`CELPIP · ${lesson.titleVi}`} placeholder={"Ghi chép bài học…\n\nKỹ thuật chính:\n- \n\nCâu mẫu muốn nhớ:\n- \n\nLỗi mình hay mắc:\n- "} />
 
       {/* Mobile: step navigation within thumb reach (the step pills are hidden on small screens). */}
       <div className="lesson-nav">

@@ -20,6 +20,8 @@ import { LessonPage } from "./pages/Lesson";
 import { HelpPage, MorePage, PracticeHubPage } from "./pages/Hubs";
 import { ExamStructurePage } from "./pages/ExamStructure";
 import { GuideProvider } from "./components/Guide";
+import { AiItemPage, AiTrackPage } from "./pages/AiTrack";
+import { NotebookPage } from "./pages/NotebookPage";
 
 type NavItem = { to: string; label: string; icon: IconName };
 
@@ -39,6 +41,10 @@ const NAV: { section: string; items: NavItem[] }[] = [
   { section: "Ôn tập", items: [
     { to: "/mistakes", label: "Sổ lỗi", icon: "notebook-pen" },
     { to: "/vocabulary", label: "Từ vựng", icon: "library" },
+    { to: "/notebook", label: "Vở ghi", icon: "notebook" },
+  ] },
+  { section: "AI", items: [
+    { to: "/ai", label: "Lộ trình AI Agents", icon: "bot" },
   ] },
   { section: "Khác", items: [
     { to: "/help", label: "Bắt đầu từ đâu?", icon: "lightbulb" },
@@ -55,7 +61,8 @@ const TABS: { to: string; label: string; icon: IconName; match: string[] }[] = [
   { to: "/learn", label: "Lộ trình", icon: "graduation-cap", match: ["/learn"] },
   { to: "/practice", label: "Luyện thi", icon: "dumbbell", match: ["/practice", "/reading", "/listening", "/speaking", "/writing", "/mock", "/review", "/evaluation", "/submission"] },
   { to: "/vocabulary", label: "Từ vựng", icon: "library", match: ["/vocabulary"] },
-  { to: "/more", label: "Thêm", icon: "ellipsis", match: ["/more", "/help", "/exam", "/mistakes", "/planner", "/analytics", "/settings", "/admin"] },
+  { to: "/ai", label: "AI", icon: "bot", match: ["/ai"] },
+  { to: "/more", label: "Thêm", icon: "ellipsis", match: ["/more", "/notebook", "/help", "/exam", "/mistakes", "/planner", "/analytics", "/settings", "/admin"] },
 ];
 
 function TabBar() {
@@ -117,6 +124,9 @@ export function App() {
               <Route path="/learn/:id" element={<LessonPage />} />
               <Route path="/practice" element={<PracticeHubPage />} />
               <Route path="/more" element={<MorePage />} />
+              <Route path="/ai" element={<AiTrackPage />} />
+              <Route path="/ai/:id" element={<AiItemPage />} />
+              <Route path="/notebook" element={<NotebookPage />} />
               <Route path="/help" element={<HelpPage />} />
               <Route path="/exam" element={<ExamStructurePage />} />
               <Route path="/reading" element={<ReadingPage />} />
