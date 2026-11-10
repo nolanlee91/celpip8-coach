@@ -680,7 +680,7 @@ Then:
 
 **What was added**
 - **Vở ghi (notebook).** Every CELPIP lesson, every AI track item and two general pages have a ruled notebook page with autosave. Notes are stored in `progress.json` under `notebook` (`{ text, checks, title, updatedAt }` keyed by section id). While typing, a draft is also kept in `localStorage`. If the server cannot be reached, the draft survives and is pushed on the next save. `/notebook` lists every page, newest first, with search.
-- **Lộ trình AI Agents (`/ai`).** An 8-week plan in `shared/ai-track.ts`.
+- **Lộ trình AI Agents (`/ai`).** An 8-week plan in `shared/ai-track.ts`, labelled Level 1 (AI Agent Engineering & Technical Leadership). It has 13 items and 58 checklist lines, and a Level 2 note (System Design & Production AI Architecture, 4–8 weeks) to be written after Level 1. The 2026-11-10 revision added API/database/auth/RBAC/Git to Architecture Discovery, the 6-step Technical Lead Challenge in week 4, tool-call accuracy, error and permission tests in week 6, and token cost, latency, logging/retry and at least 3 ADRs in week 8.
   - Weeks 1–4 (track A, a team of agents that write software): Anthropic Academy (Claude Code in Action, Introduction to subagents, agent skills, MCP), plus hands-on practice on the learner's own system.
   - Weeks 5–8 (track B, agents that run business operations): the Hugging Face Agents and Context courses, Building with the Claude API, and a portfolio (C4, ADR, 30 test cases).
   - Each item has links, its certificate condition, a checklist (ticks saved in the notebook entry), self-check questions and a notebook page. Progress is derived from the ticks.

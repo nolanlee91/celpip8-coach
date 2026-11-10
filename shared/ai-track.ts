@@ -30,9 +30,11 @@ export interface AiWeek {
 
 export const AI_TRACK_INTRO = {
   title: "AI Agents: tự thiết kế và điều hành team agent",
+  levelVi: "Level 1 · AI Agent Engineering & Technical Leadership",
   summaryVi:
-    "Mục tiêu sau 8 tuần: tự dựng được một team agent (viết code, review, test) mà không cần AI gợi ý từng bước, hiểu kiến trúc hệ thống mình đã làm, và có 4–5 chứng chỉ hoàn thành miễn phí.",
+    "Mục tiêu sau 8 tuần: tự dựng được một team agent (viết code, review, test) mà không cần AI gợi ý từng bước, hiểu kiến trúc hệ thống mình đã làm, và nhắm tới 4–5 chứng chỉ hoàn thành miễn phí (là mục tiêu, không bảo đảm: kiểm tra điều kiện của từng khóa).",
   principlesVi: [
+    "Mỗi lần chỉ học một khóa: học xong, làm bài thực hành, rồi mới sang khóa tiếp theo.",
     "Học A trước (team agent viết phần mềm), rồi mới tới B (agent vận hành trong KDE Core).",
     "Sau mỗi khóa phải tự làm một bài thực hành. AI chỉ được review, không làm hộ.",
     "Không học để nhớ cách viết code. Học để giải thích được vì sao thiết kế như vậy và kiểm chứng AI đã làm đúng.",
@@ -40,6 +42,10 @@ export const AI_TRACK_INTRO = {
   ],
   certNoteVi:
     "Chứng chỉ Anthropic Academy và Hugging Face là chứng chỉ hoàn thành khóa (miễn phí), không phải thi có giám sát. Giá trị lớn nhất là thứ bạn làm được và giải thích được.",
+  nextLevelVi: {
+    title: "Sau 8 tuần: Level 2 · System Design & Production AI Architecture (4–8 tuần)",
+    text: "Biết tạo subagents chưa phải là AI Solutions Architect. Level 2 học thiết kế kiến trúc tổng thể, cân nhắc phương án kỹ thuật, bảo mật, chi phí và độ tin cậy khi đưa AI vào production. Sẽ soạn chi tiết khi xong Level 1.",
+  },
 };
 
 const AA = "Anthropic Academy";
@@ -69,9 +75,17 @@ export const AI_WEEKS: AiWeek[] = [
           "Mở repo KDE Core trong Claude Code, dán prompt Architecture Discovery (xem bên dưới)",
           "Tự trả lời 10 câu hỏi AI đặt ra, ghi vào vở",
           "Tự vẽ lại sơ đồ: frontend → API → database → hosting",
+          "Liệt kê 5 API endpoint quan trọng nhất: làm gì, ai được gọi",
+          "Ghi lại các bảng database chính và quan hệ giữa chúng",
+          "Ghi lại cách đăng nhập (authentication) và phân quyền theo vai trò (RBAC)",
+          "Ghi lại Git workflow hiện tại: nhánh, commit, deploy ra sao",
           "Tự viết lại CLAUDE.md cho KDE Core (không nhờ AI viết)",
         ],
-        selfCheck: ["Dữ liệu một shipment đi từ màn hình tới database qua những bước nào?", "Hệ thống xác thực người dùng ở đâu, ai được làm gì?"],
+        selfCheck: [
+          "Dữ liệu một shipment đi từ màn hình tới database qua những bước nào?",
+          "Hệ thống xác thực người dùng ở đâu, ai được làm gì?",
+          "Nếu một nhân viên kho cố gọi API sửa COD, hệ thống chặn ở đâu?",
+        ],
       },
     ],
   },
@@ -134,15 +148,16 @@ export const AI_WEEKS: AiWeek[] = [
     goalVi: "Tự giao một tính năng thật cho team agent, không hỏi AI cách làm.",
     items: [
       {
-        id: "ai-w4-capstone-a", kind: "practice", title: "Bài kiểm tra: architect → code → reviewer → test", durationVi: "~4–5 giờ",
+        id: "ai-w4-capstone-a", kind: "exam", title: "Technical Lead Challenge: KDE Core", durationVi: "~4–5 giờ",
         links: [],
-        whyVi: "Đạt được bài này nghĩa là bạn đã làm được điều bạn muốn học: tự setup team agent.",
+        whyVi: "Làm được cả 6 việc mà không cần AI hướng dẫn từng bước là bằng chứng bạn đã chuyển từ người dùng AI coding sang người điều hành quy trình phát triển bằng agent.",
         checklist: [
-          "Chọn 1 tính năng nhỏ thật trong KDE Core",
-          "Architect viết kế hoạch, bạn duyệt",
-          "Giao code cho agent, reviewer kiểm tra, tester chạy test",
-          "Bắt được ít nhất 1 lỗi nhờ test/reviewer",
-          "Viết lại toàn bộ quy trình vào vở: chia việc thế nào, sai ở đâu, lần sau sửa gì",
+          "Tự phân tích một yêu cầu chức năng mới trong KDE Core",
+          "Tự xác định cần những agent nào và vì sao",
+          "Viết hướng dẫn và giới hạn quyền cho từng agent",
+          "Phân công agent thực hiện công việc",
+          "Tổ chức code review và automated test (bắt được ít nhất 1 lỗi)",
+          "Kiểm tra kết quả và giải thích các quyết định kiến trúc trong vở",
         ],
         selfCheck: ["Nếu làm lại, bạn sẽ chia việc khác đi thế nào?", "Chỗ nào bạn vẫn phải hỏi AI? Đó là kiến thức cần học tiếp."],
       },
@@ -175,8 +190,11 @@ export const AI_WEEKS: AiWeek[] = [
           "Tool 1: tra trạng thái đơn. Tool 2: tra đối soát COD",
           "Agent trả lời kèm nguồn dữ liệu và chỗ chưa xác minh",
           "Ghi log mọi lần gọi tool",
+          "Đánh giá tool-call accuracy: agent có gọi đúng tool, đúng tham số không (≥ 10 câu hỏi mẫu)",
+          "Kiểm tra xử lý lỗi: mã đơn sai, tool trả lỗi, dữ liệu thiếu",
+          "Kiểm tra quyền: yêu cầu sửa/hoàn tiền phải bị từ chối hoặc chuyển người duyệt",
         ],
-        selfCheck: ["Nếu người dùng yêu cầu agent hoàn tiền, agent phải làm gì?"],
+        selfCheck: ["Nếu người dùng yêu cầu agent hoàn tiền, agent phải làm gì?", "Agent sai ở loại câu hỏi nào nhiều nhất? Vì sao?"],
       },
     ],
   },
@@ -205,7 +223,7 @@ export const AI_WEEKS: AiWeek[] = [
     goalVi: "Chứng minh bằng tài liệu và test rằng bạn thiết kế và kiểm soát được hệ thống.",
     items: [
       {
-        id: "ai-w8-portfolio", kind: "practice", title: "Thực hành: C4 diagram, ADR, 30 test case", durationVi: "~5 giờ",
+        id: "ai-w8-portfolio", kind: "practice", title: "Thực hành: C4 diagram, ADR, chi phí, 30 test case", durationVi: "~6 giờ",
         links: [
           { label: "C4 model", url: "https://c4model.com" },
           { label: "AI Fluency (Coursera, tùy chọn)", url: "https://www.coursera.org/learn/ai-fluency-framework-foundations" },
@@ -213,12 +231,15 @@ export const AI_WEEKS: AiWeek[] = [
         whyVi: "Thứ thuyết phục nhà tuyển dụng nhất: bạn giải thích và bảo vệ được kiến trúc, có số liệu test.",
         checklist: [
           "Vẽ C4 Context + Container diagram cho KDE Core",
-          "Viết 2 ADR (vì sao chọn database/hosting hiện tại)",
+          "Viết ít nhất 3 ADR: vì sao chọn phương án A thay vì B (database, hosting, cách tổ chức agent)",
           "Viết 30 test case cho agent tuần 6, đo tỉ lệ trả lời đúng",
           "0 hành động vượt quyền trong test",
+          "Đo chi phí: token và tiền cho mỗi câu hỏi, ước tính chi phí một tháng",
+          "Đo độ trễ (latency) trung bình và chậm nhất",
+          "Có logging và retry khi tool/API lỗi tạm thời",
           "Viết 1 trang: team agent gồm ai, quyền hạn, ai duyệt",
         ],
-        selfCheck: ["Nếu phải giải thích KDE Core cho CTO trong 5 phút, bạn nói gì?"],
+        selfCheck: ["Nếu phải giải thích KDE Core cho CTO trong 5 phút, bạn nói gì?", "Nếu số câu hỏi tăng 10 lần, chi phí và độ trễ thay đổi thế nào?"],
       },
     ],
   },
@@ -234,9 +255,13 @@ Do not modify files.
 2. Explain the complete shipment data flow.
 3. Produce C4-style architecture diagrams.
 4. Identify security risks and technical debt.
-5. Explain 10 key architectural decisions
+5. List the main API endpoints, the database
+   tables and relations, how authentication and
+   role-based access (RBAC) work, and the Git
+   workflow (branches, commits, deploy).
+6. Explain 10 key architectural decisions
    and their trade-offs.
-6. Ask me 10 questions to test my understanding.
+7. Ask me 10 questions to test my understanding.
 
 Cite actual file paths.
 Separate verified facts from assumptions.

@@ -5,7 +5,7 @@ import { Icon } from "../components/Icon";
 import { NotePad, useChecks, useNotebook } from "../components/Notebook";
 import { Badge, ProgressBar } from "../components/ui";
 
-const KIND = { course: { text: "Khóa học", tone: "info" }, practice: { text: "Thực hành", tone: "warn" }, exam: { text: "Thi", tone: "good" } } as const;
+const KIND = { course: { text: "Khóa học", tone: "info" }, practice: { text: "Thực hành", tone: "warn" }, exam: { text: "Bài kiểm tra", tone: "good" } } as const;
 const TRACK = { A: "A · Team agent viết phần mềm", B: "B · Agent vận hành trong KDE Core" };
 
 function itemProgress(book: ReturnType<typeof useNotebook>, item: AiItem) {
@@ -25,6 +25,7 @@ export function AiTrackPage() {
     <div className="page">
       <div className="page-head">
         <div>
+          <div className="muted small">{AI_TRACK_INTRO.levelVi}</div>
           <h1>{AI_TRACK_INTRO.title}</h1>
           <p>{AI_TRACK_INTRO.summaryVi}</p>
         </div>
@@ -81,6 +82,11 @@ export function AiTrackPage() {
           </ul>
         </section>
       ))}
+
+      <section className="card">
+        <h3>{AI_TRACK_INTRO.nextLevelVi.title}</h3>
+        <p className="muted">{AI_TRACK_INTRO.nextLevelVi.text}</p>
+      </section>
 
       <NotePad id="ai-general" title="AI · Ghi chú chung" heading="Ghi chú chung về AI" placeholder="Ý tưởng, câu hỏi muốn hỏi, mục tiêu nghề nghiệp, việc muốn thử ở công ty…" />
     </div>
