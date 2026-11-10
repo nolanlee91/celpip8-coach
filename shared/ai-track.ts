@@ -9,7 +9,7 @@ export interface AiResource { label: string; url: string }
 
 export interface AiItem {
   id: string;
-  kind: "course" | "practice" | "exam";
+  kind: "course" | "reading" | "practice" | "exam";
   title: string;
   provider?: string;           // "Anthropic Academy", "Hugging Face", ...
   durationVi: string;          // rough time, e.g. "~2 giờ"
@@ -160,7 +160,7 @@ export const AI_WEEKS: AiWeek[] = [
     goalVi: "Tự giao một tính năng thật cho team agent, không hỏi AI cách làm.",
     items: [
       {
-        id: "ai-w4-sdlc", kind: "course", provider: "Anthropic", title: "Đọc: The AI-Native SDLC Playbook", durationVi: "~1–2 giờ",
+        id: "ai-w4-sdlc", kind: "reading", provider: "Anthropic", title: "Đọc: The AI-Native SDLC Playbook", durationVi: "~1–2 giờ",
         certificateVi: "Bài viết + PDF, không có chứng chỉ.",
         links: [{ label: "Đọc trên claude.com", url: "https://claude.com/blog/the-ai-native-sdlc-playbook" }],
         whyVi: "Anthropic mô tả vòng đời phát triển phần mềm khi AI viết phần lớn code: Plan, Design, Build, Test, Deploy, Maintain. Mỗi giai đoạn để lại một tài liệu cho giai đoạn sau đọc. Đọc trước Technical Lead Challenge để dùng đúng khung này.",

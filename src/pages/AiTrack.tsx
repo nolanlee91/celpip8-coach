@@ -5,7 +5,7 @@ import { Icon } from "../components/Icon";
 import { NotePad, useChecks, useNotebook } from "../components/Notebook";
 import { Badge, ProgressBar } from "../components/ui";
 
-const KIND = { course: { text: "Khóa học", tone: "info" }, practice: { text: "Thực hành", tone: "warn" }, exam: { text: "Bài kiểm tra", tone: "good" } } as const;
+const KIND = { course: { text: "Khóa học", tone: "info" }, reading: { text: "Bài đọc", tone: "neutral" }, practice: { text: "Thực hành", tone: "warn" }, exam: { text: "Bài kiểm tra", tone: "good" } } as const;
 const TRACK = { A: "A · Team agent viết phần mềm", B: "B · Agent vận hành trong KDE Core" };
 
 function itemProgress(book: ReturnType<typeof useNotebook>, item: AiItem) {
@@ -66,7 +66,7 @@ export function AiTrackPage() {
               return (
                 <li key={item.id}>
                   <Link to={`/ai/${item.id}`} className="hub-item">
-                    <span className={`hub-icon ${p.complete ? "done" : ""}`}><Icon name={p.complete ? "circle-check" : item.kind === "course" ? "graduation-cap" : "wrench"} size={20} /></span>
+                    <span className={`hub-icon ${p.complete ? "done" : ""}`}><Icon name={p.complete ? "circle-check" : item.kind === "course" ? "graduation-cap" : item.kind === "reading" ? "book-open" : "wrench"} size={20} /></span>
                     <span className="grow">
                       <strong>{item.title}</strong>
                       <span className="muted small">
