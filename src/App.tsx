@@ -97,6 +97,7 @@ export function App() {
       <TutorProvider>
         <GuideProvider>
         <div className="app">
+          <a className="skip-link" href="#main">Bỏ qua tới nội dung chính</a>
           <TopBar />
           <nav className="sidebar" aria-label="Điều hướng">
             <div className="brand">CELPIP <span>8</span> <small>Coach</small></div>
@@ -113,7 +114,7 @@ export function App() {
             ))}
             <div className="sidebar-foot">Công cụ luyện tập không chính thức. Không liên kết với CELPIP hay Paragon Testing.</div>
           </nav>
-          <main className="main">
+          <main className="main" id="main" tabIndex={-1}>
             {status && !status.aiConfigured && (
               <div className="banner subtle">Chưa có Gemini key: mọi bài học và bài luyện vẫn dùng được. Chỉ AI Tutor và nhận xét Writing/Speaking bằng AI cần <code>GEMINI_API_KEY</code>.</div>
             )}

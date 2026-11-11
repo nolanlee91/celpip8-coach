@@ -137,7 +137,7 @@ function WritingSession({ prompt, banner, onNext, onRepeat, onExit }: { prompt: 
           </div>
           <div className="split-right">
             {timeUp && <div className="error-box">Hết giờ! Trong bài thi thật bạn không thể viết thêm. Hãy nộp bài.</div>}
-            <textarea className="editor" value={text} onChange={(e) => setText(e.target.value)} spellCheck={false}
+            <textarea aria-label="Bài viết" className="editor" value={text} onChange={(e) => setText(e.target.value)} spellCheck={false}
               placeholder="Bắt đầu viết… (kiểm tra chính tả của trình duyệt đã tắt, giống bài thi)" disabled={saving} />
             <div className="row between">
               <span className={`wc ${wc < spec.minWords ? "low" : wc > spec.maxWords ? "high" : "ok"}`}>{wc} từ</span>

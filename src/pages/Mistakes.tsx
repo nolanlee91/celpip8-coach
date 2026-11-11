@@ -7,7 +7,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import type { CategoryStat, McqQuestion, MistakeRecord, SkillSummary } from "../../shared/types";
 import { CATEGORIES, SKILL_LABEL, SKILLS, TRAPS, taskName, type Skill } from "../../shared/spec";
 import { api, post } from "../api";
-import { Badge, Card, Empty, ErrorBox, Loading, Markdown, Segmented } from "../components/ui";
+import { activate, Badge, Card, Empty, ErrorBox, Loading, Markdown, Segmented } from "../components/ui";
 import { Heatmap } from "./Dashboard";
 import { useTutor } from "../components/Tutor";
 
@@ -125,10 +125,10 @@ function MistakeList() {
   return (
     <Card title={`${filtered.length} thẻ lỗi`} actions={
       <>
-        <select value={skill} onChange={(e) => setSkill(e.target.value as Skill | "all")}>
+        <select aria-label="Lọc theo kỹ năng" value={skill} onChange={(e) => setSkill(e.target.value as Skill | "all")}>
           <option value="all">Mọi kỹ năng</option>{SKILLS.map((s) => <option key={s} value={s}>{SKILL_LABEL[s]}</option>)}
         </select>
-        <select value={status} onChange={(e) => setStatus(e.target.value as "open" | "all")}>
+        <select aria-label="Lọc theo trạng thái" value={status} onChange={(e) => setStatus(e.target.value as "open" | "all")}>
           <option value="open">Chưa khắc phục</option><option value="all">Tất cả</option>
         </select>
       </>
@@ -139,7 +139,7 @@ function MistakeList() {
           <tbody>
             {filtered.map((m) => (
               <Fragment key={m.id}>
-                <tr className="clickable" onClick={() => setOpen(open === m.id ? null : m.id)}>
+                <tr className="clickable" {...activate(() => setOpen(open === m.id ? null : m.id))} aria-expanded={open === m.id}>
                   <td>{SKILL_LABEL[m.skill]}</td>
                   <td><Badge tone="info">{CATEGORIES[m.skill][m.category] ?? m.category}</Badge>{m.trap && m.trap !== "none" && <div className="tiny muted">{TRAPS[m.trap]}</div>}</td>
                   <td className="ellipsis">{m.question}</td>

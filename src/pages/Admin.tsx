@@ -219,7 +219,7 @@ function GenerateTab() {
           <button className="btn" onClick={async () => { try { const r = await post<{ imported: string[]; skipped: string[] }>("/api/admin/import", {}); setMsg(`Đã nhập ${r.imported.length} mục vào thư viện${r.skipped.length ? `, bỏ qua ${r.skipped.length}` : ""}.`); void load(); } catch (e) { setError((e as Error).message); } }}>⬇ Nhập mọi bản đã duyệt vào thư viện</button>
         </div>
         <ErrorBox error={error} />
-        {msg && <p className="ok-msg small">{msg}</p>}
+        {msg && <p className="ok-msg small" role="status">{msg}</p>}
       </Card>
       {!jobs ? <Loading /> : jobs.length === 0 ? <Empty>Chưa có job nào.</Empty> : jobs.map((j) => (
         <Card key={j.id} title={`${j.skill}/${j.taskType || "-"} · ${j.setType} × ${j.count}`} actions={

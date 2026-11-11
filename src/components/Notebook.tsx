@@ -116,7 +116,7 @@ export function NotePad({ id, title, heading = "Vở ghi", placeholder, rows = 8
         <span className={`notepad-status ${state === "offline" ? "warn" : ""}`} role="status">{status}</span>
       </header>
       {text === null || loadedId !== id ? <div className="notepad-paper muted">Đang mở vở…</div> : (
-        <textarea
+        <textarea aria-label="Vở ghi"
           className="notepad-paper"
           rows={rows}
           value={text}

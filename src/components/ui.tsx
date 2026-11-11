@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
 import { UNOFFICIAL_NOTICE } from "../../shared/spec";
 
 export function Card({ title, actions, children, className = "" }: { title?: ReactNode; actions?: ReactNode; children: ReactNode; className?: string }) {
@@ -19,10 +19,24 @@ export function Loading({ text = "Đang tải…" }: { text?: string }) {
   return <div className="loading"><span className="spinner" /> {text}</div>;
 }
 
+/** Click plus keyboard (Enter/Space) and focus for an inline element that cannot be a <button>, e.g. a transcript sentence or table row. */
+export function activate(fn: () => void) {
+  return {
+    role: "button", tabIndex: 0, onClick: fn,
+    onKeyDown: (e: KeyboardEvent) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); fn(); } },
+  } as const;
+}
+
+/** "12/11" for a local YYYY-MM-DD day (parsed as a local date, so it never shifts a day across time zones). */
+export function dayMonth(isoDay: string) {
+  const [y, m, d] = isoDay.slice(0, 10).split("-").map(Number);
+  return new Intl.DateTimeFormat("vi-VN", { day: "2-digit", month: "2-digit" }).format(new Date(y, m - 1, d));
+}
+
 export function ErrorBox({ error, onRetry }: { error: string | null; onRetry?: () => void }) {
   if (!error) return null;
   return (
-    <div className="error-box">
+    <div className="error-box" role="alert">
       <strong>Lỗi:</strong> {error}
       {onRetry && <button className="btn small ghost" onClick={onRetry}>Thử lại</button>}
     </div>

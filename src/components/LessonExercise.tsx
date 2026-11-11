@@ -169,8 +169,8 @@ function TextInput({ ex, answer, reveal, busy, onSubmit }: InputProps<Extract<Ex
   return (
     <>
       {ex.mode === "dictation"
-        ? <textarea className="editor short" value={text} disabled={locked} onChange={(e) => setText(e.target.value)} placeholder="Gõ lại chính xác những gì bạn nghe…" />
-        : <input className="text-answer" value={text} disabled={locked} onChange={(e) => setText(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter" && text.trim()) onSubmit(text); }} placeholder="Câu trả lời…" />}
+        ? <textarea aria-label="Câu trả lời của bạn" className="editor short" value={text} disabled={locked} onChange={(e) => setText(e.target.value)} placeholder="Gõ lại chính xác những gì bạn nghe…" />
+        : <input aria-label="Câu trả lời của bạn" className="text-answer" value={text} disabled={locked} onChange={(e) => setText(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter" && text.trim()) onSubmit(text); }} placeholder="Câu trả lời…" />}
       {!locked && <div><button className="btn primary small" disabled={!text.trim() || busy} onClick={() => onSubmit(text)}>{answer ? "Cập nhật" : "Trả lời"}</button></div>}
       {reveal && <p className="small">Đáp án{ex.answers.length > 1 ? " (chấp nhận)" : ""}: <strong>{ex.answers.join(" / ")}</strong></p>}
     </>
@@ -251,7 +251,7 @@ function ProduceInput({ ex, answer, reveal, busy, onSubmit }: InputProps<Extract
       )}
       {(phase === "write" || phase === "check" || phase === "speak") && (
         <>
-          <textarea className="editor short" value={phase === "speak" ? `${text} ${interim}` : text} disabled={locked || phase === "speak"} onChange={(e) => setText(e.target.value)}
+          <textarea aria-label="Câu trả lời của bạn" className="editor short" value={phase === "speak" ? `${text} ${interim}` : text} disabled={locked || phase === "speak"} onChange={(e) => setText(e.target.value)}
             placeholder={ex.medium === "speak" ? "Transcript câu trả lời (nhận dạng giọng nói hoặc tự gõ lại)…" : "Viết câu trả lời…"} />
           <div className="small muted">{wordCount(text)} từ{ex.minWords ? ` · tối thiểu ${ex.minWords}` : ""}{ex.medium === "speak" && !sttSupported() ? " · trình duyệt không hỗ trợ nhận dạng giọng nói (dùng Edge/Chrome) — hãy nói thành tiếng rồi gõ lại ý chính" : ""}</div>
         </>

@@ -47,7 +47,7 @@ export function ReadAloud({ text }: { text: string }) {
       {state === "ready" && url && <audio ref={ref} className="audio" controls autoPlay src={url} />}
       {state === "browser" && <button className="btn small ghost" onClick={() => { stopSpeaking(); setState("idle"); }}><Icon name="x" /> Dừng đọc</button>}
       {(state === "ready" || state === "browser") && (
-        <select value={rate} onChange={(e) => setRate(Number(e.target.value))} title="Tốc độ" disabled={state === "browser"}>
+        <select aria-label="Tốc độ đọc" value={rate} onChange={(e) => setRate(Number(e.target.value))} title="Tốc độ" disabled={state === "browser"}>
           {[0.75, 0.9, 1, 1.15].map((r) => <option key={r} value={r}>{r}×</option>)}
         </select>
       )}

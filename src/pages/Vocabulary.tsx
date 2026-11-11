@@ -6,7 +6,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import type { VocabItem } from "../../shared/types";
 import { api, post } from "../api";
-import { Badge, Card, Empty, ErrorBox, Loading, Segmented } from "../components/ui";
+import { Badge, Card, dayMonth, Empty, ErrorBox, Loading, Segmented } from "../components/ui";
 import { loadVoices, speak } from "../lib/speech";
 
 type V = VocabItem & { due: boolean };
@@ -59,7 +59,7 @@ export function VocabularyPage() {
       {justReviewed && <NextStep after="review" />}
       <Segmented value={tab} onChange={setTab} options={[{ value: "notebook", label: "Sổ của tôi" }, { value: "library", label: "Thư viện từ vựng" }]} />
       <ErrorBox error={error} />
-      {info && <p className="ok-msg small">{info}</p>}
+      {info && <p className="ok-msg small" role="status">{info}</p>}
       {tab === "library" ? <VocabLibrary onAdded={(n) => { setInfo("Đã thêm " + n + " từ vào sổ."); void load(); }} /> : <>
       <div className="grid-2">
         <Card title="Ôn tập">
@@ -84,7 +84,7 @@ export function VocabularyPage() {
               setNewTerm(""); await load();
             } catch (err) { setError((err as Error).message); } finally { setBusy(null); }
           }}>
-            <input value={newTerm} onChange={(e) => setNewTerm(e.target.value)} placeholder="vd: be eligible for" className="grow" />
+            <input aria-label="Từ hoặc cụm từ mới" value={newTerm} onChange={(e) => setNewTerm(e.target.value)} placeholder="vd: be eligible for…" className="grow" />
             <button className="btn primary" disabled={busy === "add"}>{busy === "add" ? "Đang thêm…" : "Thêm"}</button>
           </form>
           <label className="row gap-s small" style={{ marginTop: 6 }}><input type="checkbox" checked={useAi} onChange={(e) => setUseAi(e.target.checked)} />Tra bằng AI nếu từ không có trong thư viện (tốn 1 lượt Gemini)</label>
@@ -106,23 +106,24 @@ export function VocabularyPage() {
 
       <Card title={`${filtered.length} từ`} actions={
         <>
-          <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Tìm…" />
-          <select value={filter} onChange={(e) => setFilter(e.target.value as typeof filter)}>
+          <input aria-label="Tìm trong sổ từ" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Tìm…" />
+          <select aria-label="Lọc từ theo trạng thái" value={filter} onChange={(e) => setFilter(e.target.value as typeof filter)}>
             <option value="all">Tất cả</option><option value="due">Đến hạn</option><option value="new">Chưa ôn</option><option value="mastered">Đã thuộc</option>
           </select>
         </>
       }>
         {filtered.length === 0 ? <Empty>Chưa có từ nào. Từ vựng sẽ tự xuất hiện khi bạn làm bài.</Empty> : (
+          <>
           <div className="vocab-grid">
-            {filtered.map((v) => (
+            {filtered.slice(0, 120).map((v) => (
               <div key={v.id} className="vocab-card">
                 <div className="row between">
                   <strong className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm" aria-label="Phát âm"><Icon name="volume-2" /></button></strong>
-                  {v.due ? <Badge tone="warn">đến hạn</Badge> : v.srs.interval >= 21 ? <Badge tone="good">đã thuộc</Badge> : <Badge>ôn {v.srs.due.slice(5)}</Badge>}
+                  {v.due ? <Badge tone="warn">đến hạn</Badge> : v.srs.interval >= 21 ? <Badge tone="good">đã thuộc</Badge> : <Badge>ôn {dayMonth(v.srs.due)}</Badge>}
                 </div>
-                <div>🇻🇳 {v.vi}</div>
-                <div className="muted small">{v.definition}</div>
-                <div className="small"><em>{v.example}</em> <button className="icon-btn" onClick={() => say(v.example)} aria-label="Nghe phát âm"><Icon name="volume-2" /></button></div>
+                {v.vi ? <div>🇻🇳 {v.vi}</div> : <div className="muted small">Chưa có nghĩa. Dùng “Bổ sung từ thư viện” ở trên.</div>}
+                {v.definition && <div className="muted small">{v.definition}</div>}
+                {v.example && <div className="small"><em>{v.example}</em> <button className="icon-btn" onClick={() => say(v.example)} aria-label="Nghe phát âm"><Icon name="volume-2" /></button></div>}
                 {v.collocations.length > 0 && <div className="tiny"><strong>Collocations:</strong> {v.collocations.join(" · ")}</div>}
                 {v.synonyms.length > 0 && <div className="tiny"><strong>Đồng nghĩa / paraphrase:</strong> {v.synonyms.join(", ")}</div>}
                 {v.celpipUsage && <div className="tiny muted"><Icon name="target" /> {v.celpipUsage}</div>}
@@ -133,6 +134,8 @@ export function VocabularyPage() {
               </div>
             ))}
           </div>
+          {filtered.length > 120 && <p className="muted small">Hiển thị 120/{filtered.length} từ. Dùng ô tìm hoặc bộ lọc để thu hẹp.</p>}
+          </>
         )}
       </Card>
       </>}
@@ -163,10 +166,10 @@ function VocabLibrary({ onAdded }: { onAdded: (n: number) => void }) {
   return (
     <Card title={"Thư viện từ vựng (" + total + " mục)"} actions={
       <>
-        <input value={f.q} onChange={(e) => setF({ ...f, q: e.target.value })} placeholder="Tìm…" />
-        <select value={f.topic} onChange={(e) => setF({ ...f, topic: e.target.value })}><option value="">Mọi chủ đề</option>{Object.entries(topics).map(([k, v]) => <option key={k} value={k}>{v}</option>)}</select>
-        <select value={f.difficulty} onChange={(e) => setF({ ...f, difficulty: e.target.value })}><option value="">Mọi cấp độ</option>{[5, 6, 7, 8, 9, 10].map((d) => <option key={d} value={d}>Cấp {d}</option>)}</select>
-        <select value={f.task} onChange={(e) => setF({ ...f, task: e.target.value })}><option value="">Mọi dạng bài</option>{ALL_TASKS.map((t) => <option key={t} value={t}>{t}</option>)}</select>
+        <input aria-label="Tìm trong thư viện" value={f.q} onChange={(e) => setF({ ...f, q: e.target.value })} placeholder="Tìm…" />
+        <select aria-label="Lọc theo chủ đề" value={f.topic} onChange={(e) => setF({ ...f, topic: e.target.value })}><option value="">Mọi chủ đề</option>{Object.entries(topics).map(([k, v]) => <option key={k} value={k}>{v}</option>)}</select>
+        <select aria-label="Lọc theo cấp độ" value={f.difficulty} onChange={(e) => setF({ ...f, difficulty: e.target.value })}><option value="">Mọi cấp độ</option>{[5, 6, 7, 8, 9, 10].map((d) => <option key={d} value={d}>Cấp {d}</option>)}</select>
+        <select aria-label="Lọc theo dạng bài" value={f.task} onChange={(e) => setF({ ...f, task: e.target.value })}><option value="">Mọi dạng bài</option>{ALL_TASKS.map((t) => <option key={t} value={t}>{t}</option>)}</select>
       </>
     }>
       <ErrorBox error={error} />
@@ -289,7 +292,7 @@ function Review({ pool, queue, mode, onDone }: { pool: V[]; queue: V[]; mode: Re
             <p className="big-text">{canBlank ? blanked : v.definition}</p>
             <p className="muted small">🇻🇳 {v.vi} — gõ từ/cụm từ còn thiếu:</p>
             <form onSubmit={(e) => { e.preventDefault(); setRevealed(true); }} className="row gap-s">
-              <input value={typed} onChange={(e) => setTyped(e.target.value)} disabled={revealed} autoFocus className="grow" />
+              <input aria-label="Từ bạn vừa nghe" value={typed} onChange={(e) => setTyped(e.target.value)} disabled={revealed} autoFocus className="grow" />
               {!revealed && <button className="btn primary">Kiểm tra</button>}
             </form>
           </>

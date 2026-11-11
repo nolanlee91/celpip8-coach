@@ -146,7 +146,7 @@ export function SpeakingRunner({ prompt, exam, onComplete }: { prompt: SpeakingP
           ) : (
             <>
               <p className="muted small">Không có bản chép lời tự động. Hãy nghe lại bản ghi âm và gõ lại chính xác những gì bạn đã nói (kể cả “uh”, lặp từ).</p>
-              <textarea className="editor short" value={typed} onChange={(e) => setTyped(e.target.value)} placeholder="Gõ lại câu trả lời của bạn…" />
+              <textarea aria-label="Câu trả lời gõ tay" className="editor short" value={typed} onChange={(e) => setTyped(e.target.value)} placeholder="Gõ lại câu trả lời của bạn…" />
             </>
           )}
           <button className="btn primary" disabled={transcript.split(/\s+/).length < 8} onClick={() => onComplete({

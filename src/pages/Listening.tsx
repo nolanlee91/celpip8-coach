@@ -149,7 +149,7 @@ function ListeningSession({ set, mode, examLike, browserVoice, preferredVoice, b
                 : <SegmentPlayer key={chunkIdx} segments={chunk.segments} exam={examLike} preferredVoice={preferredVoice} onFinished={markHeard} />}
             </Card>
             <Card title="Ghi chú khi nghe">
-              <textarea className="notes-area" value={notes} onChange={(e) => setNotes(e.target.value)} placeholder="Ghi từ khóa, số liệu, ai nói gì…" rows={8} />
+              <textarea aria-label="Ghi chú khi nghe" className="notes-area" value={notes} onChange={(e) => setNotes(e.target.value)} placeholder="Ghi từ khóa, số liệu, ai nói gì…" rows={8} />
             </Card>
           </div>
           <div className="split-right">

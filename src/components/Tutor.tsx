@@ -128,7 +128,7 @@ export function TutorProvider({ children }: { children: ReactNode }) {
             {QUICK.map((q) => <button key={q} className="chip" disabled={busy} onClick={() => send(q)}>{q}</button>)}
           </div>
           <form className="tutor-input" onSubmit={(e) => { e.preventDefault(); void send(input); }}>
-            <textarea
+            <textarea aria-label="Câu hỏi cho AI Tutor"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); void send(input); } }}

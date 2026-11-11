@@ -274,7 +274,7 @@ function ExamListening({ mockId, contentId, onDone }: { mockId: string; contentI
             ? <AudioChunkPlayer key={chunk} audio={audio} exam onFinished={() => setHeard(true)} />
             : <><Badge tone="warn">giọng trình duyệt</Badge><SegmentPlayer key={chunk} segments={set.chunks[chunk].segments} exam preferredVoice={settings?.preferredVoice} onFinished={() => setHeard(true)} /></>}
         </Card>
-        <Card title="Giấy nháp"><textarea className="notes-area" rows={8} placeholder="Ghi chú…" /></Card>
+        <Card title="Giấy nháp"><textarea aria-label="Giấy nháp" className="notes-area" rows={8} placeholder="Ghi chú…" /></Card>
       </div>
       <div className="split-right">
         {!heard ? <Card><p className="muted">Câu hỏi sẽ hiện sau khi âm thanh kết thúc.</p></Card> : (
@@ -355,7 +355,7 @@ function ExamWriting({ mockId, contentId, onDone }: { mockId: string; contentId:
         </Card>
       </div>
       <div className="split-right">
-        <textarea className="editor" value={text} onChange={(e) => setText(e.target.value)} spellCheck={false} />
+        <textarea aria-label="Bài viết" className="editor" value={text} onChange={(e) => setText(e.target.value)} spellCheck={false} />
         <div className="row between"><span className={`wc ${wc < spec.minWords ? "low" : wc > spec.maxWords ? "high" : "ok"}`}>{wc} từ</span></div>
         <button className="btn primary full" onClick={() => { if (confirm("Nộp task này và chuyển tiếp?")) void submit(); }}>Tiếp</button>
       </div>

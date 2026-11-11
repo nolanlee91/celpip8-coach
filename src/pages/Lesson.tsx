@@ -265,7 +265,7 @@ function LessonLanguage({ lesson }: { lesson: PublicLesson }) {
   return (
     <div className="grid-2">
       <Card title="Từ vựng và cụm từ của bài" actions={<button className="btn small" onClick={() => void add()}><Icon name="plus" /> Thêm vào ôn tập</button>}>
-        {msg && <p className="ok-msg small">{msg}</p>}
+        {msg && <p className="ok-msg small" role="status">{msg}</p>}
         <ul className="vocab-mini">
           {lesson.vocabulary.map((v) => <li key={v.term}><strong>{v.term}</strong> — {v.vi}<div className="muted small">“{v.example}”</div></li>)}
         </ul>

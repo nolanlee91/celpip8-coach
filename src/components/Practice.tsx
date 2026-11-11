@@ -66,7 +66,7 @@ export function DrillPicker({ skill, onStart }: { skill: Skill; onStart: (focus:
   const [focus, setFocus] = useState(Object.keys(CATEGORIES[skill])[0]);
   return (
     <div className="row gap-s wrap">
-      <select value={focus} onChange={(e) => setFocus(e.target.value)}>
+      <select aria-label="Trọng tâm luyện tập" value={focus} onChange={(e) => setFocus(e.target.value)}>
         {Object.entries(CATEGORIES[skill]).filter(([k]) => k !== "time_management").map(([k, v]) => <option key={k} value={k}>{v}</option>)}
       </select>
       <button className="btn" onClick={() => onStart(focus)}><Icon name="target" /> Tạo drill</button>

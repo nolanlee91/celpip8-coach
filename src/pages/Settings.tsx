@@ -4,8 +4,9 @@ import { useEffect, useState } from "react";
 import type { Settings } from "../../shared/types";
 import { SKILL_LABEL, SKILLS, taskName } from "../../shared/spec";
 import { api, post, put } from "../api";
-import { Card, ErrorBox, Loading } from "../components/ui";
+import { Card, ErrorBox, Loading, Segmented } from "../components/ui";
 import { loadVoices, speak } from "../lib/speech";
+import { getTheme, setTheme, type Theme } from "../lib/theme";
 
 export function SettingsPage() {
   const [s, setS] = useState<Settings | null>(null);
@@ -13,6 +14,7 @@ export function SettingsPage() {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [msg, setMsg] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [theme, setThemeState] = useState<Theme>(getTheme);
   const guide = useGuide();
 
   useEffect(() => {
@@ -35,6 +37,12 @@ export function SettingsPage() {
     <div className="page">
       <h1>Cài đặt</h1>
       <ErrorBox error={error} />
+      <Card title="Giao diện">
+        <Segmented value={theme} onChange={(t) => { setTheme(t); setThemeState(t); }} options={[
+          { value: "auto", label: "Theo máy" }, { value: "light", label: "Sáng" }, { value: "dark", label: "Tối" },
+        ]} />
+        <p className="small muted">Áp dụng ngay và chỉ cho thiết bị này, nên điện thoại và máy tính có thể chọn khác nhau.</p>
+      </Card>
       <Card title="Hướng dẫn sử dụng">
         <p className="small muted">Xem lại phần giới thiệu ba bước, hoặc đọc cách học với ứng dụng.</p>
         <div className="row gap-s wrap">
@@ -108,7 +116,7 @@ export function SettingsPage() {
       <Card title="Giọng đọc">
         <p className="small muted">Bài Listening dùng nhiều giọng khác nhau cho từng người nói (ưu tiên en-CA). Chọn giọng mặc định cho người dẫn/tin tức:</p>
         <div className="row gap-s wrap">
-          <select value={s.preferredVoice ?? ""} onChange={(e) => upd({ preferredVoice: e.target.value || null })}>
+          <select aria-label="Giọng đọc mặc định" value={s.preferredVoice ?? ""} onChange={(e) => upd({ preferredVoice: e.target.value || null })}>
             <option value="">Tự động (ưu tiên en-CA)</option>
             {voices.map((v) => <option key={v.name} value={v.name}>{v.name} ({v.lang})</option>)}
           </select>
@@ -117,7 +125,7 @@ export function SettingsPage() {
         {voices.length === 0 && <p className="error-box small">Trình duyệt không cung cấp giọng tiếng Anh nào.</p>}
       </Card>
 
-      <div className="row gap-s"><button className="btn primary big" disabled={total !== 100} onClick={saveAll}>Lưu cài đặt</button>{msg && <span className="ok-msg">{msg}</span>}</div>
+      <div className="row gap-s"><button className="btn primary big" disabled={total !== 100} onClick={saveAll}>Lưu cài đặt</button>{msg && <span className="ok-msg" role="status">{msg}</span>}</div>
 
       <Card title="Dữ liệu">
         <p className="small muted">Toàn bộ dữ liệu được lưu cục bộ trong <code>data/db.json</code> trên máy bạn.</p>

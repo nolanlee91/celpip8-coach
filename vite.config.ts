@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5173,
-    proxy: { "/api": "http://localhost:8787" },
+    // API_PORT lets a second dev server (e.g. the worst-case data set) run beside the normal one.
+    proxy: { "/api": `http://localhost:${process.env.API_PORT ?? 8787}` },
   },
 });

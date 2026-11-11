@@ -86,11 +86,11 @@ export function LibraryBrowser({ skill, tasks, onOpen, mode = "learn" }: { skill
   return (
     <Card title="Thư viện bài luyện" actions={
       <div className="row gap-s wrap">
-        <select value={f.taskType} onChange={set("taskType")}><option value="">Mọi dạng</option>{tasks.map((t) => <option key={t} value={t}>{t} · {taskName(t)}</option>)}</select>
-        <select value={f.difficulty} onChange={set("difficulty")}><option value="">Mọi độ khó</option>{[5, 6, 7, 8, 9, 10].map((d) => <option key={d} value={d}>Độ khó {d}</option>)}</select>
-        <select value={f.topic} onChange={set("topic")}><option value="">Mọi chủ đề</option>{Object.entries(topics).map(([k, v]) => <option key={k} value={k}>{v}</option>)}</select>
-        <select value={f.status} onChange={set("status")}><option value="any">Tất cả</option><option value="new">Chưa làm</option><option value="done">Đã làm</option></select>
-        {objective && <select value={f.focus} onChange={set("focus")}><option value="">Không lọc điểm yếu</option>{Object.entries(CATEGORIES[skill]).filter(([k]) => k !== "time_management").map(([k, v]) => <option key={k} value={k}>Drill: {v}</option>)}</select>}
+        <select aria-label="Lọc theo dạng bài" value={f.taskType} onChange={set("taskType")}><option value="">Mọi dạng</option>{tasks.map((t) => <option key={t} value={t}>{t} · {taskName(t)}</option>)}</select>
+        <select aria-label="Lọc theo độ khó" value={f.difficulty} onChange={set("difficulty")}><option value="">Mọi độ khó</option>{[5, 6, 7, 8, 9, 10].map((d) => <option key={d} value={d}>Độ khó {d}</option>)}</select>
+        <select aria-label="Lọc theo chủ đề" value={f.topic} onChange={set("topic")}><option value="">Mọi chủ đề</option>{Object.entries(topics).map(([k, v]) => <option key={k} value={k}>{v}</option>)}</select>
+        <select aria-label="Lọc theo trạng thái" value={f.status} onChange={set("status")}><option value="any">Tất cả</option><option value="new">Chưa làm</option><option value="done">Đã làm</option></select>
+        {objective && <select aria-label="Lọc theo điểm yếu" value={f.focus} onChange={set("focus")}><option value="">Không lọc điểm yếu</option>{Object.entries(CATEGORIES[skill]).filter(([k]) => k !== "time_management").map(([k, v]) => <option key={k} value={k}>Drill: {v}</option>)}</select>}
       </div>
     }>
       <ErrorBox error={error} />

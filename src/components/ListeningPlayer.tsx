@@ -1,4 +1,5 @@
 import { Icon } from "./Icon";
+import { activate } from "./ui";
 import { useEffect, useRef, useState } from "react";
 import type { ListeningSegment } from "../../shared/types";
 import { Translation } from "./Translation";
@@ -62,7 +63,7 @@ export function SegmentPlayer({
             {state !== "playing"
               ? <button className="btn primary" onClick={() => play(state === "done" ? 0 : index)}>{state === "done" ? "Nghe lại" : index > 0 ? "Tiếp tục" : "Phát"}</button>
               : <button className="btn" onClick={stop}>⏸ Dừng</button>}
-            <select value={rate} onChange={(e) => setRate(Number(e.target.value))} disabled={state === "playing"} title="Tốc độ">
+            <select aria-label="Tốc độ phát" value={rate} onChange={(e) => setRate(Number(e.target.value))} disabled={state === "playing"} title="Tốc độ">
               {[0.75, 0.85, 1, 1.1, 1.25].map((r) => <option key={r} value={r}>{r}×</option>)}
             </select>
             {state !== "done" && !finished.current && <button className="btn ghost small" onClick={() => { stop(); finished.current = true; setState("done"); onFinished(); }}>Bỏ qua tới câu hỏi</button>}
@@ -113,7 +114,7 @@ export function AudioChunkPlayer({ audio, exam, onFinished }: { audio: ChunkAudi
             : <span className="muted small">{state === "playing" ? "Đang phát… (không thể tạm dừng trong chế độ thi)" : "Đã phát xong."}</span>
         ) : (
           <>
-            <select value={rate} onChange={(e) => setRate(Number(e.target.value))} title="Tốc độ">
+            <select aria-label="Tốc độ phát" value={rate} onChange={(e) => setRate(Number(e.target.value))} title="Tốc độ">
               {[0.75, 0.85, 1, 1.1, 1.25].map((r) => <option key={r} value={r}>{r}×</option>)}
             </select>
             {state !== "done" && <button className="btn ghost small" onClick={() => { ref.current?.pause(); finish(); }}>Bỏ qua tới câu hỏi</button>}
@@ -166,7 +167,7 @@ export function AudioTranscript({ segments, audio, evidence }: { segments: Liste
         <div key={i} className="t-seg">
           <span className="speaker">{seg.speaker}:</span>{" "}
           {sents.map((s, j) => (
-            <span key={j} className={`t-sent ${isEvidence(s.text) ? "evidence" : ""}`} onClick={() => play(s.start, s.end)} title="Bấm để nghe lại câu này">{s.text}{" "}</span>
+            <span key={j} className={`t-sent ${isEvidence(s.text) ? "evidence" : ""}`} {...activate(() => play(s.start, s.end))} title="Bấm để nghe lại câu này">{s.text}{" "}</span>
           ))}
         </div>
       ))}
@@ -184,13 +185,13 @@ export function Transcript({ segments, evidence, preferredVoice }: { segments: L
     <div className="transcript">
       <div className="row gap-s small">
         Tốc độ nghe lại:
-        <select value={rate} onChange={(e) => setRate(Number(e.target.value))}>{[0.7, 0.8, 0.9, 1].map((r) => <option key={r} value={r}>{r}×</option>)}</select>
+        <select aria-label="Tốc độ phát" value={rate} onChange={(e) => setRate(Number(e.target.value))}>{[0.7, 0.8, 0.9, 1].map((r) => <option key={r} value={r}>{r}×</option>)}</select>
       </div>
       {segments.map((seg, i) => (
         <div key={i} className="t-seg">
           <span className="speaker">{seg.speaker}:</span>{" "}
           {splitSentences(seg.text).map((s, j) => (
-            <span key={j} className={`t-sent ${isEvidence(s) ? "evidence" : ""}`} onClick={async () => { stopSpeaking(); await loadVoices(); void speak(s, seg.voice as VoiceRole, { rate, preferred: preferredVoice }); }} title="Bấm để nghe lại câu này">
+            <span key={j} className={`t-sent ${isEvidence(s) ? "evidence" : ""}`} {...activate(async () => { stopSpeaking(); await loadVoices(); void speak(s, seg.voice as VoiceRole, { rate, preferred: preferredVoice }); })} title="Bấm để nghe lại câu này">
               {s}{" "}
             </span>
           ))}
