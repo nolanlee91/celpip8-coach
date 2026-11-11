@@ -65,15 +65,51 @@ function arpabetToIpa(arpa: string): string {
   return syllables <= 1 ? s.replace(/[ˈˌ]/g, "") : s;
 }
 
-/** IPA of a word or phrase from the bundled dictionary, "" when any word is missing. */
+// The bundled dictionary is American: Canadian words that CELPIP uses and it lacks, written by hand.
+const CANADIAN: Record<string, string> = {
+  parkade: "pɑːrˈkeɪd", toque: "tuːk", tuque: "tuːk", eavestrough: "ˈiːvzˌtrɔːf", loonie: "ˈluːni", toonie: "ˈtuːni",
+  poutine: "puːˈtiːn", serviette: "ˌsɝːviˈet", garburator: "ˈɡɑːrbjəˌreɪtɚ", timbits: "ˈtɪmbɪts", deke: "diːk",
+  practicum: "ˈpræktɪkəm", notarize: "ˈnoʊtəˌraɪz", physiotherapy: "ˌfɪzioʊˈθerəpi", physio: "ˈfɪzioʊ",
+  liaise: "liˈeɪz", onboarding: "ˈɑːnˌbɔːrdɪŋ", washroom: "ˈwɑːʃˌruːm", skytrain: "ˈskaɪˌtreɪn",
+};
+
+/** Canadian/British spellings the American dictionary knows under its own spelling (cheque → check). */
+function americanSpellings(w: string): string[] {
+  return [
+    w.replace(/cheque/, "check"), w.replace(/chequ/, "check"), w.replace(/our(s|ed|ing|able|ite|ites|hood)?$/, "or$1"), w.replace(/tre(s)?$/, "ter$1"),
+    w.replace(/ll(ing|ed|or|ors)$/, "l$1"), w.replace(/^instal(ment|ments)$/, "install$1"), w.replace(/ogue$/, "og"),
+    w.replace(/ise(s|d)?$/, "ize$1"), w.replace(/isation(s)?$/, "ization$1"), w.replace(/yse(s|d)?$/, "yze$1"),
+  ].filter((x) => x !== w);
+}
+
+const known = (w: string) => cmu[w] ?? americanSpellings(w).map((x) => cmu[x]).find(Boolean);
+
+/** IPA of one word: the dictionary, its American spelling, or a compound of two known words (soundproof). */
+function wordIpa(w: string): string {
+  const direct = known(w);
+  if (direct) return arpabetToIpa(direct);
+  // Compound: the first part keeps its stress, the second gets secondary stress, and each part keeps its
+  // own syllables ("ˈbækˌɔːrdɚd", not "ˈbæˌkɔːrdɚd").
+  for (let i = w.length - 3; i >= 3; i--) {
+    const a = cmu[w.slice(0, i)], b = known(w.slice(i));
+    if (!a || !b) continue;
+    const first = arpabetToIpa(a), second = arpabetToIpa(b.replace(/1/g, "2"));
+    return (/[ˈˌ]/.test(first) ? first : `ˈ${first}`) + (/[ˈˌ]/.test(second) ? second : `ˌ${second}`);
+  }
+  return "";
+}
+
+/** IPA of a word or phrase, "" when any word is missing. */
 export function ipaOf(term: string): string {
   const words = term.toLowerCase().replace(/[’]/g, "'").split(/[\s-]+/).filter(Boolean);
   if (!words.length) return "";
   const parts: string[] = [];
-  for (const w of words) {
-    const arpa = cmu[w] ?? cmu[w.replace(/[^a-z']/g, "")];
-    if (!arpa) return "";
-    parts.push(arpabetToIpa(arpa));
+  for (const raw of words) {
+    const w = raw.replace(/[^a-z']/g, "");
+    if (CANADIAN[w]) { parts.push(CANADIAN[w]); continue; }
+    const ipa = wordIpa(w);
+    if (!ipa) return "";
+    parts.push(ipa);
   }
   return `/${parts.join(" ")}/`;
 }
