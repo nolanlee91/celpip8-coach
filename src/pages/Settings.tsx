@@ -6,7 +6,7 @@ import { SKILL_LABEL, SKILLS, taskName } from "../../shared/spec";
 import { api, post, put } from "../api";
 import { Card, ErrorBox, Loading, Segmented } from "../components/ui";
 import { loadVoices, speak } from "../lib/speech";
-import { getTheme, setTheme, type Theme } from "../lib/theme";
+import { useTheme } from "../lib/theme";
 
 export function SettingsPage() {
   const [s, setS] = useState<Settings | null>(null);
@@ -14,7 +14,7 @@ export function SettingsPage() {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [msg, setMsg] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [theme, setThemeState] = useState<Theme>(getTheme);
+  const { theme, setTheme } = useTheme();
   const guide = useGuide();
 
   useEffect(() => {
@@ -38,7 +38,7 @@ export function SettingsPage() {
       <h1>Cài đặt</h1>
       <ErrorBox error={error} />
       <Card title="Giao diện">
-        <Segmented value={theme} onChange={(t) => { setTheme(t); setThemeState(t); }} options={[
+        <Segmented value={theme} onChange={setTheme} options={[
           { value: "auto", label: "Theo máy" }, { value: "light", label: "Sáng" }, { value: "dark", label: "Tối" },
         ]} />
         <p className="small muted">Áp dụng ngay và chỉ cho thiết bị này, nên điện thoại và máy tính có thể chọn khác nhau.</p>

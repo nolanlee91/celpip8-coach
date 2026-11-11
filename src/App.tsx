@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { Loading } from "./components/ui";
 import { BrowserRouter, Link, NavLink, Route, Routes, useLocation } from "react-router-dom";
 import { TutorProvider, useTutor } from "./components/Tutor";
@@ -23,6 +23,7 @@ import { LessonPage } from "./pages/Lesson";
 import { HelpPage, MorePage, PracticeHubPage } from "./pages/Hubs";
 import { ExamStructurePage } from "./pages/ExamStructure";
 import { GuideProvider } from "./components/Guide";
+import { useTheme } from "./lib/theme";
 import { AiItemPage, AiTrackPage } from "./pages/AiTrack";
 import { NotebookPage } from "./pages/NotebookPage";
 
@@ -83,24 +84,79 @@ function TabBar() {
   );
 }
 
+/** One tap flips between light and dark; "Theo máy" stays in Settings. */
+function ThemeToggle() {
+  const { effective, setTheme } = useTheme();
+  const next = effective === "dark" ? "light" : "dark";
+  const label = next === "light" ? "Chuyển sang giao diện sáng" : "Chuyển sang giao diện tối";
+  return (
+    <button className="icon-btn theme-toggle" aria-label={label} title={label} onClick={() => setTheme(next)}>
+      <Icon name={effective === "dark" ? "sun" : "moon"} size={20} />
+    </button>
+  );
+}
+
 function TopBar() {
   const tutor = useTutor();
   return (
     <header className="topbar">
       <Link to="/" className="brand" style={{ textDecoration: "none" }}>CELPIP <span>8</span></Link>
-      <button className="icon-btn" aria-label="Mở AI Tutor" onClick={tutor.open}><Icon name="message-circle" size={22} /></button>
+      <div className="topbar-actions">
+        <ThemeToggle />
+        <button className="icon-btn" aria-label="Mở AI Tutor" onClick={tutor.open}><Icon name="message-circle" size={22} /></button>
+      </div>
     </header>
   );
 }
 
-/** On desktop the tutor opens from the sidebar, so no floating button sits over the page's data. */
-function SidebarTutor() {
+const isAt = (pathname: string, to: string) => (to === "/" ? pathname === "/" : pathname === to || pathname.startsWith(`${to}/`));
+
+/**
+ * Desktop navigation across the top, so pages get the full width. Each group opens on hover,
+ * on click (touch laptops) and from the keyboard (Enter/Space, Esc closes).
+ */
+function DeskBar() {
+  const { pathname } = useLocation();
   const tutor = useTutor();
+  const [open, setOpen] = useState<string | null>(null);
+  useEffect(() => setOpen(null), [pathname]);
+  const leave = () => (document.activeElement as HTMLElement | null)?.blur();
   return (
-    <button className="nav-link nav-tutor" onClick={tutor.open}>
-      <Icon name="message-circle" />
-      <span className="nav-label">Hỏi AI Tutor</span>
-    </button>
+    <header className="deskbar">
+      <Link to="/" className="brand">CELPIP <span>8</span> <small>Coach</small></Link>
+      <nav className="desknav" aria-label="Điều hướng">
+        <NavLink to="/" end className={({ isActive }) => `desk-link ${isActive ? "active" : ""}`}>Hôm nay</NavLink>
+        {NAV.map((g) => {
+          const items = g.items.filter((n) => n.to !== "/");
+          if (items.length === 1) {
+            const n = items[0];
+            return <NavLink key={g.section} to={n.to} className={({ isActive }) => `desk-link ${isActive ? "active" : ""}`}>{g.section}</NavLink>;
+          }
+          const here = items.some((n) => isAt(pathname, n.to));
+          return (
+            <div key={g.section} className={`desk-group ${open === g.section ? "open" : ""}`}
+              onMouseLeave={() => setOpen((o) => (o === g.section ? null : o))}
+              onKeyDown={(e) => { if (e.key === "Escape") { setOpen(null); leave(); } }}>
+              <button className={`desk-link ${here ? "active" : ""}`} aria-expanded={open === g.section} aria-haspopup="true"
+                onClick={() => setOpen((o) => (o === g.section ? null : g.section))}>
+                {g.section}<Icon name="chevron-down" size={15} />
+              </button>
+              <div className="desk-menu">
+                {items.map((n) => (
+                  <NavLink key={n.to} to={n.to} className={({ isActive }) => `desk-item ${isActive ? "active" : ""}`} onClick={leave}>
+                    <Icon name={n.icon} />{n.label}
+                  </NavLink>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </nav>
+      <div className="desk-actions">
+        <ThemeToggle />
+        <button className="btn small desk-tutor" onClick={tutor.open}><Icon name="message-circle" size={16} /> Hỏi AI Tutor</button>
+      </div>
+    </header>
   );
 }
 
@@ -113,22 +169,7 @@ export function App() {
         <div className="app">
           <a className="skip-link" href="#main">Bỏ qua tới nội dung chính</a>
           <TopBar />
-          <nav className="sidebar" aria-label="Điều hướng">
-            <div className="brand">CELPIP <span>8</span> <small>Coach</small></div>
-            <SidebarTutor />
-            {NAV.map((g) => (
-              <div key={g.section}>
-                <div className="nav-section">{g.section}</div>
-                {g.items.map((n) => (
-                  <NavLink key={n.to} to={n.to} end={n.to === "/"} className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
-                    <Icon name={n.icon} />
-                    <span className="nav-label">{n.label}</span>
-                  </NavLink>
-                ))}
-              </div>
-            ))}
-            <div className="sidebar-foot">Công cụ luyện tập không chính thức. Không liên kết với CELPIP hay Paragon Testing.</div>
-          </nav>
+          <DeskBar />
           <main className="main" id="main" tabIndex={-1}>
             {status && !status.aiConfigured && (
               <div className="banner subtle">Chưa có Gemini key: mọi bài học và bài luyện vẫn dùng được. Chỉ AI Tutor và nhận xét Writing/Speaking bằng AI cần <code>GEMINI_API_KEY</code>.</div>
@@ -159,6 +200,7 @@ export function App() {
               <Route path="/submission/:id" element={<SubmissionPage />} />
               <Route path="/admin" element={<AdminPage />} />
             </Routes>
+            <p className="app-foot">Công cụ luyện tập không chính thức. Không liên kết với CELPIP hay Paragon Testing.</p>
           </main>
           <TabBar />
         </div>
