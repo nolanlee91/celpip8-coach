@@ -23,6 +23,7 @@ import { LessonPage } from "./pages/Lesson";
 import { HelpPage, MorePage, PracticeHubPage } from "./pages/Hubs";
 import { ExamStructurePage } from "./pages/ExamStructure";
 import { GuideProvider } from "./components/Guide";
+import { WordLookup } from "./components/WordLookup";
 import { useTheme } from "./lib/theme";
 import { AiItemPage, AiTrackPage } from "./pages/AiTrack";
 import { NotebookPage } from "./pages/NotebookPage";
@@ -203,6 +204,7 @@ export function App() {
             <p className="app-foot">Công cụ luyện tập không chính thức. Không liên kết với CELPIP hay Paragon Testing.</p>
           </main>
           <TabBar />
+          <WordLookup />
         </div>
         </GuideProvider>
       </TutorProvider>

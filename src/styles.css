@@ -951,3 +951,18 @@ html { scroll-padding-top: 72px; }
 .main > .banner, .app-foot { max-width: 1440px; margin-left: auto; margin-right: auto; }
 .main > .banner { margin-bottom: 16px; }
 @media (max-width: 960px) { .deskbar { gap: 10px; padding: 0 14px; } .deskbar .brand small { display: none; } .desk-link { padding: 8px 9px; } }
+
+/* ---------- Word lookup (select a word in any text) ---------- */
+.word-chip { position: fixed; z-index: 70; transform: translateX(-50%); display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; border: none; border-radius: 999px; background: var(--ink); color: var(--panel); font: inherit; font-size: 0.88rem; font-weight: 600; cursor: pointer; box-shadow: var(--shadow-float); }
+.word-card { position: fixed; z-index: 70; right: 24px; bottom: 24px; width: min(400px, calc(100vw - 48px)); max-height: min(70vh, 560px); overflow: auto; overscroll-behavior: contain; display: flex; flex-direction: column; gap: 8px; padding: 14px 16px; background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-float); }
+.word-card:focus { outline: none; }
+.word-card p { margin: 0; }
+.word-card .big-ish { font-size: 1.25rem; overflow-wrap: anywhere; }
+.word-vi { font-size: 1.05rem; font-weight: 600; }
+.word-example { background: var(--panel-2); border-radius: var(--radius-s); padding: 8px 10px; }
+.word-example strong { background: var(--mark-soft); border-radius: 3px; padding: 0 2px; }
+.word-card { transition: opacity 0.18s var(--ease-out), transform 0.18s var(--ease-out); }
+@starting-style { .word-card { opacity: 0; transform: translateY(8px); } }
+@media (max-width: 760px) {
+  .word-card { left: 12px; right: 12px; width: auto; bottom: calc(76px + env(safe-area-inset-bottom)); }
+}

@@ -18,6 +18,7 @@ import { afterPrimaryVi, buildLearningPlan, isNewLearner, primaryAction } from "
 import { curriculum, reloadCurriculum } from "./lessons";
 import { lessonAudioSet, readAloud, readAloudFile } from "./audio";
 import { translate } from "./translations";
+import { lookupDictionary } from "./lookup";
 import { createJob, decide, getJob, importApproved, listJobs, readDraft, runJob, type JobSkill } from "./pipeline";
 import { CATEGORIES, SKILLS, TRAPS, type Skill } from "../shared/spec";
 import { TOPIC_LABEL, type VocabEntry } from "../shared/content";
@@ -622,10 +623,30 @@ app.get("/api/vocab/library", h((req, res) => {
   res.json({ rows, total: library().vocab.length, topics: TOPIC_LABEL });
 }));
 
+/**
+ * Meaning of a word the learner selected in a text, before they decide to save it: the curated library
+ * first, then a free dictionary (no key). AI is used only when the learner asks for it (?ai=1).
+ */
+app.get("/api/vocab/lookup", h(async (req, res) => {
+  const db = load();
+  const term = String(req.query.term ?? "").trim().slice(0, 80);
+  if (!term) throw new AiError("Thiếu từ.", 400);
+  const inNotebook = db.vocab.some((v) => v.term.toLowerCase() === term.toLowerCase());
+  const bank = bankIndex().get(term.toLowerCase());
+  if (bank) return res.json({ term: bank.term, vi: bank.vi, definition: bank.definition, partOfSpeech: "", libraryExample: bank.example, from: "library", inNotebook });
+  if (req.query.ai === "1") {
+    const { items } = await enrichVocab([{ term, context: String(req.query.context ?? "") }]);
+    const e = items[0];
+    return res.json({ term, vi: e.vi, definition: e.definition, partOfSpeech: "", from: "ai", inNotebook });
+  }
+  const d = await lookupDictionary(term);
+  res.json(d ? { ...d, from: "dictionary", inNotebook } : { term, vi: "", definition: "", partOfSpeech: "", from: "none", inNotebook });
+}));
+
 /** Add one word: from the library when possible (no AI); AI lookup only when explicitly requested. */
 app.post("/api/vocab", h(async (req, res) => {
   const db = load();
-  const { term, context, source, useAi } = req.body as { term: string; context?: string; source?: string; useAi?: boolean };
+  let { term, context, source, useAi, vi, definition } = req.body as { term: string; context?: string; source?: string; useAi?: boolean; vi?: string; definition?: string };
   if (!term?.trim()) throw new AiError("Thiếu từ.", 400);
   const t = term.trim();
   const existing = db.vocab.find((v) => v.term.toLowerCase() === t.toLowerCase());
@@ -638,10 +659,16 @@ app.post("/api/vocab", h(async (req, res) => {
     return res.json({ item, from: "library" });
   }
   if (!useAi) {
-    // Saved without AI; the learner can request an AI lookup later.
+    // Saved without AI: with the meaning the learner just looked up, or a free dictionary lookup now,
+    // and the sentence it came from.
+    if (!vi?.trim() && !definition?.trim()) {
+      const d = await lookupDictionary(t);
+      if (d) { vi = d.vi; definition = d.definition; }
+    }
     const item: VocabItem = {
-      id: uid("v"), term: t, vi: "", definition: "", example: context?.slice(0, 300) ?? "", collocations: [], synonyms: [], celpipUsage: "",
-      source: source ?? "manual", enriched: false, srs: newSrs(), reviews: 0, correctReviews: 0, createdAt: now(),
+      id: uid("v"), term: t, vi: vi?.trim().slice(0, 200) ?? "", definition: definition?.trim().slice(0, 400) ?? "", example: context?.slice(0, 300) ?? "",
+      collocations: [], synonyms: [], celpipUsage: "",
+      source: source ?? "manual", enriched: Boolean(vi?.trim()), srs: newSrs(), reviews: 0, correctReviews: 0, createdAt: now(),
     };
     db.vocab.push(item);
     await save();

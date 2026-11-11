@@ -1,6 +1,6 @@
 import { useMemo, useRef, useState } from "react";
 import type { ReadingSection } from "../../shared/types";
-import { post } from "../api";
+import type { LookupRequest } from "./WordLookup";
 import { ReadAloud, tableSpeech } from "./ReadAloud";
 import { Translation } from "./Translation";
 
@@ -33,7 +33,6 @@ export function Passage({
   const display = useMemo(() => toDisplay(section.text), [section.text]);
   const [highlights, setHighlights] = useState<Highlight[]>([]);
   const [sel, setSel] = useState<{ start: number; end: number; text: string } | null>(null);
-  const [vocabMsg, setVocabMsg] = useState<string | null>(null);
   const box = useRef<HTMLDivElement>(null);
 
   if (section.kind === "table" && section.table) {
@@ -84,20 +83,15 @@ export function Passage({
     setSel(null);
   };
 
-  const addVocab = async () => {
+  // "Từ vựng" opens the shared lookup card: meaning, pronunciation, and saving with this sentence.
+  const addVocab = () => {
     if (!sel) return;
     const term = sel.text.slice(0, 80);
-    setVocabMsg(`Đang thêm “${term}”…`);
+    const sentence = display.slice(Math.max(0, display.lastIndexOf(".", sel.start) + 1), display.indexOf(".", sel.end) + 1 || undefined).trim();
+    window.getSelection()?.removeAllRanges();
     setSel(null);
-    try {
-      const sentence = display.slice(Math.max(0, display.lastIndexOf(".", sel.start) + 1), display.indexOf(".", sel.end) + 1 || undefined).trim();
-      const r = await post<{ from: string }>("/api/vocab", { term, context: sentence, source: sourceLabel });
-      setVocabMsg(r.from === "library" ? `Đã thêm “${term}” (có sẵn nghĩa từ thư viện).` : r.from === "notebook" ? `“${term}” đã có trong sổ.` : `Đã lưu “${term}” — chưa có trong thư viện; bổ sung nghĩa ở trang Từ vựng.`);
-      onVocabAdded?.(term);
-    } catch (e) {
-      setVocabMsg(`Không thêm được: ${(e as Error).message}`);
-    }
-    setTimeout(() => setVocabMsg(null), 4000);
+    window.dispatchEvent(new CustomEvent<LookupRequest>("lookup", { detail: { term, context: sentence, source: sourceLabel } }));
+    onVocabAdded?.(term);
   };
 
   return (
@@ -109,10 +103,9 @@ export function Passage({
           <span className="muted small">“{sel.text.slice(0, 40)}{sel.text.length > 40 ? "…" : ""}”</span>
           <button className="btn small" onClick={() => addHighlight(false)}>Highlight</button>
           <button className="btn small" onClick={() => addHighlight(true)}>Ghi chú</button>
-          <button className="btn small" onClick={addVocab}>Từ vựng</button>
+          <button className="btn small" onClick={addVocab}>Tra nghĩa · Từ vựng</button>
         </div>
       )}
-      {vocabMsg && <div className="muted small">{vocabMsg}</div>}
       <div className="passage-text" ref={box} onMouseUp={onMouseUp}>
         {points.slice(0, -1).map((p, i) => {
           const q = points[i + 1];
