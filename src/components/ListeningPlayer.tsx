@@ -62,7 +62,7 @@ export function SegmentPlayer({
           <>
             {state !== "playing"
               ? <button className="btn primary" onClick={() => play(state === "done" ? 0 : index)}>{state === "done" ? "Nghe lại" : index > 0 ? "Tiếp tục" : "Phát"}</button>
-              : <button className="btn" onClick={stop}>⏸ Dừng</button>}
+              : <button className="btn" onClick={stop}><Icon name="pause" /> Dừng</button>}
             <select aria-label="Tốc độ phát" value={rate} onChange={(e) => setRate(Number(e.target.value))} disabled={state === "playing"} title="Tốc độ">
               {[0.75, 0.85, 1, 1.1, 1.25].map((r) => <option key={r} value={r}>{r}×</option>)}
             </select>

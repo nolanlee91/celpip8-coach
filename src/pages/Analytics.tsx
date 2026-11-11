@@ -58,7 +58,7 @@ export function AnalyticsPage() {
         <Card title="Độ chính xác theo tuần (Reading / Listening)">
           <ResponsiveContainer width="100%" height={220}>
             <LineChart data={d.weekly}>
-              <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis dataKey="week" fontSize={11} /><YAxis domain={[0, 100]} unit="%" fontSize={11} /><Tooltip /><Legend />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis dataKey="week" fontSize={12} /><YAxis domain={[0, 100]} unit="%" fontSize={12} /><Tooltip /><Legend />
               <Line dataKey="reading" name="Reading" stroke={COLORS.reading} connectNulls strokeWidth={2} />
               <Line dataKey="listening" name="Listening" stroke={COLORS.listening} connectNulls strokeWidth={2} />
             </LineChart>
@@ -67,7 +67,7 @@ export function AnalyticsPage() {
         <Card title="Band AI ước tính theo tuần (Writing / Speaking)">
           <ResponsiveContainer width="100%" height={220}>
             <LineChart data={d.weekly}>
-              <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis dataKey="week" fontSize={11} /><YAxis domain={[4, 12]} fontSize={11} /><Tooltip /><Legend />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis dataKey="week" fontSize={12} /><YAxis domain={[4, 12]} fontSize={12} /><Tooltip /><Legend />
               <Line dataKey="writingBand" name="Writing" stroke={COLORS.writing} connectNulls strokeWidth={2} />
               <Line dataKey="speakingBand" name="Speaking" stroke={COLORS.speaking} connectNulls strokeWidth={2} />
             </LineChart>
@@ -79,7 +79,7 @@ export function AnalyticsPage() {
         <Card title="Độ chính xác theo dạng bài">
           <ResponsiveContainer width="100%" height={280}>
             <BarChart data={d.byTask} layout="vertical" margin={{ left: 30 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis type="number" domain={[0, 100]} unit="%" fontSize={11} /><YAxis type="category" dataKey="taskType" fontSize={11} width={30} />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis type="number" domain={[0, 100]} unit="%" fontSize={12} /><YAxis type="category" dataKey="taskType" fontSize={12} width={30} />
               <Tooltip formatter={(v, _n, p) => [`${v}% (${(p.payload as { attempts: number }).attempts} bài)`, (p.payload as { name: string }).name]} />
               <Bar dataKey="accuracy" fill="var(--accent)" />
             </BarChart>
@@ -88,7 +88,7 @@ export function AnalyticsPage() {
         <Card title="Độ chính xác theo độ khó">
           <ResponsiveContainer width="100%" height={280}>
             <BarChart data={d.byDifficulty}>
-              <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis dataKey="difficulty" fontSize={11} /><YAxis domain={[0, 100]} unit="%" fontSize={11} /><Tooltip /><Legend />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis dataKey="difficulty" fontSize={12} /><YAxis domain={[0, 100]} unit="%" fontSize={12} /><Tooltip /><Legend />
               <Bar dataKey="reading" name="Reading" fill={COLORS.reading} /><Bar dataKey="listening" name="Listening" fill={COLORS.listening} />
             </BarChart>
           </ResponsiveContainer>
@@ -98,7 +98,7 @@ export function AnalyticsPage() {
       <Card title="Thời gian học (30 ngày, phút)">
         <ResponsiveContainer width="100%" height={220}>
           <BarChart data={d.studyDaily}>
-            <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis dataKey="date" fontSize={10} /><YAxis fontSize={11} /><Tooltip /><Legend />
+            <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis dataKey="date" fontSize={12} /><YAxis fontSize={12} /><Tooltip /><Legend />
             {[...SKILLS, "vocab", "review"].map((k) => <Bar key={k} dataKey={k} stackId="a" name={k in SKILL_LABEL ? SKILL_LABEL[k as Skill] : k === "vocab" ? "Từ vựng" : "Ôn lỗi"} fill={COLORS[k]} />)}
           </BarChart>
         </ResponsiveContainer>
@@ -116,8 +116,8 @@ export function AnalyticsPage() {
         <Card title="Lỗi lặp lại nhiều nhất">
           {d.recurring.length === 0 ? <Empty>Chưa có dữ liệu.</Empty> : (
             <table className="table">
-              <thead><tr><th>Kỹ năng</th><th>Loại lỗi</th><th>Số lần</th><th>Chưa khắc phục</th></tr></thead>
-              <tbody>{d.recurring.map((r) => <tr key={`${r.skill}${r.category}`}><td>{SKILL_LABEL[r.skill]}</td><td>{CATEGORIES[r.skill][r.category] ?? r.category}</td><td>{r.count}</td><td>{r.unresolved}</td></tr>)}</tbody>
+              <thead><tr><th>Kỹ năng</th><th>Loại lỗi</th><th className="num">Số lần</th><th className="num">Chưa khắc phục</th></tr></thead>
+              <tbody>{d.recurring.map((r) => <tr key={`${r.skill}${r.category}`}><td>{SKILL_LABEL[r.skill]}</td><td>{CATEGORIES[r.skill][r.category] ?? r.category}</td><td className="num">{r.count}</td><td className="num">{r.unresolved}</td></tr>)}</tbody>
             </table>
           )}
           {d.traps.length > 0 && <p className="small">Bẫy hay mắc: {d.traps.slice(0, 3).map((t) => `${TRAPS[t.trap] ?? t.trap} (${t.count})`).join(" · ")}</p>}
@@ -128,7 +128,7 @@ export function AnalyticsPage() {
         {d.mocks.length === 0 ? <Empty>Chưa có bài thi thử hoàn thành.</Empty> : (
           <ResponsiveContainer width="100%" height={240}>
             <LineChart data={d.mocks}>
-              <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis dataKey="date" fontSize={11} /><YAxis domain={[3, 12]} fontSize={11} /><Tooltip /><Legend />
+              <CartesianGrid strokeDasharray="3 3" stroke="var(--line)" /><XAxis dataKey="date" fontSize={12} /><YAxis domain={[3, 12]} fontSize={12} /><Tooltip /><Legend />
               {SKILLS.map((s) => <Line key={s} dataKey={s} name={SKILL_LABEL[s]} stroke={COLORS[s]} strokeWidth={2} />)}
             </LineChart>
           </ResponsiveContainer>

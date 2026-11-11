@@ -140,7 +140,7 @@ function AudioTab() {
         <div className="row gap-s wrap">
           <label className="row gap-s small">Số đoạn tối đa lô này <input type="number" min={1} max={200} value={limit} onChange={(e) => setLimit(Number(e.target.value))} style={{ width: 80 }} /></label>
           <button className="btn primary" disabled={job?.running} onClick={async () => { setError(null); try { await post("/api/admin/audio/generate", { limit }); setTimeout(load, 800); } catch (e) { setError((e as Error).message); } }}><Icon name="play" /> Tạo audio còn thiếu</button>
-          {job?.running && <button className="btn" onClick={() => post("/api/admin/audio/stop").then(load)}>⏹ Dừng</button>}
+          {job?.running && <button className="btn" onClick={() => post("/api/admin/audio/stop").then(load)}><Icon name="square" /> Dừng</button>}
         </div>
         <ErrorBox error={error} />
         {job && (job.running || job.finishedAt) && (

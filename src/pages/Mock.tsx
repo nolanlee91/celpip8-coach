@@ -79,7 +79,7 @@ export function MockPage() {
           </table>
         )}
       </Card>
-      <h3>Lịch sử thi thử</h3>
+      <h2 className="section-title">Lịch sử thi thử</h2>
       {!list ? <Loading /> : list.length === 0 ? <Empty>Chưa có bài thi thử nào.</Empty> : list.map((m) => (
         <Card key={m.id} title={`${m.packageId ?? "Bài thi thử (cũ, do AI tạo)"} · ${m.createdAt.slice(0, 10)}`} actions={<Badge tone={m.status === "done" ? "good" : m.status === "failed" ? "bad" : "info"}>{m.status}</Badge>}>
           {(m.status === "ready" || m.status === "in_progress") && (
@@ -146,11 +146,11 @@ function MockReport({ id }: { id: string }) {
       {msg && <p className="small">{msg}</p>}
       {weak.length > 0 && (
         <>
-          <h4>Điểm yếu lộ ra trong bài thi</h4>
+          <h3 className="sub">Điểm yếu lộ ra trong bài thi</h3>
           <ul>{weak.map(([k, v]) => <li key={k}>{SKILL_LABEL[v.skill]} — {CATEGORIES[v.skill][k.split(":")[1]] ?? k}: {v.correct}/{v.total}</li>)}</ul>
         </>
       )}
-      <h4>Xem lại từng phần</h4>
+      <h3 className="sub">Xem lại từng phần</h3>
       <table className="table">
         <tbody>
           {data.attempts.map((a) => (

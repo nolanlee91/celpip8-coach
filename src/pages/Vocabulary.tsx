@@ -121,7 +121,7 @@ export function VocabularyPage() {
                   <strong className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm" aria-label="Phát âm"><Icon name="volume-2" /></button></strong>
                   {v.due ? <Badge tone="warn">đến hạn</Badge> : v.srs.interval >= 21 ? <Badge tone="good">đã thuộc</Badge> : <Badge>ôn {dayMonth(v.srs.due)}</Badge>}
                 </div>
-                {v.vi ? <div>🇻🇳 {v.vi}</div> : <div className="muted small">Chưa có nghĩa. Dùng “Bổ sung từ thư viện” ở trên.</div>}
+                {v.vi ? <div><span className="muted">Nghĩa:</span> {v.vi}</div> : <div className="muted small">Chưa có nghĩa. Dùng “Bổ sung từ thư viện” ở trên.</div>}
                 {v.definition && <div className="muted small">{v.definition}</div>}
                 {v.example && <div className="small"><em>{v.example}</em> <button className="icon-btn" onClick={() => say(v.example)} aria-label="Nghe phát âm"><Icon name="volume-2" /></button></div>}
                 {v.collocations.length > 0 && <div className="tiny"><strong>Collocations:</strong> {v.collocations.join(" · ")}</div>}
@@ -186,7 +186,7 @@ function VocabLibrary({ onAdded }: { onAdded: (n: number) => void }) {
                   <strong className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm" aria-label="Phát âm"><Icon name="volume-2" /></button></strong>
                   {v.inNotebook ? <Badge tone="good">trong sổ</Badge> : <button className="btn small" onClick={() => add([v.id])}>+ Sổ</button>}
                 </div>
-                <div>🇻🇳 {v.vi}</div>
+                <div><span className="muted">Nghĩa:</span> {v.vi}</div>
                 <div className="muted small">{v.definition}</div>
                 <div className="small"><em>{v.example}</em></div>
                 <div className="tiny"><strong>Collocations:</strong> {v.collocations.join(" · ")}</div>
@@ -245,7 +245,7 @@ function Review({ pool, queue, mode, onDone }: { pool: V[]; queue: V[]; mode: Re
   const answerBlock = (
     <div className="flash-back">
       <div className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} aria-label="Nghe phát âm"><Icon name="volume-2" /></button></div>
-      <div>🇻🇳 {v.vi}</div>
+      <div><span className="muted">Nghĩa:</span> {v.vi}</div>
       <div className="muted">{v.definition}</div>
       <div><em>{v.example}</em></div>
       {v.collocations.length > 0 && <div className="small">{v.collocations.join(" · ")}</div>}
@@ -290,7 +290,7 @@ function Review({ pool, queue, mode, onDone }: { pool: V[]; queue: V[]; mode: Re
         {kind === "fill" && (
           <>
             <p className="big-text">{canBlank ? blanked : v.definition}</p>
-            <p className="muted small">🇻🇳 {v.vi} — gõ từ/cụm từ còn thiếu:</p>
+            <p className="muted small">Nghĩa: {v.vi}. Gõ từ/cụm từ còn thiếu:</p>
             <form onSubmit={(e) => { e.preventDefault(); setRevealed(true); }} className="row gap-s">
               <input aria-label="Từ bạn vừa nghe" value={typed} onChange={(e) => setTyped(e.target.value)} disabled={revealed} autoFocus className="grow" />
               {!revealed && <button className="btn primary">Kiểm tra</button>}

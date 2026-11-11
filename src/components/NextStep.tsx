@@ -22,7 +22,7 @@ export function NextStep({ after, attemptId, mockId, refreshKey }: { after: "les
   if (!d) return null;
   return (
     <section className="next-step" aria-label="Bước tiếp theo">
-      <h3 className="next-step-title">{d.title}</h3>
+      <h2 className="next-step-title">{d.title}</h2>
       <p>{d.reasonVi}</p>
       {d.nextReviewVi && <p className="muted small">{d.nextReviewVi}</p>}
       <div className="row gap-s wrap">

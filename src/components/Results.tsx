@@ -38,7 +38,7 @@ export function WeaknessReport({ result, skill }: { result: ObjectiveResult; ski
       </div>
       <div className="grid-2">
         <div>
-          <h4>Theo loại câu hỏi</h4>
+          <h3 className="sub">Theo loại câu hỏi</h3>
           {report.rows.map((r) => (
             <div key={r.category} className="bar-row">
               <span>{r.label}</span>
@@ -48,7 +48,7 @@ export function WeaknessReport({ result, skill }: { result: ObjectiveResult; ski
           ))}
         </div>
         <div>
-          <h4>Bẫy bạn mắc phải</h4>
+          <h3 className="sub">Bẫy bạn mắc phải</h3>
           {report.traps.length === 0 ? <p className="muted">Không có.</p> : report.traps.map((t) => (
             <div key={t.trap} className="row between"><span>{t.label}</span><Badge tone="bad">{t.count}×</Badge></div>
           ))}

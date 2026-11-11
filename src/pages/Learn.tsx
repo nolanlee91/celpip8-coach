@@ -101,7 +101,7 @@ export function LearnPage() {
             ))}</ul>
           )}
           {data.improvements.length > 0 && <>
-            <h4>Tiến bộ gần đây</h4>
+            <h3 className="sub">Tiến bộ gần đây</h3>
             <ul className="plain">{data.improvements.map((t) => <li key={t}>{t}</li>)}</ul>
           </>}
         </Card>
@@ -150,8 +150,8 @@ export function LearnPage() {
         </Card>
         <Card title="Tính đều đặn (4 tuần)">
           <table className="table small">
-            <thead><tr><th>Tuần từ</th><th>Ngày học</th><th>Phút</th><th>Bài học</th><th>Lần ôn</th></tr></thead>
-            <tbody>{data.consistency.map((w) => <tr key={w.week}><td>{w.week}</td><td>{w.daysStudied}/7</td><td>{w.minutes}</td><td>{w.lessonsCompleted}</td><td>{w.reviews}</td></tr>)}</tbody>
+            <thead><tr><th>Tuần từ</th><th className="num">Ngày học</th><th className="num">Phút</th><th className="num">Bài học</th><th className="num">Lần ôn</th></tr></thead>
+            <tbody>{data.consistency.map((w) => <tr key={w.week}><td>{w.week}</td><td className="num">{w.daysStudied}/7</td><td className="num">{w.minutes}</td><td className="num">{w.lessonsCompleted}</td><td className="num">{w.reviews}</td></tr>)}</tbody>
           </table>
         </Card>
       </div>

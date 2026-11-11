@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
+import { Icon } from "./Icon";
 import { UNOFFICIAL_NOTICE } from "../../shared/spec";
 
 export function Card({ title, actions, children, className = "" }: { title?: ReactNode; actions?: ReactNode; children: ReactNode; className?: string }) {
@@ -6,7 +7,7 @@ export function Card({ title, actions, children, className = "" }: { title?: Rea
     <section className={`card ${className}`}>
       {(title || actions) && (
         <header className="card-head">
-          {title && <h3>{title}</h3>}
+          {title && <h2>{title}</h2>}
           {actions && <div className="row gap-s">{actions}</div>}
         </header>
       )}
@@ -97,7 +98,7 @@ export function useElapsed(running: boolean) {
 
 export function TimerPill({ seconds, warnAt = 60 }: { seconds: number; warnAt?: number }) {
   const s = Math.max(0, Math.round(seconds));
-  return <span className={`timer ${s <= warnAt ? "warn" : ""}`}>⏱ {Math.floor(s / 60)}:{String(s % 60).padStart(2, "0")}</span>;
+  return <span className={`timer ${s <= warnAt ? "warn" : ""}`}><Icon name="timer" size={15} /> {Math.floor(s / 60)}:{String(s % 60).padStart(2, "0")}</span>;
 }
 
 /** Minimal, safe Markdown renderer (bold, italics, code, lists, headings, paragraphs). */
@@ -114,7 +115,7 @@ export function Markdown({ text }: { text: string }) {
     if (bullet) { list.push(<li key={i}>{inline(bullet[1])}</li>); return; }
     flush();
     const head = line.match(/^#{1,4}\s+(.*)/);
-    if (head) out.push(<h4 key={i}>{inline(head[1])}</h4>);
+    if (head) out.push(<h3 className="sub" key={i}>{inline(head[1])}</h3>);
     else if (line.trim()) out.push(<p key={i}>{inline(line)}</p>);
   });
   flush();

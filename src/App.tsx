@@ -1,3 +1,5 @@
+import { lazy, Suspense } from "react";
+import { Loading } from "./components/ui";
 import { BrowserRouter, Link, NavLink, Route, Routes, useLocation } from "react-router-dom";
 import { TutorProvider, useTutor } from "./components/Tutor";
 import { useStatus } from "./components/Practice";
@@ -11,7 +13,8 @@ import { MistakesPage } from "./pages/Mistakes";
 import { VocabularyPage } from "./pages/Vocabulary";
 import { PlannerPage } from "./pages/Planner";
 import { MockPage } from "./pages/Mock";
-import { AnalyticsPage } from "./pages/Analytics";
+// Analytics carries the chart library; load it only when the page is opened.
+const AnalyticsPage = lazy(() => import("./pages/Analytics").then((m) => ({ default: m.AnalyticsPage })));
 import { SettingsPage } from "./pages/Settings";
 import { EvaluationPage, ReviewPage, SubmissionPage } from "./pages/Review";
 import { AdminPage } from "./pages/Admin";
@@ -90,6 +93,17 @@ function TopBar() {
   );
 }
 
+/** On desktop the tutor opens from the sidebar, so no floating button sits over the page's data. */
+function SidebarTutor() {
+  const tutor = useTutor();
+  return (
+    <button className="nav-link nav-tutor" onClick={tutor.open}>
+      <Icon name="message-circle" />
+      <span className="nav-label">Hỏi AI Tutor</span>
+    </button>
+  );
+}
+
 export function App() {
   const status = useStatus();
   return (
@@ -101,6 +115,7 @@ export function App() {
           <TopBar />
           <nav className="sidebar" aria-label="Điều hướng">
             <div className="brand">CELPIP <span>8</span> <small>Coach</small></div>
+            <SidebarTutor />
             {NAV.map((g) => (
               <div key={g.section}>
                 <div className="nav-section">{g.section}</div>
@@ -137,7 +152,7 @@ export function App() {
               <Route path="/mistakes" element={<MistakesPage />} />
               <Route path="/vocabulary" element={<VocabularyPage />} />
               <Route path="/mock" element={<MockPage />} />
-              <Route path="/analytics" element={<AnalyticsPage />} />
+              <Route path="/analytics" element={<Suspense fallback={<Loading />}><AnalyticsPage /></Suspense>} />
               <Route path="/settings" element={<SettingsPage />} />
               <Route path="/review/:id" element={<ReviewPage />} />
               <Route path="/evaluation/:id" element={<EvaluationPage />} />

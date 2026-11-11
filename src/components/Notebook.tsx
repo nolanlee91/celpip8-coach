@@ -112,7 +112,7 @@ export function NotePad({ id, title, heading = "Vở ghi", placeholder, rows = 8
   return (
     <section className="notepad" aria-label={heading}>
       <header className="notepad-head">
-        <h3><Icon name="notebook" /> {heading}</h3>
+        <h2><Icon name="notebook" /> {heading}</h2>
         <span className={`notepad-status ${state === "offline" ? "warn" : ""}`} role="status">{status}</span>
       </header>
       {text === null || loadedId !== id ? <div className="notepad-paper muted">Đang mở vở…</div> : (

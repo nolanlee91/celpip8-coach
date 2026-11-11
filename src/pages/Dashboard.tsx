@@ -173,12 +173,12 @@ export function DashboardPage() {
         <Card title="Tiến bộ và điểm còn yếu" actions={<Link to="/analytics" className="btn small ghost">Thống kê chi tiết</Link>}>
           <div className="grid-2 tight">
             <div>
-              <h4>Tiến bộ gần đây</h4>
+              <h3 className="sub">Tiến bộ gần đây</h3>
               {learning.improvements.length ? <ul className="plain">{learning.improvements.map((t) => <li key={t}>{t}</li>)}</ul>
                 : <p className="muted small">Chưa có thay đổi đủ lớn để ghi nhận.</p>}
             </div>
             <div>
-              <h4>Điểm còn giữ bạn dưới Level 8</h4>
+              <h3 className="sub">Điểm còn giữ bạn dưới Level 8</h3>
               <ul className="plain">{learning.blockers.slice(0, 3).map((b) => (
                 <li key={`${b.skill}-${b.label}`}>{b.textVi} {b.lessonId && <Link to={`/learn/${b.lessonId}`}>Học: {b.lessonTitle}</Link>}</li>
               ))}</ul>

@@ -123,7 +123,7 @@ blockquote { margin: 8px 0; padding: 8px 12px; border-left: 3px solid var(--warn
 .part-grid .card p { min-height: 3em; }
 .muted { color: var(--muted); }
 .small { font-size: 0.86rem; }
-.tiny { font-size: 0.75rem; }
+.tiny { font-size: 0.8rem; }
 .full { width: 100%; }
 .ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 380px; }
 .pre { white-space: pre-wrap; font-size: 0.85rem; background: var(--bg); padding: 10px; border-radius: 8px; }
@@ -379,7 +379,7 @@ table.diagram th { background: var(--bg); }
 .pick-reason.repeat { background: var(--warn-soft); }
 .ai-box { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; background: var(--bg); border: 1px dashed var(--line); border-radius: 10px; padding: 10px 12px; margin-top: 10px; }
 .ai-box p { margin: 4px 0 0; }
-.self-check h3 { margin-bottom: 6px; }
+.self-check h2, .self-check h3 { margin-bottom: 6px; }
 .hidden { display: none; }
 .bar-row.fixed { grid-template-columns: 180px minmax(80px, 1fr) minmax(0, 360px); }
 
@@ -501,7 +501,7 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); ou
 /* ---------- Surfaces ---------- */
 .card { border-radius: var(--radius); box-shadow: none; border-color: var(--line); padding: 18px 20px; }
 .card-head { margin-bottom: 14px; }
-.card-head h3 { font-size: 1.02rem; }
+.card-head h2, .card-head h3 { font-size: 1.02rem; margin: 0; }
 .card.highlight { box-shadow: none; border-color: var(--accent); }
 .stat { box-shadow: none; }
 .recommend { background: var(--panel-2); border: 1px solid var(--line); border-radius: var(--radius-s); font-weight: 400; }
@@ -722,7 +722,7 @@ details.more summary { cursor: pointer; color: var(--accent); font-size: 0.9rem;
 
 /* "What now?" at the end of an activity. */
 .next-step { background: var(--panel); border: 1px solid var(--line-strong); border-radius: var(--radius); padding: 18px 20px; display: flex; flex-direction: column; gap: 6px; }
-.next-step h3 { font-size: 1.1rem; }
+.next-step h2, .next-step h3 { font-size: 1.1rem; }
 .next-step p { margin: 0; }
 .next-step .row { margin-top: 8px; }
 
@@ -812,7 +812,7 @@ details.more summary { cursor: pointer; color: var(--accent); font-size: 0.9rem;
 /* ---------- Notebook ("vở ghi") ---------- */
 .notepad { display: flex; flex-direction: column; gap: 8px; }
 .notepad-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; }
-.notepad-head h3 { display: inline-flex; align-items: center; gap: 8px; margin: 0; }
+.notepad-head h2, .notepad-head h3 { display: inline-flex; align-items: center; gap: 8px; margin: 0; }
 .notepad-status { font-size: 0.8rem; color: var(--muted); }
 .notepad-status.warn { color: var(--warn); }
 /* Ruled paper: lines follow the text's line height so writing sits on them. */
@@ -885,3 +885,26 @@ h1, h2, h3 { text-wrap: balance; }
 @media (max-width: 760px) { @starting-style { .tutor-drawer { transform: translateY(16px); } } }
 /* Reduced motion removes movement, not feedback: a loader that stops spinning looks frozen. */
 @media (prefers-reduced-motion: reduce) { .spinner { animation: spin 1.6s linear infinite !important; } }
+
+/* ---------- App-screen review fixes ---------- */
+/* The tutor opens from the sidebar (desktop) or the top bar (phone); a floating pill covered the progress table. */
+.tutor-fab { display: none; }
+.nav-tutor { margin-bottom: 8px; width: 100%; border: none; background: none; font: inherit; text-align: left; cursor: pointer; }
+/* Skill icons sit plain in the skill's colour: a tinted square on every row read as a template. */
+.hub-icon, .hub-icon.done { background: none; width: 24px; height: 24px; }
+/* Counts inside the active lesson step follow the step's own text colour (muted grey on ink was 1.6:1). */
+.step.active .muted { color: inherit; opacity: 0.8; }
+/* Placeholders at readable contrast in both themes (the browser grey was 2.8:1 on the dark panel). */
+::placeholder { color: var(--muted); opacity: 1; }
+/* On a phone the tip text takes the full width and "Đã hiểu" drops under it, so the tip stays short. */
+@media (max-width: 760px) { .helptip > .grow { flex-basis: calc(100% - 32px); } .helptip > .btn { margin-top: -4px; } }
+/* Numbers in tables line up digit for digit. */
+.table .num { text-align: right; }
+/* The sidebar is taller than a laptop screen: it scrolls on its own instead of cutting off its last links. */
+.sidebar { overflow-y: auto; overscroll-behavior: contain; }
+/* Section headings directly under a page title are h2 but keep the quiet h3 look. */
+.notepad-head h2, .self-check h2, .section-title { font-size: 1.02rem; font-weight: 600; letter-spacing: -0.005em; margin: 0; }
+/* Recharts colours legend text with its series; a grey "official" series made its label unreadable. */
+.recharts-legend-item-text { color: var(--ink) !important; }
+/* Sub-headings inside a card (h3 under the card's h2) keep the small h4 look. */
+h3.sub { margin: 18px 0 6px; font-size: 0.95rem; font-weight: 600; }

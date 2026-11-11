@@ -1,3 +1,4 @@
+import { Icon } from "./Icon";
 import { useEffect, useRef, useState } from "react";
 import type { SpeakingPrompt } from "../../shared/types";
 import { SPEAKING_TASKS } from "../../shared/spec";
@@ -129,7 +130,7 @@ export function SpeakingRunner({ prompt, exam, onComplete }: { prompt: SpeakingP
         {phase === "speak" && (
           <div className="live">
             <div className="live-text">{finalText} <span className="muted">{interim}</span>{!finalText && !interim && <span className="muted">Hãy bắt đầu nói…</span>}</div>
-            {!exam && <button className="btn" onClick={() => void endSpeaking()}>⏹ Dừng sớm</button>}
+            {!exam && <button className="btn" onClick={() => void endSpeaking()}><Icon name="square" /> Dừng sớm</button>}
           </div>
         )}
         {micError && <div className="error-box small">{micError}</div>}

@@ -171,7 +171,7 @@ function ListeningSession({ set, mode, examLike, browserVoice, preferredVoice, b
             <Card title="Transcript (nghe lại từng câu)">
               {full.chunks.map((c, i) => (
                 <div key={i}>
-                  {full.chunks.length > 1 && <h4>Phần {i + 1}</h4>}
+                  {full.chunks.length > 1 && <h3 className="sub">Phần {i + 1}</h3>}
                   {full.audio?.ready
                     ? <AudioTranscript segments={c.segments} audio={full.audio.chunks[i]} evidence={c.questions.map((q) => q.evidence)} />
                     : <Transcript segments={c.segments} evidence={c.questions.map((q) => q.evidence)} preferredVoice={preferredVoice} />}

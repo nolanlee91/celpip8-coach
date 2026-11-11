@@ -95,7 +95,7 @@ export function SubmissionPanel({ submission, prompt, audioUrl, onRepeat, onEval
         {busy && <Loading text="Đang chờ Gemini (~20–60s)…" />}
       </Card>
       <div className="self-check card">
-        <h3>Tự kiểm tra nhanh (so với bài mẫu)</h3>
+        <h2>Tự kiểm tra nhanh (so với bài mẫu)</h2>
         <ul className="small">
           {prompt.kind === "writing" ? (
             <>
