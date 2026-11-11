@@ -9,7 +9,12 @@ import { loadVoices, speak, stopSpeaking } from "../lib/speech";
 // long-press on a phone) to see its meaning, hear it, and save it to the notebook together with the
 // sentence it came from. Other components can open it too: window.dispatchEvent(new CustomEvent("lookup", { detail })).
 
-interface Lookup { term: string; vi: string; definition: string; partOfSpeech: string; libraryExample?: string; from: "library" | "dictionary" | "ai" | "none"; inNotebook: boolean }
+interface Sense { partOfSpeech: string; definition: string }
+interface Part { term: string; ipa: string; vi: string; definition: string }
+interface Lookup {
+  term: string; ipa: string; vi: string; viDefinition?: string; definition: string; partOfSpeech: string;
+  senses: Sense[]; parts?: Part[]; libraryExample?: string; from: "library" | "dictionary" | "ai" | "none"; inNotebook: boolean;
+}
 interface Picked { term: string; context: string; x: number; y: number; bottom: number; source: string }
 export interface LookupRequest { term: string; context?: string; source?: string }
 
@@ -75,9 +80,10 @@ export function WordLookup() {
   const [data, setData] = useState<Lookup | null>(null);
   const [busy, setBusy] = useState<"look" | "ai" | "save" | null>(null);
   const [msg, setMsg] = useState<string | null>(null);
+  const [sentenceVi, setSentenceVi] = useState<string | null>(null);
   const card = useRef<HTMLDivElement>(null);
 
-  const close = useCallback(() => { setPicked(null); setOpen(false); setData(null); setMsg(null); }, []);
+  const close = useCallback(() => { setPicked(null); setOpen(false); setData(null); setMsg(null); setSentenceVi(null); }, []);
 
   const lookUp = useCallback(async (p: Picked, ai = false) => {
     setOpen(true); setBusy(ai ? "ai" : "look"); setMsg(null);
@@ -117,7 +123,7 @@ export function WordLookup() {
     const onLookup = (e: Event) => {
       const d = (e as CustomEvent<LookupRequest>).detail;
       const p = { term: d.term, context: d.context ?? "", x: window.innerWidth / 2, y: 120, bottom: 120, source: d.source ?? "lookup" };
-      setPicked(p); void lookUp(p);
+      setPicked(p); setSentenceVi(null); void lookUp(p);
     };
     window.addEventListener("lookup", onLookup);
     return () => window.removeEventListener("lookup", onLookup);
@@ -143,7 +149,9 @@ export function WordLookup() {
     if (!data) return;
     setBusy("save");
     try {
-      const r = await post<{ from: string }>("/api/vocab", { term: data.term, context: picked.context, source: picked.source, vi: data.vi, definition: data.definition });
+      const vi = data.vi || data.parts?.filter((p) => p.vi).map((p) => `${p.term}: ${p.vi}`).join("; ") || "";
+      const definition = data.definition || data.parts?.filter((p) => p.definition).map((p) => `${p.term}: ${p.definition}`).join(" ") || "";
+      const r = await post<{ from: string }>("/api/vocab", { term: data.term, context: picked.context, source: picked.source, vi, definition, ipa: data.ipa });
       setData({ ...data, inNotebook: true });
       setMsg(r.from === "notebook" ? "Từ này đã có trong sổ." : "Đã thêm vào sổ từ, kèm câu trong bài.");
     } catch (e) {
@@ -151,6 +159,16 @@ export function WordLookup() {
     } finally {
       setBusy(null);
     }
+  };
+
+  // A word of the phrase looked up on its own, in the same sentence.
+  const lookUpPart = (term: string) => { const p = { ...picked, term }; setPicked(p); void lookUp(p); };
+
+  const translateSentence = async (text: string) => {
+    setBusy("look");
+    try { setSentenceVi((await api<{ vi: string }>(`/api/translate?${new URLSearchParams({ text })}`)).vi); }
+    catch (e) { setMsg((e as Error).message); }
+    finally { setBusy(null); }
   };
 
   if (!open) {
@@ -171,6 +189,7 @@ export function WordLookup() {
       <div className="row between">
         <div className="row gap-s">
           <strong className="term big-ish">{data?.term ?? picked.term}</strong>
+          {data?.ipa && <span className="ipa">{data.ipa}</span>}
           <button className="icon-btn" aria-label="Nghe phát âm" title="Nghe phát âm" onClick={() => void say(data?.term ?? picked.term)}><Icon name="volume-2" /></button>
           {data?.partOfSpeech && <span className="muted small">{data.partOfSpeech}</span>}
         </div>
@@ -183,13 +202,44 @@ export function WordLookup() {
             ? <p className="muted small">Không tìm thấy nghĩa trong thư viện hay từ điển. Bạn vẫn có thể lưu từ này kèm câu trong bài.</p>
             : <>
                 {data.vi && <p className="word-vi">{data.vi}</p>}
-                {data.definition && <p className="small">{data.definition}</p>}
+                {data.viDefinition && <p className="small"><span className="muted">Giải nghĩa:</span> {data.viDefinition}</p>}
+                {data.definition && <p className="small muted">{data.definition}</p>}
+                {data.senses.length > 1 && (
+                  <details>
+                    <summary>Nghĩa khác trong từ điển ({data.senses.length - 1})</summary>
+                    <ol className="word-senses small">
+                      {data.senses.slice(1).map((s, i) => <li key={i}>{s.partOfSpeech && <span className="muted">{s.partOfSpeech.toLowerCase()} · </span>}{s.definition}</li>)}
+                    </ol>
+                  </details>
+                )}
+                {data.parts && data.parts.length > 0 && (
+                  <>
+                    {!data.vi && <p className="muted small">Cụm này không phải một mục trong từ điển, nên nghĩa được ghép từ từng từ. Bấm vào một từ để tra riêng, hoặc dịch cả câu bên dưới.</p>}
+                    <span className="muted tiny">Nghĩa từng từ</span>
+                    <ul className="word-parts">
+                      {data.parts.map((p) => (
+                        <li key={p.term}>
+                          <span className="row gap-s">
+                            <button className="link-btn" onClick={() => lookUpPart(p.term)}>{p.term}</button>
+                            {p.ipa && <span className="ipa">{p.ipa}</span>}
+                            <button className="icon-btn" aria-label={`Nghe ${p.term}`} title="Nghe phát âm" onClick={() => void say(p.term)}><Icon name="volume-2" /></button>
+                          </span>
+                          {p.vi && <span className="small">{p.vi}</span>}
+                          {p.definition && <span className="small muted">{p.definition}</span>}
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                )}
               </>}
           {example && (
             <div className="word-example">
               <span className="muted tiny">{picked.context ? "Câu trong bài" : "Câu mẫu"}</span>
               <p className="small"><em><Highlighted sentence={example} term={picked.term} /></em>
                 {" "}<button className="icon-btn" aria-label="Nghe câu" title="Nghe câu" onClick={() => void say(example)}><Icon name="volume-2" /></button></p>
+              {sentenceVi
+                ? <p className="small">{sentenceVi}</p>
+                : <button className="btn small ghost" disabled={busy !== null} onClick={() => void translateSentence(example)}><Icon name="languages" size={15} /> Dịch cả câu</button>}
             </div>
           )}
           {FROM_LABEL[data.from] && <p className="muted tiny">Nguồn: {FROM_LABEL[data.from]}</p>}

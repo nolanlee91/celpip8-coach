@@ -118,7 +118,7 @@ export function VocabularyPage() {
             {filtered.slice(0, 120).map((v) => (
               <div key={v.id} className="vocab-card">
                 <div className="row between">
-                  <strong className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm" aria-label="Phát âm"><Icon name="volume-2" /></button></strong>
+                  <strong className="term">{v.term} {v.ipa && <span className="ipa">{v.ipa}</span>} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm" aria-label="Phát âm"><Icon name="volume-2" /></button></strong>
                   {v.due ? <Badge tone="warn">đến hạn</Badge> : v.srs.interval >= 21 ? <Badge tone="good">đã thuộc</Badge> : <Badge>ôn {dayMonth(v.srs.due)}</Badge>}
                 </div>
                 {v.vi ? <div><span className="muted">Nghĩa:</span> {v.vi}</div> : <div className="muted small">Chưa có nghĩa. Dùng “Bổ sung từ thư viện” ở trên.</div>}
@@ -143,7 +143,7 @@ export function VocabularyPage() {
   );
 }
 
-interface LibEntry { id: string; term: string; vi: string; definition: string; example: string; collocations: string[]; synonyms: string[]; topic: string; difficulty: number; tasks: string[]; inNotebook: boolean }
+interface LibEntry { id: string; term: string; ipa?: string; vi: string; definition: string; example: string; collocations: string[]; synonyms: string[]; topic: string; difficulty: number; tasks: string[]; inNotebook: boolean }
 
 const ALL_TASKS = ["R1", "R2", "R3", "R4", "L1", "L2", "L3", "L4", "L5", "L6", "W1", "W2", "S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"];
 
@@ -183,7 +183,7 @@ function VocabLibrary({ onAdded }: { onAdded: (n: number) => void }) {
             {rows.slice(0, 120).map((v) => (
               <div key={v.id} className="vocab-card">
                 <div className="row between">
-                  <strong className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm" aria-label="Phát âm"><Icon name="volume-2" /></button></strong>
+                  <strong className="term">{v.term} {v.ipa && <span className="ipa">{v.ipa}</span>} <button className="icon-btn" onClick={() => say(v.term)} title="Phát âm" aria-label="Phát âm"><Icon name="volume-2" /></button></strong>
                   {v.inNotebook ? <Badge tone="good">trong sổ</Badge> : <button className="btn small" onClick={() => add([v.id])}>+ Sổ</button>}
                 </div>
                 <div><span className="muted">Nghĩa:</span> {v.vi}</div>
@@ -244,7 +244,7 @@ function Review({ pool, queue, mode, onDone }: { pool: V[]; queue: V[]; mode: Re
 
   const answerBlock = (
     <div className="flash-back">
-      <div className="term">{v.term} <button className="icon-btn" onClick={() => say(v.term)} aria-label="Nghe phát âm"><Icon name="volume-2" /></button></div>
+      <div className="term">{v.term} {v.ipa && <span className="ipa">{v.ipa}</span>} <button className="icon-btn" onClick={() => say(v.term)} aria-label="Nghe phát âm"><Icon name="volume-2" /></button></div>
       <div><span className="muted">Nghĩa:</span> {v.vi}</div>
       <div className="muted">{v.definition}</div>
       <div><em>{v.example}</em></div>
@@ -259,7 +259,7 @@ function Review({ pool, queue, mode, onDone }: { pool: V[]; queue: V[]; mode: Re
       <div className="flash">
         {kind === "flash" && (
           <>
-            <div className="term big">{v.term} <button className="icon-btn" onClick={() => say(v.term)} aria-label="Nghe phát âm"><Icon name="volume-2" /></button></div>
+            <div className="term big">{v.term} {v.ipa && <span className="ipa">{v.ipa}</span>} <button className="icon-btn" onClick={() => say(v.term)} aria-label="Nghe phát âm"><Icon name="volume-2" /></button></div>
             {!revealed ? <button className="btn primary" onClick={() => setRevealed(true)}>Lật thẻ</button> : (
               <>
                 {answerBlock}

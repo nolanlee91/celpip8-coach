@@ -185,6 +185,8 @@ export interface MistakeRecord {
 export interface VocabItem {
   id: string;
   term: string;
+  /** Pronunciation, e.g. "/ˈpeɪ.pɚ.wɝːk/"; filled from the bundled dictionary when absent. */
+  ipa?: string;
   vi: string;
   definition: string;
   example: string;

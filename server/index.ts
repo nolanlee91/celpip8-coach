@@ -18,7 +18,7 @@ import { afterPrimaryVi, buildLearningPlan, isNewLearner, primaryAction } from "
 import { curriculum, reloadCurriculum } from "./lessons";
 import { lessonAudioSet, readAloud, readAloudFile } from "./audio";
 import { translate } from "./translations";
-import { lookupDictionary } from "./lookup";
+import { ipaOf, lookupDictionary, translate as translateOnline } from "./lookup";
 import { createJob, decide, getJob, importApproved, listJobs, readDraft, runJob, type JobSkill } from "./pipeline";
 import { CATEGORIES, SKILLS, TRAPS, type Skill } from "../shared/spec";
 import { TOPIC_LABEL, type VocabEntry } from "../shared/content";
@@ -607,7 +607,7 @@ app.get("/api/weakness", h((_req, res) => {
 
 app.get("/api/vocab", (_req, res) => {
   const db = load();
-  res.json(db.vocab.map((v) => ({ ...v, due: isDue(v.srs) })));
+  res.json(db.vocab.map((v) => ({ ...v, ipa: v.ipa || ipaOf(v.term), due: isDue(v.srs) })));
 });
 
 /** Browse the curated vocabulary library. */
@@ -619,7 +619,7 @@ app.get("/api/vocab/library", h((req, res) => {
   const rows = library().vocab
     .filter((e) => (!q.topic || e.topic === q.topic) && (!q.difficulty || e.difficulty === Number(q.difficulty)) && (!q.task || e.tasks.includes(q.task)))
     .filter((e) => !search || e.term.toLowerCase().includes(search) || e.vi.toLowerCase().includes(search))
-    .map((e) => ({ ...e, inNotebook: inNotebook.has(e.term.toLowerCase()) }));
+    .map((e) => ({ ...e, ipa: ipaOf(e.term), inNotebook: inNotebook.has(e.term.toLowerCase()) }));
   res.json({ rows, total: library().vocab.length, topics: TOPIC_LABEL });
 }));
 
@@ -632,21 +632,31 @@ app.get("/api/vocab/lookup", h(async (req, res) => {
   const term = String(req.query.term ?? "").trim().slice(0, 80);
   if (!term) throw new AiError("Thiếu từ.", 400);
   const inNotebook = db.vocab.some((v) => v.term.toLowerCase() === term.toLowerCase());
+  const context = String(req.query.context ?? "").slice(0, 300);
   const bank = bankIndex().get(term.toLowerCase());
-  if (bank) return res.json({ term: bank.term, vi: bank.vi, definition: bank.definition, partOfSpeech: "", libraryExample: bank.example, from: "library", inNotebook });
+  if (bank) return res.json({ term: bank.term, ipa: ipaOf(bank.term), vi: bank.vi, definition: bank.definition, partOfSpeech: "", senses: [], libraryExample: bank.example, from: "library", inNotebook });
   if (req.query.ai === "1") {
-    const { items } = await enrichVocab([{ term, context: String(req.query.context ?? "") }]);
+    const [{ items }, d] = await Promise.all([enrichVocab([{ term, context }]), lookupDictionary(term, context)]);
     const e = items[0];
-    return res.json({ term, vi: e.vi, definition: e.definition, partOfSpeech: "", from: "ai", inNotebook });
+    return res.json({ term, ipa: d?.ipa ?? ipaOf(term), vi: e.vi, definition: e.definition, partOfSpeech: "", senses: [], parts: d?.parts, from: "ai", inNotebook });
   }
-  const d = await lookupDictionary(term);
-  res.json(d ? { ...d, from: "dictionary", inNotebook } : { term, vi: "", definition: "", partOfSpeech: "", from: "none", inNotebook });
+  const d = await lookupDictionary(term, context);
+  res.json(d ? { ...d, from: "dictionary", inNotebook } : { term, ipa: ipaOf(term), vi: "", definition: "", partOfSpeech: "", senses: [], from: "none", inNotebook });
+}));
+
+/** Vietnamese of the sentence a word came from, only when the learner asks for it (it uses the free daily quota). */
+app.get("/api/translate", h(async (req, res) => {
+  const text = String(req.query.text ?? "").trim().slice(0, 300);
+  if (!text) throw new AiError("Thiếu câu cần dịch.", 400);
+  const vi = await translateOnline(text);
+  if (!vi) throw new AiError("Chưa dịch được câu này (dịch vụ miễn phí đang bận hoặc hết lượt hôm nay). Thử lại sau.", 503);
+  res.json({ vi });
 }));
 
 /** Add one word: from the library when possible (no AI); AI lookup only when explicitly requested. */
 app.post("/api/vocab", h(async (req, res) => {
   const db = load();
-  let { term, context, source, useAi, vi, definition } = req.body as { term: string; context?: string; source?: string; useAi?: boolean; vi?: string; definition?: string };
+  let { term, context, source, useAi, vi, definition, ipa } = req.body as { term: string; context?: string; source?: string; useAi?: boolean; vi?: string; definition?: string; ipa?: string };
   if (!term?.trim()) throw new AiError("Thiếu từ.", 400);
   const t = term.trim();
   const existing = db.vocab.find((v) => v.term.toLowerCase() === t.toLowerCase());
@@ -662,11 +672,12 @@ app.post("/api/vocab", h(async (req, res) => {
     // Saved without AI: with the meaning the learner just looked up, or a free dictionary lookup now,
     // and the sentence it came from.
     if (!vi?.trim() && !definition?.trim()) {
-      const d = await lookupDictionary(t);
-      if (d) { vi = d.vi; definition = d.definition; }
+      const d = await lookupDictionary(t, context ?? "");
+      if (d) { vi = d.vi; definition = d.definition; ipa = d.ipa; }
     }
     const item: VocabItem = {
       id: uid("v"), term: t, vi: vi?.trim().slice(0, 200) ?? "", definition: definition?.trim().slice(0, 400) ?? "", example: context?.slice(0, 300) ?? "",
+      ...(ipa?.trim() ? { ipa: ipa.trim().slice(0, 80) } : {}),
       collocations: [], synonyms: [], celpipUsage: "",
       source: source ?? "manual", enriched: Boolean(vi?.trim()), srs: newSrs(), reviews: 0, correctReviews: 0, createdAt: now(),
     };

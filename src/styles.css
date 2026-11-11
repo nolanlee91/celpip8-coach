@@ -959,6 +959,13 @@ html { scroll-padding-top: 72px; }
 .word-card p { margin: 0; }
 .word-card .big-ish { font-size: 1.25rem; overflow-wrap: anywhere; }
 .word-vi { font-size: 1.05rem; font-weight: 600; }
+/* Pronunciation next to a word: lighter and in a font with full IPA coverage. */
+.ipa { font-weight: 400; font-size: 0.9em; color: var(--muted); font-family: "Segoe UI", "Lucida Sans Unicode", "Noto Sans", system-ui, sans-serif; white-space: nowrap; }
+.word-senses { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.word-card details summary { cursor: pointer; color: var(--muted); font-size: 0.85rem; }
+.word-parts { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.word-parts li { display: grid; gap: 2px; padding: 8px 10px; border: 1px solid var(--line); border-radius: var(--radius-s); }
+.link-btn { padding: 0; border: none; background: none; font: inherit; font-weight: 700; color: var(--accent); text-decoration: underline; text-underline-offset: 0.18em; text-decoration-thickness: 1px; cursor: pointer; }
 .word-example { background: var(--panel-2); border-radius: var(--radius-s); padding: 8px 10px; }
 .word-example strong { background: var(--mark-soft); border-radius: 3px; padding: 0 2px; }
 .word-card { transition: opacity 0.18s var(--ease-out), transform 0.18s var(--ease-out); }
